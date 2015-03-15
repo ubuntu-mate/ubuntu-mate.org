@@ -1,0 +1,90 @@
+/* No margin for social icon in navbar */
+.no-margin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.left {
+    margin-right: 10px;
+    float: left;
+}
+
+img.right {
+    margin-right: 10px;
+    float: right;
+}
+
+/* Fading for social icons */
+.social-icon {
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+
+.social-icon:hover {
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline; }
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+#banner-fade,
+#banner-slide{
+margin-bottom: 60px;
+}
+
+ul.bjqs-controls.v-centered li a{
+background:#eee;
+color:#87A556;
+text-decoration: none;
+
+display:block;
+margin-bottom: 0px;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 8px 12px;
+font-size: 14px;
+line-height: 1.42857;
+border-radius: 4px;
+-moz-user-select: none;
+}
+ul.bjqs-controls.v-centered li a:hover{
+background:#87A556;
+color:#fff;
+}
+ol.bjqs-markers li a{
+padding:5px 10px;
+background:#87A556;
+color:#fff;
+margin:5px;
+text-decoration: none;
+}
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+background: #DD4814;
+}
+p.bjqs-caption{
+background: rgba(255,255,255,0.5);
+}
