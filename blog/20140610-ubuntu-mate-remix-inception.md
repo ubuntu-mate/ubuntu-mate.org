@@ -13,7 +13,7 @@ I was interviewed on the [Ubuntu UK Podcast](http://podcast.ubuntu-uk.org)
 (UUPC) a few weeks back to talk about the [MATE Desktop](http://mate-desktop.org),
 a project I've been involved with for about a year now. 
 
-If you don't know what MATE is, here is the headline explaination:
+If you don't know what MATE is, here is the headline explanation:
 
   > *The MATE Desktop Environment is the continuation of GNOME 2. It provides
   an intuitive and attractive desktop environment using traditional metaphors
@@ -29,7 +29,7 @@ Following the interview on UUPC Alan Pope, one of the UUPC co-hosts, did some
 tinkering and made an Ubuntu 14.04 LiveCD that replaced Unity with MATE. He got
 my attention and the next day the Ubuntu MATE Remix project was established. We
 teased some screenshots on social media which were then reported via some of the
-online FLOSS media and postcasts.
+online FLOSS media and podcasts.
 
   * <http://news.softpedia.com/news/Ubuntu-MATE-Flavor-Could-Arrive-Soon-445509.shtml>
   * <http://www.phoronix.com/scan.php?page=news_item&px=MTcxMzM>
@@ -49,7 +49,7 @@ So, what the heck have we been doing since then?
   * Overcame bugs in Ubiqity 14.10.
   * Initial project planning and scoping.
   * Migrated builds to 14.10.
-  * Created protoptype ISOs (i386 and amd64) based on 14.10.
+  * Created prototype ISOs (i386 and amd64) based on 14.10.
   * Contacted other MATE on Ubuntu projects (past and present) and invited them to join our team.
   * Put the infrastructure in place to develop and collaborate on the project.
   * Joined the Debian packaging team for MATE and pushed some minor fixes to Debian that will flow to Ubuntu in due course.
