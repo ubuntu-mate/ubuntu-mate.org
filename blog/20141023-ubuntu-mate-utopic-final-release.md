@@ -46,7 +46,7 @@ things.
   * Full disk encryption, or rather entering your pass phrase into Plymouth,
   was properly fixed by the Ubuntu team. 
   * Fixed missing configuration options in the workspace switcher applet [LP #1382682](https://bugs.launchpad.net/ubuntu-mate/+bug/1382682)
-  * Fixed the live session not auto logging into the MATE desktop.
+  * Fixed the live session not auto-logging into the MATE desktop.
   * Added a background wall paper to Ubiquity.
 
 <div class="bs-component">

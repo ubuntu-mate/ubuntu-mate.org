@@ -17,7 +17,7 @@ also been fixed along the way and a few new ones have been introduced,
 
 ## What changed since Alpha2?
 
-Mostly Beta1 has been focused on adding artwork to give Ubuntu MATE it's
+Mostly Beta1 has been focused on adding artwork to give Ubuntu MATE its
 own identity but improvements have been made and some bugs have been
 fixed too.
 
@@ -28,7 +28,7 @@ fixed too.
   * Added Ambiant-MATE and Radiant-MATE desktop and icon themes.
   * Added Ubuntu MATE LightDM theme.
   * Added [OpenDyslexic](http://opendyslexic.org/) a font created to increase readability for readers with dyslexia.
-  * Added a screen magnifier for indiviuals with low vision.
+  * Added a screen magnifier for individuals with low vision.
   * Added patent-free S3TC compatible implementation that provides texture compression to Mesa.
   * Added service discovery on a local network via the mDNS/DNS-SD protocol suite.
   * Added `colord` to manage, install and generate accurate colour profiles.
@@ -83,7 +83,7 @@ Reboot, login, start a shell and clean up.
     sudo apt-get autoremove
     sudo apt-get autoclean
 
-Finally setup the default Ubuntu MATE appearance.
+Finally set up the default Ubuntu MATE appearance.
 
   * Go to `System -> Preferences -> Appearance` and select the 
   'Ambiant-MATE' theme. Click the `Backgrounds` tab and select the

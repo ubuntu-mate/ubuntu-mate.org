@@ -22,7 +22,7 @@ No, it is an Ubuntu community project.
 
 ## OK, so *who is* behind Ubuntu MATE?
 
-Take a look at [our team](/team/) page to see the all star cast who 
+Take a look at [our team](/team/) page to see the all-star cast who 
 have made Ubuntu MATE possible.
 
 ## Is Ubuntu MATE an official Ubuntu *"flavour"*?

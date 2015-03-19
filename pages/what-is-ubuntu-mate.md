@@ -23,7 +23,7 @@ Ubuntu MATE for new comers.
 world. Linux is at the heart of Ubuntu and makes it possible to create 
 secure, powerful and versatile operating systems, such as Ubuntu and 
 [Android](http://www.android.com/). Android is now in the hands of 
-billions of people around the world and also powered by Linux.
+billions of people around the world and it's also powered by Linux.
 
 Ubuntu is available in a number of different *"flavours"*, each coming 
 with its own desktop environment. Ubuntu MATE takes the Ubuntu base 
@@ -44,12 +44,12 @@ The MATE Desktop is one such implementation of a desktop environment
 and includes a file manager which can connect you to your local and 
 networked files, a text editor, calculator, archive manager, image 
 viewer, document viewer, system monitor and terminal. All of which are 
-highly customisable and managed via a control center.
+highly customisable and managed via a control centre.
 
 MATE Desktop provides an intuitive and attractive desktop environment 
 using traditional metaphors, which means if you've ever used
 [Microsoft Windows](http://www.microsoft.com) or [Apple Mac 
-OS](http://www.apple.com/) it will feel very familiar.
+OS](http://www.apple.com) it will feel very familiar.
 
 The MATE Desktop has a rich history and is the continuation of the 
 GNOME2 desktop, which was the default desktop environment on many Linux 
@@ -128,7 +128,7 @@ applications to turn your computer into a truly powerful workstation.
 
 Naturally you'll also find a firewall, backup application, 
 document/photo scanner and printer management all included in Ubuntu 
-MATE. And this is just the start. The [Ubuntu Software Center](http://apps.ubuntu.com)
+MATE. And this is just the start. The [Ubuntu Software Centre](http://apps.ubuntu.com)
 includes thousands of applications suitable for just about any
 professional or recreational pursuit.
 
@@ -139,13 +139,13 @@ professional or recreational pursuit.
 In the last couple of years Linux has become a first class gaming
 platform thanks to [Valve](http://www.valvesoftware.com/) bringing the
 [Steam](http://store.steampowered.com/) platform to Linux. At the time
-of writing Steam has close to 1000 high quality indie and AAA titles
+of writing Steam has more than 1000 high quality indie and AAA titles
 available for Linux. Ubuntu MATE is fully compatible with Steam for
 Linux.
 
 While Steam is a major step forward for gaming on Linux there are also 
 many high quality and enjoyable Open Source games titles available 
-for Ubuntu MATE via the Ubuntu Software Center. It doesn't matter if 
+for Ubuntu MATE via the Ubuntu Software Centre. It doesn't matter if 
 you like flight simulators, motor racing, first person shooters, jump
 and run or card games you'll find something to keep you entertained.
 

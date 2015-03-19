@@ -38,7 +38,7 @@ We are active on the following social networks.
 
 ## Announcements
 
-Get notifified about project developments as they happen.
+Get notified about project developments as they happen.
 
   * [Ubuntu MATE RSS Feed](http://ubuntu-mate.net/rss.xml) - News from this website, as it happens.
 

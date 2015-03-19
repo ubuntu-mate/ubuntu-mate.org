@@ -16,14 +16,14 @@ We did manage to make a good deal of progress. So, what did we achieve?
 ## Achievements unlocked
 
   * Development is now hosted on Launchpad - <http://launchpad.net/ubuntu-mate/>
-  * The Ubuntu MATE Remix .iso images are now built using seeds and germinate. 
+  * The Ubuntu MATE Remix .iso images are now built using seeds and germinate.
   While this is currently only possible using a meta package in
   [our PPA](https://launchpad.net/~ubuntu-mate-dev/+archive/ppa), this
   technique is consistent with the official Ubuntu flavour builds.
   * Fixed the Ambiance and Radiance themes to work with MATE 1.8.1.
   * The Ubuntu MATE Remix package selection is pretty much complete and offers
   a *"pure"* MATE desktop environment on top of Ubuntu. The testing .iso images do
-  not include anything of Unity, indicators or Comppiz by default. Wide hardware
+  not include anything of Unity, indicators or Compiz by default. Wide hardware
   support, including VirtualBox, has been integrated.
   * The application selections are mostly consistent with the default applications
   that shipped in Ubuntu 14.04 LTS.
@@ -43,4 +43,4 @@ These are the main issues we need to work on:
   * Testing, lots of testing. In particular hardware and printer compatibility.
 
 Is there anything you can help with or want to be involved in? If so please
-[get in touch](/community/).
+[get in touch](https://ubuntu-mate.community/).

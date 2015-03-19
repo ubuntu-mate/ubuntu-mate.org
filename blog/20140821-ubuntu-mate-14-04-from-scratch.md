@@ -75,7 +75,7 @@ USB as `/dev/sda` and the disk you are installing to as `/dev/sdb`. This is appa
 partitioning.
 
 When it's time for the installer to write the bootloader to a drive, it defaults to `/dev/sda`.
-Since `/dev/sda` is the USB stick, bad things will happend. So, select the **No** option that's offered
+Since `/dev/sda` is the USB stick, bad things will happen. So, select the **No** option that's offered
 at that point and manually identify where the bootloader should actually go, very likely `/dev/sdb`.
 
   * Set the system time to UTC or local time.
@@ -111,7 +111,7 @@ When the install is complete some post-install configuration is *required*.
 During the `mini.iso` install a user account was created, which is
 missing a couple of files that make Network Manager work and 
 correct the default icons for LibreOffice. Therefore these Ubuntu MATE
-configuration files need manually overlaying.
+configuration files need to be manually overlayed.
 
     rsync -av /etc/skel/.config/ ~/.config/
     rsync -av /etc/skel/.local/ ~/.local/
@@ -143,7 +143,7 @@ additional packages.
 
 ## All done!
 
-You can now reboot into your shinny new Ubuntu MATE 14.04.
+You can now reboot into your shiny new Ubuntu MATE 14.04.
 
 #### References
 

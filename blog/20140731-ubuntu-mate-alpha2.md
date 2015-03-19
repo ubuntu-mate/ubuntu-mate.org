@@ -30,7 +30,7 @@ work. Notice the heavy use of *"should*", YMMV.
 
 ## What changed since Alpha1?
 
-  * Added support for booting EFI computers. [LP #1337604](https://bugs.launchpad.net/ubuntu-mate/+bug/1337604)
+  * Added support for booting UEFI computers. [LP #1337604](https://bugs.launchpad.net/ubuntu-mate/+bug/1337604)
   * Added *"out of the box"* accessibility for blind or visually impaired individuals. [LP #1337824](https://bugs.launchpad.net/ubuntu-mate/+bug/1337824)
   * Added `language-selector-gnome` as per [community request](https://plus.google.com/104108115467526996500/posts/5gmt5y4893m).
   * Added `ubuntu-mate-settings` package to provide sane defaults.
@@ -49,17 +49,17 @@ work. Notice the heavy use of *"should*", YMMV.
   * Improved font rendering.
   * Removed `remmina` as per community [Remmina poll](https://plus.google.com/103917631499285627130/posts/gFv4xRH16P8).
   * Removed `caja-image-converter`.
-  * Removed `caja-share`. [LP #1342206](https://bugs.launchpad.net/ubuntu-mate/+bug/1342206)
+  * Removed `caja-share`. [LP #1342206](https://bugs.launchpad.net/ubuntu-mate/+bug/1342206).
   * Removed `mate-user-share`.
 
 ## Known Issues
 
-Ubuntu MATE 14.10 is currently an alpha distribution and we are aware of the following issues.
+Ubuntu MATE 14.10 is currently an alpha distribution and we are aware of the following issues:
 
   * Upgrading from Ubuntu MATE Alpha1 using `apt-get` is not supported.
     * We Recommend that you install a clean Alpha2.
-  * Most Shotwell online publising plugins do not work. [LP #1314904 ](https://bugs.launchpad.net/ubuntu/+source/shotwell/+bug/1314904)
-    * This can be resolved by installing `unity-control-center-signon` but doing so installs a number of Unity packages which add duplicate functionality to the MATE control center.
+  * Most Shotwell online publishing plugins do not work. [LP #1314904 ](https://bugs.launchpad.net/ubuntu/+source/shotwell/+bug/1314904)
+    * This can be resolved by installing `unity-control-center-signon` but doing so installs a number of Unity packages which add duplicate functionality to the MATE Control Centre.
 
 ### Reporting issues
 

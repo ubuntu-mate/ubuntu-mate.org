@@ -37,7 +37,7 @@ commissioned approximately 50,000 DVDs that will include the 32 bit
 version of Ubuntu MATE 14.10.
 
 I encourage our German members to buy the LinuxWelt 2015-01 edition and
-for the rest of you reshare this blog post to help repay the support
+for the rest of you re-share this blog post to help repay the support
 LinuxWelt have shown the Ubuntu MATE project. That said, earlier this 
 evening I got another email from David Wolski with more good news. David
 has negotiated with [IDG](http://www.idg.com/) (his publisher) to

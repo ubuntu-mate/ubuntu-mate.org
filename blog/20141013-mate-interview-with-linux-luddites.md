@@ -21,6 +21,6 @@ website and give it a listen.
   * [Linux Luddites Episode #26](http://linuxluddites.com/shows/episode-26/)
 
 If you've not listened to the Linux Luddites before then you should checkout
-their back catalog. It has been one of my favourite FLOSS podcasts for some
+their back catalogue. It has been one of my favourite FLOSS podcasts for some
 months now that blends good discussion and insight with useful distro reviews
 and first impressions. 

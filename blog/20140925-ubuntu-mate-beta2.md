@@ -26,7 +26,7 @@ MATE is stable. You may, or may not, agree.
 Beta2 has been focused on fixing broken things and improving what was 
 already present in Beta1.
 
-  * Released community contributed [Ubuntu MATE Identy graphics from Goce Mitevski](https://github.com/gocemitevski/ubuntu-mate-identity-graphics).
+  * Released community contributed [Ubuntu MATE Identity graphics from Goce Mitevski](https://github.com/gocemitevski/ubuntu-mate-identity-graphics).
   * Added community contributed [GRUB2 theme from Ivan Pejić](https://github.com/nadrimajstor/grub2-themes-ubuntu-mate).
   * Added `gnome-system-tools` due to community feedback requesting user and time management facilities. [LP #1367772](https://bugs.launchpad.net/ubuntu-mate/+bug/1367772)  
   * Added indicators to Ubiquity that enable access to assistive features and basic system configuration.
@@ -45,9 +45,9 @@ already present in Beta1.
   * Fixed video corruption in the Ubiquity installer.
   * Fixed activation of the default sound theme.
   * Fixed speaker test sounds in the Sound preferences.
-  * Merged Ubuntu MATE specific PolicyKit desktop priviledges upstream. [MERGE #230610](https://code.launchpad.net/~ubuntu-mate-dev/ubuntu/utopic/policykit-desktop-privileges/mate-fixes/+merge/230610)
+  * Merged Ubuntu MATE specific PolicyKit desktop privileges upstream. [MERGE #230610](https://code.launchpad.net/~ubuntu-mate-dev/ubuntu/utopic/policykit-desktop-privileges/mate-fixes/+merge/230610)
   * Removed `virtualbox-guest-x11` from the Live session.
-  * Removed [wubi](https://wiki.ubuntu.com/WubiGuide) from the Ubuntu MATE iso image.
+  * Removed [wubi](https://wiki.ubuntu.com/WubiGuide) from the Ubuntu MATE .iso image.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -78,7 +78,7 @@ Complete the upgrade.
 
 Remove some obsolete packages.
 
-    sudo apt-get remove ubuntu-mate-desktop-policy-priviledges
+    sudo apt-get remove ubuntu-mate-desktop-policy-privileges
     
 Remove an erroneous apt configuration that has existed since Alpha1.
 

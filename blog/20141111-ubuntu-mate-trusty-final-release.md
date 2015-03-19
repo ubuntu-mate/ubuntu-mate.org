@@ -17,7 +17,7 @@ release and adds some additional features.
 
 I'd just like to take this opportunity to thank the following people
 for helping create this release of Ubuntu MATE. These are the
-shoulders upon which I stand, the underlined names are those who've
+shoulders upon which I stand; the underlined names are those who've
 helped with adding new features since the 14.10 release:
 
 **Stefano Karapetsas, <u>Alan Pope</u>, Sam Hewitt, <u>Sander Sweers</u>, <u>Mike Gabriel</u>,

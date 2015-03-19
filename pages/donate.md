@@ -33,10 +33,10 @@ new features or fixing bugs and to help subsidise the travel expenses of team
 members to represent [MATE Desktop](http://mate-desktop.org) and Ubuntu MATE
 at FLOSS conferences. If we have sufficient surplus funds we will also donate
 to other Open Source projects that Ubuntu MATE depends upon and should we find
-ourselves in that fotunate position we will use our new shiny Discourse
+ourselves in that fortunate position we will use our new shiny Discourse
 community to vote for the worthy beneficiaries.
 
-We have setup a number of payment options that should hopefully suit everyone.
+We have set up a number of payment options that should hopefully suit everyone.
 Go on, be brilliant, help grow our community.
 
 ## Patreon

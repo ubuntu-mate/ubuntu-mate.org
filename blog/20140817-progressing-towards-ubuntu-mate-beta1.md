@@ -28,7 +28,7 @@ result of our initial communication with the Ubuntu Technical Board.
   * [MATE for Trusty](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate)
 
 popey attended an Ubuntu Technical Board meeting in early August to find
-out what our next steps should be. During this meeting it was estalished
+out what our next steps should be. During this meeting it was established
 that the Ubuntu Technical Board are supportive of Ubuntu MATE and the
 [Ubuntu MATE team needs to complete some formalities](https://lists.ubuntu.com/archives/technical-board/2014-August/001989.html)
 before we can progress our request. The Ubuntu MATE team will complete
@@ -82,8 +82,7 @@ information to assist in their resolution.
 
 Do you have an nVidia graphics card and dual screens? If so, could you
 please install Ubuntu MATE, install the proprietary nVidia driver,
-install Chrome or Chromium and see if you can reproduce the issue reported
-below.
+install Chrome or Chromium and see if you can reproduce the issue reported below.
 
   * [minimize chrome or chromium](https://bugs.launchpad.net/ubuntu-mate/+bug/1354826)
 
@@ -103,7 +102,7 @@ slides. [If this is something you could help with, then please let us know](/com
 Ubuntu MATE will come with two new themes, Ambiant-MATE (derived from Ambiance)
 and Radiant-MATE (derived from Radiance). I am considering replacing the
 folder icons in these new themes with ones that use MATE green (`#87A752`)
-as the base color for the folders. I have reached out to the
+as the base colour for the folders. I have reached out to the
 [RAVEfinity](http://www.ravefinity.com/) project and they are willing to
 help the Ubuntu MATE team. I would like to off-load the task of
 collaborating with RAVEfinity to someone in the Ubuntu MATE community.
@@ -116,7 +115,7 @@ Ubuntu MATE final release. We need people actually using Ubuntu MATE in
 order to uncover potential problems so we can fix them *before* the
 final release.
 
-Please install Ubuntu MATE, either in a VM or on real hardware and use
+Please install Ubuntu MATE, either in a Virtual Machine (VM) or on real hardware and use
 it as much as possible. If you spot any issues please report them on the
 Ubuntu MATE bug tracker. 
 

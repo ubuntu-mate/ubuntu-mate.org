@@ -30,7 +30,7 @@ to other Open Source projects that Ubuntu MATE depends upon and should we find
 ourselves in that fortunate position we will use our new shiny Discourse
 community to vote for the worthy beneficiaries.
 
-We have setup a number of payment options that should hopefully suit everyone.
+We have set up a number of payment options that should hopefully suit everyone.
 Go on, be brilliant, help grow our community.
 
 <div class="bs-component">

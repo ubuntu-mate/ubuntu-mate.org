@@ -22,7 +22,7 @@ MATE is stable. You may, or may not, agree.
 
 ## What changed since Beta2?
 
-This release candiate has been focused on fixing broken things and
+This release candidate has been focused on fixing broken things and
 improving what was already present in Beta2.
 
   * Fixed full disk encryption, or rather entering your pass phrase into Plymouth.
@@ -80,7 +80,7 @@ Although Ubuntu MATE includes fixes for Plymouth (full disk encryption
 and boot logo display) these are not official Ubuntu patches and
 currently specific to Ubuntu MATE. If Ubuntu update the Plymouth packages
 without fixing these issues then you may experience regressions in
-Ubuntu MATE which, if you're using full disk encrytion, could *"brick"*
+Ubuntu MATE which, if you're using full disk encryption, could *"brick"*
 your system.
 
 So, while we've *"fixed"* full disk encryption we still don't recommend
