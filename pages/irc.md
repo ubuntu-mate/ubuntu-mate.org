@@ -14,4 +14,5 @@ This IRC web client is pre-configured so you can jump into our `#ubuntu-mate` ch
 real lives too. If you have a question, do ask. **However, it may take a while for someone
 to reply. Just be patient and don't disconnect right away.**
 
-<iframe src="https://kiwiirc.com/client/chat.freenode.net/?nick=mate|?#ubuntu-mate" style="border:0; width:100%; height:500px;"></iframe>
+<iframe src="https://kiwiirc.com/client/chat.freenode.net:+6697/?nick=mate%7C?#ubuntu-mate" style="border:0; width:100%; height:500px;"></iframe>
+             

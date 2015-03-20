@@ -42,7 +42,7 @@ Here is what changed since Ubuntu MATE 15.04 Beta 1:
     [#1428275](https://launchpad.net/bugs/1428275), [#1430045](https://launchpad.net/bugs/1430045),
     [#1430204](https://launchpad.net/bugs/1430204), [#1430210](https://launchpad.net/bugs/1430210),
     [#1431349](https://launchpad.net/bugs/1431349), [#1432439](https://launchpad.net/bugs/1432439)
-    [#1432235](https://launchpad.net/bugs/1432235)
+    [#1432235](https://launchpad.net/bugs/1432235), [#1419321](https://launchpad.net/bugs/1419321)
   * Added some community contributed wallpapers from [Ghost Sixtyseven](https://ubuntu-mate.community/t/three-wallpapers-for-consideration/449).
   * Added MATE Menu to Ubuntu MATE and also uploaded it to the official Ubuntu archive.
   * Added MATE Tweak to Ubuntu MATE and also uploaded it to the official Ubuntu archive.
