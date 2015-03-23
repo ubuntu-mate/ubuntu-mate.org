@@ -9,7 +9,7 @@
 .. author: Martin Wimpress
 -->
 
-This short video introduces Interface Switching which is integrated into Ubuntu MATE 15.04 via MATE Tweak.
+This short video introduces Interface Switching which is integrated into Ubuntu MATE 15.04 and is available in the MATE Tweak utility.
 
 <div align="center">
 <iframe width="640" height="360" src="//www.youtube.com/embed/jxFMtOl_DyQ" frameborder="0" allowfullscreen></iframe>

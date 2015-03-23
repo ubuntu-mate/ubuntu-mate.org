@@ -10,7 +10,7 @@
 -->
 
 Last week I joined Rob, Scott and Joe on [mintCast](http://www.mintcast.org/)
-episode 220. I had a great time and was invitied to participate as a guest 
+episode 220. I had a great time and was invited to participate as a guest 
 throughout the whole show. The main feature was Ubuntu MATE where I talked
 about how the project got started, how official Ubuntu status affects the
 project and how the Ubuntu MATE and Linux Mint teams are collaborating.

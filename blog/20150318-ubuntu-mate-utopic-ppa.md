@@ -18,7 +18,7 @@ that were shipped on the Ubuntu MATE 14.10 iso images.
 
 This PPA now includes the current MATE 1.8 packages and all the bugs that have
 been fixed by the MATE package maintainer for Debian. In order to get your
-updates, no futher action is required.
+updates, no further action is required.
 
 ### Ubuntu MATE 14.10 - Optional
 
