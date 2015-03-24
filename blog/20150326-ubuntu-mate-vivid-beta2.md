@@ -79,14 +79,12 @@ It is not all good news however. Here are the known issues.
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
   * Virtualbox guests may only get a resolution of 640x480
     * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/), see [comment #13](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/comments/13) for a work around.
-  * Running an Ubuntu MATE live session as a Virtualbox guest may corrupt the video
-  output of the guest.
+  * Running an Ubuntu MATE live session as a Virtualbox guest may corrupt the video output of the guest.
     * You can correct the video display by pressing `Host+F1` to switch
     VT in the guest and then press `Host+F7` to switch back which will
     correct the video output.
 
-You'll also want to check the Ubuntu MATE bug tracker to see what has already
-been reported. These issues will be addressed in due course.
+You'll also want to check the Ubuntu MATE bug tracker to see what has already been reported. These issues will be addressed in due course.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 
