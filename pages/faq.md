@@ -34,7 +34,7 @@ have made Ubuntu MATE possible.
 
 We have, although it is not an official build. You can get it here:
 
-  * [Ubuntu MATE 14.04.1 LTS](https://ubuntu-mate.org/trusty/)
+  * [Ubuntu MATE 14.04.2 LTS](https://ubuntu-mate.org/trusty/)
 
 We have also posted [a HOW-TO for installing your own Ubuntu MATE 14.04 from scratch](/blog/2014-08-ubuntu-mate-14-04-from-scratch/).
 

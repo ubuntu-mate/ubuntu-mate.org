@@ -3,8 +3,8 @@
 if [ "$(basename ${0})" == "trusty.sh" ]; then
     MODE="trusty"
     PAGE="trusty"
-    ANN_URL="\/blog\/ubuntu-mate-trusty-final-release\/"
-    ANN_TITLE="Ubuntu MATE 14.04.1"
+    ANN_URL="\/blog\/ubuntu-mate-trusty-14.04.2-release\/"
+    ANN_TITLE="Ubuntu MATE 14.04.2"
 elif [ "$(basename ${0})" == "utopic.sh" ]; then
     MODE="utopic"
     PAGE="utopic"

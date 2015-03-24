@@ -41,14 +41,17 @@ Here is what changed since Ubuntu MATE 15.04 Beta 1:
     [#1427704](https://launchpad.net/bugs/1427704), [#1428131](https://launchpad.net/bugs/1428131),
     [#1428275](https://launchpad.net/bugs/1428275), [#1430045](https://launchpad.net/bugs/1430045),
     [#1430204](https://launchpad.net/bugs/1430204), [#1430210](https://launchpad.net/bugs/1430210),
-    [#1431349](https://launchpad.net/bugs/1431349), [#1432439](https://launchpad.net/bugs/1432439)
-    [#1432235](https://launchpad.net/bugs/1432235), [#1419321](https://launchpad.net/bugs/1419321)
+    [#1431349](https://launchpad.net/bugs/1431349), [#1432439](https://launchpad.net/bugs/1432439),
+    [#1432235](https://launchpad.net/bugs/1432235), [#1419321](https://launchpad.net/bugs/1419321),
+    [#1426664](https://launchpad.net/bugs/1426664), [#1428273](https://launchpad.net/bugs/1428273)
   * Added some community contributed wallpapers from [Ghost Sixtyseven](https://ubuntu-mate.community/t/three-wallpapers-for-consideration/449).
   * Added MATE Menu to Ubuntu MATE and also uploaded it to the official Ubuntu archive.
   * Added MATE Tweak to Ubuntu MATE and also uploaded it to the official Ubuntu archive.
     * Compiz only presented as an option if the video device driver has the required features.
   * Enabled Qt accessibility modules when a MATE session is detected.
   * Enabled `systemd` as the default init system. [LP: #1427654](https://bugs.launchpad.net/ubuntu/+source/ubuntu-meta/+bug/1427654).
+  * Updated [Folder Color](http://foldercolor.tuxfamily.org/) to 0.0.60 and Folder Color Caja to 0.0.62.
+    * Now allows folder colours to be changed gloablly.
   * Updated Yuyo, Ambiant-MATE, Radiant-MATE themes to override symbolic icons with full colour icons.
   * Updated MATE specific autostart files and configuration so they do not conflict with other desktop environments. (LP: #1426862)
   * Updated available languages.

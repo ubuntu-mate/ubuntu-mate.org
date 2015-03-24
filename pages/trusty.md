@@ -1,5 +1,5 @@
 <!-- 
-.. title: Download Ubuntu MATE 14.04.1
+.. title: Download Ubuntu MATE 14.04.2
 .. slug: trusty
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE,trusty,14.04,download,LTS
