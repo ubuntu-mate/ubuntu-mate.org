@@ -25,9 +25,9 @@ from this image. The image can be burned to a DVD, mounted as an ISO
 file, or be directly written to a USB stick using a utility like `dd` 
 or `ddrescue` (from the `gddrescue` package), for example:
 
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-beta1-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-beta1-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-beta1-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.04-beta2-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.04-beta2-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.04-beta2-desktop-powerpc.iso /dev/sdx
 
 If you want to make a bootable USB with Windows try
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
@@ -43,7 +43,7 @@ Ubuntu MATE is currently available for three architectures.
         <a class="list-group-item active">PC (Intel x86)</a>
         <p class="list-group-item">For almost all PCs. This includes most machines with Intel/AMD/etc type processors and almost all computers that run Microsoft Windows, as well as newer Apple Macintosh systems based on Intel processors. Choose this if you are at all unsure.</p>
         <p class="list-group-item">Size : 1.1 GB</p>
-        <a class="list-group-item" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-1/ubuntu-mate-15.04-beta1-desktop-i386.iso.torrent"><strong>Torrent : <u>ubuntu-mate-15.04-beta1-desktop-i386.iso</u></strong></a>
+        <a class="list-group-item" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-2/ubuntu-mate-15.04-beta2-desktop-i386.iso.torrent"><strong>Torrent : <u>ubuntu-mate-15.04-beta2-desktop-i386.iso</u></strong></a>
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@ Ubuntu MATE is currently available for three architectures.
         <a class="list-group-item active">64-bit PC (AMD64)</a>
         <p class="list-group-item">Choose this to take full advantage of computers based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2). If you have a non-64-bit processor made by AMD, or if you need full support for 32-bit code, use the Intel x86 images instead.</p>
         <p class="list-group-item">Size : 1.1 GB</p>
-        <a class="list-group-item" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-1/ubuntu-mate-15.04-beta1-desktop-amd64.iso.torrent"><strong>Torrent : <u>ubuntu-mate-15.04-beta1-desktop-amd64.iso</u></strong></a>
+        <a class="list-group-item" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-2/ubuntu-mate-15.04-beta2-desktop-amd64.iso.torrent"><strong>Torrent : <u>ubuntu-mate-15.04-beta2-desktop-amd64.iso</u></strong></a>
       </div>
     </div>
   </div>
@@ -94,8 +94,8 @@ Ubuntu MATE is currently available for three architectures.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.04 Beta1</p>
-        <a href="/blog/ubuntu-mate-vivid-beta1/" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 15.04 Beta2</p>
+        <a href="/blog/ubuntu-mate-vivid-beta2/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
@@ -105,12 +105,12 @@ Ubuntu MATE is currently available for three architectures.
 In addition to the recommended BitTorrent downloads above, the .iso
 images can also be downloaded via HTTP.
 
-  * [Ubuntu MATE 15.04 Beta 1 for i386](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-1/ubuntu-mate-15.04-beta1-desktop-i386.iso)
-  * [Ubuntu MATE 15.04 Beta 1 for amd64](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-1/ubuntu-mate-15.04-beta1-desktop-amd64.iso)
-  * [Ubuntu MATE 15.04 Beta 1 for PowerPC](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-1/ubuntu-mate-15.04-beta1-desktop-powerpc.iso)
+  * [Ubuntu MATE 15.04 Beta 2 for i386](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-2/ubuntu-mate-15.04-beta2-desktop-i386.iso)
+  * [Ubuntu MATE 15.04 Beta 2 for amd64](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-2/ubuntu-mate-15.04-beta2-desktop-amd64.iso)
+  * [Ubuntu MATE 15.04 Beta 2 for PowerPC](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-2/ubuntu-mate-15.04-beta2-desktop-powerpc.iso)
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-1/MD5SUMS)
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/beta-2/MD5SUMS)
 matches.
 
 <div class="bs-component">
