@@ -9,11 +9,10 @@
 .. author: Martin Wimpress
 -->
 
-Many thanks to everyone who donated to the Ubuntu MATE community this
-month. You have been generous as always and ensured that we can meet all
-the costs associated with running the Ubuntu MATE project and the 
-community site. In fact, this month we are able to reward some other
-projects that Ubuntu MATE benefits from.
+Many thanks to everyone who donated to the Ubuntu MATE community this month. You
+have been generous as always and ensured that we can meet all the costs
+associated with running the Ubuntu MATE project and the community site. In fact,
+this month we are able to reward some other projects that Ubuntu MATE benefits from.
 
 ## How will these donations be spent?
 
@@ -24,14 +23,13 @@ These donations will be used to pay for:
   * Purchase Raspberry Pi 2 to help with developing Ubuntu MATE 15.10 for Raspberry Pi 2.
   * Purchase ODROID C1 to help with developing Ubuntu MATE 15.10 for ODROID C1.
 
-Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu
-family, and therefore new Ubuntu MATE releases are distrubuted via the
-Canonical mirror network, we are still serving ~900 downloads of Ubuntu
-MATE 14.04 and 14.10 per day from our servers. Given that we have committed
-to support Ubuntu MATE 14.04 until 2019 these donations are much
-appreciated and help cover the bandwdith costs are delivering the
-downloads and fund the deveopment servers when we need to prepare new
-.iso image for Ubuntu MATE 14.04.
+Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu family,
+and therefore new Ubuntu MATE releases are distrubuted via the Canonical mirror
+network, we are still serving ~900 downloads of Ubuntu MATE 14.04 and 14.10 per
+day from our servers. Given that we have committed to support Ubuntu MATE 14.04
+until 2019 these donations are much appreciated and help cover the bandwidth
+costs and fund the development servers when we need to prepare new .iso images
+for Ubuntu MATE 14.04.
 
 **Thank you!**
 
