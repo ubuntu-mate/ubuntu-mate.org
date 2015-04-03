@@ -35,6 +35,8 @@ Here is what changed since Ubuntu MATE 15.04 Beta 2:
     * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/).
   * Fixed corrupt Korean fonts in Ubiquity.
     * [LP: #1437961](https://bugs.launchpad.net/ubuntu-mate/+bug/1437961).
+  * Fixed OEM Config.
+    * [LP :#1436937](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436937)
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -58,8 +60,6 @@ affect every Ubuntu flavour.
     * The workaround is to open a shell and `sudo apt-get install virtualbox-guest-x11`.
   * You may not be able to enter your pass phrase if you use full disk encryption.
     * [LP: #1386005](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1386005)
-  * OEM Config is broken.
-    * [LP :#1436937](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436937)
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
