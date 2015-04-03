@@ -33,10 +33,12 @@ Here is what changed since Ubuntu MATE 15.04 Beta 2:
 
   * Fixed Virtualbox guests only getting a resolution of 640x480
     * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/).
-  * Fixed corrupt Korean fonts in Ubiquity.
-    * [LP: #1437961](https://bugs.launchpad.net/ubuntu-mate/+bug/1437961).
+  * Fixed installing the Virtualbox drivers via the Additional Hardware utility.
+    * [LP: #1434579](https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/1434579)
   * Fixed OEM Config.
     * [LP :#1436937](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436937)
+  * Fixed corrupt Korean fonts in Ubiquity.
+    * [LP: #1437961](https://bugs.launchpad.net/ubuntu-mate/+bug/1437961).
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -55,9 +57,6 @@ affect every Ubuntu flavour.
   * Once installation has finished, and the final Restart button is pressed, the screen freezes and becomes unresponsive. Pressing Enter which would normally do the reboot does nothing.
     * The computer will require a manual power off or reset after the disc has been ejected.
     * [LP: 1436816](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436816)
-  * It is not possible to install the Virtualbox drivers via the Additional Hardware application.
-    * [LP: #1434579](https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/1434579)
-    * The workaround is to open a shell and `sudo apt-get install virtualbox-guest-x11`.
   * You may not be able to enter your pass phrase if you use full disk encryption.
     * [LP: #1386005](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1386005)
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
