@@ -20,7 +20,7 @@
 
 The Ubuntu MATE .iso image allows you to try Ubuntu MATE without 
 changing your computer at all, and at your option to install it 
-permanently later. You will need at least 512MiB of RAM to install 
+permanently later. You will need at least 512MB of RAM to install 
 from this image. The image can be burned to a DVD, mounted as an ISO 
 file, or be directly written to a USB stick using a utility like `dd` 
 or `ddrescue` (from the `gddrescue` package), for example:

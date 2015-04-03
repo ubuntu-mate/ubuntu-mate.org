@@ -17,7 +17,7 @@ It is important to state quite clearly **Ubuntu MATE 14.04.2 is not an
 official Ubuntu flavour!** Although we now have official status for 15.04,
 it is not retroactive. Ubuntu MATE 14.04 will always be an unofficial build.
 
-We would have preferred that this release was made on Februaty 20th when the
+We would have preferred that this release was made on February 20th when the
 official flavours shipped 14.04.2. However, we were in the middle of some time
 critical activities to ensure Ubuntu MATE 15.04 official status, so decided to
 let 14.04.2 slip until we had time to finish it. We hope you understand.
@@ -36,7 +36,7 @@ we found many issues with the Xorg HWE stack, such as Virtualbox Guest Additions
 and the Ubuntu SDK not being compatible. These issues are not specific to Ubuntu
 MATE.
 
-The upside of maintaining an unofficial Ubuntu deriative is that we can roll
+The upside of maintaining an unofficial Ubuntu derivative is that we can roll
 out new features and package updates. So we did, most notably LibreOffice
 4.4.1.2.
 
@@ -60,7 +60,7 @@ He is what we've changed.
   * Updated the built-in languages.
     * `en` `es` `pt` `bn` `fr` `hi` `ja` `zh-hans`
   * Added [LightDM GTK Greeter Settings](https://launchpad.net/lightdm-gtk-greeter-settings) 1.10. Thanks to [Sean M. Davis](http://smdavis.us)
-  * Fixed sound themes. Thanks to [Sergio Schneider](https://plus.google.com/116549967007914384885/about) of the [Ubunt MATE Updated project](http://sourceforge.net/projects/uumate/)
+  * Fixed sound themes. Thanks to [Sergio Schneider](https://plus.google.com/116549967007914384885/about) of the [Ubuntu MATE Updated project](http://sourceforge.net/projects/uumate/)
   * Fixed auto-login on first boot if auto-login was selected during the install.
   * Enabled X zapping via `Ctrl+Alt+Backspace`. 
   * Enabled touch to click by default for touchpads.
