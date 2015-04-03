@@ -151,9 +151,9 @@ Our primary mirror in the United States is provided by [Sourceforge](http://www.
 Ubuntu MATE is [available from Sourceforge have mirror sites around the
 world](http://sourceforge.net/projects/ubuntu-mate/files/).
 
-  * [ISO_32_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.1/i386/ISO_32_FILE)
-  * [ISO_64_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.1/amd64/ISO_64_FILE)
-  * [ISO_MAC_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.1/amd64+mac/ISO_MAC_FILE)
+  * [ISO_32_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/i386/ISO_32_FILE)
+  * [ISO_64_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/amd64/ISO_64_FILE)
+  * [ISO_MAC_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/amd64+mac/ISO_MAC_FILE)
 
 Our secondary mirror in the United States is generously sponsored by
 community member [CharleyB](https://ubuntu-mate.community/users/charleyb/activity)
