@@ -17,7 +17,7 @@ for making Ubuntu MATE a thing. If you'd like to get involved
 The idiots who thought Ubuntu MATE would be a good idea.
 
   * [Martin Wimpress](http://flexion.org) Project co-founder. [MATE Desktop](http://mate-desktop.org) developer and Ubuntu MATE project lead.
-  * [Alan Pope](http://popey.com) Project co-founder. [Canonical](http://www.canonical.com) and [Ubuntu](http://www.ubuntu.com) liason. Enthusiam co-ordinator.
+  * [Alan Pope](http://popey.com) Project co-founder. [Canonical](http://www.canonical.com) and [Ubuntu](http://www.ubuntu.com) liaison. Enthusiam co-ordinator.
 
 ## Developers
 
@@ -26,6 +26,7 @@ develop and test Ubuntu MATE.
 
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
   * [Sander Sweers](https://github.com/infirit/) Developer of [MATE Desktop](http://mate-desktop.org) and magician of everything.
+  * [Vlad Orlav](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
 
 ## Maintainers
 
@@ -49,9 +50,10 @@ The art department and creators of beautiful things.
 
 ## Architecture porters
 
-These fine people are bring Ubuntu MATE to other hardware platforms.
+These fine people are bringing Ubuntu MATE to other hardware platforms.
 
-  * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Ubuntu MATE PowerPC maintainer.
+  * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Ubuntu MATE for PowerPC creator.
+  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Ubuntu MATE for Raspberry Pi 2 creator.
 
 ## Communications
 
