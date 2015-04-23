@@ -9,36 +9,91 @@
 .. author: Martin Wimpress
 -->
 
-Ubuntu MATE 15.04 is now available for official download. This
-release builds on Ubuntu MATE Beta 2 and fixes some bugs.
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Achievement Unlocked!</h1>
+        <p>If you didn't already know, Ubuntu MATE is now an official member of the Ubuntu family.</p>
+        <p><img class="centered" src="/Ubuntu-MATE-Remix.png" alt="Ubuntu MATE" /></p>
+    </div>
+</div>
+
+Ubuntu MATE 15.04 is now available for download. This release builds
+on Ubuntu MATE Beta 2 and mostly fixes bugs.
 
 As usual preparing this release of Ubuntu MATE has been a team effort.
-Special thanks to [Mike Gabriel](https://alioth.debian.org/users/sunweaver/),
-[Vlad Orlov](https://github.com/monsta) and [Stefano Karapetsas](https://github.com/stefano-k)
-for putting in a great deal of effort triaging bugs, doing code reviews and
-creating new upstream MATE Desktop 1.8.x point releases. Thanks guys!
-
-Thanks also to [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl),
-[Colin Watson](https://launchpad.net/~cjwatson), [Adam Conrad](https://launchpad.net/~adconrad)
-and [Daniel Holbach](https://launchpad.net/~dholbach) for their patience and 
-guidance that has helped fix and improve Ubuntu MATE.
+Thanks to [Mike Gabriel](https://alioth.debian.org/users/sunweaver/),
+[Vlad Orlov](https://github.com/monsta), [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl),
+[Martin Pitt](https://launchpad.net/~pitti), [Adam Conrad](https://launchpad.net/~adconrad)
+and [Daniel Holbach](https://launchpad.net/~dholbach). Thanks guys!
 
 ## What works?
 
 People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
+## Ubuntu MATE 15.04 new features
+
+Here is a run down of some of the new features in Ubuntu MATE 15.04
+compared to Ubuntu MATE 14.10:
+
+  * Ubuntu MATE 15.04 is an official Ubuntu flavour.
+  * Established a hardware partnership with [Entroware](https://www.entroware.com).
+  * Added PowerPC and [Raspberry Pi 2](https://ubuntu-mate.community/t/ubuntu-mate-15-04-for-raspberry-pi-2/517) as supported hardware architectures.
+  * Added a new default theme called [Yuyo](https://github.com/snwh/yuyo-gtk-theme).
+  * Added [user interface switching](https://youtu.be/YI4IWO_SpiI) to MATE Tweak.
+  * Added [fully integrated Compiz support](https://youtu.be/k_nk02XELi4).
+  * Added [Tilda pull-down terminal](https://youtu.be/_woWvmHl3Rc).
+  * Added [Folder Color](https://youtu.be/ZrSVepoNuJk).
+  * Added [LightDM GTK Greeter Settings](https://launchpad.net/lightdm-gtk-greeter-settings)
+  * Added categories to the system menus.
+  * Added new community contributed desktop backgrounds.
+  * Updated to MATE Desktop 1.8.2
+  * Updated GTK 3.x themes to use full colour icons, like their GTK 2.x counter parts.
+  * Updated all themes to offer improved Client Side Decoration (CSD) support.
+  * Replaced Totem with VLC.
+  * Replaced Cheese with guvcview.
+  * Replaced `upstart` with `systemd`.
+  * ...and many other minor improvements and bug fixes.
+
+You can find the official Ubuntu release note here:
+
+  * https://wiki.ubuntu.com/VividVervet/ReleaseNotes
+
 ## What changed since the Ubuntu MATE 15.04 Beta 2 release?
 
 Here is what changed since Ubuntu MATE 15.04 Beta 2:
 
-  * Fixed Virtualbox guests only getting a resolution of 640x480
-    * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/).
-  * Fixed installing the Virtualbox drivers via the Additional Hardware utility.
-    * [LP: #1434579](https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/1434579)
-  * Fixed OEM Config.
+  * Updated Rhythmbox to 3.1
+  * Updated Plank to 0.9.0
+  * Updated `ubuntu-mate-artwork` to 0.4.7 which adds improved Client Side Decoration (CSD) support.
+  * Fixed OEM install mode.
     * [LP :#1436937](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436937)
+  * Fixed Virtualbox guests only getting a resolution of 640x480.
+    * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/).
+  * Fixed restarting the computer from the live session and upon completion of an install.
+    * [LP: 1436816](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436816)
+    * Virtualbox guests still require a manual power off. [LP: #1447038](https://bugs.launchpad.net/bugs/1447038).
+  * Fixed installing the Virtualbox X.org drivers via the Additional Hardware utility.
+    * [LP: #1434579](https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/1434579)
   * Fixed corrupt Korean fonts in Ubiquity.
     * [LP: #1437961](https://bugs.launchpad.net/ubuntu-mate/+bug/1437961).
+  * Fixed missing translations and incorrect window decorations when enabling Compiz in MATE Tweak.
+    * [LP: #1433562](https://bugs.launchpad.net/ubuntu-mate/+bug/1433562).
+    * [LP: #1441072](https://bugs.launchpad.net/ubuntu-mate/+bug/1441072).
+  * Fixed auto-mounting devices formatted with exFat and connected via USB.
+    * [LP: #1441728](https://bugs.launchpad.net/ubuntu-mate/+bug/1441728).
+  * Fixed missing swap when using home directory encryption.
+    * [LP: #953875](https://bugs.launchpad.net/ubuntu/+source/ecryptfs-utils/+bug/953875)
+  * Fixed `mate-terminal.wrapper` so that home directory encryption passphrase can be recovered.
+    * [LP: #1445198](https://bugs.launchpad.net/ubuntu-mate/+bug/1445198)
+  * Fixed assorted MATE bugs in Debian that have been synced with Ubuntu.
+    * [#781951](https://bugs.debian.org/781951).
+    * [#780580](https://bugs.debian.org/780580).
+    * [#781303](https://bugs.debian.org/781303).
+    * [#781247](https://bugs.debian.org/781247).
+    * [#781246](https://bugs.debian.org/781246).
+    * [#780844](https://bugs.debian.org/780844).
+    * [#782194](https://bugs.debian.org/782194).
+    * [#782189](https://bugs.debian.org/782189).
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -54,11 +109,10 @@ Here is what changed since Ubuntu MATE 15.04 Beta 2:
 It is not all good news however. Here are the known issues. All of which
 affect every Ubuntu flavour.
 
-  * Once installation has finished, and the final Restart button is pressed, the screen freezes and becomes unresponsive. Pressing Enter which would normally do the reboot does nothing.
-    * The computer will require a manual power off or reset after the disc has been ejected.
-    * [LP: 1436816](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436816)
   * You may not be able to enter your pass phrase if you use full disk encryption.
     * [LP: #1386005](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1386005)
+  * Shutdown/Restart of the live session does not work in Virtualbox guest.
+    * [LP: #1447038](https://bugs.launchpad.net/bugs/1447038)
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
