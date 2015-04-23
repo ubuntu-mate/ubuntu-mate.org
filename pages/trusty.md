@@ -186,6 +186,17 @@ for sponsoring the hosting and bandwidth for the Ubuntu MATE download.
     </div>
 </div>
 
+## Raspberry Pi 2
+
+<div align="center">
+  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
+  <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
+</div>
+<br />
+
+We are also delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
+You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+
 ## Useful Information
 
 You may find the following information useful, which is why we titled 
