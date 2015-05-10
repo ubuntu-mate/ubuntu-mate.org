@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 15.04 Final Release
 .. slug: ubuntu-mate-vivid-final-release
-.. date: 2015-04-23 23:23:23 UTC
-.. tags: Ubuntu,MATE,Vivid,draft
+.. date: 2015-04-23 15:23:23 UTC
+.. tags: Ubuntu,MATE,Vivid,Press Kit
 .. link:
 .. description:
 .. type: text
@@ -24,7 +24,8 @@ As usual preparing this release of Ubuntu MATE has been a team effort.
 Thanks to [Mike Gabriel](https://alioth.debian.org/users/sunweaver/),
 [Vlad Orlov](https://github.com/monsta), [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl),
 [Martin Pitt](https://launchpad.net/~pitti), [Adam Conrad](https://launchpad.net/~adconrad)
-and [Daniel Holbach](https://launchpad.net/~dholbach). Thanks guys!
+and [Daniel Holbach](https://launchpad.net/~dholbach) for helping get the Ubuntu
+MATE 15.04 release out the door. Thanks guys!
 
 ## What works?
 
@@ -37,7 +38,7 @@ compared to Ubuntu MATE 14.10:
 
   * Ubuntu MATE 15.04 is an official Ubuntu flavour.
   * Established a hardware partnership with [Entroware](https://www.entroware.com).
-  * Added PowerPC and [Raspberry Pi 2](https://ubuntu-mate.community/t/ubuntu-mate-15-04-for-raspberry-pi-2/517) as supported hardware architectures.
+  * Added PowerPC and [Raspberry Pi 2](/raspberry-pi/) as supported hardware architectures.
   * Added a new default theme called [Yuyo](https://github.com/snwh/yuyo-gtk-theme).
   * Added [user interface switching](https://youtu.be/YI4IWO_SpiI) to MATE Tweak.
   * Added [fully integrated Compiz support](https://youtu.be/k_nk02XELi4).
@@ -46,7 +47,10 @@ compared to Ubuntu MATE 14.10:
   * Added [LightDM GTK Greeter Settings](https://launchpad.net/lightdm-gtk-greeter-settings)
   * Added categories to the system menus.
   * Added new community contributed desktop backgrounds.
-  * Updated to MATE Desktop 1.8.2
+  * Updated to Linux 3.19
+  * Updated to MATE Desktop 1.8.2.
+  * Updated to Firefox 37.
+  * Updated to LibreOffice 4.4.
   * Updated GTK 3.x themes to use full colour icons, like their GTK 2.x counter parts.
   * Updated all themes to offer improved Client Side Decoration (CSD) support.
   * Replaced Totem with VLC.
@@ -123,9 +127,8 @@ You'll also want to check the Ubuntu MATE bug tracker to see what has already be
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
-the section *Useful Information* since the information presented here
-is mostly useful.
+You may find the following information useful, which is why we titled the section
+*Useful Information* since the information presented here is mostly useful.
 
   * [Ubuntu MATE 15.04 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
 
@@ -134,3 +137,12 @@ is mostly useful.
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Ubuntu MATE 15.04 Press Kit</h1>
+        <p>If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful.</p>
+        <a href="/ubuntu-mate-1504-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
+        </p>
+    </div>
+</div>
