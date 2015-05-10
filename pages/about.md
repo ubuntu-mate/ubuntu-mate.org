@@ -20,7 +20,7 @@ requirements it is suitable for modern workstations and older hardware alike.
 </div>
 
 <div align="center">
-<iframe width="480" height="360" src="//www.youtube.com/embed/mpYiCcurS34?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/Q84IuAjJ9og?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Objectives
@@ -31,11 +31,10 @@ Ubuntu MATE has a number of guiding objectives and goals.
   * Increase both Ubuntu and MATE Desktop user adoption.
   * Ubuntu alternative for computers that aren't powerful enough to run a composited desktop.
   * First choice Ubuntu platform for remote workstation solutions such as [LTSP](http://www.ltsp.org/) and [X2Go](http://x2go.org).
-  * Restore the halcyon days of Ubuntu before [Unity](https://unity.ubuntu.com/) was introduced.
+  * Recreate the halcyon days of Ubuntu for users who prefer a traditional desktop metaphor.
   * Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar.
   * When possible contribute to [Debian](http://www.debian.org) so both the Debian and Ubuntu communities benefit.
   * Package selection will favour functionality and stability over lightness and whimsy.
-  * Provide a refuge for Linux users who prefer a traditional desktop metaphor.
   * Get adopted as an official Ubuntu *"flavour"*.
 
 ## Frequently Asked Questions

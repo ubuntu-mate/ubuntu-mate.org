@@ -256,6 +256,17 @@ touch to discuss your requirements.
   </div>
 </div>
 
+# Summary of donations
+
+We post an overview of how the donations were used each month.
+
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-november-2014-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-december-2014-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-january-2015-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-february-2015-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-march-2015-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/>
+
 <script type="text/javascript">
   function validateMonthlyForm() {
     var n = document.forms["monthly"]["other"].value;
