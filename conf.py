@@ -97,7 +97,7 @@ NAVIGATION_LINKS = {
         ("/about/", "About"),
 	("/blog/", "Blog"),
 	("https://ubuntu-mate.community", "Community"),        
-	("/utopic/", "Download"),
+	("/vivid/", "Download"),
         ("/faq/", "FAQ"),
 	("/team/", "Team"),
         ("/donate/", "Donate"),
@@ -278,7 +278,7 @@ ARCHIVE_FILENAME = "index.html"
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
 ("longterm/index.html", "/trusty/index.html"),
-("download/index.html", "/utopic/index.html"),
+("download/index.html", "/vivid/index.html"),
 ]
 
 # Commands to execute to deploy. Can be anything, for example,
@@ -289,10 +289,10 @@ REDIRECTIONS = [
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
 	'rsync -av --delete /tmp/ubuntu-mate.org/output/ www/',
-        'scripts/pre-release.sh',
         'scripts/trusty.sh',
         'scripts/utopic.sh',
-        'scripts/minify.sh',
+        'scripts/minify.sh'
+        #'scripts/pre-release.sh',
 ]
 
 # For user.github.io/organization.github.io pages, the DEPLOY branch
