@@ -2,15 +2,15 @@
 .. title: Ubuntu MATE for the Raspberry Pi 2
 .. slug: raspberry-pi
 .. date: 2015-04-21 23:01:09 UTC
-.. tags: Ubuntu,MATE,Raspberry Pi,download
+.. tags: Ubuntu,MATE,Raspberry Pi,download,armhf
 .. link: https://ubuntu-mate.community/t/ubuntu-mate-15-04-for-raspberry-pi-2/517
 .. description: Ubuntu MATE 15.04 for the Raspberry Pi 2
 .. type: text
 .. author: Martin Wimpress
 -->
 
-Rohith Madhavan has made an Ubuntu MATE 15.04 image for the Raspberry Pi 2
-which you can download or build yourself.
+Rohith Madhavan and Martin Wimpress have made an Ubuntu MATE 15.04 image
+for the Raspberry Pi 2 which you can download or build yourself.
 
 The image is functional and based on the regular Ubuntu `armhf` base, and
 not the new Snappy Core, which means that the installation procedure for
@@ -28,8 +28,10 @@ system can be resized to occupy the unallocated space of the microSD card,
 similar to Raspbian.
 
 **NOTE! There are no predefined user accounts**. The first time you boot the
-Ubuntu MATE 15.04 image it will run through a setup wizard where you can
-create your own user account and configure your regional settings.
+Ubuntu MATE image it will run through a setup wizard where you can create your
+own user account and configure your regional settings. The first boot is quite 
+slow, but once the first boot configuration is complete subsequent boots are
+much quicker.
 
 <div align="center">
   <img src="/gallery/Screenshots/ubuntu-mate-1504-raspberry-pi-2-screenshot.png" /></a><br />
@@ -57,7 +59,7 @@ A pre-built image is also available.
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
           <legend>Download tip</legend>
-          <p>If everyone who downloaded Ubuntu MATE donated $2 it would
+          <p>If everyone who downloaded Ubuntu MATE donated $2.50 it would
           fund the full-time development of Ubuntu MATE <i>and</i> MATE
           Desktop. Please give us a tip and help the projects flourish!</p>
           <p>If you'd <a href="/donate/">like to donate more or become an Ubuntu MATE patron</a>
@@ -65,7 +67,7 @@ A pre-built image is also available.
           <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
           <div class="form-group">
             <div class="col-lg-6">
-              <button type="submit" class="btn btn-primary">Tip us $2</button>
+              <button type="submit" class="btn btn-primary">Tip us $2.50</button>
             </div>
           </div>
         </fieldset>
@@ -75,7 +77,7 @@ A pre-built image is also available.
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
-        <input type="hidden" name="amount" value="2">
+        <input type="hidden" name="amount" value="2.50">
         <input type="hidden" name="currency_code" value="USD">
         <input type="hidden" name="src" value="1">
         <input type="hidden" name="sra" value="1">
@@ -85,6 +87,9 @@ A pre-built image is also available.
     </div>
   </div>
 </div>
+
+Ubuntu MATE for the Raspberry Pi 2 is [available from Sourceforge mirror sites
+around the world](http://sourceforge.net/projects/ubuntu-mate/files/15.04/armhf/).
 
 Download the image and then:
 
@@ -101,7 +106,7 @@ check.
 
 ## Build
 
-*NOTE!* Currently these scripts will only run on an `armhf` device.
+**NOTE!** Currently these scripts will only run on an `armhf` device.
 
   * <https://bitbucket.org/ubuntu-mate/ubuntu-mate-rpi2>
 
@@ -251,6 +256,14 @@ questions. Please [come and talk to us](/community/).
     * <https://www.raspberrypi.org/forums/viewtopic.php?t=47832&p=403191>
   * <https://www.raspberrypi.org/documentation/configuration/config-txt.md>
   * [Peter Chubb. "SD cards and filesystems for embedded systems". Linux.conf.au.](http://mirror.linux.org.au/pub/linux.conf.au/2015/Case_Room_2/Friday/SD_Cards_and_filesystems_for_Embedded_Systems.webm)
+
+## Other ARMv7 based devices
+
+We'd love to see Ubuntu MATE images other ARMv7 based devices. Please take
+a look at our generic armhf Ubuntu MATE root file system and build scripts.
+
+  * <https://ubuntu-mate.org/armhf-rootfs/>
+  * <https://bitbucket.org/ubuntu-mate/ubuntu-mate-armhf>
 
 <script>
   // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/

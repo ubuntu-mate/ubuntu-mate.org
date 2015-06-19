@@ -84,7 +84,7 @@ Ubuntu MATE is currently available for two architectures.
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
           <legend>Download tip</legend>
-          <p>If everyone who downloaded Ubuntu MATE donated $2 it would
+          <p>If everyone who downloaded Ubuntu MATE donated $2.50 it would
           fund the full-time development of Ubuntu MATE <i>and</i> MATE
           Desktop. Please give us a tip and help the projects flourish!</p>
           <p>If you'd <a href="/donate/">like to donate more or become an Ubuntu MATE patron</a>
@@ -92,7 +92,7 @@ Ubuntu MATE is currently available for two architectures.
           <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
           <div class="form-group">
             <div class="col-lg-6">
-              <button type="submit" class="btn btn-primary">Tip us $2</button>
+              <button type="submit" class="btn btn-primary">Tip us $2.50</button>
             </div>
           </div>
         </fieldset>
@@ -102,7 +102,7 @@ Ubuntu MATE is currently available for two architectures.
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
-        <input type="hidden" name="amount" value="2">
+        <input type="hidden" name="amount" value="2.50">
         <input type="hidden" name="currency_code" value="USD">
         <input type="hidden" name="src" value="1">
         <input type="hidden" name="sra" value="1">
@@ -166,10 +166,14 @@ for sponsoring the hosting and bandwith for the Ubuntu MATE download.
 
 <div class="row">
   <div class="col-lg-6">
-    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/banners/firstcolo_banner.png" width="320" height="90" alt="First Colo" /></a>
+    <div class="well bs-component">
+    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo" /></a>
+    </div>
   </div>
   <div class="col-lg-6">
-    <a href="http://www.prometeus.net"><img class="centered" src="/assets/img/banners/prometeus_banner.png" width="320" height="90" alt="Prometeus" /></a>
+    <div class="well bs-component">
+    <a href="http://www.prometeus.net"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
+    </div>
   </div>
 </div>
 
@@ -184,14 +188,17 @@ for sponsoring the hosting and bandwith for the Ubuntu MATE download.
 
 ## Raspberry Pi 2
 
+We are delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
+You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+We've also created an [Ubuntu MATE generic root file system and example build
+scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their
+ARMv7 devices.
+
 <div align="center">
   <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
   <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
-
-We are also delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
 ## Useful Information
 

@@ -221,7 +221,7 @@ including our dedicated community site.
 In recent months the amount of donations contributed by the community has
 generated a surplus which we are using to support other Open Source projects
 upon which Ubuntu MATE relies. Since we started supporting others projects in
-February 2015 we have donated a just over $535 to seven projects:
+February 2015 we have donated a just over $860 to seven projects:
 
   * [Debian](http://www.debian.org)
   * [Folder Color](http://foldercolor.tuxfamily.org/)
@@ -229,7 +229,9 @@ February 2015 we have donated a just over $535 to seven projects:
   * [MATE Desktop](http://mate-desktop)
   * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Introduction)
   * [Tilda](https://github.com/lanoxx/tilda)
+  * [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html)
   * [Ubuntu](http://www.ubuntu.com)
+
 
 We post an overview of how the donations were used each month.
 
@@ -239,6 +241,7 @@ We post an overview of how the donations were used each month.
   * <https://ubuntu-mate.org/blog/ubuntu-mate-february-2015-supporters/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-march-2015-supporters/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-may-2015-supporters/>
 
 ## Screenshots
 

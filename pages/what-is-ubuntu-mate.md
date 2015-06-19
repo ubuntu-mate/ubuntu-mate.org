@@ -157,5 +157,4 @@ What Linux, Ubuntu and MATE Desktop all have in common is they are
 Open Source. Open source software is software that can be freely used, 
 changed, and shared (in modified or unmodified form) by anyone.
 
-In a nut shell Ubuntu MATE is free, in the truest sense of the word. 
-
+In a nut shell Ubuntu MATE is free, in the truest sense of the word.

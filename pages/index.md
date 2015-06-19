@@ -56,11 +56,36 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
 
 ## Raspberry Pi 2
 
+We are delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
+You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+We've also created an [Ubuntu MATE generic root file system and example build
+scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their
+ARMv7 devices.
+
 <div align="center">
   <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
   <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
 
-We are also delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+## Sponsors
+
+Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons](/sponsors/):
+
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component">
+    <a href="https://entroware.com"><img class="centered" src="/assets/img/sponsors/entroware.png" alt="Entroware" /></a>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component">
+    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo"/></a>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component">
+    <a href="http://www.prometeus.net"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus"/></a>
+    </div>
+  </div>
+</div>

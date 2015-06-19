@@ -16,35 +16,23 @@ img.centered {
     margin-right: auto }
 </style>
 
-The [Ubuntu MATE community has requested a forum that is not hosted via a
-social network](https://ubuntu-mate.org/blog/alternative-community-forum-poll/).
+This funding campaign has three main objectives: 
 
-The Ubuntu MATE team have decided to use [Discourse](http://www.discourse.org/)
-to provide a community space that is not reliant on social networks but this
-will require a new, fairly beefy, virtual private server and some additional
-subscription services for email notifications. We are asking the Ubuntu MATE
-community members to make a small recurring contribution so that we can
-provide what you've asked for.
+  * Fund the the Ubuntu MATE project's hosting and bandwidth costs. This include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks.
+  * Fund the full time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidise the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
+  * Support other Open Source projects that Ubuntu MATE depends upon.
 
-If this funding campaign generates more monthly income than required for our
-hosting alone then we will use the surplus to reward contributors, such as
-digital artists/designers, provide development bounties for implementing
-new features or fixing bugs and to help subsidise the travel expenses of team
-members to represent [MATE Desktop](http://mate-desktop.org) and Ubuntu MATE
-at FLOSS conferences. If we have sufficient surplus funds we will also donate
-to other Open Source projects that Ubuntu MATE depends upon and should we find
-ourselves in that fortunate position we will use our new shiny Discourse
-community to vote for the worthy beneficiaries.
+Patrons will be rewarded with exclusive project news, updates and invited to
+participate in video conferences where you can talk to the developers directly.
 
 We have set up a number of payment options that should hopefully suit everyone.
 Go on, be brilliant, help grow our community.
 
 ## Patreon
 
-This is a unique way to fund an Open Source community and may also potentially
-fund or reward contributors for some aspects of Ubuntu MATE development. A
-regular monthly income for the Ubuntu MATE project will allow us to better plan
-how best to reward our contributors.
+This is a unique way to fund an Open Source community. A regular monthly income
+for the Ubuntu MATE project will allow us to better plan how best to reward our
+contributors and sponsor other Open Source projects.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -61,9 +49,13 @@ how best to reward our contributors.
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 
 We'd prefer you set-up a recurring payment to help ensure the monthly
-hosting costs are always covered and they allow us to better plan how to
-reward our contributors. That said, one time donations are also
-gratefully accepted.
+costs are always covered and it also allows us to better plan how to
+reward our contributors and sponsor other Open Source projects.
+That said, one time donations are also gratefully accepted.
+
+**NOTE! If you are considering a monthly recurring payment via PayPal then
+you should probably use the [Ubuntu MATE Patreon](http://www.patreon.com/ubuntu_mate)
+to benefit from Patron rewards.**
 
 <div class="bs-docs-section">
   <div class="row">
@@ -170,6 +162,22 @@ gratefully accepted.
   </div>
 </div>
 
+# Commercial sponsorship
+
+If you are using, or plan to use, Ubuntu MATE in a commercial environment
+and would like to sponsor the project more formally then please head over
+to our Patreon page where we have commercial sponsorship packages.
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Commercial sponsor</h1>
+        <p>Become a commercial sponsor at <a href="http://www.patreon.com/ubuntu_mate">Patreon</a>
+        and have your business prominently listed as a sponsor.</p>
+        <a href="http://www.patreon.com/ubuntu_mate" class="btn btn-primary btn-lg">Become a commercial sponsor</a>
+        </p>
+    </div>
+</div>
+
 ## Bitcoin and micro payments
 
 <div class="bs-docs-section">
@@ -204,68 +212,17 @@ gratefully accepted.
   </div>
 </div>
 
-# Commercial sponsorship
-
-If you are using, or plan to use, Ubuntu MATE in a commercial environment
-and would like to sponsor the project more formally then please get in
-touch to discuss your requirements.
-
-<div class="bs-docs-section">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="well bs-component">
-        <form class="form-horizontal" action="//forms.brace.io/commercial@ubuntu-mate.org" method="post">
-          <fieldset>
-            <legend>Send an email</legend>
-            <div class="form-group">
-              <label for="inputName" class="col-lg-2 control-label">Your name</label>
-              <div class="col-lg-10">
-                <input autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;" class="form-control" id="inputName" placeholder="Your name" type="text" name="Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail" class="col-lg-2 control-label">Your email</label>
-              <div class="col-lg-10">
-                <input autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;" class="form-control" id="inputEmail" placeholder="Email" type="text" name="_replyto">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
-              <div class="col-lg-10">
-                <input autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;" class="form-control" id="inputSubject" placeholder="Subject" type="text" name="_subject">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="textArea" class="col-lg-2 control-label">Message</label>
-              <div class="col-lg-10">
-                <textarea class="form-control" rows="3" id="textArea" name="message"></textarea>
-                <span class="help-block">Enter you message above and it will be emailed to the Ubuntu MATE commercial team.</span>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-10 col-lg-offset-2">            
-                <button type="submit" class="btn btn-primary">Send</button>
-              </div>
-            </div>
-          </fieldset>
-          <input type="hidden" name="_next" value="//ubuntu-mate.org/message-sent/" />
-          <input type="text" name="_gotcha" style="display:none">
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
 # Summary of donations
 
 We post an overview of how the donations were used each month.
 
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-november-2014-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-december-2014-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-january-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-february-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-march-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/>
+  * [2014 November](https://ubuntu-mate.org/blog/ubuntu-mate-november-2014-supporters/)
+  * [2014 December](https://ubuntu-mate.org/blog/ubuntu-mate-december-2014-supporters/)
+  * [2015 January](https://ubuntu-mate.org/blog/ubuntu-mate-january-2015-supporters/)
+  * [2015 February](https://ubuntu-mate.org/blog/ubuntu-mate-february-2015-supporters/)
+  * [2015 March](https://ubuntu-mate.org/blog/ubuntu-mate-march-2015-supporters/)
+  * [2015 April](https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/)
+  * [2015 May](https://ubuntu-mate.org/blog/ubuntu-mate-may-2015-supporters/)  
 
 <script type="text/javascript">
   function validateMonthlyForm() {

@@ -44,7 +44,6 @@ everyone. If you haven't already, be brilliant, help grow our community.
 Many thanks to the following people for becoming Ubuntu MATE patrons who donated
 a total of $102.50, which after processing fees amounted to $93.31.
 
-  * Jeroen Bots
   * Robert Meineke
   * Roland Smith
   * Joe

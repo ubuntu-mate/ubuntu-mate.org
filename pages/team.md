@@ -26,7 +26,7 @@ develop and test Ubuntu MATE.
 
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
   * [Sander Sweers](https://github.com/infirit/) Developer of [MATE Desktop](http://mate-desktop.org) and magician of everything.
-  * [Vlad Orlav](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
+  * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
 
 ## Maintainers
 
@@ -36,6 +36,7 @@ there would be no Ubuntu MATE.
   * [Mike Gabriel](http://sunweavers.net/blog/) Package maintainer for [Debian](http://www.debian.org).
   * [Steve Zesch](https://github.com/szesch) Package maintainer for [Debian](http://www.debian.org).
   * [John Paul Adrian Glaubitz](http://users.physik.fu-berlin.de/~glaubitz/) Package maintainer for [Debian](http://www.debian.org).
+  * [Vangelis Mouhtsis](https://github.com/gnugr) Package maintainer for [Debian](http://www.debian.org).
 
 ## Designers and Artists
 

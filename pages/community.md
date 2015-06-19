@@ -16,8 +16,11 @@ If you want to chat with the Ubuntu MATE team and other members of our
 growing community, this is where to go.
 
 <div class="bs-component">
-    <div class="alert alert-info">
-        <strong>Pro Tip!</strong> The <a href="https://ubuntu-mate.community">Ubuntu MATE community</a> is the place to be and where you can play an active role in shaping the direction of the project. The core team are also active in our <a href="/irc/">#ubuntu-mate IRC channel</a>. These are the best places to get in direct contact with us.
+    <div class="jumbotron">
+        <h1>Ubuntu MATE Community Forum</h1>
+        <p>The best place to play an active role in the Ubuntu MATE community and to help shape it's direction
+        is via our forum and IRC #ubuntu-mate channel.</p>
+        <a href="https://ubuntu-mate.community" class="btn btn-primary btn-lg">Forum</a>&nbsp;<a href="/irc/" class="btn btn-primary btn-lg">IRC</a>
     </div>
 </div>
 
@@ -25,16 +28,30 @@ growing community, this is where to go.
 
 This is where you can find the Ubuntu MATE community.
 
-  * [Ubuntu MATE Community](https://ubuntu-mate.community/)
+  * [Ubuntu MATE Community Forum](https://ubuntu-mate.community/)
   * [#ubuntu-mate](/irc/) IRC channel on Freenode - *with the smartest bot in the world, EVER!*
 
 ### The social networks
 
 We are active on the following social networks.
 
-  * [Ubuntu MATE Google+ Community](https://plus.google.com/communities/108331279007926658904)
-  * [Ubuntu MATE Twitter Feed](https://twitter.com/ubuntu_mate)
-  * [Ubuntu MATE Facebook Page](https://www.facebook.com/UbuntuMATEedition/)
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component">
+    <a class="social-icon" href="https://plus.google.com/communities/108331279007926658904" title="Ubuntu MATE Google+"><img class="centered" src="/assets/img/google_circle_gray.png" alt="Ubuntu MATE Google+"></a>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component">
+    <a class="social-icon" href="https://twitter.com/ubuntu_mate" title="Ubuntu MATE Twitter"><img class="centered" src="/assets/img/twitter_circle_gray.png" alt="Ubuntu MATE Twitter"></a>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component">
+    <a class="social-icon" href="https://www.facebook.com/UbuntuMATEedition/" title="Ubuntu MATE Facebook"><img class="centered" src="/assets/img/facebook_circle_gray.png" alt="Ubuntu MATE Facebook"></a>
+    </div>
+  </div>
+</div>
 
 ## Announcements
 

@@ -8,14 +8,17 @@
 .. type: text
 -->
 
-Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop
-environment. Ideal for those who want the most out of their desktops, laptops and
-netbooks and prefer a traditional desktop metaphor. With modest hardware
-requirements it is suitable for modern workstations and older hardware alike.
+Ubuntu MATE is a stable, easy-to-use operating system with a configurable
+desktop environment. Ideal for those who want the most out of their computers
+and prefer a traditional desktop metaphor. With modest hardware requirements
+it is suitable for modern desktops and laptops, micro computers and older
+hardware alike.
 
 <div class="bs-component">
-    <div class="alert alert-info">
-        <strong><i>But what does that all mean?</i></strong> Read <a href="/what-is-ubuntu-mate/">What is Ubuntu MATE?</a> where we break it down.
+    <div class="jumbotron">
+        <h1>But what does that all mean?</h1>
+        <p>We have created a page that tries to break down what exactly Ubuntu MATE is in easy to understand language. Have a read.</p>
+        <a href="/what-is-ubuntu-mate/" class="btn btn-primary btn-lg">What is Ubuntu MATE?</a>
     </div>
 </div>
 
@@ -34,7 +37,7 @@ Ubuntu MATE has a number of guiding objectives and goals.
   * Recreate the halcyon days of Ubuntu for users who prefer a traditional desktop metaphor.
   * Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar.
   * When possible contribute to [Debian](http://www.debian.org) so both the Debian and Ubuntu communities benefit.
-  * Package selection will favour functionality and stability over lightness and whimsy.
+  * Software selection will favour functionality and stability over lightness and whimsy.
   * Get adopted as an official Ubuntu *"flavour"*.
 
 ## Frequently Asked Questions
@@ -76,3 +79,12 @@ in the [FAQ](/faq/).
     </div>
   </div>
 </div>
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Frequently asked questions</h1>
+        <p>There are some questions we are asked frequently so we've compile a list of answers to the most common questions.</p>
+        <a href="/faq/" class="btn btn-primary btn-lg">FAQ</a>
+    </div>
+</div>
+

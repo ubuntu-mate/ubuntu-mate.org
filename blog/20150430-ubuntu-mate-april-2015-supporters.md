@@ -97,21 +97,67 @@ If you haven't already, be brilliant, help grow our community.
 Many thanks to the following people for becoming Ubuntu MATE patrons who, after
 processing fees, donated $239.83 this month.
 
+### The following Patrons contribute $10, or more, every month.
+
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Patrons</th>
+      <th>Joined</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Poul Leblanc</td>
+      <td>2015-01-17 19:21:40</td>
+    </tr>
+    <tr>
+      <td>Robert Boudreau</td>
+      <td>2015-03-08 21:01:28</td>
+    </tr>
+    <tr>
+      <td><a href="https://twitter.com/Entroware">Entroware</a></td>
+      <td>2015-03-07 03:44:29</td>
+    </tr>
+    <tr>
+      <td>Alex Alexzander</td>
+      <td>2015-04-11 03:21:36</td>
+    </tr>
+    <tr>
+      <td>Steve J. Radonich Iv</td>
+      <td>2014-11-09 10:44:55</td>
+    </tr>
+    <tr>
+      <td><a href="https://twitter.com/spazmaticcelery">Spazzyc</a></td>
+      <td>2014-11-10 20:32:27</td>
+    </tr>
+    <tr>
+      <td>Chris Gardiner-Bill</td>
+      <td>2015-01-04 22:47:21</td>
+    </tr>
+    <tr>
+      <td>Davide Monge</td>
+      <td>2015-03-11 22:57:13</td>
+    </tr>
+  </tbody>
+</table>
+
+### The following Patrons also contribute every month.
+
+<small>David Hollings, <a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan Van Der Hoorn</a>, <a href="https://twitter.com/ChrisLAS">Tech Talk Today</a>, Robert Meineke, Joe, Paul Goff, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, Doctorkraz, Sergio Rivera, Patrik Nilsson, <a href="https://twitter.com/parzzix">Tim Apple</a>, Michael Difazio, Silas Wulff, Jack Blakely, Adrian Evans, Nicolas Roelandt, Matt Hartley, M Hoppes, Paul, Christopher Atkins, Stephen Donovan, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Stephen Cook, Tavis Gillard, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Specops872, Mike Steveline, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Michael Mcguire, Zach, Eric Brinsfield, Kevin Burton, Michael White, Lukasz, Francisco López Riojas, Gaius</small>
+
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>The Ubuntu MATE Patrons</h1>
-        <p>The list of Ubuntu MATE Patrons is growing so fast we can't keep on
-        top of the list. Come and meet the Patrons!</p>
-        <a href="https://www.patreon.com/ubuntu_mate?ty=p" class="btn btn-primary btn-lg">Epic Patrons</a>
+        <h1>Monthly supporter</h1>
+        <p>Become a monthly supporter at <a href="http://www.patreon.com/ubuntu_mate">Patreon</a>.
+        Patrons get exclusive project updates, invites to live video conferences with the Ubuntu
+        MATE developers and discounts on some Ubuntu MATE merchandise.</p>
+        <a href="http://www.patreon.com/ubuntu_mate" class="btn btn-primary btn-lg">Become a Patron</a>
         </p>
     </div>
 </div>
 
-Martin Wimpress will be sending out some project details specifically to the 
-Patrons to better acknowledge their continued support of, and contribution to,
-Ubuntu MATE.
-
-## Summary of donations
+## Summary of PayPal donations
 
 Many thanks to the following people for donating to the Ubuntu MATE community
 this month.
