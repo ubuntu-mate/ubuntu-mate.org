@@ -96,9 +96,8 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about/", "About"),
 	("/blog/", "Blog"),
-	("https://ubuntu-mate.community", "Community"),        
+	("/community/", "Community"),        
 	("/vivid/", "Download"),
-        ("/faq/", "FAQ"),
 	("/team/", "Team"),
         ("/donate/", "Donate"),
     ),
