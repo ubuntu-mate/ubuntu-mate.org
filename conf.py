@@ -100,6 +100,7 @@ NAVIGATION_LINKS = {
 	("/vivid/", "Download"),
 	("/team/", "Team"),
         ("/donate/", "Donate"),
+        ("https://ubuntu-mate.boutique/", "Shop"),
     ),
 }
 
