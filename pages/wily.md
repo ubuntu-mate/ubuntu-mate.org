@@ -1,8 +1,8 @@
 <!-- 
-.. title: Download Ubuntu MATE 15.04
-.. slug: vivid
-.. date: 2014-06-10 23:01:09 UTC
-.. tags: Ubuntu,MATE,vivid,15.04,download
+.. title: Download Ubuntu MATE 15.10
+.. slug: wily
+.. date: 2014-06-24 18:01:09 UTC
+.. tags: Ubuntu,MATE,wily,15.10,download
 .. link: 
 .. description: 
 .. type: text
@@ -24,9 +24,9 @@ need at least 512MB of RAM to install from this image. The image can be burned
 to a DVD, mounted as an ISO file, or be directly written to a USB stick using a
 utility like `dd` or `ddrescue` (from the `gddrescue` package), for example:
 
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -d -D --force wily-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force wily-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force wily-desktop-powerpc.iso /dev/sdx
 
 If you want to make a bootable USB with Windows try
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
@@ -42,8 +42,8 @@ Ubuntu MATE is currently available for four architectures.
         <a class="list-group-item active"><b>PC (Intel x86)</b></a>
         <p class="list-group-item">For almost all PCs. This includes most machines with Intel/AMD/etc type processors and almost all computers that run Microsoft Windows, as well as newer Apple Macintosh systems based on Intel processors. Choose this if you are at all unsure.</p>
         <p class="list-group-item">Size : 1.1 GB</p>
-        <a class="list-group-item text-center" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-i386.iso.torrent">
-          <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 PC (Intel x86) Torrent" title="Ubuntu MATE 15.04 PC (Intel x86) Torrent" />
+        <a class="list-group-item text-center" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-i386.iso.torrent">
+            <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Torrent" title="Ubuntu MATE 15.10 PC (Intel x86) Torrent" />
         </a>
       </div>
     </div>
@@ -54,8 +54,8 @@ Ubuntu MATE is currently available for four architectures.
         <a class="list-group-item active"><b>64-bit PC (AMD64)</b></a>
         <p class="list-group-item">Choose this to take full advantage of computers based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2). If you have a non-64-bit processor made by AMD, or if you need full support for 32-bit code, use the Intel x86 images instead.</p>
         <p class="list-group-item">Size : 1.1 GB</p>
-        <a class="list-group-item text-center" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-amd64.iso.torrent">
-          <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 64-bit PC (AMD64) Torrent" title="Ubuntu MATE 15.04 64-bit PC (AMD64) Torrent" />
+        <a class="list-group-item text-center" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-amd64.iso.torrent">
+          <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Torrent" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Torrent" />
         </a>
       </div>
     </div>
@@ -66,8 +66,8 @@ Ubuntu MATE is currently available for four architectures.
         <a class="list-group-item active"><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></a>
         <p class="list-group-item">For Apple Macintosh G3, G4, and G5 computers, including iBooks and PowerBooks as well as older IBM OpenPower 7xx machines.</p>
         <p class="list-group-item">Size : 1.1 GB</p>
-        <a class="list-group-item text-center" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-powerpc.iso.torrent">
-          <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Torrent" title="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Torrent" />
+        <a class="list-group-item text-center" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-powerpc.iso.torrent">
+          <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Torrent" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Torrent" />
         </a>
       </div>
     </div>
@@ -80,7 +80,7 @@ Ubuntu MATE is currently available for four architectures.
           <p>If everyone who downloaded Ubuntu MATE donated $2.50 it would
           fund the full-time development of Ubuntu MATE <i>and</i> MATE
           Desktop. Please give us a tip and help the projects flourish!</p>
-          <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
+          <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">          
           <p>If you'd <a href="/donate/">like to donate more or become an Ubuntu MATE patron</a>
           please visit the <a href="/donate/">donate</a> page.</p>
           <div class="form-group">
@@ -91,7 +91,7 @@ Ubuntu MATE is currently available for four architectures.
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -109,46 +109,46 @@ Ubuntu MATE is currently available for four architectures.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.04</p>
-        <a href="/blog/ubuntu-mate-vivid-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 15.10 Alpha 1</p>
+        <a href="/blog/ubuntu-mate-wily-alpha1/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
 
 ## HTTP direct download
 
-In addition to the recommended BitTorrent downloads above, the .iso
-images can also be downloaded via HTTP.
+In addition to the recommended BitTorrent downloads above, the .iso images can
+also be downloaded via HTTP.
 
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-i386.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 PC (Intel x86) Download" title="Ubuntu MATE 15.04 PC (Intel x86) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-i386.iso">
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 1</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-amd64.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.04 64-bit PC (AMD64) Download" />
-      </a>
-      <p>Ubuntu MATE 15.04</p><p><b>64-bit PC (AMD64)</b></p>
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-amd64.iso">
+          <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
+        </a>
+      <p>Ubuntu MATE 15.10 Alpha 1</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-powerpc.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-powerpc.iso">
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/MD5SUMS)
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/MD5SUMS)
 matches.
 
 ### Mirrors
@@ -167,27 +167,13 @@ to you in order to achieve a faster download.
     </div>
 </div>
 
-## Raspberry Pi 2
-
-We are delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
-We've also created an [Ubuntu MATE generic root file system and example build
-scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their
-ARMv7 devices.
-
-<div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
-  <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
-</div>
-<br />
-
 ## Useful Information
 
 You may find the following information useful, which is why we titled 
 the section *Useful Information* since the information presented here
 is mostly useful.
 
-  * [Ubuntu MATE 15.04 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
+  * [Ubuntu MATE 15.10 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
 
 ## Reporting issues
 

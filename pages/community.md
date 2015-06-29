@@ -18,51 +18,70 @@ growing community, this is where to go.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Ubuntu MATE Community Forum</h1>
-        <p>The best place to play an active role in the Ubuntu MATE community and to help shape it's direction
-        is via our forum and IRC #ubuntu-mate channel.</p>
-        <a href="https://ubuntu-mate.community" class="btn btn-primary btn-lg">Forum</a>&nbsp;<a href="/irc/" class="btn btn-primary btn-lg">IRC</a>
+        <p>The best place to play an active role in the Ubuntu MATE community
+        and to help shape it's direction is via our forum.</p>
+        <a href="https://ubuntu-mate.community" class="btn btn-primary btn-lg">Forum</a>
     </div>
 </div>
 
-### The community!
+### Chat
+ 
+Ubuntu MATE also has it's own IRC channel, [#ubuntu-mate](/irc/), on the [Freenode](http://freende.net)
+network. The [#ubuntu-mate](/irc/) channel is also home to *matey*, probably the
+smartest IRC bot in the world, EVER!
 
-This is where you can find the Ubuntu MATE community.
+## The social networks
 
-  * [Ubuntu MATE Community Forum](https://ubuntu-mate.community/)
-  * [#ubuntu-mate](/irc/) IRC channel on Freenode - *with the smartest bot in the world, EVER!*
-
-### The social networks
-
-We are active on the following social networks.
+Ubuntu MATE is active on the following social networks.
 
 <div class="row">
   <div class="col-lg-4">
-    <div class="well bs-component">
-    <a class="social-icon" href="https://plus.google.com/communities/108331279007926658904" title="Ubuntu MATE Google+"><img class="centered" src="/assets/img/google_circle_gray.png" alt="Ubuntu MATE Google+"></a>
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://plus.google.com/communities/108331279007926658904" title="Ubuntu MATE Google+"><img class="centered" src="/assets/img/google+-48x48.png" alt="Ubuntu MATE Google+"></a>
+    <p><b>Google+</b></p>
     </div>
   </div>
   <div class="col-lg-4">
-    <div class="well bs-component">
-    <a class="social-icon" href="https://twitter.com/ubuntu_mate" title="Ubuntu MATE Twitter"><img class="centered" src="/assets/img/twitter_circle_gray.png" alt="Ubuntu MATE Twitter"></a>
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://twitter.com/ubuntu_mate" title="Ubuntu MATE Twitter"><img class="centered" src="/assets/img/twitter-48x48.png" alt="Ubuntu MATE Twitter"></a>
+    <p><b>Twitter</b></p>
     </div>
   </div>
   <div class="col-lg-4">
-    <div class="well bs-component">
-    <a class="social-icon" href="https://www.facebook.com/UbuntuMATEedition/" title="Ubuntu MATE Facebook"><img class="centered" src="/assets/img/facebook_circle_gray.png" alt="Ubuntu MATE Facebook"></a>
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://www.facebook.com/UbuntuMATEedition/" title="Ubuntu MATE Facebook"><img class="centered" src="/assets/img/facebook-48x48.png" alt="Ubuntu MATE Facebook"></a>
+    <p><b>Facebook</b></p>
     </div>
   </div>
 </div>
 
-## Announcements
-
-Get notified about project developments as they happen.
-
-  * [Ubuntu MATE RSS Feed](http://ubuntu-mate.net/rss.xml) - News from this website, as it happens.
-
 ## Development
 
-This is where you can get involved with the project development.
+This is where you can get involved with Ubuntu MATE and MATE Desktop development.
 
-  * [Ubuntu MATE Project](https://launchpad.net/ubuntu-mate) - Landing page for all development stuff.
-  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate) - Bugs! We love to squish 'em.
-  * [Ubuntu MATE Developers](https://launchpad.net/~ubuntu-mate-dev) - Source code and such.
+<div class="row">
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://launchpad.net/ubunu-mate/" title="Ubuntu MATE Launchpad"><img class="centered" src="/assets/img/logos/launchpad.png" alt="Ubuntu MATE Launchpad"></a>
+    <p><b>Ubuntu MATE Launchpad</b></p>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://bitbucket.org/ubuntu-mate" title="Ubuntu MATE Bitbucket"><img class="centered" src="/assets/img/logos/bitbucket.png" alt="Ubuntu MATE Bitbucket"></a>
+    <p><b>Ubuntu MATE Bitbucket</b></p>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://github.com/mate-desktop/" title="MATE Desktop GitHub"><img class="centered" src="/assets/img/logos/github.png" alt="MATE Desktop GitHub"></a>
+    <p><b>MATE Desktop GitHub</b></p>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://www.transifex.com/projects/p/MATE/" title="MATE Desktop Transifex"><img class="centered" src="/assets/img/logos/transifex.jpg" alt="MATE Desktop Transifex"></a>
+    <p><b>MATE Desktop Transifex</b></p>
+    </div>
+  </div>  
+</div>

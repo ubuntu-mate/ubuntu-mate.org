@@ -172,7 +172,7 @@ for sponsoring the hosting and bandwith for the Ubuntu MATE download.
   </div>
   <div class="col-lg-6">
     <div class="well bs-component">
-    <a href="http://www.prometeus.net"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
+    <a href="https://www.prometeus.net/billing/aff.php?aff=239"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
     </div>
   </div>
 </div>
