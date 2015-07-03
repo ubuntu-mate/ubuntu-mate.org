@@ -80,7 +80,7 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
   </div>
   <div class="col-lg-4">
     <div class="well bs-component">
-    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo"/></a>
+    <a href="http://www.libretrend.com/en/"><img class="centered" src="/assets/img/sponsors/libretrend.png" alt="LibreTrend"/></a>
     </div>
   </div>
   <div class="col-lg-4">

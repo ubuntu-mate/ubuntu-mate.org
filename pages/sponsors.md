@@ -21,7 +21,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component">
-    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo" /></a>
+    <a href="http://www.libretrend.com/en/"><img class="centered" src="/assets/img/sponsors/libretrend.png" alt="LibreTrend" /></a>
     </div>
   </div>
   <div class="col-lg-4">
@@ -33,8 +33,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
 
 ## Patrons
 
-Many thanks to the following people for becoming Ubuntu MATE patrons who, after
-processing fees, donated **$288.95** this month.
+Many thanks to the following people for becoming Ubuntu MATE patrons who collectively donated **$366.0** this month.
 
 ### The following Patrons contribute $10, or more, every month.
 
@@ -88,12 +87,13 @@ processing fees, donated **$288.95** this month.
     </tr>
   </tbody>
 </table>
-
+<br />
 ### The following Patrons also contribute every month.
 
-<small>David Hollings, <a href="https://twitter.com/ChrisLAS">Tech Talk Today</a>, Robert Meineke, Joe, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, DoctorKraz, Sergio Rivera, Patrik Nilsson, <a href="https://twitter.com/parzzix">Tim Apple</a>, Michael DiFazio, Silas Wulff, Jack Blakely, Adrian Evans, Nicolas ROELANDT, Matt Hartley, M Hoppes, Antoine Mate Messiah, Daniel Neilson, Scott Petty, Sascha Spettmann, david van Dyk, Arthur Vasquez, Christopher atkins, Stephen Donovan, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Stephen Cook, Tavis Gillard, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Specops872, Mike Steveline, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Michael McGuire, Zach, Kevin Burton, Michael White, Lukasz, Francisco López Riojas, Yannick Kooistra, Richard Arnold, Mark Boadey, Gaius, Jason Hyder, </small>
+<small>David Hollings, Robert Meineke, Joe, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, DoctorKraz, Sergio Rivera, Patrik Nilsson, <a href="https://twitter.com/parzzix">Tim Apple</a>, Michael DiFazio, Silas Wulff, Jack Blakely, Adrian Evans, Matt Hartley, M Hoppes, Antoine Mate Messiah, Daniel Neilson, Scott Petty, Sascha Spettmann, david van Dyk, Arthur Vasquez, Mark Boadey, Christopher atkins, Stephen Donovan, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Stephen Cook, Tavis Gillard, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Bob Wright, Specops872, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Michael McGuire, Michael White, Lukasz, Francisco López Riojas, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Yannick Kooistra, Richard Arnold, Jason Hyder, Gaius, </small><br />
+### The *Unlucky* Patron!
 
-### Darrell Vermilion has opted in to our *Unlucky* Patreon package!
+Darrell Vermilion is a good sport! They have chosen to be the Ubuntu MATE *unlucky* Patron, just so they can see their name in flashing lights.
 
 <div align="center">
 <h2><blink>Darrell Vermilion</blink><h2>
