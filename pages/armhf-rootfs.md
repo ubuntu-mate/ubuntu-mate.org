@@ -52,7 +52,7 @@ sites.
         <p class="list-group-item">For aarch32 (ARMv7) based devices but will require that you add your devices boot loader, kernel and other drivers.</p>
         <p class="list-group-item">Size : 903 MB</p>
         <p class="list-group-item">MD5 : <code>dcbc6539d2260ddcc7bb13a963f35583</code></p>
-        <a class="list-group-item" href="ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz</u></strong></a>
+        <a class="list-group-item" href="https://ubuntu-mate.r.worldssl.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz</u></strong></a>
       </div>
     </div>
   </div>
@@ -92,8 +92,8 @@ sites.
 
 ### HTTP direct download
 
-In addition to the recommended BitTorrent downloads above, the .iso
-images can also be downloaded via HTTP.
+In addition to the recommended BitTorrent downloads above, the image
+can also be downloaded via HTTP.
 
 <div class="row">
   <div class="col-lg-4">
@@ -101,23 +101,23 @@ images can also be downloaded via HTTP.
       <a href="https://ubuntu-mate.r.worldssl.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
         <img src="/assets/img/flags/European Union Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b> aarch32 (ARMv7)</b></p>
+      <p>Ubuntu MATE 15.04 from European CDN</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/assets/img/flags/Germany.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+        <img src="/assets/img/flags/Germany Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b> aarch32 (ARMv7)</b></p>
+      <p>Ubuntu MATE 15.04 from German mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.org/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/assets/img/flags/Italy.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+        <img src="/assets/img/flags/Italy Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b> aarch32 (ARMv7)</b></p>
+      <p>Ubuntu MATE 15.04 from Italian mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
 </div>
@@ -125,6 +125,24 @@ images can also be downloaded via HTTP.
 If you direct download the .iso image please make sure the MD5 hash matches:
 
     dcbc6539d2260ddcc7bb13a963f35583
+
+### Sponsors
+
+Many thanks to [First Colo](http://www.first-colo.com") and [Prometeus](http://www.prometeus.net)
+for sponsoring the hosting and bandwidth for the Ubuntu MATE download.
+
+<div class="row">
+  <div class="col-lg-6">
+    <div class="well bs-component">
+    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo" /></a>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="well bs-component">
+    <a href="https://www.prometeus.net/billing/aff.php?aff=239"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
+    </div>
+  </div>
+</div>
 
 ### Extract the root file system
 
