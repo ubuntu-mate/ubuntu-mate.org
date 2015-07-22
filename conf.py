@@ -292,7 +292,6 @@ DEPLOY_COMMANDS = [
 	'rsync -av --delete /tmp/ubuntu-mate.org/output/ www/',
         'scripts/armhf.sh',
         'scripts/trusty.sh',
-        'scripts/utopic.sh',
         'scripts/minify.sh'
 ]
 
