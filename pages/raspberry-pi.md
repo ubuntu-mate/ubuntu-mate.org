@@ -50,7 +50,8 @@ A pre-built image is also available.
         <a class="list-group-item active">Raspberry Pi 2 (ARMv7)</a>
         <p class="list-group-item">For the Raspberry Pi 2, but not the original Raspberry Pi models based on ARMv6.</p>
         <p class="list-group-item">Size : 903 MB</p>
-        <a class="list-group-item" href="http://master.dl.sourceforge.net/project/ubuntu-mate/15.04/armhf/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2</u></strong></a>
+        <p class="list-group-item">MD5 : <code>ea74db696bb50907a12ffbc2f2eeb4b5</code></p>
+        <a class="list-group-item" href="ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2</u></strong></a>
       </div>
     </div>
   </div>

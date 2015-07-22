@@ -157,31 +157,31 @@ videos introducing some of the new features in Ubuntu MATE 15.04](//www.youtube.
 #### Interface Switcher
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/jxFMtOl_DyQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/jxFMtOl_DyQ?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 #### First class Compiz integration
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/k_nk02XELi4" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/k_nk02XELi4?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 #### Folder Color
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/ZrSVepoNuJk" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/ZrSVepoNuJk?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 #### Pull-down Terminal
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/_woWvmHl3Rc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/_woWvmHl3Rc?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 #### Firewall
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/FBaFL6UnDAE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/FBaFL6UnDAE?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="bs-component">

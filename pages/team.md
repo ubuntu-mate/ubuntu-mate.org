@@ -70,3 +70,4 @@ The following people have made infrequent, yet significant, contributions
 to the Ubuntu MATE project.
 
   * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
+  * [Matt Hartley](http://www.matthartley.com/) user experience advisor.

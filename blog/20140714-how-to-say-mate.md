@@ -16,7 +16,7 @@ Let's stop with the *"mait"* and the *"matey"*. It is pronounced
 Claude van Damme round to give you some elocution lessons `;-)`
 
 <div align="center">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/k0YDuSLXcX8?rel=0&start=459&end=472" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/k0YDuSLXcX8?html5=1&rel=0&start=459&end=472" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Thanks to [Michael Tunnell](https://plus.google.com/+MichaelTunnell/posts)

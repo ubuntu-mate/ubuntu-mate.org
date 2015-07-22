@@ -12,20 +12,20 @@ If you are new to Ubuntu MATE, or only casually acquainted with Linux
 based distributions, it can be difficult to understand how a Linux 
 operating system compares with other computer systems that you may 
 already be familiar with. Hopefully this page with help demystify 
-Ubuntu MATE for new comers.
+Ubuntu MATE for new-comers.
 
 ## Ubuntu
 
 <img class="left" src="/assets/img/logos/ubuntu-logo32.png" alt="Ubuntu" width="96" height="96">
 
 [Ubuntu](http://www.ubuntu.com) is one of, if not the, largest deployed 
-[Linux](http://www.linux.com) based desktop operating systems in the 
+[Linux](https://en.wikipedia.org/wiki/Linux) based desktop operating systems in the 
 world. Linux is at the heart of Ubuntu and makes it possible to create 
 secure, powerful and versatile operating systems, such as Ubuntu and 
 [Android](http://www.android.com/). Android is now in the hands of 
 billions of people around the world and it's also powered by Linux.
 
-Ubuntu is available in a number of different *"flavours"*, each coming 
+Ubuntu is available in a number of different *flavours*, each coming 
 with its own desktop environment. Ubuntu MATE takes the Ubuntu base 
 operating system and adds the [MATE Desktop](http://mate-desktop.org).
 
@@ -49,7 +49,7 @@ highly customisable and managed via a control centre.
 MATE Desktop provides an intuitive and attractive desktop environment 
 using traditional metaphors, which means if you've ever used
 [Microsoft Windows](http://www.microsoft.com) or [Apple Mac 
-OS](http://www.apple.com) it will feel very familiar.
+OS](http://www.apple.com), it will feel very familiar.
 
 The MATE Desktop has a rich history and is the continuation of the 
 GNOME2 desktop, which was the default desktop environment on many Linux 
@@ -143,11 +143,11 @@ of writing Steam has more than 1000 high quality indie and AAA titles
 available for Linux. Ubuntu MATE is fully compatible with Steam for
 Linux.
 
-While Steam is a major step forward for gaming on Linux there are also 
+While Steam is a major step forward for gaming on Linux, there are also 
 many high quality and enjoyable Open Source games titles available 
 for Ubuntu MATE via the Ubuntu Software Centre. It doesn't matter if 
 you like flight simulators, motor racing, first person shooters, jump
-and run or card games you'll find something to keep you entertained.
+and run or card games, you'll find something to keep you entertained.
 
 ## Open Source
 
@@ -157,4 +157,4 @@ What Linux, Ubuntu and MATE Desktop all have in common is they are
 Open Source. Open source software is software that can be freely used, 
 changed, and shared (in modified or unmodified form) by anyone.
 
-In a nut shell Ubuntu MATE is free, in the truest sense of the word.
+In a nutshell Ubuntu MATE is free, in the truest sense of the word.

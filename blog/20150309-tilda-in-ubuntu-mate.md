@@ -14,7 +14,7 @@ This short video introduces Tilda, a pull-down terminal, that is integrated into
   * <https://github.com/lanoxx/tilda>
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/_woWvmHl3Rc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/_woWvmHl3Rc?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 New videos in this series will be added to the following YouTube playlist.

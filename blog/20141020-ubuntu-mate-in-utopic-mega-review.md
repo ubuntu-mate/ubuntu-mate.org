@@ -15,7 +15,7 @@ Here is what they had to say about Ubuntu MATE, KDE Plasma 5.1, Xubuntu and Ubun
 this is a long clip is because Ubuntu MATE features more than once `:-D`
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/96qyn4xEWrQ?start=2427&end=4116" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/96qyn4xEWrQ?html5=1&start=2427&end=4116" frameborder="0" allowfullscreen></iframe>
 </div>
 
 [Jupiter Broadcasting](http://www.jupiterbroadcasting.com/) produce a number

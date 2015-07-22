@@ -145,6 +145,7 @@ Our mirror in Italy is kindly sponsored by [Prometeus](http://www.prometeus.net)
   * [ISO_64_FILE](https://ubuntu-mate.org/trusty/ISO_64_FILE)
   * [ISO_MAC_FILE](https://ubuntu-mate.org/trusty/ISO_MAC_FILE)
 
+<!--
 ### United States
 
 Our mirror in the United States is provided by [Sourceforge](http://www.sourceforge.net).
@@ -153,6 +154,7 @@ Ubuntu MATE is [available from Sourceforge mirror sites around the world](http:/
   * [ISO_32_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/i386/ISO_32_FILE)
   * [ISO_64_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/amd64/ISO_64_FILE)
   * [ISO_MAC_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/amd64+mac/ISO_MAC_FILE)
+-->
 
 ## Sponsors
 

@@ -10,17 +10,18 @@
 -->
 
 The Ubuntu MATE team have made a generic Ubuntu MATE 15.04 root file system for 
-ARMv7 based devices. This root file system is intended for ARMv7 enthusiasts and 
-board manufacturers who'd like to make an Ubuntu MATE image for their device(s). 
-In order to adapt the root file system for your device you'll need to:
+aarch32 (ARMv7) based devices. This root file system is intended for ARMv7
+enthusiasts and board manufacturers who'd like to make an Ubuntu MATE image for
+their device(s). In order to adapt the root file system for your device you'll
+need to:
 
   * Add a boot loader
   * Add a kernel
   * Add X.org 1.17 drivers
   * Add any other hardware specific configuration
   
-We'd love Ubuntu MATE images for more ARMv7 devices and we will gladly host the
-images and catalogue what the community creates on ubuntu-mate.org.
+We'd love Ubuntu MATE images for more aarch32 (ARMv7) devices and we will gladly
+host the images and catalogue what the community creates.
 
 The root file system is based on the regular Ubuntu `armhf` base, and not the
 new Snappy Core, which means that the installation procedure for applications is
@@ -32,24 +33,26 @@ own user account and configure your regional settings. The first boot is quite
 slow, but once the first boot configuration is complete subsequent boots are
 much quicker.
 
-## Making an Ubuntu MATE image for ARMv7 based devices
+## Making an Ubuntu MATE image for aarch32 (ARMv7) based devices
 
 These instructions are brief but hopefully sufficient for ARM device hackers to
 get started.
 
-### Download
+## Download
 
-The generic Ubuntu MATE armhf root filesystem tarball is [available from Sourceforge mirror
-sites around the world](http://sourceforge.net/projects/ubuntu-mate/files/15.04/armhf/).
+The generic Ubuntu MATE aarch32 (ARmv7) root filesystem tarball is available
+via BitTorrect and direct download from a few of the Ubuntu MATE mirror
+sites.
 
 <div class="row">
   <div class="col-lg-6">
     <div class="bs-component">
       <div class="list-group">
-        <a class="list-group-item active">ARMv7</a>
-        <p class="list-group-item">For ARMv7 based devices but will require that you add your devices boot loader, kernel and other drivers.</p>
+        <a class="list-group-item active">aarch32 (ARMv7)</a>
+        <p class="list-group-item">For aarch32 (ARMv7) based devices but will require that you add your devices boot loader, kernel and other drivers.</p>
         <p class="list-group-item">Size : 903 MB</p>
-        <a class="list-group-item" href="http://master.dl.sourceforge.net/project/ubuntu-mate/15.04/armhf/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz</u></strong></a>
+        <p class="list-group-item">MD5 : <code>dcbc6539d2260ddcc7bb13a963f35583</code></p>
+        <a class="list-group-item" href="ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz</u></strong></a>
       </div>
     </div>
   </div>
@@ -87,6 +90,42 @@ sites around the world](http://sourceforge.net/projects/ubuntu-mate/files/15.04/
   </div>
 </div>
 
+### HTTP direct download
+
+In addition to the recommended BitTorrent downloads above, the .iso
+images can also be downloaded via HTTP.
+
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.r.worldssl.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
+        <img src="/assets/img/flags/European Union Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+      </a>
+      <p>Ubuntu MATE 15.04</p><p><b> aarch32 (ARMv7)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
+        <img src="/assets/img/flags/Germany.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+      </a>
+      <p>Ubuntu MATE 15.04</p><p><b> aarch32 (ARMv7)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
+        <img src="/assets/img/flags/Italy.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+      </a>
+      <p>Ubuntu MATE 15.04</p><p><b> aarch32 (ARMv7)</b></p>
+    </div>
+  </div>
+</div>
+
+If you direct download the .iso image please make sure the MD5 hash matches:
+
+    dcbc6539d2260ddcc7bb13a963f35583
+
 ### Extract the root file system
 
 The root filesystem tarball will require a minimum of 4GB to extract. Extract
@@ -111,7 +150,7 @@ Pi 2 and will require some modification for other devices.
 
 **NOTE!** Currently this script will only run on an `armhf` device.
 
-In order to add support for a new ARMv7 device you will need to:
+In order to add support for a new aarch32 (ARMv7) device you will need to:
 
   * Create a `configure_device()` function. The `configure_raspi2()` can be used
   as a reference.
@@ -146,7 +185,7 @@ check.
 
 ## Feedback and Improvements
 
-If you start working on, or create, an Ubuntu MATE image for an ARMv7 device then
+If you start working on, or create, an Ubuntu MATE image for an aarch32 (ARMv7) device then
 please let us know in the [Ubuntu MATE Development Discussion](https://ubuntu-mate.community/c/development-discussion) forum.
 
 If you have any improvements, or add support for a new device, then please submit

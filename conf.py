@@ -289,10 +289,10 @@ REDIRECTIONS = [
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
 	'rsync -av --delete /tmp/ubuntu-mate.org/output/ www/',
+        'scripts/armhf.sh',
         'scripts/trusty.sh',
         'scripts/utopic.sh',
         'scripts/minify.sh'
-        #'scripts/pre-release.sh',
 ]
 
 # For user.github.io/organization.github.io pages, the DEPLOY branch

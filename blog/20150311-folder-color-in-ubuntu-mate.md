@@ -14,7 +14,7 @@ This short video introduces Folder Color which is integrated into Ubuntu MATE 15
   * <http://foldercolor.tuxfamily.org>
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/ZrSVepoNuJk" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/ZrSVepoNuJk?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 New videos in this series will be added to the following YouTube playlist.

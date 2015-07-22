@@ -18,7 +18,7 @@ Ubuntu MATE 15.04 and how Ubuntu MATE is helping to fund other Open Source
 projects. The embedded video below starts at the begining of our chat.
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/lMZHLTyMsEw?start=3540" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/lMZHLTyMsEw?html5=1&start=3540" frameborder="0" allowfullscreen></iframe>
 </div>
 
 [Jupiter Broadcasting](http://www.jupiterbroadcasting.com/) produce a number

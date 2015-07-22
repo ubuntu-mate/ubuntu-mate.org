@@ -14,7 +14,7 @@ gave Ubuntu MATE Remix Alpha1 a little preview in [Show 320](http://www.jupiterb
 Here is what they had to say.
 
 <div align="center">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/CDFH4xefvDo?start=2165&end=2429" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/CDFH4xefvDo?html5=1&start=2165&end=2429" frameborder="0" allowfullscreen></iframe>
 </div>
 
 [Jupiter Broadcasting](http://www.jupiterbroadcasting.com/) produce a number

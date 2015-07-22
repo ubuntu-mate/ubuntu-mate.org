@@ -150,6 +150,7 @@ Our mirror in Italy is kindly sponsored by [Prometeus](http://www.prometeus.net)
   * [ISO_32_FILE](https://ubuntu-mate.org/utopic/ISO_32_FILE)
   * [ISO_64_FILE](https://ubuntu-mate.org/utopic/ISO_64_FILE)
 
+<!--
 ### United States
 
 Our mirror in the United States is provided by [Sourceforge](http://www.sourceforge.net).
@@ -158,6 +159,7 @@ world](http://sourceforge.net/projects/ubuntu-mate/files/).
 
   * [ISO_32_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.10/i386/ISO_32_FILE)
   * [ISO_64_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.10/amd64/ISO_64_FILE)
+-->
 
 ## Sponsors
 

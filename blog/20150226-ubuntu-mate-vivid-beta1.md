@@ -62,7 +62,7 @@ Here what changed since Ubuntu MATE 15.04 Alpha2:
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
   * Added an interface layout switcher to MATE Tweak, see the video below.
 
-<div align="center"><iframe width="480" height="360" src="https://www.youtube.com/embed/YI4IWO_SpiI" frameborder="0" allowfullscreen></iframe></div>
+<div align="center"><iframe width="480" height="360" src="https://www.youtube.com/embed/YI4IWO_SpiI&html5=1" frameborder="0" allowfullscreen></iframe></div>
 
   * Added [Plank](https://launchpad.net/plank).
     * Plank is not enabled by default, but can be activated via the *Eleven* layout in MATE Tweak.

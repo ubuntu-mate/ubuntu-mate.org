@@ -14,7 +14,7 @@ This short video introduces Gufw, a firewall configuration utility, that is inte
   * <http://gufw.org>
 
 <div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/FBaFL6UnDAE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/FBaFL6UnDAE?html5=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 New videos in this series will be added to the following YouTube playlist.
