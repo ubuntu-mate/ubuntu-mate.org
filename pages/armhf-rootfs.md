@@ -33,6 +33,15 @@ own user account and configure your regional settings. The first boot is quite
 slow, but once the first boot configuration is complete subsequent boots are
 much quicker.
 
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Release announcement</h1>
+        <p>Find out what changed in Ubuntu MATE 15.04</p>
+        <a href="/blog/ubuntu-mate-vivid-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
+        </p>
+    </div>
+</div>
+
 ## Making an Ubuntu MATE image for aarch32 (ARMv7) based devices
 
 These instructions are brief but hopefully sufficient for ARM device hackers to
@@ -45,7 +54,10 @@ via BitTorrect and direct download from a few of the Ubuntu MATE mirror
 sites.
 
 <div class="row">
-  <div class="col-lg-6">
+  <div class="col-lg-4">
+    &nbsp;
+  </div>
+  <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">aarch32 (ARMv7)</a>
@@ -56,26 +68,30 @@ sites.
       </div>
     </div>
   </div>
-  <div class="col-lg-6">
-    <div class="well bs-component">
+  <div class="col-lg-4">
+    &nbsp;
+  </div>
+</div>
+
+## Download tip
+
+<img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
+If everyone who downloaded Ubuntu MATE donated **$2.50** it would
+fund the full-time development of Ubuntu MATE *and* MATE
+Desktop. Please give us a tip and help the projects flourish! If
+you'd [like to donate more or become an Ubuntu MATE patron](/donate/)
+please visit the [donate page](/donate/).</p>
+
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component" align="center">
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
-          <legend>Download tip</legend>
-          <p>If everyone who downloaded Ubuntu MATE donated $2.50 it would
-          fund the full-time development of Ubuntu MATE <i>and</i> MATE
-          Desktop. Please give us a tip and help the projects flourish!</p>
-          <p>If you'd <a href="/donate/">like to donate more or become an Ubuntu MATE patron</a>
-          please visit the <a href="/donate/">donate</a> page.</p>
-          <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
-          <div class="form-group">
-            <div class="col-lg-6">
-              <button type="submit" class="btn btn-primary">Tip us $2.50</button>
-            </div>
-          </div>
+          <button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE for armhf rootfs Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 armhf-rootfs Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -85,7 +101,49 @@ sites.
         <input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
         <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-      </form>  
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component" align="center">
+      <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <fieldset>
+            <button type="submit" class="btn btn-primary">Tip us <b>$5.00</b></button>
+        </fieldset>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="6282B4CZGVCB6">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 armhf-rootfs Download Tip">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="charset" value="UTF-8">
+        <input type="hidden" name="amount" value="5.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component" align="center">
+      <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <fieldset>
+          <button type="submit" class="btn btn-primary">Tip us <b>$10.00</b></button>
+        </fieldset>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="6282B4CZGVCB6">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 armhf-rootfs Download Tip">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="charset" value="UTF-8">
+        <input type="hidden" name="amount" value="10.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+      </form>
     </div>
   </div>
 </div>
@@ -99,7 +157,7 @@ can also be downloaded via HTTP.
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/assets/img/flags/European Union Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
       <p>Ubuntu MATE 15.04 from European CDN</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
@@ -107,7 +165,7 @@ can also be downloaded via HTTP.
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/assets/img/flags/Germany Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
       <p>Ubuntu MATE 15.04 from German mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
@@ -115,7 +173,7 @@ can also be downloaded via HTTP.
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.org/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/assets/img/flags/Italy Flag.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
       <p>Ubuntu MATE 15.04 from Italian mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
@@ -221,15 +279,6 @@ useful reference.
 ### 2015-05-09
 
   * Initial Release.
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.04</p>
-        <a href="/blog/ubuntu-mate-vivid-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
-        </p>
-    </div>
-</div>
 
 <script>
   // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/

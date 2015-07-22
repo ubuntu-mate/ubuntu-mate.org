@@ -12,81 +12,72 @@
 The Ubuntu MATE .iso image allows you to try Ubuntu MATE without 
 changing your computer at all, and at your option to install it 
 permanently later. You will need at least 512MB of RAM to install 
-from this image. The image can be burned to a DVD, mounted as an ISO 
-file, or be directly written to a USB stick using a utility like `dd` 
-or `ddrescue` (from the `gddrescue` package), for example:
-
-    sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
-    sudo ddrescue -d -D --force ISO_64_FILE /dev/sdx
-    sudo ddrescue -d -D --force ISO_MAC_FILE /dev/sdx
-
-If you want to make a bootable USB with Windows try [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
-
-If you direct download the .iso image please make sure the appropriate
-MD5 hash matches.
+from this image. 
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Grow your community</h1>
-        <p>Become a full Ubuntu MATE community member by helping to grow and
-        sustain it. Warm and fuzzy sensations guaranteed.</p>
-        <a href="/donate/" class="btn btn-primary btn-lg">Donate</a>
+        <h1>Release announcement</h1>
+        <p>Find out what changed in ANN_TITLE</p>
+        <a href="ANN_URL" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
 
-## Download options
+## Download
 
-Ubuntu MATE is currently available for two architectures.
+If you can spare the bytes, please download via BitTorrent and leave
+the client open after your download is finished, so you can seed it
+back to others. <i>A web-seed capable client is recommended for fastest
+download speeds.</i></p>
 
-<div class="bs-component">
-    <div class="alert alert-info">
-        <strong>BitTorrent</strong> If you can spare the bytes, please
-        download via BitTorrent and leave the client open after your
-        download is finished, so you can seed it back to others. <i>A
-        web-seed capable client is recommended for fastest download speeds.</i>
-    </div>
-</div>
+Ubuntu MATE is currently available for three architectures.
+
+  * **PC (Intel x86)** For almost all PCs. This includes most machines with Intel/AMD/etc type processors and almost all computers that run Microsoft Windows, as well as newer Apple Macintosh systems based on Intel processors. Choose this if you are at all unsure.
+  * **64-bit PC (AMD64)** Choose this to take full advantage of computers based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2). If you have a non-64-bit processor made by AMD, or if you need full support for 32-bit code, use the Intel x86 images instead.
+  * **64-bit Mac (AMD64)** Choose this to take full advantage of computers based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2). If you have a non-64-bit processor made by AMD, or if you need full support for 32-bit code, use the Intel x86 images instead. This image is adjusted to work properly on Mac systems.
 
 <div class="row">
   <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active">PC (Intel x86)</a>
-        <p class="list-group-item">For almost all PCs. This includes most machines with Intel/AMD/etc type processors and almost all computers that run Microsoft Windows, as well as newer Apple Macintosh systems based on Intel processors. Choose this if you are at all unsure.</p>
-        <p class="list-group-item">Size : ISO_32_SIZE MB</p>
-        <p class="list-group-item">Hash : <code>ISO_32_MD5</code></p>
-        <a class="list-group-item" href="https://ubuntu-mate.org/trusty/TOR_32_FILE"><strong>Torrent : <u>TOR_32_FILE</ul></strong></a>
-      </div>
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/trusty/TOR_32_FILE">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 Torrent</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active">64-bit PC (AMD64)</a>
-        <p class="list-group-item">Choose this to take full advantage of computers based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2). If you have a non-64-bit processor made by AMD, or if you need full support for 32-bit code, use the Intel x86 images instead.</p>
-        <p class="list-group-item">Size : ISO_64_SIZE MB</p>
-        <p class="list-group-item">Hash : <code>ISO_64_MD5</code></p>
-        <a class="list-group-item" href="https://ubuntu-mate.org/trusty/TOR_64_FILE"><strong>Torrent : <u>TOR_64_FILE</u></strong></a>
-      </div>
+    <div class="well bs-component text-center">
+        <a href="https://ubuntu-mate.org/trusty/TOR_64_FILE">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
-    <div class="well bs-component">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/trusty/TOR_MAC_FILE">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 Torrent</p><p><b>64-bit Mac (AMD64)</b></p>
+    </div>
+  </div>
+</div>
+
+## Download tip
+
+<img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
+If everyone who downloaded Ubuntu MATE donated **$2.50** it would
+fund the full-time development of Ubuntu MATE *and* MATE
+Desktop. Please give us a tip and help the projects flourish! If
+you'd [like to donate more or become an Ubuntu MATE patron](/donate/)
+please visit the [donate page](/donate/).</p>
+
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component" align="center">
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
-          <legend>Download tip</legend>
-          <p>If everyone who downloaded Ubuntu MATE donated $2.50 it would
-          fund the full-time development of Ubuntu MATE <i>and</i> MATE
-          Desktop. Please give us a tip and help the projects flourish!</p>
-          <p>If you'd <a href="/donate/">like to donate more or become an Ubuntu MATE patron</a>
-          please visit the <a href="/donate/">donate</a> page.</p>
-          <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
-          <div class="form-group">
-            <div class="col-lg-6">
-              <button type="submit" class="btn btn-primary">Tip us $2.50</button>
-            </div>
-          </div>
+          <button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
@@ -100,18 +91,51 @@ Ubuntu MATE is currently available for two architectures.
         <input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
         <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-      </form>  
+      </form>
     </div>
   </div>
-</div>
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Release announcement</h1>
-        <p>Find out what changed in ANN_TITLE</p>
-        <a href="ANN_URL" class="btn btn-primary btn-lg">Release announcement</a>
-        </p>
+  <div class="col-lg-4">
+    <div class="well bs-component" align="center">
+      <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <fieldset>
+            <button type="submit" class="btn btn-primary">Tip us <b>$5.00</b></button>
+        </fieldset>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="6282B4CZGVCB6">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 14.04 Download Tip">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="charset" value="UTF-8">
+        <input type="hidden" name="amount" value="5.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+      </form>
     </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component" align="center">
+      <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <fieldset>
+          <button type="submit" class="btn btn-primary">Tip us <b>$10.00</b></button>
+        </fieldset>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="6282B4CZGVCB6">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 14.04 Download Tip">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="charset" value="UTF-8">
+        <input type="hidden" name="amount" value="10.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+      </form>
+    </div>
+  </div>
 </div>
 
 ## HTTP direct download
@@ -119,42 +143,105 @@ Ubuntu MATE is currently available for two architectures.
 In addition to the recommended BitTorrent downloads above, the .iso
 images can also be downloaded via HTTP.
 
-### European CDN
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_32_FILE">
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_64_FILE">
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit PC (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_MAC_FILE">
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
+    </div>
+  </div>
+</div>
 
-Our European content distribution network (CDN) is kindly donated by
-[First Colo](http://www.first-colo.com) and will automatically download from a
-location closest to you.
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/i386/ISO_32_FILE">
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/amd64/ISO_64_FILE">
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit PC (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/amd64+mac/ISO_MAC_FILE">
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
+    </div>
+  </div>
+</div>
 
-  * [ISO_32_FILE](https://ubuntu-mate.r.worldssl.net/trusty/ISO_32_FILE)
-  * [ISO_64_FILE](https://ubuntu-mate.r.worldssl.net/trusty/ISO_64_FILE)
-  * [ISO_MAC_FILE](https://ubuntu-mate.r.worldssl.net/trusty/ISO_MAC_FILE)
+<div class="row">
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/trusty/ISO_32_FILE">
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/trusty/ISO_64_FILE">
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit PC (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/trusty/ISO_MAC_FILE">
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
+    </div>
+  </div>
+</div>
 
-### Germany
+If you direct download the .iso image please make sure the MD5 hash matches:
 
-Our mirror in Germany is kindly donated by [First Colo](http://www.first-colo.com).
+  * ISO_32_FILE - `ISO_32_MD5`
+  * ISO_64_FILE - `ISO_64_MD5`
+  * ISO_MAC_FILE - `ISO_MAC_MD5`
 
-  * [ISO_32_FILE](http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/i386/ISO_32_FILE)
-  * [ISO_64_FILE](http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/amd64/ISO_64_FILE)
-  * [ISO_MAC_FILE](http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/amd64+mac/ISO_MAC_FILE)
+The image can be burned to a DVD, mounted as an ISO 
+file, or be directly written to a USB stick using a utility like `dd` 
+or `ddrescue` (from the `gddrescue` package), for example:
 
-### Italy
+    sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
+    sudo ddrescue -d -D --force ISO_64_FILE /dev/sdx
+    sudo ddrescue -d -D --force ISO_MAC_FILE /dev/sdx
 
-Our mirror in Italy is kindly sponsored by [Prometeus](http://www.prometeus.net).
+If you want to make a bootable USB with Windows try [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
 
-  * [ISO_32_FILE](https://ubuntu-mate.org/trusty/ISO_32_FILE)
-  * [ISO_64_FILE](https://ubuntu-mate.org/trusty/ISO_64_FILE)
-  * [ISO_MAC_FILE](https://ubuntu-mate.org/trusty/ISO_MAC_FILE)
-
-<!--
-### United States
-
-Our mirror in the United States is provided by [Sourceforge](http://www.sourceforge.net).
-Ubuntu MATE is [available from Sourceforge mirror sites around the world](http://sourceforge.net/projects/ubuntu-mate/files/).
-
-  * [ISO_32_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/i386/ISO_32_FILE)
-  * [ISO_64_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/amd64/ISO_64_FILE)
-  * [ISO_MAC_FILE](http://master.dl.sourceforge.net/project/ubuntu-mate/14.04.2/amd64+mac/ISO_MAC_FILE)
--->
+If you direct download the .iso image please make sure the appropriate
+MD5 hash matches.
 
 ## Sponsors
 

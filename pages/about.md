@@ -40,11 +40,6 @@ Ubuntu MATE has a number of guiding objectives and goals.
   * Software selection will favour functionality and stability over lightness and whimsy.
   * Get adopted as an official Ubuntu *"flavour"*.
 
-## Frequently Asked Questions
-
-If you have a question about Ubuntu MATE it may have already been answered
-in the [FAQ](/faq/).
-
 ## Hardware requirements
 
 <div class="row">
@@ -87,4 +82,3 @@ in the [FAQ](/faq/).
         <a href="/faq/" class="btn btn-primary btn-lg">FAQ</a>
     </div>
 </div>
-

@@ -279,6 +279,7 @@ ARCHIVE_FILENAME = "index.html"
 REDIRECTIONS = [
 ("longterm/index.html", "/trusty/index.html"),
 ("download/index.html", "/vivid/index.html"),
+("utopic/index.html", "/vivid/index.html"),
 ]
 
 # Commands to execute to deploy. Can be anything, for example,
