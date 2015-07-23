@@ -180,9 +180,9 @@ can also be downloaded via HTTP.
   </div>
 </div>
 
-If you direct download the .iso image please make sure the MD5 hash matches:
+If you direct download the image please make sure the MD5 hash matches:
 
-    dcbc6539d2260ddcc7bb13a963f35583
+  * `dcbc6539d2260ddcc7bb13a963f35583`
 
 ### Sponsors
 

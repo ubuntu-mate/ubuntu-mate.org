@@ -175,9 +175,9 @@ can also be downloaded via HTTP.
   </div>
 </div>
 
-If you direct download the .iso image please make sure the MD5 hash matches:
+If you direct download the image please make sure the MD5 hash matches:
 
-    ea74db696bb50907a12ffbc2f2eeb4b5
+  * `ea74db696bb50907a12ffbc2f2eeb4b5`
 
 ### Sponsors
 
