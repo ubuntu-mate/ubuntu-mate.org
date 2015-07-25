@@ -26,7 +26,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component">
-    <a href="https://www.prometeus.net/billing/aff.php?aff=239"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
+    <a href="https://www.first-colo.com/"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First-Colo" /></a>
     </div>
   </div>
 </div>

@@ -1,4 +1,4 @@
-<!-- 
+<!--
 .. title: Ubuntu MATE for the Raspberry Pi 2
 .. slug: raspberry-pi
 .. date: 2015-04-21 23:01:09 UTC
@@ -15,9 +15,9 @@ for the Raspberry Pi 2 which you can download or build yourself.
 The image is functional and based on the regular Ubuntu `armhf` base, and
 not the new Snappy Core, which means that the installation procedure for
 applications is the same as that for the regular desktop version, ie using
-`apt-get`. 
+`apt-get`.
 
-We have done what we can to optimise the build for the Raspberry Pi 2 and 
+We have done what we can to optimise the build for the Raspberry Pi 2 and
 one can comfortably use applications such as LibreOffice, which in fact is
 a joy to use :-) But the microSDHC I/O throughput is a bottleneck so we
 recommend that you use a Class 6 or Class 10 microSDHC card. If you build
@@ -29,7 +29,7 @@ similar to Raspbian.
 
 **NOTE! There are no predefined user accounts**. The first time you boot the
 Ubuntu MATE image it will run through a setup wizard where you can create your
-own user account and configure your regional settings. The first boot is quite 
+own user account and configure your regional settings. The first boot is quite
 slow, but once the first boot configuration is complete subsequent boots are
 much quicker.
 
@@ -50,30 +50,76 @@ much quicker.
 
 ## Download
 
-A pre-built image is also available.
+A pre-built image of Ubuntu MATE 15.04 for the Raspberry Pi 2 is available
+via BitTorrent and direct download. If you can spare the bytes, please
+download via BitTorrent and leave the client open after your download is
+finished, so you can seed it back to others. <i>A web-seed capable client is
+recommended for fastest download speeds.</i></p>
+
+Many thanks to [First Colo](http://www.first-colo.com") for contributing the
+hosting and bandwidth for the Ubuntu MATE downloads.
 
 <div class="row">
-  <div class="col-lg-4">&nbsp;</div>
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active">Raspberry Pi 2 (ARMv7)</a>
-        <p class="list-group-item">For the Raspberry Pi 2, but not the original Raspberry Pi models based on ARMv6.</p>
-        <p class="list-group-item">Size : 903 MB</p>
-        <p class="list-group-item">MD5 : <code>ea74db696bb50907a12ffbc2f2eeb4b5</code></p>
-        <a class="list-group-item" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2"><strong>File: <u>ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2</u></strong></a>
-      </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Torrent" title="Ubuntu MATE 15.04 Raspberry Pi 2 Torrent" />
+      </a>
+      <p>Ubuntu MATE 15.04 via BitTorrent</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
-  <div class="col-lg-4">&nbsp;</div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.04 from European CDN</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
+        <img src="/assets/img/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.04 from Canadian mirror</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
+        <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.04 from French mirror</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ger.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.04 from German mirror</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ita.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.04 from Italian mirror</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
 </div>
+
+If you direct download the image please make sure the MD5 hash matches:
+
+  * `ea74db696bb50907a12ffbc2f2eeb4b5`
 
 ## Download tip
 
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 If everyone who downloaded Ubuntu MATE donated **$2.50** it would
 fund the full-time development of Ubuntu MATE *and* MATE
-Desktop. Please give us a tip and help the projects flourish! If
+Desktop. <u>Please give us a tip and help both projects flourish!</u> If
 you'd [like to donate more or become an Ubuntu MATE patron](/donate/)
 please visit the [donate page](/donate/).</p>
 
@@ -143,60 +189,6 @@ please visit the [donate page](/donate/).</p>
   </div>
 </div>
 
-### HTTP direct download
-
-In addition to the recommended BitTorrent downloads above, the image
-can also be downloaded via HTTP.
-
-<div class="row">
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.04 from European CDN</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.04 from German mirror</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.04 from Italian mirror</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-</div>
-
-If you direct download the image please make sure the MD5 hash matches:
-
-  * `ea74db696bb50907a12ffbc2f2eeb4b5`
-
-### Sponsors
-
-Many thanks to [First Colo](http://www.first-colo.com") and [Prometeus](http://www.prometeus.net)
-for sponsoring the hosting and bandwidth for the Ubuntu MATE download.
-
-<div class="row">
-  <div class="col-lg-6">
-    <div class="well bs-component">
-    <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo" /></a>
-    </div>
-  </div>
-  <div class="col-lg-6">
-    <div class="well bs-component">
-    <a href="https://www.prometeus.net/billing/aff.php?aff=239"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
-    </div>
-  </div>
-</div>
-
 ## Putting the image on microSDHC
 
 Download the image and then:
@@ -232,14 +224,14 @@ it's not hard to do manually. Once booted:
 
     sudo fdisk /dev/mmcblk0
 
-Delete the second partition (d, 2), then re-create it using the defaults 
+Delete the second partition (d, 2), then re-create it using the defaults
 (n, p, 2, enter, enter), then write and exit (w). Reboot the system, then:
 
     sudo resize2fs /dev/mmcblk0p2
 
 ## Hardware accelerated video
 
-To play videos using **hardware accelerated decoding you will need MPEG-2 and/or VC-1 
+To play videos using **hardware accelerated decoding you will need MPEG-2 and/or VC-1
 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/license-keys/)**.
 You can then use `omxplayer`, which uses the Raspberry Pi VideoCore libraries, to
 provide hardware accelerated video playback.
@@ -316,7 +308,7 @@ BitBucket.
   * Added `omxplayer` 0.3.6~git20150217~5337be8.
   * Added `linux-firmware`.
   * Added `openssh-server`.
-  
+
 ### 2015-03-07
 
   * Initial Release.
@@ -329,7 +321,7 @@ BitBucket.
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

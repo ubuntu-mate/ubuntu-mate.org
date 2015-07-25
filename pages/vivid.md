@@ -64,7 +64,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 If everyone who downloaded Ubuntu MATE donated **$2.50** it would
 fund the full-time development of Ubuntu MATE *and* MATE
-Desktop. Please give us a tip and help the projects flourish! If
+Desktop. <u>Please give us a tip and help both projects flourish!</u> If
 you'd [like to donate more or become an Ubuntu MATE patron](/donate/) 
 please visit the [donate page](/donate/).</p>
 

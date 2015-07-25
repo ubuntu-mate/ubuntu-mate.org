@@ -24,13 +24,13 @@ fi
 
 function do_release() {
     local ARCH="${1}"
-    local ISO_PATH=$(ls -1tr ${HOME}/ISO/${MODE}/${ARCH}/*${ARCH}.iso | tail -n1)
+    local ISO_PATH=$(ls -1tr ${HOME}/ISO-Mirror/${MODE}/${ARCH}/*${ARCH}.iso | tail -n1)
     local ISO_FILE=$(basename ${ISO_PATH})
     local ISO_SIZE=$(du -m ${ISO_PATH} | cut -f1 -s)
-    local MD5_PATH=$(ls -1tr ${HOME}/ISO/${MODE}/${ARCH}/*${ARCH}.iso.md5 | tail -n1)
+    local MD5_PATH=$(ls -1tr ${HOME}/ISO-Mirror/${MODE}/${ARCH}/*${ARCH}.iso.md5 | tail -n1)
     local MD5_FILE=$(basename ${MD5_PATH})
     local MD5_HASH=$(cat ${MD5_PATH} | cut -f1 -d' ')
-    local TOR_PATH=$(ls -1tr ${HOME}/ISO/${MODE}/${ARCH}/*${ARCH}.iso.torrent | tail -n1)
+    local TOR_PATH=$(ls -1tr ${HOME}/ISO-Mirror/${MODE}/${ARCH}/*${ARCH}.iso.torrent | tail -n1)
     local TOR_FILE=$(basename ${TOR_PATH})
 
     if [ "${ARCH}" == "i386" ]; then

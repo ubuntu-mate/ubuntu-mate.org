@@ -1,18 +1,18 @@
-<!-- 
+<!--
 .. title: Download Ubuntu MATE 14.04.2
 .. slug: trusty
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE,trusty,14.04,download,LTS
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 .. author: Martin Wimpress
 -->
 
-The Ubuntu MATE .iso image allows you to try Ubuntu MATE without 
-changing your computer at all, and at your option to install it 
-permanently later. You will need at least 512MB of RAM to install 
-from this image. 
+The Ubuntu MATE .iso image allows you to try Ubuntu MATE without
+changing your computer at all, and at your option to install it
+permanently later. You will need at least 512MB of RAM to install
+from this image.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -68,7 +68,7 @@ Ubuntu MATE is currently available for three architectures.
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 If everyone who downloaded Ubuntu MATE donated **$2.50** it would
 fund the full-time development of Ubuntu MATE *and* MATE
-Desktop. Please give us a tip and help the projects flourish! If
+Desktop. <u>Please give us a tip and help both projects flourish!</u> If
 you'd [like to donate more or become an Ubuntu MATE patron](/donate/)
 please visit the [donate page](/donate/).</p>
 
@@ -144,6 +144,22 @@ In addition to the recommended BitTorrent downloads above, the .iso
 images can also be downloaded via HTTP.
 
 <div class="row">
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://can.ubuntu-mate.net/trusty/ISO_32_FILE">
+        <img src="/assets/img/flags/Canada-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Canadian mirror</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://fra.ubuntu-mate.net/trusty/ISO_32_FILE">
+        <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from French mirror</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_32_FILE">
@@ -152,71 +168,103 @@ images can also be downloaded via HTTP.
       <p>Ubuntu MATE 14.04 from European CDN</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ger.ubuntu-mate.net/trusty/ISO_32_FILE">
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ita.ubuntu-mate.net/trusty/ISO_32_FILE">
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>PC (Intel x86)</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://can.ubuntu-mate.net/trusty/ISO_64_FILE">
+        <img src="/assets/img/flags/Canada-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Canadian mirror</p><p><b>64-bit (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://fra.ubuntu-mate.net/trusty/ISO_64_FILE">
+        <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from French mirror</p><p><b>64-bit (AMD64)</b></p>
+    </div>
+  </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_64_FILE">
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>64-bit (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ger.ubuntu-mate.net/trusty/ISO_64_FILE">
         <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit PC (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ita.ubuntu-mate.net/trusty/ISO_64_FILE">
+        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit (AMD64)</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="https://can.ubuntu-mate.org/trusty/ISO_MAC_FILE">
+        <img src="/assets/img/flags/Canada-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from Canadian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="https://fra.ubuntu-mate.org/trusty/ISO_MAC_FILE">
+        <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+      </a>
+      <p>Ubuntu MATE 14.04 from French mirror</p><p><b>64-bit Mac (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_MAC_FILE">
-        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
+        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
       </a>
-      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
+      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>64-bit Mac (AMD64)</b></p>
     </div>
   </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-4">
+  <div class="col-lg-2">
     <div class="well bs-component text-center">
-      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/i386/ISO_32_FILE">
-        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
+      <a href="https://ger.ubuntu-mate.org/trusty/ISO_MAC_FILE">
+        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
       </a>
-      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit Mac (AMD64)</b></p>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-2">
     <div class="well bs-component text-center">
-      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/amd64/ISO_64_FILE">
-        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
-      </a>
-      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit PC (AMD64)</b></p>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="http://pub.mate-desktop.org/iso/ubuntu-mate/trusty/amd64+mac/ISO_MAC_FILE">
-        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
-      </a>
-      <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/trusty/ISO_32_FILE">
-        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
-      </a>
-      <p>Ubuntu MATE 14.04 from European CDN</p><p><b>PC (Intel x86)</b></p>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/trusty/ISO_64_FILE">
-        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
-      </a>
-      <p>Ubuntu MATE 14.04 from German mirror</p><p><b>64-bit PC (AMD64)</b></p>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/trusty/ISO_MAC_FILE">
+      <a href="https://ita.ubuntu-mate.org/trusty/ISO_MAC_FILE">
         <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from Italian mirror</p><p><b>64-bit Mac (AMD64)</b></p>
@@ -230,8 +278,8 @@ If you direct download the .iso image please make sure the MD5 hash matches:
   * ISO_64_FILE - `ISO_64_MD5`
   * ISO_MAC_FILE - `ISO_MAC_MD5`
 
-The image can be burned to a DVD, mounted as an ISO 
-file, or be directly written to a USB stick using a utility like `dd` 
+The image can be burned to a DVD, mounted as an ISO
+file, or be directly written to a USB stick using a utility like `dd`
 or `ddrescue` (from the `gddrescue` package), for example:
 
     sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
@@ -286,7 +334,7 @@ ARMv7 devices.
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 
@@ -295,14 +343,14 @@ is mostly useful.
 
 ## Reporting issues
 
-Please report any issues you may find on the project's bug tracker. 
+Please report any issues you may find on the project's bug tracker.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 
 ## Getting involved
 
-Is there anything you can help with or want to be involved in? Maybe 
-you just want to discuss your experiences or ask the maintainers some 
+Is there anything you can help with or want to be involved in? Maybe
+you just want to discuss your experiences or ask the maintainers some
 questions. Please [come and talk to us](/community/).
 
 <script>

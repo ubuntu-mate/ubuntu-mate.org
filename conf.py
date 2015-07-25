@@ -289,10 +289,14 @@ REDIRECTIONS = [
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
-	'rsync -av --delete /tmp/ubuntu-mate.org/output/ www/',
-        'scripts/armhf.sh',
-        'scripts/trusty.sh',
-        'scripts/minify.sh'
+  'rsync -a --delete /tmp/ubuntu-mate.org/output/ www/',
+  'scripts/armhf.sh',
+  'scripts/trusty.sh',
+  'scripts/minify.sh',
+  'rsync -a --delete www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+  'rsync -a --delete www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+  'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+  'rsync -a --delete www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
 ]
 
 # For user.github.io/organization.github.io pages, the DEPLOY branch
