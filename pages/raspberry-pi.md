@@ -56,7 +56,7 @@ download via BitTorrent and leave the client open after your download is
 finished, so you can seed it back to others. <i>A web-seed capable client is
 recommended for fastest download speeds.</i></p>
 
-Many thanks to [First Colo](http://www.first-colo.com") for contributing the
+Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
 
 <div class="row">

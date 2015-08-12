@@ -16,8 +16,8 @@ need at least 512MB of RAM to install from this image.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.10 Alpha 1</p>
-        <a href="/blog/ubuntu-mate-wily-alpha1/" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 15.10 Alpha 2</p>
+        <a href="/blog/ubuntu-mate-wily-alpha2/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
@@ -35,26 +35,26 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-i386.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Alpha 1 PC (Intel x86) Download" title="Ubuntu MATE 15.10 Alpha 1 PC (Intel x86) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/wily-desktop-i386.iso.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Alpha 1 Torrent</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 2 Torrent</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-amd64.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Alpha 1 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 Alpha 1 64-bit PC (AMD64) Download" />
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/wily-desktop-amd64.iso.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Alpha 1 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 2 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-powerpc.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Alpha 1 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Alpha 1 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/wily-desktop-powerpc.iso.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Alpha 1 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 2 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
@@ -142,32 +142,32 @@ also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-i386.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/wily-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Alpha 1</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 2</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-amd64.iso">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/wily-desktop-amd64.iso">
           <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
         </a>
-      <p>Ubuntu MATE 15.10 Alpha 1</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 2</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/wily-desktop-powerpc.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/wily-desktop-powerpc.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Alpha 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 15.10 Alpha 2</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-1/MD5SUMS) matches.
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/alpha-2/MD5SUMS) matches.
 
 ### Mirrors
 
@@ -195,14 +195,6 @@ If you want to make a bootable USB with Windows try
         </p>
     </div>
 </div>
-
-## Useful Information
-
-You may find the following information useful, which is why we titled 
-the section *Useful Information* since the information presented here
-is mostly useful.
-
-  * [Ubuntu MATE 15.10 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
 
 ## Reporting issues
 
