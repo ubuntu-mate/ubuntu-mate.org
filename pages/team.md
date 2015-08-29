@@ -27,6 +27,7 @@ develop and test Ubuntu MATE.
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
   * [Sander Sweers](https://github.com/infirit/) Developer of [MATE Desktop](http://mate-desktop.org) and magician of everything.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
+  * [Marcos Costales](https://wiki.ubuntu.com/costales) Developer of special projects for Ubuntu MATE.
 
 ## Maintainers
 
@@ -34,7 +35,6 @@ The heroes from the Debian packaging team. Without their tireless efforts
 there would be no Ubuntu MATE.
 
   * [Mike Gabriel](http://sunweavers.net/blog/) Package maintainer for [Debian](http://www.debian.org).
-  * [Steve Zesch](https://github.com/szesch) Package maintainer for [Debian](http://www.debian.org).
   * [John Paul Adrian Glaubitz](http://users.physik.fu-berlin.de/~glaubitz/) Package maintainer for [Debian](http://www.debian.org).
   * [Vangelis Mouhtsis](https://github.com/gnugr) Package maintainer for [Debian](http://www.debian.org).
 
@@ -61,7 +61,6 @@ These fine people are bringing Ubuntu MATE to other hardware platforms.
 These are the social animals of the Ubuntu MATE community who help spread
 the word.
 
-  * [Brett Wiley](https://plus.google.com/+BrettWiley) G+ community moderator.  
   * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
 
 ## Contributors
@@ -70,4 +69,5 @@ The following people have made infrequent, yet significant, contributions
 to the Ubuntu MATE project.
 
   * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
+  * [Larry Bushey](http://goinglinux.com/) content creator for Ubuntu MATE website and Ubuntu MATE Welcome.
   * [Matt Hartley](http://www.matthartley.com/) user experience advisor.

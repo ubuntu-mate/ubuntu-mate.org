@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 15.10 Beta 1
 .. slug: ubuntu-mate-wily-beta1
-.. date: 2015-08-26 15:08:37 UTC
-.. tags: Ubuntu,MATE,Wily,beta1,draft
+.. date: 2015-08-27 13:28:37 UTC
+.. tags: Ubuntu,MATE,Wily,beta1
 .. link:
 .. description:
 .. type: text
@@ -40,7 +40,7 @@ Here's what changed in Ubuntu MATE 15.10 since Alpha 2.
       * Provides an abstract API allowing access to mixer functionality available in
       the PulseAudio, ALSA and OSS sound systems.
     * Improved multi-monitor support.
-    * Theme support has been expanded including CSD and pop-over support.
+    * Theme support has been expanded including Client Side Decorations (CSD) and pop-overs.
     * Full help and documentation is now available.
     * Static code analysis has resulted in many memory leaks being plugged.
     * Lots of bugs fixes. Really, *lots*.
@@ -48,11 +48,11 @@ Here's what changed in Ubuntu MATE 15.10 since Alpha 2.
   * Updated [Ubuntu MATE Welcome](https://ubuntu-mate.community/t/ubuntu-mate-welcome-screen/1616) 1.0.3.
     * Renamed to Welcome.
     * Added splash animation and transitions. Thanks to Luke Horwell.
-    * Added and updated the content for Introduction and Features. Thanks to Larry Bushey of Going Linux podcast.
+    * Added and updated the content for Introduction and Features. Thanks to Larry Bushey of [Going Linux](http://goinglinux.com/) podcast.
     * Added access to backup, firewall and user manager to Getting Started.
     * Added catgories to the Software page.
-    + Added a proprietary software toggle to the Software page.
-    * Added new applications to the Software page.
+    * Added a proprietary software toggle to the Software page.
+    * Added new applications to the Software page:
       * App Grid.
       * Chromium as an alternative to Google Chrome.
       * Disks.
@@ -63,11 +63,11 @@ Here's what changed in Ubuntu MATE 15.10 since Alpha 2.
     * Update buttons in Software to make them consistent.
     * Hide some elements when in a live session.
   * Updated MATE Tweak 3.5.2
-    * Added support for Fedora and Mageia panel layout.
+    * Added support for Fedora and Mageia panel layouts.
     * Update xcursor icon-theme when switching Window Manager to
-      preserve MATE xcursor preferences.
+    preserve MATE xcursor preferences.
     * Ported to Python 3.
-  * Added Deja Dup integration to Caja filemanager. Thanks to Marcos Costales.
+  * Added Deja Dup integration to Caja filemanager. Thanks to [Marcos Costales](https://wiki.ubuntu.com/costales).
     * Deja Dup now has ful content menu control in the Caja file manager.
   * Fixed unlocking a locked screen.
     * [LP: #1471454](http://launchpad.net/bugs/1471454)
@@ -78,7 +78,6 @@ We're not quite there yet. Here is the list of MATE packages that
 have not yet been updated to MATE 1.10.
 
   * atril
-  * caja-extensions
   * mate-panel
   * mate-control-center
   * mate-power-manager
@@ -96,7 +95,7 @@ The packages above should receive their 1.10 updates in the coming days.
 
 Until all the MATE components are updated to 1.10, things could be a
 bit bumpy. Ubuntu MATE 15.10 Beta 1 might be the most unstable version
-of Ubuntu MATE we've every released. But everything should be hunky-dory
+of Ubuntu MATE we've ever released. But everything should be hunky-dory
 for the final beta next month.
 
 <div class="bs-component">

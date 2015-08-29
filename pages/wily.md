@@ -35,7 +35,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/wily-desktop-i386.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-i386.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 15.10 Beta 1 Torrent</p><p><b>PC (Intel x86)</b></p>
@@ -43,7 +43,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/wily-desktop-amd64.iso.torrent">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-amd64.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 15.10 Beta 1 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
@@ -51,7 +51,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/wily-desktop-powerpc.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-powerpc.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
       <p>Ubuntu MATE 15.10 Beta 1 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
@@ -142,7 +142,7 @@ also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/wily-desktop-i386.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 15.10 Beta 1</p><p><b>PC (Intel x86)</b></p>
@@ -150,7 +150,7 @@ also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/wily-desktop-amd64.iso">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-amd64.iso">
           <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
         </a>
       <p>Ubuntu MATE 15.10 Beta 1</p><p><b>64-bit PC (AMD64)</b></p>
@@ -158,7 +158,7 @@ also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/wily-desktop-powerpc.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-powerpc.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
       <p>Ubuntu MATE 15.10 Beta 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
@@ -180,9 +180,9 @@ The image can be burned to a DVD, mounted as an ISO file, or be directly
 written to a USB stick using a utility like `dd` or `ddrescue` (from the
 `gddrescue` package), for example:
 
-    sudo ddrescue -d -D --force wily-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force wily-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force wily-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta1-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta1-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta1-desktop-powerpc.iso /dev/sdx
 
 If you want to make a bootable USB with Windows try
 [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
