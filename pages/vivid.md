@@ -170,6 +170,30 @@ If you direct download the .iso image please make sure the [appropriate
 MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/MD5SUMS)
 matches.
 
+### Purchase DVDs and USBs
+
+[OSDisc.com](https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate)
+is the leading source for Linux DVDs and USBs, serving the Linux community
+for over 10 years. Purchase ready-to-use bootable DVDs and
+[8GB - 64GB DataTraveler SE9 G2 USB 3.0](http://www.kingston.com/en/usb/personal_business#dtse9g2)
+memory sticks that come pre-installed with Ubuntu MATE and have persistent storage<i>*</i>.
+<b>Carry Ubuntu MATE 15.04, your applications and your data on a USB stick that you can boot
+on any USB equipped PC.</b>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active" href="https://www.osdisc.com/">OSDisc.com</a>
+        <a class="list-group-item" href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">
+        <img class="centered" src="/assets/img/sponsors/osdisc.gif" alt="OSDisc.com" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
+
 ### Mirrors
 
 You might prefer to find a CD image mirror server that is geographically close
