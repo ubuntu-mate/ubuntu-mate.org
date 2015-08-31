@@ -304,7 +304,7 @@ boot on any USB equipped PC.</b>
       <div class="list-group">
         <a class="list-group-item active" href="https://www.osdisc.com/">OSDisc.com</a>
         <a class="list-group-item" href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">
-        <img class="centered" src="/assets/img/sponsors/osdisc.gif" alt="OSDisc.com" /></a>
+        <img class="centered" src="/assets/img/sponsors/osdisc.png" alt="OSDisc.com" /></a>
       </div>
     </div>
   </div>
