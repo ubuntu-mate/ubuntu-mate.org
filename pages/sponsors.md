@@ -33,7 +33,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
 
 ## Patrons
 
-Many thanks to the following people for becoming Ubuntu MATE patrons who collectively donated **$366.0** this month.
+Many thanks to the following people for becoming Ubuntu MATE patrons.
 
 ### The following Patrons contribute $10, or more, every month.
 
@@ -58,8 +58,12 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td>2015-03-07 03:44:29</td>
     </tr>
     <tr>
-      <td>Alex Alexzander</td>
-      <td>2015-04-11 03:21:36</td>
+      <td>Davide Monge</td>
+      <td>2015-03-11 22:57:13</td>
+    </tr>
+    <tr>
+      <td>Steve J. Radonich IV</td>
+      <td>2014-11-09 10:44:55</td>
     </tr>
     <tr>
       <td><a href="https://twitter.com/spazmaticcelery">SpazzyC</a></td>
@@ -70,14 +74,6 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td>2015-01-04 22:47:21</td>
     </tr>
     <tr>
-      <td>Davide Monge</td>
-      <td>2015-03-11 22:57:13</td>
-    </tr>
-    <tr>
-      <td><a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan van der Hoorn</a></td>
-      <td>2015-02-21 13:18:16</td>
-    </tr>
-    <tr>
       <td>Dave Hills</td>
       <td>2015-05-14 18:12:54</td>
     </tr>
@@ -85,12 +81,32 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td>Andrew Neher</td>
       <td>2015-05-14 13:08:08</td>
     </tr>
+    <tr>
+      <td>David Rush</td>
+      <td>2015-06-20 17:04:23</td>
+    </tr>
+    <tr>
+      <td>Mike Kelley</td>
+      <td>2015-06-20 14:08:38</td>
+    </tr>
+    <tr>
+      <td>David Kerr</td>
+      <td>2015-06-17 19:42:10</td>
+    </tr>
+    <tr>
+      <td>George Kleanthous</td>
+      <td>2015-06-07 09:38:51</td>
+    </tr>
+    <tr>
+      <td>Brian Zagami</td>
+      <td>2015-07-07 23:35:19</td>
+    </tr>
   </tbody>
 </table>
 <br />
 ### The following Patrons also contribute every month.
 
-<small>David Hollings, Robert Meineke, Joe, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, DoctorKraz, Sergio Rivera, Patrik Nilsson, <a href="https://twitter.com/parzzix">Tim Apple</a>, Michael DiFazio, Silas Wulff, Jack Blakely, Adrian Evans, Matt Hartley, M Hoppes, Antoine Mate Messiah, Daniel Neilson, Scott Petty, Sascha Spettmann, david van Dyk, Arthur Vasquez, Mark Boadey, Christopher atkins, Stephen Donovan, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Stephen Cook, Tavis Gillard, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Bob Wright, Specops872, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Michael McGuire, Michael White, Lukasz, Francisco López Riojas, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Yannick Kooistra, Richard Arnold, Jason Hyder, Gaius, </small><br />
+<small>David Hollings, <a href="https://twitter.com/ChrisLAS">Tech Talk Today</a>, Robert Meineke, Joe, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, <a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan van der Hoorn</a>, DoctorKraz, Sergio Rivera, Patrik Nilsson, Silas Wulff, Jack Blakely, Adrian Evans, Matt Hartley, M Hoppes, Antoine Mate Messiah, Daniel Neilson, Scott Petty, david van Dyk, Arthur Vasquez, Mark Boadey, Michael McGuire, Ricardo Gerena, Ishmael Musgrave, Peter Mergaerts, Michael Vanier, Richard Arnold, Christopher atkins, Stephen Donovan, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Stephen Cook, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Bob Wright, Specops872, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Michael White, Lukasz, Francisco López Riojas, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Yannick Kooistra, Darren Hammond, Bevan Thomas, Jason Hyder, Michael Burchfield, Gaius, Mandy Tonks, </small><br />
 ### The *Unlucky* Patron!
 
 Darrell Vermilion is a good sport! They have chosen to be the Ubuntu MATE *unlucky* Patron, just so they can see their name in flashing lights.

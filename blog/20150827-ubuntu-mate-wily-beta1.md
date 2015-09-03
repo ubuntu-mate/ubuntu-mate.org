@@ -68,7 +68,7 @@ Here's what changed in Ubuntu MATE 15.10 since Alpha 2.
     preserve MATE xcursor preferences.
     * Ported to Python 3.
   * Added Deja Dup integration to Caja filemanager. Thanks to [Marcos Costales](https://wiki.ubuntu.com/costales).
-    * Deja Dup now has ful content menu control in the Caja file manager.
+    * Deja Dup now has full content menu control in the Caja file manager.
   * Fixed unlocking a locked screen.
     * [LP: #1471454](http://launchpad.net/bugs/1471454)
 

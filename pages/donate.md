@@ -224,6 +224,8 @@ We post an overview of how the donations were used each month.
   * [2015 April](https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/)
   * [2015 May](https://ubuntu-mate.org/blog/ubuntu-mate-may-2015-supporters/)  
   * [2015 June](https://ubuntu-mate.org/blog/ubuntu-mate-june-2015-supporters/)  
+  * [2015 July](https://ubuntu-mate.org/blog/ubuntu-mate-july-2015-supporters/)  
+  * [2015 August](https://ubuntu-mate.org/blog/ubuntu-mate-august-2015-supporters/)  
 
 <script type="text/javascript">
   function validateMonthlyForm() {
