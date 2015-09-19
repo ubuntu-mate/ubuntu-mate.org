@@ -16,7 +16,7 @@ MATE branded clothes and apparel.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Ubuntu MATE Boutique</h1>
-        <p>The Ubuntu MATE Boutique in now open and full of exotic items.</p>
+        <p>The Ubuntu MATE Boutique is now open and full of exotic items.</p>
         <a href="https://ubuntu-mate.boutique/" class="btn btn-primary btn-lg">Shop</a>
     </div>
 </div>
