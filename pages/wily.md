@@ -16,8 +16,8 @@ need at least 512MB of RAM to install from this image.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.10 Beta 1</p>
-        <a href="/blog/ubuntu-mate-wily-alpha2/" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 15.10 Beta 2</p>
+        <a href="/blog/ubuntu-mate-wily-beta2/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
@@ -35,26 +35,26 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-i386.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/ubuntu-mate-15.10-beta2-desktop-i386.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Beta 1 Torrent</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 15.10 Beta 2 Torrent</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-amd64.iso.torrent">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/ubuntu-mate-15.10-beta2-desktop-amd64.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Beta 1 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 15.10 Beta 2 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-powerpc.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/ubuntu-mate-15.10-beta2-desktop-powerpc.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Beta 1 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 15.10 Beta 2 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
@@ -142,32 +142,32 @@ also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-i386.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/ubuntu-mate-15.10-beta2-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 PC (Intel x86) Download" title="Ubuntu MATE 15.10 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Beta 1</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 15.10 Beta 2</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-amd64.iso">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/ubuntu-mate-15.10-beta2-desktop-amd64.iso">
           <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.10 64-bit PC (AMD64) Download" />
         </a>
-      <p>Ubuntu MATE 15.10 Beta 1</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 15.10 Beta 2</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/ubuntu-mate-15.10-beta1-desktop-powerpc.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/ubuntu-mate-15.10-beta2-desktop-powerpc.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.10 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.10 Beta 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 15.10 Beta 2</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-1/MD5SUMS) matches.
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/beta-2/MD5SUMS) matches.
 
 ### Mirrors
 
@@ -180,12 +180,11 @@ The image can be burned to a DVD, mounted as an ISO file, or be directly
 written to a USB stick using a utility like `dd` or `ddrescue` (from the
 `gddrescue` package), for example:
 
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta1-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta1-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta1-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta2-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta2-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-beta2-desktop-powerpc.iso /dev/sdx
 
-If you want to make a bootable USB with Windows try
-[Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
+If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.ie/).
 
 <div class="bs-component">
     <div class="jumbotron">
