@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 15.10 Beta 2
 .. slug: ubuntu-mate-wily-beta2
-.. date: 2015-08-24 13:28:37 UTC
-.. tags: Ubuntu,MATE,Wily,beta2,draft
+.. date: 2015-09-24 21:28:37 UTC
+.. tags: Ubuntu,MATE,Wily,beta2
 .. link:
 .. description:
 .. type: text
@@ -77,8 +77,8 @@ Here are the known issues.
     * A patch for this is pending and will be included in the October
     15th release candiate.
     * [LP: 1499078](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1499078)
-  * Depending on your location Ubiquity may trigger and `ubi-timezone` error.
-    * The work around is to click **Continue anyway**. This affects all flavours.
+  * Depending on your location Ubiquity may trigger an `ubi-timezone` error.
+    * The work around is to install without an active network connection. This affects all flavours.
     * [LP: 1462688](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1462688)
   * The menu used in the openSUSE panel layout crashes.
     * This is fixed upstream and an update for GNOME Main Menu will be published soon.

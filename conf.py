@@ -293,6 +293,8 @@ DEPLOY_COMMANDS = [
   'scripts/armhf.sh',
   'scripts/trusty.sh',
   'scripts/minify.sh',
+  'find www -type d -exec chmod 755 {} \;',
+  'find www -type f -exec chmod 644 {} \;',
   'rsync -a --delete www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
   'rsync -a --delete www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
   'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
