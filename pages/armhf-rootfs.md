@@ -59,7 +59,7 @@ Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
 
 <div class="row">
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.org/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Torrent" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Torrent" />
@@ -67,7 +67,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.04 via BitTorrent</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
         <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
@@ -89,14 +89,6 @@ hosting and bandwidth for the Ubuntu MATE downloads.
         <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
       <p>Ubuntu MATE 15.04 from France mirror</p><p><b> aarch32 (ARMv7)</b></p>
-    </div>
-  </div>
-  <div class="col-lg-2">
-    <div class="well bs-component text-center">
-      <a href="http://ger.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
-      </a>
-      <p>Ubuntu MATE 15.04 from German mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
   <div class="col-lg-2">

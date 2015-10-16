@@ -297,7 +297,6 @@ DEPLOY_COMMANDS = [
   'find www -type f -exec chmod 644 {} \;',
   'rsync -a --delete www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
   'rsync -a --delete www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
-  'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
   'rsync -a --delete www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
 ]
 

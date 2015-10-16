@@ -60,7 +60,7 @@ Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
 
 <div class="row">
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Torrent" title="Ubuntu MATE 15.04 Raspberry Pi 2 Torrent" />
@@ -68,7 +68,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.04 via BitTorrent</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
         <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
@@ -90,14 +90,6 @@ hosting and bandwidth for the Ubuntu MATE downloads.
         <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
       </a>
       <p>Ubuntu MATE 15.04 from French mirror</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-  <div class="col-lg-2">
-    <div class="well bs-component text-center">
-      <a href="http://ger.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.04 Raspberry Pi 2 Download" title="Ubuntu MATE 15.04 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.04 from German mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
   <div class="col-lg-2">
