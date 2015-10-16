@@ -14,7 +14,7 @@ for making Ubuntu MATE a thing. If you'd like to get involved
 
 ## Founders
 
-The idiots who thought Ubuntu MATE would be a good idea.
+The loons who thought Ubuntu MATE would be a good idea.
 
   * [Martin Wimpress](http://flexion.org) Project co-founder. [MATE Desktop](http://mate-desktop.org) developer and Ubuntu MATE project lead.
   * [Alan Pope](http://popey.com) Project co-founder. [Canonical](http://www.canonical.com) and [Ubuntu](http://www.ubuntu.com) liaison. Enthusiam co-ordinator.
