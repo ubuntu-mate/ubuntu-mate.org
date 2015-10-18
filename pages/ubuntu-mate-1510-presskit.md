@@ -1,27 +1,25 @@
-<!-- 
+<!--
 .. title: Ubuntu MATE 15.10 Press Kit
 .. slug: ubuntu-mate-1510-presskit
-.. date: 2015-10-18 11:00:00 UTC
+.. date: 2015-10-19 11:00:00 UTC
 .. tags: Ubuntu,MATE,Press Kit
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 -->
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Achievement Unlocked!</h1>
-        <p>If you didn't already know, Ubuntu MATE is now an official member of the Ubuntu family.</p>
-        <p><img class="centered" src="/Ubuntu-MATE-Remix.png" alt="Ubuntu MATE" /></p>
-    </div>
-</div>
+With Ubuntu MATE 15.10 due for release on October 22nd 2015 this page
+will help you better understand what Ubuntu MATE is and how its been
+improved since the 15.04 release.
 
-Ubuntu MATE is a community developed [Ubuntu](http://www.ubuntu.com) based 
-operating system that beautifully integrates the [MATE Desktop](http://mate-desktop.org)
-and offers a stable, easy-to-use operating system with a configurable desktop
-environment. Ideal for those who want the most out of their desktops, laptops and
-netbooks and prefer a traditional desktop metaphor. With modest hardware
-requirements it is suitable for modern workstations and older hardware alike.
+Ubuntu MATE is an community developed [Ubuntu](http://www.ubuntu.com)
+based operating system that beautifully integrates the [MATE
+Desktop](http://mate-desktop.org) and offers a stable, easy-to-use
+operating system with a configurable desktop environment. Ideal for
+those who want the most out of their computers and prefer a traditional
+desktop metaphor. With modest hardware requirements it is suitable for
+modern desktops and laptops, micro computers and older hardware alike.
+Ubuntu MATE is an official member of the Ubuntu family.
 
 ## Objectives
 
@@ -34,30 +32,73 @@ Ubuntu MATE has a number of guiding objectives and goals.
   * Recreate the halcyon days of Ubuntu for users who prefer a traditional desktop metaphor.
   * Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar.
   * When possible contribute to [Debian](http://www.debian.org) so both the Debian and Ubuntu communities benefit.
-  * Package selection will favour functionality and stability over lightness and whimsy.
-  * Get adopted as an official Ubuntu *"flavour"*.
+  * Software selection will favour functionality and stability over lightness and whimsy.
 
-## New features in Ubuntu MATE 15.10
+## New in Ubuntu MATE 15.10
 
-Here is a run down of some of the new features in Ubuntu MATE 15.10
-compared to Ubuntu MATE 15.04:
+Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
   * Established a hardware partnership with [LibreTrend](https://www.libretrend.com/en/).
-  * Added Ubuntu MATE Welcome, a new utility to help users get orientated with Ubuntu MATE.
-  * Added new community contributed desktop backgrounds.
-  * Improved the Raspberry Pi 2 build to add many features requested by the Raspbery Pi 2 community.
-  * Improved PowerPC support. Endian bugs fixed in X11 and WebKit so the PowerPC port now has feature parity with the PC version.
-  * Updated to Linux 4.2.
-  * Updated to MATE Desktop 1.10.
-  * Updated to Firefox 41.
-  * Updated to LibreOffice 5.0.
-  * ...and many other minor improvements and bug fixes.
+  * Launched the [Ubuntu MATE Boutique](https://ubuntu-mate.boutique).
+  * Integrated MATE Desktop 1.10.
+    * Caja now has an extension manager so plugins can be enabled/disabled at run-time.
+    * A new audio mixer library, `libmatemixer` provides an abstract API allowing access to mixer functionality available in the PulseAudio, ALSA and OSS sound systems.
+    * Improved multi-monitor support.
+    * Full help and documentation is now included.
+    * Atril now supports ePub.
+    * MATE Sensors Applet now supports NVIDIA GPUs.
+    * Lots of bugs fixes. Really, *lots*.
+    * For more details see the [MATE 1.10 Release Notes](http://mate-desktop.org/blog/2015-06-11-mate-1-10-released/).
+  * Added support `udate-manager -d` and `do-release-upgrade -d` to upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10.
+  * Added Ubuntu MATE Welcome, a new utility unique to Ubuntu MATE.
+    * Welcome helps orientate users with their new operating system.
+    * Welcome guides users through post-install configuration such as installing drivers and adding language support.
+    * Welcome provides a one-click installation from a highly curated list of best-in-class software to *"get stuff done"*.
+      * The installation options include Steam, Google Chrome, Dropbox, Spotify, Syncthing, Telegram, uGet, Minecraft,
+      Gimp (with CMYK support), InSync, SpiderOakONE, Skype, Google Music Manager, VeraCrypt, Ubuntu SDK, Codecs, libdvdcss2,
+      VirtualBox 5.0, AppGrid, Ubuntu Software Centre and many others.
 
 <div align="center">
-<iframe width="853" height="480" src="https://www.youtube.com/embed/Q84IuAjJ9og?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <img src="/gallery/PressKit-1510/01_Welcome_Software.png" title="Ubuntu MATE Welcome - Software"><br />
+  <b>Ubuntu MATE Welcome - Software</b>
 </div>
 
-You'll can access the complete Ubuntu MATE release notes from the URLs below:
+  * Added Deja Dup (backup/restore) integration to Caja filemanager.
+  * Added [new community contributed wallpapers](/gallery/backgrounds-wily/).
+  * Added [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html) for improved laptop battery endurance.
+  * Added Lightning Calendar plugin to Thunderbird, including Google calendar support.
+  * Improved the [Raspberry Pi 2 build that adds features](/blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming/) requested by the Raspbery Pi 2 community.
+  * Improved PowerPC support.
+    * Endian bugs fixed in X11 and WebKit so the PowerPC port now has feature parity with the PC version.
+  * Updated MATE Tweak.
+    * Added saving of custom panel layouts.
+    * Added reset Compiz settings to *"factory"* defaults.
+    * Added support for Metacity and Mutter window managers.
+    * Added support Maximus.
+    * Added support for Netbook layouts.
+    * Improved layout and window manager switching. No longer exits when switching between window managers and displays notifidcations.
+    * Ported to Python 3, replaced all deprecated GTK properties and out of context UI elements are made insensitive rather than being hidden.
+
+<div align="center">
+  <img src="/gallery/PressKit-1510/02_MATE_Tweak.png" title="MATE Tweak"><br />
+  <b>MATE Tweak - Panel Layout Configuration</b>
+</div>
+
+  * Updated the boot screen artwork in the ISO image so it is bigger, more consistent, and higher contrast for visually impaired users.
+  * Updated [Ubuntu MATE Plymouth boot animation](https://www.youtube.com/watch?v=fANsyzPcXyM).
+  * Updated the themes so GTK3 applications with Header Bars now have traditional window decorations.
+  * Updated the `ubuntu-mate-core` and `ubuntu-mate-desktop` tasks/meta-packages so a *basic* Ubuntu MATE system can be installed from the `mini.iso` using just the `ubuntu-mate-core` package.
+  * Updated Blueman to 2.0 and BlueZ 5.35 which brings many Bluetooth improvements and fixes.
+  * Updated Plank to 0.10.1 which has icon zooming and improved window dodging.
+  * Updated key bindings for MATE, Marco and Compiz so they are broadly consistent and mostly the same as Unity.
+    * Documented in the the Getting Started section of Ubuntu MATE Welcome.
+  * Refined the default application handlers.
+  * Refined menus, removing clutter and duplicate entries with improve Control Center categorisations.
+  * Improved support for iOS devices.
+  * ...and many other minor improvements and bug fixes.
+
+You can access the complete Ubuntu MATE 15.10 release notes from the
+URLs below:
 
   * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta2/>
@@ -65,141 +106,27 @@ You'll can access the complete Ubuntu MATE release notes from the URLs below:
   * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha1/>
 
-## Applications
-
-While MATE Desktop provides the essential user interfaces to control 
-and use a computer, Ubuntu MATE adds a collection of additional 
-applications to turn your computer into a truly powerful workstation. 
-
-### Productivity
-
-<div class="row">
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active" href="https://www.mozilla.org/firefox/desktop/">Firefox</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/firefox_25.png"></p>
-        <p class="list-group-item">Safe and easy web browser</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active" href="https://www.mozilla.org/thunderbird/features/">Thunderbird</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/thunderbird_25.png"></p>
-        <p class="list-group-item">Email client with integrated spam filter</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active" href="http://www.libreoffice.org/">LibreOffice</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/libreoffice4.0gettingstartedcvqpMo.png"></p>
-        <p class="list-group-item">Full-featured office productivity suite that is Microsoft(R) Office compatible.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-### Entertainment
-
-<div class="row">
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Rhythmbox">Rhythmbox</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/rhythmbox_25.png"></p>
-        <p class="list-group-item">Music player and organiser</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2013/06/shotwell_4.png"></p>
-        <p class="list-group-item">Digital photo organiser.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active" href="www.videolan.org/vlc/">VLC</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/11/vlc_4.png"></p>
-        <p class="list-group-item">Play, capture, broadcast your multimedia streams.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-Naturally you'll also find a firewall, backup application, document/photo scanner
-and printer management all included in Ubuntu MATE.
-
-### Videos
-
-Martin Wimpress, the Ubuntu MATE lead developer, also made a [series of short
-videos introducing some of the new features in Ubuntu MATE 15.04](//www.youtube.com/playlist?list=PLE6KGGrWCFf0-7sVeKHpddNGUPCYTclBR).
-
-#### Interface Switcher
-
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/jxFMtOl_DyQ?html5=1" frameborder="0" allowfullscreen></iframe>
-</div>
-
-#### First class Compiz integration
-
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/k_nk02XELi4?html5=1" frameborder="0" allowfullscreen></iframe>
-</div>
-
-#### Folder Color
-
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/ZrSVepoNuJk?html5=1" frameborder="0" allowfullscreen></iframe>
-</div>
-
-#### Pull-down Terminal
-
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/_woWvmHl3Rc?html5=1" frameborder="0" allowfullscreen></iframe>
-</div>
-
-#### Firewall
-
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/FBaFL6UnDAE?html5=1" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/wily/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
-
 ## Background
 
-The Ubuntu MATE project was founded in June 2014, since then:
+The Ubuntu MATE project was founded in June 2014 and since then the
+website has had over 1.8 million unique visitors resulting in 7 million
+page views.
 
-  * The website has had over 610,000 unique visitors resulting in 2.5 million
-  page views.
-  * Ubuntu MATE for i686, amd64 and PowerPC has been downloaded ~200,000 times.
-  * Ubuntu MATE for Raspberry Pi 2 is being downloaded  times.
-  * ~3,000 members of our Google+ community.
-  * ~1,200 Facebook followers.
-  * ~1300 Twitter followers.
-  * ~60 [Patrons](https://www.patreon.com/ubuntu_mate) and ~575 donations via PayPal.
+  * Ubuntu MATE 15.04 for i686, amd64, PowerPC has been downloaded ~300,000 times.
+  * Ubuntu MATE 15.04 for Raspberry Pi 2 has been downloaded ~175,000 times.
+  * Ubuntu MATE 14.04 for i686 and amd64 has been downloaded ~150,000 times.
+  * ~3,000 members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
+  * ~2,500 member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
+  * ~1,300 followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
+  * ~76 [Patrons](https://www.patreon.com/ubuntu_mate) and ~2870 donations via PayPal.
+
+Ubuntu MATE is made by [these fine people](/team/).
 
 ## Community
 
-Ubuntu MATE is proud of the community that has grown around the project. The 
-Ubuntu MATE community fully fund the hosting and bandwidth costs of the project,
-including our dedicated community site.
+Ubuntu MATE is proud of the community that has grown around the
+project. The Ubuntu MATE community fully funds the hosting and bandwidth
+costs of the project, including our dedicated community site.
 
   * [Ubuntu MATE Community](https://ubuntu-mate.community/)
 
@@ -207,10 +134,11 @@ including our dedicated community site.
 
 <img class="right" src="/assets/img/logos/OSI-logo-300x352.png" alt="Open Source Initiative" width="112" height="131">
 
-In recent months the amount of donations contributed by the community has
-generated a surplus which we are using to support other Open Source projects
-upon which Ubuntu MATE relies. Since we started supporting others projects in
-February 2015 we have donated a just over $1869 to seven projects:
+The amount of donations contributed by the community has started to
+generate a surplus which we are using to support other Open Source
+projects upon which Ubuntu MATE relies. Since we started supporting
+others projects in February 2015 we have donated a just over $1869
+(taking currency variations into account) to the following projects:
 
   * [Debian](http://www.debian.org)
   * [Folder Color](http://foldercolor.tuxfamily.org/)
@@ -237,6 +165,7 @@ We post an overview of how the donations were used each month.
   * <https://ubuntu-mate.org/blog/ubuntu-mate-june-2015-supporters/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-july-2015-supporters/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-august-2015-supporters/>
+  * <https://ubuntu-mate.org/blog/ubuntu-mate-september-2015-supporters/>
 
 ## Screenshots
 
@@ -311,150 +240,41 @@ You can access full resolution images from the URL below:
       </div>
     </div>
   </div>
-</div>  
-
-### Pre-install Partnership
-
-Ubuntu MATE has forged an exciting partnership with Linux hardware start-up
-[Entroware](https://www.entroware.com).
-
-<img class="centered" src="/gallery/blog/ubuntu-mate-entroware.png" alt="Ubuntu MATE and Entroware" />
-
-Ubuntu MATE is focussed on usability and stability and has gained massive
-traction in the Linux community over recent months. Inspired by the traditional
-GNOME 2 interface of classic Ubuntu releases, Ubuntu MATE is the perfect
-distribution for easing the transition between Microsoft Windows or Mac OS
-and Linux.
-
-<div align="center">
-  <a href="https://www.entroware.com/store/apollo"><img src="/gallery/blog/entroware-apollo.jpg" /></a><br />
-  <b>With verified Linux compatible components and shipping with the latest Broadwell CPUs, this is the must have Ultrabook for Linux enthusiasts.</b>
 </div>
-<br />
 
-#### About Entroware
+### Partnerships
 
-Entroware is a UK based Linux computer manufacturer, founded in early 2014,
-providing a range of quality Linux computers focused on a complete
-*"out of the box"* Linux experience, with a heavy focus on hardware
-compatibility. As of the Ubuntu MATE 15.04 release Entroware are offering the
-option to purchase machines with Ubuntu MATE
-pre-installed along with full support.
+Ubuntu MATE has hardware partnerships [Entroware](https://www.entroware.com)
+and [LibreTrend](http://www.libretrend.com/en/) who both offer hardware
+with the option to have it delivered with Ubuntu MATE pre-installed.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Entroware Linux hardware</h1>
-        <p>More information about Entroware, and their products, are available online
-        at <a href="http://www.entroware.com">www.entroware.com</a></p>
-        <a href="http://www.entroware.com" class="btn btn-primary btn-lg">Visit Entroware</a>
-        </p>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="well bs-component">
+    <a href="https://entroware.com"><img class="centered" src="/assets/img/sponsors/entroware.png" alt="Entroware" /></a>
     </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="well bs-component">
+    <a href="http://www.libretrend.com/en/"><img class="centered" src="/assets/img/sponsors/libretrend.png" alt="LibreTrend"/></a>
+    </div>
+  </div>
 </div>
 
 ### Raspberry Pi 2
 
 <div align="center">
   <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
-  <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
+  <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
 
-We are also delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+We are also delighted to provide a ready to run image for the
+[Raspberry Pi](http://www.raspberrypi.org) 2 which has been [improved
+based on the Raspberry Pi
+community](/blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming/). We've
+also created an [Ubuntu MATE generic root file system and example build
+scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE
+to their ARMv7 devices.
 
-## The Ubuntu MATE Team
-
-Here is the troupe of all star international cabaret artists responsible for
-making Ubuntu MATE a thing.
-
-### Founders
-
-The idiots who thought Ubuntu MATE would be a good idea.
-
-  * [Martin Wimpress](http://flexion.org) Project co-founder. [MATE Desktop](http://mate-desktop.org) developer and Ubuntu MATE project lead.
-  * [Alan Pope](http://popey.com) Project co-founder. [Canonical](http://www.canonical.com) and [Ubuntu](http://www.ubuntu.com) liaison. Enthusiam co-ordinator.
-
-### Developers
-
-Members of the core MATE Desktop development team who have been helping develop
-and test Ubuntu MATE.
-
-  * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
-  * [Sander Sweers](https://github.com/infirit/) Developer of [MATE Desktop](http://mate-desktop.org) and magician of everything.
-  * [Vlad Orlav](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
-
-### Maintainers
-
-The heroes from the Debian packaging team. Without their tireless efforts there
-would be no Ubuntu MATE.
-
-  * [Mike Gabriel](http://sunweavers.net/blog/) Package maintainer for [Debian](http://www.debian.org).
-  * [Steve Zesch](https://github.com/szesch) Package maintainer for [Debian](http://www.debian.org).
-  * [John Paul Adrian Glaubitz](http://users.physik.fu-berlin.de/~glaubitz/) Package maintainer for [Debian](http://www.debian.org).
-
-### Designers and Artists
-
-The art department and creators of beautiful things.
-
-  * [Goce Mitevski](http://nicer2.com) Designer, digital artist and desktop decorator.
-  * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Digital artist, perfectionist and aspiring designer.
-  * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Digital artist and theme tweaker.
-  * [Michael Tunnell](http://michaeltunnell.com/) Website and graphic designer.
-  * [Riccardo Pecchioli](https://plus.google.com/104108115467526996500) Digital video animator.
-  * [Sam Hewitt](http://snwh.org/) Designer and creative genius.
-
-### Architecture porters
-
-These fine people are bringing Ubuntu MATE to other hardware platforms.
-
-  * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Ubuntu MATE for PowerPC creator.
-  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Ubuntu MATE for Raspberry Pi 2 creator.
-
-### Communications
-
-These are the social animals of the Ubuntu MATE community who help spread
-the word.
-
-  * [Brett Wiley](https://plus.google.com/+BrettWiley) G+ community moderator.  
-  * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
-
-### Contributors
-
-The following people have made infrequent, yet significant, contributions
-to the Ubuntu MATE project.
-
-  * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
-
-<img class="right" src="/assets/img/logos/ubuntu-logo32.png" alt="Ubuntu" width="96" height="96">
-
-In addition to the efforts of the core Ubuntu MATE team, becoming an official
-Ubuntu flavour would not have been possible with out the help of the following
-Canonical employees.
-
-  * [Alan Pope](https://launchpad.net/~popey)
-  * [Daniel Holbach](https://launchpad.net/~dholbach)
-  * [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl)
-  * [Adam Conrad](https://launchpad.net/~adconrad)
-  * [Colin Watson](https://launchpad.net/~cjwatson)
-  * [Martin Pitt](https://launchpad.net/~pitti)  
-  * [Iain Lane](https://launchpad.net/~laney)
-  * [Didier Roche](https://launchpad.net/~didrocks)
-  * [Adam Stokes](https://launchpad.net/~adam-stokes)
-
-## The future
-
-Our roadmap outlines some high level objectives of the project.
-
-  * [Ubuntu MATE Roadmap](/roadmap/)
-
-You can get notified about project developments by subscribing to our RSS feed
-or following our social networks.
-
-  * [Ubuntu MATE RSS Feed](http://ubuntu-mate.net/rss.xml) - News from this website, as it happens.
-
-We are active on the following social networks and post updates about the
-project on almost a daily basis.
-
-  * [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
-  * [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
-  * [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
+You grab the download and find out more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).

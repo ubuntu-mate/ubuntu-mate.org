@@ -15,7 +15,7 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
 ## What changed since the Ubuntu MATE 15.10 Beta 2 release?
 
-Here's what changed in Ubuntu MATE 15.10 since Beta 2. 
+Here's what changed in Ubuntu MATE 15.10 since Beta 2.
 
   * Fixed `udate-manager -d` and `do-release-upgrade -d` to upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10.
   * Fixed the openSUSE panel layout, GNOME Main Menu no longer crashes.
@@ -56,8 +56,48 @@ been reported. These issues will be addressed in due course.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 
+## Thanks
+
+Thanks to everyone who contributed to Ubuntu MATE 15.10.
+
+### Ubuntu MATE Team
+
+### Community
+
+### Canonical
+
+<img class="right" src="/assets/img/logos/ubuntu-logo32.png" alt="Ubuntu" width="96" height="96">
+
+In addition to the efforts of the Ubuntu MATE team and the Ubuntu MATE
+community, we are also grateful for the help and support we've recieved
+from the following Canonical employees:
+
+  * [Adam Conrad](https://launchpad.net/~adconrad)
+  * [Adam Stokes](https://launchpad.net/~adam-stokes)
+  * [Alan Pope](https://launchpad.net/~popey)
+  * [Colin Watson](https://launchpad.net/~cjwatson)
+  * [Daniel Holbach](https://launchpad.net/~dholbach)
+  * [Didier Roche](https://launchpad.net/~didrocks)
+  * [Iain Lane](https://launchpad.net/~laney)
+  * [Łukasz Zemczak](https://launchpad.net/~sil2100)
+  * [Martin Pitt](https://launchpad.net/~pitti)
+  * [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl)
+  * [Michael Hall](https://launchpad.net/~mhall119)
+  * [Oliver Grawert](https://launchpad.net/~ogra)
+  * [Sebastien Bacher](https://launchpad.net/~seb128)
+  * [Stephen M. Webb](https://launchpad.net/~bregma)
+
 ## Feedback
 
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Ubuntu MATE 15.10 Press Kit</h1>
+        <p>If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful.</p>
+        <a href="/ubuntu-mate-1510-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
+        </p>
+    </div>
+</div>
