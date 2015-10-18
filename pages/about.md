@@ -1,10 +1,10 @@
-<!-- 
+<!--
 .. title: About
 .. slug: about
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 -->
 
@@ -38,7 +38,6 @@ Ubuntu MATE has a number of guiding objectives and goals.
   * Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar.
   * When possible contribute to [Debian](http://www.debian.org) so both the Debian and Ubuntu communities benefit.
   * Software selection will favour functionality and stability over lightness and whimsy.
-  * Get adopted as an official Ubuntu *"flavour"*.
 
 ## Hardware requirements
 

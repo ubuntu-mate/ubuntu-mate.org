@@ -1,10 +1,10 @@
-<!-- 
+<!--
 .. title: Team
 .. slug: team
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 -->
 
@@ -25,7 +25,6 @@ Members of the core MATE Desktop development team who have been helping
 develop and test Ubuntu MATE.
 
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
-  * [Sander Sweers](https://github.com/infirit/) Developer of [MATE Desktop](http://mate-desktop.org) and magician of everything.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
   * [Marcos Costales](https://wiki.ubuntu.com/costales) Developer of special projects for Ubuntu MATE.
 
