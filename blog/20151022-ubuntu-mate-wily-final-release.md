@@ -27,9 +27,10 @@ Here's what changed in Ubuntu MATE 15.10 since Beta 2.
     * Fix Plank not being left running when saving a custom theme.
     * Fix leaving multiple volume applets enabled when switching panel layouts.
     * Fix CTRL+C not closing MATE Tweak.
-  * Updated Ubuntu MATE Welcome to 1.0.3.4a
+  * Updated Ubuntu MATE Welcome to 1.0.3.5
     * Removed Simple Screen Recorder, it is not compatible with Ubuntu MATE 15.10 or any 15.10 flavour.
     * Remove Synapse, it has an intermitent issue resulting in segmentation fault on Ubuntu MATE 15.10.
+  * Updated the boot screen artwork in the ISO image. Bigger, more consistent, and higher contrast for visually impaired users.
   * Updated Plank to 0.10.1.
   * Prepared Ubuntu MATE 15.10 for the Raspberry Pi 2, which will be relese in the coming days.
 
