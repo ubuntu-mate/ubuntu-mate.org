@@ -278,15 +278,6 @@ Is there anything you can help with or want to be involved in? Maybe
 you just want to discuss your experiences or ask the maintainers some
 questions. Please [come and talk to us](/community/).
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Looking for the long term release??</h1>
-        <p>Are you looking for the Ubuntu MATE 14.04 long term release that is supported until 2019?</p>
-        <a href="/trusty/" class="btn btn-primary btn-lg">Download the LTS</a>
-        </p>
-    </div>
-</div>
-
 <script>
   // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/
   window.onload = function() {

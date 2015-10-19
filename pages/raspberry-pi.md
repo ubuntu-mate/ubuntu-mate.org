@@ -291,7 +291,7 @@ BitBucket.
 
 ## Changes
 
-### 2015-04-22
+### 2015-04-22 - Ubuntu MATE 15.04 for Rapsberry Pi 2 Final Release
 
   * Enabled Ryan Finnie's PPA.
     * <https://launchpad.net/~fo0bar/+archive/ubuntu/rpi2>
@@ -314,7 +314,7 @@ BitBucket.
   * Fixed `/etc/network/interfaces` so that the Ethernet device is now configurable via Network Manager.
   * Removed `openssh-server` until host key regeneration can be integrated.
 
-### 2015-03-14
+### 2015-04-22 - Ubuntu MATE 15.04 for Rapsberry Pi 2 Beta 2
 
   * Enabled `systemd` as the init system.
   * Added `raspberrypi-vc` (VideoCore GPU libraries) 1.20150301.0de0b20-3.
@@ -332,13 +332,13 @@ BitBucket.
   * Add `raspi-config` or equivilent.
   * Add automatic reszing of the root file system.
 
-## Useful Information
+## Other ARMv7 based devices
 
-You may find the following information useful, which is why we titled
-the section *Useful Information* since the information presented here
-is mostly useful.
+We'd love to see Ubuntu MATE images other ARMv7 based devices. Please take
+a look at our generic armhf Ubuntu MATE root file system and build scripts.
 
-  * [Ubuntu MATE 15.04 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
+  * [Ubuntu MATE generic rootfs for aarch32 ARMv7 devices](https://ubuntu-mate.org/armhf-rootfs)
+  * [Ubuntu MATE for Raspberry Pi 2 build scripts](https://bitbucket.org/ubuntu-mate/ubuntu-mate-armhf)
 
 ## Reporting issues
 
@@ -360,14 +360,6 @@ questions. Please [come and talk to us](/community/).
     * <https://www.raspberrypi.org/forums/viewtopic.php?t=47832&p=403191>
   * <https://www.raspberrypi.org/documentation/configuration/config-txt.md>
   * [Peter Chubb. "SD cards and filesystems for embedded systems". Linux.conf.au.](http://mirror.linux.org.au/pub/linux.conf.au/2015/Case_Room_2/Friday/SD_Cards_and_filesystems_for_Embedded_Systems.webm)
-
-## Other ARMv7 based devices
-
-We'd love to see Ubuntu MATE images other ARMv7 based devices. Please take
-a look at our generic armhf Ubuntu MATE root file system and build scripts.
-
-  * <https://ubuntu-mate.org/armhf-rootfs/>
-  * <https://bitbucket.org/ubuntu-mate/ubuntu-mate-armhf>
 
 <script>
   // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/
