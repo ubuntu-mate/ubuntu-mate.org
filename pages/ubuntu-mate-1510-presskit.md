@@ -154,7 +154,6 @@ page views.
 
   * Ubuntu MATE **15.04 for i686, amd64, PowerPC** has been downloaded **~300,000** times.
   * Ubuntu MATE **15.04 for Raspberry Pi 2 has been downloaded ~175,000** times.
-  * Ubuntu MATE **14.04 for i686 and amd64 has been downloaded ~150,000** times.
   * **~3,000** members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
   * **~2,500** member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
   * **~1,300** followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
