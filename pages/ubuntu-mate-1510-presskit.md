@@ -40,7 +40,7 @@ Ubuntu MATE has a number of guiding objectives and goals.
 
 Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
-  * Established a hardware partnership with [LibreTrend](https://www.libretrend.com/en/).
+  * Established a new hardware partnership with [LibreTrend](https://www.libretrend.com/en/) who join [Entroware](http://www.entroware.com).
   * Launched the [Ubuntu MATE Boutique](https://ubuntu-mate.boutique).
   * Integrated **MATE Desktop 1.10**.
     * Caja now has an extension manager so plugins can be enabled/disabled at run-time.
@@ -62,7 +62,7 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
 <div align="center">
   <img src="/gallery/PressKit-1510/01_Welcome_Software.png" title="Ubuntu MATE Welcome - Software"><br />
-  <b>Ubuntu MATE Welcome - One-click installers for best in class applications that integrate well with Ubuntu MATE.</b>
+  <b>Ubuntu MATE Welcome - One click installers for best in class applications that integrate well with Ubuntu MATE.</b>
 </div>
 <br />
 
@@ -75,7 +75,7 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
 <div align="center">
   <img src="/gallery/PressKit-1510/02_MATE_Tweak.png" title="MATE Tweak"><br />
-  <b>MATE Tweak - Panel layouts that are somewhat similar to Windows (Redmond) and Mac OSX (Cupertino)</b>
+  <b>MATE Tweak - Offers panel layouts that are similar to Windows (Redmond) and Mac OSX (Cupertino)</b>
 </div>
 <br />
 
@@ -83,19 +83,19 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
   * Updated [Ubuntu MATE Plymouth boot animation](https://www.youtube.com/watch?v=fANsyzPcXyM).
   * Updated the themes so GTK3 applications with Header Bars now have traditional window decorations.
   * Updated the `ubuntu-mate-core` and `ubuntu-mate-desktop` tasks/meta-packages so a *basic* Ubuntu MATE system can be installed from the `mini.iso` using just the `ubuntu-mate-core` package.
-  * Updated **Blueman to 2.0 and BlueZ 5.35** which brings many Bluetooth improvements and fixes.
+  * Updated Plank to 0.10.1 which has **icon zooming and improved window dodging**.
+  * Updated key bindings for MATE, Marco and Compiz so they are consistent and mostly the same as Unity.
+    * Documented in the the Getting Started section of Ubuntu MATE Welcome.
+  * Upgraded to **Blueman 2.0 and BlueZ 5.35** which brings *many* Bluetooth improvements and fixes.
 
 <div align="center">
   <img src="/gallery/PressKit-1510/03_Bluetooth_Devices.png" title="Bluetooth Devices"><br />
-  <b>Blueman 2.0 - Improved Bluetooth support, including Bluetooth tethering and audio improvements.</b>
+  <b>Blueman 2.0 - Improved Bluetooth support, including Bluetooth network tethering and audio improvements.</b>
 </div>
 <br />
 
-  * Updated Plank to 0.10.1 which has icon zooming and improved window dodging.
-  * Updated key bindings for MATE, Marco and Compiz so they are consistent and mostly the same as Unity.
-    * Documented in the the Getting Started section of Ubuntu MATE Welcome.
   * Refined the default application handlers.
-  * Refined menus, removing clutter and duplicate entries with improve Control Center categorisations.
+  * Refined menus. Removed clutter and duplicate entries with improved categorisations.
   * Improved support for iOS devices.
   * ...and many other minor improvements and bug fixes.
 
