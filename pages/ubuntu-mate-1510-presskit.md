@@ -12,6 +12,8 @@ With Ubuntu MATE 15.10 due for release on October 22nd 2015 this page
 will help you better understand what Ubuntu MATE is and how its been
 improved since the 15.04 release.
 
+## Introduction
+
 Ubuntu MATE is an community developed [Ubuntu](http://www.ubuntu.com)
 based operating system that beautifully integrates the [MATE
 Desktop](http://mate-desktop.org) and offers a stable, easy-to-use
@@ -21,7 +23,7 @@ desktop metaphor. With modest hardware requirements it is suitable for
 modern desktops and laptops, micro computers and older hardware alike.
 **Ubuntu MATE is an official member of the Ubuntu family.**
 
-## Objectives
+### Objectives
 
 Ubuntu MATE has a number of guiding objectives and goals.
 
@@ -106,7 +108,7 @@ URLs below:
   * [Ubuntu MATE 15.10 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/).
   * [Ubuntu MATE 15.10 Alpha 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha1/).
 
-## Screenshots
+### Screenshots
 
 Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
 
@@ -150,13 +152,13 @@ The Ubuntu MATE project was founded in June 2014 and since then the
 website has had over 1.8 million unique visitors resulting in 7 million
 page views.
 
-  * Ubuntu MATE 15.04 for i686, amd64, PowerPC has been downloaded ~300,000 times.
-  * Ubuntu MATE 15.04 for Raspberry Pi 2 has been downloaded ~175,000 times.
-  * Ubuntu MATE 14.04 for i686 and amd64 has been downloaded ~150,000 times.
-  * ~3,000 members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
-  * ~2,500 member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
-  * ~1,300 followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
-  * ~76 [Patrons](https://www.patreon.com/ubuntu_mate) and ~2870 donations via PayPal.
+  * Ubuntu MATE **15.04 for i686, amd64, PowerPC** has been downloaded **~300,000** times.
+  * Ubuntu MATE **15.04 for Raspberry Pi 2 has been downloaded ~175,000** times.
+  * Ubuntu MATE **14.04 for i686 and amd64 has been downloaded ~150,000** times.
+  * **~3,000** members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
+  * **~2,500** member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
+  * **~1,300** followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
+  * **~75** [Patrons](https://www.patreon.com/ubuntu_mate) and **~2870 donations via PayPal**.
 
 Ubuntu MATE is made by [these fine people](/team/).
 
