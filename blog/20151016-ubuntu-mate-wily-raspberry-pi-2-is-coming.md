@@ -62,7 +62,7 @@ differences between Raspbian and Ubuntu MATE frustrating. For example,
 being pinned to one kernel version, forever. For those who were able to
 use `oem-config` (the first boot wizard) successfully, it was popular
 but also very slow. Sadly for some, it was also extremely unreliable.
-For others, they never got Ubunut MATE to work at all `:-(`.
+For others, they never got Ubuntu MATE to work at all `:-(`.
 
 ### Improvements for Raspbian Tourists
 
