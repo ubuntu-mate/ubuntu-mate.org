@@ -1,5 +1,5 @@
 <!--
-.. title: Ubuntu MATE 15.10 Press Kit
+.. title: Ubuntu MATE 15.10 Final Release
 .. slug: ubuntu-mate-wily-final-release
 .. date: 2015-10-22 21:28:37 UTC
 .. tags: Ubuntu,MATE,Wily,PressKit,draft

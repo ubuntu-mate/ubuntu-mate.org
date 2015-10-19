@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 15.10 Press Kit
 .. slug: ubuntu-mate-1510-presskit
-.. date: 2015-10-19 11:00:00 UTC
+.. date: 2015-10-18 20:00:00 UTC
 .. tags: Ubuntu,MATE,Press Kit
 .. link:
 .. description:
@@ -60,28 +60,18 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
 <div align="center">
   <img src="/gallery/PressKit-1510/01_Welcome_Software.png" title="Ubuntu MATE Welcome - Software"><br />
-  <b>Ubuntu MATE Welcome - Software</b>
+  <b>Ubuntu MATE Welcome - One-click installers for best in class applications that integrate well with Ubuntu MATE.</b>
 </div>
 
+  * Added MATE Optimus, a utility for switching between GPUs on NVIDIA Prime capable hardware.
   * Added Deja Dup (backup/restore) integration to Caja filemanager.
-  * Added [new community contributed wallpapers](/gallery/backgrounds-wily/).
-  * Added [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html) for improved laptop battery endurance.
-  * Added Lightning Calendar plugin to Thunderbird, including Google calendar support.
-  * Improved the [Raspberry Pi 2 build that adds features](/blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming/) requested by the Raspbery Pi 2 community.
-  * Improved PowerPC support.
-    * Endian bugs fixed in X11 and WebKit so the PowerPC port now has feature parity with the PC version.
-  * Updated MATE Tweak.
-    * Added saving of custom panel layouts.
-    * Added reset Compiz settings to *"factory"* defaults.
-    * Added support for Metacity and Mutter window managers.
-    * Added support Maximus.
-    * Added support for Netbook layouts.
+  * Added MATE  Netbook layouts.
     * Improved layout and window manager switching. No longer exits when switching between window managers and displays notifidcations.
     * Ported to Python 3, replaced all deprecated GTK properties and out of context UI elements are made insensitive rather than being hidden.
 
 <div align="center">
   <img src="/gallery/PressKit-1510/02_MATE_Tweak.png" title="MATE Tweak"><br />
-  <b>MATE Tweak - Panel Layout Configuration</b>
+  <b>MATE Tweak - Panel layouts that are somewhat similar to Windows (Redmond) and Mac OSX (Cupertino)</b>
 </div>
 
   * Updated the boot screen artwork in the ISO image so it is bigger, more consistent, and higher contrast for visually impaired users.
@@ -89,6 +79,12 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
   * Updated the themes so GTK3 applications with Header Bars now have traditional window decorations.
   * Updated the `ubuntu-mate-core` and `ubuntu-mate-desktop` tasks/meta-packages so a *basic* Ubuntu MATE system can be installed from the `mini.iso` using just the `ubuntu-mate-core` package.
   * Updated Blueman to 2.0 and BlueZ 5.35 which brings many Bluetooth improvements and fixes.
+
+<div align="center">
+  <img src="/gallery/PressKit-1510/03_Bluetooth_Devices.png" title="Bluetooth Devices"><br />
+  <b>Blueman 2.0 - Improved Bluetooth support, including Bluetooth tethering and audio improvements.</b>
+</div>
+
   * Updated Plank to 0.10.1 which has icon zooming and improved window dodging.
   * Updated key bindings for MATE, Marco and Compiz so they are broadly consistent and mostly the same as Unity.
     * Documented in the the Getting Started section of Ubuntu MATE Welcome.
@@ -100,11 +96,11 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 You can access the complete Ubuntu MATE 15.10 release notes from the
 URLs below:
 
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta2/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta1/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha1/>
+<!--  * [Ubuntu MATE 15.10 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release). -->
+  * [Ubuntu MATE 15.10 Beta 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta2/).
+  * [Ubuntu MATE 15.10 Beta 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta1/).
+  * [Ubuntu MATE 15.10 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/).
+  * [Ubuntu MATE 15.10 Alpha 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha1/).
 
 ## Background
 
@@ -132,7 +128,7 @@ costs of the project, including our dedicated community site.
 
 ### Supporting Open Source
 
-<img class="right" src="/assets/img/logos/OSI-logo-300x352.png" alt="Open Source Initiative" width="112" height="131">
+<img class="left" src="/assets/img/logos/OSI-logo-300x352.png" alt="Open Source Initiative" width="112" height="131">
 
 The amount of donations contributed by the community has started to
 generate a surplus which we are using to support other Open Source
@@ -153,19 +149,21 @@ others projects in February 2015 we have donated a just over $1869
   * [Ubuntu](http://www.ubuntu.com)
   * [VLC](http://www.videolan.org)
 
+### Summary of donations
+
 We post an overview of how the donations were used each month.
 
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-november-2014-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-december-2014-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-january-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-february-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-march-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-may-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-june-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-july-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-august-2015-supporters/>
-  * <https://ubuntu-mate.org/blog/ubuntu-mate-september-2015-supporters/>
+  * [2014 November](/blog/ubuntu-mate-november-2014-supporters/)
+  * [2014 December](/blog/ubuntu-mate-december-2014-supporters/)
+  * [2015 January](/blog/ubuntu-mate-january-2015-supporters/)
+  * [2015 February](/blog/ubuntu-mate-february-2015-supporters/)
+  * [2015 March](/blog/ubuntu-mate-march-2015-supporters/)
+  * [2015 April](/blog/ubuntu-mate-april-2015-supporters/)
+  * [2015 May](/blog/ubuntu-mate-may-2015-supporters/)
+  * [2015 June](/blog/ubuntu-mate-june-2015-supporters/)
+  * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
+  * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
+  * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
 
 ## Screenshots
 
@@ -207,41 +205,6 @@ You can access full resolution images from the URL below:
 
 ## Hardware
 
-### Requirements
-
-<div class="row">
-  <div class="col-lg-6">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active">Minimum</a>
-        <a class="list-group-item">Pentium III 750-megahertz</a>
-        <a class="list-group-item">512 megabytes (MB) of RAM</a>
-        <a class="list-group-item">8 gigabytes (GB) of available space on the hard disk</a>
-        <a class="list-group-item">Bootable DVD-ROM drive</a>
-        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
-        <a class="list-group-item">Video adapter and monitor with 1024 x 768 or higher resolution</a>
-        <a class="list-group-item">Sound card</a>
-        <a class="list-group-item">Speakers or headphones</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-6">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active">Recommended</a>
-        <a class="list-group-item">Core 2 Duo 1.6-gigahertz</a>
-        <a class="list-group-item">2 gigabytes (GB) RAM</a>
-        <a class="list-group-item">16 gigabytes (GB) of available space on the hard disk</a>
-        <a class="list-group-item">Bootable USB flash drive</a>
-        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
-        <a class="list-group-item">3D capable video adapter and wide screen monitor with 1366 x 768 or higher resolution</a>
-        <a class="list-group-item">Sound card</a>
-        <a class="list-group-item">Speakers or headphones</a>
-      </div>
-    </div>
-  </div>
-</div>
-
 ### Partnerships
 
 Ubuntu MATE has hardware partnerships [Entroware](https://www.entroware.com)
@@ -278,3 +241,38 @@ scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE
 to their ARMv7 devices.
 
 You grab the download and find out more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+
+### Requirements
+
+<div class="row">
+  <div class="col-lg-6">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active">Minimum</a>
+        <a class="list-group-item">Pentium III 750-megahertz</a>
+        <a class="list-group-item">512 megabytes (MB) of RAM</a>
+        <a class="list-group-item">8 gigabytes (GB) of available space on the hard disk</a>
+        <a class="list-group-item">Bootable DVD-ROM drive</a>
+        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
+        <a class="list-group-item">Video adapter and monitor with 1024 x 768 or higher resolution</a>
+        <a class="list-group-item">Sound card</a>
+        <a class="list-group-item">Speakers or headphones</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active">Recommended</a>
+        <a class="list-group-item">Core 2 Duo 1.6-gigahertz</a>
+        <a class="list-group-item">2 gigabytes (GB) RAM</a>
+        <a class="list-group-item">16 gigabytes (GB) of available space on the hard disk</a>
+        <a class="list-group-item">Bootable USB flash drive</a>
+        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
+        <a class="list-group-item">3D capable video adapter and wide screen monitor with 1366 x 768 or higher resolution</a>
+        <a class="list-group-item">Sound card</a>
+        <a class="list-group-item">Speakers or headphones</a>
+      </div>
+    </div>
+  </div>
+</div>

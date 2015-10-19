@@ -1,10 +1,10 @@
-<!-- 
+<!--
 .. title: Donate
 .. slug: donate
 .. date: 2014-11-05 23:01:09 UTC
 .. tags: Ubuntu,MATE,donate
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -16,7 +16,7 @@ img.centered {
     margin-right: auto }
 </style>
 
-This funding campaign has three main objectives: 
+This funding campaign has three main objectives:
 
   * Fund the the Ubuntu MATE project's hosting and bandwidth costs. This include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks.
   * Fund the full time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidise the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
@@ -71,11 +71,11 @@ to benefit from Patron rewards.**
                 <input type="radio" name="amt" value="5" checked="">5
                 <input type="radio" name="amt" value="10">10
               </div>
-            </div>          
+            </div>
             <div class="form-group">
               <label for="specifyAmount" class="col-lg-4 control-label">Specify your own amount</label>
-              <div class="col-lg-6">      
-                <input type="text" name="other" value="" size="5" maxlength="5">              
+              <div class="col-lg-6">
+                <input type="text" name="other" value="" size="5" maxlength="5">
               </div>
             </div>
             <div class="form-group">
@@ -125,8 +125,8 @@ to benefit from Patron rewards.**
             </div>
             <div class="form-group">
               <label for="specifyAmount" class="col-lg-4 control-label">Specify your own amount</label>
-              <div class="col-lg-6">      
-                <input type="text" name="other" value="" size="5" maxlength="5">              
+              <div class="col-lg-6">
+                <input type="text" name="other" value="" size="5" maxlength="5">
               </div>
             </div>
             <div class="form-group">
@@ -156,7 +156,7 @@ to benefit from Patron rewards.**
           <input type="hidden" name="sra" value="1">
           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-        </form>  
+        </form>
       </div>
     </div>
   </div>
@@ -207,7 +207,7 @@ to our Patreon page where we have commercial sponsorship packages.
           <p align="center">
             <script id='fbjjn1d'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=ubuntumatedotorg&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=62;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbjjn1d');</script>
           </p>
-      </div>      
+      </div>
     </div>
   </div>
 </div>
@@ -216,16 +216,17 @@ to our Patreon page where we have commercial sponsorship packages.
 
 We post an overview of how the donations were used each month.
 
-  * [2014 November](https://ubuntu-mate.org/blog/ubuntu-mate-november-2014-supporters/)
-  * [2014 December](https://ubuntu-mate.org/blog/ubuntu-mate-december-2014-supporters/)
-  * [2015 January](https://ubuntu-mate.org/blog/ubuntu-mate-january-2015-supporters/)
-  * [2015 February](https://ubuntu-mate.org/blog/ubuntu-mate-february-2015-supporters/)
-  * [2015 March](https://ubuntu-mate.org/blog/ubuntu-mate-march-2015-supporters/)
-  * [2015 April](https://ubuntu-mate.org/blog/ubuntu-mate-april-2015-supporters/)
-  * [2015 May](https://ubuntu-mate.org/blog/ubuntu-mate-may-2015-supporters/)  
-  * [2015 June](https://ubuntu-mate.org/blog/ubuntu-mate-june-2015-supporters/)  
-  * [2015 July](https://ubuntu-mate.org/blog/ubuntu-mate-july-2015-supporters/)  
-  * [2015 August](https://ubuntu-mate.org/blog/ubuntu-mate-august-2015-supporters/)  
+  * [2014 November](/blog/ubuntu-mate-november-2014-supporters/)
+  * [2014 December](/blog/ubuntu-mate-december-2014-supporters/)
+  * [2015 January](/blog/ubuntu-mate-january-2015-supporters/)
+  * [2015 February](/blog/ubuntu-mate-february-2015-supporters/)
+  * [2015 March](/blog/ubuntu-mate-march-2015-supporters/)
+  * [2015 April](/blog/ubuntu-mate-april-2015-supporters/)
+  * [2015 May](/blog/ubuntu-mate-may-2015-supporters/)
+  * [2015 June](/blog/ubuntu-mate-june-2015-supporters/)
+  * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
+  * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
+  * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
 
 <script type="text/javascript">
   function validateMonthlyForm() {
@@ -262,5 +263,5 @@ We post an overview of how the donations were used each month.
         document.forms["single"]["amount"].value = document.forms["single"]["amt"].value;
         return true;
       }
-  }  
+  }
 </script>
