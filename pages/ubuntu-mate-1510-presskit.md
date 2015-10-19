@@ -19,7 +19,7 @@ operating system with a configurable desktop environment. Ideal for
 those who want the most out of their computers and prefer a traditional
 desktop metaphor. With modest hardware requirements it is suitable for
 modern desktops and laptops, micro computers and older hardware alike.
-Ubuntu MATE is an official member of the Ubuntu family.
+**Ubuntu MATE is an official member of the Ubuntu family.**
 
 ## Objectives
 
@@ -40,7 +40,7 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
   * Established a hardware partnership with [LibreTrend](https://www.libretrend.com/en/).
   * Launched the [Ubuntu MATE Boutique](https://ubuntu-mate.boutique).
-  * Integrated MATE Desktop 1.10.
+  * Integrated **MATE Desktop 1.10**.
     * Caja now has an extension manager so plugins can be enabled/disabled at run-time.
     * A new audio mixer library, `libmatemixer` provides an abstract API allowing access to mixer functionality available in the PulseAudio, ALSA and OSS sound systems.
     * Improved multi-monitor support.
@@ -49,8 +49,8 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
     * MATE Sensors Applet now supports NVIDIA GPUs.
     * Lots of bugs fixes. Really, *lots*.
     * For more details see the [MATE 1.10 Release Notes](http://mate-desktop.org/blog/2015-06-11-mate-1-10-released/).
-  * Added support `udate-manager -d` and `do-release-upgrade -d` to upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10.
-  * Added Ubuntu MATE Welcome, a new utility unique to Ubuntu MATE.
+  * Added support `udate-manager -d` and `do-release-upgrade -d` to **upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10**.
+  * Added **Ubuntu MATE Welcome**, a new utility unique to Ubuntu MATE.
     * Welcome helps orientate users with their new operating system.
     * Welcome guides users through post-install configuration such as installing drivers and adding language support.
     * Welcome provides a one-click installation from a highly curated list of best-in-class software to *"get stuff done"*.
@@ -62,10 +62,12 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
   <img src="/gallery/PressKit-1510/01_Welcome_Software.png" title="Ubuntu MATE Welcome - Software"><br />
   <b>Ubuntu MATE Welcome - One-click installers for best in class applications that integrate well with Ubuntu MATE.</b>
 </div>
+<br />
 
-  * Added MATE Optimus, a utility for switching between GPUs on NVIDIA Prime capable hardware.
+  * Added **MATE Optimus**, a utility for switching between GPUs on NVIDIA Prime capable hardware.
   * Added Deja Dup (backup/restore) integration to Caja filemanager.
-  * Added MATE  Netbook layouts.
+  * Updated **MATE Tweak**
+    * Added Netbook layouts.
     * Improved layout and window manager switching. No longer exits when switching between window managers and displays notifidcations.
     * Ported to Python 3, replaced all deprecated GTK properties and out of context UI elements are made insensitive rather than being hidden.
 
@@ -73,20 +75,22 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
   <img src="/gallery/PressKit-1510/02_MATE_Tweak.png" title="MATE Tweak"><br />
   <b>MATE Tweak - Panel layouts that are somewhat similar to Windows (Redmond) and Mac OSX (Cupertino)</b>
 </div>
+<br />
 
   * Updated the boot screen artwork in the ISO image so it is bigger, more consistent, and higher contrast for visually impaired users.
   * Updated [Ubuntu MATE Plymouth boot animation](https://www.youtube.com/watch?v=fANsyzPcXyM).
   * Updated the themes so GTK3 applications with Header Bars now have traditional window decorations.
   * Updated the `ubuntu-mate-core` and `ubuntu-mate-desktop` tasks/meta-packages so a *basic* Ubuntu MATE system can be installed from the `mini.iso` using just the `ubuntu-mate-core` package.
-  * Updated Blueman to 2.0 and BlueZ 5.35 which brings many Bluetooth improvements and fixes.
+  * Updated **Blueman to 2.0 and BlueZ 5.35** which brings many Bluetooth improvements and fixes.
 
 <div align="center">
   <img src="/gallery/PressKit-1510/03_Bluetooth_Devices.png" title="Bluetooth Devices"><br />
   <b>Blueman 2.0 - Improved Bluetooth support, including Bluetooth tethering and audio improvements.</b>
 </div>
+<br />
 
   * Updated Plank to 0.10.1 which has icon zooming and improved window dodging.
-  * Updated key bindings for MATE, Marco and Compiz so they are broadly consistent and mostly the same as Unity.
+  * Updated key bindings for MATE, Marco and Compiz so they are consistent and mostly the same as Unity.
     * Documented in the the Getting Started section of Ubuntu MATE Welcome.
   * Refined the default application handlers.
   * Refined menus, removing clutter and duplicate entries with improve Control Center categorisations.
@@ -101,69 +105,6 @@ URLs below:
   * [Ubuntu MATE 15.10 Beta 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta1/).
   * [Ubuntu MATE 15.10 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/).
   * [Ubuntu MATE 15.10 Alpha 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha1/).
-
-## Background
-
-The Ubuntu MATE project was founded in June 2014 and since then the
-website has had over 1.8 million unique visitors resulting in 7 million
-page views.
-
-  * Ubuntu MATE 15.04 for i686, amd64, PowerPC has been downloaded ~300,000 times.
-  * Ubuntu MATE 15.04 for Raspberry Pi 2 has been downloaded ~175,000 times.
-  * Ubuntu MATE 14.04 for i686 and amd64 has been downloaded ~150,000 times.
-  * ~3,000 members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
-  * ~2,500 member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
-  * ~1,300 followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
-  * ~76 [Patrons](https://www.patreon.com/ubuntu_mate) and ~2870 donations via PayPal.
-
-Ubuntu MATE is made by [these fine people](/team/).
-
-## Community
-
-Ubuntu MATE is proud of the community that has grown around the
-project. The Ubuntu MATE community fully funds the hosting and bandwidth
-costs of the project, including our dedicated community site.
-
-  * [Ubuntu MATE Community](https://ubuntu-mate.community/)
-
-### Supporting Open Source
-
-<img class="left" src="/assets/img/logos/OSI-logo-300x352.png" alt="Open Source Initiative" width="112" height="131">
-
-The amount of donations contributed by the community has started to
-generate a surplus which we are using to support other Open Source
-projects upon which Ubuntu MATE relies. Since we started supporting
-others projects in February 2015 we have donated a just over $1869
-(taking currency variations into account) to the following projects:
-
-  * [Debian](http://www.debian.org)
-  * [Folder Color](http://foldercolor.tuxfamily.org/)
-  * [Geany](http://www.geany.org/)
-  * [Gufw](http://gufw.org/)
-  * [MATE Desktop](http://mate-desktop)
-  * [OpenBSD](http://www.openbsd.org)
-  * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Introduction)
-  * [Tilda](https://github.com/lanoxx/tilda)
-  * [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html)
-  * [Transmission](http://www.transmissionbt.com/)
-  * [Ubuntu](http://www.ubuntu.com)
-  * [VLC](http://www.videolan.org)
-
-### Summary of donations
-
-We post an overview of how the donations were used each month.
-
-  * [2014 November](/blog/ubuntu-mate-november-2014-supporters/)
-  * [2014 December](/blog/ubuntu-mate-december-2014-supporters/)
-  * [2015 January](/blog/ubuntu-mate-january-2015-supporters/)
-  * [2015 February](/blog/ubuntu-mate-february-2015-supporters/)
-  * [2015 March](/blog/ubuntu-mate-march-2015-supporters/)
-  * [2015 April](/blog/ubuntu-mate-april-2015-supporters/)
-  * [2015 May](/blog/ubuntu-mate-may-2015-supporters/)
-  * [2015 June](/blog/ubuntu-mate-june-2015-supporters/)
-  * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
-  * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
-  * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
 
 ## Screenshots
 
@@ -202,6 +143,67 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
 You can access full resolution images from the URL below:
 
   * <https://ubuntu-mate.org/gallery/Screenshots/>
+
+## Community
+
+The Ubuntu MATE project was founded in June 2014 and since then the
+website has had over 1.8 million unique visitors resulting in 7 million
+page views.
+
+  * Ubuntu MATE 15.04 for i686, amd64, PowerPC has been downloaded ~300,000 times.
+  * Ubuntu MATE 15.04 for Raspberry Pi 2 has been downloaded ~175,000 times.
+  * Ubuntu MATE 14.04 for i686 and amd64 has been downloaded ~150,000 times.
+  * ~3,000 members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
+  * ~2,500 member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
+  * ~1,300 followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
+  * ~76 [Patrons](https://www.patreon.com/ubuntu_mate) and ~2870 donations via PayPal.
+
+Ubuntu MATE is made by [these fine people](/team/).
+
+### Funding
+
+Ubuntu MATE is proud of the community that has grown around the
+project. The Ubuntu MATE community fully funds the hosting and bandwidth
+costs of the project, including our dedicated community site.
+
+  * [Ubuntu MATE Community](https://ubuntu-mate.community/)
+
+### Supporting Open Source
+
+The donations contributed by the community has started to generate a
+surplus which we are using to support other Open Source projects upon
+which Ubuntu MATE relies. Since we started supporting others projects
+in February 2015 **we have donated a just over $1869** (taking currency
+variations into account) to the following projects:
+
+  * [Debian](http://www.debian.org)
+  * [Folder Color](http://foldercolor.tuxfamily.org/)
+  * [Geany](http://www.geany.org/)
+  * [Gufw](http://gufw.org/)
+  * [MATE Desktop](http://mate-desktop)
+  * [OpenBSD](http://www.openbsd.org)
+  * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Introduction)
+  * [Tilda](https://github.com/lanoxx/tilda)
+  * [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html)
+  * [Transmission](http://www.transmissionbt.com/)
+  * [Ubuntu](http://www.ubuntu.com)
+  * [VLC](http://www.videolan.org)
+
+### Summary of donations
+
+We post an overview of how the donations were used each month.
+
+  * [2014 November](/blog/ubuntu-mate-november-2014-supporters/)
+  * [2014 December](/blog/ubuntu-mate-december-2014-supporters/)
+  * [2015 January](/blog/ubuntu-mate-january-2015-supporters/)
+  * [2015 February](/blog/ubuntu-mate-february-2015-supporters/)
+  * [2015 March](/blog/ubuntu-mate-march-2015-supporters/)
+  * [2015 April](/blog/ubuntu-mate-april-2015-supporters/)
+  * [2015 May](/blog/ubuntu-mate-may-2015-supporters/)
+  * [2015 June](/blog/ubuntu-mate-june-2015-supporters/)
+  * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
+  * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
+  * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
 
 ## Hardware
 

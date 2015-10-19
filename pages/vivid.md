@@ -1,17 +1,17 @@
-<!-- 
+<!--
 .. title: Download Ubuntu MATE 15.04
 .. slug: vivid
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE,vivid,15.04,download
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 .. author: Martin Wimpress
 -->
 
 The Ubuntu MATE .iso image allows you to try Ubuntu MATE without changing your
 computer at all, and at your option to install it permanently later. You will
-need at least 512MB of RAM to install from this image. 
+need at least 512MB of RAM to install from this image.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -25,7 +25,7 @@ need at least 512MB of RAM to install from this image.
 ## Download
 
 Ubuntu MATE is currently available for four architectures, PC (Intel x86),
-64-bit PC (AMD64), Mac (PowerPC) and IBM-PPC (POWER5) and 
+64-bit PC (AMD64), Mac (PowerPC) and IBM-PPC (POWER5) and
 Raspberry Pi 2 aarch32 (ARMv7).
 
   * **PC (Intel x86)** For almost all PCs. This includes most machines with Intel/AMD/etc type processors and almost all computers that run Microsoft Windows, as well as newer Apple Macintosh systems based on Intel processors. Choose this if you are at all unsure.
@@ -65,11 +65,11 @@ Raspberry Pi 2 aarch32 (ARMv7).
 If everyone who downloaded Ubuntu MATE donated **$2.50** it would
 fund the full-time development of Ubuntu MATE *and* MATE
 Desktop. <u>Please give us a tip and help both projects flourish!</u> If
-you'd [like to donate more or become an Ubuntu MATE patron](/donate/) 
+you'd [like to donate more or become an Ubuntu MATE patron](/donate/)
 please visit the [donate page](/donate/).</p>
 
 <div class="row">
-  <div class="col-lg-4">
+  <div class="col-lg-3">
     <div class="well bs-component" align="center">
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
@@ -90,7 +90,7 @@ please visit the [donate page](/donate/).</p>
       </form>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-3">
     <div class="well bs-component" align="center">
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
@@ -111,7 +111,7 @@ please visit the [donate page](/donate/).</p>
       </form>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-3">
     <div class="well bs-component" align="center">
       <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <fieldset>
@@ -124,6 +124,27 @@ please visit the [donate page](/donate/).</p>
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
         <input type="hidden" name="amount" value="10.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="sra" value="1">
+        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component" align="center">
+      <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <fieldset>
+          <button type="submit" class="btn btn-primary">Tip us <b>$20.00</b></button>
+        </fieldset>
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="6282B4CZGVCB6">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 Download Tip">
+        <input type="hidden" name="no_shipping" value="1">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="charset" value="UTF-8">
+        <input type="hidden" name="amount" value="20.00">
         <input type="hidden" name="currency_code" value="USD">
         <input type="hidden" name="src" value="1">
         <input type="hidden" name="sra" value="1">
@@ -239,7 +260,7 @@ ARMv7 devices.
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 
