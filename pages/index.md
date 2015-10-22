@@ -64,7 +64,7 @@ ARMv7 devices.
 
 <div align="center">
   <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
-  <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
+  <b>Ubuntu MATE is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
 

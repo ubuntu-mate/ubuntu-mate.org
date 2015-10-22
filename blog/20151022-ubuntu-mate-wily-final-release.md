@@ -9,6 +9,10 @@
 .. author: Martin Wimpress
 -->
 
+<div align="center">
+<iframe id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## What works?
 
 People tell us that Ubuntu MATE is stable. You may, or may not, agree.
@@ -17,7 +21,7 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
 Here's what changed in Ubuntu MATE 15.10 since Beta 2.
 
-  * Fixed `udate-manager -d` and `do-release-upgrade -d` to upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10.
+  * Fixed `update-manager` and `do-release-upgrade` to upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10.
   * Fixed the openSUSE panel layout, GNOME Main Menu no longer crashes.
   * Fixed `ubi-timezone` error in Ubiquity.
   * Fixed Caja undelete, which was causing Caja to crash or fail to undelete.
@@ -44,6 +48,18 @@ Here's what changed in Ubuntu MATE 15.10 since Beta 2.
     </div>
 </div>
 
+## Raspberry Pi 2
+
+We are delighted to release Ubuntu MTE 15.10 for the Raspberry Pi 2 on
+release day along side the other supported architectures.
+You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+
+<div align="center">
+  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
+  <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
+</div>
+<br />
+
 ## Thanks
 
 Thanks to everyone who contributed to Ubuntu MATE 15.10. A side from
@@ -55,8 +71,8 @@ the [core team](/team/) there are few people who deserve a public
 Many thanks to [David Chadderton](https://ubuntu-mate.community/users/webspresso/activity)
 from [Webspresso](http://webspresso.co.uk/), [Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965),
 [quidsup](http://quidsup.net/wallpaper/show.php?i=Neon-UbuntuMATE),
-[Tim Apple](http://timapple.com/) and Jack Mohegan for the new community
-contributed artwork.
+[Tim Apple](http://timapple.com/), Jack Mohegan and
+[Linux Scoop](http://linuxscoop.com/) for the new community contributed artwork and videos.
 
 Thank you to Luke Horwell for adding the animations, transitions and
 categorisation to Ubuntu MATE Welcome. Thanks to Larry Bushey, from

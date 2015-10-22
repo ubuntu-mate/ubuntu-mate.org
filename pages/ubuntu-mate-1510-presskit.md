@@ -38,6 +38,10 @@ Ubuntu MATE has a number of guiding objectives and goals.
 
 ## New in Ubuntu MATE 15.10
 
+<div align="center">
+<iframe id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
   * Established a new hardware partnership with [LibreTrend](https://www.libretrend.com/en/) who join [Entroware](http://www.entroware.com).
@@ -102,7 +106,7 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 You can access the complete Ubuntu MATE 15.10 release notes from the
 URLs below:
 
-<!--  * [Ubuntu MATE 15.10 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release). -->
+  * [Ubuntu MATE 15.10 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release).
   * [Ubuntu MATE 15.10 Beta 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta2/).
   * [Ubuntu MATE 15.10 Beta 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta1/).
   * [Ubuntu MATE 15.10 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/).
