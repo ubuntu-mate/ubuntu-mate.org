@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function do_rpi2() {
+function do_ubuntu_mate() {
     local PAGE="raspberry-pi"
     local ISO_PATH="${HOME}/ISO-Mirror/wily/armhf/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2"
     local ISO_FILE=$(basename ${ISO_PATH})
@@ -14,9 +14,9 @@ function do_rpi2() {
     ln -s ${TOR_PATH} ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${TOR_FILE}
 }
 
-function do_rpi2_rc() {
+function do_lubuntu() {
     local PAGE="raspberry-pi"
-    local ISO_PATH="${HOME}/ISO-Mirror/xerus/armhf/ubuntu-mate-16.04-desktop-armhf-raspberry-pi-2.img.bz2"
+    local ISO_PATH="${HOME}/ISO-Mirror/wily/armhf/lubuntu-15.10-desktop-armhf-raspberry-pi-2.img.bz2"
     local ISO_FILE=$(basename ${ISO_PATH})
     local ISO_SIZE=$(du -m ${ISO_PATH} | cut -f1 -s)
     local TOR_PATH="${ISO_PATH}.torrent"
@@ -43,6 +43,6 @@ function do_rootfs() {
     ln -s ${TOR_PATH} ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${TOR_FILE}
 }
 
-do_rpi2
-#do_rpi2_rc
+do_ubuntu_mate
+do_lubuntu
 #do_rootfs
