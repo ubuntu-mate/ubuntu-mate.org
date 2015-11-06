@@ -3,3 +3,4 @@
 www/
 output/
 cache/
+__pycache__/
