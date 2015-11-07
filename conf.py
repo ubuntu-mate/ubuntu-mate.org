@@ -20,9 +20,9 @@ import time
 BLOG_AUTHOR = "Ubuntu MATE Team"  # (translatable)
 BLOG_TITLE = "Ubuntu MATE"  # (translatable)
 # This is the main URL for your site. It will be used
-# in a prominent link
+# in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://ubuntu-mate.org/"
-# This is the URL where nikola's output will be deployed.
+# This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "webmaster@ubuntu-mate.org"
@@ -541,7 +541,6 @@ DEPLOY_COMMANDS = {
         'rsync -a --delete www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
     ]
 }
-#'scripts/minify.sh',
 
 # For user.github.io OR organization.github.io pages, the DEPLOY branch
 # MUST be 'master', and 'gh-pages' for other repositories.
@@ -800,7 +799,7 @@ SOCIAL_ICONS="""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-#CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+#CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 CONTENT_FOOTER = '<div align="center"><small>{license} Contents &copy; {date} {author}.</small><br />{social_icons}</div>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
