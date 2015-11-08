@@ -1,10 +1,10 @@
-<!-- 
+<!--
 .. title: Ubuntu MATE 15.04 Press Kit
 .. slug: ubuntu-mate-1504-presskit
 .. date: 2015-04-23 11:00:00 UTC
 .. tags: Ubuntu,MATE,Press Kit
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 -->
 
@@ -12,11 +12,11 @@
     <div class="jumbotron">
         <h1>Achievement Unlocked!</h1>
         <p>If you didn't already know, Ubuntu MATE is now an official member of the Ubuntu family.</p>
-        <p><img class="centered" src="/Ubuntu-MATE-Remix.png" alt="Ubuntu MATE" /></p>
+        <p><img class="centered" src="/images/Ubuntu-MATE-Love.png" alt="Ubuntu MATE" /></p>
     </div>
 </div>
 
-Ubuntu MATE is a community developed [Ubuntu](http://www.ubuntu.com) based 
+Ubuntu MATE is a community developed [Ubuntu](http://www.ubuntu.com) based
 operating system that beautifully integrates the [MATE Desktop](http://mate-desktop.org)
 and offers a stable, easy-to-use operating system with a configurable desktop
 environment. Ideal for those who want the most out of their desktops, laptops and
@@ -78,9 +78,9 @@ You'll can access the complete Ubuntu MATE release notes from the URLs below:
 
 ## Applications
 
-While MATE Desktop provides the essential user interfaces to control 
-and use a computer, Ubuntu MATE adds a collection of additional 
-applications to turn your computer into a truly powerful workstation. 
+While MATE Desktop provides the essential user interfaces to control
+and use a computer, Ubuntu MATE adds a collection of additional
+applications to turn your computer into a truly powerful workstation.
 
 ### Productivity
 
@@ -208,7 +208,7 @@ The Ubuntu MATE project was founded in June 2014, since then:
 
 ## Community
 
-Ubuntu MATE is proud of the community that has grown around the project. The 
+Ubuntu MATE is proud of the community that has grown around the project. The
 Ubuntu MATE community fully fund the hosting and bandwidth costs of the project,
 including our dedicated community site.
 
@@ -322,14 +322,14 @@ You can access full resolution images from the URL below:
       </div>
     </div>
   </div>
-</div>  
+</div>
 
 ### Pre-install Partnership
 
 Ubuntu MATE has forged an exciting partnership with Linux hardware start-up
 [Entroware](https://www.entroware.com).
 
-<img class="centered" src="/gallery/blog/ubuntu-mate-entroware.png" alt="Ubuntu MATE and Entroware" />
+<img class="centered" src="/images/merch/entroware/ubuntu-mate-entroware.png" alt="Ubuntu MATE and Entroware" />
 
 Ubuntu MATE is focussed on usability and stability and has gained massive
 traction in the Linux community over recent months. Inspired by the traditional
@@ -338,7 +338,7 @@ distribution for easing the transition between Microsoft Windows or Mac OS
 and Linux.
 
 <div align="center">
-  <a href="https://www.entroware.com/store/apollo"><img src="/gallery/blog/entroware-apollo.jpg" /></a><br />
+  <a href="https://www.entroware.com/store/apollo"><img src="/images/merch/entroware/entroware-apollo.jpg" /></a><br />
   <b>With verified Linux compatible components and shipping with the latest Broadwell CPUs, this is the must have Ultrabook for Linux enthusiasts.</b>
 </div>
 <br />
@@ -365,7 +365,7 @@ pre-installed along with full support.
 ### Raspberry Pi 2
 
 <div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
+  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
   <b>Ubuntu MATE 15.04 is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
@@ -426,7 +426,7 @@ These fine people are bringing Ubuntu MATE to other hardware platforms.
 These are the social animals of the Ubuntu MATE community who help spread
 the word.
 
-  * [Brett Wiley](https://plus.google.com/+BrettWiley) G+ community moderator.  
+  * [Brett Wiley](https://plus.google.com/+BrettWiley) G+ community moderator.
   * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
 
 ### Contributors
@@ -447,7 +447,7 @@ Canonical employees.
   * [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl)
   * [Adam Conrad](https://launchpad.net/~adconrad)
   * [Colin Watson](https://launchpad.net/~cjwatson)
-  * [Martin Pitt](https://launchpad.net/~pitti)  
+  * [Martin Pitt](https://launchpad.net/~pitti)
   * [Iain Lane](https://launchpad.net/~laney)
   * [Didier Roche](https://launchpad.net/~didrocks)
   * [Adam Stokes](https://launchpad.net/~adam-stokes)

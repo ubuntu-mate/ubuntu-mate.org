@@ -22,6 +22,7 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 Here's what changed in Ubuntu MATE 15.10 since Beta 2.
 
   * Fixed `update-manager` and `do-release-upgrade` to upgrade from Ubuntu MATE 15.04 to Ubuntu MATE 15.10.
+    * Although this is not supported on the Raspberry Pi 2 images.
   * Fixed the openSUSE panel layout, GNOME Main Menu no longer crashes.
   * Fixed `ubi-timezone` error in Ubiquity.
   * Fixed Caja undelete, which was causing Caja to crash or fail to undelete.
@@ -55,7 +56,7 @@ release day along side the other supported architectures.
 You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
 <div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
+  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
   <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
 </div>
 <br />

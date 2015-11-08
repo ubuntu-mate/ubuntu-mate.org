@@ -3,16 +3,17 @@
 .. slug: ubuntu-mate-february-2015-supporters
 .. date: 2015-02-28 21:18:42 UTC
 .. tags: Ubuntu,MATE,community,donate
-.. link: 
+.. link:
 .. description: Community members who supported Ubuntu MATE this month.
 .. type: text
 .. author: Martin Wimpress
 -->
 
-Many thanks to everyone who donated to the Ubuntu MATE community this month. You
-have been generous as always and ensured that we can meet all the costs
-associated with running the Ubuntu MATE project and the community site. In fact,
-this month we are able to reward some other projects that Ubuntu MATE benefits from.
+Many thanks to everyone who donated to the Ubuntu MATE community this
+month. You have been generous as always and ensured that we can meet
+all the costs associated with running the Ubuntu MATE project and the
+community site. In fact, this month we are able to reward some other
+projects that Ubuntu MATE benefits from.
 
 ## How will these donations be spent?
 
@@ -23,13 +24,14 @@ These donations will be used to pay for:
   * Purchase Raspberry Pi 2 to help with developing Ubuntu MATE 15.10 for Raspberry Pi 2.
   * Purchase ODROID C1 to help with developing Ubuntu MATE 15.10 for ODROID C1.
 
-Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu family,
-and therefore new Ubuntu MATE releases are distrubuted via the Canonical mirror
-network, we are still serving ~900 downloads of Ubuntu MATE 14.04 and 14.10 per
-day from our servers. Given that we have committed to support Ubuntu MATE 14.04
-until 2019 these donations are much appreciated and help cover the bandwidth
-costs and fund the development servers when we need to prepare new .iso images
-for Ubuntu MATE 14.04.
+Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu
+family, and therefore new Ubuntu MATE releases are distrubuted via the
+Canonical mirror network, we are still serving ~900 downloads of Ubuntu
+MATE 14.04 and 14.10 per day from our servers. Given that we have
+committed to support Ubuntu MATE 14.04 until 2019 these donations are
+much appreciated and help cover the bandwidth costs and fund the
+development servers when we need to prepare new .iso images for Ubuntu
+MATE 14.04.
 
 **Thank you!**
 
@@ -44,7 +46,7 @@ follows:
   > THANKS a lot for including my 2 apps (Gufw & Folder Color) in Ubuntu
   MATE!! It's an honor for me :$ If you want, you have got my permission
   for removing the donate menu entry in Folder Color in Ubuntu MATE.
-  > 
+  >
   Why? Because I'm impressed with your professional & hard work and I
   love the MATE project.
 
@@ -82,7 +84,7 @@ go some way to repaying you?
 Those of you who have downloaded Ubuntu MATE from this website recently
 will have noticed the *Download Tip* we place on the page. We've made it
 clear that those tips are shared between the Ubuntu MATE and MATE Desktop
-projects. We have donated half the download tips from January 2015 and 
+projects. We have donated half the download tips from January 2015 and
 February 2015 to MATE Desktop, which we are pleased to say amounts to €30.
 
 ## Please Donate
@@ -118,13 +120,13 @@ processing fees, donated $119.46.
   * Chris Gardiner-Bill
   * Stephen Cook
   * Tavis Gillard
-  * DoctorKraz 
+  * DoctorKraz
   * Beda Frey
   * Tak Suyu
   * Sergio Rivera
   * Mike Steveline
   * Dirk-Jan van der Hoorn
-  * Krishna 
+  * Krishna
   * Tim Apple
   * David Hollings
   * Patrik Nilsson

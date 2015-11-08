@@ -3,7 +3,7 @@
 .. slug: ubuntu-mate-hardware-partnership-with-libretrend
 .. date: 2015-07-02 05:23:23 UTC
 .. tags: Ubuntu,MATE,LibreTrend,pre-installed,hardware,desktop
-.. link: 
+.. link:
 .. description: Ubuntu MATE agrees hardware partnership with LibreTrend
 .. type: text
 .. author: Martin Wimpress
@@ -11,16 +11,16 @@
 
 Ubuntu MATE agrees a partnership with GNU/Linux hardware manufacturer [LibreTrend](http://www.libretrend.com/en/).
 
-<img class="centered" src="/gallery/blog/ubuntu-mate-libretrend.png" alt="Ubuntu MATE and LibreTrend" />
+<img class="centered" src="/images/merch/libretrend/ubuntu-mate-libretrend.png" alt="Ubuntu MATE and LibreTrend" />
 
 Ubuntu MATE is an official flavour of Ubuntu focussed on usability and
-stability, which has gained massive traction in the Linux community over recent
-months. Inspired by the traditional GNOME 2 interface of classic Ubuntu
-releases, Ubuntu MATE is the perfect distribution for easing the transition 
-between Microsoft Windows or Mac OS and Linux.
+stability, which has gained massive traction in the Linux community
+over recent months. Inspired by the traditional GNOME 2 interface of
+classic Ubuntu releases, Ubuntu MATE is the perfect distribution for
+easing the transition between Microsoft Windows or Mac OS and Linux.
 
 <div align="center">
-  <a href="http://www.libretrend.com/en/store/librebox"><img src="/gallery/blog/librebox-topbanner.jpg" /></a><br />
+  <a href="http://www.libretrend.com/en/store/librebox"><img src="/images/merch/libretrend/librebox-topbanner.jpg" /></a><br />
   <b>The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.</b>
 </div>
 <br />
@@ -90,7 +90,7 @@ LibreTrend is a Portuguese based Linux software, services and hardware design co
 ## About Ubuntu MATE
 
 A community developed [Ubuntu](http://www.ubuntu.com) based operating system that
-beautifully integrates the [MATE desktop](http://mate-desktop.org). 
+beautifully integrates the [MATE desktop](http://mate-desktop.org).
 
 Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop
 environment. Ideal for those who want the most out of their computers and prefer

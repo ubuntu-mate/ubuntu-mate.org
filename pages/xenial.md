@@ -1,8 +1,8 @@
 <!--
-.. title: Download Ubuntu MATE 15.04
-.. slug: vivid
-.. date: 2014-06-10 23:01:09 UTC
-.. tags: Ubuntu,MATE,vivid,15.04,download
+.. title: Download Ubuntu MATE 16.04
+.. slug: xenial
+.. date: 2014-06-24 18:01:09 UTC
+.. tags: Ubuntu,MATE,wily,16.04,download
 .. link:
 .. description:
 .. type: text
@@ -13,14 +13,16 @@ The Ubuntu MATE .iso image allows you to try Ubuntu MATE without changing your
 computer at all, and at your option to install it permanently later. You will
 need at least 512MB of RAM to install from this image.
 
+<!--
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.04</p>
-        <a href="/blog/ubuntu-mate-vivid-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 16.04</p>
+        <a href="/blog/ubuntu-mate-wily-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
+-->
 
 ## Download
 
@@ -35,26 +37,26 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-i386.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 PC (Intel x86) Download" title="Ubuntu MATE 15.04 PC (Intel x86) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.04 Torrent</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 16.04 Torrent</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-amd64.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.04 64-bit PC (AMD64) Download" />
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
       </a>
-      <p>Ubuntu MATE 15.04 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 16.04 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-powerpc.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.04 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
@@ -64,7 +66,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 If everyone who downloaded Ubuntu MATE donated **$2.50** it would
 fund the full-time development of Ubuntu MATE *and* MATE
-Desktop. <u>Please give us a tip and help both projects flourish!</u> If
+Desktop. <u>Please give us a tip and help both projects flourish!</b> If
 you'd [like to donate more or become an Ubuntu MATE patron](/donate/)
 please visit the [donate page](/donate/).</p>
 
@@ -77,7 +79,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -98,7 +100,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -119,7 +121,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -140,7 +142,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.04 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -155,42 +157,42 @@ please visit the [donate page](/donate/).</p>
   </div>
 </div>
 
-### HTTP direct download
+## HTTP direct download
 
-In addition to the recommended BitTorrent downloads above, the .iso
-images can also be downloaded via HTTP.
+In addition to the recommended BitTorrent downloads above, the .iso images can
+also be downloaded via HTTP.
 
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-i386.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 PC (Intel x86) Download" title="Ubuntu MATE 15.04 PC (Intel x86) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso">
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 16.04</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-amd64.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 15.04 64-bit PC (AMD64) Download" />
-      </a>
-      <p>Ubuntu MATE 15.04</p><p><b>64-bit PC (AMD64)</b></p>
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso">
+          <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
+        </a>
+      <p>Ubuntu MATE 16.04</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-powerpc.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 15.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso">
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/MD5SUMS)
-matches.
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/MD5SUMS) matches.
 
+<!--
 ### Purchase DVDs and USBs
 
 [OSDisc.com](https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate)
@@ -198,7 +200,7 @@ is the leading source for Linux DVDs and USBs, serving the Linux community
 for over 10 years. Purchase ready-to-use bootable DVDs and
 [8GB - 64GB DataTraveler SE9 G2 USB 3.0](http://www.kingston.com/en/usb/personal_business#dtse9g2)
 memory sticks that come pre-installed with Ubuntu MATE and have persistent storage<i>*</i>.
-<b>Carry Ubuntu MATE 15.04, your applications and your data on a USB stick that you can boot
+<b>Carry Ubuntu MATE 16.04, your applications and your data on a USB stick that you can boot
 on any USB equipped PC.</b>
 
 <div class="row">
@@ -214,6 +216,7 @@ on any USB equipped PC.</b>
 </div>
 
 <small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
+-->
 
 ### Mirrors
 
@@ -222,18 +225,15 @@ to you in order to achieve a faster download.
 
   * [Official CD Mirrors for Ubuntu](https://launchpad.net/ubuntu/+cdmirrors)
 
-## Put the image on USB or DVD
+The image can be burned to a DVD, mounted as an ISO file, or be directly
+written to a USB stick using a utility like `dd` or `ddrescue` (from the
+`gddrescue` package), for example:
 
-The image can be burned to a DVD, mounted as an ISO file, or be
-directly written to a USB stick using a utility like `dd` or `ddrescue`
-(from the `gddrescue` package), for example:
+    sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-powerpc.iso /dev/sdx
 
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-powerpc.iso /dev/sdx
-
-If you want to make a bootable USB with Windows try
-[Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
+If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.ie/).
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -258,14 +258,6 @@ MATE to their ARMv7 devices.
   <b>Ubuntu MATE is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
-
-## Useful Information
-
-You may find the following information useful, which is why we titled
-the section *Useful Information* since the information presented here
-is mostly useful.
-
-  * [Ubuntu MATE 15.04 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
 
 ## Reporting issues
 

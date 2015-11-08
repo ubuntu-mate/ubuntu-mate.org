@@ -1,10 +1,10 @@
-<!-- 
+<!--
 .. title: Ubuntu MATE Remix artwork
 .. slug: ubuntu-mate-remix-artwork
 .. date: 2014-06-14 22:11:22 UTC
 .. tags: Ubuntu,MATE,Artwork
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -16,7 +16,7 @@ img.centered {
     margin-right: auto }
 </style>
 
-<img class="centered" src="/gallery/Artwork/Ubuntu_MATE.png" alt="Ubuntu MATE Remix" />
+<img class="centered" src="/gallery/Artwork/Ubuntu_MATE.png" alt="Ubuntu MATE" />
 
 [Sam Hewitt](http://snwh.org/) is an all-round good guy and design genius. I asked
 Sam if he had the time to create a logo for the project and he created a complete set

@@ -1,14 +1,14 @@
-<!-- 
+<!--
 .. title: Ubuntu MATE
 .. slug: index
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 -->
 
-<img class="centered" src="/Ubuntu-MATE-Remix.png" alt="Ubuntu MATE" />
+<img class="centered" src="/images/Ubuntu-MATE-Love.png" alt="Ubuntu MATE" />
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -63,7 +63,7 @@ scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their
 ARMv7 devices.
 
 <div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
+  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
   <b>Ubuntu MATE is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
