@@ -11,16 +11,16 @@
 
 Ubuntu MATE forges exciting partnership with Linux hardware startup [Entroware](https://www.entroware.com).
 
-<img class="centered" src="/gallery/blog/ubuntu-mate-entroware.png" alt="Ubuntu MATE and Entroware" />
+<img class="centered" src="/images/merch/entroware/ubuntu-mate-entroware.png" alt="Ubuntu MATE and Entroware" />
 
 Ubuntu MATE is a brand new official flavour of Ubuntu focussed on usability and
 stability, which has gained massive traction in the Linux community over the
 past few months. Inspired by the traditional GNOME 2 interface of classic Ubuntu
-releases, Ubuntu MATE is the perfect distribution for easing the transition 
+releases, Ubuntu MATE is the perfect distribution for easing the transition
 between Microsoft Windows or Mac OS and Linux.
 
 <div align="center">
-  <a href="https://www.entroware.com/store/orion"><img src="/gallery/blog/entroware-orion.png" /></a><br />
+  <a href="https://www.entroware.com/store/orion"><img src="/images/merch/entroware/entroware-orion.png" /></a><br />
   <b>With verified Linux compatible components, the Orion is designed with portability and style in mind.</b>
 </div>
 <br />
@@ -37,7 +37,7 @@ and look forward to what their collaboration can produce over the coming months.
 ## About Entroware
 
 Entroware is a UK based Linux computer manufacturer, founded in early 2014,
-providing a range of quality Linux computers. 
+providing a range of quality Linux computers.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -52,7 +52,7 @@ providing a range of quality Linux computers.
 ## About Ubuntu MATE
 
 A community developed [Ubuntu](http://www.ubuntu.com) based operating system that
-beautifully integrates the [MATE desktop](http://mate-desktop.org). 
+beautifully integrates the [MATE desktop](http://mate-desktop.org).
 
 Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop
 environment. Ideal for those who want the most out of their computers and prefer

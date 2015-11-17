@@ -3,17 +3,17 @@
 .. slug: ubuntu-mate-july-2015-supporters
 .. date: 2015-08-02 07:32:42 UTC
 .. tags: Ubuntu,MATE,community,donate
-.. link: 
+.. link:
 .. description: Community members who supported Ubuntu MATE this month.
 .. type: text
 .. author: Martin Wimpress
 -->
 
-Many thanks to everyone who donated to the Ubuntu MATE community this month. You
-have been generous as always and ensured that we can meet all the costs
-associated with running the Ubuntu MATE project and the community site. In fact,
-this month we are able to reward some other projects that Ubuntu MATE benefits
-from.
+Many thanks to everyone who donated to the Ubuntu MATE community this
+month. You have been generous as always and ensured that we can meet
+all the costs associated with running the Ubuntu MATE project and the
+community site. In fact, this month we are able to reward some other
+projects that Ubuntu MATE benefits from.
 
 ## How will these donations be spent?
 
@@ -32,12 +32,12 @@ These donations will be used to pay for:
 Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu family,
 and new Ubuntu MATE releases are now distributed via the Canonical mirror
 network, we are serving ~500 downloads per day for Ubuntu MATE 14.04 and
-another ~1000 downloads per day for Ubuntu MATE for the Raspberry Pi 2. 
+another ~1000 downloads per day for Ubuntu MATE for the Raspberry Pi 2.
 
 Given that we have committed to support Ubuntu MATE 14.04 until 2019
 these donations are much appreciated and help cover the bandwidth costs
 and fund the development servers we need to prepare new .iso images for
-Ubuntu MATE 14.04. 
+Ubuntu MATE 14.04.
 
 **Thank you!**
 
@@ -45,7 +45,7 @@ Ubuntu MATE 14.04.
 
 Ubuntu MATE is comprised of many Open Source projects, we recognise that. Each
 month that Ubuntu MATE has a surplus of funds we will make a contribution to an
-Open Source project that Ubuntu MATE directly benefits from. 
+Open Source project that Ubuntu MATE directly benefits from.
 
 For July 2015 Ubuntu MATE have sponsored [Syncthing](https://syncthing.net/).
 We are therefore delighted to be able to donate **$50** to Syncthing.
@@ -65,7 +65,7 @@ We are therefore delighted to be able to donate **$50** to Syncthing.
 </div>
 </div>
 
-Syncthing is an Open Source alternative to BitTorrent Sync. 
+Syncthing is an Open Source alternative to BitTorrent Sync.
 Earlier in July 2015 [the Ubuntu MATE server infrastructure was expanded](/blog/ubuntu-mate-server-upgrades/)
 to multiple servers in different geographies. A solution for syncing the
 Ubuntu MATE images between those sites was required and we've used Syncthing
@@ -86,7 +86,7 @@ to some of the upstream MATE developers.
 
   * **$145.50** to [Mike Gabriel](https://alioth.debian.org/users/sunweaver/), Debian developer and package maintainer for MATE.
   * **$145.50** to [Vangelis Mouhtsis](https://alioth.debian.org/users/gnugr-guest/), Debian maintainer and package maintainer for MATE.
-  
+
 Although Mike and Vangelis are primarily involved in Debian they have been
 hugely supportive of Ubuntu MATE and put significant effort into ensuring
 packaging for Ubuntu MATE is completed and well supported. This has included

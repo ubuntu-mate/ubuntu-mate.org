@@ -190,6 +190,31 @@ also be downloaded via HTTP.
 If you direct download the .iso image please make sure the [appropriate
 MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/MD5SUMS) matches.
 
+### Purchase DVDs and USBs
+
+[OSDisc.com](https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate)
+is the leading source for Linux DVDs and USBs, serving the Linux community
+for over 10 years. Purchase ready-to-use bootable DVDs and
+[8GB - 64GB DataTraveler SE9 G2 USB 3.0](http://www.kingston.com/en/usb/personal_business#dtse9g2)
+memory sticks that come pre-installed with Ubuntu MATE and have persistent storage<i>*</i>.
+<b>Carry Ubuntu MATE 15.10, your applications and your data on a USB stick that you can boot
+on any USB equipped PC.</b>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active" href="https://www.osdisc.com/">OSDisc.com</a>
+        <a class="list-group-item" href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">
+        <img class="centered" src="/images/sponsors/osdisc.png" alt="OSDisc.com" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
+
+
 ### Mirrors
 
 You might prefer to find a CD image mirror server that is geographically close
@@ -218,15 +243,16 @@ If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.i
 
 ## Raspberry Pi 2
 
-We are delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
-We've also created an [Ubuntu MATE generic root file system and example build
-scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their
-ARMv7 devices.
+We are delighted to provide a ready to run image for the [Raspberry
+Pi](http://www.raspberrypi.org) 2. You can find out more and download
+the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+We've also created an [Ubuntu MATE generic root file system and example
+build scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu
+MATE to their ARMv7 devices.
 
 <div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
-  <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
+  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
+  <b>Ubuntu MATE is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
 

@@ -3,17 +3,17 @@
 .. slug: ubuntu-mate-april-2015-supporters
 .. date: 2015-04-30 20:32:42 UTC
 .. tags: Ubuntu,MATE,community,donate
-.. link: 
+.. link:
 .. description: Community members who supported Ubuntu MATE this month.
 .. type: text
 .. author: Martin Wimpress
 -->
 
-Many thanks to everyone who donated to the Ubuntu MATE community this month. You
-have been generous as always and ensured that we can meet all the costs
-associated with running the Ubuntu MATE project and the community site. In fact,
-this month we are able to reward some other projects that Ubuntu MATE benefits
-from.
+Many thanks to everyone who donated to the Ubuntu MATE community this
+month. You have been generous as always and ensured that we can meet
+all the costs associated with running the Ubuntu MATE project and the
+community site. In fact, this month we are able to reward some other
+projects that Ubuntu MATE benefits from.
 
 ## How will these donations be spent?
 
@@ -41,7 +41,7 @@ Ubuntu MATE 14.04.
 
 Ubuntu MATE is comprised of many Open Source projects, we recognise that. Each
 month that Ubuntu MATE has a surplus of funds we will make a contribution to an
-Open Source project that Ubuntu MATE directly benefits from. 
+Open Source project that Ubuntu MATE directly benefits from.
 
 Ubuntu MATE is built on top of [Ubuntu](http://www.ubuntu.com) which in turn is
 derived from [Debian](http://www.debian.org). With Debian and Ubuntu both having

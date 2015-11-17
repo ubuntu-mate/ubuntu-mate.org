@@ -35,8 +35,8 @@ The first boot is quite slow, but once the first boot configuration is
 complete subsequent boots are much quicker.
 
 <div align="center">
-  <img src="/gallery/Screenshots/ubuntu-mate-1504-raspberry-pi-2-screenshot.png" /></a><br />
-  <b>Ubuntu MATE 15.04 running on the Raspberry Pi 2.</b>
+  <img src="/gallery/Screenshots/09_RASPBERRY.png" /></a><br />
+  <b>Ubuntu MATE 15.10 running on the Raspberry Pi 2.</b>
 </div>
 <br />
 
@@ -72,7 +72,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
   <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
+        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
       </a>
       <p>Ubuntu MATE 15.10 from European CDN</p><p><b>Raspberry Pi 2</b></p>
     </div>
@@ -80,7 +80,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
   <div class="col-lg-2">
     <div class="well bs-component text-center">
       <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
+        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
       </a>
       <p>Ubuntu MATE 15.10 from Canadian mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
@@ -88,7 +88,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
   <div class="col-lg-2">
     <div class="well bs-component text-center">
       <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
+        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
       </a>
       <p>Ubuntu MATE 15.10 from French mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
@@ -96,7 +96,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
   <div class="col-lg-2">
     <div class="well bs-component text-center">
       <a href="http://ita.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
+        <img src="/images/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
       </a>
       <p>Ubuntu MATE 15.10 from Italian mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
@@ -230,6 +230,14 @@ Delete the second partition (d, 2), then re-create it using the defaults
 
     sudo resize2fs /dev/mmcblk0p2
 
+## Enable and Disable X11
+
+We created a simple utility called `graphical` to disable/enable the
+MATE desktop environment for easily creating a headless *"server"*.
+Executing `graphical disable` will present a console login on the next
+boot, with now X11 or associated services running. If you want to get
+the full Ubuntu MATE desktop back, run `graphical enable` and reboot.
+
 ## Hardware accelerated video
 
 Most videos will play with hardware acceleration using `omxplayer` which
@@ -263,7 +271,7 @@ device using `amixer`.
 
 ## Feedback and Improvements
 
-Please post all feedback on the [dedicated community topic](https://ubuntu-mate.community/t/ubuntu-mate-15-04-for-raspberry-pi-2/517).
+Please post all feedback on the [dedicated community topic](https://ubuntu-mate.community/t/ubuntu-mate-15-10-for-the-raspberry-pi-2/2479).
 If you have any improvements then please submit a pull request to our
 BitBucket.
 

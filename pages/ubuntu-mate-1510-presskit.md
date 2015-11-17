@@ -38,6 +38,10 @@ Ubuntu MATE has a number of guiding objectives and goals.
 
 ## New in Ubuntu MATE 15.10
 
+<div align="center">
+<iframe id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Here is a run down of some of the new features in Ubuntu MATE 15.10:
 
   * Established a new hardware partnership with [LibreTrend](https://www.libretrend.com/en/) who join [Entroware](http://www.entroware.com).
@@ -102,7 +106,7 @@ Here is a run down of some of the new features in Ubuntu MATE 15.10:
 You can access the complete Ubuntu MATE 15.10 release notes from the
 URLs below:
 
-<!--  * [Ubuntu MATE 15.10 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release). -->
+  * [Ubuntu MATE 15.10 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-wily-final-release).
   * [Ubuntu MATE 15.10 Beta 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta2/).
   * [Ubuntu MATE 15.10 Beta 1](https://ubuntu-mate.org/blog/ubuntu-mate-wily-beta1/).
   * [Ubuntu MATE 15.10 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-wily-alpha2/).
@@ -217,12 +221,12 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
 <div class="row">
   <div class="col-lg-6">
     <div class="well bs-component">
-    <a href="https://entroware.com"><img class="centered" src="/assets/img/sponsors/entroware.png" alt="Entroware" /></a>
+    <a href="https://entroware.com"><img class="centered" src="/images/sponsors/entroware.png" alt="Entroware" /></a>
     </div>
   </div>
   <div class="col-lg-6">
     <div class="well bs-component">
-    <a href="http://www.libretrend.com/en/"><img class="centered" src="/assets/img/sponsors/libretrend.png" alt="LibreTrend"/></a>
+    <a href="http://www.libretrend.com/en/"><img class="centered" src="/images/sponsors/libretrend.png" alt="LibreTrend"/></a>
     </div>
   </div>
 </div>
@@ -230,7 +234,7 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
 ### Raspberry Pi 2
 
 <div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
+  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
   <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
 </div>
 <br />
