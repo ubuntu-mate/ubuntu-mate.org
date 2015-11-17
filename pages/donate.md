@@ -67,9 +67,11 @@ to benefit from Patron rewards.**
             <div class="form-group">
               <label for="donationAmount" class="col-lg-4 control-label">Select an amount</label>
               <div class="col-lg-6">
-                <input type="radio" name="amt" value="2.50">2.50
-                <input type="radio" name="amt" value="5" checked="">5
-                <input type="radio" name="amt" value="10">10
+                <input type="radio" name="amt" value="5" />5
+                <input type="radio" name="amt" value="10" checked="" />10
+                <input type="radio" name="amt" value="25" />25
+                <input type="radio" name="amt" value="50" />50
+                <input type="radio" name="amt" value="100" />100
               </div>
             </div>
             <div class="form-group">
@@ -118,9 +120,11 @@ to benefit from Patron rewards.**
             <div class="form-group">
               <label for="donationAmount" class="col-lg-4 control-label">Select an amount</label>
               <div class="col-lg-6">
-                <input type="radio" name="amt" value="2.50">2.50
-                <input type="radio" name="amt" value="5" checked="">5
-                <input type="radio" name="amt" value="10">10
+                <input type="radio" name="amt" value="5" />5
+                <input type="radio" name="amt" value="10" checked="" />10
+                <input type="radio" name="amt" value="25" />25
+                <input type="radio" name="amt" value="50" />50
+                <input type="radio" name="amt" value="100" />100
               </div>
             </div>
             <div class="form-group">
@@ -178,11 +182,11 @@ to our Patreon page where we have commercial sponsorship packages.
     </div>
 </div>
 
-## Bitcoin and micro payments
+## Bitcoin
 
 <div class="bs-docs-section">
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <div class="well bs-component">
         <legend>Bitcoin</legend>
           <p>Click or scan to QR code below to launch your Bitcoin client and
@@ -191,21 +195,9 @@ to our Patreon page where we have commercial sponsorship packages.
           choice.</p>
           <p align="center">
             <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=Ubuntu%20MATE">
-            <img src="https://chart.googleapis.com/chart?chs=192x192&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_Ubuntu_MATE" /></a>
+            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_Ubuntu_MATE" /></a>
             <br />
             <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
-          </p>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <div class="well bs-component">
-        <legend>Flattr</legend>
-          <p>Maybe you prefer to use a micro payment service? With
-          <a href="https://flattr.com/howflattrworks" target="_blank">Flattr</a>,
-          supporting creators becomes a natural part of life. Paying for content
-          does not only feel good, it makes the world a better place.</p>
-          <p align="center">
-            <script id='fbjjn1d'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=ubuntumatedotorg&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=62;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbjjn1d');</script>
           </p>
       </div>
     </div>
@@ -227,6 +219,7 @@ We post an overview of how the donations were used each month.
   * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
   * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
   * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
+  * [2015 October](/blog/ubuntu-mate-october-2015-supporters/)
 
 <script type="text/javascript">
   function validateMonthlyForm() {

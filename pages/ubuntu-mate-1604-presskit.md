@@ -149,6 +149,7 @@ We post an overview of how the donations were used each month.
   * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
   * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
   * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
+  * [2015 October](/blog/ubuntu-mate-october-2015-supporters/)
 
 ## Hardware
 
