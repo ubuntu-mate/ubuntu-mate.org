@@ -30,7 +30,7 @@ function do_lubuntu() {
 
 function do_rootfs() {
     local PAGE="armhf-rootfs"
-    local ISO_PATH="${HOME}/ISO-Mirror/vivid/armhf/ubuntu-mate-15.10-desktop-armhf-rootfs.tar.gz"
+    local ISO_PATH="${HOME}/ISO-Mirror/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz"
     local ISO_FILE=$(basename ${ISO_PATH})
     local ISO_SIZE=$(du -m ${ISO_PATH} | cut -f1 -s)
     local TOR_PATH=""
@@ -45,4 +45,4 @@ function do_rootfs() {
 
 do_ubuntu_mate
 do_lubuntu
-#do_rootfs
+do_rootfs
