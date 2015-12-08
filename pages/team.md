@@ -27,6 +27,7 @@ develop and test Ubuntu MATE.
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
   * [Marcos Costales](https://wiki.ubuntu.com/costales) Developer of special projects for Ubuntu MATE.
+  * [Luke Horwell]() Ubuntu MATE Welcome developer.
 
 ## Maintainers
 
