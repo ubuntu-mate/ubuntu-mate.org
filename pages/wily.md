@@ -226,16 +226,16 @@ MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/MD5SUMS) 
 
 ### Mirrors
 
-You might prefer to find a CD image mirror server that is geographically close
-to you in order to achieve a faster download.
+You might prefer to find a DVD image on a mirror server that is
+geographically close to you in order to achieve a faster download.
 
   * [Official CD Mirrors for Ubuntu](https://launchpad.net/ubuntu/+cdmirrors)
 
-## Buring a DVD or making a USB
+## Buring a DVD or Making a USB
 
 The image can be burned to a DVD, mounted as an ISO file, or be directly
-written to a USB stick using a utility like `dd`, but we prefer `ddrescue` (from the
-[gddrescue](apt://gddrescue), for example:
+written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
+(from the [gddrescue](apt://gddrescue), for example:
 
     sudo apt-get install gddrescue
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-amd64.iso /dev/sdx

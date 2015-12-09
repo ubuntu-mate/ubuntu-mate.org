@@ -281,16 +281,6 @@ If you direct download the .iso image please make sure the MD5 hash matches:
   * ISO_64_FILE - `ISO_64_MD5`
   * ISO_MAC_FILE - `ISO_MAC_MD5`
 
-The image can be burned to a DVD, mounted as an ISO
-file, or be directly written to a USB stick using a utility like `dd`
-or `ddrescue` (from the `gddrescue` package), for example:
-
-    sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
-    sudo ddrescue -d -D --force ISO_64_FILE /dev/sdx
-    sudo ddrescue -d -D --force ISO_MAC_FILE /dev/sdx
-
-If you want to make a bootable USB with Windows try [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
-
 ### Purchase DVDs and USBs
 
 [OSDisc.com](https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate)
@@ -314,6 +304,22 @@ boot on any USB equipped PC.</b>
 </div>
 
 <small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
+
+## Buring a DVD or Making a USB
+
+The image can be burned to a DVD, mounted as an ISO file, or be directly
+written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
+(from the [gddrescue](apt://gddrescue), for example:
+
+    sudo apt-get install gddrescue
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-powerpc.iso /dev/sdx
+
+If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
+and the *Restore Disk Image...* option.
+
+    sudo apt-get install gnome-disk-utility
 
 ## Sponsors
 
