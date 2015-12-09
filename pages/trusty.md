@@ -312,9 +312,9 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
 (from the [gddrescue](apt://gddrescue), for example:
 
     sudo apt-get install gddrescue
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
+    sudo ddrescue -d -D --force ISO_64_FILE /dev/sdx
+    sudo ddrescue -d -D --force ISO_MAC_FILE /dev/sdx
 
 If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
 and the *Restore Disk Image...* option.
