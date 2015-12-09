@@ -192,28 +192,37 @@ MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/MD5SUMS) 
 
 ### Purchase DVDs and USBs
 
-[OSDisc.com](https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate)
-is the leading source for Linux DVDs and USBs, serving the Linux community
-for over 10 years. Purchase ready-to-use bootable DVDs and
-[8GB - 64GB DataTraveler SE9 G2 USB 3.0](http://www.kingston.com/en/usb/personal_business#dtse9g2)
-memory sticks that come pre-installed with Ubuntu MATE and have persistent storage<i>*</i>.
-<b>Carry Ubuntu MATE 15.10, your applications and your data on a USB stick that you can boot
-on any USB equipped PC.</b>
-
 <div class="row">
-  <div class="col-lg-12">
+  <div class="col-lg-6">
     <div class="bs-component">
       <div class="list-group">
-        <a class="list-group-item active" href="https://www.osdisc.com/">OSDisc.com</a>
+        <a class="list-group-item active" href="https://www.osdisc.com/?affiliate=ubuntumate">OSDisc.com</a>
         <a class="list-group-item" href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">
         <img class="centered" src="/images/sponsors/osdisc.png" alt="OSDisc.com" /></a>
       </div>
+        <p><a href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">OSDisc.com</a> 
+        is a leading source for Linux DVDs and USBs. Purchase 
+        ready-to-use bootable DVDs and memory sticks that come 
+        pre-installed with Ubuntu MATE and have persistent storage.</p> 
+        <p><small><i>* Persistent storage is only available on USB 
+        sticks that are 32GB or larger</i></small></p>
     </div>
   </div>
+  <div class="col-lg-6">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active" href="https://www.hellotux.com/ubuntumate1510_flash_drive">HELLOTUX</a>
+        <a class="list-group-item" href="https://www.hellotux.com/ubuntumate1510_flash_drive">
+        <img class="centered" src="/images/merch/hellotux/flashdrive.jpg" alt="Ubuntu MATE Branded Flash Drive" /></a>
+      </div>
+    </div>
+        <p><a href="https://www.hellotux.com/ubuntumate1510_flash_drive">HELLOTUX</a>
+        sell an Ubuntu MATE branded 8GB Metallic Unibody USB stick that is just
+        41 mm long and less than 5 mm thick. It's the perfect flash drive for
+        your key ring, always with you. HELLOTUX will also help you to upgrade
+        your flash drive to the next version of Ubuntu MATE, absolutely free.</p>
+  </div>  
 </div>
-
-<small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
-
 
 ### Mirrors
 
@@ -222,13 +231,23 @@ to you in order to achieve a faster download.
 
   * [Official CD Mirrors for Ubuntu](https://launchpad.net/ubuntu/+cdmirrors)
 
-The image can be burned to a DVD, mounted as an ISO file, or be directly
-written to a USB stick using a utility like `dd` or `ddrescue` (from the
-`gddrescue` package), for example:
+## Buring a DVD or making a USB
 
+The image can be burned to a DVD, mounted as an ISO file, or be directly
+written to a USB stick using a utility like `dd`, but we prefer `ddrescue` (from the
+[gddrescue](apt://gddrescue), for example:
+
+    sudo apt-get install gddrescue
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-amd64.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-i386.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-powerpc.iso /dev/sdx
+
+If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
+and the *Restore Disk Image...* option.
+
+    sudo apt-get install gnome-disk-utility
+
+### Making a USB with Windows
 
 If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.ie/).
 
