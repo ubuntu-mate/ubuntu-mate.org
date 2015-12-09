@@ -531,6 +531,15 @@ REDIRECTIONS = [
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
     'default': [
+        'rsync -a output/ www/',
+        'find www -type d -exec chmod 755 {} \;',
+        'find www -type f -exec chmod 644 {} \;',
+        'rsync -a www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
+        'rsync -a www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+    ],
+    'complete': [
         'rsync -a --delete output/ www/',
         'scripts/armhf.sh',
         'scripts/trusty.sh',
@@ -538,6 +547,7 @@ DEPLOY_COMMANDS = {
         'find www -type f -exec chmod 644 {} \;',
         'rsync -a --delete www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
         'rsync -a --delete www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
         'rsync -a --delete www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
     ]
 }
@@ -1175,13 +1185,13 @@ ADDITIONAL_METADATA = {
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
-# TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
-#                                   # see https://dev.twitter.com/cards/types
-#     # 'site': '@website',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
-# }
+TWITTER_CARD = {
+     'use_twitter_cards': True,  # enable Twitter Cards
+     'card': 'summary',          # Card type, you can also use 'summary_large_image',
+                                 # see https://dev.twitter.com/cards/types
+     'site': '@ubuntu_mate',     # twitter nick for the website
+     'creator': '@m_wimpress',   # Username for the content creator / author.
+}
 
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
