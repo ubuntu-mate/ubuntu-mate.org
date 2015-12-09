@@ -904,7 +904,7 @@ FUTURE_IS_NOW = False
 # If True, future dated posts are allowed in deployed output
 # Only the individual posts are published/deployed; not in indexes/sitemap
 # Generally, you want FUTURE_IS_NOW and DEPLOY_FUTURE to be the same value.
-# DEPLOY_FUTURE = False
+DEPLOY_FUTURE = False
 # If False, draft posts will not be deployed
 DEPLOY_DRAFTS = False
 
@@ -1100,26 +1100,13 @@ EXTRA_HEAD_DATA = """
 <meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-config" content="/browserconfig.xml">
-<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px; display: none;"></div>
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
 BODY_END = """
-    <!-- tipuesearch -->
-    <script>
-      var cb = function() {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = '/assets/css/tipuesearch.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-       else window.addEventListener('load', cb);
-    </script>
-
     <script src="/assets/js/tipuesearch_set.js"></script>
     <script src="/assets/js/tipuesearch.js"></script>
     <script>
