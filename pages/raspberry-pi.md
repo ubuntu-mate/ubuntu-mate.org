@@ -51,11 +51,12 @@ complete subsequent boots are much quicker.
 
 ## Download
 
-A pre-built image of Ubuntu MATE 15.10 for the Raspberry Pi 2 is available
-via BitTorrent and direct download. If you can spare the bytes, please
-download via BitTorrent and leave the client open after your download is
-finished, so you can seed it back to others. <i>A web-seed capable client is
-recommended for fastest download speeds.</i></p>
+A pre-built image of Ubuntu MATE 15.10.1 for the Raspberry Pi 2 is
+available via BitTorrent and direct download. If you can spare the
+bytes, please download via BitTorrent and leave the client open after
+your download is finished, so you can seed it back to others. <i>A
+web-seed capable client is recommended for fastest download
+speeds.</i></p>
 
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
@@ -63,51 +64,49 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Torrent" title="Ubuntu MATE 15.10 Raspberry Pi 2 Torrent" />
+      <a href="https://ubuntu-pi-flavour-maker.org/wily/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Torrent" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Torrent" />
       </a>
-      <p>Ubuntu MATE 15.10 via BitTorrent</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.1 via BitTorrent</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
+      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
       </a>
-      <p>Ubuntu MATE 15.10 from European CDN</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.1 from European CDN</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.10 from Canadian mirror</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.10 from French mirror</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-  <!--
   <div class="col-lg-2">
     <div class="well bs-component text-center">
-      <a href="http://ita.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2">
-        <img src="/images/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.10 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10 Raspberry Pi 2 Download" />
+      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
       </a>
-      <p>Ubuntu MATE 15.10 from Italian mirror</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.1 from Canadian mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
-  -->
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.10.1 from French mirror</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="well bs-component text-center">
+      <a href="http://ger.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
+      </a>
+      <p>Ubuntu MATE 15.10.1 from German mirror</p><p><b>Raspberry Pi 2</b></p>
+    </div>
+  </div>
 </div>
 
 If you direct download the image please make sure the MD5 hash matches:
 
-  * `7f110f5ddaa512a361ff172c12665f11`
+  * `059d74d51d0f36fd30b504907f646e6d`
 
 ## Download tip
 
@@ -205,20 +204,30 @@ please visit the [donate page](/donate/).</p>
   </div>
 </div>
 
-## Putting the image on microSDHC
+## Making a microSDHC
 
-Download the image and then:
+The image can be directly written to a microSDHC using a utility like
+`dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue), for example:
 
-  1. Extract the `.img.bz2` archive to get the image file.
+    sudo apt-get install gddrescue
+    unxz ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img.xz
+    sudo ddrescue -d -D --force ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img /dev/sdx
 
-    bunzip2 ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2
+The microSDHC may be presented on any `/dev/sdX` so use the command
+`lsblk` to check.
 
-  2. Write the image file to the microSD card as root.
+If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
+and the *Restore Disk Image...* option, **which natively supports XZ
+compressed images**.
 
-    sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img /dev/sdX
+    sudo apt-get install gnome-disk-utility
 
-The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
-check.
+### Making a microSDHC with Windows
+
+If you want to make a microSDHC using Windows we recommend:
+
+  * [7-Zip](http://www.7-zip.org/) to extract the image.
+  * [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/) to write the image.
 
 ## Re-size file system
 
@@ -289,6 +298,15 @@ BitBucket.
   * [Spindle](https://github.com/RPi-Distro/spindle) - a tool to help spin distribution images
 
 ## Changes
+
+### 2015-12-21 - Ubuntu MATE 15.10.1 for Raspbery Pi 2 Update
+
+  * Migrated the build to [Ubuntu Pi Flavour Maker](https://ubuntu-pi-flavour-maker.org) project.
+  * Images are now XZ compressed, to save bandwidth and make them compatible with GNOME Disks.
+  * Added `python-gpiozero` and `python3-gpizero` 1.0.0 as packages.
+  * Updated Scratch to 20151111.
+  * Updated to Linux 4.1.15.
+  * Reverted change to `/boot/config.txt` so audio is not forced to output over HDMI because this introduced more compatibility issues that it solved.
 
 ### 2015-10-22 - Ubuntu MATE 15.10 for Raspbery Pi 2 Final Release
 

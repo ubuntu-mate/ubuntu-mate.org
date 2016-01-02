@@ -532,11 +532,12 @@ REDIRECTIONS = [
 DEPLOY_COMMANDS = {
     'default': [
         'rsync -a output/ www/',
+        'scripts/armhf.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
         'rsync -a www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
         'rsync -a www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
-        'rsync -a www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
+        'rsync -a www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
         'rsync -a www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
     ],
     'complete': [
@@ -547,7 +548,7 @@ DEPLOY_COMMANDS = {
         'find www -type f -exec chmod 644 {} \;',
         'rsync -a --delete www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
         'rsync -a --delete www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
-        'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
+        'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
         'rsync -a --delete www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
     ]
 }
