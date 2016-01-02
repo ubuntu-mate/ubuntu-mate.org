@@ -539,6 +539,30 @@ DEPLOY_COMMANDS = {
         'rsync -a www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
         'rsync -a www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
     ],
+    'trusty': [
+        'rsync -a output/ www/',
+        'rm -fv www/longterm/*.iso*',
+        'rm -fv www/trusty/*.iso*',
+        'scripts/trusty.sh',
+        'find www -type d -exec chmod 755 {} \;',
+        'find www -type f -exec chmod 644 {} \;',
+        'rsync -a www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
+        'rsync -a www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+    ],
+    'armhf': [
+        'rsync -a output/ www/',
+        'rm -fv www/raspberry-pi/*.img*',
+        'rm -fv www/armhf-rootfs/*.tar*',
+        'scripts/armhf.sh',
+        'find www -type d -exec chmod 755 {} \;',
+        'find www -type f -exec chmod 644 {} \;',
+        'rsync -a www/ martin@can.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+        'rsync -a www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
+        'rsync -a www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
+    ],
     'complete': [
         'rsync -a --delete output/ www/',
         'scripts/armhf.sh',
@@ -549,7 +573,8 @@ DEPLOY_COMMANDS = {
         'rsync -a --delete www/ martin@fra.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
         'rsync -a --delete www/ martin@ger.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',        
         'rsync -a --delete www/ martin@ita.ubuntu-mate.net:Websites/ubuntu-mate.org/www/',
-    ]
+    ],
+
 }
 
 # For user.github.io OR organization.github.io pages, the DEPLOY branch

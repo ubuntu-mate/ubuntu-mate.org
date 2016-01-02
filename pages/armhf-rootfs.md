@@ -75,7 +75,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.04 from European CDN</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
-  <div class="col-lg-3">
+  <div class="col-lg-2">
     <div class="well bs-component text-center">
       <a href="http://can.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
         <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
@@ -83,7 +83,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.04 from Canadian mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
-  <div class="col-lg-3">
+  <div class="col-lg-2">
     <div class="well bs-component text-center">
       <a href="http://fra.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
         <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
@@ -91,16 +91,14 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.04 from France mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
-  <!--
   <div class="col-lg-2">
     <div class="well bs-component text-center">
-      <a href="http://ita.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/images/flags/Italy-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+      <a href="http://ger.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
+        <img src="/images/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
-      <p>Ubuntu MATE 15.04 from Italian mirror</p><p><b> aarch32 (ARMv7)</b></p>
+      <p>Ubuntu MATE 15.04 from German mirror</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
-  -->
 </div>
 
 If you direct download the image please make sure the MD5 hash matches:

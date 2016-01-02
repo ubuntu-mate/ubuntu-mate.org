@@ -77,7 +77,7 @@ Ubuntu MATE has a number of guiding objectives and goals.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Frequently asked questions</h1>
-        <p>There are some questions we are asked frequently so we've compile a list of answers to the most common questions.</p>
+        <p>There are some questions we are asked frequently so we've compiled a list of answers to the most common questions.</p>
         <a href="/faq/" class="btn btn-primary btn-lg">FAQ</a>
     </div>
 </div>
