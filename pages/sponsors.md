@@ -33,7 +33,13 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
 
 ## Patrons
 
-Many thanks to the following people for becoming Ubuntu MATE patrons who collectively donated **$492.0** this month.
+Many thanks to the following people for becoming Ubuntu MATE patrons who collectively donated **$585.5** this month.
+
+<div align="center">
+<h2>James Dorey<h2>
+</div>
+
+James Dorey has opted in to our *Level 42* Patreon package and therefore knows the meaning of life, the universe and everything!
 
 ### The following Patrons contribute $10, or more, every month.
 
@@ -45,6 +51,10 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Manuel Carrizo</td>
+      <td>2015-11-13 01:17:34</td>
+    </tr>
     <tr>
       <td>Poul LeBlanc</td>
       <td>2015-01-17 19:21:40</td>
@@ -62,6 +72,10 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td>2015-03-11 22:57:13</td>
     </tr>
     <tr>
+      <td>Jason Cox</td>
+      <td>2015-11-20 20:36:08</td>
+    </tr>
+    <tr>
       <td>Steve J. Radonich IV</td>
       <td>2014-11-09 10:44:55</td>
     </tr>
@@ -74,8 +88,8 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td>2015-05-14 18:12:54</td>
     </tr>
     <tr>
-      <td>David Rush</td>
-      <td>2015-06-20 17:04:23</td>
+      <td>Robert Meineke</td>
+      <td>2014-11-28 12:57:15</td>
     </tr>
     <tr>
       <td>Mike Kelley</td>
@@ -90,10 +104,6 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td>2015-07-07 23:35:19</td>
     </tr>
     <tr>
-      <td><a href="https://twitter.com/shannonodam">Shannon Odam</a></td>
-      <td>2015-08-18 04:09:17</td>
-    </tr>
-    <tr>
       <td>Michael Vanier</td>
       <td>2015-07-06 06:31:31</td>
     </tr>
@@ -105,14 +115,20 @@ Many thanks to the following people for becoming Ubuntu MATE patrons who collect
       <td><a href="https://twitter.com/htpcBeginner">htpcBeginner.com</a></td>
       <td>2015-10-02 13:01:39</td>
     </tr>
+    <tr>
+      <td>Ron Goodman</td>
+      <td>2015-11-20 13:38:02</td>
+    </tr>
+    <tr>
+      <td>Steven Drinnan</td>
+      <td>2015-11-11 16:27:18</td>
+    </tr>
   </tbody>
 </table>
 <br />
-
 ### The following Patrons also contribute every month.
 
-<small>David Hollings, Zora Saad, <a href="https://twitter.com/ChrisLAS">Tech Talk Today</a>, Robert Meineke, Joe, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, <a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan van der Hoorn</a>, DoctorKraz, Sergio Rivera, Silas Wulff, Jack Blakely, Adrian Evans, Matt Hartley, M Hoppes, Antoine Mate Messiah, Daniel Neilson, Scott Petty, david van Dyk, Mark Boadey, Michael McGuire, <a href="https://twitter.com/rdp5008">Russell Pate</a>, Ricardo Gerena, Trooper_Ish, Peter Mergaerts, Christian Setla, Gheorghe Kobori, John Jeffers P.Eng., <a href="https://twitter.com/drgroovestarr">Jarrod Ryan Worlitz</a>, Ryan Carter, Brent Kincer, Richard Arnold, Christopher atkins, Stephen Donovan, Jason Hyder, sfarber5300, Chris Gardiner-Bill, Patrik Nilsson, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Specops872, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Michael White, Lukasz, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Darren Hammond, Bevan Thomas, Dow Hurst, Thurman Lewis, Ed, Mike Brannon, <a href="https://twitter.com/abosio">Anthony Bosio</a>, Daron, Bob Wright, Michael Burchfield, <a href="https://twitter.com/jed_reynolds">Jed Reynolds</a>, Eduardo Sanchez, Phillip Stromberg, Gaius, Mandy Tonks, Jason P. Stanford, Graham Moss, </small><br />
-
+<small>David Hollings, Bill Grasser, <a href="https://twitter.com/ChrisLAS">Tech Talk Today</a>, Joe, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, <a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan van der Hoorn</a>, Sergio Rivera, Silas Wulff, Jack Blakely, Adrian Evans, Matt Hartley, M Hoppes, Antoine Mate Messiah, Daniel Neilson, Scott Petty, david van Dyk, Mark Boadey, Ricardo Gerena, Trooper_Ish, Peter Mergaerts, Michael White, Christian Setla, Zora Saad, Gheorghe Kobori, John Jeffers P.Eng., <a href="https://twitter.com/drgroovestarr">Jarrod Ryan Worlitz</a>, Ryan Carter, Brent Kincer, Dan Hively, Randall Lewis, Ed Tiller, veritanuda, Dirk Eisenacher, B Kirsch, <a href="https://twitter.com/PendragonUK">Stephen</a>, Richard Arnold, Christopher atkins, Stephen Donovan, Jason Hyder, sfarber5300, Mikael Karlsson, Patrik Nilsson, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, Atreju, <a href="https://twitter.com/taksuyu">Tak Suyu</a>, Specops872, Krishna, Paul Howarth, Jordan Hopkins, <a href="https://twitter.com/ebeyer">Eric</a>, Lukasz, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Darren Hammond, Bevan Thomas, Dow Hurst, Ed, Thurman Lewis, Mike Brannon, <a href="https://twitter.com/abosio">Anthony Bosio</a>, Daron, Ryan Marples, Jim Kopps, Steve E., Martin S, Joshua, Bård Aase, <a href="https://twitter.com/Dangelus">Daniel Vieira</a>, Mario Juric, Andre Kretzschmar, Bob Wright, Michael Burchfield, <a href="https://twitter.com/elrancher0">Harry Myhre</a>, <a href="https://twitter.com/jed_reynolds">Jed Reynolds</a>, Eduardo Sanchez, Phillip Stromberg, Keith Hull, Chris Gardiner-Bill, Gaius, Mandy Tonks, Jason P. Stanford, Graham Moss, Nathan Vain, <a href="https://twitter.com/davidsouthard">David Southard</a>, Brendan Martineau, </small><br />
 ### The *Unlucky* Patron!
 
 Darrell Vermilion is a good sport! They have chosen to be the Ubuntu MATE *unlucky* Patron, just so they can see their name in flashing lights.

@@ -1956,9 +1956,6 @@ Darrell Vermilion is a good sport! They have chosen to be the Ubuntu MATE *unluc
   * A total of $1292.5 was donated via PayPal, which after processing fees amounted to $1166.95, of which $987.83 was received as Download Tips.
   * A total of &euro;112.5 was donated via PayPal, which after processing fees amounted to &euro;104.47.
   * A total of &pound;65.0 was donated via PayPal, which after processing fees amounted to &pound;60.93.
-  * A total of 0.0478144 BTC was donated.
-
-
 
 <script type="text/javascript">
   setInterval(function(){
