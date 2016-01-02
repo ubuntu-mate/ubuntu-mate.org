@@ -106,7 +106,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 
 If you direct download the image please make sure the MD5 hash matches:
 
-  * `059d74d51d0f36fd30b504907f646e6d`
+  * `61287c1881b166c05b89a8cdc39e12b5`
 
 ## Download tip
 
