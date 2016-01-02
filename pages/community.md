@@ -37,19 +37,19 @@ Ubuntu MATE is active on the following social networks.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://plus.google.com/communities/108331279007926658904" title="Ubuntu MATE Google+"><img class="centered" src="/assets/img/google+-48x48.png" alt="Ubuntu MATE Google+"></a>
+    <a class="social-icon" href="https://plus.google.com/communities/108331279007926658904" title="Ubuntu MATE Google+"><img class="centered" src="/assets/img/google+.svg" alt="Ubuntu MATE on Google+" width="48px" height="48px"></a>
     <p><b>Google+</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://twitter.com/ubuntu_mate" title="Ubuntu MATE Twitter"><img class="centered" src="/assets/img/twitter-48x48.png" alt="Ubuntu MATE Twitter"></a>
+    <a class="social-icon" href="https://twitter.com/ubuntu_mate" title="Ubuntu MATE Twitter"><img class="centered" src="/assets/img/twitter.svg" alt="Ubuntu MATE on Twitter" width="48px" height="48px"></a>
     <p><b>Twitter</b></p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://www.facebook.com/UbuntuMATEedition/" title="Ubuntu MATE Facebook"><img class="centered" src="/assets/img/facebook-48x48.png" alt="Ubuntu MATE Facebook"></a>
+    <a class="social-icon" href="https://www.facebook.com/UbuntuMATEedition/" title="Ubuntu MATE Facebook"><img class="centered" src="/assets/img/facebook.svg" alt="Ubuntu MATE on Facebook" width="48px" height="48px"></a>
     <p><b>Facebook</b></p>
     </div>
   </div>
