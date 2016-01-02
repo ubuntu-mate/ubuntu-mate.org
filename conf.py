@@ -1127,7 +1127,7 @@ EXTRA_HEAD_DATA = """
 <meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-config" content="/browserconfig.xml">
-<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px; display: none;"></div>
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 16px;"></div>
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
