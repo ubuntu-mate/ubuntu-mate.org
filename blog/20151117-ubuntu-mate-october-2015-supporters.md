@@ -15,8 +15,7 @@ service will be resumed next month.
 Many thanks to everyone who donated to the Ubuntu MATE community this
 month. You have been generous as always and ensured that we can meet
 all the costs associated with running the Ubuntu MATE project and the
-community site. In fact, this month we are able to reward some other
-projects that Ubuntu MATE benefits from.
+community site.
 
 ## How will these donations be spent?
 

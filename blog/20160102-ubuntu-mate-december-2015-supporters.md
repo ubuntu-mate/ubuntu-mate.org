@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE December 2015 supporters
 .. slug: ubuntu-mate-december-2015-supporters
-.. date: 2016-01-02 09:14:42 UTC
-.. tags: Ubuntu,MATE,community,donate,draft
+.. date: 2016-01-02 11:16:46 UTC
+.. tags: Ubuntu,MATE,community,donate
 .. link:
 .. description: Community members who supported Ubuntu MATE this month.
 .. type: text
@@ -21,9 +21,10 @@ These donations will be used to pay for:
 
   * All Ubuntu MATE hosting and development server costs for December 2015.
   * All the Ubuntu MATE CDN, bandwidth and email charges for December 2015.
-  * Domain registrations for Ubuntu Pi Flavour Maker.
-  * Upgraded server infrastructure (5 nodes) to support Raspberry Pi 2 image downloads.
-  * Renew SSL/TLS certificates for Ubuntu MATE Community site.
+  * **&pound;120.30** for Ubuntu Pi Flavour Maker domain registrations.
+  * **$18.78** to renew SSL/TLS certificates for Ubuntu MATE Community site.
+  * **$234.78** to upgraded server infrastructure (5 nodes) to support Raspberry Pi 2 image downloads.
+  * **&pound;100** donated to, Ubuntu MATE developer, [Luke Horwell](https://ubuntu-mate.community/users/lah7/).
 
 Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu family,
 and new Ubuntu MATE releases are now distributed via the Canonical mirror
@@ -32,18 +33,23 @@ another ~1200 downloads per day for Ubuntu MATE for the Raspberry Pi 2.
 
 **Thank you!**
 
-## Saving some funds for future projects
+## Supporting Open Source Projects
 
-We did have a surplus of funds this month but we did not sponsor any other
-projects. This break in tradition is for two reasons:
+Ubuntu MATE is comprised of many Open Source projects, we recognise
+that. Each month that Ubuntu MATE has a surplus of funds we will make a
+contribution to an Open Source project or developer that Ubuntu MATE
+directly benefits from.
 
-  * We have some upcoming infrastructure upgrade costs we need to plan for.
-  * Ubuntu MATE 15.10 for the Raspberry Pi 2 is very popular and we have
-  a significant upturn in bandwidth usage as a result.
-  * We are going to run some small paid projects for Ubuntu MATE during
-  the 16.04 development cycle. We are saving the remainder of this months
-  surplus for that initiative, the details of which will be shared here
-  in due course.
+For December 2015 Ubuntu MATE have donated **£100** to [Luke Horwell](https://ubuntu-mate.community/users/lah7/).
+Luke has been contributing to Ubuntu MATE for some time now and is
+co-developer of Ubuntu MATE Welcome. Luke is taking on the lead
+developer role for an as yet unannounced project, has recently become an
+Administrator for the Ubuntu MATE Community and is also working on
+various artwork improvements. Some of the money donated will go towards
+a [Raspberry Pi 2](/raspberry-pi/) development machine so Luke can help
+ensure Ubuntu MATE Welcome is well supported on the Pi 2.
+
+**Many thanks for your contributions to Ubuntu MATE Luke!**
 
 ## Please Donate
 

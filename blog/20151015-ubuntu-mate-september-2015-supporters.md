@@ -9,15 +9,14 @@
 .. author: Martin Wimpress
 -->
 
-First of all, sorry this months supporter update is late. We've been 
+First of all, sorry this months supporter update is late. We've been
 super busy finishing off Ubuntu MATE 15.10 and something had to give.
 Sorry, I hope you all understand.
 
 Many thanks to everyone who donated to the Ubuntu MATE community this
 month. You have been generous as always and ensured that we can meet
 all the costs associated with running the Ubuntu MATE project and the
-community site. In fact, this month we are able to reward some other
-projects that Ubuntu MATE benefits from.
+community site.
 
 ## How will these donations be spent?
 
@@ -25,7 +24,7 @@ These donations will be used to pay for:
 
   * All Ubuntu MATE hosting and development server costs for September 2015.
   * All the Ubuntu MATE CDN, bandwidth and email charges for September 2015.
-  * £65 Raspberry Pi Touch Display and Stand
+  * **&pound;65** Raspberry Pi Touch Display and Stand
     * So we can make sure Ubuntu MATE supports it.
 
 Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu family,

@@ -12,8 +12,7 @@
 Many thanks to everyone who donated to the Ubuntu MATE community this
 month. You have been generous as always and ensured that we can meet
 all the costs associated with running the Ubuntu MATE project and the
-community site. In fact, this month we are able to reward some other
-projects that Ubuntu MATE benefits from.
+community site.
 
 ## How will these donations be spent?
 
@@ -21,9 +20,9 @@ These donations will be used to pay for:
 
   * All Ubuntu MATE hosting and development server costs for November 2015.
   * All the Ubuntu MATE CDN, bandwidth and email charges for November 2015.
-  * mate-desktop.org (and .net, .com, .info) domain renewals.
-  * mate-desktop.org added to CloudFlare.
-  * Raspberry Pi 2 with 1TB hard drive to do nightly backups of mate-desktop.org.
+  * **&pound;48.76** for mate-desktop.org (and .net, .com, .info) domain renewals.
+  * **$20 per month** for mate-desktop.org to be added to CloudFlare.
+  * **&pound;94.98** for a Raspberry Pi 2 with 1TB hard drive to do nightly backups of mate-desktop.org.
 
 Although Ubuntu MATE 15.04 onward is an official member of the Ubuntu family,
 and new Ubuntu MATE releases are now distributed via the Canonical mirror
