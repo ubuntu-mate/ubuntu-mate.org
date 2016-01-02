@@ -827,16 +827,17 @@ LICENSE = """
 """
 
 SOCIAL_ICONS="""
-<a class="social-icon" href="/rss.xml" title="Ubuntu MATE RSS"><img src="/assets/img/rss_circle_gray.png" alt="RSS" /></a>
-<a class="social-icon" href="https://plus.google.com/communities/108331279007926658904" title="Ubuntu MATE Google+"><img src="/assets/img/google_circle_gray.png" alt="Ubuntu MATE Google+" /></a>
-<a class="social-icon" href="https://twitter.com/ubuntu_mate" title="Ubuntu MATE Twitter"><img src="/assets/img/twitter_circle_gray.png" alt="Ubuntu MATE Twitter" /></a>
-<a class="social-icon" href="https://www.facebook.com/UbuntuMATEedition/" title="Ubuntu MATE Facebook"><img src="/assets/img/facebook_circle_gray.png" alt="Ubuntu MATE Facebook" /></a>
+<a href="https://ubuntu-mate.org/rss.xml"><img src="/assets/img/footer-feed.svg" alt="RSS Feed"></a>
+<a href="https://plus.google.com/communities/108331279007926658904"><img src="/assets/img/footer-google+.svg" alt="Ubuntu MATE on Google+"></a>
+<a href="https://twitter.com/ubuntu_mate"><img src="/assets/img/footer-twitter.svg" alt="Ubuntu MATE on Twitter"></a>
+<a href="https://www.facebook.com/UbuntuMATEedition/"><img src="/assets/img/footer-facebook.svg" alt="Ubuntu MATE on Facebook"></a>
+
 """
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 #CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
-CONTENT_FOOTER = '<div align="center"><small>{license} Contents &copy; {date} {author}.</small><br />{social_icons}</div>'
+CONTENT_FOOTER = '</div></div><div align="center" id="mate-footer"><small>{license} Contents &copy; {date} {author}.</small><br />{social_icons}</div>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
