@@ -831,7 +831,6 @@ SOCIAL_ICONS="""
 <a href="https://plus.google.com/communities/108331279007926658904"><img src="/assets/img/footer-google+.svg" alt="Ubuntu MATE on Google+"></a>
 <a href="https://twitter.com/ubuntu_mate"><img src="/assets/img/footer-twitter.svg" alt="Ubuntu MATE on Twitter"></a>
 <a href="https://www.facebook.com/UbuntuMATEedition/"><img src="/assets/img/footer-facebook.svg" alt="Ubuntu MATE on Facebook"></a>
-
 """
 
 # A small copyright notice for the page footer (in HTML).
@@ -1043,6 +1042,7 @@ INDEX_DISPLAY_POST_COUNT = 5
 # it will not be included again. Image will be included as-is, aim to optmize
 # the image source for Feedly, Apple News, Flipboard, and other popular clients.
 # FEED_PREVIEWIMAGE = True
+
 # RSS_LINK is a HTML fragment to link the RSS or Atom feeds. If set to None,
 # the base.tmpl will use the feed Nikola generates. However, you may want to
 # change it for a FeedBurner feed or something else.
