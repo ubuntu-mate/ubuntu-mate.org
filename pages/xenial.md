@@ -1,10 +1,10 @@
 <!--
 .. title: Download Ubuntu MATE 16.04
 .. slug: xenial
-.. date: 2014-06-24 18:01:09 UTC
+.. date: 2015-01-03 18:01:09 UTC
 .. tags: Ubuntu,MATE,wily,16.04,download
 .. link:
-.. description:
+.. description: Download Ubuntu MATE 16.04 (Xenial Xerus) LTS
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -13,16 +13,14 @@ The Ubuntu MATE .iso image allows you to try Ubuntu MATE without changing your
 computer at all, and at your option to install it permanently later. You will
 need at least 512MB of RAM to install from this image.
 
-<!--
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
         <p>Find out what changed in Ubuntu MATE 16.04</p>
-        <a href="/blog/ubuntu-mate-wily-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
+        <a href="/blog/ubuntu-mate-xenial-alpha1/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
--->
 
 ## Download
 
@@ -40,7 +38,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Torrent</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
@@ -48,7 +46,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
         <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
@@ -56,7 +54,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
@@ -168,7 +166,7 @@ also be downloaded via HTTP.
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
       </a>
-      <p>Ubuntu MATE 16.04</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>PC (Intel x86)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
@@ -176,7 +174,7 @@ also be downloaded via HTTP.
         <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso">
           <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
         </a>
-      <p>Ubuntu MATE 16.04</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>64-bit PC (AMD64)</b></p>
     </div>
   </div>
   <div class="col-lg-4">
@@ -184,7 +182,7 @@ also be downloaded via HTTP.
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 16.04</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
@@ -195,43 +193,63 @@ MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/MD5SUMS) 
 <!--
 ### Purchase DVDs and USBs
 
-[OSDisc.com](https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate)
-is the leading source for Linux DVDs and USBs, serving the Linux community
-for over 10 years. Purchase ready-to-use bootable DVDs and
-[8GB - 64GB DataTraveler SE9 G2 USB 3.0](http://www.kingston.com/en/usb/personal_business#dtse9g2)
-memory sticks that come pre-installed with Ubuntu MATE and have persistent storage<i>*</i>.
-<b>Carry Ubuntu MATE 16.04, your applications and your data on a USB stick that you can boot
-on any USB equipped PC.</b>
-
 <div class="row">
-  <div class="col-lg-12">
+  <div class="col-lg-6">
     <div class="bs-component">
       <div class="list-group">
-        <a class="list-group-item active" href="https://www.osdisc.com/">OSDisc.com</a>
+        <a class="list-group-item active" href="https://www.osdisc.com/?affiliate=ubuntumate">OSDisc.com</a>
         <a class="list-group-item" href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">
         <img class="centered" src="/images/sponsors/osdisc.png" alt="OSDisc.com" /></a>
       </div>
+        <p><a href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">OSDisc.com</a>
+        is a leading source for Linux DVDs and USBs. Purchase
+        ready-to-use bootable DVDs and memory sticks that come
+        pre-installed with Ubuntu MATE and have persistent storage.</p>
+        <p><small><i>* Persistent storage is only available on USB
+        sticks that are 32GB or larger</i></small></p>
     </div>
   </div>
+  <div class="col-lg-6">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active" href="https://www.hellotux.com/ubuntumate1510_flash_drive">HELLOTUX</a>
+        <a class="list-group-item" href="https://www.hellotux.com/ubuntumate1510_flash_drive">
+        <img class="centered" src="/images/merch/hellotux/flashdrive.jpg" alt="Ubuntu MATE Branded Flash Drive" /></a>
+      </div>
+    </div>
+        <p><a href="https://www.hellotux.com/ubuntumate1510_flash_drive">HELLOTUX</a>
+        sell an Ubuntu MATE branded 8GB Metallic Unibody USB stick that is just
+        41 mm long and less than 5 mm thick. It's the perfect flash drive for
+        your key ring, always with you. HELLOTUX will also help you to upgrade
+        your flash drive to the next version of Ubuntu MATE, absolutely free.</p>
+  </div>
 </div>
-
-<small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
 -->
 
 ### Mirrors
 
-You might prefer to find a CD image mirror server that is geographically close
-to you in order to achieve a faster download.
+You might prefer to find a DVD image on a mirror server that is
+geographically close to you in order to achieve a faster download.
 
   * [Official CD Mirrors for Ubuntu](https://launchpad.net/ubuntu/+cdmirrors)
 
-The image can be burned to a DVD, mounted as an ISO file, or be directly
-written to a USB stick using a utility like `dd` or `ddrescue` (from the
-`gddrescue` package), for example:
+## Buring a DVD or Making a USB
 
+The image can be burned to a DVD, mounted as an ISO file, or be directly
+written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
+(from the [gddrescue](apt://gddrescue), for example:
+
+    sudo apt-get install gddrescue
     sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-amd64.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-i386.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-powerpc.iso /dev/sdx
+
+If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
+and the *Restore Disk Image...* option.
+
+    sudo apt-get install gnome-disk-utility
+
+### Making a USB with Windows
 
 If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.ie/).
 
