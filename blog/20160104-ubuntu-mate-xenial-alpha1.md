@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.04 Alpha 1
 .. slug: ubuntu-mate-xenial-alpha1
-.. date: 2016-01-03 12:00:00 UTC
+.. date: 2016-01-04 16:00:00 UTC
 .. tags: Ubuntu,MATE,Xenial,alpha1
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 1
