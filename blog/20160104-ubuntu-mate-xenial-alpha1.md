@@ -83,8 +83,13 @@ a couple of days after this Alpha 1 release.
 
 Here are the known issues.
 
+  * The cryptsetup password prompt is not shown.
+    * [LP: #1359689](https://bugs.launchpad.net/bugs/1359689)
+    * [LP: #1530548](https://bugs.launchpad.net/bugs/1530548)
   * Shutdown/Restart of the live session does not work in Virtualbox, VMWave and KVM guests.
     * [LP: #1447038](https://bugs.launchpad.net/bugs/1447038)
+  * The input box for editing a Wired connection static IP address doesn't appear correctly.
+    * [LP: #1530323](https://bugs.launchpad.net/bugs/1530323)
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
