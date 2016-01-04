@@ -25,7 +25,7 @@ Members of the core MATE Desktop development team who have been helping
 develop and test Ubuntu MATE.
 
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
-  * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug fix king.
+  * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
   * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) Ubuntu MATE developer.
   * [Marcos Costales](https://wiki.ubuntu.com/costales) Developer of special projects for Ubuntu MATE.
 

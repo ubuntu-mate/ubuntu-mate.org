@@ -35,7 +35,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-i386.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>PC (Intel x86)</b></p>
@@ -43,7 +43,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso.torrent">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-amd64.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
@@ -51,7 +51,7 @@ Raspberry Pi 2 aarch32 (ARMv7).
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-powerpc.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
       <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
@@ -163,7 +163,7 @@ also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>PC (Intel x86)</b></p>
@@ -171,7 +171,7 @@ also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-amd64.iso">
           <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
         </a>
       <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>64-bit PC (AMD64)</b></p>
@@ -179,7 +179,7 @@ also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-powerpc.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
       </a>
       <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
@@ -240,9 +240,9 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
 (from the [gddrescue](apt://gddrescue) package, for example:
 
     sudo apt-get install gddrescue
-    sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -d -D --force xenial-desktop-i386.iso /dev/sdx
+    sudo ddrescue -d -D --force xenial-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -d -D --force xenial-desktop-powerpc.iso /dev/sdx
 
 The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
 check.

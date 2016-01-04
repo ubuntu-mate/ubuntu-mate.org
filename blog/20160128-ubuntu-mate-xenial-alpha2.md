@@ -75,7 +75,7 @@ this release!
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Ubuntu MATE 16.04 Download</h1>
+        <h1>Download Ubuntu MATE 16.04</h1>
         <p>Join the fun and experience a retrospective future.</p>
         <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
         </p>
