@@ -18,7 +18,7 @@ img.centered {
 
 This funding campaign has three main objectives:
 
-  * Fund the the Ubuntu MATE project's hosting and bandwidth costs. This include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks.
+  * Fund the Ubuntu MATE project's hosting and bandwidth costs. These include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks.
   * Fund the full time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidise the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
   * Support other Open Source projects that Ubuntu MATE depends upon.
 
@@ -48,7 +48,7 @@ contributors and sponsor other Open Source projects.
 
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 
-We'd prefer you set-up a recurring payment to help ensure the monthly
+We'd prefer you set-up a recurring payment to help ensure that monthly
 costs are always covered and it also allows us to better plan how to
 reward our contributors and sponsor other Open Source projects.
 That said, one time donations are also gratefully accepted.
@@ -168,9 +168,10 @@ to benefit from Patron rewards.**
 
 # Commercial sponsorship
 
-If you are using, or plan to use, Ubuntu MATE in a commercial environment
-and would like to sponsor the project more formally then please head over
-to our Patreon page where we have commercial sponsorship packages.
+If you are using, or plan to use, Ubuntu MATE in a commercial
+environment and would like to sponsor the project more formally, then
+please head over to our Patreon page where we have commercial
+sponsorship packages.
 
 <div class="bs-component">
     <div class="jumbotron">

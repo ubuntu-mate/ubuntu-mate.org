@@ -10,7 +10,7 @@
 -->
 
 The Ubuntu MATE .iso image allows you to try Ubuntu MATE without changing your
-computer at all, and at your option to install it permanently later. You will
+computer at all, with an option to install it permanently later. You will
 need at least 512MB of RAM to install from this image.
 
 <div class="bs-component">
@@ -254,7 +254,7 @@ and the *Restore Disk Image...* option.
 
 ### Making a USB with Windows
 
-If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.ie/).
+If you want to make a bootable USB with Windows, try [Rufus](https://rufus.akeo.ie/).
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -267,7 +267,7 @@ If you want to make a bootable USB with Windows try [Rufus](https://rufus.akeo.i
 
 ## Raspberry Pi 2
 
-We are delighted to provide a ready to run image for the [Raspberry
+We are delighted to provide a ready-to-run image for the [Raspberry
 Pi](http://www.raspberrypi.org) 2. You can find out more and download
 the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 We've also created an [Ubuntu MATE generic root file system and example
@@ -288,9 +288,9 @@ Please report any issues you may find on the project's bug tracker.
 
 ## Getting involved
 
-Is there anything you can help with or want to be involved in? Maybe
-you just want to discuss your experiences or ask the maintainers some
-questions. Please [come and talk to us](/community/).
+Is there anything that you can help with or want to be involved in?
+Maybe you just want to discuss your experiences or ask the maintainers
+some questions. Please [come and talk to us](/community/).
 
 <script>
   // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/

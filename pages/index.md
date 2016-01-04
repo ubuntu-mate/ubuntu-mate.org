@@ -56,7 +56,7 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
 
 ## Raspberry Pi 2
 
-We are delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
+We are delighted to provide a ready-to-run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
 You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 We've also created an [Ubuntu MATE generic root file system and example build
 scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their

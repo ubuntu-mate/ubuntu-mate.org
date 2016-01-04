@@ -1,10 +1,10 @@
-<!-- 
+<!--
 .. title: Pre-release
 .. slug: pre-release
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -15,17 +15,17 @@
     </div>
 </div>
 
-The Ubuntu MATE .iso image allows you to try Ubuntu MATE without 
-changing your computer at all, and at your option to install it 
-permanently later. You will need at least 512MiB of RAM to install 
-from this image. The image can be burned to a DVD, mounted as an ISO 
-file, or be directly written to a USB stick using a utility like `dd` 
+The Ubuntu MATE .iso image allows you to try Ubuntu MATE without
+changing your computer at all, with an option to install it
+permanently later. You will need at least 512MiB of RAM to install
+from this image. The image can be burned to a DVD, mounted as an ISO
+file, or be directly written to a USB stick using a utility like `dd`
 or `ddrescue` (from the `gddrescue` package), for example:
 
     sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
     sudo ddrescue -d -D --force ISO_64_FILE /dev/sdx
 
-If you want to make a bootable USB with Windows try [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
+If you want to make a bootable USB with Windows, try [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
 
 If you direct download the .iso image please make sure the appropriate
 MD5 hash matches.
@@ -95,7 +95,7 @@ Ubuntu MATE is currently available for two architectures.
         <input type="hidden" name="sra" value="1">
         <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
         <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-      </form>  
+      </form>
     </div>
   </div>
 </div>
@@ -162,7 +162,7 @@ for sponsoring the hosting and bandwith for the Ubuntu MATE download.
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

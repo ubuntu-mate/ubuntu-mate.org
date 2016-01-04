@@ -180,7 +180,7 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
 </div>
 <br />
 
-We are also delighted to provide a ready to run image for the
+We are also delighted to provide a ready-to-run image for the
 [Raspberry Pi](http://www.raspberrypi.org) 2 which has been [improved
 based on the Raspberry Pi
 community](/blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming/). We've
@@ -197,11 +197,11 @@ You grab the download and find out more from the [Ubuntu MATE Raspberry Pi page]
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Minimum</a>
-        <a class="list-group-item">Pentium III 750-megahertz</a>
+        <a class="list-group-item">Pentium III 750 megahertz</a>
         <a class="list-group-item">512 megabytes (MB) of RAM</a>
         <a class="list-group-item">8 gigabytes (GB) of available space on the hard disk</a>
         <a class="list-group-item">Bootable DVD-ROM drive</a>
-        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
+        <a class="list-group-item">Keyboard and mouse (or other pointing device)</a>
         <a class="list-group-item">Video adapter and monitor with 1024 x 768 or higher resolution</a>
         <a class="list-group-item">Sound card</a>
         <a class="list-group-item">Speakers or headphones</a>
@@ -212,11 +212,11 @@ You grab the download and find out more from the [Ubuntu MATE Raspberry Pi page]
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Recommended</a>
-        <a class="list-group-item">Core 2 Duo 1.6-gigahertz</a>
+        <a class="list-group-item">Core 2 Duo 1.6 gigahertz</a>
         <a class="list-group-item">2 gigabytes (GB) RAM</a>
         <a class="list-group-item">16 gigabytes (GB) of available space on the hard disk</a>
         <a class="list-group-item">Bootable USB flash drive</a>
-        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
+        <a class="list-group-item">Keyboard and mouse (or other pointing device)</a>
         <a class="list-group-item">3D capable video adapter and wide screen monitor with 1366 x 768 or higher resolution</a>
         <a class="list-group-item">Sound card</a>
         <a class="list-group-item">Speakers or headphones</a>

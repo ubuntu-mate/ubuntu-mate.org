@@ -58,7 +58,7 @@ compared to Ubuntu MATE 14.10:
   * Updated to Firefox 37.
   * Updated to LibreOffice 4.4.
   * Updated to Rhythmbox 3.1.
-  * Updated GTK 3.x themes to use full colour icons, like their GTK 2.x counter parts.
+  * Updated GTK 3.x themes to use full colour icons, like their GTK 2.x counterparts.
   * Updated all themes to offer improved Client Side Decoration (CSD) support.
   * Replaced Totem with VLC.
   * Replaced Cheese with guvcview.
@@ -69,7 +69,7 @@ compared to Ubuntu MATE 14.10:
 <iframe width="853" height="480" src="https://www.youtube.com/embed/Q84IuAjJ9og?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-You'll can access the complete Ubuntu MATE release notes from the URLs below:
+You can access the complete Ubuntu MATE release notes from the URLs below:
 
   * <https://ubuntu-mate.org/blog/ubuntu-mate-vivid-final-release/>
   * <https://ubuntu-mate.org/blog/ubuntu-mate-vivid-beta2/>
@@ -186,7 +186,7 @@ videos introducing some of the new features in Ubuntu MATE 15.04](//www.youtube.
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Ubuntu MATE 15.04 Download</h1>
+        <h1>Download Ubuntu MATE 15.04</h1>
         <p>Join the fun and experience a retrospective future.</p>
         <a href="/vivid/" class="btn btn-primary btn-lg">Download</a>
         </p>
@@ -195,7 +195,7 @@ videos introducing some of the new features in Ubuntu MATE 15.04](//www.youtube.
 
 ## Background
 
-The Ubuntu MATE project was founded in June 2014, since then:
+The Ubuntu MATE project was founded in June 2014. Since then:
 
   * The website has had over 610,000 unique visitors resulting in 2.5 million
   page views.
@@ -283,7 +283,7 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
 });
 </script>
 
-You can access full resolution images from the URL below:
+You can access full-resolution images from the URL below:
 
   * <https://ubuntu-mate.org/gallery/Screenshots/>
 
@@ -296,11 +296,11 @@ You can access full resolution images from the URL below:
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Minimum</a>
-        <a class="list-group-item">Pentium III 750-megahertz</a>
+        <a class="list-group-item">Pentium III 750 megahertz</a>
         <a class="list-group-item">512 megabytes (MB) of RAM</a>
         <a class="list-group-item">8 gigabytes (GB) of available space on the hard disk</a>
         <a class="list-group-item">Bootable DVD-ROM drive</a>
-        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
+        <a class="list-group-item">Keyboard and mouse (or other pointing device)</a>
         <a class="list-group-item">Video adapter and monitor with 1024 x 768 or higher resolution</a>
         <a class="list-group-item">Sound card</a>
         <a class="list-group-item">Speakers or headphones</a>
@@ -311,11 +311,11 @@ You can access full resolution images from the URL below:
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Recommended</a>
-        <a class="list-group-item">Core 2 Duo 1.6-gigahertz</a>
+        <a class="list-group-item">Core 2 Duo 1.6 gigahertz</a>
         <a class="list-group-item">2 gigabytes (GB) RAM</a>
         <a class="list-group-item">16 gigabytes (GB) of available space on the hard disk</a>
         <a class="list-group-item">Bootable USB flash drive</a>
-        <a class="list-group-item">Keyboard and Mouse (or other pointing device)</a>
+        <a class="list-group-item">Keyboard and mouse (or other pointing device)</a>
         <a class="list-group-item">3D capable video adapter and wide screen monitor with 1366 x 768 or higher resolution</a>
         <a class="list-group-item">Sound card</a>
         <a class="list-group-item">Speakers or headphones</a>
@@ -370,7 +370,7 @@ pre-installed along with full support.
 </div>
 <br />
 
-We are also delighted to provide a ready to run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
+We are also delighted to provide a ready-to-run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
 You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
 ## The Ubuntu MATE Team

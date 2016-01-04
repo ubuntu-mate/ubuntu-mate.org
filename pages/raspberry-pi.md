@@ -361,7 +361,7 @@ BitBucket.
     * Many thanks to Ryan for adding Vivid as a build target.
   * Changed from `cfq` to `deadline` I/O scheduler.
   * Added `xserver-xorg-video-fbturbo` (an accelerated x.org driver) 0~git.20150305.e094e3c-1.15.04.
-    * Limited to hardware accelerated window moving and scrolling.
+    * Limited to hardware-accelerated window moving and scrolling.
   * Added `raspi-copies-and-fills` (high performance memcpy and memset) 0.4-1.
   * Added `oem-config` so first boot provides a setup wizard.
   * Added `rpi2-ubuntu-errata` for facilitating post-release updates/migrations.
