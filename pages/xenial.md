@@ -237,12 +237,17 @@ geographically close to you in order to achieve a faster download.
 
 The image can be burned to a DVD, mounted as an ISO file, or be directly
 written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
-(from the [gddrescue](apt://gddrescue), for example:
+(from the [gddrescue](apt://gddrescue) package, for example:
 
     sudo apt-get install gddrescue
     sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-amd64.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-i386.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-16.04-desktop-powerpc.iso /dev/sdx
+
+The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
+check.
+
+### GNOME Disks
 
 If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
 and the *Restore Disk Image...* option.

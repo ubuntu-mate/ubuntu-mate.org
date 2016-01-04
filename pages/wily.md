@@ -200,11 +200,11 @@ MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/MD5SUMS) 
         <a class="list-group-item" href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">
         <img class="centered" src="/images/sponsors/osdisc.png" alt="OSDisc.com" /></a>
       </div>
-        <p><a href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">OSDisc.com</a> 
-        is a leading source for Linux DVDs and USBs. Purchase 
-        ready-to-use bootable DVDs and memory sticks that come 
-        pre-installed with Ubuntu MATE and have persistent storage.</p> 
-        <p><small><i>* Persistent storage is only available on USB 
+        <p><a href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate">OSDisc.com</a>
+        is a leading source for Linux DVDs and USBs. Purchase
+        ready-to-use bootable DVDs and memory sticks that come
+        pre-installed with Ubuntu MATE and have persistent storage.</p>
+        <p><small><i>* Persistent storage is only available on USB
         sticks that are 32GB or larger</i></small></p>
     </div>
   </div>
@@ -221,7 +221,7 @@ MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/MD5SUMS) 
         41 mm long and less than 5 mm thick. It's the perfect flash drive for
         your key ring, always with you. HELLOTUX will also help you to upgrade
         your flash drive to the next version of Ubuntu MATE, absolutely free.</p>
-  </div>  
+  </div>
 </div>
 
 ### Mirrors
@@ -235,12 +235,17 @@ geographically close to you in order to achieve a faster download.
 
 The image can be burned to a DVD, mounted as an ISO file, or be directly
 written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
-(from the [gddrescue](apt://gddrescue), for example:
+(from the [gddrescue](apt://gddrescue) package, for example:
 
     sudo apt-get install gddrescue
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-amd64.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-i386.iso /dev/sdx
     sudo ddrescue -d -D --force ubuntu-mate-15.10-desktop-powerpc.iso /dev/sdx
+
+The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
+check.
+
+### GNOME Disks
 
 If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
 and the *Restore Disk Image...* option.
