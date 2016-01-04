@@ -246,7 +246,7 @@ Delete the second partition (d, 2), then re-create it using the defaults
 We created a simple utility called `graphical` to disable/enable the
 MATE desktop environment for easily creating a headless *"server"*.
 Executing `graphical disable` will present a console login on the next
-boot, with now X11 or associated services running. If you want to get
+boot, with no X11 or associated services running. If you want to get
 the full Ubuntu MATE desktop back, run `graphical enable` and reboot.
 
 ## Hardware accelerated video
