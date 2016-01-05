@@ -299,7 +299,7 @@ boot on any USB equipped PC.</b>
 
 <small><i>* Persistent storage is only available on USB sticks that are 32GB or larger</i></small>
 
-## Buring a DVD or Making a USB
+## Burning a DVD or Making a USB
 
 The image can be burned to a DVD, mounted as an ISO file, or be directly
 written to a USB stick using a utility like `dd`, but we prefer `ddrescue`

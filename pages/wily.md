@@ -231,7 +231,7 @@ geographically close to you in order to achieve a faster download.
 
   * [Official CD Mirrors for Ubuntu](https://launchpad.net/ubuntu/+cdmirrors)
 
-## Buring a DVD or Making a USB
+## Burning a DVD or Making a USB
 
 The image can be burned to a DVD, mounted as an ISO file, or be directly
 written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
