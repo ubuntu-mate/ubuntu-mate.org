@@ -68,7 +68,10 @@ Here what changed in Ubuntu MATE 16.04 Alpha 2 since Ubuntu MATE 16.04 Alpha 1.
     * Added MATE colourised icons for categories, devices and places.
     * Added community [contributed wallpaper from Luke Horwell](https://ubuntu-mate.community/t/wallpaper-the-materix/3107)
     * Added community [contributed wallpaper from Rick Lell](https://ubuntu-mate.community/t/wallpaper-ubuntu-mate-greyscaled-wood/3199)
-
+  * Updated the Ubuntu MATE so underlying DVD and BluRay libraries are
+  pre-installed. *This doesn't mean DVD and BluRay will play
+  out-of-the-box! But DVD playback can be fully enabled via Ubuntu MATE
+  Welcome.*.
 
 Thanks to everyone from the Ubuntu MATE community who contributed to
 this release!
