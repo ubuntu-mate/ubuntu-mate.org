@@ -24,37 +24,37 @@ need at least 512MB of RAM to install from this image.
 
 ## Download
 
-Ubuntu MATE is currently available for four architectures, PC (Intel x86),
-64-bit PC (AMD64), Mac (PowerPC) and IBM-PPC (POWER5) and
+Ubuntu MATE is currently available for four architectures, 32-bit (i386),
+64-bit (amd64), PowerPC-based Macs / IBM-PPC (POWER5) and
 Raspberry Pi 2 aarch32 (ARMv7).
 
-  * **PC (Intel x86)** For almost all PCs. This includes most machines with Intel/AMD/etc type processors and almost all computers that run Microsoft Windows, as well as newer Apple Macintosh systems based on Intel processors. Choose this if you are at all unsure.
-  * **64-bit PC (AMD64)** Choose this to take full advantage of computers based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2). If you have a non-64-bit processor made by AMD, or if you need full support for 32-bit code, use the Intel x86 images instead.
-  * **Mac (PowerPC) and IBM-PPC (POWER5)** For Apple Macintosh G3, G4, and G5 computers, including iBooks and PowerBooks as well as older IBM OpenPower 7xx machines.
+  * **32-bit (i386):** For PCs with less than 2 GB of RAM with an Intel or AMD processor. Ageing PCs, low-RAM systems and older Intel-based Apple Macintosh systems should choose this.
+  * **64-bit (amd64):** For 64-bit capable Intel and AMD processors. Best for machines with more than 3 GB of RAM. This is required for modern Intel-based Apple Macs as well as UEFI PCs booting in CSM mode.
+  * **PowerPC-based Macs and IBM-PPC:** For Apple Macintosh G3, G4, and G5 computers, including iBooks and PowerBooks as well as older IBM OpenPower 7xx machines.
 
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-i386.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 32-bit PC Download" title="Ubuntu MATE 16.04 32-bit Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>32-bit/b> (i386)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
         <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-amd64.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>64-bit</b> (amd64)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-powerpc.iso.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1 Torrent</p><p><b>PowerPC-based Macs and IBM-PPC</b></p>
     </div>
   </div>
 </div>
@@ -164,25 +164,25 @@ also be downloaded via HTTP.
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-i386.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 PC (Intel x86) Download" title="Ubuntu MATE 16.04 PC (Intel x86) Download" />
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 32-bit PC Download" title="Ubuntu MATE 16.04 32-bit Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>PC (Intel x86)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>32-bit/b> (i386)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
         <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-amd64.iso">
-          <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" />
+          <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit Download" />
         </a>
-      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>64-bit PC (AMD64)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>64-bit</b> (amd64)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/xenial-desktop-powerpc.iso">
-        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 Mac (PowerPC) and IBM-PPC (POWER5) Download" />
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>Mac (PowerPC) and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04 Alpha 1</p><p><b>PowerPC-based Macs and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
