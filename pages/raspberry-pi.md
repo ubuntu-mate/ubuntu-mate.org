@@ -216,11 +216,19 @@ The image can be directly written to a microSDHC using a utility like
 The microSDHC may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.
 
+<div align="center">
+<script type="text/javascript" src="https://asciinema.org/a/34243.js" id="asciicast-34243" async></script>
+</div>
+
 If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
 and the *Restore Disk Image...* option, **which natively supports XZ
 compressed images**.
 
     sudo apt-get install gnome-disk-utility
+
+<div align="center">
+<iframe width="640" height="480" src="https://www.youtube.com/embed/V_6GNyL6Dac?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### Making a microSDHC with Windows
 

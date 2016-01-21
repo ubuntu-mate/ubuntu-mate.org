@@ -246,7 +246,7 @@ The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
 check.
 
 <div align="center">
-<a href="https://asciinema.org/a/34240" target="_blank"><img src="https://asciinema.org/a/34240.png" /></a>
+<script type="text/javascript" src="https://asciinema.org/a/34240.js" id="asciicast-34240" async></script>
 </div>
 
 ### GNOME Disks
@@ -255,6 +255,10 @@ If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk
 and the *Restore Disk Image...* option.
 
     sudo apt-get install gnome-disk-utility
+
+<div align="center">
+<iframe width="640" height="480" src="https://www.youtube.com/embed/UsJpz-LDrYY?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### Making a USB with Windows
 
