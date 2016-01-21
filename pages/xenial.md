@@ -240,9 +240,9 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
 (from the [gddrescue](apt://gddrescue) package, for example:
 
     sudo apt-get install gddrescue
-    sudo ddrescue -d -D --force xenial-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force xenial-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force xenial-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -D --force xenial-desktop-i386.iso /dev/sdx
+    sudo ddrescue -D --force xenial-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -D --force xenial-desktop-powerpc.iso /dev/sdx
 
 The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
 check.

@@ -209,9 +209,9 @@ please visit the [donate page](/donate/).</p>
 The image can be directly written to a microSDHC using a utility like
 `dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue), for example:
 
-    sudo apt-get install gddrescue
+    sudo apt-get install gddrescue xz-utils
     unxz ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img.xz
-    sudo ddrescue -d -D --force ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img /dev/sdx
+    sudo ddrescue -D --force ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img /dev/sdx
 
 The microSDHC may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.

@@ -253,7 +253,7 @@ If you add support for a new device please submit a pull request.
 
 Once you've created an image it can be written to flash storage using `ddrescue`.
 
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-armhf-device.img /dev/sdX
+    sudo ddrescue -D --force ubuntu-mate-15.04-desktop-armhf-device.img /dev/sdX
 
 The flash storage may be mounted on any `/dev/sdX` so use the command `lsblk` to
 check.

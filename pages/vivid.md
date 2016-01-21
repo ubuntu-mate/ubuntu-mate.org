@@ -229,9 +229,9 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
 (from the [gddrescue](apt://gddrescue), for example:
 
     sudo apt-get install gddrescue
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-i386.iso /dev/sdx
-    sudo ddrescue -d -D --force ubuntu-mate-15.04-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-15.04-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-15.04-desktop-i386.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-15.04-desktop-powerpc.iso /dev/sdx
 
 If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
 and the *Restore Disk Image...* option.

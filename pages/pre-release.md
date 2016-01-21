@@ -22,8 +22,8 @@ from this image. The image can be burned to a DVD, mounted as an ISO
 file, or be directly written to a USB stick using a utility like `dd`
 or `ddrescue` (from the `gddrescue` package), for example:
 
-    sudo ddrescue -d -D --force ISO_32_FILE /dev/sdx
-    sudo ddrescue -d -D --force ISO_64_FILE /dev/sdx
+    sudo ddrescue -D --force ISO_32_FILE /dev/sdx
+    sudo ddrescue -D --force ISO_64_FILE /dev/sdx
 
 If you want to make a bootable USB with Windows, try [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/).
 
