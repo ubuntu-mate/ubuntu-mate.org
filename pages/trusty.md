@@ -310,6 +310,10 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
     sudo ddrescue -D --force ISO_64_FILE /dev/sdx
     sudo ddrescue -D --force ISO_MAC_FILE /dev/sdx
 
+<div align="center">
+<a href="https://asciinema.org/a/34240" target="_blank"><img src="https://asciinema.org/a/34240.png" /></a>
+</div>
+
 The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
 check.
 

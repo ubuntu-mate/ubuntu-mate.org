@@ -233,6 +233,10 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
     sudo ddrescue -D --force ubuntu-mate-15.04-desktop-i386.iso /dev/sdx
     sudo ddrescue -D --force ubuntu-mate-15.04-desktop-powerpc.iso /dev/sdx
 
+<div align="center">
+<a href="https://asciinema.org/a/34240" target="_blank"><img src="https://asciinema.org/a/34240.png" /></a>
+</div>
+
 If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
 and the *Restore Disk Image...* option.
 
