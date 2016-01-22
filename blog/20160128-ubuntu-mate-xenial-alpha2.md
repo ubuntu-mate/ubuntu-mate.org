@@ -44,34 +44,64 @@ Here what changed in Ubuntu MATE 16.04 Alpha 2 since Ubuntu MATE 16.04 Alpha 1.
     * Extended systemd support.
     * Long standing bugs and many little usability paper-cuts were fixed.
       * For example, panel applets are no longer reordered when changing screen resolutions.
+    * The Control Contre and System menu categorisations are now consistent.
     * See the [MATE Desktop 1.12 release announcement](http://mate-desktop.org/blog/2015-11-05-mate-1-12-released/) for more details.
   * Updated to Ubuntu MATE Welcome 16.04.1
     * New Ambience theme for the navigation bar.
+    * Added System Specifications page.
+    * Added detection of graphics card (including VirtualBox)
+    including one-click enablement of the graphics-drivers PPA.
+    * Added one-click enablement of the LibreOffice Fresh PPA to continually
+    track stable LibreOffice releases.
+    * Added Firmware and Codecs one-click installers to Getting Started.
+    * Added new page for live sessions and guest sessions and hides
+    privileged features when launched in guest sessions.
+    * Added category labels to the Software section.
     * Improved code re-use for footers (uses JavaScript)
-    * Welcome will detect the graphics card (including VirtualBox)
-    including information about the NVIDIA drivers PPA.
-    * Expandable/collapsible sub-sections.
+    * Improved presentation to Introduction and Features.
+    * Improve page transitions and added expandable/collapsible sub-sections.
     * Hints appear after opening utilities.
-    * Fade in software categories and corrected minor visual quirks.
     * Updated Firefox, LibreOffice and Control Centre icons.
     * Removed links on software icons. Users were getting confused why
     this opened a web page.
     * Added miscellaneous tasks to update cache, fix an incomplete install
     and fix broken dependencies.
-    * Added Bazaar and Git.
+    * Updated the Software by adding 0 A.D, Aptik, Audio Recorder,
+    Bazaar Explorer, Boot Repait (live session only), BtSync, Caja Share,
+    Dia, DVD Styler, EasyTAG,
+    Emby, Enpass, Evolution, FocusWriter, Git-Cola, Glade, Gobby,
+    GParted, KDE Connect Indicator, LibreOffice Base, Minecraft Server,
+    OpenSSH (with sshguard) Opera, Owncloud Client, Parcellite,
+    PlayOnLinux, Poedit, RedNoteBook,
+    Stellarium, Tor Browser, Virt Manager.
+    * Updated Dropbox, VeraCrypt and X2Go.
     * Installing Adobe Flash now uses `flashplugin-installer`.
-    * Updated PPAs for Veracrypt and X2Go.
+  * Updated MATE Tweak to 3.5.4
+    * Added support for Compton hardware compositing for Marco and Metacity.
+    * Update window manager replacement to correctly migrate xcursor settings.
+    * Updated process killing to be less invasive and a pure Python implementation.
+    * Updated translations.
+    * Removed Muffin support. It is not compatible with MATE.
   * Updated Ubuntu MATE Settings to 16.04.1
-    * Added Mutiny panel layout. (Requires `mate-dock-applet`)
-    * Removed Kandiword menu entry.
+    * Added Mutiny panel layout. *(Requires `mate-dock-applet`)*
+    * Updated custom menu entries to reduce clutter.
+    * Updated gsettings override to improve default behaviour.
+    * Corrected LibreOffice default icons to use Human.
   * Updated Ubuntu MATE Artwork to 16.04.1
     * Added MATE colourised icons for categories, devices and places.
     * Added community [contributed wallpaper from Luke Horwell](https://ubuntu-mate.community/t/wallpaper-the-materix/3107)
     * Added community [contributed wallpaper from Rick Lell](https://ubuntu-mate.community/t/wallpaper-ubuntu-mate-greyscaled-wood/3199)
-  * Updated the Ubuntu MATE so underlying DVD and BluRay libraries are
-  pre-installed. *This doesn't mean DVD and BluRay will play
-  out-of-the-box! But DVD playback can be fully enabled via Ubuntu MATE
-  Welcome.*.
+    * Added community [contributed wallpaper from Noe Gonzales](https://ubuntu-mate.community/t/sky-high-wallpaper-photos-licensed-cc-by-sa/3433)
+    * Added community [contributed wallpaper from Randall Lewis](https://ubuntu-mate.community/t/wallpaper-solar-systemate-4-flavors-1920x1080/3354)
+    * Added community [contributed wallpaper from Sacha](https://ubuntu-mate.community/t/wallpaper-some-parrots-and-an-island/3450)
+  * Update MATE Menu to 5.6.7.
+    * Fixed 64-bit pointers for the C-Python interface. Thanks to György Balló from Arch Linux.
+    * Fixed several calls to `Gdk.Color()`. Thanks to XRevan86 from OpenSUSE.
+  * Updated Ubuntu MATE so DVD and BluRay libraries are pre-installed. *This
+  doesn't mean DVD and BluRay will play out-of-the-box! But
+  DVD playback can be fully enabled via Ubuntu MATE Welcome.*.
+  * Updated the languages shipped on the DVD image. The full rationale
+  on how we choose the languages and what we install is at <https://launchpad.net/bugs/1520278>.
 
 Thanks to everyone from the Ubuntu MATE community who contributed to
 this release!
@@ -92,7 +122,7 @@ Here are the known issues.
   * The cryptsetup password prompt is not shown.
     * [LP: #1359689](https://bugs.launchpad.net/bugs/1359689)
     * [LP: #1530548](https://bugs.launchpad.net/bugs/1530548)
-  * Shutdown/Restart of the live session does not work in Virtualbox, VMWave and KVM guests.
+  * Shutdown/Restart of the live session does not work in Virtualbox and VMWave guests.
     * [LP: #1447038](https://bugs.launchpad.net/bugs/1447038)
   * The input box for editing a Wired connection static IP address doesn't appear correctly.
     * [LP: #1530323](https://bugs.launchpad.net/bugs/1530323)
