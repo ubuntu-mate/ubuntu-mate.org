@@ -24,13 +24,12 @@ need at least 512MB of RAM to install from this image.
 
 ## Download
 
-Ubuntu MATE is currently available for four architectures, 32-bit (i386),
-64-bit (amd64), PowerPC-based Macs / IBM-PPC (POWER5) and
-Raspberry Pi 2 aarch32 (ARMv7).
+Ubuntu MATE is currently available for four architectures:
 
   * **32-bit (i386):** For PCs with less than 2 GB of RAM with an Intel or AMD processor. Ageing PCs, low-RAM systems and older Intel-based Apple Macintosh systems should choose this.
   * **64-bit (amd64):** For 64-bit capable Intel and AMD processors. Best for machines with more than 3 GB of RAM. This is required for modern Intel-based Apple Macs as well as UEFI PCs booting in CSM mode.
   * **PowerPC-based Macs and IBM-PPC:** For Apple Macintosh G3, G4, and G5 computers, including iBooks and PowerBooks as well as older IBM OpenPower 7xx machines.
+  * **Raspberry Pi 2 (ARMv7):** See the <a href="https://ubuntu-mate.org/raspberry-pi/">Raspberry Pi page.</a>
 
 <div class="row">
   <div class="col-lg-4">
@@ -166,7 +165,7 @@ images can also be downloaded via HTTP.
       <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.04/release/ubuntu-mate-15.04-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 32-bit PC Download" title="Ubuntu MATE 15.04 32-bit Download" />
       </a>
-      <p>Ubuntu MATE 15.04</p><p><b>32-bit/b> (i386)</p>
+      <p>Ubuntu MATE 15.04</p><p><b>32-bit</b> (i386)</p>
     </div>
   </div>
   <div class="col-lg-4">
