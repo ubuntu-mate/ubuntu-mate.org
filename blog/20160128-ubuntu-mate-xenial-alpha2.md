@@ -66,17 +66,20 @@ Here what changed in Ubuntu MATE 16.04 Alpha 2 since Ubuntu MATE 16.04 Alpha 1.
     this opened a web page.
     * Added miscellaneous tasks to update cache, fix an incomplete install
     and fix broken dependencies.
-    * Updated the Software by adding 0 A.D, Aptik, Audio Recorder,
-    Bazaar Explorer, Boot Repait (live session only), BtSync, Caja Share,
-    Dia, DVD Styler, EasyTAG,
-    Emby, Enpass, Evolution, FocusWriter, Git-Cola, Glade, Gobby,
-    GParted, KDE Connect Indicator, LibreOffice Base, Minecraft Server,
-    OpenSSH (with sshguard) Opera, Owncloud Client, Parcellite,
-    PlayOnLinux, Poedit, RedNoteBook,
-    Stellarium, Tor Browser, Virt Manager.
+    * Added 0 A.D, Ambient Noise, Aptik, Audio Recorder, Bazaar Explorer,
+    BtSync, Boot Repair, Caja Share, Chromium BSU, Dia, DVD Styler,
+    EasyTAG, Emby, Enpass, Evolution, Extreme Tux Racer, FlightGear,
+    FocusWriter, Frozen Bubble, GCompris, Git-Cola, Glade, Gobby,
+    GParted, Hedgewars, HPLIP-GUI, KDE Connect Indicator, LibreOffice Base,
+    LibreOffice Draw, LibreOffice Math, LibreOffice (fresh), Liferea,
+    Minecraft Server, MySQL Workbench, My Paint, Neverball, Neverputt,
+    Nexuiz, Opera, OpenSSH, Owncloud Client, Parcellite, PlayOnLinux,
+    Poedit, Recent Notifications, RedNoteBook, ReText, Stellarium,
+    Teeworlds, Tor Browser, Virt Manager, WarZone 2100, Wesnoth.
     * Updated Dropbox, VeraCrypt and X2Go.
+    * Updated VirtualBox. Closes (LP: #1537395)
     * Installing Adobe Flash now uses `flashplugin-installer`.
-  * Updated MATE Tweak to 3.5.4
+  * Updated MATE Tweak to 3.5.5
     * Added support for Compton hardware compositing for Marco and Metacity.
     * Update window manager replacement to correctly migrate xcursor settings.
     * Updated process killing to be less invasive and a pure Python implementation.
@@ -102,6 +105,10 @@ Here what changed in Ubuntu MATE 16.04 Alpha 2 since Ubuntu MATE 16.04 Alpha 1.
   DVD playback can be fully enabled via Ubuntu MATE Welcome.*.
   * Updated the languages shipped on the DVD image. The full rationale
   on how we choose the languages and what we install is at <https://launchpad.net/bugs/1520278>.
+  * Updated Shotwell to include online account plugins.
+  * Improved support for braille displays.
+  * Improved `xdg-utils` support.
+  * Removed LibreOffice Math and LibreOffice Draw, they can now be added via Ubuntu MATE Welcome.
 
 Thanks to everyone from the Ubuntu MATE community who contributed to
 this release!
