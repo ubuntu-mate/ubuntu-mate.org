@@ -187,7 +187,7 @@ also be downloaded via HTTP.
 </div>
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/MD5SUMS) matches.
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/alpha-1/MD5SUMS) matches.
 
 <!--
 ### Purchase DVDs and USBs
