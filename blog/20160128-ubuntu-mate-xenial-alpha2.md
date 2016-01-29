@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.04 Alpha 2
 .. slug: ubuntu-mate-xenial-alpha2
-.. date: 2016-01-28 12:00:00 UTC
+.. date: 2016-01-29 17:00:00 UTC
 .. tags: Ubuntu,MATE,Xenial,alpha2,draft
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 2
@@ -126,13 +126,32 @@ this release!
 
 Here are the known issues.
 
+### Ubuntu family issues
+
+This is our known list of bugs that affect all flavours.
+
   * The cryptsetup password prompt is not shown.
     * [LP: #1359689](https://bugs.launchpad.net/bugs/1359689)
     * [LP: #1530548](https://bugs.launchpad.net/bugs/1530548)
+  * Plymouth does not display the graphical boot splash.
+    * [LP: #1370707](https://bugs.launchpad.net/bugs/1370707).
   * Shutdown/Restart of the live session does not work in Virtualbox and VMWave guests.
     * [LP: #1447038](https://bugs.launchpad.net/bugs/1447038)
   * The input box for editing a Wired connection static IP address doesn't appear correctly.
     * [LP: #1530323](https://bugs.launchpad.net/bugs/1530323)
+
+### Ubuntu MATE issues
+
+This is our known list of bugs that jut affect Ubuntu MATE.
+
+  * Trying to install BtSync, Recent Notifications, Evolution, Opera and Ambient Noise via Ubuntu MATE Welcome will fail.
+  * System Information in Ubuntu MATE Welcome display "No Information Available".
+  * Activating a Compton composited Window Manager in Virtualbox, without installing Guest Additions drivers, will lock up the desktop.
+
+The issues outlined above will be resolved via updates.
+
+### PowerPC
+
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
