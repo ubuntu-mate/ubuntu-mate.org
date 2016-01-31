@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 16.04 Alpha 2
 .. slug: ubuntu-mate-xenial-alpha2
 .. date: 2016-01-29 17:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,alpha2,draft
+.. tags: Ubuntu,MATE,Xenial,alpha2
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 2
 .. type: text
@@ -31,6 +31,8 @@ Ubuntu MATE *Alpha Releases* are recommended for:
   * Ubuntu MATE, MATE, and GTK+ developers
 
 ## What changed since the Ubuntu MATE 15.10 release?
+
+I'd like to extend my thanks to Luke Horwell for all his hard work in the Alpha 2 release. Thank you Luke!
 
 Here what changed in Ubuntu MATE 16.04 Alpha 2 since Ubuntu MATE 16.04 Alpha 1.
 
