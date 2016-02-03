@@ -567,7 +567,6 @@ DEPLOY_COMMANDS = {
         'rsync -a --delete www/ martin@can.wimpress.io:Websites/ubuntu-mate.org/www/',
         'rsync -a --delete www/ martin@fra.wimpress.io:Websites/ubuntu-mate.org/www/',
     ],
-
 }
 
 # For user.github.io OR organization.github.io pages, the DEPLOY branch
