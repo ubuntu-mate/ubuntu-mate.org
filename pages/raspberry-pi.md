@@ -78,7 +78,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.10.1 from European CDN</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
         <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
@@ -86,20 +86,12 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <p>Ubuntu MATE 15.10.1 from Canadian mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
-  <div class="col-lg-2">
+  <div class="col-lg-3">
     <div class="well bs-component text-center">
       <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
         <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
       </a>
       <p>Ubuntu MATE 15.10.1 from French mirror</p><p><b>Raspberry Pi 2</b></p>
-    </div>
-  </div>
-  <div class="col-lg-2">
-    <div class="well bs-component text-center">
-      <a href="http://ger.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/Germany-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
-      </a>
-      <p>Ubuntu MATE 15.10.1 from German mirror</p><p><b>Raspberry Pi 2</b></p>
     </div>
   </div>
 </div>
