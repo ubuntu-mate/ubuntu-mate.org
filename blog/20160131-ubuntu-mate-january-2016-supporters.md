@@ -47,9 +47,9 @@ Robin has been working on MATE Dock Applet for about 9 months now and
 it is really gaining popularity within the Ubuntu MATE community. We are
 activaly working towards adding MATE Dock Applet to the Debian and
 Ubuntu archives and hope to include it in Ubuntu MATE 16.04 with
-a special panel layout to show off its full potential. So thank to Robin
+a special panel layout to show off its full potential. So thanks to Robin
 for creating MATE Dock Applet and we look forward to working with you
-and seeing what else to create for MATE Desktop!
+and seeing what else to create for the MATE Desktop!
 
 ## Please Donate
 
