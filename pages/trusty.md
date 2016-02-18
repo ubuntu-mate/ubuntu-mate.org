@@ -29,7 +29,7 @@ Ubuntu MATE 14.04 is currently available for three architectures:
 
   * **32-bit (i386):** For PCs with less than 2 GB of RAM with an Intel or AMD processor. Ageing PCs, low-RAM systems and older Intel-based Apple Macintosh systems should choose this.
   * **64-bit (amd64):** For 64-bit capable Intel and AMD processors. Best for machines with more than 3 GB of RAM. This is required for modern Intel-based Apple Macs as well as UEFI PCs booting in CSM mode.
-  * **64-bit Mac (amd64+mac): The same as the 64-bit image, but contains support when booting on modern Macintosh systems. This type of image is no longer used in newer releases of Ubuntu MATE as it is integrated.
+  * **64-bit Mac (amd64+mac):** The same as the 64-bit image, but contains support when booting on modern Macintosh systems. This type of image is no longer used in newer releases of Ubuntu MATE as it is integrated.
 
 
 For [Raspberry Pi 2](/raspberry-pi/) and PowerPC images, please download a newer version.
