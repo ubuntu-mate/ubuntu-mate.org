@@ -7,11 +7,11 @@ function link_image() {
     local TOR_PATH="${ISO_PATH}.torrent"
     local TOR_FILE=$(basename ${TOR_PATH})
 
-    mkdir -p ${HOME}/Websites/ubuntu-pi-flavour-maker.org/www/${PAGE}
-    rm -f ${HOME}/Websites/ubuntu-pi-flavour-maker.org/www/${PAGE}/${ISO_FILE}
-    rm -f ${HOME}/Websites/ubuntu-pi-flavour-maker.org/www/${PAGE}/${TOR_FILE}
-    ln -sf ${ISO_PATH} ${HOME}/Websites/ubuntu-pi-flavour-maker.org/www/${PAGE}/${ISO_FILE}
-    ln -sf ${TOR_PATH} ${HOME}/Websites/ubuntu-pi-flavour-maker.org/www/${PAGE}/${TOR_FILE}
+    mkdir -p ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}
+    rm -f ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${ISO_FILE}
+    rm -f ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${TOR_FILE}
+    ln -sf ${ISO_PATH} ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${ISO_FILE}
+    ln -sf ${TOR_PATH} ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${TOR_FILE}
 }
 
 link_image raspberry-pi "${HOME}/ISO-Mirror/wily/armhf/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz"
