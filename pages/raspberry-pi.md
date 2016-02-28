@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE for the Raspberry Pi 2 and Raspberry Pi 3
 .. slug: raspberry-pi
 .. date: 2015-04-21 23:01:09 UTC
-.. tags: Ubuntu,MATE,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,download,armhf,arm64,ARMv7,AMv8
+.. tags: Ubuntu,MATE,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,download,armhf,arm64,ARMv7,ARMv8
 .. link: 
 .. description: Ubuntu MATE 15.10 for the Raspberry Pi 2 and Raspbbery Pi 3
 .. type: text
@@ -308,15 +308,15 @@ BitBucket.
 
   * Added support for Raspberry Pi 3 integrated Wifi.
   * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated Bluetooth.
-    * Support for the integrated Raspberry Pi 3 Bluetooth is not working, but we hope to have it sorted soon.
+    * Support for the integrated Raspberry Pi 3 Bluetooth is not working, but we hope to have an update that addresses this soon.
 
 ### 2016-02-26 - Ubuntu MATE 15.10.2 for Raspbery Pi 2 and Raspberry Pi 3 (internal testing build)
 
-  * Added support for Raspberry Pi 3.
+  * Added support for Raspberry Pi 3 Model B.
     * No Raspberry Pi 3 integrated Wifi or Bluetooth support.
   * Updated to Linux 4.1.18.
-  * Updated all packages from the Ubuntu 15.10 archive.
-  * Fixed an issue where the SSH host keys were not all removed.
+  * Updated all packages to the current version in the Ubuntu 15.10 archive.
+  * Fixed an issue where the SSH host keys were correctly regenerated on first boot.
 
 ### 2015-12-21 - Ubuntu MATE 15.10.1 for Raspbery Pi 2 Update
 
