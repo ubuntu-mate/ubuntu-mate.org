@@ -1,16 +1,17 @@
 <!--
-.. title: Ubuntu MATE for the Raspberry Pi 2
+.. title: Ubuntu MATE for the Raspberry Pi 2 and Raspberry Pi 3
 .. slug: raspberry-pi
 .. date: 2015-04-21 23:01:09 UTC
-.. tags: Ubuntu,MATE,Raspberry Pi,download,armhf
-.. link: https://ubuntu-mate.community/t/ubuntu-mate-15-04-for-raspberry-pi-2/517
-.. description: Ubuntu MATE 15.10 for the Raspberry Pi 2
+.. tags: Ubuntu,MATE,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,download,armhf,arm64,ARMv7,AMv8
+.. link: 
+.. description: Ubuntu MATE 15.10 for the Raspberry Pi 2 and Raspbbery Pi 3
 .. type: text
 .. author: Martin Wimpress
 -->
 
-Martin Wimpress and Rohith Madhavan have made an Ubuntu MATE image
-for the Raspberry Pi 2 which you can download or build yourself.
+Martin Wimpress and Rohith Madhavan have made an Ubuntu MATE image for
+the Raspberry Pi 2 and Raspberry Pi 3 which you can download or build
+yourself.
 
 The image is functional and based on the regular Ubuntu `armhf` base,
 not the new Snappy Core, which means that the installation procedure for
@@ -18,11 +19,15 @@ applications is the same as that for the regular desktop version, ie using
 `apt-get`.
 
 We have done what we can to optimise the build for the Raspberry Pi 2
-and one can comfortably use applications such as LibreOffice, which in
-fact is a joy to use :-) But the microSDHC I/O throughput is a
-bottleneck so **we recommend that you use a Class 6 or Class 10 microSDHC**
-card. If you build the image yourself we recommend you use the `f2fs`
-filesystem.
+and Raspberry Pi 3, you can comfortably use applications such as
+LibreOffice, which in fact is a joy to use :-) But the microSDHC I/O
+throughput is a bottleneck so **we recommend that you use a Class 6 or
+Class 10 microSDHC** card. If you build the image yourself we recommend
+you use the `f2fs` filesystem.
+
+**The images support the integrated Wifi on the Raspberry Pi 3, but
+support for the integrated Raspberry Pi 3 Bluetooth is incomplete.
+We hope to have that sorted soon.**
 
 You'll need a microSD card which is 4GB or greater to fit the image.
 The file system can be resized to occupy the unallocated space of the
@@ -51,12 +56,12 @@ complete subsequent boots are much quicker.
 
 ## Download
 
-A pre-built image of Ubuntu MATE 15.10.1 for the Raspberry Pi 2 is
-available via BitTorrent and direct download. If you can spare the
-bytes, please download via BitTorrent and leave the client open after
-your download is finished, so you can seed it back to others. <i>A
-web-seed capable client is recommended for fastest download
-speeds.</i></p>
+A pre-built image of Ubuntu MATE 15.10.1 for the Raspberry Pi 2 and
+Raspberry Pi 3 is available via BitTorrent and direct download. If you
+can spare the bytes, please download via BitTorrent and leave the
+client open after your download is finished, so you can seed it back to
+others. *A web-seed capable client is recommended for fastest download
+speeds.*
 
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
@@ -64,34 +69,34 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-pi-flavour-maker.org/wily/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Torrent" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Torrent" />
+      <a href="https://ubuntu-pi-flavour-maker.org/wily/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Torrent" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Torrent" />
       </a>
-      <p>Ubuntu MATE 15.10.1 via BitTorrent</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.3 via BitTorrent</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
+      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 15.10.1 from European CDN</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.3 from European CDN</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
+      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 15.10.1 from Canadian mirror</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.1 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Download" />
+      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
+        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 15.10.1 from French mirror</p><p><b>Raspberry Pi 2</b></p>
+      <p>Ubuntu MATE 15.10.1 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
 </div>
@@ -118,7 +123,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -139,7 +144,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -160,7 +165,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -181,7 +186,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -202,8 +207,8 @@ The image can be directly written to a microSDHC using a utility like
 `dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue), for example:
 
     sudo apt-get install gddrescue xz-utils
-    unxz ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img.xz
-    sudo ddrescue -D --force ubuntu-minimal-15.10.1-server-armhf-raspberry-pi-2.img /dev/sdx
+    unxz ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz
+    sudo ddrescue -D --force ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img /dev/sdx
 
 The microSDHC may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.
@@ -290,7 +295,7 @@ BitBucket.
 
 ## Credits
 
-  * [Rohith Madhavan](http://rohithmadhavan.com) - Made the Ubuntu MATE 15.04 image.
+  * [Rohith Madhavan](http://rohithmadhavan.com) - Made the Ubuntu MATE 15.04 image for the Raspberry Pi 2.
   * [Martin Wimpress](https://flexion.org) - Added first boot setup wizard and architecture optimisations.
   * [Ryan Finnie](http://finnie.org) - Raspberry Pi 2 Kernel, Firmware and video driver packages.
   * [Sjoerd Simons](http://sjoerd.luon.net) - Made the initial Raspberry Pi 2 kernel patches for Debian Jessie.
@@ -298,6 +303,20 @@ BitBucket.
   * [Spindle](https://github.com/RPi-Distro/spindle) - a tool to help spin distribution images
 
 ## Changes
+
+### 2016-02-27 - Ubuntu MATE 15.10.3 for Raspbery Pi 2 and Raspberry Pi 3
+
+  * Added support for Raspberry Pi 3 integrated Wifi.
+  * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated Bluetooth.
+    * Support for the integrated Raspberry Pi 3 Bluetooth is not working, but we hope to have it sorted soon.
+
+### 2016-02-26 - Ubuntu MATE 15.10.2 for Raspbery Pi 2 and Raspberry Pi 3 (internal testing build)
+
+  * Added support for Raspberry Pi 3.
+    * No Raspberry Pi 3 integrated Wifi or Bluetooth support.
+  * Updated to Linux 4.1.18.
+  * Updated all packages from the Ubuntu 15.10 archive.
+  * Fixed an issue where the SSH host keys were not all removed.
 
 ### 2015-12-21 - Ubuntu MATE 15.10.1 for Raspbery Pi 2 Update
 

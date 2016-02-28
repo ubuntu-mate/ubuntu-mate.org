@@ -30,7 +30,7 @@ Ubuntu MATE 14.04 is currently available for three architectures:
   * **32-bit (i386):** For PCs with less than 2 GB of RAM with an Intel or AMD processor. Ageing PCs, low-RAM systems and older Intel-based Apple Macintosh systems should choose this.
   * **64-bit (amd64):** For 64-bit capable Intel and AMD processors. Best for machines with more than 3 GB of RAM. This is required for modern Intel-based Apple Macs as well as UEFI PCs booting in CSM mode.
   * **64-bit Mac (amd64+mac):** The same as the 64-bit image, but contains support when booting on modern Macintosh systems. This type of image is no longer used in newer releases of Ubuntu MATE as it is integrated.
-
+  * **Raspberry Pi 2 and Raspberry Pi 3:** See the <a href="https://ubuntu-mate.org/raspberry-pi/">Raspberry Pi page.</a>
 
 For [Raspberry Pi 2](/raspberry-pi/) and PowerPC images, please download a newer version.
 <div class="row">
@@ -332,17 +332,18 @@ for sponsoring the hosting and bandwidth for the Ubuntu MATE download.
     </div>
 </div>
 
-## Raspberry Pi 2
+## Raspberry Pi 2 and Raspberry Pi 3
 
-We are delighted to provide a ready-to-run image for the [Raspberry Pi](http://www.raspberrypi.org) 2.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
-We've also created an [Ubuntu MATE generic root file system and example build
-scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE to their
-ARMv7 devices.
+We are delighted to provide a ready-to-run image for the Raspberry
+Pi 2 and Raspberry Pi 3. You can find out more and download
+the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+We've also created an [Ubuntu MATE generic root file system and example
+build scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu
+MATE to their ARMv7 devices.
 
 <div align="center">
-  <a href="/raspberry-pi/"><img src="/assets/img/logos/Raspi_Colour_R-207x250.png" /></a><br />
-  <b>Ubuntu MATE is also available for the Raspberry Pi 2.</b>
+  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
+  <b>Ubuntu MATE is also available for the<br />Raspberry Pi 2 and Raspberry Pi 3</b>
 </div>
 <br />
 

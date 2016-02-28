@@ -29,7 +29,7 @@ Ubuntu MATE is currently available for four architectures:
   * **32-bit (i386):** For PCs with less than 2 GB of RAM with an Intel or AMD processor. Ageing PCs, low-RAM systems and older Intel-based Apple Macintosh systems should choose this.
   * **64-bit (amd64):** For 64-bit capable Intel and AMD processors. Best for machines with more than 3 GB of RAM. This is required for modern Intel-based Apple Macs as well as UEFI PCs booting in CSM mode.
   * **PowerPC-based Macs and IBM-PPC:** For Apple Macintosh G3, G4, and G5 computers, including iBooks and PowerBooks as well as older IBM OpenPower 7xx machines.
-  * **Raspberry Pi 2 (ARMv7):** See the <a href="https://ubuntu-mate.org/raspberry-pi/">Raspberry Pi page.</a>
+  * **Raspberry Pi 2 and Raspberry Pi 3 :** See the <a href="https://ubuntu-mate.org/raspberry-pi/">Raspberry Pi page.</a>
 
 <div class="row">
   <div class="col-lg-4">
@@ -274,10 +274,10 @@ If you want to make a bootable USB with Windows, try [Rufus](https://rufus.akeo.
     </div>
 </div>
 
-## Raspberry Pi 2
+## Raspberry Pi 2 and Raspberry Pi 3
 
-We are delighted to provide a ready-to-geanrun image for the [Raspberry
-Pi](http://www.raspberrypi.org) 2. You can find out more and download
+We are delighted to provide a ready-to-run image for the Raspberry
+Pi 2 and Raspberry Pi 3. You can find out more and download
 the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 We've also created an [Ubuntu MATE generic root file system and example
 build scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu
@@ -285,7 +285,7 @@ MATE to their ARMv7 devices.
 
 <div align="center">
   <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
-  <b>Ubuntu MATE is also available for the Raspberry Pi 2.</b>
+  <b>Ubuntu MATE is also available for the<br />Raspberry Pi 2 and Raspberry Pi 3</b>
 </div>
 <br />
 

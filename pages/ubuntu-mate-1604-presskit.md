@@ -152,7 +152,7 @@ We post an overview of how the donations were used each month.
   * [2015 October](/blog/ubuntu-mate-october-2015-supporters/)
   * [2015 November](/blog/ubuntu-mate-november-2015-supporters/)
   * [2015 December](/blog/ubuntu-mate-december-2015-supporters/)
-  * [2016 Jnuary](/blog/ubuntu-mate-january-2016-supporters/)    
+  * [2016 January](/blog/ubuntu-mate-january-2016-supporters/)    
 
 ## Hardware
 
@@ -175,11 +175,11 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
   </div>
 </div>
 
-### Raspberry Pi 2
+### Raspberry Pi 2 and Raspberry Pi 3
 
 <div align="center">
   <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
-  <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
+  <b>Ubuntu MATE 16.04 is also available for the Raspberry Pi 2 and Raspberry Pi 3.</b>
 </div>
 <br />
 
