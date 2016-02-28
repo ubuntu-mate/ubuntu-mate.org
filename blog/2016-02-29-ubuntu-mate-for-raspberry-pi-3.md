@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE for Raspberry Pi 3
 .. slug: ubuntu-mate-for-raspberry-pi-3
-.. date: 2016-02-28 07:00:00 UTC
+.. date: 2016-02-29 07:00:00 UTC
 .. tags: Ubuntu,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,Ubuntu MATE,15.10,Released
 .. link:
 .. description:
