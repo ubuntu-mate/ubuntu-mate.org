@@ -64,7 +64,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-pi-flavour-maker.org/wily/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz.torrent">
+      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 Torrent" title="Ubuntu MATE 15.10.1 Raspberry Pi 2 Torrent" />
       </a>
       <p>Ubuntu MATE 15.10.1 via BitTorrent</p><p><b>Raspberry Pi 2</b></p>
