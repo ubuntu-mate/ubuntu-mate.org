@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.04 Beta 1
 .. slug: ubuntu-mate-xenial-beta1
-.. date: 2016-02-25 19:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,beta1,draft
+.. date: 2016-02-25 20:00:00 UTC
+.. tags: Ubuntu,MATE,Xenial,beta1
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 1
 .. type: text
@@ -53,11 +53,11 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     * Added the **Software Boutique** which now contains ~120 applications.
     * Added the ability to **launch applications from the Software Boutique**.
     * Added **category filtering to the Software Boutique**.
-    * Added **expandable/collapsible More Details for each application** to the Software Boutqiue.
-    * Added **screenshots for applications to the Software Boutique**.
-    * Added **subscribe to updates for Ubuntu MATE Welcome** to ensure you always have the latest Ubuntu MATE Welcome and Software Boutique, including new application listings and translations.
-    * Added **highlighting of installed applications** to the Software Boutique.
-    * Added a **spinner while applications are being installed** to the Software Boutique.
+    * Added **expandable/collapsible More Details for each application** listed in the Software Boutqiue.
+    * Added **screenshots for applications listed in the Software Boutique**.
+    * Added **subscribe to updates for Ubuntu MATE Welcome** to ensure you always have the latest version of Ubuntu MATE Welcome and Software Boutique, including new application listings and translations.
+    * Added **highlighting of installed applications** listed in the Software Boutique.
+    * Added a **spinner while applications are being installed** using the Software Boutique.
     * Added **Raspberry Pi 2** specific features and documentation, including **automatic partition resizing**.
     * Fixed the **toggling of Proprietary software in the Software Boutique**.
     * Improved the Software Boutique **by always showing software categories** at the top of the window.
@@ -76,10 +76,10 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
       * Fixes a integer overflow when allocating a large block of memory during a Print Preview.
       * Assorted minor fixes and optimisations.
   * Added MATE Dock Applet 0.67 developed by [Robin Thompson](https://github.com/robint99).
-    * A **configurable dock applet that can be place on any pane, in any location or orientation.**
-  * Added Topmenu Applet  0.2.1 developed by [Javier S. Pedro](https://javispedro.com/me.html)
+    * A **configurable dock applet that can be placed on any panel, in any orientation**.
+  * Added Topmenu Applet 0.2.1 developed by [Javier S. Pedro](https://javispedro.com/me.html)
     * A **Gtk+ module that allows placing a global menu in MATE panel applets**.
-    * The **Ubuntu MATE also added `lxpanel-plugin-topmenu` and `xfce4-topmenu-plugin` to the Debian and Ubuntu archives** so those desktops can benefit too.
+    * The **Ubuntu MATE team also added `lxpanel-plugin-topmenu` and `xfce4-topmenu-plugin` to the Debian and Ubuntu archives** so those desktops can benefit too.
   * Ubuntu MATE Settings 16.04.2
     * Added **Mutiny panel layout which showcases `mate-dock-applet` and `topmenu-gtk`**.
       * **The traditional GNOME2 style two panel layout is, and will continue to be, the default**.
