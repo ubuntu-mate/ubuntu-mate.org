@@ -14,16 +14,15 @@ the Raspberry Pi 2 and Raspberry Pi 3 which you can download or build
 yourself.
 
 The image is functional and based on the regular Ubuntu `armhf` base,
-not the new Snappy Core, which means that the installation procedure for
-applications is the same as that for the regular desktop version, ie using
-`apt-get`.
+not the new Snappy Core, which means that the installation procedure
+for applications is the same as that for the regular desktop version,
+ie using `apt-get`.
 
 We have done what we can to optimise the build for the Raspberry Pi 2
 and Raspberry Pi 3, you can comfortably use applications such as
 LibreOffice, which in fact is a joy to use :-) But the microSDHC I/O
 throughput is a bottleneck so **we recommend that you use a Class 6 or
-Class 10 microSDHC** card. If you build the image yourself we recommend
-you use the `f2fs` filesystem.
+Class 10 microSDHC** card.
 
 **The images support the integrated Wifi on the Raspberry Pi 3, but
 support for the integrated Raspberry Pi 3 Bluetooth is incomplete.
@@ -34,10 +33,10 @@ The file system can be resized to occupy the unallocated space of the
 microSD card, similar to Raspbian.
 
 **NOTE! There are no predefined user accounts**. The first time you
-boot the Ubuntu MATE image it will run through a setup wizard where you
-can create your own user account and configure your regional settings.
-The first boot is quite slow, but once the first boot configuration is
-complete subsequent boots are much quicker.
+boot one of the desktop images it will run through a setup wizard where
+you can create your own user account and configure your regional
+settings. The first boot is quite slow but, once the first boot
+configuration is complete, subsequent boots are much quicker.
 
 <div align="center">
   <img src="/gallery/Screenshots/09_RASPBERRY.png" /></a><br />
@@ -101,9 +100,9 @@ hosting and bandwidth for the Ubuntu MATE downloads.
   </div>
 </div>
 
-If you direct download the image please make sure the MD5 hash matches:
+If you direct download the image please make sure the SHA256 hash matches:
 
-  * `61287c1881b166c05b89a8cdc39e12b5`
+  * `49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94`
 
 ## Download tip
 
@@ -308,7 +307,7 @@ BitBucket.
 
   * Added support for Raspberry Pi 3 integrated Wifi.
   * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated Bluetooth.
-    * Support for the integrated Raspberry Pi 3 Bluetooth is not working, but we hope to have an update that addresses this soon.
+    * Support for the integrated Raspberry Pi 3 Bluetooth is not working but we hope to have an update that addresses this soon.
 
 ### 2016-02-26 - Ubuntu MATE 15.10.2 for Raspbery Pi 2 and Raspberry Pi 3 (internal testing build)
 
@@ -316,7 +315,7 @@ BitBucket.
     * No Raspberry Pi 3 integrated Wifi or Bluetooth support.
   * Updated to Linux 4.1.18.
   * Updated all packages to the current version in the Ubuntu 15.10 archive.
-  * Fixed an issue where the SSH host keys were correctly regenerated on first boot.
+  * Fixed an issue where the SSH host keys were not correctly regenerated on first boot.
 
 ### 2015-12-21 - Ubuntu MATE 15.10.1 for Raspbery Pi 2 Update
 
