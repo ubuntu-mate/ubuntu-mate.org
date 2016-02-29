@@ -9,9 +9,10 @@
 .. author: Martin Wimpress
 -->
 
-The Raspberry Pi 3 Model B is here and we are delighted to announce the
-**immediate availability of Ubuntu MATE 15.10 for the Raspberry Pi
-3 Model B**!
+The [Raspberry Pi 3 Model B is
+here](https://www.raspberrypi.org/blog/raspberry-pi-3-on-sale/) and we
+are delighted to announce the **immediate availability of Ubuntu MATE
+15.10 for the Raspberry Pi 3 Model B**!
 
 Many thanks to [Ben
 Nuttall](https://twitter.com/ben_nuttall), Simon West, [Liz
