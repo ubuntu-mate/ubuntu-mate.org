@@ -31,7 +31,7 @@ and Raspberry Pi 3.
 
 **Thank you!**
 
-## Supporting Open Source Projects
+## Supporting Open Source
 
 Ubuntu MATE is comprised of many Open Source projects, we recognise
 that. Each month that Ubuntu MATE has a surplus of funds we will make a
