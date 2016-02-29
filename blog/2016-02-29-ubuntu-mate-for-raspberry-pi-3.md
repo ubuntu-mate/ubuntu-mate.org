@@ -31,11 +31,12 @@ wired Ethernet port arrangement and configuration are unchanged.
 
 Here is what is new to the Raspberry Pi 3:
 
-  * Improved performance thanks to a **64-bit ARMv8-A Quad Core 1.2GHz CPU**.
-  * **Integrated WiFi** (BCM43438) accessed via SDIO using the Arasan MMC controller.
+  * Improved performance thanks to a **Broadcom BCM2837 64-bit Quad Core ARM Cortex-A53 CPU running at 1.2GHz**.
+  * **Integrated 802.11 b/g/n Wireless LAN** (BCM43438) accessed via SDIO using the Arasan MMC controller.
     * This requires that the Broadcom MMC controller is used for the SD card using the relatively new and recently revamped `bcm2835-sdhost` driver.
-  * **Integrated Bluetooth LE** (BCM43438 again) is presented as a modem via a serial UART (two-wire - no hardware flow control) with the BlueZ software stack running in H4 mode.
-  * Improved power management.
+  * **Integrated Bluetooth 4.1 (Classic & Low Energy)** (BCM43438 again) is presented as a modem via a serial UART (two-wire - no hardware flow control) with the BlueZ software stack running in H4 mode.
+  * Improved power management with a 2.5 Amp power supply.
+  * A new chip antenna is where status LEDs were previously located. The status LEDs are still on the board, right next to the microSD card slot.
 
 The Ubuntu MATE image we've prepared supports the integrated Wifi on the
 Raspberry Pi 3 *but support for the integrated Raspberry Pi 3 Bluetooth
