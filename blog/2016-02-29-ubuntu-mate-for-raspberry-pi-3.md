@@ -35,7 +35,7 @@ Here is what is new to the Raspberry Pi 3:
   * Improved performance thanks to a **Broadcom BCM2837 64-bit Quad Core ARM Cortex-A53 CPU running at 1.2GHz**.
   * **Integrated 802.11 b/g/n Wireless LAN** (BCM43438) accessed via SDIO using the Arasan MMC controller.
     * This requires that the Broadcom MMC controller is used for the SD card using the relatively new and recently revamped `bcm2835-sdhost` driver.
-  * **Integrated Bluetooth 4.0 (Classic & Low Energy)** (BCM43438 again) is presented as a modem via a serial UART (two-wire - no hardware flow control) with the BlueZ software stack running in H4 mode.
+  * **Integrated Bluetooth 4.1 (Classic & Low Energy)** (BCM43438 again) is presented as a modem via a serial UART (two-wire - no hardware flow control) with the BlueZ software stack running in H4 mode.
   * Improved power management with a 2.5 Amp power supply.
   * A new chip antenna is where status LEDs were previously located. The status LEDs are still on the board, right next to the microSD card slot.
 
