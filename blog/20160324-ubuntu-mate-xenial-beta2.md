@@ -60,9 +60,13 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     * Improved MATE Compiz integration, `gtk-window-decorator` will now
     use settings from Marco when Compiz detects it is running in a MATE
     session.
-    * Google Chrome and Chromium windows are considered Compiz windows
-    in fullscreen to avoid tearing.
-    * Refined the Compiz profile for MATE to correct some minor issues. 
+    * Google Chrome and Chromium windows are now considered Compiz
+    windows in fullscreen to avoid tearing.
+    * Refined the Compiz profile for MATE to correct some minor issues.
+  * Updated to MATE Menu 5.6.9
+    * While search for an application, the top match will be launched
+    when Enter is pressed.
+    * Fixes [LP: #1552363](https://bugs.launchpad.net/bugs/1552363)
   * Updated to Ubuntu MATE Welcome 16.04.3
   * Updated to Ubuntu MATE Artwork 16.04.3
     * Icon rendering in menus is faster.
