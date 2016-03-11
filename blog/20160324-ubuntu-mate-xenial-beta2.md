@@ -37,6 +37,7 @@ First of all, I'd like to extend my thanks to:
   * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** and [Robin Thompson](https://github.com/robint99)** for for their work on Ubuntu MATE Welcome and Software Boutique.
   * **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making `im-config` and `gnome-language-selector` compatible with Ubuntu MATE.
   * **[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing MATE integration for Synapse.
+  * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help improving MATE integration in Compiz.
   * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and **[Daniel Holbach](https://launchpad.net/~dholbach)** for sponsoring critical package updates for Ubuntu MATE.
 
 <div align="center">
@@ -52,27 +53,34 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     installed by default but not active by default. It can be enabled
     via the updated MATE Tweak. 
   * Updated to MATE Tweak 3.5.7
-    * Adds *Enable Launcher* to the *Interface* sections to
-    activate/deactive Synapse.
-    * [LP: #](https://bugs.launchpad.net/bugs/xx)
+    * Adds *Enable Launcher* to the *Interface* section which
+    activates/deactives Synapse.
+    * Fixes [LP: 1548011](https://bugs.launchpad.net/bugs/1548011)
+  * Updated to Compiz
+    * Improved MATE Compiz integration, `gtk-window-decorator` will now
+    use settings from Marco when Compiz detects it is running in a MATE
+    session.
+    * Google Chrome and Chromium windows are considered Compiz windows
+    in fullscreen to avoid tearing.
+    * Refined the Compiz profile for MATE to correct some minor issues. 
   * Updated to Ubuntu MATE Welcome 16.04.3
   * Updated to Ubuntu MATE Artwork 16.04.3
     * Icon rendering in menus is faster.
     * Icon inheritance is fixed.
-    * Fixed Ubuntu MATE themes for Mozo (menu editor).
-    * [LP: #1552363](https://bugs.launchpad.net/bugs/1552363),
+    * Corrected rendering of Mozo (menu editor) when using Ambiant-MATE
+    and Radiant-MATE themes.
+    * Fixes [LP: #1552363](https://bugs.launchpad.net/bugs/1552363),
     [LP: #1549079](https://bugs.launchpad.net/bugs/1549079),
     [LP: #1541929](https://bugs.launchpad.net/bugs/1541929),
     [LP: #1551029](https://bugs.launchpad.net/bugs/1551029),
     [LP: #1499521](https://bugs.launchpad.net/bugs/1499521),
     [LP: #1442738](https://bugs.launchpad.net/bugs/1442738),
     [LP: #1364073](https://bugs.launchpad.net/bugs/1364073)
-    
   * Updated to Ubuntu MATE Settings 16.04.4
     * Auto-corrects pre-existing MATE incompatible input methods.
-  * Fixed `im-config` and `gnome-language-selector` so that MATE
-  compatible input methods are selected by default.
-    * [LP: #1550325](https://bugs.launchpad.net/bugs/1550325)
+  * Fixed `im-config` and `gnome-language-selector`.
+    *  Ensures a MATEvcompatible input method is selected by default.
+    [LP: #1550325](https://bugs.launchpad.net/bugs/1550325)
 
 <div class="bs-component">
     <div class="jumbotron">
