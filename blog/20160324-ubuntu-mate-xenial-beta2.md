@@ -38,7 +38,7 @@ First of all, I'd like to extend my thanks to:
   * **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making `im-config` and `gnome-language-selector` compatible with Ubuntu MATE.
   * **[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing MATE integration for Synapse.
   * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help improving MATE integration in Compiz.
-  * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and **[Daniel Holbach](https://launchpad.net/~dholbach)** for sponsoring critical package updates for Ubuntu MATE.
+  * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and **[Artur Rona](https://launchpad.net/~ari-tczew)** for sponsoring critical package updates for Ubuntu MATE.
 
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1604-beta2.png" alt="Ubuntu MATE 16.04 Beta 2" />
@@ -51,11 +51,11 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
   * Added Synapse 0.2.99.2-1
     * Synapse now features complete MATE integration. Synapse is
     installed by default but not active by default. It can be enabled
-    via the updated MATE Tweak. 
+    via the updated MATE Tweak.
   * Updated to MATE Tweak 3.5.7
     * Adds *Enable Launcher* to the *Interface* section which
     activates/deactives Synapse.
-    * Fixes [LP: 1548011](https://bugs.launchpad.net/bugs/1548011)
+    * Also fixed [LP: 1548011](https://bugs.launchpad.net/bugs/1548011)
   * Updated to Compiz
     * Improved MATE Compiz integration, `gtk-window-decorator` will now
     use settings from Marco when Compiz detects it is running in a MATE
@@ -63,17 +63,26 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     * Google Chrome and Chromium windows are now considered Compiz
     windows in fullscreen to avoid tearing.
     * Refined the Compiz profile for MATE to correct some minor issues.
+  * Updated to Plank 0.11
+    * Adds Docklets and also includes a new theme for Ubuntu MATE
+    contributed by [Holger Rueckershaeuser](http://holgerrpl.tk/).
   * Updated to MATE Menu 5.6.9
     * While search for an application, the top match will be launched
-    when Enter is pressed.
-    * Fixes [LP: #1552363](https://bugs.launchpad.net/bugs/1552363)
+    when Enter is pressed. [LP: #1552363](https://bugs.launchpad.net/bugs/1552363)
   * Updated to Ubuntu MATE Welcome 16.04.3
-  * Updated to Ubuntu MATE Artwork 16.04.3
-    * Icon rendering in menus is faster.
-    * Icon inheritance is fixed.
+  * Updated to Ubuntu MATE Artwork 16.04.4
+    * Icon rendering in menus is faster and icon inheritance is fixed.
     * Corrected rendering of Mozo (menu editor) when using Ambiant-MATE
     and Radiant-MATE themes.
+    * Update buttons and scrollbars so GTK2 and GTK3 themes are more
+    closely aligned.
+    * Add resize area and shadows for CSD windows.
+    * Add minimal style for CSD windows running without a compositor.
+    * Add community contributed wallpaper [Blissful Sky](https://ubuntu-mate.community/t/i-made-a-new-wallpaper-blissful-sky/4277) by Jordyn.
+    * Adds panel/indicator icons for Synapse.
     * Fixes [LP: #1552363](https://bugs.launchpad.net/bugs/1552363),
+    [LP: #1552363](https://bugs.launchpad.net/bugs/1552363),
+    [LP: #1556618](https://bugs.launchpad.net/bugs/1556618),
     [LP: #1549079](https://bugs.launchpad.net/bugs/1549079),
     [LP: #1541929](https://bugs.launchpad.net/bugs/1541929),
     [LP: #1551029](https://bugs.launchpad.net/bugs/1551029),
@@ -82,8 +91,18 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     [LP: #1364073](https://bugs.launchpad.net/bugs/1364073)
   * Updated to Ubuntu MATE Settings 16.04.4
     * Auto-corrects pre-existing MATE incompatible input methods.
+    * Add modified mate-panel.desktop, specific to Ubuntu MATE, to cater
+    for the all supported  compositors and disk encryption strategies.
+    [LP: #1553070](https://bugs.launchpad.net/bugs/1553070)
+    * Add all optical video mime types and enable autoplay.
+    * Correct the settings for Plank. See LP: #1556651  
+    * Correct the GNOME Main Menu entry for network-config-tool.
+  * Updated to `mate-dock-applet` 0.69.
+    * Several bugs fixes. [LP: #1555324](https://bugs.launchpad.net/bugs/1555324)
+    [LP: #1550392](https://bugs.launchpad.net/bugs/1550392)
+    [LP: #1554128](https://bugs.launchpad.net/bugs/1554128)
   * Fixed `im-config` and `gnome-language-selector`.
-    *  Ensures a MATEvcompatible input method is selected by default.
+    *  Ensures a MATE compatible input method is selected by default.
     [LP: #1550325](https://bugs.launchpad.net/bugs/1550325)
 
 <div class="bs-component">
