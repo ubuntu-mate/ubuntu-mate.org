@@ -34,11 +34,11 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
 First of all, I'd like to extend my thanks to:
 
-  * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** and [Robin Thompson](https://github.com/robint99)** for for their work on Ubuntu MATE Welcome and Software Boutique.
+  * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** and **[Robin Thompson](https://github.com/robint99)** for for their work on Ubuntu MATE Welcome and Software Boutique.
   * **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making `im-config` and `gnome-language-selector` compatible with Ubuntu MATE.
   * **[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing MATE integration for Synapse.
   * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help improving MATE integration in Compiz.
-  * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and **[Artur Rona](https://launchpad.net/~ari-tczew)** for sponsoring critical package updates for Ubuntu MATE.
+  * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)**, **[Daniel Holbach](https://launchpad.net/~dholbach)** and **[Artur Rona](https://launchpad.net/~ari-tczew)** for sponsoring package updates for Ubuntu MATE.
 
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1604-beta2.png" alt="Ubuntu MATE 16.04 Beta 2" />
@@ -51,12 +51,12 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
   * Added Synapse 0.2.99.2-1
     * Synapse now features complete MATE integration. Synapse is
     installed by default but not active by default. It can be enabled
-    via the updated MATE Tweak.
+    using MATE Tweak.
   * Updated to MATE Tweak 3.5.7
     * Adds *Enable Launcher* to the *Interface* section which
     activates/deactives Synapse.
     * Also fixed [LP: 1548011](https://bugs.launchpad.net/bugs/1548011)
-  * Updated to Compiz
+  * Updated to Compiz 0.9.12.2+16.04.20160318-0ubuntu1
     * Improved MATE Compiz integration, `gtk-window-decorator` will now
     use settings from Marco when Compiz detects it is running in a MATE
     session.
@@ -69,11 +69,23 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
   * Updated to MATE Menu 5.6.9
     * While search for an application, the top match will be launched
     when Enter is pressed. [LP: #1552363](https://bugs.launchpad.net/bugs/1552363)
-  * Updated to Ubuntu MATE Welcome 16.04.3
+  * Updated to Ubuntu MATE Welcome 16.04.5
+    * Fix splash screen flicker. [LP: #1549072](https://bugs.launchpad.net/bugs/1549072)
+    * Fix Codec installation. [LP: #1558986](https://bugs.launchpad.net/bugs/1558986)
+    * Fix system information.
+    * Fix subscription updates.
+    * Fix Abobe Flash, Dropbox and RednoteBook installs.
+    * Fix Google Chrome repsoitory, i386 is no longer available.
+    * Fix LibreOffice upgrades.
+    * Add Ardour, Corebird, Gajim, GNOME Software, Gpick, Time Tracker,
+    MuseScore, Nuvola Player, OBS Studio, Pinta, Simple Screen Recorder,
+    Subsurface, SparkleShare, Vivaldi, Wireshark and Zenmap to
+    Software Boutique.
+    * Add translation framework.    
+    * Add Chinese (zh_TW) and English (en_GB) translations.
   * Updated to Ubuntu MATE Artwork 16.04.4
     * Icon rendering in menus is faster and icon inheritance is fixed.
-    * Corrected rendering of Mozo (menu editor) when using Ambiant-MATE
-    and Radiant-MATE themes.
+    * Corrected rendering of Mozo (menu editor).
     * Update buttons and scrollbars so GTK2 and GTK3 themes are more
     closely aligned.
     * Add resize area and shadows for CSD windows.
@@ -96,14 +108,18 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     [LP: #1553070](https://bugs.launchpad.net/bugs/1553070)
     * Add all optical video mime types and enable autoplay.
     * Correct the settings for Plank. See LP: #1556651  
-    * Correct the GNOME Main Menu entry for network-config-tool.
+    * Correct the GNOME Main Menu entry for `network-config-tool`.
   * Updated to `mate-dock-applet` 0.69.
     * Several bugs fixes. [LP: #1555324](https://bugs.launchpad.net/bugs/1555324)
     [LP: #1550392](https://bugs.launchpad.net/bugs/1550392)
     [LP: #1554128](https://bugs.launchpad.net/bugs/1554128)
+  * Updated Ubuntu MATE Ubiquity Slideshow artwork.  
+  * Fixed Python plug-ins for Caja
+    * Folder Color, Deja Dup Caja, Insync Caja and others now work again.
   * Fixed `im-config` and `gnome-language-selector`.
     *  Ensures a MATE compatible input method is selected by default.
     [LP: #1550325](https://bugs.launchpad.net/bugs/1550325)
+  * Replaced guvcview with Cheese.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -138,9 +154,9 @@ This is our known list of bugs that affect all flavours.
 
 This is our known list of bugs that jut affect Ubuntu MATE.
 
-  * System Information in Ubuntu MATE Welcome displays "No Information Available".
-  * Activating a Compton composited Window Manager in Virtualbox, without installing Guest Additions drivers, will lock up the desktop.
-    * **VirtualBox drivers can be installed via Ubuntu MATE Welcome in the Getting Started section**.
+  * The Blueman applet may crash on login on computer that have Bluetooth
+  but the device is disabled.
+    * [LP: #1533206](https://bugs.launchpad.net/bugs/1533206)
 
 The issues outlined above will be resolved via updates.
 
