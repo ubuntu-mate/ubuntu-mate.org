@@ -24,6 +24,14 @@ growing community, this is where to go.
     </div>
 </div>
 
+<noscript>
+  <div class="alert alert-danger">
+    <h3>Please enable JavaScript to continue.</h3>
+    <p>The forum is powered by JavaScript and may not function properly
+    with browsers with JavaScript disabled.</p>
+  </div>
+</noscript>
+
 ### Chat
  
 Ubuntu MATE also has its own IRC channel, [#ubuntu-mate](/irc/), on the [Freenode](http://freende.net)
