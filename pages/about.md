@@ -41,8 +41,8 @@ Ubuntu MATE has a number of guiding objectives and goals.
 
 ## Hardware requirements
 
-<div class="row">
-  <div class="col-lg-6">
+<div class="row" name="hardware_requirements">
+  <div class="col-xs-6">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Minimum</a>
@@ -57,7 +57,7 @@ Ubuntu MATE has a number of guiding objectives and goals.
       </div>
     </div>
   </div>
-  <div class="col-lg-6">
+  <div class="col-xs-6">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Recommended</a>
