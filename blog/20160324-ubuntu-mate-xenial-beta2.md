@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.04 Beta 2
 .. slug: ubuntu-mate-xenial-beta2
-.. date: 2016-03-24 20:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,beta2,draft
+.. date: 2016-03-24 22:00:00 UTC
+.. tags: Ubuntu,MATE,Xenial,beta2
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 2
 .. type: text
@@ -16,11 +16,11 @@ preparation for our next (stable) version.
 
 <div class="bs-component">
 	<div class="alert alert-danger">
-  		<h3>Do Not Upgrade from 14.04!</h3> 
+        <h3>Do Not Upgrade from 14.04!</h3> 
 		<p>There is an issue <u>affecting all Ubuntu flavours</u> that will
 		cause an upgrade from 14.04 to 16.04 to fail, hard!. See bug
 		<a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1555237">#1555237</a>
-		for details. <b>Upgrades from 15.10 to 16.04 <u>are not</u> affected.</p>
+		for details. <b>Upgrades from 15.10 to 16.04 work just fine.</p>
 	</div>
 </div>
 
@@ -126,7 +126,7 @@ issues that we've worked hard to fix.
     * Updated default settings for new version of Plank.
     * Correct the GNOME Main Menu entry for `network-config-tool`.
   * Updated to `mate-dock-applet` 0.70.
-    * Several bugs fixes [#1557180](https://bugs.launchpad.net/bugs/1557180),
+    * Several bug fixes [#1557180](https://bugs.launchpad.net/bugs/1557180),
     [#1555324](https://bugs.launchpad.net/bugs/1555324),
     [#1550392](https://bugs.launchpad.net/bugs/1550392),
     [#1554128](https://bugs.launchpad.net/bugs/1554128),
