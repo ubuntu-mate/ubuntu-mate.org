@@ -14,6 +14,16 @@ We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 With this *Final Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
+<div class="bs-component">
+	<div class="alert alert-danger">
+  		<h3>Do Not Upgrade from 14.04!</h3> 
+		<p>There is an issue <u>affecting all Ubuntu flavours</u> that will
+		cause an upgrade from 14.04 to 16.04 to fail, hard!. See bug
+		<a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1555237">#1555237</a>
+		for details. <b>Upgrades from 15.10 to 16.04 <u>are not</u> affected.</p>
+	</div>
+</div>
+
 ## What works?
 
 People tell us that Ubuntu MATE is stable. You may, or may not, agree.
@@ -145,19 +155,12 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
-  * Cryptsetup password prompt is not shown.
-    * [#1359689](https://bugs.launchpad.net/bugs/1359689)
-    * [#1530548](https://bugs.launchpad.net/bugs/1530548)
-  * Plymouth does not display the graphical boot splash.
-    * [#1370707](https://bugs.launchpad.net/bugs/1370707).
   * Shutdown/Restart of the live session does not work in Virtualbox and VMWare guests.
     * [#1447038](https://bugs.launchpad.net/bugs/1447038)
-  * The input box for editing a Wired connection static IP address doesn't appear correctly.
-    * [#1530323](https://bugs.launchpad.net/bugs/1530323)
   * Swap partition *may* fail to be created when installing on a disk with existing partitions.
     * [#990744](https://bugs.launchpad.net/bugs/990744)
 
-This is our known list of bugs that jut affect Ubuntu MATE.
+This is our known list of bugs that affect just Ubuntu MATE and Xubuntu.
 
   * The Blueman applet may crash on login on computer without Bluetooth
   or has Bluetooth disabled.
