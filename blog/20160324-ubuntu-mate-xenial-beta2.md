@@ -62,7 +62,7 @@ issues that we've worked hard to fix.
 
   * Added Synapse 0.2.99.2-1
     * **Synapse now features complete MATE integration**. Synapse is
-    installed by default but not active by default. It can be enabled
+    installed but not active by default. It can be enabled
     using MATE Tweak.
   * Updated to MATE Tweak 3.5.8
     * Adds **Enable Launcher** to the *Interface* section which
@@ -109,7 +109,6 @@ issues that we've worked hard to fix.
     * **Add minimal style for CSD windows running without a compositor**.
     * Add community contributed wallpaper [Blissful Sky](https://ubuntu-mate.community/t/i-made-a-new-wallpaper-blissful-sky/4277) by Jordyn.
     * Fixes [#1552363](https://bugs.launchpad.net/bugs/1552363),
-    [#1552363](https://bugs.launchpad.net/bugs/1552363),
     [#1556618](https://bugs.launchpad.net/bugs/1556618),
     [#1549079](https://bugs.launchpad.net/bugs/1549079),
     [#1541929](https://bugs.launchpad.net/bugs/1541929),
