@@ -11,7 +11,7 @@
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 [April 21st, 2016](https://wiki.ubuntu.org/XenialXerus/ReleaseSchedule)
-With this *Beta 1* pre-release, you can see what we are trying out in
+With this *Final Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 ## What works?
@@ -47,8 +47,6 @@ issues that we've worked hard to fix.
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1604-beta2.png" alt="Ubuntu MATE 16.04 Beta 2" />
 </div>
-
-Thanks to everyone else from the Ubuntu MATE community who contributed to this release!
 
 ### Here is what changed Ubuntu MATE 16.04 Beta 2 since Beta 1.
 
@@ -115,7 +113,7 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
     for the all supported  compositors and disk encryption strategies.
     [#1553070](https://bugs.launchpad.net/bugs/1553070)
     * Add all optical video mime types and enable autoplay.
-    * Correct the settings for Plank. See LP: #1556651  
+    * Updated default settings for new version of Plank.
     * Correct the GNOME Main Menu entry for `network-config-tool`.
   * Updated to `mate-dock-applet` 0.70.
     * Several bugs fixes [#1557180](https://bugs.launchpad.net/bugs/1557180),
