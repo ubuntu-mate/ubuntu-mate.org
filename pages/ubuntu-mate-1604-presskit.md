@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.04 Press Kit
 .. slug: ubuntu-mate-1604-presskit
-.. date: 2015-10-18 20:00:00 UTC
+.. date: 2016-04-07 20:00:00 UTC
 .. tags: Ubuntu,MATE,Press Kit,draft
 .. link:
 .. description:
@@ -20,8 +20,8 @@ Desktop](http://mate-desktop.org) and offers a stable, easy-to-use
 operating system with a configurable desktop environment. Ideal for
 those who want the most out of their computers and prefer a traditional
 desktop metaphor. With modest hardware requirements it is suitable for
-modern desktops and laptops, micro computers and older hardware alike.
-**Ubuntu MATE is an official member of the Ubuntu family.**
+modern desktops and laptops, single board computers and older hardware alike.
+Ubuntu MATE makes modern computers fast and old comuters usable.
 
 ### Objectives
 
@@ -92,16 +92,16 @@ You can access full resolution images from the URL below:
 
 ## Community
 
-The Ubuntu MATE project was founded in June 2014 and since then the
-website has had over x.y million unique visitors resulting in z million
+The Ubuntu MATE project was founded in June 2014 and since then **the
+website has had over 3.2 million unique visitors** resulting in 12.1 million
 page views.
 
-  * Ubuntu MATE **15.10 for i686, amd64, PowerPC** has been downloaded **~x00,000** times.
-  * Ubuntu MATE **15.10 for Raspberry Pi 2 has been downloaded ~y00,000** times.
-  * **~3,000** members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
-  * **~2,500** member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
-  * **~1,300** followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
-  * **~75** [Patrons](https://www.patreon.com/ubuntu_mate) and **~2870 donations via PayPal**.
+  * Ubuntu MATE **15.10 for i686, amd64, PowerPC** has been downloaded **~300,000** times.
+  * Ubuntu MATE **15.10 for Raspberry Pi 2 and 3 has been downloaded ~400,000** times.
+  * **~5,000** members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
+  * **~5,000** member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
+  * **~2,200** followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
+  * **~150** [Patrons](https://www.patreon.com/ubuntu_mate) and **~4500 donations via PayPal**.
 
 Ubuntu MATE is made by [these fine people](/team/).
 
@@ -115,23 +115,27 @@ costs of the project, including our dedicated community site.
 
 ### Supporting Open Source
 
-The donations contributed by the community has started to generate a
-surplus which we are using to support other Open Source projects upon
-which Ubuntu MATE relies. Since we started supporting others projects
-in February 2015 **we have donated a just over $1869** (taking currency
-variations into account) to the following projects:
+The donations contributed by the community started to generate a
+surplus which we use to support other Open Source projects and developers.
+**Ubuntu MATE has donated $4513.87 to other Open Source projects and developers**
+(taking currency variations into account), the folowing projects have benefitted:
+
+to the following projects:
 
   * [Debian](http://www.debian.org)
   * [Folder Color](http://foldercolor.tuxfamily.org/)
   * [Geany](http://www.geany.org/)
   * [Gufw](http://gufw.org/)
   * [MATE Desktop](http://mate-desktop)
+  * [MATE Dock Applet](https://github.com/robint99/dock-applet)
   * [OpenBSD](http://www.openbsd.org)
   * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Introduction)
   * [Tilda](https://github.com/lanoxx/tilda)
   * [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html)
   * [Transmission](http://www.transmissionbt.com/)
+  * [Synapse](https://launchpad.net/synapse-project)
   * [Ubuntu](http://www.ubuntu.com)
+  * [Ubuntu MATE](https://www.ubuntu-mate.org)
   * [VLC](http://www.videolan.org)
 
 ### Summary of donations
@@ -153,6 +157,8 @@ We post an overview of how the donations were used each month.
   * [2015 November](/blog/ubuntu-mate-november-2015-supporters/)
   * [2015 December](/blog/ubuntu-mate-december-2015-supporters/)
   * [2016 January](/blog/ubuntu-mate-january-2016-supporters/)    
+  * [2016 February](/blog/ubuntu-mate-february-2016-supporters/)    
+  * [2016 March](/blog/ubuntu-mate-march-2016-supporters/)    
 
 ## Hardware
 
@@ -184,14 +190,16 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
 <br />
 
 We are also delighted to provide a ready-to-run image for the
-[Raspberry Pi](http://www.raspberrypi.org) 2 which has been [improved
-based on the Raspberry Pi
-community](/blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming/). We've
-also created an [Ubuntu MATE generic root file system and example build
-scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE
-to their ARMv7 devices.
+[Raspberry Pi](http://www.raspberrypi.org) 2 and 3 that **includes
+experimental OpenGL hardware acceleration and full support for the 
+Raspberry Pi 3 Bluetooth and Wifi**. **Ubuntu MATE for the Raspberry
+Pi 2 and 3 is downloaded more than all the other supported architectures
+combined!** You grab the download and find out more from the
+[Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
-You grab the download and find out more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+We've also created an
+[Ubuntu MATE generic root file system and example build scripts](/armhf-rootfs/)
+for OEMs and ARM hackers who'd like bring Ubuntu MATE to their ARMv7 devices.
 
 ### Requirements
 
