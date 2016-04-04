@@ -14,6 +14,8 @@ function link_image() {
     ln -sf ${TOR_PATH} ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${TOR_FILE}
 }
 
+link_image raspberry-pi "${HOME}/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"
+link_image armhf-rootfs "${HOME}/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-beta2-desktop-armhf-rootfs.tar.bz2"
 link_image raspberry-pi "${HOME}/ISO-Mirror/wily/armhf/ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img.xz"
 link_image raspberry-pi "${HOME}/ISO-Mirror/wily/armhf/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"
 link_image raspberry-pi "${HOME}/ISO-Mirror/wily/armhf/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2"

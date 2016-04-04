@@ -1,10 +1,10 @@
 <!--
 .. title: Ubuntu MATE 16.04 Beta 2
 .. slug: ubuntu-mate-xenial-beta2
-.. date: 2016-03-24 22:00:00 UTC
+.. date: 2016-03-25 02:00:00 UTC
 .. tags: Ubuntu,MATE,Xenial,beta2
 .. link:
-.. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 2
+.. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Beta
 .. type: text
 .. author: Martin Wimpress
 -->
