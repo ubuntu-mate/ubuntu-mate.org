@@ -65,7 +65,7 @@ applications to turn your computer into a truly powerful workstation.
 ### Productivity
 
 <div class="row">
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://www.mozilla.org/firefox/desktop/">Firefox</a>
@@ -74,7 +74,7 @@ applications to turn your computer into a truly powerful workstation.
       </div>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://www.mozilla.org/thunderbird/features/">Thunderbird</a>
@@ -83,7 +83,7 @@ applications to turn your computer into a truly powerful workstation.
       </div>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="http://www.libreoffice.org/">LibreOffice</a>
@@ -97,7 +97,7 @@ applications to turn your computer into a truly powerful workstation.
 ### Entertainment
 
 <div class="row">
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Rhythmbox">Rhythmbox</a>
@@ -106,7 +106,7 @@ applications to turn your computer into a truly powerful workstation.
       </div>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
@@ -115,7 +115,7 @@ applications to turn your computer into a truly powerful workstation.
       </div>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="www.videolan.org/vlc/">VLC</a>
