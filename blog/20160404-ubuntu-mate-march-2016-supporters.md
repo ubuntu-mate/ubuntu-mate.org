@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE March 2016 supporters
 .. slug: ubuntu-mate-march-2016-supporters
-.. date: 2016-04-04 23:30:59 UTC
+.. date: 2016-04-04 23:00:59 UTC
 .. tags: Ubuntu,MATE,community,donate
 .. link:
 .. description: Community members who supported Ubuntu MATE this month.
