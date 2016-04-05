@@ -56,7 +56,7 @@ configuration is complete, subsequent boots are much quicker.
 
 ## Download
 
-A pre-built images of Ubuntu MATE 15.10.3 and 16.04 Beta 2 for the
+Pre-built images of Ubuntu MATE 15.10.3 and 16.04 Beta 2 for the
 Raspberry Pi 2 and Raspberry Pi 3 are available via BitTorrent and
 direct download. If you can spare the bytes, please download via
 BitTorrent and leave the client open after your download is finished,
@@ -351,8 +351,9 @@ BitBucket.
 
 ### 2016-04-05 - 16.04 beta 2 for Raspbery Pi 2 and Raspberry Pi 3
 
-  * Updated to Ubuntu MATE 16.04.
+  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
   * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
+    * Ubuntu MATE 16.04 now supports the on-board Raspberry Pi 3 Bluetooth and Wifi.
   * Updated to Linux 4.1.19.
   * Updated to `raspberrypi-firmware` 1.20160315-1.
   * Updated to `omx-player` 0.3.7~git20160206~cb91001.
