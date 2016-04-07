@@ -270,30 +270,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-  <div id="mirrors" class="row">
-    <div class="col-xs-3">
-      <div class="text-center">
-        <br>
-        <img src="../assets/img/logos/i18n-small.png" alt="Mirrors and Other Options">
-      </div>
-    </div>
-    <div class="col-xs-9">
-      <h3>Mirrors and Other Options</h3>
-      <p>You might prefer to find a DVD image on a mirror server that is geographically
-      close to you in order to achieve a faster download.</p>
-      <p>
-        <a target="_blank" href="https://launchpad.net/ubuntu/+cdmirrors">
-          <span class="fa fa-globe"></span> List Official Mirrors
-        </a>
-      </p>
-      <p>
-        <a class="version-A" href="version-A-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-        <a class="version-B" href="version-B-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-        <a class="version-C" href="version-C-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-      </p>
-    </div>
-  </div>
-  <hr id="mirrors-hr">
   <div id="sponsor1" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -333,6 +309,30 @@ computer at all, and optionally install permanently later.
       </p>
     </div>
   </div>
+  <div id="mirrors" class="row">
+    <div class="col-xs-3">
+      <div class="text-center">
+        <br>
+        <img src="../assets/img/logos/i18n-small.png" alt="Mirrors and Other Options">
+      </div>
+    </div>
+    <div class="col-xs-9">
+      <h3>Mirrors and Other Options</h3>
+      <p>You might prefer to find a DVD image on a mirror server that is geographically
+      close to you in order to achieve a faster download.</p>
+      <p>
+        <a target="_blank" href="https://launchpad.net/ubuntu/+cdmirrors">
+          <span class="fa fa-globe"></span> List Official Mirrors
+        </a>
+      </p>
+      <p>
+        <a class="version-A" href="version-A-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+        <a class="version-B" href="version-B-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+        <a class="version-C" href="version-C-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+      </p>
+    </div>
+  </div>
+  <hr id="mirrors-hr">
   <hr>
   <div id="getting-started" class="row">
     <div class="col-xs-3">
