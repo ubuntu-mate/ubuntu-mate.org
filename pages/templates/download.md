@@ -113,6 +113,8 @@ computer at all, and optionally install permanently later.
           Recommended if you desire a stable system. Support ends on <b>LTS_END_DATE</b>.
         </p>
       </div>
+      <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
+      <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
       <p><a class="version-A" href="version-A-RELEASE-URL"><span class="fa fa-file"></span> Release Announcement</a></p>
       <p><a class="version-B" href="version-B-RELEASE-URL"><span class="fa fa-file"></span> Release Announcement</a></p>
       <p><a class="version-C" href="version-C-RELEASE-URL"><span class="fa fa-file"></span> Release Announcement</a></p>
