@@ -262,6 +262,7 @@ computer at all, and optionally install permanently later.
       <div class="row">
         PAYPAL-DOWNLOAD-TIPS
       </div>
+      <p><b>Powered by: </b> <img src="../assets/img/logos/pp-logo-100px.png"/></p>
       <p>
         To donate more or become an Ubuntu MATE patron
         <a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
