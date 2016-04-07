@@ -94,9 +94,7 @@ computer at all, and optionally install permanently later.
   </div>
   <hr>
 </div>
-
 <div id="download-links" class="row" hidden>
-
   <div id="release-notes" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -133,7 +131,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="bittorrent" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -175,7 +172,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="direct-download" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -190,27 +186,22 @@ computer at all, and optionally install permanently later.
         <a class="version-A-i386" href="version-A-DIRECT-URL-i386"><span class="fa fa-download"></span> version-A-DIRECT-NAME-i386</a>
         <a class="version-B-i386" href="version-B-DIRECT-URL-i386"><span class="fa fa-download"></span> version-B-DIRECT-NAME-i386</a>
         <a class="version-C-i386" href="version-C-DIRECT-URL-i386"><span class="fa fa-download"></span> version-C-DIRECT-NAME-i386</a>
-
         <a class="version-A-amd64" href="version-A-DIRECT-URL-amd64"><span class="fa fa-download"></span> version-A-DIRECT-NAME-amd64</a>
         <a class="version-B-amd64" href="version-B-DIRECT-URL-amd64"><span class="fa fa-download"></span> version-B-DIRECT-NAME-amd64</a>
         <a class="version-C-amd64" href="version-C-DIRECT-URL-amd64"><span class="fa fa-download"></span> version-C-DIRECT-NAME-amd64</a>
-
         <a class="version-A-powerpc" href="version-A-DIRECT-URL-powerpc"><span class="fa fa-download"></span> version-A-DIRECT-NAME-powerpc</a>
         <a class="version-B-powerpc" href="version-B-DIRECT-URL-powerpc"><span class="fa fa-download"></span> version-B-DIRECT-NAME-powerpc</a>
         <a class="version-C-powerpc" href="version-C-DIRECT-URL-powerpc"><span class="fa fa-download"></span> version-C-DIRECT-NAME-powerpc</a>
-
         <img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>
         <a class="version-A-armhf" href="version-A-DIRECT-URL-armhf-eu"> version-A-DIRECT-NAME-armhf-eu</a>
         <a class="version-B-armhf" href="version-B-DIRECT-URL-armhf-eu"> version-B-DIRECT-NAME-armhf-eu</a>
         <a class="version-C-armhf" href="version-C-DIRECT-URL-armhf-eu"> version-C-DIRECT-NAME-armhf-eu</a>
         <br class="rpi">
-
         <img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>
         <a class="version-A-armhf" href="version-A-DIRECT-URL-armhf-ca"> version-A-DIRECT-NAME-armhf-ca</a>
         <a class="version-B-armhf" href="version-B-DIRECT-URL-armhf-ca"> version-B-DIRECT-NAME-armhf-ca</a>
         <a class="version-C-armhf" href="version-C-DIRECT-URL-armhf-ca"> version-C-DIRECT-NAME-armhf-ca</a>
         <br class="rpi">
-
         <img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>
         <a class="version-A-armhf" href="version-A-DIRECT-URL-armhf-fr"> version-A-DIRECT-NAME-armhf-fr</a>
         <a class="version-B-armhf" href="version-B-DIRECT-URL-armhf-fr"> version-B-DIRECT-NAME-armhf-fr</a>
@@ -247,7 +238,6 @@ computer at all, and optionally install permanently later.
         <span class="version-C-armhf">version-C-SIZE-armhf</span>
       </p>
       <p><a href="../how-to-verify-downloads"><span class="fa fa-question-circle"></span> How to verify downloads</a></p>
-
       <div class="rpi">
         <span class="fa fa-heart"></span>
         Many thanks to First Colo for contributing the hosting and bandwidth for the Ubuntu MATE downloads
@@ -256,7 +246,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="download-tips" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -270,7 +259,6 @@ computer at all, and optionally install permanently later.
         If everyone who downloaded Ubuntu MATE donated $2.50 it would fund the full-time development
         of Ubuntu MATE and MATE Desktop. Please give us a tip and help both projects flourish!
       </p>
-
       <div class="row">
         PAYPAL-DOWNLOAD-TIPS
       </div>
@@ -281,7 +269,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="mirrors" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -306,7 +293,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr id="mirrors-hr">
-
   <div id="sponsor1" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -347,7 +333,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="getting-started" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -378,7 +363,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <br>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
@@ -406,7 +390,6 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
   // Set defaults
   var show_version = "version-A";
   var show_arch = "i386";
-
   function updatePage() {
     var v1, a1, v2, a2;
     for (v1 in version) {
@@ -420,7 +403,6 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('.' + show_version).show();
     $('.' + show_version + '-' + show_arch).show();
   }
-
   function showDownloadLinks() {
     $('#arch-help').slideUp();
     $('#arch-help-tab').fadeIn();
@@ -430,17 +412,14 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('.rpi').hide();
     $('#LTS').hide();
   }
-
   function resetPage() {
     $('#arch-list').slideDown();
   }
-
   // !!! // Hide on page load.
   // V1-Hide
   // V2-Hide
   // V3-Hide
   updatePage();
-
   // Selecting a distro version
   $( "#version-A" ).click(function() {
     show_version = "version-A";
@@ -460,31 +439,26 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     updatePage();
     //version-C-show-LTS
   });
-
   $( "#arch-help-tab" ).click(function() {
     $('#arch-help').slideDown();
     $('#download-links').slideUp();
   });
-
   // Selecting a architecture
   $( "#i386" ).click(function() {
     show_arch = "i386";
     showDownloadLinks();
     updatePage();
   });
-
   $( "#amd64" ).click(function() {
     show_arch = "amd64";
     showDownloadLinks();
     updatePage();
   });
-
   $( "#powerpc" ).click(function() {
     show_arch = "powerpc";
     showDownloadLinks();
     updatePage();
   });
-
   $( "#armhf" ).click(function() {
     show_arch = "armhf";
     showDownloadLinks();
@@ -493,5 +467,4 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('#mirrors-hr').hide();
     $('.rpi').show();
   });
-
 </script>
