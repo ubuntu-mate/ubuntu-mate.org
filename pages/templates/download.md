@@ -338,7 +338,7 @@ computer at all, and optionally install permanently later.
     <div class="col-xs-3">
       <div class="text-center">
         <br>
-        <img src="../images/merch/hellotux/getting-started.png" alt="Getting Started Resources">
+        <img src="../assets/img/misc/getting-started.png" alt="Getting Started Resources">
       </div>
     </div>
     <div class="col-xs-9">
