@@ -518,6 +518,7 @@ REDIRECTIONS = [
 ("utopic/index.html", "/download/index.html"),
 ("wily/index.html", "/download/index.html"),
 ("xenial/index.html", "/download/index.html"),
+("pre-release/index.html", "/download/index.html"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
