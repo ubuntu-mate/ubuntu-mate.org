@@ -246,7 +246,7 @@ computer at all, and optionally install permanently later.
         <span class="version-C-powerpc">version-C-SIZE-powerpc</span>
         <span class="version-C-armhf">version-C-SIZE-armhf</span>
       </p>
-      <p><a href="#"><span class="fa fa-question-circle"></span> How to verify downloads</a></p>
+      <p><a href="../how-to-verify-downloads"><span class="fa fa-question-circle"></span> How to verify downloads</a></p>
 
       <div class="rpi">
         <span class="fa fa-heart"></span>
@@ -362,9 +362,7 @@ computer at all, and optionally install permanently later.
         <ul>
           <li><a href="../about/#hardware_requirements">System Requirements</a></li>
           <li><a href="https://help.ubuntu.com/community/BurningIsoHowto">Burning a DVD on Windows, Mac and Linux</a></li>
-          <li><a href="#">Creating a bootable USB on Windows</a></li>
-          <li><a href="#">Creating a bootable USB on OS X</a></li>
-          <li><a href="#">Creating a bootable USB on Ubuntu MATE</a></li>
+          <li><a href="../how-to-create-bootable-medium">Creating a bootable USB on Windows, Mac and Ubuntu MATE</a></li>
         </ul>
       </p>
       <hr>
