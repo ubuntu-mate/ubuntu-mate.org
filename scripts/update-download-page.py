@@ -215,7 +215,7 @@ for release_id in all_releases:
         continue
 
     for arch in downloads['release'][release_id]['arch']:
-        CLASS = 'version-' + release_id + '-' + arch
+        CLASS = downloads['release'][release_id]['codename'] + '-' + arch
         VERSION = downloads['release'][release_id]['version']
 
         # Rename any arch names:
