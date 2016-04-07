@@ -13,6 +13,7 @@ configurable desktop environment. It is ideal for those who want the
 most out of their computers and prefer a traditional desktop metaphor.
 With modest hardware requirements it is suitable for modern
 workstations, single board computers and older hardware alike.
+Ubuntu MATE makes modern computers fast and old comuters usable.
 
 <div class="bs-component">
     <div class="jumbotron">

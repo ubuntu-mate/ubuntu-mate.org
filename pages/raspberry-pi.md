@@ -4,7 +4,7 @@
 .. date: 2015-04-21 23:01:09 UTC
 .. tags: Ubuntu,MATE,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,download,armhf,arm64,ARMv7,ARMv8
 .. link: 
-.. description: Ubuntu MATE 15.10 for the Raspberry Pi 2 and Raspbbery Pi 3
+.. description: Ubuntu MATE 16.04 for the Raspberry Pi 2 and Raspbbery Pi 3
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -24,13 +24,14 @@ LibreOffice, which in fact is a joy to use :-) But the microSDHC I/O
 throughput is a bottleneck so **we recommend that you use a Class 6 or
 Class 10 microSDHC** card.
 
-**The images support the integrated Wifi on the Raspberry Pi 3, but
-support for the integrated Raspberry Pi 3 Bluetooth is incomplete.
-We hope to have that sorted soon.**
-
 You'll need a microSD card which is 4GB or greater to fit the image.
 The file system can be resized to occupy the unallocated space of the
-microSD card, similar to Raspbian.
+microSD card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE
+Welcome**.
+
+**Ubuntu MATE 16.04 has working Bluetooth and Wifi work on the Raspberry
+Pi 3**, but *Ubuntu MATE 15.10 only has working Wifi* for the Raspberry
+Pi 3.
 
 **NOTE! There are no predefined user accounts**. The first time you
 boot one of the desktop images it will run through a setup wizard where
@@ -40,7 +41,7 @@ configuration is complete, subsequent boots are much quicker.
 
 <div align="center">
   <img src="/gallery/Screenshots/09_RASPBERRY.png" /></a><br />
-  <b>Ubuntu MATE 15.10 running on the Raspberry Pi 2.</b>
+  <b>Ubuntu MATE 16.04 running on the Raspberry Pi 3.</b>
 </div>
 <br />
 
@@ -55,12 +56,12 @@ configuration is complete, subsequent boots are much quicker.
 
 ## Download
 
-A pre-built image of Ubuntu MATE 15.10.1 for the Raspberry Pi 2 and
-Raspberry Pi 3 is available via BitTorrent and direct download. If you
-can spare the bytes, please download via BitTorrent and leave the
-client open after your download is finished, so you can seed it back to
-others. *A web-seed capable client is recommended for fastest download
-speeds.*
+Pre-built images of Ubuntu MATE 15.10.3 and 16.04 Beta 2 for the
+Raspberry Pi 2 and Raspberry Pi 3 are available via BitTorrent and
+direct download. If you can spare the bytes, please download via
+BitTorrent and leave the client open after your download is finished,
+so you can seed it back to others. *A web-seed capable client is
+recommended for fastest download speeds.*
 
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
@@ -87,7 +88,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
         <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 15.10.1 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+      <p>Ubuntu MATE 15.10.3 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
@@ -95,14 +96,50 @@ hosting and bandwidth for the Ubuntu MATE downloads.
       <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
         <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 15.10.1 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+      <p>Ubuntu MATE 15.10.3 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Torrent" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Torrent" />
+      </a>
+      <p>Ubuntu MATE 16.04 Beta 2 via BitTorrent</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz">
+        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Download" />
+      </a>
+      <p>Ubuntu MATE 16.04 Beta 2 from European CDN</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz">
+        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Download" />
+      </a>
+      <p>Ubuntu MATE 16.04 Beta 2 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="well bs-component text-center">
+      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz">
+        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Download" />
+      </a>
+      <p>Ubuntu MATE 16.04 Beta 2 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
 </div>
 
 If you direct download the image please make sure the SHA256 hash matches:
 
-  * `49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94`
+  * Ubuntu MATE 15.10: `49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94`
+  * Ubuntu MATE 16.04: `b803095818c24cd2d81c59f31e27e83d58147dec6ac5169a590f39e3c664855d`
 
 ## Download tip
 
@@ -122,7 +159,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -143,7 +180,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -164,7 +201,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -185,7 +222,7 @@ please visit the [donate page](/donate/).</p>
         </fieldset>
         <input type="hidden" name="cmd" value="_xclick">
         <input type="hidden" name="business" value="6282B4CZGVCB6">
-        <input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Raspberry Pi 2 and 3 Download Tip">
+        <input type="hidden" name="item_name" value="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download Tip">
         <input type="hidden" name="no_shipping" value="1">
         <input type="hidden" name="no_note" value="1">
         <input type="hidden" name="charset" value="UTF-8">
@@ -235,8 +272,17 @@ If you want to make a microSDHC using Windows we recommend:
 
 ## Re-size file system
 
-There are no utilities included for automatic file system re-sizing. However,
-it's not hard to do manually. Once booted:
+### Ubuntu MATE 16.04
+
+You can use Ubuntu MATE Welcome to resize to automatically resize the
+partitions to make full use of your microSHDC card capacity. Simply
+click the large **Raspberry PI Information** button on the Welcome
+screen, then the **Resize** button and then restart the Raspberry Pi.
+
+### Ubuntu MATE 15.10
+
+There are no utilities included for automatic file system re-sizing.
+However, it's not hard to do manually. Once booted:
 
     sudo fdisk /dev/mmcblk0
 
@@ -302,6 +348,20 @@ BitBucket.
   * [Spindle](https://github.com/RPi-Distro/spindle) - a tool to help spin distribution images
 
 ## Changes
+
+### 2016-04-05 - 16.04 beta 2 for Raspbery Pi 2 and Raspberry Pi 3
+
+  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
+  * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
+    * Ubuntu MATE 16.04 now supports the on-board Raspberry Pi 3 Bluetooth and Wifi.
+  * Updated to Linux 4.1.19.
+  * Updated to `raspberrypi-firmware` 1.20160315-1.
+  * Updated to `omx-player` 0.3.7~git20160206~cb91001.
+  * Updated to `wiringpi` 2.32.
+  * Updated to `nuscratch` 20160115.
+  * Updated to `sonic-pi` 2.9.0.  
+  * Migrated configuration tweaks to `raspberrypi-general-mods` and `raspberrypi-sys-mods`.
+  * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`
 
 ### 2016-02-27 - Ubuntu MATE 15.10.3 for Raspbery Pi 2 and Raspberry Pi 3
 
