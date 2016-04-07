@@ -418,6 +418,19 @@ computer at all, and optionally install permanently later.
 
 <script>
 
+<!-- JQuery -->
+if (typeof jQuery == 'undefined') {
+document.write(unescape("%3Cscript src='/assets/js/jquery-2.0.0.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+
+<!-- Bootstrap -->
+if ( typeof($.fn.modal) === 'undefined') {
+document.write('<script src="/assets/js/bootstrap.min.js"><\/script>')
+}
+$.fn.modal || document.write('<script src="">\x3C/script>')
+
+</script>
+
 <script>
   var version = {v1: "version-A", v2: "version-B", v3: "version-C"};
   var arch = {a1: "i386", v2: "amd64", v3: "powerpc", v4: "armhf"};
