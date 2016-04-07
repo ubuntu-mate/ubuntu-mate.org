@@ -489,8 +489,8 @@ computer at all, and optionally install permanently later.
       <p>
         <ul>
           <li><a href="../about/#hardware_requirements">System Requirements</a></li>
-          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto">Burning a DVD on Windows, Mac and Linux</a></li>
-          <li><a href="../how-to-create-bootable-medium">Creating a bootable USB on Windows, Mac and Ubuntu MATE</a></li>
+          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto">Burning a DVD on Windows, Mac and GNU/Linux</a></li>
+          <li><a href="../how-to-create-bootable-usb-drive">Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
         </ul>
       </p>
       <hr>
