@@ -514,9 +514,10 @@ ARCHIVE_FILENAME = "index.html"
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
-("longterm/index.html", "/trusty/index.html"),
-("download/index.html", "/wily/index.html"),
-("utopic/index.html", "/wily/index.html"),
+("longterm/index.html", "/download/index.html"),
+("utopic/index.html", "/download/index.html"),
+("wily/index.html", "/download/index.html"),
+("xenial/index.html", "/download/index.html"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
