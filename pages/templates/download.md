@@ -272,38 +272,7 @@ computer at all, and optionally install permanently later.
       </p>
 
       <div class="row">
-        <div class="col-xs-3">
-          <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <fieldset>
-              <button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button>
-            </fieldset>
-            <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="6282B4CZGVCB6"><input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Download Tip"><input type="hidden" name="no_shipping" value="1"><input type="hidden" name="no_note" value="1"><input type="hidden" name="charset" value="UTF-8"><input type="hidden" name="amount" value="2.50"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"><input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"><input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-          </form>
-        </div>
-        <div class="col-xs-3">
-          <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <fieldset>
-            <button type="submit" class="btn btn-primary">Tip us <b>$5.00</b></button>
-            </fieldset>
-            <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="6282B4CZGVCB6"><input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Download Tip"><input type="hidden" name="no_shipping" value="1"><input type="hidden" name="no_note" value="1"><input type="hidden" name="charset" value="UTF-8"><input type="hidden" name="amount" value="5.00"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"><input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"><input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-          </form>
-        </div>
-        <div class="col-xs-3">
-          <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <fieldset>
-              <button type="submit" class="btn btn-primary">Tip us <b>$10.00</b></button>
-            </fieldset>
-            <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="6282B4CZGVCB6"><input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Download Tip"><input type="hidden" name="no_shipping" value="1"><input type="hidden" name="no_note" value="1"><input type="hidden" name="charset" value="UTF-8"><input type="hidden" name="amount" value="10.00"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"><input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"><input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-          </form>
-        </div>
-        <div class="col-xs-3">
-          <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <fieldset>
-              <button type="submit" class="btn btn-primary">Tip us <b>$20.00</b></button>
-            </fieldset>
-            <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="6282B4CZGVCB6"><input type="hidden" name="item_name" value="Ubuntu MATE 15.10 Download Tip"><input type="hidden" name="no_shipping" value="1"><input type="hidden" name="no_note" value="1"><input type="hidden" name="charset" value="UTF-8"><input type="hidden" name="amount" value="20.00"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"><input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"><input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-          </form>
-        </div>
+        PAYPAL-DOWNLOAD-TIPS
       </div>
       <p>
         To donate more or become an Ubuntu MATE patron

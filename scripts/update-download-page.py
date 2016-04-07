@@ -83,9 +83,9 @@ page_buffer = f.read()
 ################################################
 
 print('Manipulating contents...')
+all_releases = sorted(downloads['release'].keys())
 
-for release_id in downloads['release'].keys():
-
+for release_id in all_releases:
     version = 'version-' + release_id
 
     if not downloads['release'][release_id]['visible']:
@@ -186,7 +186,63 @@ for release_id in downloads['release'].keys():
     do_replace(version + '-OTHER', url)
 
     # Now actually replace version ID with release's codename.
+    # version-A             =>      xenial
     do_replace(version, distro_codename)
+
+################################################
+print('Generating PayPal Download Tips...')
+# Replaces "PAYPAL-DOWNLOAD-TIPS" on page.
+tip_amounts = ['2.50','5','10','20']
+# Variables = CLASS / AMOUNT / VERSION / ARCH
+form_start = '<div class="CLASS col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\n'
+form_field = '<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$AMOUNT</b></button></fieldset>\n'
+form_input = '<input type="hidden" name="cmd" value="_xclick"> \
+ <input type="hidden" name="business" value="6282B4CZGVCB6"> \
+ <input type="hidden" name="item_name" value="Ubuntu MATE VERSION ARCH Download Tip"> \
+ <input type="hidden" name="no_shipping" value="1"> \
+ <input type="hidden" name="no_note" value="1"> \
+ <input type="hidden" name="charset" value="UTF-8"> \
+ <input type="hidden" name="amount" value="AMOUNT"> \
+ <input type="hidden" name="currency_code" value="USD"> \
+ <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"> \
+  <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"> \
+  <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">\n'
+form_end = '</form></div>\n'
+
+paypal_buffer = ''
+for release_id in all_releases:
+    if not downloads['release'][release_id]['visible']:
+        continue
+
+    for arch in downloads['release'][release_id]['arch']:
+        CLASS = 'version-' + release_id + '-' + arch
+        VERSION = downloads['release'][release_id]['version']
+
+        # Rename any arch names:
+        if arch == 'i386':
+            ARCH = 'for 32-bit machines'
+        elif arch == 'amd64':
+            ARCH = 'for 64-bit machines'
+        elif arch == 'powerpc':
+            ARCH = 'for PowerPC'
+        elif arch == 'armhf':
+            ARCH = 'for Raspberry Pi 2 and 3'
+        else:
+            ARCH = arch
+
+        def append_paypal(string):
+            global paypal_buffer, CLASS, AMOUNT, VERSION, ARCH
+            string = string.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+            paypal_buffer = paypal_buffer + string
+
+        for AMOUNT in tip_amounts:
+            append_paypal(form_start)
+            append_paypal(form_field)
+            append_paypal(form_input)
+            append_paypal(form_end)
+
+page_buffer = page_buffer.replace('PAYPAL-DOWNLOAD-TIPS', paypal_buffer)
+
 
 ################################################
 
