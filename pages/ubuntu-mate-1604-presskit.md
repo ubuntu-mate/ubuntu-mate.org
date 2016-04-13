@@ -79,7 +79,8 @@ Here is a run down of some of the headline features in Ubuntu MATE 16.04:
     * *The traditional GNOME2 style two panel layout is, and will continue to be, the default*.
     * The Mutiny layout is a Unity-like interface design to showcase MATE Dock Applet and Topmenu Applet.
   * **Added Synapse which also includes complete MATE integration**.
-    * Can be enabled via MATE Tweak.
+    * Synapse is a **graphical launcher enabling you to start applications and also to quickly find and access relevant documents and files** (by making use of the Zeitgeist engine).
+    * The Synapse Launcher be enabled via MATE Tweak.
   * Updated to **Plank 0.11 and includes a new theme for Ubuntu MATE** contributed by [Holger Rueckershaeuser](http://holgerrpl.tk/).
   * **DVD and BluRay libraries are pre-installed**
     * *This doesn't mean encrypted DVD and BluRay will play out-of-the-box, but they can be fully enabled via Ubuntu MATE Welcome.*.
@@ -111,7 +112,8 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
     <li><a class="image-reference" href="/gallery/Screenshots/02_PLYMOUTH.png"><img src="/gallery/Screenshots/02_PLYMOUTH.png" title="Ubuntu MATE Plymouth Theme"></a></li>
     <li><a class="image-reference" href="/gallery/Screenshots/03_LIGHTDM.png"><img src="/gallery/Screenshots/03_LIGHTDM.png" title="Ubuntu MATE Login Manager"></a></li>
     <li><a class="image-reference" href="/gallery/Screenshots/04_DESKTOP.png"><img src="/gallery/Screenshots/04_DESKTOP.png" title="Ubuntu MATE Default Desktop"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/05_ABOUT.png"><img src="/gallery/Screenshots/05_ABOUT.png" title="About MATE"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/05_ABOUT.png"><img src="/gallery/Screenshots/05_ABOUT.png" title="Ubuntu MATE Welcome"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/07_TWEAK.png"><img src="/gallery/Screenshots/07_TWEAK.png" title="MATE Tweak and Mutiny"></a></li>    
     <li><a class="image-reference" href="/gallery/Screenshots/08_VIDEOS.png"><img src="/gallery/Screenshots/08_VIDEOS.png" title="Ubuntu MATE Video Player"></a></li>
   </ul>
   <!-- end Basic jQuery Slider -->
