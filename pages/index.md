@@ -74,17 +74,17 @@ to their ARMv7 devices.
 Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons](/sponsors/):
 
 <div class="row">
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="well bs-component">
     <a href="https://entroware.com"><img class="centered" src="/assets/img/sponsors/entroware.png" alt="Entroware" /></a>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="well bs-component">
     <a href="http://www.libretrend.com/en/"><img class="centered" src="/assets/img/sponsors/libretrend.png" alt="LibreTrend"/></a>
     </div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-xs-4">
     <div class="well bs-component">
     <a href="https://www.first-colo.com/"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First-Colo"/></a>
     </div>
