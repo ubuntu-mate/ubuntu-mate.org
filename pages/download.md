@@ -94,9 +94,7 @@ computer at all, and optionally install permanently later.
   </div>
   <hr>
 </div>
-
 <div id="download-links" class="row" hidden>
-
   <div id="release-notes" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -133,7 +131,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="bittorrent" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -175,7 +172,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="direct-download" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -190,27 +186,22 @@ computer at all, and optionally install permanently later.
         <a class="wily-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-i386.iso"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-i386.iso</a>
         <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-i386.iso"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-i386.iso</a>
         <a class="version-C-i386" href="version-C-DIRECT-URL-i386"><span class="fa fa-download"></span> version-C-DIRECT-NAME-i386</a>
-
         <a class="wily-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-amd64.iso"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-amd64.iso</a>
         <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-amd64.iso"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-amd64.iso</a>
         <a class="version-C-amd64" href="version-C-DIRECT-URL-amd64"><span class="fa fa-download"></span> version-C-DIRECT-NAME-amd64</a>
-
         <a class="wily-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-powerpc.iso"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-powerpc.iso</a>
         <a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-powerpc.iso"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-powerpc.iso</a>
         <a class="version-C-powerpc" href="version-C-DIRECT-URL-powerpc"><span class="fa fa-download"></span> version-C-DIRECT-NAME-powerpc</a>
-
         <img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>
         <a class="wily-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"> <b>European CDN</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
         <a class="xenial-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"> <b>European CDN</b> - ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz</a>
         <a class="version-C-armhf" href="version-C-DIRECT-URL-armhf-eu"> version-C-DIRECT-NAME-armhf-eu</a>
         <br class="rpi">
-
         <img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>
         <a class="wily-armhf" href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"> <b>Canadian mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
         <a class="xenial-armhf" href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"> <b>Canadian mirror</b> - ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz</a>
         <a class="version-C-armhf" href="version-C-DIRECT-URL-armhf-ca"> version-C-DIRECT-NAME-armhf-ca</a>
         <br class="rpi">
-
         <img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>
         <a class="wily-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"> <b>French mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
         <a class="xenial-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"> <b>French mirror</b> - ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz</a>
@@ -247,7 +238,6 @@ computer at all, and optionally install permanently later.
         <span class="version-C-armhf">version-C-SIZE-armhf</span>
       </p>
       <p><a href="../how-to-verify-downloads"><span class="fa fa-question-circle"></span> How to verify downloads</a></p>
-
       <div class="rpi">
         <span class="fa fa-heart"></span>
         Many thanks to First Colo for contributing the hosting and bandwidth for the Ubuntu MATE downloads
@@ -256,7 +246,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
   <div id="download-tips" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -270,7 +259,6 @@ computer at all, and optionally install permanently later.
         If everyone who downloaded Ubuntu MATE donated $2.50 it would fund the full-time development
         of Ubuntu MATE and MATE Desktop. Please give us a tip and help both projects flourish!
       </p>
-
       <div class="row">
         <div class="wily-i386 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
@@ -402,6 +390,7 @@ computer at all, and optionally install permanently later.
 </form></div>
 
       </div>
+      <p><b>Powered by: </b> <img src="../assets/img/logos/pp-logo-100px.png"/></p>
       <p>
         To donate more or become an Ubuntu MATE patron
         <a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
@@ -409,32 +398,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-
-  <div id="mirrors" class="row">
-    <div class="col-xs-3">
-      <div class="text-center">
-        <br>
-        <img src="../assets/img/logos/i18n-small.png" alt="Mirrors and Other Options">
-      </div>
-    </div>
-    <div class="col-xs-9">
-      <h3>Mirrors and Other Options</h3>
-      <p>You might prefer to find a DVD image on a mirror server that is geographically
-      close to you in order to achieve a faster download.</p>
-      <p>
-        <a target="_blank" href="https://launchpad.net/ubuntu/+cdmirrors">
-          <span class="fa fa-globe"></span> List Official Mirrors
-        </a>
-      </p>
-      <p>
-        <a class="wily" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-        <a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-        <a class="version-C" href="version-C-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-      </p>
-    </div>
-  </div>
-  <hr id="mirrors-hr">
-
   <div id="sponsor1" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -474,8 +437,31 @@ computer at all, and optionally install permanently later.
       </p>
     </div>
   </div>
+  <div id="mirrors" class="row">
+    <div class="col-xs-3">
+      <div class="text-center">
+        <br>
+        <img src="../assets/img/logos/i18n-small.png" alt="Mirrors and Other Options">
+      </div>
+    </div>
+    <div class="col-xs-9">
+      <h3>Mirrors and Other Options</h3>
+      <p>You might prefer to find a DVD image on a mirror server that is geographically
+      close to you in order to achieve a faster download.</p>
+      <p>
+        <a target="_blank" href="https://launchpad.net/ubuntu/+cdmirrors">
+          <span class="fa fa-globe"></span> List Official Mirrors
+        </a>
+      </p>
+      <p>
+        <a class="wily" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+        <a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+        <a class="version-C" href="version-C-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+      </p>
+    </div>
+  </div>
+  <hr id="mirrors-hr">
   <hr>
-
   <div id="getting-started" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -506,7 +492,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <br>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
@@ -534,7 +519,6 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
   // Set defaults
   var show_version = "wily";
   var show_arch = "i386";
-
   function updatePage() {
     var v1, a1, v2, a2;
     for (v1 in version) {
@@ -548,7 +532,6 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('.' + show_version).show();
     $('.' + show_version + '-' + show_arch).show();
   }
-
   function showDownloadLinks() {
     $('#arch-help').slideUp();
     $('#arch-help-tab').fadeIn();
@@ -558,17 +541,14 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('.rpi').hide();
     $('#LTS').hide();
   }
-
   function resetPage() {
     $('#arch-list').slideDown();
   }
-
   // !!! // Hide on page load.
   // V1-Hide
   // V2-Hide
   // V3-Hide
   updatePage();
-
   // Selecting a distro version
   $( "#wily" ).click(function() {
     show_version = "wily";
@@ -588,31 +568,26 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     updatePage();
     //version-C-show-LTS
   });
-
   $( "#arch-help-tab" ).click(function() {
     $('#arch-help').slideDown();
     $('#download-links').slideUp();
   });
-
   // Selecting a architecture
   $( "#i386" ).click(function() {
     show_arch = "i386";
     showDownloadLinks();
     updatePage();
   });
-
   $( "#amd64" ).click(function() {
     show_arch = "amd64";
     showDownloadLinks();
     updatePage();
   });
-
   $( "#powerpc" ).click(function() {
     show_arch = "powerpc";
     showDownloadLinks();
     updatePage();
   });
-
   $( "#armhf" ).click(function() {
     show_arch = "armhf";
     showDownloadLinks();
@@ -621,6 +596,5 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('#mirrors-hr').hide();
     $('.rpi').show();
   });
-
 </script>
 
