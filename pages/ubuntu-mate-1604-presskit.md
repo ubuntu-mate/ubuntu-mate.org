@@ -38,10 +38,55 @@ Ubuntu MATE has a number of guiding objectives and goals.
 
 ## New in Ubuntu MATE 16.04
 
-Here is a run down of some of the new features in Ubuntu MATE 16.04:
+Here is a run down of some of the headline features in Ubuntu MATE 16.04:
 
-  * Migrate to MATE Desktop 1.12
-  * ...and many other minor improvements and bug fixes.
+  * **MATE Desktop 1.12.1**
+    * Fixes and improvements for GTK3 support across the entire MATE Desktop including GTK 3.18 support.
+    * **Touchpad support is significantly improved and now features multi touch and natural scrolling**.
+    * **Multi monitor support has been improved** so the display settings use output names and the revised UI lets you set the primary monitor.
+    * The power applet now **displays model and vendor information** so you can distinguish between multiple battery powered devices.
+    * **Improved session management** which now includes screensaver inhibition while playing media.
+    * Extended `systemd` support.
+    * Long standing bugs and many little **usability paper-cuts were fixed**.
+    * **Consistent categorisation** of the Control Center and System menus.
+    * See the [MATE Desktop 1.12 release announcement](http://mate-desktop.org/blog/2015-11-05-mate-1-12-released/) for more details.
+    * **CPU resource requirements have been reduced across the board**.
+  * **Complete overhual of Ubuntu MATE Welcome**
+    * Incorporates **Ubuntu MATE Software Boutique** with one-click installs for **nearly 150 best in class Linux desktop applications**.
+    * **Pre-install documentation and assistant**.
+    * System Information and Diagnostics.    
+    * **Post-install setup and configuration** assistant.
+    * Added one-click enablement of the LibreOffice Fresh PPA to **continually track stable LibreOffice releases**.
+    * **One-click install of Drivers, Firmware and Codecs**.
+    * Includes **Raspberry Pi specific documentation and features**.
+    * Translated in 20 languages.
+  * **Cross tooklit integration and theming**
+    * **QT applications will inherit GTK theming**.
+    * Client Side Decorated and Header Bar applications **render correctly in all supported window managers, even without compositing enabled** in all shipped themes.
+    * The default Ubuntu MATE themes have been **refined to minimise differences between GTK3 and GTK2**.
+    * Updated **Compiz `gtk-window-manager` to get settings directly from MATE**, not GNOME, when running in a MATE session.
+  * Supports **Raspberry Pi 2 and Raspberry Pi 3**, including integrated Raspberry Pi 3 Bluetooth and WiFi. Also includes **Raspberry Pi accelerated versions of VLC, `ffmpeg` and Kodi**.
+  * **MATE Tweak capabilities have been extended**.
+    * Option to enable **Keyboard LED to show a CapsLock and NumLock status indicator** for modern laptops and wireless keyboards that no longer have built in status LEDs.
+    * **Added Compton GPU accelerated compositing**, as an alternative to Compiz, for those seeking **tear free video playback**.
+    * Displays a **confirmation after changing Window Manager** to Compton or Compiz.  
+  * Added **MATE Dock Applet** developed by [Robin Thompson](https://github.com/robint99).
+    * A **configurable dock applet that can be placed on any panel, in any orientation**.
+  * Added **Topmenu Applet** developed by [Javier S. Pedro](https://javispedro.com/me.html)
+    * A **GTK+ module that allows placing a global menu in MATE panel applets**.
+    * The **Ubuntu MATE team also added `lxpanel-plugin-topmenu` and `xfce4-topmenu-plugin` to the Debian and Ubuntu archives** so those desktops can benefit too.
+  * Added **Mutiny panel layout which showcases `mate-dock-applet` and `topmenu-gtk`**.
+    * *The traditional GNOME2 style two panel layout is, and will continue to be, the default*.
+    * The Mutiny layout is a Unity-like interface design to showcase MATE Dock Applet and Topmenu Applet.
+  * **Added Synapse which also includes complete MATE integration**.
+    * Can be enabled via MATE Tweak.
+  * Updated to **Plank 0.11 and includes a new theme for Ubuntu MATE** contributed by [Holger Rueckershaeuser](http://holgerrpl.tk/).
+  * **DVD and BluRay libraries are pre-installed**
+    * *This doesn't mean encrypted DVD and BluRay will play out-of-the-box, but they can be fully enabled via Ubuntu MATE Welcome.*.
+  * **Vastly expanded language support**, the full rationale on how we choose the languages and what we install is available from <https://launchpad.net/bugs/1520278>.
+  * Improved support for **braille displays**.
+  * An assortment of new community contributed background wallpapers and **icon rendering in menus is much faster**.
+  * ...and many other minor improvements and hundreds of bug fixes.
 
 You can access the complete Ubuntu MATE 16.04 release notes from the
 URLs below:
