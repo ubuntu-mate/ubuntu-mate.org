@@ -51,7 +51,7 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
     * **Consistent categorisation** of the Control Center and System menus.
     * See the [MATE Desktop 1.12 release announcement](http://mate-desktop.org/blog/2015-11-05-mate-1-12-released/) for more details.
     * **CPU resource requirements have been reduced across the board**.
-  * **Complete overhual of Ubuntu MATE Welcome**
+  * **Complete overhaul of Ubuntu MATE Welcome**
     * Incorporates **Ubuntu MATE Software Boutique** with one-click installs for **nearly 150 best in class Linux desktop applications**.
     * One-click install for popular applications that are not in the official Ubuntu archive, such as **Google Chrome, InSync, Minecraft, Opera, Spotify, Steam, Skype, Syncthing, Telegram, TorBrowser and Vivaldi** via the Software Boutique.
     * **Pre-installation documentation and assistant**.
