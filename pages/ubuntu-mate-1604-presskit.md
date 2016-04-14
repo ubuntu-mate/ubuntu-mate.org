@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 16.04 Press Kit
 .. slug: ubuntu-mate-1604-presskit
 .. date: 2016-04-07 20:00:00 UTC
-.. tags: Ubuntu,MATE,Press Kit,draft
+.. tags: Ubuntu,MATE,Press Kit
 .. link:
 .. description:
 .. type: text
@@ -68,7 +68,7 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
     * **Deeper Compiz integration**, `gtk-window-manager` nows sources settings directly from MATE when Compiz is running in a MATE session.
   * Supports **Raspberry Pi 2 and Raspberry Pi 3**
     * Including the Raspberry Pi 3 integrated Bluetooth and WiFi. Also includes **Raspberry Pi accelerated versions of VLC, ffmpeg and Kodi**.
-    * Option to enable **experimental hardware acceleated OpenGL rendering**.
+    * Option to enable **experimental hardware accelerated OpenGL rendering**.
   * **MATE Tweak capabilities have been extended**.
     * Option to enable **Keyboard LED to show a Caps Lock and Num Lock status indicator** for modern laptops and wireless keyboards that no longer have built-in status LEDs.
     * **Added Compton GPU accelerated compositing**, as an alternative to Compiz, for those seeking **tear free video playback**.
@@ -96,7 +96,7 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
 You can access the complete Ubuntu MATE 16.04 release notes from the
 URLs below:
 
-  * [Ubuntu MATE 16.04 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release).
+<!--  * [Ubuntu MATE 16.04 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release). -->
   * [Ubuntu MATE 16.04 Beta 2](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta2/).
   * [Ubuntu MATE 16.04 Beta 1](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta1/).
   * [Ubuntu MATE 16.04 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-alpha2/).
@@ -117,6 +117,7 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
     <li><a class="image-reference" href="/gallery/Screenshots/03_LIGHTDM.png"><img src="/gallery/Screenshots/03_LIGHTDM.png" title="Ubuntu MATE Login Manager"></a></li>
     <li><a class="image-reference" href="/gallery/Screenshots/04_DESKTOP.png"><img src="/gallery/Screenshots/04_DESKTOP.png" title="Ubuntu MATE Default Desktop"></a></li>
     <li><a class="image-reference" href="/gallery/Screenshots/05_ABOUT.png"><img src="/gallery/Screenshots/05_ABOUT.png" title="Ubuntu MATE Welcome"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/06_CAJA.png"><img src="/gallery/Screenshots/06_CAJA.png" title="The Caja Filemanager"></a></li>
     <li><a class="image-reference" href="/gallery/Screenshots/07_TWEAK.png"><img src="/gallery/Screenshots/07_TWEAK.png" title="MATE Tweak and Mutiny"></a></li>    
     <li><a class="image-reference" href="/gallery/Screenshots/08_VIDEOS.png"><img src="/gallery/Screenshots/08_VIDEOS.png" title="Ubuntu MATE Video Player"></a></li>
   </ul>
@@ -174,7 +175,7 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
 We are also delighted to provide a ready-to-run image for the
 [Raspberry Pi](http://www.raspberrypi.org) 2 and 3 that **includes
 experimental OpenGL hardware acceleration and full support for the
-Raspberry Pi 3 Bluetooth and Wifi**. You grab the download and find out
+integrated Raspberry Pi 3 Bluetooth and Wifi**. You grab the download and find out
 more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
 Since the introduction of Ubuntu MATE 15.10 **Ubuntu MATE for the
