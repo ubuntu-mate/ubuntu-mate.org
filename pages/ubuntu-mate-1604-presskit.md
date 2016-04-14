@@ -113,6 +113,8 @@ URLs below:
 ### Screenshots
 
 Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
+You can [access full resolution screenshot images from the gallery](https://ubuntu-mate.org/gallery/Screenshots/).
+
 
 <!-- Outer wrapper for presentation only, this can be anything you like -->
 <div align="center">
@@ -145,10 +147,6 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
     });
 });
 </script>
-
-You can access full resolution images from the URL below:
-
-  * <https://ubuntu-mate.org/gallery/Screenshots/>
 
 ## Hardware
 
