@@ -8,9 +8,17 @@
 .. type: text
 -->
 
-With Ubuntu MATE 16.04 due for release on April 21st 2016 this page
+**With Ubuntu MATE 16.04 due for release on April 21st 2016 this page
 will help you better understand what Ubuntu MATE is and how it's been
-improved since the 15.10 release.
+improved since the 15.10 release.**
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Achievement Unlocked!</h1>
+        <p>Ubuntu MATE is an official member of the Ubuntu family and this 16.04 release is our first official LTS!</p>
+        <p><img class="centered" src="/images/Ubuntu-MATE-Love.png" alt="Ubuntu MATE" /></p>
+    </div>
+</div>
 
 ## Introduction
 
@@ -21,7 +29,7 @@ operating system with a configurable desktop environment. Ideal for
 those who want the most out of their computers and prefer a traditional
 desktop metaphor. With modest hardware requirements it is suitable for
 modern desktops and laptops, single board computers and older hardware
-alike. **Ubuntu MATE makes modern computers fast and old computers
+alike. **Ubuntu MATE makes modern computers fast and makes older computers
 usable.**
 
 ### Objectives
@@ -210,21 +218,21 @@ developers. **Ubuntu MATE has donated $4513.87 to other Open Source
 projects and developers** (taking currency variations into account),
 the folowing projects have benefitted:
 
-  * [Debian](http://www.debian.org)
-  * [Folder Color](http://foldercolor.tuxfamily.org/)
-  * [Geany](http://www.geany.org/)
-  * [Gufw](http://gufw.org/)
-  * [MATE Desktop](http://mate-desktop)
-  * [MATE Dock Applet](https://github.com/robint99/dock-applet)
-  * [OpenBSD](http://www.openbsd.org)
-  * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Introduction)
-  * [Tilda](https://github.com/lanoxx/tilda)
-  * [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html)
-  * [Transmission](http://www.transmissionbt.com/)
-  * [Synapse](https://launchpad.net/synapse-project)
-  * [Ubuntu](http://www.ubuntu.com)
-  * [Ubuntu MATE](https://www.ubuntu-mate.org)
-  * [VLC](http://www.videolan.org)
+  * [Debian](http://www.debian.org),
+ [Folder Color](http://foldercolor.tuxfamily.org/),
+ [Geany](http://www.geany.org/),
+ [Gufw](http://gufw.org/),
+ [MATE Desktop](http://mate-desktop),
+ [MATE Dock Applet](https://github.com/robint99/dock-applet),
+ [OpenBSD](http://www.openbsd.org),
+ [Plank](http://wiki.go-docky.com/index.php?title=Plank:Introduction),
+ [Tilda](https://github.com/lanoxx/tilda),
+ [TLP](http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html),
+ [Transmission](http://www.transmissionbt.com/),
+ [Synapse](https://launchpad.net/synapse-project),
+ [Ubuntu](http://www.ubuntu.com),
+ [Ubuntu MATE](https://www.ubuntu-mate.org),
+ [VLC](http://www.videolan.org).
 
 ### Summary of donations
 
