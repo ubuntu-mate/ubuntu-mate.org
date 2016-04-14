@@ -9,7 +9,7 @@
 -->
 
 With Ubuntu MATE 16.04 due for release on April 21st 2016 this page
-will help you better understand what Ubuntu MATE is and how its been
+will help you better understand what Ubuntu MATE is and how it's been
 improved since the 15.10 release.
 
 ## Introduction
@@ -21,27 +21,27 @@ operating system with a configurable desktop environment. Ideal for
 those who want the most out of their computers and prefer a traditional
 desktop metaphor. With modest hardware requirements it is suitable for
 modern desktops and laptops, single board computers and older hardware
-alike. Ubuntu MATE makes modern computers fast and old comuters usable.
+alike. **Ubuntu MATE makes modern computers fast and old computers
+usable.**
 
 ### Objectives
 
 Ubuntu MATE has a number of guiding objectives and goals.
 
-  * Accessible to all, regardless of language and physical ability.
+  * **Accessible to all**, regardless of language and physical ability.
   * Increase both [Ubuntu](http://www.ubuntu.com) and [MATE Desktop](http://mate-desktop.org) user adoption.
-  * Ubuntu alternative for computers that aren't powerful enough to run a composited desktop.
-  * First choice Ubuntu platform for remote workstation solutions such as [X2Go](http://x2go.org).
-  * Recreate the halcyon days of Ubuntu for users who prefer a traditional desktop metaphor.
-  * Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar.
-  * When possible contribute to [Debian](http://www.debian.org) so both the Debian and Ubuntu communities benefit.
-  * Software selection will favour functionality and stability over lightness and whimsy.
+  * Ubuntu **alternative for computers that aren't powerful enough to run a composited desktop**.
+  * **First choice Ubuntu platform for remote workstation solutions** such as [X2Go](http://x2go.org).
+  * **Recreate the halcyon days of Ubuntu** for users who prefer a traditional desktop metaphor.
+  * Use themes and artwork similar to Ubuntu so that **Ubuntu MATE is immediately familiar**.
+  * When possible **contribute to [Debian](http://www.debian.org)** so both the Debian and Ubuntu communities benefit.
+  * Software selection will **favour functionality and stability over lightness and whimsy**.
 
 ## New in Ubuntu MATE 16.04
 
-Here is a run down of some of the headline features in Ubuntu MATE 16.04:
+Here is a run down of the headline features in Ubuntu MATE 16.04:
 
   * **MATE Desktop 1.12.1**
-    * Fixes and improvements for GTK3 support across the entire MATE Desktop including GTK 3.18 support.
     * **Touchpad support is significantly improved and now features multi touch and natural scrolling**.
     * **Multi monitor support has been improved** so the display settings use output names and the revised UI lets you set the primary monitor.
     * The power applet now **displays model and vendor information** so you can distinguish between multiple battery powered devices.
@@ -53,8 +53,9 @@ Here is a run down of some of the headline features in Ubuntu MATE 16.04:
     * **CPU resource requirements have been reduced across the board**.
   * **Complete overhual of Ubuntu MATE Welcome**
     * Incorporates **Ubuntu MATE Software Boutique** with one-click installs for **nearly 150 best in class Linux desktop applications**.
-    * **Pre-install documentation and assistant**.
-    * System Information and Diagnostics.    
+    * One-click install for popular applications that are not in the official Ubuntu archive, such as **Google Chrome, InSync, Minecraft, Opera, Spotify, Steam, Skype, Syncthing, Telegram, TorBrowser and Vivaldi** via the Software Boutique.
+    * **Pre-installation documentation and assistant**.
+    * System Information and Diagnostics.
     * **Post-install setup and configuration** assistant.
     * Added one-click enablement of the LibreOffice Fresh PPA to **continually track stable LibreOffice releases**.
     * **One-click install of Drivers, Firmware and Codecs**.
@@ -64,12 +65,14 @@ Here is a run down of some of the headline features in Ubuntu MATE 16.04:
     * **QT applications will inherit GTK theming**.
     * Client Side Decorated and Header Bar applications **render correctly in all supported window managers, even without compositing enabled** in all shipped themes.
     * The default Ubuntu MATE themes have been **refined to minimise differences between GTK3 and GTK2**.
-    * Updated **Compiz `gtk-window-manager` to get settings directly from MATE**, not GNOME, when running in a MATE session.
-  * Supports **Raspberry Pi 2 and Raspberry Pi 3**, including integrated Raspberry Pi 3 Bluetooth and WiFi. Also includes **Raspberry Pi accelerated versions of VLC, `ffmpeg` and Kodi**.
+    * **Deeper Compiz integration**, `gtk-window-manager` nows sources settings directly from MATE when Compiz is running in a MATE session.
+  * Supports **Raspberry Pi 2 and Raspberry Pi 3**
+    * Including the Raspberry Pi 3 integrated Bluetooth and WiFi. Also includes **Raspberry Pi accelerated versions of VLC, ffmpeg and Kodi**.
+    * Option to enable **experimental hardware acceleated OpenGL rendering**.
   * **MATE Tweak capabilities have been extended**.
-    * Option to enable **Keyboard LED to show a CapsLock and NumLock status indicator** for modern laptops and wireless keyboards that no longer have built in status LEDs.
+    * Option to enable **Keyboard LED to show a Caps Lock and Num Lock status indicator** for modern laptops and wireless keyboards that no longer have built-in status LEDs.
     * **Added Compton GPU accelerated compositing**, as an alternative to Compiz, for those seeking **tear free video playback**.
-    * Displays a **confirmation after changing Window Manager** to Compton or Compiz.  
+    * Displays a **confirmation after changing compositor** to either Compton or Compiz.
   * Added **MATE Dock Applet** developed by [Robin Thompson](https://github.com/robint99).
     * A **configurable dock applet that can be placed on any panel, in any orientation**.
   * Added **Topmenu Applet** developed by [Javier S. Pedro](https://javispedro.com/me.html)
@@ -83,10 +86,11 @@ Here is a run down of some of the headline features in Ubuntu MATE 16.04:
     * The Synapse Launcher be enabled via MATE Tweak.
   * Updated to **Plank 0.11 and includes a new theme for Ubuntu MATE** contributed by [Holger Rueckershaeuser](http://holgerrpl.tk/).
   * **DVD and BluRay libraries are pre-installed**
-    * *This doesn't mean encrypted DVD and BluRay will play out-of-the-box, but they can be fully enabled via Ubuntu MATE Welcome.*.
+    * *This doesn't mean encrypted DVD and BluRay will play out-of-the-box, but they can be fully enabled via Ubuntu MATE Welcome*.
   * **Vastly expanded language support**, the full rationale on how we choose the languages and what we install is available from <https://launchpad.net/bugs/1520278>.
-  * Improved support for **braille displays**.
-  * An assortment of new community contributed background wallpapers and **icon rendering in menus is much faster**.
+    * *Including this wider language support has added ~400MB to the size of the .iso images.*
+  * Improved support for **braille displays** and a new **indicator for changing accessibility profiles in Ubiquity**.
+  * An assortment of new community contributed background wallpapers, more consistent icons and **icon rendering in menus is optimised**.
   * ...and many other minor improvements and hundreds of bug fixes.
 
 You can access the complete Ubuntu MATE 16.04 release notes from the
@@ -181,15 +185,15 @@ and ARM hackers who'd like bring Ubuntu MATE to their ARMv7 devices.
 
 ## Community
 
-The Ubuntu MATE project was founded in June 2014 and **the
-website has had over 3.2 million unique visitors** resulting in 12.1 million
-page views since its inception.
+The Ubuntu MATE project was founded in June 2014 and **the website has
+had over 3.2 million unique visitors** resulting in 12.1 million page
+views since its inception.
 
   * Ubuntu MATE has been **downloaded ~2 million times** times and the **Raspberry Pi 2 image has been downloaded ~700,000** times since its introduction in April 2015.
     * *These are conversative numbers based on downloads initiated via the Ubuntu MATE website. We can't track downloads initiated via the Ubuntu mirror network or via Torrent trackers and magnets.*
   * Current **monthly downloads are ~70,000 for the Raspberry Pi images and ~60,000 for all other architectures**.
-  * **~5,000** members [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
-  * **~5,000** member [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
+  * **~5,000** members of [Ubuntu MATE on Google+](https://plus.google.com/communities/108331279007926658904)
+  * **~5,000** members of [Ubuntu MATE on Facebook](https://www.facebook.com/UbuntuMATEedition/)
   * **~2,200** followers of [Ubuntu MATE on Twitter](https://twitter.com/ubuntu_mate)
   * **~150** [Patrons](https://www.patreon.com/ubuntu_mate) and **~4500 donations via PayPal**.
 
