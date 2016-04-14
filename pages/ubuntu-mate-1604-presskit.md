@@ -80,10 +80,10 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
     * The **Ubuntu MATE team also added `lxpanel-plugin-topmenu` and `xfce4-topmenu-plugin` to the Debian and Ubuntu archives** so those desktops can benefit too.
   * Added **Mutiny panel layout which showcases `mate-dock-applet` and `topmenu-gtk`**.
     * *The traditional GNOME2 style two panel layout is, and will continue to be, the default*.
-    * The Mutiny layout is a Unity-like interface design to showcase MATE Dock Applet and Topmenu Applet.
+    * The Mutiny layout is a Unity-like interface, designed to showcase MATE Dock Applet and Topmenu Applet.
   * **Added Synapse which also includes complete MATE integration**.
     * Synapse is a **graphical launcher enabling you to start applications and also to quickly find and access relevant documents and files** (by making use of the Zeitgeist engine).
-    * The Synapse Launcher be enabled via MATE Tweak.
+    * The Synapse Launcher can be enabled via MATE Tweak.
   * Updated to **Plank 0.11 and includes a new theme for Ubuntu MATE** contributed by [Holger Rueckershaeuser](http://holgerrpl.tk/).
   * **DVD and BluRay libraries are pre-installed**
     * *This doesn't mean encrypted DVD and BluRay will play out-of-the-box, but they can be fully enabled via Ubuntu MATE Welcome*.
@@ -144,24 +144,18 @@ You can access full resolution images from the URL below:
 
 ## Hardware
 
-### Partnerships
-
-Ubuntu MATE has hardware partnerships
-[Entroware](https://www.entroware.com) and
-[LibreTrend](http://www.libretrend.com/en/) who both offer hardware
-with the option to have it delivered with Ubuntu MATE pre-installed.
+Ubuntu MATE has a hardware partnership with [Entroware](https://www.entroware.com),
+who offer a **selection of laptops and desktops that can be purchased pre-installed
+with Ubuntu MATE**.
 
 <div class="row">
+  <div class="col-lg-3">&nbsp;</div>
   <div class="col-lg-6">
     <div class="well bs-component">
     <a href="https://entroware.com"><img class="centered" src="/images/sponsors/entroware.png" alt="Entroware" /></a>
     </div>
   </div>
-  <div class="col-lg-6">
-    <div class="well bs-component">
-    <a href="http://www.libretrend.com/en/"><img class="centered" src="/images/sponsors/libretrend.png" alt="LibreTrend"/></a>
-    </div>
-  </div>
+  <div class="col-lg-3">&nbsp;</div>
 </div>
 
 ### Raspberry Pi 2 and Raspberry Pi 3
@@ -175,7 +169,7 @@ with the option to have it delivered with Ubuntu MATE pre-installed.
 We are also delighted to provide a ready-to-run image for the
 [Raspberry Pi](http://www.raspberrypi.org) 2 and 3 that **includes
 experimental OpenGL hardware acceleration and full support for the
-integrated Raspberry Pi 3 Bluetooth and Wifi**. You grab the download and find out
+integrated Raspberry Pi 3 Bluetooth and Wifi**. You can grab the download and find out
 more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
 Since the introduction of Ubuntu MATE 15.10 **Ubuntu MATE for the
