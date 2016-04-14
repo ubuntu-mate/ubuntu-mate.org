@@ -28,8 +28,8 @@ Desktop](http://mate-desktop.org) and offers a stable, easy-to-use
 operating system with a configurable desktop environment. Ideal for
 those who want the most out of their computers and prefer a traditional
 desktop metaphor. With modest hardware requirements it is suitable for
-modern desktops and laptops, single board computers and older hardware
-alike. **Ubuntu MATE makes modern computers fast and makes older computers
+modern desktops, laptops, single board computers and older hardware
+alike. **Ubuntu MATE makes new computers fast and older computers
 usable.**
 
 ### Objectives
@@ -73,14 +73,14 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
     * **QT applications will inherit GTK theming**.
     * Client Side Decorated and Header Bar applications **render correctly in all supported window managers, even without compositing enabled** in all shipped themes.
     * The default Ubuntu MATE themes have been **refined to minimise differences between GTK3 and GTK2**.
-    * **Deeper Compiz integration**, `gtk-window-manager` nows sources settings directly from MATE when Compiz is running in a MATE session.
+    * **Deeper Compiz integration**, `gtk-window-manager` now sources settings directly from MATE when Compiz is running in a MATE session.
   * Supports **Raspberry Pi 2 and Raspberry Pi 3**
     * Including the Raspberry Pi 3 integrated Bluetooth and WiFi. Also includes **Raspberry Pi accelerated versions of VLC, ffmpeg and Kodi**.
     * Option to enable **experimental hardware accelerated OpenGL rendering**.
   * **MATE Tweak capabilities have been extended**.
     * Option to enable **Keyboard LED to show a Caps Lock and Num Lock status indicator** for modern laptops and wireless keyboards that no longer have built-in status LEDs.
     * **Added Compton GPU accelerated compositing**, as an alternative to Compiz, for those seeking **tear free video playback**.
-    * Displays a **confirmation after changing compositor** to either Compton or Compiz.
+    * Displays a **confirmation after changing the compositor** to either Compton or Compiz.
   * Added **MATE Dock Applet** developed by [Robin Thompson](https://github.com/robint99).
     * A **configurable dock applet that can be placed on any panel, in any orientation**.
   * Added **Topmenu Applet** developed by [Javier S. Pedro](https://javispedro.com/me.html)
@@ -98,7 +98,7 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
   * **Vastly expanded language support**, the full rationale on how we choose the languages and what we install is available from <https://launchpad.net/bugs/1520278>.
     * *Including this wider language support has added ~400MB to the size of the .iso images.*
   * Improved support for **braille displays** and a new **indicator for changing accessibility profiles in Ubiquity**.
-  * An assortment of new community contributed background wallpapers, more consistent icons and **icon rendering in menus is optimised**.
+  * Added an assortment of new community contributed background wallpapers, more consistent icons and **icon rendering in menus is optimised**.
   * ...and many other minor improvements and hundreds of bug fixes.
 
 You can access the complete Ubuntu MATE 16.04 release notes from the
