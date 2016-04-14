@@ -30,8 +30,7 @@ microSD card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE
 Welcome**.
 
 **Ubuntu MATE 16.04 has working Bluetooth and Wifi work on the Raspberry
-Pi 3**, but *Ubuntu MATE 15.10 only has working Wifi* for the Raspberry
-Pi 3.
+Pi 3**
 
 **NOTE! There are no predefined user accounts**. The first time you
 boot one of the desktop images it will run through a setup wizard where
@@ -48,15 +47,15 @@ configuration is complete, subsequent boots are much quicker.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in Ubuntu MATE 15.10</p>
-        <a href="/blog/ubuntu-mate-wily-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 16.04</p>
+        <a href="/blog/ubuntu-mate-xenial-beta2/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
 
 ## Download
 
-Pre-built images of Ubuntu MATE 15.10.3 and 16.04 Beta 2 for the
+Pre-built images of Ubuntu MATE 16.04 Beta 2 for the
 Raspberry Pi 2 and Raspberry Pi 3 are available via BitTorrent and
 direct download. If you can spare the bytes, please download via
 BitTorrent and leave the client open after your download is finished,
@@ -66,6 +65,7 @@ recommended for fastest download speeds.*
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
 
+<!--
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
@@ -100,6 +100,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
     </div>
   </div>
 </div>
+-->
 
 <div class="row">
   <div class="col-lg-3">
@@ -138,7 +139,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 
 If you direct download the image please make sure the SHA256 hash matches:
 
-  * Ubuntu MATE 15.10: `49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94`
+<!--  * Ubuntu MATE 15.10: `49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94` -->
   * Ubuntu MATE 16.04: `b803095818c24cd2d81c59f31e27e83d58147dec6ac5169a590f39e3c664855d`
 
 ## Download tip
@@ -279,10 +280,9 @@ partitions to make full use of your microSHDC card capacity. Simply
 click the large **Raspberry PI Information** button on the Welcome
 screen, then the **Resize** button and then restart the Raspberry Pi.
 
-### Ubuntu MATE 15.10
+### The manual menthod
 
-There are no utilities included for automatic file system re-sizing.
-However, it's not hard to do manually. Once booted:
+It's not hard to do manually. Once booted:
 
     sudo fdisk /dev/mmcblk0
 
