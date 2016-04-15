@@ -15,100 +15,41 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
 ## What changed since the Ubuntu MATE 16.04 Beta 2 release?
 
-First of all, I'd like to extend my thanks to:
-
-  * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** and **[Robin Thompson](https://github.com/robint99)** for for their work on Ubuntu MATE Welcome and Software Boutique.
-  * **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making `im-config` and `gnome-language-selector` compatible with Ubuntu MATE.
-  * **[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing MATE integration for Synapse.
-  * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help improving MATE integration in Compiz.
-  * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)**, **[Daniel Holbach](https://launchpad.net/~dholbach)** and **[Artur Rona](https://launchpad.net/~ari-tczew)** for sponsoring package updates for Ubuntu MATE.
-
-Also, thank you to everyone who has been testing Ubuntu MATE 16.04 Beta
-2 and filing bug reports. It has really helped identify lots of little
-issues that we've worked hard to fix.
-
 <div align="center">
-<img src="/gallery/blog/ubuntu-mate-1604-beta2.png" alt="Ubuntu MATE 16.04 Beta 2" />
+<img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
 </div>
 
-### Here is what changed Ubuntu MATE 16.04 Beta 2 since Beta 1.
+### Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2.
 
-  * Added Synapse 0.2.99.2-1
-    * **Synapse now features complete MATE integration**. Synapse is
-    installed but not active by default. It can be enabled
-    using MATE Tweak.
-  * Updated to MATE Tweak 3.5.8
-    * Adds **Enable Launcher** to the *Interface* section which
-    activates/deactives Synapse.
-    * Displays a **confirmation after changing Window Manager** to Compton or Compiz.     
-    * Also fixed [#1548011](https://bugs.launchpad.net/bugs/1548011),
-    [#1549081](https://bugs.launchpad.net/bugs/1549081),
-    [#1557203](https://bugs.launchpad.net/bugs/1557203),
-    [#1558013](https://bugs.launchpad.net/bugs/1558013),
-    [#1549076](https://bugs.launchpad.net/bugs/1549076)
-  * Updated to Compiz 0.9.12.2+16.04.20160318-0ubuntu1
-    * **Improved MATE Compiz integration**, `gtk-window-decorator` will now
-    use settings from Marco when Compiz detects it is running in a MATE
-    session.
-    * Google Chrome and Chromium windows are now considered Compiz
-    windows in fullscreen to avoid tearing.
-    * Refined the Compiz profile for MATE to correct some minor issues.
-    * Update `mate-settings-daemon` to use `xsettings` for **improved xcursor theme support**.
-  * Updated to Plank 0.11
-    * Adds Docklets and also **includes a new theme for Ubuntu MATE**
-    contributed by [Holger Rueckershaeuser](http://holgerrpl.tk/).
-  * Updated to MATE Menu 5.6.9
-    * While searching for an application, the **top match will be launched
-    when Enter is pressed**. [#1552363](https://bugs.launchpad.net/bugs/1552363)
-  * Updated to Ubuntu MATE Welcome 16.04.6
-    * Fix splash screen flicker. [#1549072](https://bugs.launchpad.net/bugs/1549072)
-    * Fix Codec installation. [#1558986](https://bugs.launchpad.net/bugs/1558986)
-    * Fix system information.
-    * Fix subscription updates.
-    * Fix Abobe Flash, Dropbox and RednoteBook installs.
-    * Fix Google Chrome repsoitory, i386 is no longer available.
-    * Fix LibreOffice upgrades.
-    * Add Ardour, ConvertAll, Corebird, FreeCiv, Gajim, GNOME Software,
-    Gpick, Kodi, MuseScore, Nuvola Player, OBS Studio, Pinta,
-    Simple Screen Recorder, Subsurface, SparkleShare, Time Tracker,
-    Vivaldi, Wireshark and Zenmap to Software Boutique.
-    * Add English, Chinese, French, Spanish and German translations.
-  * Updated to Ubuntu MATE Artwork 16.04.5
-    * **Icon rendering in menus is faster** and icon inheritance is fixed.
-    * Corrected rendering of Mozo (menu editor).
-    * **Update buttons and scrollbars** so GTK2 and GTK3 themes are more
-    closely aligned.
-    * **Add resize area and shadows for CSD windows**.
-    * **Add minimal style for CSD windows running without a compositor**.
-    * Add community contributed wallpaper [Blissful Sky](https://ubuntu-mate.community/t/i-made-a-new-wallpaper-blissful-sky/4277) by Jordyn.
-    * Fixes [#1552363](https://bugs.launchpad.net/bugs/1552363),
-    [#1556618](https://bugs.launchpad.net/bugs/1556618),
-    [#1549079](https://bugs.launchpad.net/bugs/1549079),
-    [#1541929](https://bugs.launchpad.net/bugs/1541929),
-    [#1551029](https://bugs.launchpad.net/bugs/1551029),
-    [#1499521](https://bugs.launchpad.net/bugs/1499521),
-    [#1442738](https://bugs.launchpad.net/bugs/1442738),
-    [#1364073](https://bugs.launchpad.net/bugs/1364073)
-  * Updated to Ubuntu MATE Settings 16.04.4
-    * Auto-corrects pre-existing MATE incompatible input methods.
-    * Add modified `mate-panel.desktop`, specific to Ubuntu MATE, to cater
-    for the all supported  compositors and disk encryption strategies.
-    [#1553070](https://bugs.launchpad.net/bugs/1553070)
-    * Add all optical video mime types and enable autoplay.
-    * Updated default settings for new version of Plank.
-    * Correct the GNOME Main Menu entry for `network-config-tool`.
-  * Updated to `mate-dock-applet` 0.70.
-    * Several bug fixes [#1557180](https://bugs.launchpad.net/bugs/1557180),
-    [#1555324](https://bugs.launchpad.net/bugs/1555324),
-    [#1550392](https://bugs.launchpad.net/bugs/1550392),
-    [#1554128](https://bugs.launchpad.net/bugs/1554128),
-  * Updated Ubuntu MATE Ubiquity Slideshow artwork.  
-  * Fixed Python plug-ins for Caja
-    * **Folder Color, Deja Dup Caja, Insync Caja and others now work again**.
-  * Fixed `im-config` and `gnome-language-selector`.
-    *  Ensures a MATE compatible input method is selected by default.
-    [#1550325](https://bugs.launchpad.net/bugs/1550325)
-  * Replaced guvcview with Cheese.
+  * Added `ubuntu-snappy-cli` to the default install.
+  * Updated Ubuntu MATE Welcome to 16.04.8.
+    * Updated translations and assorted bugs fixes. [#1566837](https://bugs.launchpad.net/bugs/1566837)
+    * Updated to install Telegram from a PPA maintained by Martin Wimpress that has fixes Indicator icons.
+  * Update MATE Menu 5.7.1
+    * Fixed the menu being offset from the panel when using Compiz. [#1559371](https://bugs.launchpad.net/bugs/1559371)
+    * Fixed configuring a custom heading colour. [#1560332](https://bugs.launchpad.net/bugs/1560332)
+    - Fixed displaying the Software Boutique as package manager if it is available. [#1568170](https://bugs.launchpad.net/bugs/1568170)
+    - Fixed drawing the menu over existing windows. [#1569563](https://bugs.launchpad.net/bugs/1569563)
+  * Updated MATE Tweak to 3.5.10
+    * Fixed aggressive setting of the xcursor theme. [#1563087](https://bugs.launchpad.net/bugs/1563087)
+    * Fixed `psutil.AccessDenied` crash. [#1562843](https://bugs.launchpad.net/bugs/1562843)
+    * Fixed handling of "unknown" window managers. [#1563037](https://bugs.launchpad.net/bugs/1563037)
+    * Fixed ordering of notebook entries. [#1564957](https://bugs.launchpad.net/bugs/1564957)
+    * Fixed toggling of menu bar features. [#1564959](https://bugs.launchpad.net/bugs/1564959)
+    * Modified composited window managers to use a phase delayed startup. [#1553070](https://bugs.launchpad.net/bugs/1553070)
+  * Updated Caja Dropbox to 1.12.0-3
+    * Fixed the missing tray icon by executing via `dbus-launch` to ensure. [#1559249](https://bugs.launchpad.net/bugs/1559249)
+  * Updated Blueman to 2.0.4-1ubuntu2
+    * Fixed `blueman-applet` crashing on startup. [#1533206](https://bugs.launchpad.net/bugs/1533206)
+  * Updated Ubuntu MATE Artwork to 16.04.6
+    * Assorted bug fixes and refinements 1563971 [#1563971](https://bugs.launchpad.net/bugs/1563971)
+  * Updated to Ubuntu MATE Settings 16.04.5
+    * Modified composited window managers to use a phase delayed startup. [#1553070](https://bugs.launchpad.net/bugs/1553070)
+  * Updated MATE Control Center to 1.12.1.
+    * Fixes configuration of all Windows focus modes. [#1382992](https://bugs.launchpad.net/bugs/1382992)
+  * Updated MATE Session Manager to 1.12.2.
+    * Minor bugs fixes.
+  * Prepared the Ubuntu MATE 16.04 image for the Raspberry Pi 2 and Raspberry Pi 3.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -118,6 +59,86 @@ issues that we've worked hard to fix.
         </p>
     </div>
 </div>
+
+## Thank You!
+
+Thanks to everyone who contributed to Ubuntu MATE 16.04. 
+There are quite a few people who deserve a public *"Thank you!"*.
+
+### Community
+
+A very special *Thank you* to **[Luke 
+Horwell](https://ubuntu-mate.community/users/lah7/)** for taking Ubuntu MATE 
+Welcome to the next level. Ubuntu MATE Welcome and the Software Boutique have 
+become a central part of the Ubuntu MATE experience and it is Luke we need to 
+thank for really making them standout features. Also thanks to **[Robin 
+Thompson](https://github.com/robint99)**, author of MATE Dock Applet, who did 
+the lions share of adding a translation framework to Ubuntu MATE Welcome which 
+is now available in 20 languages.
+
+Thanks to **[Mike Gabriel](https://sunweavers.net/blog/)** the Debian 
+Developer heading up the Debian MATE Packaging team. The vast majority of 
+Ubuntu MATE development actually happens in Debian and we owe a huge debt of 
+gratitude to Mike for his tireless efforts, mentoring and guidance.
+
+Thanks to **[Joe Ressington](http://joeress.com/about)**, **[Isaac 
+Carter](http://twitter.com/stupidcoder)** and **[Albert 
+Hickey](http://plus.google.com/+Winkleink)**, from [The Pi 
+Podcast](http://thepipodcast.com/), for testing Ubuntu MATE 16.04 for the 
+Raspberry Pi 2 and Raspberry Pi 3. You really helped ironout some kinks and 
+improved the release quality for everyone.
+
+Thank you to **[Alexei 
+Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts 
+Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help 
+improving MATE integration in Compiz.
+
+**[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making 
+`im-config` and `gnome-language-selector` compatible with Ubuntu MATE and 
+**[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing 
+MATE integration for Synapse and the new version of Plank.
+
+Thanks you to the follow people for creating the new wallpaper backgrounds for 
+Ubuntu MATE 16.04,
+
+**[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)**, 
+**[Luke Horwell](https://ubuntu-mate.community/t/wallpaper-the-materix/3107)**, 
+**[Rick Lell](https://ubuntu-mate.community/t/wallpaper-ubuntu-mate-greyscaled-wood/3199)**, 
+**[Noe Gonzales](https://ubuntu-mate.community/t/sky-high-wallpaper-photos-licensed-cc-by-sa/3433)**, 
+**[Randall Lewis](https://ubuntu-mate.community/t/wallpaper-solar-systemate-4-flavors-1920x1080/3354)**, 
+**[Sacha](https://ubuntu-mate.community/t/wallpaper-some-parrots-and-an-island/3450)**, 
+**[Aditya Singh](https://ubuntu-mate.community/t/mate-wallpapers/3048)**, 
+**[Ryan Ride](https://ubuntu-mate.community/t/heres-my-first-all-original-wallpaper/597)**, 
+**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-city-chill/2899) again**,
+**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900) yet again** and
+**[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8).
+
+Finally, thanks to everyone who installed the alpha and beta and reported issues,
+provided feedback or donated to Ubuntu MATE. Your feedback has been vital to 
+understanding what improvements people most want to see. We do listen, so keep the
+feedback coming.
+
+### Canonical
+
+In addition to the efforts of the Ubuntu MATE team and the Ubuntu MATE 
+community, we are also extremely grateful for the help and support we've 
+recieved from the following Canonical employees:
+
+  * [Adam Conrad](https://launchpad.net/~adconrad)
+  * [Adam Stokes](https://launchpad.net/~adam-stokes)
+  * [Alan Pope](https://launchpad.net/~popey)
+  * [Colin Watson](https://launchpad.net/~cjwatson)
+  * [Daniel Holbach](https://launchpad.net/~dholbach)
+  * [Didier Roche](https://launchpad.net/~didrocks)
+  * [Iain Lane](https://launchpad.net/~laney)
+  * [Łukasz Zemczak](https://launchpad.net/~sil2100)
+  * [Martin Pitt](https://launchpad.net/~pitti)
+  * [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl)
+  * [Michael Hall](https://launchpad.net/~mhall119)
+  * [Oliver Grawert](https://launchpad.net/~ogra)
+  * [Sebastien Bacher](https://launchpad.net/~seb128)
+  * [Stephen M. Webb](https://launchpad.net/~bregma)
+  * [Timo Jyrinki](https://launchpad.net/~timo-jyrinki)
 
 ## Known Issues
 
@@ -131,14 +152,6 @@ This is our known list of bugs that affect all flavours.
     * [#1447038](https://bugs.launchpad.net/bugs/1447038)
   * Swap partition *may* fail to be created when installing on a disk with existing partitions.
     * [#990744](https://bugs.launchpad.net/bugs/990744)
-
-This is our known list of bugs that affect just Ubuntu MATE and Xubuntu.
-
-  * The Blueman applet may crash on login on computer without Bluetooth
-  or has Bluetooth disabled.
-    * [#1533206](https://bugs.launchpad.net/bugs/1533206)
-
-The issues outlined above will be resolved via updates.
 
 ### PowerPC
 
@@ -156,3 +169,12 @@ been reported. These issues will be addressed in due course.
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Ubuntu MATE 16.04 Press Kit</h1>
+        <p>If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful.</p>
+        <a href="/ubuntu-mate-1604-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
+        </p>
+    </div>
+</div>
