@@ -109,8 +109,8 @@ Ubuntu MATE 16.04,
 **[Sacha](https://ubuntu-mate.community/t/wallpaper-some-parrots-and-an-island/3450)**, 
 **[Aditya Singh](https://ubuntu-mate.community/t/mate-wallpapers/3048)**, 
 **[Ryan Ride](https://ubuntu-mate.community/t/heres-my-first-all-original-wallpaper/597)**, 
-**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-city-chill/2899) again**,
-**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900) yet again** and
+**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-city-chill/2899)** (again),
+**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900)** (yet again) and
 **[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8)**.
 
 Finally, thanks to everyone who installed the alpha and beta and reported issues,
