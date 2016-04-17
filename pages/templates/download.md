@@ -36,8 +36,8 @@ computer at all, and optionally install permanently later.
 <div id="arch-list" hidden>
   <p>Choose your architecture:</p>
   <ul id="arch" class="nav nav-pills" role="tablist">
-    <li id="i386" role="presentation"><a href="#i386" role="tab" data-toggle="tab">32-bit PC/Mac</a></li>
     <li id="amd64" role="presentation"><a href="#amd64" role="tab" data-toggle="tab">64-bit PC/Mac</a></li>
+    <li id="i386" role="presentation"><a href="#i386" role="tab" data-toggle="tab">32-bit PC/Mac</a></li>
     <li id="powerpc" role="presentation"><a href="#powerpc" role="tab" data-toggle="tab">PowerPC/Mac</a></li>
     <li id="armhf" role="presentation"><a href="#armhf" role="tab" data-toggle="tab">Raspberry Pi</a></li>
     <li id="arch-help-tab" role="presentation" style="display:none;"><a href="#arch-help" role="tab" data-toggle="tab"><span class="fa fa-question-circle"></span> Which one?</a></li>
@@ -45,6 +45,18 @@ computer at all, and optionally install permanently later.
 
   <div id="arch-help">
     <br>
+    <div class="col-md-3">
+      <div class="well">
+        <h4>64-bit PC/Mac (amd64)</h4>
+        Ideal for computers with:
+        <ul>
+          <li>More than 3 GB of RAM.</li>
+          <li>64-bit capable Intel and AMD processors</li>
+          <li>UEFI PCs booting in CSM mode.</li>
+          <li>Modern Intel-based Apple Macs</li>
+        </ul>
+      </div>
+    </div>
     <div class="col-md-3">
       <div class="well">
         <h4>32-bit PC/Mac (i386)</h4>
@@ -56,18 +68,6 @@ computer at all, and optionally install permanently later.
           <li>Older Intel-based Apple Macintosh systems.</li>
         </ul>
         <a href=""></a>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="well">
-        <h4>64-bit PC/Mac (amd64)</h4>
-        Ideal for computers with:
-        <ul>
-          <li>More than 3 GB of RAM.</li>
-          <li>64-bit capable Intel and AMD processors</li>
-          <li>UEFI PCs booting in CSM mode.</li>
-          <li>Modern Intel-based Apple Macs</li>
-        </ul>
       </div>
     </div>
     <div class="col-md-3">
