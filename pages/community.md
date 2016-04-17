@@ -67,29 +67,42 @@ Ubuntu MATE is active on the following social networks.
 
 This is where you can get involved with Ubuntu MATE and MATE Desktop development.
 
+### Ubuntu MATE
+
 <div class="row">
-  <div class="col-xs-3">
+  <div class="col-xs-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://launchpad.net/ubuntu-mate/" title="Ubuntu MATE Launchpad"><img class="centered" src="/assets/img/logos/launchpad.png" alt="Ubuntu MATE Launchpad"></a>
-    <p><b>Ubuntu MATE Launchpad</b></p>
+    <a class="social-icon" href="https://launchpad.net/ubuntu-mate/" title="Ubuntu MATE on Launchpad"><img class="centered" src="/assets/img/logos/launchpad.png" alt="Ubuntu MATE Launchpad"></a>
+    <p><b>Launchpad</b></p>
     </div>
   </div>
-  <div class="col-xs-3">
+  <div class="col-xs-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://bitbucket.org/ubuntu-mate" title="Ubuntu MATE Bitbucket"><img class="centered" src="/assets/img/logos/bitbucket.png" alt="Ubuntu MATE Bitbucket"></a>
-    <p><b>Ubuntu MATE Bitbucket</b></p>
+    <a class="social-icon" href="https://bitbucket.org/ubuntu-mate" title="Ubuntu MATE on Bitbucket"><img class="centered" src="/assets/img/logos/bitbucket.png" alt="Ubuntu MATE Bitbucket"></a>
+    <p><b>Bitbucket</b></p>
     </div>
   </div>
-  <div class="col-xs-3">
+  <div class="col-xs-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://github.com/mate-desktop/" title="MATE Desktop GitHub"><img class="centered" src="/assets/img/logos/github.png" alt="MATE Desktop GitHub"></a>
-    <p><b>MATE Desktop GitHub</b></p>
+    <a class="social-icon" href="https://www.transifex.com/ubuntu-mate/public/" title="Ubuntu MATE on Transifex"><img class="centered" src="/assets/img/logos/transifex.jpg" alt="MATE Desktop Transifex"></a>
+    <p><b>Transifex</b></p>
     </div>
   </div>
-  <div class="col-xs-3">
+</div>
+
+### MATE Desktop
+
+<div class="row">
+  <div class="col-xs-6">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://www.transifex.com/projects/p/MATE/" title="MATE Desktop Transifex"><img class="centered" src="/assets/img/logos/transifex.jpg" alt="MATE Desktop Transifex"></a>
-    <p><b>MATE Desktop Transifex</b></p>
+    <a class="social-icon" href="https://github.com/mate-desktop/" title="MATE Desktop on GitHub"><img class="centered" src="/assets/img/logos/github.png" alt="MATE Desktop GitHub"></a>
+    <p><b>GitHub</b></p>
     </div>
-  </div>  
+  </div>
+  <div class="col-xs-6">
+    <div class="well bs-component text-center">
+    <a class="social-icon" href="https://www.transifex.com/projects/p/MATE/" title="MATE Desktop on Transifex"><img class="centered" src="/assets/img/logos/transifex.jpg" alt="MATE Desktop Transifex"></a>
+    <p><b>Transifex</b></p>
+    </div>
+  </div>
 </div>
