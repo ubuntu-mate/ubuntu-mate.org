@@ -22,7 +22,7 @@ improved since the 15.10 release.**
 
 ## Introduction
 
-Ubuntu MATE is an community developed [Ubuntu](http://www.ubuntu.com)
+Ubuntu MATE is a community developed [Ubuntu](http://www.ubuntu.com)
 based operating system that beautifully integrates the [MATE
 Desktop](http://mate-desktop.org) and offers a stable, easy-to-use
 operating system with a configurable desktop environment. Ideal for
