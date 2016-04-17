@@ -74,12 +74,12 @@ to their ARMv7 devices.
 Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons](/sponsors/):
 
 <div class="row">
-  <div class="col-lg-6">
+  <div class="col-xs-6">
     <div class="well bs-component">
     <a href="https://entroware.com"><img class="centered" src="/images/sponsors/entroware.png" alt="Entroware" /></a>
     </div>
   </div>
-  <div class="col-lg-6">
+  <div class="col-xs-6">
     <div class="well bs-component">
     <a href="https://www.first-colo.com/"><img class="centered" src="/images/sponsors/firstcolo.png" alt="First-Colo"/></a>
     </div>
