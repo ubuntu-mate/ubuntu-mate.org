@@ -36,8 +36,8 @@ computer at all, and optionally install permanently later.
 <div id="arch-list" hidden>
   <p>Choose your architecture:</p>
   <ul id="arch" class="nav nav-pills" role="tablist">
-    <li id="i386" role="presentation"><a href="#i386" role="tab" data-toggle="tab">32-bit PC/Mac</a></li>
     <li id="amd64" role="presentation"><a href="#amd64" role="tab" data-toggle="tab">64-bit PC/Mac</a></li>
+    <li id="i386" role="presentation"><a href="#i386" role="tab" data-toggle="tab">32-bit PC/Mac</a></li>
     <li id="powerpc" role="presentation"><a href="#powerpc" role="tab" data-toggle="tab">PowerPC/Mac</a></li>
     <li id="armhf" role="presentation"><a href="#armhf" role="tab" data-toggle="tab">Raspberry Pi</a></li>
     <li id="arch-help-tab" role="presentation" style="display:none;"><a href="#arch-help" role="tab" data-toggle="tab"><span class="fa fa-question-circle"></span> Which one?</a></li>
@@ -45,6 +45,18 @@ computer at all, and optionally install permanently later.
 
   <div id="arch-help">
     <br>
+    <div class="col-md-3">
+      <div class="well">
+        <h4>64-bit PC/Mac (amd64)</h4>
+        Ideal for computers with:
+        <ul>
+          <li>More than 3 GB of RAM.</li>
+          <li>64-bit capable Intel and AMD processors</li>
+          <li>UEFI PCs booting in CSM mode.</li>
+          <li>Modern Intel-based Apple Macs</li>
+        </ul>
+      </div>
+    </div>
     <div class="col-md-3">
       <div class="well">
         <h4>32-bit PC/Mac (i386)</h4>
@@ -56,18 +68,6 @@ computer at all, and optionally install permanently later.
           <li>Older Intel-based Apple Macintosh systems.</li>
         </ul>
         <a href=""></a>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="well">
-        <h4>64-bit PC/Mac (amd64)</h4>
-        Ideal for computers with:
-        <ul>
-          <li>More than 3 GB of RAM.</li>
-          <li>64-bit capable Intel and AMD processors</li>
-          <li>UEFI PCs booting in CSM mode.</li>
-          <li>Modern Intel-based Apple Macs</li>
-        </ul>
       </div>
     </div>
     <div class="col-md-3">
@@ -159,11 +159,11 @@ computer at all, and optionally install permanently later.
         <a class="wily-i386" href="magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-15.10-desktop-i386.iso"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="wily-amd64" href="magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-15.10-desktop-amd64.iso"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="wily-powerpc" href="magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-15.10-desktop-powerpc.iso"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="wily-armhf" href="404"><span class="fa fa-magnet"> Magnet Link</span></a>
+        <a class="wily-armhf" href="magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="xenial-i386" href="magnet:?xt=urn:btih:0dcf40a0bb69496f0b5cc34f82b3dd5f050fbaa6&dn=ubuntu-mate-16.04-beta2-desktop-i386.iso"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="xenial-amd64" href="magnet:?xt=urn:btih:9f37c7735948a466cbe14470d41cb8ddc6b304e6&dn=ubuntu-mate-16.04-beta2-desktop-amd64.iso"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="xenial-powerpc" href="magnet:?xt=urn:btih:8780b3cbda2ebfa80fe099672aaaea83944bf46e&dn=ubuntu-mate-16.04-beta2-desktop-powerpc.iso"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="xenial-armhf" href="404"><span class="fa fa-magnet"> Magnet Link</span></a>
+        <a class="xenial-armhf" href="magnet:?xt=urn:btih:b353e8b493750f247f514a4f2708542768eefa20&dn=ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="version-C-i386" href="version-C-MAGNET-URI-i386"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="version-C-amd64" href="version-C-MAGNET-URI-amd64"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="version-C-powerpc" href="version-C-MAGNET-URI-powerpc"><span class="fa fa-magnet"> Magnet Link</span></a>
@@ -390,6 +390,7 @@ computer at all, and optionally install permanently later.
 </form></div>
 
       </div>
+      <p><b>Powered by: </b> <img src="../assets/img/logos/pp-logo-100px.png"/></p>
       <p>
         To donate more or become an Ubuntu MATE patron
         <a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
@@ -397,30 +398,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr>
-  <div id="mirrors" class="row">
-    <div class="col-xs-3">
-      <div class="text-center">
-        <br>
-        <img src="../assets/img/logos/i18n-small.png" alt="Mirrors and Other Options">
-      </div>
-    </div>
-    <div class="col-xs-9">
-      <h3>Mirrors and Other Options</h3>
-      <p>You might prefer to find a DVD image on a mirror server that is geographically
-      close to you in order to achieve a faster download.</p>
-      <p>
-        <a target="_blank" href="https://launchpad.net/ubuntu/+cdmirrors">
-          <span class="fa fa-globe"></span> List Official Mirrors
-        </a>
-      </p>
-      <p>
-        <a class="wily" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-        <a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-        <a class="version-C" href="version-C-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
-      </p>
-    </div>
-  </div>
-  <hr id="mirrors-hr">
   <div id="sponsor1" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -460,12 +437,36 @@ computer at all, and optionally install permanently later.
       </p>
     </div>
   </div>
+  <div id="mirrors" class="row">
+    <div class="col-xs-3">
+      <div class="text-center">
+        <br>
+        <img src="../assets/img/logos/i18n-small.png" alt="Mirrors and Other Options">
+      </div>
+    </div>
+    <div class="col-xs-9">
+      <h3>Mirrors and Other Options</h3>
+      <p>You might prefer to find a DVD image on a mirror server that is geographically
+      close to you in order to achieve a faster download.</p>
+      <p>
+        <a target="_blank" href="https://launchpad.net/ubuntu/+cdmirrors">
+          <span class="fa fa-globe"></span> List Official Mirrors
+        </a>
+      </p>
+      <p>
+        <a class="wily" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+        <a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+        <a class="version-C" href="version-C-OTHER" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads</a>
+      </p>
+    </div>
+  </div>
+  <hr id="mirrors-hr">
   <hr>
   <div id="getting-started" class="row">
     <div class="col-xs-3">
       <div class="text-center">
         <br>
-        <img src="../images/merch/hellotux/getting-started.png" alt="Getting Started Resources">
+        <img src="../assets/img/misc/getting-started.png" alt="Getting Started Resources">
       </div>
     </div>
     <div class="col-xs-9">
