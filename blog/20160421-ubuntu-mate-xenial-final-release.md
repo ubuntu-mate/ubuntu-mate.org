@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.04 LTS
 .. slug: ubuntu-mate-xenial-final-release
-.. date: 2016-04-21 02:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,final,LTS,draft
+.. date: 2016-04-14 02:00:00 UTC
+.. tags: Ubuntu,MATE,Xenial,final,LTS
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
 .. type: text
@@ -83,8 +83,8 @@ gratitude to Mike for his tireless efforts, mentoring and guidance.
 
 Thanks to **[Joe Ressington](http://joeress.com/about)**, **[Isaac 
 Carter](http://twitter.com/stupidcoder)** and **[Albert 
-Hickey](http://plus.google.com/+Winkleink)**, from [The Pi 
-Podcast](http://thepipodcast.com/), for testing Ubuntu MATE 16.04 for the 
+Hickey](http://plus.google.com/+Winkleink)**, from **[The Pi 
+Podcast](http://thepipodcast.com/)**, for testing Ubuntu MATE 16.04 for the 
 Raspberry Pi 2 and Raspberry Pi 3. You really helped ironout some kinks and 
 improved the release quality for everyone.
 
@@ -109,9 +109,9 @@ Ubuntu MATE 16.04,
 **[Sacha](https://ubuntu-mate.community/t/wallpaper-some-parrots-and-an-island/3450)**, 
 **[Aditya Singh](https://ubuntu-mate.community/t/mate-wallpapers/3048)**, 
 **[Ryan Ride](https://ubuntu-mate.community/t/heres-my-first-all-original-wallpaper/597)**, 
-**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-city-chill/2899) again**,
-**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900) yet again** and
-**[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8).
+**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-city-chill/2899)** (again),
+**[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900)** (yet again) and
+**[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8)**.
 
 Finally, thanks to everyone who installed the alpha and beta and reported issues,
 provided feedback or donated to Ubuntu MATE. Your feedback has been vital to 
@@ -124,22 +124,24 @@ In addition to the efforts of the Ubuntu MATE team and the Ubuntu MATE
 community, we are also extremely grateful for the help and support we've 
 recieved from the following Canonical employees:
 
-  * [Adam Conrad](https://launchpad.net/~adconrad)
-  * [Adam Stokes](https://launchpad.net/~adam-stokes)
-  * [Alan Pope](https://launchpad.net/~popey)
-  * [Colin Watson](https://launchpad.net/~cjwatson)
-  * [Daniel Holbach](https://launchpad.net/~dholbach)
-  * [Didier Roche](https://launchpad.net/~didrocks)
-  * [Iain Lane](https://launchpad.net/~laney)
-  * [Łukasz Zemczak](https://launchpad.net/~sil2100)
-  * [Martin Pitt](https://launchpad.net/~pitti)
-  * [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl)
-  * [Michael Hall](https://launchpad.net/~mhall119)
-  * [Oliver Grawert](https://launchpad.net/~ogra)
-  * [Sebastien Bacher](https://launchpad.net/~seb128)
-  * [Stephen M. Webb](https://launchpad.net/~bregma)
-  * [Timo Jyrinki](https://launchpad.net/~timo-jyrinki)
-
+  * **[Adam Conrad](https://launchpad.net/~adconrad)**,
+ **[Adam Stokes](https://launchpad.net/~adam-stokes)**,
+ **[Alan Pope](https://launchpad.net/~popey)**,
+ **[Colin Watson](https://launchpad.net/~cjwatson)**,
+ **[Daniel Holbach](https://launchpad.net/~dholbach)**,
+ **[Didier Roche](https://launchpad.net/~didrocks)**,
+ **[Iain Lane](https://launchpad.net/~laney)**,
+ **[Łukasz Zemczak](https://launchpad.net/~sil2100)**,
+ **[Marco Trevisan](https://launchpad.net/~3v1n0)**,
+ **[Martin Pitt](https://launchpad.net/~pitti)**,
+ **[Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl)**,
+ **[Michael Hall](https://launchpad.net/~mhall119)**,
+ **[Oliver Grawert](https://launchpad.net/~ogra)**,
+ **[Sebastien Bacher](https://launchpad.net/~seb128)**,
+ **[Stephen M. Webb](https://launchpad.net/~bregma)**,
+ **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and
+ **[Will Cooke](https://launchpad.net/~willcooke)**.
+  
 ## Known Issues
 
 Here are the known issues.
