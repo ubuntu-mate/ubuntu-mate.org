@@ -107,8 +107,8 @@ computer at all, and optionally install permanently later.
       <p>See what's new and any other important information for this release.</p>
       <div id="LTS" class="alert alert-success LTS-CODENAMES">
         <p>
-          <b>This release has Long Term Support (LTS)</b><br>
-          Recommended if you desire a stable system. Support ends on <b>LTS_END_DATE</b>.
+          <b><span class="fa fa-star"></span> This release has Long Term Support (LTS)</b><br>
+          Recommended if you desire a stable system. Support ends <b>LTS_END_DATE</b>.
         </p>
       </div>
       <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
@@ -168,6 +168,9 @@ computer at all, and optionally install permanently later.
         <a class="version-C-amd64" href="version-C-MAGNET-URI-amd64"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="version-C-powerpc" href="version-C-MAGNET-URI-powerpc"><span class="fa fa-magnet"> Magnet Link</span></a>
         <a class="version-C-armhf" href="version-C-MAGNET-URI-armhf"><span class="fa fa-magnet"> Magnet Link</span></a>
+        <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
+          <span class="fa fa-info-circle"></span>
+        </a>
       </p>
     </div>
   </div>
@@ -259,10 +262,8 @@ computer at all, and optionally install permanently later.
         If everyone who downloaded Ubuntu MATE donated $2.50 it would fund the full-time development
         of Ubuntu MATE and MATE Desktop. Please give us a tip and help both projects flourish!
       </p>
-      <div class="row">
-        PAYPAL-DOWNLOAD-TIPS
-      </div>
-      <p><b>Powered by: </b> <img src="../assets/img/logos/pp-logo-100px.png"/></p>
+      <div class="row">PAYPAL-DOWNLOAD-TIPS</div>
+      <p><b>Powered by </b> <img src="../assets/img/logos/pp-logo-100px.png" height="24px"/></p>
       <p>
         To donate more or become an Ubuntu MATE patron
         <a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
@@ -289,6 +290,7 @@ computer at all, and optionally install permanently later.
       </p>
     </div>
   </div>
+  <br>
   <div id="sponsor2" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -309,6 +311,7 @@ computer at all, and optionally install permanently later.
       </p>
     </div>
   </div>
+  <hr>
   <div id="mirrors" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -333,7 +336,6 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr id="mirrors-hr">
-  <hr>
   <div id="getting-started" class="row">
     <div class="col-xs-3">
       <div class="text-center">
@@ -346,18 +348,18 @@ computer at all, and optionally install permanently later.
       <p>The following resources may be useful to get you up and running.</p>
       <p>
         <ul>
-          <li><a href="../about/#hardware_requirements">System Requirements</a></li>
-          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto">Burning a DVD on Windows, Mac and GNU/Linux</a></li>
-          <li><a href="../how-to-create-bootable-usb-drive">Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
+          <li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> System Requirements</a></li>
+          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
+          <li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
         </ul>
       </p>
       <hr>
-      <h4>Getting Involved</h4>
+      <h3>Getting Involved</h3>
       <p>Stop by to share your experiences, ask questions
       and discuss topics with other users and developers.</p>
       <p><a href="https://ubuntu-mate.community"><span class="fa fa-user"></span> Meet the Community</a></p>
       <hr>
-      <h4>Squishing Bugs</h4>
+      <h3>Squishing Bugs</h3>
       <p>Found a serious issue? Please report them to Launchpad so we can
       get the relevant developers on the job.</p>
       <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
