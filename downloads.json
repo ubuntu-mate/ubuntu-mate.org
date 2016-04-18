@@ -43,8 +43,8 @@
             "version": "16.04",
             "state": "beta-2",
             "type": "beta2-desktop",
-            "lts": false,
-            "lts-end-date": "TBA",
+            "lts": true,
+            "lts-end-date": "in 2019",
             "arch": ["i386","amd64","powerpc","armhf"],
             "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta2/",
             "sha256sum": {
