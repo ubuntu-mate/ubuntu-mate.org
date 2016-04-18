@@ -32,6 +32,12 @@
                 "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",
                 "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"
             },
+            "magnet-uri": {
+                "amd64": "magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-15.10-desktop-amd64.iso",
+                "i386": "magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-15.10-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-15.10-desktop-powerpc.iso",
+                "armhf": "magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz"
+            },
             "show-warning": false,
             "warning-header": "",
             "warning-text": ""
@@ -58,6 +64,12 @@
                 "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz",
                 "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz",
                 "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"
+            },
+            "magnet-uri": {
+                "amd64": "magnet:?xt=urn:btih:9f37c7735948a466cbe14470d41cb8ddc6b304e6&dn=ubuntu-mate-16.04-beta2-desktop-amd64.iso",
+                "i386": "magnet:?xt=urn:btih:0dcf40a0bb69496f0b5cc34f82b3dd5f050fbaa6&dn=ubuntu-mate-16.04-beta2-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:8780b3cbda2ebfa80fe099672aaaea83944bf46e&dn=ubuntu-mate-16.04-beta2-desktop-powerpc.iso",
+                "armhf": "magnet:?xt=urn:btih:b353e8b493750f247f514a4f2708542768eefa20&dn=ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz"
             },
             "show-warning": false,
             "warning-header": "",
