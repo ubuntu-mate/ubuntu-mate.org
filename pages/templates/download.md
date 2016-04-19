@@ -23,31 +23,41 @@ computer at all, and optionally install permanently later.
   </div>
 </noscript>
 
+<style>
+  #arch-list .well {
+    margin: 0;
+    padding: 16px;
+    color: black;
+    cursor: pointer;
+  }
+
+  #arch-list a:hover {
+    text-decoration: none;
+  }
+
+  .well.active {
+    border: 2px solid #9AB270;
+    color: #fff !important;
+    background-color: #87a556 !important;
+  }
+</style>
+
 <div id="release-list">
   <p>Choose a Release:</p>
   <ul id="release" class="nav nav-pills" role="tablist">
-    <li id="version-A" role="presentation"><a href="#version-A" aria-controls="home" role="tab" data-toggle="tab">version-A-FRIENDLY-NAME</a></li>
-    <li id="version-B" role="presentation"><a href="#version-B" aria-controls="profile" role="tab" data-toggle="tab">version-B-FRIENDLY-NAME</a></li>
-    <li id="version-C" role="presentation"><a href="#version-C" aria-controls="home" role="tab" data-toggle="tab">version-C-FRIENDLY-NAME</a></li>
+    <li id="version-A" role="presentation"><a href="#version-A" aria-controls="home" role="tab" data-toggle="tab"><img src="/favicon-16.png"/> version-A-FRIENDLY-NAME</a></li>
+    <li id="version-B" role="presentation"><a href="#version-B" aria-controls="profile" role="tab" data-toggle="tab"><img src="/favicon-16.png"/> version-B-FRIENDLY-NAME</a></li>
+    <li id="version-C" role="presentation"><a href="#version-C" aria-controls="home" role="tab" data-toggle="tab"><img src="/favicon-16.png"/> version-C-FRIENDLY-NAME</a></li>
   </ul>
   <hr>
 </div>
 
-<div id="arch-list" hidden>
-  <p>Choose your architecture:</p>
-  <ul id="arch" class="nav nav-pills" role="tablist">
-    <li id="amd64" role="presentation"><a href="#amd64" role="tab" data-toggle="tab">64-bit PC/Mac</a></li>
-    <li id="i386" role="presentation"><a href="#i386" role="tab" data-toggle="tab">32-bit PC/Mac</a></li>
-    <li id="powerpc" role="presentation"><a href="#powerpc" role="tab" data-toggle="tab">PowerPC/Mac</a></li>
-    <li id="armhf" role="presentation"><a href="#armhf" role="tab" data-toggle="tab">Raspberry Pi</a></li>
-    <li id="arch-help-tab" role="presentation" style="display:none;"><a href="#arch-help" role="tab" data-toggle="tab"><span class="fa fa-question-circle"></span> Which one?</a></li>
-  </ul>
-
-  <div id="arch-help">
-    <br>
-    <div class="col-md-3">
-      <div class="well">
-        <h4>64-bit PC/Mac (amd64)</h4>
+<div id="arch-list" class="row" hidden>
+  <p>Choose your Architecture:</p>
+  <a id="amd64" onclick="selected_amd64()">
+    <div class="col-xs-3 well bs-component">
+      <h3>64-bit</h3>
+      <p>
         Ideal for computers with:
         <ul>
           <li>More than 3 GB of RAM.</li>
@@ -55,11 +65,13 @@ computer at all, and optionally install permanently later.
           <li>UEFI PCs booting in CSM mode.</li>
           <li>Modern Intel-based Apple Macs</li>
         </ul>
-      </div>
+      </p>
     </div>
-    <div class="col-md-3">
-      <div class="well">
-        <h4>32-bit PC/Mac (i386)</h4>
+  </a>
+  <a id="i386" onclick="selected_i386()">
+    <div class="col-xs-3 well bs-component">
+      <h3>32-bit</h3>
+      <p>
         Ideal for computers with:
         <ul>
           <li>Less than 2 GB of RAM.</li>
@@ -67,55 +79,52 @@ computer at all, and optionally install permanently later.
           <li>Ageing PCs with low-RAM resources.</li>
           <li>Older Intel-based Apple Macintosh systems.</li>
         </ul>
-        <a href=""></a>
-      </div>
+      </p>
     </div>
-    <div class="col-md-3">
-      <div class="well">
-        <h4>PowerPC / Mac</h4>
+  </a>
+  <a id="powerpc" onclick="selected_powerpc()">
+    <div class="col-xs-3 well bs-component">
+      <h3>PowerPC</h3>
+      <p>
         Designed for old generation PowerPC-based hardware, like:
         <ul>
           <li>Apple Macintosh G3, G4 and G5</li>
-          <li>iBooks and PowerBooks</li>
+          <li>Apple iBooks and PowerBooks</li>
           <li>IBM OpenPower 7xx Machines</li>
         </ul>
-      </div>
+      </p>
     </div>
-    <div class="col-md-3">
-      <div class="well">
-        <h4>Raspberry Pi (armhf)</h4>
-        Works on models that have the aarch32 (ARMv7) architecture.
+  </a>
+  <a id="armhf" onclick="selected_armhf()">
+    <div class="col-xs-3 well bs-component">
+      <h3>Raspberry Pi</h3>
+      <p>
+        For aarch32 (ARMv7) computers, like:
         <ul>
           <li>Raspberry Pi 2</li>
           <li>Raspberry Pi 3</li>
         </ul>
-      </div>
+      </p>
     </div>
-  </div>
-  <hr>
+  </a>
+</div>
+<hr>
 </div>
 <div id="download-links" class="row" hidden>
   <div id="release-notes" class="row">
     <div class="col-xs-3">
       <div class="text-center">
-        <br>
         <img src="/favicon-144.png" alt="Ubuntu MATE">
       </div>
     </div>
     <div class="col-xs-9">
-      <h3>Release Notes</h3>
+      <h3>Ubuntu MATE <span id="present-version"></span> for <span id="present-arch"></span> systems.</h3>
       <p>See what's new and any other important information for this release.</p>
-      <div id="LTS" class="alert alert-success LTS-CODENAMES">
-        <p>
-          <b><span class="fa fa-star"></span> This release has Long Term Support (LTS)</b><br>
-          Recommended if you desire a stable system. Support ends <b>LTS_END_DATE</b>.
-        </p>
-      </div>
-      <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
-      <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
       <p><a class="version-A" href="version-A-RELEASE-URL"><span class="fa fa-file"></span> Release Announcement</a></p>
       <p><a class="version-B" href="version-B-RELEASE-URL"><span class="fa fa-file"></span> Release Announcement</a></p>
       <p><a class="version-C" href="version-C-RELEASE-URL"><span class="fa fa-file"></span> Release Announcement</a></p>
+      <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
+      <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
       <div id="version-A-WARNING" hidden>
         <h3><b><span class="fa fa-warning"></span> version-A-WARNING-HEADER</b></h3>
         <p>version-A-WARNING-TEXT</p>
@@ -128,13 +137,50 @@ computer at all, and optionally install permanently later.
         <h3><b><span class="fa fa-warning"></span> version-C-WARNING-HEADER</b></h3>
         <p>version-C-WARNING-TEXT</p>
       </div>
+      <div id="LTS" class="alert alert-success LTS-CODENAMES">
+        <p>
+          <b><span class="fa fa-star"></span> This release has Long Term Support (LTS)</b><br>
+          Recommended if you desire a stable system. Support ends <b>LTS_END_DATE</b>.
+        </p>
+      </div>
     </div>
   </div>
   <hr>
+  <div id="getting-started" class="row" hidden>
+    <div class="col-xs-3">
+      <div class="text-center">
+        <br><br><br><br><br>
+        <img src="../assets/img/misc/getting-started.png" alt="Getting Started Resources">
+      </div>
+    </div>
+    <div class="col-xs-9">
+      <h2>Thank you for downloading.</h2>
+      <hr>
+      <h3>Getting Started</h3>
+      <p>The following resources may be useful to help get you up and running.</p>
+      <p>
+        <ul>
+          <li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
+          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
+          <li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> Check your System Requirements</a></li>
+        </ul>
+      </p>
+      <hr>
+      <h3>Get Involved</h3>
+      <p>Stop by to share your experiences, ask questions and discuss topics
+      with other users and developers in our growing community.</p>
+      <p><a href="https://ubuntu-mate.community"><span class="fa fa-user"></span> Meet the Community</a></p>
+      <hr>
+      <h3>Squish the Bugs</h3>
+      <p>Found a serious issue? Please report them to Launchpad so we can
+      get the relevant developers on the job.</p>
+      <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
+    </div>
+  </div>
+  <hr class="getting-started-hr">
   <div id="bittorrent" class="row">
     <div class="col-xs-3">
       <div class="text-center">
-        <br>
         <img src="../assets/img/misc/torrent.png" alt="BitTorrent">
       </div>
     </div>
@@ -142,7 +188,7 @@ computer at all, and optionally install permanently later.
       <h3>Via Torrent</h3>
       <p>If you can spare the bytes, a torrent is the recommended method to download Ubuntu MATE.</p>
       <p>
-        <a class="version-A-i386" href="version-A-TORRENT-URL-i386"><span class="fa fa-download"></span> version-A-TORRENT-NAME-i386</a>
+        <a class="version-A-i386" onclick="thanks()" href="version-A-TORRENT-URL-i386"><span class="fa fa-download"></span> version-A-TORRENT-NAME-i386</a>
         <a class="version-A-amd64" href="version-A-TORRENT-URL-amd64"><span class="fa fa-download"></span> version-A-TORRENT-NAME-amd64</a>
         <a class="version-A-powerpc" href="version-A-TORRENT-URL-powerpc"><span class="fa fa-download"></span> version-A-TORRENT-NAME-powerpc</a>
         <a class="version-A-armhf" href="version-A-TORRENT-URL-armhf"><span class="fa fa-download"></span> version-A-TORRENT-NAME-armhf</a>
@@ -156,18 +202,18 @@ computer at all, and optionally install permanently later.
         <a class="version-C-armhf" href="version-C-TORRENT-URL-armhf"><span class="fa fa-download"></span> version-C-TORRENT-NAME-armhf</a>
       </p>
       <p>
-        <a class="version-A-i386" href="version-A-MAGNET-URI-i386"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-A-amd64" href="version-A-MAGNET-URI-amd64"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-A-powerpc" href="version-A-MAGNET-URI-powerpc"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-A-armhf" href="version-A-MAGNET-URI-armhf"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-B-i386" href="version-B-MAGNET-URI-i386"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-B-amd64" href="version-B-MAGNET-URI-amd64"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-B-powerpc" href="version-B-MAGNET-URI-powerpc"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-B-armhf" href="version-B-MAGNET-URI-armhf"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-C-i386" href="version-C-MAGNET-URI-i386"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-C-amd64" href="version-C-MAGNET-URI-amd64"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-C-powerpc" href="version-C-MAGNET-URI-powerpc"><span class="fa fa-magnet"> Magnet Link</span></a>
-        <a class="version-C-armhf" href="version-C-MAGNET-URI-armhf"><span class="fa fa-magnet"> Magnet Link</span></a>
+        <a class="version-A-i386" href="version-A-MAGNET-URI-i386"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-A-amd64" href="version-A-MAGNET-URI-amd64"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-A-powerpc" href="version-A-MAGNET-URI-powerpc"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-A-armhf" href="version-A-MAGNET-URI-armhf"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-B-i386" href="version-B-MAGNET-URI-i386"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-B-amd64" href="version-B-MAGNET-URI-amd64"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-B-powerpc" href="version-B-MAGNET-URI-powerpc"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-B-armhf" href="version-B-MAGNET-URI-armhf"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-C-i386" href="version-C-MAGNET-URI-i386"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-C-amd64" href="version-C-MAGNET-URI-amd64"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-C-powerpc" href="version-C-MAGNET-URI-powerpc"><span class="fa fa-magnet"></span> Magnet Link</a>
+        <a class="version-C-armhf" href="version-C-MAGNET-URI-armhf"><span class="fa fa-magnet"></span> Magnet Link</a>
         <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
           <span class="fa fa-info-circle"></span>
         </a>
@@ -280,7 +326,7 @@ computer at all, and optionally install permanently later.
     </div>
     <div class="col-xs-9">
       <h3>Purchase DVDs and USBs</h3>
-      <h4>OSDisc.com</h4>
+      <h4><b>OSDisc.com</b></h4>
       <p>OSDisc.com is a leading source for Linux DVDs and USBs. Purchase ready-to-use bootable
       DVDs and memory sticks that come pre-installed with Ubuntu MATE and have persistent storage.</p>
       <p>
@@ -299,7 +345,7 @@ computer at all, and optionally install permanently later.
       </div>
     </div>
     <div class="col-xs-9">
-      <h4>HELLOTUX</h4>
+      <h4><b>HELLOTUX</b></h4>
       <p>HELLOTUX sell an Ubuntu MATE branded 8GB Metallic Unibody USB stick that is just 41 mm
       long and less than 5 mm thick. It’s the perfect flash drive for your key ring, always
       with you. HELLOTUX will also help you to upgrade your flash drive to the next version
@@ -336,40 +382,11 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr id="mirrors-hr">
-  <div id="getting-started" class="row">
-    <div class="col-xs-3">
-      <div class="text-center">
-        <br>
-        <img src="../assets/img/misc/getting-started.png" alt="Getting Started Resources">
-      </div>
-    </div>
-    <div class="col-xs-9">
-      <h3>Useful Resources</h3>
-      <p>The following resources may be useful to get you up and running.</p>
-      <p>
-        <ul>
-          <li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> System Requirements</a></li>
-          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
-          <li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
-        </ul>
-      </p>
-      <hr>
-      <h3>Getting Involved</h3>
-      <p>Stop by to share your experiences, ask questions
-      and discuss topics with other users and developers.</p>
-      <p><a href="https://ubuntu-mate.community"><span class="fa fa-user"></span> Meet the Community</a></p>
-      <hr>
-      <h3>Squishing Bugs</h3>
-      <p>Found a serious issue? Please report them to Launchpad so we can
-      get the relevant developers on the job.</p>
-      <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
-    </div>
-  </div>
   <br>
 </div>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.3.3.6.min"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 
 <script>
@@ -388,11 +405,16 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
 </script>
 
 <script>
+  // # Set variables
   var version = {v1: "version-A", v2: "version-B", v3: "version-C"};
   var arch = {a1: "i386", v2: "amd64", v3: "powerpc", v4: "armhf"};
-  // Set defaults
-  var show_version = "version-A";
-  var show_arch = "i386";
+  //
+  // # Set defaults
+  var show_version = "x";
+  var show_arch = "x";
+  var present_version = "x"
+  var present_arch = "x"
+  //
   function updatePage() {
     var v1, a1, v2, a2;
     for (v1 in version) {
@@ -401,11 +423,16 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
       for (a1 in arch) {
         a2 = arch[a1];
         $('.' + v2 + '-' + a2).hide();
+        $('#' + a2 + ' .well').removeClass('active');
       }
     }
     $('.' + show_version).show();
     $('.' + show_version + '-' + show_arch).show();
+    $('#' + show_arch + ' .well').addClass('active');
+    $('#present-version').html(present_version)
+    $('#present-arch').html(present_arch)
   }
+  //
   function showDownloadLinks() {
     $('#arch-help').slideUp();
     $('#arch-help-tab').fadeIn();
@@ -415,59 +442,68 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
     $('.rpi').hide();
     $('#LTS').hide();
   }
-  function resetPage() {
-    $('#arch-list').slideDown();
-  }
+  //
   // !!! // Hide on page load.
   // V1-Hide
   // V2-Hide
   // V3-Hide
   updatePage();
+  //
   // Selecting a distro version
   $( "#version-A" ).click(function() {
     show_version = "version-A";
-    resetPage();
+    present_version = "version-A-RELEASE";
     updatePage();
+    $('#arch-list').slideDown();
     //version-A-show-LTS
   });
+  //
   $( "#version-B" ).click(function() {
     show_version = "version-B";
-    resetPage();
+    present_version = "version-B-RELEASE";
     updatePage();
+    $('#arch-list').slideDown();
     //version-B-show-LTS
   });
+  //
   $( "#version-C" ).click(function() {
     show_version = "version-C";
-    resetPage();
+    present_version = "version-C-RELEASE";
     updatePage();
+    $('#arch-list').slideDown();
     //version-C-show-LTS
   });
-  $( "#arch-help-tab" ).click(function() {
-    $('#arch-help').slideDown();
-    $('#download-links').slideUp();
-  });
+  //
   // Selecting a architecture
-  $( "#i386" ).click(function() {
+  function selected_i386() {
     show_arch = "i386";
+    present_arch = "i386";
     showDownloadLinks();
     updatePage();
-  });
-  $( "#amd64" ).click(function() {
+  }
+  function selected_amd64() {
     show_arch = "amd64";
+    present_arch = "amd64";
     showDownloadLinks();
     updatePage();
-  });
-  $( "#powerpc" ).click(function() {
+  }
+  function selected_powerpc() {
     show_arch = "powerpc";
+    present_arch = "PowerPC";
     showDownloadLinks();
     updatePage();
-  });
-  $( "#armhf" ).click(function() {
+  }
+  function selected_armhf() {
     show_arch = "armhf";
+    present_arch = "Raspberry Pi 2 and 3";
     showDownloadLinks();
     updatePage();
     $('#mirrors').hide();
     $('#mirrors-hr').hide();
     $('.rpi').show();
-  });
+  }
+  function thanks() {
+    $('#getting-started').slideDown('slow');
+    $('#getting-started-hr').show();
+  }
 </script>
