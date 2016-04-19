@@ -101,3 +101,10 @@ background: rgba(255,255,255,0.5);
   color: #fff;
   text-decoration: none;
 }
+.navbar-default {
+  border-color: #87A556;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #87A556;
+}
