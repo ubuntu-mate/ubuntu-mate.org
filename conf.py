@@ -128,10 +128,10 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about/", "About"),
-	("/blog/", "Blog"),
-	("/community/", "Community"),
-	("/wily/", "Download"),
-	("/team/", "Team"),
+        ("/blog/", "Blog"),
+        ("/community/", "Community"),
+        ("/xenial/", "Download"),
+        ("/team/", "Team"),
         ("/donate/", "Donate"),
         ("https://ubuntu-mate.boutique/", "Shop"),
     ),
@@ -514,9 +514,9 @@ ARCHIVE_FILENAME = "index.html"
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
-("longterm/index.html", "/trusty/index.html"),
-("download/index.html", "/wily/index.html"),
-("utopic/index.html", "/wily/index.html"),
+("longterm/index.html", "/xenial/index.html"),
+("download/index.html", "/xenial/index.html"),
+("utopic/index.html", "/xenial/index.html"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
