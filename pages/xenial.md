@@ -17,7 +17,7 @@ need at least 512MB of RAM to install from this image.
     <div class="jumbotron">
         <h1>Release announcement</h1>
         <p>Find out what changed in Ubuntu MATE 16.04</p>
-        <a href="/blog/ubuntu-mate-xenial-beta2/" class="btn btn-primary btn-lg">Release announcement</a>
+        <a href="/blog/ubuntu-mate-xenial-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
@@ -34,26 +34,26 @@ Ubuntu MATE is currently available for four architectures:
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-i386.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 32-bit PC Download" title="Ubuntu MATE 16.04 32-bit Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 Torrent</p><p><b>32-bit</b> (i386)</p>
+      <p>Ubuntu MATE 16.04 Torrent</p><p><b>32-bit</b> (i386)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-amd64.iso.torrent">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 Torrent</p><p><b>64-bit</b> (amd64)</p>
+      <p>Ubuntu MATE 16.04 Torrent</p><p><b>64-bit</b> (amd64)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-powerpc.iso.torrent">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 Torrent</p><p><b>PowerPC-based Macs and IBM-PPC</b></p>
+      <p>Ubuntu MATE 16.04 Torrent</p><p><b>PowerPC-based Macs and IBM-PPC</b></p>
     </div>
   </div>
 </div>
@@ -162,32 +162,32 @@ also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-i386.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 32-bit PC Download" title="Ubuntu MATE 16.04 32-bit Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2</p><p><b>32-bit</b> (i386)</p>
+      <p>Ubuntu MATE 16.04</p><p><b>32-bit</b> (i386)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-amd64.iso">
+        <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso">
           <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 16.04 64-bit Download" />
         </a>
-      <p>Ubuntu MATE 16.04 Beta 2</p><p><b>64-bit</b> (amd64)</p>
+      <p>Ubuntu MATE 16.04</p><p><b>64-bit</b> (amd64)</p>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-powerpc.iso">
+      <a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso">
         <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" title="Ubuntu MATE 16.04 PowerPC-based Macs and IBM-PPC (POWER5) Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2</p><p><b>PowerPC-based Macs and IBM-PPC (POWER5)</b></p>
+      <p>Ubuntu MATE 16.04</p><p><b>PowerPC-based Macs and IBM-PPC (POWER5)</b></p>
     </div>
   </div>
 </div>
 
 If you direct download the .iso image please make sure the [appropriate
-MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/MD5SUMS) matches.
+MD5 hash](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/MD5SUMS) matches.
 
 <!--
 ### Purchase DVDs and USBs
@@ -239,9 +239,9 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
 (from the [gddrescue](apt://gddrescue) package, for example:
 
     sudo apt-get install gddrescue
-    sudo ddrescue -D --force ubuntu-mate-16.04-beta2-desktop-i386.iso /dev/sdx
-    sudo ddrescue -D --force ubuntu-mate-16.04-beta2-desktop-amd64.iso /dev/sdx
-    sudo ddrescue -D --force ubuntu-mate-16.04-beta2-desktop-powerpc.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-16.04-desktop-i386.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-16.04-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-16.04-desktop-powerpc.iso /dev/sdx
 
 The drive may be mounted on any `/dev/sdX` so use the command `lsblk` to
 check.

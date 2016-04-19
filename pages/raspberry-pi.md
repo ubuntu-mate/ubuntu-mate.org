@@ -48,19 +48,19 @@ configuration is complete, subsequent boots are much quicker.
     <div class="jumbotron">
         <h1>Release announcement</h1>
         <p>Find out what changed in Ubuntu MATE 16.04</p>
-        <a href="/blog/ubuntu-mate-xenial-beta2/" class="btn btn-primary btn-lg">Release announcement</a>
+        <a href="/blog/ubuntu-mate-xenial-final-release/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
 
 ## Download
 
-Pre-built images of Ubuntu MATE 16.04 Beta 2 for the
-Raspberry Pi 2 and Raspberry Pi 3 are available via BitTorrent and
-direct download. If you can spare the bytes, please download via
-BitTorrent and leave the client open after your download is finished,
-so you can seed it back to others. *A web-seed capable client is
-recommended for fastest download speeds.*
+Pre-built images of Ubuntu MATE 16.04 for the Raspberry Pi 2 and
+Raspberry Pi 3 are available via BitTorrent and direct download. If you
+can spare the bytes, please download via BitTorrent and leave the
+client open after your download is finished, so you can seed it back to
+others. *A web-seed capable client is recommended for fastest download
+speeds.*
 
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
@@ -105,34 +105,34 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Torrent" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Torrent" />
+      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent">
+        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Torrent" title="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Torrent" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 via BitTorrent</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+      <p>Ubuntu MATE 16.04 via BitTorrent</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz">
-        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Download" />
+      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz">
+        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 from European CDN</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+      <p>Ubuntu MATE 16.04 from European CDN</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz">
-        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Download" />
+      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz">
+        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+      <p>Ubuntu MATE 16.04 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz">
-        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Beta 2 Raspberry Pi 2 and 3 Download" />
+      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz">
+        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 16.04 Raspberry Pi 2 and 3 Download" />
       </a>
-      <p>Ubuntu MATE 16.04 Beta 2 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+      <p>Ubuntu MATE 16.04 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
     </div>
   </div>
 </div>
@@ -348,6 +348,12 @@ BitBucket.
   * [Spindle](https://github.com/RPi-Distro/spindle) - a tool to help spin distribution images
 
 ## Changes
+
+### 2016-04-21 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
+
+  * Added OpemMAX IL hardware accelerated video playback to VLC.
+  * Added MMAL hardware accelerated video playback to ffmpeg.
+  * Removed tboplayer.
 
 ### 2016-04-05 - 16.04 beta 2 for Raspbery Pi 2 and Raspberry Pi 3
 
