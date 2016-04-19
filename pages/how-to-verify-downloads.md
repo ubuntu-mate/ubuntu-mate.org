@@ -37,7 +37,7 @@ command line utility.
 
 3. Compare the hash with the one provided on the [Download](/download/) page.
 
-![](/gallery/quick-help-screenshots/sha256-ubuntu-2.png "Results from the hash")
+    ![](/gallery/quick-help-screenshots/sha256-ubuntu-2.png "Results from the hash")
 
 
 -----------
