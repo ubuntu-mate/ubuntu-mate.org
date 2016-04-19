@@ -1,25 +1,14 @@
 {
     "global": {
-        "ca": "Canadian mirror",
         "canonical-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso",
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
-        "eu": "European CDN",
-        "fr": "French mirror",
-        "rpi_servers": [
-            "eu",
-            "ca",
-            "fr"
-        ]
+        "name-ca": "Canadian Mirror",
+        "name-eu": "European CDN",
+        "name-fr": "French Mirror"
     },
     "release": {
         "A": {
-            "arch": [
-                "i386",
-                "amd64",
-                "powerpc",
-                "armhf"
-            ],
             "codename": "wily",
             "lts": false,
             "lts-end-date": "",
@@ -52,12 +41,6 @@
             "warning-text": ""
         },
         "B": {
-            "arch": [
-                "i386",
-                "amd64",
-                "powerpc",
-                "armhf"
-            ],
             "codename": "xenial",
             "lts": true,
             "lts-end-date": "in 2019",
@@ -88,9 +71,6 @@
             "visible": true,
             "warning-header": "",
             "warning-text": ""
-        },
-        "C": {
-            "visible": false
         }
     }
 }
