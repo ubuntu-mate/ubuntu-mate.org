@@ -94,7 +94,7 @@ If you want to make a microSDHC using Windows we recommend:
 You can use Ubuntu MATE Welcome to resize to automatically resize the
 partitions to make full use of your microSHDC card capacity. Simply
 click the large **Raspberry Pi Information** button on the Welcome
-screen, clicking the **Resize** button and then restarting the Raspberry Pi.
+screen, click the **Resize** button and then restart the Raspberry Pi.
 
 ### Manual Method
 

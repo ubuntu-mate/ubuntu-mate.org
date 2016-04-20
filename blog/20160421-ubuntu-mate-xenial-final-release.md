@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.04 LTS
 .. slug: ubuntu-mate-xenial-final-release
-.. date: 2016-04-14 02:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,final,LTS
+.. date: 2016-04-21 20:00:00 UTC
+.. tags: Ubuntu,MATE,Xenial,final,LTS,draft
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
 .. type: text
@@ -22,9 +22,11 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 ### Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2.
 
   * Added `ubuntu-snappy-cli` to the default install.
-  * Updated Ubuntu MATE Welcome to 16.04.8.
+  * Updated Ubuntu MATE Welcome to 16.04.9.
     * Updated translations and assorted bugs fixes. [#1566837](https://bugs.launchpad.net/bugs/1566837)
     * Updated to install Telegram from a PPA maintained by Martin Wimpress that has fixes Indicator icons.
+    * Updated Vivaldi to the stable release.
+    * Improved partition resizing for the Raspberry Pi.
   * Update MATE Menu 5.7.1
     * Fixed the menu being offset from the panel when using Compiz. [#1559371](https://bugs.launchpad.net/bugs/1559371)
     * Fixed configuring a custom heading colour. [#1560332](https://bugs.launchpad.net/bugs/1560332)
@@ -67,41 +69,43 @@ There are quite a few people who deserve a public *"Thank you!"*.
 
 ### Community
 
-A very special *Thank you* to **[Luke 
-Horwell](https://ubuntu-mate.community/users/lah7/)** for taking Ubuntu MATE 
-Welcome to the next level. Ubuntu MATE Welcome and the Software Boutique have 
-become a central part of the Ubuntu MATE experience and it is Luke we need to 
-thank for really making them standout features. Also thanks to **[Robin 
-Thompson](https://github.com/robint99)**, author of MATE Dock Applet, who did 
-the lions share of adding a translation framework to Ubuntu MATE Welcome which 
-is now available in 20 languages.
+A very special *Thank you* to **[Luke
+Horwell](https://ubuntu-mate.community/users/lah7/)** for taking Ubuntu
+MATE Welcome to the next level. Ubuntu MATE Welcome and the Software
+Boutique have become a central part of the Ubuntu MATE experience and
+it is Luke we need to thank for really making them standout features.
+Also thanks to **[Robin Thompson](https://github.com/robint99)**,
+author of MATE Dock Applet, who did the lions share of adding a
+translation framework to Ubuntu MATE Welcome which is now available in
+20 languages.
 
-Thanks to **[Mike Gabriel](https://sunweavers.net/blog/)** the Debian 
-Developer heading up the Debian MATE Packaging team. The vast majority of 
-Ubuntu MATE development actually happens in Debian and we owe a huge debt of 
-gratitude to Mike for his tireless efforts, mentoring and guidance.
+Thanks to **[Mike Gabriel](https://sunweavers.net/blog/)** the Debian
+Developer heading up the Debian MATE Packaging team. The vast majority
+of Ubuntu MATE development actually happens in Debian and we owe a huge
+debt of gratitude to Mike for his tireless efforts.
 
-Thanks to **[Joe Ressington](http://joeress.com/about)**, **[Isaac 
-Carter](http://twitter.com/stupidcoder)** and **[Albert 
-Hickey](http://plus.google.com/+Winkleink)**, from **[The Pi 
-Podcast](http://thepipodcast.com/)**, for testing Ubuntu MATE 16.04 for the 
-Raspberry Pi 2 and Raspberry Pi 3. You really helped ironout some kinks and 
-improved the release quality for everyone.
+Thanks to **[Joe Ressington](http://joeress.com/about)**, **[Isaac
+Carter](http://twitter.com/stupidcoder)** and **[Albert
+Hickey](http://plus.google.com/+Winkleink)**, from **[The Pi
+Podcast](http://thepipodcast.com/)**, for testing Ubuntu MATE 16.04 for
+the Raspberry Pi 2 and Raspberry Pi 3. You really helped ironout some
+kinks and improved the release quality for everyone.
 
 Thank you to **[Alexei 
 Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts 
 Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help 
 improving MATE integration in Compiz.
 
-**[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making 
-`im-config` and `gnome-language-selector` compatible with Ubuntu MATE and 
-**[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing 
+Thanks **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for
+his help making `im-config` and `gnome-language-selector` compatible
+with Ubuntu MATE and **[Rico
+Tzschichholz](https://launchpad.net/~ricotz)** for his help completing
 MATE integration for Synapse and the new version of Plank.
 
-Thanks you to the follow people for creating the new wallpaper backgrounds for 
-Ubuntu MATE 16.04,
+Thank you to the following people for creating the new wallpaper
+backgrounds for Ubuntu MATE 16.04:
 
-**[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)**, 
+  * **[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)**, 
 **[Luke Horwell](https://ubuntu-mate.community/t/wallpaper-the-materix/3107)**, 
 **[Rick Lell](https://ubuntu-mate.community/t/wallpaper-ubuntu-mate-greyscaled-wood/3199)**, 
 **[Noe Gonzales](https://ubuntu-mate.community/t/sky-high-wallpaper-photos-licensed-cc-by-sa/3433)**, 
@@ -153,16 +157,18 @@ This is our known list of bugs that affect all flavours.
   * Shutdown/Restart of the live session does not work in Virtualbox and VMWare guests.
     * [#1447038](https://bugs.launchpad.net/bugs/1447038)
   * Swap partition *may* fail to be created when installing on a disk with existing partitions.
-    * [#990744](https://bugs.launchpad.net/bugs/990744)
+    * [#1552539](https://bugs.launchpad.net/bugs/1552539)
 
 ### PowerPC
 
+  * No slides are displayed in Ubiquity Slideshow while installing Ubuntu MATE on PowerPC.
+    * [#1561573](https://bugs.launchpad.net/bugs/1561573)	
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
 
-You'll also want to check the Ubuntu MATE bug tracker to see what has already
-been reported. These issues will be addressed in due course.
+You'll also want to check the Ubuntu MATE bug tracker to see what has
+already been reported. These issues will be addressed in due course.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 
