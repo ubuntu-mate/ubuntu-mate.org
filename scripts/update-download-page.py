@@ -183,7 +183,7 @@ class DownloadPageScript(object):
             print('\n-------- ' + distro_version + ' --------')
 
             ## Releases
-            template = '<li id="' + distro_codename + '" role="presentation"><a href="#' + distro_codename + '" role="tab" data-toggle="tab"><img src="/favicon-16.png"/> ' + distro_name + '</a></li>'
+            template = '<li id="' + distro_codename + '" role="presentation"><a href="#' + distro_codename + '" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> ' + distro_name + '</big></a></li>'
             buffer_release_list = buffer_release_list + template + '\n'
 
             ## Release Notes URL

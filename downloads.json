@@ -8,7 +8,7 @@
         "name-fr": "French Mirror"
     },
     "release": {
-        "A": {
+        "1604": {
             "codename": "wily",
             "lts": false,
             "lts-end-date": "",
@@ -40,7 +40,7 @@
             "warning-header": "",
             "warning-text": ""
         },
-        "B": {
+        "1510": {
             "codename": "xenial",
             "lts": true,
             "lts-end-date": "in 2019",

@@ -12,6 +12,7 @@
 ## Download
 Download a copy of the .iso image to try Ubuntu MATE without changing your
 computer at all, and optionally install permanently later.
+<hr>
 
 <noscript>
   <div class="alert alert-danger">
@@ -43,13 +44,13 @@ computer at all, and optionally install permanently later.
 </style>
 
 <div id="release-list">
-  <p>Choose a Release:</p>
+  <p><b>Choose a Release:</b></p>
   <ul id="release" class="nav nav-pills" role="tablist">RELEASE-LIST</ul>
-  <hr>
 </div>
 
 <div id="arch-list" class="row" hidden>
-  <p>Choose your Architecture:</p>
+  <hr>
+  <p><b>Choose your Architecture:</b></p>
   <a id="amd64" onclick="selected_amd64()">
     <div class="col-xs-3 well bs-component">
       <h3>64-bit</h3>
@@ -134,30 +135,6 @@ computer at all, and optionally install permanently later.
       <div class="col-xs-3">
         <div class="text-center">
           <br>
-          <img src="../assets/img/downloads/download-tips.png" alt="Download Tip">
-        </div>
-      </div>
-      <div class="col-xs-9">
-        <br>
-        <h3>Download Tip</h3>
-        <p>
-          <b>A little bit can go a long way.</b> If everyone who downloaded Ubuntu MATE donated $2.50
-          it would fund the full-time development of Ubuntu MATE and MATE Desktop.
-          Please help both projects flourish by showing your support with a tip.
-        </p>
-        <div class="row">PAYPAL-DOWNLOAD-TIPS</div>
-        <p><b>Powered by </b> <img src="../assets/img/logos/pp-logo-100px.png" height="24px"/></p>
-        <p>
-          To donate more or become an Ubuntu MATE patron
-          <a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-3">
-        <div class="text-center">
-          <br>
           <img src="../assets/img/downloads/getting-started.png" alt="Getting Started Resources">
         </div>
       </div>
@@ -172,38 +149,6 @@ computer at all, and optionally install permanently later.
             <li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> Check your System Requirements</a></li>
           </ul>
         </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-3">
-        <div class="text-center">
-          <br>
-          <img src="../assets/img/downloads/community.png" alt="Community">
-        </div>
-      </div>
-      <div class="col-xs-9">
-        <br>
-        <h3>Get Involved</h3>
-        <p>Stop by to share your experiences, ask questions and discuss topics
-        with other users and developers in our growing community.</p>
-        <p><a href="https://ubuntu-mate.community"><span class="fa fa-comments"></span> Meet the Community</a></p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-3">
-        <div class="text-center">
-          <br>
-          <img src="../assets/img/downloads/bugs.png" alt="Bug Tracker">
-        </div>
-      </div>
-      <div class="col-xs-9">
-        <br>
-        <h3>Found a bug?</h3>
-        <p>Please submit your detailed and reproducable bug reports to Launchpad
-        so that the relevant developers can fix them in future updates.</p>
-        <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
       </div>
     </div>
   </div>
@@ -225,6 +170,31 @@ computer at all, and optionally install permanently later.
         MAGNET-LINKS <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
           <span class="fa fa-info-circle"></span>
         </a>
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col-xs-3">
+      <div class="text-center">
+        <br>
+        <img src="../assets/img/downloads/download-tips.png" alt="Download Tip">
+      </div>
+    </div>
+    <div class="col-xs-9">
+      <br>
+      <h3>Download Tip</h3>
+      <p>
+        <b>A little bit can go a long way.</b> If everyone who downloaded Ubuntu MATE donated $2.50
+        it would fund the full-time development of Ubuntu MATE and MATE Desktop.
+        Please help both projects flourish by showing your support with a tip.
+      </p>
+      <div class="row">PAYPAL-DOWNLOAD-TIPS</div>
+      <p><b>Powered by </b> <img src="../assets/img/logos/pp-logo-100px.png" height="24px"/></p>
+      <p>
+        To donate more or become an Ubuntu MATE patron
+        <a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
       </p>
     </div>
   </div>
@@ -332,8 +302,41 @@ computer at all, and optionally install permanently later.
     </div>
   </div>
   <hr id="mirrors-hr">
-  <br>
 </div>
+
+<div class="row">
+  <div class="col-xs-3">
+    <div class="text-center">
+      <br>
+      <img src="../assets/img/downloads/community.png" alt="Community">
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <br>
+    <h3>Get Involved</h3>
+    <p>Stop by to share your experiences, ask questions and discuss topics
+    with other users and developers in our growing community.</p>
+    <p><a href="https://ubuntu-mate.community"><span class="fa fa-comments"></span> Meet the Community</a></p>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+  <div class="col-xs-3">
+    <div class="text-center">
+      <br>
+      <img src="../assets/img/downloads/bugs.png" alt="Bug Tracker">
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <br>
+    <h3>Found a bug?</h3>
+    <p>Please submit your detailed and reproducable bug reports to Launchpad
+    so that the relevant developers can fix them in future updates.</p>
+    <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
+  </div>
+</div>
+<br>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
