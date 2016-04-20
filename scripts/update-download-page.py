@@ -16,249 +16,361 @@ import libtorrent   # Provided by package 'python3-libtorrent'
 import wget         # Provided by package 'python3-wget'
 import subprocess
 
-# Paths from where this script is located
-whereami = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-source_template_path    = whereami + "/../pages/templates/download.md"
-target_destination_path = whereami + "/../pages/download.md"
-downloads_json_path     = whereami + "/../downloads.json"
-temp_files = []
-had_a_fault = False
+#
+# ===== Arguments =====
+#   --update-all         =  Update everything for the page.
+#   --update-page        =  Regenerate the page.
+#   --update-magnet-uri  =  Update the magnet URIs saved to downloads.json.
+#
 
-print('--------------------------------\nDownload Page Markdown Update\n--------------------------------')
+class DownloadPageScript(object):
+    def __init__(self):
+        print('--------------------------------\nDownload Page Markdown Update\n--------------------------------')
 
-# Useful functions used later in the script.
-def download_file(url):
-    url_name = url.split('/')[-1]
-    print('\nDownloading file: ' + url_name)
-    filename = wget.download(url)
-    temp_files.append(filename)
-    return filename
+        # Paths from where this script is located
+        self.whereami = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+        self.source_template_path    = self.whereami + "/../pages/templates/download.md"
+        self.target_destination_path = self.whereami + "/../pages/download.md"
+        self.downloads_json_path     = self.whereami + "/../downloads.json"
+        self.temp_files = []
 
-def clean_up_temp():
-    global temp_files
-    for name in temp_files:
-        os.remove(name)
+        # Consistant Variables
+        self.archs = ['amd64', 'i386', 'powerpc', 'armhf']
 
-def get_download_size(url):
-    url_name = url.split('/')[-1]
-    print('Downloading metadata: ' + url_name)
-    response = str(subprocess.Popen(['wget','--spider', url], stderr=subprocess.PIPE).communicate()[1])
-    response.split('\n')
-    size = int(response.split('Length: ')[1].split(' ')[0])
-    size_MB = size / 1000 / 1000
-    size_GB = size / 1000 / 1000 / 1000
-    if size_GB < 1:
-        return str(round(size_MB)) + ' MB'
-    else:
-        return str(round(size_GB,1)) + ' GB'
+        # Process arguments.
+        if not len(sys.argv) > 1:
+            print("What would you like the script to do?\nIs this production or debugging?")
+            print("See --help or try --update-all.")
 
-def generate_magnet_uri(url):
-    # https://github.com/danfolkes/Magnet2Torrent/issues/6
-    # http://stackoverflow.com/questions/12479570/given-a-torrent-file-how-do-i-generate-a-magnet-link-in-python
+        for arg in sys.argv:
+            if arg == '--update-all':
+                self.read_json()
+                self.update_magnet_uri()
+                self.clean_up_temp()
+                self.save_json()
+                self.manipulate_page()
+                self.generate_paypal_links()
+                self.strip_starting_spaces()
+                self.write_download_page()
+            elif arg == '--update-page':
+                self.read_json()
+                self.manipulate_page()
+                self.generate_paypal_links()
+                self.strip_starting_spaces()
+                self.write_download_page()
+            elif arg == '--update-magnet-uri':
+                self.read_json()
+                self.update_magnet_uri()
+                self.clean_up_temp()
+                self.save_json()
+            elif arg == '--help':
+                print("\nScript for updating the dynamic Ubuntu MATE download page.\n")
+                print("--update-all         =  Update everything for the page.")
+                print("--update-page        =  Regenerate the page.")
+                print("--update-magnet-uri  =  Update the magnet URIs saved to downloads.json.")
 
-    session = libtorrent.session()
-    filename = download_file(url)
-    info = libtorrent.torrent_info(filename)
-    return("magnet:?xt=urn:btih:%s&dn=%s" % (info.info_hash(), info.name()))
+    # Useful functions used later in the script.
+    def download_file(self, url):
+        url_name = url.split('/')[-1]
+        print('\nDownloading file: ' + url_name)
+        filename = wget.download(url)
+        self.temp_files.append(filename)
+        return filename
 
-def do_replace(this, that):
-    global page_buffer
-    page_buffer = page_buffer.replace(this, that)
+    def clean_up_temp(self):
+        for name in self.temp_files:
+            os.remove(name)
 
-
-################################################
-# Read download information.
-print('Reading downloads JSON...')
-try:
-    with open(downloads_json_path) as data_file:
-        downloads = json.load(data_file)
-except e as Exception:
-    print('\nERROR: Invalid JSON!\n' + e + '\n')
-    exit()
-
-print('Reading downloads template...')
-f = open(source_template_path, 'r+')
-page_buffer = f.read()
-
-################################################
-
-print('Manipulating contents...')
-all_releases = sorted(downloads['release'].keys())
-
-for release_id in all_releases:
-    version = 'version-' + release_id
-
-    if not downloads['release'][release_id]['visible']:
-        do_replace('href="#' + version + '"', 'style="display:none"')
-        continue
-
-    distro_codename = downloads['release'][release_id]['codename']
-    distro_version = downloads['release'][release_id]['version']
-    distro_state = downloads['release'][release_id]['state']
-    distro_type = downloads['release'][release_id]['type']
-
-    print('\n-------- ' + distro_version + ' --------')
-
-    # Release Name
-    # --- version-[X]-FRIENDLY-NAME
-    do_replace(version + '-FRIENDLY-NAME', downloads['release'][release_id]['name'])
-
-    # Release Notes URL
-    # --- version-[X]-RELEASE-URL
-    do_replace(version + '-RELEASE-URL', downloads['release'][release_id]['release-notes'])
-
-    # Torrent URL
-    # --- version-[X]-TORRENT-URL-[arch]
-    for arch in downloads['release'][release_id]['arch']:
-        if arch == 'armhf':
-            url = downloads['release'][release_id]['rpi-mirrors']['torrent']
-            do_replace(version + '-TORRENT-URL-' + arch, url)
+    def get_download_size(self, url):
+        url_name = url.split('/')[-1]
+        print('Downloading metadata: ' + url_name)
+        response = str(subprocess.Popen(['wget','--spider', url], stderr=subprocess.PIPE).communicate()[1])
+        response.split('\n')
+        size = int(response.split('Length: ')[1].split(' ')[0])
+        size_MB = size / 1000 / 1000
+        size_GB = size / 1000 / 1000 / 1000
+        if size_GB < 1:
+            return str(round(size_MB)) + ' MB'
         else:
-            url = downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-            do_replace(version + '-TORRENT-URL-' + arch, url)
+            return str(round(size_GB,1)) + ' GB'
 
-        # Link text for torrent
-        # --- version-[X]-TORRENT-NAME-[arch]
-        url_file = url.split('/')[-1]
-        do_replace(version + '-TORRENT-NAME-' + arch, url_file)
+    def generate_magnet_uri(self, url):
+        # https://github.com/danfolkes/Magnet2Torrent/issues/6
+        # http://stackoverflow.com/questions/12479570/given-a-torrent-file-how-do-i-generate-a-magnet-link-in-python
 
-        # Magnet URI for torrent
-        # --- version-[X]-MAGNET-URI-[arch]
+        session = libtorrent.session()
+        filename = self.download_file(url)
+        info = libtorrent.torrent_info(filename)
+        return("magnet:?xt=urn:btih:%s&dn=%s" % (info.info_hash(), info.name()))
+
+    def do_replace(self, this, that):
+        self.page_buffer = self.page_buffer.replace(this, that)
+
+    # Main functions
+    def update_magnet_uri(self):
+        print("Updating Magnet URI...")
+        for release_id in sorted(self.downloads['release'].keys()):
+            if not self.downloads['release'][release_id]['visible']:
+                continue
+            for arch in self.archs:
+                try:
+                    if arch == 'armhf':
+                        url = self.downloads['release'][release_id]['rpi-mirrors']['torrent']
+                    else:
+                        distro_codename = self.downloads['release'][release_id]['codename']
+                        distro_version = self.downloads['release'][release_id]['version']
+                        distro_state = self.downloads['release'][release_id]['state']
+                        distro_type = self.downloads['release'][release_id]['type']
+                        url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                    self.downloads['release'][release_id]['magnet-uri'][arch] = self.generate_magnet_uri(url)
+                except Exception as e:
+                    print(' *** ERROR: Exception: ' + str(e))
+
+    def read_json(self):
+        # Read download information.
+        print('Reading downloads JSON...')
         try:
-            magnet_uri = generate_magnet_uri(url)
-            do_replace(version + '-MAGNET-URI-' + arch, magnet_uri)
+            with open(self.downloads_json_path) as data_file:
+                self.downloads = json.load(data_file)
         except Exception as e:
-            print(' *** ERROR: Exception: ' + str(e))
-            had_a_fault = True
-            do_replace(version + '-MAGNET-URI-' + arch, "404")
+            print('\nERROR: Invalid JSON!\n' + str(e) + '\n')
+            exit()
 
-    # Direct URL
-    # --- version-[X]-DIRECT-URL-[arch]
-    # --- version-[X]-DIRECT-URL-[arch]-[server]  (for Raspberry Pi downloads)
-    #
-    # Link text for direct download
-    # --- version-[X]-DIRECT-NAME-[arch]
-    # --- version-[X]-DIRECT-NAME-[arch]-[server]  (for Raspberry Pi downloads)
-    for arch in downloads['release'][release_id]['arch']:
-        if arch == 'armhf':
-            for server in downloads['global']['rpi_servers']:  # eu, ca, fr...
-                url = downloads['release'][release_id]['rpi-mirrors'][server]
-                do_replace(version + '-DIRECT-URL-' + arch + '-' + server, url)
-                url_file = url.split('/')[-1]
-                do_replace(version + '-DIRECT-NAME-' + arch + '-' + server, '<b>' + downloads['global'][server] + '</b> - ' + url_file )
-            size = get_download_size(url)
-            do_replace(version + '-SIZE-' + arch, size)
+        print('Reading downloads template...')
+        f = open(self.source_template_path, 'r+')
+        self.page_buffer = f.read()
 
-        else:
-            url = downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-            url_file = url.split('/')[-1]
-            do_replace(version + '-DIRECT-URL-' + arch, url)
-            do_replace(version + '-DIRECT-NAME-' + arch, url_file)
-            size = get_download_size(url)
-            do_replace(version + '-SIZE-' + arch, size)
+    def save_json(self):
+        # Write JSON in memory to disk.
+        print("Saving updated downloads JSON...")
+        try:
+            with open(self.downloads_json_path, 'w') as outfile:
+                json.dump(self.downloads, outfile, indent=4, sort_keys=True)
+        except Exception as e:
+            print('\nERROR: Unable to open file for writing!\n' + str(e) + '\n')
+            exit()
 
-    # SHA256 Checksum for ISO
-    # --- version-[X]-SHA256-[arch]
-    for arch in downloads['release'][release_id]['arch']:
-        sha256sum = downloads['release'][release_id]['sha256sum'][arch]
-        do_replace(version + '-SHA256-' + arch, sha256sum)
+    def manipulate_page(self):
+        print('Manipulating contents...')
+        all_releases = sorted(self.downloads['release'].keys())
 
-    # Show alert box about LTS status
-    # "LTS-CODENAMES" => Replace with version that is an LTS. Only one currently supported to be at the moment.
-    # //version-[X]-show-LTS    => Code inject, to show #LTS using jQuery.
-    # LTS_END_DATE               => Replaced with LTS Date.
-    if downloads['release'][release_id]['lts']:
-        do_replace('LTS-CODENAMES', version)
-        do_replace('LTS_END_DATE', downloads['release'][release_id]['lts-end-date'])
-        do_replace('//' + version + '-show-LTS', "$('#LTS').show();")
+        # Prepare the data to append into.
+        buffer_release_list = ""
+        buffer_release_notes = ""
+        buffer_torrent_links = ""
+        buffer_magnet_links = ""
+        buffer_direct_links = ""
+        buffer_direct_eu_links = ""
+        buffer_direct_fr_links = ""
+        buffer_direct_ca_links = ""
+        buffer_download_sizes = ""
+        buffer_checksums = ""
+        buffer_alerts = ""
+        buffer_other_links = ""
+        buffer_javascript = ""
+        buffer_variables = ""
 
-    # Show a danger alert for specific versions, if applicable.
-    # E.g. serve bug, inform of experimental, or reaching end of life.
-    if downloads['release'][release_id]['show-warning']:
-        classes = "alert alert-danger"
-        do_replace('id="' + version + '-WARNING" hidden', 'class="' + version + ' ' + classes + '"')
-        do_replace(version + '-WARNING-HEADER', downloads['release'][release_id]['warning-header'])
-        do_replace(version + '-WARNING-TEXT', downloads['release'][release_id]['warning-text'])
+        # Iterate through the database.
+        for release_id in all_releases:
+            version = 'version-' + release_id
+            distro_name = self.downloads['release'][release_id]['name']
+            distro_codename = self.downloads['release'][release_id]['codename']
+            distro_version = self.downloads['release'][release_id]['version']
+            distro_state = self.downloads['release'][release_id]['state']
+            distro_type = self.downloads['release'][release_id]['type']
+            distro_release_url = self.downloads['release'][release_id]['release-notes']
 
-    # Other Downloads Page
-    # --- version-[X]-OTHER
-    url = downloads['global']['canonical-other-folder'].replace('OSVERSION', distro_version).replace('STATE', distro_state).replace('TYPE', distro_type)
-    do_replace(version + '-OTHER', url)
+            print('\n-------- ' + distro_version + ' --------')
 
-    # Now actually replace version ID with release's codename.
-    # version-A             =>      xenial
-    do_replace(version, distro_codename)
+            ## Releases
+            template = '<li id="' + distro_codename + '" role="presentation"><a href="#' + distro_codename + '" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> ' + distro_name + '</big></a></li>'
+            buffer_release_list = buffer_release_list + template + '\n'
 
-################################################
-print('Generating PayPal Download Tips...')
-# Replaces "PAYPAL-DOWNLOAD-TIPS" on page.
-tip_amounts = ['2.50','5','10','20']
-# Variables = CLASS / AMOUNT / VERSION / ARCH
-form_start = '<div class="CLASS col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\n'
-form_field = '<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$AMOUNT</b></button></fieldset>\n'
-form_input = '<input type="hidden" name="cmd" value="_xclick"> \
- <input type="hidden" name="business" value="6282B4CZGVCB6"> \
- <input type="hidden" name="item_name" value="Ubuntu MATE VERSION ARCH Download Tip"> \
- <input type="hidden" name="no_shipping" value="1"> \
- <input type="hidden" name="no_note" value="1"> \
- <input type="hidden" name="charset" value="UTF-8"> \
- <input type="hidden" name="amount" value="AMOUNT"> \
- <input type="hidden" name="currency_code" value="USD"> \
- <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"> \
-  <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"> \
-  <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">\n'
-form_end = '</form></div>\n'
+            ## Release Notes URL
+            template = '<p><a class="' + distro_codename + '" href="' + distro_release_url + '"><span class="fa fa-file"></span> Release Announcement</a></p>'
+            buffer_release_notes = buffer_release_notes + template + '\n'
 
-paypal_buffer = ''
-for release_id in all_releases:
-    if not downloads['release'][release_id]['visible']:
-        continue
+            ## Torrent URL
+            for arch in self.archs:
+                if arch == 'armhf':
+                    url = self.downloads['release'][release_id]['rpi-mirrors']['torrent']
+                    url_file = url.split('/')[-1]
+                else:
+                    url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                    url_file = url.split('/')[-1]
 
-    for arch in downloads['release'][release_id]['arch']:
-        CLASS = downloads['release'][release_id]['codename'] + '-' + arch
-        VERSION = downloads['release'][release_id]['version']
+                template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
+                buffer_torrent_links = buffer_torrent_links + template + '\n'
 
-        # Rename any arch names:
-        if arch == 'i386':
-            ARCH = 'for 32-bit machines'
-        elif arch == 'amd64':
-            ARCH = 'for 64-bit machines'
-        elif arch == 'powerpc':
-            ARCH = 'for PowerPC'
-        elif arch == 'armhf':
-            ARCH = 'for Raspberry Pi 2 and 3'
-        else:
-            ARCH = arch
+                # Magnet URI for torrent
+                magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
+                template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
+                buffer_magnet_links = buffer_magnet_links + template + '\n'
 
-        def append_paypal(string):
-            global paypal_buffer, CLASS, AMOUNT, VERSION, ARCH
-            string = string.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
-            paypal_buffer = paypal_buffer + string
+            ## Direct URL
+            for arch in self.archs:
+                if arch == 'armhf':
+                    # European Server
+                    url = self.downloads['release'][release_id]['rpi-mirrors']['eu']
+                    url_file = url.split('/')[-1]
+                    template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-eu'] + '</b> - ' + url_file + '</a>'
+                    buffer_direct_eu_links = buffer_direct_eu_links + template + '\n'
 
-        for AMOUNT in tip_amounts:
-            append_paypal(form_start)
-            append_paypal(form_field)
-            append_paypal(form_input)
-            append_paypal(form_end)
+                    # Canada Server
+                    url = self.downloads['release'][release_id]['rpi-mirrors']['ca']
+                    url_file = url.split('/')[-1]
+                    template = '<a class="' + distro_codename + '-' + arch + '"  href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-ca'] + '</b> - ' + url_file + '</a>'
+                    buffer_direct_ca_links = buffer_direct_ca_links + template + '\n'
 
-page_buffer = page_buffer.replace('PAYPAL-DOWNLOAD-TIPS', paypal_buffer)
+                    # French Server
+                    url = self.downloads['release'][release_id]['rpi-mirrors']['fr']
+                    url_file = url.split('/')[-1]
+                    template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-fr'] + '</b> - ' + url_file + '</a>'
+                    buffer_direct_fr_links = buffer_direct_fr_links + template + '\n'
 
+                else:
+                    url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                    url_file = url.split('/')[-1]
+                    template = '<a class="' + distro_codename + '-' + arch + '" href="' + url +'" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
+                    buffer_direct_links = buffer_direct_links + template + '\n'
 
-################################################
+                # Download Size
+                size = self.get_download_size(url)
+                template = '<span class="' + distro_codename + '-' + arch + '">' + size + '</span>'
+                buffer_download_sizes = buffer_download_sizes + template + '\n'
 
-print('Writing new file...')
-os.remove(target_destination_path)
-file = open(target_destination_path, "w")
-for line in page_buffer.split('\n'):
-    file.write(line + '\n')
-file.close()
+            # SHA256 Checksums for ISOs
+            for arch in self.archs:
+                sha256sum = self.downloads['release'][release_id]['sha256sum'][arch]
+                template = '<code class="' + distro_codename + '-' + arch + '">' + sha256sum + '</code>'
+                buffer_checksums = buffer_checksums + template + '\n'
 
-if had_a_fault:
-    print('\n*******************************')
-    print('Some problems occurred while running the script.')
-    print('The page may have broken links for visitors.')
-    print('*******************************\n')
+            # Alert Box for LTS Status
+            if self.downloads['release'][release_id]['lts']:
+                end_date = self.downloads['release'][release_id]['lts-end-date']
+                alert_title = "This release has Long Term Support (LTS)"
+                alert_text  = "Recommended if you desire a stable system. Support ends <b>LTS_END_DATE</b>.".replace('LTS_END_DATE', end_date)
+                template = '<div class="alert alert-success ' + distro_codename + '" hidden>' + \
+                             '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
+                             '<p>' + alert_text + '</p>' + \
+                           '</div>'
+                buffer_alerts = buffer_alerts + template + '\n'
 
-clean_up_temp()
-print('Finished running download page script.')
-exit()
+            # Alert Box for Important Issues  (e.g. serve bug, inform of experimental, or end of life.)
+            if self.downloads['release'][release_id]['show-warning']:
+                warning_title = self.downloads['release'][release_id]['warning-header']
+                warning_text  = self.downloads['release'][release_id]['warning-text']
+                template = '<div class="alert alert-danger ' + distro_codename + '" hidden>' + \
+                             '<p><b><span class="fa fa-warning"></span> ' + warning_title + '</b></p>' + \
+                             '<p>' + warning_text + '</p>' + \
+                           '</div>'
+                buffer_alerts = buffer_alerts + template + '\n'
+
+            # Other Downloads Page
+            url = self.downloads['global']['canonical-other-folder'].replace('OSVERSION', distro_version).replace('STATE', distro_state).replace('TYPE', distro_type)
+            template = '<a class="' + distro_codename + '" href="' + url + '" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for ' + distro_version + '</a>'
+            buffer_other_links = buffer_other_links + template + '\n'
+
+            # JavaScript Functions
+            template = '$( "#' + distro_codename + '" ).click(function() {' + \
+                            'show_version = "' + distro_codename + '";' + \
+                            'present_version = "' + distro_name + '";' + \
+                            'updatePage();' + \
+                            '$(\'#arch-list\').slideDown();' + \
+                        '});'
+            buffer_javascript = buffer_javascript + template + '\n'
+
+        # JavaScript Variables
+        buffer_variables = 'var version = {'
+        for release_id in all_releases:
+            codename = self.downloads['release'][release_id]['codename']
+            buffer_variables = buffer_variables + codename + ': "' + codename + '", '
+        buffer_variables = buffer_variables[:-2] + '};\nvar arch = {'
+        for arch in self.archs:
+            buffer_variables = buffer_variables + arch + ': "' + arch + '", '
+        buffer_variables = buffer_variables[:-2] + '};\n'
+
+        # Now replace place holders on page.
+        self.do_replace('RELEASE-LIST', buffer_release_list)
+        self.do_replace('RELEASE-URL', buffer_release_notes)
+        self.do_replace('TORRENT-LINKS', buffer_torrent_links)
+        self.do_replace('MAGNET-LINKS', buffer_magnet_links)
+        self.do_replace('DIRECT-LINKS', buffer_direct_links)
+        self.do_replace('DIRECT-EU-LINKS', buffer_direct_eu_links)
+        self.do_replace('DIRECT-FR-LINKS', buffer_direct_fr_links)
+        self.do_replace('DIRECT-CA-LINKS', buffer_direct_ca_links)
+        self.do_replace('DOWNLOAD-SIZES', buffer_download_sizes)
+        self.do_replace('CHECKSUMS', buffer_checksums)
+        self.do_replace('ALERT-PLACEHOLDERS', buffer_alerts)
+        self.do_replace('OTHER-DOWNLOAD-LINKS', buffer_other_links)
+        self.do_replace('// JAVASCRIPT-FUNCTIONS', buffer_javascript)
+        self.do_replace('// JAVASCRIPT-VARIABLES', buffer_variables)
+
+    def generate_paypal_links(self):
+        print('Generating PayPal Download Tips...')
+        # Replaces "PAYPAL-DOWNLOAD-TIPS" on page.
+        tip_amounts = ['2.50','5','10','20']
+        # Variables = CLASS / AMOUNT / VERSION / ARCH
+        form_start = '<div class="CLASS col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\n'
+        form_field = '<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$AMOUNT</b></button></fieldset>\n'
+        form_input = '<input type="hidden" name="cmd" value="_xclick"> \
+         <input type="hidden" name="business" value="6282B4CZGVCB6"> \
+         <input type="hidden" name="item_name" value="Ubuntu MATE VERSION ARCH Download Tip"> \
+         <input type="hidden" name="no_shipping" value="1"> \
+         <input type="hidden" name="no_note" value="1"> \
+         <input type="hidden" name="charset" value="UTF-8"> \
+         <input type="hidden" name="amount" value="AMOUNT"> \
+         <input type="hidden" name="currency_code" value="USD"> \
+         <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1"> \
+          <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/"> \
+          <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">\n'
+        form_end = '</form></div>\n'
+
+        paypal_buffer = ''
+        all_releases = sorted(self.downloads['release'].keys())
+        for release_id in all_releases:
+            if not self.downloads['release'][release_id]['visible']:
+                continue
+
+            for arch in self.archs:
+                CLASS = self.downloads['release'][release_id]['codename'] + '-' + arch
+                VERSION = self.downloads['release'][release_id]['version']
+
+                # Rename any arch names:
+                if arch == 'i386':
+                    ARCH = 'i386'
+                elif arch == 'amd64':
+                    ARCH = 'amd64'
+                elif arch == 'powerpc':
+                    ARCH = 'for PowerPC'
+                elif arch == 'armhf':
+                    ARCH = 'for Raspberry Pi 2 and 3'
+                else:
+                    ARCH = arch
+
+                for AMOUNT in tip_amounts:
+                    paypal_buffer = paypal_buffer + form_start.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer = paypal_buffer + form_field.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer = paypal_buffer + form_input.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer = paypal_buffer + form_end.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+
+        self.page_buffer = self.page_buffer.replace('PAYPAL-DOWNLOAD-TIPS', paypal_buffer)
+
+    def strip_starting_spaces(self):
+        print('Stripping whitespace...')
+        page_buffer_original = self.page_buffer
+        page_buffer_new = ""
+        for line in page_buffer_original.split('\n'):
+            page_buffer_new = page_buffer_new + line.lstrip() + '\n'
+        self.page_buffer = page_buffer_new
+
+    def write_download_page(self):
+        print('Writing new download page...')
+        os.remove(self.target_destination_path)
+        file = open(self.target_destination_path, "w")
+        for line in self.page_buffer.split('\n'):
+            file.write(line + '\n')
+        file.close()
+
+if __name__ == "__main__":
+    run = DownloadPageScript()

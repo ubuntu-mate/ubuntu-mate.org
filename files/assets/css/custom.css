@@ -91,13 +91,33 @@ background: rgba(255,255,255,0.5);
 #mate-footer img {
   height: 48px;
   width: 48px;
-  padding: 0px;
   padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 #mate-footer img:hover {
-  background-color: #9AB270
+  background-color: #9AB270;
 }
 #mate-footer a {
   color: #fff;
   text-decoration: none;
+}
+
+/* Improved spacing and colours */
+.navbar-default {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-color: #87A556;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #87A556;
+}
+
+h1.p-name.entry-title {
+  margin-top: 40px;
+}
+
+article {
+  margin-bottom: 16px;
 }

@@ -54,6 +54,4 @@ If you want to make a microSDHC using Windows we recommend:
 
 ### On Mac OS X
 
-See these official instructions provided by Ubuntu:
-
- * http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-mac-osx
+[Official instructions are provided by Ubuntu.](http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-mac-osx)

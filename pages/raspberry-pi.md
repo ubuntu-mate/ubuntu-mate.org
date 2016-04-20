@@ -30,8 +30,7 @@ microSD card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE
 Welcome**.
 
 **Ubuntu MATE 16.04 has working Bluetooth and Wifi work on the Raspberry
-Pi 3**, but *Ubuntu MATE 15.10 only has working Wifi* for the Raspberry
-Pi 3.
+Pi 3**
 
 **NOTE! There are no predefined user accounts**. The first time you
 boot one of the desktop images it will run through a setup wizard where
@@ -94,13 +93,12 @@ If you want to make a microSDHC using Windows we recommend:
 
 You can use Ubuntu MATE Welcome to resize to automatically resize the
 partitions to make full use of your microSHDC card capacity. Simply
-click the large **Raspberry PI Information** button on the Welcome
-screen, then the **Resize** button and then restart the Raspberry Pi.
+click the large **Raspberry Pi Information** button on the Welcome
+screen, click the **Resize** button and then restart the Raspberry Pi.
 
-### Ubuntu MATE 15.10
+### Manual Method
 
-There are no utilities included for automatic file system re-sizing.
-However, it's not hard to do manually. Once booted:
+It's not hard to do manually. Once booted:
 
     sudo fdisk /dev/mmcblk0
 
@@ -167,7 +165,7 @@ BitBucket.
 
 ## Changes
 
-[See what's new and changed.](/raspberry-pi-change-log/)
+    [See what's new and changed.](/raspberry-pi-change-log/)
 
 ## TODO
 

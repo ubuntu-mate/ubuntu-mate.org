@@ -1081,8 +1081,8 @@ INDEX_DISPLAY_POST_COUNT = 5
 # <!-- End of custom search -->
 # """ % SITE_URL
 SEARCH_FORM = """
-<span class="navbar-form navbar-left">
-<input class="form-control col-lg-6" placeholder="Search" type="text" id="tipue_search_input">
+<span class="navbar-form navbar-right">
+<input class="form-control col-md-6 hidden-sm" placeholder="Search" type="text" id="tipue_search_input">
 </span>"""
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
