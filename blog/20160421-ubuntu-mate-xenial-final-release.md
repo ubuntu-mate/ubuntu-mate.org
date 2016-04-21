@@ -11,17 +11,19 @@
 
 # Thank You!
 
-**Ubuntu MATE 16.04 LTS has not just been in development for 6 months. Ubuntu 
-MATE 16.04 LTS has been in development for nearly 2 years. Since the project 
-started in June 2014 this release, this our first official LTS, is what we've 
-been working towards. This was the goal we had firmly in our sights every step 
-of the way.**
-
-**I extend my sincere thanks to everyone who has contributed to Ubuntu MATE over 
-the last 22 months. None of this would have been possible without the 
-countless contributions from the amazing Ubuntu MATE community. I can't thank 
-you all enough for what you've helped create. I only hope this release makes 
-you all proud.**
+> **Ubuntu MATE 16.04 LTS has not just been in development for 6 months. Ubuntu 
+> MATE 16.04 LTS has been in development for nearly 2 years. Since the project 
+> started in June 2014 this release, this our first official LTS, is what we've 
+> been working towards. This was the goal we had firmly in our sights every step 
+> of the way.**
+>
+> **I extend my sincere thanks to everyone who has contributed to Ubuntu MATE over 
+> the last 22 months. None of this would have been possible without the 
+> countless contributions from the amazing Ubuntu MATE community. I can't thank 
+> you all enough for what you've helped create. I only hope this release makes 
+> you all proud.**
+>
+> *Martin Wimpress, Ubuntu MATE Project Leader.*
 
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
