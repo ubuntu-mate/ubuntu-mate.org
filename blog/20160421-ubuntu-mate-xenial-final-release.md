@@ -2,12 +2,16 @@
 .. title: Ubuntu MATE 16.04 LTS
 .. slug: ubuntu-mate-xenial-final-release
 .. date: 2016-04-21 14:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,final,LTS,draft
+.. tags: Ubuntu,MATE,Xenial,final,LTS
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
 .. type: text
 .. author: Martin Wimpress
 -->
+
+<div align="center">
+<img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
+</div>
 
 # Thank You!
 
@@ -25,8 +29,13 @@
 >
 > *Martin Wimpress, Ubuntu MATE Project Leader.*
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Download Ubuntu MATE 16.04</h1>
+        <p>Join the fun and experience a retrospective future.</p>
+        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
+        </p>
+    </div>
 </div>
 
 ## What changed since the Ubuntu MATE 16.04 Beta 2 release?
@@ -67,9 +76,9 @@ Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2:
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
+        <h1>Ubuntu MATE 16.04 summary of changes</h1>
+        <p>If you're interested in a general overview of what change in Ubuntu MATE 16.04, take a look at our press kit.</p>
+        <a href="/ubuntu-mate-1604-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
         </p>
     </div>
 </div>
@@ -187,12 +196,3 @@ already been reported. These issues will be addressed in due course.
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 16.04 Press Kit</h1>
-        <p>If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful.</p>
-        <a href="/ubuntu-mate-1604-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
-        </p>
-    </div>
-</div>
