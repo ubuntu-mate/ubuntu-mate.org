@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.04 LTS
 .. slug: ubuntu-mate-xenial-final-release
-.. date: 2016-04-21 13:00:00 UTC
+.. date: 2016-04-21 14:00:00 UTC
 .. tags: Ubuntu,MATE,Xenial,final,LTS,draft
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
@@ -154,10 +154,10 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
+  * Ubiquity does not prompt to join available WiFi networks.
+    * [#1572793](https://bugs.launchpad.net/bugs/1572793)
   * Shutdown/Restart of the live session does not work in Virtualbox and VMWare guests.
     * [#1447038](https://bugs.launchpad.net/bugs/1447038)
-  * Swap partition *may* fail to be created when installing on a disk with existing partitions.
-    * [#1552539](https://bugs.launchpad.net/bugs/1552539)
 
 ### PowerPC
 
