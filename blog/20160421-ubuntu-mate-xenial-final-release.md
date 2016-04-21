@@ -9,17 +9,27 @@
 .. author: Martin Wimpress
 -->
 
-## What works?
+# Thank You!
 
-People tell us that Ubuntu MATE is stable. You may, or may not, agree.
+**Ubuntu MATE 16.04 LTS has not just been in development for 6 months. Ubuntu 
+MATE 16.04 LTS has been in development for nearly 2 years. Since the project 
+started in June 2014 this release, this our first official LTS, is what we've 
+been working towards. This was the goal we had firmly in our sights every step 
+of the way.**
 
-## What changed since the Ubuntu MATE 16.04 Beta 2 release?
+**I extend my sincere thanks to everyone who has contributed to Ubuntu MATE over 
+the last 22 months. None of this would have been possible without the 
+countless contributions from the amazing Ubuntu MATE community. I can't thank 
+you all enough for what you've helped create. I only hope this release makes 
+you all proud.**
 
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
 </div>
 
-### Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2.
+## What changed since the Ubuntu MATE 16.04 Beta 2 release?
+
+Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2:
 
   * Added `ubuntu-snappy-cli` to the default install.
   * Updated Ubuntu MATE Welcome to 16.04.9.
@@ -62,12 +72,10 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
     </div>
 </div>
 
-## Thank You!
+### Community contributors
 
-Thanks to everyone who contributed to Ubuntu MATE 16.04. 
-There are quite a few people who deserve a public *"Thank you!"*.
-
-### Community
+Here are just a few of the people who contributed to Ubuntu MATE during the 
+16.04 development cycle that deserve a special mention:
 
 A very special *Thank you* to **[Luke
 Horwell](https://ubuntu-mate.community/users/lah7/)** for taking Ubuntu
@@ -117,7 +125,7 @@ backgrounds for Ubuntu MATE 16.04:
 **[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900)** (yet again) and
 **[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8)**.
 
-Finally, thanks to everyone who installed the alpha and beta and reported issues,
+Finally, thanks to everyone who installed the alphas and betas, reported issues,
 provided feedback or donated to Ubuntu MATE. Your feedback has been vital to 
 understanding what improvements people most want to see. We do listen, so keep the
 feedback coming.

@@ -17,6 +17,7 @@
 
   * Added OpemMAX IL hardware accelerated video playback to VLC.
   * Added MMAL hardware accelerated video playback to ffmpeg.
+  * Increased the minimum microSDHC card size to 8GB.
   * Removed tboplayer.
 
 ### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
