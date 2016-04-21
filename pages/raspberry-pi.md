@@ -3,8 +3,8 @@
 .. slug: raspberry-pi
 .. date: 2015-04-21 23:01:09 UTC
 .. tags: Ubuntu,MATE,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,download,armhf,arm64,ARMv7,ARMv8
-.. link: 
-.. description: Ubuntu MATE 16.04 for the Raspberry Pi 2 and Raspbbery Pi 3
+.. link:
+.. description: Ubuntu MATE 16.04 for the Raspberry Pi 2 and Raspbery Pi 3
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -65,43 +65,15 @@ speeds.*
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
 
-<!--
-<div class="row">
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent">
-        <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Torrent" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Torrent" />
-      </a>
-      <p>Ubuntu MATE 15.10.3 via BitTorrent</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Coming soon...</h1>
+        <p>The Ubuntu MATE 16.04 downloads for the Raspberry Pi 2 and Raspberry Pi 3 will be here soon!</p>
+        </p>
     </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.10.1 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
-      </a>
-      <p>Ubuntu MATE 15.10.3 from European CDN</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
-      </a>
-      <p>Ubuntu MATE 15.10.3 from Canadian mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz">
-        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" title="Ubuntu MATE 15.10.3 Raspberry Pi 2 and 3 Download" />
-      </a>
-      <p>Ubuntu MATE 15.10.3 from French mirror</p><p><b>Raspberry Pi 2 and Raspberry Pi 3</b></p>
-    </div>
-  </div>
 </div>
--->
 
+<!--
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
@@ -139,8 +111,9 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 
 If you direct download the image please make sure the SHA256 hash matches:
 
-<!--  * Ubuntu MATE 15.10: `49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94` -->
   * Ubuntu MATE 16.04: `b803095818c24cd2d81c59f31e27e83d58147dec6ac5169a590f39e3c664855d`
+
+-->
 
 ## Download tip
 
@@ -277,10 +250,10 @@ If you want to make a microSDHC using Windows we recommend:
 
 You can use Ubuntu MATE Welcome to resize to automatically resize the
 partitions to make full use of your microSHDC card capacity. Simply
-click the large **Raspberry PI Information** button on the Welcome
-screen, then the **Resize** button and then restart the Raspberry Pi.
+click the large **Raspberry Pi Information** button on the Welcome
+screen, click the **Resize** button and then restart the Raspberry Pi.
 
-### The manual menthod
+### Manual Method
 
 It's not hard to do manually. Once booted:
 
@@ -349,129 +322,7 @@ BitBucket.
 
 ## Changes
 
-### 2016-04-21 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
-
-  * Added OpemMAX IL hardware accelerated video playback to VLC.
-  * Added MMAL hardware accelerated video playback to ffmpeg.
-  * Removed tboplayer.
-
-### 2016-04-05 - 16.04 beta 2 for Raspbery Pi 2 and Raspberry Pi 3
-
-  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
-  * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
-    * Ubuntu MATE 16.04 now supports the on-board Raspberry Pi 3 Bluetooth and Wifi.
-  * Updated to Linux 4.1.19.
-  * Updated to `raspberrypi-firmware` 1.20160315-1.
-  * Updated to `omx-player` 0.3.7~git20160206~cb91001.
-  * Updated to `wiringpi` 2.32.
-  * Updated to `nuscratch` 20160115.
-  * Updated to `sonic-pi` 2.9.0.  
-  * Migrated configuration tweaks to `raspberrypi-general-mods` and `raspberrypi-sys-mods`.
-  * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`
-
-### 2016-02-27 - Ubuntu MATE 15.10.3 for Raspbery Pi 2 and Raspberry Pi 3
-
-  * Added support for Raspberry Pi 3 integrated Wifi.
-  * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated Bluetooth.
-    * Support for the integrated Raspberry Pi 3 Bluetooth is not working but we hope to have an update that addresses this soon.
-
-### 2016-02-26 - Ubuntu MATE 15.10.2 for Raspbery Pi 2 and Raspberry Pi 3 (internal testing build)
-
-  * Added support for Raspberry Pi 3 Model B.
-    * No Raspberry Pi 3 integrated Wifi or Bluetooth support.
-  * Updated to Linux 4.1.18.
-  * Updated all packages to the current version in the Ubuntu 15.10 archive.
-  * Fixed an issue where the SSH host keys were not correctly regenerated on first boot.
-
-### 2015-12-21 - Ubuntu MATE 15.10.1 for Raspbery Pi 2 Update
-
-  * Migrated the build to [Ubuntu Pi Flavour Maker](https://ubuntu-pi-flavour-maker.org) project.
-  * Images are now XZ compressed, to save bandwidth and make them compatible with GNOME Disks.
-  * Added `python-gpiozero` and `python3-gpizero` 1.0.0 as packages.
-  * Updated Scratch to 20151111.
-  * Updated to Linux 4.1.15.
-  * Reverted change to `/boot/config.txt` so audio is not forced to output over HDMI because this introduced more compatibility issues that it solved.
-
-### 2015-10-22 - Ubuntu MATE 15.10 for Raspbery Pi 2 Final Release
-
-  * Added OMXPlayer GUI.
-  * Added YouTube Downloader.
-  * Added `fake-hwclock`.
-  * Added `python-spidev` and `python3-spidev`.
-  * Added `python-codebug-tether` and `python3-codebug-tether`.
-  * Added `python-codebug-i2c-tether` and `python3-codebug-i2c-tether`.
-  * Added file system integrity checking on first boot.
-  * Optimised first run of MATE Menu.
-  * Optimised LibreOffice icons.
-  * Reinstated `oem-config`, which has been patched for the Raspberry Pi 2.
-    * Now includes the Ubuntu MATE slideshow.
-  * Fixed udev rules and groups for accessing `spi`.
-  * Fixed Scratch, it now runs via a `sudo` wrapper.
-    * Simliar to how Raspbian does it except *only* Scratch can be executed with elevated privileges, not everything.
-  * Removed Compiz.
-
-### 2015-10-14 - Ubuntu MATE 15.10 for Raspbery Pi 2 Release Candidate
-
-  * Fixed framebuffer so it now uses 32-bit colour depth.
-  * Added Minecraft Pi Edition 0.1.1-4.
-  * Added Scratch 20150916.
-  * Added Sonic Pi 2.7.0-1.
-  * Added essential Python 2.7.x and Python 3.4.x libraries.
-  * Added `raspi-gpio`.
-  * Added `python-rpi.gpio` and `python3-rpi.gpio`.
-  * Added `python-serial` and `python3-serial`.
-  * Added `python-picamera` and `python3-picamera`.
-  * Added `python-sense-hat` and `python3-sense-hat`.
-  * Added `python-astropi` and `python3-astropi`.
-  * Added `python-pygame` and `python3-pygame`.
-  * Added `udev` rules for `gpio`, `input`, `i2c`, `spi`, `vchiq`.
-  * Added `/usr/local/sbin/adduser.local` hook to automatically add new users to the `adm`, `gpio`, `i2c`, `input`, `spi` and `video` groups.
-  * Added `openssh-server` with first-boot host key regeneration.
-  * Added `graphical` a utility to disable/enable the MATE desktop environment for easily creating a headless *"server"*.
-  * Updated to Linux 4.1.10.
-    * Now using the kernel, firmware and drivers from Raspberry Pi Foundation and includes `rpi-update` to easily update the kernel and firmware.
-  * Updated `/boot/config.txt` so it is now fully documented.
-  * Updated to `raspi-copies-and-fills` (high performance memcpy and memset) 0.5-1.
-  * Updated to `xserver-xorg-video-fbturbo` (an accelerated x.org driver) 0~git.20151007.f9a6ed7.
-  * Updated to `omx-player` 0.3.6~git20150912~d99bd86.
-  * Updated `/boot/config.txt` so when HDMI is connected audio is sent over HDMI by default.
-  * Enabled Plymouth to improve startup and shutdown performance.
-  * Removed `oem-config`.
-
-### 2015-04-22 - Ubuntu MATE 15.04 for Rapsberry Pi 2 Final Release
-
-  * Enabled Ryan Finnie's PPA.
-    * <https://launchpad.net/~fo0bar/+archive/ubuntu/rpi2>
-    * Many thanks to Ryan for adding Vivid as a build target.
-  * Changed from `cfq` to `deadline` I/O scheduler.
-  * Added `xserver-xorg-video-fbturbo` (an accelerated x.org driver) 0~git.20150305.e094e3c-1.15.04.
-    * Limited to hardware-accelerated window moving and scrolling.
-  * Added `raspi-copies-and-fills` (high performance memcpy and memset) 0.4-1.
-  * Added `oem-config` so first boot provides a setup wizard.
-  * Added `rpi2-ubuntu-errata` for facilitating post-release updates/migrations.
-  * Added sym-links to VideoCore utilties in `/opt/vc/` for 3rd party script compatibility.
-  * Added `f2fs` support to the build script.
-    * Pre-built images available for download use `ext4` because `f2fs` file systems can not be resized
-    at present.
-  * Updated to Linux 3.18.0-20.21.
-  * Updated to `flash-kernel` 3.0~rc.4ubuntu54+rpi2.4.
-  * Updated to `omxplayer` 0.3.6~git20150402~74aac37.
-  * Updated to `raspberrypi-firmware-nokernel` 1.20150402.3ea439c-1.
-  * Updated to `raspberrypi-vc` (VideoCore GPU libraries) 1.20150323.7650bcb-1.
-  * Fixed `/etc/network/interfaces` so that the Ethernet device is now configurable via Network Manager.
-  * Removed `openssh-server` until host key regeneration can be integrated.
-
-### 2015-04-22 - Ubuntu MATE 15.04 for Rapsberry Pi 2 Beta 2
-
-  * Enabled `systemd` as the init system.
-  * Added `raspberrypi-vc` (VideoCore GPU libraries) 1.20150301.0de0b20-3.
-  * Added `omxplayer` 0.3.6~git20150217~5337be8.
-  * Added `linux-firmware`.
-  * Added `openssh-server`.
-
-### 2015-03-07
-
-  * Initial Release.
+    [See what's new and changed.](/raspberry-pi-change-log/)
 
 ## TODO
 
