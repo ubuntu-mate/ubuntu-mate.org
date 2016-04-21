@@ -84,15 +84,20 @@ class DownloadPageScript(object):
     def get_download_size(self, url):
         url_name = url.split('/')[-1]
         print('Downloading metadata: ' + url_name)
-        response = str(subprocess.Popen(['wget','--spider', url], stderr=subprocess.PIPE).communicate()[1])
-        response.split('\n')
-        size = int(response.split('Length: ')[1].split(' ')[0])
-        size_MB = size / 1000 / 1000
-        size_GB = size / 1000 / 1000 / 1000
-        if size_GB < 1:
-            return str(round(size_MB)) + ' MB'
-        else:
-            return str(round(size_GB,1)) + ' GB'
+        try:
+            response = str(subprocess.Popen(['wget','--spider', url], stderr=subprocess.PIPE).communicate()[1])
+            response.split('\n')
+            size = int(response.split('Length: ')[1].split(' ')[0])
+            size_MB = size / 1000 / 1000
+            size_GB = size / 1000 / 1000 / 1000
+            if size_GB < 1:
+                return str(round(size_MB)) + ' MB'
+            else:
+                return str(round(size_GB,1)) + ' GB'
+        except:
+            print(' ** Failed to download metadata for: ' + url_name)
+            print(' ** Does this file exist on the server?')
+            return 'Unknown'
 
     def generate_magnet_uri(self, url):
         # https://github.com/danfolkes/Magnet2Torrent/issues/6
