@@ -104,7 +104,7 @@ Here is a run down of the headline features in Ubuntu MATE 16.04:
 You can access the complete Ubuntu MATE 16.04 release notes from the
 URLs below:
 
-<!--  * [Ubuntu MATE 16.04 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release). -->
+  * [Ubuntu MATE 16.04 Final Release](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release).
   * [Ubuntu MATE 16.04 Beta 2](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta2/).
   * [Ubuntu MATE 16.04 Beta 1](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta1/).
   * [Ubuntu MATE 16.04 Alpha 2](https://ubuntu-mate.org/blog/ubuntu-mate-xenial-alpha2/).
