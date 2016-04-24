@@ -255,7 +255,12 @@ class DownloadPageScript(object):
                 end_date = self.downloads['release'][release_id]['lts-end-date']
                 alert_title = "This release has Long Term Support (LTS)"
                 alert_text  = "Recommended if you desire a stable system. Support ends <b>LTS_END_DATE</b>.".replace('LTS_END_DATE', end_date)
-                template = '<div class="alert alert-success ' + distro_codename + '" hidden>' + \
+                template = '<div class="alert alert-success '
+                # Raspberry Pi releases are not long term supported.
+                for arch in self.archs:
+                    if not arch == 'armhf':
+                        template = template + distro_codename + '-' + arch + ' '
+                template = template + '" hidden>' + \
                              '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
                              '<p>' + alert_text + '</p>' + \
                            '</div>'
