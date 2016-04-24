@@ -29,8 +29,8 @@ The file system can be resized to occupy the unallocated space of the
 microSD card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE
 Welcome**.
 
-**Ubuntu MATE 16.04 has working Bluetooth and Wifi work on the Raspberry
-Pi 3**
+**Ubuntu MATE 16.04 has both working Bluetooth and WiFi on the
+Raspberry Pi 3.**
 
 **NOTE! There are no predefined user accounts**. The first time you
 boot one of the desktop images it will run through a setup wizard where
