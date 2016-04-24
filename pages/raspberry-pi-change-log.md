@@ -13,7 +13,7 @@
 
 [Back to Raspberry Pi page](/raspberry-pi/)
 
-### 2016-04-21 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
+### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
 
   * Added OpemMAX IL hardware accelerated video playback to VLC.
   * Added MMAL hardware accelerated video playback to ffmpeg.

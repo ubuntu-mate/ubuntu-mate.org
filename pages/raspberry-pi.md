@@ -65,15 +65,6 @@ speeds.*
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Coming soon...</h1>
-        <p>The Ubuntu MATE 16.04 downloads for the Raspberry Pi 2 and Raspberry Pi 3 will be here soon!</p>
-        </p>
-    </div>
-</div>
-
-<!--
 <div class="row">
   <div class="col-lg-3">
     <div class="well bs-component text-center">
@@ -111,9 +102,7 @@ hosting and bandwidth for the Ubuntu MATE downloads.
 
 If you direct download the image please make sure the SHA256 hash matches:
 
-  * Ubuntu MATE 16.04: `b803095818c24cd2d81c59f31e27e83d58147dec6ac5169a590f39e3c664855d`
-
--->
+  * Ubuntu MATE 16.04: `bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a`
 
 ## Download tip
 
@@ -217,8 +206,8 @@ The image can be directly written to a microSDHC using a utility like
 `dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue), for example:
 
     sudo apt-get install gddrescue xz-utils
-    unxz ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz
-    sudo ddrescue -D --force ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img /dev/sdx
+    unxz ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz
+    sudo ddrescue -D --force ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img /dev/sdx
 
 The microSDHC may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.
@@ -305,11 +294,8 @@ device using `amixer`.
 
 ## Feedback and Improvements
 
-Please post all feedback on the [dedicated community topic](https://ubuntu-mate.community/t/ubuntu-mate-15-10-for-the-raspberry-pi-2/2479).
-If you have any improvements then please submit a pull request to our
-BitBucket.
-
-  * <https://bitbucket.org/ubuntu-mate/ubuntu-mate-rpi2>
+Please post all feedback on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).
+If you have any improvements then please submit a pull request to the [Ubuntu Pi Flavour Maker project](https://ubuntu-pi-flavour-maker.org/).
 
 ## Credits
 
@@ -323,11 +309,6 @@ BitBucket.
 ## Changes
 
     [See what's new and changed.](/raspberry-pi-change-log/)
-
-## TODO
-
-  * Add `raspi-config` or equivilent.
-  * Add automatic reszing of the root file system.
 
 ## Other ARMv7 based devices
 
