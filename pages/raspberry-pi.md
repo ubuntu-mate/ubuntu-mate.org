@@ -165,7 +165,7 @@ BitBucket.
 
 ## Changes
 
-    [See what's new and changed.](/raspberry-pi-change-log/)
+* [See what's new and changed.](/raspberry-pi-change-log/)
 
 ## TODO
 
