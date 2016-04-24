@@ -212,13 +212,13 @@ computer at all, and optionally install permanently later.
       <p>If preferred, you can also download the images over HTTP.</p>
       <p>
         DIRECT-LINKS
-        <img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>
+        <img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>&nbsp;
         DIRECT-EU-LINKS
         <br class="rpi">
-        <img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>
+        <img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>&nbsp;
         DIRECT-CA-LINKS
         <br class="rpi">
-        <img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>
+        <img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>&nbsp;
         DIRECT-FR-LINKS
       </p>
       <p>
