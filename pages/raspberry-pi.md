@@ -13,10 +13,11 @@ Martin Wimpress and Rohith Madhavan have made an Ubuntu MATE image for
 the Raspberry Pi 2 and Raspberry Pi 3 which you can download or build
 yourself.
 
-The image is functional and based on the regular Ubuntu `armhf` base,
-not the new Snappy Core, which means that the installation procedure
-for applications is the same as that for the regular desktop version,
-ie using `apt-get`.
+The image is based on the regular Ubuntu `armhf` base, not the new Snappy 
+Core, which means that the installation procedure for applications is the same 
+as that for the regular desktop version, ie using `apt-get`. However, since 
+Ubuntu MATE 16.04 snap packages can be installed alongside classic deb 
+packages.
 
 We have done what we can to optimise the build for the Raspberry Pi 2 and 
 Raspberry Pi 3, you can comfortably use applications such as LibreOffice, 
