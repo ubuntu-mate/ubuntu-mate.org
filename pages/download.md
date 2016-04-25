@@ -45,7 +45,7 @@ background-color: #87a556 !important;
 
 <div id="release-list">
 <p><b>Choose a Release:</b></p>
-<ul id="release" class="nav nav-pills" role="tablist"><li id="xenial" role="presentation"><a href="#xenial" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.04 LTS Beta 2</big></a></li>
+<ul id="release" class="nav nav-pills" role="tablist"><li id="xenial" role="presentation"><a href="#xenial" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.04 LTS</big></a></li>
 <li id="wily" role="presentation"><a href="#wily" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 15.10</big></a></li>
 </ul>
 </div>
@@ -119,12 +119,12 @@ For aarch32 (ARMv7) computers, like:
 <div class="col-xs-9">
 <h3><span id="present-version"></span> for <span id="present-arch"></span> systems.</h3>
 <p>See what's new and any other important information for this release.</p>
-<p><a class="xenial" href="https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta2/"><span class="fa fa-file"></span> Release Announcement</a></p>
+<p><a class="xenial" href="https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
 <p><a class="wily" href="/blog/ubuntu-mate-wily-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
 
 <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
 <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
-<div class="alert alert-success xenial" hidden><p><b><span class="fa fa-info-circle"></span> This release has Long Term Support (LTS)</b></p><p>Recommended if you desire a stable system. Support ends <b>in 2019</b>.</p></div>
+<div class="alert alert-success xenial-amd64 xenial-i386 xenial-powerpc " hidden><p><b><span class="fa fa-info-circle"></span> This release has Long Term Support (LTS)</b></p><p>Recommended if you desire a stable system. Support ends <b>in 2019</b>.</p></div>
 
 </div>
 </div>
@@ -169,10 +169,10 @@ For aarch32 (ARMv7) computers, like:
 <h3>Via Torrent</h3>
 <p>If you can spare the bytes, a torrent is the recommended method to download Ubuntu MATE.</p>
 <p>
-<a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-amd64.iso.torrent</a>
-<a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-i386.iso.torrent</a>
-<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-powerpc.iso.torrent</a>
-<a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz.torrent</a>
+<a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-amd64.iso.torrent</a>
+<a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-i386.iso.torrent</a>
+<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-powerpc.iso.torrent</a>
+<a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent</a>
 <a class="wily-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-amd64.iso.torrent</a>
 <a class="wily-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-i386.iso.torrent</a>
 <a class="wily-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-powerpc.iso.torrent</a>
@@ -180,10 +180,10 @@ For aarch32 (ARMv7) computers, like:
 
 </p>
 <p>
-<a class="xenial-amd64" href="magnet:?xt=urn:btih:9f37c7735948a466cbe14470d41cb8ddc6b304e6&dn=ubuntu-mate-16.04-beta2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="xenial-i386" href="magnet:?xt=urn:btih:0dcf40a0bb69496f0b5cc34f82b3dd5f050fbaa6&dn=ubuntu-mate-16.04-beta2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="xenial-powerpc" href="magnet:?xt=urn:btih:8780b3cbda2ebfa80fe099672aaaea83944bf46e&dn=ubuntu-mate-16.04-beta2-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="xenial-armhf" href="magnet:?xt=urn:btih:b353e8b493750f247f514a4f2708542768eefa20&dn=ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="xenial-amd64" href="magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="xenial-i386" href="magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="xenial-powerpc" href="magnet:?xt=urn:btih:d64ca895d6778f6d50503d6229f276f101920cb4&dn=ubuntu-mate-16.04-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="xenial-armhf" href="magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="wily-amd64" href="magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-15.10-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="wily-i386" href="magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-15.10-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="wily-powerpc" href="magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-15.10-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
@@ -360,32 +360,32 @@ To donate more or become an Ubuntu MATE patron
 <h3>Via Direct Download</h3>
 <p>If preferred, you can also download the images over HTTP.</p>
 <p>
-<a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-amd64.iso</a>
-<a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-i386.iso</a>
-<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/ubuntu-mate-16.04-beta2-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-beta2-desktop-powerpc.iso</a>
+<a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-amd64.iso</a>
+<a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-i386.iso</a>
+<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-powerpc.iso</a>
 <a class="wily-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-amd64.iso</a>
 <a class="wily-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-i386.iso</a>
 <a class="wily-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-powerpc.iso</a>
 
-<img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>
-<a class="xenial-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz</a>
+<img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>&nbsp;
+<a class="xenial-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
 <a class="wily-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
 
 <br class="rpi">
-<img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>
-<a class="xenial-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz</a>
+<img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>&nbsp;
+<a class="xenial-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
 <a class="wily-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
 
 <br class="rpi">
-<img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>
-<a class="xenial-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz</a>
+<img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>&nbsp;
+<a class="xenial-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
 <a class="wily-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
 
 </p>
 <p>
 <b>Download Size:</b>
-<span class="xenial-amd64">1.7 GB</span>
-<span class="xenial-i386">1.7 GB</span>
+<span class="xenial-amd64">1.6 GB</span>
+<span class="xenial-i386">1.6 GB</span>
 <span class="xenial-powerpc">1.7 GB</span>
 <span class="xenial-armhf">1.1 GB</span>
 <span class="wily-amd64">1.2 GB</span>
@@ -396,10 +396,10 @@ To donate more or become an Ubuntu MATE patron
 </p>
 <p>
 <b>SHA256 Checksum:</b>
-<code class="xenial-amd64">cd5bd41953d2545efc62ffe52d764070a6d390e4826e60fbe30a8a7e92d52c01</code>
-<code class="xenial-i386">8bce1ac40b5d9482b629302234f52ec6e43e2dbc42b1dfa9c6c5f7e23836a8ef</code>
-<code class="xenial-powerpc">958f4dd0b67c87e736747f45188517f20872856487d4e32bcd164e982476df1e</code>
-<code class="xenial-armhf">b803095818c24cd2d81c59f31e27e83d58147dec6ac5169a590f39e3c664855d</code>
+<code class="xenial-amd64">ec19ba1280e5a05b78a863f3844864a8b0a3b4336028bcfbf143ad4fda44f2c3</code>
+<code class="xenial-i386">549bdf46fb959f0374e5e3de6b85b350226d930f50decba7c4aad64804a8e750</code>
+<code class="xenial-powerpc">a2c24cd68f2cbaf320f048cd3e3b22eddc0b721fdfde8defe626d92a313cebca</code>
+<code class="xenial-armhf">bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a</code>
 <code class="wily-amd64">caf12e840f33eae535332b98d4491ce3f36e2c32cb4196a2e08209f39d626dec</code>
 <code class="wily-i386">6a5f118dff0539779693a9d0560a503e3e90a7352099a86bf84afcca3c342f95</code>
 <code class="wily-powerpc">56fa37086e950a3055e638fdef2fb58de78b45c917bc7adb7e577c602e324463</code>
@@ -475,7 +475,7 @@ close to you in order to achieve a faster download.</p>
 <span class="fa fa-globe"></span> List Official Mirrors
 </a>
 </p>
-<p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.04</a>
+<p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.04</a>
 <a class="wily" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 15.10</a>
 </p>
 </div>
@@ -582,7 +582,7 @@ $('#getting-started-hr').show();
 }
 
 // Selecting a distro version
-$( "#xenial" ).click(function() {show_version = "xenial";present_version = "Ubuntu MATE 16.04 LTS Beta 2";updatePage();$('#arch-list').slideDown();});
+$( "#xenial" ).click(function() {show_version = "xenial";present_version = "Ubuntu MATE 16.04 LTS";updatePage();$('#arch-list').slideDown();});
 $( "#wily" ).click(function() {show_version = "wily";present_version = "Ubuntu MATE 15.10";updatePage();$('#arch-list').slideDown();});
 
 

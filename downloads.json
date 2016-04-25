@@ -8,7 +8,39 @@
         "name-fr": "French Mirror"
     },
     "release": {
-        "1604": {
+        "1": {
+            "codename": "xenial",
+            "lts": true,
+            "lts-end-date": "in 2019",
+            "magnet-uri": {
+                "amd64": "magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso",
+                "armhf": "magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
+                "i386": "magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:d64ca895d6778f6d50503d6229f276f101920cb4&dn=ubuntu-mate-16.04-desktop-powerpc.iso"
+            },
+            "name": "Ubuntu MATE 16.04 LTS",
+            "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/",
+            "rpi-mirrors": {
+                "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
+                "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
+                "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
+                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent"
+            },
+            "sha256sum": {
+                "amd64": "ec19ba1280e5a05b78a863f3844864a8b0a3b4336028bcfbf143ad4fda44f2c3",
+                "armhf": "bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a",
+                "i386": "549bdf46fb959f0374e5e3de6b85b350226d930f50decba7c4aad64804a8e750",
+                "powerpc": "a2c24cd68f2cbaf320f048cd3e3b22eddc0b721fdfde8defe626d92a313cebca"
+            },
+            "show-warning": false,
+            "state": "release",
+            "type": "desktop",
+            "version": "16.04",
+            "visible": true,
+            "warning-header": "",
+            "warning-text": ""
+        },
+        "2": {
             "codename": "wily",
             "lts": false,
             "lts-end-date": "",
@@ -36,38 +68,6 @@
             "state": "release",
             "type": "desktop",
             "version": "15.10",
-            "visible": true,
-            "warning-header": "",
-            "warning-text": ""
-        },
-        "1510": {
-            "codename": "xenial",
-            "lts": true,
-            "lts-end-date": "in 2019",
-            "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:9f37c7735948a466cbe14470d41cb8ddc6b304e6&dn=ubuntu-mate-16.04-beta2-desktop-amd64.iso",
-                "armhf": "magnet:?xt=urn:btih:b353e8b493750f247f514a4f2708542768eefa20&dn=ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz",
-                "i386": "magnet:?xt=urn:btih:0dcf40a0bb69496f0b5cc34f82b3dd5f050fbaa6&dn=ubuntu-mate-16.04-beta2-desktop-i386.iso",
-                "powerpc": "magnet:?xt=urn:btih:8780b3cbda2ebfa80fe099672aaaea83944bf46e&dn=ubuntu-mate-16.04-beta2-desktop-powerpc.iso"
-            },
-            "name": "Ubuntu MATE 16.04 LTS Beta 2",
-            "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-beta2/",
-            "rpi-mirrors": {
-                "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz",
-                "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz",
-                "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz",
-                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-beta2-desktop-armhf-raspberry-pi.img.xz.torrent"
-            },
-            "sha256sum": {
-                "amd64": "cd5bd41953d2545efc62ffe52d764070a6d390e4826e60fbe30a8a7e92d52c01",
-                "armhf": "b803095818c24cd2d81c59f31e27e83d58147dec6ac5169a590f39e3c664855d",
-                "i386": "8bce1ac40b5d9482b629302234f52ec6e43e2dbc42b1dfa9c6c5f7e23836a8ef",
-                "powerpc": "958f4dd0b67c87e736747f45188517f20872856487d4e32bcd164e982476df1e"
-            },
-            "show-warning": false,
-            "state": "beta-2",
-            "type": "beta2-desktop",
-            "version": "16.04",
             "visible": true,
             "warning-header": "",
             "warning-text": ""
