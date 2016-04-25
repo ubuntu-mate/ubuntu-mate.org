@@ -55,12 +55,11 @@ configuration is complete, subsequent boots are much quicker.
 
 ## Download
 
-Pre-built images of Ubuntu MATE 16.04 for the Raspberry Pi 2 and
-Raspberry Pi 3 are available via BitTorrent and direct download. If you
-can spare the bytes, please download via BitTorrent and leave the
-client open after your download is finished, so you can seed it back to
-others. *A web-seed capable client is recommended for fastest download
-speeds.*
+Pre-built images of Ubuntu MATE 16.04 for the Raspberry Pi 2 and Raspberry Pi 
+3 are available via BitTorrent and direct download. If you can spare the 
+bytes, please download via BitTorrent and leave the client open after your 
+download is finished, so you can seed it back to others. *A web-seed capable 
+client is recommended for fastest download speeds.*
 
 Many thanks to [First Colo](http://www.first-colo.com) for contributing the
 hosting and bandwidth for the Ubuntu MATE downloads.
@@ -261,7 +260,7 @@ Executing `graphical disable` will present a console login on the next
 boot, with no X11 or associated services running. If you want to get
 the full Ubuntu MATE desktop back, run `graphical enable` and reboot.
 
-## Hardware accelerated video
+## Hardware accelerated video with omxplayer
 
 Most videos will play with hardware acceleration using `omxplayer` which
 is pre-installed in Ubuntu MATE. However if you have MPEG-2 or VC-1 video
@@ -292,10 +291,29 @@ device using `amixer`.
 
     sudo amixer cset numid=3 1
 
+## Hardware accelerated video with VLC and ffmpeg
+
+Ubuntu MATE 16.04 added OpemMAX IL hardware accelerated video playback to VLC 
+and MMAL hardware accelerated video playback to ffmpeg.
+
+  * To enable hardware accelerated video playback in VLC go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
+  * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec
+
+    `ffplay -vcodec h264_mmal video.mp4`
+
+Hardware accelerated playback on the Raspberry Pi works by overlaying the 
+video directly to the screen. Therefore there are no onscreen controls for 
+playback control. You'll need to use the VLC and ffmpeg keyboard shortcuts.
+
+  * [VLC keyboard control](https://wiki.videolan.org/Hotkeys_table/)
+  * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-playing)
+
 ## Feedback and Improvements
 
-Please post all feedback on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).
-If you have any improvements then please submit a pull request to the [Ubuntu Pi Flavour Maker project](https://ubuntu-pi-flavour-maker.org/).
+Please post all feedback on the [dedicated community 
+forum](https://ubuntu-mate.community/c/support/raspberry-pi-2). If you have 
+any improvements then please submit a pull request to the [Ubuntu Pi Flavour 
+Maker project](https://ubuntu-pi-flavour-maker.org/).
 
 ## Credits
 
@@ -308,7 +326,32 @@ If you have any improvements then please submit a pull request to the [Ubuntu Pi
 
 ## Changes
 
-    [See what's new and changed.](/raspberry-pi-change-log/)
+### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
+
+  * Added OpemMAX IL hardware accelerated video playback to VLC.
+    * To enable hardware accelerated video playback go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
+  * Added MMAL hardware accelerated video playback to ffmpeg.
+    * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec - `ffplay -vcodec h264_mmal video.mp4`
+  * Increased the minimum microSDHC card size to 8GB.
+  * Removed `tboplayer`.
+
+### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
+
+  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
+  * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
+    * Ubuntu MATE 16.04 now supports the on-board Raspberry Pi 3 Bluetooth and Wifi.
+  * Updated to Linux 4.1.19.
+  * Updated to `raspberrypi-firmware` 1.20160315-1.
+  * Updated to `omx-player` 0.3.7~git20160206~cb91001.
+  * Updated to `wiringpi` 2.32.
+  * Updated to `nuscratch` 20160115.
+  * Updated to `sonic-pi` 2.9.0.
+  * Migrated configuration tweaks to `raspberrypi-general-mods` and `raspberrypi-sys-mods`.
+  * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`
+
+### Previous changes
+
+  * [See what changed in earlier releases.](/raspberry-pi-change-log/)
 
 ## Other ARMv7 based devices
 
