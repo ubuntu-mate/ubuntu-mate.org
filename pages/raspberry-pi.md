@@ -18,19 +18,16 @@ not the new Snappy Core, which means that the installation procedure
 for applications is the same as that for the regular desktop version,
 ie using `apt-get`.
 
-We have done what we can to optimise the build for the Raspberry Pi 2
-and Raspberry Pi 3, you can comfortably use applications such as
-LibreOffice, which in fact is a joy to use :-) But the microSDHC I/O
-throughput is a bottleneck so **we recommend that you use a Class 6 or
-Class 10 microSDHC** card.
+We have done what we can to optimise the build for the Raspberry Pi 2 and 
+Raspberry Pi 3, you can comfortably use applications such as LibreOffice, 
+which in fact is a joy to use :-) But the microSDHC I/O throughput is a 
+bottleneck so **we *highly* recommend that you use a Class 6 or Class 10 
+microSDHC** card. **Ubuntu MATE 16.04 also has fully working Bluetooth and 
+Wifi on the Raspberry Pi 3**
 
-You'll need a microSD card which is 4GB or greater to fit the image.
-The file system can be resized to occupy the unallocated space of the
-microSD card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE
-Welcome**.
-
-**Ubuntu MATE 16.04 has working Bluetooth and Wifi work on the Raspberry
-Pi 3**
+You'll need a microSD card which is **8GB** or greater to fit the image. The 
+file system can be resized to occupy the unallocated space of the microSD 
+card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE Welcome**.
 
 **NOTE! There are no predefined user accounts**. The first time you
 boot one of the desktop images it will run through a setup wizard where
@@ -52,6 +49,16 @@ configuration is complete, subsequent boots are much quicker.
         </p>
     </div>
 </div>
+
+## Known Issues
+
+  * During first boot configuration Ubiquity does not prompt to join available WiFi networks.
+    * [#1572793](https://bugs.launchpad.net/bugs/1572793)
+  * Upon completion of the first boot setup WiFi doesn't work, at all. Reboot and WiFi will be available.
+    * [#1572956](https://bugs.launchpad.net/bugs/1572956)
+
+Both these issues will be addressed in Ubuntu MATE 16.04.1 for Raspberry Pi 2 
+and 3 which is due in late July.
 
 ## Download
 
