@@ -30,7 +30,7 @@ Mateus](https://twitter.com/UnaccountedFour) from [Linux Game Cast](https://linu
 Pedro ran the benchmarks he is most familar with on his Steam Box, but
 replaced the SSD with one that had Ubuntu MATE 16.04 installed. Pedro
 also tested all the available compositor options available in Ubuntu
-MATE, afterall, we've include a number of compositor options to suit
+MATE, afterall, we've included a number of compositor options to suit
 different use cases. This is the hardware, software and configuration
 used:
 
@@ -52,8 +52,8 @@ used:
         <a class="list-group-item active">Software</a>
         <a class="list-group-item">Ubuntu MATE 16.04 64-bit</a>
         <a class="list-group-item">Nvidia proprietary drivers 364.15</a>
-        <a class="list-group-item">1920x1080</a>
         <a class="list-group-item">Multi-Sample AA – Off</a>
+        <a class="list-group-item">&nbsp;</a>        
       </div>    
     </div>
   </div>
@@ -70,9 +70,9 @@ used:
   </div>  
 </div>
 
-The table below shows the **average frames per second** for each
-benchmark. The colouring of the average frames per second denotes how
-much, if any, screen tearing was visible.
+All benchmarks we run at 1920x1080. The table below shows the **average
+frames per second** for each benchmark. The colouring of the average
+frames per second denotes how much, if any, screen tearing was visible.
 
   * <span class="btn btn-danger btn-xs">Bad tearing</span>
 
@@ -140,7 +140,7 @@ So what do we learn from the benchmarks above?
     desktop operating system and SteamOS is purpose built for gaming.
   * **Vulkan is [the cat's pyjamas](http://www.urbandictionary.com/define.php?term=Cats%20pajamas)!**
 
-**Thanks to the benchmarks Pedro Mateus conducted we can recommend that
+Thanks to the benchmarks Pedro Mateus conducted **we can recommend that
 to get the optimum gaming experience on Ubuntu MATE you should use the
-Compton Window Manager option and that Ubuntu MATE gaming performance
+Compton Window Manager option** and that **Ubuntu MATE gaming performance
 is just about on par with SteamOS.**
