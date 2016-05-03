@@ -130,35 +130,6 @@ For aarch32 (ARMv7) computers, like:
 </div>
 <hr>
 
-<div id="getting-started" class="row" hidden>
-<div class="row">
-<div class="col-xs-3"></div>
-<div class="col-xs-9"><h2>Thank you for downloading.</h2></div>
-</div>
-
-<div class="row">
-<div class="col-xs-3">
-<div class="text-center">
-<br>
-<img src="../assets/img/downloads/getting-started.png" alt="Getting Started Resources">
-</div>
-</div>
-<div class="col-xs-9">
-<br>
-<h3>Getting Started</h3>
-<p>The following resources may be useful to help get you up and running.</p>
-<p>
-<ul>
-<li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
-<li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
-<li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> Check your System Requirements</a></li>
-</ul>
-</p>
-</div>
-</div>
-</div>
-<hr id="getting-started-hr" hidden>
-
 <div id="bittorrent" class="row">
 <div class="col-xs-3">
 <div class="text-center">
@@ -507,6 +478,30 @@ so that the relevant developers can fix them in future updates.</p>
 <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
 </div>
 </div>
+<hr>
+
+<div id="getting-started" class="row">
+<div class="row">
+<div class="col-xs-3">
+<div class="text-center">
+<br>
+<img src="../assets/img/downloads/getting-started.png" alt="Getting Started">
+</div>
+</div>
+<div class="col-xs-9">
+<br>
+<h3>Getting Started</h3>
+<p>The following resources may be useful to help get you up and running.</p>
+<p>
+<ul>
+<li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
+<li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
+<li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> Check your System Requirements</a></li>
+</ul>
+</p>
+</div>
+</div>
+</div>
 <br>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
@@ -554,8 +549,6 @@ $('.' + show_version + '-' + show_arch).show();
 $('#' + show_arch + ' .well').addClass('active');
 $('#present-version').html(present_version)
 $('#present-arch').html(present_arch)
-$('#getting-started').slideUp('fast');
-$('#getting-started-hr').hide();
 }
 
 // Run this when page loads.
