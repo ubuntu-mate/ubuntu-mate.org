@@ -10,9 +10,10 @@
 -->
 
 ## Download
-Download a copy of the .iso image to try Ubuntu MATE without changing your
-computer at all, and optionally install permanently later.
-<hr>
+The Ubuntu MATE .iso image allows you to try Ubuntu MATE without changing your 
+computer at all, with an option to install it permanently later. You will need 
+at least 512MB of RAM to install from this image.
+<hr />
 
 <noscript>
 <div class="alert alert-danger">
@@ -170,9 +171,9 @@ MAGNET-LINKS <a title="Opens your BitTorrent client. This method is trackerless 
 <br>
 <h3>Download Tip</h3>
 <p>
-<b>A little bit can go a long way.</b> If everyone who downloaded Ubuntu MATE donated $2.50
+<b>A little bit can go a long way.</b> If everyone who downloaded Ubuntu MATE donated <b>$2.50</b>
 it would fund the full-time development of Ubuntu MATE and MATE Desktop.
-Please help both projects flourish by showing your support with a tip.
+<u>Please help both projects flourish by showing your support with a tip.</u>
 </p>
 <div class="row"><div class="xenial-amd64 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
@@ -305,8 +306,8 @@ Please help both projects flourish by showing your support with a tip.
 </div>
 <p><b>Powered by </b> <img src="../assets/img/logos/pp-logo-100px.png" height="24px"/></p>
 <p>
-To donate more or become an Ubuntu MATE patron
-<a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.
+<b>To donate more, donate with BitCoin or become an Ubuntu MATE Patron
+<a href="https://ubuntu-mate.org/donate/">please visit the donate page</a>.</b>
 </p>
 </div>
 </div>
@@ -446,40 +447,6 @@ close to you in order to achieve a faster download.</p>
 <hr id="mirrors-hr">
 </div>
 
-<div class="row">
-<div class="col-xs-3">
-<div class="text-center">
-<br>
-<img src="../assets/img/downloads/community.png" alt="Community">
-</div>
-</div>
-<div class="col-xs-9">
-<br>
-<h3>Get Involved</h3>
-<p>Stop by to share your experiences, ask questions and discuss topics
-with other users and developers in our growing community.</p>
-<p><a href="https://ubuntu-mate.community"><span class="fa fa-comments"></span> Meet the Community</a></p>
-</div>
-</div>
-<hr>
-
-<div class="row">
-<div class="col-xs-3">
-<div class="text-center">
-<br>
-<img src="../assets/img/downloads/bugs.png" alt="Bug Tracker">
-</div>
-</div>
-<div class="col-xs-9">
-<br>
-<h3>Found a bug?</h3>
-<p>Please submit your detailed and reproducable bug reports to Launchpad
-so that the relevant developers can fix them in future updates.</p>
-<p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
-</div>
-</div>
-<hr>
-
 <div id="getting-started" class="row">
 <div class="row">
 <div class="col-xs-3">
@@ -502,7 +469,41 @@ so that the relevant developers can fix them in future updates.</p>
 </div>
 </div>
 </div>
+<hr />
+
+<div class="row">
+<div class="col-xs-3">
+<div class="text-center">
 <br>
+<img src="../assets/img/downloads/community.png" alt="Community">
+</div>
+</div>
+<div class="col-xs-9">
+<br>
+<h3>Get Involved</h3>
+<p>Stop by to share your experiences, ask questions and discuss topics
+with other users and developers in our growing community.</p>
+<p><a href="https://ubuntu-mate.community"><span class="fa fa-comments"></span> Meet the Community</a></p>
+</div>
+</div>
+<hr />
+
+<div class="row">
+<div class="col-xs-3">
+<div class="text-center">
+<br>
+<img src="../assets/img/downloads/bugs.png" alt="Bug Tracker">
+</div>
+</div>
+<div class="col-xs-9">
+<br>
+<h3>Found a bug?</h3>
+<p>Please submit your detailed and reproducable bug reports to Launchpad
+so that the relevant developers can fix them in future updates.</p>
+<p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
+</div>
+</div>
+<br />
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
