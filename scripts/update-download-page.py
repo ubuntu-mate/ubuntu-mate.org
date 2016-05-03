@@ -162,6 +162,7 @@ class DownloadPageScript(object):
 
         # Prepare the data to append into.
         buffer_release_list = ""
+        buffer_rpi_class = ""
         buffer_release_notes = ""
         buffer_torrent_links = ""
         buffer_magnet_links = ""
@@ -191,6 +192,11 @@ class DownloadPageScript(object):
             ## Releases
             template = '<li id="' + distro_codename + '" role="presentation"><a href="#' + distro_codename + '" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> ' + distro_name + '</big></a></li>'
             buffer_release_list = buffer_release_list + template + '\n'
+
+            # Raspberry Pi Downloads Available?
+            rpi_visible = self.downloads['release'][release_id]['rpi-visible']
+            if rpi_visible:
+                buffer_rpi_class = buffer_rpi_class + distro_codename + ' '
 
             ## Release Notes URL
             template = '<p><a class="' + distro_codename + '" href="' + distro_release_url + '"><span class="fa fa-file"></span> Release Announcement</a></p>'
@@ -307,6 +313,7 @@ class DownloadPageScript(object):
 
         # Now replace place holders on page.
         self.do_replace('RELEASE-LIST', buffer_release_list)
+        self.do_replace('RPI-VISIBLE', buffer_rpi_class)
         self.do_replace('RELEASE-URL', buffer_release_notes)
         self.do_replace('TORRENT-LINKS', buffer_torrent_links)
         #~ self.do_replace('MAGNET-LINKS', buffer_magnet_links)     // MAGNET LINKS DISABLED

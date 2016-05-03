@@ -92,7 +92,7 @@ computer at all, and optionally install permanently later.
       </p>
     </div>
   </a>
-  <a id="armhf" onclick="selected_armhf()">
+  <a id="armhf" class="RPI-VISIBLE" onclick="selected_armhf()">
     <div class="col-xs-3 well bs-component">
       <h3>Raspberry Pi</h3>
       <p>
