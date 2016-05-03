@@ -225,7 +225,8 @@ We post an overview of how the donations were used each month.
   * [2015 December](/blog/ubuntu-mate-december-2015-supporters/)
   * [2016 January](/blog/ubuntu-mate-january-2016-supporters/)
   * [2016 February](/blog/ubuntu-mate-february-2016-supporters/)    
-  * [2016 March](/blog/ubuntu-mate-march-2016-supporters/)    
+  * [2016 March](/blog/ubuntu-mate-march-2016-supporters/)
+  * [2016 April](/blog/ubuntu-mate-april-2016-supporters/)
 
 <script type="text/javascript">
   function validateMonthlyForm() {
