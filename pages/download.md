@@ -94,7 +94,7 @@ Designed for old generation PowerPC-based hardware, like:
 </p>
 </div>
 </a>
-<a id="armhf" onclick="selected_armhf()">
+<a id="armhf" class="xenial wily " onclick="selected_armhf()">
 <div class="col-xs-3 well bs-component">
 <h3>Raspberry Pi</h3>
 <p>
@@ -179,19 +179,11 @@ For aarch32 (ARMv7) computers, like:
 <a class="wily-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent</a>
 
 </p>
-<p>
-<a class="xenial-amd64" href="magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="xenial-i386" href="magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="xenial-powerpc" href="magnet:?xt=urn:btih:d64ca895d6778f6d50503d6229f276f101920cb4&dn=ubuntu-mate-16.04-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="xenial-armhf" href="magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="wily-amd64" href="magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-15.10-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="wily-i386" href="magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-15.10-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="wily-powerpc" href="magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-15.10-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="wily-armhf" href="magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
+<!--p>
+MAGNET-LINKS <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
 <span class="fa fa-info-circle"></span>
 </a>
-</p>
+</p-->
 </div>
 </div>
 <hr>
@@ -621,17 +613,18 @@ $('.rpi').show();
 </script>
 
 <script>
-  // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/
-  window.onload = function() {
-    var a = document.getElementsByTagName('a');
-    for (i = 0; i < a.length; i++) {
-      if (a[i].href.match(/^https?:\/\/.+\.(bz2|deb|gz|iso|pdf|torrent|xz|zip)$/i)) {
-        a[i].setAttribute('target', '_blank');
-        a[i].onclick = function() {
-          ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
-        };
-      }
-    }
-  }
+// http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/
+window.onload = function() {
+var a = document.getElementsByTagName('a');
+for (i = 0; i < a.length; i++) {
+if (a[i].href.match(/^https?:\/\/.+\.(bz2|deb|gz|iso|pdf|torrent|xz|zip)$/i)) {
+a[i].setAttribute('target', '_blank');
+a[i].onclick = function() {
+ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
+};
+}
+}
+}
 </script>
+
 
