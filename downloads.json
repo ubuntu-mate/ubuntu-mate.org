@@ -26,6 +26,7 @@
                 "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
                 "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent"
             },
+            "rpi-visible": true,
             "sha256sum": {
                 "amd64": "ec19ba1280e5a05b78a863f3844864a8b0a3b4336028bcfbf143ad4fda44f2c3",
                 "armhf": "bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a",
@@ -58,6 +59,7 @@
                 "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",
                 "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent"
             },
+            "rpi-visible": true,
             "sha256sum": {
                 "amd64": "caf12e840f33eae535332b98d4491ce3f36e2c32cb4196a2e08209f39d626dec",
                 "armhf": "49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94",

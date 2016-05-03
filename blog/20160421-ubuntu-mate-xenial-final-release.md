@@ -1,25 +1,46 @@
 <!--
 .. title: Ubuntu MATE 16.04 LTS
 .. slug: ubuntu-mate-xenial-final-release
-.. date: 2016-04-21 20:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,final,LTS,draft
+.. date: 2016-04-21 16:25:00 UTC
+.. tags: Ubuntu,MATE,Xenial,Xerus,16.04,final,LTS
 .. link:
 .. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
 .. type: text
 .. author: Martin Wimpress
 -->
 
-## What works?
-
-People tell us that Ubuntu MATE is stable. You may, or may not, agree.
-
-## What changed since the Ubuntu MATE 16.04 Beta 2 release?
-
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
 </div>
 
-### Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2.
+# Thank You!
+
+> **Ubuntu MATE 16.04 LTS has not just been in development for 6 months. Ubuntu 
+> MATE 16.04 LTS has been in development for nearly 2 years. Since the project 
+> started in June 2014 this release, this our first official LTS, is what we've 
+> been working towards. This was the goal we had firmly in our sights every step 
+> of the way.**
+>
+> **I extend my sincere thanks to everyone who has contributed to Ubuntu MATE over 
+> the last 22 months. None of this would have been possible without the 
+> countless contributions from the amazing Ubuntu MATE community. I can't thank 
+> you all enough for what you've helped create. I only hope this release makes 
+> you all proud.**
+>
+> *Martin Wimpress, Ubuntu MATE Project Leader.*
+
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Download Ubuntu MATE 16.04</h1>
+        <p>Join the fun and experience a retrospective future.</p>
+        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
+        </p>
+    </div>
+</div>
+
+## What changed since the Ubuntu MATE 16.04 Beta 2 release?
+
+Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2:
 
   * Added `ubuntu-snappy-cli` to the default install.
   * Updated Ubuntu MATE Welcome to 16.04.9.
@@ -55,19 +76,17 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
+        <h1>Ubuntu MATE 16.04 summary of changes</h1>
+        <p>If you're interested in a general overview of what change in Ubuntu MATE 16.04, take a look at our press kit.</p>
+        <a href="/ubuntu-mate-1604-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
         </p>
     </div>
 </div>
 
-## Thank You!
+### Community contributors
 
-Thanks to everyone who contributed to Ubuntu MATE 16.04. 
-There are quite a few people who deserve a public *"Thank you!"*.
-
-### Community
+Here are just a few of the people who contributed to Ubuntu MATE during the 
+16.04 development cycle that deserve a special mention:
 
 A very special *Thank you* to **[Luke
 Horwell](https://ubuntu-mate.community/users/lah7/)** for taking Ubuntu
@@ -117,7 +136,7 @@ backgrounds for Ubuntu MATE 16.04:
 **[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900)** (yet again) and
 **[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8)**.
 
-Finally, thanks to everyone who installed the alpha and beta and reported issues,
+Finally, thanks to everyone who installed the alphas and betas, reported issues,
 provided feedback or donated to Ubuntu MATE. Your feedback has been vital to 
 understanding what improvements people most want to see. We do listen, so keep the
 feedback coming.
@@ -154,10 +173,10 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
+  * Ubiquity does not prompt to join available WiFi networks.
+    * [#1572793](https://bugs.launchpad.net/bugs/1572793)
   * Shutdown/Restart of the live session does not work in Virtualbox and VMWare guests.
     * [#1447038](https://bugs.launchpad.net/bugs/1447038)
-  * Swap partition *may* fail to be created when installing on a disk with existing partitions.
-    * [#1552539](https://bugs.launchpad.net/bugs/1552539)
 
 ### PowerPC
 
@@ -177,12 +196,3 @@ already been reported. These issues will be addressed in due course.
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 16.04 Press Kit</h1>
-        <p>If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful.</p>
-        <a href="/ubuntu-mate-1604-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
-        </p>
-    </div>
-</div>

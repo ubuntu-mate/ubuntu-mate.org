@@ -12,7 +12,7 @@ import os
 import sys
 import inspect
 import json
-import libtorrent   # Provided by package 'python3-libtorrent'
+#~ import libtorrent   # Provided by package 'python3-libtorrent'   // MAGNET LINKS DISABLED
 import wget         # Provided by package 'python3-wget'
 import subprocess
 
@@ -20,7 +20,7 @@ import subprocess
 # ===== Arguments =====
 #   --update-all         =  Update everything for the page.
 #   --update-page        =  Regenerate the page.
-#   --update-magnet-uri  =  Update the magnet URIs saved to downloads.json.
+#   --update-magnet-uri  =  Update the magnet URIs saved to downloads.json.   // MAGNET LINKS DISABLED
 #
 
 class DownloadPageScript(object):
@@ -45,7 +45,7 @@ class DownloadPageScript(object):
         for arg in sys.argv:
             if arg == '--update-all':
                 self.read_json()
-                self.update_magnet_uri()
+                #~ self.update_magnet_uri()     // MAGNET LINKS DISABLED
                 self.clean_up_temp()
                 self.save_json()
                 self.manipulate_page()
@@ -113,6 +113,7 @@ class DownloadPageScript(object):
 
     # Main functions
     def update_magnet_uri(self):
+        return                                                          # MAGNET LINKS DISABLED
         print("Updating Magnet URI...")
         for release_id in sorted(self.downloads['release'].keys()):
             if not self.downloads['release'][release_id]['visible']:
@@ -161,6 +162,7 @@ class DownloadPageScript(object):
 
         # Prepare the data to append into.
         buffer_release_list = ""
+        buffer_rpi_class = ""
         buffer_release_notes = ""
         buffer_torrent_links = ""
         buffer_magnet_links = ""
@@ -191,6 +193,11 @@ class DownloadPageScript(object):
             template = '<li id="' + distro_codename + '" role="presentation"><a href="#' + distro_codename + '" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> ' + distro_name + '</big></a></li>'
             buffer_release_list = buffer_release_list + template + '\n'
 
+            # Raspberry Pi Downloads Available?
+            rpi_visible = self.downloads['release'][release_id]['rpi-visible']
+            if rpi_visible:
+                buffer_rpi_class = buffer_rpi_class + distro_codename + ' '
+
             ## Release Notes URL
             template = '<p><a class="' + distro_codename + '" href="' + distro_release_url + '"><span class="fa fa-file"></span> Release Announcement</a></p>'
             buffer_release_notes = buffer_release_notes + template + '\n'
@@ -207,10 +214,14 @@ class DownloadPageScript(object):
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
                 buffer_torrent_links = buffer_torrent_links + template + '\n'
 
+                ################################################
+                # MAGNET LINKS DISABLED
+                ################################################
                 # Magnet URI for torrent
-                magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
-                template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
-                buffer_magnet_links = buffer_magnet_links + template + '\n'
+                #~ magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
+                #~ template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
+                #~ buffer_magnet_links = buffer_magnet_links + template + '\n'
+                ################################################
 
             ## Direct URL
             for arch in self.archs:
@@ -302,9 +313,10 @@ class DownloadPageScript(object):
 
         # Now replace place holders on page.
         self.do_replace('RELEASE-LIST', buffer_release_list)
+        self.do_replace('RPI-VISIBLE', buffer_rpi_class)
         self.do_replace('RELEASE-URL', buffer_release_notes)
         self.do_replace('TORRENT-LINKS', buffer_torrent_links)
-        self.do_replace('MAGNET-LINKS', buffer_magnet_links)
+        #~ self.do_replace('MAGNET-LINKS', buffer_magnet_links)     // MAGNET LINKS DISABLED
         self.do_replace('DIRECT-LINKS', buffer_direct_links)
         self.do_replace('DIRECT-EU-LINKS', buffer_direct_eu_links)
         self.do_replace('DIRECT-FR-LINKS', buffer_direct_fr_links)
