@@ -50,7 +50,7 @@ that. Each month that Ubuntu MATE has a surplus of funds we will make a
 contribution to an Open Source project or developer that Ubuntu MATE
 directly benefits from.
 
-For March 2016 Ubuntu MATE have donated to several Open Source
+For April 2016 Ubuntu MATE have donated to several Open Source
 developers who've worked on Ubuntu MATE or MATE Desktop projects.
 
   * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) (*Ubuntu MATE*) - **&pound;150** for developing Ubuntu MATE Welcome and updating the Ubuntu MATE website.
