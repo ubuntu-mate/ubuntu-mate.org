@@ -13,24 +13,22 @@ Martin Wimpress and Rohith Madhavan have made an Ubuntu MATE image for
 the Raspberry Pi 2 and Raspberry Pi 3 which you can download or build
 yourself.
 
-The image is functional and based on the regular Ubuntu `armhf` base,
-not the new Snappy Core, which means that the installation procedure
-for applications is the same as that for the regular desktop version,
-ie using `apt-get`.
+The image is based on the regular Ubuntu `armhf` base, not the new Snappy 
+Core, which means that the installation procedure for applications is the same 
+as that for the regular desktop version, ie using `apt-get`. However, since 
+Ubuntu MATE 16.04 snap packages can be installed alongside classic deb 
+packages.
 
-We have done what we can to optimise the build for the Raspberry Pi 2
-and Raspberry Pi 3, you can comfortably use applications such as
-LibreOffice, which in fact is a joy to use :-) But the microSDHC I/O
-throughput is a bottleneck so **we recommend that you use a Class 6 or
-Class 10 microSDHC** card.
+We have done what we can to optimise the build for the Raspberry Pi 2 and 
+Raspberry Pi 3, you can comfortably use applications such as LibreOffice, 
+which in fact is a joy to use :-) But the microSDHC I/O throughput is a 
+bottleneck so **we *highly* recommend that you use a Class 6 or Class 10 
+microSDHC** card. **Ubuntu MATE 16.04 also has fully working Bluetooth and 
+Wifi on the Raspberry Pi 3**
 
-You'll need a microSD card which is 4GB or greater to fit the image.
-The file system can be resized to occupy the unallocated space of the
-microSD card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE
-Welcome**.
-
-**Ubuntu MATE 16.04 has both working Bluetooth and WiFi on the
-Raspberry Pi 3.**
+You'll need a microSD card which is **8GB** or greater to fit the image. The 
+file system can be resized to occupy the unallocated space of the microSD 
+card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE Welcome**.
 
 **NOTE! There are no predefined user accounts**. The first time you
 boot one of the desktop images it will run through a setup wizard where
@@ -53,6 +51,16 @@ configuration is complete, subsequent boots are much quicker.
     </div>
 </div>
 
+## Known Issues
+
+  * During first boot configuration Ubiquity does not prompt to join available WiFi networks.
+    * [#1572793](https://bugs.launchpad.net/bugs/1572793)
+  * Upon completion of the first boot setup WiFi doesn't work, at all. Reboot and WiFi will be available.
+    * [#1572956](https://bugs.launchpad.net/bugs/1572956)
+
+Both these issues will be addressed in Ubuntu MATE 16.04.1 for Raspberry Pi 2 
+and 3 which is due in late July.
+
 
 ## Making a microSDHC
 
@@ -60,8 +68,8 @@ The image can be directly written to a microSDHC using a utility like
 `dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue), for example:
 
     sudo apt-get install gddrescue xz-utils
-    unxz ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz
-    sudo ddrescue -D --force ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img /dev/sdx
+    unxz ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz
+    sudo ddrescue -D --force ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img /dev/sdx
 
 The microSDHC may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.
@@ -115,7 +123,7 @@ Executing `graphical disable` will present a console login on the next
 boot, with no X11 or associated services running. If you want to get
 the full Ubuntu MATE desktop back, run `graphical enable` and reboot.
 
-## Hardware accelerated video
+## Hardware accelerated video with omxplayer
 
 Most videos will play with hardware acceleration using `omxplayer` which
 is pre-installed in Ubuntu MATE. However if you have MPEG-2 or VC-1 video
@@ -146,13 +154,29 @@ device using `amixer`.
 
     sudo amixer cset numid=3 1
 
+## Hardware accelerated video with VLC and ffmpeg
+
+Ubuntu MATE 16.04 added OpemMAX IL hardware accelerated video playback to VLC 
+and MMAL hardware accelerated video playback to ffmpeg.
+
+  * To enable hardware accelerated video playback in VLC go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
+  * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec
+
+    `ffplay -vcodec h264_mmal video.mp4`
+
+Hardware accelerated playback on the Raspberry Pi works by overlaying the 
+video directly to the screen. Therefore there are no onscreen controls for 
+playback control. You'll need to use the VLC and ffmpeg keyboard shortcuts.
+
+  * [VLC keyboard control](https://wiki.videolan.org/Hotkeys_table/)
+  * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-playing)
+
 ## Feedback and Improvements
 
-Please post all feedback on the [dedicated community topic](https://ubuntu-mate.community/t/ubuntu-mate-15-10-for-the-raspberry-pi-2/2479).
-If you have any improvements then please submit a pull request to our
-BitBucket.
-
-  * <https://bitbucket.org/ubuntu-mate/ubuntu-mate-rpi2>
+Please post all feedback on the [dedicated community 
+forum](https://ubuntu-mate.community/c/support/raspberry-pi-2). If you have 
+any improvements then please submit a pull request to the [Ubuntu Pi Flavour 
+Maker project](https://ubuntu-pi-flavour-maker.org/).
 
 ## Credits
 
@@ -163,14 +187,34 @@ BitBucket.
   * [Sergio Conde](http://omxplayer.sconde.net/) - Maintains `omxplayer` for the Raspberry Pi.
   * [Spindle](https://github.com/RPi-Distro/spindle) - a tool to help spin distribution images
 
-## Changes
+## Recent Changes
 
-* [See what's new and changed.](/raspberry-pi-change-log/)
+### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
 
-## TODO
+  * Added OpemMAX IL hardware accelerated video playback to VLC.
+    * To enable hardware accelerated video playback go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
+  * Added MMAL hardware accelerated video playback to ffmpeg.
+    * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec - `ffplay -vcodec h264_mmal video.mp4`
+  * Increased the minimum microSDHC card size to 8GB.
+  * Removed `tboplayer`.
 
-  * Add `raspi-config` or equivilent.
-  * Add automatic reszing of the root file system.
+### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
+
+  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
+  * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
+    * Ubuntu MATE 16.04 now supports the on-board Raspberry Pi 3 Bluetooth and Wifi.
+  * Updated to Linux 4.1.19.
+  * Updated to `raspberrypi-firmware` 1.20160315-1.
+  * Updated to `omx-player` 0.3.7~git20160206~cb91001.
+  * Updated to `wiringpi` 2.32.
+  * Updated to `nuscratch` 20160115.
+  * Updated to `sonic-pi` 2.9.0.
+  * Migrated configuration tweaks to `raspberrypi-general-mods` and `raspberrypi-sys-mods`.
+  * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`
+
+### Previous Changes
+
+  * [See what changed in earlier releases.](/raspberry-pi-change-log/)
 
 ## Other ARMv7 based devices
 

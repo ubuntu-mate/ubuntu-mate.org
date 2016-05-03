@@ -13,10 +13,13 @@
 
 [Back to Raspberry Pi page](/raspberry-pi/)
 
-### 2016-04-21 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
+### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
 
   * Added OpemMAX IL hardware accelerated video playback to VLC.
+    * To enable hardware accelerated video playback go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
   * Added MMAL hardware accelerated video playback to ffmpeg.
+    * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec - `ffplay -vcodec h264_mmal video.mp4`
+  * Increased the minimum microSDHC card size to 8GB.
   * Removed tboplayer.
 
 ### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
