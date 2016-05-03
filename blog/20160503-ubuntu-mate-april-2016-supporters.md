@@ -18,12 +18,19 @@ all the costs associated with running the Ubuntu MATE project and the
 community site. In fact, this month we are able to reward some
 developers for working on Ubuntu MATE projects.
 
+<div align="center">
+<img src="/gallery/blog/thankyou.png" alt="Thank you!" title="Thank You!"/>
+</div>
+
 ## How will these donations be spent?
 
 These donations will be used to pay for:
 
   * All Ubuntu MATE hosting and server costs for April 2016.
   * All the Ubuntu MATE CDN, bandwidth and email charges for April 2016.
+  * Spent **&pound;62.90** on 2x Raspberry Pi 3 Mobel B for development and testing.
+  * Spent **&pound;52.00** on 20x 4GB USB 2.0 memory sticks and 10x 2GB USB 2.0 memor sticks
+    * These were flashed with Ubuntu MATE 16.04 (amd64 and i386) and handed out to visitors to the 11th Egham Raspberry Jam.
   * Donated **&euro;690** (taking into account currency variations) to 4 Open Source developers working on Ubuntu MATE and MATE Desktop projects.
   * This brings Ubuntu MATEs total donations to other Open Source projects and developers to approximately **$5310.90** (taking into account currency variations).
   * We will be reviewing how we can put the surplus of donations from April to good use and expand our contributor rewards to fund some additional development activities.
@@ -46,7 +53,7 @@ directly benefits from.
 For March 2016 Ubuntu MATE have donated to several Open Source
 developers who've worked on Ubuntu MATE or MATE Desktop projects.
 
-  * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) (*Ubuntu MATE*) - **&pound;150** for working on Ubuntu MATE Welcome.
+  * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) (*Ubuntu MATE*) - **&pound;150** for developing Ubuntu MATE Welcome and updating the Ubuntu MATE website.
   * [Wolfgang Ulbrich](https://github.com/raveit65) (*Fedora*) - **&euro;150** for porting MATE Desktop to GTK3 and preparing MATE 1.14 for release.
   * [Vlad Orlov](https://github.com/monsta) (*Linux Mint*) - **&euro;150** for porting MATE Desktop to GTK3 and preparing MATE 1.14 for release.
   * [Vangelis Mouhtsis](https://alioth.debian.org/users/gnugr-guest/) (*Debian*) **&euro;150** for packaging MATE Desktop in Debian.
