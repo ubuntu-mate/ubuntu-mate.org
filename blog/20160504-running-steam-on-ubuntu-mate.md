@@ -1,0 +1,146 @@
+<!--
+.. title: Running Steam on Ubuntu MATE
+.. slug: running-steam-on-ubuntu-mate
+.. date: 2016-05-04 13:13:13 BST
+.. tags: Ubuntu,MATE,Steam,benchmark,performance,gaming,Vulkan,OpenGL,nvidia
+.. link:
+.. description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how to get the optimum experience
+.. type: text
+.. author: Martin Wimpress
+-->
+
+A couple of weeks ago [Phoronix published an article comparing the
+Steam performance on various flavours of Ubuntu
+16.04](http://www.phoronix.com/scan.php?page=article&item=ubuntu-xenial-skldesk).
+It made me very sad because, using the default settings, Ubuntu MATE
+didn't appear to fair that well. I was also somewhat surprised, what
+with Ubuntu MATE sharing a good deal in common with the other flavours and
+being a fairly light-weight desktop operating system. While I'm not a
+big gamer, I've always been very satisfied with Steam performance under
+Ubuntu MATE.
+
+What we need here is a real gamer. A hardcore gamer who knows how to
+run a benchmark. A Linux gamer. Enter [Pedro
+Mateus](https://twitter.com/UnaccountedFour) from [Linux Game Cast](https://linuxgamecast.com/).
+
+<div align="center">
+<img src="/gallery/blog/steam-on-ubuntu-mate.png" alt="Steam on Ubuntu MATE" title="Steam on Ubuntu MATE"/>
+</div>
+
+Pedro ran the benchmarks he is most familar with on his Steam Box, but
+replaced the SSD with one that had Ubuntu MATE 16.04 installed. Pedro
+also tested all the available compositor options available in Ubuntu
+MATE, afterall, we've include a number of compositor options to suit
+different use cases. This is the hardware, software and configuration
+used:
+
+<div class="row" name="system_spec">
+  <div class="col-xs-4">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active">Hardware</a>
+        <a class="list-group-item">AMD Athlon X4 860K @ 4.2Ghz</a>
+        <a class="list-group-item">MSI GeForce GTX 750Ti OC Edition</a>
+        <a class="list-group-item">8GB DDR3 1866MHz HyperX White</a>
+        <a class="list-group-item">OCZ Vertex 3 120GB SSD</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active">Software</a>
+        <a class="list-group-item">Ubuntu MATE 16.04 64-bit</a>
+        <a class="list-group-item">Nvidia proprietary drivers 364.15</a>
+        <a class="list-group-item">1920x1080</a>
+        <a class="list-group-item">Multi-Sample AA – Off</a>
+      </div>    
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="bs-component">
+      <div class="list-group">
+        <a class="list-group-item active">Talos Principle</a>
+        <a class="list-group-item">CPU Speed - Ultra</a>
+        <a class="list-group-item">GPU Speed - Medium</a>
+        <a class="list-group-item">GPU Memory - High</a>
+        <a class="list-group-item">Level Caching - Medium</a>
+      </div>    
+    </div>
+  </div>  
+</div>
+
+The table below shows the **average frames per second** for each
+benchmark. The colouring of the average frames per second denotes how
+much, if any, screen tearing was visible.
+
+  * <span class="btn btn-danger btn-xs">Bad tearing</span>
+
+  * <span class="btn btn-warning btn-xs">Noticeable tearing</span>
+
+  * <span class="btn btn-success btn-xs">No noticeable tearing</span>
+
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Benchmark</th>
+      <th>No compositor</th>
+      <th>Software compositor</th>
+      <th>Compton</th>
+      <th>Compiz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://unigine.com/products/benchmarks/heaven/">Unigine Heaven</a> – <b>Extreme</b></td>
+      <td><span class="btn btn-danger btn-xs">25.5</span></td>
+      <td><span class="btn btn-warning btn-xs">25.1</span></td>
+      <td><span class="btn btn-success btn-xs">25.0</span></td>
+      <td><span class="btn btn-success btn-xs">24.9</span></td>
+    </tr>
+    <tr>
+      <td><a href="https://unigine.com/products/benchmarks/heaven/">Unigine Heaven</a> – <b>Basic</b></td>    
+      <td><span class="btn btn-success btn-xs">88.1</span></td>
+      <td><span class="btn btn-success btn-xs">84.6</span></td>
+      <td><span class="btn btn-success btn-xs">84.4</span></td>
+      <td><span class="btn btn-success btn-xs">84.0</span></td>
+    </tr>
+    <tr>
+      <td><a href="http://store.steampowered.com/app/257510/">The Talos Principle</a> – <b>OpenGL</b></td>    
+      <td><span class="btn btn-warning btn-xs">70.4</span></td>
+      <td><span class="btn btn-warning btn-xs">68.5</span></td>
+      <td><span class="btn btn-success btn-xs">70.3</span></td>
+      <td><span class="btn btn-success btn-xs">69.8</span></td>            
+    </tr>
+    <tr>
+      <td><a href="http://store.steampowered.com/app/257510/">The Talos Principle</a> – <b>Vulkan</b></td>    
+      <td><span class="btn btn-success btn-xs">97.1</span></td>
+      <td><span class="btn btn-success btn-xs">89.9</span></td>
+      <td><span class="btn btn-success btn-xs">96.9</span></td>
+      <td><span class="btn btn-success btn-xs">95.1</span></td>
+    </tr>
+  </tbody>
+</table>
+<br />
+
+## Conclusions
+
+So what do we learn from the benchmarks above?
+
+  * The Ubuntu MATE default Window Manager is *Marco (Software compositor)*.
+  This **explains why the Phoronix benchmarks didn't show Ubuntu MATE in
+  the best light**, since it can be the lowest performing option for gaming.
+    * Perhaps Marco needs some logic to Unredirect Fullscreen Windows.
+  * Using **Compton or Compiz will give you a tear free gaming** experience.
+  * **Compton (slightly) out performs Compiz**.
+  * Perdro tells me that **running Ubuntu MATE with Compton the average
+  frames per second is about 2 FPS lower than SteamOS** on the same
+  hardware.
+    * This seems reasonable given that Ubuntu MATE is a general purpose
+    desktop operating system and SteamOS is purpose built for gaming.
+  * **Vulkan is [the cat's pyjamas](http://www.urbandictionary.com/define.php?term=Cats%20pajamas)!**
+
+**Thanks to the benchmarks Pedro Mateus conducted we can recommend that
+to get the optimum gaming experience on Ubuntu MATE you should use the
+Compton Window Manager option and that Ubuntu MATE gaming performance
+is just about on par with SteamOS.**
