@@ -1,7 +1,7 @@
 <!--
 .. title: Running Steam on Ubuntu MATE
 .. slug: running-steam-on-ubuntu-mate
-.. date: 2016-05-04 13:13:13 BST
+.. date: 2016-05-04 07:00:00 BST
 .. tags: Ubuntu,MATE,Steam,benchmark,performance,gaming,Vulkan,OpenGL,nvidia
 .. link:
 .. description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how to get the optimum experience
@@ -9,30 +9,29 @@
 .. author: Martin Wimpress
 -->
 
-A couple of weeks ago [Phoronix published an article comparing the
-Steam performance on various flavours of Ubuntu
-16.04](http://www.phoronix.com/scan.php?page=article&item=ubuntu-xenial-skldesk).
-It made me very sad because, using the default settings, Ubuntu MATE
-didn't appear to fair that well. I was also somewhat surprised, what
-with Ubuntu MATE sharing a good deal in common with the other flavours and
-being a fairly light-weight desktop operating system. While I'm not a
-big gamer, I've always been very satisfied with Steam performance under
-Ubuntu MATE.
+A couple of weeks ago [Phoronix published an article comparing the Steam 
+performance on various flavours of Ubuntu 
+16.04](http://www.phoronix.com/scan.php?page=article&item=ubuntu-xenial-skldesk). 
+This article made me very sad because, using the default settings, Ubuntu MATE didn't 
+appear to fair that well. I was also somewhat surprised, what with Ubuntu MATE 
+sharing a good deal in common with the other flavours and being a fairly 
+light-weight operating system. While I'm not a big gamer, I've always been 
+very satisfied with Steam performance on Ubuntu MATE.
 
-What we need here is a real gamer. A hardcore gamer who knows how to
-run a benchmark. A Linux gamer. Enter [Pedro
-Mateus](https://twitter.com/UnaccountedFour) from [Linux Game Cast](https://linuxgamecast.com/).
+What we need here is a gamer. A gaming enthusiast who knows how to run a 
+benchmark. A Linux gamer. Enter **[Pedro 
+Mateus](https://twitter.com/UnaccountedFour)** from **[Linux Game 
+Cast](https://linuxgamecast.com/)**.
 
 <div align="center">
 <img src="/gallery/blog/steam-on-ubuntu-mate.png" alt="Steam on Ubuntu MATE" title="Steam on Ubuntu MATE"/>
 </div>
 
-Pedro ran the benchmarks he is most familar with on his Steam Box, but
-replaced the SSD with one that had Ubuntu MATE 16.04 installed. Pedro
-also tested all the available compositor options available in Ubuntu
-MATE, afterall, we've included a number of compositor options to suit
-different use cases. This is the hardware, software and configuration
-used:
+Pedro ran the benchmarks he is most familar with on his Steam Box by simply 
+replacing the SSD with one that had Ubuntu MATE 16.04 installed. Pedro also 
+tested all the available compositor options available in Ubuntu MATE, 
+afterall, we've included a number of compositor options to suit different use 
+cases. This is the hardware, software and configuration used:
 
 <div class="row" name="system_spec">
   <div class="col-xs-4">
@@ -70,7 +69,7 @@ used:
   </div>  
 </div>
 
-All benchmarks we run at 1920x1080. The table below shows the **average
+All benchmarks were run at 1920x1080. The table below shows the **average
 frames per second** for each benchmark. The colouring of the average
 frames per second denotes how much, if any, screen tearing was visible.
 
@@ -131,16 +130,16 @@ So what do we learn from the benchmarks above?
   This **explains why the Phoronix benchmarks didn't show Ubuntu MATE in
   the best light**, since it can be the lowest performing option for gaming.
     * Perhaps Marco needs some logic to Unredirect Fullscreen Windows.
-  * Using **Compton or Compiz will give you a tear free gaming** experience.
+  * Using **Compton or Compiz provides tear free gaming**.
   * **Compton (slightly) out performs Compiz**.
-  * Perdro tells me that **running Ubuntu MATE with Compton the average
+  * Perdro tells me that when **running Ubuntu MATE with Compton the average
   frames per second is about 2 FPS lower than SteamOS** on the same
   hardware.
     * This seems reasonable given that Ubuntu MATE is a general purpose
     desktop operating system and SteamOS is purpose built for gaming.
   * **Vulkan is [the cat's pyjamas](http://www.urbandictionary.com/define.php?term=Cats%20pajamas)!**
 
-Thanks to the benchmarks Pedro Mateus conducted **we can recommend that
-to get the optimum gaming experience on Ubuntu MATE you should use the
-Compton Window Manager option** and that **Ubuntu MATE gaming performance
-is just about on par with SteamOS.**
+From the benchmarks [Pedro Mateus](https://plus.google.com/+PedroMateus) 
+conducted **we can recommend that to get the optimum gaming experience on 
+Ubuntu MATE you should use Compton**, which can be enable via MATE Tweak, and 
+that **Ubuntu MATE gaming performance is just about on par with SteamOS**.

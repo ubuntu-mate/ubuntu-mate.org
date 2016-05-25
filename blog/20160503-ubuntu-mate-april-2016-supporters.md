@@ -29,7 +29,7 @@ These donations will be used to pay for:
   * All Ubuntu MATE hosting and server costs for April 2016.
   * All the Ubuntu MATE CDN, bandwidth and email charges for April 2016.
   * Spent **&pound;62.90** on 2x Raspberry Pi 3 Mobel B for development and testing.
-  * Spent **&pound;52.00** on 20x 4GB USB 2.0 memory sticks and 10x 2GB USB 2.0 memor sticks
+  * Spent **&pound;52.00** on 20x 4GB USB 2.0 memory sticks and 10x 2GB USB 2.0 memory sticks
     * These were flashed with Ubuntu MATE 16.04 (amd64 and i386) and handed out to visitors to the 11th Egham Raspberry Jam.
   * Donated **&euro;690** (taking into account currency variations) to 4 Open Source developers working on Ubuntu MATE and MATE Desktop projects.
   * This brings Ubuntu MATEs total donations to other Open Source projects and developers to approximately **$5310.90** (taking into account currency variations).
