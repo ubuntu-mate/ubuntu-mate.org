@@ -40,6 +40,9 @@ doesn't. This is an iterative process to improve the snap platform and package
 more MATE components until running a full desktop environment on a Snappy 
 system is possible.
 
+We're delighted to be involved with Snappy and are looking forward to the road 
+ahead and the role Snaps will play in Ubuntu MATE's *"retrospective future"*.
+
 ### What! You're dropping .deb? *R-A-G-E!&nbsp; Q-U-I-T!* Alt+F4
 
 <div class="bs-component">
@@ -56,15 +59,25 @@ system is possible.
 ### Snap progress
 
 Right now we've got one snap package for Galculator, which is part of the MATE 
-Desktop suite of applications, and it currently looks like this:
+Desktop suite of applications, and our first attempt looked liked this:
 
 <div align="center">
 <img src="/gallery/Progress-201605/Snappy_Galculator.png" alt="Snappy Galculator" />
 </div>
 
-Oh dear! As you can see it's *very* early days `;-)` We're delighted to be 
-involved with Snappy and are looking forward to the road ahead and the role 
-Snaps will play in Ubuntu MATE's *"retrospective future"*.
+Oh dear! As you can see it's *very* early days `;-)` Fortunately, after some advice from
+Ubuntu developers, it now looks like this:
+
+<div align="center">
+<img src="/gallery/Progress-201605/Snappy_Galculator_2nd_Day.png" alt="Snappy Galculator Day 2" />
+</div>
+
+Better! On the second day of experimenting with Snappy things improved. There 
+is still an issue with rendering some images, the .png images that surround 
+the buttons in this case, but fonts and themes are working.
+
+Work has now started on Snapping more complex MATE applications such as Pluma (the 
+text editor) and Caja (the filemanager). 
 
 ### Why are Snaps important to me?
 
