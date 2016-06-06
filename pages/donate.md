@@ -16,23 +16,25 @@ img.centered {
     margin-right: auto }
 </style>
 
-This funding campaign has three main objectives:
+This crowd funding campaign has three main objectives:
 
   * Fund the Ubuntu MATE project's hosting and bandwidth costs. These include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks.
   * Fund the full time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidise the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
   * Support other Open Source projects that Ubuntu MATE depends upon.
 
-Patrons will be rewarded with exclusive project news, updates and invited to
-participate in video conferences where you can talk to the developers directly.
+Patrons will be rewarded with exclusive project news, updates and
+invited to participate in video conferences where you can talk to the
+developers directly.
 
-We have set up a number of payment options that should hopefully suit everyone.
-Go on, be brilliant, help grow our community.
+We have set up a number of payment options that should hopefully suit
+everyone. Go on, be brilliant, help grow our community.
 
 ## Patreon
 
-This is a unique way to fund an Open Source community. A regular monthly income
-for the Ubuntu MATE project will allow us to better plan how best to reward our
-contributors and sponsor other Open Source projects.
+This is a unique way to fund an Open Source community. A regular
+monthly income for the Ubuntu MATE project will allow us to better plan
+how best to reward our contributors and sponsor other Open Source
+projects.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -205,9 +207,9 @@ sponsorship packages.
   </div>
 </div>
 
-# Summary of donations
+# Crowd funding summary
 
-We post an overview of how the donations were used each month.
+We post an overview of how the funds were used each month.
 
   * [2014 November](/blog/ubuntu-mate-november-2014-supporters/)
   * [2014 December](/blog/ubuntu-mate-december-2014-supporters/)
@@ -227,6 +229,7 @@ We post an overview of how the donations were used each month.
   * [2016 February](/blog/ubuntu-mate-february-2016-supporters/)    
   * [2016 March](/blog/ubuntu-mate-march-2016-supporters/)
   * [2016 April](/blog/ubuntu-mate-april-2016-supporters/)
+  * [2016 May](/blog/ubuntu-mate-may-2016-supporters/)  
 
 <script type="text/javascript">
   function validateMonthlyForm() {
