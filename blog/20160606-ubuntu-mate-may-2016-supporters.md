@@ -29,7 +29,7 @@ This months crowd funding will be used to pay for:
 
   * All Ubuntu MATE hosting and server costs for May 2016.
   * All the Ubuntu MATE CDN, bandwidth and email charges for May 2016.
-  * Donated **&euro;1977** (taking into account currency variations) to 7 Open Source developers working on Ubuntu MATE and MATE Desktop projects.
+  * Paid **&euro;1977** (taking into account currency variations) to 7 Open Source developers for working on Ubuntu MATE and MATE Desktop projects.
   * This brings Ubuntu MATEs total funding to other Open Source projects and developers to approximately **$7287.90** (taking into account currency variations).
   * We will be reviewing how we can put the surplus funds from May to good use and expand our contributor rewards to finance some additional development activities.
 
