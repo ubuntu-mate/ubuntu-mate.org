@@ -32,7 +32,7 @@ why; **they've been well tested**.
 
 The packages in this PPA are derived from the MATE Desktop 1.14 packages that 
 were recently uploaded to Debian unstable. The upgrade issues encountered in 
-Debian unstable have been fixed and all the packages have transistioned to 
+Debian unstable have been fixed and all the packages have transitioned to 
 Debian testing. All the upgrade fixes are included in this PPA to ensure a 
 smooth transition. We also waited for the first MATE Desktop bugfix release, so 
 **what you are getting today is actually MATE Desktop 1.14.1**.
