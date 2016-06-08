@@ -26,7 +26,7 @@ develop and test Ubuntu MATE.
 
   * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
-  * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) Ubuntu MATE developer.
+  * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) Ubuntu MATE developer and community moderator.
   * [Marcos Costales](https://wiki.ubuntu.com/costales) Developer of special projects for Ubuntu MATE.
 
 ## Maintainers
@@ -62,6 +62,15 @@ These are the social animals of the Ubuntu MATE community who help spread
 the word.
 
   * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
+
+## Community
+
+The moderators of the community who keep it running in good shape.
+
+  * [Gerard Aalders](https://ubuntu-mate.community/users/wizd3m)
+  * [Jerry S](https://ubuntu-mate.community/users/v3xx)
+  * [Chris Gardiner-Bill](https://ubuntu-mate.community/users/CGB)
+  * [Steve Radonich](https://ubuntu-mate.community/users/sradonichiv)
 
 ## Contributors
 
