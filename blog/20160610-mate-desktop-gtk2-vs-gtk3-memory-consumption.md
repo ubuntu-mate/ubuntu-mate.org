@@ -132,7 +132,7 @@ built against GTK3 use more RAM than their GTK2 counterparts.
 following reasons:
 
   * **Tilda is no longer executed by default in Ubuntu MATE 16.10**, it is now an option in MATE Tweak.
-  * Network Manager uses `systemd-resolve` via `libnns-resolve` for DNS lookups in 16.10 as opposed to `dnsmasq` in 16.04. This makes **Network Manager ever so slightly less resource intensive in Ubuntu 16.10**.
+  * Network Manager uses `systemd-resolved` via `libnss-resolve` for DNS lookups in 16.10 as opposed to `dnsmasq` in 16.04. This makes **Network Manager ever so slightly less resource intensive in Ubuntu 16.10**.
   * **All the default applications and components started in the default Ubuntu MATE 16.10 configuration use GTK3 only**, none use GTK2. So **only one toolkit is resident in memory**, not two as in Ubuntu MATE 16.04.
 
 ## Full `ps_mem` output
