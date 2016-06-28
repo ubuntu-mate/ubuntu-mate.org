@@ -42,6 +42,39 @@
             "warning-text": ""
         },
         "2": {
+            "codename": "yakkety",
+            "lts": false,
+            "lts-end-date": "",
+            "magnet-uri": {
+                "amd64": "magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-16.10-desktop-amd64.iso",
+                "armhf": "magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-16.10.3-desktop-armhf-raspberry-pi-2.img.xz",
+                "i386": "magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-16.10-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
+            },
+            "name": "Ubuntu MATE 16.10",
+            "release-notes": "/blog/ubuntu-mate-yakkety-alpha1/",
+            "rpi-mirrors": {
+                "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",
+                "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",
+                "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",
+                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent"
+            },
+            "rpi-visible": false,
+            "sha256sum": {
+                "amd64": "caf12e840f33eae535332b98d4491ce3f36e2c32cb4196a2e08209f39d626dec",
+                "armhf": "49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94",
+                "i386": "6a5f118dff0539779693a9d0560a503e3e90a7352099a86bf84afcca3c342f95",
+                "powerpc": "56fa37086e950a3055e638fdef2fb58de78b45c917bc7adb7e577c602e324463"
+            },
+            "show-warning": false,
+            "state": "alpha",
+            "type": "desktop",
+            "version": "16.10",
+            "visible": true,
+            "warning-header": "",
+            "warning-text": ""
+        },
+        "3": {
             "codename": "wily",
             "lts": false,
             "lts-end-date": "",
