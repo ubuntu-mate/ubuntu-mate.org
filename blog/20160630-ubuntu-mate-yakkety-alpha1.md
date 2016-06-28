@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.10 Alpha 1
 .. slug: ubuntu-mate-yakkety-alpha1
-.. date: 2016-06-30 18:00:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,alpha1,draft
+.. date: 2016-06-28 13:00:00 UTC
+.. tags: Ubuntu,MATE,Yakkety,alpha1
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 1
 .. type: text
@@ -16,7 +16,7 @@ being the first distro to switch to GTK3+ and it would all come a gutser. But
 we put in big mobs of effort to ensure it's not complete ball dust. Give it a 
 burl!**
 
-Thea above statement is for the benefit of our friends at 
+The above statement is for the benefit of our friends at 
 [#systemau](https://systemau.net.au/) who lament the often predictable and 
 dreary wording used in Linux distro release announcements. We hope we've help 
 restore balance to the force `;-)`
@@ -29,7 +29,8 @@ With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 <div align="center">
-<img src="/gallery/blog/ubuntu-mate-1610-alpha1.png" alt="Ubuntu MATE 16.10 Alpha 1" />
+<img src="/gallery/blog/ubuntu-mate-1610-alpha1.png" alt="Ubuntu MATE 16.10 Alpha 1" /><br />
+<b>As is now customary our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.</b>
 </div>
 
 ## What works?
@@ -59,9 +60,9 @@ First of all, Ubuntu MATE 16.10 Alpha 1 owes a debt of thanks to:
   * **[Mike Gabriel](https://sunweavers.net/blog/)** for reviewing and sponsoring uploads of MATE 1.14 to Debian.
   * **[Vlad Orlov](https://github.com/monsta)** for migrating MATE components to GTK3+ and fixing Indicator support in MATE Desktop 1.14.
 
-### Here is what changed Ubuntu MATE 16.04 was released.
+### What changed since Ubuntu MATE 16.04 was released?
 
-Before we list what's been added or updated, lets go over what has been 
+Before we list what's been added and updated, lets go over what has been 
 dropped (for good) and what is temporarily missing.
 
   * **GNOME Main Menu, the menu used in the openSUSE layout, has been dropped**. For good.
@@ -80,6 +81,11 @@ This is what have been updated or added.
   * All the Ubuntu MATE seeds and meta-packages have been completely overhauled**.
     * Basically **we've started over, and completely rebuilt Ubuntu MATE 16.10 from the ground up**.
     * It is now possible to **safely uninstall all the default applications without the `ubuntu-mate-desktop` package also being removed**.
+  * **New community contributed wallpapers from:**
+    * [Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)    
+    * [Jordyn](https://ubuntu-mate.community/t/animated-waves-wallpaper/6228)
+    * [Okinawa](https://ubuntu-mate.community/t/ubuntu-16-04-lts-mustache-wallpaper/4443)
+    * [Per Andersson](https://ubuntu-mate.community/t/wallpapers-rootmate-dragonmate-selassiemate-selassiegray/6662)
   * **Upgraded to MATE Desktop 1.14**, which is now built entirely against GTK 3.18.
     * **Indicator support** for MATE Desktop, when built against GTK3+, has been **significantly improved**.
     * **Ambiant-MATE and Radiant-MATE themes have been completely reworked** to support GTK 3.18.
@@ -108,9 +114,8 @@ This is what have been updated or added.
     * Supports **enabling new style GTK3+ indicators**.
     * **Supports `xcompmgr` compositor, the preferred compositor to use along side the Raspberry Pi hardware accelerated VC4 drivers**.
     * **Tilda is no longer enabled by default**. Tilda is still installed by default, but can now be optionally enabled via MATE Tweak.
-  * **Upgraded [MATE Dock Applet]()** which now supports GTK3+
+  * **Upgraded [MATE Dock Applet](https://github.com/robint99/mate-dock-applet)** which now supports GTK3+
   * **Upgraded [MATE Menu](https://bitbucket.org/ubuntu-mate/mate-menu)** which now support GTK3+
-  * Translations have been updated across the board.
 
 <div class="bs-component">
     <div class="jumbotron">
