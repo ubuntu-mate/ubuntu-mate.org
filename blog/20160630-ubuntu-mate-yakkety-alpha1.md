@@ -97,7 +97,8 @@ This is what have been updated or added.
     * Sports a **new look and many visual and usability enhancements**.
     * Getting Started section offers **much more assistance for a post install setup and configuration**. (Some elements back ported to 16.04)
     * Adds **driver installer for Logitech's Unifying Receiver peripherals**.
-    * Includes a **[test suite with continuous integration](https://semaphoreci.com/lah7/ubuntu-mate-welcome)**.
+    * New builds are **[automatically tested](https://semaphoreci.com/lah7/ubuntu-mate-welcome)**.
+      * Testers can **check out [this daily PPA](https://launchpad.net/~lah7/+archive/ubuntu/ubuntu-mate-welcome-dev),** including packages for Xenial users wanting to test this new version of Welcome.
     * Detailed **system specifications can now be copied to the clipboard**.
     * Assorted **performance optimisations**.
   * **Upgraded Software Boutique.**
