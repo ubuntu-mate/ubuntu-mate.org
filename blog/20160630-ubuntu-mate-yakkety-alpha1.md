@@ -51,7 +51,7 @@ Ubuntu MATE *Alpha Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE 16.04 release?
 
-First of all, Ubuntu MATE 16.10 Alpha 1 owes a debt of thanks to:
+First of all, Ubuntu MATE 16.10 Alpha 1 owes a debt of gratitude to:
 
   * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** for developing Ubuntu MATE Welcome and Software Boutique.
   * **[Robin Thompson](https://github.com/robint99)** for migrating MATE Dock Applet to GTK3+
@@ -65,10 +65,10 @@ First of all, Ubuntu MATE 16.10 Alpha 1 owes a debt of thanks to:
 Before we list what's been added and updated, lets go over what has been 
 dropped (for good) and what is temporarily missing.
 
-  * **GNOME Main Menu, the menu used in the openSUSE layout, has been dropped**. For good.
-    * It is GTK2+ only and no one in the MATE team is interested is porting it to GTK3+ and maintaining it. It also isn't very good.
-  * The **openSUSE layout is currently missing but will be re-instated** in MATE Desktop 1.16.
-    * It will obviously use a different menu.
+  * **GNOME Main Menu (as used in the openSUSE layout) has been dropped.**
+    * No one in the MATE team believes this applet is good enough to port to GTK3+. As it is GTK2+ only and has nobody to port or maintain it, this applet will be dropped for good.
+  * **The openSUSE layout is currently missing but will be re-instated in MATE Desktop 1.16.**
+    * This will feature a different menu applet.
   * The **Mutiny layout is currently missing but will be re-instated** when the `topmenu-gtk` MATE applet has been rebuilt for GTK3+
   * **Pidgin will no longer installed by default**
     * Pidgin is now available in the Software Boutique.
@@ -81,6 +81,7 @@ This is what have been updated or added.
   * All the Ubuntu MATE seeds and meta-packages have been completely overhauled**.
     * Basically **we've started over, and completely rebuilt Ubuntu MATE 16.10 from the ground up**.
     * It is now possible to **safely uninstall all the default applications without the `ubuntu-mate-desktop` package also being removed**.
+    * **[Memory consumption of Ubuntu MATE 16.10 Alpha 1 is lower](/blog/mate-desktop-gtk2-vs-gtk3-memory-consumption/)** than that of Ubuntu MATE 16.04.
   * **New community contributed wallpapers from:**
     * [Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)    
     * [Jordyn](https://ubuntu-mate.community/t/animated-waves-wallpaper/6228)
@@ -89,13 +90,12 @@ This is what have been updated or added.
   * **Upgraded to MATE Desktop 1.14**, which is now built entirely against GTK 3.18.
     * **Indicator support** for MATE Desktop, when built against GTK3+, has been **significantly improved**.
     * **Ambiant-MATE and Radiant-MATE themes have been completely reworked** to support GTK 3.18.
-    * **[Memory consumption of Ubuntu MATE 16.10 Alpha 1 is lower](/blog/mate-desktop-gtk2-vs-gtk3-memory-consumption/) than that of Ubuntu MATE 16.04.
     * **We have initial HiDPI support *(almost)* working.** Don't get too excited, this is an all or nothing implementation. When enabled **all GTK3+ applications (not just MATE) will be rendered using high quality pixel doubling**. If you have a [2160p](https://en.wikipedia.org/wiki/4K_resolution) display, it looks ace `:-D`
     * You can find out **[what changed in MATE Desktop 1.14 from the upstream release announcement](http://mate-desktop.org/blog/2016-04-08-mate-1-14-released/)**.
   * **Upgraded Ubuntu MATE Welcome** to *16.10.4*
     * Ported to WebKit2 4.0. **The transitions and animations are now hardware accelerated (where supported)** and it looks very smooth indeed.
     * Sports a **new look and many visual and usability enhancements**.
-    * Getting Started section offers **much more assistance for a post install setup and configuration**.
+    * Getting Started section offers **much more assistance for a post install setup and configuration**. (Some elements back ported to 16.04)
     * Adds **driver installer for Logitech's Unifying Receiver peripherals**.
     * Includes a **[test suite with continuous integration](https://semaphoreci.com/lah7/ubuntu-mate-welcome)**.
     * Detailed **system specifications can now be copied to the clipboard**.
