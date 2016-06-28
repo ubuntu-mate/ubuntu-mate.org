@@ -105,6 +105,7 @@ This is what have been updated or added.
     * **Adds News to inform you of additions/removals to the Software Boutique.** (Back ported to 16.04)
     * **Adds Search facility** so you can quickly find software by name, keyword and description. (Back ported to 16.04)
     * **Adds Bulk queue installs** so you can queue up multiple applications to install at once.
+    * **Adds a **[responsive design](https://www.youtube.com/watch?v=U_OejlprNnY)** so you can see more software listings when resizing or maximising the Software Boutique window.
     * **Software Boutique now stocks ~160 applications**. (Back ported to 16.04)
     * Introduces a new feature to **display a complete list of all applications and the repositories they are sourced from**.
     * Support added for **installing software for `arm64` and `ppc64el` architectures**.
