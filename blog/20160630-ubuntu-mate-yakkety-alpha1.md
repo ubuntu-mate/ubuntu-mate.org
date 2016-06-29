@@ -136,15 +136,10 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
-  * A thing, described.
-    * [#xxxxxxx](https://bugs.launchpad.net/bugs/xxxxxxx)
-
-This is our known list of bugs that affect just Ubuntu MATE.
-
-  * Describe a thing.
-    * [#yyyyyyy](https://bugs.launchpad.net/bugs/yyyyyyy)
-
-The issues outlined above will be resolved via updates.
+  * After complete an OEM install running "Prepare for shipping to end user" causes `systemctl` to segfault.
+    * [#1597248](https://bugs.launchpad.net/bugs/1597248)
+  * Creating a `btrfs` or `xfs` partition fails during install.
+    * [#1591851](https://bugs.launchpad.net/bugs/1591851)
 
 ### PowerPC
 
