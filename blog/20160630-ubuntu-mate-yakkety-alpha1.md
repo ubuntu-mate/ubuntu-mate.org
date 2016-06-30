@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.10 Alpha 1
 .. slug: ubuntu-mate-yakkety-alpha1
-.. date: 2016-06-28 13:00:00 UTC
+.. date: 2016-06-30 13:00:00 BST
 .. tags: Ubuntu,MATE,Yakkety,alpha1
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 1
