@@ -47,9 +47,9 @@ Ubuntu MATE has a number of guiding objectives and goals.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active">Minimum</a>
-        <a class="list-group-item">Pentium III 750 megahertz</a>
-        <a class="list-group-item">512 megabytes (MB) of RAM</a>
-        <a class="list-group-item">8 gigabytes (GB) of available space on the hard disk</a>
+        <a class="list-group-item">Pentium M 1.0 gigahertz</a>
+        <a class="list-group-item">1 gigabyte (GB) of RAM</a>
+        <a class="list-group-item">9 gigabytes (GB) of available space on the hard disk</a>
         <a class="list-group-item">Bootable DVD-ROM drive</a>
         <a class="list-group-item">Keyboard and mouse (or other pointing device)</a>
         <a class="list-group-item">Video adapter and monitor with 1024 x 768 or higher resolution</a>
