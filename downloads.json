@@ -63,10 +63,10 @@
             },
             "rpi-visible": false,
             "sha256sum": {
-                "amd64": "caf12e840f33eae535332b98d4491ce3f36e2c32cb4196a2e08209f39d626dec",
-                "armhf": "49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94",
-                "i386": "6a5f118dff0539779693a9d0560a503e3e90a7352099a86bf84afcca3c342f95",
-                "powerpc": "56fa37086e950a3055e638fdef2fb58de78b45c917bc7adb7e577c602e324463"
+                "amd64": "07f073d8f29ffa0840fc4195988a874d481ae34124f415ab957646be34f18dd5",
+                "armhf": "",
+                "i386": "b34670a657aa87f7ec74ab7ebd4ec08e6d417ceefae8dfbb39fac19f144fe79c",
+                "powerpc": "58269bfe828236fa50e35749b896645bd1d4621a345a8c99fa5439ed046fbab8"
             },
             "show-warning": false,
             "state": "alpha1",
