@@ -12,17 +12,22 @@ We have a number of ways you can connect with the Ubuntu MATE community.
 
 ## Discussion
 
-If you want to chat with the Ubuntu MATE team and other members of our
-growing community, this is where to go.
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE Community Forum</h1>
-        <p>The best place to play an active role in the Ubuntu MATE community
-        and to help shape its direction is via our forum.</p>
-        <a href="https://ubuntu-mate.community" class="btn btn-primary btn-lg">Forum</a>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="text-center">
+      <br>
+      <img src="/assets/img/downloads/community.png" alt="Community">
     </div>
+  </div>
+  <div class="col-xs-9">
+    <br>
+    <h3>Get Involved</h3>
+    <p>Stop by to share your experiences, ask questions and discuss topics
+    with other users and developers in our growing community.</p>
+    <p><a href="https://ubuntu-mate.community"><span class="fa fa-comments"></span> Meet the Community</a></p>
+  </div>
 </div>
+<hr />
 
 <noscript>
   <div class="alert alert-danger">
@@ -65,9 +70,26 @@ Ubuntu MATE is active on the following social networks.
 
 ## Development
 
-This is where you can get involved with Ubuntu MATE and MATE Desktop development.
+<div class="row">
+  <div class="col-xs-3">
+    <div class="text-center">
+      <br>
+      <img src="/assets/img/downloads/bugs.png" alt="Bug Tracker">
+    </div>
+  </div>
+  <div class="col-xs-9">
+    <br>
+    <h3>Found a bug?</h3>
+    <p>Please submit your detailed and reproducable bug reports to Launchpad
+    so that the relevant developers can fix them in future updates.</p>
+    <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
+  </div>
+</div>
+<br />
 
 ### Ubuntu MATE
+
+This is where you can get involved with Ubuntu MATE development.
 
 <div class="row">
   <div class="col-xs-4">
@@ -91,6 +113,8 @@ This is where you can get involved with Ubuntu MATE and MATE Desktop development
 </div>
 
 ### MATE Desktop
+
+This is where you can get involved with MATE Desktop development.
 
 <div class="row">
   <div class="col-xs-6">

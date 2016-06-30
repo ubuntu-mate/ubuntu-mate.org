@@ -106,7 +106,7 @@ at least 512MB of RAM to install from this image.
     </div>
   </a>
 </div>
-<hr>
+<hr />
 
 <div id="download-links" class="row" hidden>
   <div id="release-notes" class="row">
@@ -124,7 +124,7 @@ at least 512MB of RAM to install from this image.
       ALERT-PLACEHOLDERS
     </div>
   </div>
-  <hr>
+  <hr />
 
   <div id="bittorrent" class="row">
     <div class="col-xs-3">
@@ -145,7 +145,7 @@ at least 512MB of RAM to install from this image.
       </p-->
     </div>
   </div>
-  <hr>
+  <hr />
 
   <div class="row">
     <div class="col-xs-3">
@@ -170,7 +170,7 @@ at least 512MB of RAM to install from this image.
       </p>
     </div>
   </div>
-  <hr>
+  <hr />
 
   <div id="direct-download" class="row">
     <div class="col-xs-3">
@@ -209,7 +209,7 @@ at least 512MB of RAM to install from this image.
       </div>
     </div>
   </div>
-  <hr>
+  <hr />
 
   <div id="sponsor1" class="row">
     <div class="col-xs-3">
@@ -230,7 +230,7 @@ at least 512MB of RAM to install from this image.
       </p>
     </div>
   </div>
-  <br>
+  <br />
 
   <div id="sponsor2" class="row">
     <div class="col-xs-3">
@@ -252,7 +252,31 @@ at least 512MB of RAM to install from this image.
       </p>
     </div>
   </div>
-  <hr>
+  <hr/>
+
+  <div id="getting-started" class="row">
+    <div class="row">
+      <div class="col-xs-3">
+        <div class="text-center">
+          <br>
+          <img src="../assets/img/downloads/getting-started.png" alt="Getting Started">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <br>
+        <h3>Getting Started</h3>
+        <p>The following resources may be useful to help get you up and running.</p>
+        <p>
+          <ul>
+            <li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
+            <li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
+            <li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> Check your System Requirements</a></li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr />
 
   <div id="mirrors" class="row">
     <div class="col-xs-3">
@@ -273,66 +297,8 @@ at least 512MB of RAM to install from this image.
       <p>OTHER-DOWNLOAD-LINKS</p>
     </div>
   </div>
-  <hr id="mirrors-hr">
+  <hr id="mirrors-hr" />
 </div>
-
-<div id="getting-started" class="row">
-  <div class="row">
-    <div class="col-xs-3">
-      <div class="text-center">
-        <br>
-        <img src="../assets/img/downloads/getting-started.png" alt="Getting Started">
-      </div>
-    </div>
-    <div class="col-xs-9">
-      <br>
-      <h3>Getting Started</h3>
-      <p>The following resources may be useful to help get you up and running.</p>
-      <p>
-        <ul>
-          <li><a href="../how-to-create-bootable-usb-drive"><span class="fa fa-usb"></span> Creating a bootable USB on Windows, Mac and GNU/Linux</a></li>
-          <li><a href="https://help.ubuntu.com/community/BurningIsoHowto"><span class="fa fa-dot-circle-o"></span> Burning a DVD on Windows, Mac and GNU/Linux</a></li>
-          <li><a href="../about/#hardware_requirements"><span class="fa fa-laptop"></span> Check your System Requirements</a></li>
-        </ul>
-      </p>
-    </div>
-  </div>
-</div>
-<hr />
-
-<div class="row">
-  <div class="col-xs-3">
-    <div class="text-center">
-      <br>
-      <img src="../assets/img/downloads/community.png" alt="Community">
-    </div>
-  </div>
-  <div class="col-xs-9">
-    <br>
-    <h3>Get Involved</h3>
-    <p>Stop by to share your experiences, ask questions and discuss topics
-    with other users and developers in our growing community.</p>
-    <p><a href="https://ubuntu-mate.community"><span class="fa fa-comments"></span> Meet the Community</a></p>
-  </div>
-</div>
-<hr />
-
-<div class="row">
-  <div class="col-xs-3">
-    <div class="text-center">
-      <br>
-      <img src="../assets/img/downloads/bugs.png" alt="Bug Tracker">
-    </div>
-  </div>
-  <div class="col-xs-9">
-    <br>
-    <h3>Found a bug?</h3>
-    <p>Please submit your detailed and reproducable bug reports to Launchpad
-    so that the relevant developers can fix them in future updates.</p>
-    <p><a href="https://bugs.launchpad.net/ubuntu-mate"><span class="fa fa-bug"></span> View Bug Tracker</a></p>
-  </div>
-</div>
-<br />
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
