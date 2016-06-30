@@ -1,7 +1,9 @@
 {
     "global": {
+        "canonical-prerelease-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso",
         "canonical-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso",
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
+        "canonical-prerelease-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso.torrent",
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "name-ca": "Canadian Mirror",
         "name-eu": "European CDN",
@@ -11,7 +13,7 @@
         "1": {
             "codename": "xenial",
             "lts": true,
-            "lts-end-date": "in 2019",
+            "end-date": "April 2019",
             "magnet-uri": {
                 "amd64": "magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso",
                 "armhf": "magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
@@ -44,14 +46,14 @@
         "2": {
             "codename": "yakkety",
             "lts": false,
-            "lts-end-date": "",
+            "end-date": "February 2017",
             "magnet-uri": {
                 "amd64": "magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-16.10-desktop-amd64.iso",
                 "armhf": "magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-16.10.3-desktop-armhf-raspberry-pi-2.img.xz",
                 "i386": "magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-16.10-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
             },
-            "name": "Ubuntu MATE 16.10",
+            "name": "Ubuntu MATE 16.10 Alpha 1",
             "release-notes": "/blog/ubuntu-mate-yakkety-alpha1/",
             "rpi-mirrors": {
                 "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",
@@ -67,7 +69,7 @@
                 "powerpc": "56fa37086e950a3055e638fdef2fb58de78b45c917bc7adb7e577c602e324463"
             },
             "show-warning": false,
-            "state": "alpha",
+            "state": "alpha1",
             "type": "desktop",
             "version": "16.10",
             "visible": true,
@@ -77,7 +79,7 @@
         "3": {
             "codename": "wily",
             "lts": false,
-            "lts-end-date": "",
+            "end-date": "July 2016",
             "magnet-uri": {
                 "amd64": "magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-15.10-desktop-amd64.iso",
                 "armhf": "magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz",

@@ -208,8 +208,12 @@ class DownloadPageScript(object):
                     url = self.downloads['release'][release_id]['rpi-mirrors']['torrent']
                     url_file = url.split('/')[-1]
                 else:
-                    url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-                    url_file = url.split('/')[-1]
+                    if distro_state.startswith('alpha') or distro_state.startswith('beta'):
+                        url = self.downloads['global']['canonical-prerelease-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        url_file = url.split('/')[-1]
+                    else:
+                        url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        url_file = url.split('/')[-1]
 
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
                 buffer_torrent_links = buffer_torrent_links + template + '\n'
@@ -245,8 +249,13 @@ class DownloadPageScript(object):
                     buffer_direct_fr_links = buffer_direct_fr_links + template + '\n'
 
                 else:
-                    url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-                    url_file = url.split('/')[-1]
+                    if distro_state.startswith('alpha') or distro_state.startswith('beta'):
+                        url = self.downloads['global']['canonical-prerelease-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        url_file = url.split('/')[-1]
+                    else:
+                        url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        url_file = url.split('/')[-1]
+
                     template = '<a class="' + distro_codename + '-' + arch + '" href="' + url +'" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
                     buffer_direct_links = buffer_direct_links + template + '\n'
 
@@ -262,19 +271,45 @@ class DownloadPageScript(object):
                 buffer_checksums = buffer_checksums + template + '\n'
 
             # Alert Box for LTS Status
-            if self.downloads['release'][release_id]['lts']:
-                end_date = self.downloads['release'][release_id]['lts-end-date']
-                alert_title = "This release has Long Term Support (LTS)"
-                alert_text  = "Recommended if you desire a stable system. Support ends <b>LTS_END_DATE</b>.".replace('LTS_END_DATE', end_date)
-                template = '<div class="alert alert-success '
-                # Raspberry Pi releases are not long term supported.
-                for arch in self.archs:
-                    if not arch == 'armhf':
+            if self.downloads['release'][release_id]['end-date']:
+                end_date = self.downloads['release'][release_id]['end-date']
+                if self.downloads['release'][release_id]['lts']:
+                    alert_title = "This release has Long Term Support (LTS)"
+                    alert_text  = "Recommended if you desire a stable system. Support ends <b>END_DATE</b>.".replace('END_DATE', end_date)
+                    template = '<div class="alert alert-success '
+                    for arch in self.archs:
+                        # Raspberry Pi releases are not long term supported.
+                        if not arch == 'armhf':
+                            template = template + distro_codename + '-' + arch + ' '
+
+                    template = template + '" hidden>' + \
+                                '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
+                                '<p>' + alert_text + '</p>' + \
+                            '</div>'
+                elif distro_state.startswith('alpha') or distro_state.startswith('beta'):
+                    alert_title = "This is a development pre-release"
+                    alert_text  = "Suitable for developers and tester who want to help with Ubuntu MATE QA, or to provide testing feedback and file issue reports."
+                    template = '<div class="alert alert-warning '
+                    # Raspberry Pi releases are not long term supported.
+                    for arch in self.archs:
                         template = template + distro_codename + '-' + arch + ' '
-                template = template + '" hidden>' + \
-                             '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
-                             '<p>' + alert_text + '</p>' + \
-                           '</div>'
+
+                    template = template + '" hidden>' + \
+                                '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
+                                '<p>' + alert_text + '</p>' + \
+                            '</div>'
+                else:
+                    alert_title = "This is an intermediate release"
+                    alert_text  = "Suitable for people who want to keep up with the latest developments in Ubuntu MATE and Open Source. Support ends <b>END_DATE</b>.".replace('END_DATE', end_date)
+                    template = '<div class="alert alert-info '
+                    # Raspberry Pi releases are not long term supported.
+                    for arch in self.archs:
+                        template = template + distro_codename + '-' + arch + ' '
+
+                    template = template + '" hidden>' + \
+                                '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
+                                '<p>' + alert_text + '</p>' + \
+                            '</div>'
                 buffer_alerts = buffer_alerts + template + '\n'
 
             # Alert Box for Important Issues  (e.g. serve bug, inform of experimental, or end of life.)
