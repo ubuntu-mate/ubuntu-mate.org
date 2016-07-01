@@ -19,7 +19,7 @@ it's not complete ball dust. Give it a burl!**
 The above statement is for the benefit of our friends at
 [#systemau](https://systemau.net.au/) who lament the predictable and
 often dreary wording used in Linux distro release announcements. We
-hope we've help restore balance to the force `;-)`
+hope we've helped restore balance to the force `;-)`
 
 # Ubuntu MATE 16.10 Alpha 1
 
