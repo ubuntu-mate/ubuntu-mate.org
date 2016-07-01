@@ -149,10 +149,10 @@ For aarch32 (ARMv7) computers, like:
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-i386.iso.torrent</a>
 <a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-powerpc.iso.torrent</a>
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent</a>
-<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/yakkety-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-amd64.iso.torrent</a>
-<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/yakkety-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-i386.iso.torrent</a>
-<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/yakkety-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-powerpc.iso.torrent</a>
-<a class="yakkety-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz.torrent</a>
+<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/yakkety-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-amd64.iso.torrent</a>
+<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/yakkety-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-i386.iso.torrent</a>
+<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/yakkety-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-powerpc.iso.torrent</a>
+<a class="yakkety-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent</a>
 <a class="wily-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-amd64.iso.torrent</a>
 <a class="wily-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-i386.iso.torrent</a>
 <a class="wily-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-powerpc.iso.torrent</a>
@@ -399,28 +399,28 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-amd64.iso</a>
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-i386.iso</a>
 <a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-powerpc.iso</a>
-<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/yakkety-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-amd64.iso</a>
-<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/yakkety-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-i386.iso</a>
-<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/yakkety-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-powerpc.iso</a>
+<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/yakkety-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-amd64.iso</a>
+<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/yakkety-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-i386.iso</a>
+<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/yakkety-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-powerpc.iso</a>
 <a class="wily-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-amd64.iso</a>
 <a class="wily-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-i386.iso</a>
 <a class="wily-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/ubuntu-mate-15.10-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-15.10-desktop-powerpc.iso</a>
 
 <img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>&nbsp;
 <a class="xenial-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
-<a class="yakkety-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
+<a class="yakkety-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz</a>
 <a class="wily-armhf" href="https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>European CDN</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
 
 <br class="rpi">
 <img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>&nbsp;
 <a class="xenial-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
-<a class="yakkety-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
+<a class="yakkety-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz</a>
 <a class="wily-armhf"  href="http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>Canadian Mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
 
 <br class="rpi">
 <img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>&nbsp;
 <a class="xenial-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
-<a class="yakkety-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
+<a class="yakkety-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz</a>
 <a class="wily-armhf" href="http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz" onclick="thanks()"><b>French Mirror</b> - ubuntu-mate-15.10.3-desktop-armhf-raspberry-pi-2.img.xz</a>
 
 </p>
@@ -430,10 +430,10 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <span class="xenial-i386">1.6 GB</span>
 <span class="xenial-powerpc">1.7 GB</span>
 <span class="xenial-armhf">1.1 GB</span>
-<span class="yakkety-amd64">Unknown</span>
-<span class="yakkety-i386">Unknown</span>
-<span class="yakkety-powerpc">Unknown</span>
-<span class="yakkety-armhf">994 MB</span>
+<span class="yakkety-amd64">1.8 GB</span>
+<span class="yakkety-i386">1.8 GB</span>
+<span class="yakkety-powerpc">1.9 GB</span>
+<span class="yakkety-armhf">Unknown</span>
 <span class="wily-amd64">1.2 GB</span>
 <span class="wily-i386">1.2 GB</span>
 <span class="wily-powerpc">1.2 GB</span>
@@ -446,10 +446,10 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <code class="xenial-i386">549bdf46fb959f0374e5e3de6b85b350226d930f50decba7c4aad64804a8e750</code>
 <code class="xenial-powerpc">a2c24cd68f2cbaf320f048cd3e3b22eddc0b721fdfde8defe626d92a313cebca</code>
 <code class="xenial-armhf">bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a</code>
-<code class="yakkety-amd64">caf12e840f33eae535332b98d4491ce3f36e2c32cb4196a2e08209f39d626dec</code>
-<code class="yakkety-i386">6a5f118dff0539779693a9d0560a503e3e90a7352099a86bf84afcca3c342f95</code>
-<code class="yakkety-powerpc">56fa37086e950a3055e638fdef2fb58de78b45c917bc7adb7e577c602e324463</code>
-<code class="yakkety-armhf">49ac8dfb73c203fe698a1a3c139b5cbec023c0d567253998e942d1fa236bbb94</code>
+<code class="yakkety-amd64">07f073d8f29ffa0840fc4195988a874d481ae34124f415ab957646be34f18dd5</code>
+<code class="yakkety-i386">b34670a657aa87f7ec74ab7ebd4ec08e6d417ceefae8dfbb39fac19f144fe79c</code>
+<code class="yakkety-powerpc">58269bfe828236fa50e35749b896645bd1d4621a345a8c99fa5439ed046fbab8</code>
+<code class="yakkety-armhf"></code>
 <code class="wily-amd64">caf12e840f33eae535332b98d4491ce3f36e2c32cb4196a2e08209f39d626dec</code>
 <code class="wily-i386">6a5f118dff0539779693a9d0560a503e3e90a7352099a86bf84afcca3c342f95</code>
 <code class="wily-powerpc">56fa37086e950a3055e638fdef2fb58de78b45c917bc7adb7e577c602e324463</code>
@@ -550,7 +550,7 @@ close to you in order to achieve a faster download.</p>
 </a>
 </p>
 <p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.04</a>
-<a class="yakkety" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha1/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.10</a>
+<a class="yakkety" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-1/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.10</a>
 <a class="wily" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/15.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 15.10</a>
 </p>
 </div>

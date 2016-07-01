@@ -72,7 +72,7 @@ class DownloadPageScript(object):
     # Useful functions used later in the script.
     def download_file(self, url):
         url_name = url.split('/')[-1]
-        print('\nDownloading file: ' + url_name)
+        print('\nDownloading file: ' + url)
         filename = wget.download(url)
         self.temp_files.append(filename)
         return filename
@@ -83,7 +83,7 @@ class DownloadPageScript(object):
 
     def get_download_size(self, url):
         url_name = url.split('/')[-1]
-        print('Downloading metadata: ' + url_name)
+        print('Downloading metadata: ' + url)
         try:
             response = str(subprocess.Popen(['wget','--spider', url], stderr=subprocess.PIPE).communicate()[1])
             response.split('\n')
