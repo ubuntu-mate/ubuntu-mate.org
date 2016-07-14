@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 16.10 Alpha 2
 .. slug: ubuntu-mate-yakkety-alpha2
 .. date: 2016-07-28 19:35:00 BST
-.. tags: Ubuntu,MATE,Yakkety,alpha2,draft
+.. tags: Ubuntu,MATE,Yakkety,alpha2,private
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
 .. type: text
@@ -62,9 +62,15 @@ First of all, Ubuntu MATE 16.10 Alpha 2 owes a debt of gratitude to:
 
 This is what have been updated or added.
 
-  * The `.iso` image is approximately 150MB smaller.
+  * Added **MATE Heads-Up Display (HUD)**
+    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default.
+  * Upgraded to **MATE Tweak 16.10.4**
+    * Improves Indicator support with the **introduction of the Message Menu.**
+    * Add option to **enable the MATE Heads-Up Display (HUD)**
+  * Firefox now has a **[customised Ubuntu MATE Start Page](https://start.ubuntu-mate.org)**.
   * *Cheese has been re-instated* as a default application.
   * *Indicator Session has been re-instated in Ubiquity while installing Ubuntu MATE.
+  * The `.iso` image is **approximately 150MB smaller**.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -83,7 +89,7 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
-  * After complete an OEM install running "Prepare for shipping to end user" causes `systemctl` to segfault.
+  * After completing an OEM install running "Prepare for shipping to end user" causes `systemctl` to segfault.
     * [#1597248](https://bugs.launchpad.net/bugs/1597248)
   * Creating a `btrfs` or `xfs` partition fails during install.
     * [#1591851](https://bugs.launchpad.net/bugs/1591851)
