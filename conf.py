@@ -537,8 +537,8 @@ DEPLOY_COMMANDS = {
         'scripts/armhf.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -a www/ martin@can.wimpress.io:Websites/ubuntu-mate.org/www/',
-        'rsync -a www/ martin@fra.wimpress.io:Websites/ubuntu-mate.org/www/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@can.wimpress.io:ubuntu-mate.org/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@fra.wimpress.io:ubuntu-mate.org/',
     ],
     'trusty': [
         'rsync -a output/ www/',
@@ -547,8 +547,8 @@ DEPLOY_COMMANDS = {
         'scripts/trusty.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -a www/ martin@can.wimpress.io:Websites/ubuntu-mate.org/www/',
-        'rsync -a www/ martin@fra.wimpress.io:Websites/ubuntu-mate.org/www/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@can.wimpress.io:ubuntu-mate.org/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@fra.wimpress.io:ubuntu-mate.org/',
     ],
     'armhf': [
         'rsync -a output/ www/',
@@ -557,8 +557,8 @@ DEPLOY_COMMANDS = {
         'scripts/armhf.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -a www/ martin@can.wimpress.io:Websites/ubuntu-mate.org/www/',
-        'rsync -a www/ martin@fra.wimpress.io:Websites/ubuntu-mate.org/www/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@can.wimpress.io:ubuntu-mate.org/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@fra.wimpress.io:ubuntu-mate.org/',
     ],
     'complete': [
         'rsync -a --delete output/ www/',
@@ -566,8 +566,8 @@ DEPLOY_COMMANDS = {
         'scripts/trusty.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -a --delete www/ martin@can.wimpress.io:Websites/ubuntu-mate.org/www/',
-        'rsync -a --delete www/ martin@fra.wimpress.io:Websites/ubuntu-mate.org/www/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@can.wimpress.io:ubuntu-mate.org/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@fra.wimpress.io:ubuntu-mate.org/',
     ],
 }
 
