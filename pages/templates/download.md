@@ -138,11 +138,11 @@ at least 512MB of RAM to install from this image.
       <p>
         TORRENT-LINKS
       </p>
-      <!--p>
+      <p>
         MAGNET-LINKS <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
           <span class="fa fa-info-circle"></span>
         </a>
-      </p-->
+      </p>
     </div>
   </div>
   <hr />
