@@ -12,7 +12,7 @@ import os
 import sys
 import inspect
 import json
-#~ import libtorrent   # Provided by package 'python3-libtorrent'   // MAGNET LINKS DISABLED
+import libtorrent   # Provided by package 'python3-libtorrent'
 import wget         # Provided by package 'python3-wget'
 import subprocess
 
@@ -20,7 +20,7 @@ import subprocess
 # ===== Arguments =====
 #   --update-all         =  Update everything for the page.
 #   --update-page        =  Regenerate the page.
-#   --update-magnet-uri  =  Update the magnet URIs saved to downloads.json.   // MAGNET LINKS DISABLED
+#   --update-magnet-uri  =  Update the magnet URIs saved to downloads.json.
 #
 
 class DownloadPageScript(object):
@@ -113,7 +113,6 @@ class DownloadPageScript(object):
 
     # Main functions
     def update_magnet_uri(self):
-        return                                                          # MAGNET LINKS DISABLED
         print("Updating Magnet URI...")
         for release_id in sorted(self.downloads['release'].keys()):
             if not self.downloads['release'][release_id]['visible']:
@@ -222,9 +221,9 @@ class DownloadPageScript(object):
                 # MAGNET LINKS DISABLED
                 ################################################
                 # Magnet URI for torrent
-                #~ magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
-                #~ template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
-                #~ buffer_magnet_links = buffer_magnet_links + template + '\n'
+                magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
+                template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
+                buffer_magnet_links = buffer_magnet_links + template + '\n'
                 ################################################
 
             ## Direct URL
@@ -351,7 +350,7 @@ class DownloadPageScript(object):
         self.do_replace('RPI-VISIBLE', buffer_rpi_class)
         self.do_replace('RELEASE-URL', buffer_release_notes)
         self.do_replace('TORRENT-LINKS', buffer_torrent_links)
-        #~ self.do_replace('MAGNET-LINKS', buffer_magnet_links)     // MAGNET LINKS DISABLED
+        self.do_replace('MAGNET-LINKS', buffer_magnet_links)
         self.do_replace('DIRECT-LINKS', buffer_direct_links)
         self.do_replace('DIRECT-EU-LINKS', buffer_direct_eu_links)
         self.do_replace('DIRECT-FR-LINKS', buffer_direct_fr_links)
