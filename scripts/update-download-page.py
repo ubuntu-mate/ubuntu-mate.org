@@ -45,7 +45,7 @@ class DownloadPageScript(object):
         for arg in sys.argv:
             if arg == '--update-all':
                 self.read_json()
-                #~ self.update_magnet_uri()     // MAGNET LINKS DISABLED
+                self.update_magnet_uri()
                 self.clean_up_temp()
                 self.save_json()
                 self.manipulate_page()
@@ -72,7 +72,7 @@ class DownloadPageScript(object):
     # Useful functions used later in the script.
     def download_file(self, url):
         url_name = url.split('/')[-1]
-        print('\nDownloading file: ' + url)
+        print('\nDownloading file: ' + url_name)
         filename = wget.download(url)
         self.temp_files.append(filename)
         return filename
@@ -83,7 +83,7 @@ class DownloadPageScript(object):
 
     def get_download_size(self, url):
         url_name = url.split('/')[-1]
-        print('Downloading metadata: ' + url)
+        print('Downloading metadata: ' + url_name)
         try:
             response = str(subprocess.Popen(['wget','--spider', url], stderr=subprocess.PIPE).communicate()[1])
             response.split('\n')
@@ -217,14 +217,10 @@ class DownloadPageScript(object):
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
                 buffer_torrent_links = buffer_torrent_links + template + '\n'
 
-                ################################################
-                # MAGNET LINKS DISABLED
-                ################################################
                 # Magnet URI for torrent
                 magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
                 buffer_magnet_links = buffer_magnet_links + template + '\n'
-                ################################################
 
             ## Direct URL
             for arch in self.archs:
