@@ -2,7 +2,7 @@
 .. title: Download Ubuntu MATE 14.04.2
 .. slug: trusty
 .. date: 2014-06-10 23:01:09 UTC
-.. tags: Ubuntu,MATE,trusty,14.04,download,LTS
+.. tags: Ubuntu,MATE,trusty,14.04,download
 .. link:
 .. description:
 .. type: text
@@ -17,8 +17,8 @@ from this image.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Release announcement</h1>
-        <p>Find out what changed in ANN_TITLE</p>
-        <a href="ANN_URL" class="btn btn-primary btn-lg">Release announcement</a>
+        <p>Find out what changed in Ubuntu MATE 14.04.2</p>
+        <a href="/blog/ubuntu-mate-trusty-14.04.2-release/" class="btn btn-primary btn-lg">Release announcement</a>
         </p>
     </div>
 </div>
@@ -36,7 +36,7 @@ For [Raspberry Pi 2](/raspberry-pi/) and PowerPC images, please download a newer
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/trusty/TOR_32_FILE">
+      <a href="https://ubuntu-mate.org/trusty/https://ubuntu-mate.org/trusty/ubuntu-mate-14.04.2-LTS-desktop-i386.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 14.04 32-bit PC Download" title="Ubuntu MATE 14.04 32-bit Download" />
       </a>
       <p>Ubuntu MATE 14.04 Torrent</p><p><b>32-bit</b> (i386)</p>
@@ -44,7 +44,7 @@ For [Raspberry Pi 2](/raspberry-pi/) and PowerPC images, please download a newer
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-        <a href="https://ubuntu-mate.org/trusty/TOR_64_FILE">
+        <a href="https://ubuntu-mate.org/trusty/https://ubuntu-mate.org/trusty/ubuntu-mate-14.04.2-LTS-desktop-amd64.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Download" />
       </a>
       <p>Ubuntu MATE 14.04 Torrent</p><p><b>64-bit</b> (amd64)</p>
@@ -52,7 +52,7 @@ For [Raspberry Pi 2](/raspberry-pi/) and PowerPC images, please download a newer
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.org/trusty/TOR_MAC_FILE">
+      <a href="https://ubuntu-mate.org/trusty/https://ubuntu-mate.org/trusty/ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso.torrent">
         <img src="/assets/img/misc/torrent.png" alt="Ubuntu MATE 14.04 for 64-bit Macs Download" title="Ubuntu MATE 14.04 for 64-bit Macs Download" />
       </a>
       <p>Ubuntu MATE 14.04 Torrent</p><p><b>64-bit Mac</b> (amd64+mac)</p>
@@ -164,7 +164,7 @@ images can also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_32_FILE">
+      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ubuntu-mate-14.04.2-LTS-desktop-i386.iso">
         <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from European CDN</p><p><b>32-bit</b> (i386)</p>
@@ -172,7 +172,7 @@ images can also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/trusty/ISO_32_FILE">
+      <a href="http://can.ubuntu-mate.net/trusty/ubuntu-mate-14.04.2-LTS-desktop-i386.iso">
         <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from Canadian mirror</p><p><b>32-bit</b> (i386)</p>
@@ -180,7 +180,7 @@ images can also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/trusty/ISO_32_FILE">
+      <a href="http://fra.ubuntu-mate.net/trusty/ubuntu-mate-14.04.2-LTS-desktop-i386.iso">
         <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 14.04 PC (Intel x86) Download" title="Ubuntu MATE 14.04 PC (Intel x86) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from French mirror</p><p><b><b>32-bit</b> (i386)</b></p>
@@ -191,7 +191,7 @@ images can also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_64_FILE">
+      <a href="https://ubuntu-mate.r.worldssl.net/trusty//ubuntu-mate-14.04.2-LTS-desktop-amd64.iso">
         <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from European CDN</p><p><b>64-bit</b> (amd64)</p>
@@ -199,7 +199,7 @@ images can also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/trusty/ISO_64_FILE">
+      <a href="http://can.ubuntu-mate.net/trusty//ubuntu-mate-14.04.2-LTS-desktop-amd64.iso">
         <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from Canadian mirror</p><p><b>64-bit</b> (amd64)</p>
@@ -207,7 +207,7 @@ images can also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/trusty/ISO_64_FILE">
+      <a href="http://fra.ubuntu-mate.net/trusty//ubuntu-mate-14.04.2-LTS-desktop-amd64.iso">
         <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit PC (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from French mirror</p><p><b>64-bit</b> (amd64)</p>
@@ -218,7 +218,7 @@ images can also be downloaded via HTTP.
 <div class="row">
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/trusty/ISO_MAC_FILE">
+      <a href="https://ubuntu-mate.r.worldssl.net/trusty//ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso">
         <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from European CDN</p><p><b>64-bit Mac</b> (amd64+mac)</p>
@@ -226,7 +226,7 @@ images can also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://can.ubuntu-mate.org/trusty/ISO_MAC_FILE">
+      <a href="https://can.ubuntu-mate.org/trusty//ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso">
         <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from Canadian mirror</p><p><b>64-bit Mac</b> (amd64+mac)</p>
@@ -234,7 +234,7 @@ images can also be downloaded via HTTP.
   </div>
   <div class="col-lg-4">
     <div class="well bs-component text-center">
-      <a href="https://fra.ubuntu-mate.org/trusty/ISO_MAC_FILE">
+      <a href="https://fra.ubuntu-mate.org/trusty//ubuntu-mate-14.04.2-LTS-desktop-amd64.iso">
         <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" title="Ubuntu MATE 14.04 64-bit Mac (AMD64) Download" />
       </a>
       <p>Ubuntu MATE 14.04 from French mirror</p><p><b>64-bit Mac</b> (amd64+mac)</p>
@@ -242,11 +242,11 @@ images can also be downloaded via HTTP.
   </div>
 </div>
 
-If you direct download the .iso image please make sure the MD5 hash matches:
+If you direct download the .iso image please make sure the MD5 hash&nbsp;matches:
 
-  * ISO_32_FILE - `ISO_32_MD5`
-  * ISO_64_FILE - `ISO_64_MD5`
-  * ISO_MAC_FILE - `ISO_MAC_MD5`
+  * ubuntu-mate-14.04.2-LTS-desktop-i386.iso - `66db0223ffb081844ba70b7424a64a58`
+  * ubuntu-mate-14.04.2-LTS-desktop-amd64.iso - `0c4dd3ece2c4ff1861fbde8057438880`
+  * ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso - `4e1a7f4e893a949dcbd91824372cd566`
 
 ### Purchase DVDs and USBs
 
@@ -279,9 +279,9 @@ written to a USB stick using a utility like `dd`, but we prefer `ddrescue`
 (from the [gddrescue](apt://gddrescue) package, for example:
 
     sudo apt-get install gddrescue
-    sudo ddrescue -D --force ISO_32_FILE /dev/sdx
-    sudo ddrescue -D --force ISO_64_FILE /dev/sdx
-    sudo ddrescue -D --force ISO_MAC_FILE /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-14.04.2-LTS-desktop-i386.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-14.04.2-LTS-desktop-amd64.iso /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso /dev/sdx
 
 <div align="center">
 <script type="text/javascript" src="https://asciinema.org/a/34240.js" id="asciicast-34240" async></script>
@@ -307,20 +307,17 @@ If you want to make a bootable USB with Windows, try [Rufus](https://rufus.akeo.
 
 ## Sponsors
 
-Many thanks to [First Colo](http://www.first-colo.com") and [Prometeus](http://www.prometeus.net)
-for sponsoring the hosting and bandwidth for the Ubuntu MATE download.
+Many thanks to [First Colo](http://www.first-colo.com") for sponsoring the 
+hosting and bandwidth for the Ubuntu MATE download.
 
 <div class="row">
+  <div class="col-lg-3">&nbsp;</div>
   <div class="col-lg-6">
     <div class="well bs-component">
     <a href="http://www.first-colo.com"><img class="centered" src="/assets/img/sponsors/firstcolo.png" alt="First Colo" /></a>
     </div>
   </div>
-  <div class="col-lg-6">
-    <div class="well bs-component">
-    <a href="https://www.prometeus.net/billing/aff.php?aff=239"><img class="centered" src="/assets/img/sponsors/prometeus.png" alt="Prometeus" /></a>
-    </div>
-  </div>
+  <div class="col-lg-3">&nbsp;</div>
 </div>
 
 <div class="bs-component">
