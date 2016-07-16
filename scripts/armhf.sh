@@ -10,8 +10,8 @@ function link_image() {
     #mkdir -p /home/matey/www/${PAGE}
     #rm -f ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${ISO_FILE}
     #rm -f ${HOME}/Websites/ubuntu-mate.org/www/${PAGE}/${TOR_FILE}
-    ln -sf ${ISO_PATH} /home/matey/www/${PAGE}/${ISO_FILE} || :
-    ln -sf ${TOR_PATH} /home/matey/www/${PAGE}/${TOR_FILE} || :
+    ln -sf ${ISO_PATH} /home/matey/ubuntu-mate.org/${PAGE}/${ISO_FILE} || :
+    ln -sf ${TOR_PATH} /home/matey/ubuntu-mate.org/${PAGE}/${TOR_FILE} || :
 }
 
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
