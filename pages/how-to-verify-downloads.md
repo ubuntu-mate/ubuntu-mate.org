@@ -68,7 +68,7 @@ Graphical utilities are also available:
 ### Ubuntu
 
 1. Download a copy of the `SHA256SUMS` and `SHA256SUMS.gpg` files
-from Canonical's download page for that particular version.
+from [Canonical's CD Images server](http://cdimage.ubuntu.com/ubuntu-mate/releases/) for that particular version.
 
     ![](/gallery/quick-help-screenshots/sha256sums-gpg.png "Finding the SHA256SUMS file")
 
