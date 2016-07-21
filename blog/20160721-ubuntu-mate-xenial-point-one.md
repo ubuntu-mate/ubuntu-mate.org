@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.04.1 LTS
 .. slug: ubuntu-mate-xenial-point-one
-.. date: 2016-07-21 16:25:00 UTC
-.. tags: Ubuntu,MATE,Xenial,Xerus,16.04.1,final,LTS,private
+.. date: 2016-07-21 15:50:00 BST
+.. tags: Ubuntu,MATE,Xenial,Xerus,16.04.1,final,LTS
 .. link:
 .. description: Ubuntu MATE 16.04.1 (Xenial Xerus) LTS Final Release
 .. type: text
@@ -38,6 +38,7 @@ Here are the changes specific to Ubuntu MATE 16.04.1:
     * Fix switching keyboard layouts using `Alt` + `Shift`.
   * Ubiquity fixes.
     * Now prompts to join available WiFi networks during the install.
+  * Fixed shutdown/restart of the live session in Virtualbox and VMWare guests.
 
 Here are the general Ubuntu family changes since 16.04
 
@@ -61,13 +62,6 @@ You can find out [what changed in MATE Desktop 1.14 from the upstream release an
 ## Known Issues
 
 Here are the known issues.
-
-### Ubuntu family issues
-
-This is our known list of bugs that affect all flavours.
-
-  * Shutdown/Restart of the live session does not work in Virtualbox and VMWare guests.
-    * [#1447038](https://bugs.launchpad.net/bugs/1447038)
 
 ### PowerPC
 
