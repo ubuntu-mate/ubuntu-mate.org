@@ -30,10 +30,10 @@
             },
             "rpi-visible": true,
             "sha256sum": {
-                "amd64": "ec19ba1280e5a05b78a863f3844864a8b0a3b4336028bcfbf143ad4fda44f2c3",
+                "amd64": "d17ad97753c756513e1c3add89ce6fa2f0db8c2fba690408a1e5eabc8e01311b",
                 "armhf": "bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a",
-                "i386": "549bdf46fb959f0374e5e3de6b85b350226d930f50decba7c4aad64804a8e750",
-                "powerpc": "a2c24cd68f2cbaf320f048cd3e3b22eddc0b721fdfde8defe626d92a313cebca"
+                "i386": "70cef0f71784272bdb01287d15a264de2970f28ad2fe9df2573da94600ac2391",
+                "powerpc": "59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d"
             },
             "show-warning": false,
             "state": "release",
