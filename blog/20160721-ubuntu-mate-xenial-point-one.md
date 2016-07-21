@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.04.1 LTS
 .. slug: ubuntu-mate-xenial-point-one
-.. date: 2016-07-21 15:50:00 BST
+.. date: 2016-07-21 15:50:00 UTC
 .. tags: Ubuntu,MATE,Xenial,Xerus,16.04.1,final,LTS
 .. link:
 .. description: Ubuntu MATE 16.04.1 (Xenial Xerus) LTS Final Release
