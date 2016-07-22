@@ -20,7 +20,7 @@
                 "i386": "magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:d64ca895d6778f6d50503d6229f276f101920cb4&dn=ubuntu-mate-16.04-desktop-powerpc.iso"
             },
-            "name": "Ubuntu MATE 16.04 LTS",
+            "name": "Ubuntu MATE 16.04.1 LTS",
             "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/",
             "rpi-mirrors": {
                 "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
