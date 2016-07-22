@@ -366,14 +366,14 @@ at least 512MB of RAM to install from this image.
   // Selecting an architecture
   function selected_i386() {
     show_arch = "i386";
-    present_arch = "i386";
+    present_arch = "32-bit";
     showDownloadLinks();
     updatePage();
   }
 
   function selected_amd64() {
     show_arch = "amd64";
-    present_arch = "amd64";
+    present_arch = "64-bit";
     showDownloadLinks();
     updatePage();
   }
