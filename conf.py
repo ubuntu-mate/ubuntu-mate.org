@@ -537,8 +537,8 @@ DEPLOY_COMMANDS = {
         'scripts/linkimages.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@can.wimpress.io:ubuntu-mate.org/',
-        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@fra.wimpress.io:ubuntu-mate.org/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@nyc.ubuntu-mate.net:ubuntu-mate.org/',
+        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@sf.ubuntu-mate.net:ubuntu-mate.org/',
     ],
 }
 
