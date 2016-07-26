@@ -11,6 +11,8 @@ sudo apt-get install python3-libtorrent -y
 if [ "${CODENAME}" == "trusty" ]; then
     wget http://de.archive.ubuntu.com/ubuntu/pool/universe/p/python-wget/python3-wget_2.2-1_all.deb
     sudo dpkg -i python3-*.deb
+else
+    sudo apt-get -y install python3-wget
 fi
 
 scripts/update-download-page.py --update-all
