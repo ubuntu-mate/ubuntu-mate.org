@@ -9,20 +9,6 @@
 .. author: Martin Wimpress
 -->
 
-**Beaut, beauty! We're stoked to announce Ubuntu MATE 16.10 Alpha 1,
-the first distro to ship a fair dinkum MATE Desktop implementation
-built entirely against GTK3+. Some thought we'd let the kangaroos loose
-in the top paddock by being the first distro to switch to GTK3+ and it
-would all come a gutser. But we put in big mobs of effort to ensure
-it's not complete ball dust. Give it a burl!**
-
-The above statement is for the benefit of our friends at
-[#systemau](https://systemau.net.au/) who lament the predictable and
-often dreary wording used in Linux distro release announcements. We
-hope we've help restore balance to the force `;-)`
-
-# Ubuntu MATE 16.10 Alpha 2
-
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 [October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule)
 With this *Alpha* pre-release, you can see what we are trying out in
@@ -63,13 +49,13 @@ First of all, Ubuntu MATE 16.10 Alpha 2 owes a debt of gratitude to:
 This is what have been updated or added.
 
   * Added **MATE Heads-Up Display (HUD)**
-    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default.
+    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default, by can be enable via MATE Tweak.
   * Upgraded to **MATE Tweak 16.10.4**
     * Improves Indicator support with the **introduction of the Message Menu.**
     * Add option to **enable the MATE Heads-Up Display (HUD)**
   * Firefox now has a **[customised Ubuntu MATE Start Page](https://start.ubuntu-mate.org)**.
   * *Cheese has been re-instated* as a default application.
-  * *Indicator Session has been re-instated in Ubiquity while installing Ubuntu MATE.
+  * **Indicator Session has been re-instated in Ubiquity** while installing Ubuntu MATE.
   * The `.iso` image is **approximately 150MB smaller**.
 
 <div class="bs-component">
