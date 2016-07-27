@@ -83,8 +83,8 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
-  * After completing an OEM install running "Prepare for shipping to end user" causes `systemctl` to segfault.
-    * [#1597248](https://bugs.launchpad.net/bugs/1597248)
+  * Description
+    * [#0000000](https://bugs.launchpad.net/bugs/0000000),
 
 ### PowerPC
 
