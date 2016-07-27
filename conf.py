@@ -533,12 +533,12 @@ REDIRECTIONS = [
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
     'default': [
-        'rsync -a output/ www/',
+        'rsync -a --delete output/ www/',
         'scripts/linkimages.sh',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@nyc.ubuntu-mate.net:ubuntu-mate.org/',
-        'rsync -av -e "ssh -o StrictHostKeyChecking=no" --progress --delete www/ matey@sf.ubuntu-mate.net:ubuntu-mate.org/',
+        'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ matey@nyc.ubuntu-mate.net:ubuntu-mate.org/',
+        'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ matey@sf.ubuntu-mate.net:ubuntu-mate.org/',
     ],
 }
 
