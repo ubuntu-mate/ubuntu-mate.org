@@ -39,20 +39,28 @@ Ubuntu MATE *Alpha Releases* are recommended for:
 
 First of all, Ubuntu MATE 16.10 Alpha 2 owes a debt of gratitude to:
 
-  * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** for developing Ubuntu MATE Welcome and Software Boutique.
-  * **[Robin Thompson](https://github.com/robint99)** for migrating MATE Dock Applet to GTK3+
-  * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** for migrating MATE Menu to GTK3+
+  * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** for developing Ubuntu MATE Welcome and the new [Ubuntu MATE Start Page](https://start.ubuntu-mate.org).
+  * **[Robin Thompson](https://github.com/robint99)** for improving MATE Dock Applet and adding new UI features built on GTK3+
   * **[Wolfgang Ulbrich](https://github.com/raveit65)** for adding GTK 3.18 theme support to Ambiant MATE and Radiant MATE.
-  * **[Mike Gabriel](https://sunweavers.net/blog/)** for reviewing and sponsoring uploads of MATE 1.14 to Debian.
-  * **[Vlad Orlov](https://github.com/monsta)** for migrating MATE components to GTK3+ and fixing Indicator support in MATE Desktop 1.14.
+  * **[Vlad Orlov](https://github.com/monsta)** for migrating MATE components to GTK3+ and helping improve Indicator support in MATE Desktop 1.14.
 
 This is what have been updated or added.
 
   * Added **MATE Heads-Up Display (HUD)**
-    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default, by can be enable via MATE Tweak.
+    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default, by can be enabled via MATE Tweak.
+    * Once activated the HUD can be invoked via `CTRL + ALT + Space`.
   * Upgraded to **MATE Tweak 16.10.4**
-    * Improves Indicator support with the **introduction of the Message Menu.**
+    * Improved Indicator support with the **introduction of the Message Menu.**
     * Add option to **enable the MATE Heads-Up Display (HUD)**
+  * Upgraded to **MATE Dock Applet 0.73**
+    * **Drag and drop rearranging of dock icons**.
+    * **Redesigned the window list** which appears when the mouse is hovered over a dock icon.
+    * Window titles are ellipsized if they are too long.
+    * Additional actions that the application supports are now shown at the top of the window list.
+    * Pinning and Unpinning is now always shown at the bottom of the window list.
+  * Upgraded to **Ubuntu MATE Welcome 16.10.7**
+    * Auto focus the search text entry.
+    * Updated translations.
   * Firefox now has a **[customised Ubuntu MATE Start Page](https://start.ubuntu-mate.org)**.
   * *Cheese has been re-instated* as a default application.
   * **Indicator Session has been re-instated in Ubiquity** while installing Ubuntu MATE.
@@ -77,8 +85,6 @@ This is our known list of bugs that affect all flavours.
 
   * After completing an OEM install running "Prepare for shipping to end user" causes `systemctl` to segfault.
     * [#1597248](https://bugs.launchpad.net/bugs/1597248)
-  * Creating a `btrfs` or `xfs` partition fails during install.
-    * [#1591851](https://bugs.launchpad.net/bugs/1591851)
 
 ### PowerPC
 
