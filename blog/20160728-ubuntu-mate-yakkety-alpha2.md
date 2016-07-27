@@ -47,7 +47,7 @@ First of all, Ubuntu MATE 16.10 Alpha 2 owes a debt of gratitude to:
 This is what have been updated or added.
 
   * Added **MATE Heads-Up Display (HUD)**
-    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default, by can be enabled via MATE Tweak.
+    * Runs menubar commands, **much like the Unity 7 HUD**. Disabled by default, but can be enabled via MATE Tweak.
     * Once activated the HUD can be invoked via `CTRL + ALT + Space`.
   * Upgraded to **MATE Tweak 16.10.4**
     * Improved Indicator support with the **introduction of the Message Menu.**
