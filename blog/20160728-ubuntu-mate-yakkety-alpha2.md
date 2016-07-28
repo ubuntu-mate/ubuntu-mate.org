@@ -51,7 +51,7 @@ This is what have been updated or added.
     * Once activated the HUD can be invoked via `CTRL + ALT + Space`.
   * Upgraded to **MATE Tweak 16.10.4**
     * Improved Indicator support with the **introduction of the Message Menu.**
-    * Add option to **enable the MATE Heads-Up Display (HUD)**
+    * Added option to **enable the MATE Heads-Up Display (HUD)**
   * Upgraded to **MATE Dock Applet 0.73**
     * **Drag and drop rearranging of dock icons**.
     * **Redesigned the window list** which appears when the mouse is hovered over a dock icon.
