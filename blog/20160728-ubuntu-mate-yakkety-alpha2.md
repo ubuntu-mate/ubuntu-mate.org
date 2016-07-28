@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.10 Alpha 2
 .. slug: ubuntu-mate-yakkety-alpha2
-.. date: 2016-07-28 19:35:00 BST
-.. tags: Ubuntu,MATE,Yakkety,alpha2,private
+.. date: 2016-07-28 12:35:00 BST
+.. tags: Ubuntu,MATE,Yakkety,alpha2
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
 .. type: text
@@ -83,19 +83,19 @@ Here are the known issues.
 
 This is our known list of bugs that affect all flavours.
 
-  * Description
-    * [#0000000](https://bugs.launchpad.net/bugs/0000000),
-
-### PowerPC
-
-These issues are specific to PowerPC architectures.
+  * Choosing an Entire Disk install on PowerPC may result in an unbootable system.
+    * The work around is to manually partition your hard disk.
+    * [#1606089](https://bugs.launchpad.net/bugs/1606089),
+    [#1607128](https://bugs.launchpad.net/bugs/1607128)
 
   * R300 GPU accelerated graphics do not work on PowerPC
     * [#1432949](https://bugs.launchpad.net/bugs/1432949),
     [#1575391](https://bugs.launchpad.net/bugs/1575391)
+
   * Ubiquity installer Slideshows and Ubuntu MATE Welcome display a blank window on PowerPC. This is due to a bug in WebKit 2.
     * [#1561573](https://bugs.launchpad.net/bugs/1561573),
     [#1597764](https://bugs.launchpad.net/bugs/1597764)
+
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)

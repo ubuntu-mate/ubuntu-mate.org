@@ -53,8 +53,8 @@
                 "i386": "magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-16.10-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
             },
-            "name": "Ubuntu MATE 16.10 Alpha 1",
-            "release-notes": "/blog/ubuntu-mate-yakkety-alpha1/",
+            "name": "Ubuntu MATE 16.10 Alpha 2",
+            "release-notes": "/blog/ubuntu-mate-yakkety-alpha2/",
             "rpi-mirrors": {
                 "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz",
                 "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz",
@@ -63,13 +63,13 @@
             },
             "rpi-visible": false,
             "sha256sum": {
-                "amd64": "07f073d8f29ffa0840fc4195988a874d481ae34124f415ab957646be34f18dd5",
+                "amd64": "046b18b2bb02747f6eca7531a18cd79e5ae41d07e81c8b0b3a45910f458dd5ae",
                 "armhf": "",
-                "i386": "b34670a657aa87f7ec74ab7ebd4ec08e6d417ceefae8dfbb39fac19f144fe79c",
-                "powerpc": "58269bfe828236fa50e35749b896645bd1d4621a345a8c99fa5439ed046fbab8"
+                "i386": "839281b28dfd94121f347d78dc12104e3d6ed3f9e98f400e8a62fddc98993b1a",
+                "powerpc": "e9964268a04a6090fe1401754a93ed91c0a09bf27fe48cb80d4ac62dfb1a5d29"
             },
             "show-warning": false,
-            "state": "alpha-1",
+            "state": "alpha-2",
             "type": "desktop",
             "version": "16.10",
             "visible": true,
