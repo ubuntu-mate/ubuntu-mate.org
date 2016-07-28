@@ -126,8 +126,13 @@ class DownloadPageScript(object):
                         distro_version = self.downloads['release'][release_id]['version']
                         distro_state = self.downloads['release'][release_id]['state']
                         distro_type = self.downloads['release'][release_id]['type']
-                        url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        if distro_state.startswith('alpha') or distro_state.startswith('beta'):
+                            url = self.downloads['global']['canonical-prerelease-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
+                        else:
+                            url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
+
                     self.downloads['release'][release_id]['magnet-uri'][arch] = self.generate_magnet_uri(url)
+
                 except Exception as e:
                     print(' *** ERROR: Exception: ' + str(e))
 
