@@ -1,8 +1,8 @@
 {
     "global": {
-        "canonical-prerelease-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso",
         "canonical-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso",
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
+        "canonical-prerelease-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso",
         "canonical-prerelease-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso.torrent",
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "name-ca": "Canadian Mirror",
@@ -12,13 +12,13 @@
     "release": {
         "1": {
             "codename": "xenial",
-            "lts": true,
             "end-date": "April 2019",
+            "lts": true,
             "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso",
+                "amd64": "magnet:?xt=urn:btih:6f45ad0939bf3b27fb428290cebcee972141e040&dn=ubuntu-mate-16.04.1-desktop-amd64.iso",
                 "armhf": "magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
-                "i386": "magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso",
-                "powerpc": "magnet:?xt=urn:btih:d64ca895d6778f6d50503d6229f276f101920cb4&dn=ubuntu-mate-16.04-desktop-powerpc.iso"
+                "i386": "magnet:?xt=urn:btih:cf6018288a8dc14b140161daf8c345ed634bea1a&dn=ubuntu-mate-16.04.1-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso"
             },
             "name": "Ubuntu MATE 16.04.1 LTS",
             "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/",
@@ -45,13 +45,13 @@
         },
         "2": {
             "codename": "yakkety",
-            "lts": false,
             "end-date": "February 2017",
+            "lts": false,
             "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:cd45dbf7e17267362dab3adc76320038abc710b9&dn=ubuntu-mate-16.10-desktop-amd64.iso",
-                "armhf": "magnet:?xt=urn:btih:01fa02661144c6a26ff09cb7a9bceb1c48716972&dn=ubuntu-mate-16.10.3-desktop-armhf-raspberry-pi-2.img.xz",
-                "i386": "magnet:?xt=urn:btih:78eca987c4fa1941c84895740565a8d99ce85e92&dn=ubuntu-mate-16.10-desktop-i386.iso",
-                "powerpc": "magnet:?xt=urn:btih:4dba4714d94f7818d9a5d7bca84a754ce11eb53e&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
+                "amd64": "magnet:?xt=urn:btih:88f9fe644df3a21955a93f13a83299c88d871391&dn=yakkety-desktop-amd64.iso",
+                "armhf": "",
+                "i386": "magnet:?xt=urn:btih:9f84b7495605352b6ddccfa2b038c8f5efa58215&dn=yakkety-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:7f15a31dbb86239b9564e82554b120fc60198825&dn=yakkety-desktop-powerpc.iso"
             },
             "name": "Ubuntu MATE 16.10 Alpha 2",
             "release-notes": "/blog/ubuntu-mate-yakkety-alpha2/",
