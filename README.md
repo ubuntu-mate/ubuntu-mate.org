@@ -4,7 +4,7 @@ The website for discovering and downloading the Ubuntu MATE operating system.
 
 Powered by [Nikola](https://getnikola.com/) - a static page generator.
 
-[![Build Status](https://semaphoreci.com/api/v1/lah7/ubuntu-mate-org/branches/master/shields_badge.svg)](https://semaphoreci.com/lah7/ubuntu-mate-org)
+[![Build Status](https://semaphoreci.com/api/v1/ubuntu-mate/ubuntu-mate-org/branches/master/shields_badge.svg)](https://semaphoreci.com/ubuntu-mate/ubuntu-mate-org)
 
 ----------
 ## Translations
