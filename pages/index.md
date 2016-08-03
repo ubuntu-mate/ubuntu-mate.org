@@ -1,5 +1,5 @@
 <!--
-.. title: Ubuntu MATE | For a retrospective future.
+.. title: Ubuntu MATE
 .. slug: index
 .. date: 2014-06-10 23:01:09 UTC
 .. tags: Ubuntu,MATE
