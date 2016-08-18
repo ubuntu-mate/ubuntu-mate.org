@@ -9,6 +9,7 @@ sudo apt-get install python3-libtorrent -y
 
 # python3-wget (has no package for trusty)
 if [ "${CODENAME}" == "trusty" ]; then
+    sudo apt-get -y install python3-urllib3
     wget http://de.archive.ubuntu.com/ubuntu/pool/universe/p/python-wget/python3-wget_2.2-1_all.deb
     sudo dpkg -i python3-*.deb
 else
