@@ -16,12 +16,12 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
 <div class="row">
   <div class="col-lg-6">
     <div class="well bs-component">
-    <a href="https://entroware.com"><img class="centered" src="/images/sponsors/entroware.png" alt="Entroware" /></a>
+    <a href="https://www.bytemark.co.uk/r/ubuntu-mate/"><img class="centered" src="/images/sponsors/bytemark.png" alt="Bytemark" /></a>
     </div>
   </div>
   <div class="col-lg-6">
     <div class="well bs-component">
-    <a href="https://www.first-colo.com/"><img class="centered" src="/images/sponsors/firstcolo.png" alt="First-Colo" /></a>
+    <a href="https://entroware.com"><img class="centered" src="/images/sponsors/entroware.png" alt="Entroware" /></a>
     </div>
   </div>
 </div>
