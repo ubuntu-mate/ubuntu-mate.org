@@ -171,9 +171,7 @@ class DownloadPageScript(object):
         buffer_torrent_links = ""
         buffer_magnet_links = ""
         buffer_direct_links = ""
-        buffer_direct_eu_links = ""
-        buffer_direct_fr_links = ""
-        buffer_direct_ca_links = ""
+        buffer_direct_uk_links = ""
         buffer_download_sizes = ""
         buffer_checksums = ""
         buffer_alerts = ""
@@ -230,23 +228,11 @@ class DownloadPageScript(object):
             ## Direct URL
             for arch in self.archs:
                 if arch == 'armhf':
-                    # European Server
-                    url = self.downloads['release'][release_id]['rpi-mirrors']['eu']
+                    # UK Server
+                    url = self.downloads['release'][release_id]['rpi-mirrors']['uk']
                     url_file = url.split('/')[-1]
-                    template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-eu'] + '</b> - ' + url_file + '</a>'
-                    buffer_direct_eu_links = buffer_direct_eu_links + template + '\n'
-
-                    # Canada Server
-                    url = self.downloads['release'][release_id]['rpi-mirrors']['ca']
-                    url_file = url.split('/')[-1]
-                    template = '<a class="' + distro_codename + '-' + arch + '"  href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-ca'] + '</b> - ' + url_file + '</a>'
-                    buffer_direct_ca_links = buffer_direct_ca_links + template + '\n'
-
-                    # French Server
-                    url = self.downloads['release'][release_id]['rpi-mirrors']['fr']
-                    url_file = url.split('/')[-1]
-                    template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-fr'] + '</b> - ' + url_file + '</a>'
-                    buffer_direct_fr_links = buffer_direct_fr_links + template + '\n'
+                    template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-uk'] + '</b> - ' + url_file + '</a>'
+                    buffer_direct_uk_links = buffer_direct_uk_links + template + '\n'
 
                 else:
                     if distro_state.startswith('alpha') or distro_state.startswith('beta'):
@@ -353,9 +339,7 @@ class DownloadPageScript(object):
         self.do_replace('TORRENT-LINKS', buffer_torrent_links)
         self.do_replace('MAGNET-LINKS', buffer_magnet_links)
         self.do_replace('DIRECT-LINKS', buffer_direct_links)
-        self.do_replace('DIRECT-EU-LINKS', buffer_direct_eu_links)
-        self.do_replace('DIRECT-FR-LINKS', buffer_direct_fr_links)
-        self.do_replace('DIRECT-CA-LINKS', buffer_direct_ca_links)
+        self.do_replace('DIRECT-UK-LINKS', buffer_direct_uk_links)
         self.do_replace('DOWNLOAD-SIZES', buffer_download_sizes)
         self.do_replace('CHECKSUMS', buffer_checksums)
         self.do_replace('ALERT-PLACEHOLDERS', buffer_alerts)

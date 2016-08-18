@@ -5,9 +5,7 @@
         "canonical-prerelease-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso",
         "canonical-prerelease-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso.torrent",
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
-        "name-ca": "Canadian Mirror",
-        "name-eu": "European CDN",
-        "name-fr": "French Mirror"
+        "name-uk": "Bytemark"
     },
     "release": {
         "1": {
@@ -23,10 +21,8 @@
             "name": "Ubuntu MATE 16.04.1 LTS",
             "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/",
             "rpi-mirrors": {
-                "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
-                "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
-                "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
-                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent"
+                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent",
+                "uk": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
             },
             "rpi-visible": true,
             "sha256sum": {
@@ -56,10 +52,8 @@
             "name": "Ubuntu MATE 16.10 Alpha 2",
             "release-notes": "/blog/ubuntu-mate-yakkety-alpha2/",
             "rpi-mirrors": {
-                "ca": "http://can.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz",
-                "eu": "https://ubuntu-mate.r.worldssl.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz",
-                "fr": "http://fra.ubuntu-mate.net/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz",
-                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent"
+                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent",
+                "uk": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz"
             },
             "rpi-visible": false,
             "sha256sum": {

@@ -184,14 +184,9 @@ at least 512MB of RAM to install from this image.
       <p>If preferred, you can also download the images over HTTP.</p>
       <p>
         DIRECT-LINKS
-        <img class="rpi" src="../images/flags/European-Union-Flag-16.png" width="16px" height="16px"/>&nbsp;
-        DIRECT-EU-LINKS
-        <br class="rpi">
-        <img class="rpi" src="../images/flags/Canada-Flag-16.png" width="16px" height="16px"/>&nbsp;
-        DIRECT-CA-LINKS
-        <br class="rpi">
-        <img class="rpi" src="../images/flags/France-Flag-16.png" width="16px" height="16px"/>&nbsp;
-        DIRECT-FR-LINKS
+        <img class="rpi" src="../images/flags/bytemark-16.png" width="16px" height="16px"/>&nbsp;
+        DIRECT-UK-LINKS
+        <br class="rpi" />
       </p>
       <p>
         <b>Download Size:</b>
@@ -204,9 +199,17 @@ at least 512MB of RAM to install from this image.
       <p><a href="../how-to-verify-downloads"><span class="fa fa-question-circle"></span> How to verify downloads</a></p>
       <div class="rpi">
         <span class="fa fa-heart"></span>
-        Many thanks to First Colo for contributing the hosting and bandwidth for the Ubuntu MATE downloads
-        for the Raspberry Pi images.
-      </div>
+        Many thanks to <a href="https://www.bytemark.co.uk/r/ubuntu-mate/"><b>Bytemark</b></a> for sponsoring all the hosting and bandwidth costs for the Ubuntu MATE downloads of the Raspberry Pi images.
+        <div class="row">
+          <div class="col-lg-3">&nbsp;</div>
+          <div class="col-lg-6">
+            <div class="well bs-component">
+              <a href="http://www.bytemark.co.uk/r/ubuntu-mate"><img class="centered" src="/images/sponsors/bytemark.png" alt="Bytemark" /></a>
+            </div>
+          </div>
+          <div class="col-lg-3">&nbsp;</div>
+        </div>        
+      </div>      
     </div>
   </div>
   <hr />
