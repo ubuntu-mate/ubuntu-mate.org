@@ -55,7 +55,7 @@ Club](https://www.codeclub.org.uk/).
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Bytemark</h1>
-        <p>More information about Bytemark is available online at <a href="https://www.bytemark.co.uk/r/ubuntu-mate/">www.bytemark.co.uk</a></p>
+        <p>More information about Bytemark is available from <a href="https://www.bytemark.co.uk/r/ubuntu-mate/">www.bytemark.co.uk</a></p>
         <a href="https://www.bytemark.co.uk/r/ubuntu-mate/" class="btn btn-primary btn-lg">Visit Bytemark</a>
         </p>
     </div>
