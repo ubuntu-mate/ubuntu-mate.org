@@ -11,8 +11,9 @@
 
 We are underwhlemed to announce, quite possibly, our most uninteresting
 beta release *E-V-E-R!* `;-)` This beta release is all about the
-plumbing to transition to GTK 3.20 and some of the pipework is still
-leaking. It really isn't very interesting from an end-users perspective.
+plumbing that transitions Ubuntu MATE to GTK 3.20 and some of the pipes
+are still leaking. It really isn't very interesting from an end-users
+perspective.
 
 We know there are bugs and we'll be focusing on fixing as many issues
 as we can on the lead up to Beta 2 and the final release of Ubuntu MATE
