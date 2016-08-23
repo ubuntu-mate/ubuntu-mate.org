@@ -9,6 +9,16 @@
 .. author: Martin Wimpress
 -->
 
+We are underwhlemed to announce, quite possibly, our most uninteresting
+beta release *E-V-E-R!* `;-)` This beta release is all about the
+plumbing to transition to GTK 3.20 and some of the pipework is still
+leaking. It really isn't very interesting from an end-users perspective.
+
+We know there are bugs and we'll be focusing on fixing as many issues
+as we can on the lead up to Beta 2 and the final release of Ubuntu MATE
+16.10. The 16.10 development was all about the migration to GTK3+ and
+create the new foundations for our *"retrospective future"*.
+
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 [October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule)
 With this *Beta* pre-release, you can see what we are trying out in
@@ -40,26 +50,29 @@ Ubuntu MATE *Beta Releases* are recommended for:
 This is what has been added, updated or removed.
 
   * **Migrated to GTK 3.20**
-    * This has been a huge undertaking and was made possible thanks to our [crowd funding](/sponsors/) which funded updating of the Ubuntu MATE themes.
+    * This has been a huge undertaking and was only made possible
+    thanks to the Ubuntu MATE [crowd funding](/sponsors/) which has
+    funded the updating of the Ubuntu MATE themes and some upstream
+    GTK3+ porting.
   * Updated many MATE packages for **improved GTK 3.20 support**
-    * caja 1.14.2
-    * mate-settings-daemon 1.14.1
-    * mate-session-manager 1.14.1
-    * mate-panel 1.14.2
-    * mate-control-center 1.14.1
-    * mate-media 1.14.1
-    * mate-system-monitor 1.14.1
-    * atril 1.14.2
-    * caja-extensions 1.14.1
-    * eom 1.14.2
-    * mate-applets 1.14.1
-    * mate-terminal 1.14.1
-    * mate-utils 1.14.1
-    * pluma 1.14.1
+    * `caja` 1.14.2
+    * `mate-settings-daemon` 1.14.1
+    * `mate-session-manager` 1.14.1
+    * `mate-panel` 1.14.2
+    * `mate-control-center` 1.14.1
+    * `mate-media` 1.14.1
+    * `mate-system-monitor` 1.14.1
+    * `atril` 1.14.2
+    * `caja-extensions` 1.14.1
+    * `eom` 1.14.2
+    * `mate-applets` 1.14.1
+    * `mate-terminal` 1.14.1
+    * `mate-utils` 1.14.1
+    * `pluma` 1.14.1
   * Rebuilt a few MATE package for **improved GTK 3.20 support**
-    * mate-notification-daemon
-    * mate-screen-saver
-    * mate-power-manager
+    * `mate-notification-daemon`
+    * `mate-screen-saver`
+    * `mate-power-manager`
   * Removed **MATE Heads-Up Display (HUD)**
     * Testing during Alpha 2 revealed some show stopping issues. **We will revist this feature in 17.04**.
     * If you installed Ubuntu MATE 16.10 prior to Beta 1 then please `sudo apt purge mate-hud`.
