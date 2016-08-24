@@ -1,9 +1,9 @@
 <!--
 .. title: Bytemark sponsor Ubuntu MATE
 .. slug: bytemark-sponsor-ubuntu-mate
-.. date: 2016-08-24 13:30:00 UTC
-.. tags: Ubuntu,MATE,Bytemark,sponsor,hosting,bandwidth,private,Cloud Servers
-.. link: https://www.bytemark.co.uk/r/ubuntu-mate
+.. date: 2016-08-24 12:00:00 BST
+.. tags: Ubuntu,MATE,Bytemark,sponsor,hosting,bandwidth,Cloud Servers
+.. link: https://blog.bytemark.co.uk/2016/08/24/were-supporting-ubuntu-mate
 .. description: Bytemark sponsor Ubuntu MATE hosting and bandwidth
 .. type: text
 .. author: Martin Wimpress
@@ -20,10 +20,9 @@ generously sponsoring the Ubuntu MATE hosting.**</div>
 
 ## Why did Bytemark make such a generous offer?
 
-Well, it turns out they're a bunch of [good
-eggs](https://www.vocabulary.com/dictionary/good%20egg) who've been
-sponsoring free software projects and free culture podcasts since
-Bytemark was formed. Other projects currently being suported by
+Well, it turns out they're a bunch of [good eggs](https://www.vocabulary.com/dictionary/good%20egg)
+who've been sponsoring free software projects and free culture podcasts
+since Bytemark was formed. Other projects currently being suported by
 Bytemark include [Debian](https://www.debian.org/),
 [LibreOffice](http://www.libreoffice.org/), [Kodi](http://kodi.tv/),
 [Open Street Map](http://www.openstreetmap.org/), [My
@@ -33,22 +32,26 @@ Club](https://www.codeclub.org.uk/).
 ### [Matthew Bloch](https://twitter.com/matthewbloch) had this to say:
 
 > I'm happy to announce that Bytemark is supporting the [Ubuntu MATE](https://ubuntu-mate.org/what-is-ubuntu-mate/) operating system
-> project. MATE is a continuation of the lightweight and well-understood
-> traditional computer desktop. Its admirable goal is *"to add support
-> for new technologies while preserving a classic desktop experience"*.
-> Ubuntu MATE combines this conservative desktop with the well-tested OS
-> base of [Ubuntu](https://www.ubuntu.com) (which itself builds on our
-> first love [Debian](https://www.debian.org).
->
-> I think Ubuntu MATE is a great model for a free software community.
-> They run a crowd-funding campaign and write a [monthly report](https://ubuntu-mate.org/blog/ubuntu-mate-july-2016-supporters/)
-> on exactly how their funds are spent. After paying their direct costs,
-> they pay individual contributors to work on much-needed features, and
-> donate excess funds to developers of other projects that they depend
-> on. While the amounts might be small, this is uncommon ambition, and a
-> sign of a well-managed and motivated community. Naturally Martin Wimpress,
-> the project co-founder, takes charge of hosting for the project and
-> that meant costs that Bytemark could easily absorb.
+> project, which is based on a traditional computer desktop. We're
+> providing hosting for its community forums & wiki and bandwidth for its
+> very popular Raspberry Pi distribution.
+> 
+> The MATE project's admirable goal is "to add support for new
+> technologies while preserving a classic desktop experience". Ubuntu
+> MATE combines this desktop with the well-tested OS base of
+> [Ubuntu](https://www.ubuntu.com) (which itself builds on our first love
+> [Debian](https://www.debian.org). All of that ensures that anyone who
+> wants a simple computer desktop can get one, on any computer, free of
+> charge.
+> 
+> Personally speaking, Ubuntu MATE feels like a great model for a free
+> software community. They run a crowd-funding campaign and write a
+> [monthly report](https://ubuntu-mate.org/blog/ubuntu-mate-july-2016-supporters/)
+> on exactly how those funds are spent. After paying direct costs, they
+> pay contributors to work on much-needed features, and also to
+> developers of other projects that they depend on. While the amounts
+> might be small, this is uncommon ambition, and a sign of a well-managed
+> and motivated community.
 >
 > *Matthew Bloch, Bytemark Managing Director.*
 

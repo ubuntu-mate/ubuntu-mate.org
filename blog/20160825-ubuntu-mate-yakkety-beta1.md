@@ -11,14 +11,13 @@
 
 We are underwhlemed to announce, quite possibly, our most uninteresting
 beta release *E-V-E-R!* `;-)` This beta release is all about the
-plumbing that transitions Ubuntu MATE to GTK 3.20 and some of the pipes
-are still leaking. It really isn't very interesting from an end-users
-perspective.
+plumbing that transitions Ubuntu MATE to GTK 3.20. It really isn't very
+interesting from an end-users perspective.
 
-We know there are bugs and we'll be focusing on fixing as many issues
-as we can on the lead up to Beta 2 and the final release of Ubuntu MATE
-16.10. The 16.10 development was all about the migration to GTK3+ and
-create the new foundations for our *"retrospective future"*.
+From this point forward we'll be focusing on fixing as many issues as
+we can on the lead up to Beta 2 and the final release of Ubuntu MATE
+16.10. The 16.10 development cycle was all about the migration to GTK3+
+and creating the new foundations for our *"retrospective future"*.
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 [October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule)
@@ -95,9 +94,9 @@ Here are the known issues.
 
   * Some GTK3+ theming is incorrect.
     * The remaining theming issues will be addressed over on the lead up to Beta 2.
+  * The Mutiny theme can be unstable, updates to fix this will land soon after Beta 1.
+    * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop** and **MATE Dock Applet 0.74** will be available very soon.
   * MATE Tweak will segfault when switching to Compiz due to a gsettings schema change in Metacity.
-    * A fix has already been commited and an updated package will land soon after Beta 1.
-  * The Mutiny theme is broken due to incompatibilities in `topmenu-gtk`
     * A fix has already been commited and an updated package will land soon after Beta 1.
 
 ### Ubuntu family issues
