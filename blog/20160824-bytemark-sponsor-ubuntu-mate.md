@@ -16,7 +16,7 @@ all the Ubuntu MATE infrastucture is hosted on [Bytemark Cloud Servers](https://
 
 <a href="https://www.bytemark.co.uk/r/ubuntu-mate/"><img class="centered" src="/images/sponsors/bytemark-large.png" alt="Bytemark" /></a>
 <div align="center">**[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) are
-generously sponsoring the Ubuntu MATE hosting.**</div>
+generously sponsoring Ubuntu MATE.**</div>
 
 ## Why did Bytemark make such a generous offer?
 
