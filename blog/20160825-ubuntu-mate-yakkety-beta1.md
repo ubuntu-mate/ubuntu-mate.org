@@ -54,6 +54,8 @@ This is what has been added, updated or removed.
     thanks to the Ubuntu MATE [crowd funding](/sponsors/) which has
     funded the updating of the Ubuntu MATE themes and some upstream
     GTK3+ porting.
+  * Updated to **MATE Dock Applet 0.74**
+    * Which didn't make the iso image, but is immediately available as an update.
   * Updated many MATE packages for **improved GTK 3.20 support**
     * `caja` 1.14.2
     * `mate-settings-daemon` 1.14.1
@@ -95,7 +97,7 @@ Here are the known issues.
   * Some GTK3+ theming is incorrect.
     * The remaining theming issues will be addressed over on the lead up to Beta 2.
   * The Mutiny theme can be unstable, updates to fix this will land soon after Beta 1.
-    * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop** and **MATE Dock Applet 0.74** will be available very soon.
+    * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop**.
   * MATE Tweak will segfault when switching to Compiz due to a gsettings schema change in Metacity.
     * A fix has already been commited and an updated package will land soon after Beta 1.
 
