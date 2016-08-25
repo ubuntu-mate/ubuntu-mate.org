@@ -100,6 +100,8 @@ Here are the known issues.
     * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop**.
   * MATE Tweak will segfault when switching to Compiz due to a gsettings schema change in Metacity.
     * A fix has already been commited and an updated package will land soon after Beta 1.
+  * Weather reports in the Clock and Weather applet are currently broken.
+    * A fix has already been commited and an updated package will land soon after Beta 1.
 
 ### Ubuntu family issues
 
