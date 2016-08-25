@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.10 Beta 1
 .. slug: ubuntu-mate-yakkety-beta1
-.. date: 2016-08-25 11:45:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,beta1,private
+.. date: 2016-08-25 22:00:00 UTC
+.. tags: Ubuntu,MATE,Yakkety,beta1
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 1
 .. type: text
@@ -17,7 +17,8 @@ interesting from an end-users perspective.
 From this point forward we'll be focusing on fixing as many issues as
 we can on the lead up to Beta 2 and the final release of Ubuntu MATE
 16.10. The 16.10 development cycle was all about the migration to GTK3+
-and creating the new foundations for our *"retrospective future"*.
+and creating the new foundations upon which to build our
+*"retrospective future"*.
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 [October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule)
@@ -55,7 +56,7 @@ This is what has been added, updated or removed.
     funded the updating of the Ubuntu MATE themes and some upstream
     GTK3+ porting.
   * Updated to **MATE Dock Applet 0.74**
-    * Which didn't make the iso image, but is immediately available as an update.
+    * Which didn't make the iso image, but will be immediately available as an update.
   * Updated many MATE packages for **improved GTK 3.20 support**
     * `caja` 1.14.2
     * `mate-settings-daemon` 1.14.1
@@ -94,14 +95,14 @@ Here are the known issues.
 
 ### Ubuntu MATE issues
 
-  * Some GTK3+ theming is incorrect.
-    * The remaining theming issues will be addressed over on the lead up to Beta 2.
+  * MATE Tweak will segfault when switching to Compiz due to a `gsettings` schema change in Metacity.
+    * A fix has already been commited and an updated package will land soon after Beta 1.
+  * Weather reports in the Clock and Weather applets are currently unavailable.
+    * A fix has already been commited and an updated package will land soon after Beta 1.
   * The Mutiny theme can be unstable, updates to fix this will land soon after Beta 1.
     * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop**.
-  * MATE Tweak will segfault when switching to Compiz due to a gsettings schema change in Metacity.
-    * A fix has already been commited and an updated package will land soon after Beta 1.
-  * Weather reports in the Clock and Weather applet are currently broken.
-    * A fix has already been commited and an updated package will land soon after Beta 1.
+  * Some GTK3+ theming is incorrect.
+    * The remaining theming issues will be addressed over on the lead up to Beta 2.
 
 ### Ubuntu family issues
 
