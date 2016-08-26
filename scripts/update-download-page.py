@@ -130,7 +130,7 @@ class DownloadPageScript(object):
                         if distro_state.startswith('alpha'):
                             url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
                         elif distro_state.startswith('beta'):
-                            url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORTSTATE', distro_shortstate).replace('TYPE', distro_type) + '.torrent'
+                            url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORT', distro_shortstate).replace('TYPE', distro_type) + '.torrent'
                         else:
                             url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
 
@@ -218,7 +218,7 @@ class DownloadPageScript(object):
                         url = self.downloads['global']['canonical-alpha-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
                         url_file = url.split('/')[-1]
                     elif distro_state.startswith('beta'):
-                        url = self.downloads['global']['canonical-beta-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORTSTATE', distro_shortstate).replace('TYPE', distro_type)
+                        url = self.downloads['global']['canonical-beta-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORT', distro_shortstate).replace('TYPE', distro_type)
                         url_file = url.split('/')[-1]
                     else:
                         url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
@@ -246,7 +246,7 @@ class DownloadPageScript(object):
                         url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
                         url_file = url.split('/')[-1]
                     elif distro_state.startswith('beta'):
-                        url = self.downloads['global']['canonical-beta-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORTSTATE', distro_shortstate).replace('TYPE', distro_type)
+                        url = self.downloads['global']['canonical-beta-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORT', distro_shortstate).replace('TYPE', distro_type)
                         url_file = url.split('/')[-1]
                     else:
                         url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)

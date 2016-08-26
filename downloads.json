@@ -4,8 +4,8 @@
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "canonical-alpha-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso",
         "canonical-alpha-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso.torrent",
-        "canonical-beta-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-SHORTSTATE-TYPE-ARCH.iso",
-        "canonical-beta-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-SHORTSTATE-TYPE-ARCH.iso.torrent",
+        "canonical-beta-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-SHORT-TYPE-ARCH.iso",
+        "canonical-beta-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-SHORT-TYPE-ARCH.iso.torrent",
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
         "name-uk": "Bytemark"
     },
