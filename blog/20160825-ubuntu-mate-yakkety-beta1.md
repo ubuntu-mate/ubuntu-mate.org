@@ -9,7 +9,7 @@
 .. author: Martin Wimpress
 -->
 
-We are underwhlemed to announce, quite possibly, our most uninteresting
+We are underwhelmed to announce, quite possibly, our most uninteresting
 beta release *E-V-E-R!* `;-)` This beta release is all about the
 plumbing that transitions Ubuntu MATE to GTK 3.20. It really isn't very
 interesting from an end-users perspective.
@@ -77,7 +77,7 @@ This is what has been added, updated or removed.
     * `mate-screen-saver`
     * `mate-power-manager`
   * Removed **MATE Heads-Up Display (HUD)**
-    * Testing during Alpha 2 revealed some show stopping issues. **We will revist this feature in 17.04**.
+    * Testing during Alpha 2 revealed some show stopping issues. **We will revisit this feature in 17.04**.
     * If you installed Ubuntu MATE 16.10 prior to Beta 1 then please `sudo apt purge mate-hud`.
 
 <div class="bs-component">
@@ -96,9 +96,9 @@ Here are the known issues.
 ### Ubuntu MATE issues
 
   * MATE Tweak will segfault when switching to Compiz due to a `gsettings` schema change in Metacity.
-    * A fix has already been commited and an updated package will land soon after Beta 1.
+    * A fix has already been committed and an updated package will land soon after Beta 1.
   * Weather reports in the Clock and Weather applets are currently unavailable.
-    * A fix has already been commited and an updated package will land soon after Beta 1.
+    * A fix has already been committed and an updated package will land soon after Beta 1.
   * The Mutiny theme can be unstable, updates to fix this will land soon after Beta 1.
     * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop**.
   * Some GTK3+ theming is incorrect.
