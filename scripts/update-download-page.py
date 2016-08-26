@@ -126,8 +126,10 @@ class DownloadPageScript(object):
                         distro_version = self.downloads['release'][release_id]['version']
                         distro_state = self.downloads['release'][release_id]['state']
                         distro_type = self.downloads['release'][release_id]['type']
-                        if distro_state.startswith('alpha'): #or distro_state.startswith('beta'):
-                            url = self.downloads['global']['canonical-prerelease-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
+                        if distro_state.startswith('alpha'):
+                            url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
+                        elif distro_state.startswith('beta'):
+                            url = self.downloads['global']['canonical-beta-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
                         else:
                             url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
 
@@ -210,8 +212,11 @@ class DownloadPageScript(object):
                     url = self.downloads['release'][release_id]['rpi-mirrors']['torrent']
                     url_file = url.split('/')[-1]
                 else:
-                    if distro_state.startswith('alpha'): #or distro_state.startswith('beta'):
-                        url = self.downloads['global']['canonical-prerelease-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                    if distro_state.startswith('alpha'):
+                        url = self.downloads['global']['canonical-alpha-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        url_file = url.split('/')[-1]
+                    elif distro_state.startswith('beta'):
+                        url = self.downloads['global']['canonical-beta-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
                         url_file = url.split('/')[-1]
                     else:
                         url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
@@ -235,8 +240,11 @@ class DownloadPageScript(object):
                     buffer_direct_uk_links = buffer_direct_uk_links + template + '\n'
 
                 else:
-                    if distro_state.startswith('alpha'): #or distro_state.startswith('beta'):
-                        url = self.downloads['global']['canonical-prerelease-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                    if distro_state.startswith('alpha'):
+                        url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
+                        url_file = url.split('/')[-1]
+                    elif distro_state.startswith('beta'):
+                        url = self.downloads['global']['canonical-beta-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
                         url_file = url.split('/')[-1]
                     else:
                         url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
