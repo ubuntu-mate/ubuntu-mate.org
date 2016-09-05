@@ -96,9 +96,10 @@ Here are the known issues.
 ### Ubuntu MATE issues
 
   * MATE Tweak will segfault when switching to Compiz due to a `gsettings` schema change in Metacity.
-    * A fix has already been committed and an updated package will land soon after Beta 1.
+    * A fix has already been commited and an updated package will land soon after Beta 1.
   * Weather reports in the Clock and Weather applets are currently unavailable.
-    * A fix has already been committed and an updated package will land soon after Beta 1.
+    * A fix has already been commited and an updated package will land soon after Beta 1.
+
   * The Mutiny theme can be unstable, updates to fix this will land soon after Beta 1.
     * Updates for **topmenu-gtk 0.3 package which now has GTK3+ support for MATE Desktop**.
   * Some GTK3+ theming is incorrect.
