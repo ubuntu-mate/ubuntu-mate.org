@@ -231,7 +231,8 @@ We post an overview of how the funds were used each month.
   * [2016 April](/blog/ubuntu-mate-april-2016-supporters/)
   * [2016 May](/blog/ubuntu-mate-may-2016-supporters/)
   * [2016 June](/blog/ubuntu-mate-june-2016-supporters/)
-  * [2016 July](/blog/ubuntu-mate-july-2016-supporters/)  
+  * [2016 July](/blog/ubuntu-mate-july-2016-supporters/)
+  * [2016 August](/blog/ubuntu-mate-august-2016-supporters/)    
 
 <script type="text/javascript">
   function validateMonthlyForm() {

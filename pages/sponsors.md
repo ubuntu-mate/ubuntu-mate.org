@@ -28,7 +28,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
 
 ## Patrons
 
-Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1159.01** this month.
+Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1210.51** this month.
 
 <div align="center">
 <h2>Jason Cox<h2>
@@ -48,15 +48,19 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
   <tbody>
     <tr>
       <td>Daniel LaSalle</td>
-      <td>2015-12-14 14:44:10</td>
+      <td>2016-04-02 02:28:21</td>
     </tr>
     <tr>
       <td>Etienne Papegnies</td>
-      <td>2016-02-19 18:21:37</td>
+      <td>2016-05-09 23:49:53</td>
     </tr>
     <tr>
       <td>Manuel Carrizo</td>
       <td>2015-11-13 01:17:34</td>
+    </tr>
+    <tr>
+      <td>Scott Thompson</td>
+      <td>2016-07-08 19:29:37</td>
     </tr>
     <tr>
       <td>Poul LeBlanc</td>
@@ -68,7 +72,7 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
     </tr>
     <tr>
       <td>Davide Monge</td>
-      <td>2015-03-11 22:57:13</td>
+      <td>2015-07-31 22:30:26</td>
     </tr>
     <tr>
       <td>Eric Nantz</td>
@@ -88,7 +92,11 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
     </tr>
     <tr>
       <td>Kévin Marilleau</td>
-      <td>2016-05-30 14:21:12</td>
+      <td>2016-05-30 22:40:00</td>
+    </tr>
+    <tr>
+      <td>Andrew Khazanovsky</td>
+      <td>2016-08-03 16:50:44</td>
     </tr>
     <tr>
       <td><a href="https://twitter.com/spazmaticcelery">SpazzyC</a></td>
@@ -100,7 +108,7 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
     </tr>
     <tr>
       <td>Robert Meineke</td>
-      <td>2014-11-28 12:57:15</td>
+      <td>2015-12-03 08:04:27</td>
     </tr>
     <tr>
       <td>Mike Kelley</td>
@@ -111,12 +119,8 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
       <td>2015-07-07 23:35:19</td>
     </tr>
     <tr>
-      <td>Michael Vanier</td>
-      <td>2015-07-06 06:31:31</td>
-    </tr>
-    <tr>
       <td>Paul Demers</td>
-      <td>2015-09-21 03:23:21</td>
+      <td>2015-10-18 04:46:00</td>
     </tr>
     <tr>
       <td><a href="https://twitter.com/htpcBeginner">htpcBeginner.com</a></td>
@@ -127,20 +131,20 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
       <td>2015-11-20 13:38:02</td>
     </tr>
     <tr>
-      <td>Steven Drinnan</td>
-      <td>2015-11-11 16:27:18</td>
-    </tr>
-    <tr>
-      <td>James McPhail</td>
-      <td>2015-12-18 01:29:54</td>
+      <td>Daniel Neilson</td>
+      <td>2016-07-03 23:35:36</td>
     </tr>
     <tr>
       <td>Ryan Carter</td>
-      <td>2015-10-24 03:36:57</td>
+      <td>2016-02-03 00:08:54</td>
     </tr>
     <tr>
-      <td>Daniel Neilson</td>
-      <td>2015-05-15 16:23:47</td>
+      <td>James McPhail</td>
+      <td>2015-12-28 12:33:25</td>
+    </tr>
+    <tr>
+      <td>N. Alexander Tessner</td>
+      <td>2016-08-08 03:20:45</td>
     </tr>
     <tr>
       <td>Tabor Kelly</td>
@@ -164,7 +168,7 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
     </tr>
     <tr>
       <td><a href="https://twitter.com/IvanTomica">Ivan Tomica</a></td>
-      <td>2016-03-02 23:23:28</td>
+      <td>2016-04-15 18:54:56</td>
     </tr>
     <tr>
       <td>Michael Mykolyshyn</td>
@@ -206,12 +210,20 @@ Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the
       <td>Richard Thornton</td>
       <td>2016-06-05 14:22:07</td>
     </tr>
+    <tr>
+      <td><a href="https://twitter.com/silpol">Andriy Tymchenko</a></td>
+      <td>2016-07-14 11:54:43</td>
+    </tr>
+    <tr>
+      <td>Matthew Cooper</td>
+      <td>2016-07-09 17:10:27</td>
+    </tr>
   </tbody>
 </table>
 <br />
 ### The following Patrons also contribute every month.
 
-<small><b>David Hollings, <a href="https://twitter.com/jupitersignal">Jupiter Broadcasting</a>, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, <a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan van der Hoorn</a>, Sergio Rivera, Silas Wulff, Jack Blakely, Adrian Evans, Matt Hartley, Antoine Mate Messiah, Scott Petty, Mark Boadey, Ricardo Gerena, Trooper_Ish, Peter Mergaerts, Michael White, Atreju, Zora Saad, Gheorghe Kobori, John Jeffers P.Eng., <a href="https://twitter.com/drgroovestarr">Jarrod Ryan Worlitz</a>, Brent Kincer, Dan Hively, Ed Tiller, veritanuda, Dirk Eisenacher, B Kirsch, <a href="https://twitter.com/PendragonUK">Stephen Morrish (PendragonUK)</a>, Johnathon Tinsley, Geoff Grogan, Nigel Green, S.M. Oliva, Nathan Tehrani, Enjayembee, David J Gwiazda, Michael Forcier, Stephen Kucksdorf, Cenk Tekin, Sam McGlynn, Szabolcs, Tyler Dickieson, Phil Clifford, Jimy Hendrickx, <a href="https://twitter.com/HannesWithoutJo">Johannes</a>, David Laczko, Susan, Winfried Plappert, Josh Thacker, <a href="https://twitter.com/kingsleyfhk">Kingsley Foo</a>, Colin Taylor, Julian, Jim and Rachel Trigg, <a href="https://twitter.com/jprins">Jared Prins</a>, ekrem, Philip Espi, Chris Wharton, <a href="https://twitter.com/dastrikeofsthlm">dastrike</a>, Christopher atkins, Stephen Donovan, Jason Hyder, sfarber5300, Mikael Karlsson, Jeff Stoner, Tapio Hansson, Reid Best, john, M Hoppes, Patrik Nilsson, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, <a href="https://twitter.com/taksuyu">taksuyu</a>, Specops872, Krishna, Paul Howarth, Jordan Hopkins, Lukasz, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Darren Hammond, Bevan Thomas, Dow Hurst, Ed, Mike Brannon, <a href="https://twitter.com/abosio">Anthony Bosio</a>, Daron Dierkes, Jim Kopps, Steve E., Martin S, Joshua, Bård Aase, <a href="https://twitter.com/Dangelus">Daniel Vieira</a>, Mario Juric, Andre Kretzschmar, Eduardo Sanchez, Tyler, Thomas Kyanko, Andrew Heath, <a href="https://twitter.com/H82or8">Spencer Carter</a>, Joao Atienza, Douglas Hitchcock, <a href="https://twitter.com/nfltr8">Lu Goon</a>, Luis Joaquim, Yevgeniy Kuksenko, Mike Keen, Gal Buki, Will Binns-Smith, Sergey Amitonov, Mats-Jørund Fiskum, John Colagioia, Beau Breon, <a href="https://twitter.com/okletzmayr">Oliver Kletzmayr</a>, Donald Baun, Paul Keeton, Carlo Vitolo, Jacob, <a href="https://twitter.com/billt2006">Bill Thornton</a>, Michael Braem, Nate Chambers, Thibault, Earl J Violet, Richard Underwood, Michael Burchfield, <a href="https://twitter.com/jed_reynolds">Jed Reynolds</a>, <a href="https://twitter.com/elrancher0">Harry Myhre</a>, Guillaume Politis Chalm, Max Kristen, <a href="https://twitter.com/corywright">Cory Wright</a>, Christian Knuchel, Gaius, Graham Moss, Jason P. Stanford, <a href="https://twitter.com/davidsouthard">David Southard</a>, </b></small><br />
+<small><b>David Hollings, <a href="https://twitter.com/jupitersignal">Jupiter Broadcasting</a>, <a href="https://twitter.com/nadrimajstor">Ivan Pejić</a>, <a href="https://twitter.com/dirkjanvdhoorn">Dirk-Jan van der Hoorn</a>, Sergio Rivera, Silas Wulff, Adrian Evans, Jack Blakely, Matt Hartley, Scott Petty, Antoine Mate Messiah, david van Dyk, Mark Boadey, Ricardo Gerena, Trooper_Ish, Peter Mergaerts, Atreju, Michael White, Zora Saad, Gheorghe Kobori, John Jeffers P.Eng., <a href="https://twitter.com/drgroovestarr">Jarrod Ryan Worlitz</a>, Brent Kincer, Dan Hively, Ed Tiller, veritanuda, Dirk Eisenacher, B Kirsch, <a href="https://twitter.com/PendragonUK">Stephen Morrish (PendragonUK)</a>, Johnathon Tinsley, Nigel Green, Nathan Tehrani, Enjayembee, Sam McGlynn, David J Gwiazda, Michael Forcier, Stephen Kucksdorf, Alexander Browne, Szabolcs, Phil Clifford, Jimy Hendrickx, <a href="https://twitter.com/HannesWithoutJo">Johannes</a>, David Laczko, Susan, Winfried Plappert, Josh Thacker, <a href="https://twitter.com/kingsleyfhk">Kingsley Foo</a>, Colin Taylor, Julian, Michael S., <a href="https://twitter.com/jprins">Jared Prins</a>, ekrem, Philip Espi, Chris Wharton, Scott Cowan, <a href="https://twitter.com/dastrikeofsthlm">dastrike</a>, Christopher atkins, Stephen Donovan, Jason Hyder, sfarber5300, Geoff Grogan, Jeff Stoner, Tapio Hansson, Reid Best, M Hoppes, Patrik Nilsson, <a href="https://twitter.com/ifollowyou">Cato Gaustad</a>, <a href="https://twitter.com/taksuyu">taksuyu</a>, Specops872, Krishna, Paul Howarth, Jordan Hopkins, Lukasz, <a href="https://twitter.com/magnuslindstrom">gnusd</a>, Darren Hammond, Bevan Thomas, Dow Hurst, Ed, Mike Brannon, <a href="https://twitter.com/abosio">Anthony Bosio</a>, Daron Dierkes, Eduardo Sanchez, <a href="https://twitter.com/Dangelus">Daniel Vieira</a>, Jim Kopps, Steve E., Martin S, Joshua, Bård Aase, Andre Kretzschmar, Tyler, Thomas Kyanko, Andrew Heath, <a href="https://twitter.com/H82or8">Spencer Carter</a>, Joao Atienza, Douglas Hitchcock, <a href="https://twitter.com/nfltr8">Lu Goon</a>, Jim and Rachel Trigg, Luis Joaquim, Yevgeniy Kuksenko, Mike Keen, Gal Buki, Will Binns-Smith, Sergey Amitonov, Mats-Jørund Fiskum, John Colagioia, Beau Breon, Donald Baun, Paul Keeton, Carlo Vitolo, Jacob, <a href="https://twitter.com/billt2006">Bill Thornton</a>, Michael Braem, Nate Chambers, Earl J Violet, Richard Underwood, NuclearBandAid, Chris Monachino, Sebastiaan Samyn, Michael Burchfield, <a href="https://twitter.com/jed_reynolds">Jed Reynolds</a>, <a href="https://twitter.com/elrancher0">Harry Myhre</a>, Guillaume Politis Chalm, Max Kristen, <a href="https://twitter.com/corywright">Cory Wright</a>, Christian Knuchel, Gaius, john, Graham Moss, Jason P. Stanford, <a href="https://twitter.com/davidsouthard">David Southard</a>, <a href="https://twitter.com/pla1">Patrick L Archibald</a>, </b></small><br />
 ### The *Unlucky* Patron!
 
 Darrell Vermilion is a good sport! They have chosen to be the Ubuntu MATE *unlucky* Patron, just so they can see their name in flashing lights.
