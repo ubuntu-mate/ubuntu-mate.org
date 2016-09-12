@@ -35,11 +35,21 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome Patrons.
 
 Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1210.51** this month.
 
+### Level 42
+
 <div align="center">
 <h2>Jason Cox<h2>
 </div>
 
-Jason Cox has opted in to our *Level 42* Patreon package and therefore knows the meaning of life, the universe and everything!
+**Jason Cox** has opted in to our *Level 42* Patreon package and therefore knows the meaning of life, the universe and everything!
+
+### Funding Ninja!
+
+<div align="center">
+<h2><a href="https://www.patreon.com/user?u=2907180">Etienne Papegnies</a><h2>
+</div>
+
+**Etienne Papegnies** is the first Ubuntu MATE *Funding Ninja*!
 
 ### The following Patrons contribute $10, or more, every month.
 
