@@ -16,7 +16,7 @@ improved since the 15.10 release.**
     <div class="jumbotron">
         <h1>Achievement Unlocked!</h1>
         <p>Ubuntu MATE is an official member of the Ubuntu family and this 16.04 release is our first official LTS!</p>
-        <p><img class="centered" src="/images/Ubuntu-MATE-Love.png" alt="Ubuntu MATE" /></p>
+        <p><img class="centered" src="/images/banners/ubuntu-mate-lurve-black.png" alt="Ubuntu MATE" /></p>
     </div>
 </div>
 

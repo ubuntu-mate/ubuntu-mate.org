@@ -8,7 +8,7 @@
 .. type: text
 -->
 
-<img class="centered" src="/images/Ubuntu-MATE-Love.png" alt="Ubuntu MATE" />
+<img class="centered" src="/images/banners/ubuntu-mate-lurve-black.png" width="959" height="234" alt="Ubuntu MATE" />
 
 <div class="bs-component">
     <div class="jumbotron">
