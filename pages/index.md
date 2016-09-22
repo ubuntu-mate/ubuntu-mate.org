@@ -13,7 +13,7 @@
 <div class="bs-component">
     <div class="jumbotron">
         <h1>For a retrospective future</h1>
-        <p>A community developed <a href="http://www.ubuntu.com/" target="_blank">Ubuntu</a> based
+        <p>A community developed, <a href="http://www.ubuntu.com/" target="_blank">Ubuntu</a> based
         operating system that beautifully integrates the <a href="http://mate-desktop.org" target="_blank">MATE</a> desktop.</p>
         <a href="/about/" class="btn btn-primary btn-lg">Learn more</a>
         </p>
