@@ -20,7 +20,7 @@ GTK3+ and creating the new foundations upon which to build our
 *"retrospective future"*.
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
-[October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule) With this
+[October 13th, 2016](https://wiki.ubuntu.com/YakketyYak/ReleaseSchedule) With this
 *Final Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
