@@ -1,12 +1,12 @@
 {
     "global": {
-        "canonical-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso",
-        "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "canonical-alpha-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso",
         "canonical-alpha-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/CODENAME-TYPE-ARCH.iso.torrent",
         "canonical-beta-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-SHORT-TYPE-ARCH.iso",
         "canonical-beta-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-SHORT-TYPE-ARCH.iso.torrent",
+        "canonical-iso": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso",
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
+        "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "name-uk": "Bytemark"
     },
     "release": {
@@ -33,9 +33,9 @@
                 "i386": "70cef0f71784272bdb01287d15a264de2970f28ad2fe9df2573da94600ac2391",
                 "powerpc": "59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d"
             },
+            "shortstate": "",
             "show-warning": false,
             "state": "release",
-            "shortstate": "",
             "type": "desktop",
             "version": "16.04.1",
             "visible": true,
@@ -65,9 +65,9 @@
                 "i386": "2328d8da56ab3eb92616309d19852c877a6d91fba0079925cef3371761b84ace",
                 "powerpc": "abbc42c9d3144375e4f35161056d59686383bfdb04605073660a8174e334e78a"
             },
+            "shortstate": "beta2",
             "show-warning": false,
             "state": "beta-2",
-            "shortstate": "beta2",
             "type": "desktop",
             "version": "16.10",
             "visible": true,

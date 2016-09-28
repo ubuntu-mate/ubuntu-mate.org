@@ -47,7 +47,7 @@ background-color: #87a556 !important;
 <div id="release-list">
 <p><b>Choose a Release:</b></p>
 <ul id="release" class="nav nav-pills" role="tablist"><li id="xenial" role="presentation"><a href="#xenial" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.04.1 LTS</big></a></li>
-<li id="yakkety" role="presentation"><a href="#yakkety" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.10 Alpha 2</big></a></li>
+<li id="yakkety" role="presentation"><a href="#yakkety" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.10 Beta 1</big></a></li>
 </ul>
 </div>
 
@@ -121,7 +121,7 @@ For aarch32 (ARMv7) computers, like:
 <h3><span id="present-version"></span> for <span id="present-arch"></span> systems.</h3>
 <p>See what's new and any other important information for this release.</p>
 <p><a class="xenial" href="https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
-<p><a class="yakkety" href="/blog/ubuntu-mate-yakkety-alpha2/"><span class="fa fa-file"></span> Release Announcement</a></p>
+<p><a class="yakkety" href="/blog/ubuntu-mate-yakkety-beta1/"><span class="fa fa-file"></span> Release Announcement</a></p>
 
 <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
 <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
@@ -146,9 +146,9 @@ For aarch32 (ARMv7) computers, like:
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-i386.iso.torrent</a>
 <a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent</a>
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent</a>
-<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/yakkety-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-amd64.iso.torrent</a>
-<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/yakkety-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-i386.iso.torrent</a>
-<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/yakkety-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-powerpc.iso.torrent</a>
+<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/ubuntu-mate-16.10-beta2-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-beta2-desktop-amd64.iso.torrent</a>
+<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/ubuntu-mate-16.10-beta2-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-beta2-desktop-i386.iso.torrent</a>
+<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/ubuntu-mate-16.10-beta2-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-beta2-desktop-powerpc.iso.torrent</a>
 <a class="yakkety-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent</a>
 
 </p>
@@ -336,9 +336,9 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-amd64.iso</a>
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-i386.iso</a>
 <a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-powerpc.iso</a>
-<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/yakkety-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-amd64.iso</a>
-<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/yakkety-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-i386.iso</a>
-<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/yakkety-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> yakkety-desktop-powerpc.iso</a>
+<a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/ubuntu-mate-16.10-beta2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-beta2-desktop-amd64.iso</a>
+<a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/ubuntu-mate-16.10-beta2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-beta2-desktop-i386.iso</a>
+<a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/ubuntu-mate-16.10-beta2-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-beta2-desktop-powerpc.iso</a>
 
 <img class="rpi" src="../images/flags/bytemark-16.png" width="16px" height="16px"/>&nbsp;
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>Bytemark</b> - ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz</a>
@@ -352,8 +352,8 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <span class="xenial-i386">1.7 GB</span>
 <span class="xenial-powerpc">1.7 GB</span>
 <span class="xenial-armhf">1.1 GB</span>
-<span class="yakkety-amd64">1.7 GB</span>
-<span class="yakkety-i386">1.7 GB</span>
+<span class="yakkety-amd64">1.8 GB</span>
+<span class="yakkety-i386">1.8 GB</span>
 <span class="yakkety-powerpc">1.8 GB</span>
 <span class="yakkety-armhf">Unknown</span>
 
@@ -364,9 +364,9 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <code class="xenial-i386">70cef0f71784272bdb01287d15a264de2970f28ad2fe9df2573da94600ac2391</code>
 <code class="xenial-powerpc">59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d</code>
 <code class="xenial-armhf">bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a</code>
-<code class="yakkety-amd64">046b18b2bb02747f6eca7531a18cd79e5ae41d07e81c8b0b3a45910f458dd5ae</code>
-<code class="yakkety-i386">839281b28dfd94121f347d78dc12104e3d6ed3f9e98f400e8a62fddc98993b1a</code>
-<code class="yakkety-powerpc">e9964268a04a6090fe1401754a93ed91c0a09bf27fe48cb80d4ac62dfb1a5d29</code>
+<code class="yakkety-amd64">690e8069f2f9d936ee6dedb8ba2271f83ca076e0b081e79a00d269dd50bbcafc</code>
+<code class="yakkety-i386">2328d8da56ab3eb92616309d19852c877a6d91fba0079925cef3371761b84ace</code>
+<code class="yakkety-powerpc">abbc42c9d3144375e4f35161056d59686383bfdb04605073660a8174e334e78a</code>
 <code class="yakkety-armhf"></code>
 
 </p>
@@ -472,7 +472,7 @@ close to you in order to achieve a faster download.</p>
 </a>
 </p>
 <p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.04.1</a>
-<a class="yakkety" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/alpha-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.10</a>
+<a class="yakkety" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.10</a>
 </p>
 </div>
 </div>
@@ -543,7 +543,7 @@ $('#getting-started-hr').show();
 
 // Selecting a distro version
 $( "#xenial" ).click(function() {show_version = "xenial";present_version = "Ubuntu MATE 16.04.1 LTS";updatePage();$('#arch-list').slideDown();});
-$( "#yakkety" ).click(function() {show_version = "yakkety";present_version = "Ubuntu MATE 16.10 Alpha 2";updatePage();$('#arch-list').slideDown();});
+$( "#yakkety" ).click(function() {show_version = "yakkety";present_version = "Ubuntu MATE 16.10 Beta 1";updatePage();$('#arch-list').slideDown();});
 
 
 // Selecting an architecture
