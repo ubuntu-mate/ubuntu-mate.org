@@ -52,7 +52,7 @@
                 "i386": "magnet:?xt=urn:btih:9f84b7495605352b6ddccfa2b038c8f5efa58215&dn=yakkety-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:7f15a31dbb86239b9564e82554b120fc60198825&dn=yakkety-desktop-powerpc.iso"
             },
-            "name": "Ubuntu MATE 16.10 Beta 1",
+            "name": "Ubuntu MATE 16.10 Beta 2",
             "release-notes": "/blog/ubuntu-mate-yakkety-beta1/",
             "rpi-mirrors": {
                 "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent",
