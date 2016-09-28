@@ -1,13 +1,23 @@
 <!--
 .. title: Ubuntu MATE 16.10 Beta 2
 .. slug: ubuntu-mate-yakkety-beta2
-.. date: 2016-09-23 00:00:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,beta2,draft
+.. date: 2016-09-28 06:30:00 UTC
+.. tags: Ubuntu,MATE,Yakkety,beta2
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 2
 .. type: text
 .. author: Martin Wimpress
 -->
+
+We are totally over excited (like we've been eating candy floss and
+toffee apples all night) about this final beta release of Ubuntu MATE
+16.10, that now features **MATE Desktop 1.15.1** `:-D`
+
+From this point forward we'll be focusing on fixing as many issues as
+we can on the lead up to the final release of Ubuntu MATE
+16.10. The 16.10 development cycle has been all about the migration to
+GTK3+ and creating the new foundations upon which to build our
+*"retrospective future"*.
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 [October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule) With this
@@ -40,14 +50,21 @@ Ubuntu MATE *Beta Releases* are recommended for:
 This is what has been added, updated or removed.
 
   * **Upgraded to MATE Desktop 1.15.1**
-    * The entire MATE Desktop suite has been upgraded to MATE Desktop
-    1.15.x
+    * The entire MATE Desktop suite has been upgraded to MATE Desktop 1.15.x
     * These are the final development snapshots and bring many bug fixes
     and GTK3+ compatibility improvements.
     * **MATE Desktop 1.16 will be available via updates soon!**
   * Updated Ubuntu MATE themes which **significantly improves GTK 3.20 compatibility**.
-  * Upgraded to **Linux 4.8**.
-  * **Ubuntu MATE 16.10.8 will be available via updates** shortly after release.
+  * An update for **Ubuntu MATE Welcome 16.10.9** is available for install now.
+    * Auto-focus the search box.
+    * Refine Getting Started.
+    * Refine header/footer shadows and footer icons.
+    * Reduce flickering under non Ambiant-MATE themes.
+    * Fixed installs for Audio Recorder, Gajim, InSync, KDE Connect Indicator, Kodi,
+      Hedgewars, HipChat, MakeMKV, OBS Studio, Play on Linux, Ubuntu SDK,
+      Ubuntu Software, Veracrypt and Wine Devel.
+    * Added Deja-Dup, Brasero, gElemental, GNS3, Thunderbird and Skype for Linux Alpha.
+    * Many bug fixes.
   * Fixed MATE Tweak segfault when switching to Compiz due to a `gsettings` schema change in Metacity.
   * Fixed Weather reports and forecasts.
 
@@ -71,6 +88,10 @@ Here are the known issues.
 ### Ubuntu family issues
 
 This is our known list of bugs that affect all flavours.
+
+  * Booting the live image on UEFI hardware may fail to complete, only showing a blank screen.
+    * This is caused by an issue with the UEFI Shim and has been reported to fail on Thinkpad laptops as well as in QEMU virtual machines. Other devices may also be affected.
+    * [#1624096](https://bugs.launchpad.net/bugs/1624096)
 
   * LibreOffice 5.2.1 has bugs in it's GTK3+ implementation that results white borders being shown around the toolbars in dark themes.
 

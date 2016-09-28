@@ -60,14 +60,14 @@
             },
             "rpi-visible": false,
             "sha256sum": {
-                "amd64": "66eb86455c1542f34ee314189701f5e6d8a5a39dc061b15652648ef3f6552450",
+                "amd64": "690e8069f2f9d936ee6dedb8ba2271f83ca076e0b081e79a00d269dd50bbcafc",
                 "armhf": "",
-                "i386": "be28a9f8fea657f8d1367fc00e58c7eb95e95bebcfacac00849584df28103652",
-                "powerpc": "48aced7029561418e9bf8b58cd587b1ffeeb28a5d8fb9f17eeb6dc975ee14517"
+                "i386": "2328d8da56ab3eb92616309d19852c877a6d91fba0079925cef3371761b84ace",
+                "powerpc": "abbc42c9d3144375e4f35161056d59686383bfdb04605073660a8174e334e78a"
             },
             "show-warning": false,
-            "state": "beta-1",
-            "shortstate": "beta1",
+            "state": "beta-2",
+            "shortstate": "beta2",
             "type": "desktop",
             "version": "16.10",
             "visible": true,
