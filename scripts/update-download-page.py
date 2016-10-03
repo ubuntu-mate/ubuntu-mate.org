@@ -70,6 +70,30 @@ class DownloadPageScript(object):
                 print("--update-magnet-uri  =  Update the magnet URIs saved to downloads.json.")
 
     # Useful functions used later in the script.
+    def determine_url(self, url_type, release, arch):
+        # url_type  => According to global group = e.g. "iso", "torrent"
+        # release   => self.downloads['release'][release_id]
+
+        distro_codename = release['codename']
+        distro_version = release['version']
+        distro_state = release['state']
+        distro_shortstate = release['shortstate']
+        distro_type = release['type']
+
+        if distro_state.startswith('alpha'):
+            url = self.downloads['global']['canonical-alpha-' + url_type]
+        elif distro_state.startswith('beta'):
+            url = self.downloads['global']['canonical-beta-' + url_type]
+        else:
+            url = self.downloads['global']['canonical-' + url_type]
+
+        url = url.replace('OSVERSION', distro_version)
+        url = url.replace('ARCH', arch)
+        url = url.replace('STATE', distro_state)
+        url = url.replace('TYPE', distro_type)
+        url = url.replace('SHORT', distro_shortstate)
+        return(url)
+
     def download_file(self, url):
         url_name = url.split('/')[-1]
         print('\nDownloading file: ' + url_name)
@@ -127,13 +151,7 @@ class DownloadPageScript(object):
                         distro_state = self.downloads['release'][release_id]['state']
                         distro_shortstate = self.downloads['release'][release_id]['shortstate']
                         distro_type = self.downloads['release'][release_id]['type']
-                        if distro_state.startswith('alpha'):
-                            url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
-                        elif distro_state.startswith('beta'):
-                            url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORT', distro_shortstate).replace('TYPE', distro_type) + '.torrent'
-                        else:
-                            url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type) + '.torrent'
-
+                        url = self.determine_url("torrent", self.downloads['release'][release_id], arch)
                     self.downloads['release'][release_id]['magnet-uri'][arch] = self.generate_magnet_uri(url)
 
                 except Exception as e:
@@ -214,15 +232,8 @@ class DownloadPageScript(object):
                     url = self.downloads['release'][release_id]['rpi-mirrors']['torrent']
                     url_file = url.split('/')[-1]
                 else:
-                    if distro_state.startswith('alpha'):
-                        url = self.downloads['global']['canonical-alpha-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-                        url_file = url.split('/')[-1]
-                    elif distro_state.startswith('beta'):
-                        url = self.downloads['global']['canonical-beta-torrent'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORT', distro_shortstate).replace('TYPE', distro_type)
-                        url_file = url.split('/')[-1]
-                    else:
-                        url = self.downloads['global']['canonical-torrent'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-                        url_file = url.split('/')[-1]
+                    url = self.determine_url("torrent", self.downloads['release'][release_id], arch)
+                    url_file = url.split('/')[-1]
 
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
                 buffer_torrent_links += template + '\n'
@@ -242,15 +253,8 @@ class DownloadPageScript(object):
                     buffer_direct_uk_links += template + '\n'
 
                 else:
-                    if distro_state.startswith('alpha'):
-                        url = self.downloads['global']['canonical-alpha-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-                        url_file = url.split('/')[-1]
-                    elif distro_state.startswith('beta'):
-                        url = self.downloads['global']['canonical-beta-iso'].replace('CODENAME', distro_codename).replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('SHORT', distro_shortstate).replace('TYPE', distro_type)
-                        url_file = url.split('/')[-1]
-                    else:
-                        url = self.downloads['global']['canonical-iso'].replace('OSVERSION', distro_version).replace('ARCH', arch).replace('STATE', distro_state).replace('TYPE', distro_type)
-                        url_file = url.split('/')[-1]
+                    url = self.determine_url("iso", self.downloads['release'][release_id], arch)
+                    url_file = url.split('/')[-1]
 
                     template = '<a class="' + distro_codename + '-' + arch + '" href="' + url +'" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
                     buffer_direct_links += template + '\n'
