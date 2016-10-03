@@ -197,16 +197,16 @@ class DownloadPageScript(object):
 
             ## Releases
             template = '<li id="' + distro_codename + '" role="presentation"><a href="#' + distro_codename + '" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> ' + distro_name + '</big></a></li>'
-            buffer_release_list = buffer_release_list + template + '\n'
+            buffer_release_list += template + '\n'
 
             # Raspberry Pi Downloads Available?
             rpi_visible = self.downloads['release'][release_id]['rpi-visible']
             if rpi_visible:
-                buffer_rpi_class = buffer_rpi_class + distro_codename + ' '
+                buffer_rpi_class += distro_codename + ' '
 
             ## Release Notes URL
             template = '<p><a class="' + distro_codename + '" href="' + distro_release_url + '"><span class="fa fa-file"></span> Release Announcement</a></p>'
-            buffer_release_notes = buffer_release_notes + template + '\n'
+            buffer_release_notes += template + '\n'
 
             ## Torrent URL
             for arch in self.archs:
@@ -225,12 +225,12 @@ class DownloadPageScript(object):
                         url_file = url.split('/')[-1]
 
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
-                buffer_torrent_links = buffer_torrent_links + template + '\n'
+                buffer_torrent_links += template + '\n'
 
                 # Magnet URI for torrent
                 magnet_uri = self.downloads['release'][release_id]['magnet-uri'][arch]
                 template = '<a class="' + distro_codename + '-' + arch + '" href="' + magnet_uri + '" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>'
-                buffer_magnet_links = buffer_magnet_links + template + '\n'
+                buffer_magnet_links += template + '\n'
 
             ## Direct URL
             for arch in self.archs:
@@ -239,7 +239,7 @@ class DownloadPageScript(object):
                     url = self.downloads['release'][release_id]['rpi-mirrors']['uk']
                     url_file = url.split('/')[-1]
                     template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-uk'] + '</b> - ' + url_file + '</a>'
-                    buffer_direct_uk_links = buffer_direct_uk_links + template + '\n'
+                    buffer_direct_uk_links += template + '\n'
 
                 else:
                     if distro_state.startswith('alpha'):
@@ -253,18 +253,18 @@ class DownloadPageScript(object):
                         url_file = url.split('/')[-1]
 
                     template = '<a class="' + distro_codename + '-' + arch + '" href="' + url +'" onclick="thanks()"><span class="fa fa-download"></span> ' + url_file + '</a>'
-                    buffer_direct_links = buffer_direct_links + template + '\n'
+                    buffer_direct_links += template + '\n'
 
                 # Download Size
                 size = self.get_download_size(url)
                 template = '<span class="' + distro_codename + '-' + arch + '">' + size + '</span>'
-                buffer_download_sizes = buffer_download_sizes + template + '\n'
+                buffer_download_sizes += template + '\n'
 
             # SHA256 Checksums for ISOs
             for arch in self.archs:
                 sha256sum = self.downloads['release'][release_id]['sha256sum'][arch]
                 template = '<code class="' + distro_codename + '-' + arch + '">' + sha256sum + '</code>'
-                buffer_checksums = buffer_checksums + template + '\n'
+                buffer_checksums += template + '\n'
 
             # Alert Box for LTS Status
             if self.downloads['release'][release_id]['end-date']:
@@ -276,9 +276,9 @@ class DownloadPageScript(object):
                     for arch in self.archs:
                         # Raspberry Pi releases are not long term supported.
                         if not arch == 'armhf':
-                            template = template + distro_codename + '-' + arch + ' '
+                            template += distro_codename + '-' + arch + ' '
 
-                    template = template + '" hidden>' + \
+                    template += '" hidden>' + \
                                 '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
                                 '<p>' + alert_text + '</p>' + \
                             '</div>'
@@ -288,7 +288,7 @@ class DownloadPageScript(object):
                     template = '<div class="alert alert-warning '
                     # Raspberry Pi releases are not long term supported.
                     for arch in self.archs:
-                        template = template + distro_codename + '-' + arch + ' '
+                        template += distro_codename + '-' + arch + ' '
 
                     template = template + '" hidden>' + \
                                 '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
@@ -300,13 +300,13 @@ class DownloadPageScript(object):
                     template = '<div class="alert alert-info '
                     # Raspberry Pi releases are not long term supported.
                     for arch in self.archs:
-                        template = template + distro_codename + '-' + arch + ' '
+                        template += distro_codename + '-' + arch + ' '
 
                     template = template + '" hidden>' + \
                                 '<p><b><span class="fa fa-info-circle"></span> ' + alert_title + '</b></p>' + \
                                 '<p>' + alert_text + '</p>' + \
                             '</div>'
-                buffer_alerts = buffer_alerts + template + '\n'
+                buffer_alerts += template + '\n'
 
             # Alert Box for Important Issues  (e.g. serve bug, inform of experimental, or end of life.)
             if self.downloads['release'][release_id]['show-warning']:
@@ -316,12 +316,12 @@ class DownloadPageScript(object):
                              '<p><b><span class="fa fa-warning"></span> ' + warning_title + '</b></p>' + \
                              '<p>' + warning_text + '</p>' + \
                            '</div>'
-                buffer_alerts = buffer_alerts + template + '\n'
+                buffer_alerts += template + '\n'
 
             # Other Downloads Page
             url = self.downloads['global']['canonical-other-folder'].replace('OSVERSION', distro_version).replace('STATE', distro_state).replace('TYPE', distro_type)
             template = '<a class="' + distro_codename + '" href="' + url + '" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for ' + distro_version + '</a>'
-            buffer_other_links = buffer_other_links + template + '\n'
+            buffer_other_links += template + '\n'
 
             # JavaScript Functions
             template = '$( "#' + distro_codename + '" ).click(function() {' + \
@@ -330,7 +330,7 @@ class DownloadPageScript(object):
                             'updatePage();' + \
                             '$(\'#arch-list\').slideDown();' + \
                         '});'
-            buffer_javascript = buffer_javascript + template + '\n'
+            buffer_javascript += template + '\n'
 
         # JavaScript Variables
         buffer_variables = 'var version = {'
@@ -339,7 +339,7 @@ class DownloadPageScript(object):
             buffer_variables = buffer_variables + codename + ': "' + codename + '", '
         buffer_variables = buffer_variables[:-2] + '};\nvar arch = {'
         for arch in self.archs:
-            buffer_variables = buffer_variables + arch + ': "' + arch + '", '
+            buffer_variables += arch + ': "' + arch + '", '
         buffer_variables = buffer_variables[:-2] + '};\n'
 
         # Now replace place holders on page.
@@ -400,10 +400,10 @@ class DownloadPageScript(object):
                     ARCH = arch
 
                 for AMOUNT in tip_amounts:
-                    paypal_buffer = paypal_buffer + form_start.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
-                    paypal_buffer = paypal_buffer + form_field.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
-                    paypal_buffer = paypal_buffer + form_input.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
-                    paypal_buffer = paypal_buffer + form_end.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer += form_start.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer += form_field.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer += form_input.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
+                    paypal_buffer += form_end.replace('CLASS',CLASS).replace('AMOUNT',AMOUNT).replace('VERSION',VERSION).replace('ARCH',ARCH)
 
         self.page_buffer = self.page_buffer.replace('PAYPAL-DOWNLOAD-TIPS', paypal_buffer)
 
@@ -412,7 +412,7 @@ class DownloadPageScript(object):
         page_buffer_original = self.page_buffer
         page_buffer_new = ""
         for line in page_buffer_original.split('\n'):
-            page_buffer_new = page_buffer_new + line.lstrip() + '\n'
+            page_buffer_new += line.lstrip() + '\n'
         self.page_buffer = page_buffer_new
 
     def write_download_page(self):
