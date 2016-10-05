@@ -136,18 +136,19 @@ professional or recreational pursuit.
 
 <img class="left" src="/assets/img/logos/steam-logo.png" alt="Steam" width="112" height="112">
 
-In the last couple of years Linux has become a first class gaming
-platform thanks to [Valve](http://www.valvesoftware.com/) bringing the
+In recent years Linux has become a first class gaming platform thanks
+to [Valve](http://www.valvesoftware.com/) bringing the
 [Steam](http://store.steampowered.com/) platform to Linux. At the time
-of writing Steam has more than 1000 high quality indie and AAA titles
+of writing Steam has thousands of high quality indie and AAA titles
 available for Linux. Ubuntu MATE is fully compatible with Steam for
 Linux.
 
-While Steam is a major step forward for gaming on Linux, there are also 
-many high quality and enjoyable Open Source games titles available 
-for Ubuntu MATE via the Ubuntu Software Centre. It doesn't matter if 
-you like flight simulators, motor racing, first person shooters, jump
-and run or card games, you'll find something to keep you entertained.
+While Steam is a major step forward for gaming on Linux, there are also
+many high quality and enjoyable Open Source games titles available for
+Ubuntu MATE via Software Boutique and Software Centre. It doesn't
+matter if you like flight simulators, motor racing, first person
+shooters, jump and run or card games, you'll find something to keep you
+entertained.
 
 ## Open Source
 

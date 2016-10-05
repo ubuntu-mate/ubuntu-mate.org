@@ -53,7 +53,7 @@ to work on Ubuntu MATE or MATE Desktop projects.
   * [Wolfgang Ulbrich](https://github.com/raveit65) (*Fedora*) - **&euro;350** For migrating Ubuntu MATE themes to GTK 3.20
   * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) (*Ubuntu MATE*) **&pound;100** - For developing Ubuntu MATE Welcome.
   * [Mike Gabriel](https://sunweavers.net/) (*Debian*) - **&euro;150** For reviewing and sponsoring uploads of MATE 1.14 to Debian.
-  * [Robin Thompson](https://ubuntu-mate.community/users/lah7/) (*Ubuntu MATE*) **&pound;100** - For developing of MATE Dock Applet.
+  * [Robin Thompson](https://ubuntu-mate.community/users/robint99/) (*Ubuntu MATE*) **&pound;100** - For developing MATE Dock Applet.
 
 Unfortunately one of the MATE Developer is having difficulty with their
 bank and has been unable to received their July or August sponsorship

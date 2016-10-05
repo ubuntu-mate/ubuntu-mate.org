@@ -193,12 +193,12 @@ sponsorship packages.
       <div class="well bs-component">
         <legend>Bitcoin</legend>
           <p>Click or scan to QR code below to launch your Bitcoin client and
-          donate 0.02 btc to Ubuntu MATE. Alternatively, copy and paste the
+          donate 0.015 btc to Ubuntu MATE. Alternatively, copy and paste the
           Bitcoin address into your Bitcoin client to donate an amount of your
           choice.</p>
           <p align="center">
-            <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=Ubuntu%20MATE">
-            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_Ubuntu_MATE" /></a>
+            <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.015&label=Ubuntu%20MATE">
+            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.015&message=Donate_0.015_btc_to_Ubuntu_MATE" /></a>
             <br />
             <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
           </p>
@@ -232,7 +232,8 @@ We post an overview of how the funds were used each month.
   * [2016 May](/blog/ubuntu-mate-may-2016-supporters/)
   * [2016 June](/blog/ubuntu-mate-june-2016-supporters/)
   * [2016 July](/blog/ubuntu-mate-july-2016-supporters/)
-  * [2016 August](/blog/ubuntu-mate-august-2016-supporters/)    
+  * [2016 August](/blog/ubuntu-mate-august-2016-supporters/)
+  * [2016 September](/blog/ubuntu-mate-september-2016-supporters/)
 
 <script type="text/javascript">
   function validateMonthlyForm() {
