@@ -16,8 +16,8 @@
 
 # It's GTK3+ baby, all of it!
 
-> **Ubuntu MATE 16.10 is, more or less, a from scratch re-working of Ubuntu
-> MATE, not just to accomadate GTK3+ but to also make most packages
+> **Ubuntu MATE 16.10 is, more or less, a re-working of Ubuntu
+> MATE from scratch, not just to accomadate GTK3+ but to also make most of the packages
 > shipped by default with Ubuntu MATE *"Recommeneded"*. This means most
 > default applications can now be uninstalled without issue.**
 >
@@ -28,10 +28,10 @@
 > only in Yakkety.**
 >
 > **This has been no small undertaking, we've changed toolkits twice this
-> cycle. First from GTK 2.24.x to GTK 3.18 and then to GTK 3.20. The
-> themes have required two significant upgrades first to supprt GTK 3.18
-> and again to support GTK 3.20. We've also upgraded through three MATE
-> Desktop versions this cycle, 1.12 to 1.14, 1.14 to 1.15 and 1.15 to 1.16.**
+> cycle. First from GTK 2.24.x to GTK 3.18, and then again to GTK 3.20. The
+> themes required two significant upgrades during this process.
+> We've also upgraded through three MATE Desktop versions this cycle,
+> starting from 1.12 to 1.14, to 1.15 and finally to 1.16.**
 >
 > **We originally scheduled a complete migration to GTK3+ to conclude for
 > the 17.04 release, but thanks to those of you who have generously
@@ -44,7 +44,7 @@
 > have made it possible to complete the migration to GTK3+ a full six
 > months ahead of schedule!**
 >
-> **Thank you all for you continued support!**
+> **Thank you all for your continued support!**
 > 
 > *Martin Wimpress, Ubuntu MATE Project Leader.*
 
@@ -89,7 +89,7 @@ This is what has been added, updated or removed.
     * Hide "open at login" checkbox for live and guest sessions.
     * Remove ocenaudio. (LP: [#1613410](https://bugs.launchpad.net/bugs/1613410))
     * Remove duplicate navigation buttons.    
-    * Many other minor fixes and finements.
+    * Many other minor fixes and refinements.
   * **Upgraded to [MATE Dock Applet 0.75](https://github.com/robint99/mate-dock-applet/releases/tag/V0.75)**
     * Application actions now have their own popup window, which can be disabled if required.
     * Window list now appears in response to a click on an application icon when it has more than one window open.
