@@ -17,14 +17,15 @@
 # It's GTK3+ baby, all of it!
 
 > **Ubuntu MATE 16.10 is, more or less, a from scratch re-working of Ubuntu
-> MATE. Not just to accomadate GTK3+ but to also make nearly all packages
-> shipped with Ubuntu MATE by default *"Recommeneded"*. This means most
+> MATE, not just to accomadate GTK3+ but to also make most packages
+> shipped by default with Ubuntu MATE *"Recommeneded"*. This means most
 > default applications can now be uninstalled without issue.**
 >
 > **The work to port MATE Desktop to GTK3+ has been ongoing for a couple
 > of years and Ubuntu MATE is the first major distribution to ship a
 > full GTK3+ implementation of the MATE Desktop. And the absolute latest
-> release too, MATE Desktop 1.16!**
+> release too, MATE Desktop 1.16! Firefox and LibreOffice are also GTK3+
+> only in Yakkety.**
 >
 > **This has been no small undertaking, we've changed toolkits twice this
 > cycle. First from GTK 2.24.x to GTK 3.18 and then to GTK 3.20. The
@@ -89,6 +90,12 @@ This is what has been added, updated or removed.
     * Remove ocenaudio. (LP: [#1613410](https://bugs.launchpad.net/bugs/1613410))
     * Remove duplicate navigation buttons.    
     * Many other minor fixes and finements.
+  * **Upgraded to [MATE Dock Applet 0.75](https://github.com/robint99/mate-dock-applet/releases/tag/V0.75)**
+    * Application actions now have their own popup window, which can be disabled if required.
+    * Window list now appears in response to a click on an application icon when it has more than one window open.
+    * Action lists and window list colours now match the panel.
+    * Optional Compiz integration, to provide previews of an applications open windows.
+    * Bug fixes.
   * Many other bug fixes including: 
     * Fixed booting PowerPC iso on PowerMac G5 7,3. (LP: [#1626332](https://bugs.launchpad.net/bugs/1626332))
     * Fixed LightDM Guest Session warning dialog. (LP: [#1627395](https://bugs.launchpad.net/bugs/1627395))
