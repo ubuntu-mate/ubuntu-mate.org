@@ -57,7 +57,7 @@ See the answer to the question above.
 ## Will Ubuntu MATE run on my computer?
 
 If you have a computer from Entroware, System 76, ZaReason or Think
-Penguin then Ubuntu MATE will aboslutely run on your computer. Computers
+Penguin then Ubuntu MATE will absolutely run on your computer. Computers
 from major vendors such as Acer, ASUS, Dell, HP and Lenovo will most
 likely run Ubuntu MATE just fine too.
 
