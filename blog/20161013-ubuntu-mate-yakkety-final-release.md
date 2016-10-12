@@ -77,7 +77,7 @@ This is what has been added, updated or removed.
     * Fix symbolic icons for GtkExpander.
     * Fix Transmission progress bars. (LP: [#1624565](https://bugs.launchpad.net/bugs/1624565))
     * Fix Indicator Applet on transparent panels. (LP: [#1598159](https://bugs.launchpad.net/bugs/1598159))
-  * **Upgraded to Ubuntu MATE Weclome 16.10.10**
+  * **Upgraded to Ubuntu MATE Welcome 16.10.10**
     * Correct description for Adobe Flash. (LP: [#1630266](https://bugs.launchpad.net/bugs/1630266))
     * Add keyboard navigation support. (LP: [#1616203](https://bugs.launchpad.net/bugs/1616203))
     * Fix Getting Started sections not re-closing. (LP: [#1626909](https://bugs.launchpad.net/bugs/1626909))
@@ -110,7 +110,11 @@ Here are the known issues.
 
 ### Ubuntu MATE issues
 
-  * Nothing significant.
+  * It is not possible to enable 'Hide proprietary applications' or 'Enable Bulk Queue' in Ubuntu MATE Welcome. (LP: [#1632680](https://bugs.launchpad.net/bugs/1632680))
+    * *A fix has been published and will be available via updates a few days after release.*
+    * **You can also subscribe Software Boutique to updates (in the lower left of the Software Boutique window) and get the fix now!**
+  * MATE Optimus crashes on start-up if you have a nvidia hybrid graphics and the nvidia proprietary drivers installed. (LP: [#1632685](https://bugs.launchpad.net/bugs/1632685))
+    * *A fix has been published and will be available via updates a few days after release.*
 
 You'll also want to check the Ubuntu MATE bug tracker to see what has
 already been reported.
