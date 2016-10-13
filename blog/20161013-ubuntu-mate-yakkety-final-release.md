@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 16.10
 .. slug: ubuntu-mate-yakkety-final-release
-.. date: 2016-10-13 20:30:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,final,16.10,private
+.. date: 2016-10-13 15:00:00 BST
+.. tags: Ubuntu,MATE,Yakkety,final,16.10
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
 .. type: text
@@ -125,8 +125,15 @@ already been reported.
 
 This is our known list of bugs that affect all flavours.
 
-  * Choosing an Entire Disk install on PowerPC may result in an unbootable system.
-    * The work around is to manually partition your hard disk and create an `ext2` boot partition.
+  * Booting the image on UEFI hardware may fail to complete, only showing a blank screen.
+    * This is caused by an issue with the UEFI Shim and has been reported
+    to fail on ThinkPad laptops as well as in QEMU virtual machines. Other
+    devices may also be affected. This issue is expected to be resolved
+    for the final release.
+    * (LP: [#1624096](https://bugs.launchpad.net/bugs/1624096))
+
+  * Choosing an Entire Disk install on PowerPC will result in an unbootable system.
+    * **The work around is to manually partition your hard disk and create a 1GB `ext2` /boot partition.**
     * (LP: [#1606089](https://bugs.launchpad.net/bugs/1606089)),
     (LP: [#1607128](https://bugs.launchpad.net/bugs/1607128))
 
