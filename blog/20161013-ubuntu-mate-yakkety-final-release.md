@@ -18,7 +18,7 @@
 
 > **Ubuntu MATE 16.10 is, more or less, a re-working of Ubuntu
 > MATE from scratch, not just to accomodate GTK3+ but to also make most
-> of the packages shipped by default with Ubuntu MATE *"Recommeneded"*.
+> of the packages shipped by default with Ubuntu MATE *"Recommended"*.
 > This means most default applications can now be uninstalled without issue.**
 >
 > **The work to port MATE Desktop to GTK3+ has been ongoing for a couple
