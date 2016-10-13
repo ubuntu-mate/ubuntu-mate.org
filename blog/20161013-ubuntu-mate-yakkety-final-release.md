@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.10
 .. slug: ubuntu-mate-yakkety-final-release
-.. date: 2016-10-13 15:00:00 BST
+.. date: 2016-10-13 14:15:00 UTC
 .. tags: Ubuntu,MATE,Yakkety,final,16.10
 .. link:
 .. description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
