@@ -47,10 +47,10 @@
             "end-date": "July 2017",
             "lts": false,
             "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:b73a09ab89d369c68bdea7bf0f24717e782ebdc5&dn=ubuntu-mate-16.10-beta2-desktop-amd64.iso",
+                "amd64": "magnet:?xt=urn:btih:e249fe4dc957be4b4ce3ecaac280fdf1c71bc5bb&dn=ubuntu-mate-16.10-desktop-amd64.iso",
                 "armhf": "",
-                "i386": "magnet:?xt=urn:btih:3e4e21d2d6e4335aa91a64e8d45a2d7870966531&dn=ubuntu-mate-16.10-beta2-desktop-i386.iso",
-                "powerpc": "magnet:?xt=urn:btih:520e7dfdb2f1c3b0e675d9a9c3089386aca76352&dn=ubuntu-mate-16.10-beta2-desktop-powerpc.iso"
+                "i386": "magnet:?xt=urn:btih:bee8a636e86ad0270d27a91d183c8912e1176ae1&dn=ubuntu-mate-16.10-desktop-i386.iso",
+                "powerpc": "magnet:?xt=urn:btih:5c8427c3ad8c0a84f7d09f266ffb73cb58bf9625&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
             },
             "name": "Ubuntu MATE 16.10",
             "release-notes": "/blog/ubuntu-mate-yakkety-final-release/",
@@ -70,7 +70,7 @@
             "state": "release",
             "type": "desktop",
             "version": "16.10",
-            "visible": false,
+            "visible": true,
             "warning-header": "",
             "warning-text": ""
         }
