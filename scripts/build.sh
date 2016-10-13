@@ -18,3 +18,4 @@ fi
 
 scripts/update-download-page.py --update-all
 nikola build
+date
