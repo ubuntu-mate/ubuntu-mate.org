@@ -73,38 +73,6 @@
             "visible": false,
             "warning-header": "",
             "warning-text": ""
-        },
-        "3": {
-            "codename": "z",
-            "end-date": "February 2018",
-            "lts": false,
-            "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:b73a09ab89d369c68bdea7bf0f24717e782ebdc5&dn=ubuntu-mate-16.10-beta2-desktop-amd64.iso",
-                "armhf": "",
-                "i386": "magnet:?xt=urn:btih:3e4e21d2d6e4335aa91a64e8d45a2d7870966531&dn=ubuntu-mate-16.10-beta2-desktop-i386.iso",
-                "powerpc": "magnet:?xt=urn:btih:520e7dfdb2f1c3b0e675d9a9c3089386aca76352&dn=ubuntu-mate-16.10-beta2-desktop-powerpc.iso"
-            },
-            "name": "Ubuntu MATE 17.04 Alpha 1",
-            "release-notes": "/blog/ubuntu-mate-z-alpha1/",
-            "rpi-mirrors": {
-                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent",
-                "uk": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz"
-            },
-            "rpi-visible": false,
-            "sha256sum": {
-                "amd64": "690e8069f2f9d936ee6dedb8ba2271f83ca076e0b081e79a00d269dd50bbcafc",
-                "armhf": "",
-                "i386": "2328d8da56ab3eb92616309d19852c877a6d91fba0079925cef3371761b84ace",
-                "powerpc": "abbc42c9d3144375e4f35161056d59686383bfdb04605073660a8174e334e78a"
-            },
-            "shortstate": "alpha1",
-            "show-warning": false,
-            "state": "alpha-1",
-            "type": "desktop",
-            "version": "17.04",
-            "visible": false,
-            "warning-header": "",
-            "warning-text": ""
         }
     }
 }
