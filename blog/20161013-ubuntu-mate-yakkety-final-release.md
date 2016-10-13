@@ -17,9 +17,9 @@
 # It's GTK3+ baby, all of it!
 
 > **Ubuntu MATE 16.10 is, more or less, a re-working of Ubuntu
-> MATE from scratch, not just to accomadate GTK3+ but to also make most of the packages
-> shipped by default with Ubuntu MATE *"Recommeneded"*. This means most
-> default applications can now be uninstalled without issue.**
+> MATE from scratch, not just to accomadate GTK3+ but to also make most
+> of the packages shipped by default with Ubuntu MATE *"Recommeneded"*.
+> This means most default applications can now be uninstalled without issue.**
 >
 > **The work to port MATE Desktop to GTK3+ has been ongoing for a couple
 > of years and Ubuntu MATE is the first major distribution to ship a
@@ -33,16 +33,16 @@
 > We've also upgraded through three MATE Desktop versions this cycle,
 > starting from 1.12 to 1.14, to 1.15 and finally to 1.16.**
 >
-> **We originally scheduled a complete migration to GTK3+ to conclude for
-> the 17.04 release, but thanks to those of you who have generously
-> supported the Ubuntu MATE crowd funding we've achieved that objective
-> a full 6 months ahead of schedule!**
+> **We originally planned to complete the migration to GTK3+ for the
+> Ubuntu MATE 17.04 release, but thanks to [those of you who have generously
+> supported the Ubuntu MATE crowd-funding](/donate/) we've achieved that
+> objective well ahead of schedule!**
 >
 > **Ubuntu MATE have paid &euro;5653 to Open Source developers working
 > on MATE Desktop and Ubuntu MATE projects during the six months of the
 > Ubuntu MATE 16.10 development cycle. You, the Ubuntu MATE community,
-> have made it possible to complete the migration to GTK3+ a full six
-> months ahead of schedule!**
+> have made it possible to complete the migration to GTK3+ half a year
+> early!**
 >
 > **Thank you all for your continued support!**
 > 
