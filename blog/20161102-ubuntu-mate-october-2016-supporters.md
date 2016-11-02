@@ -55,10 +55,10 @@ projects, that Ubuntu MATE directly benefits from.
 This month Ubuntu MATE has paid several Open Source developers to work
 on Ubuntu MATE or MATE Desktop projects.
 
-  * [Vangelis Mouhtsis](https://github.com/gnugr) (*Debian*) - **&euro;100** - For improving MATE 1.16 packaging in Debian.
   * [Wolfgang Ulbrich](https://github.com/raveit65) (*Fedora*) - **&euro;350** For migrating Ubuntu MATE themes to GTK 3.20
-  * [Wolfgang Ulbrich](https://github.com/raveit65) (*Fedora*) - **&euro;20** For a 5 button mouse so we can test a [pull request #605 for Caja](https://github.com/mate-desktop/caja/pull/605).
+  * [Vangelis Mouhtsis](https://github.com/gnugr) (*Debian*) - **&euro;100** - For improving MATE 1.16 packaging in Debian.
   * [Michael Tunnell](http://michaeltunnell.com) (*[TuxDigital](http://tuxdigital.com)*) - **$210** For updating the Ubuntu MATE themes image assets, including HiDPI variants.
+  * [Wolfgang Ulbrich](https://github.com/raveit65) (*Fedora*) - **&euro;20** For a 5 button mouse so we can test a [pull request #605 for Caja](https://github.com/mate-desktop/caja/pull/605).
 
 Unfortunately one of the MATE Developers is having difficulty with
 their bank and has been unable to received their July, August,
