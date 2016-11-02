@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE October 2016 supporters
 .. slug: ubuntu-mate-october-2016-supporters
-.. date: 2016-11-02 19:00:00 BST
+.. date: 2016-11-02 18:15:00 UTC
 .. tags: Ubuntu,MATE,community,donate
 .. link:
 .. description: Community members who supported Ubuntu MATE this month.
