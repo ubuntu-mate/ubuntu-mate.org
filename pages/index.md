@@ -89,7 +89,7 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
 <div class="row">
   <div class="col-xs-6">
     <div class="well bs-component">
-    <a href="https://www.revouchers.co.uk/"><img class="centered" src="/images/sponsors/revouchers.png" alt="revouchers" /></a>
+    <a href="http://www.xltech.io/"><img class="centered" src="/images/sponsors/xltech.png" alt="XLTech" /></a>
     </div>
   </div>
   <div class="col-xs-6">
