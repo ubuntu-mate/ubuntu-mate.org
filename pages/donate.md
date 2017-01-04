@@ -18,8 +18,10 @@ img.centered {
 
 This crowd funding campaign has three main objectives:
 
-  * Fund the Ubuntu MATE project's hosting and bandwidth costs. These include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks.
-  * Fund the full time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidise the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences.
+  * Fund the costs associated with running the Ubuntu MATE and MATE Desktop projects.
+    * These include domain name registrations and service charges for things like the content delivery network, web application firewall and transactional email services used by the forums.
+  * Fund the development of Ubuntu MATE and MATE Desktop via financial rewards for contributors to either project.
+  * Help subsidise the travel expenses of team members to represent Ubuntu MATE and MATE Desktop at FLOSS conferences.
   * Support other Open Source projects that Ubuntu MATE depends upon.
 
 Patrons will be rewarded with exclusive project news, updates and
@@ -236,6 +238,7 @@ We post an overview of how the funds were used each month.
   * [2016 September](/blog/ubuntu-mate-september-2016-supporters/)
   * [2016 October](/blog/ubuntu-mate-october-2016-supporters/)
   * [2016 November](/blog/ubuntu-mate-november-2016-supporters/)
+  * [2016 December](/blog/ubuntu-mate-december-2016-supporters/)  
 
 <script type="text/javascript">
   function validateMonthlyForm() {
