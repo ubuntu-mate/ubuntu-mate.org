@@ -71,7 +71,7 @@ The version of MATE Desktop 1.16 in [this PPA](https://launchpad.net/~ubuntu-mat
 is **mostly built against GTK2+ to ensure compatibility with Ubuntu MATE
 16.04 and all the 3rd party MATE applets, plugins and extensions**.
 
-That said some applications have been transistioned to GTK3+ such as:
+That said some applications have been transitioned to GTK3+ such as:
 
   * Engrampa
   * MATE Notification Daemon
