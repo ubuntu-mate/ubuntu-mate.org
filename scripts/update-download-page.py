@@ -87,11 +87,13 @@ class DownloadPageScript(object):
         else:
             url = self.downloads['global']['canonical-' + url_type]
 
+        url = url.replace('CODENAME', distro_codename)
         url = url.replace('OSVERSION', distro_version)
         url = url.replace('ARCH', arch)
         url = url.replace('STATE', distro_state)
         url = url.replace('TYPE', distro_type)
         url = url.replace('SHORT', distro_shortstate)
+        
         return(url)
 
     def download_file(self, url):
@@ -127,10 +129,13 @@ class DownloadPageScript(object):
         # https://github.com/danfolkes/Magnet2Torrent/issues/6
         # http://stackoverflow.com/questions/12479570/given-a-torrent-file-how-do-i-generate-a-magnet-link-in-python
 
-        session = libtorrent.session()
-        filename = self.download_file(url)
-        info = libtorrent.torrent_info(filename)
-        return("magnet:?xt=urn:btih:%s&dn=%s" % (info.info_hash(), info.name()))
+        if url:
+            session = libtorrent.session()
+            filename = self.download_file(url)
+            info = libtorrent.torrent_info(filename)
+            return("magnet:?xt=urn:btih:%s&dn=%s" % (info.info_hash(), info.name()))
+        else:
+            return("")
 
     def do_replace(self, this, that):
         self.page_buffer = self.page_buffer.replace(this, that)
@@ -188,6 +193,7 @@ class DownloadPageScript(object):
         # Prepare the data to append into.
         buffer_release_list = ""
         buffer_rpi_class = ""
+        buffer_ppc_class = ""
         buffer_release_notes = ""
         buffer_torrent_links = ""
         buffer_magnet_links = ""
@@ -222,13 +228,21 @@ class DownloadPageScript(object):
             if rpi_visible:
                 buffer_rpi_class += distro_codename + ' '
 
+            ppc_visible = self.downloads['release'][release_id]['ppc-visible']
+            if ppc_visible:
+                buffer_ppc_class += distro_codename + ' '
+
             ## Release Notes URL
             template = '<p><a class="' + distro_codename + '" href="' + distro_release_url + '"><span class="fa fa-file"></span> Release Announcement</a></p>'
             buffer_release_notes += template + '\n'
 
             ## Torrent URL
             for arch in self.archs:
-                if arch == 'armhf':
+                if arch == 'powerpc' and not ppc_visible:
+                    continue
+                elif arch == 'armhf' and not rpi_visible:
+                    continue
+                elif arch == 'armhf':
                     url = self.downloads['release'][release_id]['rpi-mirrors']['torrent']
                     url_file = url.split('/')[-1]
                 else:
@@ -245,13 +259,16 @@ class DownloadPageScript(object):
 
             ## Direct URL
             for arch in self.archs:
-                if arch == 'armhf':
+                if arch == 'powerpc' and not ppc_visible:
+                    continue
+                elif arch == 'armhf' and not rpi_visible:
+                    continue
+                elif arch == 'armhf':
                     # UK Server
                     url = self.downloads['release'][release_id]['rpi-mirrors']['uk']
                     url_file = url.split('/')[-1]
                     template = '<a class="' + distro_codename + '-' + arch + '" href="' + url + '" onclick="thanks()"><b>' + self.downloads['global']['name-uk'] + '</b> - ' + url_file + '</a>'
                     buffer_direct_uk_links += template + '\n'
-
                 else:
                     url = self.determine_url("iso", self.downloads['release'][release_id], arch)
                     url_file = url.split('/')[-1]
@@ -349,6 +366,7 @@ class DownloadPageScript(object):
         # Now replace place holders on page.
         self.do_replace('RELEASE-LIST', buffer_release_list)
         self.do_replace('RPI-VISIBLE', buffer_rpi_class)
+        self.do_replace('PPC-VISIBLE', buffer_ppc_class)
         self.do_replace('RELEASE-URL', buffer_release_notes)
         self.do_replace('TORRENT-LINKS', buffer_torrent_links)
         self.do_replace('MAGNET-LINKS', buffer_magnet_links)
@@ -388,6 +406,9 @@ class DownloadPageScript(object):
                 continue
 
             for arch in self.archs:
+                if self.downloads['release'][release_id]['codename'] != 'xenial' and arch == "powerpc":
+                    continue
+                    
                 CLASS = self.downloads['release'][release_id]['codename'] + '-' + arch
                 VERSION = self.downloads['release'][release_id]['version']
 

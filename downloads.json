@@ -21,6 +21,7 @@
                 "powerpc": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso"
             },
             "name": "Ubuntu MATE 16.04.1 LTS",
+            "ppc-visible": true,
             "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/",
             "rpi-mirrors": {
                 "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent",
@@ -53,10 +54,11 @@
                 "powerpc": "magnet:?xt=urn:btih:5c8427c3ad8c0a84f7d09f266ffb73cb58bf9625&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
             },
             "name": "Ubuntu MATE 16.10",
+            "ppc-visible": true,
             "release-notes": "/blog/ubuntu-mate-yakkety-final-release/",
             "rpi-mirrors": {
-                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz.torrent",
-                "uk": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.10-desktop-armhf-raspberry-pi-2.img.xz"
+                "torrent": "",
+                "uk": ""
             },
             "rpi-visible": false,
             "sha256sum": {
@@ -70,6 +72,39 @@
             "state": "release",
             "type": "desktop",
             "version": "16.10",
+            "visible": true,
+            "warning-header": "",
+            "warning-text": ""
+        },
+        "3": {
+            "codename": "zesty",
+            "end-date": "January 2018",
+            "lts": false,
+            "magnet-uri": {
+                "amd64": "magnet:?xt=urn:btih:f2d9b448ec63744c9b78264f2f88f4023f5f541f&dn=zesty-desktop-amd64.iso",
+                "armhf": "",
+                "i386": "magnet:?xt=urn:btih:ab83b3d6ce5c4e54402def80ac332b2c76272106&dn=zesty-desktop-i386.iso",
+                "powerpc": ""
+            },
+            "name": "Ubuntu MATE 17.04",
+            "ppc-visible": false,
+            "release-notes": "/blog/ubuntu-mate-zesty-alpha2/",
+            "rpi-mirrors": {
+                "torrent": "",
+                "uk": ""
+            },
+            "rpi-visible": false,
+            "sha256sum": {
+                "amd64": "a7b32edab0af6f02683c7d14d4ae389bad68b6bc9958f0144c83d7604410a2c9",
+                "armhf": "",
+                "i386": "045ef28c2e6d64bfef887ae4f5f98b4d865d7a33ec829a651a81e067417eac02",
+                "powerpc": ""
+            },
+            "shortstate": "alpha2",
+            "show-warning": false,
+            "state": "alpha-2",
+            "type": "desktop",
+            "version": "17.04",
             "visible": true,
             "warning-header": "",
             "warning-text": ""

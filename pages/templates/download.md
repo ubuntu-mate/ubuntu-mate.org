@@ -80,7 +80,7 @@ at least 512MB of RAM to install from this image.
       </p>
     </div>
   </a>
-  <a id="powerpc" onclick="selected_powerpc()">
+  <a id="powerpc" class="PPC-VISIBLE" onclick="selected_powerpc()">
     <div class="col-xs-3 well bs-component">
       <h3>PowerPC</h3>
       <p>
