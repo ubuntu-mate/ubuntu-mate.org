@@ -40,7 +40,7 @@ This is what have been updated or added.
 
   * Upgraded to **MATE Desktop 1.17.2**
     * The MATE Desktop 1.17 development snapshots are what will become the next stable release of MATE Desktop.
-      * **Caja and Eye of MATE are both still 1.16 in Alpha 2**, never version shuld land via updates soon.
+      * **Caja and Eye of MATE are both still 1.16 in Alpha 2**, newer versions should land via updates soon.
     * All the legacy GTK2+ code has been completely removed from the entire project.
     * Features **full support for [libinput](https://www.freedesktop.org/wiki/Software/libinput/)**, a modern library to handle input devices such as mice, trackpads and touch screens for Wayland and X11.
     * `mate-panel` now **supports [desktop actions](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions)**.
