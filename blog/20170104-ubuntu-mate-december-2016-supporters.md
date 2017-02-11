@@ -23,9 +23,9 @@ and MATE Desktop projects.**
 
 This months crowd funding will be used to pay for:
 
-  * All Ubuntu MATE Content Delivery Network, Web Application Firewall and email charges for November 2016.
+  * All Ubuntu MATE Content Delivery Network, Web Application Firewall and email charges for December 2016.
   * Paid **&euro;1455** (taking into account currency variations) to Open Source developers for working on Ubuntu MATE and MATE Desktop projects.
-  * This brings Ubuntu MATEs total funding to Open Source projects and developers to approximately **$13773.23** (taking into account currency variations).
+  * This brings Ubuntu MATEs total funding of Open Source projects and developers to approximately **$13773.23** (taking into account currency variations).
 
 **Thank you!**
 
@@ -57,7 +57,7 @@ on Ubuntu MATE or MATE Desktop projects.
   * [Wolfgang Ulbrich](https://github.com/raveit65) (*Fedora*) - **&euro;100** For developing/testing MATE Desktop 1.17, the current in development snapshot.
   * [Mike Gabriel](https://sunweavers.net/) (*Debian*) - **&euro;100** For updating and uploading of MATE Desktop 1.16 fixes to Debian.
   * [Ikey Doherty](https://plus.google.com/+IkeyDoherty) (*Solus*) - **&pound;500** For working on [Brisk Menu](https://github.com/solus-project/brisk-menu), a efficient menu for the MATE Desktop.
-  * [Daniel For%C3%A9](https://plus.google.com/+DanielFor%C3%A9) (*elementary*) - **$700** For [updating the folder icons used in Ambiant-MATE and Radiant-MATE](https://github.com/flexiondotorg/ubuntu-mate-themes/pull/45).
+  * [Daniel Foré](https://twitter.com/DanielFore) (*elementary*) - **$700** For [updating the folder icons used in Ambiant-MATE and Radiant-MATE](https://github.com/flexiondotorg/ubuntu-mate-themes/pull/45).
 
 Unfortunately one of the MATE Developers is having difficulty with
 their bank and has been unable to receive sponsorship payments since

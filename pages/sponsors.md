@@ -55,7 +55,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome
 
 ## Patrons
 
-Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1570.51** this month.
+Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1565.51** this month.
 
 ### Patreon Perks
 
