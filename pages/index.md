@@ -87,19 +87,27 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
 </div>
 
 <div class="row">
-  <div class="col-xs-4">
+  <div class="col-xs-6">
     <div class="well bs-component">
     <a href="http://www.xltech.io/"><img class="centered" src="/images/sponsors/xltech.png" alt="XLTech" /></a>
     </div>
   </div>
-  <div class="col-xs-4">
+  <div class="col-xs-6">
     <div class="well bs-component">
     <a href="http://www.whatisseo.com/"><img class="centered" src="/images/sponsors/whatisseo.png" alt="What is SEO?" /></a>
     </div>
   </div>
-  <div class="col-xs-4">
+</div>
+
+<div class="row">
+  <div class="col-xs-6">
     <div class="well bs-component">
     <a href="http://www.revouchers.uk/"><img class="centered" src="/images/sponsors/revouchers.png" alt="revouchers" /></a>
+    </div>
+  </div>
+  <div class="col-xs-6">
+    <div class="well bs-component">
+    <a href="http://www.plusvouchercode.co.uk"><img class="centered" src="/images/sponsors/plusvouchercode.png" alt="Discount codes to save money on your online purchases!" /></a>
     </div>
   </div>
 </div>
