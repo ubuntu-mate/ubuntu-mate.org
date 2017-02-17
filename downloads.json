@@ -8,16 +8,16 @@
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "name-uk": "Bytemark"
-    },    
+    },
     "release": {
         "1": {
             "codename": "xenial",
             "end-date": "April 2019",
             "lts": true,
             "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:6f45ad0939bf3b27fb428290cebcee972141e040&dn=ubuntu-mate-16.04.1-desktop-amd64.iso",
+                "amd64": "magnet:?xt=urn:btih:405b66f2130e504c0d9bae20dd7c5d53a74f2c0b&dn=ubuntu-mate-16.04.2-desktop-amd64.iso",
                 "armhf": "magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
-                "i386": "magnet:?xt=urn:btih:cf6018288a8dc14b140161daf8c345ed634bea1a&dn=ubuntu-mate-16.04.1-desktop-i386.iso",
+                "i386": "magnet:?xt=urn:btih:f3ae641b8297ef79cab706a4b760a487eae2af8a&dn=ubuntu-mate-16.04.2-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso"
             },
             "name": "Ubuntu MATE 16.04.2 LTS",
