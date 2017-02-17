@@ -382,7 +382,7 @@ class DownloadPageScript(object):
     def generate_paypal_links(self):
         print('Generating PayPal Download Tips...')
         # Replaces "PAYPAL-DOWNLOAD-TIPS" on page.
-        tip_amounts = ['2.50','5','10','20']
+        tip_amounts = ['5','10','25','50']
         # Variables = CLASS / AMOUNT / VERSION / ARCH
         form_start = '<div class="CLASS col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\n'
         form_field = '<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$AMOUNT</b></button></fieldset>\n'

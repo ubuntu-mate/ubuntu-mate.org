@@ -9,32 +9,30 @@
 .. author: Martin Wimpress
 -->
 
-Martin Wimpress and Rohith Madhavan have made an Ubuntu MATE image for
-the Raspberry Pi 2 and Raspberry Pi 3 which you can download or build
-yourself.
+Martin Wimpress and Rohith Madhavan have made an Ubuntu MATE image for the 
+Raspberry Pi 2 and Raspberry Pi 3 based on the regular Ubuntu `armhf` base, 
+not the new [Ubuntu *"Snappy"* Core](https://www.ubuntu.com/core), which means 
+that the installation procedure for applications uses the traditional tools, 
+ie `apt-get`.
 
-The image is based on the regular Ubuntu `armhf` base, not the new Snappy 
-Core, which means that the installation procedure for applications is the same 
-as that for the regular desktop version, ie using `apt-get`. However, since 
-Ubuntu MATE 16.04 snap packages can be installed alongside classic deb 
-packages.
+We have done what we can to optimise the build for the Raspberry Pi 2
+and Raspberry Pi 3, you can comfortably use applications such as
+LibreOffice and Firefox. But the microSDHC I/O throughput is a
+bottleneck so **we *highly* recommend that you use a Class 6 or Class
+10 microSDHC** card. **Ubuntu MATE 16.04 also fully supports the
+built-in Bluetooth and Wifi on the Raspberry Pi 3** and **features
+hardware accelerated video playback in VLC and hardware accelerated
+decoding and encoding in `ffmpeg`**
 
-We have done what we can to optimise the build for the Raspberry Pi 2 and 
-Raspberry Pi 3, you can comfortably use applications such as LibreOffice, 
-which in fact is a joy to use :-) But the microSDHC I/O throughput is a 
-bottleneck so **we *highly* recommend that you use a Class 6 or Class 10 
-microSDHC** card. **Ubuntu MATE 16.04 also has fully working Bluetooth and 
-Wifi on the Raspberry Pi 3**
-
-You'll need a microSD card which is **8GB** or greater to fit the image. The 
-file system can be resized to occupy the unallocated space of the microSD 
-card, **on Ubuntu MATE 16.04 this can be done via Ubuntu MATE Welcome**.
+You'll need a microSD card that is **6GB** or greater. The file system
+will be automatically resized, on first boot, to occupy the unallocated
+space of the microSD card.
 
 **NOTE! There are no predefined user accounts**. The first time you
-boot one of the desktop images it will run through a setup wizard where
-you can create your own user account and configure your regional
-settings. The first boot is quite slow but, once the first boot
-configuration is complete, subsequent boots are much quicker.
+boot it will run through a setup wizard where you can create your own
+user account and configure your regional settings. The first boot is
+quite slow but, once the configuration is complete, subsequent boots
+are much quicker.
 
 <div align="center">
   <img src="/gallery/Screenshots/09_RASPBERRY.png" /></a><br />
@@ -51,25 +49,15 @@ configuration is complete, subsequent boots are much quicker.
     </div>
 </div>
 
-## Known Issues
-
-  * During first boot configuration Ubiquity does not prompt to join available WiFi networks.
-    * [#1572793](https://bugs.launchpad.net/bugs/1572793)
-  * Upon completion of the first boot setup WiFi doesn't work, at all. Reboot and WiFi will be available.
-    * [#1572956](https://bugs.launchpad.net/bugs/1572956)
-
-Both these issues will be addressed in Ubuntu MATE 16.04.1 for Raspberry Pi 2 
-and 3 which is due in late July.
-
-
 ## Making a microSDHC
 
 The image can be directly written to a microSDHC using a utility like
-`dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue), for example:
+`dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue),
+for example:
 
     sudo apt-get install gddrescue xz-utils
-    unxz ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz
-    sudo ddrescue -D --force ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img /dev/sdx
+    unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
+    sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
 
 The microSDHC may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.
@@ -78,9 +66,9 @@ The microSDHC may be presented on any `/dev/sdX` so use the command
 <script type="text/javascript" src="https://asciinema.org/a/34243.js" id="asciicast-34243" async></script>
 </div>
 
-If you prefer a graphical tool we recommend using [GNOME Disks](apt://gnome-disk-utility)
-and the *Restore Disk Image...* option, **which natively supports XZ
-compressed images**.
+If you prefer a graphical tool we recommend using [GNOME
+Disks](apt://gnome-disk-utility) and the *Restore Disk Image...*
+option, **which natively supports XZ compressed images**.
 
     sudo apt-get install gnome-disk-utility
 
@@ -97,31 +85,39 @@ If you want to make a microSDHC using Windows we recommend:
 
 ## Re-size file system
 
-### Ubuntu MATE 16.04
+Since Ubuntu MATE 16.04.2 the root parition is automatically resized,
+to fully utilise the all available space on the microSD card, on first
+boot.
 
-You can use Ubuntu MATE Welcome to resize to automatically resize the
-partitions to make full use of your microSHDC card capacity. Simply
-click the large **Raspberry Pi Information** button on the Welcome
-screen, click the **Resize** button and then restart the Raspberry Pi.
+## SSH
 
-### Manual Method
+Since Ubuntu MATE 16.04.2 the OpenSSH server is disabled by default. If
+you want to enable SSH you can use `raspi-config` to created a file
+call `ssh` in to `/boot` paritition and reboot.
 
-It's not hard to do manually. Once booted:
-
-    sudo fdisk /dev/mmcblk0
-
-Delete the second partition (d, 2), then re-create it using the defaults
-(n, p, 2, enter, enter), then write and exit (w). Reboot the system, then:
-
-    sudo resize2fs /dev/mmcblk0p2
+When you enable SSH via either method explained above `sshguard` will
+also be enabled.
 
 ## Enable and Disable X11
 
-We created a simple utility called `graphical` to disable/enable the
-MATE desktop environment for easily creating a headless *"server"*.
-Executing `graphical disable` will present a console login on the next
-boot, with no X11 or associated services running. If you want to get
-the full Ubuntu MATE desktop back, run `graphical enable` and reboot.
+Since Ubuntu MATE 16.04.2 your can disbale/enable the desktop
+environment using `raspi-config`.
+
+## Redirecting audio output
+
+The sound will output to HDMI by default if both HDMI and the 3.5mm audio jack
+are connected. You can, however, force the system to output to a particular
+device using `raspi-config`.
+
+For those of you who want to know how to do this without `raspi-config`:
+
+### For HDMI
+
+    sudo amixer cset numid=3 2
+
+### For 3.5mm audio jack
+
+    sudo amixer cset numid=3 1
 
 ## Hardware accelerated video with omxplayer
 
@@ -130,132 +126,114 @@ is pre-installed in Ubuntu MATE. However if you have MPEG-2 or VC-1 video
 video files then **you will need MPEG-2 and/or VC-1 licenses from the
 [Raspberry Pi Store](http://www.raspberrypi.com/license-keys/)**.
 
-### Redirecting audio output
+### omxplayer audio redirection
 
-You can select which audio device `omxplayer` should output audio to.
+Should you want to manually select the output audio deive with `omxplayer`
+it can be acieved as follows:
 
-#### For HDMI
+#### omxplayer over HDMI
 
     omxplayer -o hdmi video.mp4
 
-#### For 3.5mm audio jack
+#### omcplayer over 3.5mm audio jack
 
     omxplayer -o local video.mp4
 
-The sound will output to HDMI by default if both HDMI and the 3.5mm audio jack
-are connected. You can, however, force the system to output to a particular
-device using `amixer`.
-
-#### For HDMI
-
-    sudo amixer cset numid=3 2
-
-#### For 3.5mm audio jack
-
-    sudo amixer cset numid=3 1
-
 ## Hardware accelerated video with VLC and ffmpeg
 
-Ubuntu MATE 16.04 added OpemMAX IL hardware accelerated video playback to VLC 
+Ubuntu MATE 16.04 added OpemMAX IL hardware accelerated video playback to VLC
 and MMAL hardware accelerated video playback to ffmpeg.
 
   * To enable hardware accelerated video playback in VLC go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
-  * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec
+  * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec.
 
     `ffplay -vcodec h264_mmal video.mp4`
 
-Hardware accelerated playback on the Raspberry Pi works by overlaying the 
-video directly to the screen. Therefore there are no onscreen controls for 
+Hardware accelerated playback on the Raspberry Pi works by overlaying the
+video directly to the screen. Therefore there are no onscreen controls for
 playback control. You'll need to use the VLC and ffmpeg keyboard shortcuts.
 
   * [VLC keyboard control](https://wiki.videolan.org/Hotkeys_table/)
   * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-playing)
 
-## Feedback and Improvements
+## Hardware accelerate video encoding with ffmpeg
 
-Please post all feedback on the [dedicated community 
-forum](https://ubuntu-mate.community/c/support/raspberry-pi-2). If you have 
-any improvements then please submit a pull request to the [Ubuntu Pi Flavour 
-Maker project](https://ubuntu-pi-flavour-maker.org/).
+Since Ubuntu MATE 16.04.2 `ffmpeg` is shipped with hardware enabled video
+encoding via the `h264_omx` encoder. Here is an example:
 
-## Credits
-
-  * [Rohith Madhavan](http://rohithmadhavan.com) - Made the Ubuntu MATE 15.04 image for the Raspberry Pi 2.
-  * [Martin Wimpress](https://flexion.org) - Added first boot setup wizard and architecture optimisations.
-  * [Ryan Finnie](http://finnie.org) - Raspberry Pi 2 Kernel, Firmware and video driver packages.
-  * [Sjoerd Simons](http://sjoerd.luon.net) - Made the initial Raspberry Pi 2 kernel patches for Debian Jessie.
-  * [Sergio Conde](http://omxplayer.sconde.net/) - Maintains `omxplayer` for the Raspberry Pi.
-  * [Spindle](https://github.com/RPi-Distro/spindle) - a tool to help spin distribution images
+    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx output.mp4`
 
 ## Recent Changes
 
-### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
+### 2017-02-16 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3
 
-  * Added OpemMAX IL hardware accelerated video playback to VLC.
-    * To enable hardware accelerated video playback go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
-  * Added MMAL hardware accelerated video playback to ffmpeg.
-    * To use hardware accelerated video playback with `ffplay` you must specify the `h264_mmal` codec - `ffplay -vcodec h264_mmal video.mp4`
-  * Increased the minimum microSDHC card size to 8GB.
-  * Removed `tboplayer`.
-
-### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
-
-  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
-  * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
-    * Ubuntu MATE 16.04 now supports the on-board Raspberry Pi 3 Bluetooth and Wifi.
-  * Updated to Linux 4.1.19.
-  * Updated to `raspberrypi-firmware` 1.20160315-1.
-  * Updated to `omx-player` 0.3.7~git20160206~cb91001.
-  * Updated to `wiringpi` 2.32.
-  * Updated to `nuscratch` 20160115.
-  * Updated to `sonic-pi` 2.9.0.
-  * Migrated configuration tweaks to `raspberrypi-general-mods` and `raspberrypi-sys-mods`.
-  * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`
+  * Performance optimised.
+    * Added automated first boot partition resizing.
+    * Optimised partition offset calculations
+    * Optimised filesystem features.
+    * Disabled unnecessary services to reduce CPU cycles and RAM requirements.
+  * Forked and adapted `raspi-config` to Ubuntu.
+    * Added [pi-top](https://www.pi-top.com/) brightness and power-off support.
+  * Backported MATE Desktop 1.16.1.
+  * Backported BlueZ 5.41.
+  * Backported `ffmpeg` 3.2 including Raspberry Pi hardware acceleration for MMAL decoding and OMX encoding.
+  * Backported `i2c-tools` and `python-smbus` 3.1.2.
+  * Updated `raspberrypi-firmware` to 1.20161215-1.
+  * Updated `pi-bluetooth` to 0.1.2 including failsafe systemd units.
+  * Updated `gpiozero` to 1.3.1. A simple API for controlling devices attached to the GPIO pins.
+  * Updated `omxplayer` to 0.3.7-git20160923-dfea8c9.
+  * Updated `nuscratch` to 20160915+2.
+  * Updated `picamera` to 1.12. Pure Python interface to the Raspberry Pi's camera module.
+  * Updated `pigpio` to 1.130. Library for Raspberry Pi GPIO control.
+  * Updated `python-sense-hat` to 2.2.0. Sense HAT python.
+  * Updated `raspberrypi-sys-mods` to 20170208, which completely replaces `raspberrypi-general-mods`
+  * Updated `raspi-gpio` to 0.20170105. Dump the state of the BCM270x GPIOs.
+  * Updated `rpi.gpio` to 0.6.3-1. Python GPIO module for Raspberry Pi.
+  * Updated `rtimulib` to 7.2.1-3. Versatile C++ and Python 9-dof, 10-dof and 11-dof IMU library.
+  * Updated `sonic-pi` to 2.10.0.
+  * Updated `xserver-xorg-video-fbturbo` to 1.20161111~122359.
+  * Updated Xorg via the [LTS Enablement Stack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack).
+  * Added cap1xxx; A python library designed to drive various Microchip CAP1xxx touch ICs.
+  * Added drumhat; A python library designed to control Drum HAT.
+  * Added envirophat; A python library designed to control Enviro pHAT.
+  * Added explorerhat; A python library designed to control the Explorer HAT and pHAT.
+  * Added microdotphat; A python library designed to control Micro Dot pHAT.
+  * Added mote; A python library designed to control Mote.
+  * Added motephat; A python library designed to control Mote pHAT.
+  * Added pantilthat; A python library designed to control Pan-Tilt HAT.
+  * Added pianohat; A python library designed to control Piano HAT.
+  * Added piglow; A python library designed to drive Piglow.
+  * Added rainbowhat; A python library designed to control Rainbow HAT.
+  * Added scrollphat; A python library designed to control Scroll pHAT.
+  * Added sense-emu; A client library for the Raspberry Pi Sense HAT emulator.
+  * Added sn3218; A python library to help control the SN3218 18-channel PWM LED driver.
+  * Added st7036; A python library to help control the ST7036 LCD driver.
+  * Fixed first boot configuration. Ubiquity now prompts to join available WiFi networks.
+    * [#1572793](https://bugs.launchpad.net/bugs/1572793)
+  * Disabled SSH by default.
+    * SSH can be enabled via `raspi-config` or creating a file named `ssh` in the `/boot` partition.
+    * `sshguard` is also automatically enabled when you enable SSH.
+  * Reduced the image size to 5GB, down from 8GB.
 
 ### Previous Changes
 
   * [See what changed in earlier releases.](/raspberry-pi-change-log/)
 
-## Other ARMv7 based devices
+## Known Issues
 
-We'd love to see Ubuntu MATE images other ARMv7 based devices. Please take
-a look at our generic armhf Ubuntu MATE root file system and build scripts.
+  * **Ubuntu MATE 16.04.2 for the Raspberry Pi is not snap compatible.**
+    * We hope to have `snapd` compatibility in Ubuntu MATE 17.04 for the Raspberry Pi.
+    * The 32-bit and 64-bit PC version of Ubuntu MATE 16.04, or newer, are `snapd` compatible.
+  * Upon completion of the first boot setup WiFi doesn't work, at all. Reboot and WiFi will be available.
+    * [#1572956](https://bugs.launchpad.net/bugs/1572956)
 
-  * [Ubuntu MATE generic rootfs for aarch32 ARMv7 devices](https://ubuntu-mate.org/armhf-rootfs)
-  * [Ubuntu MATE for Raspberry Pi 2 build scripts](https://bitbucket.org/ubuntu-mate/ubuntu-mate-armhf)
+## Feedback and Improvements
 
-## Reporting issues
+Please post all feedback on the [dedicated community
+forum](https://ubuntu-mate.community/c/support/raspberry-pi-2). If you
+have any improvements then please submit a pull request to the [Ubuntu
+Pi Flavour Maker project](https://ubuntu-pi-flavour-maker.org/).
 
-Please report any issues you may find on the project's bug tracker.
-
-  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
-
-## Getting involved
-
-Is there anything you can help with or want to be involved in? Maybe
-you just want to discuss your experiences or ask the maintainers some
-questions. Please [come and talk to us](/community/).
-
-## References
-
-  * <https://wiki.ubuntu.com/ARM/RaspberryPi>
-  * <http://omxplayer.sconde.net/>
-  * <https://github.com/bavison/arm-mem/>
-    * <https://www.raspberrypi.org/forums/viewtopic.php?t=47832&p=403191>
-  * <https://www.raspberrypi.org/documentation/configuration/config-txt.md>
-  * [Peter Chubb. "SD cards and filesystems for embedded systems". Linux.conf.au.](http://mirror.linux.org.au/pub/linux.conf.au/2015/Case_Room_2/Friday/SD_Cards_and_filesystems_for_Embedded_Systems.webm)
-
-<script>
-  // http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/
-  window.onload = function() {
-    var a = document.getElementsByTagName('a');
-    for (i = 0; i < a.length; i++) {
-      if (a[i].href.match(/^https?:\/\/.+\.(bz2|deb|gz|iso|pdf|torrent|xz|zip)$/i)) {
-        a[i].setAttribute('target', '_blank');
-        a[i].onclick = function() {
-          ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
-        };
-      }
-    }
-  }
-</script>
+This image is not an official Ubuntu image, it is community supported, so any
+bugs filed on the Ubuntu MATE Launchpad bug tracker will be closed with a
+comment directing the report to the Ubuntu MATE forums :-)

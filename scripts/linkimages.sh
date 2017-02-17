@@ -13,6 +13,7 @@ function link_image() {
 }
 
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
+link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz"
 link_image trusty "/home/matey/ISO-Mirror/trusty/i386/ubuntu-mate-14.04.2-LTS-desktop-i386.iso"
 link_image trusty "/home/matey/ISO-Mirror/trusty/amd64/ubuntu-mate-14.04.2-LTS-desktop-amd64.iso"
 link_image trusty "/home/matey/ISO-Mirror/trusty/amd64+mac/ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso"

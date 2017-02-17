@@ -8,7 +8,7 @@
         "canonical-other-folder": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/",
         "canonical-torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/OSVERSION/STATE/ubuntu-mate-OSVERSION-TYPE-ARCH.iso.torrent",
         "name-uk": "Bytemark"
-    },
+    },    
     "release": {
         "1": {
             "codename": "xenial",
@@ -20,25 +20,25 @@
                 "i386": "magnet:?xt=urn:btih:cf6018288a8dc14b140161daf8c345ed634bea1a&dn=ubuntu-mate-16.04.1-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso"
             },
-            "name": "Ubuntu MATE 16.04.1 LTS",
+            "name": "Ubuntu MATE 16.04.2 LTS",
             "ppc-visible": true,
             "release-notes": "https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/",
             "rpi-mirrors": {
-                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz.torrent",
-                "uk": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
+                "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent",
+                "uk": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz"
             },
             "rpi-visible": true,
             "sha256sum": {
-                "amd64": "d17ad97753c756513e1c3add89ce6fa2f0db8c2fba690408a1e5eabc8e01311b",
-                "armhf": "bf7c85d0a25c8f27313a4bc47d4ceb32a9082390b18651af247d9757abebd21a",
-                "i386": "70cef0f71784272bdb01287d15a264de2970f28ad2fe9df2573da94600ac2391",
+                "amd64": "39cb4d4069dd79a9104b8c1c5d0d4a5b009779eec55fafeceafcf43c7ebcaba4",
+                "armhf": "dc3afcad68a5de3ba683dc30d2093a3b5b3cd6b2c16c0b5de8d50fede78f75c2",
+                "i386": "4bfe56e59e565088264590ad930130c4e872b1806c34fd6a7202752852961355",
                 "powerpc": "59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d"
             },
             "shortstate": "",
             "show-warning": false,
             "state": "release",
             "type": "desktop",
-            "version": "16.04.1",
+            "version": "16.04.2",
             "visible": true,
             "warning-header": "",
             "warning-text": ""
