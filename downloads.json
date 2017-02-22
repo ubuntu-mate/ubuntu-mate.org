@@ -16,7 +16,7 @@
             "lts": true,
             "magnet-uri": {
                 "amd64": "magnet:?xt=urn:btih:405b66f2130e504c0d9bae20dd7c5d53a74f2c0b&dn=ubuntu-mate-16.04.2-desktop-amd64.iso",
-                "armhf": "magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz",
+                "armhf": "magnet:?xt=urn:btih:92c9b38d58124e7771de2113227e05003b7144d0&dn=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz",
                 "i386": "magnet:?xt=urn:btih:f3ae641b8297ef79cab706a4b760a487eae2af8a&dn=ubuntu-mate-16.04.2-desktop-i386.iso",
                 "powerpc": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso"
             },
