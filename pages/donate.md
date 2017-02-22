@@ -71,11 +71,11 @@ to benefit from Patron rewards.**
             <div class="form-group">
               <label for="donationAmount" class="col-lg-4 control-label">Select an amount</label>
               <div class="col-lg-6">
-                <input type="radio" name="amt" value="5" />5
-                <input type="radio" name="amt" value="10" checked="" />10
+                <input type="radio" name="amt" value="2.50" />2.50
+                <input type="radio" name="amt" value="5" checked="" />5
+                <input type="radio" name="amt" value="10" />10
                 <input type="radio" name="amt" value="25" />25
                 <input type="radio" name="amt" value="50" />50
-                <input type="radio" name="amt" value="100" />100
               </div>
             </div>
             <div class="form-group">
@@ -124,11 +124,11 @@ to benefit from Patron rewards.**
             <div class="form-group">
               <label for="donationAmount" class="col-lg-4 control-label">Select an amount</label>
               <div class="col-lg-6">
-                <input type="radio" name="amt" value="5" />5
-                <input type="radio" name="amt" value="10" checked="" />10
+                <input type="radio" name="amt" value="2.50" />2.50
+                <input type="radio" name="amt" value="5" checked="" />5
+                <input type="radio" name="amt" value="10" />10
                 <input type="radio" name="amt" value="25" />25
                 <input type="radio" name="amt" value="50" />50
-                <input type="radio" name="amt" value="100" />100
               </div>
             </div>
             <div class="form-group">
