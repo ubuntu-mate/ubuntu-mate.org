@@ -346,6 +346,7 @@ at least 512MB of RAM to install from this image.
     $('#' + show_arch + ' .well').addClass('active');
     $('#present-version').html(present_version)
     $('#present-arch').html(present_arch)
+    $('#download-links').slideUp('fast');
   }
 
   // Run this when page loads.
@@ -370,29 +371,29 @@ at least 512MB of RAM to install from this image.
   function selected_i386() {
     show_arch = "i386";
     present_arch = "32-bit";
-    showDownloadLinks();
     updatePage();
+    showDownloadLinks();
   }
 
   function selected_amd64() {
     show_arch = "amd64";
     present_arch = "64-bit";
-    showDownloadLinks();
     updatePage();
+    showDownloadLinks();
   }
 
   function selected_powerpc() {
     show_arch = "powerpc";
     present_arch = "PowerPC";
-    showDownloadLinks();
     updatePage();
+    showDownloadLinks();
   }
 
   function selected_armhf() {
     show_arch = "armhf";
     present_arch = "Raspberry Pi 2 and 3";
-    showDownloadLinks();
     updatePage();
+    showDownloadLinks();
     $('#mirrors').hide();
     $('#mirrors-hr').hide();
     $('.rpi').show();
