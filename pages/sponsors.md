@@ -48,7 +48,7 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome
   </div>
   <div class="col-xs-6">
     <div class="well bs-component">
-    <a href="http://www.plusvouchercode.co.uk"><img class="centered" src="/images/sponsors/plusvouchercode.png" alt="Discount codes to save money on your online purchases!" /></a>
+    <a href="http://www.piucodicisconto.com/"><img class="centered" src="/images/sponsors/piucodicisconto.png" alt="Risparmia in 1000 stores online!" /></a>
     </div>
   </div>
 </div>
