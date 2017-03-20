@@ -86,7 +86,7 @@
                 "i386": "magnet:?xt=urn:btih:ab83b3d6ce5c4e54402def80ac332b2c76272106&dn=zesty-desktop-i386.iso",
                 "powerpc": ""
             },
-            "name": "Ubuntu MATE 17.04",
+            "name": "Ubuntu MATE 17.04 Alpha 2",
             "ppc-visible": false,
             "release-notes": "/blog/ubuntu-mate-zesty-alpha2/",
             "rpi-mirrors": {
