@@ -86,23 +86,23 @@
                 "i386": "magnet:?xt=urn:btih:ab83b3d6ce5c4e54402def80ac332b2c76272106&dn=zesty-desktop-i386.iso",
                 "powerpc": ""
             },
-            "name": "Ubuntu MATE 17.04 Alpha 2",
+            "name": "Ubuntu MATE 17.04 Beta 2",
             "ppc-visible": false,
-            "release-notes": "/blog/ubuntu-mate-zesty-alpha2/",
+            "release-notes": "/blog/ubuntu-mate-zesty-beta2/",
             "rpi-mirrors": {
                 "torrent": "",
                 "uk": ""
             },
             "rpi-visible": false,
             "sha256sum": {
-                "amd64": "a7b32edab0af6f02683c7d14d4ae389bad68b6bc9958f0144c83d7604410a2c9",
+                "amd64": "410f7531b457fc6ec2d86775845a5855b96b6c0e75d63b5b8c918908299035ff",
                 "armhf": "",
-                "i386": "045ef28c2e6d64bfef887ae4f5f98b4d865d7a33ec829a651a81e067417eac02",
+                "i386": "c12c2c890ddd1ff644285494ee454c64649e6e30175fb570c13a269cf61d2a47",
                 "powerpc": ""
             },
-            "shortstate": "alpha2",
+            "shortstate": "beta2",
             "show-warning": false,
-            "state": "alpha-2",
+            "state": "beta-2",
             "type": "desktop",
             "version": "17.04",
             "visible": true,
