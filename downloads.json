@@ -81,9 +81,9 @@
             "end-date": "January 2018",
             "lts": false,
             "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:f2d9b448ec63744c9b78264f2f88f4023f5f541f&dn=zesty-desktop-amd64.iso",
+                "amd64": "magnet:?xt=urn:btih:72bc43a47d5dac4672d31067f6f1533df2c077c4&dn=ubuntu-mate-17.04-beta2-desktop-amd64.iso",
                 "armhf": "",
-                "i386": "magnet:?xt=urn:btih:ab83b3d6ce5c4e54402def80ac332b2c76272106&dn=zesty-desktop-i386.iso",
+                "i386": "magnet:?xt=urn:btih:ed2cf2973b08301eabe97769663d96c454e1a4c4&dn=ubuntu-mate-17.04-beta2-desktop-i386.iso",
                 "powerpc": ""
             },
             "name": "Ubuntu MATE 17.04 Beta 2",

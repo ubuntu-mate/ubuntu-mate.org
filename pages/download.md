@@ -48,7 +48,7 @@ background-color: #87a556 !important;
 <p><b>Choose a Release:</b></p>
 <ul id="release" class="nav nav-pills" role="tablist"><li id="xenial" role="presentation"><a href="#xenial" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.04.2 LTS</big></a></li>
 <li id="yakkety" role="presentation"><a href="#yakkety" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.10</big></a></li>
-<li id="zesty" role="presentation"><a href="#zesty" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 17.04</big></a></li>
+<li id="zesty" role="presentation"><a href="#zesty" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 17.04 Beta 2</big></a></li>
 </ul>
 </div>
 
@@ -123,7 +123,7 @@ For aarch32 (ARMv7) computers, like:
 <p>See what's new and any other important information for this release.</p>
 <p><a class="xenial" href="https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
 <p><a class="yakkety" href="/blog/ubuntu-mate-yakkety-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
-<p><a class="zesty" href="/blog/ubuntu-mate-zesty-alpha2/"><span class="fa fa-file"></span> Release Announcement</a></p>
+<p><a class="zesty" href="/blog/ubuntu-mate-zesty-beta2/"><span class="fa fa-file"></span> Release Announcement</a></p>
 
 <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
 <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
@@ -147,13 +147,13 @@ For aarch32 (ARMv7) computers, like:
 <p>
 <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-amd64.iso.torrent</a>
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-i386.iso.torrent</a>
-<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent</a>
+<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-powerpc.iso.torrent</a>
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent</a>
 <a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/ubuntu-mate-16.10-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-amd64.iso.torrent</a>
 <a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/ubuntu-mate-16.10-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-i386.iso.torrent</a>
 <a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/ubuntu-mate-16.10-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-powerpc.iso.torrent</a>
-<a class="zesty-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/alpha-2/zesty-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> zesty-desktop-amd64.iso.torrent</a>
-<a class="zesty-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/alpha-2/zesty-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> zesty-desktop-i386.iso.torrent</a>
+<a class="zesty-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/beta-2/ubuntu-mate-17.04-beta2-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-beta2-desktop-amd64.iso.torrent</a>
+<a class="zesty-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/beta-2/ubuntu-mate-17.04-beta2-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-beta2-desktop-i386.iso.torrent</a>
 
 </p>
 <p>
@@ -164,8 +164,8 @@ For aarch32 (ARMv7) computers, like:
 <a class="yakkety-amd64" href="magnet:?xt=urn:btih:e249fe4dc957be4b4ce3ecaac280fdf1c71bc5bb&dn=ubuntu-mate-16.10-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="yakkety-i386" href="magnet:?xt=urn:btih:bee8a636e86ad0270d27a91d183c8912e1176ae1&dn=ubuntu-mate-16.10-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="yakkety-powerpc" href="magnet:?xt=urn:btih:5c8427c3ad8c0a84f7d09f266ffb73cb58bf9625&dn=ubuntu-mate-16.10-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="zesty-amd64" href="magnet:?xt=urn:btih:f2d9b448ec63744c9b78264f2f88f4023f5f541f&dn=zesty-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
-<a class="zesty-i386" href="magnet:?xt=urn:btih:ab83b3d6ce5c4e54402def80ac332b2c76272106&dn=zesty-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="zesty-amd64" href="magnet:?xt=urn:btih:72bc43a47d5dac4672d31067f6f1533df2c077c4&dn=ubuntu-mate-17.04-beta2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="zesty-i386" href="magnet:?xt=urn:btih:ed2cf2973b08301eabe97769663d96c454e1a4c4&dn=ubuntu-mate-17.04-beta2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
 <span class="fa fa-info-circle"></span>
 </a>
@@ -372,12 +372,12 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <p>
 <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-amd64.iso</a>
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-i386.iso</a>
-<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.1/release/ubuntu-mate-16.04.1-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-powerpc.iso</a>
+<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-powerpc.iso</a>
 <a class="yakkety-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/ubuntu-mate-16.10-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-amd64.iso</a>
 <a class="yakkety-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/ubuntu-mate-16.10-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-i386.iso</a>
 <a class="yakkety-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/ubuntu-mate-16.10-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.10-desktop-powerpc.iso</a>
-<a class="zesty-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/alpha-2/zesty-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> zesty-desktop-amd64.iso</a>
-<a class="zesty-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/alpha-2/zesty-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> zesty-desktop-i386.iso</a>
+<a class="zesty-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/beta-2/ubuntu-mate-17.04-beta2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-beta2-desktop-amd64.iso</a>
+<a class="zesty-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/beta-2/ubuntu-mate-17.04-beta2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-beta2-desktop-i386.iso</a>
 
 <img class="rpi" src="../images/flags/bytemark-16.png" width="16px" height="16px"/>&nbsp;
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>Bytemark</b> - ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz</a>
@@ -407,8 +407,8 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <code class="yakkety-i386">d99cfac02954d5ac23f2e9e78e1a50695a49efeb2e0dd336d653c1ec4191ce10</code>
 <code class="yakkety-powerpc">a0518aa8f03dc3c3a1e0ec4a4d89af489419b21c400d0dd7fe87afa9d17346ac</code>
 <code class="yakkety-armhf"></code>
-<code class="zesty-amd64">a7b32edab0af6f02683c7d14d4ae389bad68b6bc9958f0144c83d7604410a2c9</code>
-<code class="zesty-i386">045ef28c2e6d64bfef887ae4f5f98b4d865d7a33ec829a651a81e067417eac02</code>
+<code class="zesty-amd64">410f7531b457fc6ec2d86775845a5855b96b6c0e75d63b5b8c918908299035ff</code>
+<code class="zesty-i386">c12c2c890ddd1ff644285494ee454c64649e6e30175fb570c13a269cf61d2a47</code>
 <code class="zesty-powerpc"></code>
 <code class="zesty-armhf"></code>
 
@@ -516,7 +516,7 @@ close to you in order to achieve a faster download.</p>
 </p>
 <p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.04.2</a>
 <a class="yakkety" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.10/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.10</a>
-<a class="zesty" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/alpha-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 17.04</a>
+<a class="zesty" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/beta-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 17.04</a>
 </p>
 </div>
 </div>
@@ -589,7 +589,7 @@ $('#getting-started-hr').show();
 // Selecting a distro version
 $( "#xenial" ).click(function() {show_version = "xenial";present_version = "Ubuntu MATE 16.04.2 LTS";updatePage();$('#arch-list').slideDown();});
 $( "#yakkety" ).click(function() {show_version = "yakkety";present_version = "Ubuntu MATE 16.10";updatePage();$('#arch-list').slideDown();});
-$( "#zesty" ).click(function() {show_version = "zesty";present_version = "Ubuntu MATE 17.04";updatePage();$('#arch-list').slideDown();});
+$( "#zesty" ).click(function() {show_version = "zesty";present_version = "Ubuntu MATE 17.04 Beta 2";updatePage();$('#arch-list').slideDown();});
 
 
 // Selecting an architecture
