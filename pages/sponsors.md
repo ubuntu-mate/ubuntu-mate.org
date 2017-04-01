@@ -48,14 +48,14 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome
   </div>
   <div class="col-xs-6">
     <div class="well bs-component">
-    <a href="http://www.piucodicisconto.com/"><img class="centered" src="/images/sponsors/piucodicisconto.png" alt="Risparmia in 1000 stores online!" /></a>
+    <a href="http://www.piucodicisconto.com/"><img class="centered" src="/images/sponsors/piucodicisconto.png" alt="Più Codici Sconto" /></a>
     </div>
   </div>
 </div>
 
 ## Patrons
 
-Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1565.51** this month.
+Many thanks to the following people for becoming Ubuntu MATE patrons who collectively invested **$1947.01** this month.
 
 ### Patreon Perks
 
