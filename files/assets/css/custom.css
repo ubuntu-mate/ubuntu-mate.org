@@ -121,3 +121,13 @@ h1.p-name.entry-title {
 article {
   margin-bottom: 16px;
 }
+
+/* Sticky Footer */
+.body-content {
+    min-height: calc(100vh - 128px);
+}
+
+#mate-footer {
+    min-height: 96px;
+}
+
