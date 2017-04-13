@@ -81,28 +81,28 @@
             "end-date": "January 2018",
             "lts": false,
             "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:72bc43a47d5dac4672d31067f6f1533df2c077c4&dn=ubuntu-mate-17.04-beta2-desktop-amd64.iso",
+                "amd64": "magnet:?xt=urn:btih:17e03ce12145d3cd308a203c53731f9845929239&dn=ubuntu-mate-17.04-desktop-amd64.iso",
                 "armhf": "",
-                "i386": "magnet:?xt=urn:btih:ed2cf2973b08301eabe97769663d96c454e1a4c4&dn=ubuntu-mate-17.04-beta2-desktop-i386.iso",
+                "i386": "magnet:?xt=urn:btih:c822889553580c896f73da3fdc48610af48e50dc&dn=ubuntu-mate-17.04-desktop-i386.iso",
                 "powerpc": ""
             },
-            "name": "Ubuntu MATE 17.04 Beta 2",
+            "name": "Ubuntu MATE 17.04",
             "ppc-visible": false,
-            "release-notes": "/blog/ubuntu-mate-zesty-beta2/",
+            "release-notes": "/blog/ubuntu-mate-zesty-final/",
             "rpi-mirrors": {
                 "torrent": "",
                 "uk": ""
             },
             "rpi-visible": false,
             "sha256sum": {
-                "amd64": "410f7531b457fc6ec2d86775845a5855b96b6c0e75d63b5b8c918908299035ff",
+                "amd64": "acfcf1ab54946c67e99e0503c23385e697046fae45e393661d501100844d9a5d",
                 "armhf": "",
-                "i386": "c12c2c890ddd1ff644285494ee454c64649e6e30175fb570c13a269cf61d2a47",
+                "i386": "8415711f8085f2c25341261e9503355be53a6871f8ffc96ada62884b1ee4d00b",
                 "powerpc": ""
             },
-            "shortstate": "beta2",
+            "shortstate": "",
             "show-warning": false,
-            "state": "beta-2",
+            "state": "release",
             "type": "desktop",
             "version": "17.04",
             "visible": true,
