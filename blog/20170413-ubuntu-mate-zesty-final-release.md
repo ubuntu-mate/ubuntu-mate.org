@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 17.04
 .. slug: ubuntu-mate-zesty-final-release
-.. date: 2017-04-13 14:30:00 UTC
+.. date: 2017-04-13 14:00:00 UTC
 .. tags: Ubuntu,MATE,Zesty,final,17.04
 .. link:
 .. description: Ubuntu MATE 17.04 (Zesty Zapus) Final Release
