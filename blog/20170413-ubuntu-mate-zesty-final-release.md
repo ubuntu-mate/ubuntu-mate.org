@@ -16,7 +16,7 @@ every sense, and 17.04 concludes the upheaval of migrating to GTK3+.
 This has been a release focused on refining the distro and sweating the
 details. As always, we're never finished and eager to start work on
 17.10 to bring you futher improvements and refinement. But for now, we
-hope you enjoy Ubuntu MATE 17.04 as much as we've enojyed making it
+hope you enjoy Ubuntu MATE 17.04 as much as we've enjoyed making it
 for you.**
 
 <div align="center">
@@ -42,7 +42,7 @@ following ways:
   the new Pantheon layout available via MATE Tweak.
 
   * Dave from [Linux & Other Stuff](https://www.youtube.com/channel/UCQpkMe-SLNg0HwWCP3eeTxw)
-  contributed a new dark theme, called Ambiant-MATE Dark. We loves it!
+  contributed a new dark theme, called Ambiant-MATE Dark. We love it!
 
   * [Wolfgang Ulbrich](https://github.com/raveit65) from [MATE Desktop](https://mate-desktop.org)
   worked tirelessly on all the Ubuntu MATE themes making them all fully 
