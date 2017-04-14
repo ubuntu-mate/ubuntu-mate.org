@@ -73,7 +73,7 @@ Ubuntu MATE release. Thank you!**
     </div>
 </div>
 
-## What changed since the Ubuntu MATE 17.10 Beta 2 release?
+## What changed since the Ubuntu MATE 17.04 Beta 2 release?
 
 This is what has been added, updated or removed.
 
