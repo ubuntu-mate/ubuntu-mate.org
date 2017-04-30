@@ -93,7 +93,7 @@ class DownloadPageScript(object):
         url = url.replace('STATE', distro_state)
         url = url.replace('TYPE', distro_type)
         url = url.replace('SHORT', distro_shortstate)
-        
+
         return(url)
 
     def download_file(self, url):
@@ -408,7 +408,7 @@ class DownloadPageScript(object):
             for arch in self.archs:
                 if self.downloads['release'][release_id]['codename'] != 'xenial' and arch == "powerpc":
                     continue
-                    
+
                 CLASS = self.downloads['release'][release_id]['codename'] + '-' + arch
                 VERSION = self.downloads['release'][release_id]['version']
 
@@ -442,11 +442,18 @@ class DownloadPageScript(object):
 
     def write_download_page(self):
         print('Writing new download page...')
+        page_buffer = self.perform_patches(page_buffer)
         os.remove(self.target_destination_path)
         file = open(self.target_destination_path, "w")
         for line in self.page_buffer.split('\n'):
             file.write(line + '\n')
         file.close()
+
+    def perform_patches(self, page_buffer):
+        # PowerPC 16.04.2 downloads should always be 16.04.1
+        new_page_buffer = page_buffer.replace("16.04.2/release/ubuntu-mate-16.04.2-desktop-powerpc.iso", "16.04/release/ubuntu-mate-16.04.1-desktop-powerpc.iso")
+        new_page_buffer = page_buffer.replace('<span class="xenial-powerpc">Unknown</span>', '<span class="xenial-powerpc">1.7 GB</span>')
+        return(new_page_buffer)
 
 if __name__ == "__main__":
     run = DownloadPageScript()
