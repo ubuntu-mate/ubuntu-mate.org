@@ -68,7 +68,7 @@ the word.
 The moderators of the community who keep it running in good shape.
 
   * [Gerard Aalders](https://ubuntu-mate.community/users/wizd3m)
-  * [Jerry S](https://ubuntu-mate.community/users/v3xx)
+  * [Etienne Papegnies](https://ubuntu-mate.community/users/ouroumov)
   * [Chris Gardiner-Bill](https://ubuntu-mate.community/users/CGB)
   * [Steve Radonich](https://ubuntu-mate.community/users/sradonichiv)
 
