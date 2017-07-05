@@ -5,7 +5,7 @@
 #  Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
 #  as with the rest of the website.
 #
-#  (C) 2016, Luke Horwell <lukehorwell37+code@gmail.com>
+#  (C) 2016-2017, Luke Horwell <luke@ubuntu-mate.org>
 #
 
 import os
@@ -442,7 +442,7 @@ class DownloadPageScript(object):
 
     def write_download_page(self):
         print('Writing new download page...')
-        page_buffer = self.perform_patches(page_buffer)
+        self.page_buffer = self.perform_patches(self.page_buffer)
         os.remove(self.target_destination_path)
         file = open(self.target_destination_path, "w")
         for line in self.page_buffer.split('\n'):
