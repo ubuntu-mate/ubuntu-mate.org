@@ -21,62 +21,50 @@ The loons who thought Ubuntu MATE would be a good idea.
 
 ## Developers
 
-Members of the core MATE Desktop development team who have been helping
-develop and test Ubuntu MATE.
+MATE Desktop developers and contributors who have been helping develop
+and test Ubuntu MATE.
 
-  * [Stefano Karapetsas](http://blog.karapetsas.com/) Lead developer of [MATE Desktop](http://mate-desktop.org). [Debian](http://www.debian.org) and [Ubuntu](http://www.ubuntu.com) maintainer.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
-  * [Luke Horwell](https://ubuntu-mate.community/users/lah7/) Ubuntu MATE developer and community moderator.
-  * [Marcos Costales](https://wiki.ubuntu.com/costales) Developer of special projects for Ubuntu MATE.
-
+  * [Wolfgang Ulbrich](https://github.com/raveit65) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
+  * [Luke](https://github.com/lukefromdc) Developer of [MATE Desktop](http://mate-desktop.org), theme maintainer and bug hunter.
+  * [Pablo Baricela Gonzalex](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.    
+  * [Luke Horwell](https://github.com/lah7) [Ubuntu MATE](https://ubuntu-mate.org) developer and community moderator.
+  * [Victor Kareh](https://github.com/vkareh) [Ubuntu MATE](https://ubuntu-mate.org) developer.
+  * [Robin Thompson](https://github.com/robint99) [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) developer and [Ubuntu MATE](https://ubuntu-mate.org) contributor.
+  * [Ikey Doherty](https://github.com/ikeydoherty) [Solus](https://solus-project.com/) lead developer and MATE Desktop contributor.
+  * [Sefan Ric](https://github.com/cyber) [Solus](https://solus-project.com/) developer and MATE Desktop contributor.
+  
 ## Maintainers
 
-The heroes from the Debian packaging team. Without their tireless efforts
-there would be no Ubuntu MATE.
+The heroes from the Debian packaging team. Without their tireless
+efforts there would be no Ubuntu MATE.
 
-  * [Mike Gabriel](http://sunweavers.net/blog/) Package maintainer for [Debian](http://www.debian.org).
-  * [John Paul Adrian Glaubitz](http://users.physik.fu-berlin.de/~glaubitz/) Package maintainer for [Debian](http://www.debian.org).
-  * [Vangelis Mouhtsis](https://github.com/gnugr) Package maintainer for [Debian](http://www.debian.org).
-
-## Designers and Artists
-
-The art department and creators of beautiful things.
-
-  * [Goce Mitevski](http://nicer2.com) Designer, digital artist and desktop decorator.
-  * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Digital artist, perfectionist and aspiring designer.
-  * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Digital artist and theme tweaker.
-  * [Michael Tunnell](http://michaeltunnell.com/) Website and graphic designer.
-  * [Riccardo Pecchioli](https://plus.google.com/104108115467526996500) Digital video animator.
-  * [Sam Hewitt](http://snwh.org/) Designer and creative genius.
-
-## Architecture porters
-
-These fine people are bringing Ubuntu MATE to other hardware platforms.
-
-  * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Ubuntu MATE for PowerPC creator.
-  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Ubuntu MATE for Raspberry Pi 2 creator.
-
-## Communications
-
-These are the social animals of the Ubuntu MATE community who help spread
-the word.
-
-  * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
+  * [Mike Gabriel](http://sunweavers.net/blog/) Debian Developer and MATE package maintainer for [Debian](http://www.debian.org).
+  * [Aron Xu](https://github.com/happyaron) Debian Developer and MATE package maintainer for [Debian](http://www.debian.org).  
+  * [Vangelis Mouhtsis](https://github.com/gnugr) MATE package maintainer for [Debian](http://www.debian.org).  
 
 ## Community
 
 The moderators of the community who keep it running in good shape.
 
-  * [Gerard Aalders](https://ubuntu-mate.community/users/wizd3m)
-  * [Etienne Papegnies](https://ubuntu-mate.community/users/ouroumov)
-  * [Chris Gardiner-Bill](https://ubuntu-mate.community/users/CGB)
-  * [Steve Radonich](https://ubuntu-mate.community/users/sradonichiv)
-
+  * [Etienne Papegnies](https://ubuntu-mate.community/users/ouroumov) forum moderator.
+  * [Gerard Aalders](https://ubuntu-mate.community/users/wizd3m) forum moderator.
+  * [Chris Gardiner-Bill](https://ubuntu-mate.community/users/CGB) forum moderator.
+  * [Steve Radonich](https://ubuntu-mate.community/users/sradonichiv) forum moderator.
+  * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
+  
 ## Contributors
 
-The following people have made infrequent, yet significant, contributions
-to the Ubuntu MATE project.
+The following people have made infrequent, yet significant,
+contributions to the Ubuntu MATE project.
 
-  * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
   * [Larry Bushey](http://goinglinux.com/) content creator for Ubuntu MATE website and Ubuntu MATE Welcome.
+  * [Sam Hewitt](http://snwh.org/) Created the Ubuntu MATE logo.
+  * [Michael Tunnell](http://michaeltunnell.com/) Website and graphic designer.
+  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
+  * [Goce Mitevski](http://nicer2.com) Created the default desktop wallpaper used from Ubuntu MATE 14.10 to 17.04.
+  * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Created the Ubuntu MATE GRUB and Plymouth themes.
+  * [Jack Mohegan](https://plus.google.com/101312215214323407176/) 
+  * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
   * [Matt Hartley](http://www.matthartley.com/) user experience advisor.
+  * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Created the initial PowerPC build of Ubuntu MATE.
