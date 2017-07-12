@@ -27,12 +27,13 @@ and test Ubuntu MATE.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
   * [Wolfgang Ulbrich](https://github.com/raveit65) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
   * [Luke](https://github.com/lukefromdc) Developer of [MATE Desktop](http://mate-desktop.org), theme maintainer and bug hunter.
-  * [Pablo Baricela Gonzalex](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.    
+  * [Pablo Baricela González](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
+  * [Alexei Sorokin](https://github.com/XRevan86) [MATE Desktop](http://mate-desktop.org) and [Ubuntu MATE](https://ubuntu-mate.org) contributor.
+  * [Ikey Doherty](https://github.com/ikeydoherty) [Solus](https://solus-project.com/) lead developer and MATE Desktop contributor.
+  * [Sefan Ric](https://github.com/cyber) [Solus](https://solus-project.com/) developer and MATE Desktop contributor.
   * [Luke Horwell](https://github.com/lah7) [Ubuntu MATE](https://ubuntu-mate.org) developer and community moderator.
   * [Victor Kareh](https://github.com/vkareh) [Ubuntu MATE](https://ubuntu-mate.org) developer.
   * [Robin Thompson](https://github.com/robint99) [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) developer and [Ubuntu MATE](https://ubuntu-mate.org) contributor.
-  * [Ikey Doherty](https://github.com/ikeydoherty) [Solus](https://solus-project.com/) lead developer and MATE Desktop contributor.
-  * [Sefan Ric](https://github.com/cyber) [Solus](https://solus-project.com/) developer and MATE Desktop contributor.
   
 ## Maintainers
 
