@@ -195,12 +195,12 @@ sponsorship packages.
       <div class="well bs-component">
         <legend>Bitcoin</legend>
           <p>Click or scan to QR code below to launch your Bitcoin client and
-          donate 0.015 btc to Ubuntu MATE. Alternatively, copy and paste the
+          donate 0.003 btc to Ubuntu MATE. Alternatively, copy and paste the
           Bitcoin address into your Bitcoin client to donate an amount of your
           choice.</p>
           <p align="center">
             <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.015&label=Ubuntu%20MATE">
-            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.015&message=Donate_0.015_btc_to_Ubuntu_MATE" /></a>
+            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.003&message=Donate_0.003_btc_to_Ubuntu_MATE" /></a>
             <br />
             <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
           </p>
