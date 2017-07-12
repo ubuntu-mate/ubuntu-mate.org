@@ -100,8 +100,8 @@ This is where you can get involved with Ubuntu MATE development.
   </div>
   <div class="col-xs-4">
     <div class="well bs-component text-center">
-    <a class="social-icon" href="https://bitbucket.org/ubuntu-mate" title="Ubuntu MATE on Bitbucket"><img class="centered" src="/assets/img/logos/bitbucket.png" alt="Ubuntu MATE Bitbucket"></a>
-    <p><b>Bitbucket</b></p>
+    <a class="social-icon" href="https://github.com/ubuntu-mate" title="Ubuntu MATE on GitHub"><img class="centered" src="/assets/img/logos/github.png" alt="Ubuntu MATE GitHub"></a>
+    <p><b>GitHub</b></p>
     </div>
   </div>
   <div class="col-xs-4">
