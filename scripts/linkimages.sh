@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Creates symlinks on the server linking to the actual files.
+# Commands are loaded up then executed in all in one go for each region server.
+#
+
+commands="echo OK"
 
 function link_image() {
     local PAGE="${1}"
@@ -8,10 +14,8 @@ function link_image() {
     local TOR_FILE=$(basename ${TOR_PATH})
 
     mkdir -p www/${PAGE}
-    echo "Symlinking '${ISO_FILE}' in '${PAGE}'..."
-    for region in "man" "yor"; do
-        ssh -o StrictHostKeyChecking=no matey@$region.ubuntu-mate.net "ln -vsf ${ISO_PATH} /home/matey/ubuntu-mate.org/$PAGE/$ISO_FILE && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
-    done
+    commands+=" && ln -vsf ${ISO_PATH} /home/matey/ubuntu-mate.org/$PAGE/$ISO_FILE"
+    commands+=" && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
 }
 
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
@@ -25,3 +29,8 @@ link_image trusty "/home/matey/ISO-Mirror/trusty/amd64+mac/ubuntu-mate-14.04.2-L
 #link_image raspberry-pi "${HOME}/ISO-Mirror/wily/armhf/ubuntu-mate-15.10-desktop-armhf-raspberry-pi-2.img.bz2"
 #link_image raspberry-pi "${HOME}/ISO-Mirror/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-raspberry-pi-2.img.bz2"
 #link_image armhf-rootfs "${HOME}/ISO-Mirror/vivid/armhf/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz"
+
+echo "Symlinking images..."
+for region in "man" "yor"; do
+    ssh -o StrictHostKeyChecking=no matey@$region.ubuntu-mate.net "$commands"
+done
