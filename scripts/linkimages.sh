@@ -8,8 +8,11 @@ function link_image() {
     local TOR_FILE=$(basename ${TOR_PATH})
 
     mkdir -p www/${PAGE}
-    sudo ln -sf ${ISO_PATH} www/${PAGE}/${ISO_FILE} || :
-    sudo ln -sf ${TOR_PATH} www/${PAGE}/${TOR_FILE} || :
+    echo "Symlinking www/${PAGE}/${ISO_FILE}..."
+    sudo ln -vsf ${ISO_PATH} www/${PAGE}/${ISO_FILE} || :
+
+    echo "Symlinking www/${PAGE}/${TOR_FILE}..."
+    sudo ln -vsf ${TOR_PATH} www/${PAGE}/${TOR_FILE} || :
 }
 
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
