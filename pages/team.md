@@ -52,7 +52,7 @@ The moderators of the community who keep it running in good shape.
   * [Etienne Papegnies](https://ubuntu-mate.community/users/ouroumov) forum moderator.
   * [Gerard Aalders](https://ubuntu-mate.community/users/wizd3m) forum moderator.
   * [Chris Gardiner-Bill](https://ubuntu-mate.community/users/CGB) forum moderator.
-  * [Steve Radonich](https://ubuntu-mate.community/users/sradonichiv) forum moderator.
+  * [Kathryn Radonich](https://ubuntu-mate.community/users/ktrad) forum moderator.
   * [Caleb Howland](http://wiki.ubuntu.com/SonikkuAmerica) Facebook page administrator.
   
 ## Contributors
