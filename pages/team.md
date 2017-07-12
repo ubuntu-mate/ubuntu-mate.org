@@ -58,13 +58,13 @@ The moderators of the community who keep it running in good shape.
 The following people have made infrequent, yet significant,
 contributions to the Ubuntu MATE project.
 
-  * [Larry Bushey](http://goinglinux.com/) content creator for Ubuntu MATE website and Ubuntu MATE Welcome.
   * [Sam Hewitt](http://snwh.org/) Created the Ubuntu MATE logo.
   * [Michael Tunnell](http://michaeltunnell.com/) Website and graphic designer.
+  * [Larry Bushey](http://goinglinux.com/) content creator for Ubuntu MATE website and Ubuntu MATE Welcome.
   * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
   * [Goce Mitevski](http://nicer2.com) Created the default desktop wallpaper used from Ubuntu MATE 14.10 to 17.04.
   * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Created the Ubuntu MATE GRUB and Plymouth themes.
-  * [Jack Mohegan](https://plus.google.com/101312215214323407176/) 
+  * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Assorted user interface improvements.
   * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
   * [Matt Hartley](http://www.matthartley.com/) user experience advisor.
   * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Created the initial PowerPC build of Ubuntu MATE.
