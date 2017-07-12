@@ -94,20 +94,22 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
   </div>
   <div class="col-xs-6">
     <div class="well bs-component">
-    <a href="http://www.whatisseo.com/"><img class="centered" src="/images/sponsors/whatisseo.png" alt="What is SEO?" /></a>
+    <a href="https://www.hiri.com/"><img class="centered" src="/images/sponsors/hiri.png" alt="A complete alternative to Microsoft Outlook" /></a>
     </div>
-  </div>
+  </div>  
 </div>
 
 <div class="row">
   <div class="col-xs-6">
+    <!-- VJ -->
     <div class="well bs-component">
-    <a href="http://www.revouchers.uk/"><img class="centered" src="/images/sponsors/revouchers.png" alt="revouchers" /></a>
+    <a href="http://www.whatisseo.com/"><img class="centered" src="/images/sponsors/whatisseo.png" alt="What is SEO?" /></a>
     </div>
   </div>
   <div class="col-xs-6">
+    <!-- Jared Slone -->
     <div class="well bs-component">
-    <a href="http://www.piucodicisconto.com/"><img class="centered" src="/images/sponsors/piucodicisconto.png" alt="Più Codici Sconto" /></a>
+    <a href="http://www.revouchers.uk/"><img class="centered" src="/images/sponsors/revouchers.png" alt="revouchers" /></a>
     </div>
   </div>
 </div>
