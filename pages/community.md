@@ -39,9 +39,8 @@ We have a number of ways you can connect with the Ubuntu MATE community.
 
 ### Chat
  
-Ubuntu MATE also has its own IRC channel, [#ubuntu-mate](/irc/), on the [Freenode](http://freende.net)
-network. The [#ubuntu-mate](/irc/) channel is also home to *matey*, probably the
-smartest IRC bot in the world, EVER!
+Ubuntu MATE also has its own IRC channel, [#ubuntu-mate](/irc/), on the
+[Freenode](http://freende.net) network.
 
 ## The social networks
 
