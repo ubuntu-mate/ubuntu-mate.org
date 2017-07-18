@@ -88,7 +88,7 @@
             },
             "name": "Ubuntu MATE 17.04",
             "ppc-visible": false,
-            "release-notes": "/blog/ubuntu-mate-zesty-final/",
+            "release-notes": "/blog/ubuntu-mate-zesty-final-release/",
             "rpi-mirrors": {
                 "torrent": "",
                 "uk": ""
