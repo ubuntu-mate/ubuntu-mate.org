@@ -123,7 +123,7 @@ For aarch32 (ARMv7) computers, like:
 <p>See what's new and any other important information for this release.</p>
 <p><a class="xenial" href="https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
 <p><a class="yakkety" href="/blog/ubuntu-mate-yakkety-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
-<p><a class="zesty" href="/blog/ubuntu-mate-zesty-final/"><span class="fa fa-file"></span> Release Announcement</a></p>
+<p><a class="zesty" href="/blog/ubuntu-mate-zesty-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
 
 <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
 <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
