@@ -44,39 +44,6 @@
             "warning-text": ""
         },
         "2": {
-            "codename": "yakkety",
-            "end-date": "July 2017",
-            "lts": false,
-            "magnet-uri": {
-                "amd64": "magnet:?xt=urn:btih:e249fe4dc957be4b4ce3ecaac280fdf1c71bc5bb&dn=ubuntu-mate-16.10-desktop-amd64.iso",
-                "armhf": "",
-                "i386": "magnet:?xt=urn:btih:bee8a636e86ad0270d27a91d183c8912e1176ae1&dn=ubuntu-mate-16.10-desktop-i386.iso",
-                "powerpc": "magnet:?xt=urn:btih:5c8427c3ad8c0a84f7d09f266ffb73cb58bf9625&dn=ubuntu-mate-16.10-desktop-powerpc.iso"
-            },
-            "name": "Ubuntu MATE 16.10",
-            "ppc-visible": true,
-            "release-notes": "/blog/ubuntu-mate-yakkety-final-release/",
-            "rpi-mirrors": {
-                "torrent": "",
-                "uk": ""
-            },
-            "rpi-visible": false,
-            "sha256sum": {
-                "amd64": "6d64b911a2bda877ad7e8131bc88abe8e49c69842d69f5818d1b54f01849e451",
-                "armhf": "",
-                "i386": "d99cfac02954d5ac23f2e9e78e1a50695a49efeb2e0dd336d653c1ec4191ce10",
-                "powerpc": "a0518aa8f03dc3c3a1e0ec4a4d89af489419b21c400d0dd7fe87afa9d17346ac"
-            },
-            "shortstate": "",
-            "show-warning": false,
-            "state": "release",
-            "type": "desktop",
-            "version": "16.10",
-            "visible": true,
-            "warning-header": "",
-            "warning-text": ""
-        },
-        "3": {
             "codename": "zesty",
             "end-date": "January 2018",
             "lts": false,
