@@ -134,3 +134,33 @@ article {
     min-height: 96px;
 }
 
+/* Home Page Greeting */
+.greetings {
+    padding: 0;
+}
+
+.greetings img {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin-top: 6em;
+    float: left;
+}
+
+.greetings .description {
+    display: inline-block;
+    width: calc(100% - 220px - 1em);
+    margin-top: 6em;
+    padding-left: 2em;
+}
+
+.greetings h2 {
+    color: white;
+    font-size: 38px;
+}
+
+.greetings p {
+    color: white;
+    font-size: 22px;
+}
+

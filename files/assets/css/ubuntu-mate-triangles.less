@@ -1,0 +1,84 @@
+/*************************************/
+@full-height: 400px;
+@square-size: 200px;
+/*************************************/
+body {
+    overflow-x: hidden;
+}
+
+#ubuntu-mate-triangles-block {
+    height: @full-height;
+    margin-bottom: 1em;
+}
+
+#ubuntu-mate-triangles-overlay {
+    height: @full-height;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#ubuntu-mate-triangles {
+    height: @full-height;
+    position: absolute;
+    left: -200px;
+    right: -200px;
+    background-color: #747474;
+    overflow: hidden;
+
+    .square {
+        display: inline-block;
+        position: relative;
+        height: calc(@square-size - 5px);
+        width: @square-size;
+    }
+
+    .triangle {
+        position: absolute;
+        height: @square-size;
+        width: @square-size;
+        left: 0;
+        margin: 0;
+        max-width: 100%;
+        transform-origin: center;
+        float: none;
+        opacity: 0;
+        animation: fadeIn 2s linear forwards;
+
+        &.bottom {
+            transform: rotate(0);
+        }
+
+        &.left {
+            transform: rotate(90deg);
+        }
+
+        &.top {
+            transform: rotate(180deg);
+        }
+
+        &.right {
+            transform: rotate(270deg);
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-even {
+    animation: none !important;
+}
+
+.fade-odd {}

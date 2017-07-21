@@ -6,19 +6,27 @@
 .. link:
 .. description:
 .. type: text
+.. hidetitle: true
 -->
 
-<img class="centered" src="/images/banners/ubuntu-mate-lurve-black.png" alt="Ubuntu MATE" />
-
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>For a retrospective future</h1>
-        <p>A community developed, <a href="http://www.ubuntu.com/" target="_blank">Ubuntu</a> based
-        operating system that beautifully integrates the <a href="http://mate-desktop.org" target="_blank">MATE</a> desktop.</p>
-        <a href="/about/" class="btn btn-primary btn-lg">Learn more</a>
-        </p>
+<div id="ubuntu-mate-triangles">
+    <div id="ubuntu-mate-triangles-overlay" class="row">
+        <div id="welcome-1" class="greetings col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-6 col-xs-offset-2">
+            <img src="/assets/img/logos/ubuntu-mate.svg" />
+            <div class="description">
+                <h1>For a retrospective future.</h1>
+                <p>A community developed, Ubuntu based operating system that beautifully integrates the MATE desktop.</p>
+                <br>
+                <a href="/about/" class="btn btn-primary btn-lg">Learn more</a>
+            </div>
+        </div>
     </div>
 </div>
+
+<div id="ubuntu-mate-triangles-block"></div>
+<link href="/assets/css/ubuntu-mate-triangles.css" rel="stylesheet" type="text/css">
+<script src="/assets/js/jquery-1.12.2.min.js"></script>
+<script src="/assets/js/ubuntu-mate-triangles.js"></script>
 
 # Screenshots
 
@@ -96,7 +104,7 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
     <div class="well bs-component">
     <a href="https://www.hiri.com/"><img class="centered" src="/images/sponsors/hiri.png" alt="A complete alternative to Microsoft Outlook" /></a>
     </div>
-  </div>  
+  </div>
 </div>
 
 <div class="row">
