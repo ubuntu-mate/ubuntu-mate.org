@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 17.10 Alpha 2
 .. slug: ubuntu-mate-artful-alpha2
 .. date: 2017-07-27 20:30:00 UTC
-.. tags: Ubuntu,MATE,Artful,alpha2,draft
+.. tags: Ubuntu,MATE,Artful,alpha2,private
 .. link:
 .. description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
 .. type: text
@@ -120,6 +120,8 @@ MATE.
 
 ## Super key
 
+<img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
+
 Complete Super key support is available from several of the panel
 layouts. We're thrilled to welcome [Victor
 Kareh](https://github.com/vkareh/) to the [team](/team/) who has been
@@ -156,7 +158,7 @@ you can just search for it rather than hunting through the menus.
 
 Just like Global Menus the HUD is currently only available via the
 **Contemporary**, **Cupertino** and **Mutiny** layouts and is activated
-via `Alt+Super`.
+via `Super+Alt`.
 
 ## Indicators
 
