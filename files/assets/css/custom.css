@@ -35,34 +35,36 @@ ol.bjqs-markers li a{display:inline-block;}
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
 
 #banner-fade,
-#banner-slide{
-margin-bottom: 60px;
+#banner-slide {
+    margin-bottom: 60px;
 }
 
 ul.bjqs-controls.v-centered li a{
-background:#eee;
-color:#87A556;
-text-decoration: none;
+    background: #eee;
+    color: #87A556;
+    text-decoration: none;
 
-display:block;
-margin-bottom: 0px;
-font-weight: normal;
-text-align: center;
-vertical-align: middle;
-cursor: pointer;
-background-image: none;
-border: 1px solid transparent;
-white-space: nowrap;
-padding: 8px 12px;
-font-size: 14px;
-line-height: 1.42857;
-border-radius: 4px;
--moz-user-select: none;
+    display: block;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -moz-user-select: none;
 }
+
 ul.bjqs-controls.v-centered li a:hover{
-background:#87A556;
-color:#fff;
+    background:#87A556;
+    color:#fff;
 }
+
 ol.bjqs-markers li a{
 padding:5px 10px;
 background:#87A556;
@@ -70,56 +72,60 @@ color:#fff;
 margin:5px;
 text-decoration: none;
 }
+
 ol.bjqs-markers li.active-marker a,
 ol.bjqs-markers li a:hover{
-background: #DD4814;
+    background: #DD4814;
 }
-p.bjqs-caption{
-background: rgba(255,255,255,0.5);
+p.bjqs-caption {
+    background: rgba(255,255,255,0.5);
 }
 
 /* Ubuntu MATE Colour Scheme for Footer */
 #mate-footer {
-  text-align: center;
-  background-color: #87A556;
-  align-content: center;
-  align-items: center;
-  width: auto;
-  color: #fff;
-  padding-top: 8px;
+    text-align: center;
+    background-color: #87A556;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    color: #fff;
+    padding-top: 8px;
 }
+
 #mate-footer img {
-  height: 48px;
-  width: 48px;
-  padding: 8px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+    height: 48px;
+    width: 48px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
+
 #mate-footer img:hover {
-  background-color: #9AB270;
+    background-color: #9AB270;
 }
+
 #mate-footer a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Improved spacing and colours */
 .navbar-default {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-color: #87A556;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-color: #87A556;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #87A556;
+    border-color: #87A556;
 }
 
 h1.p-name.entry-title {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 article {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 /* Sticky Footer */
