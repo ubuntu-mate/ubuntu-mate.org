@@ -22,6 +22,12 @@ img.right {
     float: right;
 }
 
+#banner-fade,
+#banner-slide {
+    margin-bottom: 60px;
+}
+
+/* bjqs library */
 ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
 li.bjqs-slide{position:absolute; display:none;}
 ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
@@ -33,11 +39,6 @@ ol.bjqs-markers.h-centered{text-align: center;}
 ol.bjqs-markers li{display:inline; }
 ol.bjqs-markers li a{display:inline-block;}
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
-
-#banner-fade,
-#banner-slide {
-    margin-bottom: 60px;
-}
 
 ul.bjqs-controls.v-centered li a{
     background: #eee;
@@ -65,23 +66,24 @@ ul.bjqs-controls.v-centered li a:hover{
     color:#fff;
 }
 
-ol.bjqs-markers li a{
-padding:5px 10px;
-background:#87A556;
-color:#fff;
-margin:5px;
-text-decoration: none;
+ol.bjqs-markers li a {
+    padding:5px 10px;
+    background:#87A556;
+    color:#fff;
+    margin:5px;
+    text-decoration: none;
 }
 
 ol.bjqs-markers li.active-marker a,
-ol.bjqs-markers li a:hover{
+ol.bjqs-markers li a:hover {
     background: #DD4814;
 }
+
 p.bjqs-caption {
     background: rgba(255,255,255,0.5);
 }
 
-/* Ubuntu MATE Colour Scheme for Footer */
+/* Footer */
 #mate-footer {
     text-align: center;
     background-color: #87A556;
