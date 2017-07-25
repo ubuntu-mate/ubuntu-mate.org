@@ -612,7 +612,7 @@ LESS_COMPILER = 'lessc'
 
 # A list of options to pass to the LESS compiler.
 # Final command is: LESS_COMPILER LESS_OPTIONS file.less
-# LESS_OPTIONS = []
+LESS_OPTIONS = []
 
 # Compiler to process Sass files.
 # SASS_COMPILER = 'sass'
