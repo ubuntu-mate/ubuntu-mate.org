@@ -120,11 +120,8 @@ p.bjqs-caption {
     border-color: #87A556;
 }
 
-h1.p-name.entry-title {
-    margin-top: 40px;
-}
-
 article {
+    margin-top: 3em;
     margin-bottom: 16px;
 }
 
