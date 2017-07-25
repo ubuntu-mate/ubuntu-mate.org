@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 17.10 Alpha 2
 .. slug: ubuntu-mate-artful-alpha2
 .. date: 2017-07-27 20:30:00 UTC
-.. tags: Ubuntu,MATE,Artful,alpha2,private
+.. tags: Ubuntu,MATE,Artful,alpha2,draft
 .. link:
 .. description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
 .. type: text
