@@ -1,5 +1,5 @@
 <!--
-.. title: Download Ubuntu MATE
+.. title: Download
 .. slug: download
 .. date: 2016-04-04 10:00:00 UTC
 .. tags: Ubuntu,MATE,download
@@ -9,7 +9,6 @@
 .. author: Luke Horwell
 -->
 
-## Download
 The Ubuntu MATE .iso image allows you to try Ubuntu MATE without changing your 
 computer at all, with an option to install it permanently later. You will need 
 at least 512MB of RAM to install from this image.
