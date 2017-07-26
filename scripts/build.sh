@@ -17,5 +17,6 @@ CODENAME=$(lsb_release -cs)
 #fi
 
 #scripts/update-download-page.py --update-all
+npm install -g less-loader
 nikola build
 
