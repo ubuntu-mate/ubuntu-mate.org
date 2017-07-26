@@ -239,6 +239,7 @@ to see the full line up of new artwork though `;-)`
     * mate-icon-theme-faenza 1.18.1
     * mate-terminal 1.18.1
     * mate-icon-theme 1.18.2
+  * Caja now includes the [GtkHash](https://github.com/tristanheaven/gtkhash) extension *(will be installed with your next update)*
   * Experimental HiDPI support is a little less experimental.
     * If you kept reading that ^ is for you. Also see that massive image of the Indicators above. Not an accident `;-)`
   * ...and a whole lot of other little improvements and fixes.
