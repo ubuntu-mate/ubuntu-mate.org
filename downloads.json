@@ -75,6 +75,39 @@
             "visible": true,
             "warning-header": "",
             "warning-text": ""
+        },
+        "3": {
+            "codename": "artful",
+            "end-date": "July 2018",
+            "lts": false,
+            "magnet-uri": {
+                "amd64": "",
+                "armhf": "",
+                "i386": "",
+                "powerpc": ""
+            },
+            "name": "Ubuntu MATE 17.10",
+            "ppc-visible": false,
+            "release-notes": "/blog/ubuntu-mate-artful-alpha2/",
+            "rpi-mirrors": {
+                "torrent": "",
+                "uk": ""
+            },
+            "rpi-visible": false,
+            "sha256sum": {
+                "amd64": "64c1f55e339874d9feaecf27a47255f32e212c455d66e82e57091248113f6fbf",
+                "armhf": "",
+                "i386": "e811f4c40ce9ad451d330811c259ea7f91bf9ec8ef7ab3f42d961aabb9ef993a",
+                "powerpc": ""
+            },
+            "shortstate": "alpha2",
+            "show-warning": false,
+            "state": "alpha-2",
+            "type": "desktop",
+            "version": "17.10",
+            "visible": true,
+            "warning-header": "",
+            "warning-text": ""
         }
     }
 }
