@@ -81,9 +81,9 @@
             "end-date": "July 2018",
             "lts": false,
             "magnet-uri": {
-                "amd64": "",
+                "amd64": "magnet:?xt=urn:btih:fad5572ea7d2dcfafa3a34cd59e59ac26be62c53&dn=artful-desktop-amd64.iso",
                 "armhf": "",
-                "i386": "",
+                "i386": "magnet:?xt=urn:btih:6b27d8cfea714cad5f513680dcd96a3b6dc535f1&dn=artful-desktop-i386.iso",
                 "powerpc": ""
             },
             "name": "Ubuntu MATE 17.10",

@@ -47,6 +47,7 @@ background-color: #87a556 !important;
 <p><b>Choose a Release:</b></p>
 <ul id="release" class="nav nav-pills" role="tablist"><li id="xenial" role="presentation"><a href="#xenial" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 16.04.2 LTS</big></a></li>
 <li id="zesty" role="presentation"><a href="#zesty" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 17.04</big></a></li>
+<li id="artful" role="presentation"><a href="#artful" role="tab" data-toggle="tab"><big><img src="/favicon-32.png"/> Ubuntu MATE 17.10</big></a></li>
 </ul>
 </div>
 
@@ -121,11 +122,13 @@ For aarch32 (ARMv7) computers, like:
 <p>See what's new and any other important information for this release.</p>
 <p><a class="xenial" href="https://ubuntu-mate.org/blog/ubuntu-mate-xenial-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
 <p><a class="zesty" href="/blog/ubuntu-mate-zesty-final-release/"><span class="fa fa-file"></span> Release Announcement</a></p>
+<p><a class="artful" href="/blog/ubuntu-mate-artful-alpha2/"><span class="fa fa-file"></span> Release Announcement</a></p>
 
 <p><a class="rpi" href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> Learn More</a></p>
 <p><a class="rpi" href="/raspberry-pi-change-log/"><img src="/images/logos/raspberry-pi.png" width="16px" height="16px"> What's New?</a></p>
 <div class="alert alert-success xenial-amd64 xenial-i386 xenial-powerpc " hidden><p><b><span class="fa fa-info-circle"></span> This release has Long Term Support (LTS)</b></p><p>Recommended if you desire a stable system. Support ends <b>April 2019</b>.</p></div>
 <div class="alert alert-info zesty-amd64 zesty-i386 zesty-powerpc zesty-armhf " hidden><p><b><span class="fa fa-info-circle"></span> This is an intermediate release</b></p><p>Suitable for people who want to keep up with the latest developments in Ubuntu MATE and Open Source. Support ends <b>January 2018</b>.</p></div>
+<div class="alert alert-warning artful-amd64 artful-i386 artful-powerpc artful-armhf " hidden><p><b><span class="fa fa-info-circle"></span> This is a development pre-release</b></p><p>Suitable for developers and tester who want to help with Ubuntu MATE QA, or to provide testing feedback and file issue reports.</p></div>
 
 </div>
 </div>
@@ -143,10 +146,12 @@ For aarch32 (ARMv7) computers, like:
 <p>
 <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-amd64.iso.torrent</a>
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-i386.iso.torrent</a>
-<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent</a>
+<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-powerpc.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-powerpc.iso.torrent</a>
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent</a>
 <a class="zesty-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-desktop-amd64.iso.torrent</a>
 <a class="zesty-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-desktop-i386.iso.torrent</a>
+<a class="artful-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-amd64.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> artful-desktop-amd64.iso.torrent</a>
+<a class="artful-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-i386.iso.torrent" onclick="thanks()"><span class="fa fa-download"></span> artful-desktop-i386.iso.torrent</a>
 
 </p>
 <p>
@@ -156,6 +161,8 @@ For aarch32 (ARMv7) computers, like:
 <a class="xenial-armhf" href="magnet:?xt=urn:btih:d0f23c109d8662a3fe9338f75839af8d57e5d4a9&dn=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="zesty-amd64" href="magnet:?xt=urn:btih:17e03ce12145d3cd308a203c53731f9845929239&dn=ubuntu-mate-17.04-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a class="zesty-i386" href="magnet:?xt=urn:btih:c822889553580c896f73da3fdc48610af48e50dc&dn=ubuntu-mate-17.04-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="artful-amd64" href="magnet:?xt=urn:btih:fad5572ea7d2dcfafa3a34cd59e59ac26be62c53&dn=artful-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
+<a class="artful-i386" href="magnet:?xt=urn:btih:6b27d8cfea714cad5f513680dcd96a3b6dc535f1&dn=artful-desktop-i386.iso" onclick="thanks()"><span class="fa fa-magnet"></span> Magnet Link</a>
 <a title="Opens your BitTorrent client. This method is trackerless and doesn't utilize web seeds. The true peer to peer option.">
 <span class="fa fa-info-circle"></span>
 </a>
@@ -213,19 +220,19 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 </form></div>
 <div class="xenial-powerpc col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
-<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.1 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="2.50">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.2 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="2.50">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
 </form></div>
 <div class="xenial-powerpc col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$5</b></button></fieldset>
-<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.1 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="5">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.2 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="5">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
 </form></div>
 <div class="xenial-powerpc col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$10</b></button></fieldset>
-<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.1 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="10">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.2 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="10">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
 </form></div>
 <div class="xenial-powerpc col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$20</b></button></fieldset>
-<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.1 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="20">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 16.04.2 for PowerPC Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="20">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
 </form></div>
 <div class="xenial-armhf col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
@@ -291,6 +298,54 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <fieldset><button type="submit" class="btn btn-primary">Tip us <b>$20</b></button></fieldset>
 <input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.04 for Raspberry Pi 2 and 3 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="20">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
 </form></div>
+<div class="artful-amd64 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 amd64 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="2.50">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-amd64 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$5</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 amd64 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="5">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-amd64 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$10</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 amd64 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="10">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-amd64 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$20</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 amd64 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="20">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-i386 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 i386 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="2.50">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-i386 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$5</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 i386 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="5">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-i386 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$10</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 i386 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="10">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-i386 col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$20</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 i386 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="20">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-armhf col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$2.50</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 for Raspberry Pi 2 and 3 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="2.50">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-armhf col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$5</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 for Raspberry Pi 2 and 3 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="5">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-armhf col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$10</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 for Raspberry Pi 2 and 3 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="10">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
+<div class="artful-armhf col-xs-3"><form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<fieldset><button type="submit" class="btn btn-primary">Tip us <b>$20</b></button></fieldset>
+<input type="hidden" name="cmd" value="_xclick">          <input type="hidden" name="business" value="6282B4CZGVCB6">          <input type="hidden" name="item_name" value="Ubuntu MATE 17.10 for Raspberry Pi 2 and 3 Download Tip">          <input type="hidden" name="no_shipping" value="1">          <input type="hidden" name="no_note" value="1">          <input type="hidden" name="charset" value="UTF-8">          <input type="hidden" name="amount" value="20">          <input type="hidden" name="currency_code" value="USD">          <input type="hidden" name="src" value="1"><input type="hidden" name="sra" value="1">           <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">           <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+</form></div>
 </div>
 <p><b>Powered by </b> <img src="../assets/img/logos/pp-logo-100px.png" height="24px"/></p>
 <p>
@@ -314,9 +369,11 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <p>
 <a class="xenial-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-amd64.iso</a>
 <a class="xenial-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-i386.iso</a>
-<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04.1-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.1-desktop-powerpc.iso</a>
+<a class="xenial-powerpc" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.2-desktop-powerpc.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-16.04.2-desktop-powerpc.iso</a>
 <a class="zesty-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-desktop-amd64.iso</a>
 <a class="zesty-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> ubuntu-mate-17.04-desktop-i386.iso</a>
+<a class="artful-amd64" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-amd64.iso" onclick="thanks()"><span class="fa fa-download"></span> artful-desktop-amd64.iso</a>
+<a class="artful-i386" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-i386.iso" onclick="thanks()"><span class="fa fa-download"></span> artful-desktop-i386.iso</a>
 
 <img class="rpi" src="../images/flags/bytemark-16.png" width="16px" height="16px"/>&nbsp;
 <a class="xenial-armhf" href="https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz" onclick="thanks()"><b>Bytemark</b> - ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz</a>
@@ -331,6 +388,8 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <span class="xenial-armhf">1.2 GB</span>
 <span class="zesty-amd64">1.7 GB</span>
 <span class="zesty-i386">1.7 GB</span>
+<span class="artful-amd64">1.8 GB</span>
+<span class="artful-i386">1.8 GB</span>
 
 </p>
 <p>
@@ -343,6 +402,10 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 <code class="zesty-i386">8415711f8085f2c25341261e9503355be53a6871f8ffc96ada62884b1ee4d00b</code>
 <code class="zesty-powerpc"></code>
 <code class="zesty-armhf"></code>
+<code class="artful-amd64">64c1f55e339874d9feaecf27a47255f32e212c455d66e82e57091248113f6fbf</code>
+<code class="artful-i386">e811f4c40ce9ad451d330811c259ea7f91bf9ec8ef7ab3f42d961aabb9ef993a</code>
+<code class="artful-powerpc"></code>
+<code class="artful-armhf"></code>
 
 </p>
 <p><a href="../how-to-verify-downloads"><span class="fa fa-question-circle"></span> How to verify downloads</a></p>
@@ -448,6 +511,7 @@ close to you in order to achieve a faster download.</p>
 </p>
 <p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 16.04.2</a>
 <a class="zesty" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 17.04</a>
+<a class="artful" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/" target="_blank"><span class="fa fa-bookmark"></span> Other Downloads for 17.10</a>
 </p>
 </div>
 </div>
@@ -473,7 +537,7 @@ $.fn.modal || document.write('<script src="">\x3C/script>')
 
 <script>
 // # Set variables
-var version = {xenial: "xenial", zesty: "zesty"};
+var version = {xenial: "xenial", zesty: "zesty", artful: "artful"};
 var arch = {amd64: "amd64", i386: "i386", powerpc: "powerpc", armhf: "armhf"};
 
 
@@ -520,6 +584,7 @@ $('#getting-started-hr').show();
 // Selecting a distro version
 $( "#xenial" ).click(function() {show_version = "xenial";present_version = "Ubuntu MATE 16.04.2 LTS";updatePage();$('#arch-list').slideDown();});
 $( "#zesty" ).click(function() {show_version = "zesty";present_version = "Ubuntu MATE 17.04";updatePage();$('#arch-list').slideDown();});
+$( "#artful" ).click(function() {show_version = "artful";present_version = "Ubuntu MATE 17.10";updatePage();$('#arch-list').slideDown();});
 
 
 // Selecting an architecture
