@@ -1,13 +1,3 @@
-<!--
-.. title: Ubuntu MATE Logo
-.. slug: ubuntu-mate-logo
-.. date: 2017-07-28 00:00:00 UTC
-.. tags: Ubuntu,MATE,logo
-.. link:
-.. description:
-.. type: text
--->
-
 # Ubuntu MATE Logo
 
 ---
@@ -43,7 +33,7 @@ Circular shape containing the Circle of MATEs
 	![Circle of MATEs](/gallery/Artwork/design-guide/Circle_of_MATEs.png)
 </div>
 <br>
-The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MATE logo. The triangles inside the roundel represent the three foundamental elements of this project: the Ubuntu core, the MATE Desktop and the community. The circular lines represent the connection and the collaboration between these elements.
+The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MATE logo. The triangles inside the roundel represent the three foundamental elements of this project: the Ubuntu base, the MATE Desktop and the community. The circular lines represent the connection and the collaboration between these elements.
 
 ---
 
