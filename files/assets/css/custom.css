@@ -1,4 +1,6 @@
-/* No margin for social icon in navbar */
+/*************************************
+ No margin for social icon in navbar
+**************************************/
 .no-margin {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -27,7 +29,9 @@ img.right {
     margin-bottom: 60px;
 }
 
-/* bjqs library */
+/*************************************
+  bjqs library
+/************************************/
 ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
 li.bjqs-slide{position:absolute; display:none;}
 ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
@@ -83,7 +87,9 @@ p.bjqs-caption {
     background: rgba(255,255,255,0.5);
 }
 
-/* Footer */
+/*************************************
+  Footer
+*************************************/
 #mate-footer {
     text-align: center;
     background-color: #87A556;
@@ -91,27 +97,53 @@ p.bjqs-caption {
     align-items: center;
     width: auto;
     color: #fff;
-    padding-top: 8px;
+    padding: 1em 0;
 }
 
-#mate-footer img {
-    height: 48px;
-    width: 48px;
-    padding: 8px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+#mate-footer .left {
+    width: 70%;
+    display: inline-block;
+    float: left;
+    text-align: left;
 }
 
-#mate-footer img:hover {
-    background-color: #9AB270;
+#mate-footer .right {
+    width: 30%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+#mate-footer #copyright {
+    margin-bottom: 1em;
 }
 
 #mate-footer a {
-    color: #fff;
-    text-decoration: none;
+    color: white;
 }
 
-/* Improved spacing and colours */
+#mate-footer .links a + a {
+    margin-left: 1em;
+}
+
+#mate-footer #license {
+    font-size: 0.9em;
+}
+
+#mate-footer #social img {
+    height: 2em;
+    width: 2em;
+    margin: 1em .1em;
+}
+
+#mate-footer #social img:hover {
+    opacity: 0.75;
+    background-color: #9AB270;
+}
+
+/*************************************
+  Improved spacing and colours
+*************************************/
 .navbar-default {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -124,10 +156,12 @@ p.bjqs-caption {
 
 article {
     margin-top: 3em;
-    margin-bottom: 16px;
+    margin-bottom: 3em;
 }
 
-/* Sticky Footer */
+/*************************************
+  Sticky Footer
+*************************************/
 .body-content {
     min-height: calc(100vh - 128px);
 }
@@ -136,7 +170,9 @@ article {
     min-height: 96px;
 }
 
-/* Home Page Greeting */
+/*************************************
+  Home Page Greeting
+*************************************/
 .greetings {
     padding: 0;
 }

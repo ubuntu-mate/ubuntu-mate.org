@@ -787,20 +787,41 @@ LICENSE = ""
 # style="border-width:0; margin-bottom:12px;"
 # src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 LICENSE = """
-<a href="http://www.ubuntu.com/">Ubuntu</a> is a trademark of <a href="http://www.canonical.com/">Canonical Ltd</a>. <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ubuntu-mate.org</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ubuntu-mate.org</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<br/>
+<a href="http://www.ubuntu.com/">Ubuntu</a> is a trademark of <a href="http://www.canonical.com/">Canonical Ltd</a>.
 """
 
 SOCIAL_ICONS="""
-<a href="https://ubuntu-mate.org/rss.xml"><img src="/assets/img/footer-feed.svg" alt="RSS Feed"></a>
-<a href="https://plus.google.com/communities/108331279007926658904"><img src="/assets/img/footer-google+.svg" alt="Ubuntu MATE on Google+"></a>
-<a href="https://twitter.com/ubuntu_mate"><img src="/assets/img/footer-twitter.svg" alt="Ubuntu MATE on Twitter"></a>
-<a href="https://www.facebook.com/UbuntuMATEedition/"><img src="/assets/img/footer-facebook.svg" alt="Ubuntu MATE on Facebook"></a>
+<a target="_blank" title="Blog RSS Feed" href="https://ubuntu-mate.community/rss"><img src="/assets/img/footer/rss.svg" alt="Blog RSS Feed"></a>
+<a target="_blank" title="Google+" href="https://ubuntu-mate.community/googleplus"><img src="/assets/img/footer/google+.svg" alt="Ubuntu MATE on Google+"></a>
+<a target="_blank" title="Twitter" href="https://ubuntu-mate.community/twitter"><img src="/assets/img/footer/twitter.svg" alt="Ubuntu MATE on Twitter"></a>
+<a target="_blank" title="Facebook" href="https://ubuntu-mate.community/facebook"><img src="/assets/img/footer/facebook.svg" alt="Ubuntu MATE on Facebook"></a>
+"""
+
+FOOTER_LINKS="""
+<a href="/logo-guidelines">Logo Guidelines</a>
+<!--a href="/get-involved">Get Involved</a-->
 """
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 #CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
-CONTENT_FOOTER = '</div></div><div align="center" id="mate-footer"><small>{license} <br />Contents &copy; {date} {author}.</small><br />{social_icons}</div>'
+CONTENT_FOOTER = """
+</div></div>
+<div id="mate-footer">
+    <div class="container">
+        <div class="left text">
+            <div id="copyright">&copy; {date} {author}</div>
+            <div id="license">{license}</div>
+        </div>
+        <div class="right">
+            <div id="links">{footer_links}</div>
+            <div id="social">{social_icons}</div>
+        </div>
+    </div>
+</div>
+"""
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -821,7 +842,8 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
-            "social_icons": SOCIAL_ICONS
+            "social_icons": SOCIAL_ICONS,
+            "footer_links": FOOTER_LINKS
         }
     )
 }
