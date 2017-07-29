@@ -57,7 +57,7 @@ The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MA
 	<img src="/gallery/Artwork/design-guide/Main_Logo_white.png" alt="Ubuntu MATE logo white">
 </div>
 <br>
-The wordmark logo is presented only with colours above. Please, never change any of the colors in the logo.
+The wordmark logo is presented only with colours above. Please, never change any of the colours in the logo.
 In this case, for the white logo, it has been placed a green background. It is not part of it, you are free to place the logo on whatever background you want, you just have to see it.
 
 ## Roundel
@@ -67,7 +67,7 @@ In this case, for the white logo, it has been placed a green background. It is n
 	<img src="/gallery/Artwork/design-guide/Circle_of_MATEs_white.png" alt="Ubuntu MATE logo white">
 </div>
 <br>
-As for the wordmark, use the roundel logo only with the color configurations above. For the white version, it has been added a green background only to let you see it. It is not part of it.
+As for the wordmark, use the roundel logo only with the colour configurations above. For the white version, it has been added a green background only to let you see it. It is not part of it.
 
 ---
 
