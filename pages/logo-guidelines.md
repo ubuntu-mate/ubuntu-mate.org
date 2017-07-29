@@ -1,3 +1,14 @@
+<!--
+.. title: Logo Guidelines
+.. slug: logo-guidelines
+.. date: 2017-07-29 15:12:00 UTC
+.. tags: Ubuntu,MATE,brand,logo,guidelines,guide
+.. link:
+.. description: Provides information on using the Ubuntu MATE logo and identity.
+.. type: text
+.. author: Roberto Perico
+-->
+
 # Ubuntu MATE Logo
 
 ---
