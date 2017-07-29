@@ -1095,6 +1095,7 @@ SEARCH_FORM = """
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+<!-- Favicons and mobile integration -->
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="196x196" href="/favicon-196.png">
@@ -1113,6 +1114,11 @@ EXTRA_HEAD_DATA = """
 <meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-config" content="/browserconfig.xml">
+
+<!-- FontAwesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
+<!-- Search -->
 <div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 16px;"></div>
 """
 
