@@ -9,6 +9,13 @@
 .. author: Roberto Perico
 -->
 
+<style>
+	.svg-download a {
+		display: inline-block;
+		margin-top: 0.5em;
+	}
+</style>
+
 # Ubuntu MATE Logo
 
 ---
@@ -56,6 +63,10 @@ The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MA
 	<img src="/gallery/Artwork/design-guide/Main_Logo.png" alt="Ubuntu MATE logo">
 	<img src="/gallery/Artwork/design-guide/Main_Logo_white.png" alt="Ubuntu MATE logo white">
 </div>
+<div align="center" class="svg-download">
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-Green-and-Black.svg" target="_blank" style="width:422px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-White.svg" style="width:422px"><span class="fa fa-download"> SVG</span></a>
+</div>
 <br>
 The wordmark logo is presented only with colours above. Please, never change any of the colours in the logo.
 In this case, for the white logo, it has been placed a green background. It is not part of it, you are free to place the logo on whatever background you want, you just have to see it.
@@ -66,12 +77,16 @@ In this case, for the white logo, it has been placed a green background. It is n
 	<img src="/gallery/Artwork/design-guide/Circle_of_MATEs_green.png" alt="Ubuntu MATE logo">
 	<img src="/gallery/Artwork/design-guide/Circle_of_MATEs_white.png" alt="Ubuntu MATE logo white">
 </div>
+<div align="center" class="svg-download">
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-Green.svg" target="_blank" style="width:216px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-White.svg" style="width:216px"><span class="fa fa-download"> SVG</span></a>
+</div>
 <br>
 As for the wordmark, use the roundel logo only with the colour configurations above. For the white version, it has been added a green background only to let you see it. It is not part of it.
 
 ---
 
-# Which logo should i use?
+# Which logo should I use?
 
 It has no different which logo you choose to use for your works. There isn't a _preferred_ version we like to see. Just select what you want so that the logo is well distinguishable. We recommend to use the white versions of the logos on darker background, and to use the coloured versions on lighter background.
 
@@ -122,8 +137,17 @@ You must not:
 	<img src="/gallery/Artwork/design-guide/Wheel_tag_coloured.png">
 	<img src="/gallery/Artwork/design-guide/Ubuntu-MATE-Tag-Green-and-Black-Square-margins.png">
 </div>
+<div align="center" class="svg-download">
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-Green-and-Black-Square.svg"><span class="fa fa-download"> SVG</span></a>
+</div>
 <br>
 
 It has been made also a stacked version of the logo. Consistent use of the Ubuntu MATE logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.
 
 The stacked Ubuntu MATE logo must always have a clear area surrounding it, free from any other element. To define this area, measure the height of the roundel and use a quarter of this measure to create the boundary of clear space around the logo.
+
+---
+
+# Assets
+
+<span class="fa fa-github fa-3x" style="vertical-align:middle;padding-right:4px"></span> You can find these graphic assets in the <a href="https://github.com/ubuntu-mate/brand-artwork">ubuntu-mate/brand-artwork</a> repository.
