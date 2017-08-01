@@ -76,10 +76,6 @@ This is what have been updated or added.
 
 Here are the known issues.
 
-### Ubuntu MATE
-
-* **MATE Tweak**: [Custom panel layout doesn't show in the panel list tab.](ttps://bugs.launchpad.net/ubuntu-mate/+bug/1706810)
-
 ### Ubuntu family issues
 
 This is our known list of bugs that affect all flavours.
