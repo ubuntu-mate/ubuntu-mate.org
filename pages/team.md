@@ -63,7 +63,8 @@ contributions to the Ubuntu MATE project.
   * [Sam Hewitt](http://snwh.org/) Created the Ubuntu MATE logo.
   * [Michael Tunnell](http://michaeltunnell.com/) Website and graphic designer.
   * [Larry Bushey](http://goinglinux.com/) content creator for Ubuntu MATE website and Ubuntu MATE Welcome.
-  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
+  × [Pedro Meteus](https://twitter.com/UnaccountedFour) IGP and GPU configuration enhancements for reduced video tearing and improved gaming performance. 
+  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
   * [Goce Mitevski](http://nicer2.com) Created the default desktop wallpaper used from Ubuntu MATE 14.10 to 17.04.
   * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Created the Ubuntu MATE GRUB and Plymouth themes.
   * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Assorted user interface improvements.
