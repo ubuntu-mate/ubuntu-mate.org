@@ -394,8 +394,8 @@ it would fund the full-time development of Ubuntu MATE and MATE Desktop.
 </p>
 <p>
 <b>SHA256 Checksum:</b>
-<code class="xenial-amd64">39cb4d4069dd79a9104b8c1c5d0d4a5b009779eec55fafeceafcf43c7ebcaba4</code>
-<code class="xenial-i386">4bfe56e59e565088264590ad930130c4e872b1806c34fd6a7202752852961355</code>
+<code class="xenial-amd64">1eaec1c3376b94b7cc4ba8d0c41e447bd6dec6695cdc66621aba0eb22034d75a</code>
+<code class="xenial-i386">ea4b042fcef36fe9ceeaab7165bfb273c9f9b3c44b5cab21e1fe3fc41891afea</code>
 <code class="xenial-powerpc">59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d</code>
 <code class="xenial-armhf">dc3afcad68a5de3ba683dc30d2093a3b5b3cd6b2c16c0b5de8d50fede78f75c2</code>
 <code class="zesty-amd64">acfcf1ab54946c67e99e0503c23385e697046fae45e393661d501100844d9a5d</code>
