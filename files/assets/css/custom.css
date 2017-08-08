@@ -141,6 +141,15 @@ p.bjqs-caption {
     background-color: #9AB270;
 }
 
+#mate-footer .separator {
+    display: inline-block;
+    width: 1px;
+    height: 1.5em;
+    border-left: 1px solid white;
+    vertical-align: middle;
+    margin: 0 0.4em;
+}
+
 /*************************************
   Improved spacing and colours
 *************************************/

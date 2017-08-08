@@ -801,7 +801,12 @@ SOCIAL_ICONS="""
 
 FOOTER_LINKS="""
 <a href="/logo-guidelines">Logo Guidelines</a>
-<!--a href="/get-involved">Get Involved</a-->
+<div class="separator"></div>
+<a href="https://github.com/ubuntu-mate/ubuntu-mate.org/commits/master" target="_blank">Recent Site Changes</a>
+<!--
+<div class="separator"></div>
+<a href="/get-involved">Get Involved</a>
+-->
 """
 
 # A small copyright notice for the page footer (in HTML).
