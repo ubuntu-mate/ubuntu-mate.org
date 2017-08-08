@@ -11,8 +11,8 @@
 
 <div id="ubuntu-mate-triangles">
     <div id="ubuntu-mate-triangles-overlay" class="row">
-        <div id="welcome-1" class="greetings col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-6 col-xs-offset-2">
-            <img src="/assets/img/logos/ubuntu-mate.svg" />
+        <div id="welcome-1" class="greetings col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-6 col-xs-offset-3">
+            <img class="hidden-xs" src="/assets/img/logos/ubuntu-mate.svg" />
             <div class="description">
                 <h1>For a retrospective future.</h1>
                 <p>A community developed, Ubuntu based operating system that beautifully integrates the MATE desktop.</p>
