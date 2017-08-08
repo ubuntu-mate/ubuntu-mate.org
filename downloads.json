@@ -86,7 +86,7 @@
                 "i386": "magnet:?xt=urn:btih:6b27d8cfea714cad5f513680dcd96a3b6dc535f1&dn=artful-desktop-i386.iso",
                 "powerpc": ""
             },
-            "name": "Ubuntu MATE 17.10",
+            "name": "Ubuntu MATE 17.10 Alpha 2",
             "ppc-visible": false,
             "release-notes": "/blog/ubuntu-mate-artful-alpha2/",
             "rpi-mirrors": {
