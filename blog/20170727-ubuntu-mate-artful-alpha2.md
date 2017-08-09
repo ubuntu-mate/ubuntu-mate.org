@@ -259,7 +259,7 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
-* **MATE Tweak**: [Custom panel layout doesn't show in the panel list tab.](ttps://bugs.launchpad.net/ubuntu-mate/+bug/1706810)
+* **MATE Tweak**: [Custom panel layout doesn't show in the panel list tab.](https://bugs.launchpad.net/ubuntu-mate/+bug/1706810)
 
 ### Ubuntu family issues
 
