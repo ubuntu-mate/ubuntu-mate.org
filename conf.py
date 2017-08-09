@@ -128,11 +128,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about/", "About"),
-	("/blog/", "Blog"),
-	("/community/", "Community"),
-	("/download/", "Download"),
-	("/team/", "Team"),
+        ("/blog/", "Blog"),
+        ("/community/", "Community"),
+        ("/download/", "Download"),
+        ("/team/", "Team"),
         ("/donate/", "Donate"),
+        ("https://ubuntu-mate.community/wiki", "Wiki"),
         ("https://ubuntu-mate.boutique/", "Shop"),
     ),
 }
