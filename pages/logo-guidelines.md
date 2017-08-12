@@ -78,7 +78,7 @@ In this case, for the white logo, it has been placed a green background. It is n
 	<img src="/gallery/Artwork/design-guide/Circle_of_MATEs_white.png" alt="Ubuntu MATE logo white">
 </div>
 <div align="center" class="svg-download">
-	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-Green.svg" target="_blank" style="width:216px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-Green.svg" target="_blank" rel="noreferrer" style="width:216px"><span class="fa fa-download"> SVG</span></a>
 	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-White.svg" style="width:216px"><span class="fa fa-download"> SVG</span></a>
 </div>
 <br>
