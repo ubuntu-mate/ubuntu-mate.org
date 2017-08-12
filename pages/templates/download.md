@@ -292,7 +292,7 @@ at least 512MB of RAM to install from this image.
       <p>You might prefer to find a DVD image on a mirror server that is geographically
       close to you in order to achieve a faster download.</p>
       <p>
-        <a target="_blank" rel="noreferrer" href="https://launchpad.net/ubuntu/+cdmirrors">
+        <a target="_blank" rel="noopener" href="https://launchpad.net/ubuntu/+cdmirrors">
           <span class="fa fa-globe"></span> List Official Mirrors
         </a>
       </p>

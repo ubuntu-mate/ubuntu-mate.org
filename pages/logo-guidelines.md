@@ -64,8 +64,8 @@ The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MA
 	<img src="/gallery/Artwork/design-guide/Main_Logo_white.png" alt="Ubuntu MATE logo white">
 </div>
 <div align="center" class="svg-download">
-	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-Green-and-Black.svg" target="_blank" style="width:422px"><span class="fa fa-download"> SVG</span></a>
-	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-White.svg" style="width:422px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-Green-and-Black.svg" target="_blank" rel="noopener" style="width:422px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Tag-White.svg" target="_blank" rel="noopener" style="width:422px"><span class="fa fa-download"> SVG</span></a>
 </div>
 <br>
 The wordmark logo is presented only with colours above. Please, never change any of the colours in the logo.
@@ -78,8 +78,8 @@ In this case, for the white logo, it has been placed a green background. It is n
 	<img src="/gallery/Artwork/design-guide/Circle_of_MATEs_white.png" alt="Ubuntu MATE logo white">
 </div>
 <div align="center" class="svg-download">
-	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-Green.svg" target="_blank" rel="noreferrer" style="width:216px"><span class="fa fa-download"> SVG</span></a>
-	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-White.svg" style="width:216px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-Green.svg" target="_blank" rel="noopener" style="width:216px"><span class="fa fa-download"> SVG</span></a>
+	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-White.svg" target="_blank" rel="noopener" style="width:216px"><span class="fa fa-download"> SVG</span></a>
 </div>
 <br>
 As for the wordmark, use the roundel logo only with the colour configurations above. For the white version, it has been added a green background only to let you see it. It is not part of it.

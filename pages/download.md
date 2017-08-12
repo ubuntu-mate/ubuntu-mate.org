@@ -505,13 +505,13 @@ of Ubuntu MATE, absolutely free.</p>
 <p>You might prefer to find a DVD image on a mirror server that is geographically
 close to you in order to achieve a faster download.</p>
 <p>
-<a target="_blank" rel="noreferrer" href="https://launchpad.net/ubuntu/+cdmirrors">
+<a target="_blank" rel="noopener" href="https://launchpad.net/ubuntu/+cdmirrors">
 <span class="fa fa-globe"></span> List Official Mirrors
 </a>
 </p>
-<p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/" target="_blank" rel="noreferrer"><span class="fa fa-bookmark"></span> Other Downloads for 16.04.3</a>
-<a class="zesty" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/" target="_blank" rel="noreferrer"><span class="fa fa-bookmark"></span> Other Downloads for 17.04</a>
-<a class="artful" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/" target="_blank" rel="noreferrer"><span class="fa fa-bookmark"></span> Other Downloads for 17.10</a>
+<p><a class="xenial" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/" target="_blank" rel="noopener"><span class="fa fa-bookmark"></span> Other Downloads for 16.04.3</a>
+<a class="zesty" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/" target="_blank" rel="noopener"><span class="fa fa-bookmark"></span> Other Downloads for 17.04</a>
+<a class="artful" href="http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/" target="_blank" rel="noopener"><span class="fa fa-bookmark"></span> Other Downloads for 17.10</a>
 </p>
 </div>
 </div>
