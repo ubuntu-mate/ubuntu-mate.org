@@ -184,7 +184,7 @@ p.bjqs-caption {
 }
 
 /*************************************
-  Improved spacing and colours
+  Spacing and header colours
 *************************************/
 .navbar-default {
     padding-top: 4px;
@@ -197,8 +197,11 @@ p.bjqs-caption {
 }
 
 article {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin: 6em 0;
+}
+
+.entry-content {
+    margin-top: 1em;
 }
 
 /*************************************
