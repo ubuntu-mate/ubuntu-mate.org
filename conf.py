@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+import json
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -1081,8 +1082,9 @@ INDEX_DISPLAY_POST_COUNT = 5
 # """ % SITE_URL
 SEARCH_FORM = """
 <span class="navbar-form navbar-right">
-<input class="form-control col-md-6 hidden-sm" placeholder="Search" type="text" id="tipue_search_input">
+<input type="text" id="tipue_search_input" class="form-control col-md-6 hidden-sm" placeholder="Search">
 </span>"""
+
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -1122,25 +1124,54 @@ EXTRA_HEAD_DATA = """
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-config" content="/browserconfig.xml">
 
-<!-- FontAwesome -->
+<!-- Libraries -->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous" async>
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 
-<!-- Search -->
-<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 16px;"></div>
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
 BODY_END = """
-    <script src="/assets/js/tipuesearch_set.js"></script>
-    <script src="/assets/js/tipuesearch.js"></script>
+    <!-- Tipue Search -->
+    <div id="search-results" class="modal fade" role="dialog" style="height: 80%;">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Search Results:</h4>
+          </div>
+          <div class="modal-body" id="tipue_search_content" style="max-height: 600px; overflow-y: auto;">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
     <script>
+    var siteUrl = """ + json.dumps(SITE_URL) + """
     $(document).ready(function() {
-        $('#tipue_search_input').tipuesearch({
-            'mode': 'json',
-            'contentLocation': '/assets/js/tipuesearch_content.json',
-            'showUrl': false
+        $.when(
+            $.getScript( siteUrl + "/assets/js/tipuesearch_set.js" ),
+            $.getScript( siteUrl + "/assets/js/tipuesearch.js" ),
+            $.Deferred(function( deferred ){
+                $( deferred.resolve );
+            })
+        ).done(function() {
+            $('#tipue_search_input').tipuesearch({
+                'mode': 'json',
+                'contentLocation': siteUrl + '/assets/js/tipuesearch_content.json'
+            });
+            $('#tipue_search_input').keyup(function (e) {
+                if (e.keyCode == 13) {
+                    $('#search-results').modal()
+                }
+            });
         });
     });
     </script>
