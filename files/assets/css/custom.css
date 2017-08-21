@@ -1,4 +1,37 @@
 /*************************************
+  General / Bootstrap Overrides
+*************************************/
+a {
+    cursor: pointer;
+}
+
+.btn-default {
+    background: linear-gradient(#ffffff, #f5f4f3);
+    color: black;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    background: linear-gradient(#f5f4f3, #ffffff);
+    color: black;
+}
+
+.btn var {
+    font-style: normal;
+}
+
+.help-tooltip {
+    cursor: help;
+    color: gray;
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+code {
+    color: green;
+}
+
+/*************************************
  No margin for social icon in navbar
 **************************************/
 .no-margin {

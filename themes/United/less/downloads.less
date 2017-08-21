@@ -1,0 +1,208 @@
+/*************************************
+ Navigation Buttons
+**************************************/
+.download-option {
+    display: inline-block;
+    background: white;
+    border: none;
+    box-shadow: 0 0 5px lightgrey;
+    outline-color: #87A556;
+    color: black;
+    width: 100%;
+    min-height: 120px;
+    vertical-align: top;
+    padding: 0.5em;
+    transition: box-shadow 0.2s linear, background-color 0.2s linear;
+    text-align: left;
+
+    > .icon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 5em;
+        text-align: center;
+
+        > span {
+            font-size: 3em;
+            color: #87a556;
+            vertical-align: middle;
+        }
+
+        > img {
+            max-width: 3em;
+        }
+    }
+
+    > .details {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(~'100% - 6em');
+        margin-left: auto;
+    }
+
+    h3,
+    ul {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    &:hover {
+        color: black;
+        box-shadow: 0 0 10px #87A556;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &.selected {
+        background-color: #87A556;
+        box-shadow: 0 0 10px #87A556;
+        color: white;
+
+        span {
+            color: white;
+        }
+
+        img {
+            filter: grayscale(1) brightness(2);
+        }
+    }
+}
+
+/*************************************
+ 1. Architecture List
+**************************************/
+#arch-list {
+    text-align: center;
+
+    > h3,
+    > .row {
+        margin-bottom: 1em;
+    }
+}
+
+/*************************************
+ 2. Release List
+**************************************/
+#release-list {
+    text-align: center;
+
+    > h3,
+    > .row {
+        margin-bottom: 1em;
+    }
+
+    .icon {
+        width: 7em;
+
+        > img {
+            max-width: 5em;
+        }
+    }
+
+    .details {
+        width: calc(~'100% - 8em');
+    }
+
+    .support-ends {
+        color: gray;
+    }
+
+    .support-preview {
+        color: red;
+    }
+}
+
+/*************************************
+ Animations
+**************************************/
+@download-animation-distance: 5em;
+@download-animation-speed: 0.5s;
+
+@keyframes entry {
+    0% {
+        opacity: 0;
+        transform: translateX(@download-animation-distance);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes exit {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-@download-animation-distance);
+    }
+}
+
+.entry {
+    animation: entry @download-animation-speed ease-in-out 0s 1 normal forwards;
+}
+
+.exit {
+    animation: exit @download-animation-speed ease-in-out 0s 1 normal forwards;
+}
+
+/*************************************
+ 3. Artwork Backgrounds
+**************************************/
+#artwork-background {
+    background-size: 100%;
+    background-position: center;
+    height: 18em;
+    color: white;
+    padding-top: 3em;
+    text-align: center;
+
+    .logo {
+        text-align: right;
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 1em;
+    }
+
+    .text {
+        text-align: left;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #title {
+        font-size: 30px;
+        padding-bottom: 0.5em;
+    }
+
+    img {
+        max-width: 12em;
+        height: auto;
+    }
+}
+
+/*************************************
+ 3. Details List
+**************************************/
+#details-list {
+    a {
+        margin-bottom: 0.5em;
+    }
+
+    th {
+        padding-right: 2em;
+    }
+
+    code {
+        word-break: break-all;
+        white-space: pre-line;
+    }
+
+    form {
+        display: inline-block;
+        margin: 0.5em 0;
+    }
+}
