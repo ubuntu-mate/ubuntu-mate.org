@@ -201,7 +201,7 @@
             <p>If you can spare the bytes, a torrent is the recommended method to download Ubuntu&nbsp;MATE.</p>
             <a id="torrent-download" href="#" class="btn btn-primary"><span class="fa fa-download"></span> <var></var></a>
             <a id="magnet-download" href="#" class="btn btn-default"><span class="fa fa-magnet"></span> Magnet Link</a>
-            <div class="help-tooltip" title="Magnet links will open your BitTorrent client and download without web seeds or trackers. The true peer to peer option which helps reduces costs.">
+            <div class="help-tooltip" title="Magnet links directly open your BitTorrent client. For Raspberry Pi downloads, this excludes the web seeds, reducing the bandwidth costs.">
                 <span class="fa fa-info-circle"></span>
             </div>
             <br/>
