@@ -62,16 +62,17 @@ Ubuntu MATE release is happening then the download page needs updating too.
 
 ### Updating the dynamic download page
 
-The download page is dynamic, but is statically generated using these resouces.
+The download page is dynamic client-side, but is statically generated using these resouces.
 
   * Download information is stored in `files/assets/downloads.json`
   * The main presentation is taken from `/pages/download.md` and will need Alpha, Beta labels etc updating.
   * The LESS and CSS configuration is stored in `/themes/United/less/download.less`
   * The Javascript logic is in `/files/assets/js/downloads.js`
 
-When the torrents are publish as part of the iso release run something like 
-the following for each release architecture:
+When the torrents are published as part of the iso release run `generate-magnet-urls.sh`
+for each release architecture, for instance:
 
-    Scripts/helpers/generate-magnet-urls.sh http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent` [repeat] ... copy & paste to JSON, save, commit, push (edited)
+    ./scripts/helpers/generate-magnet-urls.sh http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent
 
-Copy and paste the output to `files/assets/downloads.json`.
+Copy and paste the output to `files/assets/downloads.json` under the respective `magnet-uri` key.
+
