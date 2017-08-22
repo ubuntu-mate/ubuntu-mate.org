@@ -27,7 +27,7 @@
         },
         "armhf": {
             "direct": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz",
-            "torrent": "magnet:?xt=urn:btih:d0f23c109d8662a3fe9338f75839af8d57e5d4a9&dn=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
+            "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:d0f23c109d8662a3fe9338f75839af8d57e5d4a9&dn=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz",
             "sha256sum": "dc3afcad68a5de3ba683dc30d2093a3b5b3cd6b2c16c0b5de8d50fede78f75c2",
             "download-size": "1.2 GB"
