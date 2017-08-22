@@ -234,90 +234,99 @@
             it would fund the full-time development of Ubuntu MATE and MATE Desktop. <u>Please help both projects
             flourish by showing your support with a tip.</u></p>
 
-            <!-- Tip $2.50 -->
-            <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <fieldset>
-                    <button type="submit" class="btn btn-primary">
-                        Tip us <strong>$2.50</strong>
-                    </button>
-                </fieldset>
-                <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="6282B4CZGVCB6">
-                <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
-                <input type="hidden" name="no_shipping" value="1">
-                <input type="hidden" name="no_note" value="1">
-                <input type="hidden" name="charset" value="UTF-8">
-                <input type="hidden" name="amount" value="2.50">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="src" value="1">
-                <input type="hidden" name="sra" value="1">
-                <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
-                <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-            </form>
+            <div class="row">
+                <!-- Tip $2.50 -->
+                <div class="col-xs-3">
+                    <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <fieldset>
+                            <button type="submit" class="btn btn-primary">
+                                Tip us <strong>$2.50</strong>
+                            </button>
+                        </fieldset>
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="6282B4CZGVCB6">
+                        <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
+                        <input type="hidden" name="no_shipping" value="1">
+                        <input type="hidden" name="no_note" value="1">
+                        <input type="hidden" name="charset" value="UTF-8">
+                        <input type="hidden" name="amount" value="2.50">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="src" value="1">
+                        <input type="hidden" name="sra" value="1">
+                        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+                        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+                    </form>
+                </div>
 
-            <!-- Tip $5 -->
-            <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <fieldset>
-                    <button type="submit" class="btn btn-primary">
-                        Tip us <strong>$5</strong>
-                    </button>
-                </fieldset>
-                <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="6282B4CZGVCB6">
-                <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
-                <input type="hidden" name="no_shipping" value="1">
-                <input type="hidden" name="no_note" value="1">
-                <input type="hidden" name="charset" value="UTF-8">
-                <input type="hidden" name="amount" value="5">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="src" value="1">
-                <input type="hidden" name="sra" value="1">
-                <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
-                <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-            </form>
+                <!-- Tip $5 -->
+                <div class="col-xs-3">
+                    <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <fieldset>
+                            <button type="submit" class="btn btn-primary">
+                                Tip us <strong>$5</strong>
+                            </button>
+                        </fieldset>
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="6282B4CZGVCB6">
+                        <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
+                        <input type="hidden" name="no_shipping" value="1">
+                        <input type="hidden" name="no_note" value="1">
+                        <input type="hidden" name="charset" value="UTF-8">
+                        <input type="hidden" name="amount" value="5">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="src" value="1">
+                        <input type="hidden" name="sra" value="1">
+                        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+                        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+                    </form>
+                </div>
 
-            <!-- Tip $10 -->
-            <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <fieldset>
-                    <button type="submit" class="btn btn-primary">
-                        Tip us <strong>$10</strong>
-                    </button>
-                </fieldset>
-                <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="6282B4CZGVCB6">
-                <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
-                <input type="hidden" name="no_shipping" value="1">
-                <input type="hidden" name="no_note" value="1">
-                <input type="hidden" name="charset" value="UTF-8">
-                <input type="hidden" name="amount" value="10">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="src" value="1">
-                <input type="hidden" name="sra" value="1">
-                <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
-                <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-            </form>
+                <!-- Tip $10 -->
+                <div class="col-xs-3">
+                    <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <fieldset>
+                            <button type="submit" class="btn btn-primary">
+                                Tip us <strong>$10</strong>
+                            </button>
+                        </fieldset>
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="6282B4CZGVCB6">
+                        <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
+                        <input type="hidden" name="no_shipping" value="1">
+                        <input type="hidden" name="no_note" value="1">
+                        <input type="hidden" name="charset" value="UTF-8">
+                        <input type="hidden" name="amount" value="10">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="src" value="1">
+                        <input type="hidden" name="sra" value="1">
+                        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+                        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+                    </form>
+                </div>
 
-            <!-- Tip $20 -->
-            <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <fieldset>
-                    <button type="submit" class="btn btn-primary">
-                        Tip us <strong>$20</strong>
-                    </button>
-                </fieldset>
-                <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="6282B4CZGVCB6">
-                <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
-                <input type="hidden" name="no_shipping" value="1">
-                <input type="hidden" name="no_note" value="1">
-                <input type="hidden" name="charset" value="UTF-8">
-                <input type="hidden" name="amount" value="20">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="src" value="1">
-                <input type="hidden" name="sra" value="1">
-                <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
-                <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
-            </form>
-            <br/>
+                <!-- Tip $20 -->
+                <div class="col-xs-3">
+                    <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <fieldset>
+                            <button type="submit" class="btn btn-primary">
+                                Tip us <strong>$20</strong>
+                            </button>
+                        </fieldset>
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="6282B4CZGVCB6">
+                        <input class="tip-name" type="hidden" name="item_name" value="Ubuntu MATE Tip">
+                        <input type="hidden" name="no_shipping" value="1">
+                        <input type="hidden" name="no_note" value="1">
+                        <input type="hidden" name="charset" value="UTF-8">
+                        <input type="hidden" name="amount" value="20">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="src" value="1">
+                        <input type="hidden" name="sra" value="1">
+                        <input type="hidden" name="return" value="https://ubuntu-mate.org/donation-completed/">
+                        <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/donation-cancelled/">
+                    </form>
+                </div>
+            </div>
             <h5>Powered by &nbsp;<img src="/assets/img/logos/pp-logo-100px.png" alt="Powered by PayPal" /></h5>
             <p>To donate more, donate with <strong>BitCoin</strong> or become an Ubuntu MATE <strong>Patron</strong>,
             <a href="/donate/">please visit the donate page</a>.</p>
