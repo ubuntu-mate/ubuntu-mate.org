@@ -23,7 +23,7 @@
 <!----------------------------
  1. Architecture Selection
 ----------------------------->
-<div id="arch-list">
+<div id="arch-list" class="download-cards">
     <h2>Choose your architecture</h2>
     <div class="row">
         <div class="col-xs-12 col-md-6">
@@ -111,7 +111,7 @@
 <!----------------------------
  2. Release Selection
 ----------------------------->
-<div id="release-list" hidden>
+<div id="release-list" class="download-cards" hidden>
     <h2>
         Which release would you like?
         <br/>

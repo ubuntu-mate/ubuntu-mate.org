@@ -67,14 +67,31 @@
     }
 }
 
+.download-cards {
+    .row {
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .download-cards {
+        .download-option {
+            margin-bottom: 2em;
+        }
+
+        .row {
+            margin-bottom: 0;
+        }
+    }
+}
+
 /*************************************
  1. Architecture List
 **************************************/
 #arch-list {
     text-align: center;
 
-    > h3,
-    > .row {
+    > h3 {
         margin-bottom: 1em;
     }
 }
@@ -89,8 +106,7 @@
         min-height: 125px;
     }
 
-    > h3,
-    > .row {
+    > h3 {
         margin-bottom: 1em;
     }
 
