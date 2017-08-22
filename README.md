@@ -8,18 +8,20 @@ Powered by [Nikola](https://getnikola.com/) - a static page generator.
 
 ----------
 ## Translations
-The website is only in English at the moment. **There is currently no way for translators yet**, although Nikola has support for multilingual sites.
+
+The website is only in English at the moment. **There is currently no way for 
+translators yet**, although Nikola has support for multilingual sites.
 
 ----------
 ## Setting up the Nikola Environment
 
-First, install Nikola into an isolated Python environment, called a `virtualenv`.
-This is independent from the system's installation of Python.
+First, install Nikola into an isolated Python environment, called a 
+`virtualenv`. This is independent from the system's installation of Python.
 
     source ~/Snakepit/nikola/bin/activate
 
-You know when the Nikola environment is activated because `(nikola)` will
-be added to the bash prompt.
+You know when the Nikola environment is activated because `(nikola)` will be 
+added to the bash prompt.
 
 ### Clone the website
 
@@ -36,13 +38,13 @@ The first build will take a while. Subsequent builds are much faster.
 
 ### Serving the site
 
-Nikola has a built in webserver, the serves the currently built site on port 8000.
+Nikola has a built in webserver, the serves the currently built site on port 
+8000.
 
     cd ~/Websites/ubuntu-mate.org
     nikola serve
 
-Now point you web browser at localhost:8000 to test. CTRL+C to
-stop serving.
+Now point you web browser at localhost:8000 to test. CTRL+C to stop serving.
 
 ### Cleaning Nikola
 
@@ -53,5 +55,23 @@ If you need to clean the Nikola build of the site do this following.
 You'll need to build the site again now.
 
 ----------
-## Dynamic Download Page
-The download page is dynamic, but is statically generated. Download information is stored in `downloads.json`. The page itself is updated by executing `scripts/update-download-page.py` and passing arguments (see `--help`).
+## Deploying the site
+
+The site is re-deployed on every commit via Travis CI. However, it a new 
+Ubuntu MATE release is happening then the download page needs updating too.
+
+### Updating the dynamic download page
+
+The download page is dynamic, but is statically generated using these resouces.
+
+  * Download information is stored in `files/assets/downloads.json`
+  * The main presentation is taken from `/pages/download.md` and will need Alpha, Beta labels etc updating.
+  * The LESS and CSS configuration is stored in `/themes/United/less/download.less`
+  * The Javascript logic is in `/files/assets/js/downloads.js`
+
+When the torrents are publish as part of the iso release run something like 
+the following for each release architecture:
+
+    Scripts/helpers/generate-magnet-urls.sh http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent` [repeat] ... copy & paste to JSON, save, commit, push (edited)
+
+Copy and paste the output to `files/assets/downloads.json`.
