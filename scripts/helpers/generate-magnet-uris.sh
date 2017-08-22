@@ -1,21 +1,27 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Generates the magnet link for a .torrent file remotely.
 #
 
-test=$(which transmission-show)
-if [ ! $? == 0 ]; then
-    echo "Please install 'transmission-show' to run this script."
-fi
+for TOOL in wget transmission-show; do
+    TEST=$(which $TOOL)
+    if [ $? -ne 0 ]; then
+        echo "ERROR! Please install '${TOOL}' to run this script."
+        exit 1
+    fi
+done
 
-if [ "$1" == "" ]; then
-    echo "Please specify the URL to the .torrent file"
+if [ -z "${1}" ]; then
+    echo "ERROR! Please specify the URL to a .torrent file."
+    exit 1
+else
+    TORRENT="${1}"
 fi
 
 # Get the .torrent file and output the magnet link.
-temp_file="/tmp/magnet.torrent"
-wget -q "$1" -O $temp_file
-echo " "
-transmission-show -m $temp_file
-echo " "
-rm $temp_file
+TEMP_TORRENT=$(mktemp)
+wget -q "${TORRENT}" -O "${TEMP_TORRENT}"
+echo
+transmission-show -m "${TEMP_TORRENT}"
+echo
+rm "${TEMP_TORRENT}"
