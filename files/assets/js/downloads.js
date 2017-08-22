@@ -31,9 +31,37 @@ function setArch(a, friendly_name) {
     var releases = Object.keys(downloads);
     releases.forEach(function(release) {
         if (downloads[release].hasOwnProperty(arch) === true) {
-            $("#" + release).show()
+            $("#" + release).show();
         } else {
-            $("#" + release).hide()
+            $("#" + release).hide();
+            return;
+        }
+
+        var elementSelector = "#" + release + " > .details > ";
+
+        // Show warning colour if a pre-release
+        $(elementSelector + ".support").removeClass("support-ends").removeClass("support-preview");
+        if (downloads[release]["pre-release"] === true) {
+            $(elementSelector + ".support").addClass("support-preview");
+        } else {
+            $(elementSelector + ".support").addClass("support-ends");
+        }
+
+        // Get details about distro, including alternates.
+        $(elementSelector + ".name").html(downloads[release]["name"]);
+        $(elementSelector + ".description").html(downloads[release]["description"]);
+        $(elementSelector + ".support").html(downloads[release]["support"]);
+
+        if (downloads[release][arch].hasOwnProperty("alt-name")) {
+            $(elementSelector + ".name").html(downloads[release][arch]["alt-name"]);
+        }
+
+        if (downloads[release][arch].hasOwnProperty("alt-description")) {
+            $(elementSelector + ".description").html(downloads[release][arch]["alt-description"]);
+        }
+
+        if (downloads[release][arch].hasOwnProperty("alt-support")) {
+            $(elementSelector + ".support").html(downloads[release][arch]["alt-support"]);
         }
     });
 }

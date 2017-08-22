@@ -1,5 +1,8 @@
 {
     "xenial": {
+        "name": "16.04.3 LTS (Xenial)",
+        "description": "Recommended for stability and mission critical systems.",
+        "support": "Supported until April 2019",
         "release-notes": "/blog/ubuntu-mate-xenial-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/",
@@ -23,17 +26,24 @@
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d",
-            "download-size": "1.7 GB"
+            "download-size": "1.7 GB",
+            "alt-name": "16.04.1 LTS (Xenial)",
+            "alt-support": "PowerPC is being dropped after April 2019."
         },
         "armhf": {
             "direct": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz",
             "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:d0f23c109d8662a3fe9338f75839af8d57e5d4a9&dn=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz",
             "sha256sum": "dc3afcad68a5de3ba683dc30d2093a3b5b3cd6b2c16c0b5de8d50fede78f75c2",
-            "download-size": "1.2 GB"
+            "download-size": "1.2 GB",
+            "alt-name": "16.04.2 (Xenial)",
+            "alt-description": "Bring the traditional desktop experience to your Raspberry Pi!"
         }
     },
     "zesty": {
+        "name": "17.04 (Zesty)",
+        "description": "Interm release for users desiring the latest features and applications.",
+        "support": "Supported until January 2018",
         "release-notes": "/blog/ubuntu-mate-zesty-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
         "other-downloads": "https://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/",
@@ -54,6 +64,9 @@
         }
     },
     "artful": {
+        "name": "17.10 (Artful) Alpha 2",
+        "description": "For early testers of the next release.",
+        "support": "Pre-release",
         "release-notes": "/blog/ubuntu-mate-artful-alpha2/",
         "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/",

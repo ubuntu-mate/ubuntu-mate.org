@@ -125,9 +125,9 @@
                     <img src="/assets/img/downloads/releases/xenial.svg" />
                 </div>
                 <div class="details">
-                    <h3>16.04.3 LTS "Xenial"</h3>
-                    <p>Recommended for stability and mission critical systems.</p>
-                    <div class="support-ends">Supported until April 2019</div>
+                    <h3 class="name"></h3>
+                    <p class="description"></p>
+                    <div class="support"></div>
                 </div>
             </button>
         </div>
@@ -137,9 +137,9 @@
                     <img src="/assets/img/downloads/releases/zesty.svg" />
                 </div>
                 <div class="details">
-                    <h3>17.04 "Zesty"</h3>
-                    <p>Interm release for users desiring the latest features and applications.</p>
-                    <div class="support-ends">Supported until January 2018</div>
+                    <h3 class="name"></h3>
+                    <p class="description"></p>
+                    <div class="support"></div>
                 </div>
             </button>
         </div>
@@ -151,9 +151,9 @@
                     <img src="/assets/img/downloads/releases/artful.svg" />
                 </div>
                 <div class="details">
-                    <h3>17.10 "Artful"</h3>
-                    <p>For early testers of the next release.</p>
-                    <div class="support-preview">Alpha 2</div>
+                    <h3 class="name"></h3>
+                    <p class="description"></p>
+                    <div class="support"></div>
                 </div>
             </button>
         </div>
