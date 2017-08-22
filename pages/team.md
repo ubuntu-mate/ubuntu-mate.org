@@ -27,7 +27,7 @@ and test Ubuntu MATE.
   * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
   * [Wolfgang Ulbrich](https://github.com/raveit65) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
   * [Luke](https://github.com/lukefromdc) Developer of [MATE Desktop](http://mate-desktop.org), theme maintainer and bug hunter.
-  * [Pablo Baricela González](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
+  * [Pablo Barciela](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
   * [Alexei Sorokin](https://github.com/XRevan86) Contributor to [MATE Desktop](http://mate-desktop.org) and [Ubuntu MATE](https://ubuntu-mate.org).
   * [Ikey Doherty](https://github.com/ikeydoherty) Lead Developer of [Solus](https://solus-project.com/) and [MATE Desktop](http://mate-desktop.org) contributor.
   * [Sefan Ric](https://github.com/cyber) Developer of [Solus](https://solus-project.com/) and [MATE Desktop](http://mate-desktop.org) contributor.
