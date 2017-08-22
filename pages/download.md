@@ -153,7 +153,7 @@
                 <div class="details">
                     <h3>17.10 "Artful"</h3>
                     <p>For early testers of the next release.</p>
-                    <div class="support-preview">Beta 1</div>
+                    <div class="support-preview">Alpha 2</div>
                 </div>
             </button>
         </div>
