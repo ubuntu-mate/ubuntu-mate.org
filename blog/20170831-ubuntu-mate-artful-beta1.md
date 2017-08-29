@@ -142,15 +142,15 @@ busy patching [MATE Settings Daemon](https://github.com/mate-desktop/mate-settin
 [MATE Menu](https://github.com/ubuntu-mate/mate-menu),
 [Brisk Menu](https://github.com/solus-project/brisk-menu) and
 [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) to
-make the Super key work the way you'd all expect. This means `<Super>`
+make the Super key work the way you'd all expect. This means <kbd>Super</kbd>
 can be used to activate the menus/launchers and any other key-bindings
-that include the `<Super>` key also continue to function correctly.
+that include the <kbd>Super</kbd> key also continue to function correctly.
 
 MATE Dock Applet, used in the Mutiny layout, also includes launching or
 switching to docked items based on their position using in the dock
-using `Super+1`, `Super+2` which will be familiar to Unity 7 users.
-`Super+L` is also recognised as a screen lock key-binding along with the
-usual `Ctrl+Alt+L` that MATE Desktop users expect.
+using <kbd>Super</kbd> + <kbd>1</kbd>, <kbd>Super</kbd> + <kbd>2</kbd> which will be familiar to Unity 7 users.
+<kbd>Super</kbd> + <kbd>L</kbd> is also recognised as a screen lock key-binding along with the
+usual <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> that MATE Desktop users expect.
 
 ## Heads-Up Display
 
@@ -173,7 +173,7 @@ Just like Global Menus the HUD is currently only available via the
 We've improved the HUD significantly since Alpha 2 thank to all the
 great testing feedback.
 
-  * **NEW in 17.10 Beta 1** - The HUD is now **activated by just pressing `Alt`**, as you would expect in Unity 7.
+  * **NEW in 17.10 Beta 1** - The HUD is now **activated by just pressing** <kbd>Alt</kbd>, as you would expect in Unity 7.
   * The HUD is now reliably activated. In Alpha 2 is only responded to about one third of requests.
   * **NEW in 17.10 Beta 1** - The **HUD is now locally integrated**, so that it overlays on top of the activate application.
 
