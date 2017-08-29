@@ -210,6 +210,10 @@ article {
     margin-top: 1em;
 }
 
+.post-text img {
+    margin: 1em 0;
+}
+
 /*************************************
   Sticky Footer
 *************************************/
