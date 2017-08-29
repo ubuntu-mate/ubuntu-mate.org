@@ -64,26 +64,26 @@
         }
     },
     "artful": {
-        "name": "17.10 (Artful) Alpha 2",
+        "name": "17.10 (Artful) Beta 1",
         "description": "For early testers of the next release.",
         "support": "Pre-release",
-        "release-notes": "/blog/ubuntu-mate-artful-alpha2/",
+        "release-notes": "/blog/ubuntu-mate-artful-beta1/",
         "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/",
         "pre-release": true,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-amd64.iso.torrent",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-amd64.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:fad5572ea7d2dcfafa3a34cd59e59ac26be62c53&dn=artful-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "64c1f55e339874d9feaecf27a47255f32e212c455d66e82e57091248113f6fbf",
-            "download-size": "1.8 GB"
+            "sha256sum": "b05e667df452e5abace55e48fd0549973da04b74678395ed5596f0d72df68b87",
+            "download-size": "1.7 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/alpha-2/artful-desktop-i386.iso.torrent",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-i386.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:6b27d8cfea714cad5f513680dcd96a3b6dc535f1&dn=artful-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "e811f4c40ce9ad451d330811c259ea7f91bf9ec8ef7ab3f42d961aabb9ef993a",
-            "download-size": "1.8 GB"
+            "sha256sum": "f6cabe9fbaf3e3adfd6e3dc93a7a4787ae18f83635e0a0110f2ee69e1620493a",
+            "download-size": "1.7 GB"
         }
     }
 }
