@@ -281,7 +281,7 @@ based on the Unity Greeter.
     * Remove unwanted backdrop states.
   * Many of the Ubuntu MATE defaults have been changed or updated
     * **Replaced `lightdm-gtk-greeter` with `slick-greeter`.**
-    * Added keybindings for `<Shift>Print` to grab a screen area when taking a screenshot.
+    * Added keybindings for <kbd>Shift</kbd> + <kbd>Print Screen</kbd> to grab a screen area when taking a screenshot.
     * **Added defaults for Chromium**, which will show the [Ubuntu MATE Start](https://start.ubuntu-mate.org) page, *should you install it*.
     * Added sane defaults and tookit integration for `smplayer`, *should you install it*.
   * **New Ubiquity Slide Show**
