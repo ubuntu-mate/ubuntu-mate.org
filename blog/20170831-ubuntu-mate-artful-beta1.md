@@ -230,7 +230,7 @@ When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
 [Perdro Mateus](https://plus.google.com/+PedroMateus) from
 [Linux Game Cast](https://linuxgamecast.com/) podcast for his help test
-the various GPU, IGP and driver combinations. `[#LGCCares](https://twitter.com/hashtag/LGCCares?src=hash)`
+the various GPU, IGP and driver combinations. [`#LGCCares`](https://twitter.com/hashtag/LGCCares?src=hash)
 
 While we were tuning compositors we gave some love to Compiz, which now
 uses less RAM and fixes a number of niggles.
@@ -263,7 +263,7 @@ based on the Unity Greeter.
     * **Improve linked button styling for message dialogs**.
     * Add syntax for panel-grid image to support MATE 1.20.
     * Improve **clock-applet-button so it is consistent with other buttons**.
-    * Add top borderradius for .titlebar > headerbar - *workaround for incorrect upstream use of the GTK API*
+    * Add top `border-radius` for `.titlebar > headerbar` - *workaround for incorrect upstream use of the GTK API*
     * **Improved notebook (tab) styling**.
     * Updated GtkSourceView themes (used by text editors).
     * **Add bold style classes for Global Menu**.
@@ -282,7 +282,7 @@ based on the Unity Greeter.
   * Many of the Ubuntu MATE defaults have been changed or updated
     * **Replaced `lightdm-gtk-greeter` with `slick-greeter`.**
     * Added keybindings for `<Shift>Print` to grab a screen area when taking a screenshot.
-    * **Added defaults for Chromium**, *should you install it*, that include the [Ubuntu MATE Start](https://start.ubuntu-mate.org) page.
+    * **Added defaults for Chromium**, which will show the [Ubuntu MATE Start](https://start.ubuntu-mate.org) page, *should you install it*.
     * Added sane defaults and tookit integration for `smplayer`, *should you install it*.
   * **New Ubiquity Slide Show**
     * Completely redesigned to introduce users to more of the features unique to Ubuntu MATE.
@@ -303,13 +303,13 @@ based on the Unity Greeter.
   * Patched `unity-gtk-module` to fix ghosting artefacts when dragging and dropping icons.
   * **Caja now includes the [GtkHash](https://github.com/tristanheaven/gtkhash) extension**
   * Experimental HiDPI support is a little less experimental.
-    * If you kept reading that ^ is for you. Also see that massive image of the Indicators above. Not an accident `;-)`
+    * It's true, and that massive indicators image above is no accident `;-)`
   * ...and a whole lot of other little improvements and fixes.
 
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Download Ubuntu MATE 17.10</h1>
-        <p>Join the fun and experience a retrospective future.</p>
+        <p>We've even redesigned the download page so it's even easier to get started.</p>
         <a href="/download/" class="btn btn-primary btn-lg">Download</a>
         </p>
     </div>
@@ -330,12 +330,12 @@ This is our known list of bugs that affect all flavours.
   * [Firefox is out of date](https://bugs.launchpad.net/ubuntu/+source/firefox/+bug/1708224)
     * Firefox is still 50.1.0 in 17.10 because newer versions are failing to build for some architectures.
   * [The Ubiquity installer may auto select US keyboard layout](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713664)
-    * To work around this manually select the correct regional keyboard layout for your computer.
+    * To work around this manually, select the correct regional keyboard layout for your computer.
   * [Ubiquity is uninstalling chosen locale language packs](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713702)
-    * After install your computer may not have all the appropriate language packs installed.
-    * To work around this issue open *Language Support* in the Control Centre and follow the prompts to automatically install the required language packs.
+    * After a successful installation, your computer may not have all the appropriate language packs installed.
+    * To work around this issue, open **Language Support** in the Control Centre and follow the prompts to automatically install the required language packs.
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu Budgie and Ubuntu MATE](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720)
-    * To work around this `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
+    * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
 
 You'll also want to check the Ubuntu MATE bug tracker to see what has
 already been reported. These issues will be addressed in due course.
