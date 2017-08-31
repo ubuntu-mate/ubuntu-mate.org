@@ -286,7 +286,7 @@ uses LightDM under the hood but has a much nicer look and feel.
   * **New Ubiquity Slide Show**
     * Completely redesigned to introduce users to more of the features unique to Ubuntu MATE.
     * **Added Ubuntu MATE logo to Ubiquity**.
-  * Dropped `caka-gksu` and migrated `gdebi` to PolicyKit - *Thanks Simon Quigley*
+  * Dropped `caja-gksu` and migrated `gdebi` to PolicyKit - *Thanks Simon Quigley*
     * `gksu` is being removed from Debian so we are aligning with that objective by removing `gksu` from Ubuntu MATE.
     * `caja-admin` will eventually replace `caja-gksu`.
   * Since the Ubuntu MATE 17.10 Alpha 2 release we've fixed lots of bugs and MATE Desktop 1.18 has seen many updates. Nothing new, just be more stability.
