@@ -289,7 +289,7 @@ uses LightDM under the hood but has a much nicer look and feel.
   * Dropped `caja-gksu` and migrated `gdebi` to PolicyKit - *Thanks Simon Quigley*
     * `gksu` is being removed from Debian so we are aligning with that objective by removing `gksu` from Ubuntu MATE.
     * `caja-admin` will eventually replace `caja-gksu`.
-  * Since the Ubuntu MATE 17.10 Alpha 2 release we've fixed lots of bugs and MATE Desktop 1.18 has seen many updates. Nothing new, just be more stability.
+  * Since the Ubuntu MATE 17.10 Alpha 2 release we've fixed lots of bugs and MATE Desktop 1.18 has seen many updates. Nothing new, just more stability.
     * `atril` 1.18.1-0ubuntu1
     * `caja` 1.18.4-0ubuntu1
     * `marco` 1.18.1-2
