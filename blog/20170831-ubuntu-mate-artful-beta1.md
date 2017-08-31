@@ -2,14 +2,14 @@
 .. title: Ubuntu MATE 17.10 Beta 1
 .. slug: ubuntu-mate-artful-beta1
 .. date: 2017-08-31 20:00:00 UTC
-.. tags: Ubuntu,MATE,Artful,beta1,draft
+.. tags: Ubuntu,MATE,Artful,beta1
 .. link:
 .. description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 1
 .. type: text
 .. author: Martin Wimpress
 -->
 
-# Unity 7 user? Join our Mutiny!
+# Unity 7 user? *Join our Mutiny!*
 
   * **Slick Greeter?** - *Check!*
   * **Global Menus?** - *Check!*
@@ -21,11 +21,11 @@
 *We mean it, keep reading! Don't just go hunting for the download button
 and skip over our most glorious release notes.*
 
- > [#systemau](https://systemau.net.au/) may be gone but they're not forgotten. Ubuntu MATE will
-continue with our unusual, sometimes witty, opening statements in our
-release notes in the hope that it inspires release note authors
-everywhere to drop the usual dull offerings in favour of something
-more interesting!
+ > [#systemau](https://systemau.net.au/) may be gone but they're not
+ forgotten. Ubuntu MATE will continue with our unusual, sometimes
+ witty, opening statements in our release notes in the hope that it
+ inspires release note authors everywhere to drop the usual dull
+ offerings in favour of something more interesting!
 
 We are preparing Ubuntu MATE 17.10 (Artful Aardvark) for distribution on
 [October 19th, 2017](https://wiki.ubuntu.com/ArtfulAardvark/ReleaseSchedule)
@@ -128,8 +128,8 @@ using Ubuntu MATE.
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
 we've had since 17.10 Alpha 2 we've made the Global Menu far more
-reliable. Global Menus are correctly integrated regardless of whether
-the application was launched from the terminal, menu or launcher.
+reliable and now operate correctly regardless of whether the
+application was launched from the terminal, menu or launcher.
 
 ## Super key
 
@@ -195,9 +195,9 @@ resolution or multi-display workstations.
 ## Indicators
 
 We've been improving Indicator support from release to release for some
-time now. But with this release many of the panel layouts offers a
-complete line up of Indicators, all of which are fully compatible with
-MATE. The default Indicators are:
+time now. But with in Ubuntu MATE 17.10 many of the panel layouts offer
+a complete line up of Indicators, all of which are fully compatible
+with MATE. The default Indicators are:
 
   * Optimus (*only available if you have nvidia prime capable hardware and drivers*)
   * Bluetooth
@@ -245,9 +245,8 @@ to see the full line up of new artwork though `;-)`
 
 ## Slick Greeter
 
-**NEW in 17.10 Beta 1** - We've switched to the Slick Greeter, which
-still use LightDM under the hood but has a much nicer look and feel
-based on the Unity Greeter.
+**NEW in 17.10 Beta 1** - We've switched to Slick Greeter which still
+uses LightDM under the hood but has a much nicer look and feel.
 
 <div align="center">
 <img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
@@ -298,7 +297,7 @@ based on the Unity Greeter.
     * `mate-power-manager` 1.18.0-2ubuntu1
     * `mate-session-manager` 1.18.1-2ubuntu2
       * Some long standing bugs with `systemd` integration and DBus session activation have been fixed.
-    * `mate-tweak` 17.10.13-0ubuntu1
+    * `mate-tweak` 17.10.15-0ubuntu1
     * `ubuntu-mate-settings` 17.10.23
   * Patched `unity-gtk-module` to fix ghosting artefacts when dragging and dropping icons.
   * **Caja now includes the [GtkHash](https://github.com/tristanheaven/gtkhash) extension**
@@ -321,7 +320,7 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
-  * *tbc*
+  * *Nothing critical.*
 
 ### Ubuntu family issues
 
@@ -336,6 +335,9 @@ This is our known list of bugs that affect all flavours.
     * To work around this issue, open **Language Support** in the Control Centre and follow the prompts to automatically install the required language packs.
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu Budgie and Ubuntu MATE](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
+  * [System fails to start encrypted swap on boot on an encrypted home installation](https://bugs.launchpad.net/ubuntu/+source/cryptsetup/+bug/1713722).
+    * To work around this do select "Encrypt my home directory" during installation.
+  * [Screen reader does not function](https://bugs.launchpad.net/ubuntu/+source/gnome-orca/+bug/1704847).
 
 You'll also want to check the Ubuntu MATE bug tracker to see what has
 already been reported. These issues will be addressed in due course.
