@@ -72,16 +72,16 @@
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/",
         "pre-release": true,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-amd64.iso",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/ubuntu-mate-17.10-beta1-desktop-amd64.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:fad5572ea7d2dcfafa3a34cd59e59ac26be62c53&dn=artful-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "magnet-uri": "magnet:?xt=urn:btih:2a09efd04895661c9db09b57e1b145f8bfe79efc&dn=ubuntu-mate-17.10-beta1-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "b05e667df452e5abace55e48fd0549973da04b74678395ed5596f0d72df68b87",
             "download-size": "1.7 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-i386.iso",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/ubuntu-mate-17.10-beta1-desktop-i386.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-1/artful-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:6b27d8cfea714cad5f513680dcd96a3b6dc535f1&dn=artful-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "magnet-uri": "magnet:?xt=urn:btih:3fa59a6a594d39d70c0155cc2e1cbc9bf353ac3a&dn=ubuntu-mate-17.10-beta1-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "f6cabe9fbaf3e3adfd6e3dc93a7a4787ae18f83635e0a0110f2ee69e1620493a",
             "download-size": "1.7 GB"
         }
