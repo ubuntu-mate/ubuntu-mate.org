@@ -8,7 +8,7 @@ addons:
     - optipng
     - yui-compressor
     - rsync
-    - lessc
+    - node-less
 install: pip install --upgrade 'Nikola[extras,tests]'
 script:
 - scripts/build.sh
