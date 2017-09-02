@@ -18,7 +18,7 @@
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:deca97f1846e023ca6292f3cce0370b6094d9fad&dn=ubuntu-mate-16.04.3-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "4bfe56e59e565088264590ad930130c4e872b1806c34fd6a7202752852961355",
+            "sha256sum": "ea4b042fcef36fe9ceeaab7165bfb273c9f9b3c44b5cab21e1fe3fc41891afea",
             "download-size": "1.74 GB"
         },
         "powerpc": {
