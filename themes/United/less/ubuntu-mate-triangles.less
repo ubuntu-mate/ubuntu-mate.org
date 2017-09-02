@@ -83,3 +83,15 @@ body {
 }
 
 .fade-odd {}
+
+/* Fix for home page needing to scroll horizontally */
+@media screen and (max-width: 768px) {
+    #ubuntu-mate-triangles {
+        left: 0;
+        right: 0;
+    }
+
+    .description {
+        margin-top: 2em !important;
+    }
+}
