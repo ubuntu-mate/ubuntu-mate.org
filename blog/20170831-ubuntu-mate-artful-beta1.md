@@ -336,7 +336,9 @@ This is our known list of bugs that affect all flavours.
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu Budgie and Ubuntu MATE](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
   * [System fails to start encrypted swap on boot on an encrypted home installation](https://bugs.launchpad.net/ubuntu/+source/cryptsetup/+bug/1713722).
-    * To work around this do select "Encrypt my home directory" during installation.
+    * To work around this either:
+      * do not select "Encrypt my home directory" during installation.
+      * after install edit `/etc/crypttab` and replace "UUID=XXX" with "/swapfile".
   * [Screen reader does not function](https://bugs.launchpad.net/ubuntu/+source/gnome-orca/+bug/1704847).
 
 You'll also want to check the Ubuntu MATE bug tracker to see what has
