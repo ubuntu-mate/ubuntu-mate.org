@@ -79,6 +79,7 @@ These Patron have opted for some perks.
         <a class="list-group-item active">Funding Ninjas</a>
         <a class="list-group-item">No need for stealth, they crowd fund like a boss!</a>
         <a class="list-group-item" href="https://www.patreon.com/user?u=2907180"><b>Etienne Papegnies</b></a>
+        <a class="list-group-item" href="https://www.patreon.com/user/creators?u=2618901"><b>Daniel LaSalle</b></a>
       </div>
     </div>
   </div>
