@@ -257,7 +257,7 @@ uses LightDM under the hood but has a much nicer look and feel.
   * **Ubuntu MATE Welcome 17.10.11** has been stocked with even more new applications for you to discover and
     * The *all new* Software Boutique is not ready yet, so this is the Boutique you know and love. Just better stocked.
   * The **Ubuntu MATE themes have been improved** via the release of `ubuntu-mate-artwork` 17.10.9
-    * Several improvements Plymouth spash screens, both text and graphical varieties.
+    * Several improvements Plymouth splash screens, both text and graphical varieties.
     * Add missing panel-grid to Radiant-MATE.
     * **Improve linked button styling for message dialogs**.
     * Add syntax for panel-grid image to support MATE 1.20.
