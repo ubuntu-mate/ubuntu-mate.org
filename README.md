@@ -9,18 +9,18 @@ Powered by [Nikola](https://getnikola.com/) - a static page generator.
 ----------
 ## Translations
 
-The website is only in English at the moment. **There is currently no way for 
+The website is only in English at the moment. **There is currently no way for
 translators yet**, although Nikola has support for multilingual sites.
 
 ----------
 ## Setting up the Nikola Environment
 
-First, install Nikola into an isolated Python environment, called a 
+First, install Nikola into an isolated Python environment, called a
 `virtualenv`. This is independent from the system's installation of Python.
 
     source ~/Snakepit/nikola/bin/activate
 
-You know when the Nikola environment is activated because `(nikola)` will be 
+You know when the Nikola environment is activated because `(nikola)` will be
 added to the bash prompt.
 
 ### Clone the website
@@ -38,7 +38,7 @@ The first build will take a while. Subsequent builds are much faster.
 
 ### Serving the site
 
-Nikola has a built in webserver, the serves the currently built site on port 
+Nikola has a built in webserver, the serves the currently built site on port
 8000.
 
     cd ~/Websites/ubuntu-mate.org
@@ -57,7 +57,7 @@ You'll need to build the site again now.
 ----------
 ## Deploying the site
 
-The site is re-deployed on every commit via Travis CI. However, it a new 
+The site is re-deployed on every commit via Travis CI. However, it a new
 Ubuntu MATE release is happening then the download page needs updating too.
 
 ### Updating the dynamic download page
@@ -67,7 +67,7 @@ The download page is dynamic client-side, but is statically generated using thes
   * Download information is stored in `files/assets/downloads.json`
   * The main presentation is taken from `/pages/download.md` and will need Alpha, Beta labels etc updating.
   * The LESS and CSS configuration is stored in `/themes/United/less/download.less`
-  * The Javascript logic is in `/files/assets/js/downloads.js`
+  * The Javascript logic is in `files/assets/js/downloads.js`
 
 When the torrents are published as part of the iso release run `generate-magnet-urls.sh`
 for each release architecture, for instance:
