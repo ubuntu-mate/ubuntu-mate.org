@@ -34,7 +34,9 @@ and test Ubuntu MATE.
   * [Luke Horwell](https://github.com/lah7) Developer of [Ubuntu MATE](https://ubuntu-mate.org), web designer and community moderator.
   * [Victor Kareh](https://github.com/vkareh) Contributor to [MATE Desktop](http://mate-desktop.org), [Ubuntu MATE](https://ubuntu-mate.org) and [MATE Dock Applet](https://github.com/robint99/mate-dock-applet).
   * [Robin Thompson](https://github.com/robint99) Lead developer of [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) and [Ubuntu MATE](https://ubuntu-mate.org) contributor.
-  * [Konstantin Putin](https://github.com/rilian-la-te) Lead developer of [Global Menu](https://github.com/rilian-la-te/vala-panel-appmenu) for MATE Panel and [MATE Desktop](http://mate-desktop.org) contributor.
+  * [Konstantin Pugin](https://github.com/rilian-la-te) Lead developer of [Global Menu](https://github.com/rilian-la-te/vala-panel-appmenu) for MATE Panel and [MATE Desktop](http://mate-desktop.org) contributor.
+  * [Johnny Dennis](https://github.com/Meticulus) Lead developer of [tomxplayer](https://github.com/Meticulus/tomxplayer) for the Raspberry Pi.
+  * [Larry Bushey](http://goinglinux.com/) Documentation writer and author of [Ubuntu MATE: Upgrading from Windows or OSX](https://www.smashwords.com/books/view/731432).
 
 ## Maintainers
 
@@ -67,12 +69,11 @@ contributions to the Ubuntu MATE project.
 
   * [Sam Hewitt](http://snwh.org/) Creator the [Ubuntu MATE logo](http://ubuntu-mate.org/logo-guidelines/).
   * [Daniel Foré](https://github.com/danrabbit) Improver of Ubuntu MATE icon theme.
-  * [Michael Tunnell](http://michaeltunnell.com/) Toucher upper of GTK art assets.
-  * [Larry Bushey](http://goinglinux.com/) content creator for Ubuntu MATE website and Ubuntu MATE Welcome.
-  * [Pedro Meteus](https://twitter.com/UnaccountedFour) IGP and GPU configuration enhancements for reduced video tearing and improved gaming performance.
   * [Simon Quigley](https://github.com/tsimonq2) MoTU and back porter of signifcant bug fixes that directly benefit Ubuntu MATE.
   * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
   * [Goce Mitevski](http://nicer2.com) Created the default desktop wallpaper used from Ubuntu MATE 14.10 to 17.04.
+  * [Michael Tunnell](http://michaeltunnell.com/) Toucher upper of GTK art assets.
+  * [Pedro Meteus](https://twitter.com/UnaccountedFour) IGP and GPU configuration enhancements for reduced video tearing and improved gaming performance.
   * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Created the Ubuntu MATE GRUB and Plymouth themes.
   * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Assorted user interface improvements.
   * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
