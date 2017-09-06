@@ -49,8 +49,9 @@ efforts there would be no Ubuntu MATE.
 
 ## Quality Assurance & Testing
 
-  * [Etienne Papegnies](https://ubuntu-mate.community/users/ouroumov) QA lead and forum moderator.
+  * [Etienne Papegnies](https://github.com/epgfm) QA lead and forum moderator.
   * [Alexandru Polihron](https://github.com/apolitech) QA engineer.
+  * [Alexander Browne](https://github.com/elcste) QA engineer.
 
 ## Art & Design
 
