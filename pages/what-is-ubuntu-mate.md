@@ -11,7 +11,7 @@
 If you are new to Ubuntu MATE, or only casually acquainted with Linux 
 based distributions, it can be difficult to understand how a Linux 
 operating system compares with other computer systems that you may 
-already be familiar with. Hopefully this page with help demystify 
+already be familiar with. Hopefully this page will help demystify 
 Ubuntu MATE for new-comers.
 
 ## Ubuntu
