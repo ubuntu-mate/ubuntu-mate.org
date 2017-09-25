@@ -42,7 +42,7 @@
     },
     "zesty": {
         "name": "17.04 (Zesty)",
-        "description": "Interm release for users desiring the latest features and applications.",
+        "description": "Interim release for users desiring the latest features and applications.",
         "support": "Supported until January 2018",
         "release-notes": "/blog/ubuntu-mate-zesty-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
