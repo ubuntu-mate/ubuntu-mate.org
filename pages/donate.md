@@ -194,7 +194,7 @@ sponsorship packages.
     <div class="col-lg-12">
       <div class="well bs-component">
         <legend>Bitcoin</legend>
-          <p>Click or scan to QR code below to launch your Bitcoin client and
+          <p>Click or scan the QR code below to launch your Bitcoin client and
           donate 0.003 btc to Ubuntu MATE. Alternatively, copy and paste the
           Bitcoin address into your Bitcoin client to donate an amount of your
           choice.</p>
