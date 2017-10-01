@@ -517,7 +517,9 @@ ARCHIVE_FILENAME = "index.html"
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
 ("longterm/index.html", "/download/index.html"),
+("trusty/index.html", "/download/index.html"),
 ("utopic/index.html", "/download/index.html"),
+("vivid/index.html", "/download/index.html"),
 ("wily/index.html", "/download/index.html"),
 ("xenial/index.html", "/download/index.html"),
 ("pre-release/index.html", "/download/index.html"),
