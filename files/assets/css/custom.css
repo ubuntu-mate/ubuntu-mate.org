@@ -47,21 +47,6 @@ kbd {
     margin-right: 0px;
 }
 
-img.centered {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.left {
-    margin-right: 10px;
-    float: left;
-}
-
-img.right {
-    margin-right: 10px;
-    float: right;
-}
-
 #banner-fade,
 #banner-slide {
     margin-bottom: 60px;
@@ -262,3 +247,23 @@ article {
         margin-top: 4em;
     }
 }
+
+/*************************************
+ Alignment for images
+**************************************/
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.left {
+    margin-right: 10px;
+    float: left;
+}
+
+img.right {
+    margin-right: 10px;
+    float: right;
+}
+
