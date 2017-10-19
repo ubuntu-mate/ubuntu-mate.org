@@ -1,7 +1,7 @@
 <!--
-.. title: Ubuntu MATE 17.10 Beta 2
+.. title: Ubuntu MATE 17.10
 .. slug: ubuntu-mate-artful-final-release
-.. date: 2017-10-19 19:00:00 BST
+.. date: 2017-10-19 14:00:00 BST
 .. tags: Ubuntu,MATE,Artful,final,17.10
 .. link:
 .. description: Ubuntu MATE 17.10 (Artful Aardvark) Final Release
@@ -36,7 +36,7 @@ and skip over our most glorious release notes.*
 
 # What changed since the Ubuntu MATE 17.04 final release?
 
-We've really been burning the midnight oil for the last four months.
+We've really been burning the midnight oil for the last six months.
 This is what has been updated or added.
 
 ## Panel Layouts
@@ -274,10 +274,37 @@ available in the Debian or Ubuntu archives.
 
 ### The bit no one reads but probably should
 
-  * **Ubuntu MATE Welcome 17.10.14** has been stocked with even more new applications for you to discover and
-    * The *all new* Software Boutique is not ready yet, so this is the Boutique you know and love. Just better stocked.
+Here's the full run down of what changed since Ubuntu MATE 17.04:
+
+  * Ubuntu MATE now features a Global Menu implementation provided ia [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and most of the UBuntu idicators are now available with MATE compatibility.
   * Upgraded to **MATE HUD** 17.10.9-0ubuntu1 which fixes broken event replay due to synchronous key grab.
   * Upgraded to **MATE Optimus** 17.10.1-1ubuntu0 which now features nvidia hardware detection, including external Thunderbolt connected devices.
+  * Upgraded to **Brisk Menu** 0.4.5 has improved Super key support and numerous fixes, plus a few settings that MATE Tweak can manipulate to augment how Brisk is presented in different layouts.
+  * Upgraded to **MATE Menu** 17.10.8-0ubuntu1 now has better relevance of launcher search results, can now optionally search Duck Duck Go, has numerous fixes and that all important Super key was improved.
+  * Upgraded to **MATE Dock Applet** 0.79 has improved Super key support and several bug fixes.
+  * Upgraded to **Ubuntu MATE Welcome** 17.10.15 has been stocked with even more new applications for you to discover and
+    * The *all new* Software Boutique is not ready yet, so this is the Boutique you know and love. Just better stocked.
+  * **Added [PulseMixer](https://github.com/GeorgeFilipkin/pulsemixer) snap to the default install.**
+  * Removed Synapse and HexChat from the default install.
+  * **Added [Redshift](http://jonls.dk/redshift/)**, which adjusts the colour temperature of your screen according to your surroundings, is installed by default but not enabled by default.
+  * Dropped `caja-gksu` and migrated `gdebi` to PolicyKit - *Thanks Simon Quigley*
+    * `caja-admin` has replaced `caja-gksu`
+    * `gksu` is being removed from Debian so we are aligning with that objective by removing `gksu` from Ubuntu MATE.
+  * **Caja now includes the [GtkHash](https://github.com/tristanheaven/gtkhash) and [Caja Rename](https://tari.in/www/software/cajarename/) extensions**.
+  * **New Ubiquity Slide Show**
+    * Completely redesigned to introduce users to more of the features unique to Ubuntu MATE.
+    * **Added Ubuntu MATE logo to Ubiquity**.
+  * Patched `unity-gtk-module` to fix ghosting artefacts when dragging and dropping icons.
+  * Many of the Ubuntu MATE defaults have been changed or updated
+    * **Replaced `lightdm-gtk-greeter` with `slick-greeter`.**
+    * Added keybindings for <kbd>Shift</kbd> + <kbd>Print Screen</kbd> to grab a screen area when taking a screenshot.
+    * **Added defaults for Chromium**, which will show the [Ubuntu MATE Start](https://start.ubuntu-mate.org) page, *should you install it*.
+    * Added sane defaults and tookit integration for `smplayer`, *should you install it*.
+  * **New Ubiquity Slide Show**
+    * Completely redesigned to introduce users to more of the features unique to Ubuntu MATE.
+    * **Added Ubuntu MATE logo to Ubiquity**.
+  * MATE Desktop 1.18 has seen many updates, with lots of bugs fixes. Nothing new, just be more stability.
+    * Some long standing bugs with `systemd` integration and DBus session activation have been fixed.
   * The **Ubuntu MATE themes have been improved** via the release of `ubuntu-mate-artwork` 17.10.10
     * Several improvements Plymouth splash screens, both text and graphical varieties.
     * Add missing panel-grid to Radiant-MATE.
@@ -300,17 +327,10 @@ available in the Debian or Ubuntu archives.
     * Fix border color of scrollbars.
     * Remove obsolete chrom{e|ium} styling.
     * Remove unwanted backdrop states.
-  * Many of the Ubuntu MATE defaults have been changed or updated
-    * **Replaced `lightdm-gtk-greeter` with `slick-greeter`.**
-    * Added keybindings for <kbd>Shift</kbd> + <kbd>Print Screen</kbd> to grab a screen area when taking a screenshot.
-    * **Added defaults for Chromium**, which will show the [Ubuntu MATE Start](https://start.ubuntu-mate.org) page, *should you install it*.
-    * Added sane defaults and tookit integration for `smplayer`, *should you install it*.
-  * **New Ubiquity Slide Show**
-    * Completely redesigned to introduce users to more of the features unique to Ubuntu MATE.
-    * **Added Ubuntu MATE logo to Ubiquity**.
-  * Migrated `gdebi` to PolicyKit - *Thanks Simon Quigley*
   * Experimental HiDPI support is a little less experimental.
   * ...and a whole lot of other little improvements and fixes.
+
+The above in addition to the [general changes that Ubuntu 17.10 introduced](https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes).
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -320,6 +340,18 @@ available in the Debian or Ubuntu archives.
         </p>
     </div>
 </div>
+
+## Upgrading from 17.04
+
+To upgrade on a desktop system:
+
+  * Open *Software & Updates* from the Control Centre
+  * Select the 3rd Tab called *Updates*.
+  * Set the *Notify me of a new Ubuntu version* dropdown menu to *For any new version*.
+  * Press <kbd>Alt</kbd> + <kbd>F2</kbd> and type in `update-manager -c` into the command box.
+  * Update Manager should open up and tell you: New distribution release '17.10' is available.
+  * If not you can also use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
+  * Click *Upgrade* and follow the on-screen instructions.
 
 ## Known Issues
 
