@@ -117,7 +117,7 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
   <div class="col-xs-6">
     <!-- Jared Slone -->
     <div class="well bs-component">
-    <a href="http://www.revouchers.uk/"><img class="centered" src="/images/sponsors/revouchers.png" alt="revouchers" /></a>
+    <a href="http://www.voucherist.co.uk/"><img class="centered" src="/images/sponsors/voucherist.png" alt="voucherist" /></a>
     </div>
   </div>
 </div>
