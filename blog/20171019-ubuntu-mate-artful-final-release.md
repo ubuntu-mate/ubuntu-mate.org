@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 17.10
 .. slug: ubuntu-mate-artful-final-release
-.. date: 2017-10-19 14:00:00 BST
+.. date: 2017-10-19 13:15:00 BST
 .. tags: Ubuntu,MATE,Artful,final,17.10
 .. link:
 .. description: Ubuntu MATE 17.10 (Artful Aardvark) Final Release
