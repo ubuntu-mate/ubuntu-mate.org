@@ -70,7 +70,7 @@
         "release-notes": "/blog/ubuntu-mate-artful-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/",
-        "pre-release": true,
+        "pre-release": false,
         "amd64": {
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso.torrent",
