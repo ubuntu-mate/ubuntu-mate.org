@@ -64,25 +64,25 @@
         }
     },
     "artful": {
-        "name": "17.10 (Artful) Beta 2",
-        "description": "For early testers of the next release.",
-        "support": "Pre-release",
-        "release-notes": "/blog/ubuntu-mate-artful-beta2/",
+        "name": "17.10 (Artful)",
+        "description": "Interim release for users desiring the latest features and applications.",
+        "support": "Supported until July 2018",
+        "release-notes": "/blog/ubuntu-mate-artful-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-2/",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/",
         "pre-release": true,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-2/ubuntu-mate-17.10-beta2-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-2/ubuntu-mate-17.10-beta2-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:3657370af8ed3ad6c14443029037b9ef2db03cba&dn=ubuntu-mate-17.10-beta2-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "de47965d526fa6b7574abba08a90dbe828ca61e17ef32393510d678f3880317b",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:03c8fbb63e668d0d9d9ecbb5c1fca8b9edc4e942&dn=ubuntu-mate-17.10-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "87c7eb25cea5a7ca976b3ad7896d2868e080f4ad109cce4ddf18ab590400be69",
             "download-size": "1.7 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-2/ubuntu-mate-17.10-beta2-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/beta-2/ubuntu-mate-17.10-beta2-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:d07f3326f95221c7b66cb66a532c1439f3611b9d&dn=ubuntu-mate-17.10-beta2-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "21a0a00d121c2178bfb1569abbad46836d656e7b5385a0cc8b6ed51155a56bbf",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:7ae2982af4902d34e47113d56ebb3b066903d2c3&dn=ubuntu-mate-17.10-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "209553ca1a73f67bb309f84fadd5bc4e445ebc1cdf7a75b8448e6106fb85a8cf",
             "download-size": "1.7 GB"
         }
     }
