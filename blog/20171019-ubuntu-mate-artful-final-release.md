@@ -276,7 +276,7 @@ available in the Debian or Ubuntu archives.
 
 Here's the full run down of what changed since Ubuntu MATE 17.04:
 
-  * Ubuntu MATE now features a Global Menu implementation provided ia [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and most of the UBuntu idicators are now available with MATE compatibility.
+  * Ubuntu MATE now features a Global Menu implementation provided via [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and most of the Ubuntu indicators are now available with MATE compatibility.
   * Upgraded to **MATE HUD** 17.10.9-0ubuntu1 which fixes broken event replay due to synchronous key grab.
   * Upgraded to **MATE Optimus** 17.10.1-1ubuntu0 which now features nvidia hardware detection, including external Thunderbolt connected devices.
   * Upgraded to **Brisk Menu** 0.4.5 has improved Super key support and numerous fixes, plus a few settings that MATE Tweak can manipulate to augment how Brisk is presented in different layouts.
@@ -300,9 +300,6 @@ Here's the full run down of what changed since Ubuntu MATE 17.04:
     * Added keybindings for <kbd>Shift</kbd> + <kbd>Print Screen</kbd> to grab a screen area when taking a screenshot.
     * **Added defaults for Chromium**, which will show the [Ubuntu MATE Start](https://start.ubuntu-mate.org) page, *should you install it*.
     * Added sane defaults and tookit integration for `smplayer`, *should you install it*.
-  * **New Ubiquity Slide Show**
-    * Completely redesigned to introduce users to more of the features unique to Ubuntu MATE.
-    * **Added Ubuntu MATE logo to Ubiquity**.
   * MATE Desktop 1.18 has seen many updates, with lots of bugs fixes. Nothing new, just be more stability.
     * Some long standing bugs with `systemd` integration and DBus session activation have been fixed.
   * The **Ubuntu MATE themes have been improved** via the release of `ubuntu-mate-artwork` 17.10.10
