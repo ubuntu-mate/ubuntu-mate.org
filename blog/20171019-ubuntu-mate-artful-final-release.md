@@ -15,7 +15,7 @@ After six months of tireless work we present Ubuntu MATE 17.10, by far
 the best release we've ever produced. I'd like to extended my sincere
 thanks to everyone who has contributed to this fine release. The
 development theme for Ubuntu MATE 17.10 has been delivering several
-different desktop layouts each providing a distictive workflow.
+different desktop layouts each providing a distinctive workflow.
 **Checkout MATE Tweak to access to these layouts and join the Mutiny!**
 
   * **Shipping snaps by default** - *Check!*
@@ -31,7 +31,7 @@ different desktop layouts each providing a distictive workflow.
 and skip over our most glorious release notes.*
 
 <div align="center">
-<img src="/gallery/blog/1710-final-medium.png" alt="Ubuntu MATE 17.10 Final" /><br />
+<img src="/gallery/blog/1710-final-Medium.png" alt="Ubuntu MATE 17.10 Final" /><br />
 </div>
 
 # What changed since the Ubuntu MATE 17.04 final release?
