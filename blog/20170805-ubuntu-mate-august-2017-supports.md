@@ -53,9 +53,6 @@ projects, that Ubuntu MATE directly benefits from.
 
 This month Ubuntu MATE has paid several Open Source developers to work
 on Ubuntu MATE or MATE Desktop projects.
-€1400
-$1668.8
-
 
   * [Mike Gabriel](http://sunweavers.net/blog/) - **&euro;250** - For packaging Caja Rename for Debian and Ubuntu.
   * [Wolfgang Ulbrich](https://github.com/raveit65) - **&euro;200** - For developing and bug fixing MATE Desktop.
