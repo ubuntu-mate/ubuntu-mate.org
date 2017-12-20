@@ -118,6 +118,10 @@
         <small>for a <span class="arch-choice"></span> system</small>
     </h2>
 
+    <div class="alert alert-danger">
+        <span class="fa fa-warning"></span> There is <a href="https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1734147">a serious issue in Ubuntu 17.10</a> (and its flavours like Ubuntu MATE) that affect certain Lenovo laptops.<br/>If you have a Lenovo laptop, it is strongly advised to choose <strong>16.04.3 LTS</strong>.
+    </div>
+
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <button class="download-option release-option" id="xenial" onclick="setRelease('xenial')">
