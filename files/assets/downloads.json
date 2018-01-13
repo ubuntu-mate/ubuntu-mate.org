@@ -49,16 +49,16 @@
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/",
         "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:03c8fbb63e668d0d9d9ecbb5c1fca8b9edc4e942&dn=ubuntu-mate-17.10-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10.1-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10.1-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:2e16429aa7829ef392eb46a633291ef7c92e6b60&dn=ubuntu-mate-17.10.1-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "be00c8b467b02bee06af967e6204d84e0540fe7d929bf4ede10183c7f3c5872b",
             "download-size": "1.7 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:7ae2982af4902d34e47113d56ebb3b066903d2c3&dn=ubuntu-mate-17.10-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10.1-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10.1-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:f1e99e1c07096f895e07d1dcdd196b4772946ebb&dn=ubuntu-mate-17.10.1-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "7df624952a1a52d19b241093121ea91836e292eba24d03efb974c79050f774f4",
             "download-size": "1.7 GB"
         }

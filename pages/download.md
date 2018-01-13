@@ -131,8 +131,6 @@
                 </div>
             </button>
         </div>
-    </div>
-    <div class="row">
         <div class="col-xs-12 col-md-6">
             <button class="download-option release-option" id="artful" onclick="setRelease('artful')">
                 <div class="icon">
