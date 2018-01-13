@@ -40,49 +40,26 @@
             "alt-description": "Bring the traditional desktop experience to your Raspberry Pi!"
         }
     },
-    "zesty": {
-        "name": "17.04 (Zesty)",
-        "description": "Interim release for users desiring the latest features and applications.",
-        "support": "Supported until January 2018",
-        "release-notes": "/blog/ubuntu-mate-zesty-final-release/",
-        "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
-        "other-downloads": "https://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/",
-        "pre-release": false,
-        "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:17e03ce12145d3cd308a203c53731f9845929239&dn=ubuntu-mate-17.04-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "acfcf1ab54946c67e99e0503c23385e697046fae45e393661d501100844d9a5d",
-            "download-size": "1.7 GB"
-        },
-        "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.04/release/ubuntu-mate-17.04-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:c822889553580c896f73da3fdc48610af48e50dc&dn=ubuntu-mate-17.04-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "8415711f8085f2c25341261e9503355be53a6871f8ffc96ada62884b1ee4d00b",
-            "download-size": "1.7 GB"
-        }
-    },
     "artful": {
-        "name": "17.10 (Artful)",
+        "name": "17.10.1 (Artful)",
         "description": "Interim release for users desiring the latest features and applications.",
         "support": "Supported until July 2018",
         "release-notes": "/blog/ubuntu-mate-artful-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/",
         "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-amd64.iso.torrent",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/ubuntu-mate-17.10-desktop-amd64.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:03c8fbb63e668d0d9d9ecbb5c1fca8b9edc4e942&dn=ubuntu-mate-17.10-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "87c7eb25cea5a7ca976b3ad7896d2868e080f4ad109cce4ddf18ab590400be69",
+            "sha256sum": "be00c8b467b02bee06af967e6204d84e0540fe7d929bf4ede10183c7f3c5872b",
             "download-size": "1.7 GB"
         },
         "i386": {
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10/release/ubuntu-mate-17.10-desktop-i386.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:7ae2982af4902d34e47113d56ebb3b066903d2c3&dn=ubuntu-mate-17.10-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "209553ca1a73f67bb309f84fadd5bc4e445ebc1cdf7a75b8448e6106fb85a8cf",
+            "sha256sum": "7df624952a1a52d19b241093121ea91836e292eba24d03efb974c79050f774f4",
             "download-size": "1.7 GB"
         }
     }
