@@ -86,7 +86,7 @@ Here are a few screenshots to give you a feel for how things look.
 
 <!-- Outer wrapper for presentation only, this can be anything you like -->
 <div align="center">
-<div id="banner-fade">
+<div id="banner-fade-20170928">
   <!-- start Basic Jquery Slider -->
   <ul class="bjqs">
     <li><a class="image-reference" href="/gallery/layouts/00_mutiny.png"><img src="/gallery/layouts/00_mutiny.png" title="Mutiny Panel Layout"></a></li>
@@ -105,7 +105,7 @@ Here are a few screenshots to give you a feel for how things look.
 <script src="/assets/js/bjqs-1.3.min.js"></script>
 <script>
     jQuery(document).ready(function($) {
-    $('#banner-fade').bjqs({
+    $('#banner-fade-20170928').bjqs({
         width : 960,
         height : 540,
         responsive : true,
