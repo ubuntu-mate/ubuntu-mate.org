@@ -145,6 +145,20 @@
         </div>
     </div>
     <div class="row">
+        <div class="col-xs-12 col-md-6" hidden>
+            <button class="download-option release-option" id="bionic" onclick="setRelease('bionic')">
+                <div class="icon">
+                    <img src="/assets/img/downloads/releases/bionic.png" />
+                </div>
+                <div class="details">
+                    <h3 class="name"></h3>
+                    <p class="description"></p>
+                    <div class="support"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+    <div class="row">
         <h4><button class="btn btn-link" onclick="goBackToArch()">Choose a different architecture</button></h4>
     </div>
 </div>

@@ -62,5 +62,28 @@
             "sha256sum": "7df624952a1a52d19b241093121ea91836e292eba24d03efb974c79050f774f4",
             "download-size": "1.7 GB"
         }
+    },
+    "bionic": {
+        "name": "18.04 (Bionic) Alpha 2",
+        "description": "Development release of an upcoming version.",
+        "support": "Still in development",
+        "release-notes": "/blog/ubuntu-mate-artful-final-release/",
+        "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
+        "other-downloads": "",
+        "pre-release": true,
+        "amd64": {
+            "direct": "",
+            "torrent": "",
+            "magnet-uri": "",
+            "sha256sum": "",
+            "download-size": "--- GB"
+        },
+        "i386": {
+            "direct": "",
+            "torrent": "",
+            "magnet-uri": "",
+            "sha256sum": "",
+            "download-size": "--- GB"
+        }
     }
 }
