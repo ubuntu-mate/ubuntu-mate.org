@@ -1,29 +1,29 @@
 {
     "xenial": {
-        "name": "16.04.3 LTS (Xenial)",
+        "name": "16.04.4 LTS (Xenial)",
         "description": "Recommended for stability and mission critical systems.",
         "support": "Supported until April 2019",
         "release-notes": "/blog/ubuntu-mate-xenial-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/",
         "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:fa5a86377cc38d2bd75339ebe5c0ebc5f593cb90&dn=ubuntu-mate-16.04.3-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "1eaec1c3376b94b7cc4ba8d0c41e447bd6dec6695cdc66621aba0eb22034d75a",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "ec19ba1280e5a05b78a863f3844864a8b0a3b4336028bcfbf143ad4fda44f2c3",
             "download-size": "1.73 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:deca97f1846e023ca6292f3cce0370b6094d9fad&dn=ubuntu-mate-16.04.3-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "ea4b042fcef36fe9ceeaab7165bfb273c9f9b3c44b5cab21e1fe3fc41891afea",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.4-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "549bdf46fb959f0374e5e3de6b85b350226d930f50decba7c4aad64804a8e750",
             "download-size": "1.74 GB"
         },
         "powerpc": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.1-desktop-powerpc.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.2/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.1-desktop-powerpc.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.4/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d",
             "download-size": "1.7 GB",
