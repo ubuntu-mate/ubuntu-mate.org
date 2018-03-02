@@ -69,10 +69,10 @@ The download page is dynamic client-side, but is statically generated using thes
   * The LESS and CSS configuration is stored in `/themes/United/less/download.less`
   * The Javascript logic is in `files/assets/js/downloads.js`
 
-When the torrents are published as part of the iso release run `generate-magnet-urls.sh`
+When the torrents are published as part of the iso release run `generate-magnet-uris.sh`
 for each release architecture, for instance:
 
-    ./scripts/helpers/generate-magnet-urls.sh http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent
+    ./scripts/helpers/generate-magnet-uris.sh http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent
 
 Copy and paste the output to `files/assets/downloads.json` under the respective `magnet-uri` key.
 
