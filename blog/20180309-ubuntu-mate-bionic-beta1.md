@@ -15,7 +15,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 <div align="center">
-<img src="/gallery/bionic/1804-beta1.png" alt="Ubuntu MATE 18.04 Beta 1" /><br />
+<img src="/gallery/blog/1804-beta1.png" alt="Ubuntu MATE 18.04 Beta 1" /><br />
 </div>
 
 ## What works?
@@ -55,13 +55,25 @@ You can [read the release announcement](http://mate-desktop.org/blog/2018-02-07-
 
 ### Global Menu and MATE HUD
 
+<div align="center">
+<img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
+</div>
+
 The Global Menu integration is much improved. When the Global Menu is added to a panel the **application menus are automatically removed from the application window** and only presented globally, no additional configuration (as was the case) is required. Likewise removing the Global Menu from a panel will restore menus to their application windows.
+
+<div align="center">
+<img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
+</div>
 
 The HUD now has a 250ms (default) timeout, holding `Alt` any longer won't trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've fixed a number of issues reported by users of Ubuntu MATE 17.10 regarding the HUD swallowing key presses. The HUD is also HiDPI aware now.
 
 ### Indicators by default
 
 Ubuntu MATE 18.04 uses Indicators by default in all layouts. These will be familiar to anyone who has used Unity 7 and offer better accessibility support and ease of use over notification area applets. The volume in Indicator Sound can now be over driven, so it is consistent with the MATE sound preferences. Notification area applets are still supported as a fallback.
+
+<div align="center">
+<img src="/gallery/layouts/indicators-small.png" alt="Ubuntu MATE HUD" /><br />
+</div>
 
 ### MATE Dock Applet
 
@@ -71,6 +83,10 @@ Ubuntu MATE 18.04 uses Indicators by default in all layouts. These will be famil
   * Icon scrolling is useful when the dock has limited space on its panel and will prevent it from expanding over other applets. This addresses an issue reported by several users in Ubuntu MATE 17.10.
 
 ### Brisk Menu
+
+<div align="center">
+<img src="/gallery/bionic/brisk-menu-dash.png" alt="Brisk Menu Dash Launcher" /><br />
+</div>
 
 Many users commented that when using the Mutiny layout the *"traditional"* menu felt out of place. The [Solus Project](https://solus-project.com/), the maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have add a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched version of Brisk Menu that includes this new dash launcher. When MATE Tweak is used to enable the Mutiny or Cupertino layout, it now switches on the dash launcher which enables a full screen, searchable, application launcher. Similarly, switching to the other panel layouts restores the more traditional Brisk Menu.
 
@@ -82,28 +98,34 @@ The Mutiny layout now integrates the [mate-window-applets](https://github.com/ub
 
 ### Minimal Installation
 
-If you follow the Ubuntu news closely you may have heard that 18.04 is getting a Minimal Install option. Ubuntu MATE was at the front of the queue to take advantage of this new feature.
+If you follow the Ubuntu news closely you may have heard that 18.04 now has a Minimal Install option. Ubuntu MATE was at the front of the queue to take advantage of this new feature.
 
-The Minimal Install is a new option presented in the installer that will install just the MATE Desktop, its utilities, its themes and a web browser. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. If you're interested, here is [the complete list of software that will not be present on a minimal install of Ubuntu MATE.](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
+<div align="center">
+<img src="/gallery/bionic/minimal-install.png" alt="Brisk Menu Dash Launcher" /><br />
+</div>
 
-So, who's this aimed at? There are users who like to uninstall the software they do not need or want and build out their own desktop experience. So for those users, a minimal install is a great platform to build on. For those of you interested in creating "kiosk" style devices, such as home brew Steam machines or Kodi boxes, then a minimal install is another useful starting point. I'll be interested to hear how people make use of this feature. :slight_smile: 
+The Minimal Install is a new option presented in the installer that will install just the MATE Desktop, its utilities, its themes and Firefox. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. If you're interested, here is [the complete list of software that will not be present on a minimal install of Ubuntu MATE 18.04](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
+
+So, who's this aimed at? There are users who like to uninstall the software they do not need or want and build out their own desktop experience. So for those users, a minimal install is a great platform to build on. For those of you interested in creating "kiosk" style devices, such as home brew Steam machines or Kodi boxes, then a minimal install is another useful starting point.
 
 ### MATE Tweak
 
-We've removed the *Interface* section from MATE Tweak. Sadly all the features the Interface section tweaked have been dropped from GTK3 so are now redundant. MATE Tweak can now toggle the HiDPI mode between auto detection, regular and forced scaling. HiDPI mode changes are dynamically applied. MATE Tweak has a deeper understanding of Brisk Menu and Global Menu capabilities and manages them transparently while switching layouts. Switching layouts is far more reliable now too.
+MATE Tweak can now toggle the HiDPI mode between auto detection, regular scaling and forced scaling. HiDPI mode changes are dynamically applied. MATE Tweak has a deeper understanding of Brisk Menu and Global Menu capabilities and manages them transparently while switching layouts. Switching layouts is far more reliable now too. We've removed the *Interface* section from MATE Tweak. Sadly all the features the Interface section tweaked have been dropped from GTK3 so are now redundant. 
 
 ### Caja
 
 We've landed [caja-eiciel](https://github.com/darkshram/mate-eiciel) and [caja-seahorse](https://github.com/darkshram/seahorse-caja).
 
-  * caja-eiciel - An extension for Caja to edit access control lists (ACLs) and extended attributes (xattr)
-  * caja-seahorse - An extension for Caja which allows encryption and decryption of OpenPGP files using GnuPG
+  * **caja-eiciel** - An extension for Caja to edit access control lists (ACLs) and extended attributes (xattr)
+  * **caja-seahorse** - An extension for Caja which allows encryption and decryption of OpenPGP files using GnuPG
 
 ### Artwork, Fonts & Emoji
 
-We are no longer shipping `mate-backgrounds` by default. They have served us well, but are looking a little stale now. We have created a new selection of high quality wallpapers comprised of some abstract designs and high resolution photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot logo) is now HiDPI aware. Our friends at [Ubuntu Budgie](https://ubuntubudgie.org/) have uploaded a new version of Slick Greeter which now fades in smoothly, rather than the stuttering we saw in Ubuntu MATE 17.10.
+<div align="center">
+<img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
+</div>
 
-We've switched to Noto Sans for users of Japanese, Chinese and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've added a colour emoji font.
+We are no longer shipping `mate-backgrounds` by default. They have served us well, but are looking a little stale now. We have created a new selection of high quality wallpapers comprised of some abstract designs and high resolution photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot logo) is now HiDPI aware. Our friends at [Ubuntu Budgie](https://ubuntubudgie.org/) have uploaded a new version of Slick Greeter which now fades in smoothly, rather than the stuttering we saw in Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've added a colour emoji font too.
 
 ### Raspberry Pi images
 
@@ -111,7 +133,7 @@ We're am planning on releasing **Ubuntu MATE images for the Raspberry Pi around 
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Download Ubuntu MATE 18.04</h1>
+        <h1>Download Ubuntu MATE 18.04 Beta 1</h1>
         <p>We've even redesigned the download page so it's even easier to get started.</p>
         <a href="/download/" class="btn btn-primary btn-lg">Download</a>
         </p>
@@ -129,7 +151,7 @@ Here are the known issues.
 
 ### Ubuntu family issues
 
-This is our known list of bugs that affect all flavours.
+This is our known list of bugs that affects all flavours.
 
   * [The Ubiquity installer may auto select US keyboard layout](https://pad.lv/1706859)
     * To work around this manually, select the correct regional keyboard layout for your computer.
