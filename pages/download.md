@@ -145,7 +145,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-md-6" hidden>
+        <div class="col-xs-12 col-md-6">
             <button class="download-option release-option" id="bionic" onclick="setRelease('bionic')">
                 <div class="icon">
                     <img src="/assets/img/downloads/releases/bionic.png" />
