@@ -45,7 +45,7 @@
         "description": "Interim release for users desiring the latest features and applications.",
         "support": "Supported until July 2018",
         "release-notes": "/blog/ubuntu-mate-artful-final-release/",
-        "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
+        "background-url": "/assets/img/downloads/backgrounds/artful.jpg",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/17.10.1/release/",
         "pre-release": false,
         "amd64": {
@@ -64,26 +64,26 @@
         }
     },
     "bionic": {
-        "name": "18.04 (Bionic) Alpha 2",
+        "name": "18.04 LTS (Bionic) Beta 1",
         "description": "Development release of an upcoming version.",
         "support": "Still in development",
-        "release-notes": "/blog/ubuntu-mate-artful-final-release/",
-        "background-url": "/assets/img/downloads/backgrounds/zesty.jpg",
+        "release-notes": "/blog/ubuntu-mate-bionic-beta1/",
+        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
         "other-downloads": "",
         "pre-release": true,
         "amd64": {
-            "direct": "",
-            "torrent": "",
-            "magnet-uri": "",
-            "sha256sum": "",
-            "download-size": "--- GB"
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:c0910467e20aa72339b391985cd0acff9cc732b9&dn=ubuntu-mate-18.04-beta1-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "3ad5c4d10bf85b3d4d6b3c5d0b8bca137c189492c3bc5907d170775c31e47d2f",
+            "download-size": "1.8 GB"
         },
         "i386": {
-            "direct": "",
-            "torrent": "",
-            "magnet-uri": "",
-            "sha256sum": "",
-            "download-size": "--- GB"
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:6d3bceae7ec6e75f065f4a6ea82a3dff878a4aa1&dn=ubuntu-mate-18.04-beta1-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "4f3174f8049806c3993c3560c8e24efd2d6f76b2146c80777d86378b3a393b8d",
+            "download-size": "1.8 GB"
         }
     }
 }

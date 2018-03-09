@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 18.04 Beta 1
 .. slug: ubuntu-mate-bionic-beta1
-.. date: 2018-03-09 20:00:00 UTC
-.. tags: Ubuntu,MATE,Bionic,beta1,draft
+.. date: 2018-03-09 19:00:00 UTC
+.. tags: Ubuntu,MATE,Bionic,beta1
 .. link:
 .. description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 1
 .. type: text
