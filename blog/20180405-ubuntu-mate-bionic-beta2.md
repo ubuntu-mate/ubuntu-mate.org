@@ -256,6 +256,9 @@ Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese
 and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've 
 added a colour emoji font too.
 
+**New since 18.04 beta 1 the xcursor themes have been replaced** with new 
+cursours from MATE upstream, that also offer HiDPI support.
+
 ### Raspberry Pi images
 
 We're planning on releasing **Ubuntu MATE images for the Raspberry Pi around 
