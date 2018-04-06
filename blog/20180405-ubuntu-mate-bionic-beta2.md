@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 18.04 Beta 2
 .. slug: ubuntu-mate-bionic-beta2
-.. date: 2018-04-06 09:00:00 BST
+.. date: 2018-04-06 08:15:00 BST
 .. tags: Ubuntu,MATE,Bionic,beta2
 .. link:
 .. description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 2
