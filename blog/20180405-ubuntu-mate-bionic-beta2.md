@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 18.04 Beta 2
 .. slug: ubuntu-mate-bionic-beta2
-.. date: 2018-04-05 19:00:00 BST
-.. tags: Ubuntu,MATE,Bionic,beta2,draft
+.. date: 2018-04-06 09:00:00 BST
+.. tags: Ubuntu,MATE,Bionic,beta2
 .. link:
 .. description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 2
 .. type: text
@@ -12,10 +12,10 @@
 **Yeah baby! You know you want some of what we've got. Come and have a fling 
 with Ubuntu MATE 18.04 Beta 2.**
 
-We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for distribution on [April 
-26th, 2018](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule) With this 
-*Beta* pre-release, you can see what we are trying out in preparation for our 
-next (stable) version.
+We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for distribution on
+[April 26th, 2018](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule) With
+this *Beta* pre-release, you can see what we are trying out in preparation for
+our next (stable) version.
 
 <div align="center">
 <img src="/gallery/blog/1804-beta2.png" alt="Ubuntu MATE 18.04 Beta 2" /><br />
@@ -290,6 +290,10 @@ Here are the known issues.
 
 This is our known list of bugs that affects all flavours.
 
+  * [Booting a live session is slow](https://pad.lv/1749546)
+    * This will be fixed for final release.
+  * [Post install I/O error after clicking "reboot now"](https://pad.lv/1760598)
+    * To work around this reboot the computer. This bug is fixed, although not in the Beta 2 image, so the final release won't be affected.
   * [Ubiquity is uninstalling chosen locale language packs](https://pad.lv/1713702)
     * After a successful installation, your computer may not have all the appropriate language packs installed.
     * To work around this issue, open **Language Support** in the Control Centre and follow the prompts to automatically install the required language packs.

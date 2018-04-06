@@ -64,26 +64,26 @@
         }
     },
     "bionic": {
-        "name": "18.04 LTS (Bionic) Beta 1",
+        "name": "18.04 LTS (Bionic) Beta 2",
         "description": "Development release of an upcoming version.",
         "support": "Still in development",
-        "release-notes": "/blog/ubuntu-mate-bionic-beta1/",
+        "release-notes": "/blog/ubuntu-mate-bionic-beta2/",
         "background-url": "/assets/img/downloads/backgrounds/bionic.png",
         "other-downloads": "",
         "pre-release": true,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:c0910467e20aa72339b391985cd0acff9cc732b9&dn=ubuntu-mate-18.04-beta1-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "3ad5c4d10bf85b3d4d6b3c5d0b8bca137c189492c3bc5907d170775c31e47d2f",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-2/ubuntu-mate-18.04-beta2-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-2/ubuntu-mate-18.04-beta2-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:7ee9661349ccbdb71185434071033ac93a5946a2&dn=ubuntu-mate-18.04-beta2-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "7f1ce0c462df9b729b541996bd2e4087be4fe3766e06799949bcb1e2c546b682",
             "download-size": "1.8 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-1/ubuntu-mate-18.04-beta1-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:6d3bceae7ec6e75f065f4a6ea82a3dff878a4aa1&dn=ubuntu-mate-18.04-beta1-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "4f3174f8049806c3993c3560c8e24efd2d6f76b2146c80777d86378b3a393b8d",
-            "download-size": "1.8 GB"
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-2/ubuntu-mate-18.04-beta2-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/beta-2/ubuntu-mate-18.04-beta2-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:aefecd03cbc0e5a574ae68f8ecc4466675d49316&dn=ubuntu-mate-18.04-beta2-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "706de82e0b78a803d76505773ccf5aa69eaf2abf315f1770cea626f09644c010",
+            "download-size": "1.9 GB"
         }
     }
 }
