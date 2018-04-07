@@ -132,7 +132,7 @@ trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've
 fixed a number of issues reported by users of Ubuntu MATE 17.10 regarding the 
 HUD swallowing key presses. The HUD is also HiDPI aware now.
 
-### Ubuntu MATE Welcome - *new since 18..04 beta 1*
+### Ubuntu MATE Welcome - *new since 18.04 beta 1*
 
 Welcome and Boutique have been given some love.
 
@@ -257,7 +257,7 @@ and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
 added a colour emoji font too.
 
 **New since 18.04 beta 1 the xcursor themes have been replaced** with new 
-cursours from MATE upstream, that also offer HiDPI support.
+cursors from MATE upstream, that also offer HiDPI support.
 
 ### Raspberry Pi images
 
