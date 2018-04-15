@@ -333,6 +333,43 @@
         </div>
     </div>
     <hr/>
+    <div class="row">
+        <div class="col-xs-3">
+            <div class="text-center">
+                <img src="/assets/img/downloads/books.png" alt="Books"/>
+            </div>
+        </div>
+        <div class="col-xs-9">
+            <h3>Acquire a guide by your side</h3>
+            <p style="margin-bottom:20px">
+                <span class="fa fa-check"></span> Available in both paperback and ebook format.
+            </p>
+
+            <h4><strong>Ubuntu MATE: Upgrading from Windows or OSX</strong></h4>
+            <p>This book is a detailed discussion of Ubuntu MATE and its major applications.
+            Written for users switching from other operating systems, it’s not ONLY for users
+            switching from other systems. It’s also a reference for everyone using Ubuntu MATE.</p>
+
+            <a class="btn btn-primary" href="http://www.amazon.com/dp/ASIN/B074JGLB4H">
+                <span class="fa fa-shopping-cart"></span> Buy on Amazon
+            </a>
+            <a class="btn btn-default" href="https://www.smashwords.com/books/view/731432">
+                <span class="fa fa-shopping-cart"></span> Buy on Smashwords
+            </a>
+
+            <h4><strong>Using Ubuntu MATE and Its Applications</strong></h4>
+            <p>This book is written for computer users who want a reference detailed enough
+            to help them to learn about Ubuntu MATE and its applications and to build their
+            confidence and competence in using them to get things done.</p>
+            <a class="btn btn-primary" href="http://www.amazon.com/dp/ASIN/B0767D9WZT">
+                <span class="fa fa-shopping-cart"></span> Buy on Amazon
+            </a>
+            <a class="btn btn-default" href="https://www.smashwords.com/books/view/752029">
+                <span class="fa fa-shopping-cart"></span> Buy on Smashwords
+            </a>
+        </div>
+    </div>
+    <hr/>
     <div id="sponsor1" class="row">
         <div class="col-xs-3">
             <div class="text-center">
