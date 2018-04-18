@@ -418,8 +418,8 @@
 
             // create the elements for the controls
             $c_wrapper  = $('<ul class="bjqs-controls"></ul>');
-            $c_fwd      = $('<li class="bjqs-next"><a href="#" data-direction="'+ vars.fwd +'">' + settings.nexttext + '</a></li>');
-            $c_prev     = $('<li class="bjqs-prev"><a href="#" data-direction="'+ vars.prev +'">' + settings.prevtext + '</a></li>');
+            $c_fwd      = $('<li class="bjqs-next"><a href="#" data-direction="'+ vars.fwd +'"><span class="fa fa-chevron-right"></span></a></li>');
+            $c_prev     = $('<li class="bjqs-prev"><a href="#" data-direction="'+ vars.prev +'"><span class="fa fa-chevron-left"></span></a></li>');
 
             // bind click events
             $c_wrapper.on('click','a',function(e){
