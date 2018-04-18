@@ -797,7 +797,7 @@ LICENSE = """
 """
 
 SOCIAL_ICONS="""
-<a target="_blank" rel="noreferrer" title="Blog RSS Feed" href="https://ubuntu-mate.community/rss"><img src="/assets/img/footer/rss.svg" alt="Blog RSS Feed"></a>
+<a target="_blank" rel="noreferrer" title="Blog RSS Feed" href="/rss.xml"><img src="/assets/img/footer/rss.svg" alt="Blog RSS Feed"></a>
 <a target="_blank" rel="noreferrer" title="Google+" href="https://ubuntu-mate.community/googleplus"><img src="/assets/img/footer/google+.svg" alt="Ubuntu MATE on Google+"></a>
 <a target="_blank" rel="noreferrer" title="Twitter" href="https://ubuntu-mate.community/twitter"><img src="/assets/img/footer/twitter.svg" alt="Ubuntu MATE on Twitter"></a>
 <a target="_blank" rel="noreferrer" title="Facebook" href="https://ubuntu-mate.community/facebook"><img src="/assets/img/footer/facebook.svg" alt="Ubuntu MATE on Facebook"></a>
