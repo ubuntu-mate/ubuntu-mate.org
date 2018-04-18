@@ -801,6 +801,7 @@ SOCIAL_ICONS="""
 <a target="_blank" rel="noreferrer" title="Google+" href="https://ubuntu-mate.community/googleplus"><img src="/assets/img/footer/google+.svg" alt="Ubuntu MATE on Google+"></a>
 <a target="_blank" rel="noreferrer" title="Twitter" href="https://ubuntu-mate.community/twitter"><img src="/assets/img/footer/twitter.svg" alt="Ubuntu MATE on Twitter"></a>
 <a target="_blank" rel="noreferrer" title="Facebook" href="https://ubuntu-mate.community/facebook"><img src="/assets/img/footer/facebook.svg" alt="Ubuntu MATE on Facebook"></a>
+<a target="_blank" rel="noreferrer" title="YouTube" href="https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ/"><img src="/assets/img/footer/youtube.svg" alt="Ubuntu MATE on YouTube"></a>
 """
 
 FOOTER_LINKS="""
