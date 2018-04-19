@@ -30,20 +30,22 @@
 
 # Screenshots
 
-Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
+Here are some screenshots of the desktop layouts included in Ubuntu MATE
+to give you a feel for how you can configure your desktop experience.
 
 <!-- Outer wrapper for presentation only, this can be anything you like -->
 <div align="center">
 <div id="banner-fade">
   <!-- start Basic Jquery Slider -->
   <ul class="bjqs">
-    <li><a class="image-reference" href="/gallery/Screenshots/00_SYSLINUX.png"><img src="/gallery/Screenshots/00_SYSLINUX.png" title="Ubuntu MATE SYSLINUX Theme"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/01_GRUB.png"><img src="/gallery/Screenshots/01_GRUB.png" title="Ubuntu MATE GRUB Theme"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/02_PLYMOUTH.png"><img src="/gallery/Screenshots/02_PLYMOUTH.png" title="Ubuntu MATE Plymouth Theme"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/03_LIGHTDM.png"><img src="/gallery/Screenshots/03_LIGHTDM.png" title="Ubuntu MATE Login Manager"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/04_DESKTOP.png"><img src="/gallery/Screenshots/04_DESKTOP.png" title="Ubuntu MATE Default Desktop"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/05_ABOUT.png"><img src="/gallery/Screenshots/05_ABOUT.png" title="About MATE"></a></li>
-    <li><a class="image-reference" href="/gallery/Screenshots/08_VIDEOS.png"><img src="/gallery/Screenshots/08_VIDEOS.png" title="Ubuntu MATE Video Player"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/01_familiar.png"><img src="/gallery/Screenshots/01_familiar.png" title="Familiar - the default experience, a familiar two panel layout with a searchable menu"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/02_contemporary.png"><img src="/gallery/Screenshots/02_contemporary.png" title="Contemporary - modernised two panel layout featuring a searchable menu with global menus"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/03_cupertino.png"><img src="/gallery/Screenshots/03_cupertino.png" title="Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/04_mutiny.png"><img src="/gallery/Screenshots/04_mutiny.png" title="Mutiny - application dock, searchable launcher and global menus similar to Unity 7"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/05_netbook.png"><img src="/gallery/Screenshots/05_netbook.png" title="Netbook - a compact, single top panel layout, ideal for small screens"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/06_pantheon.png"><img src="/gallery/Screenshots/06_pantheon.png" title="Pantheon - a dock and top panel with a searchable menu"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/07_redmond.png"><img src="/gallery/Screenshots/07_redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
+    <li><a class="image-reference" href="/gallery/Screenshots/08_traditional.png"><img src="/gallery/Screenshots/08_traditional.png" title="Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu"></a></li>
   </ul>
   <!-- end Basic jQuery Slider -->
 </div>
@@ -54,7 +56,7 @@ Here are a few screenshots of Ubuntu MATE to give you a feel for how it looks.
 <script>
     jQuery(document).ready(function($) {
     $('#banner-fade').bjqs({
-        width : 720,
+        width : 852,
         height : 480,
         responsive : true,
         usecaptions : false
