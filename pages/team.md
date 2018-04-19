@@ -24,15 +24,15 @@ The loons who thought Ubuntu MATE would be a good idea.
 MATE Desktop developers and contributors who have been helping develop
 and test Ubuntu MATE.
 
-  * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
+  * [Victor Kareh](https://github.com/vkareh) Developer of [MATE Desktop](http://mate-desktop.org), [Ubuntu MATE](https://ubuntu-mate.org) and contributor to projects throughout the MATE community.
   * [Wolfgang Ulbrich](https://github.com/raveit65) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
+  * [Vlad Orlov](https://github.com/monsta) Developer of [MATE Desktop](http://mate-desktop.org) and bug-fix king.
   * [Luke](https://github.com/lukefromdc) Developer of [MATE Desktop](http://mate-desktop.org), theme maintainer and bug hunter.
   * [Pablo Barciela](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
   * [Alexei Sorokin](https://github.com/XRevan86) Contributor to [MATE Desktop](http://mate-desktop.org) and [Ubuntu MATE](https://ubuntu-mate.org).
   * [Ikey Doherty](https://github.com/ikeydoherty) Lead Developer of [Solus](https://solus-project.com/) and [MATE Desktop](http://mate-desktop.org) contributor.
   * [Sefan Ric](https://github.com/cyber) Developer of [Solus](https://solus-project.com/) and [MATE Desktop](http://mate-desktop.org) contributor.
   * [Luke Horwell](https://github.com/lah7) Developer of [Ubuntu MATE](https://ubuntu-mate.org), web designer and community moderator.
-  * [Victor Kareh](https://github.com/vkareh) Contributor to [MATE Desktop](http://mate-desktop.org), [Ubuntu MATE](https://ubuntu-mate.org) and [MATE Dock Applet](https://github.com/robint99/mate-dock-applet).
   * [Robin Thompson](https://github.com/robint99) Lead developer of [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) and [Ubuntu MATE](https://ubuntu-mate.org) contributor.
   * [Konstantin Pugin](https://github.com/rilian-la-te) Lead developer of [Global Menu](https://github.com/rilian-la-te/vala-panel-appmenu) for MATE Panel and [MATE Desktop](http://mate-desktop.org) contributor.
   * [Johnny Dennis](https://github.com/Meticulus) Lead developer of [tomxplayer](https://github.com/Meticulus/tomxplayer) for the Raspberry Pi.
@@ -45,6 +45,7 @@ efforts there would be no Ubuntu MATE.
 
   * [Mike Gabriel](https://github.com/sunweaver) Debian Developer and MATE package maintainer for [Debian](http://www.debian.org).
   * [Aron Xu](https://github.com/happyaron) Debian Developer and MATE package maintainer for [Debian](http://www.debian.org).
+  * [Simon Quigley](https://github.com/tsimonq2) MOTU, package sponsor and security oversight for MATE Desktop packages.
   * [Vangelis Mouhtsis](https://github.com/gnugr) MATE package maintainer for [Debian](http://www.debian.org).
 
 ## Quality Assurance & Testing
@@ -70,11 +71,10 @@ contributions to the Ubuntu MATE project.
 
   * [Sam Hewitt](http://snwh.org/) Creator the [Ubuntu MATE logo](http://ubuntu-mate.org/logo-guidelines/).
   * [Daniel Foré](https://github.com/danrabbit) Improver of Ubuntu MATE icon theme.
-  * [Simon Quigley](https://github.com/tsimonq2) MoTU and back porter of signifcant bug fixes that directly benefit Ubuntu MATE.
-  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
+  * [Rohith Madhavan](https://ubuntu-mate.community/users/rohithmadhavan) Created the initial Raspberry Pi 2 build of Ubuntu MATE.
   * [Goce Mitevski](http://nicer2.com) Created the default desktop wallpaper used from Ubuntu MATE 14.10 to 17.04.
   * [Michael Tunnell](http://michaeltunnell.com/) Toucher upper of GTK art assets.
-  * [Pedro Meteus](https://twitter.com/UnaccountedFour) IGP and GPU configuration enhancements for reduced video tearing and improved gaming performance.
+  * [Pedro Meteus](https://twitter.com/UnaccountedFour) IGP and GPU configuration enhancements for reduced video tearing and improved gaming performance.
   * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Created the Ubuntu MATE GRUB and Plymouth themes.
   * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Assorted user interface improvements.
   * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
