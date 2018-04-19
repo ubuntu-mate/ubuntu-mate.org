@@ -27,28 +27,19 @@ have made Ubuntu MATE possible.
 
 ## Is Ubuntu MATE an official Ubuntu *"flavour"*?
 
-  * Ubuntu MATE 15.04 and onward are **official** Ubuntu flavours.
-  * Ubuntu MATE 14.04 and Ubuntu MATE 14.10 are *unofficial* builds.
-
-## Will you be making a 14.04 LTS version of Ubuntu MATE?
-
-We have, although it is not an official build. You can get it here:
-
-  * [Ubuntu MATE 14.04.2 LTS](https://ubuntu-mate.org/trusty/)
-
-We have also posted [a HOW-TO for installing your own Ubuntu MATE 14.04 from scratch](/blog/2014-08-ubuntu-mate-14-04-from-scratch/).
+Yes.
 
 ## Why is *xyz* application installed by default when I prefer *abc* application?
 
 In general, the default application selection follows what shipped in
-Ubuntu 14.04. The only reason we deviate from the default Ubuntu
-applications is if they are not compatible with Ubuntu MATE or pull in
-lots of unnecessary dependencies.
+Ubuntu. The only reason we deviate from the default Ubuntu applications
+is if they are not compatible with Ubuntu MATE or pull in lots of
+unnecessary dependencies.
 
 The reason for using the default applications as shipped by Ubuntu is
-the Ubuntu staff support the default applications. The Ubuntu MATE team
-is rather small so sharing the support responsibility makes sense, both
-for us and our users.
+that they are supported by the Ubuntu Desktop team. The Ubuntu MATE
+team is rather small so sharing the support responsibility makes sense,
+both for us and our users.
 
 ## Why is *xyz* application installed default when *abc* application is better?
 
@@ -56,38 +47,43 @@ See the answer to the question above.
 
 ## Will Ubuntu MATE run on my computer?
 
-If you have a computer from Entroware, System 76, ZaReason or Think
-Penguin then Ubuntu MATE will absolutely run on your computer. Computers
-from major vendors such as Acer, ASUS, Dell, HP and Lenovo will most
-likely run Ubuntu MATE just fine too.
+If you have a computer from [Entroware](https://entroware.com),
+System76, ZaReason, Think Penguin or some models from Dell such as the
+XPS 13 Developer Edition, then Ubuntu MATE will absolutely run on your
+computer.
+
+Computers from major PC vendors such as Acer, ASUS, HP and Lenovo will
+most likely run Ubuntu MATE just fine too.
 
 Ubuntu MATE is designed to run on almost any computer hardware. Of
 course Ubuntu MATE runs particularly well on the newest, fastest
-hardware, but it also runs well on almost any vintage of machine. In
-fact, an older computer designed during the Windows XP era, can easily
-be outfitted with the new, modern and fully-supported Ubuntu MATE and
-it will likely run better than it did with the previously installed
-operating system.
+hardware, but it also runs well on computers manufactured in the last
+decade. In fact, an older computer designed during the Windows XP era,
+can easily be outfitted with the new, modern and fully-supported Ubuntu
+MATE and it will likely run better than it did with the previously
+installed operating system.
 
 ## Can I use iTunes on Ubuntu MATE?
 
-No. This is one of those programs that is specifically designed by Apple
-*NOT* to run on Linux. Although Mac OS X has its roots in the same UNIX
-philosphy as Linux, OS X is not the same as Linux, and applications
-written for Apple's operating system do not automatically run on Linux.
-There are, however plenty of alternative media players that will play
-music, create play lists, sync with mobile devices, and retrieve, manage
-and play podcasts. Rythmbox is provided with Ubuntu MATE and can play any
-of the music or podcasts in your iTunes library.
+No. This is one of those programs that is specifically designed by
+Apple *NOT* to run on Linux. Although macOS has its roots in the same
+UNIX philosphy as Linux, macOS is not the same as Linux, and
+applications written for Apple's operating system do not automatically
+run on Linux. However Spotify is available for Ubuntu MATE and yhere
+are hplenty of alternative media players that will play music, create
+play lists, sync with mobile devices, and retrieve, manage and play
+podcasts. Rythmbox is provided with Ubuntu MATE and can play any of the
+music or podcasts in your iTunes library.
 
 ## Is Ubuntu MATE secure and safe to use?
 
 Ubuntu MATE is designed with security in mind. Unlike operating systems
-that update only once a month, Ubuntu MATE receives updates continuously.
-The updates include security patches for Ubuntu MATE and all of its
-components. Security updates for all of its installed applications are
-also provided on the same schedule. This ensures that you have the latest
-protection for *all* of your computer's software, as soon as it's available!
+that update only once a month, Ubuntu MATE receives updates
+continuously. The updates include security patches for Ubuntu MATE and
+all of its components. Security updates for all of its installed
+applications are also provided on the same schedule. This ensures that
+you have the latest protection for *all* of your computer's software,
+as soon as it's available!
 
 ## Is Ubuntu MATE more secure than other operating systems?
 
