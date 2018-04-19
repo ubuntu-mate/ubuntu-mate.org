@@ -29,19 +29,6 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome
 
 <div class="row">
   <div class="col-xs-6">
-    <div class="well bs-component">
-    <a href="http://www.xltech.io/"><img class="centered" src="/images/sponsors/xltech.png" alt="XLTech" /></a>
-    </div>
-  </div>
-  <div class="col-xs-6">
-    <div class="well bs-component">
-    <a href="https://www.hiri.com/"><img class="centered" src="/images/sponsors/hiri.png" alt="A complete alternative to Microsoft Outlook" /></a>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-xs-6">
     <!-- VJ -->
     <div class="well bs-component">
     <a href="http://www.whatisseo.com/"><img class="centered" src="/images/sponsors/whatisseo.png" alt="What is SEO?" /></a>
