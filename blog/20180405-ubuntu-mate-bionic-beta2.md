@@ -95,7 +95,7 @@ with the menu-bar (Applications, Places, System) replaced by Brisk Menu. It
 looks like this:
 
 <div align="center">
-<img src="/gallery/bionic/familiar.jpg" alt="Familiar" /><br />
+<img src="/gallery/bionic/familiar.png" alt="Familiar" /><br />
 </div>
 
 Familiar is now the the default layout, Traditional will continue to be 
