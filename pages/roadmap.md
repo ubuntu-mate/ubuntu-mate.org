@@ -9,19 +9,99 @@
 .. author: Martin Wimpress
 -->
 
-During the Ubuntu MATE 14.10 development cycle the main objective was
-to produce an Ubuntu distribution with a pure MATE desktop experience,
-that (mostly) worked and anyone could use. I think we just about
-delivered on that and even excelled in some areas, particularly what
-the artwork team produced.
+This page outlines roadmap items we've completed and some of the
+activities the Ubuntu MATE team will research, and possibly implement,
+in future development cycles to improve and refine our operating
+system.
 
-But this was our first attempt at putting a desktop operating system
-together. Other Ubuntu flavours have had many years head start and
-therefore been able to refine what they offer, we need to play catch up.
+# In progress roadmap objectives
 
-This page outlines some of the activities the Ubuntu MATE team will
-research, and possibly implement, in future development cycles to
-improve and refine our operating system.
+## Grow community participation and engagement
+
+Ubuntu MATE and MATE Desktop are created by very small teams. We'll
+improve our documentation so that new contributors can find tasks they
+can work on and material to help them get started.
+
+## Reboot Ubuntu MATE Welcome and Software Boutique
+
+We will decouple Ubuntu MATE Welcome and the Software Boutique so they
+can be interated on independently. The code for both will be refactor
+and simplified so that other projects wanting to build on either can
+easily do so.
+
+Both applications will be delivered as snaps to break the development
+cycle relationship with the distribution, giving us the freedom to
+develop both without the usual constraints of distribution release
+management. This will also benefit Ubuntu MATE who will automatically
+get new features, application listings and other improvements.
+
+## Developer tooling and collaboration
+
+Ubuntu MATE and MATE Desktop will expand their use of continuous
+integration and automated testing in an effort to save the small
+development teams burning valuable time on activities best left to a
+bot.
+
+Review the development platforms and communication/collaboration tools
+used by the MATE Desktop team to improve team communication and simplfy
+the project infrastructure where possible.
+
+Review the static site building tools using by Ubuntu MATE and MATE
+Desktop so that the websites can be more easily maintained.
+
+## Modern display server support
+
+Wayland is set to become the defacto next generation display server.
+While Xorg has some years or usefulness ahead of it, now is the time to
+start planning for how MATE Desktop, and thefore Ubuntu MATE, implement
+support for Wayland.
+
+## Voice command
+
+Smart speakers are growing in popularity and commanding mobile devices
+by voice is already common place. We will research how effectively
+voice commands can be integrated into Ubuntu MATE.
+
+## Accessibility
+
+<img class="right" src="/assets/img/logos/a11y-small.png" alt="Accessibility" width="150" height="150" />
+
+Making an accessible operating system was a key priority when the
+Ubuntu MATE founders initially set out the goals of the project.
+
+Ubuntu MATE is never going to be able to offer the comprehensive
+integration of assistive technologies that [Sonar GNU/Linux](http://sonargnulinux.com/)
+provides. But we will continue to follow their lead so that Ubuntu MATE
+is a viable desktop solution where computer access is shared within a
+household or business where individual needs differ.
+
+The upstream MATE Desktop team are actively engaged with visually
+impaired users from the Linux community to ret and ensure their needs
+are met. This effort will like never be complete, it requires constant
+refinement.
+
+## Translation
+
+<img class="right" src="/assets/img/logos/i18n-small.png" alt="Internationalisation" width="150" height="150" />
+
+Translation of Ubuntu and MATE desktop is handled upstream thanks to
+the tireless efforts of many translators, therefore the Ubuntu MATE
+operating system is available in many languages. However, this website
+is currently available in English only and we will work with the
+community to make it available other languages too.
+
+# Completed Roadmap Objectives
+
+While these initiatives are considered "complete" they will of course
+be maintained and improved.
+
+## Artwork
+
+Overhaul the Ubuntu MATE design language and make is consistent for web
+and desktop. Create a new wallpaper collection based on abstract
+designs and high quality photos.
+
+ * *Implemented since Ubuntu MATE 18.04*
 
 ## User experience
 
@@ -34,7 +114,16 @@ Ubuntu MATE can be augmented to provide an "*experience*" similar to
 what other contemporary desktop environments offer while retaining its
 classic desktop paradigm.
 
-### Launchers and Docks
+ * *Implemented since Ubuntu MATE 16.04*
+
+## HiDPI support
+
+High pixel density laptops and displays are becoming increasingly common
+and Ubuntu MATE needs to provide a first class HiDPI experience.
+
+ * *Implemented since Ubuntu MATE 18.04*
+
+## Launchers and Docks
 
 We will evaluate 3rd party launchers, such as Slingscold,
 [Synapse](http://synapse.zeitgeist-project.com/wiki/index.php?title=Main_Page),
@@ -48,7 +137,9 @@ community polls (just as we have done in the past) to determine if the
 selected 3rd party tools should be integrated as defaults or optional
 extras.
 
-### Compiz
+ * *Implemented since Ubuntu MATE 17.10 via Brisk Menu, MATE Menu and Super key support throughout MATE Desktop*
+
+## Compiz
 
 There are some hardcore Compiz addicts in the MATE community. That said
 Compiz will never be enabled by default in Ubuntu MATE, but we do want
@@ -61,7 +152,7 @@ installed and enabled for those users who want it.
 
  * *Implemented since Ubuntu MATE 15.04*
 
-### Ubuntu MATE Tweak
+## Ubuntu MATE Tweak
 
 There are a plethora of options behind MATE that are not yet exposed
 via control centre applets. The Ubuntu MATE team have already provided
@@ -77,27 +168,7 @@ launchers and docks where required.
 
   * *Implemented since Ubuntu MATE 15.04 via **MATE Tweak***
 
-### Artwork
-
-The artwork team have only just got warmed up. We can't wait to see
-where they are going to take Ubuntu MATE in the future.
-
-## Accessibility
-
-<img class="right" src="/assets/img/logos/a11y-small.png" alt="Accessibility" width="150" height="150" />
-
-Making an accessible operating system was a key priority when the
-Ubuntu MATE founders initially set out the goals of the project.
-
-### Assistive technologies
-
-Ubuntu MATE is never going to be able to offer the comprehensive
-integration of assistive technologies that [Sonar GNU/Linux](http://sonargnulinux.com/)
-provides. But we will continue to follow their lead so that Ubuntu MATE
-is a viable desktop solution where computer access is shared within a
-household or business where individual needs differ.
-
-### Complex input methods
+## Complex input methods
 
 We've received feedback that complex input method support in Ubuntu
 MATE could be better.
@@ -113,46 +184,20 @@ coming.
 
  * *Implemented since Ubuntu MATE 15.10*
 
-### Translation
-
-<img class="right" src="/assets/img/logos/i18n-small.png" alt="Internationalisation" width="150" height="150" />
-
-Translation of Ubuntu and MATE desktop is handled upstream thanks to
-the tireless efforts of many translators, therefore the Ubuntu MATE
-operating system is available in many languages. However, this website
-is currently available in English only and we will work with the
-community to make it available other languages too.
-
-## Doing more, finding more.
-
-Installing Ubuntu MATE is just the beginning. By making applications
-and content easily discoverable we hope that it will promote greater
-community engagement and broaden our awareness of the free culture
-movement and the quality of the content the free culture community
-produces.
-
-### Application web install
+## Application install
 
 Users new to Linux are often overwhelmed by the vast choice of software
 on offer. The Ubuntu MATE team will create a curated selection of
 applications suitable for use with Ubuntu MATE that can be installed
-via one click from our website.
+via one click.
 
-The Ubuntu MATE community will select one application (at most two)
-that is more suitable for a given task or activity so that new users
-can quickly turn their Ubuntu MATE workstation into a productive tool.
+The Ubuntu MATE community will select one application that is more
+suitable for a given task or activity so that new users can quickly
+turn their Ubuntu MATE workstation into a productive tool.
 
   * *Implemented since Ubuntu MATE 15.10 via **Ubuntu MATE Welcome***
 
-### Content discovery
-
-The free culture movement is a hot bed of creativity and produces some
-amazing content that is free of DRM and other usage restrictions. The
-Ubuntu MATE website will add a content discovery mini site that will
-help the Ubuntu MATE community to discover the best in free music,
-books, TV, comics, art, podcasts that the world has to offer.
-
-### Media casting and streaming
+## Media casting and streaming
 
 <img class="right" src="/assets/img/misc/phone-small.png" alt="Phone" width="124" height="240" />
 
@@ -167,9 +212,9 @@ to deliver the technologies to make this happen, we can provide simple
 installation options to enable access to these services, and where
 possible, ship the required software by default.
 
-  * *Implemented since Ubuntu MATE 15.10 by using Ubuntu MATE Welcome to install Google Chrome, Spotify or Pithos*
+  * *Implemented since Ubuntu MATE 15.10 by using Software Boutique to install Google Chrome, Spotify or Pithos*
 
-### Mobile device integration
+## Mobile device integration
 
 Currently Ubuntu MATE has the essential mobile device support you'd
 expect. You can plug in a phone or a media player and the device is
@@ -177,7 +222,8 @@ automatically detected and mounted, you can then access the files on it.
 
   * *Implemented since Ubuntu MATE 15.10*
 
-But we'd like to go futher by providing a way for mobile device
-notifications to be wirelessly mirrored to your Ubuntu MATE desktop and
-for you to be able to send files or links wirelessly between your mobile
-devices and Ubuntu MATE.
+Mobile device notifications can be wirelessly mirrored to your Ubuntu
+MATE desktop and for you to be able to send files or links wirelessly
+between your mobile devices and Ubuntu MATE.
+
+  * *Implemented since Ubuntu MATE 16.04 by using the Software Boutique to install KDE Connect Indicator"
