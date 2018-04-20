@@ -94,12 +94,12 @@ Familiar is now the the default layout, Traditional will continue to be
 shipped, unchanged, and will be available via MATE Tweak for those who prefer 
 it.
 
-**Since 18.04 beta 1 the Netbook layout has been updated**, maximised windows 
+**Netbook layout has been updated** - Since 18.04 beta 1 the maximised windows 
 now maximise into the top panel like the Mutiny layout. Brisk Menu replaces 
 the custom-menu and `mate-dock-applet` is used for application pinning and 
 launching. When maximising a window this offers some decent space savings.
 
-**Since 18.04 beta 1 the Mutiny layout has been tweaked** so the launcher icon 
+**Mutiny layout has been tweaked** - Since 18.04 beta 1 the launcher icon 
 is the same size of the docked application icons. We heard you, we understand. 
 It's the little things, right?
 
@@ -130,7 +130,7 @@ Welcome and Boutique have been given some love.
 
   * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions. 
   * Welcome now has snappier animations and transitions
-  * A **new browser selection** option has been added so you can quickly install your preferred browser.
+  * A **new Browser Selection screen** has been added so you can quickly install your preferred browser.
 
 <div align="center">
 <img src="/gallery/bionic/browser-selection.png" alt="Browser Selection" /><br />
@@ -246,6 +246,15 @@ suit your preferences.
 <img src="/gallery/bionic/ubuntu-mate-guide.png" alt="Ubuntu MATE Guide" /><br />
 </div>
 
+<div class="bs-component">
+    <div class="jumbotron">
+        <h1>Buy the books</h1>
+        <p>Print and ebook versions of the books <b>Ubuntu MATE: Upgrading from Windows or OSX</b> and <b>Using Ubuntu MATE and Its Applications</b> are available from our shop.</p>
+        <a href="https://ubuntu-mate.boutique" class="btn btn-primary btn-lg">Shop</a>
+        </p>
+    </div>
+</div>
+
 ### Slick Greeter Settings - *new since 18.04 beta 2*
 
 Ubuntu MATE switched to [Slick 
@@ -280,11 +289,16 @@ cursors from MATE upstream, that also offer HiDPI support.
 
 ### Major Applications
 
-Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox 59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
+Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox 
+59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
 
 <div align="center">
 <img src="/gallery/bionic/versions.png" alt="Major Applications" /><br />
 </div>
+
+See the [Ubuntu 18.04 Release 
+Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all 
+the changes and improvements that Ubuntu MATE benefits from..
 
 ### Raspberry Pi images
 
@@ -302,13 +316,34 @@ didn't have time to do it in time for the April release of 18.04.
     </div>
 </div>
 
+## Upgrading from Ubuntu MATE 16.04 or 17.10
+
+  * Open the "Software & Updates" from the Control Center.
+  * Select the 3rd Tab called "Updates".
+  * Set the "Notify me of a new Ubuntu version" dropdown menu to "Long-term support versions".
+  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager` into the command box.
+  * Update Manager should open up and tell you: New distribution release '18.04' is available.
+  * Click "Upgrade" and follow the on-screen instructions.
+
+### Get the Ubuntu MATE snaps
+
+When the upgrade is complete and you're logged in, open a terminal and execute:
+
+    snap install ubuntu-mate-welcome --classic
+    snap install software-boutique --classic
+    snap install puilsemixer
+
+The snap packages above are installed when performing a clean install of 
+Ubuntu MATE 18.04, but are not automatically installed when upgrading from an 
+earlier release.
+
 ## Known Issues
 
 Here are the known issues.
 
 ### Ubuntu MATE
 
-  * Anyone upgrading from Ubuntu MATE 16.04 or newer may need to use MATE Tweak to reset the panel layout to one of the bundled layouts post upgrade.
+  * Anyone upgrading from Ubuntu MATE 16.04 or 17.10 may need to **use MATE Tweak to reset the panel layout to one of the bundled layouts post upgrade**.
     * Migrating panel layouts, particularly those without Indicator support, is hit and miss. Mostly miss.
 
 ### Ubuntu family issues
