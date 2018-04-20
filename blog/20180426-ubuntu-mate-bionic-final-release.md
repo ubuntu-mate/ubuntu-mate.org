@@ -12,7 +12,7 @@
 **Grand standing introduction and thanks to all involved to be added here.**
 
 <div align="center">
-<img src="/gallery/blog/1804-beta2.png" alt="Ubuntu MATE 18.04 LTS" /><br />
+<img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
 </div>
 
 ## What works?
