@@ -24,7 +24,7 @@ Ubuntu MATE makes modern computers fast and old computers usable.
 </div>
 
 <div align="center">
-<iframe id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/9hCXwmKg4VU?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/9hCXwmKg4VU?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Objectives
