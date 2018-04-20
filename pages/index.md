@@ -58,6 +58,7 @@ to give you a feel for how you can configure your desktop experience.
     $('#banner-fade').bjqs({
         width : 852,
         height : 480,
+        animspeed : 5000,
         responsive : true,
         usecaptions : false
     });
