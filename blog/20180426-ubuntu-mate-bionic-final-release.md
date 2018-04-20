@@ -75,6 +75,10 @@ helping debug [an nvidia driver issue](https://pad.lv/1764005) that was
 impacting all flavours of Ubuntu during the last days of the 18.04 development 
 cycle.**
 
+<div align="center">
+<iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### New and updated desktop layouts - *new since 18.04 beta 1*
 
 I have decided to add a new layout to the collection available in Ubuntu MATE 
