@@ -37,6 +37,10 @@ kbd {
     box-shadow: 0 0px 1px rgba(0,0,0,1);
 }
 
+h4 {
+    margin-top: 24px;
+}
+
 /*************************************
  No margin for social icon in navbar
 **************************************/
