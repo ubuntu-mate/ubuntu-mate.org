@@ -19,15 +19,15 @@
 
 People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
-## What changed since the Ubuntu MATE 16.04 LTS release?
+# What changed since the Ubuntu MATE 16.04 LTS release?
 
 Just about everything. Ubuntu MATE 18.04 is rammed to the rafters with
 new features and improvements compared to 16.04.
 
-### MATE Desktop 1.20.1
+## MATE Desktop 1.20.1
 
 The MATE Desktop has transitioned from the GTK 2.24 based MATE 1.12 to
-the very latest the GTK 3.22 based MATE 1.20.1.
+the very latest MATE 1.20.1 based on GTK 3.22.
 
 As [you may have seen, MATE Desktop 1.20 was released in February 2018](http://mate-desktop.org/blog/2018-02-07-mate-1-20-released/) and offers some significant improvements:
 
@@ -44,51 +44,80 @@ Marco compositing is now hardware accelerated. This dramatically improves 3D
 rendering performance, particularly in games. If your hardware doesn't support
 DRI3 then Marco will fallback to a software compositor.
 
-You can [read the release
-announcement](http://mate-desktop.org/blog/2018-02-07-mate-1-20-released/) to
-discover everything that improved in MATE Desktop 1.20. It is a significant
-release that also includes a considerable number of bug fixes.
-
-**We like to extend our thanks to our friends at
-[Entroware](https://www.entroware.com) for rolling their sleeves up and
-helping debug [an nvidia driver issue](https://pad.lv/1764005) that was
-impacting all flavours of Ubuntu during the last days of the 18.04 development
-cycle.**
-
 <div align="center">
 <iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### New and updated desktop layouts - *new since 18.04 beta 1*
+## Desktop layouts
 
-I have decided to add a new layout to the collection available in Ubuntu MATE
-18.04. It will be called **Familiar** and is based on the Traditional layout
-with the menu-bar (Applications, Places, System) replaced by Brisk Menu. It
-looks like this:
+Using MATE Tweak you can try out the various desktop layouts to find
+one that suits you, and either stick with it or use it as a basis to
+create your own custom desktop layout.
 
-<div align="center">
-<img src="/gallery/bionic/familiar.png" alt="Familiar" /><br />
-</div>
+A new layout has been added to the collection for the Ubuntu 18.04
+release Ubuntu MATE 18.04. It is called **Familiar** and is based on
+the Traditional layout with the menu-bar (Applications, Places, System)
+replaced by Brisk Menu.
 
 Familiar is now the the default layout, Traditional will continue to be
-shipped, unchanged, and will be available via MATE Tweak for those who prefer
-it.
+shipped, unchanged, and will be available via MATE Tweak for those who
+prefer it.
 
-**Netbook layout has been updated** - Since 18.04 beta 1, the maximised windows
-now maximise into the top panel like the Mutiny layout. Brisk Menu replaces
-the custom-menu and `mate-dock-applet` that was used for application pinning and
-launching. When maximising a window, this offers some decent space savings.
+Here are some screenshots of the desktop layouts included in Ubuntu MATE
+to give you a feel for how you can configure your desktop experience.
 
-**Mutiny layout has been tweaked** - Since 18.04 beta 1, the launcher icon
-is now the same size of the docked application icons. We heard you, we understand.
-It's the little things, right?
+<!-- Outer wrapper for presentation only, this can be anything you like -->
+<div align="center">
+<div id="banner-fade-20180426">
+  <!-- start Basic Jquery Slider -->
+  <ul class="bjqs">
+    <li><a class="image-reference" href="/gallery/layouts/Familiar.png"><img src="/gallery/layouts/Familiar.png" title="Familiar - the default experience, a familiar two panel layout with a searchable menu"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Mutiny.png"><img src="/gallery/layouts/Mutiny.png" title="Mutiny - application dock, searchable launcher and global menus similar to Unity 7"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Cupertino.png"><img src="/gallery/layouts/Cupertino.png" title="Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Redmond.png"><img src="/gallery/layouts/Redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Pantheon.png"><img src="/gallery/layouts/Pantheon.png" title="Pantheon - a dock and top panel with a searchable menu"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Contemporary.png"><img src="/gallery/layouts/Contemporary.png" title="Contemporary - modernised two panel layout featuring a searchable menu with global menus"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Netbook.png"><img src="/gallery/layouts/Netbook.png" title="Netbook - a compact, single top panel layout, ideal for small screens"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Traditional.png"><img src="/gallery/layouts/Traditional.png" title="Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu"></a></li>
+  </ul>
+  <!-- end Basic jQuery Slider -->
+</div>
+<!-- End outer wrapper -->
+</div>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bjqs-1.3.min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+    $('#banner-fade-20180426').bjqs({
+        width : 682,
+        height : 512,
+        responsive : true,
+        usecaptions : true
+    });
+});
+</script>
 
-## Super key
+  * **Familiar** - the default experience, a familiar two panel layout with a searchable menu
+  * **Mutiny** - application dock, searchable launcher and global menus similar to Unity 7
+  * **Cupertino** - a dock and top panel with searchable launcher and global menus similar to macOS
+  * **Redmond** - single bottom panel with a searchable menu, similar to the taskbar in Windows
+  * **Pantheon** - a dock and top panel with a searchable menu
+  * **Contemporary** - modernised two panel layout featuring a searchable menu with global menus
+  * **Netbook** - a compact, single top panel layout, ideal for small screens
+  * **Traditional** Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu
+
+In order to create or improve the desktop layouts described above we've
+spent the last two years working on a number of projects across the
+MATE ecosystem that have enabled us to offer 8 different desktop
+layouts, each providing a different desktop experience. Here's some
+of the projects we worked on to make it all possible.
+
+### Super key
 
 <img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
 
-Super key (also known as the Windows key) support is available from the
-majority of the panel layouts. This means <kbd>Super</kbd> can be used
+Super key (also known as the Windows key) support is available in the
+majority of the desktop layouts. This means <kbd>Super</kbd> can be used
 to activate the menus/launchers and any other key-bindings that include
 the <kbd>Super</kbd> key also continue to function correctly.
 
@@ -102,57 +131,20 @@ Desktop users expect.
 
 ### Global Menu
 
+The Global Menu integration is much improved. Fully functional with
+GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron and
+others. You can choose make more of your available screen space while
+using Ubuntu MATE.
+
 <div align="center">
 <img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
-</div>
-
-The Global Menu integration is much improved. When the Global Menu is added to
-a panel the **application menus are automatically removed from the application
-window** and only presented globally, no additional configuration (as was the
-case) is required. Likewise removing the Global Menu from a panel will restore
-menus to their application windows.
-
-### Heads-Up Display
-
-A favourite of Unity 7 users is the Heads-Up Display (HUD) which
-provides a way to search for and run menu-bar commands without your
-fingers ever leaving the keyboard.
-
-If you're trying to find that single filter in Gimp but can't remember
-which filter category it fits into or if you can't recall if
-preferences sits under File, Edit or Tools in your favourite browser,
-you can just search for it rather than hunting through the menus.
-
-The purpose of the HUD is to keep your fingers on the keyboard and
-improve the efficiency in driving the menus for keyboard centric users.
-We've locally integrated the HUD for similar reasons, if you're looking
-at an application why move the HUD to the top of screen away from where
-your eyes are already focused. Keeping the HUD within the context of
-the active application eliminates refocusing your attention to a
-different part of the screen, particularly helpful for users with high
-resolution or multi-display workstations.
-
-<div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
 </div>
 
 The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
 longer won't trigger the HUD. This is consistent with how the HUD in
 Unity 7 works. The HUD is also HiDPI aware now.
 
-### Ubuntu MATE Welcome - *new since 18.04 beta 2*
-
-Welcome and Boutique have been given some love.
-
-  * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions.
-  * Welcome now has snappier animations and transitions
-  * A **new Browser Selection screen** has been added so you can quickly install your preferred browser.
-
-<div align="center">
-<img src="/gallery/bionic/browser-selection.png" alt="Browser Selection" /><br />
-</div>
-
-### Indicators by default
+### Indicators
 
 **Ubuntu MATE 18.04 now uses Indicators by default in all layouts.** If
 you've used Ubuntu, these will be familiar. Indicators offer better
@@ -180,9 +172,10 @@ MATE. The default Indicators are:
 
 ### MATE Dock Applet
 
-[MATE Dock Applet](https://github.com/robint99/mate-dock-applet) is used in
-the Mutiny layout, but anyone can add it to a panel to create custom panel
-arrangements. The new version adds support for BAMF and icon scrolling.
+[MATE Dock Applet](https://github.com/robint99/mate-dock-applet) is
+used in the Mutiny layout, but anyone can add it to a panel to create
+custom panel arrangements. The new version adds support for BAMF and
+icon scrolling.
 
   * MATE Dock Applet no longer uses its own method of matching icons to applications and instead uses BAMF. What this means for users is that from now on the applet will be a lot better at matching applications and windows to their dock icons.
   * Icon scrolling is useful when the dock has limited space on its panel and will prevent it from expanding over other applets. This addresses an issue reported by several users in Ubuntu MATE 17.10.
@@ -205,12 +198,57 @@ Brisk Menu.
 
 ### MATE Window Applets
 
-The **Mutiny and Netbook layouts now integrates with [mate-window-applets](https://github.com/ubuntu-mate/mate-window-applets)**.
-You can see these in action alongside an updated Mutiny layout here:
+[MATE Window
+Applets](https://github.com/ubuntu-mate/mate-window-applets) make it
+possible to add window controls (mazimise, minimise and close) to a
+panel. We used Window Applets to enhance the Mutiny and Netbook layouts
+so that both will now remove window controls from maximised windows and
+replocate the window controls in the panel.
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="//imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-### Minimal Installation
+## Heads-Up Display
+
+A favourite of Unity 7 users is the Heads-Up Display (HUD) which
+provides a way to search for and run menu-bar commands without your
+fingers ever leaving the keyboard. The HUD can be enabled via MATE
+Tweak.
+
+If you're trying to find that single filter in Gimp but can't remember
+which filter category it fits into or if you can't recall if
+preferences sits under File, Edit or Tools in your favourite browser,
+you can just search for it rather than hunting through the menus.
+
+The purpose of the HUD is to keep your fingers on the keyboard and
+improve the efficiency in driving the menus for keyboard centric users.
+We've locally integrated the HUD for similar reasons, if you're looking
+at an application why move the HUD to the top of screen away from where
+your eyes are already focused. Keeping the HUD within the context of
+the active application eliminates refocusing your attention to a
+different part of the screen, particularly helpful for users with high
+resolution or multi-display workstations.
+
+<div align="center">
+<img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
+</div>
+
+The HUD has a 250ms (default) timeout, holding `Alt` any longer won't
+trigger the HUD. This is consistent with how the HUD in Unity 7 works.
+The HUD is also HiDPI aware.
+
+## Ubuntu MATE Welcome
+
+Welcome and Boutique have been given some love.
+
+  * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions.
+  * Welcome now has snappier animations and transitions
+  * A **new Browser Selection screen** has been added so you can quickly install your preferred browser.
+
+<div align="center">
+<img src="/gallery/bionic/browser-selection.png" alt="Browser Selection" /><br />
+</div>
+
+## Minimal Installation
 
 If you follow the Ubuntu news closely you may have heard that 18.04 now has a
 Minimal Install option. Ubuntu MATE was at the front of the queue to take
@@ -234,7 +272,7 @@ you interested in creating "kiosk" style devices, such as home brew Steam
 machines or Kodi boxes, then a minimal install is another useful starting
 point.
 
-### MATE Tweak
+## MATE Tweak
 
 MATE Tweak can now toggle HiDPI mode between auto detection, regular
 scaling and forced scaling. HiDPI mode changes are dynamically applied. MATE
@@ -254,7 +292,7 @@ from GTK3 making them redundant.
   * Added a button to launch the Font preferences so users with HiDPI displays can fine tune their font DPI.
   * When saving a panel layout the Dock status will be saved too.
 
-### Caja
+## The File Manager (Caja)
 
 We've added some new features to the file manager (Caja).
 
@@ -272,7 +310,7 @@ with that objective by replacing all use of `gksu` with PolicyKit.
 <img src="/gallery/layouts/caja-rename.png" alt="Caja Rename" /><br />
 </div>
 
-### Documentation - *new since 18.04 beta 2*
+## Documentation
 
 The Ubuntu MATE Guide is a comprehensive introduction to MATE Desktop and
 Ubuntu MATE including **how to use everything we ship by default**, along with
@@ -292,7 +330,7 @@ suit your preferences.
     </div>
 </div>
 
-### Slick Greeter
+## Slick Greeter
 
 Ubuntu MATE switched to [Slick
 Greeter](https://github.com/linuxmint/slick-greeter) during the 17.10
@@ -303,9 +341,11 @@ more attractive and HiDPI aware.
 <img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
 </div>
 
+### Slick Greeter Settings
+
 We worked with our friends at [Lubuntu](https://lubuntu.me/) and
-[Ubuntu Budgie](https://ubuntubudgie.org/) to land **a configuration
-utility for Slick Greeter** just moments before the final freeze window
+[Ubuntu Budgie](https://ubuntubudgie.org/) to land a configuration
+utility for Slick Greeter just moments before the final freeze window
 closed for 18.04.
 
 <div align="center">
@@ -338,7 +378,7 @@ Ubuntu MATE 17.10.
 **New since 18.04 beta 1**: The xcursor themes have been replaced with new
 cursors from MATE upstream, that also offer HiDPI support.
 
-### Major Applications
+## Major Applications
 
 Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
 59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
@@ -351,7 +391,7 @@ See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all
 the changes and improvements that Ubuntu MATE benefits from..
 
-### Raspberry Pi images
+## Raspberry Pi images
 
 We're planning on releasing **Ubuntu MATE images for the Raspberry Pi around
 the time 18.04.1 is released, which should be sometime in July**. It takes
