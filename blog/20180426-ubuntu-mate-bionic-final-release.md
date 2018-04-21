@@ -83,6 +83,23 @@ launching. When maximising a window, this offers some decent space savings.
 is now the same size of the docked application icons. We heard you, we understand.
 It's the little things, right?
 
+## Super key
+
+<img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
+
+Super key (also known as the Windows key) support is available from the
+majority of the panel layouts. This means <kbd>Super</kbd> can be used
+to activate the menus/launchers and any other key-bindings that include
+the <kbd>Super</kbd> key also continue to function correctly.
+
+MATE Dock Applet, used in the Mutiny layout, also includes launching or
+switching to docked items based on their position using in the dock
+using <kbd>Super</kbd> + <kbd>1</kbd>, <kbd>Super</kbd> + <kbd>2</kbd>
+which will be familiar to Unity 7 users. <kbd>Super</kbd> +
+<kbd>L</kbd> is also recognised as a screen lock key-binding along with
+the usual <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> that MATE
+Desktop users expect.
+
 ### Global Menu
 
 <div align="center">
