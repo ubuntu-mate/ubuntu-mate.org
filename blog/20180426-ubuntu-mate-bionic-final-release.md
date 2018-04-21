@@ -118,14 +118,28 @@ Welcome and Boutique have been given some love.
 
 ### Indicators by default
 
-Ubuntu MATE 18.04 uses Indicators by default in all layouts. If you've used
-Unity 7, these will be familiar. Indicators offer better accessibility support
-and ease of use over notification area applets. The volume in Indicator Sound
-can now be over driven, so it is consistent with the MATE sound preferences.
-Notification area applets are still supported as a fallback.
+**Ubuntu MATE 18.04 now uses Indicators by default in all layouts.** If
+you've used Ubuntu, these will be familiar. Indicators offer better
+accessibility support and ease of use over notification area applets.
+The volume in Indicator Sound can now be over driven, so it is
+consistent with the MATE sound preferences. Notification area applets
+are still supported as a fallback.
+
+We've been improving Indicator support from release to release for some
+time now. In Ubuntu MATE 17.10 many of the panel layouts offered a
+complete line up of Indicators, all of which are fully compatible with
+MATE. The default Indicators are:
+
+  * Optimus (*only available if you have nvidia prime capable hardware and drivers*)
+  * Bluetooth
+  * Network
+  * Power
+  * Messages
+  * Sound
+  * Session
 
 <div align="center">
-<img src="/gallery/layouts/indicators-small.png" alt="Ubuntu MATE HUD" /><br />
+<img src="/gallery/layouts/indicators-small.png" alt="Indicators" /><br />
 </div>
 
 ### MATE Dock Applet
@@ -262,11 +276,19 @@ closed for 18.04.
 <img src="/gallery/bionic/lightdm-settings.png" alt="Slick Greeter Settings" /><br />
 </div>
 
-### Artwork, Fonts & Emoji
+## Artwork
+
+### Emoji
+
+We've switched to Noto Sans for users of Japanese, Chinese and Korean
+fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
+added a colour emoji font too.
 
 <div align="center">
 <img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
 </div>
+
+### Background
 
 We are no longer shipping `mate-backgrounds` by default. They have served us
 well, but are looking a little stale now. We have created a new selection of
@@ -275,9 +297,7 @@ photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot
 logo) is now HiDPI aware. Our friends at [Ubuntu
 Budgie](https://ubuntubudgie.org/) uploaded a new version of Slick
 Greeter which now fades in smoothly, rather than the stuttering we saw in
-Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese
-and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
-added a colour emoji font too.
+Ubuntu MATE 17.10.
 
 **New since 18.04 beta 1**: The xcursor themes have been replaced with new
 cursors from MATE upstream, that also offer HiDPI support.
