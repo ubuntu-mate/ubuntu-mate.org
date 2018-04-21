@@ -49,27 +49,6 @@ announcement](http://mate-desktop.org/blog/2018-02-07-mate-1-20-released/) to
 discover everything that improved in MATE Desktop 1.20. It is a significant
 release that also includes a considerable number of bug fixes.
 
-**Since 18.04 beta 1 upstream released MATE Desktop 1.20.1** and the
-following updates have recently landed in Ubuntu MATE:
-
-  * `mate-control-center` 1.20.2
-  * `marco` 1.20.1
-  * `mate-desktop` 1.20.1
-  * `atril` 1.20.1
-  * `mate-power-manager` 1.20.1
-  * `mate-panel` 1.20.1
-  * `mate-settings-daemon` 1.20.1
-  * `pluma` 1.20.1
-  * `mate-applets` 1.20.1
-  * `mate-calc` 1.20.1
-  * `libmatekbd` 1.20.1
-  * `caja` 1.20.1
-  * `mate-sensors-applet` 1.20.1
-
-These roll up a collection of fixes, many of which Ubuntu MATE was already
-carrying patch sets for. The **most notable change is that Marco
-is now fully HiDPI aware** and windows controls are scaled correctly.
-
 **We like to extend our thanks to our friends at
 [Entroware](https://www.entroware.com) for rolling their sleeves up and
 helping debug [an nvidia driver issue](https://pad.lv/1764005) that was
@@ -267,13 +246,21 @@ suit your preferences.
     </div>
 </div>
 
-### Slick Greeter Settings - *new since 18.04 beta 2*
+### Slick Greeter
 
 Ubuntu MATE switched to [Slick
 Greeter](https://github.com/linuxmint/slick-greeter) during the 17.10
-development cycle. We worked with our friends at [Lubuntu](https://lubuntu.me/) and [Ubuntu Budgie](https://ubuntubudgie.org/) to
-land **a configuration utility for Slick Greeter** just moments before the final
-freeze window closed for 18.04.
+development cycle, which still uses LightDM under the hood but is far
+more attractive and is also HiDPI aware.
+
+<div align="center">
+<img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
+</div>
+
+We worked with our friends at [Lubuntu](https://lubuntu.me/) and
+[Ubuntu Budgie](https://ubuntubudgie.org/) to land **a configuration
+utility for Slick Greeter** just moments before the final freeze window
+closed for 18.04.
 
 <div align="center">
 <img src="/gallery/bionic/lightdm-settings.png" alt="Slick Greeter Settings" /><br />
