@@ -83,7 +83,7 @@ launching. When maximising a window, this offers some decent space savings.
 is now the same size of the docked application icons. We heard you, we understand.
 It's the little things, right?
 
-### Global Menu and MATE HUD
+### Global Menu
 
 <div align="center">
 <img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
@@ -95,14 +95,33 @@ window** and only presented globally, no additional configuration (as was the
 case) is required. Likewise removing the Global Menu from a panel will restore
 menus to their application windows.
 
+### Heads-Up Display
+
+A favourite of Unity 7 users is the Heads-Up Display (HUD) which
+provides a way to search for and run menu-bar commands without your
+fingers ever leaving the keyboard.
+
+If you're trying to find that single filter in Gimp but can't remember
+which filter category it fits into or if you can't recall if
+preferences sits under File, Edit or Tools in your favourite browser,
+you can just search for it rather than hunting through the menus.
+
+The purpose of the HUD is to keep your fingers on the keyboard and
+improve the efficiency in driving the menus for keyboard centric users.
+We've locally integrated the HUD for similar reasons, if you're looking
+at an application why move the HUD to the top of screen away from where
+your eyes are already focused. Keeping the HUD within the context of
+the active application eliminates refocusing your attention to a
+different part of the screen, particularly helpful for users with high
+resolution or multi-display workstations.
+
 <div align="center">
 <img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
 </div>
 
-The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any longer won't
-trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've
-fixed a number of issues reported by users of Ubuntu MATE 17.10 regarding the
-HUD swallowing key presses. The HUD is also HiDPI aware now.
+The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
+longer won't trigger the HUD. This is consistent with how the HUD in
+Unity 7 works. The HUD is also HiDPI aware now.
 
 ### Ubuntu MATE Welcome - *new since 18.04 beta 2*
 
