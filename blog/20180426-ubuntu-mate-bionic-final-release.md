@@ -74,13 +74,13 @@ Familiar is now the the default layout, Traditional will continue to be
 shipped, unchanged, and will be available via MATE Tweak for those who prefer
 it.
 
-**Netbook layout has been updated** - Since 18.04 beta 1 the maximised windows
+**Netbook layout has been updated** - Since 18.04 beta 1, the maximised windows
 now maximise into the top panel like the Mutiny layout. Brisk Menu replaces
-the custom-menu and `mate-dock-applet` is used for application pinning and
-launching. When maximising a window this offers some decent space savings.
+the custom-menu and `mate-dock-applet` that was used for application pinning and
+launching. When maximising a window, this offers some decent space savings.
 
-**Mutiny layout has been tweaked** - Since 18.04 beta 1 the launcher icon
-is the same size of the docked application icons. We heard you, we understand.
+**Mutiny layout has been tweaked** - Since 18.04 beta 1, the launcher icon
+is now the same size of the docked application icons. We heard you, we understand.
 It's the little things, right?
 
 ### Global Menu and MATE HUD
@@ -99,7 +99,7 @@ menus to their application windows.
 <img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
 </div>
 
-The HUD now has a 250ms (default) timeout, holding `Alt` any longer won't
+The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any longer won't
 trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've
 fixed a number of issues reported by users of Ubuntu MATE 17.10 regarding the
 HUD swallowing key presses. The HUD is also HiDPI aware now.
@@ -118,8 +118,8 @@ Welcome and Boutique have been given some love.
 
 ### Indicators by default
 
-Ubuntu MATE 18.04 uses Indicators by default in all layouts. These will be
-familiar to anyone who has used Unity 7 and offer better accessibility support
+Ubuntu MATE 18.04 uses Indicators by default in all layouts. If you've used
+Unity 7, these will be familiar. Indicators offer better accessibility support
 and ease of use over notification area applets. The volume in Indicator Sound
 can now be over driven, so it is consistent with the MATE sound preferences.
 Notification area applets are still supported as a fallback.
@@ -146,20 +146,16 @@ arrangements. The new version adds support for BAMF and icon scrolling.
 Many users commented that when using the Mutiny layout the *"traditional"*
 menu felt out of place. The [Solus Project](https://solus-project.com/), the
 maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have
-add a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched
+added a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched
 version of Brisk Menu that includes this new dash launcher. When MATE Tweak is
 used to enable the Mutiny or Cupertino layout, it now switches on the dash
 launcher which enables a full screen, searchable, application launcher.
 Similarly, switching to the other panel layouts restores the more traditional
 Brisk Menu.
 
-**Since 18.04 beta 1 we tweaked the style of the session control buttons** in
-Brisk Menu and those updates will be wait for you are you install Ubuntu MATE
-18.04 Beta 2.
-
 ### MATE Window Applets
 
-The **Mutiny and Netbook layouts now integrate the [mate-window-applets](https://github.com/ubuntu-mate/mate-window-applets)**.
+The **Mutiny and Netbook layouts now integrates with [mate-window-applets](https://github.com/ubuntu-mate/mate-window-applets)**.
 You can see these in action alongside an updated Mutiny layout here:
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="//imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
@@ -182,7 +178,7 @@ list of software that will not be present on a minimal install of Ubuntu MATE
 18.04](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
 
 So, who's this aimed at? There are users who like to uninstall the software
-they do not need or want and build out their own desktop experience. So for
+they do not need or want to build out their own desktop experience. So for
 those users, a minimal install is a great platform to build on. For those of
 you interested in creating "kiosk" style devices, such as home brew Steam
 machines or Kodi boxes, then a minimal install is another useful starting
@@ -190,13 +186,13 @@ point.
 
 ### MATE Tweak
 
-MATE Tweak can now toggle the HiDPI mode between auto detection, regular
+MATE Tweak can now toggle HiDPI mode between auto detection, regular
 scaling and forced scaling. HiDPI mode changes are dynamically applied. MATE
 Tweak has a deeper understanding of Brisk Menu and Global Menu capabilities
 and manages them transparently while switching layouts. Switching layouts is
 far more reliable now too. We've removed the *Interface* section from MATE
 Tweak. Sadly all the features the Interface section tweaked have been dropped
-from GTK3 so are now redundant.
+from GTK3 making them redundant.
 
 <div align="center">
 <img src="/gallery/bionic/mate-tweak.png" alt="MATE Tweak" /><br />
@@ -251,7 +247,7 @@ suit your preferences.
 Ubuntu MATE switched to [Slick
 Greeter](https://github.com/linuxmint/slick-greeter) during the 17.10
 development cycle, which still uses LightDM under the hood but is far
-more attractive and is also HiDPI aware.
+more attractive and HiDPI aware.
 
 <div align="center">
 <img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
@@ -283,7 +279,7 @@ Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese
 and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
 added a colour emoji font too.
 
-**New since 18.04 beta 1 the xcursor themes have been replaced** with new
+**New since 18.04 beta 1**: The xcursor themes have been replaced with new
 cursors from MATE upstream, that also offer HiDPI support.
 
 ### Major Applications
