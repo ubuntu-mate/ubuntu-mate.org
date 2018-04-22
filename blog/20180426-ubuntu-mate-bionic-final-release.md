@@ -354,6 +354,28 @@ closed for 18.04.
 
 ## Artwork
 
+### Themes
+
+The Ubuntu MATE themes have been uplifted from GTK2 to GTK3 including
+the addition of a new dark variant of the Ambiant-MATE theme. We've
+worked tirelessly on all the Ubuntu MATE themes making them fully
+compatible with GTK 3.22 add ensuring every pixel is placed exactly
+where it should be. [Michael Tunnel](http://michaeltunnell.com/) from
+[TuxDigitial](http://tuxdigital.com/) retouched countless art assets
+for the Ubuntu MATE themes including scaled variants for use on HiDPI
+displays. The Ubuntu MATE icon theme was given a facelift thanks to our
+friends at [elementary OS](https://elementary.io/) and the default
+mouse pointer cursors use the new upstream MATE theme which is also
+HiDPI aware. Finally, blink and you'll miss it, the Ubuntu MATE
+Plymouth theme (boot logo) is now HiDPI aware.
+
+### Backgrounds
+
+We are no longer shipping `mate-backgrounds` by default. They have
+served us well, but are looking a little stale now. We have created a
+new selection of high quality wallpapers comprised of some abstract
+designs and high resolution photos from [unsplash.com](unsplash.com).
+
 ### Emoji
 
 We've switched to Noto Sans for users of Japanese, Chinese and Korean
@@ -363,20 +385,6 @@ added a colour emoji font too.
 <div align="center">
 <img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
 </div>
-
-### Background
-
-We are no longer shipping `mate-backgrounds` by default. They have served us
-well, but are looking a little stale now. We have created a new selection of
-high quality wallpapers comprised of some abstract designs and high resolution
-photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot
-logo) is now HiDPI aware. Our friends at [Ubuntu
-Budgie](https://ubuntubudgie.org/) uploaded a new version of Slick
-Greeter which now fades in smoothly, rather than the stuttering we saw in
-Ubuntu MATE 17.10.
-
-**New since 18.04 beta 1**: The xcursor themes have been replaced with new
-cursors from MATE upstream, that also offer HiDPI support.
 
 ## Major Applications
 
@@ -414,6 +422,7 @@ didn't have time to do it in time for the April release of 18.04.
   * Set the "Notify me of a new Ubuntu version" dropdown menu to "Long-term support versions".
   * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager` into the command box.
   * Update Manager should open up and tell you: New distribution release '18.04' is available.
+    * If not you can also use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
   * Click "Upgrade" and follow the on-screen instructions.
 
 ### Get the Ubuntu MATE snaps
