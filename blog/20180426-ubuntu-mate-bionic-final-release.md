@@ -15,34 +15,75 @@
 <img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
 </div>
 
-## What works?
-
-People tell us that Ubuntu MATE is stable. You may, or may not, agree.
+No one reads the release notes, isn't that right [Das
+Geek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ). So
+when our friend [Stuart Langridge ](https://www.kryogenix.org/) was
+reviewing our draft release notes and commented that they didn't speak
+to him, we thought *"all right, we can fix that"*. Stuart, since you
+are such a special snowflake and no one else will read these notes,
+here they are, bespoke release notes just for you!
 
 # What changed since the Ubuntu MATE 16.04 LTS release?
 
-Just about everything. Ubuntu MATE 18.04 is rammed to the rafters with
+Just about everything! Ubuntu MATE 18.04 is rammed to the rafters with
 new features and improvements compared to 16.04.
 
 ## MATE Desktop 1.20.1
 
 The MATE Desktop has transitioned from the GTK 2.24 based MATE 1.12 to
-the very latest MATE 1.20.1 based on GTK 3.22.
+the very latest MATE 1.20.1 based on GTK 3.22. This migration has been
+several years in the making most of 2016 and 2017 was spent refining the
+GTK3 implementation. The move to GTK3 has made it possible to introduce
+many of the new features you'll read about below.
 
-As [you may have seen, MATE Desktop 1.20 was released in February 2018](http://mate-desktop.org/blog/2018-02-07-mate-1-20-released/) and offers some significant improvements:
+Support for `libinput` has been added and is now the default input
+handler for mouse and touchpad, which result is much improved
+responsiveness and support for multi finger touch geatures.
 
-  * **MATE Desktop 1.20 supports HiDPI displays with dynamic detection and scaling.**
-    * HiDPI hints for Qt applications are also pushed to the environment to improve cross toolkit integration.
-    * Toggling HiDPI modes triggers dynamic resize and scale, no log out/in required.
-  * Marco now supports **DRI3 and [Present](https://keithp.com/blogs/Present/)**, if available.
-    * **Frame rates in games are significantly increased when using Marco.**
-  * **Marco now supports drag to quadrant window tiling**, cursor keys can be used to navigate the Alt + Tab switcher and keyboard shortcuts to move windows to another monitor were added.
+Thanks to our friends at
+[Hypra.fr](http://hypra.fr/-Home-17-.html?lang=en) accessibility
+support (particularly for visually impaired users) has seen continued
+development and improvement. MATE Desktop is proud to provide visually
+impaired the most accessible open source desktop environment.
+
+### HiDPI
+
+Since MATE Desktop 1.20 HiDPI displays are supported and provide
+dynamic detection and scaling. HiDPI hints for Qt applications are also
+pushed to the environment to improve cross toolkit integration. Every
+aspect of the MATE Desktop, it's themes, it's applications, it's icons,
+it's toolkit assets have been updated to enable
+
+### The File Manager (Caja)
+
+We've added some new features to the file manager (Caja).
+
+  * Added **[Advanced bulk rename](https://tari.in/www/software/cajarename/)** - A batch renaming extension.
+  * Added **[Encryption](https://github.com/darkshram/seahorse-caja)** - An extension which allows encryption and decryption of OpenPGP files using GnuPG
+  * Added **[Hash checking](https://github.com/tristanheaven/gtkhash)** - An extension for computing and validating message digests or checksums.
+  * Added **[Advanced ACL properties](https://github.com/darkshram/mate-eiciel)** - An extension to edit access control lists (ACLs) and extended attributes (xattr)
+  * Updated **[Folder Color](http://foldercolor.tuxfamily.org/)** - An extension for applying custom colours and emblems to folders and files.
+  * Replaced the deprecated `caja-gksu` with `caja-admin` which uses PolicyKit to elevate permissions in the file manager for adminstrative tasks.
+
+`gksu` is deprecated and being removed from Debian. We are aligning
+with that objective by replacing all use of `gksu` with PolicyKit.
+
+<div align="center">
+<img src="/gallery/layouts/caja-rename.png" alt="Caja Rename" /><br />
+</div>
+
+### Window Manager (Marco)
 
 If your hardware/drivers support
-[DRI3](https://en.wikipedia.org/wiki/Direct_Rendering_Infrastructure) then
-Marco compositing is now hardware accelerated. This dramatically improves 3D
-rendering performance, particularly in games. If your hardware doesn't support
-DRI3 then Marco will fallback to a software compositor.
+[DRI3](https://en.wikipedia.org/wiki/Direct_Rendering_Infrastructure)
+then the window manager (Marco) compositing is now hardware
+accelerated. This dramatically improves 3D rendering performance,
+particularly in games. If your hardware doesn't support DRI3 then Marco
+will fallback to a software compositor.
+
+Marco now supports drag to quadrant window tiling, cursor keys can be
+used to navigate the <kbd>Alt</kbd>+<kbd>Tab</kbd>switcher and keyboard
+shortcuts to move windows to another monitor were added.
 
 <div align="center">
 <iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -146,6 +187,8 @@ Unity 7 works. The HUD is also HiDPI aware now.
 
 ### Indicators
 
+<img class="right" src="/gallery/layouts/indicators-small.png" alt="Indicators" />
+
 **Ubuntu MATE 18.04 now uses Indicators by default in all layouts.** If
 you've used Ubuntu, these will be familiar. Indicators offer better
 accessibility support and ease of use over notification area applets.
@@ -165,10 +208,6 @@ MATE. The default Indicators are:
   * Messages
   * Sound
   * Session
-
-<div align="center">
-<img src="/gallery/layouts/indicators-small.png" alt="Indicators" /><br />
-</div>
 
 ### MATE Dock Applet
 
@@ -291,24 +330,6 @@ from GTK3 making them redundant.
   * Added support for the modifications to the Netbook layout.
   * Added a button to launch the Font preferences so users with HiDPI displays can fine tune their font DPI.
   * When saving a panel layout the Dock status will be saved too.
-
-## The File Manager (Caja)
-
-We've added some new features to the file manager (Caja).
-
-  * Added **[Advanced bulk rename](https://tari.in/www/software/cajarename/)** - A batch renaming extension.
-  * Added **[Encryption](https://github.com/darkshram/seahorse-caja)** - An extension which allows encryption and decryption of OpenPGP files using GnuPG
-  * Added **[Hash checking](https://github.com/tristanheaven/gtkhash)** - An extension for computing and validating message digests or checksums.
-  * Added **[Advanced ACL properties](https://github.com/darkshram/mate-eiciel)** - An extension to edit access control lists (ACLs) and extended attributes (xattr)
-  * Updated **[Folder Color](http://foldercolor.tuxfamily.org/)** - An extension for applying custom colours and emblems to folders and files.
-  * Replaced the deprecated `caja-gksu` with `caja-admin` which uses PolicyKit to elevate permissions in the file manager for adminstrative tasks.
-
-The deprecated `gksu` is being removed from Debian and we are aligning
-with that objective by replacing all use of `gksu` with PolicyKit.
-
-<div align="center">
-<img src="/gallery/layouts/caja-rename.png" alt="Caja Rename" /><br />
-</div>
 
 ## Documentation
 
