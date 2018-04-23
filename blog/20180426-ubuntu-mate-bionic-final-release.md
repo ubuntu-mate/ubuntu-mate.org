@@ -170,14 +170,15 @@ Desktop users expect.
 
 ### Global Menu
 
-The Global Menu implementation has switched from TopMenu to [Vala Panel
-Appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and it's
-**compatible with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google
+The Global Menu implementation has switched from TopMenu to
+[Vala Panel Appmenu](https://github.com/rilian-la-te/vala-panel-appmenu)
+which is **compatible with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google
 Chrome, Electron and others.**
 
-The Global Menu is used in the Mutiny and Cupertino layouts but it can
-be added to any panel for those who prefer to use global menus or those
-who want to maximise screen space for their applications.
+Global Menus are integrated in the Mutiny and Cupertino desktop layouts
+but can be added to any panel, for those who just prefer to use global
+menus or those who want to maximise screen space available to their
+applications.
 
 <div align="center">
 <img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
@@ -242,7 +243,7 @@ Applets](https://github.com/ubuntu-mate/mate-window-applets) make it
 possible to add window controls (mazimise, minimise and close) to a
 panel. We used Window Applets to enhance the Mutiny and Netbook layouts
 so that both will now remove window controls from maximised windows and
-replocate the window controls in the panel.
+relocate the window controls in the panel.
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="//imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
@@ -293,13 +294,14 @@ install your preferred browser.
 
 ### System telemetry
 
-Ubuntu MATE can submit anonymised system information that will help the
-developers better understand what devices Ubuntu MATE is being used on.
-This data will be transmitted one time only and includes basic system
-components but nothing that is uniquely identifiable. Here is [an
-example telemetry report from the main workstation of lead developer
-for Ubuntu MATE](https://paste.ubuntu.com/p/xWxbbDGBfn/). **We kindly
-request that if you install Ubuntu MATE you participate in sending a
+Ubuntu MATE Welcome can submit anonymised system information, generated
+during an install or upgrade, that will help the developers better
+understand what devices Ubuntu MATE is being used on. This data will be
+transmitted one time only and includes basic system components but
+nothing that is uniquely identifiable. Here is [an example telemetry
+report from the workstation of the Ubuntu MATE lead
+developer](https://paste.ubuntu.com/p/xWxbbDGBfn/). **We kindly request
+that if you install Ubuntu MATE you participate in sending us a
 telemetry report.**
 
 <div align="center">
@@ -308,47 +310,42 @@ telemetry report.**
 
 ## Minimal Installation
 
-If you follow the Ubuntu news closely you may have heard that 18.04 now has a
-Minimal Install option. Ubuntu MATE was at the front of the queue to take
-advantage of this new feature.
+The Minimal Install is a new option presented in the installer that
+will install just the MATE Desktop, its utilities, its themes and
+Firefox. All the other applications such as office suite, email client,
+video player, audio manager, etc. are not installed. If you're
+interested, here is [the complete list of software that will not be
+present on a minimal install of Ubuntu MATE
+18.04](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
 
 <div align="center">
 <img src="/gallery/bionic/minimal-install.png" alt="Minimal Install" /><br />
 </div>
 
-The Minimal Install is a new option presented in the installer that will
-install just the MATE Desktop, its utilities, its themes and Firefox. All the
-other applications such as office suite, email client, video player, audio
-manager, etc. are not installed. If you're interested, here is [the complete
-list of software that will not be present on a minimal install of Ubuntu MATE
-18.04](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
-
-So, who's this aimed at? There are users who like to uninstall the software
-they do not need or want to build out their own desktop experience. So for
-those users, a minimal install is a great platform to build on. For those of
-you interested in creating "kiosk" style devices, such as home brew Steam
-machines or Kodi boxes, then a minimal install is another useful starting
-point.
+So, who's this aimed at? There are users who like to uninstall the
+software they do not need or want to build out their own desktop
+experience. So for those users, a minimal install is a great platform
+to build on. For those of you interested in creating "kiosk" style
+devices, such as home brew Steam machines or Kodi boxes, then a minimal
+install is another useful starting point.
 
 ## MATE Tweak
 
 MATE Tweak can now toggle HiDPI mode between auto detection, regular
-scaling and forced scaling. HiDPI mode changes are dynamically applied. MATE
-Tweak has a deeper understanding of Brisk Menu and Global Menu capabilities
-and manages them transparently while switching layouts. Switching layouts is
-far more reliable now too. We've removed the *Interface* section from MATE
-Tweak. Sadly all the features the Interface section tweaked have been dropped
-from GTK3 making them redundant.
+scaling and forced scaling. HiDPI mode changes are dynamically applied
+and we've added a button to launch the Font preferences so users with
+HiDPI displays can fine tune their font DPI.
+
+MATE Tweak has a deep understanding of Brisk Menu and Global Menu
+capabilities and manages them transparently while switching layouts.
+Switching layouts is far more reliable now too. We've removed the
+*Interface* section from MATE Tweak. Sadly all the features the
+Interface section tweaked have been dropped from GTK3 making them
+redundant. When saving a panel layout the Dock status will be saved too.
 
 <div align="center">
 <img src="/gallery/bionic/mate-tweak.png" alt="MATE Tweak" /><br />
 </div>
-
-**We've added the following changes since 18.04 Beta 1**
-
-  * Added support for the modifications to the Netbook layout.
-  * Added a button to launch the Font preferences so users with HiDPI displays can fine tune their font DPI.
-  * When saving a panel layout the Dock status will be saved too.
 
 ## Documentation
 
