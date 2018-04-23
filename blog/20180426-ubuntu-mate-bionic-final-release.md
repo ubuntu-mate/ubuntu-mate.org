@@ -98,11 +98,9 @@ create your own custom desktop layout.
 A new layout has been added to the collection for the Ubuntu 18.04
 release Ubuntu MATE 18.04. It is called **Familiar** and is based on
 the Traditional layout with the menu-bar (Applications, Places, System)
-replaced by Brisk Menu.
-
-Familiar is now the the default layout, Traditional will continue to be
-shipped, unchanged, and will be available via MATE Tweak for those who
-prefer it.
+replaced by Brisk Menu. **Familiar is now the the default layout**,
+Traditional will continue to be shipped, unchanged, and will be
+available via MATE Tweak for those who prefer it.
 
 Here are some screenshots of the desktop layouts included in Ubuntu MATE
 to give you a feel for how you can configure your desktop experience.
@@ -155,7 +153,7 @@ of the projects we worked on to make it all possible.
 
 ### Super key
 
-<img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
+<img class="left" src="/gallery/layouts/superkey.png" alt="Super Key">
 
 Super key (also known as the Windows key) support is available in the
 majority of the desktop layouts. This means <kbd>Super</kbd> can be used
@@ -172,18 +170,14 @@ Desktop users expect.
 
 ### Global Menu
 
-The Global Menu integration is much improved. Fully functional with
+The Global Menu integration is much improved and **fully functional with
 GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron and
-others. You can choose make more of your available screen space while
+others.** You can choose make more of your available screen space while
 using Ubuntu MATE.
 
 <div align="center">
 <img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
 </div>
-
-The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
-longer won't trigger the HUD. This is consistent with how the HUD in
-Unity 7 works. The HUD is also HiDPI aware now.
 
 ### Indicators
 
@@ -221,19 +215,21 @@ icon scrolling.
 
 ### Brisk Menu
 
+[Brisk Menu](https://github.com/solus-project/brisk-menu) is an
+efficient, searchable, menu for the MATE Desktop. We've collaborated
+with the [Solus Project](https://solus-project.com/), the maintainers
+of Brisk Menu. A number of features have been added so that, like
+Ubuntu MATE itself, Brisk Menu is chameleonic. You'll find Brisk Menu
+is used in several of the Ubuntu MATE desktop layouts and is presented
+slightly differently in each.
+
+The Mutiny and Cupertino desktop layouts make use of a new dash-style
+launcher, which enables a full screen, searchable, application launcher
+while the other layouts present Brisk Menu as a more traditional menu.
+
 <div align="center">
 <img src="/gallery/bionic/brisk-menu-dash.png" alt="Brisk Menu Dash Launcher" /><br />
 </div>
-
-Many users commented that when using the Mutiny layout the *"traditional"*
-menu felt out of place. The [Solus Project](https://solus-project.com/), the
-maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have
-added a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched
-version of Brisk Menu that includes this new dash launcher. When MATE Tweak is
-used to enable the Mutiny or Cupertino layout, it now switches on the dash
-launcher which enables a full screen, searchable, application launcher.
-Similarly, switching to the other panel layouts restores the more traditional
-Brisk Menu.
 
 ### MATE Window Applets
 
@@ -271,9 +267,9 @@ resolution or multi-display workstations.
 <img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
 </div>
 
-The HUD has a 250ms (default) timeout, holding `Alt` any longer won't
-trigger the HUD. This is consistent with how the HUD in Unity 7 works.
-The HUD is also HiDPI aware.
+The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
+longer won't trigger the HUD. This is consistent with how the HUD in
+Unity 7 works. The HUD is also HiDPI aware now.
 
 ## Ubuntu MATE Welcome
 
@@ -281,10 +277,29 @@ Welcome and Boutique have been given some love.
 
   * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions.
   * Welcome now has snappier animations and transitions
-  * A **new Browser Selection screen** has been added so you can quickly install your preferred browser.
+
+### Browser Selection
+
+A new Browser Selection screen has been added so you can quickly
+install your preferred browser.
 
 <div align="center">
 <img src="/gallery/bionic/browser-selection.png" alt="Browser Selection" /><br />
+</div>
+
+### System telemetry
+
+Ubuntu MATE can submit anonymised system information that will help the
+developers better understand what devices Ubuntu MATE is being used on.
+This data will be transmitted one time only and includes basic system
+components but nothing that is uniquely identifiable. Here is [an
+example telemetry report from the main workstation of lead developer
+for Ubuntu MATE](https://paste.ubuntu.com/p/xWxbbDGBfn/). **We kindly
+request that if you install Ubuntu MATE you participate in sending a
+telemetry report.**
+
+<div align="center">
+<img src="/gallery/bionic/telemetry.png" alt="Telemetry" /><br />
 </div>
 
 ## Minimal Installation
