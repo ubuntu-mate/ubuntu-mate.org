@@ -153,11 +153,11 @@ of the projects we worked on to make it all possible.
 
 ### Super key
 
-<img class="left" src="/gallery/layouts/superkey.png" alt="Super Key">
+<img class="right" src="/gallery/layouts/superkey-small.png" alt="Super Key">
 
 Super key (also known as the Windows key) support is available in the
 majority of the desktop layouts. This means <kbd>Super</kbd> can be used
-to activate the menus/launchers and any other key-bindings that include
+to activate the menus/launchers and other key-bindings that include
 the <kbd>Super</kbd> key also continue to function correctly.
 
 MATE Dock Applet, used in the Mutiny layout, also includes launching or
