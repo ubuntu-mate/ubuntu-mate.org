@@ -44,7 +44,7 @@ Thanks to our friends at
 [Hypra.fr](http://hypra.fr/-Home-17-.html?lang=en) accessibility
 support (particularly for visually impaired users) has seen continued
 development and improvement. MATE Desktop is proud to provide visually
-impaired the most accessible open source desktop environment.
+impaired users the most accessible open source desktop environment.
 
 ### HiDPI
 
@@ -170,10 +170,14 @@ Desktop users expect.
 
 ### Global Menu
 
-The Global Menu integration is much improved and **fully functional with
-GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron and
-others.** You can choose make more of your available screen space while
-using Ubuntu MATE.
+The Global Menu implementation has switched from TopMenu to [Vala Panel
+Appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and it's
+**compatible with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google
+Chrome, Electron and others.**
+
+The Global Menu is used in the Mutiny and Cupertino layouts but it can
+be added to any panel for those who prefer to use global menus or those
+who want to maximise screen space for their applications.
 
 <div align="center">
 <img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
