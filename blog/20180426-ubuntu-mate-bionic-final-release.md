@@ -324,7 +324,7 @@ So, who's this aimed at? There are users who like to uninstall the
 software they do not need or want to build out their own desktop
 experience. So for those users, a minimal install is a great platform
 to build on. For those of you interested in creating "kiosk" style
-devices, such as home brew Steam machines or Kodi boxes, then a minimal
+devices, such as homebrew Steam machines or Kodi boxes, then a minimal
 install is another useful starting point.
 
 ## MATE Tweak
