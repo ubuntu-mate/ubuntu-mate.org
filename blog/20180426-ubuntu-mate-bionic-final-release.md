@@ -279,7 +279,7 @@ Unity 7 works. The HUD is also HiDPI aware now.
 
 Welcome and Boutique have been given some love.
 
-  * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions.
+  * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions
   * Welcome now has snappier animations and transitions
 
 ### Browser Selection
