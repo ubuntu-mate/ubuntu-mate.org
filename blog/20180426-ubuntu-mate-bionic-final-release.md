@@ -433,7 +433,7 @@ Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
 
 See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all
-the changes and improvements that Ubuntu MATE benefits from..
+the changes and improvements that Ubuntu MATE benefits from.
 
 ## Raspberry Pi images
 
