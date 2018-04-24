@@ -191,7 +191,7 @@ applications.
 **Ubuntu MATE 18.04 now uses Indicators by default in all layouts.** If
 you've used Ubuntu, these will be familiar. Indicators offer better
 accessibility support and ease of use over notification area applets.
-The volume in Indicator Sound can now be over driven, so it is
+The volume in Indicator Sound can now be overdriven, so it is
 consistent with the MATE sound preferences. Notification area applets
 are still supported as a fallback.
 
