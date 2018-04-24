@@ -246,9 +246,9 @@ relocate the window controls in the panel.
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="//imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-## Heads-Up Display
+## Head-Up Display
 
-A favourite of Unity 7 users is the Heads-Up Display (HUD) which
+A favourite of Unity 7 users is the Head-Up Display (HUD) which
 provides a way to search for and run menu-bar commands without your
 fingers ever leaving the keyboard. The HUD can be enabled via MATE
 Tweak.
