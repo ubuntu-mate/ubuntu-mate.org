@@ -238,8 +238,7 @@ while the other layouts present Brisk Menu as a more traditional menu.
 
 ### MATE Window Applets
 
-[MATE Window
-Applets](https://github.com/ubuntu-mate/mate-window-applets) make it
+[MATE Window Applets](https://github.com/ubuntu-mate/mate-window-applets) make it
 possible to add window controls (mazimise, minimise and close) to a
 panel. We used Window Applets to enhance the Mutiny and Netbook layouts
 so that both will now remove window controls from maximised windows and
