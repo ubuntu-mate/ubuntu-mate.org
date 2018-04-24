@@ -98,7 +98,7 @@ create your own custom desktop layout.
 A new layout has been added to the collection for the Ubuntu 18.04
 release Ubuntu MATE 18.04. It is called **Familiar** and is based on
 the Traditional layout with the menu-bar (Applications, Places, System)
-replaced by Brisk Menu. **Familiar is now the the default layout**,
+replaced by Brisk Menu. **Familiar is now the the default layout**.
 Traditional will continue to be shipped, unchanged, and will be
 available via MATE Tweak for those who prefer it.
 
