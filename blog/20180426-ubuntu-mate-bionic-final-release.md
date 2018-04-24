@@ -37,8 +37,8 @@ GTK3 implementation. The move to GTK3 has made it possible to introduce
 many of the new features you'll read about below.
 
 Support for `libinput` has been added and is now the default input
-handler for mouse and touchpad, which result is much improved
-responsiveness and support for multi finger touch geatures.
+handler for mouse and touchpad, which has resulted in much improved
+responsiveness and support for multi-finger touch gestures.
 
 Thanks to our friends at
 [Hypra.fr](http://hypra.fr/-Home-17-.html?lang=en) accessibility
