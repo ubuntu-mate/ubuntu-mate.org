@@ -79,7 +79,7 @@ If your hardware/drivers support
 then the window manager (Marco) compositing is now hardware
 accelerated. This dramatically improves 3D rendering performance,
 particularly in games. If your hardware doesn't support DRI3 then Marco
-will fallback to a software compositor.
+will fall back to a software compositor.
 
 Marco now supports drag to quadrant window tiling, cursor keys can be
 used to navigate the <kbd>Alt</kbd>+<kbd>Tab</kbd>switcher and keyboard
