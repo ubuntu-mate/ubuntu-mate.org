@@ -313,9 +313,8 @@ The Minimal Install is a new option presented in the installer that
 will install just the MATE Desktop, its utilities, its themes and
 Firefox. All the other applications such as office suite, email client,
 video player, audio manager, etc. are not installed. If you're
-interested, here is [the complete list of software that will not be
-present on a minimal install of Ubuntu MATE
-18.04](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
+interested, here is [the complete list of software that is removed from
+a full Ubuntu MATE 18.04 installation to make the minimal install](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove).
 
 <div align="center">
 <img src="/gallery/bionic/minimal-install.png" alt="Minimal Install" /><br />
