@@ -397,7 +397,7 @@ the addition of a new dark variant of the Ambiant-MATE theme. We've
 worked tirelessly on all the Ubuntu MATE themes making them fully
 compatible with GTK 3.22 and ensuring every pixel is placed exactly
 where it should be. [Michael Tunnel](http://michaeltunnell.com/) from
-[TuxDigitial](http://tuxdigital.com/) retouched countless art assets
+[TuxDigital](http://tuxdigital.com/) retouched countless art assets
 for the Ubuntu MATE themes including scaled variants for use on HiDPI
 displays. The Ubuntu MATE icon theme was given a facelift thanks to our
 friends at [elementary OS](https://elementary.io/) and the default
