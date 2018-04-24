@@ -229,7 +229,7 @@ is used in several of the Ubuntu MATE desktop layouts and is presented
 slightly differently in each.
 
 The Mutiny and Cupertino desktop layouts make use of a new dash-style
-launcher, which enables a full screen, searchable, application launcher
+launcher, which enables a fullscreen searchable application launcher
 while the other layouts present Brisk Menu as a more traditional menu.
 
 <div align="center">
