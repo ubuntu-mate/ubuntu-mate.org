@@ -17,7 +17,7 @@
 
 No one reads the release notes, isn't that right [Das
 Geek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ). So
-when our friend [Stuart Langridge ](https://www.kryogenix.org/) was
+when our friend [Stuart Langridge](https://www.kryogenix.org/) was
 reviewing our draft release notes and commented that they didn't speak
 to him, we thought *"all right, we can fix that"*. Stuart, since you
 are such a special snowflake and no one else will read these notes,
