@@ -113,7 +113,9 @@ to give you a feel for how you can configure your desktop experience.
     <li><a class="image-reference" href="/gallery/layouts/Familiar.png"><img src="/gallery/layouts/Familiar.png" title="Familiar - the default experience, a familiar two panel layout with a searchable menu"></a></li>
     <li><a class="image-reference" href="/gallery/layouts/Mutiny.png"><img src="/gallery/layouts/Mutiny.png" title="Mutiny - application dock, searchable launcher and global menus similar to Unity 7"></a></li>
     <li><a class="image-reference" href="/gallery/layouts/Cupertino.png"><img src="/gallery/layouts/Cupertino.png" title="Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Redmond.png"><img src="/gallery/layouts/Redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
+    <li><a class="image-reference" href="/gallery/layouts/Redmonwill not be
+317
+present on a minimal installd.png"><img src="/gallery/layouts/Redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
     <li><a class="image-reference" href="/gallery/layouts/Pantheon.png"><img src="/gallery/layouts/Pantheon.png" title="Pantheon - a dock and top panel with a searchable menu"></a></li>
     <li><a class="image-reference" href="/gallery/layouts/Contemporary.png"><img src="/gallery/layouts/Contemporary.png" title="Contemporary - modernised two panel layout featuring a searchable menu with global menus"></a></li>
     <li><a class="image-reference" href="/gallery/layouts/Netbook.png"><img src="/gallery/layouts/Netbook.png" title="Netbook - a compact, single top panel layout, ideal for small screens"></a></li>
@@ -367,8 +369,7 @@ suit your preferences.
 
 ## Slick Greeter
 
-Ubuntu MATE switched to [Slick
-Greeter](https://github.com/linuxmint/slick-greeter) during the 17.10
+Ubuntu MATE switched to [Slick Greeter](https://github.com/linuxmint/slick-greeter) during the 17.10
 development cycle, which still uses LightDM under the hood but is far
 more attractive and HiDPI aware.
 
