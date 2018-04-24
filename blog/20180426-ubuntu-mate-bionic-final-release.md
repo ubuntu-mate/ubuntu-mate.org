@@ -337,8 +337,8 @@ HiDPI displays can fine tune their font DPI.
 MATE Tweak has a deep understanding of Brisk Menu and Global Menu
 capabilities and manages them transparently while switching layouts.
 Switching layouts is far more reliable now too. We've removed the
-*Interface* section from MATE Tweak. Sadly all the features the
-Interface section tweaked have been dropped from GTK3 making them
+*Interface* section from MATE Tweak. Sadly, all the features the
+Interface section tweaked have been dropped from GTK3, making the whole section
 redundant. When saving a panel layout the Dock status will be saved too.
 
 <div align="center">
