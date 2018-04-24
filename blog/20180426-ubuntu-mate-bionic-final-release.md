@@ -351,7 +351,7 @@ redundant. When saving a panel layout the Dock status will be saved too.
 
 The Ubuntu MATE Guide is a comprehensive introduction to MATE Desktop and
 Ubuntu MATE including **how to use everything we ship by default**, along with
-detailed instruction on how to tailor, tweak and customise Ubuntu MATE to your
+detailed instruction on how to tailor, tweak and customise Ubuntu MATE to 
 suit your preferences.
 
 <div align="center">
