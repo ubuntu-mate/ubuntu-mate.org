@@ -260,9 +260,9 @@ you can just search for it rather than hunting through the menus.
 
 The purpose of the HUD is to keep your fingers on the keyboard and
 improve the efficiency in driving the menus for keyboard centric users.
-We've locally integrated the HUD for similar reasons, if you're looking
-at an application why move the HUD to the top of screen away from where
-your eyes are already focused. Keeping the HUD within the context of
+We've locally integrated the HUD for similar reasons; if you're looking
+at an application, why move the HUD to the top of screen away from where
+your eyes are already focused? Keeping the HUD within the context of
 the active application eliminates refocusing your attention to a
 different part of the screen, particularly helpful for users with high
 resolution or multi-display workstations.
