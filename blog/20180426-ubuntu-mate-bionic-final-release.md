@@ -51,8 +51,8 @@ impaired users the most accessible open source desktop environment.
 Since MATE Desktop 1.20 HiDPI displays are supported and provide
 dynamic detection and scaling. HiDPI hints for Qt applications are also
 pushed to the environment to improve cross toolkit integration. Every
-aspect of the MATE Desktop, it's themes, it's applications, it's icons,
-it's toolkit assets have been updated to enable
+aspect of the MATE Desktop, its themes, its applications, its icons,
+its toolkit assets have been updated to enable
 
 ### The File Manager (Caja)
 
