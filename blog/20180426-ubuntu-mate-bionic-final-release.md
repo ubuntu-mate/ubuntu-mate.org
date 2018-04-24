@@ -32,7 +32,7 @@ new features and improvements compared to 16.04.
 
 The MATE Desktop has transitioned from the GTK 2.24 based MATE 1.12 to
 the very latest MATE 1.20.1 based on GTK 3.22. This migration has been
-several years in the making most of 2016 and 2017 was spent refining the
+several years in the making, and most of 2016 and 2017 was spent refining the
 GTK3 implementation. The move to GTK3 has made it possible to introduce
 many of the new features you'll read about below.
 
