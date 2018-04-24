@@ -395,7 +395,7 @@ closed for 18.04.
 The Ubuntu MATE themes have been uplifted from GTK2 to GTK3 including
 the addition of a new dark variant of the Ambiant-MATE theme. We've
 worked tirelessly on all the Ubuntu MATE themes making them fully
-compatible with GTK 3.22 add ensuring every pixel is placed exactly
+compatible with GTK 3.22 and ensuring every pixel is placed exactly
 where it should be. [Michael Tunnel](http://michaeltunnell.com/) from
 [TuxDigitial](http://tuxdigital.com/) retouched countless art assets
 for the Ubuntu MATE themes including scaled variants for use on HiDPI
