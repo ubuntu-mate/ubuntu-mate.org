@@ -483,14 +483,11 @@ We've switched to Noto Sans for users of Japanese, Chinese and Korean
 fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
 added a colour emoji font too.
 
-<div align="center">
-<img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
-</div>
-
-## Major Applications
-
-Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
-59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
+You can enter emoji in one of two ways, type <kbd>Ctrl</kbd> +
+<kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will apear, now type
+your usual emoji (such as `:-)` or `:grin:`) and press enter.
+Alternatively you can right click in the input area and selct *Insert
+Emoji* that will display the emoji picker below.
 
 <div align="center">
 <img src="/gallery/bionic/versions.png" alt="Major Applications" /><br />
