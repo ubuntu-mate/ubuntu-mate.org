@@ -11,13 +11,14 @@
 
 Charles Babbage wasn't lying when he said *"The only thing that would
 make my Difference Engine any better would be a modern customisable
-desktop that didn't deviate from traditional desktop paradigms (unless
-I wanted it too.)"* In a long lost diary entry Ada Lovelace scribbled
-*"If only my code could be matched to an OS that had a perfect blend of
-usability and style accompanied by a handpicked selection of quality
-software packages."* [ENIAC](https://en.wikipedia.org/wiki/ENIAC),
-moments before being unplugged in 1956 spat out a final message: *"Give
-us a reboot when Ubuntu MATE 18.04 LTS is out will ya?"*
+desktop environment that didn't deviate from traditional desktop
+paradigms (unless I wanted it too.)"* In a long lost diary entry Ada
+Lovelace scribbled *"If only my code could be matched to an OS that had
+a perfect blend of usability and style accompanied by a handpicked
+selection of quality software packages."*
+[ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
+unplugged in 1956 spat out a final message: *"Give us a reboot when
+Ubuntu MATE 18.04 LTS is out will ya?"*
 
 Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
 joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
@@ -26,36 +27,35 @@ up.
 MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep with
 joy but there is still more. Caja is primed to encrypt your secrets
 with GnuPG, and with bulk renaming built right in to the file manager
-you can deal with those pesky family reunion photos.
+you can finally deal with those pesky family reunion photos.
 
 Got a fancy new display and itty bitty pixels? HiDPI support bounds into
 this LTS, it's so dynamic you won't know what to do with yourself.
 
 ENIAC, are your tubes warmed up yet? We have tweaked desktop layouts,
 improved global menus, refined our Head-Up Display (HUD) and updated
-Brisk Menu, developed in conjunction with those folks at the Solus
-Project. It's dandy.
+Brisk Menu. It's dandy!
 
 We could scream it all here in this blurb, instead we suggest you take
-a scroll through the notes below and behold the behemoth that is Ubuntu
+a scroll through the notes below and behold the majesty that is Ubuntu
 MATE 18.04 LTS.
 
 We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
-contributed code, documentation, artwork, bug reports or artwork. A
-*"Thank You!"* the members of our community forum who offer advice and
-support to those who request it. A *"Thank You!"* to everyone who has
-supported the Ubuntu MATE crowd funding that helps reward and
-incentivise developers who work on MATE Desktop, Ubuntu MATE and
-associated technologies. You are the 20,000 vacuum tubes and the
-5,000,000 hand soldered joints that make up Ubuntu Mate 18.04 LTS. We
-couldn't be prouder.
+contributed code, documentation, artwork, bug reports, translations or
+artwork. A *"Thank You!"* the members of our community forum who offer
+advice and support to those who request it. A *"Thank You!"* to
+everyone who has supported the Ubuntu MATE crowd funding that helps
+reward and incentivise developers who work on MATE Desktop, Ubuntu MATE
+and associated technologies in their spare time. You are the 20,000
+vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
+Mate 18.04 LTS. We couldn't be prouder.
 
 <div align="center">
 <img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
 </div>
 
-No one reads the release notes, isn't that right [Das
-Geek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ). So
+No one reads the release notes, isn't that right
+[DasGeek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ)? So
 when our friend [Stuart Langridge](https://www.kryogenix.org/) was
 reviewing our draft release notes and commented that they didn't speak
 to him, we thought *"all right, we can fix that"*. Stuart, since you
@@ -87,11 +87,23 @@ impaired users the most accessible open source desktop environment.
 
 ### HiDPI
 
-Since MATE Desktop 1.20 HiDPI displays are supported and provide
-dynamic detection and scaling. HiDPI hints for Qt applications are also
-pushed to the environment to improve cross toolkit integration. Every
-aspect of the MATE Desktop, its themes, its applications, its icons,
-its toolkit assets have been updated to enable
+High DPI displays have a high resolution relative their physical size
+that results in an increased pixel density compared to standard DPI
+displays. They are mostly found in high-end laptops and monitors. Our
+friends at elementary OS wrote a great blog post explaining
+[What is HIDPI and why does it matter](https://medium.com/elementaryos/what-is-hidpi-and-why-does-it-matter-b024eabea20d).
+
+MATE Desktop 1.20 supports HiDPI displays and if you have one then
+Ubuntu MATE will automatically enable pixel scaling, presenting you
+with a super crisp desktop and applications. HiDPI hints for Qt
+applications are also pushed to the environment to improve cross
+toolkit integration. Every aspect of the Ubuntu MATE, its themes, its
+applications, its icons, its toolkit assets have been updated to take
+advantage of HiDPI.
+
+Should you have a HiDPI display and want to disable HiDPI scaling you
+can do so via MATE Tweak (for the desktop) and Login Window (for the
+greeter), both are available in the Control Centre.
 
 ### The File Manager (Caja)
 
@@ -487,8 +499,8 @@ fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
 added a colour emoji font too.
 
 You can enter emoji in one of two ways, type <kbd>Ctrl</kbd> +
-<kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will apear, now type
-your usual emoji (such as `:-)`) and it will automatically change to a
+<kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will apear and you can
+type usual emoji, such as `:-)` and it will automatically change to a
 glyph. Alternatively you can right click in the input area and selct
 *Insert Emoji* that will display the emoji picker below.
 
