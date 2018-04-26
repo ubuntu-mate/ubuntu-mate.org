@@ -9,46 +9,46 @@
 .. author: Martin Wimpress
 -->
 
-Charles Babbage wasn't lying when he said *"The only thing that would
-make my Difference Engine any better would be a modern customisable
-desktop environment that didn't deviate from traditional desktop
-paradigms (unless I wanted it too.)"* In a long lost diary entry Ada
-Lovelace scribbled *"If only my code could be matched to an OS that had
-a perfect blend of usability and style accompanied by a handpicked
-selection of quality software packages."*
-[ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
-unplugged in 1956 spat out a final message: *"Give us a reboot when
-Ubuntu MATE 18.04 LTS is out will ya?"*
-
-Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
-joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
-up.
-
-MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep with
-joy but there is still more. Caja is primed to encrypt your secrets
-with GnuPG, and with bulk renaming built right in to the file manager
-you can finally deal with those pesky family reunion photos.
-
-Got a fancy new display and itty bitty pixels? HiDPI support bounds into
-this LTS, it's so dynamic you won't know what to do with yourself.
-
-ENIAC, are your tubes warmed up yet? We have tweaked desktop layouts,
-improved global menus, refined our Head-Up Display (HUD) and updated
-Brisk Menu. It's dandy!
-
-We could scream it all here in this blurb, instead we suggest you take
-a scroll through the notes below and behold the majesty that is Ubuntu
-MATE 18.04 LTS.
-
-We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
-contributed code, documentation, artwork, bug reports, translations or
-artwork. A *"Thank You!"* the members of our community forum who offer
-advice and support to those who request it. A *"Thank You!"* to
-everyone who has supported the Ubuntu MATE crowd funding that helps
-reward and incentivise developers who work on MATE Desktop, Ubuntu MATE
-and associated technologies in their spare time. You are the 20,000
-vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
-Mate 18.04 LTS. We couldn't be prouder.
+> Charles Babbage wasn't lying when he said *"The only thing that would
+> make my Difference Engine any better would be a modern customisable
+> desktop environment that didn't deviate from traditional desktop
+> paradigms (unless I wanted it too.)"* In a long lost diary entry Ada
+> Lovelace scribbled *"If only my code could be matched to an OS that had
+> a perfect blend of usability and style accompanied by a handpicked
+> selection of quality software packages."*
+> [ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
+> unplugged in 1956 spat out a final message: *"Give us a reboot when
+> Ubuntu MATE 18.04 LTS is out will ya?"*
+>
+> Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
+> joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
+> up.
+>
+> MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep with
+> joy but there is still more. Caja is primed to encrypt your secrets
+> with GnuPG, and with bulk renaming built right in to the file manager
+> you can finally deal with those pesky family reunion photos.
+>
+> Got a fancy new display and itty bitty pixels? HiDPI support bounds into
+> this LTS, it's so dynamic you won't know what to do with yourself. We
+> have tweaked desktop layouts, improved global menus, refined our
+> Head-Up Display (HUD) and updated Brisk Menu. It's dandy!
+>
+> We could scream it all here in this blurb, instead we suggest you take
+> a scroll through the notes below and behold the majesty that is Ubuntu
+> MATE 18.04 LTS.
+>
+> We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
+> contributed code, documentation, artwork, bug reports, translations or
+> artwork. A *"Thank You!"* the members of our community forum who offer
+> advice and support to those who request it. A *"Thank You!"* to
+> everyone who has supported the Ubuntu MATE crowd funding that helps
+> reward and incentivise developers who work on MATE Desktop, Ubuntu MATE
+> and associated technologies in their spare time. You are the 20,000
+> vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
+> MATE 18.04 LTS. We couldn't be prouder.
+>
+> *Martin Wimpress, Ubuntu MATE Project Leader.*
 
 <div align="center">
 <img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
