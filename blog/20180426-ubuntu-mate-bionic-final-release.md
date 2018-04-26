@@ -252,90 +252,36 @@ MATE. The default Indicators are:
 ### MATE Dock Applet
 
 [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) is
-used in the Mutiny layout, but anyone can add it to a panel to create
-custom panel arrangements. The new version adds support for BAMF and
-icon scrolling.
+used in the Mutiny and Netbook layouts, but anyone can add it to a
+panel to create custom panel arrangements. MATE Dock Applet has seen many
+improvements over the last 2 years, here are some of the highlights:
 
-  * MATE Dock Applet no longer uses its own method of matching icons to applications and instead uses BAMF. What this means for users is that from now on the applet will be a lot better at matching applications and windows to their dock icons.
-  * Icon scrolling is useful when the dock has limited space on its panel and will prevent it from expanding over other applets. This addresses an issue reported by several users in Ubuntu MATE 17.10.
+#### Icon scrolling
 
-V0.82 of the applet follows on from the recent release of MATE 1.20 and
-contains some changes relating to the way app scrolling works.
+Icon scrolling is automatically enabled when the applet runs out of
+space on the panel to expand into. To scroll icons the mouse pointer
+must be moved over either the first or last icon in the dock. If
+scrolling is possible in that direction, the icon will darken and an
+arrow will be displayed over it. If you hover the mouse pointer over an
+icon in this state, the dock will scroll in the indicated direction.
+Icon scrolling is automatically configured and enabled when using the
+Mutiny desktop layout, when using any other layout scrolling
+can be enabled via the MATE Dock Applet preferences.
 
-With the applet is used with MATE 1.20 app icon scrolling is automatically
-enabled when it is needed - i.e. when the applet runs out of space on the
-panel to expand into - and is it automatically disabled when not needed e.g.
-when the applet is given more space by being moved, or when another applet is
-removed from the panel.
+#### Icon matching
 
-When the applet is moved about on the panel it can now also resize and become
-larger or smaller to make the best use of the available panel space in the
-same way that the window list applet does. The minimum size it will allow
-itself is 4 app icons.
+MATE Dock Applet no longer uses its own method of matching icons to
+applications and instead uses BAMF. This mean the applet is lot better
+at matching applications and windows to their dock icons.
 
-Because the applet can now adjust itself to the available panel space, the
-dock size configuration options introduced in V0.81 are not needed with MATE
-1.20 and do not appear in the preferences dialog. However, if the applet is
-used with an earlier version of MATE, they will still be there and can be used
-as before.
+#### Window lists and Action Lists
 
-There are a couple of major changes in this latest version of the applet.
-
-The first is that the dock now supports scrolling of app icons. This is useful
-when the dock has limited space on its panel and will prevent it from
-expanding over other applets. To scroll app icons, the mouse pointer must be
-moved over either the first or last icon in the dock. If scrolling is possible
-in that direction, the app icon will darken and an arrow will be displayed
-over it.
-
-scroll arrow
-
-If the mouse pointer hovers over an icon in this state, the dock will scroll
-in the indicated direction. As with icons, the arrows are drawn using the
-current icon theme and their appearance will therefore vary from theme to
-theme.
-
-App scrolling is automatically configured and enabled when using the Mutiny
-layout from Mate Tweak. When using any other layout scrolling can be enabled
-using a new preferences setting.
-
-scrolling preferences
-
-If 'Variable' is selected, scrolling is disabled and the dock will behave as
-in take as much space on the panel as it needs, possibly expanding over other
-applets as in previous versions. If 'Fixed' is selected, the dock will claim
-enough space to display the specfied number of app icons, and will begin
-scrolling icons when it contains more than this number.
-
-A few things to note about scrolling:
-
-    The implementation is still in an early state and bugs can be expected...
-    It is Gtk3 only
-    The current approach of setting scrolling on or off via a preferences item is a short term workaround while this issue with the MATE panel and python introspection is fixed. Once done, future versions of the applet will be able to automatically enable and disable app scrolling as and when needed.
-
-The other big change for this version is that applet the no longer uses its
-own method of matching applications and instead uses the bamf library for
-this. What this means for users is that from now on the applet will be a lot
-better at matching applications and windows to their dock icons. For package
-maintainers it means the applet has the following new dependencies:
-bamfdaemon, libbamf and gir1.2-bamf
-
-There are also two minor changes to mentions. Firstly, popup windows (action
-lists and window lists) no longer steal focus from other windows. Secondly,
-when using a solid fill for the active icon background, the contrast between
-the icon and the background has been improved.
-
-Finally, a screenshot of V0.81 applet on Ubuntu Mate 18.04. Note that the dock is just about to scroll.
-
-This release of the applet contains some bug fixes and cosmetic improvements:
-
-    Window lists and action lists now have rounded corners and point to their app's icon in the dock. Note: this requires Gtk3 and Python GObject bindings 3.26 or greater - with Gtk2 or with Gtk3 and PyGobject 3.25 or earlier, the old style of window and action lists will continue to be used.
-    The delay before action lists appear when the mouse hovers over a dock icon can now be set in the preferences dialog.
-    Apps can now be pinned to specific workspaces, in other words their app icons only appear in the dock when a particular workspace is active. This allows users to customise the dock for each workspace they use.
-    When unpinning an app a notification is now displayed which allows the operation to be undone and re-pins the app to the dock.
-    A bug has been fixed that would sometimes cause app icons to continually flash.
-    The appearance of progress bars on dock icons has been improved.
-
+  * Window lists and action lists now have rounded corners and point to their icon in the dock.
+  * The delay before action lists appear when the mouse hovers over a dock icon can now be set in the preferences dialog.
+  * Apps can now be pinned to specific workspaces, in other words their app icons only appear in the dock when a particular workspace is active. This allows users to customise the dock for each workspace they use.
+  * When unpinning an app a notification is now displayed which allows the operation to be undone and re-pins the app to the dock.
+  * The appearance of progress bars on dock icons has been improved.
+  * Popup windows (action lists and window lists) no longer steal focus from other windows.
 
 ### Brisk Menu
 
