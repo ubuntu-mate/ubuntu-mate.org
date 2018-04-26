@@ -253,20 +253,21 @@ MATE. The default Indicators are:
 
 [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) is
 used in the Mutiny and Netbook layouts, but anyone can add it to a
-panel to create custom panel arrangements. MATE Dock Applet has seen many
-improvements over the last 2 years, here are some of the highlights:
+panel to create custom panel arrangements. MATE Dock Applet has seen
+many improvements over the last 2 years, here are some of the
+highlights:
 
 #### Icon scrolling
 
-Icon scrolling is automatically enabled when the applet runs out of
-space on the panel to expand into. To scroll icons the mouse pointer
-must be moved over either the first or last icon in the dock. If
-scrolling is possible in that direction, the icon will darken and an
-arrow will be displayed over it. If you hover the mouse pointer over an
-icon in this state, the dock will scroll in the indicated direction.
-Icon scrolling is automatically configured and enabled when using the
-Mutiny desktop layout, when using any other layout scrolling
-can be enabled via the MATE Dock Applet preferences.
+Icon scrolling is automatically enabled when the dock applet runs out
+of space on the panel to expand into. Move the mouse over either the
+first or last icon in the dock, if scrolling is possible in that
+direction the icon will darken and an arrow will be displayed over it.
+If you hover the mouse pointer over an icon in this state, the dock
+will scroll in the indicated direction. Icon scrolling is automatically
+configured and enabled when using the Mutiny desktop layout, when using
+any other layout scrolling can be enabled via the MATE Dock Applet
+preferences.
 
 #### Icon matching
 
@@ -274,12 +275,12 @@ MATE Dock Applet no longer uses its own method of matching icons to
 applications and instead uses BAMF. This mean the applet is lot better
 at matching applications and windows to their dock icons.
 
-#### Window lists and Action Lists
+#### Assorted improvements
 
   * Window lists and action lists now have rounded corners and point to their icon in the dock.
   * The delay before action lists appear when the mouse hovers over a dock icon can now be set in the preferences dialog.
   * Apps can now be pinned to specific workspaces, in other words their app icons only appear in the dock when a particular workspace is active. This allows users to customise the dock for each workspace they use.
-  * When unpinning an app a notification is now displayed which allows the operation to be undone and re-pins the app to the dock.
+  * When unpinning an application a notification is now displayed which allows the operation to be undone.
   * The appearance of progress bars on dock icons has been improved.
   * Popup windows (action lists and window lists) no longer steal focus from other windows.
 
