@@ -12,7 +12,7 @@
 **Charles Babbage wasn't lying when he said *"The only thing that would
 make my Difference Engine any better would be a modern customisable
 desktop environment that didn't deviate from traditional desktop
-paradigms (unless I wanted it too.)"* In a long lost diary entry Ada
+paradigms (unless I wanted it to.)"* In a long lost diary entry Ada
 Lovelace scribbled *"If only my code could be matched to an OS that had
 a perfect blend of usability and style accompanied by a handpicked
 selection of quality software packages."*
@@ -40,8 +40,8 @@ MATE 18.04 LTS.
 
 We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
 contributed code, documentation, artwork, bug reports, translations or
-artwork. A *"Thank You!"* the members of our community forum who offer
-advice and support to those who request it. A *"Thank You!"* to
+artwork. A *"Thank You!"* to the members of our community forum who
+offer advice and support to those who request it. A *"Thank You!"* to
 everyone who has supported the Ubuntu MATE crowd funding that helps
 reward and incentivise developers who work on MATE Desktop, Ubuntu MATE
 and associated technologies in their spare time. You are the 20,000
@@ -85,7 +85,7 @@ impaired users the most accessible open source desktop environment.
 
 ### HiDPI
 
-High DPI displays have a high resolution relative their physical size
+High DPI displays have a high resolution relative to their physical size
 that results in an increased pixel density compared to standard DPI
 displays. They are mostly found in high-end laptops and monitors. Our
 friends at elementary OS wrote a great blog post explaining
@@ -503,9 +503,9 @@ fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've
 added a colour emoji font too.
 
 You can enter emoji in one of two ways, type <kbd>Ctrl</kbd> +
-<kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will apear and you can
+<kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will appear and you can
 type usual emoji, such as `:-)`, and it will automatically change to a
-glyph. Alternatively you can right click in the input area and selct
+glyph. Alternatively you can right click in the input area and select
 *Insert Emoji* that will display the emoji picker below.
 
 <div align="center">
