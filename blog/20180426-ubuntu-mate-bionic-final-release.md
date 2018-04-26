@@ -9,42 +9,46 @@
 .. author: Martin Wimpress
 -->
 
-Charles Babbage wasn't lying when he said *"The only thing that would make my 
-Difference Engine any better would be a modern customisable desktop that 
-didn't deviate from traditional desktop paradigms (unless I wanted it too.)"* 
-In a long lost diary entry Ada Lovelace scribbled *"If only my code could be 
-matched to an OS that had a perfect blend of usability and style accompanied 
-by a handpicked selection of quality software packages."* ENIAC, moments before 
-being unplugged in 1956 spat out a final message: *"Give us a reboot when 
-Ubuntu MATE 18.04 LTS is out will ya?"*
+Charles Babbage wasn't lying when he said *"The only thing that would
+make my Difference Engine any better would be a modern customisable
+desktop that didn't deviate from traditional desktop paradigms (unless
+I wanted it too.)"* In a long lost diary entry Ada Lovelace scribbled
+*"If only my code could be matched to an OS that had a perfect blend of
+usability and style accompanied by a handpicked selection of quality
+software packages."* ENIAC, moments before being unplugged in 1956 spat
+out a final message: *"Give us a reboot when Ubuntu MATE 18.04 LTS is
+out will ya?"*
 
-Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered joints 
-because Ubuntu MATE 18.04 LTS is here and it's time to power it up.
+Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
+joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
+up.
 
-MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep but there 
-is still more. Caja is primed to encrypt your secrets with GnuPG, and with 
-bulk renaming built right in to the file manager you can deal with those pesky 
-family reunion photos from 2004! FINALLY!
+MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep with
+joy but there is still more. Caja is primed to encrypt your secrets
+with GnuPG, and with bulk renaming built right in to the file manager
+you can deal with those pesky family reunion photos.
 
-Got a fancy new monitor and itty bitty pixels? A HiDPI toolkit bounds into 
-this LTS, it’s so dynamic you won't know what to do with yourself.
+Got a fancy new display and itty bitty pixels? HiDPI support bounds into
+this LTS, it's so dynamic you won't know what to do with yourself.
 
-ENIAC, are your tubes warmed up yet? We have tweaked desktop layouts, global 
-menus and the included a 'new to LTS' Brisk menu, developed in conjunction 
-with those folks at the Solus Project. It's dandy.
+ENIAC, are your tubes warmed up yet? We have tweaked desktop layouts,
+improved global menus, refined our Head-Up Display (HUD) and updated
+Brisk Menu, developed in conjunction with those folks at the Solus
+Project. It's dandy.
 
-We could scream it all here in this blurb, instead we suggest you take a 
-scroll through the notes below and behold the behemoth that is Ubuntu MATE
-18.04 LTS.
+We could scream it all here in this blurb, instead we suggest you take
+a scroll through the notes below and behold the behemoth that is Ubuntu
+MATE 18.04 LTS.
 
-We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who 
-contributed code, artwork, bug reports and artwork. A *"Thank You!"* the 
-members of our community forum who advice and support to those who request it. 
-A *"Thank You!"* to everyone who has supported the Ubuntu MATE crowd funding 
-that helps reward and incentivise developers working on MATE Desktop, Ubuntu 
-MATE and associated technologies. You are the 20,000 vacuum tubes and the 
-5,000,000 hand soldered joints that make up Ubuntu Mate 18.04 LTS. We couldn't 
-be prouder.
+We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
+contributed code, documentation, artwork, bug reports or artwork. A
+*"Thank You!"* the members of our community forum who offer advice and
+support to those who request it. A *"Thank You!"* to everyone who has
+supported the Ubuntu MATE crowd funding that helps reward and
+incentivise developers who work on MATE Desktop, Ubuntu MATE and
+associated technologies. You are the 20,000 vacuum tubes and the
+5,000,000 hand soldered joints that make up Ubuntu Mate 18.04 LTS. We
+couldn't be prouder.
 
 <div align="center">
 <img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
@@ -254,6 +258,84 @@ icon scrolling.
 
   * MATE Dock Applet no longer uses its own method of matching icons to applications and instead uses BAMF. What this means for users is that from now on the applet will be a lot better at matching applications and windows to their dock icons.
   * Icon scrolling is useful when the dock has limited space on its panel and will prevent it from expanding over other applets. This addresses an issue reported by several users in Ubuntu MATE 17.10.
+
+V0.82 of the applet follows on from the recent release of MATE 1.20 and
+contains some changes relating to the way app scrolling works.
+
+With the applet is used with MATE 1.20 app icon scrolling is automatically
+enabled when it is needed - i.e. when the applet runs out of space on the
+panel to expand into - and is it automatically disabled when not needed e.g.
+when the applet is given more space by being moved, or when another applet is
+removed from the panel.
+
+When the applet is moved about on the panel it can now also resize and become
+larger or smaller to make the best use of the available panel space in the
+same way that the window list applet does. The minimum size it will allow
+itself is 4 app icons.
+
+Because the applet can now adjust itself to the available panel space, the
+dock size configuration options introduced in V0.81 are not needed with MATE
+1.20 and do not appear in the preferences dialog. However, if the applet is
+used with an earlier version of MATE, they will still be there and can be used
+as before.
+
+There are a couple of major changes in this latest version of the applet.
+
+The first is that the dock now supports scrolling of app icons. This is useful
+when the dock has limited space on its panel and will prevent it from
+expanding over other applets. To scroll app icons, the mouse pointer must be
+moved over either the first or last icon in the dock. If scrolling is possible
+in that direction, the app icon will darken and an arrow will be displayed
+over it.
+
+scroll arrow
+
+If the mouse pointer hovers over an icon in this state, the dock will scroll
+in the indicated direction. As with icons, the arrows are drawn using the
+current icon theme and their appearance will therefore vary from theme to
+theme.
+
+App scrolling is automatically configured and enabled when using the Mutiny
+layout from Mate Tweak. When using any other layout scrolling can be enabled
+using a new preferences setting.
+
+scrolling preferences
+
+If 'Variable' is selected, scrolling is disabled and the dock will behave as
+in take as much space on the panel as it needs, possibly expanding over other
+applets as in previous versions. If 'Fixed' is selected, the dock will claim
+enough space to display the specfied number of app icons, and will begin
+scrolling icons when it contains more than this number.
+
+A few things to note about scrolling:
+
+    The implementation is still in an early state and bugs can be expected...
+    It is Gtk3 only
+    The current approach of setting scrolling on or off via a preferences item is a short term workaround while this issue with the MATE panel and python introspection is fixed. Once done, future versions of the applet will be able to automatically enable and disable app scrolling as and when needed.
+
+The other big change for this version is that applet the no longer uses its
+own method of matching applications and instead uses the bamf library for
+this. What this means for users is that from now on the applet will be a lot
+better at matching applications and windows to their dock icons. For package
+maintainers it means the applet has the following new dependencies:
+bamfdaemon, libbamf and gir1.2-bamf
+
+There are also two minor changes to mentions. Firstly, popup windows (action
+lists and window lists) no longer steal focus from other windows. Secondly,
+when using a solid fill for the active icon background, the contrast between
+the icon and the background has been improved.
+
+Finally, a screenshot of V0.81 applet on Ubuntu Mate 18.04. Note that the dock is just about to scroll.
+
+This release of the applet contains some bug fixes and cosmetic improvements:
+
+    Window lists and action lists now have rounded corners and point to their app's icon in the dock. Note: this requires Gtk3 and Python GObject bindings 3.26 or greater - with Gtk2 or with Gtk3 and PyGobject 3.25 or earlier, the old style of window and action lists will continue to be used.
+    The delay before action lists appear when the mouse hovers over a dock icon can now be set in the preferences dialog.
+    Apps can now be pinned to specific workspaces, in other words their app icons only appear in the dock when a particular workspace is active. This allows users to customise the dock for each workspace they use.
+    When unpinning an app a notification is now displayed which allows the operation to be undone and re-pins the app to the dock.
+    A bug has been fixed that would sometimes cause app icons to continually flash.
+    The appearance of progress bars on dock icons has been improved.
+
 
 ### Brisk Menu
 
