@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 18.04 LTS Final Release
 .. slug: ubuntu-mate-bionic-final-release
-.. date: 2018-04-26 16:00:00 UTC
-.. tags: Ubuntu,MATE,Bionic,Beaver,LTS,final,18.04,draft
+.. date: 2018-04-16 20:00:00 UTC
+.. tags: Ubuntu,MATE,Bionic,Beaver,LTS,final,18.04,draft,private
 .. link:
 .. description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
 .. type: text
@@ -17,7 +17,7 @@
 > a perfect blend of usability and style accompanied by a handpicked
 > selection of quality software packages."*
 > [ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
-> unplugged in 1956 spat out a final message: *"Give us a reboot when
+> unplugged in 1956, spat out a final message: *"Give us a reboot when
 > Ubuntu MATE 18.04 LTS is out will ya?"*
 >
 > Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
@@ -322,7 +322,9 @@ panel. We used Window Applets to enhance the Mutiny and Netbook layouts
 so that both will now remove window controls from maximised windows and
 relocate the window controls in the panel.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="//imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<div align="center">
+<img src="/gallery/bionic/maximus.gif" alt="MATE Window Applets" /><br />
+</div>
 
 ## Head-Up Display
 
@@ -348,7 +350,7 @@ different part of the screen, particularly helpful for users with high
 resolution or multi-display workstations.
 
 <div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
+<img src="/gallery/layouts/mate-hud-local.gif" alt="Head-Up Display (HUD)" /><br />
 </div>
 
 The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
