@@ -9,46 +9,44 @@
 .. author: Martin Wimpress
 -->
 
-> Charles Babbage wasn't lying when he said *"The only thing that would
-> make my Difference Engine any better would be a modern customisable
-> desktop environment that didn't deviate from traditional desktop
-> paradigms (unless I wanted it too.)"* In a long lost diary entry Ada
-> Lovelace scribbled *"If only my code could be matched to an OS that had
-> a perfect blend of usability and style accompanied by a handpicked
-> selection of quality software packages."*
-> [ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
-> unplugged in 1956, spat out a final message: *"Give us a reboot when
-> Ubuntu MATE 18.04 LTS is out will ya?"*
->
-> Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
-> joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
-> up.
->
-> MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep with
-> joy but there is still more. Caja is primed to encrypt your secrets
-> with GnuPG, and with bulk renaming built right in to the file manager
-> you can finally deal with those pesky family reunion photos.
->
-> Got a fancy new display and itty bitty pixels? HiDPI support bounds into
-> this LTS, it's so dynamic you won't know what to do with yourself. We
-> have tweaked desktop layouts, improved global menus, refined our
-> Head-Up Display (HUD) and updated Brisk Menu. It's dandy!
->
-> We could scream it all here in this blurb, instead we suggest you take
-> a scroll through the notes below and behold the majesty that is Ubuntu
-> MATE 18.04 LTS.
->
-> We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
-> contributed code, documentation, artwork, bug reports, translations or
-> artwork. A *"Thank You!"* the members of our community forum who offer
-> advice and support to those who request it. A *"Thank You!"* to
-> everyone who has supported the Ubuntu MATE crowd funding that helps
-> reward and incentivise developers who work on MATE Desktop, Ubuntu MATE
-> and associated technologies in their spare time. You are the 20,000
-> vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
-> MATE 18.04 LTS. We couldn't be prouder.
->
-> *Martin Wimpress, Ubuntu MATE Project Leader.*
+**Charles Babbage wasn't lying when he said *"The only thing that would
+make my Difference Engine any better would be a modern customisable
+desktop environment that didn't deviate from traditional desktop
+paradigms (unless I wanted it too.)"* In a long lost diary entry Ada
+Lovelace scribbled *"If only my code could be matched to an OS that had
+a perfect blend of usability and style accompanied by a handpicked
+selection of quality software packages."*
+[ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
+unplugged in 1956, spat out a final message: *"Give us a reboot when
+Ubuntu MATE 18.04 LTS is out will ya?"* **
+
+Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
+joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
+up.
+
+MATE Desktop 1.20.1 inclusion alone is enough to make Babbage weep with
+joy but there is still more. Caja is primed to encrypt your secrets
+with GnuPG, and with bulk renaming built right in to the file manager
+you can finally deal with those pesky family reunion photos.
+
+Got a fancy new display and itty bitty pixels? HiDPI support bounds into
+this LTS, it's so dynamic you won't know what to do with yourself. We
+have tweaked desktop layouts, improved global menus, refined our
+Head-Up Display (HUD) and updated Brisk Menu. It's dandy!
+
+We could scream it all here in this blurb, instead we suggest you take
+a scroll through the notes below and behold the majesty that is Ubuntu
+MATE 18.04 LTS.
+
+We will scream *"Thank You!"* however. A *"Thank You!"* to everyone who
+contributed code, documentation, artwork, bug reports, translations or
+artwork. A *"Thank You!"* the members of our community forum who offer
+advice and support to those who request it. A *"Thank You!"* to
+everyone who has supported the Ubuntu MATE crowd funding that helps
+reward and incentivise developers who work on MATE Desktop, Ubuntu MATE
+and associated technologies in their spare time. You are the 20,000
+vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
+MATE. We couldn't be prouder.
 
 <div align="center">
 <img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
@@ -110,9 +108,9 @@ greeter), both are available in the Control Centre.
 We've added some new features to the file manager (Caja).
 
   * Added **[Advanced bulk rename](https://tari.in/www/software/cajarename/)** - A batch renaming extension.
-  * Added **[Encryption](https://github.com/darkshram/seahorse-caja)** - An extension which allows encryption and decryption of OpenPGP files using GnuPG
+  * Added **[Encryption](https://github.com/darkshram/seahorse-caja)** - An extension which allows encryption and decryption of files using GnuPG.
   * Added **[Hash checking](https://github.com/tristanheaven/gtkhash)** - An extension for computing and validating message digests or checksums.
-  * Added **[Advanced ACL properties](https://github.com/darkshram/mate-eiciel)** - An extension to edit access control lists (ACLs) and extended attributes (xattr)
+  * Added **[Advanced ACL properties](https://github.com/darkshram/mate-eiciel)** - An extension to edit access control lists (ACLs) and extended attributes (xattr).
   * Updated **[Folder Color](http://foldercolor.tuxfamily.org/)** - An extension for applying custom colours and emblems to folders and files.
   * Replaced the deprecated `caja-gksu` with `caja-admin` which uses PolicyKit to elevate permissions in the file manager for adminstrative tasks.
 
@@ -188,6 +186,8 @@ present on a minimal installd.png"><img src="/gallery/layouts/Redmond.png" title
     });
 });
 </script>
+<br />
+<br />
 
   * **Familiar** - the default experience, a familiar two panel layout with a searchable menu
   * **Mutiny** - application dock, searchable launcher and global menus similar to Unity 7
@@ -380,9 +380,9 @@ redundant. When saving a panel layout the Dock status will be saved too.
 Welcome and Boutique have been given some love. The software listings
 in the Boutique have been refreshed, with some applications being
 removed, many updated and some new additions Welcome now has snappier
-animations and transitions. Items select for install or removal via the
-Software Boutique are now added to a queue so you can select several
-installs and removals and process them all at once.
+animations and transitions. Applications selected for installation or
+removal via the Software Boutique are now added to a queue so you can
+select several installs and removals and process them all at once.
 
 ## Browser Selection
 
@@ -524,8 +524,6 @@ Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
 See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all
 the changes and improvements that Ubuntu MATE benefits from.
-
-# Getting Ubuntu MATE 18.04 LTS
 
 <div class="bs-component">
     <div class="jumbotron">
