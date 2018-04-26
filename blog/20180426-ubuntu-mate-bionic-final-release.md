@@ -344,10 +344,12 @@ Unity 7 works. The HUD is also HiDPI aware now.
 
 ## Ubuntu MATE Welcome
 
-Welcome and Boutique have been given some love.
-
-  * The software listings in the Boutique have been refreshed, with some applications being removed, many updated and some new additions
-  * Welcome now has snappier animations and transitions
+Welcome and Boutique have been given some love. The software listings
+in the Boutique have been refreshed, with some applications being
+removed, many updated and some new additions Welcome now has snappier
+animations and transitions. Items select for install or removal via the
+Software Boutique are now added to a queue so you can select several
+installs and removals and process them all at once.
 
 ### Browser Selection
 
