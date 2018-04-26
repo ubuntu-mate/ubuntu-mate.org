@@ -571,16 +571,22 @@ Here are the known issues.
 
   * Anyone upgrading from Ubuntu MATE 16.04 or 17.10 may need to **use MATE Tweak to reset the panel layout to one of the bundled layouts post upgrade**.
     * Migrating panel layouts, particularly those without Indicator support, is hit and miss. Mostly miss.
+  * Choosing *Install Ubuntu MATE* from the boot menu on HiDPI displays will not display Indicators in the installer. However, installs will still complete successfully.
+    * This issue only affects HiDPI display users and the workaround is to *Try Ubuntu MATE without installing* and run the installer from the live desktop session.
 
 ### Ubuntu family issues
 
 This is our known list of bugs that affects all flavours.
 
-  * [Ubiquity is uninstalling chosen locale language packs](https://pad.lv/1713702)
-    * After a successful installation, your computer may not have all the appropriate language packs installed.
-    * To work around this issue, open **Language Support** in the Control Centre and follow the prompts to automatically install the required language packs.
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
+  * [Systems may fail to boot when connected over DisplayPort to an external screen, on nvidia graphics hardware such as the GTX970 chipset](https://pad.lv/1723619])
+  * [The warning dialog when a user force a UEFI installation does not respond to input event and the installation is then blocked at this stage](https://pad/lv/1724482)
+    * Avoid yourself some troubles and do not force a UEFI installation without a UEFI partition, `grub-installer` will fail anyway.
+  * [Doing an *"Entire disk"* installation over an existing LVM installation will fail because the installer selects the wrong boot device](https://pad.lv/1724417)
+    * Use custom partitioning instead and manually select the right boot device in the combo box.
+  * [Setting a `ulimit` may cause segfaults in certain applications, especially those using webkit2gtk](https://salsa.debian.org/webkit-team/webkit/blob/wk2/unstable/debian/NEWS)
+    * Disabling the `ulimit` should restore normal functionality.
 
 You'll also want to check the Ubuntu MATE bug tracker to see what has
 already been reported. These issues will be addressed in due course.
