@@ -485,9 +485,9 @@ added a colour emoji font too.
 
 You can enter emoji in one of two ways, type <kbd>Ctrl</kbd> +
 <kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will apear, now type
-your usual emoji (such as `:-)` or `:grin:`) and press enter.
-Alternatively you can right click in the input area and selct *Insert
-Emoji* that will display the emoji picker below.
+your usual emoji (such as `:-)`) and it will automatically change to a
+glyph. Alternatively you can right click in the input area and selct
+*Insert Emoji* that will display the emoji picker below.
 
 <div align="center">
 <img src="/gallery/bionic/versions.png" alt="Major Applications" /><br />
