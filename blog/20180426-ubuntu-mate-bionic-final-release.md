@@ -370,7 +370,9 @@ relocate the window controls in the panel.
 A favourite of Unity 7 users is the Head-Up Display (HUD) which
 provides a way to search for and run menu-bar commands without your
 fingers ever leaving the keyboard. The HUD can be enabled via MATE
-Tweak.
+Tweak. You activate the HUD by tapping <kbd>Alt</kbd>, you then enter a
+search query to find menu items, highlight the one you want and press
+enter to trigger it.
 
 If you're trying to find that single filter in Gimp but can't remember
 which filter category it fits into or if you can't recall if
@@ -468,7 +470,7 @@ redundant. When saving a panel layout the Dock status will be saved too.
 
 The Ubuntu MATE Guide is a comprehensive introduction to MATE Desktop and
 Ubuntu MATE including **how to use everything we ship by default**, along with
-detailed instruction on how to tailor, tweak and customise Ubuntu MATE to 
+detailed instruction on how to tailor, tweak and customise Ubuntu MATE to
 suit your preferences.
 
 <div align="center">
