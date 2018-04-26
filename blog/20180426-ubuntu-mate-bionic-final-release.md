@@ -140,7 +140,7 @@ shortcuts to move windows to another monitor were added.
 <iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Desktop layouts
+# Desktop layouts
 
 Using MATE Tweak you can try out the various desktop layouts to find
 one that suits you, and either stick with it or use it as a basis to
@@ -204,7 +204,7 @@ MATE ecosystem that have enabled us to offer 8 different desktop
 layouts, each providing a different desktop experience. Here's some
 of the projects we worked on to make it all possible.
 
-### Super key
+## Super key
 
 <img class="right" src="/gallery/layouts/superkey-small.png" alt="Super Key">
 
@@ -221,7 +221,7 @@ which will be familiar to Unity 7 users. <kbd>Super</kbd> +
 the usual <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> that MATE
 Desktop users expect.
 
-### Global Menu
+## Global Menu
 
 The Global Menu implementation has switched from TopMenu to
 [Vala Panel Appmenu](https://github.com/rilian-la-te/vala-panel-appmenu)
@@ -237,7 +237,7 @@ applications.
 <img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
 </div>
 
-### Indicators
+## Indicators
 
 <img class="right" src="/gallery/layouts/indicators-small.png" alt="Indicators" />
 
@@ -261,7 +261,7 @@ MATE. The default Indicators are:
   * Sound
   * Session
 
-### MATE Dock Applet
+## MATE Dock Applet
 
 [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) is
 used in the Mutiny and Netbook layouts, but anyone can add it to a
@@ -269,7 +269,7 @@ panel to create custom panel arrangements. MATE Dock Applet has seen
 many improvements over the last 2 years, here are some of the
 highlights:
 
-#### Icon scrolling
+### Icon scrolling
 
 Icon scrolling is automatically enabled when the dock applet runs out
 of space on the panel to expand into. Move the mouse over either the
@@ -281,13 +281,13 @@ configured and enabled when using the Mutiny desktop layout, when using
 any other layout scrolling can be enabled via the MATE Dock Applet
 preferences.
 
-#### Icon matching
+### Icon matching
 
 MATE Dock Applet no longer uses its own method of matching icons to
 applications and instead uses BAMF. This mean the applet is lot better
 at matching applications and windows to their dock icons.
 
-#### Assorted improvements
+### Assorted improvements
 
   * Window lists and action lists now have rounded corners and point to their icon in the dock.
   * The delay before action lists appear when the mouse hovers over a dock icon can now be set in the preferences dialog.
@@ -296,7 +296,7 @@ at matching applications and windows to their dock icons.
   * The appearance of progress bars on dock icons has been improved.
   * Popup windows (action lists and window lists) no longer steal focus from other windows.
 
-### Brisk Menu
+## Brisk Menu
 
 [Brisk Menu](https://github.com/solus-project/brisk-menu) is an
 efficient, searchable, menu for the MATE Desktop. We've collaborated
@@ -314,7 +314,7 @@ while the other layouts present Brisk Menu as a more traditional menu.
 <img src="/gallery/bionic/brisk-menu-dash.png" alt="Brisk Menu Dash Launcher" /><br />
 </div>
 
-### MATE Window Applets
+## MATE Window Applets
 
 [MATE Window Applets](https://github.com/ubuntu-mate/mate-window-applets) make it
 possible to add window controls (mazimise, minimise and close) to a
@@ -355,7 +355,25 @@ The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
 longer won't trigger the HUD. This is consistent with how the HUD in
 Unity 7 works. The HUD is also HiDPI aware now.
 
-## Ubuntu MATE Welcome
+## MATE Tweak
+
+MATE Tweak can now toggle HiDPI mode between auto detection, regular
+scaling and forced scaling. HiDPI mode changes are dynamically applied
+and we've added a button to launch the Font preferences so users with
+HiDPI displays can fine tune their font DPI.
+
+MATE Tweak has a deep understanding of Brisk Menu and Global Menu
+capabilities and manages them transparently while switching layouts.
+Switching layouts is far more reliable now too. We've removed the
+*Interface* section from MATE Tweak. Sadly, all the features the
+Interface section tweaked have been dropped from GTK3, making the whole section
+redundant. When saving a panel layout the Dock status will be saved too.
+
+<div align="center">
+<img src="/gallery/bionic/mate-tweak.png" alt="MATE Tweak" /><br />
+</div>
+
+# Ubuntu MATE Welcome
 
 Welcome and Boutique have been given some love. The software listings
 in the Boutique have been refreshed, with some applications being
@@ -364,7 +382,7 @@ animations and transitions. Items select for install or removal via the
 Software Boutique are now added to a queue so you can select several
 installs and removals and process them all at once.
 
-### Browser Selection
+## Browser Selection
 
 A new Browser Selection screen has been added so you can quickly
 install your preferred browser.
@@ -373,7 +391,7 @@ install your preferred browser.
 <img src="/gallery/bionic/browser-selection.png" alt="Browser Selection" /><br />
 </div>
 
-### System telemetry
+## System telemetry
 
 Ubuntu MATE Welcome can submit anonymised system information, generated
 during an install or upgrade, that will help the developers better
@@ -388,6 +406,8 @@ telemetry report.**
 <div align="center">
 <img src="/gallery/bionic/telemetry.png" alt="Telemetry" /><br />
 </div>
+
+# General improvements
 
 ## Minimal Installation
 
@@ -408,24 +428,6 @@ experience. So for those users, a minimal install is a great platform
 to build on. For those of you interested in creating "kiosk" style
 devices, such as homebrew Steam machines or Kodi boxes, then a minimal
 install is another useful starting point.
-
-## MATE Tweak
-
-MATE Tweak can now toggle HiDPI mode between auto detection, regular
-scaling and forced scaling. HiDPI mode changes are dynamically applied
-and we've added a button to launch the Font preferences so users with
-HiDPI displays can fine tune their font DPI.
-
-MATE Tweak has a deep understanding of Brisk Menu and Global Menu
-capabilities and manages them transparently while switching layouts.
-Switching layouts is far more reliable now too. We've removed the
-*Interface* section from MATE Tweak. Sadly, all the features the
-Interface section tweaked have been dropped from GTK3, making the whole section
-redundant. When saving a panel layout the Dock status will be saved too.
-
-<div align="center">
-<img src="/gallery/bionic/mate-tweak.png" alt="MATE Tweak" /><br />
-</div>
 
 ## Documentation
 
@@ -500,9 +502,18 @@ added a colour emoji font too.
 
 You can enter emoji in one of two ways, type <kbd>Ctrl</kbd> +
 <kbd>Shift</kbd> + <kbd>e</kbd> an **e** prompt will apear and you can
-type usual emoji, such as `:-)` and it will automatically change to a
+type usual emoji, such as `:-)`, and it will automatically change to a
 glyph. Alternatively you can right click in the input area and selct
 *Insert Emoji* that will display the emoji picker below.
+
+<div align="center">
+<img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
+</div>
+
+## Major Applications
+
+Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
+59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
 
 <div align="center">
 <img src="/gallery/bionic/versions.png" alt="Major Applications" /><br />
@@ -512,12 +523,7 @@ See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all
 the changes and improvements that Ubuntu MATE benefits from.
 
-## Raspberry Pi images
-
-We're planning on releasing **Ubuntu MATE images for the Raspberry Pi around
-the time 18.04.1 is released, which should be sometime in July**. It takes
-about a month to get the Raspberry Pi images built and tested and we simply
-didn't have time to do it in time for the April release of 18.04.
+# Getting Ubuntu MATE 18.04 LTS
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -550,11 +556,18 @@ The snap packages above are installed when performing a clean install of
 Ubuntu MATE 18.04, but are not automatically installed when upgrading from an
 earlier release.
 
-## Known Issues
+## Raspberry Pi images
+
+We're planning on releasing **Ubuntu MATE images for the Raspberry Pi around
+the time 18.04.1 is released, which should be sometime in July**. It takes
+about a month to get the Raspberry Pi images built and tested and we simply
+didn't have time to do it in time for the April release of 18.04.
+
+# Known Issues
 
 Here are the known issues.
 
-### Ubuntu MATE
+## Ubuntu MATE
 
   * Anyone upgrading from Ubuntu MATE 16.04 or 17.10 may need to **use MATE Tweak to reset the panel layout to one of the bundled layouts post upgrade**.
     * Migrating panel layouts, particularly those without Indicator support, is hit and miss. Mostly miss.
