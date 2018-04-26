@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 18.04 LTS Final Release
 .. slug: ubuntu-mate-bionic-final-release
-.. date: 2018-04-26 20:00:00 UTC
-.. tags: Ubuntu,MATE,Bionic,Beaver,LTS,final,18.04,draft
+.. date: 2018-04-26 22:00:00 UTC
+.. tags: Ubuntu,MATE,Bionic,Beaver,LTS,final,18.04
 .. link:
 .. description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
 .. type: text
