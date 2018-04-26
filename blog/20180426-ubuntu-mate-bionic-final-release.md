@@ -15,9 +15,9 @@ desktop that didn't deviate from traditional desktop paradigms (unless
 I wanted it too.)"* In a long lost diary entry Ada Lovelace scribbled
 *"If only my code could be matched to an OS that had a perfect blend of
 usability and style accompanied by a handpicked selection of quality
-software packages."* ENIAC, moments before being unplugged in 1956 spat
-out a final message: *"Give us a reboot when Ubuntu MATE 18.04 LTS is
-out will ya?"*
+software packages."* [ENIAC](https://en.wikipedia.org/wiki/ENIAC),
+moments before being unplugged in 1956 spat out a final message: *"Give
+us a reboot when Ubuntu MATE 18.04 LTS is out will ya?"*
 
 Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
 joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
