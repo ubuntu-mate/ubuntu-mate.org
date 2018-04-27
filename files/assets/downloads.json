@@ -42,7 +42,7 @@
     },
     "artful": {
         "name": "17.10.1 (Artful)",
-        "description": "Interim release for users desiring the latest features and applications.",
+        "description": "Interim release. New users should use 18.04 LTS (Bionic) instead.",
         "support": "Supported until July 2018",
         "release-notes": "/blog/ubuntu-mate-artful-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/artful.jpg",
