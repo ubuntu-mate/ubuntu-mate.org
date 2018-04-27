@@ -112,7 +112,7 @@ We've added some new features to the file manager (Caja).
   * Added **[Hash checking](https://github.com/tristanheaven/gtkhash)** - An extension for computing and validating message digests or checksums.
   * Added **[Advanced ACL properties](https://github.com/darkshram/mate-eiciel)** - An extension to edit access control lists (ACLs) and extended attributes (xattr).
   * Updated **[Folder Color](http://foldercolor.tuxfamily.org/)** - An extension for applying custom colours and emblems to folders and files.
-  * Replaced the deprecated `caja-gksu` with `caja-admin` which uses PolicyKit to elevate permissions in the file manager for adminstrative tasks.
+  * Replaced the deprecated `caja-gksu` with `caja-admin` which uses PolicyKit to elevate permissions in the file manager for administrative tasks.
 
 `gksu` is deprecated and being removed from Debian. We are aligning
 with that objective by replacing all use of `gksu` with PolicyKit.
@@ -550,7 +550,7 @@ When the upgrade is complete and you're logged in, open a terminal and execute:
 
     snap install ubuntu-mate-welcome --classic
     snap install software-boutique --classic
-    snap install puilsemixer
+    snap install pulsemixer
 
 The snap packages above are installed when performing a clean install of
 Ubuntu MATE 18.04, but are not automatically installed when upgrading from an
