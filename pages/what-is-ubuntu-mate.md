@@ -69,7 +69,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://www.mozilla.org/firefox/desktop/">Firefox</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/firefox_25.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/firefox.png"></p>
         <p class="list-group-item">Safe and easy web browser</p>
       </div>
     </div>
@@ -78,7 +78,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://www.mozilla.org/thunderbird/features/">Thunderbird</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/thunderbird_25.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/thunderbird.png"></p>
         <p class="list-group-item">Email client with integrated spam filter</p>
       </div>
     </div>
@@ -87,7 +87,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="http://www.libreoffice.org/">LibreOffice</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/libreoffice4.0gettingstartedcvqpMo.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/libreoffice.png"></p>
         <p class="list-group-item">Full-featured office productivity suite that is Microsoft(R) Office compatible.</p>
       </div>
     </div>
@@ -101,7 +101,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Rhythmbox">Rhythmbox</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/08/rhythmbox_25.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/rhythmbox.png"></p>
         <p class="list-group-item">Music player and organiser</p>
       </div>
     </div>
@@ -110,7 +110,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2013/06/shotwell_4.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/shotwell.png"></p>
         <p class="list-group-item">Digital photo organiser.</p>
       </div>
     </div>
@@ -119,7 +119,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="www.videolan.org/vlc/">VLC</a>
-        <p class="list-group-item"><img class="centered" src="https://apps.ubuntu.com/site_media/icons/2014/11/vlc_4.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/vlc.png"></p>
         <p class="list-group-item">Play, capture, broadcast your multimedia streams.</p>
       </div>
     </div>
@@ -149,6 +149,8 @@ Ubuntu MATE via Software Boutique and Software Centre. It doesn't
 matter if you like flight simulators, motor racing, first person
 shooters, jump and run or card games, you'll find something to keep you
 entertained.
+
+<br>
 
 ## Open Source
 
