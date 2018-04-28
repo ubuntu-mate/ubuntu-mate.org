@@ -69,7 +69,7 @@
         "support": "Supported until April 2021",
         "release-notes": "/blog/ubuntu-mate-bionic-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/bionic.png",
-        "other-downloads": "",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/",
         "pre-release": false,
         "amd64": {
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-amd64.iso",
@@ -80,7 +80,7 @@
         },
         "i386": {
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-i386.iso",
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-i386.iso.torrent",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04-desktop-i386.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:1476fbf41f2cb804517eafbab0f336bd8c22d0a0&dn=ubuntu-mate-18.04-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "9c1a2b5646206e3b64f3a1a306dc17ad922f1798474ab6bf008da06e81f4e4db",
             "download-size": "1.9 GB"
