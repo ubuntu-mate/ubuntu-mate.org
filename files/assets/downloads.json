@@ -1,7 +1,7 @@
 {
     "xenial": {
         "name": "16.04.4 LTS (Xenial)",
-        "description": "Recommended for stability and mission critical systems.",
+        "description": "Former long term release.",
         "support": "Supported until April 2019",
         "release-notes": "/blog/ubuntu-mate-xenial-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
