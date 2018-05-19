@@ -1,4 +1,4 @@
-download_ani_speed = 500;
+download_ani_speed = 250;
 var arch;
 var downloads = {};
 
