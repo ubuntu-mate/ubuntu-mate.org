@@ -523,6 +523,7 @@ REDIRECTIONS = [
 ("wily/index.html", "/download/index.html"),
 ("xenial/index.html", "/download/index.html"),
 ("pre-release/index.html", "/download/index.html"),
+("development/index.html", "https://github.com/ubuntu-mate/"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
