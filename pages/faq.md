@@ -69,8 +69,8 @@ No. This is one of those programs that is specifically designed by
 Apple *NOT* to run on Linux. Although macOS has its roots in the same
 UNIX philosphy as Linux, macOS is not the same as Linux, and
 applications written for Apple's operating system do not automatically
-run on Linux. However Spotify is available for Ubuntu MATE and yhere
-are hplenty of alternative media players that will play music, create
+run on Linux. However Spotify is available for Ubuntu MATE and there
+are plenty of alternative media players that will play music, create
 play lists, sync with mobile devices, and retrieve, manage and play
 podcasts. Rythmbox is provided with Ubuntu MATE and can play any of the
 music or podcasts in your iTunes library.
