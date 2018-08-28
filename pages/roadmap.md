@@ -226,4 +226,4 @@ Mobile device notifications can be wirelessly mirrored to your Ubuntu
 MATE desktop and for you to be able to send files or links wirelessly
 between your mobile devices and Ubuntu MATE.
 
-  * *Implemented since Ubuntu MATE 16.04 by using the Software Boutique to install KDE Connect Indicator"
+  * *Implemented since Ubuntu MATE 16.04 by using the Software Boutique to install KDE Connect Indicator*
