@@ -11,14 +11,14 @@
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-amd64.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-amd64.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:56b88ad5991641a48890fcdd04f068b3f6c0ba66&dn=ubuntu-mate-16.04-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "05f1af0aa27b1c6edbfef9f8b075d1ff0580ec6194eb6c54a196400001b34b47",
+            "sha256sum": "ad64dc3a48c8f5099c26a536fac5b43e9b0b24cd6a5e3ebd49cccdac0fe3bbd1",
             "download-size": "1.73 GB"
         },
         "i386": {
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-i386.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-i386.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:c070b72287790164236c9e80134391b7e864261a&dn=ubuntu-mate-16.04-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "7294ab11a5845a96d3086f161ab03d0afd43743bf704543379bbbaa38b8e9e09",
+            "sha256sum": "ebf60426af94fc88e7c5ac6cb32c16443bdd833f259da3a8c501be2710d56a21",
             "download-size": "1.74 GB"
         },
         "powerpc": {
