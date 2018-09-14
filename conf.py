@@ -589,16 +589,16 @@ DEPLOY_COMMANDS = {
 #
 from nikola import filters
 FILTERS = {
+    ".css":  [filters.yui_compressor],
     ".html": [filters.typogrify],
     ".jpg":  [filters.jpegoptim],
     ".jpeg": [filters.jpegoptim],
+    ".js":   [filters.yui_compressor],
     ".json": [filters.jsonminify],
     ".png":  [filters.optipng],
     ".xml":  [filters.xmlminify],
 }
 
-#    ".css":  [filters.yui_compressor],
-#    ".js":   [filters.yui_compressor],
 
 
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
