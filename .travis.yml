@@ -9,7 +9,7 @@ addons:
     - yui-compressor
     - rsync
     - node-less
-install: pip install --upgrade 'Nikola[extras,tests]'
+install: pip install --upgrade 'Nikola[extras,tests]==7.8.15'
 script:
 - scripts/build.sh
 deploy:
