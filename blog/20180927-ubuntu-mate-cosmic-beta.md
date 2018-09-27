@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 18.10 Beta
 .. slug: ubuntu-mate-cosmic-beta
-.. date: 2018-09-27 20:00:00 BST
+.. date: 2018-09-27 23:30:00 BST
 .. tags: Ubuntu,MATE,Cosmic,beta
 .. link:
 .. description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
@@ -22,7 +22,7 @@ preparation for our next (stable) version.
 
 <div align="center">
 <img src="/gallery/blog/1810-beta.jpg" alt="Ubuntu MATE 18.10 Beta" /><br />
-Superposition running on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
+Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 </div>
 
 ## What works?
