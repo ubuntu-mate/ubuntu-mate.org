@@ -1,4 +1,43 @@
 {
+    "bionic": {
+        "name": "18.04.1 LTS (Bionic)",
+        "description": "Recommended for stability and mission critical systems.",
+        "support": "Supported until April 2021",
+        "release-notes": "/blog/ubuntu-mate-bionic-final-release/",
+        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04.1/release/",
+        "pre-release": false,
+        "amd64": {
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:3d4137dfb332138e539a812e33425a4a36219e66&dn=ubuntu-mate-18.04.1-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "6454de6681239753c6b2e2a3e4dc7880b2855f36b1f96b8d143e4c03fb5be90b",
+            "download-size": "1.9 GB"
+        },
+        "i386": {
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:6e8d5bf177d6df90eca2359ed245e01b8f93b084&dn=ubuntu-mate-18.04.1-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "8e3ce0eb9e9868a2e444449325351e3f0406f75751fa34d14f4d75448eefc532",
+            "download-size": "1.9 GB"
+        }
+    },
+    "cosmic": {
+        "name": "18.10 (Cosmic)",
+        "description": "Interim release for users desiring the latest features and applications.",
+        "support": "Supported until July 2019",
+        "release-notes": "/blog/ubuntu-mate-cosmic-beta/",
+        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/",
+        "pre-release": true,
+        "amd64": {
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/beta/ubuntu-mate-18.10-beta-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/beta/ubuntu-mate-18.10-beta-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:d714e1ebb1976742f044d328b0df43c7bad94ac3&dn=ubuntu-mate-18.10-beta-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "bdbd0dd09f61b6a334f435b485109d491e99f62cf8bf312ef2ee8988ed16f6fc",
+            "download-size": "1.9 GB"
+        }
+    },
     "xenial": {
         "name": "16.04.5 LTS (Xenial)",
         "description": "",
@@ -38,29 +77,6 @@
             "download-size": "1.2 GB",
             "alt-name": "16.04.2 (Xenial)",
             "alt-description": "Bring the traditional desktop experience to your Raspberry Pi!"
-        }
-    },
-    "bionic": {
-        "name": "18.04.1 LTS (Bionic)",
-        "description": "Recommended for stability and mission critical systems.",
-        "support": "Supported until April 2021",
-        "release-notes": "/blog/ubuntu-mate-bionic-final-release/",
-        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04.1/release/",
-        "pre-release": false,
-        "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:3d4137dfb332138e539a812e33425a4a36219e66&dn=ubuntu-mate-18.04.1-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "6454de6681239753c6b2e2a3e4dc7880b2855f36b1f96b8d143e4c03fb5be90b",
-            "download-size": "1.9 GB"
-        },
-        "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.1-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:6e8d5bf177d6df90eca2359ed245e01b8f93b084&dn=ubuntu-mate-18.04.1-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "8e3ce0eb9e9868a2e444449325351e3f0406f75751fa34d14f4d75448eefc532",
-            "download-size": "1.9 GB"
         }
     }
 }
