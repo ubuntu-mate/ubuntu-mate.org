@@ -97,7 +97,7 @@ This is our known list of bugs that affects all flavours.
     * This appears to impact Ubuntu (proper) more than Ubuntu MATE. It is an intermitent problem on Ubuntu MATE and simply resetting the VM may work on the next boot. If not, press a key when the initial boot prompt (Man and Keyboard) is displayed, then press F6 and select `nomodeset` and press ENTER to boot.
 
   * The ISO boots fine and installation works as expected on On QEMU/Libvirt, but it sometimes fails to boot post-install.
-    * This [may be due to Plymouth crashing](https://pad.lv/17942801), investigations are underway.
+    * This [may be due to Plymouth crashing](https://pad.lv/1794280), investigations are underway.
 
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
