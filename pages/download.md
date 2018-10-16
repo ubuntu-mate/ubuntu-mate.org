@@ -134,7 +134,7 @@
         <div class="col-xs-12 col-md-6">
             <button class="download-option release-option" id="cosmic" onclick="setRelease('cosmic')">
                 <div class="icon">
-                    <!-- <img src="/assets/img/downloads/releases/artful.svg" /> -->
+                    <img src="/assets/img/downloads/releases/cosmic.png" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
