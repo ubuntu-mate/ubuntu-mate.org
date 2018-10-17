@@ -13,7 +13,7 @@ function link_image() {
     local TOR_PATH="${ISO_PATH}.torrent"
     local TOR_FILE=$(basename ${TOR_PATH})
 
-    mkdir -p www/${PAGE}
+    commands+=" && mkdir -p /home/matey/ubuntu-mate.org/$PAGE"
     commands+=" && ln -vsf ${ISO_PATH} /home/matey/ubuntu-mate.org/$PAGE/$ISO_FILE"
     commands+=" && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
 }
