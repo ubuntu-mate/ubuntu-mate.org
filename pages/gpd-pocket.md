@@ -9,7 +9,7 @@
 .. author: Martin Wimpress
 -->
 
-The Ubuntu MATE team offers bespoke images for the
+The Ubuntu MATE team offers a bespoke image for the
 [GPD Pocket](https://gpd.hk/gpdpocket) and [GPD Pocket 2](https://gpd.hk/gpdpocket2)
 that includes the hardware specific tweaks to get these devices working
 *"out of the box"* without any faffing about.
