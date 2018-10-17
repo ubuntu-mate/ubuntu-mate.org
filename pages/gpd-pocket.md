@@ -64,11 +64,14 @@ out and back in and the full 1920x1200 resolution is restored.
 </div>
 <br />
 
-
 ## Known Issues
 
-  * The boot loader on the GPD Pocket 2 is not visible.
-    * Either wait and the system will boot after a few seconds or press Enter to boot immeditately.
+  * The GRUB2 menu is not rotated on the GPD Pocket.
+    * The workaround is to tilt your head.
+  * The GRUB2 menu is not displayed at all on the GPD Pocket 2.
+    * The workaround is to wait and the system will boot after a few seconds or press <kbd>Enter</kbd> to boot immeditately.
+  * The Plymouth splash screen is not rotated on the GPD Pocket or GPD Pocket 2.
+    * The workaround is to not care.
 
 ## Feedback
 
