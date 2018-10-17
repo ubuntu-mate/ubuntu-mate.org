@@ -558,11 +558,11 @@ earlier release.
 
 ## Raspberry Pi images
 
-We're planning on releasing **Ubuntu MATE images for the Raspberry Pi around
-the time 18.04.1 is released, which should be sometime in July**. It takes
-about a month to get the Raspberry Pi images built and tested and we simply
-didn't have time to do it in time for the April release of 18.04.
-
+We're planning on releasing **Ubuntu MATE images for the Raspberry Pi after
+that 18.10 release is out, in October 2018**. It takes usually takes about
+a month to get the Raspberry Pi images built and tested, but we've encountered
+some challenges with the 18.04 based images which has delayed their release.
+Hopefully we'll have something in time for Christmas 2018 `:-)`
 # Known Issues
 
 Here are the known issues.
