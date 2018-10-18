@@ -65,24 +65,32 @@ to give you a feel for how you can configure your desktop experience.
 });
 </script>
 
-## Raspberry Pi 2 and Raspberry Pi 3
+## Raspberry Pi & GPD Pocket
 
-We are delighted to provide a ready-to-run image for the Raspberry Pi 2
-and Raspberry Pi 3. You can find out more and download the image from
-the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/). We've also created
-an [Ubuntu MATE generic root file system and example build
-scripts](/armhf-rootfs/) for ARM hackers who'd like bring Ubuntu MATE
-to their ARMv7 devices.
+We are delighted to provide a ready-to-run images for the Raspberry Pi 2,
+Raspberry Pi 3, GPD Pocket and GPD Pocket 2. You can find out more from the
+[Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
+[Ubuntu MATE GPD Pocket page](/gpd-pocket/).
 
-<div align="center">
-  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
-  <b>Ubuntu MATE is also available for the<br />Raspberry Pi 2 and Raspberry Pi 3.</b>
+<div class="row">
+  <div class="col-xs-6">
+    <div class="well bs-component" align="center">
+      <a href="/raspberry-pi/"><img class="centered" src="/images/logos/raspberry-pi.png" alt="Raspberry Pi" /></a><br />
+      <b>Ubuntu MATE is also available for the<br />Raspberry Pi 2 and Raspberry Pi 3.</b>
+    </div>
+  </div>
+  <div class="col-xs-6">
+    <div class="well bs-component" align="center">
+      <a href="/gpd-pocket/"><img class="centered" src="/images/logos/gpd-pocket2.png" alt="GPD Pocket" /></a><br />
+      <b>Ubuntu MATE is also available for the<br />GPD Pocket and GPD Pocket 2.</b>
+    </div>
+  </div>
 </div>
-<br />
+
 
 ## Sponsors
 
-Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons](/sponsors/):
+Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate):
 
 <div class="row">
   <div class="col-xs-6">
@@ -102,12 +110,6 @@ Ubuntu MATE is kindly supported by [these fine sponsors and our awesome Patrons]
     <!-- VJ -->
     <div class="well bs-component">
     <a href="http://www.whatisseo.com/"><img class="centered" src="/images/sponsors/whatisseo.png" alt="What is SEO?" /></a>
-    </div>
-  </div>
-  <div class="col-xs-6">
-    <!-- Jared Slone -->
-    <div class="well bs-component">
-    <a href="http://www.voucherist.co.uk/"><img class="centered" src="/images/sponsors/voucherist.png" alt="voucherist" /></a>
     </div>
   </div>
 </div>
