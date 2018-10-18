@@ -108,8 +108,8 @@ function setRelease(codename) {
     $("#torrent-download var").html(getFilename(links["torrent"]));
     $("#direct-download var").html(getFilename(links["direct"]));
 
-    // Special considerations for Raspberry Pi
-    if (arch == "armhf") {
+    // Special considerations for Raspberry Pi, Pocket and Pocket 2.
+    if (arch == "armhf" || arch == "gpd-pocket") {
         $("#mirrors").hide();
         $("#getting-started").hide();
     } else {
