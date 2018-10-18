@@ -31,7 +31,7 @@ operating system and adds the [MATE Desktop](http://mate-desktop.org).
 
 ## MATE Desktop
 
-Wikipedia says that [a Desktop Environment is](http://en.wikipedia.org/wiki/Desktop_environment):
+Wikipedia defines [a Desktop Environment](http://en.wikipedia.org/wiki/Desktop_environment) as:
 
   > an implementation of the desktop metaphor made of a bundle of 
   programs running on top of a computer operating system, which share a 
