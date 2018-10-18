@@ -51,7 +51,7 @@ Circular shape containing the Circle of MATEs
 	![Circle of MATEs](/gallery/Artwork/design-guide/Circle_of_MATEs.png)
 </div>
 <br>
-The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MATE logo. The triangles inside the roundel represent the three foundamental elements of this project: the Ubuntu base, the MATE Desktop and the community. The circular lines represent the connection and the collaboration between these elements.
+The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MATE logo. The triangles inside the roundel represent the three fundamental elements of this project: the Ubuntu base, the MATE Desktop and the community. The circular lines represent the connection and the collaboration between these elements.
 
 ---
 
@@ -69,7 +69,7 @@ The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MA
 </div>
 <br>
 The wordmark logo is presented only with colours above. Please, never change any of the colours in the logo.
-In this case, for the white logo, it has been placed a green background. It is not part of it, you are free to place the logo on whatever background you want, you just have to see it.
+The white logo has been placed on a green background for visibility purposes. The background is not part of the logo; you are free to place the logo on whatever background you want, you just have to be able to see it.
 
 ## Roundel
 
@@ -82,13 +82,13 @@ In this case, for the white logo, it has been placed a green background. It is n
 	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-White.svg" target="_blank" rel="noopener" style="width:216px"><span class="fa fa-download"> SVG</span></a>
 </div>
 <br>
-As for the wordmark, use the roundel logo only with the colour configurations above. For the white version, it has been added a green background only to let you see it. It is not part of it.
+As for the wordmark, use the roundel logo only with the colour configurations above. The white version has been placed on a greed background for visibility purposes.  The background is not part of the logo; you are free to place the logo on whatever background you want, you just have to be able to see it.
 
 ---
 
 # Which logo should I use?
 
-It has no different which logo you choose to use for your works. There isn't a _preferred_ version we like to see. Just select what you want so that the logo is well distinguishable. We recommend to use the white versions of the logos on darker background, and to use the coloured versions on lighter background.
+It has no different which logo you choose to use for your works. There isn't a _preferred_ version we like to see. Just select what you want so that the logo is well distinguishable. We recommend that you use the white versions of the logos on darker background, and that you use the coloured versions on lighter background.
 
 ---
 
@@ -121,7 +121,7 @@ You must not:
 
 2. Change the colour of the wordmark
 
-3. Change the colour of the Circle of Friends
+3. Change the colour of the Circle of MATEs
 
 4. Change the arrangement of the elements
 
@@ -142,7 +142,7 @@ You must not:
 </div>
 <br>
 
-It has been made also a stacked version of the logo. Consistent use of the Ubuntu MATE logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.
+A stacked version of the logo has also been made. Consistent use of the Ubuntu MATE logo is essential in creating a united brand identity. The master logo is supplied as artwork and should never be altered, distorted or re-created in any way.
 
 The stacked Ubuntu MATE logo must always have a clear area surrounding it, free from any other element. To define this area, measure the height of the roundel and use a quarter of this measure to create the boundary of clear space around the logo.
 
