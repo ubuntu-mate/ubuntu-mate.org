@@ -26,16 +26,24 @@
         "name": "18.10 (Cosmic)",
         "description": "Interim release for users desiring the latest features and applications.",
         "support": "Supported until July 2019",
-        "release-notes": "/blog/ubuntu-mate-cosmic-beta/",
+        "release-notes": "/blog/ubuntu-mate-cosmic-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/bionic.png",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/",
-        "pre-release": true,
+        "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/beta/ubuntu-mate-18.10-beta-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/beta/ubuntu-mate-18.10-beta-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:d714e1ebb1976742f044d328b0df43c7bad94ac3&dn=ubuntu-mate-18.10-beta-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "bdbd0dd09f61b6a334f435b485109d491e99f62cf8bf312ef2ee8988ed16f6fc",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/ubuntu-mate-18.10-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/ubuntu-mate-18.10-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:61edd86975510db683d89fe5a8c682eca986f7d6&dn=ubuntu-mate-18.10-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "d646ec5e22e8b60a2190a9828363592f0485692e36e00ecfce7220fac9775033",
             "download-size": "1.9 GB"
+        },
+        "gpd-pocket": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:1bc7d6f481de2098ff94bbb0ca47a6cc1f6f59ac&dn=ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso",
+            "sha256sum": "d41598dfa6c5ff2bb38f944e842f24e381811a6ee1c6b8acbb2c379f787ad7d9",
+            "download-size": "1.9 GB",
+            "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
         }
     },
     "xenial": {
