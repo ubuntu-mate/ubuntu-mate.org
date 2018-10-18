@@ -77,7 +77,7 @@ doesn't work reliably on the original GPD Pocket.
 With a script called `gpd-pocket-ubuntu-respin.sh` which you can find in the 
 following GitHub repository:
 
-  * https://github.com/wimpysworld/gpd-pocket2-ubuntu
+  * <https://github.com/wimpysworld/gpd-pocket2-ubuntu>
 
 ## Known Issues
 
