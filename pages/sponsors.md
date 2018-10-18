@@ -34,12 +34,6 @@ Ubuntu MATE is kindly supported by these fine sponsors and our awesome
     <a href="http://www.whatisseo.com/"><img class="centered" src="/images/sponsors/whatisseo.png" alt="What is SEO?" /></a>
     </div>
   </div>
-  <div class="col-xs-6">
-    <!-- Jared Slone -->
-    <div class="well bs-component">
-    <a href="http://www.voucherist.co.uk/"><img class="centered" src="/images/sponsors/voucherist.png" alt="voucherist" /></a>
-    </div>
-  </div>
 </div>
 
 ## Patrons
