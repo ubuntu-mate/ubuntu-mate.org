@@ -69,18 +69,17 @@
 
     <div class="row">
         <div class="col-xs-12 col-md-6">
-            <button class="download-option arch-option" id="powerpc" onclick="setArch('powerpc', 'PowerPC')">
+            <button class="download-option arch-option" id="gpd-pocket" onclick="setArch('gpd-pocket', 'GPD Pocket')">
                 <div class="icon">
-                    <span class="fa fa-desktop"></span>
+                    <span class="fa fa-laptop"></span>
                 </div>
                 <div class="details">
-                    <h3>PowerPC</h3>
+                    <h3>GPD Pocket</h3>
                     <p>
-                        For hardware like:
+                        For the following devices:
                         <ul>
-                            <li>Apple Macintosh G3, G4 and G5</li>
-                            <li>Apple iBooks and PowerBooks</li>
-                            <li>IBM OpenPower 7xx Machines</li>
+                            <li>GPD Pocket</li>
+                            <li>GPD Pocket 2</li>
                         </ul>
                     </p>
                 </div>
@@ -99,6 +98,27 @@
                         <ul>
                             <li>Raspberry Pi 2</li>
                             <li>Raspberry Pi 3</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="powerpc" onclick="setArch('powerpc', 'PowerPC')">
+                <div class="icon">
+                    <span class="fa fa-desktop"></span>
+                </div>
+                <div class="details">
+                    <h3>PowerPC</h3>
+                    <p>
+                        For hardware like:
+                        <ul>
+                            <li>Apple Macintosh G3, G4 and G5</li>
+                            <li>Apple iBooks and PowerBooks</li>
+                            <li>IBM OpenPower 7xx Machines</li>
                         </ul>
                     </p>
                 </div>
@@ -202,7 +222,7 @@
             <p>If you can spare the bytes, a torrent is the recommended method to download Ubuntu&nbsp;MATE.</p>
             <a id="torrent-download" href="#" class="btn btn-primary"><span class="fa fa-download"></span> <var></var></a>
             <a id="magnet-download" href="#" class="btn btn-default"><span class="fa fa-magnet"></span> Magnet Link</a>
-            <div class="help-tooltip" title="Magnet links directly open your BitTorrent client. For Raspberry Pi downloads, this excludes the web seeds, reducing the bandwidth costs.">
+            <div class="help-tooltip" title="Magnet links directly open your BitTorrent client. For Raspberry Pi and GPD Pocket downloads, this excludes the web seeds, reducing the bandwidth costs.">
                 <span class="fa fa-info-circle"></span>
             </div>
             <br/>
