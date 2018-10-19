@@ -66,11 +66,10 @@ out and back in and the full 1920x1200 resolution is restored.
 
 ## Ubuntu MATE 18.04 LTS image?
 
-When Ubuntu MATE 18.04.2 is released in February 2019 we will evaluate 
-creating an image that supports the GPD Pocket and GPD Pocket 2. Ubuntu MATE 
-18.04.2 will include the hardware enablement stack from Ubuntu 18.10 and that 
-should provide the bulk of the required hardware support. Ubuntu MATE 18.04.1 
-doesn't work reliably on the original GPD Pocket.
+When Ubuntu MATE 18.04.2 is released in February 2019 we will evaluate
+creating an image that supports the GPD Pocket and GPD Pocket 2. Ubuntu MATE
+18.04.2 will include the hardware enablement stack from Ubuntu 18.10 and that
+should provide the bulk of the required hardware support.
 
 ## How were these images created?
 
