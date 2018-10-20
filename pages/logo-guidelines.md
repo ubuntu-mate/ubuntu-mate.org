@@ -82,7 +82,7 @@ The white logo has been placed on a green background for visibility purposes. Th
 	<a href="https://github.com/ubuntu-mate/brand-artwork/blob/master/ubuntu-mate/Ubuntu-MATE-Rondel-White.svg" target="_blank" rel="noopener" style="width:216px"><span class="fa fa-download"> SVG</span></a>
 </div>
 <br>
-As for the wordmark, use the roundel logo only with the colour configurations above. The white version has been placed on a greed background for visibility purposes.  The background is not part of the logo; you are free to place the logo on whatever background you want, you just have to be able to see it.
+As for the wordmark, use the roundel logo only with the colour configurations above. The white version has been placed on a green background for visibility purposes.  The background is not part of the logo; you are free to place the logo on whatever background you want, you just have to be able to see it.
 
 ---
 
