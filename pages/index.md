@@ -67,7 +67,7 @@ to give you a feel for how you can configure your desktop experience.
 
 ## Raspberry Pi & GPD Pocket
 
-We are delighted to provide a ready-to-run images for the Raspberry Pi 2,
+We are delighted to provide ready-to-run images for the Raspberry Pi 2,
 Raspberry Pi 3, GPD Pocket and GPD Pocket 2. You can find out more from the
 [Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
 [Ubuntu MATE GPD Pocket page](/gpd-pocket/).
