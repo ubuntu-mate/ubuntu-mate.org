@@ -30,8 +30,8 @@ and test Ubuntu MATE.
   * [Luke](https://github.com/lukefromdc) Developer of [MATE Desktop](http://mate-desktop.org), theme maintainer and bug hunter.
   * [Pablo Barciela](https://github.com/sc0w) Developer of [MATE Desktop](http://mate-desktop.org) and theme maintainer.
   * [Alexei Sorokin](https://github.com/XRevan86) Contributor to [MATE Desktop](http://mate-desktop.org) and [Ubuntu MATE](https://ubuntu-mate.org).
-  * [Ikey Doherty](https://github.com/ikeydoherty) Lead Developer of [Solus](https://solus-project.com/) and [MATE Desktop](http://mate-desktop.org) contributor.
-  * [Sefan Ric](https://github.com/cyber) Developer of [Solus](https://solus-project.com/) and [MATE Desktop](http://mate-desktop.org) contributor.
+  * [Ikey Doherty](https://github.com/ikeydoherty) Lead Developer of [Solus](https://getsol.us/) and [MATE Desktop](http://mate-desktop.org) contributor.
+  * [Sefan Ric](https://github.com/cyber) Developer of [Solus](https://getsol.us/) and [MATE Desktop](http://mate-desktop.org) contributor.
   * [Luke Horwell](https://github.com/lah7) Developer of [Ubuntu MATE](https://ubuntu-mate.org), web designer and community moderator.
   * [Robin Thompson](https://github.com/robint99) Lead developer of [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) and [Ubuntu MATE](https://ubuntu-mate.org) contributor.
   * [Konstantin Pugin](https://github.com/rilian-la-te) Lead developer of [Global Menu](https://github.com/rilian-la-te/vala-panel-appmenu) for MATE Panel and [MATE Desktop](http://mate-desktop.org) contributor.
