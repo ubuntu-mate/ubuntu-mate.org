@@ -382,7 +382,7 @@
             <p>This book is written for computer users who want a reference detailed enough
             to help them to learn about Ubuntu MATE and its applications and to build their
             confidence and competence in using them to get things done.</p>
-            <a class="btn btn-primary" href="http://www.amazon.com/dp/ASIN/B0767D9WZT">
+            <a class="btn btn-primary" href="http://www.amazon.com/dp/ASIN/1983393177">
                 <span class="fa fa-shopping-cart"></span> Buy on Amazon
             </a>
             <a class="btn btn-default" href="https://www.smashwords.com/books/view/752029">
@@ -485,3 +485,4 @@ ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
 }
 }
 </script>
+
