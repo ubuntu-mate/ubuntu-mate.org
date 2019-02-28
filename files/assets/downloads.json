@@ -47,25 +47,25 @@
         }
     },
     "xenial": {
-        "name": "16.04.5 LTS (Xenial)",
+        "name": "16.04.6 LTS (Xenial)",
         "description": "",
-        "support": "Supported until April 2019",
+        "support": "Support ends soon - April 2019",
         "release-notes": "/blog/ubuntu-mate-xenial-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/xenial.jpg",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/",
         "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:cf99a546b7c5c105b2ef48d231dd9f4776d71384&dn=ubuntu-mate-16.04.5-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "ad64dc3a48c8f5099c26a536fac5b43e9b0b24cd6a5e3ebd49cccdac0fe3bbd1",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/ubuntu-mate-16.04.6-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/ubuntu-mate-16.04.6-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:54004a7a4119358d61e4dc98db2785c936f0de60&dn=ubuntu-mate-16.04.6-desktop-amd64.iso",
+            "sha256sum": "ea4da80c5d01089e54604e8a21d5b0feee06a2db1f4d3f93277df39343ba994a",
             "download-size": "1.73 GB"
         },
         "i386": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-i386.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.5-desktop-i386.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:1a1af161f42c739b0bb8c0a81a44760c71d49349&dn=ubuntu-mate-16.04.5-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "ebf60426af94fc88e7c5ac6cb32c16443bdd833f259da3a8c501be2710d56a21",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/ubuntu-mate-16.04.6-desktop-i386.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/ubuntu-mate-16.04.6-desktop-i386.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:41491dc2b345789da067f7abae8b29bbb8c14e9b&dn=ubuntu-mate-16.04.6-desktop-i386.iso",
+            "sha256sum": "9ba14c3e39e8771b5ff66fb2dc9d99d8aa7f2facc1f19548a0ea7e3c27f53c87",
             "download-size": "1.74 GB"
         },
         "powerpc": {
