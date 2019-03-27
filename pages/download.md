@@ -470,19 +470,3 @@
 
 <script src="/assets/js/jquery-1.12.2.min.js"></script>
 <script src="/assets/js/downloads.js"></script>
-
-<script>
-// http://netnix.org/2014/04/27/tracking-downloads-with-google-analytics/
-window.onload = function() {
-var a = document.getElementsByTagName('a');
-for (i = 0; i < a.length; i++) {
-if (a[i].href.match(/^https?:\/\/.+\.(bz2|deb|gz|iso|pdf|torrent|xz|zip)$/i)) {
-a[i].setAttribute('target', '_blank');
-a[i].onclick = function() {
-ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
-};
-}
-}
-}
-</script>
-
