@@ -18,8 +18,8 @@ function link_image() {
     commands+=" && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
 }
 
-link_image raspberry-pi "/home/matey/ISO-Mirror/disco/arm64/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
-link_image raspberry-pi "/home/matey/ISO-Mirror/disco/armhf/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz"
+link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/arm64/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
+link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/armhf/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz"
 link_image gpd-pocket "/home/matey/ISO-Mirror/cosmic/amd64/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso"
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz"
 
