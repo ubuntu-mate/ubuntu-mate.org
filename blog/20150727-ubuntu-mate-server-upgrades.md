@@ -32,41 +32,6 @@ Pi 2 images](https://ubuntu-mate.org/raspberry-pi/) and updated the Ubuntu
 MATE 14.04 torrents. Both now have 5 web-seeds in addition to those of you 
 generously seeding Ubuntu MATE.
 
-<div class="row">
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/">
-        <img src="/assets/img/flags/Canada-Flag-128.png" alt="Canada" title="Canada" />
-      </a>
-      <p>Canadian mirror</p></p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/">
-        <img src="/assets/img/flags/France-Flag-128.png" alt="Frane" title="France" />
-      </a>
-      <p>French mirror</p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://ger.ubuntu-mate.net/">
-        <img src="/assets/img/flags/Germany-Flag-128.png" alt="Germany" title="Germany" />
-      </a>
-      <p>German mirror</p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://ita.ubuntu-mate.net/">
-        <img src="/assets/img/flags/Italy-Flag-128.png" alt="Italy" title="Italy" />
-      </a>
-      <p>Italian mirror</p>
-    </div>
-  </div>
-</div>
-
 Another benefit of this transition is that we no longer rely on Sourceforge 
 for serving downloads. Sourceforge also experienced an extended outage 
 recently and this impacted our ability to serve downloads for the Raspberry Pi 

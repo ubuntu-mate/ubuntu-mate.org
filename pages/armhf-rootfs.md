@@ -69,26 +69,18 @@ hosting and bandwidth for the Ubuntu MATE downloads.
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="https://ubuntu-mate.r.worldssl.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/images/flags/European-Union-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+      <a href="http://man.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
-      <p>Ubuntu MATE 15.04 from European CDN</p><p><b> aarch32 (ARMv7)</b></p>
+      <p>Ubuntu MATE 15.04 from mirror 1</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
   <div class="col-lg-3">
     <div class="well bs-component text-center">
-      <a href="http://can.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/images/flags/Canada-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
+      <a href="http://yor.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
+        <img src="/assets/img/misc/iso-dvd-cd-disc.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
       </a>
-      <p>Ubuntu MATE 15.04 from Canadian mirror</p><p><b> aarch32 (ARMv7)</b></p>
-    </div>
-  </div>
-  <div class="col-lg-3">
-    <div class="well bs-component text-center">
-      <a href="http://fra.ubuntu-mate.net/armhf-rootfs/ubuntu-mate-15.04-desktop-armhf-rootfs.tar.gz">
-        <img src="/images/flags/France-Flag-128.png" alt="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" title="Ubuntu MATE 15.04 aarch32 (ARMv7) Download" />
-      </a>
-      <p>Ubuntu MATE 15.04 from France mirror</p><p><b> aarch32 (ARMv7)</b></p>
+      <p>Ubuntu MATE 15.04 from mirror 2</p><p><b> aarch32 (ARMv7)</b></p>
     </div>
   </div>
 </div>
