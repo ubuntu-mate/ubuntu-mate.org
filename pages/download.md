@@ -152,9 +152,9 @@
             </button>
         </div>
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="cosmic" onclick="setRelease('cosmic')">
+            <button class="download-option release-option" id="xenial" onclick="setRelease('xenial')">
                 <div class="icon">
-                    <img src="/assets/img/downloads/releases/cosmic.png" />
+                    <img src="/assets/img/downloads/releases/xenial.svg" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
@@ -166,9 +166,21 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="xenial" onclick="setRelease('xenial')">
+            <button class="download-option release-option" id="disco" onclick="setRelease('disco')">
                 <div class="icon">
-                    <img src="/assets/img/downloads/releases/xenial.svg" />
+                    <img src="/assets/img/downloads/releases/disco.png" />
+                </div>
+                <div class="details">
+                    <h3 class="name"></h3>
+                    <p class="description"></p>
+                    <div class="support"></div>
+                </div>
+            </button>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <button class="download-option release-option" id="cosmic" onclick="setRelease('cosmic')">
+                <div class="icon">
+                    <img src="/assets/img/downloads/releases/cosmic.png" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
