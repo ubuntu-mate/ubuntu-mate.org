@@ -1,6 +1,9 @@
-.doit.db
-*.pyc
-www/
-output/
-cache/
-__pycache__/
+# Ignore Jekyll's output and caches
+_site
+.sass-cache
+.jekyll-metadata
+
+# Ignore generated i18n locales
+*.mo
+i18n/
+_data/**/

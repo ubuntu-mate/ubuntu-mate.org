@@ -1,78 +1,97 @@
 # ubuntu-mate.org
 
-The website for discovering and downloading the Ubuntu MATE operating system.
-
-Powered by [Nikola](https://getnikola.com/) - a static page generator.
-
 [![Build Status](https://travis-ci.org/ubuntu-mate/ubuntu-mate.org.svg?branch=master)](https://travis-ci.org/ubuntu-mate/ubuntu-mate.org)
 
-----------
+The website for discovering and downloading the Ubuntu MATE operating system.
+
+Powered by [Jekyll](https://jekyllrb.com/), a static site generator.
+
+## Getting Started
+
+### Edit on GitHub
+
+The easiest way to edit ubuntu-mate.org is to use GitHub to edit the page.
+Simply find the page you want and create a pull request!
+
+**Translators,** please see the [Translations](#Translations) section instead.
+
+### Setup
+
+Install [Jekyll](https://jekyllrb.com) as follows:
+
+    sudo apt install ruby ruby-dev make gcc
+    sudo gem install jekyll bundler
+
+To install gem dependencies for the website:
+
+    bundle install
+
+To preview locally:
+
+    bundle exec jekyll serve --watch --livereload
+
+You can preview the website on your computer at http://localhost:4000.
+
+If you need to update the gems (dependencies) later:
+
+    bundle update
+
+
 ## Translations
 
-The website is only in English at the moment. **There is currently no way for
-translators yet**, although Nikola has support for multilingual sites.
+We are ready to speak multiple languages! Visit [Transifex](Visit https://www.transifex.com/ubuntu-mate/ubuntu-mate.org/)
+to translate this website.
 
-----------
-## Setting up the Nikola Environment
+We use the [polyglot](https://github.com/untra/polyglot) gem to provide i18n support.
 
-First, install Nikola into an isolated Python environment, called a
-`virtualenv`. This is independent from the system's installation of Python.
+When building the website, the `scripts/generate-translations.sh` will generate
+the necessary files.
 
-    source ~/Snakepit/nikola/bin/activate
+| Parameter             | Action                                            |
+|-----------------------|---------------------------------------------------|
+| `--generate`          | Creates POT and updates PO files from pages.
+| `--build`             | Process translated PO files for use with Jekyll.
 
-You know when the Nikola environment is activated because `(nikola)` will be
-added to the bash prompt.
+When pages change, run `--generate`. Before building the site, run `--build`.
 
-### Clone the website
 
-    mkdir ~/Websites
-    cd ~/Websites
-    git clone git@bitbucket.org:ubuntu-mate/ubuntu-mate.org.git
+## File Structure
 
-### Build Nikola
+### Content Editor
 
-The first build will take a while. Subsequent builds are much faster.
+| Folder            | Purpose
+|-------------------|-------------------------------------------------------|
+| `_data`           | Structured YAML data used for things like download lists.
+| `_drafts`         | Blog posts (markdown) not ready for publishing yet.
+| `images`          | Images used across the site.
+| `pages`           | Page contents (markdown)
+| `_posts`          | Blog entries (markdown)
 
-    cd ~/Websites/ubuntu-mate.org
-    nikola build
+### Development
 
-### Serving the site
+| Folder            | Purpose
+|-------------------|-------------------------------------------------------|
+| `assets`          | Global website resources, like favicons and libraries.
+| `_sass`           | Look & feel
+| `_includes`       | HTML to build up sections of the website.
+| `_layouts`        | HTML base layouts.
+| `scripts`         | For building and deployment.
 
-Nikola has a built in webserver, the serves the currently built site on port
-8000.
+### Other
 
-    cd ~/Websites/ubuntu-mate.org
-    nikola serve
+| Folder            | Purpose
+|-------------------|------------------------------------------------------|
+| `i18n`            | Compiled translated files (.md) for building.
+| `_i18n`           | Source files (.pot, .po) for translating.
+| `redirects`       | Meta redirects from legacy website.
 
-Now point you web browser at localhost:8000 to test. CTRL+C to stop serving.
 
-### Cleaning Nikola
+## License
 
-If you need to clean the Nikola build of the site do this following.
+The website is licensed under the terms of the CC-BY-SA 4.0
+(Creative Commons Attribution-ShareAlike 4.0 International).
 
-    nikola clean
+You may modify the website provided credit and copyright notices remain.
 
-You'll need to build the site again now.
-
-----------
-## Deploying the site
-
-The site is re-deployed on every commit via Travis CI. However, it a new
-Ubuntu MATE release is happening then the download page needs updating too.
-
-### Updating the dynamic download page
-
-The download page is dynamic client-side, but is statically generated using these resouces.
-
-  * Download information is stored in `files/assets/downloads.json`
-  * The main presentation is taken from `/pages/download.md` and will need Alpha, Beta labels etc updating.
-  * The LESS and CSS configuration is stored in `/themes/United/less/download.less`
-  * The Javascript logic is in `files/assets/js/downloads.js`
-
-When the torrents are published as part of the iso release run `generate-magnet-uris.sh`
-for each release architecture, for instance:
-
-    ./scripts/helpers/generate-magnet-uris.sh http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.3/release/ubuntu-mate-16.04.3-desktop-i386.iso.torrent
-
-Copy and paste the output to `files/assets/downloads.json` under the respective `magnet-uri` key.
-
+* [Summary](https://creativecommons.org/licenses/by-sa/4.0/)
+* [Full Text](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
