@@ -6,7 +6,6 @@ addons:
     packages:
     - jpegoptim
     - optipng
-    - yui-compressor
     - rsync
     - node-less
 install: pip install --upgrade 'Nikola[extras,tests]==7.8.15'
