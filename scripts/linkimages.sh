@@ -18,13 +18,10 @@ function link_image() {
     commands+=" && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
 }
 
+link_image raspberry-pi "/home/matey/ISO-Mirror/disco/arm64/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
+link_image raspberry-pi "/home/matey/ISO-Mirror/disco/armhf/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz"
 link_image gpd-pocket "/home/matey/ISO-Mirror/cosmic/amd64/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso"
-link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-desktop-armhf-raspberry-pi.img.xz"
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz"
-link_image trusty "/home/matey/ISO-Mirror/trusty/i386/ubuntu-mate-14.04.2-LTS-desktop-i386.iso"
-link_image trusty "/home/matey/ISO-Mirror/trusty/amd64/ubuntu-mate-14.04.2-LTS-desktop-amd64.iso"
-link_image trusty "/home/matey/ISO-Mirror/trusty/amd64+mac/ubuntu-mate-14.04.2-LTS-desktop-amd64+mac.iso"
-#link_image armhf-rootfs "${HOME}/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04-beta2-desktop-armhf-rootfs.tar.bz2"
 
 echo "Symlinking images..."
 for region in "man" "yor"; do
