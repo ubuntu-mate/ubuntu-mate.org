@@ -1,7 +1,7 @@
 <!--
 .. title: Running Steam on Ubuntu MATE
 .. slug: running-steam-on-ubuntu-mate
-.. date: 2016-05-04 07:00:00 BST
+.. date: 2016-05-04 07:00:00 UTC
 .. tags: Ubuntu,MATE,Steam,benchmark,performance,gaming,Vulkan,OpenGL,nvidia
 .. link:
 .. description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how to get the optimum experience

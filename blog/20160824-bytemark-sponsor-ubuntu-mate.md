@@ -1,7 +1,7 @@
 <!--
 .. title: Bytemark sponsor Ubuntu MATE
 .. slug: bytemark-sponsor-ubuntu-mate
-.. date: 2016-08-24 12:00:00 BST
+.. date: 2016-08-24 12:00:00 UTC
 .. tags: Ubuntu,MATE,Bytemark,sponsor,hosting,bandwidth,Cloud Servers
 .. link: https://blog.bytemark.co.uk/2016/08/24/were-supporting-ubuntu-mate
 .. description: Bytemark sponsor Ubuntu MATE hosting and bandwidth

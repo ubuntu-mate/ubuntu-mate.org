@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 16.10 progress update
 .. slug: ubuntu-mate-yakkety-progress-update
-.. date: 2016-05-25 13:45:00 BST
+.. date: 2016-05-25 13:45:00 UTC
 .. tags: Ubuntu,MATE,GTK3,Snappy,Welcome,Boutique
 .. link:
 .. description: Ubuntu MATE 16.10 progress update on the migration to GTK3+ and Snappy package research and development

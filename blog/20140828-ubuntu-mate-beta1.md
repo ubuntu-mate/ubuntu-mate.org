@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE Beta1
 .. slug: ubuntu-mate-beta1
-.. date: 2014-08-28 19:04:11 BST
+.. date: 2014-08-28 19:04:11 UTC
 .. tags: Ubuntu,MATE,beta1
 .. link:
 .. description:

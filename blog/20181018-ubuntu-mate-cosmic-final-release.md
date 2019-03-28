@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 18.10 Final Release
 .. slug: ubuntu-mate-cosmic-final-release
-.. date: 2018-10-18 17:00:00 BST
+.. date: 2018-10-18 17:00:00 UTC
 .. tags: Ubuntu,MATE,Cosmic,Cuttlefish,18.10,final
 .. link:
 .. description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Final Release

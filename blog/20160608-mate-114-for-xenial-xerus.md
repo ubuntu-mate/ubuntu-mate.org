@@ -1,7 +1,7 @@
 <!--
 .. title: MATE Desktop 1.14 for Ubuntu MATE 16.04
 .. slug: mate-desktop-114-for-xenial-xerus
-.. date: 2016-06-08 13:01:00 BST
+.. date: 2016-06-08 13:01:00 UTC
 .. tags: Ubuntu,MATE,Xenial
 .. link:
 .. description: How to upgrade Ubuntu MATE 16.04 to MATE Desktop 1.14

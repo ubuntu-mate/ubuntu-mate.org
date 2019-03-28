@@ -1,7 +1,7 @@
 <!--
 .. title: MATE Desktop GTK2 vs GTK3 memory consumption
 .. slug: mate-desktop-gtk2-vs-gtk3-memory-consumption
-.. date: 2016-06-10 13:01:00 BST
+.. date: 2016-06-10 13:01:00 UTC
 .. tags: Ubuntu,MATE,GTK2,GTK3,RAM,benchmark
 .. link:
 .. description: How does MATE Desktop for GTK2 RAM use compare to MATE Desktop for GTK3?

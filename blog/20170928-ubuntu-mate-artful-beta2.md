@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 17.10 Beta 2
 .. slug: ubuntu-mate-artful-beta2
-.. date: 2017-09-28 19:00:00 EDT
+.. date: 2017-09-28 19:00:00 UTC
 .. tags: Ubuntu,MATE,Artful,beta2
 .. link:
 .. description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 2

@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 18.10 Beta
 .. slug: ubuntu-mate-cosmic-beta
-.. date: 2018-09-27 23:30:00 BST
+.. date: 2018-09-27 23:30:00 UTC
 .. tags: Ubuntu,MATE,Cosmic,beta
 .. link:
 .. description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
