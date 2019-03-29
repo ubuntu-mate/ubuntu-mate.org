@@ -44,7 +44,7 @@ Those of you who follow the desktop Linux news will know that
 upstream [MATE Desktop recently released version 1.22](https://mate-desktop.org/blog/2019-03-18-mate-1-22-released/).
 
 Let's rip that band-aid off and get this over quickly. Ubuntu MATE 19.04
-is shipping with MATE Desktop 1.20. Albeit, the latest maintaince release of
+is shipping with MATE Desktop 1.20. Albeit, the latest maintenance release of
 MATE Desktop 1.20 with some of the bug fixes and new features from MATE
 Desktop 1.22 included. In fact, the version of MATE Desktop being shipped in
 19.04 is derived from the same MATE packages that will feature in the upcoming
