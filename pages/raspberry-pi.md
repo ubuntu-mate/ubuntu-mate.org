@@ -4,15 +4,16 @@
 .. date: 2015-04-21 23:01:09 UTC
 .. tags: Ubuntu,MATE,Raspberry Pi,Model B,Raspberry Pi 2,Raspberry Pi 3,Raspberry Pi 3+,download,armhf,arm64,ARMv7,ARMv8
 .. link:
-.. description: Ubuntu MATE 18.04 for the Raspberry Pi 2 and Raspbery Pi 3
+.. description: Ubuntu MATE 18.04 for the Raspberry Pi Model B 2, 3 and  3+
 .. type: text
 .. author: Martin Wimpress
 -->
 
-The images are functional and based on Ubuntu 18.04.2 for `armhf` (ARMv7 32-bit)
-and `amd64` (ARMv8 64-bit). We have done what we can to optimise the build for
-the Raspberry Pi without sacrificing the full desktop environment Ubuntu MATE
-provides on PC. High-level features of these images are:
+Ubuntu MATE 18.04.2 is available for Raspberry Pi Model B 2, 3 and 3+ with separate
+images for  `armhf` (ARMv7 32-bit) and `amd64` (ARMv8 64-bit). We have done what
+we can to optimise the builds for the Raspberry Pi without sacrificing the full
+desktop environment Ubuntu MATE provides on PC. High-level features of these
+images are:
 
   * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.
   * Automatic online filesystem expansion.
@@ -80,7 +81,7 @@ space of the microSD card.
     <div class="jumbotron">
         <h1>Download</h1>
         <p>Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download Ubuntu MATE</a>
+        <a href="/download/" class="btn btn-primary btn-lg">Download Ubuntu MATE for the Pi</a>
         </p>
     </div>
 </div>
@@ -246,7 +247,7 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
   * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.
   * Raspberry Pi 3 Model A+ confirmed working, *kind of*.
 
-### Ubunttu MATE 18.04.2  - March 5th, 2019
+### Ubuntu MATE 18.04.2  - March 5th, 2019
 
   * Fixed HDMI audio quality.
   * Fixed USB booting.
@@ -259,7 +260,7 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
   * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.
   * Switched to the CFQ scheduler.
 
-### Ubunttu MATE 18.04.2 Alpha 1 - March 2nd, 2019
+### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019
 
   * Initial Ubuntu MATE 18.04.2 images made available for private testing.
 
