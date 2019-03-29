@@ -50,7 +50,7 @@ Desktop 1.22 included. In fact, the version of MATE Desktop being shipped in
 19.04 is derived from the same MATE packages that will feature in the upcoming
 [Debian 10 (Buster)](https://wiki.debian.org/DebianBuster) release.
 
-You maybe wondering why we're not shipping MATE Desktop 1.22?
+You may be wondering why we're not shipping MATE Desktop 1.22?
 The answer, stability. MATE Desktop 1.22 introduces some underlying API
 changes in core components and while all first party MATE Desktop
 applications are compatible with the changes and completely stable, some
