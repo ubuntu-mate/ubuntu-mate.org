@@ -178,7 +178,7 @@ You can learn more about Steam Link for Raspberry Pi from Valve:
 ### Minecraft Pi Edition
 
 Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry Pi.
-It is based on an old version of Minecraft Pocket Edition and offer language
+It is based on an old version of Minecraft Pocket Edition and offers language
 bindings for Python.
 
 Can be installed via `sudo apt install minecraft-pi`
@@ -194,7 +194,7 @@ You can disable/enable the desktop environment using `raspi-config`.
 
 If you only intended to run as a headless server then the official Ubuntu Server 18.04.2 images mightt be of interest:
 
-  * https://wiki.ubuntu.com/ARM/RaspberryPi
+  * <https://wiki.ubuntu.com/ARM/RaspberryPi>
 
 ### Redirecting audio output
 

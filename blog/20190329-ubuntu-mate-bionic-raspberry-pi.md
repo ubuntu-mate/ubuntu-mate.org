@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi
 .. slug: ubuntu-mate-bionic-beta1-raspberry-pi
-.. date: 2019-03-29 13:25:00 UTC
+.. date: 2019-03-29 14:25:00 UTC
 .. tags: Ubuntu,MATE,Raspberry Pi,Model B,Raspberry Pi 2,Raspberry Pi 3,Raspberry Pi 3+,download,armhf,arm64,ARMv7,ARMv8,beta1
 .. link: https://ubuntu-mate.org/raspberry-pi/
 .. description: Ubuntu MATE 18.04 Beta-1 for the Raspberry Pi Model B 2, 3 and  3+
