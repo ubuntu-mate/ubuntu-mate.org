@@ -49,7 +49,7 @@
     "disco": {
         "name": "19.04 (Disco)",
         "description": "Interim release for users desiring the latest features and applications.",
-        "support": "Supported until January 2020",
+        "support": "Beta 1",
         "release-notes": "/blog/ubuntu-mate-disco-beta/",
         "background-url": "/assets/img/downloads/backgrounds/bionic.png",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/release/",
