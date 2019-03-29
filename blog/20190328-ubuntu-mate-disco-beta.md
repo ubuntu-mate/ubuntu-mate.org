@@ -1,8 +1,8 @@
 <!--
 .. title: Ubuntu MATE 19.04 Beta 1
 .. slug: ubuntu-mate-disco-beta
-.. date: 2019-03-28 23:59:00 UTC
-.. tags: Ubuntu,MATE,Disco,beta,draft
+.. date: 2019-03-29 00:15:00 UTC
+.. tags: Ubuntu,MATE,Disco,beta
 .. link:
 .. description: Ubuntu MATE 19.04 (Disco Dingo) Beta
 .. type: text
