@@ -46,6 +46,22 @@
             "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
         }
     },
+    "disco": {
+        "name": "19.04 (Disco)",
+        "description": "Interim release for users desiring the latest features and applications.",
+        "support": "Supported until January 2020",
+        "release-notes": "/blog/ubuntu-mate-disco-beta/",
+        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/release/",
+        "pre-release": true,
+        "amd64": {
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/beta/ubuntu-mate-19.04-beta-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/beta/ubuntu-mate-19.04-beta-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:572110024dedaae76bcb125673fffacd97263650&dn=ubuntu-mate-19.04-beta-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "fffb41ea8105b8cea7f647e4f99d428c46db92160b09c4c15c0374d832c7e268",
+            "download-size": "2.0 GB"
+        }
+    },
     "xenial": {
         "name": "16.04.6 LTS (Xenial)",
         "description": "",
