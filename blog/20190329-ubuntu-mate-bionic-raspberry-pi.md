@@ -1,17 +1,23 @@
 <!--
 .. title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi
 .. slug: ubuntu-mate-bionic-beta1-raspberry-pi
-.. date: 2019-03-29 13:00:00 UTC
-.. tags: Ubuntu,MATE,Raspberry Pi,Model B,Raspberry Pi 2,Raspberry Pi 3,Raspberry Pi 3+,download,armhf,arm64,ARMv7,ARMv8,beta1,draft
+.. date: 2019-03-29 13:25:00 UTC
+.. tags: Ubuntu,MATE,Raspberry Pi,Model B,Raspberry Pi 2,Raspberry Pi 3,Raspberry Pi 3+,download,armhf,arm64,ARMv7,ARMv8,beta1
 .. link: https://ubuntu-mate.org/raspberry-pi/
 .. description: Ubuntu MATE 18.04 Beta-1 for the Raspberry Pi Model B 2, 3 and  3+
 .. type: text
 .. author: Martin Wimpress
 -->
 
-We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi.
+We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
+
+<div align="center">
+  <img src="/gallery/Screenshots/09_raspberrypi.png" /></a><br />
+  <b>Ubuntu MATE running on the Raspberry Pi 3+</b>
+</div>
+<br />
 
 Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,
 with separate images for  `armhf` (ARMv7 32-bit) and `amd64` (ARMv8 64-bit).
@@ -21,13 +27,13 @@ High-level features of these images are:
 
   * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.
   * Automatic online filesystem expansion.
-  * Ethernet
-  * WiFi (*where available*)
+  * Ethernet & WiFi (*where available*)
   * Bluetooth (*where available*)
-  * GPIO
-  * Audio
-  * HDMI
-  * USB Booting
+  * Audio out via 3.5mm analog audio jack or HDMI
+  * Video out via Composite or HDMI
+  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io), [pigpio](http://abyz.me.uk/rpi/pigpio/) and [WiringPi](http://wiringpi.com/).
+  * Support for [Python Wheels for the Raspberry Pi](https://www.piwheels.org/).
+  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).
   * Hardware acceleration:
     * `fbturbo` driver is pre-installed but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).
     *  VLC has hardware assisted video decoding.
@@ -35,9 +41,9 @@ High-level features of these images are:
     * The *experimental* VC4 driver can be enabled via `raspi-config`.
     * Please note, the `arm64` images do not feature any VideoCore IV hardware acceleration.
   * Additional software:
-    * A port of `raspi-config` for Ubuntu is pre-installed.
-    * Steam Link is available for install.
-    * Minecraft Pi Edition is available for install.
+    * A port of [`raspi-config` for Ubuntu](https://github.com/flexiondotorg/raspi-config/) is pre-installed.
+    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.
+    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -68,12 +74,6 @@ High-level features of these images are:
     * [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
     * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
-<div align="center">
-  <img src="/assets/img/misc/raspberry-pi-screenshot.jpg" /></a><br />
-  <b>Ubuntu MATE running on the Raspberry Pi 3+</b>
-</div>
-<br />
-
 ## Recent Changes
 
 ### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019
@@ -88,7 +88,7 @@ High-level features of these images are:
   * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.
   * Raspberry Pi 3 Model A+ confirmed working, *kind of*.
 
-### Ubuntu MATE 18.04.2  - March 5th, 2019
+### Ubuntu MATE 18.04.2 - March 5th, 2019
 
   * Fixed HDMI audio quality.
   * Fixed USB booting.
@@ -116,6 +116,6 @@ High-level features of these images are:
 
 ## Feedback and Improvements
 
-Thse images are not an official Ubuntu products and are community supported.
-Please post all feedback and issues on the [dedicated community
-forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).
+Thse images are not official Ubuntu products and are community
+supported by the Ubuntu MATE team. Please post feedback and
+issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).

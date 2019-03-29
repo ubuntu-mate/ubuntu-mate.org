@@ -69,6 +69,45 @@
 
     <div class="row">
         <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="armhf" onclick="setArch('armhf', 'Raspberry Pi ARMv7 32-bit')">
+                <div class="icon">
+                    <img src="/images/logos/raspberry-pi-download.png" />
+                </div>
+                <div class="details">
+                    <h3>Raspberry Pi <b>(recommended)</b></h3>
+                    <p>
+                        For aarch32 (ARMv7) computers, like:
+                        <ul>
+                            <li>Raspberry Pi Model B 2</li>
+                            <li>Raspberry Pi Model B 3</li>
+                            <li>Raspberry Pi Model B 3+</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="arm64" onclick="setArch('arm64', 'Raspberry Pi ARMv8 64-bit')">
+                <div class="icon">
+                    <img src="/images/logos/raspberry-pi-download.png" />
+                </div>
+                <div class="details">
+                    <h3>Raspberry Pi <b>(experimental)</b></h3>
+                    <p>
+                        For aarch64 (ARMv8) computers, like:
+                        <ul>
+                            <li>Raspberry Pi Model B 3</li>
+                            <li>Raspberry Pi Model B 3+</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
             <button class="download-option arch-option" id="gpd-pocket" onclick="setArch('gpd-pocket', 'GPD Pocket')">
                 <div class="icon">
                     <span class="fa fa-laptop"></span>
@@ -86,26 +125,6 @@
             </button>
         </div>
 
-        <div class="col-xs-12 col-md-6">
-            <button class="download-option arch-option" id="armhf" onclick="setArch('armhf', 'Raspberry Pi')">
-                <div class="icon">
-                    <img src="/images/logos/raspberry-pi-download.png" />
-                </div>
-                <div class="details">
-                    <h3>Raspberry Pi</h3>
-                    <p>
-                        For aarch32 (ARMv7) computers, like:
-                        <ul>
-                            <li>Raspberry Pi 2</li>
-                            <li>Raspberry Pi 3</li>
-                        </ul>
-                    </p>
-                </div>
-            </button>
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col-xs-12 col-md-6">
             <button class="download-option arch-option" id="powerpc" onclick="setArch('powerpc', 'PowerPC')">
                 <div class="icon">

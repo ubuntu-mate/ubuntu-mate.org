@@ -20,6 +20,24 @@
             "magnet-uri": "magnet:?xt=urn:btih:1ae9c99bafa2eeafe29729fbcef5a226c5806995&dn=ubuntu-mate-18.04.2-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "cc57ec9da34a15643bc417c0c96fb4cccf77876a4f4f746103e778b41accd435",
             "download-size": "1.9 GB"
+        },
+        "arm64": {
+            "direct": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz",
+            "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:8dac78968dd13b6432a3986ff3609f1e1ab7984c&dn=ubuntu-mate-18.04.2-beta1-desktop-arm64%2Braspi3-ext4.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fbionic%2Fubuntu-mate-18.04.2-beta1-desktop-arm64%2Braspi3-ext4.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fbionic%2Fubuntu-mate-18.04.2-beta1-desktop-arm64%2Braspi3-ext4.img.xz",
+            "sha256sum": "bb4f6f722b41aa4c40b710b3cb81936127ecf799236ccbaa3b6b5455d8bf2b39",
+            "download-size": "1.2 GB",
+            "alt-name": "18.04.2 (Bionic)",
+            "alt-description": "Bring the traditional desktop experience to your Raspberry Pi!"
+        },
+        "armhf": {
+            "direct": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz",
+            "torrent": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:0ff3cb73ab4544bdc7789137f0bb9c381554918f&dn=ubuntu-mate-18.04.2-beta1-desktop-armhf%2Braspi-ext4.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fbionic%2Fubuntu-mate-18.04.2-beta1-desktop-armhf%2Braspi-ext4.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fbionic%2Fubuntu-mate-18.04.2-beta1-desktop-armhf%2Braspi-ext4.img.xz",
+            "sha256sum": "bb74b607da2f4d417851e006fadd5de1304f84681db9c4bd8f17ff1b1d410995",
+            "download-size": "1.2 GB",
+            "alt-name": "18.04.2 (Bionic)",
+            "alt-description": "Bring the traditional desktop experience to your Raspberry Pi!"
         }
     },
     "cosmic": {

@@ -17,26 +17,26 @@ images are:
 
   * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.
   * Automatic online filesystem expansion.
-  * Ethernet
-  * WiFi (*where available*)
+  * Ethernet & WiFi (*where available*)
   * Bluetooth (*where available*)
-  * GPIO
-  * Audio
-  * HDMI
-  * USB Booting
+  * Audio out via 3.5mm analog audio jack or HDMI
+  * Video out via Composite or HDMI
+  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io), [pigpio](http://abyz.me.uk/rpi/pigpio/) and [WiringPi](http://wiringpi.com/).
+  * Support for [Python Wheels for the Raspberry Pi](https://www.piwheels.org/).
+  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).
   * Hardware acceleration:
     * `fbturbo` driver is pre-installed but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).
-    *  VLC
-    *  `ffmpeg`
+    *  VLC has hardware assisted video decoding.
+    *  `ffmpeg` has hardware assisted video decoding and encoding.
     * The *experimental* VC4 driver can be enabled via `raspi-config`.
     * Please note, the `arm64` images do not feature any VideoCore IV hardware acceleration.
   * Additional software:
-    * A port of `raspi-config` for Ubuntu is pre-installed.
-    * Steam Link is available for install.
-    * Minecraft Pi Edition is available for install.
+    * A port of [`raspi-config` for Ubuntu](https://github.com/flexiondotorg/raspi-config/) is pre-installed.
+    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.
+    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
 
 <div align="center">
-  <img src="/assets/img/misc/raspberry-pi-screenshot.jpg" /></a><br />
+  <img src="/gallery/Screenshots/09_raspberrypi.png" /></a><br />
   <b>Ubuntu MATE running on the Raspberry Pi 3+</b>
 </div>
 <br />
@@ -247,7 +247,7 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
   * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.
   * Raspberry Pi 3 Model A+ confirmed working, *kind of*.
 
-### Ubuntu MATE 18.04.2  - March 5th, 2019
+### Ubuntu MATE 18.04.2 - March 5th, 2019
 
   * Fixed HDMI audio quality.
   * Fixed USB booting.
@@ -282,6 +282,6 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Feedback and Improvements
 
-Thse images are not an official Ubuntu products and are community supported.
-Please post all feedback and issues on the [dedicated community
-forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).
+Thse images are not official Ubuntu products and are community
+supported by the Ubuntu MATE team. Please post feedback and
+issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).

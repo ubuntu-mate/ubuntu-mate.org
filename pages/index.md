@@ -67,16 +67,16 @@ to give you a feel for how you can configure your desktop experience.
 
 ## Raspberry Pi & GPD Pocket
 
-We are delighted to provide ready-to-run images for the Raspberry Pi 2,
-Raspberry Pi 3, GPD Pocket and GPD Pocket 2. You can find out more from the
-[Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
+We are delighted to provide ready-to-run images for the Raspberry Model B
+2, 3 and 3+ as well as the GPD Pocket and GPD Pocket 2. You can find out
+more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
 [Ubuntu MATE GPD Pocket page](/gpd-pocket/).
 
 <div class="row">
   <div class="col-xs-6">
     <div class="well bs-component" align="center">
       <a href="/raspberry-pi/"><img class="centered" src="/images/logos/raspberry-pi.png" alt="Raspberry Pi" /></a><br />
-      <b>Ubuntu MATE is also available for the<br />Raspberry Pi 2 and Raspberry Pi 3.</b>
+      <b>Ubuntu MATE is also available for the<br />Raspberry Pi Model B 2, 3 and 3+</b>
     </div>
   </div>
   <div class="col-xs-6">
