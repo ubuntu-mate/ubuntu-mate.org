@@ -20,7 +20,7 @@ preparation for our next (stable) version.
 <br />
 
 Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,
-with separate images for  `armhf` (ARMv7 32-bit) and `amd64` (ARMv8 64-bit).
+with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).
 We have done what we can to optimise the builds for the Raspberry Pi without
 sacrificing the full desktop environment Ubuntu MATE provides on PC.
 High-level features of these images are:
@@ -62,7 +62,7 @@ High-level features of these images are:
 
   * These images *kind of* work on:
     * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**
-      * Fails to complete the first boot setup due to insufficnent memory.
+      * Fails to complete the first boot setup due to insufficient memory.
       * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.
       * Due to only having 512MB RAM the `arm64` is not recommended. The `armhf` version can be very tight on resources.
 
