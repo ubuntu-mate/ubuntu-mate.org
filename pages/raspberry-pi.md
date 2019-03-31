@@ -12,8 +12,25 @@
 Ubuntu MATE 18.04.2 is available for Raspberry Pi Model B 2, 3 and 3+ with separate
 images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what
 we can to optimise the builds for the Raspberry Pi without sacrificing the full
-desktop environment Ubuntu MATE provides on PC. High-level features of these
-images are:
+desktop environment Ubuntu MATE provides on PC.
+
+Ubuntu MATE for the Raspberry Pi provides a complete, familiar, desktop environment
+that can be used for basic desktop computing. It is also of interest to makers and
+device hackers who want to target [Ubuntu](https://ubuntu.com) for their projects.
+You can prototype homebrew ARMv7 or ARMv8 based IoT devices in a comfortable desktop
+environment, including building and testing your apps as [snaps](https://snapcraft.io).
+The full Ubuntu archive is available to you.
+
+For hobbyist projects, you can stick with Ubuntu MATE for "deployment", even
+with the option to disable the X11 display server if it not an application
+requirement. But, if you have something more professional in mind then the
+applications and snaps you've prototyped with Ubuntu MATE can be used with Ubuntu
+server or Ubuntu Core (https://www.ubuntu.com/core) on one of the ARM-based
+reference platforms. 
+
+## Features
+
+High-level features of these images are:
 
   * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.
   * Automatic online filesystem expansion.
@@ -278,7 +295,7 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 ## TODO
 
   * Build and publish a Raspberry Pi optimised web browser.
-  * Add Python modules for popular HATs and peripherals to the archive.
+  * Add more Python modules for popular HATs and peripherals to the archive.
 
 ## Feedback and Improvements
 
