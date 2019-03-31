@@ -35,6 +35,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+feed:
+    path: rss.xml
+
 # Exclude from processing.
 exclude:
   - Gemfile
@@ -48,7 +51,7 @@ github: "https://github.com/ubuntu-mate/"
 facebook: "https://www.facebook.com/UbuntuMATEedition/"
 twitter: "https://twitter.com/ubuntu_mate"
 youtube: "https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ/"
-rss_feed: "/feed.xml"
+rss_feed: "/rss.xml"
 
 # i18n
 languages: [
