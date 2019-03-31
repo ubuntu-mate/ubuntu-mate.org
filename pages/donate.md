@@ -24,10 +24,6 @@ This crowd funding campaign has the following objectives:
   * Help subsidise the travel expenses of team members to represent Ubuntu MATE and MATE Desktop at FLOSS conferences.
   * Support other Open Source projects that Ubuntu MATE depends upon.
 
-Patrons get exclusive project exclusive project news, updates, are invited
-to join an exclusive Telegram channel where you can talk to the developers
-directly and get a badge on the [Ubuntu MATE Forum](https://ubuntu-mate.community).
-
 We have set up a number of payment options that should hopefully suit
 everyone. Go on, be brilliant, help grow our community.
 
@@ -37,6 +33,11 @@ This is a unique way to fund an Open Source community. A regular
 monthly income for the Ubuntu MATE project will allow us to better plan
 how best to reward our contributors and sponsor other Open Source
 projects.
+
+**Patrons get exclusive project exclusive project news, updates, are invited
+to join an exclusive Telegram channel where you can talk to the developers
+directly and get a badge on the [Ubuntu MATE Forum](https://ubuntu-mate.community).**
+
 
 <div class="bs-component">
     <div class="jumbotron">
