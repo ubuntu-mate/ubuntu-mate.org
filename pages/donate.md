@@ -16,7 +16,7 @@ img.centered {
     margin-right: auto }
 </style>
 
-This crowd funding campaign has three main objectives:
+This crowd funding campaign has the following objectives:
 
   * Fund the costs associated with running the Ubuntu MATE and MATE Desktop projects.
     * These include domain name registrations and service charges for things like the content delivery network, web application firewall and transactional email services used by the forums.
@@ -24,9 +24,9 @@ This crowd funding campaign has three main objectives:
   * Help subsidise the travel expenses of team members to represent Ubuntu MATE and MATE Desktop at FLOSS conferences.
   * Support other Open Source projects that Ubuntu MATE depends upon.
 
-Patrons will be rewarded with exclusive project news, updates and
-invited to participate in video conferences where you can talk to the
-developers directly.
+Patrons get exclusive project exclusive project news, updates, are invited
+to join an exclusive Telegram channel where you can talk to the developers
+directly and get a badge on the [Ubuntu MATE Forum](https://ubuntu-mate.community).
 
 We have set up a number of payment options that should hopefully suit
 everyone. Go on, be brilliant, help grow our community.
@@ -208,46 +208,6 @@ sponsorship packages.
     </div>
   </div>
 </div>
-
-# Crowd funding summary
-
-We post an overview of how the funds were used each month.
-
-  * [2014 November](/blog/ubuntu-mate-november-2014-supporters/)
-  * [2014 December](/blog/ubuntu-mate-december-2014-supporters/)
-  * [2015 January](/blog/ubuntu-mate-january-2015-supporters/)
-  * [2015 February](/blog/ubuntu-mate-february-2015-supporters/)
-  * [2015 March](/blog/ubuntu-mate-march-2015-supporters/)
-  * [2015 April](/blog/ubuntu-mate-april-2015-supporters/)
-  * [2015 May](/blog/ubuntu-mate-may-2015-supporters/)
-  * [2015 June](/blog/ubuntu-mate-june-2015-supporters/)
-  * [2015 July](/blog/ubuntu-mate-july-2015-supporters/)
-  * [2015 August](/blog/ubuntu-mate-august-2015-supporters/)
-  * [2015 September](/blog/ubuntu-mate-september-2015-supporters/)
-  * [2015 October](/blog/ubuntu-mate-october-2015-supporters/)
-  * [2015 November](/blog/ubuntu-mate-november-2015-supporters/)
-  * [2015 December](/blog/ubuntu-mate-december-2015-supporters/)
-  * [2016 January](/blog/ubuntu-mate-january-2016-supporters/)
-  * [2016 February](/blog/ubuntu-mate-february-2016-supporters/)
-  * [2016 March](/blog/ubuntu-mate-march-2016-supporters/)
-  * [2016 April](/blog/ubuntu-mate-april-2016-supporters/)
-  * [2016 May](/blog/ubuntu-mate-may-2016-supporters/)
-  * [2016 June](/blog/ubuntu-mate-june-2016-supporters/)
-  * [2016 July](/blog/ubuntu-mate-july-2016-supporters/)
-  * [2016 August](/blog/ubuntu-mate-august-2016-supporters/)
-  * [2016 September](/blog/ubuntu-mate-september-2016-supporters/)
-  * [2016 October](/blog/ubuntu-mate-october-2016-supporters/)
-  * [2016 November](/blog/ubuntu-mate-november-2016-supporters/)
-  * [2016 December](/blog/ubuntu-mate-december-2016-supporters/)
-  * [2017 January](/blog/ubuntu-mate-january-2017-supporters/)
-  * [2017 February](/blog/ubuntu-mate-february-2017-supporters/)
-  * [2017 March](/blog/ubuntu-mate-march-2017-supporters/)
-  * [2017 April](/blog/ubuntu-mate-april-2017-supporters/)
-  * [2017 May](/blog/ubuntu-mate-may-2017-supporters/)
-  * [2017 June](/blog/ubuntu-mate-june-2017-supporters/)
-  * [2017 July](/blog/ubuntu-mate-july-2017-supporters/)
-  * [2017 August](/blog/ubuntu-mate-august-2017-supporters/)
-  * [2017 September](/blog/ubuntu-mate-september-2017-supporters/)
 
 <script type="text/javascript">
   function validateMonthlyForm() {
