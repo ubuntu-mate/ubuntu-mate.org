@@ -36,15 +36,18 @@ file_list=$(find . -name "*.md")
 locale_list=$(cat $i18n_dir/locales.txt)
 
 # Ensure locale has a folder
-for locale in $locale_list; do
-    if [ ! -d "$i18n_dir/$locale" ]; then
-        mkdir "$i18n_dir/$locale"
+function create_dir_if_not_exists() {
+    if [ ! -d "$1" ]; then
+        mkdir "$1"
     fi
+}
+
+for locale in $locale_list; do
+    create_dir_if_not_exists "$i18n_dir/$locale"
 done
 
-if [ ! -d "$dest_dir" ]; then
-    mkdir "$dest_dir"
-fi
+create_dir_if_not_exists "$dest_dir"
+create_dir_if_not_exists "$i18n_dir/pots"
 
 case "$1" in
 
@@ -60,7 +63,9 @@ case "$1" in
         for page in $file_list; do
             page="${page%.*}"
             echo "-> $page ($locale)"
-            txt2po --pot "$page.md" "$i18n_dir/pots/$page.pot"
+
+            # Update existing POT
+            txt2po --pot "$page.md" "$i18n_dir/pots/$page.pot" &>/dev/null
 
             # Update PO files if they already exist.
             if [ -f "$i18n_dir/$locale/$page.po" ]; then
@@ -69,7 +74,7 @@ case "$1" in
                 mv new_po.tmp "$i18n_dir/$locale/$page.po"
             else
                 # Create new PO
-                txt2po "$page.md" "$i18n_dir/$locale/$page.po"
+                txt2po "$page.md" "$i18n_dir/$locale/$page.po"  &>/dev/null
             fi
         done
 
@@ -85,7 +90,7 @@ case "$1" in
     done;;
 
 ################################################################################
-# Create new files from translated files.
+# Create new markdown files from translated files.
 "--build")
     for locale in $locale_list; do
         if [ "$locale" == "" ]; then
@@ -96,7 +101,7 @@ case "$1" in
         for page in $file_list; do
             page="${page%.*}"
             echo "-> $page ($locale)"
-            po2txt --template "$page.md" "$i18n_dir/$locale/$page.po" "$dest_dir/$page.$locale.md"
+            po2txt --template "$page.md" "$i18n_dir/$locale/$page.po" "$dest_dir/$page.$locale.md" &>/dev/null
             sed -i "s/lang: en/lang: $locale/g" "$dest_dir/$page.$locale.md"
         done
 
@@ -105,8 +110,9 @@ case "$1" in
             mkdir "$yaml_dir/$locale/"
         fi
 
+        # Update an existing strings.po file if exists.
         if [ -f "$i18n_dir/$locale/strings.po" ]; then
-            $po2yaml "$i18n_dir/$locale/strings.po" "$yaml_dir/$locale/strings.yml"
+            $po2yaml "$i18n_dir/$locale/strings.po" "$yaml_dir/$locale/strings.yml" &>/dev/null
         fi
     done;;
 
