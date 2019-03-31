@@ -45,6 +45,7 @@ exclude:
     - README.md
     - LICENSE.md
     - scripts
+    - i18n
 
 # Network URLs
 github: "https://github.com/ubuntu-mate/"
