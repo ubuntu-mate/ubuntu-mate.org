@@ -33,18 +33,18 @@ markdown: kramdown
 
 # Plugins
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 feed:
     path: rss.xml
 
 # Exclude from processing.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE.md
-  - scripts
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - LICENSE.md
+    - scripts
 
 # Network URLs
 github: "https://github.com/ubuntu-mate/"

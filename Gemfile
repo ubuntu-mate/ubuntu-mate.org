@@ -9,3 +9,4 @@ group :jekyll_plugins do
     # i18n Support
     gem "jekyll-polyglot"
 end
+
