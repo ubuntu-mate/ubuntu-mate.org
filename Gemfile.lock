@@ -35,6 +35,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
+    jekyll-webp (1.0.0)
     kramdown (1.17.0)
     liquid (4.0.1)
     listen (3.1.5)
@@ -64,6 +65,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-polyglot
+  jekyll-webp
 
 BUNDLED WITH
-   1.17.1
+   2.0.1
