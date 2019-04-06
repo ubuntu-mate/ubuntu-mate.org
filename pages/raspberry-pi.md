@@ -256,6 +256,11 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Recent Changes
 
+### Ubuntu MATE 18.04.2 Beta 2 - WIP
+
+  * Disabled WiFi Power Management.
+  * `openssh-server` no longer pre-installed.
+
 ### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019
 
   * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.
