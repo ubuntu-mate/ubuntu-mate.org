@@ -172,12 +172,16 @@ to hopefully support 3rd party tools and applications.
 
 ### SSH
 
-The OpenSSH server is disabled by default. If you want to enable SSH you can
-use `raspi-config` to created a file call `ssh` in to `/boot` paritition and
-reboot.
+The OpenSSH server is not installed by default. Simply install it to 
+to enable SSH.
 
-When you enable SSH via either method explained above `sshguard` will
-also be enabled.
+    sudo apt install openssh-server
+
+If you install SSH then you might also want to install [sshguard](sshguard)
+which is highly optimised and well suited for use on the Raspberry Pi to
+protects from brute force attacks against SSH.
+
+    sudo apt install sshguard
 
 ### Steam Link for Raspberry Pi
 
