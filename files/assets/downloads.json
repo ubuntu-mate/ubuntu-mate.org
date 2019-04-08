@@ -12,14 +12,14 @@
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.2-desktop-amd64.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:1333b24f34c4c5d04313ccf909042c2aac087a0c&dn=ubuntu-mate-18.04.2-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "9f4d3e9fcbfd94b4570597cd393c7d075ac5b835bfc72eb2c0fe57ef40f7f64f",
-            "download-size": "1.9 GB"
+            "download-size": "2.05 GB"
         },
         "i386": {
             "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.2-desktop-i386.iso",
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.2-desktop-i386.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:1ae9c99bafa2eeafe29729fbcef5a226c5806995&dn=ubuntu-mate-18.04.2-desktop-i386.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "cc57ec9da34a15643bc417c0c96fb4cccf77876a4f4f746103e778b41accd435",
-            "download-size": "1.9 GB"
+            "download-size": "2.05 GB"
         },
         "arm64": {
             "direct": "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz",
@@ -38,6 +38,22 @@
             "download-size": "1.2 GB",
             "alt-name": "18.04.2 (Bionic)",
             "alt-description": "Bring the traditional desktop experience to your Raspberry Pi!"
+        },
+        "gpd-pocket": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:fa27d763a2062d4507d8ab01b04016a45d6b840b&dn=ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso",
+            "sha256sum": "afe8602662743d7383a8a3ff92a6bb18c7a3fbb0b1e1ba0d56ad4d64d6c526ca",
+            "download-size": "2.05 GB",
+            "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
+        },
+        "gpd-pocket2": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:9df7049bf7fb8dde6af47efe1abe0e5fc8c5852e&dn=ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso",
+            "sha256sum": "13e56c8c5387ff8ece86c6c797411091468d61a2a4ab3f3cb99af9f8f31bc811",
+            "download-size": "2.05 GB",
+            "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
         }
     },
     "cosmic": {
@@ -53,15 +69,23 @@
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/ubuntu-mate-18.10-desktop-amd64.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:61edd86975510db683d89fe5a8c682eca986f7d6&dn=ubuntu-mate-18.10-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "d646ec5e22e8b60a2190a9828363592f0485692e36e00ecfce7220fac9775033",
-            "download-size": "1.9 GB"
+            "download-size": "2.10 GB"
         },
         "gpd-pocket": {
             "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso",
             "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:1bc7d6f481de2098ff94bbb0ca47a6cc1f6f59ac&dn=ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso",
-            "sha256sum": "d41598dfa6c5ff2bb38f944e842f24e381811a6ee1c6b8acbb2c379f787ad7d9",
-            "download-size": "1.9 GB",
+            "magnet-uri": "magnet:?xt=urn:btih:ae0b6e18d1fb7bac1a0836ed12ce43f4f721fbf4&dn=ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket.is",
+            "sha256sum": "51e4d5ccadf8e043ec8b65c578e96d61232cb19675842fc08681e194e1022036",
+            "download-size": "2.10 GB",
             "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
+        },
+        "gpd-pocket2": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:c572be29ea7151de758fbef49240ce6aa0a7e35f&dn=ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso",
+            "sha256sum": "0841aa4b0bf611610a5bcf5342a54e6b6682edd656a3645dbedba25af323427e",
+            "download-size": "2.10 GB",
+            "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
         }
     },
     "disco": {
@@ -77,7 +101,23 @@
             "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/beta/ubuntu-mate-19.04-beta-desktop-amd64.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:572110024dedaae76bcb125673fffacd97263650&dn=ubuntu-mate-19.04-beta-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "fffb41ea8105b8cea7f647e4f99d428c46db92160b09c4c15c0374d832c7e268",
-            "download-size": "2.0 GB"
+            "download-size": "2.18 GB"
+        },
+        "gpd-pocket": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:1c9293c0b35dba0914df237d33666b67cd451611&dn=ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso",
+            "sha256sum": "edf328875f475798cd4c5596757d88869db2d90b7ac12bb28e55f637c571c9fe",
+            "download-size": "2.18 GB",
+            "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
+        },
+        "gpd-pocket2": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:291508790c38957a9a97fc9a4ff6c1243b09b7e5&dn=ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso",
+            "sha256sum": "7ccae201eaef451768919bf120f61cf815d4d0739ac3e86dca12140d262823c4",
+            "download-size": "2.18 GB",
+            "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
         }
     },
     "xenial": {
