@@ -118,13 +118,30 @@
                         For the following devices:
                         <ul>
                             <li>GPD Pocket</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="gpd-pocket2" onclick="setArch('gpd-pocket2', 'GPD Pocket 2')">
+                <div class="icon">
+                    <span class="fa fa-laptop"></span>
+                </div>
+                <div class="details">
+                    <h3>GPD Pocket 2</h3>
+                    <p>
+                        For the following devices:
+                        <ul>
                             <li>GPD Pocket 2</li>
                         </ul>
                     </p>
                 </div>
             </button>
         </div>
+    </div>
 
+    <div class="row">
         <div class="col-xs-12 col-md-6">
             <button class="download-option arch-option" id="powerpc" onclick="setArch('powerpc', 'PowerPC')">
                 <div class="icon">
