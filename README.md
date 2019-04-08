@@ -39,12 +39,13 @@ If you need to update the gems (dependencies) later:
 
 ## Translations
 
-We are ready to speak multiple languages! Visit [Transifex](Visit https://www.transifex.com/ubuntu-mate/ubuntu-mate.org/)
-to translate this website.
+We are ready to speak multiple languages! Visit
+[Transifex](https://www.transifex.com/ubuntu-mate/ubuntu-mate.org/)
+to translate this website. The Ubuntu MATE team will pull in completed translations.
 
 We use the [polyglot](https://github.com/untra/polyglot) gem to provide i18n support.
 
-When building the website, the `scripts/generate-translations.sh` will generate
+When building the website, use `scripts/generate-translations.sh` to generate
 the necessary files.
 
 | Parameter             | Action                                            |
@@ -71,10 +72,10 @@ When pages change, run `--generate`. Before building the site, run `--build`.
 
 | Folder            | Purpose
 |-------------------|-------------------------------------------------------|
-| `assets`          | Global website resources, like favicons and libraries.
-| `_sass`           | Look & feel
 | `_includes`       | HTML to build up sections of the website.
 | `_layouts`        | HTML base layouts.
+| `_sass`           | Ubuntu MATE theme
+| `assets`          | Global website resources, like favicons and libraries.
 | `scripts`         | For building and deployment.
 
 ### Other
@@ -95,3 +96,4 @@ You may modify the website provided credit and copyright notices remain.
 
 * [Summary](https://creativecommons.org/licenses/by-sa/4.0/)
 * [Full Text](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+
