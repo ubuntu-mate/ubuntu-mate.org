@@ -45,7 +45,7 @@ improvement we've made since the Ubuntu MATE 18.10 images were created:
   * Frame buffer and Xorg display rotation now works with `modesetting` and `xorg-video-intel` display drivers.
   * Enabled **TearFree rendering by default**.
   * Updated touch screen rotation to support Xorg and Wayland.
-  * Enabled **scroll while holding down the right track point button**.
+  * Enabled an **emulated mouse scroll wheel**, activated by holding down the right track point button and moving the trackpoint up/down.
   * **GRUB is now usable post-install** for both devices!
 
 <div class="bs-component">

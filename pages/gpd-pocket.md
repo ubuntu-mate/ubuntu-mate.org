@@ -39,7 +39,8 @@ Pocket and GPD Pocket 2 adds the following tweaks:
     * Supports `modesetting` *and* `xorg-video-intel` display drivers.
   * Enable **TearFree rendering by default**.
   * Enable touch screen rotation for Xorg and Wayland.  
-  * Enable **scroll while holding down the right track point button** for Xorg.
+  * Enabled an **emulated mouse scroll wheel**.
+    * Activated by holding down the right trackpoint button and moving the trackpoint up/down.
   * Enable double size console (tty) font resolution.
   * Enable **resolution scaling** for 1920x1200 displays. *(MATE Desktop only)*
     * Results in an effective resolution of 1280x800 to make the 7" panel easily readable.
