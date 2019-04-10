@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "version": "2",
+  "name": "Ubuntu MATE",
+  "short_name": "Ubuntu MATE",
+  "description": "For a retrospective future",
+  "default_locale": "en",
+  "icons": [
+    {
+      "src": "/assets/favicon/32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/196x196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#87A556",
+  "theme_color": "#87A556",
+  "orientation": "any"
+}
