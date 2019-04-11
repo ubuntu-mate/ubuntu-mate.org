@@ -111,7 +111,7 @@ for example:
 
     sudo apt-get install gddrescue xz-utils
     unxz ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz
-    sudo ddrescue -D --force ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz /dev/sdx
+    sudo ddrescue -D --force ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img /dev/sdx
 
 The microSDHC or USB stick may be presented on any `/dev/sdX` so use the command
 `lsblk` to check.
