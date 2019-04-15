@@ -11,7 +11,9 @@
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug
 fixes and improved hardware support, *particularly for nvidia GPU owners*, then
-19.04 is for you.**
+19.04 is for you. Oh yeah, we've
+also made a [bespoke Ubuntu MATE 19.04 images for the GPD Pocket and GPD Pocket
+2](/gpd-pocket/). Read on to learn more...**
 
 
 <div align="center">
@@ -86,6 +88,14 @@ features and they can now be queried from within MATE components. The inclusion
 of RDA offers the option to suspend your remote connection, supports folder
 sharing in Caja, MIME type bindings for SSHFS shares and allows session suspension
 via the MATE screensaver.
+
+### GPD Pocket
+
+Alongside the generic image for 64-bit Intel PCs we're also releasing bespoke
+images for the [GPD Pocket](https://gpd.hk/gpdpocket) and
+[GPD Pocket 2](https://gpd.hk/gpdpocket2) that includes the hardware
+specific tweaks to get these devices working *"out of the box"*
+without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
 
 ## Major Applications
 
