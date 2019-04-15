@@ -258,6 +258,9 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ### Ubuntu MATE 18.04.2 Beta 2 - WIP
 
+  * Added Raspberry Pi specific applications to the Software Boutique.
+    * Minecraft: Pi Edition
+    * Steam Link 
   * Disabled WiFi Power Management.
   * `openssh-server` no longer pre-installed.
 
