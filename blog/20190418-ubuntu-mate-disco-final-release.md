@@ -135,8 +135,7 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
-  * The Software Boutique doesn't list any available software.
-    * An update, due very soon, will re-stock the software library and add a few new applications too.
+  * Nothing significant.
 
 ### Ubuntu family issues
 
