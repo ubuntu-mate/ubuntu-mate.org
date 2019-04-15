@@ -10,9 +10,9 @@
 -->
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug
-fixes and improved hardware support, *particularly for nvidia GPU owners*, then
+fixes and improved hardware support, *particularly for NVIDIA GPU owners*, then
 19.04 is for you. Oh yeah, we've
-also made a [bespoke Ubuntu MATE 19.04 images for the GPD Pocket and GPD Pocket
+also made [bespoke Ubuntu MATE 19.04 images for the GPD Pocket and GPD Pocket
 2](/gpd-pocket/). Read on to learn more...**
 
 
@@ -44,27 +44,27 @@ So, we are playing it safe and sticking with MATE Desktop 1.20 and working
 with upstreams so we can land MATE Desktop 1.22 early in the Ubuntu MATE
 19.10 development cycle.
 
-### nvidia Drivers
+### NVIDIA Drivers
 
 During the Ubuntu 18.10 development cycle the Linux kernel, firmware,
 Mesa and Vulkan were all updated to ensure we offered the best possible
 support for sipping AMD GPUs. During the 19.04 cycle AMD support has
 been uplifted again but we have also improved the *"out of box"* experience
-for nvidia GPU owners too.
+for NVIDIA GPU owners too.
 
-If you have an nvidia GPU connected to your computer and select
-*Install third-party software for graphics and WiFi hardware* during
-installation, the **nvidia driver version suitable for your generation of nvidia
-GPU will be installed**.
+If you have an NVIDIA GPU connected to your computer and select
+*Install third-party software for graphics and Wi-Fi hardware* during
+installation, the **most suitable driver for your NVIDIA GPU's generation
+will be installed**.
 
 <div align="center">
 <img src="/gallery/disco/select-third-party-drivers.png" alt="Third party drivers" /><br />
 </div>
 
-Post install the proprietary nvidia drivers are installed and configured. To
+Post install, the proprietary NVIDIA drivers are installed and configured. To
 confirm this, open a terminal and run `nvidia-smi`. Ubuntu MATE users with
 laptops that support hybrid graphics will see the MATE Optimus hybrid graphics
-applet displaying the nvidia logo.
+applet displaying the NVIDIA logo.
 
 <div align="center">
 <img src="/gallery/disco/mate-optimus-indicator.png" alt="MATE Optimus - hybrid graphics switcher" /><br />
@@ -73,9 +73,9 @@ applet displaying the nvidia logo.
 ### MATE Dock Applet
 
 [MATE Dock Applet](https://github.com/robint99/mate-dock-applet) has been
-updated to 0.88 which introduces some new visual options, both based on
-the look of the Unity desktop. As can be seen in the screenshot above these
-can be used to make the Mutiny layout more closely mimic Unity 7.
+updated to 0.88 which introduces some new visual options, based on
+the look of the Unity desktop. As seen in the screenshot at the start of this
+post, this has been used in the Mutiny layout to further mimic Unity 7.
 
 ### Remote Desktop Awareness
 
@@ -85,15 +85,15 @@ makes MATE Desktop more aware of its execution context so that it behaves
 differently when run inside a remote desktop session compared to when running
 on local hardware. Different remote technology solutions support different
 features and they can now be queried from within MATE components. The inclusion
-of RDA offers the option to suspend your remote connection, supports folder
-sharing in Caja, MIME type bindings for SSHFS shares and allows session suspension
+of RDA offers the option to suspend your remote connection; supports folder
+sharing in Caja; MIME type bindings for SSHFS shares and allows session suspension
 via the MATE screensaver.
 
 ### GPD Pocket
 
-Alongside the generic image for 64-bit Intel PCs we're also releasing bespoke
+Alongside the generic image for 64-bit Intel PCs, we're also releasing bespoke
 images for the [GPD Pocket](https://gpd.hk/gpdpocket) and
-[GPD Pocket 2](https://gpd.hk/gpdpocket2) that includes the hardware
+[GPD Pocket 2](https://gpd.hk/gpdpocket2). These include hardware
 specific tweaks to get these devices working *"out of the box"*
 without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
 
@@ -113,7 +113,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Download Ubuntu MATE 19.04</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
+        <p>Our download page makes it easy to acquire the most suitable build for your hardware.</p>
         <a href="/download/" class="btn btn-primary btn-lg">Download</a>
         </p>
     </div>
@@ -126,7 +126,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
   * Set the "Notify me of a new Ubuntu version" dropdown menu to "For any new version".
   * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c` into the command box.
   * Update Manager should open up and tell you: New distribution release '19.04' is available.
-    * If not you can also use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
+    * If not, you can use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
   * Click "Upgrade" and follow the on-screen instructions.
 
 ## Known Issues
