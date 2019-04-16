@@ -135,14 +135,14 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
-  * [Ubuntu MATE Welcome and Software Boutique is a white window](https://pad.lv/1748715) when installed in a VirtualBox guest.
+  * [Ubuntu MATE Welcome and Software Boutique renders a solid white window](https://pad.lv/1748715) when installed in a VirtualBox guest.
     * This happens if 3D acceleration has been enabled in VirtualBox. The work around is to disbale 3D acceleration.
 
 ### Ubuntu family issues
 
 This is our known list of bugs that affects all flavours.
 
-  * When [selecting third-party drivers during install there is a long pause before install proceeds](https://pad.lv/1824905).
+  * When [selecting third-party drivers during install causes a long pause before the install proceeds](https://pad.lv/1824905).
     * This is the `ubuntu-drivers` tool refreshing it's cache. Please wait a couple of minutes and install will continue normally.
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
