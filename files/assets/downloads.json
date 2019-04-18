@@ -91,32 +91,32 @@
     "disco": {
         "name": "19.04 (Disco)",
         "description": "Interim release for users desiring the latest features and applications.",
-        "support": "Beta 1",
-        "release-notes": "/blog/ubuntu-mate-disco-beta/",
+        "support": "Supported until January 2020",
+        "release-notes": "/blog/ubuntu-mate-disco-final-release/",
         "background-url": "/assets/img/downloads/backgrounds/bionic.png",
         "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/release/",
-        "pre-release": true,
+        "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/beta/ubuntu-mate-19.04-beta-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/beta/ubuntu-mate-19.04-beta-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:572110024dedaae76bcb125673fffacd97263650&dn=ubuntu-mate-19.04-beta-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "fffb41ea8105b8cea7f647e4f99d428c46db92160b09c4c15c0374d832c7e268",
-            "download-size": "2.18 GB"
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/release/ubuntu-mate-19.04-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/release/ubuntu-mate-19.04-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:621b570f58bc5335eee3410c2732ede1481a6f88&dn=ubuntu-mate-19.04-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
+            "sha256sum": "81de037c183de61eb720b6d5ca8f9d85d389747f82b8e4175b1f0f0f0f8de1ed",
+            "download-size": "2.08 GB"
         },
         "gpd-pocket": {
-            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso",
-            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:1c9293c0b35dba0914df237d33666b67cd451611&dn=ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso",
-            "sha256sum": "edf328875f475798cd4c5596757d88869db2d90b7ac12bb28e55f637c571c9fe",
-            "download-size": "2.18 GB",
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:68b536fcf3f5e6dfd46aa06b383f54c400026607&dn=ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso",
+            "sha256sum": "6c1a8d2aba27c8e9585678c3ef9c465b795a004a6f7b7dfbef691e668cd881bf",
+            "download-size": "2.08 GB",
             "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
         },
         "gpd-pocket2": {
-            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso",
-            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:291508790c38957a9a97fc9a4ff6c1243b09b7e5&dn=ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso",
-            "sha256sum": "7ccae201eaef451768919bf120f61cf815d4d0739ac3e86dca12140d262823c4",
-            "download-size": "2.18 GB",
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:d9996b5711dccbd21ada826b1dc000018abe03d0&dn=ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso",
+            "sha256sum": "5fe9f517be62cf87538d3954f374056a3301bbfe501690ec1e608571d2b21583",
+            "download-size": "2.08 GB",
             "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
         }
     },
@@ -143,8 +143,8 @@
             "download-size": "1.74 GB"
         },
         "powerpc": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.1-desktop-powerpc.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.5/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent",
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/ubuntu-mate-16.04.1-desktop-powerpc.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04.6/release/ubuntu-mate-16.04.1-desktop-powerpc.iso.torrent",
             "magnet-uri": "magnet:?xt=urn:btih:f29b7235363d0456f52aaf8eb8b748e980837305&dn=ubuntu-mate-16.04.1-desktop-powerpc.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
             "sha256sum": "59ee1a0bfd9995aa71edeb8c011536c815b6980392b527ae243c2a5835b8d43d",
             "download-size": "1.7 GB",
