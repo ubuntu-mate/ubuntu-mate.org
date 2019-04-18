@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 19.04 Final Release
 .. slug: ubuntu-mate-disco-final-release
-.. date: 2019-04-18 11:45:00 UTC-1
+.. date: 2019-04-18 13:00:00 UTC-1
 .. tags: Ubuntu,MATE,Disco,Dingo,19.04,final
 .. link:
 .. description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
@@ -53,8 +53,7 @@ for NVIDIA GPU owners too.
 
 If you have an NVIDIA GPU connected to your computer and select
 *Install third-party software for graphics and Wi-Fi hardware* during
-installation, the **most suitable driver for your NVIDIA GPU's generation
-will be installed**.
+installation, the NVIDIA proprietary drivers will be installed.
 
 <div align="center">
 <img src="/gallery/disco/select-third-party-drivers.png" alt="Third party drivers" /><br />
