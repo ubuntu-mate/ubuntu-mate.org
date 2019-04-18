@@ -1,7 +1,7 @@
 <!--
 .. title: Ubuntu MATE 19.04 Final Release
 .. slug: ubuntu-mate-disco-final-release
-.. date: 2019-04-18 15:00:00 UTC
+.. date: 2019-04-18 11:45:00 UTC-1
 .. tags: Ubuntu,MATE,Disco,Dingo,19.04,final
 .. link:
 .. description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
