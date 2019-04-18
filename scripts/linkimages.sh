@@ -31,6 +31,8 @@ link_image gpd-pocket "/home/matey/ISO-Mirror/cosmic/amd64/ubuntu-mate-18.10-des
 link_image gpd-pocket "/home/matey/ISO-Mirror/cosmic/amd64/ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso"
 link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket.iso"
 link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso"
+link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso"
+link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso"
 
 echo "Symlinking images..."
 for region in man yor; do
