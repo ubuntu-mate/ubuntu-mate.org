@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 19.04 Final Release
 .. slug: ubuntu-mate-disco-final-release
 .. date: 2019-04-18 15:00:00 UTC
-.. tags: Ubuntu,MATE,Disco,Dingo,19.04,final,draft
+.. tags: Ubuntu,MATE,Disco,Dingo,19.04,final
 .. link:
 .. description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
 .. type: text
@@ -11,9 +11,8 @@
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug
 fixes and improved hardware support, *particularly for NVIDIA GPU owners*, then
-19.04 is for you. Oh yeah, we've
-also made [bespoke Ubuntu MATE 19.04 images for the GPD Pocket and GPD Pocket
-2](/gpd-pocket/). Read on to learn more...**
+19.04 is for you. Oh yeah, we've also made [bespoke Ubuntu MATE 19.04 images for
+the GPD Pocket and GPD Pocket 2](/gpd-pocket/). Read on to learn more...**
 
 
 <div align="center">
@@ -135,15 +134,14 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
-  * [Ubuntu MATE Welcome and Software Boutique renders a solid white window](https://pad.lv/1748715) when installed in a VirtualBox guest.
-    * This happens if 3D acceleration has been enabled in VirtualBox. The work around is to disbale 3D acceleration.
+  * Nothing significant.
 
 ### Ubuntu family issues
 
 This is our known list of bugs that affects all flavours.
 
   * When [selecting third-party drivers during install causes a long pause before the install proceeds](https://pad.lv/1824905).
-    * This is the `ubuntu-drivers` tool refreshing it's cache. Please wait a couple of minutes and install will continue normally.
+    * This is the `ubuntu-drivers` tool refreshing it's cache. Please wait a couple of minutes and the install will continue normally.
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
 
