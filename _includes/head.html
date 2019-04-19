@@ -3,13 +3,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+    {% capture page_title %}
+        {% if page.permalink == '/' %}
+            {{ page.title }}
+        {% else %}
+            {% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}
+        {% endif %}
+    {% endcapture %}
+
+    <title>{{ page_title }}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
     <meta name="author" content="Ubuntu MATE Team">
 
     <meta property="og:site_name" content="Ubuntu MATE">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} |{% endif %} {{ site.title | escape }}">
+    <meta property="og:title" content="{{ page_title }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:type" content="website">

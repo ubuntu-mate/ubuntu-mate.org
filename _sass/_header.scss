@@ -1,0 +1,260 @@
+$header-height: 60px;
+
+.site-header {
+    background: $ubuntu-mate-light;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $header-height;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px $grey-light;
+    z-index: 100;
+}
+
+#site-header-block {
+    height: $header-height;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo {
+    display: block;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    margin-right: 10px;
+
+    &:hover {
+        img {
+            transform: rotate(125deg);
+        }
+    }
+
+    &:focus {
+        outline: 2px solid lighten($ubuntu-mate-light, 15%);
+    }
+
+    img {
+        height: 48px;
+        width: 48px;
+        transition: transform $transition-duration $transition-timing;
+        transform: rotate(0deg);
+    }
+}
+
+.primary-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-push-right {
+    margin-left: auto;
+}
+
+.nav-btn {
+    display: block;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+
+    &.active {
+        background: lighten($ubuntu-mate-light, 5%);
+    }
+
+    &:hover,
+    &:focus {
+        background: lighten($ubuntu-mate-light, 10%);
+        color: white;
+        text-decoration: none;
+    }
+
+    &:active {
+        background: lighten($ubuntu-mate-light, 15%);
+        outline-color: lighten($ubuntu-mate-light, 15%);
+    }
+
+    svg {
+        height: 20px;
+        width: auto;
+
+        path {
+            fill: white;
+        }
+    }
+}
+
+/* Language Picker */
+.nav-i18n {
+    display: block;
+    color: white;
+    padding: 15px;
+}
+
+.nav-i18n-btn {
+    img, svg {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    img {
+        height: auto;
+        width: 16px;
+    }
+
+    svg {
+        height: 10px;
+        width: auto;
+    }
+}
+
+#i18n-chooser-mobile {
+    text-transform: uppercase;
+}
+
+#i18n-chooser {
+    &:checked {
+        ~ .i18n-dropdown {
+            display: flex;
+        }
+
+        ~ ul .i18n-btn,
+        ~ ul #i18n-chooser-mobile {
+            background: white;
+            color: black;
+            padding-bottom: 20px;
+
+            svg path {
+                fill: black;
+            }
+        }
+    }
+}
+
+.i18n-dropdown {
+    display: none;
+    background: white;
+    border: $dropdown-border;
+    box-shadow: $dropdown-shadow;
+    position: absolute;
+    top: $header-height - 5px;
+    right: 15px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+
+    li {
+        width: 100%;
+
+        a {
+            color: black;
+        }
+
+        .checked::after {
+            content: "✓";
+            position: absolute;
+            right: 15px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+}
+
+/* Mobile only */
+.mobile-only {
+    display: none;
+}
+
+@media screen and (max-width: $lg) {
+    .site-header > .container {
+        max-width: none;
+    }
+}
+
+@media screen and (min-width: $sm + 1px) and (max-width: $md) {
+    .nav-btn {
+        padding: 10px 0.75vw;
+        margin: 5px 0;
+    }
+
+    .i18n-dropdown {
+        right: 15px;
+
+        li a {
+            margin: 0;
+        }
+    }
+
+    .i18n-btn {
+        display: none;
+    }
+
+    #i18n-chooser-mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: $sm) {
+    .mobile-only {
+        display: block;
+    }
+
+    .mobile-only-toggle {
+        display: block;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .primary-nav {
+        display: none;
+        background: white;
+        border: $dropdown-border;
+        box-shadow: $dropdown-shadow;
+        position: fixed;
+        top: $header-height;
+        left: 15px;
+        right: 15px;
+        margin: auto;
+        flex-wrap: wrap;
+
+        li {
+            width: 50%;
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    #primary-mobile-only-toggle {
+        &:checked {
+            ~ .primary-nav {
+                display: flex;
+            }
+
+            ~ li #primary-nav-mobile {
+                background: white;
+                padding-bottom: 20px;
+
+                svg path {
+                    fill: black;
+                }
+            }
+        }
+    }
+}

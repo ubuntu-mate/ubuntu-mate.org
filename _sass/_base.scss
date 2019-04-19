@@ -1,0 +1,47 @@
+body, button, input {
+    font-family: "Ubuntu", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    color: black;
+}
+
+a {
+    color: $link-color;
+
+    &:hover,
+    &:focus {
+        color: $link-color-focused;
+    }
+}
+
+::selection {
+    background: $ubuntu-mate-dark;
+    color: white;
+}
+
+/************************
+ * Push footer to the bottom
+*************************/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 320px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/************************
+ * Text class helpers
+*************************/
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

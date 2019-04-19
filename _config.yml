@@ -53,7 +53,8 @@ github: "https://github.com/ubuntu-mate/"
 facebook: "https://www.facebook.com/UbuntuMATEedition/"
 twitter: "https://twitter.com/ubuntu_mate"
 youtube: "https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ/"
-rss_feed: "/rss.xml"
+mastodon: "https://ubuntu.social/@ubuntumate"
+rss: "/rss.xml"
 
 # i18n
 languages: [
@@ -65,6 +66,7 @@ exclude_from_localization: [
     "assets"
 ]
 parallel_localization: true
+
 # Site configuration for the WebP Generator Plugin
 # The values here represent the defaults if nothing is set
 webp:
@@ -94,3 +96,37 @@ webp:
   # e.g. custom or hand generated webp conversion files
   exclude: []
 
+
+# Navigation
+navigation:
+    - url: /about/
+      text: About
+      class: about
+
+    - url: /features/
+      text: Features
+      class: features
+
+    - url: /blog/
+      text: Blog
+      class: blog
+
+    - url: /community/
+      text: Community
+      class: community
+
+    - url: /download/
+      text: Download
+      class: download
+
+    - url: /development/
+      text: Development
+      class: development
+
+    - url: /shop/
+      text: Emporium
+      class: shop
+
+    - url: /funding/
+      text: Funding
+      class: funding

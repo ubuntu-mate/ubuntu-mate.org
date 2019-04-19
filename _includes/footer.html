@@ -1,0 +1,29 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <p>&copy; 2014-{{ site.time | date:'%Y' }} Ubuntu MATE Team</p>
+                <p class="dim">
+                    {{ site.data.strings.footnote | replace: '[Ubuntu]', '<a href="https://www.ubuntu.com" rel="external">Ubuntu</a>' | replace: '[Canonical Ltd.]', '<a href="https://www.canonical.com" rel="external">Canonical Ltd.</a>' }}
+                </p>
+                <p class="site-chooser-wrapper">
+                    <a class="site-chooser active" href="https://ubuntu-mate.org">ubuntu-mate.org</a>
+                    <a class="site-chooser" href="https://ubuntu-mate.community">ubuntu-mate.community</a>
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-6 text-right">
+                <div class="footer-links">
+                    <a href="/privacy/">{{ site.data.strings.privacy }}</a>
+                    <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/commits/master" class="external" rel="nofollow">{{ site.data.strings.recent_changes }} {% include images/fa/external-link-alt.svg %}</a>
+                    <a href="https://www.transifex.com/ubuntu-mate/public/" class="external" rel="nofollow">{{ site.data.strings.translate_site }} {% include images/fa/external-link-alt.svg %}</a>
+                </div>
+                <div class="social-links">
+                    {% assign links = "rss,github,mastodon,twitter,facebook,youtube" | split: "," %}
+                    {% for link in links %}
+                        <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

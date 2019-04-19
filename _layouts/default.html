@@ -5,8 +5,18 @@
 
   <body>
 
-  </body>
+    {% include header.html %}
 
-  <script src="/assets/ubuntu-mate.js"></script>
+    <main class="page-content" aria-label="Content">
+
+        {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+    <script src="/assets/ubuntu-mate.js"></script>
+
+  </body>
 
 </html>
