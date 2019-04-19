@@ -89,11 +89,5 @@ When pages change, run `--generate`. Before building the site, run `--build`.
 
 ## License
 
-The website is licensed under the terms of the CC-BY-SA 4.0
-(Creative Commons Attribution-ShareAlike 4.0 International).
-
-You may modify the website provided credit and copyright notices remain.
-
-* [Summary](https://creativecommons.org/licenses/by-sa/4.0/)
-* [Full Text](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
-
+Refer to the [LICENSE.md](LICENSE.md) file for copyright and licensing notices
+for this website.
