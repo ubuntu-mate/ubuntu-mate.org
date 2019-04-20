@@ -1,0 +1,105 @@
+releases:
+    bionic:
+        name: "18.04.2"
+        codename: "Bionic Beaver"
+        lts: true
+        prerelease: false
+        release_notes: "/blog/ubuntu-mate-bionic-final-release/"
+        end_of_life: "April 2021"
+
+    cosmic:
+        name: "18.10"
+        codename: "Cosmic Cuttlefish"
+        lts: false
+        prerelease: false
+        release_notes: "/blog/ubuntu-mate-cosmic-final-release/"
+        end_of_life: "Jul 2019"
+
+    disco:
+        name: "19.10"
+        codename: "Disco Dingo"
+        lts: false
+        prerelease: false
+        release_notes: "/blog/ubuntu-mate-disco-final-release/"
+        end_of_life: "Jan 2020"
+
+downloads:
+    amd64:
+        - release: bionic
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.2-desktop-amd64.iso"
+          sha256: "9f4d3e9fcbfd94b4570597cd393c7d075ac5b835bfc72eb2c0fe57ef40f7f64f"
+          size: "2.05 GB"
+          magnet-uri: autogen
+
+        - release: cosmic
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/ubuntu-mate-18.10-desktop-amd64.iso"
+          sha256sum: "d646ec5e22e8b60a2190a9828363592f0485692e36e00ecfce7220fac9775033"
+          size: "2.10 GB"
+          magnet-uri: autogen
+
+        - release: disco
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.04/release/ubuntu-mate-19.04-desktop-amd64.iso"
+          sha256sum: "81de037c183de61eb720b6d5ca8f9d85d389747f82b8e4175b1f0f0f0f8de1ed"
+          size: "2.08 GB"
+          magnet-uri: autogen
+
+    i386:
+        - release: bionic
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.2-desktop-i386.iso"
+          sha256sum: "cc57ec9da34a15643bc417c0c96fb4cccf77876a4f4f746103e778b41accd435"
+          size: "2.05 GB"
+          magnet-uri: autogen
+
+    powerpc:
+
+    pi_stable:
+        - release: bionic
+          url: "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz"
+          sha256sum: "bb74b607da2f4d417851e006fadd5de1304f84681db9c4bd8f17ff1b1d410995"
+          size: "1.2 GB"
+          magnet-uri: autogen
+
+    pi_edge:
+        - release: bionic
+          url: "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
+          sha256sum: "bb4f6f722b41aa4c40b710b3cb81936127ecf799236ccbaa3b6b5455d8bf2b39"
+          size: "1.2 GB"
+          magnet-uri: autogen
+
+    gpd_pocket:
+        - release: bionic
+          url: "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso"
+          sha256sum: "afe8602662743d7383a8a3ff92a6bb18c7a3fbb0b1e1ba0d56ad4d64d6c526ca"
+          size: "2.05 GB"
+          magnet-uri: autogen
+
+        - release: cosmic
+          url: "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso"
+          sha256sum: "51e4d5ccadf8e043ec8b65c578e96d61232cb19675842fc08681e194e1022036"
+          size: "2.10 GB"
+          magnet-uri: autogen
+
+        - release: disco
+          url: "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso"
+          sha256sum: "6c1a8d2aba27c8e9585678c3ef9c465b795a004a6f7b7dfbef691e668cd881bf"
+          size: "2.08 GB"
+          magnet-uri: autogen
+
+    gpd_pocket_2:
+        - release: bionic
+          url: "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso"
+          sha256sum: "13e56c8c5387ff8ece86c6c797411091468d61a2a4ab3f3cb99af9f8f31bc811"
+          size: "2.05 GB"
+          magnet-uri: autogen
+
+        - release: cosmic
+          url: "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso"
+          sha256sum: "0841aa4b0bf611610a5bcf5342a54e6b6682edd656a3645dbedba25af323427e"
+          size: "2.10 GB"
+          magnet-uri: autogen
+
+        - release: disco
+          url: "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso"
+          sha256sum: "5fe9f517be62cf87538d3954f374056a3301bbfe501690ec1e608571d2b21583"
+          size: "2.08 GB"
+          magnet-uri: autogen
