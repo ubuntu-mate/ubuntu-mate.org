@@ -6,6 +6,7 @@ The website for discovering and downloading the Ubuntu MATE operating system.
 
 Powered by [Jekyll](https://jekyllrb.com/), a static site generator.
 
+
 ## Getting Started
 
 ### Edit on GitHub
@@ -26,15 +27,15 @@ To install gem dependencies for the website:
 
     bundle install
 
-To preview locally:
+This website has a few programmatically generated files, so be sure to run:
 
-    bundle exec jekyll serve --watch --livereload
+    ./scripts/build.sh
+
+To watch for changes locally:
+
+    ./scripts/watch.sh
 
 You can preview the website on your computer at http://localhost:4000.
-
-If you need to update the gems (dependencies) later:
-
-    bundle update
 
 
 ## Translations
@@ -63,10 +64,10 @@ When pages change, run `--generate`. Before building the site, run `--build`.
 | Folder            | Purpose
 |-------------------|-------------------------------------------------------|
 | `_data`           | Structured YAML data used for things like download lists.
-| `_drafts`         | Blog posts (markdown) not ready for publishing yet.
+| `_drafts`         | Blog posts (markdown) not ready to publish. Use `--drafts` parameter to preview.
 | `images`          | Images used across the site.
 | `pages`           | Page contents (markdown)
-| `_posts`          | Blog entries (markdown)
+| `_posts`          | Blog posts (markdown)
 
 ### Development
 
