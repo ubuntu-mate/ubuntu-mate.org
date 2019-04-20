@@ -1,0 +1,25 @@
+language: ruby
+dist: xenial
+
+addons:
+  apt:
+    packages:
+    - transmission-cli
+    - python3-requests
+    - translate-toolkit
+    - rsync
+
+script:
+    - scripts/build.sh
+
+deploy:
+    skip_cleanup: true
+    provider: script
+    script: scripts/deploy.sh
+    on:
+        branch: master
+
+before_deploy:
+    - openssl aes-256-cbc -K $encrypted_0be07feb735f_key -iv $encrypted_0be07feb735f_iv -in scripts/.deploy_key.enc -out ~/.ssh/id_rsa -d
+    - chmod 400 ~/.ssh/id_rsa
+    - openssl aes-256-cbc -K $encrypted_9965f1701517_key -iv $encrypted_9965f1701517_iv in scripts/.CDN_purge.sh.enc -out scripts/.CDN_purge.sh -d
