@@ -66,7 +66,7 @@ $header-height: 60px;
 
 .nav-btn {
     display: block;
-    color: white;
+    color: $text-colour-light;
     cursor: pointer;
     padding: 15px;
 
@@ -77,7 +77,7 @@ $header-height: 60px;
     &:hover,
     &:focus {
         background: lighten($ubuntu-mate-light, 10%);
-        color: white;
+        color: $text-colour-light;
         text-decoration: none;
     }
 
@@ -91,7 +91,7 @@ $header-height: 60px;
         width: auto;
 
         path {
-            fill: white;
+            fill: $text-colour-light;
         }
     }
 }
@@ -99,7 +99,7 @@ $header-height: 60px;
 /* Language Picker */
 .nav-i18n {
     display: block;
-    color: white;
+    color: $text-colour-light;
     padding: 15px;
 }
 
@@ -132,12 +132,12 @@ $header-height: 60px;
 
         ~ ul .i18n-btn,
         ~ ul #i18n-chooser-mobile {
-            background: white;
-            color: black;
+            background: $text-colour-light;
+            color: $text-colour-dark;
             padding-bottom: 20px;
 
             svg path {
-                fill: black;
+                fill: $text-colour-dark;
             }
         }
     }
@@ -145,7 +145,7 @@ $header-height: 60px;
 
 .i18n-dropdown {
     display: none;
-    background: white;
+    background: $text-colour-light;
     border: $dropdown-border;
     box-shadow: $dropdown-shadow;
     position: absolute;
@@ -160,7 +160,7 @@ $header-height: 60px;
         width: 100%;
 
         a {
-            color: black;
+            color: $text-colour-dark;
         }
 
         .checked::after {
@@ -222,7 +222,7 @@ $header-height: 60px;
 
     .primary-nav {
         display: none;
-        background: white;
+        background: $text-colour-light;
         border: $dropdown-border;
         box-shadow: $dropdown-shadow;
         position: fixed;
@@ -236,7 +236,7 @@ $header-height: 60px;
             width: 50%;
 
             a {
-                color: black;
+                color: $text-colour-dark;
             }
         }
     }
@@ -248,11 +248,11 @@ $header-height: 60px;
             }
 
             ~ li #primary-nav-mobile {
-                background: white;
+                background: $text-colour-light;
                 padding-bottom: 20px;
 
                 svg path {
-                    fill: black;
+                    fill: $text-colour-dark;
                 }
             }
         }

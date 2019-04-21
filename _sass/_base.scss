@@ -1,6 +1,6 @@
 body, button, input {
     font-family: "Ubuntu", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-    color: black;
+    color: $text-colour-dark;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 
 ::selection {
     background: $ubuntu-mate-dark;
-    color: white;
+    color: $text-colour-light;
 }
 
 /************************
