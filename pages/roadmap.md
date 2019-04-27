@@ -126,9 +126,9 @@ and Ubuntu MATE needs to provide a first class HiDPI experience.
 ## Launchers and Docks
 
 We will evaluate 3rd party launchers, such as Slingscold,
-[Synapse](http://synapse.zeitgeist-project.com/wiki/index.php?title=Main_Page),
-[The Duck Launcher](https://the-duck.github.io/) and 3rd party docks,
-such as [Plank](http://wiki.go-docky.com/?title=Plank:Introduction), to
+[Synapse](http://mhr3.blogspot.com/2010/11/introducing-synapse-acetylcholine.html),
+[The Duck Launcher](https://github.com/the-duck/launcher) and 3rd party docks,
+such as [Plank](https://launchpad.net/plank), to
 see how they can be integrated with Ubuntu MATE to make user interaction
 with the desktop more efficient.
 
