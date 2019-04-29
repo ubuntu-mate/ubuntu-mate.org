@@ -65,9 +65,7 @@
                 </div>
             </button>
         </div>
-    </div>
 
-    <div class="row">
         <div class="col-xs-12 col-md-6">
             <button class="download-option arch-option" id="armhf" onclick="setArch('armhf', 'Raspberry Pi ARMv7 32-bit')">
                 <div class="icon">
@@ -104,9 +102,7 @@
                 </div>
             </button>
         </div>
-    </div>
 
-    <div class="row">
         <div class="col-xs-12 col-md-6">
             <button class="download-option arch-option" id="gpd-pocket" onclick="setArch('gpd-pocket', 'GPD Pocket')">
                 <div class="icon">
@@ -166,12 +162,10 @@
                 </div>
             </button>
         </div>
-    </div>
-    <div class="row">
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="disco" onclick="setRelease('disco')">
+            <button class="download-option release-option" id="cosmic" onclick="setRelease('cosmic')">
                 <div class="icon">
-                    <img src="/assets/img/downloads/releases/disco.png" />
+                    <img src="/assets/img/downloads/releases/cosmic.png" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
@@ -181,9 +175,9 @@
             </button>
         </div>
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="cosmic" onclick="setRelease('cosmic')">
+            <button class="download-option release-option" id="disco" onclick="setRelease('disco')">
                 <div class="icon">
-                    <img src="/assets/img/downloads/releases/cosmic.png" />
+                    <img src="/assets/img/downloads/releases/disco.png" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
