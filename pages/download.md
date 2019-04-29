@@ -140,27 +140,6 @@
             </button>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-md-6">
-            <button class="download-option arch-option" id="powerpc" onclick="setArch('powerpc', 'PowerPC')">
-                <div class="icon">
-                    <span class="fa fa-desktop"></span>
-                </div>
-                <div class="details">
-                    <h3>PowerPC</h3>
-                    <p>
-                        For hardware like:
-                        <ul>
-                            <li>Apple Macintosh G3, G4 and G5</li>
-                            <li>Apple iBooks and PowerBooks</li>
-                            <li>IBM OpenPower 7xx Machines</li>
-                        </ul>
-                    </p>
-                </div>
-            </button>
-        </div>
-    </div>
 </div>
 
 
@@ -179,18 +158,6 @@
             <button class="download-option release-option" id="bionic" onclick="setRelease('bionic')">
                 <div class="icon">
                     <img src="/assets/img/downloads/releases/bionic.png" />
-                </div>
-                <div class="details">
-                    <h3 class="name"></h3>
-                    <p class="description"></p>
-                    <div class="support"></div>
-                </div>
-            </button>
-        </div>
-        <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="xenial" onclick="setRelease('xenial')">
-                <div class="icon">
-                    <img src="/assets/img/downloads/releases/xenial.svg" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
