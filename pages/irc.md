@@ -9,8 +9,10 @@
 .. author: Martin Wimpress
 -->
 
-This IRC web client is pre-configured so you can jump into our `#ubuntu-mate` channel on 
-[Freenode](https://freenode.net/). Most of the Ubuntu MATE team are in here but they have
-real lives too. If you have a question, do ask.
+You can use your IRC web client to jump into our `#ubuntu-mate` channel on
+[Freenode](https://freenode.net/). [Hexchat](https://hexchat.github.io/) is
+a popular cross-platform client. Come and say hello!
 
-<iframe src="https://kiwiirc.com/client/chat.freenode.net:+6697/?nick=mate%7C?#ubuntu-mate" style="border:0; width:100%; height:500px;"></iframe>
+For support requests, consider browsing and joining our
+[Community](https://ubuntu-mate.community) forum.
+
