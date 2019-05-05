@@ -13,9 +13,9 @@ bundle install
 abort_if_failed $?
 
 # Generate any missing magnet URIs.
-echo -e "\nPopulate Magnet Links"
+echo -e "\nGenerate Magnet Links"
 echo "------------------------------------------------------"
-$(dirname "$0")/populate-magnet-links.py
+$(dirname "$0")/generate-magnet-links.py
 abort_if_failed $?
 
 # Generate markdown files for downloads
