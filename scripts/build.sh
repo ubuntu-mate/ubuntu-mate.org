@@ -18,6 +18,12 @@ echo "------------------------------------------------------"
 $(dirname "$0")/populate-magnet-links.py
 abort_if_failed $?
 
+# Generate markdown files for downloads
+echo -e "\nGenerate Download Pages"
+echo "------------------------------------------------------"
+$(dirname "$0")/generate-download-pages.py
+abort_if_failed $?
+
 # Generate locales
 echo -e "\nBuild locales"
 echo "------------------------------------------------------"

@@ -1,0 +1,74 @@
+.grid-container {
+    margin: 15px 0;
+}
+
+.grid-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid $grey-dark;
+    outline-color: $ubuntu-mate-light;
+    color: $text-colour-dark;
+    width: 100%;
+    min-height: 175px;
+    vertical-align: top;
+    padding: 15px 30px;
+    margin: 15px;
+    text-align: left;
+    transition-property: fill, color, border-color, background;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing;
+
+    h4,
+    p {
+        margin-bottom: 5px;
+    }
+
+    &:hover,
+    &:focus {
+        border-color: $ubuntu-mate-light;
+        text-decoration: none;
+
+        svg path {
+            fill: $ubuntu-mate-light;
+        }
+    }
+
+    &:active {
+        background: $ubuntu-mate-light;
+        color: $text-colour-light;
+        transition: none;
+
+        img {
+            filter: brightness(5);
+        }
+
+        svg path {
+            fill: $text-colour-light;
+            transition: none;
+        }
+
+        h4, p {
+            color: $text-colour-light;
+        }
+    }
+}
+
+.grid-icon {
+    margin-right: 15px;
+
+    img, svg {
+        height: auto;
+        width: 64px;
+    }
+
+    svg path {
+        fill: $grey-light;
+        transition: fill $transition-duration $transition-timing;
+    }
+}
+
+.grid-details {
+    width: 100%;
+}

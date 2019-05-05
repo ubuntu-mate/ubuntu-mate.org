@@ -1,9 +1,11 @@
-# Ignore Jekyll's output and caches
+# Jekyll output and caches
 _site
 .sass-cache
 .jekyll-metadata
 
-# Ignore generated i18n locales
+# Generated at build
 *.mo
 i18n/
 _data/**/
+pages/autogen/
+

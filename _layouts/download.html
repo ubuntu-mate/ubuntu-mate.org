@@ -1,0 +1,246 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ site.data.strings.downloads_title }}</h1>
+            </header>
+        </div>
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% if page.step >= 2 %}
+                    <a class="download-back" href="../">
+                        {% include images/fa/chevron-left.svg %}
+                    </a>
+                {% endif %}
+
+                <h3 class="download-title">
+                    {% if page.step == 1 %}
+                        {{ site.data.strings.choose_arch }}
+                    {% elsif page.step == 2 %}
+                        {{ site.data.strings.choose_version }}
+                    {% elsif page.step == 3 %}
+                        {{ site.data.strings.choose_download }}
+                    {% endif %}
+                </h3>
+
+                <div class="progress-indicator">
+                    <div class="dot {% if page.step >= 1 %}active{% endif %}"></div>
+                    <div class="dot {% if page.step >= 2 %}active{% endif %}"></div>
+                    <div class="dot {% if page.step >= 3 %}active{% endif %}"></div>
+                </div>
+
+            </content>
+        </div>
+
+        {% if page.step == 1 %}
+            <div class="row grid-container">
+                {% for arch in page.arch %}
+                    <div class="col-md-6">
+                        <a class="grid-item" href="/download/{{ arch.id }}/">
+                            <div class="grid-icon">
+                                {% capture icon_type %}{{ arch.icon | slice:-3,3 }}{% endcapture %}
+                                {% if icon_type == 'svg' %}
+                                    {% include {{ arch.icon }} %}
+                                {% else %}
+                                    <img src="{{ arch.icon }}" alt=""/>
+                                {% endif %}
+                            </div>
+                            <div class="grid-details">
+                                <h4>{{ arch.name }}</h4>
+                                {{ arch.desc | markdownify }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-center grey-text">
+                        <a href="/about/requirements/">{{ site.data.strings.show_req }}</a> |
+                        <a href="/download/all/">{{ site.data.strings.show_all }}</a> |
+                        <a href="/faq/downloads/">{{ site.data.strings.download_help }}</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h3 class="download-subtitle">{{ site.data.strings.download_ports }}</h3>
+                </div>
+            </div>
+
+            <div class="row grid-container">
+                {% for port in page.ports %}
+                    <div class="col-md-6">
+                        <a class="grid-item" href="/download/{{ port.id }}/">
+                            <div class="grid-icon">
+                                {% capture icon_type %}{{ port.icon | slice:-3,3 }}{% endcapture %}
+                                {% if icon_type == 'svg' %}
+                                    {% include {{ port.icon }} %}
+                                {% else %}
+                                    <img src="{{ port.icon }}" alt=""/>
+                                {% endif %}
+                            </div>
+                            <div class="grid-details">
+                                <h4>{{ port.name }}</h4>
+                                {{ port.desc | markdownify }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h3 class="download-subtitle">{{ site.data.strings.download_products }}</h3>
+                </div>
+            </div>
+
+            <div class="row grid-container">
+                {% for product in page.products %}
+                    <div class="col-md-6">
+                        <a class="grid-item" href="{{ product.url }}">
+                            <div class="grid-icon">
+                                {% capture icon_type %}{{ product.icon | slice:-3,3 }}{% endcapture %}
+                                {% if icon_type == 'svg' %}
+                                    {% include {{ product.icon }} %}
+                                {% else %}
+                                    <img src="{{ product.icon }}" alt=""/>
+                                {% endif %}
+                            </div>
+                            <div class="grid-details">
+                                <h4>{{ product.name }}</h4>
+                                {{ product.desc | markdownify }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+        {% elsif page.step == 2 %}
+
+            <div class="row grid-container">
+                {% for version in site.data.downloads.downloads[page.download_id] %}
+                    {% assign release = site.data.downloads.releases[version.release] %}
+                    <div class="col-md-6">
+                        <a class="grid-item" href="{{ version.release }}/">
+                            <div class="grid-icon">
+                                <img src="/images/mascots/{{ release.mascot }}" alt="{{ release.codename }}"/>
+                            </div>
+                            <div class="grid-details">
+                                <h4 {% if release.prerelease %}class="prerelease"{% endif %}>{{ release.name }} {% if release.prerelease %}{{ site.data.strings.prerelease }}{% endif %}</h4>
+                                <p class="grey-text">{{ release.codename }}</p>
+                                <p {% if release.prerelease %}class="prerelease"{% endif %}>
+                                    {% if release.prerelease == true %}
+                                        {{ site.data.strings.label_prerelease }}
+                                    {% elsif release.lts == true %}
+                                        {{ site.data.strings.label_LTS }}
+                                    {% elsif release.lts == false %}
+                                        {{ site.data.strings.label_nonLTS }}
+                                    {% endif %}
+                                </p>
+                                <p class="grey-text">
+                                    {{ site.data.strings.end_of_life }}
+                                    {{ release.end_of_life.month
+                                        | replace: 'Jan', site.data.strings.jan
+                                        | replace: 'Feb', site.data.strings.feb
+                                        | replace: 'Mar', site.data.strings.mar
+                                        | replace: 'Apr', site.data.strings.apr
+                                        | replace: 'May', site.data.strings.may
+                                        | replace: 'Jun', site.data.strings.jun
+                                        | replace: 'Jul', site.data.strings.jul
+                                        | replace: 'Aug', site.data.strings.aug
+                                        | replace: 'Sep', site.data.strings.sep
+                                        | replace: 'Oct', site.data.strings.oct
+                                        | replace: 'Nov', site.data.strings.nov
+                                        | replace: 'Dec', site.data.strings.dec
+                                    }}
+                                    {{ release.end_of_life.year }}
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+        {% elsif page.step == 3 %}
+
+            {% assign download = null %}
+            {% for ver in site.data.downloads.downloads[page.download_id] %}
+                {% if page.release_id == ver.release %}{% assign download = ver %}{% break %}{% endif %}
+            {% endfor %}
+
+            <div class="row grid-container">
+                <div class="col-md-6">
+                    <a class="grid-item" href="{{ download.url }}.torrent" download onclick="download_thanks()">
+                        <div class="grid-icon">
+                            {% include images/fa/network-wired.svg %}
+                        </div>
+                        <div class="grid-details">
+                            <h4>Bittorrent</h4>
+                            {% if download.bandwidth_costs %}<p class="grey-text">{{ site.data.strings.recommended }}</p>{% endif %}
+                            <p>{{ site.data.strings.label_bittorrent }}</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="grid-item" href="{{ download.magnet-uri }}" onclick="download_thanks()">
+                        <div class="grid-icon">
+                            {% include images/fa/magnet.svg %}
+                        </div>
+                        <div class="grid-details">
+                            <h4>Magnet Link</h4>
+                            {% if download.bandwidth_costs %}<p class="grey-text">{{ site.data.strings.recommended }}</p>{% endif %}
+                            <p>{{ site.data.strings.label_magnet }}</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="grid-item" href="{{ download.url }}" download onclick="download_thanks()">
+                        <div class="grid-icon">
+                            {% include images/fa/download.svg %}
+                        </div>
+                        <div class="grid-details">
+                            <h4>Direct Download</h4>
+                            <p>{{ site.data.strings.label_direct }}</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    {% if download.bandwidth_costs %}
+                        {{ site.data.strings.prefer_torrent | markdownify | replace: '<p>', '<p class="text-center">' }}
+                    {% endif %}
+                </div>
+            </div>
+
+            <table class="download-details">
+                <tbody>
+                    <tr>
+                        <th>{{ site.data.strings.file_size }}</th>
+                        <td>{{ download.size }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ site.data.strings.checksum }} (SHA256)</th>
+                        <td class="split-long-lines"><code>{{ download.sha256sum }}</code></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br/>
+
+        {% endif %}
+
+    </div>
+
+</article>

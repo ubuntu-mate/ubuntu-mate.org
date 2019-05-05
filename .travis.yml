@@ -6,6 +6,7 @@ addons:
     packages:
     - transmission-cli
     - python3-requests
+    - python3-yaml
     - translate-toolkit
     - rsync
 

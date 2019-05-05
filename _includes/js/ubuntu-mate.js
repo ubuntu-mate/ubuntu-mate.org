@@ -26,3 +26,13 @@ document.addEventListener("click", function(event) {
         }
     };
 });
+
+//--------------------------------------
+// Download Links
+// - Navigates to the end page after click.
+//--------------------------------------
+function download_thanks() {
+    setTimeout(function() {
+        window.location.href = "thanks/";
+    }, 500);
+}

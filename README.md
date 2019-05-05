@@ -23,9 +23,13 @@ Install [Jekyll](https://jekyllrb.com) as follows:
     sudo apt install ruby ruby-dev make gcc
     sudo gem install jekyll bundler
 
-To install gem dependencies for the website:
+To install gem dependencies for the project;
 
     bundle install
+
+Some additional packages are needed to build the project:
+
+    sudo apt install python3-yaml transmission-cli
 
 This website has a few programmatically generated files, so be sure to run:
 

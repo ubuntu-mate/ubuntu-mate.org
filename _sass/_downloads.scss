@@ -1,0 +1,113 @@
+.download-title {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.download-subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 15px 0 0;
+}
+
+.download-back {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 30px;
+    transition: transform $transition-duration $transition-timing;
+
+    svg {
+        height: 48px;
+        width: 48px;
+        margin: auto;
+
+        path {
+            fill: $grey-light;
+            transition: fill $transition-duration $transition-timing;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        outline: none;
+        transform: translateX(-5px);
+
+        svg path {
+            fill: $grey-dark;
+        }
+    }
+}
+
+/* Progress Indicators */
+.progress-indicator {
+    cursor: default;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+
+    .dot {
+        background: $background;
+        border: 1px solid $grey-dark;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        height: 20px;
+        width: 20px;
+        margin: 0 5px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -15px;
+            right: -15px;
+            margin: auto;
+            border-bottom: 1px solid $grey-dark;
+            height: 1px;
+            z-index: -1;
+        }
+
+        &:first-child::before {
+            left: 0;
+        }
+
+        &:last-child::before {
+            right: 0;
+        }
+
+        &.active {
+            border-color: $ubuntu-mate-dark;
+            background: $ubuntu-mate-light;
+        }
+    }
+}
+
+/* Download Grid */
+.grey-text {
+    color: $grey-dark;
+    font-weight: 400;
+}
+
+.prerelease {
+    color: $danger;
+}
+
+/* Download Details */
+.download-details {
+    display: block;
+    padding: 0px 15px;
+    width: 100%;
+
+    th, td {
+        width: 50%;
+    }
+
+    th {
+        text-align: right;
+    }
+}

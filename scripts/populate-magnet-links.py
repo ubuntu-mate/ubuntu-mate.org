@@ -55,7 +55,6 @@ for line in downloads:
 
     new_downloads.append(line)
 
-new_downloads.append("\n")
 with open(downloads_yaml, "w") as f:
     f.writelines(new_downloads)
 
