@@ -48,6 +48,13 @@ label_bittorrent: "Downloads and verify from multiple computers."
 label_magnet: "Open my Bittorrent client."
 label_direct: "Via your web browser, over HTTP(S)."
 end_of_life: "Supported until"
+filename: "Filename"
+arch: "Architecture"
+server: "Hosted by"
+download_links: "Download"
+direct: "Direct Download"
+bittorrent: "Bittorrent"
+magnet: "Magnet Link"
 
 #######################################
 # Months

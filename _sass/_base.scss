@@ -1,5 +1,5 @@
 body, button, input {
-    font-family: "Ubuntu", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    font-family: $primary-font;
     color: $text-colour-dark;
 }
 
@@ -23,6 +23,7 @@ hr {
 }
 
 code {
+    font-family: $monospace-font;
     color: $ubuntu-mate-dark;
 }
 
@@ -53,4 +54,9 @@ footer {
 
 .text-right {
     text-align: right;
+}
+
+.monospace-font {
+    font-family: $monospace-font;
+    font-size: 16px;
 }

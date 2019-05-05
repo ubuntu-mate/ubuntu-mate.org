@@ -111,3 +111,56 @@
         text-align: right;
     }
 }
+
+/* Download Table */
+.download-all-table {
+    table-layout: fixed;
+    margin: 0;
+    margin-bottom: 50px;
+
+    .filename {}
+    .arch {}
+    .size {}
+
+    .server {
+        img {
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    .checksum {}
+    .links {}
+}
+
+@media screen and (max-width: $md) {
+    .download-all-table {
+        .server {
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+.download-table-btn {
+    svg {
+        height: 24px;
+        width: 24px;
+
+        path {
+            fill: $ubuntu-mate-dark;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        svg path {
+            fill: $ubuntu-mate-light;
+        }
+    }
+
+    + .download-table-btn {
+        margin-left: 5px;
+    }
+}

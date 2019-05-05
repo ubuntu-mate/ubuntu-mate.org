@@ -185,7 +185,7 @@ layout: default
                             {% include images/fa/network-wired.svg %}
                         </div>
                         <div class="grid-details">
-                            <h4>Bittorrent</h4>
+                            <h4>{{ site.data.strings.bittorrent }}</h4>
                             {% if download.bandwidth_costs %}<p class="grey-text">{{ site.data.strings.recommended }}</p>{% endif %}
                             <p>{{ site.data.strings.label_bittorrent }}</p>
                         </div>
@@ -197,7 +197,7 @@ layout: default
                             {% include images/fa/magnet.svg %}
                         </div>
                         <div class="grid-details">
-                            <h4>Magnet Link</h4>
+                            <h4>{{ site.data.strings.magnet }}</h4>
                             {% if download.bandwidth_costs %}<p class="grey-text">{{ site.data.strings.recommended }}</p>{% endif %}
                             <p>{{ site.data.strings.label_magnet }}</p>
                         </div>
@@ -209,7 +209,7 @@ layout: default
                             {% include images/fa/download.svg %}
                         </div>
                         <div class="grid-details">
-                            <h4>Direct Download</h4>
+                            <h4>{{ site.data.strings.direct }}</h4>
                             <p>{{ site.data.strings.label_direct }}</p>
                         </div>
                     </a>

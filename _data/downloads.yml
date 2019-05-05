@@ -32,6 +32,15 @@ releases:
             month: Jan
             year: 2020
 
+# To list them on the download page, add descriptions to download.md
+arch:
+    - amd64
+    - i386
+    - armhf     # Pi Stable
+    - arm64     # Pi Experimental
+    - gpd_pocket
+    - gpd_pocket_2
+
 downloads:
     amd64:
         - release: bionic
