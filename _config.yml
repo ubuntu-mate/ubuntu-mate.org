@@ -96,38 +96,3 @@ webp:
   # List of files or directories to exclude
   # e.g. custom or hand generated webp conversion files
   exclude: []
-
-
-# Navigation
-navigation:
-    - url: /about/
-      text: About
-      class: about
-
-    - url: /features/
-      text: Features
-      class: features
-
-    - url: /blog/
-      text: Blog
-      class: blog
-
-    - url: /community/
-      text: Community
-      class: community
-
-    - url: /download/
-      text: Download
-      class: download
-
-    - url: /development/
-      text: Development
-      class: development
-
-    - url: /shop/
-      text: Emporium
-      class: shop
-
-    - url: /funding/
-      text: Funding
-      class: funding
