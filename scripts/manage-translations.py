@@ -38,6 +38,10 @@ dest_dir = "pages/i18n"
 yaml2po = os.path.join(base_dir, "scripts/helpers/yaml2po")
 po2yaml = os.path.join(base_dir, "scripts/helpers/po2yaml")
 
+# Ensure output directory exists
+if not os.path.exists(dest_dir):
+    os.mkdir(dest_dir)
+
 # Gather file list
 def read_file(path):
     with open(path, "r") as f:
