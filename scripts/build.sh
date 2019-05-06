@@ -27,7 +27,7 @@ abort_if_failed $?
 # Generate locales
 echo -e "\nBuild locales"
 echo "------------------------------------------------------"
-$(dirname "$0")/manage-translations.sh --build
+$(dirname "$0")/manage-translations.py --build
 abort_if_failed $?
 
 # Build the site!

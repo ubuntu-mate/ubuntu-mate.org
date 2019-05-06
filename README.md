@@ -87,7 +87,6 @@ When pages change, run `--generate`. Before building the site, run `--build`.
 
 | Folder            | Purpose
 |-------------------|------------------------------------------------------|
-| `i18n`            | Compiled translated files (.md) for building.
 | `_i18n`           | Source files (.pot, .po) for translating.
 | `redirects`       | Meta redirects from legacy website.
 

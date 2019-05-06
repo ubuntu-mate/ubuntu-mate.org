@@ -5,7 +5,7 @@ _site
 
 # Generated at build
 *.mo
-i18n/
+pages/i18n/
 _data/**/
 pages/autogen/
 
