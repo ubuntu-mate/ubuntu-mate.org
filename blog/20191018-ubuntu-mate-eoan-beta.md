@@ -49,6 +49,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Switched from Thunderbird to Evolution as the default mail/calendar app
   * Dropped Brasero from the default installed applications.
   * Reduce the .iso image size.
+  * MATE Tweak preserves user preferences when switching between custom layouts.
 
 <div class="bs-component">
     <div class="jumbotron">
