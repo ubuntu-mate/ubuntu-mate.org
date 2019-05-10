@@ -58,7 +58,7 @@
                         <ul>
                             <li>Less than 2 GB of RAM.</li>
                             <li>Intel and AMD processors.</li>
-                            <li>Ageing PCs with low-RAM resources.</li>
+                            <li>Aging PCs with low-RAM resources.</li>
                             <li>Older Intel-based Apple Macintosh systems.</li>
                         </ul>
                     </p>

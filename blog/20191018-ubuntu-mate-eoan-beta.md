@@ -45,6 +45,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Fixed oversized indicator icons
   * Fixed race condition that could result in two network status icons being displayed
   * Fixed XPresent support
+  * Fixed lock icons in the Netowrk Indicator when establishing VPN connections
   * Added `indicator-datetime` support
   * Switched from Thunderbird to Evolution as the default mail/calendar app
   * Dropped Brasero from the default installed applications.
