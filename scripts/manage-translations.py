@@ -153,6 +153,7 @@ try:
 except Exception:
     print("Usage:")
     print("    manage-translations.sh [--generate] [--build]")
+    exit(0)
 
 if arg == "--generate":
     generate()
@@ -160,3 +161,4 @@ elif arg == "--build":
     build()
 else:
     print("Invalid parameter")
+    exit(1)

@@ -25,6 +25,12 @@ $(dirname "$0")/generate-download-pages.py
 abort_if_failed $?
 
 # Generate locales
+echo -e "\nGenerate locales"
+echo "------------------------------------------------------"
+$(dirname "$0")/manage-translations.py --generate
+abort_if_failed $?
+
+# Build locales
 echo -e "\nBuild locales"
 echo "------------------------------------------------------"
 $(dirname "$0")/manage-translations.py --build
