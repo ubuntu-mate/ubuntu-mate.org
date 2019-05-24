@@ -75,8 +75,8 @@ contributions to the Ubuntu MATE project.
   * [Goce Mitevski](http://nicer2.com) Created the default desktop wallpaper used from Ubuntu MATE 14.10 to 17.04.
   * [Michael Tunnell](http://michaeltunnell.com/) Toucher upper of GTK art assets.
   * [Pedro Meteus](https://twitter.com/UnaccountedFour) IGP and GPU configuration enhancements for reduced video tearing and improved gaming performance.
-  * [Ivan Pejić](https://plus.google.com/113587242852192152625/) Created the Ubuntu MATE GRUB and Plymouth themes.
-  * [Jack Mohegan](https://plus.google.com/101312215214323407176/) Assorted user interface improvements.
-  * [Jonathan Nadeau](http://jnadeau.org/) assistive technology advisor and accessibility testing.
+  * [Ivan Pejić](https://github.com/nadrimajstor/) Created the Ubuntu MATE GRUB and Plymouth themes.
+  * [Jack Mohegan](https://launchpad.net/~jack-mohegan/) Assorted user interface improvements.
+  * [Jonathan Nadeau](https://nadeaumedia.com/) assistive technology advisor and accessibility testing.
   * [Matt Hartley](http://www.matthartley.com/) user experience advisor.
-  * [Adam Smith](https://plus.google.com/u/0/111285327879595317710) Created the initial PowerPC build of Ubuntu MATE.
+  * [Adam Smith](https://launchpad.net/~adamsmith/) Created the initial PowerPC build of Ubuntu MATE.
