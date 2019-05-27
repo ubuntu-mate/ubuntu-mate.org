@@ -55,6 +55,7 @@ download_links: "Download"
 direct: "Direct Download"
 bittorrent: "Bittorrent"
 magnet: "Magnet Link"
+support_bandwidth: "Support bandwidth costs"
 
 #######################################
 # Months

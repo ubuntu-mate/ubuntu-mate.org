@@ -57,6 +57,11 @@ layout: default
                                         <a class="download-table-btn" href="{{ download.magnet-uri }}" title="{{ site.data.strings.magnet }}">
                                             {% include images/fa/magnet.svg %}
                                         </a>
+                                        {% if download.bandwidth_costs %}
+                                            <a class="download-table-btn" href="{{ '/funding/' | absolute_url }}" title="{{ site.data.strings.support_bandwidth }}">
+                                                {% include images/fa/heart.svg %}
+                                            </a>
+                                        {% endif %}
                                     </td>
                                 </tr>
                             {% endfor %}
