@@ -1,0 +1,45 @@
+.banner {
+    background-color: $grey-light;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 320px;
+    width: 100%;
+
+    /* Variants */
+    &.large {
+        min-height: 320px;
+    }
+
+    &.white-text {
+        color: white;
+    }
+}
+
+.banner-inner {
+    margin: auto;
+
+    img {
+        display: inline-block;
+        height: auto;
+        width: 200px;
+        margin: 15px;
+        vertical-align: middle;
+    }
+
+    a {
+        color: white;
+        opacity: 0.5;
+    }
+}
+
+.banner-text {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+
+    h1, h2, h3 {
+        font-weight: 400;
+    }
+}

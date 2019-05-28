@@ -4,11 +4,27 @@ body, button, input {
 }
 
 a {
-    color: $link-color;
+    color: $link-colour;
 
     &:hover,
     &:focus {
-        color: $link-color-focused;
+        color: $link-colour-focused;
+
+        svg path {
+            fill: $link-colour-focused;
+        }
+    }
+
+    /* Generally a FontAwesome icon */
+    svg {
+        height: 16px;
+        width: 16px;
+        position: relative;
+        top: -1px;
+
+        path {
+            fill: $link-colour;
+        }
     }
 }
 

@@ -75,19 +75,26 @@
         padding: 1px;
         margin: 0 2px;
 
+        svg {
+            height: 30px;
+            width: 30px;
+
+            path {
+                fill: $ambiant-text-colour-light;
+            }
+        }
+
         &:hover,
         &:focus {
             background: lighten($ambiant-bg, 5%);
+
+            svg path {
+                fill: $ambiant-text-colour-light;
+            }
         }
 
         &:active {
             background: lighten($ambiant-bg, 15%);
-        }
-    }
-
-    svg {
-        path {
-            fill: $ambiant-text-colour-light;
         }
     }
 }

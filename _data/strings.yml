@@ -28,7 +28,7 @@ downloads_title: "Download"
 choose_arch: "Choose an architecture"
 choose_version: "Choose a release"
 choose_download: "Choose a download"
-post_download: "Thank you!"
+post_download: "Thank you for downloading:"
 lts: "Long Term Release (LTS) - Recommended for stability and mission critical systems."
 non-lts: "Interim release for users desiring the latest features and applications."
 show_all: "All Downloads"
@@ -57,6 +57,7 @@ bittorrent: "Bittorrent"
 magnet: "Magnet Link"
 support_bandwidth: "Support bandwidth costs"
 
+
 #######################################
 # Months
 #######################################
@@ -72,3 +73,26 @@ sep: "September"
 oct: "October"
 nov: "November"
 dec: "December"
+
+
+#######################################
+# Download thank you page
+#######################################
+download_tip_title: "Download Tip"
+download_tip_text: "_A little bit goes a long way._ If everyone who downloaded Ubuntu MATE tipped **$2.50**, it would fund the full-time development of Ubuntu MATE and MATE Desktop."
+download_tip_provider: "Powered by"
+download_tip_footnote: "To contribute more, use Bitcoin or become an Ubuntu MATE Patron, [visit the funding page.](/funding/)"
+
+download_verify_title: "Verify your download"
+download_verify_text: "Checking data integrity provides assurance your download is free from tampering and corruption."
+download_verify_howto: "How to verify downloads"
+
+download_guide_title: "Acquire a guide by your side"
+download_guide_text: "**Available in both paperback and ebook format.** These books can assist with upgrades from Windows/macOS, as well as introduce you to key applications of the Ubuntu MATE desktop."
+download_guide_shop_button: "Shop Books"
+
+download_stuck_title: "Get stuck?"
+download_stuck_text: "Check out these resources:"
+download_stuck_help_imgusb: "How to image a flash drive (Windows, Mac, Linux)"
+download_stuck_help_community: "Ask the community"
+download_stuck_help_irc: "Join the IRC chatroom"

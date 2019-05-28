@@ -1,0 +1,22 @@
+{% capture tip_name %}Ubuntu MATE {{ release.name }} ({{ release.codename }}) {{ arch }} Download Tip{% endcapture %}
+{% assign amounts = "2.50|5|10|20" | split:'|' %}
+
+{% for amount in amounts %}
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="single" style="display:inline-block;padding-right:10px;">
+        <fieldset>
+            <button class="btn" type="submit">${{ amount }}</button>
+        </fieldset>
+        <input name="cmd" type="hidden" value="_xclick">
+        <input name="business" type="hidden" value="6282B4CZGVCB6">
+        <input class="tip-name" name="item_name" type="hidden" value="{{ tip_name }}">
+        <input name="no_shipping" type="hidden" value="1">
+        <input name="no_note" type="hidden" value="1">
+        <input name="charset" type="hidden" value="UTF-8">
+        <input name="amount" type="hidden" value="{{ amount }}">
+        <input name="currency_code" type="hidden" value="USD">
+        <input name="src" type="hidden" value="1">
+        <input name="sra" type="hidden" value="1">
+        <input name="return" type="hidden" value="https://ubuntu-mate.org {{ /funding/thank-you/ | absolute_url }}">
+        <input name="cancel_return" type="hidden" value="https://ubuntu-mate.org/{{ /funding/cancelled/ | absolute_url }}">
+    </form>
+{% endfor %}

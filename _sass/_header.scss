@@ -79,6 +79,10 @@ $header-height: 60px;
         background: lighten($ubuntu-mate-light, 10%);
         color: $text-colour-light;
         text-decoration: none;
+
+        svg path {
+            fill: $text-colour-light;
+        }
     }
 
     &:active {

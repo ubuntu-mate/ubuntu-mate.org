@@ -1,0 +1,142 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ site.data.strings.downloads_title }}</h1>
+            </header>
+        </div>
+
+        <div class="row">
+            <content class="page-content col">
+
+                <a class="download-back" href="../">
+                    {% include images/fa/chevron-left.svg %}
+                </a>
+
+                <h3 class="download-title">
+                    {{ site.data.strings.post_download }}
+                </h3>
+
+                <div class="progress-indicator">
+                    <div class="dot active"></div>
+                    <div class="dot active"></div>
+                    <div class="dot active"></div>
+                </div>
+
+            </content>
+        </div>
+
+        {% assign download = null %}
+        {% for ver in site.data.downloads.downloads[page.download_id] %}
+            {% if page.release_id == ver.release %}{% assign download = ver %}{% break %}{% endif %}
+        {% endfor %}
+        {% assign release = site.data.downloads.releases[download.release] %}
+        {% assign arch = page.download_id %}
+
+        <br>
+
+    </div>
+
+    {% capture banner_text %}
+        <h2>Ubuntu MATE {{ release.name }}</h2>
+        <p>{{ release.codename }}</p>
+        <p style="opacity:0.5">{{ arch }}</p>
+    {% endcapture %}
+
+    {% include partials/banner.html
+        bg = "/images/wallpapers/bionic.jpg"
+        fg = "/images/ubuntu-mate/logo.svg"
+        text = banner_text
+        variant = "white-text"
+    %}
+
+    <div class="container">
+
+        <div class="download-thanks row">
+            <div class="col-md-2">
+                <img src="/images/downloads/tips.svg"/>
+            </div>
+            <div class="col-md-10">
+                <h3>{{ site.data.strings.download_tip_title }}</h3>
+                {{ site.data.strings.download_tip_text | markdownify }}
+                <p>{% include embed/download-tip-paypal.html %}</p>
+                <p>{{ site.data.strings.download_tip_provider }}&nbsp;&nbsp;<img src="/images/brands/paypal.svg" alt="PayPal"/></p>
+                {{ site.data.strings.download_tip_footnote | markdownify }}
+            </div>
+        </div>
+
+        <div class="download-thanks row">
+            <div class="col-md-2">
+                <img src="/images/downloads/verify.svg"/>
+            </div>
+            <div class="col-md-10">
+                <h3>{{ site.data.strings.download_verify_title }}</h3>
+                {{ site.data.strings.download_verify_text | markdownify }}
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>{{ site.data.strings.filename }}</th>
+                            <td>{{ download.url | split:'/' | last }}</td>
+                        </tr>
+                        <tr>
+                            <th>SHA256SUM</th>
+                            <td><code>{{ download.sha256sum }}</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <a href="{{ '/faq/verify/' | absolute_url }}">
+                        {% include images/fa/question-circle.svg %}
+                        {{ site.data.strings.download_verify_howto }}
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="download-thanks row">
+            <div class="col-md-2">
+                <img src="/images/downloads/guides.png"/>
+            </div>
+            <div class="col-md-10">
+                <h3>{{ site.data.strings.download_guide_title }}</h3>
+                {{ site.data.strings.download_guide_text | markdownify }}
+                <p>
+                    <a class="btn" href="{{ '/shop/books/' | absolute_url }}">
+                        {% include images/fa/shopping-cart.svg %}
+                        {{ site.data.strings.download_guide_shop_button }}
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="download-thanks row">
+            <div class="col-md-2">
+                <img src="/images/downloads/stuck.svg"/>
+            </div>
+            <div class="col-md-10">
+                <h3>{{ site.data.strings.download_stuck_title }}</h3>
+                {{ site.data.strings.download_stuck_text | markdownify }}
+
+                <ul>
+                    <li>
+                        <a href="{{ '/faq/restore-usb/' | absolute_url }}">{{ site.data.strings.download_stuck_help_imgusb }}</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/community/' | absolute_url }}">{{ site.data.strings.download_stuck_help_community }}</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/irc/' | absolute_url }}">{{ site.data.strings.download_stuck_help_irc }}</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</article>
