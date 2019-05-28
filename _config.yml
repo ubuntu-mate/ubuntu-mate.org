@@ -48,7 +48,6 @@ exclude:
     - scripts
     - i18n
     - vendor
-    - "*.xcf"
 
 # Network URLs
 github: "https://github.com/ubuntu-mate/"

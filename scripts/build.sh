@@ -46,3 +46,10 @@ fi
 export JEKYLL_ENV=production
 bundle exec jekyll build
 abort_if_failed $?
+
+# Due to a RegexpError in jekyll-polyglot, the wildcard doesn't work in _config.yml.
+# Externally delete source files not desired in the build output.
+if [ -f _site ]; then
+    cd _site/
+    find . -name "*.xcf" -delete
+fi
