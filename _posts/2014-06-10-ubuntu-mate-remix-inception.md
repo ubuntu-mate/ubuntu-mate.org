@@ -1,17 +1,14 @@
-<!-- 
-.. title: Ubuntu MATE Remix inception
-.. slug: ubuntu-mate-remix-inception
-.. date: 2014-06-10 21:11:18 UTC
-.. tags: Ubuntu,MATE
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE Remix inception
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 I was interviewed on the [Ubuntu UK Podcast](http://podcast.ubuntu-uk.org)
 (UUPC) a few weeks back to talk about the [MATE Desktop](http://mate-desktop.org),
-a project I've been involved with for about a year now. 
+a project I've been involved with for about a year now.
 
 If you don't know what MATE is, here is the headline explanation:
 
