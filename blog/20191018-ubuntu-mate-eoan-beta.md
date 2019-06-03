@@ -61,6 +61,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Marco - invisble window corners. Alt + Tab. HiDPI gradients.
   * MATE Window Applets
   * Theme fixes
+  * Caja Deja Dup 0.0.8
 
 <div class="bs-component">
     <div class="jumbotron">
