@@ -41,8 +41,10 @@ Ubuntu MATE *Beta Releases* are recommended for:
 ## What changed since the Ubuntu MATE 19.04 final release?
 
   * Added MATE Desktop 1.22.1
-  * Fixed frequent crashers in Brisk Menu and MATE Dock Applet
+  * Fixed frequent crashers in Brisk Menu, MATE Dock Applet and MATE Panel.
   * Fixed oversized indicator icons
+    gallery/blog/indicators-after.png
+    gallery/blog/indicators-before.png
   * Fixed race condition that could result in two network status icons being displayed
   * Fixed XPresent support
   * Fixed lock icons in the Network Indicator when establishing VPN connection
@@ -52,6 +54,13 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Reduce the .iso image size.
   * MATE Tweak preserves user preferences when switching between custom layouts.
   * Start Applications hides system applications.
+  * GNOME MPV
+  * indicator-notifications
+  * Blueman 2.0.8
+  * nvidia-drivers.
+  * Marco - invisble window corners. Alt + Tab. HiDPI gradients.
+  * MATE Window Applets
+  * Theme fixes
 
 <div class="bs-component">
     <div class="jumbotron">
