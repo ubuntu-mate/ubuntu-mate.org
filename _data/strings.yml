@@ -4,6 +4,7 @@
 en: "English"
 fr: "French"
 
+
 #######################################
 # Header/Footer
 #######################################
@@ -20,6 +21,7 @@ mastodon: "Ubuntu MATE on Mastodon"
 facebook: "Ubuntu MATE on Facebook"
 twitter: "Ubuntu MATE on Twitter"
 youtube: "Ubuntu MATE on YouTube"
+
 
 #######################################
 # Downloads
@@ -96,3 +98,16 @@ download_stuck_text: "Check out these resources:"
 download_stuck_help_imgusb: "How to image a flash drive (Windows, Mac, Linux)"
 download_stuck_help_community: "Ask the community"
 download_stuck_help_irc: "Join the IRC chatroom"
+
+
+#######################################
+# Blog
+#######################################
+latest_blogs: "Latest"
+archived_blogs: "Archives"
+rss: "RSS Feed"
+read_more: "Read more..."
+category_release: "Release Announcement"
+category_dev: "Development Update"
+category_news: "News"
+outdated_post: "This post is more than a year old and may be outdated."

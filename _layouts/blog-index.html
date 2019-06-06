@@ -11,19 +11,30 @@ layout: default
             </header>
         </div>
 
-        <div class="row">
+        <div class="row blog-column">
             <content class="page-content col">
-                {{ content }}
 
-                <ul>
-                  {% for post in site.posts %}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
+            {% for post in site.posts %}
+                <a class="post-card" href="{{ post.permalink }}">
+                    <h3 class="post-card-title">{{ post.title }}</h3>
+
+                    {% include partials/blog-metadata.html
+                        post = post
+                    %}
+
+                    <div class="post-card-excerpt">
+                        {{ post.excerpt | strip_html }}
+                    </div>
+
+                    <div class="post-card-read-more">{{ site.data.strings.read_more }}</div>
+                </a>
+
+            {% endfor %}
 
             </content>
+
+            {% include partials/blog-sidebar.html %}
+
         </div>
 
     </div>

@@ -5,9 +5,11 @@
 $background: #F4F4F4;
 $link-colour: #758A53;
 $link-colour-focused: #44522E;
+
 $grey-light: #D4D3D0;
 $grey-lightest: #EDEDED;
 $grey-dark: #A9A9A9;
+$grey-darker: #616161;
 
 $header-text: #DED9CB;
 $ubuntu-mate-dark: #667E40;
@@ -52,6 +54,14 @@ $ambiant-text-colour-dark: #7F7F7D;
 
 /* Misc */
 $danger: #C03831;
+$rss: #E19424;
+
+/* Alert Colours (taken from GTK theme) */
+$alert-error: #E43E32;
+$alert-error-text: #FFF;
+$alert-warning: #FEFECD;
+$alert-warning-text: #000;
+
 
 /************************
  * Discourse inspired Dropdowns
