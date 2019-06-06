@@ -76,3 +76,27 @@ footer {
     font-family: $monospace-font;
     font-size: 16px;
 }
+
+/************************
+ * Markdown
+*************************/
+blockquote {
+    background-color: $grey-lightest;
+    border-left: 2px solid $grey-dark;
+    padding: 10px;
+    padding-left: 45px;
+    position: relative;
+
+    p {
+        margin: 0;
+    }
+
+    &:before {
+        content: "❝";
+        color: $grey-dark;
+        font-size: 40px;
+        position: absolute;
+        left: 15px;
+        top: 0px;
+    }
+}
