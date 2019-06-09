@@ -40,7 +40,7 @@ We have a number of ways you can connect with the Ubuntu MATE community.
 ### Chat
  
 Ubuntu MATE also has its own IRC channel, [#ubuntu-mate](/irc/), on the
-[Freenode](http://freende.net) network.
+[Freenode](http://freenode.net) network.
 
 ## The social networks
 
