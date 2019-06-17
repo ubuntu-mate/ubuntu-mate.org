@@ -1,0 +1,27 @@
+titles:
+    features: Features
+
+features:
+    - name: Under the Hood
+      icon: /images/categories/features/package.svg
+      url: /features/
+
+    - name: MATE Desktop
+      icon: /images/brands/mate.svg
+      url: /features/MATE/
+
+    - name: Ubuntu Base
+      icon: /images/brands/ubuntu.svg
+      url: /features/ubuntu/
+
+    - name: Welcome
+      icon: /images/brands/ubuntu-mate.svg
+      url: /features/welcome/
+
+    - name: Software Boutique
+      icon: /images/ubuntu-mate/boutique.svg
+      url: /features/boutique/
+
+    - name: Panel Customisation
+      icon: /images/categories/features/mate-panel.svg
+      url: /features/panel/

@@ -1,0 +1,15 @@
+{% assign category_id = include.id %}
+
+<h1 class="page-title">{{ site.data.categories.titles[category_id] }}</h1>
+
+<div class="col categories">
+
+    {% assign category_data = site.data.categories[category_id] %}
+    {% for category in category_data %}
+        <a class="category-item {% if page.permalink == category.url %}active{% endif %}" href="{{ category.url }}">
+            <img class="category-icon" src="{{ category.icon }}" alt=""/>
+            <div class="category-name">{{ category.name }}</div>
+        </a>
+    {% endfor %}
+
+</div>

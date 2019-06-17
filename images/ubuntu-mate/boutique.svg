@@ -1,0 +1,39 @@
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" height="160" width="160" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title4420">Software Boutique</title>
+ <defs id="defs4">
+  <linearGradient id="linearGradient4316">
+   <stop id="stop4318" style="stop-color:#87a556" offset="0"/>
+   <stop id="stop4320" style="stop-color:#a3bb7c" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4322" y2="1027.4" xlink:href="#linearGradient4316" gradientUnits="userSpaceOnUse" y1="916.79" x2="155.77" x1="2.5318"/>
+  <linearGradient id="linearGradient4328" y2="1027.4" xlink:href="#linearGradient4316" gradientUnits="userSpaceOnUse" y1="916.79" gradientTransform="matrix(4.8716 0 0 4.8716 23.901 -4095.9)" x2="155.77" x1="2.5318"/>
+  <filter id="filter4416" style="color-interpolation-filters:sRGB" height="1.2919" width="1.2038" y="-.14595" x="-.10189">
+   <feGaussianBlur id="feGaussianBlur4418" stdDeviation="6.1451665"/>
+  </filter>
+ </defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Software Boutique</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Luke Horwell</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <cc:license rdf:resource="GPL"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="matrix(.20516 0 0 .20516 -.41295 -55.492)">
+  <g id="g4312-2" style="opacity:.2;filter:url(#filter4416);stroke:#000000;stroke-width:15" transform="matrix(4.107 0 0 4.107 65.836 -3333)">
+   <path id="path4242-2" style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:15;fill:none" d="m65.179 936.65c-.38016-3.7323.88811-7.6028 3.4034-10.386 2.5153-2.7836 6.2379-4.4363 9.9895-4.4351 2.9491.00096 5.8824 1.001 8.2448 2.7663 2.3624 1.7654 4.1465 4.2817 5.0731 7.0814.52874 1.5977.78453 3.2997.61075 4.9736-.33462 3.2231-2.2102 6.0768-4.2982 8.5548-2.088 2.4781-4.46 4.7521-6.1153 7.5379-2.1717 3.655-2.976 8.1015-2.2223 12.286"/>
+   <path id="path4264-7" style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:15;fill:none" d="m79.865 964.67 69.742 40.266c1.5626 2.3427 2.3298 5.2059 2.1479 8.016-.25573 3.951-2.4388 7.7322-5.7326 9.9292h-129.43c-2.4284-.2215-4.7677-1.3175-6.492-3.0418s-2.8204-4.0636-3.0418-6.492c-.19597-2.1489.28882-4.3549 1.3677-6.2237 1.0789-1.8687 2.7469-3.3915 4.706-4.2963z"/>
+  </g>
+  <g id="Shadow" style="stroke:url(#linearGradient4322);stroke-width:15" transform="matrix(.94153 0 0 .94153 5.2383 56.864)">
+   <path id="Hook" style="stroke-linejoin:round;stroke:url(#linearGradient4328);stroke-linecap:round;stroke-width:75.659;fill:none" d="m341.42 467.09c-1.852-18.182 4.3265-37.038 16.58-50.598 12.253-13.56 30.388-21.612 48.665-21.606 14.367.005 28.656 4.8764 40.165 13.476 11.509 8.6 20.2 20.859 24.714 34.498 2.5758 7.7831 3.8219 16.075 2.9753 24.229-1.6301 15.702-10.767 29.603-20.939 41.676-10.172 12.072-21.727 23.15-29.791 36.722-10.579 17.806-14.498 39.467-10.826 59.851"/>
+   <path id="Hanger" style="stroke-linejoin:round;stroke:url(#linearGradient4328);stroke-linecap:round;stroke-width:75.659;fill:none" d="m412.97 603.6 339.76 196.16c7.6122 11.413 11.35 25.361 10.464 39.051-1.2458 19.248-11.881 37.668-27.927 48.371h-630.48c-11.83-1.079-23.226-6.4183-31.626-14.818-8.3999-8.4001-13.74-19.796-14.818-31.626-.95468-10.469 1.407-21.215 6.6631-30.319 5.2561-9.1035 13.382-16.522 22.925-20.93z"/>
+  </g>
+ </g>
+</svg>
