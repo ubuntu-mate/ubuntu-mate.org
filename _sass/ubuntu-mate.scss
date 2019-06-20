@@ -10,12 +10,14 @@
 @import "_tables.scss";
 @import "_buttons.scss";
 
-/* Layouts or Components */
+/* Components */
 @import "_grid_choice.scss";
-@import "_downloads.scss";
-@import "_blog.scss";
-@import "_features.scss";
 
-/* Partials */
-@import "partials/banner.scss";
-@import "partials/categories.scss";
+/* Layouts */
+@import "_layouts/_downloads.scss";
+@import "_layouts/_blog.scss";
+@import "_layouts/_features.scss";
+
+/* Partials (Includes) */
+@import "_partials/_banner.scss";
+@import "_partials/_categories.scss";
