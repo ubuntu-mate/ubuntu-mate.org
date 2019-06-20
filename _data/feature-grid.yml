@@ -1,0 +1,89 @@
+- name: Ubuntu MATE
+  icon: /images/ubuntu-mate/logo.svg
+  provides:
+    - string_name: ubuntu_mate_welcome
+      url: /features/welcome/
+      icon: /images/ubuntu-mate/logo.svg
+
+    - string_name: software_boutique
+      url: /features/boutique/
+      icon: /images/ubuntu-mate/boutique.svg
+
+    - string_name: ubuntu_mate_defaults
+      icon: /images/Ambiant-MATE/user-desktop.svg
+
+    - string_name: wallpapers
+      icon: /images/Ambiant-MATE/preferences-desktop-theme.svg
+
+- string_name: mate_desktop
+  icon: /images/brands/mate.svg
+  provides:
+    - name: Pluma
+      icon: /images/Ambiant-MATE/accessories-text-editor.svg
+
+    - name: Caja
+      icon: /images/Ambiant-MATE/system-file-manager.svg
+
+    - name: Mozo
+      icon: /images/Ambiant-MATE/menu-editor.svg
+
+    - name: MATE Calc
+      icon: /images/Ambiant-MATE/accessories-calculator.svg
+
+- string_name: preinstalled
+  icon: /images/Ambiant-MATE/media-optical.svg
+  provides:
+    - string_name: gnome_disks
+      icon: /images/apps/gnome-disks.png
+
+    - name: GParted
+      icon: /images/apps/gparted.svg
+      live_only: true
+
+- string_name: ubuntu_base
+  icon: /images/brands/ubuntu.svg
+  provides:
+    - string_name: software_dist
+      technology: apt
+
+    - string_name: software_snap
+      technology: snapd
+
+    - string_name: display
+      technology: X.org
+
+    - string_name: init
+      technology: systemd
+
+    - string_name: audio
+      technology: pulseaudio
+
+    - string_name: win_man
+      technology: marco
+
+    - string_name: win_man
+      technology: compiz 0.9
+      optional: true
+
+    - string_name: win_man
+      technology: compton
+      optional: true
+
+    - string_name: installer
+      technology: ubiquity
+
+    - string_name: boot_splash
+      technology: plymouth
+
+    - string_name: bootloader
+      technology: GRUB 2
+
+    - string_name: printer
+      technology: cups
+
+- string_name: gnu_linux
+  icon: /images/brands/tux.svg
+  provides:
+    - string_name: kernel1
+    - string_name: kernel2
+    - string_name: kernel3

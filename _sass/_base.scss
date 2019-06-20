@@ -43,6 +43,13 @@ code {
     color: $ubuntu-mate-dark;
 }
 
+/* Slight override on Bootstrap Grid */
+@media screen and (max-width: $sm) {
+    .container {
+        max-width: $md;
+    }
+}
+
 /************************
  * Push footer to the bottom
 *************************/

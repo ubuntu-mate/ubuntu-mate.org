@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = "features"
+                %}
+
+                {{ content }}
+
+                {% assign grid = site.data.feature-grid %}
+
+                <div class="feature-grid">
+                    {% for vendor in grid %}
+                        <div class="feature-vendor">
+                            <div class="vendor-details">
+                                {% assign name = vendor.name %}
+                                {% if vendor.string_name %}
+                                    {% assign name = site.data.strings[vendor.string_name] %}
+                                {% endif %}
+
+                                {% if name %}
+                                    <h4>{{ name }}</h4>
+                                {% endif %}
+
+                                {% if vendor.icon %}
+                                    <img src="{{ vendor.icon }}" alt=""/>
+                                {% endif %}
+
+                            </div>
+                            <div class="vendor-features">
+                                {% for item in vendor.provides %}
+                                    {% assign name = item.name %}
+                                    {% if item.string_name %}
+                                        {% assign name = site.data.strings[item.string_name] %}
+                                    {% endif %}
+
+                                    {% if item.url %}
+                                    <a class="feature" href="{{ item.url }}">
+                                    {% else %}
+                                    <div class="feature {% if item.optional == true or item.live_only == true %}grey{% endif %}">
+                                    {% endif %}
+
+                                        {% if item.technology %}
+                                            <code>{{ item.technology }}</code>
+                                        {% endif %}
+
+                                        {% if item.icon %}
+                                            <img src="{{ item.icon }}" alt="{{ name }}"/>
+                                        {% endif %}
+
+                                        {% if name %}
+                                            <span>
+                                                {{ name }}{% if item.url %}{% include images/fa/external-link-alt.svg %}{% endif %}
+                                                {% if item.optional %}<span class="key-hover" title="{{ site.data.strings.optional }}">*</span>{% endif %}
+                                                {% if item.live_only %}<span class="key-hover" title="{{ site.data.strings.live_only }}">**</span>{% endif %}
+                                            </span>
+                                        {% endif %}
+
+                                    {% if item.url %}
+                                    </a>
+                                    {% else %}
+                                    </div>
+                                    {% endif %}
+
+                                {% endfor %}
+                            </div>
+
+                        </div>
+                    {% endfor %}
+
+                    <div class="key">
+                        <p><span>*</span> {{ site.data.strings.optional }}</p>
+                        <p><span>**</span> {{ site.data.strings.live_only }}</p>
+                    </div>
+
+                </div>
+
+            </content>
+        </div>
+
+    </div>
+
+</article>
