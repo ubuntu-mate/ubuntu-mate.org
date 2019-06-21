@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = "features"
+                %}
+
+                <div class="feature-highlight {% if page.swap_position == true %}reverse{% endif %}">
+                    <div class="col-md-8 highlight-picture">
+                        {% include picture-2x.html
+                            dir = "/images/features"
+                            img = page.main_image
+                            ext = "png"
+                        %}
+                    </div>
+                    <div class="col-md-4 highlight-text">
+                        <h1>{{ page.main_title }}</h1>
+                        <h3>{{ page.main_subtitle }}</h3>
+                        <hr>
+                        {{ page.main_text | markdownify }}
+                    </div>
+                </div>
+
+                <div class="feature-mini">
+
+                    <div class="feature left">
+                        {% include picture-2x.html
+                            dir = "/images/features"
+                            img = page.left_image
+                            ext = "png"
+                        %}
+                        <h3>{{ page.left_title }}</h3>
+                        <p>{{ page.left_subtitle }}</p>
+                    </div>
+
+                    <div class="feature middle">
+                        {% include picture-2x.html
+                            dir = "/images/features"
+                            img = page.middle_image
+                            ext = "png"
+                        %}
+                        <h3>{{ page.middle_title }}</h3>
+                        <p>{{ page.middle_subtitle }}</p>
+                    </div>
+
+                    <div class="feature right">
+                        {% include picture-2x.html
+                            dir = "/images/features"
+                            img = page.right_image
+                            ext = "png"
+                        %}
+                        <h3>{{ page.right_title }}</h3>
+                        <p>{{ page.right_subtitle }}</p>
+                    </div>
+
+                </div>
+
+                <div class="content">
+                    {{ content }}
+                </div>
+
+            </content>
+        </div>
+
+    </div>
+
+</article>
