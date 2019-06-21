@@ -18,9 +18,9 @@
   text: Download
   class: download
 
-- url: /development/
-  text: Development
-  class: development
+- url: /get-involved/
+  text: Get Involved
+  class: get-involved
 
 - url: /shop/
   text: Emporium

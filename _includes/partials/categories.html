@@ -1,6 +1,6 @@
 {% assign category_id = include.id %}
 
-<h1 class="page-title">{{ site.data.categories.titles[category_id] }}</h1>
+<h1 class="page-title">{{ site.data.strings[category_id] }}</h1>
 
 <div class="col categories">
 
@@ -8,7 +8,13 @@
     {% for category in category_data %}
         <a class="category-item {% if page.permalink == category.url %}active{% endif %}" href="{{ category.url }}">
             <img class="category-icon" src="{{ category.icon }}" alt=""/>
-            <div class="category-name">{{ category.name }}</div>
+            <div class="category-name">
+                {% if category.string_name %}
+                    {{ site.data.strings[category.string_name] }}
+                {% else %}
+                    {{ category.name }}
+                {% endif %}
+            </div>
         </a>
     {% endfor %}
 

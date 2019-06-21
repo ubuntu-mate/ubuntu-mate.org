@@ -113,6 +113,33 @@ category_news: "News"
 outdated_post: "This post is more than a year old and may be outdated."
 
 #######################################
+# Categories
+#######################################
+# About
+about: "About"
+what_is_ubuntu_mate: What is Ubuntu MATE?
+history: "History"
+system_requirements: "System Requirements"
+team: "Team"
+
+# Features (for others, see below)
+features: "Features"
+custom_panel: "Panel Customisation"
+
+# Community
+community: "Community"
+testimonials: "Testimonials"
+hall_of_fame: "Desktop Hall of Fame"
+
+# Shop
+shop: "Emporium"
+featured: "Featured"
+computers: "Desktop & Laptops"
+books: "Books"
+apparel: "Apparel"
+dvd_usb: "DVDs & USBs"
+
+#######################################
 # Feature Grid
 #######################################
 mate_desktop: "MATE Desktop"
