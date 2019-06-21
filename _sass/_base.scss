@@ -51,6 +51,17 @@ code {
 }
 
 /************************
+ * Generic markdown content
+*************************/
+content {
+    margin-bottom: 60px;
+}
+
+content > .content {
+    margin: 40px 0;
+}
+
+/************************
  * Push footer to the bottom
 *************************/
 body {
