@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+        </div>
+
+        <div class="row sidebar-view">
+            <input id="sidebar-collapsed" type="checkbox" style="appearance:none;display:none"/>
+            <div class="col sidebar">
+                {% assign data = site.data.sidebar[page.sidebar] %}
+                {% for category in data %}
+                    <div class="sidebar-title">{{ site.data.strings[category.category_string_name] }}</div>
+
+                    {% for item in category.items %}
+                        <a class="sidebar-link {% if item.url == page.permalink %}active{% endif %}" href="{{ item.url }}">
+                            {% if item.icon %}
+                                <img src="{{ item.icon }}" alt=""/>
+                            {% endif %}
+                            <span>{{ site.data.strings[item.string_name] }}</span>
+                        </a>
+                    {% endfor %}
+                {% endfor %}
+
+                <label for="sidebar-collapsed" class="sidebar-toggle" title="{{ site.data.strings.toggle_sidebar }}">
+                    {% include images/fa/chevron-left.svg %}
+                </label>
+                <div class="sidebar-border"></div>
+            </div>
+
+            <content class="page-content col">
+
+                {{ content }}
+
+            </content>
+        </div>
+
+    </div>
+
+</article>

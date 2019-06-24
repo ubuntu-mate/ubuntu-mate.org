@@ -166,3 +166,33 @@ printer: "Printing Support"
 kernel1: "Works on large amount of hardware"
 kernel2: "Secure by design"
 kernel3: "Excellent stability"
+
+
+#######################################
+# Get Involved
+#######################################
+# Titles
+get_involved: "Get Involved"
+dev_status: "Development Status"
+documentation: "Documentation"
+
+# Items
+crowd_fund: "Crowd Funder"
+spread_word: "Spread the Word"
+community_support: "Community Support"
+translations: "Translations"
+artwork_themes: "Artwork and Themes"
+bug_triage: "Bug Triage"
+testing_qa: "Testing and Quality Assurance"
+bug_fix: "Bug Fixing"
+software_dev: "Software Development"
+dev_backlog: "Backlog"
+dev_active: "In Progress"
+dev_completed: "Completed"
+design_guidelines: "Design Guidelines"
+
+
+#######################################
+# Miscellaneous
+#######################################
+toggle_sidebar: "Expand/Collapse Sidebar"

@@ -1,0 +1,58 @@
+get-involved:
+    - category_string_name: get_involved
+      items:
+        - string_name: crowd_fund
+          icon: /images/downloads/tips.svg
+          url: /get-involved/crowdfunding/
+
+        - string_name: spread_word
+          icon: /images/Ambiant-MATE/applications-chat.svg
+          url: /get-involved/spread-word/
+
+        - string_name: community_support
+          icon: /images/Ambiant-MATE/system-users.svg
+          url: /get-involved/community-support/
+
+        - string_name: translations
+          icon: /images/Ambiant-MATE/preferences-desktop-locale.svg
+          url: /get-involved/translations/
+
+        - string_name: artwork_themes
+          icon: /images/Ambiant-MATE/preferences-desktop-theme.svg
+          url: /get-involved/artwork/
+
+        - string_name: bug_triage
+          icon: /images/Ambiant-MATE/lpi-bug.svg
+          url: /get-involved/bug-triage/
+
+        - string_name: testing_qa
+          icon: /images/brands/ubuntu-mate.svg
+          url: /get-involved/testing-qa/
+
+        - string_name: bug_fix
+          icon: /images/Ambiant-MATE/applications-debugging.svg
+          url: /get-involved/bug-fixing/
+
+        - string_name: software_dev
+          icon: /images/Ambiant-MATE/applications-development.svg
+          url: /get-involved/development/
+
+    - category_string_name: dev_status
+      items:
+        - string_name: dev_backlog
+          icon:
+          url: /get-involved/status-backlog/
+
+        - string_name: dev_active
+          icon:
+          url: /get-involved/status-active/
+
+        - string_name: dev_completed
+          icon:
+          url: /get-involved/status-completed/
+
+    - category_string_name: documentation
+      items:
+        - string_name: design_guidelines
+          icon:
+          url: /get-involved/design-guidelines/

@@ -1,0 +1,153 @@
+.sidebar-view {
+
+}
+
+.sidebar {
+    position: relative;
+    max-width: 300px;
+    padding: 15px;
+    padding-right: 0;
+    margin-right: 20px;
+}
+
+.sidebar-border {
+    content: " ";
+    position: absolute;
+    border-right: 1px solid $grey-dark;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.sidebar-title,
+.sidebar-link {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sidebar-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.sidebar-link {
+    cursor: pointer;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid $grey-dark;
+    padding-left: 10px;
+    font-size: 15px;
+
+    img {
+        height: 24px;
+        width: auto;
+    }
+
+    span {
+        margin: 0 5px;
+        transition: color $transition-duration $transition-timing;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $grey-light;
+        text-decoration: none;
+    }
+
+    &:active {
+        background-color: $grey-dark;
+        transition: none;
+
+        span {
+            color: white;
+            transition: none;
+        }
+    }
+
+    &.active {
+        background-color: $ubuntu-mate-light;
+
+        span {
+            color: white;
+        }
+    }
+
+    + .sidebar-title {
+        padding-top: 30px;
+    }
+}
+
+.sidebar-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -25px;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    z-index: 1;
+
+    svg {
+        height: 20px;
+        width: 20px;
+
+        path {
+            fill: $grey-light;
+        }
+    }
+
+    &:hover {
+        ~ .sidebar-border {
+            border-color: $ubuntu-mate-dark !important;
+        }
+
+        svg path {
+            fill: $ubuntu-mate-dark;
+        }
+    }
+}
+
+/****************************************
+/* Collapse to maximize screen estate
+****************************************/
+.sidebar {
+    transition: max-width $transition-duration $transition-timing;
+    max-width: 300px;
+}
+
+.sidebar-title,
+.sidebar-link {
+    transition: background-color $transition-duration $transition-timing,
+                opacity $transition-duration $transition-timing;
+    opacity: 1;
+}
+
+.sidebar-toggle svg {
+    transition: transform $transition-duration $transition-timing;
+    transform: rotate(0deg);
+}
+
+.sidebar-border {
+    transition: border-color $transition-duration $transition-timing;
+}
+
+#sidebar-collapsed:checked {
+    ~ .sidebar {
+        max-width: 0px;
+
+        .sidebar-title,
+        .sidebar-link {
+            opacity: 0;
+        }
+
+        .sidebar-toggle svg {
+            transform: rotate(180deg);
+        }
+
+        .sidebar-border {
+            border-color: $grey-dark;
+        }
+    }
+}
