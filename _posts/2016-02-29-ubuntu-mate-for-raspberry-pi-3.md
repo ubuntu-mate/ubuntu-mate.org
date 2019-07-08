@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE for Raspberry Pi 3
-permalink: ubuntu-mate-for-raspberry-pi-3
+permalink: /blog/ubuntu-mate-for-raspberry-pi-3
 category: release
 author: Martin Wimpress
 lang: en
@@ -20,8 +21,8 @@ Foundation](https://www.raspberrypi.org/) for providing [Martin
 Wimpress](https://twitter.com/m_wimpress) with a Raspberry Pi 3 and
 engineering assistance over the weekend.
 
-<p align="center">
-[Ubuntu MATE for the Raspberry Pi 3](/images/logos/ubuntu-mate-flavour-maker-pi3.png)
+{:.center}
+![Ubuntu MATE for the Raspberry Pi 3](/images/logos/ubuntu-mate-flavour-maker-pi3.png)
 
 The Raspberry Pi 3 Model B is the same form factor as the Raspberry Pi
 B+ and Raspberry Pi 2 Model B, the RAM remains 1GB and the USB and
@@ -41,13 +42,12 @@ Raspberry Pi 3 *but support for the integrated Raspberry Pi 3 Bluetooth
 is still in progress and we hope to enable full support via an update
 very soon*.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download</h1>
-        <p>Download Ubuntu MATE for the Raspberry Pi 2 Model B and Raspberry Pi 3 Model B.</p>
-        <a href="/raspberry-pi/" class="btn btn-primary btn-lg">Download</a>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download"
+    text = "Download Ubuntu MATE for the Raspberry Pi 2 Model B and Raspberry Pi 3 Model B."
+    button_text = "Download"
+    button_url = "/raspberry-pi/"
+%}
 
 The image will fit on a 4GB (or larger) microSHDC card, is
 pre-configured to enable access to Raspberry Pi 2 and Raspberry Pi 3

@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.10 Alpha 1
-permalink: ubuntu-mate-yakkety-alpha1
+permalink: /blog/ubuntu-mate-yakkety-alpha1
 description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 1
 category: dev
 author: Martin Wimpress
@@ -27,10 +28,9 @@ We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1610-alpha1.png" alt="Ubuntu MATE 16.10 Alpha 1" /><br />
-<b>As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.</b>
-</div>
+{:.center}
+![Ubuntu MATE 16.10 Alpha 1](/gallery/blog/ubuntu-mate-1610-alpha1.png)
+**As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>**
 
 ## What works?
 
@@ -82,7 +82,7 @@ This is what have been updated or added.
     * It is now possible to **safely uninstall all the default applications without the `ubuntu-mate-desktop` package also being removed**.
     * **[Memory consumption of Ubuntu MATE 16.10 Alpha 1 is lower](/blog/mate-desktop-gtk2-vs-gtk3-memory-consumption/)** than that of Ubuntu MATE 16.04.
   * **New community contributed wallpapers from:**
-    * [Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)    
+    * [Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)
     * [Jordyn](https://ubuntu-mate.community/t/animated-waves-wallpaper/6228)
     * [Okinawa](https://ubuntu-mate.community/t/ubuntu-16-04-lts-mustache-wallpaper/4443)
     * [Per Andersson](https://ubuntu-mate.community/t/wallpapers-rootmate-dragonmate-selassiemate-selassiegray/6662)
@@ -118,14 +118,12 @@ This is what have been updated or added.
   * **Upgraded [MATE Dock Applet](https://github.com/robint99/mate-dock-applet)** which now supports GTK3+
   * **Upgraded [MATE Menu](https://bitbucket.org/ubuntu-mate/mate-menu)** which now support GTK3+
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.10</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.10"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

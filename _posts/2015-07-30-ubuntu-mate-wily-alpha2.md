@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.10 Alpha 2
-permalink: ubuntu-mate-wily-alpha2
+permalink: /blog/ubuntu-mate-wily-alpha2
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on 
+We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
 [October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
 With this *Alpha 2* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
@@ -30,7 +31,7 @@ Ubuntu MATE *Alpha Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE 15.10 Alpha 1 release?
 
-Here what changed in Ubuntu MATE 15.10 Alpha 2 since Alpha 1. 
+Here what changed in Ubuntu MATE 15.10 Alpha 2 since Alpha 1.
 
   * Added a community contributed wallpaper by [David Chadderton](https://ubuntu-mate.community/t/wallpaper-take-back-your-desktop/1708) from [Webspresso](http://webspresso.co.uk/).
   * Added a community contributed wallpaper by [quidsup](http://quidsup.net/wallpaper/show.php?i=Neon-UbuntuMATE).
@@ -54,31 +55,29 @@ Here what changed in Ubuntu MATE 15.10 Alpha 2 since Alpha 1.
 
 It is coming soon, here's why.
 
-I am an upstream MATE developer, which means I know stuff. There are good 
-reasons why MATE 1.10 is not in Ubuntu MATE 15.10 or other PPAs right now. 
+I am an upstream MATE developer, which means I know stuff. There are good
+reasons why MATE 1.10 is not in Ubuntu MATE 15.10 or other PPAs right now.
 Here are some of them:
 
   * The upstream MATE team planned for MATE 1.10 bug fix point releases.
   Those are now all released, as of a few days ago, and include significant
-  improvements to the help documentation and many bug fixes. 
+  improvements to the help documentation and many bug fixes.
   * I have elected to sync MATE packages from Debian into Ubuntu without
   any modifications. I do this because I am a MATE maintainer for Debian.
   * The Debian MATE team have uploaded most of the MATE 1.10 packages to
   Debian experimental about two months ago. Bugs have been found and fixed.
   * [This bug is being crushed](https://bugs.launchpad.net/ubuntu-mate/+bug/1392502)
-  and means that most packages need significant modification, it takes time.  
+  and means that most packages need significant modification, it takes time.
 
 In short, I don't want to release stuff when I know significant changes are coming.
 But as you can see, lots of work on MATE 1.10 has been going behind the scenes.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/wily/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.10 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/wily/"
+%}
 
 ## Known Issues
 
@@ -99,16 +98,6 @@ You'll also want to check the Ubuntu MATE bug tracker to see what has already
 been reported. These issues will be addressed in due course.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
-
-<!--
-## Useful Information
-
-You may find the following information useful, which is why we titled 
-the section *Useful Information* since the information presented here
-is mostly useful.
-
-  * [Ubuntu MATE 15.10 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
--->
 
 ## Feedback
 

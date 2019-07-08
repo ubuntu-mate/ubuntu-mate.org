@@ -1,32 +1,31 @@
 ---
 layout: blog-post
-title: Ubuntu MATE Alpha2
-permalink: ubuntu-mate-alpha2
+class: blog
+title: Ubuntu MATE Remix Alpha 2
+permalink: /blog/ubuntu-mate-alpha2
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-We are delighted to announce the release of Ubuntu MATE Alpha2.
+We are delighted to announce the release of Ubuntu MATE Alpha 2.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE Alpha2 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/utopic/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE Remix Alpha 2 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/utopic/"
+%}
 
 ## What works?
 
-Most things, more than in Alpha1 at least.
+Most things, more than in Alpha 1 at least.
 
 The .iso image should boot (from DVD or USB), the Live session should
 work, the installer should work and the installed system should also
 work. Notice the heavy use of *"should*", YMMV.
 
-## What changed since Alpha1?
+## What changed since Alpha 1?
 
   * Added support for booting UEFI computers. [LP #1337604](https://bugs.launchpad.net/ubuntu-mate/+bug/1337604)
   * Added *"out of the box"* accessibility for blind or visually impaired individuals. [LP #1337824](https://bugs.launchpad.net/ubuntu-mate/+bug/1337824)
@@ -61,7 +60,7 @@ Ubuntu MATE 14.10 is currently an alpha distribution and we are aware of the fol
 
 ### Reporting issues
 
-If you spot any other issues please report them on the project's bug tracker. 
+If you spot any other issues please report them on the project's bug tracker.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 

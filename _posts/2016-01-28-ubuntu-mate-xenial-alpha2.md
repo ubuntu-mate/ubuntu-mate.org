@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.04 Alpha 2
-permalink: ubuntu-mate-xenial-alpha2
+permalink: /blog/ubuntu-mate-xenial-alpha2
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 2
 category: dev
 author: Martin Wimpress
@@ -114,14 +115,12 @@ Here what changed in Ubuntu MATE 16.04 Alpha 2 since Ubuntu MATE 16.04 Alpha 1.
 Thanks to everyone from the Ubuntu MATE community who contributed to
 this release!
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/xenial/"
+%}
 
 ## Known Issues
 

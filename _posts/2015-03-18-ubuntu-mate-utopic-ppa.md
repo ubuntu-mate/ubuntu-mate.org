@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 14.10 PPA Change
-permalink: ubuntu-mate-utopic-ppa
+permalink: /blog/ubuntu-mate-utopic-ppa
 description: Ubuntu MATE 14.10 has a new PPA, you must enable it.
 category: news
 author: Martin Wimpress
@@ -21,7 +22,7 @@ updates, no further action is required.
 
 ### Ubuntu MATE 14.10 - Optional
 
-If you are running Ubuntu MATE 14.10 you should consider adding this following 
+If you are running Ubuntu MATE 14.10 you should consider adding this following
 PPA to get access to optional MATE packages that were not included in the iso
 images.
 

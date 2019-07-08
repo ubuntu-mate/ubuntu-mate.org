@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 19.04 Beta 1
-permalink: ubuntu-mate-disco-beta
+permalink: /blog/ubuntu-mate-disco-beta
 description: Ubuntu MATE 19.04 (Disco Dingo) Beta
 category: dev
 author: Martin Wimpress
@@ -16,8 +17,8 @@ We are preparing Ubuntu MATE 19.04 (Disco Dingo) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 19.04 Beta](/gallery/blog/1904-beta.png)
+{:.center}
+![Ubuntu MATE 19.04 Beta](/gallery/blog/1904-beta.png)
 Ubuntu MATE 19.04 with the Mutiny layout
 
 ## What works?
@@ -78,14 +79,12 @@ of RDA offers the option to suspend your remote connection, supports folder
 sharing in Caja, MIME type bindings for SSHFS shares and allows session suspension
 via the MATE screensaver.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 19.04 Beta</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 19.04 Beta"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

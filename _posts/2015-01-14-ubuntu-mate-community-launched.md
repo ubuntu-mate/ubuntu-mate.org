@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE Community launched
-permalink: ubuntu-mate-community-launched
+permalink: /blog/ubuntu-mate-community-launched
 category: news
 author: Martin Wimpress
 lang: en
@@ -12,14 +13,12 @@ The answer was clear. Yes, you do. Then we asked [if the community would fund th
 And you did! Thank you to everyone who became a monthly sponsor or
 donated.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Join the Ubuntu MATE Community</h1>
-        <p>The communications hub for Ubuntu MATE is now open.</p>
-        <a href="https://ubuntu-mate.community" class="btn btn-primary btn-lg">Join the Community</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Join the Ubuntu MATE Community"
+    text = "The communications hub for Ubuntu MATE is now open."
+    button_text = "Join the Community"
+    button_url = "/community/"
+%}
 
 The Ubuntu MATE team decided to use [Discourse](http://www.discourse.org/)
 to provide a community space. You can sign up for an account on the

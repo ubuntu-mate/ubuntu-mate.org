@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.04 Beta 2
-permalink: ubuntu-mate-xenial-beta2
+permalink: /blog/ubuntu-mate-xenial-beta2
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Beta
 category: dev
 author: Martin Wimpress
@@ -13,15 +14,14 @@ We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 With this *Final Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div class="bs-component">
-	<div class="alert alert-danger">
-        <h3>Do Not Upgrade from 14.04!</h3> 
-		<p>There is an issue <u>affecting all Ubuntu flavours</u> that will
-		cause an upgrade from 14.04 to 16.04 to fail, hard!. See bug
-		<a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1555237">#1555237</a>
-		for details. <b>Upgrades from 15.10 to 16.04 work just fine.</p>
-	</div>
-</div>
+{% include blog/alert.html
+    style = "warning"
+    title = "Do Not Upgrade from 14.04!"
+    text = "There is an issue **affecting all Ubuntu flavours** that will
+            cause an upgrade from 14.04 to 16.04 to fail, hard! See bug
+            [#1555237](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1555237)
+            for details. **Upgrades from 15.10 to 16.04 work just fine.**"
+%}
 
 ## What works?
 
@@ -53,8 +53,8 @@ Also, thank you to everyone who has been testing Ubuntu MATE 16.04 Beta
 1 and filing bug reports. It has really helped identify lots of little
 issues that we've worked hard to fix.
 
-<p align="center">
-[Ubuntu MATE 16.04 Beta 2](/gallery/blog/ubuntu-mate-1604-beta2.png)
+{:.center}
+![Ubuntu MATE 16.04 Beta 2](/gallery/blog/ubuntu-mate-1604-beta2.png)
 
 ### Here is what changed Ubuntu MATE 16.04 Beta 2 since Beta 1.
 
@@ -65,7 +65,7 @@ issues that we've worked hard to fix.
   * Updated to MATE Tweak 3.5.8
     * Adds **Enable Launcher** to the *Interface* section which
     activates/deactives Synapse.
-    * Displays a **confirmation after changing Window Manager** to Compton or Compiz.     
+    * Displays a **confirmation after changing Window Manager** to Compton or Compiz.
     * Also fixed [#1548011](https://bugs.launchpad.net/bugs/1548011),
     [#1549081](https://bugs.launchpad.net/bugs/1549081),
     [#1557203](https://bugs.launchpad.net/bugs/1557203),
@@ -127,7 +127,7 @@ issues that we've worked hard to fix.
     [#1555324](https://bugs.launchpad.net/bugs/1555324),
     [#1550392](https://bugs.launchpad.net/bugs/1550392),
     [#1554128](https://bugs.launchpad.net/bugs/1554128),
-  * Updated Ubuntu MATE Ubiquity Slideshow artwork.  
+  * Updated Ubuntu MATE Ubiquity Slideshow artwork.
   * Fixed Python plug-ins for Caja
     * **Folder Color, Deja Dup Caja, Insync Caja and others now work again**.
   * Fixed `im-config` and `gnome-language-selector`.
@@ -135,14 +135,12 @@ issues that we've worked hard to fix.
     [#1550325](https://bugs.launchpad.net/bugs/1550325)
   * Replaced guvcview with Cheese.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/xenial/"
+%}
 
 ## Known Issues
 

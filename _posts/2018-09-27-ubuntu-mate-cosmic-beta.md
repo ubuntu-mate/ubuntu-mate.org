@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 18.10 Beta
-permalink: ubuntu-mate-cosmic-beta
+permalink: /blog/ubuntu-mate-cosmic-beta
 description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
 category: dev
 author: Martin Wimpress
@@ -19,8 +20,8 @@ We are preparing Ubuntu MATE 18.10 (Cosmic Cuttlefish) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 18.10 Beta](/gallery/blog/1810-beta.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
+{:.center}
+![Ubuntu MATE 18.10 Beta](/gallery/blog/1810-beta.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 
 ## What works?
 
@@ -68,14 +69,12 @@ offer the best possible "out of box" support for AMD GPUs. Consequently,
 Ubuntu 18.10 (of any flavour) is great for owners of AMD graphics solutions
 and these improvements will soon be available in Ubuntu 18.04.2 too.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 18.10 Beta</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 18.10 Beta"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

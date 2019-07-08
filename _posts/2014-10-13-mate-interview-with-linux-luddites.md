@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: MATE interview with Linux Luddites
-permalink: mate-interview-with-linux-luddites
+permalink: /blog/mate-interview-with-linux-luddites
 category: news
 author: Martin Wimpress
 lang: en
 ---
 
-[Linux Luddites](http://linuxluddites.com) were kind enough to interview 
+[Linux Luddites](http://linuxluddites.com) were kind enough to interview
 me last week. We discussed the origins of [MATE Desktop](http://mate-desktop.org),
 it's future direction, how [Ubuntu MATE](https://ubuntu-mate.org) came to
 be and where it is headed.
@@ -21,4 +22,4 @@ website and give it a listen.
 If you've not listened to the Linux Luddites before then you should checkout
 their back catalogue. It has been one of my favourite FLOSS podcasts for some
 months now that blends good discussion and insight with useful distro reviews
-and first impressions. 
+and first impressions.

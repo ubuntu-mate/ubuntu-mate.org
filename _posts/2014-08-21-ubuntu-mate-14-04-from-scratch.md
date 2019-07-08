@@ -1,12 +1,13 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 14.04 from Scratch
-permalink: 2014-08-ubuntu-mate-14-04-from-scratch
+permalink: /blog/2014-08-ubuntu-mate-14-04-from-scratch
 description: Installing Ubuntu MATE 14.04 from scratch
 category: dev
 author: Martin Wimpress
 lang: en
--->
+---
 
 We are getting a lot of requests for Ubuntu MATE 14.04 .iso images but we
 won't be in a position to make them until after Ubuntu MATE 14.10 is
@@ -28,13 +29,13 @@ Visit the URL below and download either the i386 or amd64 `mini.iso`.
 
 Burn the .iso to CD or `dd` it to a USB stick.
 
-<div class="bs-component">
-    <div class="alert alert-danger">
-        <strong>UEFI and Wireless!</strong> While the `mini.iso` is handy, there are some limitations.
-    </div>
-</div>
+{% include blog/alert.html
+    style = "warning"
+    title = "UEFI and Wireless!"
+    text = "While the `mini.iso` is handy, there are some limitations."
+%}
 
-  * It can't boot or install UEFI computers that you want to run in UEFI mode because it lacks the required files for booting the computer in UEFI 
+  * It can't boot or install UEFI computers that you want to run in UEFI mode because it lacks the required files for booting the computer in UEFI
 mode. Therefore, if you have a UEFI computer you need to enable *"Legacy BIOS Mode"*.
   * If you have a wireless card that requires firmware or a proprietary driver then you will have to connect via ethernet cable to complete the initial installation.
 
@@ -56,7 +57,7 @@ to do.
   * Partition the disk(s).
 
 The base system packages will now be downloaded and installed, this is a good
-time for a cup of tea. Or, if your Internet connection is like mine, then it 
+time for a cup of tea. Or, if your Internet connection is like mine, then it
 is time for a pot of tea while you bake a cake.
 
   * Select your preferred update management policy.
@@ -64,13 +65,13 @@ is time for a pot of tea while you bake a cake.
   then choose `<Continue>`.
   * Install the GRUB boot loader.
 
-<div class="bs-component">
-    <div class="alert alert-danger">
-        <strong>USB and GRUB</strong> Using the netboot .iso from the USB may need special attention.
-    </div>
-</div>
+{% include blog/alert.html
+    style = "warning"
+    title = "USB and GRUB"
+    text = "Using the netboot .iso from the USB may need special attention."
+%}
 
-As Jon notes in the comments, when using `mini.iso` from a USB stick the installer often sees the 
+As Jon notes in the comments, when using `mini.iso` from a USB stick the installer often sees the
 USB as `/dev/sda` and the disk you are installing to as `/dev/sdb`. This is apparent during the
 partitioning.
 
@@ -94,11 +95,11 @@ Now add the Ubuntu MATE PPAs.
 
     sudo apt-add-repository ppa:ubuntu-mate-dev/ppa
     sudo apt-add-repository ppa:ubuntu-mate-dev/trusty-mate
-    sudo apt-get update    
+    sudo apt-get update
 
 ## Install Ubuntu MATE
 
-Execute the following to install Ubuntu MATE. 
+Execute the following to install Ubuntu MATE.
 
     sudo apt-get install --no-install-recommends ubuntu-mate-core ubuntu-mate-desktop linux-firmware-nonfree
 
@@ -109,7 +110,7 @@ Remember that cake you baked earlier? Now is a good time to eat it.
 When the install is complete some post-install configuration is *required*.
 
 During the `mini.iso` install a user account was created, which is
-missing a couple of files that make Network Manager work and 
+missing a couple of files that make Network Manager work and
 correct the default icons for LibreOffice. Therefore these Ubuntu MATE
 configuration files need to be manually overlayed.
 
@@ -122,7 +123,7 @@ This last tweak is required to get NetworkManager fully working. Edit
 
     # This file describes the network interfaces available on your system
     # and how to activate them. For more information, see interfaces(5).
-    
+
     # The loopback network interface
     auto lo
     iface lo inet loopback

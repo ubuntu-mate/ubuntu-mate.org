@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: MATE Desktop 1.16 for Ubuntu MATE 16.04
-permalink: mate-desktop-116-for-xenial-xerus
+permalink: /blog/mate-desktop-116-for-xenial-xerus
 description: How to upgrade Ubuntu MATE 16.04 to MATE Desktop 1.16
 category: release
 author: Martin Wimpress
@@ -17,10 +18,10 @@ A popular question in the Ubuntu MATE community among the 16.04 users is:
 
 The answer is, **now**. *Right now*.
 
-<p align="center">
-[About MATE Desktop 1.16](/gallery/blog/MATE116.png)
+{:.center}
+![About MATE Desktop 1.16](/gallery/blog/MATE116.png)
 
-We've published a [PPA containing MATE 1.16 that is 
+We've published a [PPA containing MATE 1.16 that is
 designed to work with Ubuntu MATE 16.04](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/xenial-mate).
 You can find out [what changed in MATE Desktop 1.16 from the upstream release announcement](http://mate-desktop.org/blog/2016-09-21-mate-1-16-released/).
 
@@ -47,8 +48,8 @@ Now restart your computer and you're running MATE Desktop 1.16.x `:-)`
 
 ## Notes
 
-Upgrading to MATE Desktop 1.16 will remove the `mate-netspeed` packages, but 
-don't be alarmed, the NetSpeed applet is now included in the `mate-applets` 
+Upgrading to MATE Desktop 1.16 will remove the `mate-netspeed` packages, but
+don't be alarmed, the NetSpeed applet is now included in the `mate-applets`
 package. You won't loose any functionality.
 
 If you see the following prompt during the upgrade, then **press Enter to accept `[default=N]`**:

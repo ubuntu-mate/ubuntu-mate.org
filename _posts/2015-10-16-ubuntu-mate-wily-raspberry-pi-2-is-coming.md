@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.10 for Raspberry Pi 2 is coming
-permalink: ubuntu-mate-wily-for-raspberry-pi-2-is-coming
+permalink: /blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming
 category: dev
 author: Martin Wimpress
 lang: en
@@ -19,10 +20,9 @@ So we're sharing the feedback we've recieved about Ubuntu MATE 15.04
 for the Raspberry Pi 2 and how we've (hopefully) improved the 15.10
 release based on the that feedback.
 
-<div align="center">
-  <img src="/images/logos/raspberry-pi.png" /><br />
-  <b>Ubuntu MATE 15.10 is coming to the Raspberry Pi 2 on October 22nd 2015</b>
-</div>
+{:.center}
+![Raspberry Pi logo](/images/logos/raspberry-pi.png)
+**Ubuntu MATE 15.10 is coming to the Raspberry Pi 2 on October 22nd 2015**
 
 ## Makers
 

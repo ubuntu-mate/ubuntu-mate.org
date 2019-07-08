@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.04 Beta 1
-permalink: ubuntu-mate-xenial-beta1
+permalink: /blog/ubuntu-mate-xenial-beta1
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 1
 category: dev
 author: Martin Wimpress
@@ -40,13 +41,13 @@ First of all, I'd like to extend my thanks to:
   * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and **[Daniel Holbach](https://launchpad.net/~dholbach)** for sponsoring critical package updates for Ubuntu MATE.
   * **[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)** for creating a fantastic new Ubuntu MATE desktop wallpaper called *"A Dawn Gift"*.
 
-<p align="center">
-[Ubuntu MATE 16.04 Beta 1](/gallery/blog/ubuntu-mate-1604-beta1.png)
+{:.center}
+![Ubuntu MATE 16.04 Beta 1](/gallery/blog/ubuntu-mate-1604-beta1.png)
 
 Thanks to everyone else from the Ubuntu MATE community who contributed to this release!
 
 ### Here is what changed in Ubuntu MATE 16.04 Beta 1 since Alpha 2.
-  
+
   * Ubuntu MATE Welcome 16.04.3
     * Added the **Software Boutique** which now contains ~120 applications.
     * Added the ability to **launch applications from the Software Boutique**.
@@ -84,14 +85,12 @@ Thanks to everyone else from the Ubuntu MATE community who contributed to this r
   * Updated Ubuntu MATE Artwork to 16.04.2
     * Added community [contributed wallpaper from Ghost Sixtyseven](https://ubuntu-mate.community/t/wallpaper-a-dawn-gift-xenial-xerus/3925)
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/xenial/"
+%}
 
 ## Known Issues
 

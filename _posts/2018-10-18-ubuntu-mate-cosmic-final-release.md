@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 18.10 Final Release
-permalink: ubuntu-mate-cosmic-final-release
+permalink: /blog/ubuntu-mate-cosmic-final-release
 description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Final Release
 category: release
 author: Martin Wimpress
@@ -15,8 +16,8 @@ release is also important for the upcoming 18.04.2 release. Oh yeah, we've
 also made a [bespoke Ubuntu MATE 18.10 image for the GPD Pocket and GPD Pocket
 2](/gpd-pocket/). Read on to learn more...**
 
-<p align="center">
-[Ubuntu MATE 18.10](/gallery/blog/1810-final.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
+{:.center}
+![Ubuntu MATE 18.10](/gallery/blog/1810-final.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 
 ## What changed since the Ubuntu MATE 18.04 final release?
 
@@ -56,8 +57,11 @@ bespoke image for the [GPD Pocket](https://gpd.hk/gpdpocket) and
 specific tweaks to get these devices working *"out of the box"*
 without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
 
-<p align="center">
-[Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)](/gallery/blog/gpd-pockets.jpg)
+{:.center}
+![Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)](/gallery/blog/gpd-pockets.jpg)
+
+{:.caption}
+**Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)**
 
 ## Raspberry Pi images
 
@@ -72,21 +76,19 @@ Hopefully we'll have something in time for Christmas 2018 `:-)`
 Accompanying **MATE Desktop 1.20.3** and **Linux 4.18** are **Firefox
 59.0.2**, **VLC 3.0.4**, **LibreOffice 6.1.2.1** and **Thunderbird 60.2.1**.
 
-<p align="center">
-[Major Applications](/gallery/cosmic/versions.png)
+{:.center}
+![Major Applications](/gallery/cosmic/versions.png)
 
 See the [Ubuntu 18.10 Release
 Notes](https://wiki.ubuntu.com/CosmicCuttlefish/ReleaseNotes) for details of all
 the changes and improvements that Ubuntu MATE benefits from.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 18.10</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 18.10"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 
@@ -102,7 +104,7 @@ This is our known list of bugs that affects all flavours.
 
   * [After installing an Ubuntu 18.10 flavour alongside an existing Ubuntu 18.10 install, the resized filesystem is corrupted](https://pad.lv/1798562).
     * It has not been reported to happen if the original operating system is something other than Cosmic.
-  * [When installing while preserving existing data, an error message is displayed](https://pad.lv/1798369), which is due to `Could not get lock /target/var/cache/apt/archives/lock` 
+  * [When installing while preserving existing data, an error message is displayed](https://pad.lv/1798369), which is due to `Could not get lock /target/var/cache/apt/archives/lock`
     * The packages installed originally are not reinstalled and must be reinstalled manually. Although the user data is preserved.
   * [The screen reader is not auto-enabled on first login even if it's been enabled during installation](https://pad.lv/1796275).
   * [In an OEM installation, during user setup, the language selected is not taken into account](https://pad.lv/1798554).

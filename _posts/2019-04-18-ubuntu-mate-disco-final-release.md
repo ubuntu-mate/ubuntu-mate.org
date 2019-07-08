@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 19.04 Final Release
-permalink: ubuntu-mate-disco-final-release
+permalink: /blog/ubuntu-mate-disco-final-release
 description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
 category: release
 author: Martin Wimpress
@@ -14,8 +15,8 @@ fixes and improved hardware support, *particularly for NVIDIA GPU owners*, then
 the GPD Pocket and GPD Pocket 2](/gpd-pocket/). Read on to learn more...**
 
 
-<p align="center">
-[Ubuntu MATE 19.04](/gallery/blog/1904-final.png)
+{:.center}
+![Ubuntu MATE 19.04](/gallery/blog/1904-final.png)
 **Ubuntu MATE 19.04 with the Mutiny layout**
 
 ## What changed since the Ubuntu MATE 18.10 final release?
@@ -53,18 +54,17 @@ If you have an NVIDIA GPU connected to your computer and select
 *Install third-party software for graphics and Wi-Fi hardware* during
 installation, the NVIDIA proprietary drivers will be installed.
 
-<div align="center">
-<img src="/gallery/disco/select-third-party-drivers.png" alt="Third party drivers" /><br />
-</div>
+{:.center}
+![Third party drivers](/gallery/disco/select-third-party-drivers.png)
 
 Post install, the proprietary NVIDIA drivers are installed and configured. To
 confirm this, open a terminal and run `nvidia-smi`. Ubuntu MATE users with
 laptops that support hybrid graphics will see the MATE Optimus hybrid graphics
 applet displaying the NVIDIA logo.
 
-<div align="center">
-<img src="/gallery/disco/mate-optimus-indicator.png" alt="MATE Optimus - hybrid graphics switcher" /><br />
-</div>
+{:.center}
+![MATE Optimus - hybrid graphics switcher](/gallery/disco/mate-optimus-indicator.png)
+
 
 ### MATE Dock Applet
 
@@ -98,22 +98,19 @@ without any faffing about. [See our GPD Pocket page for more details](/gpd-pocke
 Accompanying **MATE Desktop 1.20.4** and **Linux 5.0.0** are **Firefox
 66.0.3**, **VLC 3.0.6**, **LibreOffice 6.2.2.2** and **Thunderbird 60.6.1**.
 
-<div align="center">
-<img src="/gallery/disco/versions.png" alt="Major Applications" /><br />
-</div>
+{:.center}
+![Major Applications](/gallery/disco/versions.png)
 
 See the [Ubuntu 19.04 Release
 Notes](https://wiki.ubuntu.com/DiscoDingo/ReleaseNotes) for details of all
 the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 19.04</h1>
-        <p>Our download page makes it easy to acquire the most suitable build for your hardware.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 19.04"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Upgrading from Ubuntu MATE 18.04 or 18.10
 

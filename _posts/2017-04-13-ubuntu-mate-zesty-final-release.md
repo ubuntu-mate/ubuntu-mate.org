@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 17.04
-permalink: ubuntu-mate-zesty-final-release
+permalink: /blog/ubuntu-mate-zesty-final-release
 description: Ubuntu MATE 17.04 (Zesty Zapus) Final Release
 category: release
 author: Martin Wimpress
@@ -18,8 +19,8 @@ details. As always, we're never finished and eager to start work on
 hope you enjoy Ubuntu MATE 17.04 as much as we've enjoyed making it
 for you.**
 
-<p align="center">
-[Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
+{:.center}
+![Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
 
 # What's New in Ubuntu MATE 17.04?
 
@@ -43,7 +44,7 @@ following ways:
   contributed a new dark theme, called Ambiant-MATE Dark. We love it!
 
   * [Wolfgang Ulbrich](https://github.com/raveit65) from [MATE Desktop](https://mate-desktop.org)
-  worked tirelessly on all the Ubuntu MATE themes making them all fully 
+  worked tirelessly on all the Ubuntu MATE themes making them all fully
   compatible with GTK 3.22 add ensuring every pixel is placed exactly
   where it should be.
 
@@ -62,14 +63,12 @@ following ways:
 **We extend our sincere thanks to everyone who contributed to this
 Ubuntu MATE release. Thank you!**
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 17.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 17.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## What changed since the Ubuntu MATE 17.04 Beta 2 release?
 
@@ -109,7 +108,7 @@ This is what has been added, updated or removed.
     * Fix GTK2+ Notebooks, Progress bars and Sliders so they match GTK3+.
     * Fix GTK2+ Ambiant-MATE so that Qt4/Qt5 applications are styled correctly.
     * Fix GTK2+ runtime warnings.
-    * Fix GTK2+ and GTK3+ Notebook background and font colours.  
+    * Fix GTK2+ and GTK3+ Notebook background and font colours.
     * Fix GTK3+ switches, particularly in headerbars.
     * Fix GTK3+ button hover focus.
     * Fix background and colours for MATE Terminal and GNOME Terminal.
@@ -121,10 +120,10 @@ This is what has been added, updated or removed.
     * Add missing gtkstyle-fallback settings.
     * Add missing GtkSourceView styles for Ambiant-MATE-Dark.
     * Add Ubuntu MATE community contributed wallpaper, Ubuntu MATE Wet.
-    * Remove obsolete GTK2+ styling.    
+    * Remove obsolete GTK2+ styling.
   * Upgraded to **Ubuntu MATE Welcome 17.04.11**
     * Fix incorrect quoting of URIs which prevent some locales from installing software. (LP: [#1679280](http://pad.lv/1679280))
-    * Fix the removal of Adobe Flash if installed via Ubiquity. (LP: [#1676052](http://pad.lv/1676052))    
+    * Fix the removal of Adobe Flash if installed via Ubiquity. (LP: [#1676052](http://pad.lv/1676052))
     * Disable the Install button if Ubiquity is not avaliable. (LP: [#1678582](http://pad.lv/1678582))
     * Add Simple Screen Recorder.
     * Update translations.

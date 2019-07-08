@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 14.10 Release Candidate
-permalink: ubuntu-mate-utopic-release-candidate
+permalink: /blog/ubuntu-mate-utopic-release-candidate
 category: dev
 author: Martin Wimpress
 lang: en
@@ -9,19 +10,19 @@ lang: en
 
 Ubuntu MATE 14.10 release candidate is now available for download.
 This is the last release prior to the final 14.10 release and fixes
-a few issues that were present in Beta2 please **make sure you read
+a few issues that were present in Beta 2 please **make sure you read
 the  release notes below** because there are still unresolved issues
 you'll need to be aware of.
 
 ## What works?
 
-Most things, more than in Beta2 at least. People tell us that Ubuntu
+Most things, more than in Beta 2 at least. People tell us that Ubuntu
 MATE is stable. You may, or may not, agree.
 
-## What changed since Beta2?
+## What changed since Beta 2?
 
 This release candidate has been focused on fixing broken things and
-improving what was already present in Beta2.
+improving what was already present in Beta 2.
 
   * Fixed full disk encryption, or rather entering your pass phrase into Plymouth.
     * [LP #1382791](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1382791)
@@ -45,26 +46,24 @@ improving what was already present in Beta2.
   * Added caja-dropbox 1.8.0 to the PPAs.
   * Added mate-control-center to 1.8.3 to the PPAs.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 14.10 Release Candidate Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/utopic/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 14.10 Release Candidate Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/utopic/"
+%}
 
-## Upgrading from Beta2
+## Upgrading from Beta 2
 
-If you have Beta2 installed, here is how to upgrade to the release
+If you have Beta 2 installed, here is how to upgrade to the release
 candidate.
 
 Start a shell and update.
 
     sudo apt-get update
-    
-Complete the upgrade.    
-    
+
+Complete the upgrade.
+
     sudo apt-get dist-upgrade
 
 Reboot, login, start a shell and clean up.

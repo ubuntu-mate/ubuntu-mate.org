@@ -1,19 +1,19 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.04 Beta1
-permalink: ubuntu-mate-vivid-beta1
+permalink: /blog/ubuntu-mate-vivid-beta1
 category: news
 author: Martin Wimpress
 lang: en
 ---
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Achievement Unlocked!</h1>
-        <p>Ubuntu MATE 15.04 is now an official member of the Ubuntu family.</p>
-        <p><img class="centered" src="/Ubuntu-MATE-Remix.png" alt="Ubuntu MATE" /></p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Achievement Unlocked!"
+    text = "Ubuntu MATE 15.04 is now an official member of the Ubuntu family."
+    button_text = ""
+    button_url = ""
+%}
 
 Yes, we finally made it! Ubuntu MATE 15.04 Beta1 is now available
 for official download. This official release builds on Ubuntu MATE Alpha2,
@@ -60,7 +60,9 @@ Here what changed since Ubuntu MATE 15.04 Alpha2:
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
   * Added an interface layout switcher to MATE Tweak, see the video below.
 
-<div align="center"><iframe width="480" height="360" src="https://www.youtube.com/embed/YI4IWO_SpiI&html5=1" frameborder="0" allowfullscreen></iframe></div>
+{% include blog/youtube.html
+    embed = "https://www.youtube.com/embed/YI4IWO_SpiI&html5=1"
+%}
 
   * Added [Plank](https://launchpad.net/plank).
     * Plank is not enabled by default, but can be activated via the *Eleven* layout in MATE Tweak.
@@ -82,14 +84,12 @@ Here what changed since Ubuntu MATE 15.04 Alpha2:
     * While Compiz is installed by default, it is not enabled by default.
     * MATE Tweak includes an option to switch between Marco and Compiz, no log out/in required.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.04 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/vivid/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.04 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/vivid/"
+%}
 
 ## Known Issues
 

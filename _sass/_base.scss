@@ -118,3 +118,31 @@ blockquote {
         top: 0px;
     }
 }
+
+pre {
+    display: block;
+    background-color: $grey-lightest;
+    color: black;
+    padding: 15px;
+    margin: 15px 0;
+    white-space: normal;
+
+    code {
+        color: black;
+    }
+}
+
+p.center {
+    text-align: center;
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+
+        /* Caption */
+        + strong {
+            display: block;
+            font-size: 0.9em;
+        }
+    }
+}

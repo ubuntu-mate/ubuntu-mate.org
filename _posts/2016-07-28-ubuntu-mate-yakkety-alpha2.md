@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.10 Alpha 2
-permalink: ubuntu-mate-yakkety-alpha2
+permalink: /blog/ubuntu-mate-yakkety-alpha2
 description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
 category: dev
 author: Martin Wimpress
@@ -13,11 +14,10 @@ We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 16.10 Alpha 2](/gallery/blog/ubuntu-mate-1610-alpha2.png)
+{:.center}
+![Ubuntu MATE 16.10 Alpha 2](/gallery/blog/ubuntu-mate-1610-alpha2.png)
 
-<b>As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.</b>
-</div>
+**As is now customary, our release artwork was made by [Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A).**
 
 ## What works?
 
@@ -66,14 +66,12 @@ This is what have been updated or added.
   * **Indicator Session has been re-instated in Ubiquity** while installing Ubuntu MATE.
   * The `.iso` image is **approximately 150MB smaller**.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.10</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.10"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: Progressing towards Ubuntu MATE Beta1
-permalink: progressing-towards-ubuntu-mate-beta1
+permalink: /blog/progressing-towards-ubuntu-mate-beta1
 category: news
 author: Martin Wimpress
 lang: en
--->
+---
 
-A few days ago I was asked [what is the current status of Ubuntu MATE, 
+A few days ago I was asked [what is the current status of Ubuntu MATE,
 what is outstanding and what help do we require](https://plus.google.com/101312215214323407176/posts/4WefGfx765p)
 via [our Ubuntu MATE Google+ community](https://plus.google.com/communities/108331279007926658904).
 I thought it best to reply here to reach a wide audience.
@@ -43,13 +44,13 @@ MATE wallpapers, LightDM theme, Plymouth theme and new desktop themes.
 A [SYSLINUX theme](http://imgur.com/jTEEdGV) is currently in the works.
 
 Some general improvements have also been made during the Beta1 cycle,
-such as desktop policy privilege fixes, meta package improvements and 
+such as desktop policy privilege fixes, meta package improvements and
 aligning the core packages with the other Ubuntu flavors.
 
 I needed a few evenings break from for Ubuntu MATE, so I gave the bot
 in the [Ubuntu MATE IRC channel](/irc/) a personality and modified the
 Ubuntu MATE webserver to only deliver content over HTTPS using
-[HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), 
+[HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security),
 [PFS](https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection)
 (perfect forward secrecy) and [SPDY](http://en.wikipedia.org/wiki/SPDY).
 
@@ -115,13 +116,13 @@ final release.
 
 Please install Ubuntu MATE, either in a Virtual Machine (VM) or on real hardware and use
 it as much as possible. If you spot any issues please report them on the
-Ubuntu MATE bug tracker. 
+Ubuntu MATE bug tracker.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 
 ## Artwork Team
 
-We'd like to establish an Ubuntu MATE artwork team who can drive the 
+We'd like to establish an Ubuntu MATE artwork team who can drive the
 artwork and design efforts. There are clearly several members of the
 Ubuntu MATE community who are already interested in this area. If you
 would like to join them then [please let us know](/communty/) so we can

@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.10 Beta 1
-permalink: ubuntu-mate-wily-beta1
+permalink: /blog/ubuntu-mate-wily-beta1
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on 
+We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
 [October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
 With this *Beta 1* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
@@ -30,7 +31,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE 15.10 Alpha 2 release?
 
-Here's what changed in Ubuntu MATE 15.10 since Alpha 2. 
+Here's what changed in Ubuntu MATE 15.10 since Alpha 2.
 
   * Updated to MATE 1.10 *(mostly)*.
     * Caja now has an extension manager so plugins can be enabled/disabled at run-time.
@@ -85,7 +86,7 @@ have not yet been updated to MATE 1.10.
   * mate-sensors-applet
   * mate-user-share
 
-That's quite a list. As I've said before I conduct all MATE packaging 
+That's quite a list. As I've said before I conduct all MATE packaging
 work in Debian, as part of the MATE Packaging team for Debian. What
 with summer vacations, civic duty and [DebConf 2015](http://debconf15.debconf.org/)
 we didn't quite get all of MATE 1.10 uploaded in time for Beta 1.
@@ -96,14 +97,12 @@ bit bumpy. Ubuntu MATE 15.10 Beta 1 might be the most unstable version
 of Ubuntu MATE we've ever released. But everything should be hunky-dory
 for the final beta next month.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/wily/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.10 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/wily/"
+%}
 
 ## Known Issues
 

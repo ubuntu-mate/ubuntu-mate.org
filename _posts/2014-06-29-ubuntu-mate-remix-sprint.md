@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE Remix sprint
-permalink: ubuntu-mate-remix-sprint
+permalink: /blog/ubuntu-mate-remix-sprint
 category: news
 author: Martin Wimpress
 lang: en
 ---
 
-Earlier this week [popey](http://popey.com) and I met up for a one day 
+Earlier this week [popey](http://popey.com) and I met up for a one day
 development sprint to try and make some headway with Ubuntu MATE Remix.
 We did manage to make a good deal of progress. So, what did we achieve?
 
@@ -41,4 +42,4 @@ These are the main issues we need to work on:
   * Testing, lots of testing. In particular hardware and printer compatibility.
 
 Is there anything you can help with or want to be involved in? If so please
-[get in touch](https://ubuntu-mate.community/).
+[get in touch](/community/).

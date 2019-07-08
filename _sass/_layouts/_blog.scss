@@ -129,3 +129,41 @@
         margin-right: 5px;
     }
 }
+
+/* Partials */
+.jumbotron {
+    background-color: $grey-lightest;
+    background-image: url(/images/ubuntu-mate/logo-white.svg);
+    background-size: 200px;
+    background-position: bottom -70px right -70px;
+    background-repeat: no-repeat;
+    border: 2px solid $grey-light;
+    padding: 30px;
+    margin: 15px 0;
+    width: 100%;
+
+    h2 {}
+    p {}
+    a {}
+}
+
+.alert {
+    display: block;
+    padding: 15px;
+    margin: 15px 0;
+
+    /* Default style: Generic */
+    background-color: $grey-lightest;
+    color: $grey-darker;
+
+    /* Styles */
+    &.warning {
+        background-color: $alert-warning;
+        color: $alert-warning-text;
+    }
+
+    &.error {
+        background-color: $alert-error;
+        color: $alert-error-text;
+    }
+}

@@ -1,21 +1,22 @@
 ---
 layout: blog-post
-title: Ubuntu MATE Beta1
-permalink: ubuntu-mate-beta1
+class: blog
+title: Ubuntu MATE Beta 1
+permalink: /blog/ubuntu-mate-beta1
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-Ubuntu MATE Beta1 is released and represents a big step forward 
-compared to Alpha2, not least because Ubuntu MATE is now sporting new 
-themes and artwork to give it a distinctive look. A number of bugs have 
-also been fixed along the way and a few new ones have been introduced, 
+Ubuntu MATE Beta 1 is released and represents a big step forward
+compared to Alpha2, not least because Ubuntu MATE is now sporting new
+themes and artwork to give it a distinctive look. A number of bugs have
+also been fixed along the way and a few new ones have been introduced,
 **so make sure you read the release notes below**.
 
-## What changed since Alpha2?
+## What changed since Alpha 2?
 
-Mostly Beta1 has been focused on adding artwork to give Ubuntu MATE its
+Mostly Beta 1 has been focused on adding artwork to give Ubuntu MATE its
 own identity but improvements have been made and some bugs have been
 fixed too.
 
@@ -48,18 +49,16 @@ fixed too.
   * Updated ubuntu-mate.org webserver to deliver all content over SSL/TLS using [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), [PFS](https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection) and (when possible) [SPDY](http://en.wikipedia.org/wiki/SPDY).
   * Removed `ffmpegthumbnailer`, `light-themes` and `ubuntu-artwork`.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE Beta1 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/utopic/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE Beta 1 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/utopic/"
+%}
 
 ## Upgrading from Alpha2
 
-Some of the package selections and default settings have changed since 
+Some of the package selections and default settings have changed since
 Alpha2. If you have Alpha2 installed, here is how to upgrade to Beta1.
 
 Start a shell and upgrade.
@@ -83,13 +82,13 @@ Reboot, login, start a shell and clean up.
 
 Finally set up the default Ubuntu MATE appearance.
 
-  * Go to `System -> Preferences -> Appearance` and select the 
+  * Go to `System -> Preferences -> Appearance` and select the
   'Ambiant-MATE' theme. Click the `Backgrounds` tab and select the
   'Ubuntu MATE Cold' wallpaper.
 
 ## Known Issues
 
-Ubuntu MATE 14.10 is currently in beta and we are aware of the 
+Ubuntu MATE 14.10 is currently in beta and we are aware of the
 following issues.
 
   * Full disk encryption *may* not work. This is an [upstream bug in Plymouth](https://bugs.freedesktop.org/show_bug.cgi?id=80553)
@@ -103,8 +102,8 @@ following issues.
 
 ### Reporting issues
 
-If you spot any other issues please report them on the project's bug 
-tracker. 
+If you spot any other issues please report them on the project's bug
+tracker.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 

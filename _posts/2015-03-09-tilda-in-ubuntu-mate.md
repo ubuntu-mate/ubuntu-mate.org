@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Tilda in Ubuntu MATE 15.04
-permalink: tilda-in-ubuntu-mate-vivid-vervet
+permalink: /blog/tilda-in-ubuntu-mate-vivid-vervet
 category: news
 author: Martin Wimpress
 lang: en
@@ -11,8 +12,9 @@ This short video introduces Tilda, a pull-down terminal, that is integrated into
 
   * <https://github.com/lanoxx/tilda>
 
-<p align="center">
-[Tilda](https://www.youtube.com/embed/_woWvmHl3Rc?html5=1)
+{% include blog/youtube.html
+    embed = "https://www.youtube.com/embed/_woWvmHl3Rc?html5=1"
+%}
 
 New videos in this series will be added to the following YouTube playlist.
 

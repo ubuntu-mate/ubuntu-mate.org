@@ -1,17 +1,17 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.10
-permalink: ubuntu-mate-yakkety-final-release
+permalink: /blog/ubuntu-mate-yakkety-final-release
 description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
 category: release
 author: Martin Wimpress
 lang: en
 ---
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1610-final.png" alt="Ubuntu MATE 16.10 Final" /><br />
-<b>As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.</b>
-</div>
+{:.center}
+![Ubuntu MATE 16.10 Final](/gallery/blog/ubuntu-mate-1610-final.png)
+**As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.**
 
 # It's GTK3+ baby, all of it!
 
@@ -47,14 +47,12 @@ lang: en
 >
 > *Martin Wimpress, Ubuntu MATE Project Leader.*
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.10</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.10"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## What changed since the Ubuntu MATE 16.10 Beta 2 release?
 

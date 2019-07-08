@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 17.04 Alpha 2
-permalink: ubuntu-mate-zesty-alpha2
+permalink: /blog/ubuntu-mate-zesty-alpha2
 description: Ubuntu MATE 17.04 (Zesty Zapus) Alpha 2
 category: dev
 author: Martin Wimpress
@@ -13,8 +14,8 @@ We are preparing Ubuntu MATE 17.04 (Zesty Zapus) for distribution on
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 17.04 Alpha 2](/gallery/blog/ubuntu-mate-1704-alpha2.png)
+{:.center}
+![Ubuntu MATE 17.04 Alpha 2](/gallery/blog/ubuntu-mate-1704-alpha2.png)
 
 ## What works?
 
@@ -61,14 +62,12 @@ This is what have been updated or added.
     * Ubuntu MATE **16.04 will continue to support PowerPC until 2019**.
   * The `.iso` images are **approximately 200MB smaller**.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 17.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 17.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

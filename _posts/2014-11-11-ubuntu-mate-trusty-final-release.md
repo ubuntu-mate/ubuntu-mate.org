@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 14.04 Release
-permalink: ubuntu-mate-trusty-final-release
+permalink: /blog/ubuntu-mate-trusty-final-release
 category: release
 author: Martin Wimpress
 lang: en
@@ -9,7 +10,7 @@ lang: en
 
 The Ubuntu MATE 14.04 final release is now available for download.
 This release fixes a few issues that were present in the 14.10
-release and adds some additional features. 
+release and adds some additional features.
 
 ## Thank you
 
@@ -81,18 +82,16 @@ released to Ubuntu MATE 14.10 via updates.
   * Synced python-caja 1.8.1-1 from Debian.
   * Synced xzoom 0.3-24 from Debian.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 14.04 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/trusty/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 14.04 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/trusty/"
+%}
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

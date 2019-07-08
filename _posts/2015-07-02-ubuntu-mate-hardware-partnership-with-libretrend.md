@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE hardware partnership with LibreTrend
-permalink: ubuntu-mate-hardware-partnership-with-libretrend
+permalink: /blog/ubuntu-mate-hardware-partnership-with-libretrend
 description: Ubuntu MATE agrees hardware partnership with LibreTrend
 category: news
 author: Martin Wimpress
@@ -10,8 +11,8 @@ lang: en
 
 Ubuntu MATE agrees a partnership with GNU/Linux hardware manufacturer [LibreTrend](http://www.libretrend.com/en/).
 
-<p align="center">
-[Ubuntu MATE and LibreTrend](/images/merch/libretrend/ubuntu-mate-libretrend.png)
+{:.center}
+![Ubuntu MATE and LibreTrend](/images/merch/libretrend/ubuntu-mate-libretrend.png)
 
 Ubuntu MATE is an official flavour of Ubuntu focussed on usability and
 stability, which has gained massive traction in the Linux community
@@ -19,10 +20,9 @@ over recent months. Inspired by the traditional GNOME 2 interface of
 classic Ubuntu releases, Ubuntu MATE is the perfect distribution for
 easing the transition between Microsoft Windows or Mac OS and Linux.
 
-<p align="center">
-[The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.](/images/merch/libretrend/librebox-topbanner.jpg)
-
-<p align="center">[LibreBox](http://www.libretrend.com/en/store/librebox)
+{:.center}
+![LibreBox ](/images/merch/libretrend/librebox-topbanner.jpg)
+**[The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.](http://www.libretrend.com/en/store/librebox)**
 
 LibreTrend are the designer and manufacturer of the [LibreBox](http://www.libretrend.com/en/hardware),
 a computer geared towards providing a complete *"out of the box"* Linux
@@ -30,44 +30,23 @@ experience, with a heavy focus on hardware compatibility. All the hardware in
 the LibreBox is Free Software friendly and 100% supported by *"blobless"* Linux drivers.
 
 
-<div class="row">
-  <div class="col-lg-2">
-    <div class="bs-component">&nbsp;</div>
-  </div>
-  <div class="col-lg-8">
-    <div class="bs-component">
-      <div class="list-group">
-        <a class="list-group-item active">Specifications</a>
-        <a class="list-group-item">4mm thick alloy 20x20x4cm (Length x Width x Height)</a>
-        <a class="list-group-item">Intel™ 1037U Dual Core</a>
-        <a class="list-group-item">Intel™ HD Graphics</a>
-        <a class="list-group-item">1x SODIMM DDR3. Maximum 8Gb.</a>
-        <a class="list-group-item">Up to 3 Hard drives. 2x 2.5" SATA HDD and 1x mSATA SSD.</a>
-        <a class="list-group-item">19W of Power Consumption</a>
-        <a class="list-group-item">
-        <ul>
-        <li>Up to 1000 Mbps (port Ethernet RJ45)</li>
-        <li>Up to 150 Mbps (Wireless with dual external antenna)</li>
-        </ul>
-        </a>
-        <a class="list-group-item">
-        <ul>
-        <li>4x USB 2.0</li>
-        <li>1x VGA</li>
-        <li>1x HDMI</li>
-        <li>1x Ethernet (RJ45)</li>
-        <li>1x AC Adapter Port (EU, UK, US and AU)</li>
-        <li>1x Microphone Input</li>
-        <li>1x Headphone Jack</li>
-        </ul>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-2">
-    <div class="bs-component">&nbsp;</div>
-  </div>
-</div>
+### Specifications
+
+* 4mm thick alloy 20x20x4cm (Length x Width x Height)
+* Intel™ 1037U Dual Core
+* Intel™ HD Graphics
+* 1x SODIMM DDR3. Maximum 8Gb.
+* Up to 3 Hard drives. 2x 2.5" SATA HDD and 1x mSATA SSD.
+* 19W of Power Consumption
+* Up to 1000 Mbps (port Ethernet RJ45)
+* Up to 150 Mbps (Wireless with dual external antenna)
+* 4x USB 2.0</li>
+* 1x VGA
+* 1x HDMI
+* 1x Ethernet (RJ45)
+* 1x AC Adapter Port (EU, UK, US and AU)
+* 1x Microphone Input
+* 1x Headphone Jack
 
 Both LibreTrend and the Ubuntu MATE project are excited by this new
 partnership and look forward to what their collaboration can produce
@@ -78,14 +57,13 @@ that will also ship with Ubuntu MATE.
 
 LibreTrend is a Portuguese based Linux software, services and hardware design company.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>LibreTrend</h1>
-        <p>More information about LibreTrend, and their products and services, are available online
-        at <a href="http://www.libretrend.com/en/">www.libretrend.com</a></p>
-        <a href="http://www.libretrend.com/en/" class="btn btn-primary btn-lg">Visit LibreTrend</a>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "LibreTrend"
+    text = "More information about LibreTrend, and their products and services, are available online at **libretrend.com**"
+    button_text = "Visit LibreTrend"
+    button_url = "http://www.libretrend.com"
+%}
+
 
 ## About Ubuntu MATE
 

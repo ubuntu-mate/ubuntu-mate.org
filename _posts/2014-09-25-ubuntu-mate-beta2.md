@@ -1,18 +1,19 @@
 ---
 layout: blog-post
-title: Ubuntu MATE 14.10 Beta2
-permalink: ubuntu-mate-utopic-beta2
+class: blog
+title: Ubuntu MATE 14.10 Beta 2
+permalink: /blog/ubuntu-mate-utopic-beta2
 tags: Ubuntu,MATE,Utopic,beta2
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-Ubuntu MATE 14.10 Beta2 is now available for download. This second beta 
-fixes a number of issues that were present in Beta1, adds a few new 
-features and includes some more original artwork. We've managed to not 
-introduce any new bugs this time but please **make sure you read the 
-release notes below** because there are still unresolved issues you'll 
+Ubuntu MATE 14.10 Beta 2 is now available for download. This second beta
+fixes a number of issues that were present in Beta1, adds a few new
+features and includes some more original artwork. We've managed to not
+introduce any new bugs this time but please **make sure you read the
+release notes below** because there are still unresolved issues you'll
 need to be aware of.
 
 ## What works?
@@ -22,12 +23,12 @@ MATE is stable. You may, or may not, agree.
 
 ## What changed since Beta1?
 
-Beta2 has been focused on fixing broken things and improving what was 
+Beta 2 has been focused on fixing broken things and improving what was
 already present in Beta1.
 
   * Released community contributed [Ubuntu MATE Identity graphics from Goce Mitevski](https://github.com/gocemitevski/ubuntu-mate-identity-graphics).
   * Added community contributed [GRUB2 theme from Ivan Pejić](https://github.com/nadrimajstor/grub2-themes-ubuntu-mate).
-  * Added `gnome-system-tools` due to community feedback requesting user and time management facilities. [LP #1367772](https://bugs.launchpad.net/ubuntu-mate/+bug/1367772)  
+  * Added `gnome-system-tools` due to community feedback requesting user and time management facilities. [LP #1367772](https://bugs.launchpad.net/ubuntu-mate/+bug/1367772)
   * Added indicators to Ubiquity that enable access to assistive features and basic system configuration.
   * Added assistive features to LightDM.
   * Added keybindings, compatible with [Sonar](http://sonargnulinux.com/), for toggling assistive features.
@@ -39,7 +40,7 @@ already present in Beta1.
   * Fixed installation failures when there is no active Internet connection. Really, *it is* fixed this time. [LP #1363267](https://bugs.launchpad.net/ubuntu-mate/+bug/1363267)
   * Fixed LightDM crashes that prevented the Live desktop session from working. [LP #1369952](https://bugs.launchpad.net/ubuntu/+source/lightdm/+bug/1369952)
   * Fixed EFI computers displaying a black screen rendering the system unusable. [LP #1353989 ](https://bugs.launchpad.net/ubuntu/+source/systemd-shim/+bug/1353989)
-  * Fixed default application associations. [LP #1364127](https://bugs.launchpad.net/ubuntu-mate/+bug/1364127)  
+  * Fixed default application associations. [LP #1364127](https://bugs.launchpad.net/ubuntu-mate/+bug/1364127)
   * Fixed erroneous apt configuration that prevented recommended packages being installed.
   * Fixed video corruption in the Ubiquity installer.
   * Fixed activation of the default sound theme.
@@ -48,37 +49,35 @@ already present in Beta1.
   * Removed `virtualbox-guest-x11` from the Live session.
   * Removed [wubi](https://wiki.ubuntu.com/WubiGuide) from the Ubuntu MATE .iso image.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 14.10 Beta2 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/utopic/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 14.10 Beta 2 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/utopic/"
+%}
 
 ## Upgrading from Beta1
 
-Some of the meta packages have changed since Beta1. If you have Beta1 
+Some of the meta packages have changed since Beta1. If you have Beta1
 installed, here is how to upgrade to Beta2.
 
 Start a shell and update.
 
     sudo apt-get update
-    
+
 If you were tracking development packages between Beta1 and Beta2 you
 will want to remove `grub-theme-ubuntu-mate` since it has a new name now.
-    
+
     sudo apt-get remove grub-theme-ubuntu-mate
-    
-Complete the upgrade.    
-    
+
+Complete the upgrade.
+
     sudo apt-get dist-upgrade
 
 Remove some obsolete packages.
 
     sudo apt-get remove ubuntu-mate-desktop-policy-privileges
-    
+
 Remove an erroneous apt configuration that has existed since Alpha1.
 
     sudo rm /etc/apt/apt.conf.d/00recommends
@@ -105,7 +104,7 @@ issues.
     * [LP #1368414](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1368414)
     * [LP #1356513](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1356513)
     * [LP #1343841](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1343841)
-  
+
 You'll also want to check the Ubuntu MATE bug tracker to see what has
 already been reported:
 

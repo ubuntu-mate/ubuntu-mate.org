@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.04 Alpha2
-permalink: ubuntu-mate-vivid-alpha2
+permalink: /blog/ubuntu-mate-vivid-alpha2
 category: dev
 author: Martin Wimpress
 lang: en
@@ -46,14 +47,12 @@ available via updates.
   * All MATE package updates from Debian have been automatically synced to Ubuntu 15.04.
   * Ubuntu 15.04 has adopted multilib GObject introspection runtime (gir) which means Caja plugins now work *"out of the box"*.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.04 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/vivid/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.04 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/vivid/"
+%}
 
 ## Known Issues
 

@@ -1,14 +1,16 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.10 Final Release
-permalink: ubuntu-mate-wily-final-release
+permalink: /blog/ubuntu-mate-wily-final-release
 category: release
 author: Martin Wimpress
 lang: en
 ---
 
-<p align="center">
-[Ubuntu MATE 15.10 Final Release](https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&#amp;rel=0&amp;showinfo=0)
+{% include blog/youtube.html
+    embed = "https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&#amp;rel=0&amp;showinfo=0"
+%}
 
 ## What works?
 
@@ -37,14 +39,12 @@ Here's what changed in Ubuntu MATE 15.10 since Beta 2.
   * Updated Plank to 0.10.1.
   * Prepared Ubuntu MATE 15.10 for the Raspberry Pi 2.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/wily/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.10 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/wily/"
+%}
 
 ## Raspberry Pi 2
 
@@ -52,11 +52,9 @@ We are delighted to release Ubuntu MTE 15.10 for the Raspberry Pi 2 on
 release day along side the other supported architectures.
 You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
-<div align="center">
-  <a href="/raspberry-pi/"><img src="/images/logos/raspberry-pi.png" /></a><br />
-  <b>Ubuntu MATE 15.10 is also available for the Raspberry Pi 2.</b>
-</div>
-<br />
+{:.center}
+![Raspberry Pi logo](/images/logos/raspberry-pi.png)
+**Ubuntu MATE 15.10 is also available for the Raspberry Pi 2**
 
 ## Thanks
 
@@ -133,11 +131,9 @@ Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Press Kit</h1>
-        <p>If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful.</p>
-        <a href="/ubuntu-mate-1510-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.10 Press Kit"
+    text = "If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful."
+    button_text = "Press Kit"
+    button_url = "/ubuntu-mate-1510-presskit/"
+%}

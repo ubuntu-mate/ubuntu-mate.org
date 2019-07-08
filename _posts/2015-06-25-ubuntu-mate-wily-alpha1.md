@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.10 Alpha 1
-permalink: ubuntu-mate-wily-alpha1
+permalink: /blog/ubuntu-mate-wily-alpha1
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on 
+We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
 [October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
 With this *Alpha 1* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
@@ -30,7 +31,7 @@ Ubuntu MATE *Alpha Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE 15.04 release?
 
-Here what changed in Ubuntu MATE 15.10 Alpha 1 since Ubuntu MATE 15.04. 
+Here what changed in Ubuntu MATE 15.10 Alpha 1 since Ubuntu MATE 15.04.
 
   * Added community contributed wallpapers by [David Chadderton](https://ubuntu-mate.community/users/webspresso/activity) from [Webspresso](http://webspresso.co.uk/).
   * Added a community contributed wallpaper by [Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965).
@@ -72,14 +73,12 @@ Here what changed in Ubuntu MATE 15.10 Alpha 1 since Ubuntu MATE 15.04.
   * Fixed Compiz thumbnails. [LP: #1437611](https://bugs.launchpad.net/ubuntu-mate/+bug/1437611)
   * Fixed Trash in the live session. [LP: #1445622](https://bugs.launchpad.net/ubuntu/+source/gvfs/+bug/1445622)
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/wily/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.10 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/wily/"
+%}
 
 ## Known Issues
 
@@ -97,16 +96,6 @@ You'll also want to check the Ubuntu MATE bug tracker to see what has already
 been reported. These issues will be addressed in due course.
 
   * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
-
-<!--
-## Useful Information
-
-You may find the following information useful, which is why we titled 
-the section *Useful Information* since the information presented here
-is mostly useful.
-
-  * [Ubuntu MATE 15.10 Useful Information](https://ubuntu-mate.community/t/ubuntu-mate-14-10-and-15-04-useful-information/24)
--->
 
 ## Feedback
 

@@ -1,18 +1,12 @@
---- 
+---
 layout: blog-post
+class: blog
 title: Ubuntu MATE to feature in LinuxWelt magazine
-permalink: ubuntu-mate-to-feature-linuxwelt-magazine
+permalink: /blog/ubuntu-mate-to-feature-linuxwelt-magazine
 category: news
 author: Martin Wimpress
 lang: en
 ---
-
-<style>
-img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-</style>
 
 Some good news for Ubuntu MATE users in Germany.
 
@@ -28,7 +22,7 @@ available in book stores all over Germany and via
 draft PDF of the Ubuntu MATE feature which one of the X2Go developers
 kindly translated for me at the weekend.
 
-<p align="center">
+{:.center}
 [LinuxWelt](http://www.idgshop.de/linuxwelt-magazin-abo-shop.htm?websale8=idg&ci=linuxwelt)
 
 Ubuntu MATE 14.10 will also be the cover DVD feature and LinuxWelt have
@@ -37,20 +31,18 @@ version of Ubuntu MATE 14.10.
 
 I encourage our German members to buy the LinuxWelt 2015-01 edition and
 for the rest of you re-share this blog post to help repay the support
-LinuxWelt have shown the Ubuntu MATE project. That said, earlier this 
+LinuxWelt have shown the Ubuntu MATE project. That said, earlier this
 evening I got another email from David Wolski with more good news. David
 has negotiated with [IDG](http://www.idg.com/) (his publisher) to
 release the Ubuntu MATE feature article as a free download. And here it
 is.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>LinuxWelt coverage of Ubuntu MATE 14.10</h1>
-        <p>Two page feature article about Ubuntu MATE 14.10 from LinuxWelt magazine.</p>
-        <a href="/assets/pdf/LW_01_2015_Ubuntu_MATE_14.10.pdf" class="btn btn-primary btn-lg">Download PDF</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "LinuxWelt coverage of Ubuntu MATE 14.10"
+    text = "Two page feature article about Ubuntu MATE 14.10 from LinuxWelt magazine."
+    button_text = "Download PDF"
+    button_url = "/assets/pdf/LW_01_2015_Ubuntu_MATE_14.10.pdf"
+%}
 
 You can also check out the link below for the online PC Welt summary of
 Ubuntu MATE and access the direct downloads of the Ubuntu MATE 14.10 .iso

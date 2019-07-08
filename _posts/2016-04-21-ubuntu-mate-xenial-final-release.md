@@ -1,40 +1,39 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.04 LTS
-permalink: ubuntu-mate-xenial-final-release
+permalink: /blog/ubuntu-mate-xenial-final-release
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
 category: release
 author: Martin Wimpress
 lang: en
 ---
 
-<p align="center">
-[Ubuntu MATE 16.04 LTS Final Release](/gallery/blog/ubuntu-mate-1604-final.png)
+{:.center}
+![Ubuntu MATE 16.04 LTS Final Release](/gallery/blog/ubuntu-mate-1604-final.png)
 
 # Thank You!
 
-> **Ubuntu MATE 16.04 LTS has not just been in development for 6 months. Ubuntu 
-> MATE 16.04 LTS has been in development for nearly 2 years. Since the project 
-> started in June 2014 this release, this our first official LTS, is what we've 
-> been working towards. This was the goal we had firmly in our sights every step 
+> **Ubuntu MATE 16.04 LTS has not just been in development for 6 months. Ubuntu
+> MATE 16.04 LTS has been in development for nearly 2 years. Since the project
+> started in June 2014 this release, this our first official LTS, is what we've
+> been working towards. This was the goal we had firmly in our sights every step
 > of the way.**
 >
-> **I extend my sincere thanks to everyone who has contributed to Ubuntu MATE over 
-> the last 22 months. None of this would have been possible without the 
-> countless contributions from the amazing Ubuntu MATE community. I can't thank 
-> you all enough for what you've helped create. I only hope this release makes 
+> **I extend my sincere thanks to everyone who has contributed to Ubuntu MATE over
+> the last 22 months. None of this would have been possible without the
+> countless contributions from the amazing Ubuntu MATE community. I can't thank
+> you all enough for what you've helped create. I only hope this release makes
 > you all proud.**
 >
 > *Martin Wimpress, Ubuntu MATE Project Leader.*
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## What changed since the Ubuntu MATE 16.04 Beta 2 release?
 
@@ -72,18 +71,16 @@ Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2:
     * Minor bugs fixes.
   * Prepared the Ubuntu MATE 16.04 image for the Raspberry Pi 2 and Raspberry Pi 3.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 16.04 summary of changes</h1>
-        <p>If you're interested in a general overview of what change in Ubuntu MATE 16.04, take a look at our press kit.</p>
-        <a href="/ubuntu-mate-1604-presskit/" class="btn btn-primary btn-lg">Press Kit</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 16.04 summary of changes"
+    text = "If you're interested in a general overview of what change in Ubuntu MATE 16.04, take a look at our press kit."
+    button_text = "Press Kit"
+    button_url = "/ubuntu-mate-1604-presskit/"
+%}
 
 ### Community contributors
 
-Here are just a few of the people who contributed to Ubuntu MATE during the 
+Here are just a few of the people who contributed to Ubuntu MATE during the
 16.04 development cycle that deserve a special mention:
 
 A very special *Thank you* to **[Luke
@@ -108,9 +105,9 @@ Podcast](http://thepipodcast.com/)**, for testing Ubuntu MATE 16.04 for
 the Raspberry Pi 2 and Raspberry Pi 3. You really helped ironout some
 kinks and improved the release quality for everyone.
 
-Thank you to **[Alexei 
-Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts 
-Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help 
+Thank you to **[Alexei
+Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts
+Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help
 improving MATE integration in Compiz.
 
 Thanks **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for
@@ -122,27 +119,27 @@ MATE integration for Synapse and the new version of Plank.
 Thank you to the following people for creating the new wallpaper
 backgrounds for Ubuntu MATE 16.04:
 
-  * **[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)**, 
-**[Luke Horwell](https://ubuntu-mate.community/t/wallpaper-the-materix/3107)**, 
-**[Rick Lell](https://ubuntu-mate.community/t/wallpaper-ubuntu-mate-greyscaled-wood/3199)**, 
-**[Noe Gonzales](https://ubuntu-mate.community/t/sky-high-wallpaper-photos-licensed-cc-by-sa/3433)**, 
-**[Randall Lewis](https://ubuntu-mate.community/t/wallpaper-solar-systemate-4-flavors-1920x1080/3354)**, 
-**[Sacha](https://ubuntu-mate.community/t/wallpaper-some-parrots-and-an-island/3450)**, 
-**[Aditya Singh](https://ubuntu-mate.community/t/mate-wallpapers/3048)**, 
-**[Ryan Ride](https://ubuntu-mate.community/t/heres-my-first-all-original-wallpaper/597)**, 
+**[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)**,
+**[Luke Horwell](https://ubuntu-mate.community/t/wallpaper-the-materix/3107)**,
+**[Rick Lell](https://ubuntu-mate.community/t/wallpaper-ubuntu-mate-greyscaled-wood/3199)**,
+**[Noe Gonzales](https://ubuntu-mate.community/t/sky-high-wallpaper-photos-licensed-cc-by-sa/3433)**,
+**[Randall Lewis](https://ubuntu-mate.community/t/wallpaper-solar-systemate-4-flavors-1920x1080/3354)**,
+**[Sacha](https://ubuntu-mate.community/t/wallpaper-some-parrots-and-an-island/3450)**,
+**[Aditya Singh](https://ubuntu-mate.community/t/mate-wallpapers/3048)**,
+**[Ryan Ride](https://ubuntu-mate.community/t/heres-my-first-all-original-wallpaper/597)**,
 **[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-city-chill/2899)** (again),
 **[Noe Gonzales](https://ubuntu-mate.community/t/wallpaper-beach-vibes/2900)** (yet again) and
 **[Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965/8)**.
 
 Finally, thanks to everyone who installed the alphas and betas, reported issues,
-provided feedback or donated to Ubuntu MATE. Your feedback has been vital to 
+provided feedback or donated to Ubuntu MATE. Your feedback has been vital to
 understanding what improvements people most want to see. We do listen, so keep the
 feedback coming.
 
 ### Canonical
 
-In addition to the efforts of the Ubuntu MATE team and the Ubuntu MATE 
-community, we are also extremely grateful for the help and support we've 
+In addition to the efforts of the Ubuntu MATE team and the Ubuntu MATE
+community, we are also extremely grateful for the help and support we've
 recieved from the following Canonical employees:
 
   * **[Adam Conrad](https://launchpad.net/~adconrad)**,
@@ -162,7 +159,7 @@ recieved from the following Canonical employees:
  **[Stephen M. Webb](https://launchpad.net/~bregma)**,
  **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and
  **[Will Cooke](https://launchpad.net/~willcooke)**.
-  
+
 ## Known Issues
 
 Here are the known issues.
@@ -179,7 +176,7 @@ This is our known list of bugs that affect all flavours.
 ### PowerPC
 
   * No slides are displayed in Ubiquity Slideshow while installing Ubuntu MATE on PowerPC.
-    * [#1561573](https://bugs.launchpad.net/bugs/1561573)	
+    * [#1561573](https://bugs.launchpad.net/bugs/1561573)
   * Running Linux on PowerPC can require some tinkering and the following are useful references.
     * [PowerPC Known Issues](https://wiki.ubuntu.com/PowerPCKnownIssues)
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)

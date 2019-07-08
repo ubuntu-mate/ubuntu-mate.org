@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE September 2017 supporters
-permalink: ubuntu-mate-september-2017-supporters
+permalink: /blog/ubuntu-mate-september-2017-supporters
 description: Community members who supported Ubuntu MATE this month.
 category: news
 author: Martin Wimpress
@@ -14,8 +15,8 @@ all the costs associated with running the Ubuntu MATE project. **As
 usual we've been able to fund some developers to work on Ubuntu MATE
 and MATE Desktop projects.**
 
-<p align="center">
-[Thank you!](/gallery/blog/thankyou.png)
+{:.center}
+![Thank you!](/gallery/blog/thankyou.png)
 
 ## How will this months crowd funding be spent?
 
@@ -39,9 +40,8 @@ funding can be directed towards funding development
 projects](https://ubuntu-mate.org/blog/bytemark-sponsor-ubuntu-mate/).
 `:-D`
 
-<div class="well bs-component">
-      <a href="http://www.bytemark.co.uk/r/ubuntu-mate/"><img class="centered" src="/images/sponsors/bytemark.png" alt="Bytemark" /></a>
-</div>
+{:.center}
+![Bytemark](/images/sponsors/bytemark.png)
 
 ## Supporting Open Source
 
@@ -70,15 +70,12 @@ We have setup a number of payment options that should hopefully suit
 everyone. If you haven't already, be brilliant, help grow our
 community.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Grow your community</h1>
-        <p>Become a full Ubuntu MATE community member by helping to grow and
-        sustain it. Warm and fuzzy sensations guaranteed.</p>
-        <a href="/donate/" class="btn btn-primary btn-lg">Donate</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Grow your community"
+    text = "Become a full Ubuntu MATE community member by helping to grow and sustain it. Warm and fuzzy sensations guaranteed."
+    button_text = "Donate"
+    button_url = "/donate/"
+%}
 
 ## Patrons
 

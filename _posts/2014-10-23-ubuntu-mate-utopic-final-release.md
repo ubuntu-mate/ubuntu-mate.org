@@ -1,7 +1,8 @@
 ---
-layout: blog
+layout: blog-post
+class: blog
 title: Ubuntu MATE 14.10 Release
-permalink: ubuntu-mate-utopic-final-release
+permalink: /blog/ubuntu-mate-utopic-final-release
 category: release
 author: Martin Wimpress
 lang: en
@@ -42,19 +43,17 @@ This release has fixed a few minor issues and tweaked a couple
 things.
 
   * Full disk encryption, or rather entering your pass phrase into Plymouth,
-  was properly fixed by the Ubuntu team. 
+  was properly fixed by the Ubuntu team.
   * Fixed missing configuration options in the workspace switcher applet [LP #1382682](https://bugs.launchpad.net/ubuntu-mate/+bug/1382682)
   * Fixed the live session not auto-logging into the MATE desktop.
   * Added a background wall paper to Ubiquity.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 14.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/utopic/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 14.10 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/utopic/"
+%}
 
 ## Upgrading from the release candidate
 
@@ -64,9 +63,9 @@ to the final release.
 Start a shell and update.
 
     sudo apt-get update
-    
-Complete the upgrade.    
-    
+
+Complete the upgrade.
+
     sudo apt-get dist-upgrade
 
 Upgrade Plymouth.

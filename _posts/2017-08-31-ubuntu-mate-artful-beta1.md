@@ -1,7 +1,8 @@
 ---
-layout: blogpost
+layout: blog-post
+class: blog
 title: Ubuntu MATE 17.10 Beta 1
-permalink: ubuntu-mate-artful-beta1
+permalink: /blog/ubuntu-mate-artful-beta1
 description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 1
 category: dev
 author: Martin Wimpress
@@ -31,8 +32,8 @@ We are preparing Ubuntu MATE 17.10 (Artful Aardvark) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 17.10 Beta 1](/gallery/blog/1710-beta1-medium.png)
+{:.center}
+![Ubuntu MATE 17.10 Beta 1](/gallery/blog/1710-beta1-medium.png)
 
 ## What works?
 
@@ -120,7 +121,7 @@ with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron
 and others. You can now make more of your available screen space while
 using Ubuntu MATE.
 
-<p align="center">
+{:.center}
 [Global Menu](/gallery/layouts/global-menu.gif)
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
@@ -130,7 +131,8 @@ application was launched from the terminal, menu or launcher.
 
 ## Super key
 
-<img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
+{:.right}
+![Super Key](/gallery/layouts/superkey.png)
 
 Complete Super key support is available from several of the panel
 layouts. We're thrilled to welcome [Victor
@@ -174,7 +176,7 @@ great testing feedback.
   * The HUD is now reliably activated. In Alpha 2 is only responded to about one third of requests.
   * **NEW in 17.10 Beta 1** - The **HUD is now locally integrated**, so that it overlays on top of the activate application.
 
-<p align="center">
+{:.center}
 [The Locally integrated Heads-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
 
 ### Locally integrated rationale
@@ -203,8 +205,8 @@ with MATE. The default Indicators are:
   * Sound
   * Session
 
-<p align="center">
-[Indicators](/gallery/layouts/indicators.png)
+{:.center}
+![Indicators](/gallery/layouts/indicators.png)
 
 ## MATE Tweak
 
@@ -217,8 +219,8 @@ much requested features.
   * Prompts before executing operations that could wipe your custom, but unsaved, tweaks.
   * **NEW in 17.10 Beta 1** - You can also delete previously saved custom panel layouts.
 
-<p align="center">
-[MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
+{:.center}
+![MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
 
 When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
@@ -242,8 +244,8 @@ to see the full line up of new artwork though `;-)`
 **NEW in 17.10 Beta 1** - We've switched to Slick Greeter which still
 uses LightDM under the hood but has a much nicer look and feel.
 
-<p align="center">
-[Slick Greeter](/gallery/layouts/slick-greeter.png)
+{:.center}
+![Slick Greeter](/gallery/layouts/slick-greeter.png)
 
 ### The bit no one reads but probably should
 
@@ -298,14 +300,12 @@ uses LightDM under the hood but has a much nicer look and feel.
     * It's true, and that massive indicators image above is no accident `;-)`
   * ...and a whole lot of other little improvements and fixes.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 17.10</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 17.10"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

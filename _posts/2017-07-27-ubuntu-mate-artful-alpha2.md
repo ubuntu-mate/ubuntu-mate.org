@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 17.10 Alpha 2
-permalink: ubuntu-mate-artful-alpha2
+permalink: /blog/ubuntu-mate-artful-alpha2
 description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
 category: dev
 author: Martin Wimpress
@@ -23,8 +24,8 @@ We are preparing Ubuntu MATE 17.10 (Artful Aardvark) for distribution on
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 17.10 Alpha 2](/gallery/blog/1710-alpha2-medium.png)
+{:.center}
+![Ubuntu MATE 17.10 Alpha 2](/gallery/blog/1710-alpha2-medium.png)
 
 ## What works?
 
@@ -118,7 +119,8 @@ MATE.
 
 ## Super key
 
-<img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
+{.right}
+![Super Key](/gallery/layouts/superkey.png)
 
 Complete Super key support is available from several of the panel
 layouts. We're thrilled to welcome [Victor
@@ -173,9 +175,8 @@ MATE. The default Indicators are:
   * Sound
   * Session
 
-<div align="center">
-<img src="/gallery/layouts/indicators.png" alt="Indicators" /><br />
-</div>
+{:.center}
+![Indicators](/gallery/layouts/indicators.png)
 
 ## MATE Tweak
 
@@ -187,9 +188,8 @@ much requested features.
   * Saving your own custom panel layout using a name of your choosing.
   * Prompts before executing operations that could wipe your custom, but unsaved, tweaks.
 
-<div align="center">
-<img src="/gallery/layouts/mate-tweak.png" alt="MATE Tweak, more than just a tweak tool." /><br />
-</div>
+{:.center}
+![MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
 
 When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
@@ -242,14 +242,12 @@ to see the full line up of new artwork though `;-)`
     * If you kept reading that ^ is for you. Also see that massive image of the Indicators above. Not an accident `;-)`
   * ...and a whole lot of other little improvements and fixes.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 17.10</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 17.10"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

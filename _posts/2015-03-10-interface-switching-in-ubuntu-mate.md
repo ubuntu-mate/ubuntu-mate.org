@@ -1,7 +1,8 @@
---- 
+---
 layout: blog-post
+class: blog
 title: Interface switching with Ubuntu MATE 15.04
-permalink: interface-switching-with-ubuntu-mate-vivid-vervet
+permalink: /blog/interface-switching-with-ubuntu-mate-vivid-vervet
 category: news
 author: Martin Wimpress
 lang: en
@@ -9,8 +10,9 @@ lang: en
 
 This short video introduces Interface Switching which is integrated into Ubuntu MATE 15.04 and is available in the MATE Tweak utility.
 
-<p align="center">
-[Interface Switching](https://www.youtube.com/embed/jxFMtOl_DyQ?html5=1" frameborder="0" allowfullscreen)
+{% include blog/youtube.html
+    embed = "https://www.youtube.com/embed/jxFMtOl_DyQ?html5=1"
+%}
 
 New videos in this series will be added to the following YouTube playlist.
 

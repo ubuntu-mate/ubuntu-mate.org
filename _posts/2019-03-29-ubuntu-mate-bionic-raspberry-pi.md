@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi
-permalink: ubuntu-mate-bionic-beta1-raspberry-pi
+permalink: /blog/ubuntu-mate-bionic-beta1-raspberry-pi
 description: Ubuntu MATE 18.04 Beta-1 for the Raspberry Pi Model B 2, 3 and  3+
 category: dev
 author: Martin Wimpress
@@ -12,8 +13,8 @@ We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE running on the Raspberry Pi 3+](/gallery/Screenshots/09_raspberrypi.png)
+{:.center}
+![Ubuntu MATE running on the Raspberry Pi 3+](/gallery/Screenshots/09_raspberrypi.png)
 
 Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,
 with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).
@@ -41,13 +42,12 @@ High-level features of these images are:
     * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.
     * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>More Information</h1>
-        <p>Find out more about Ubuntu MATE for Raspberry Pi Model B 2, 3, and 3+</p>
-        <a href="/raspberry-pi/" class="btn btn-primary btn-lg">Read more</a>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "More Information"
+    text = "Find out more about Ubuntu MATE for Raspberry Pi Model B 2, 3, and 3+"
+    button_text = "Read more"
+    button_url = "/raspberry-pi/"
+%}
 
 ## Supported Raspberry Pi
 
@@ -101,14 +101,12 @@ High-level features of these images are:
 
   * Initial Ubuntu MATE 18.04.2 images made available for private testing.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download</h1>
-        <p>Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download Ubuntu MATE for the Pi</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download"
+    text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today."
+    button_text = "/download/"
+    button_url = "Download"
+%}
 
 ## Feedback and Improvements
 

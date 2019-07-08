@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Bytemark sponsor Ubuntu MATE
-permalink: bytemark-sponsor-ubuntu-mate
+permalink: /blog/bytemark-sponsor-ubuntu-mate
 description: Bytemark sponsor Ubuntu MATE hosting and bandwidth
 category: news
 author: Martin Wimpress
@@ -13,10 +14,9 @@ A couple of weeks ago the [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) 
 MATE team to offer free hosting for the project. As of August 18th 2016
 all the Ubuntu MATE infrastucture is hosted on [Bytemark Cloud Servers](https://www.bytemark.co.uk/cloud/).
 
-<p align="center">
-[Bytemark](/images/sponsors/bytemark-large.png)
-<p align="center">
-[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) **are generously sponsoring Ubuntu MATE
+{:.center}
+![Bytemark](/images/sponsors/bytemark-large.png)
+**[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) are generously sponsoring Ubuntu MATE**
 
 
 ## Why did Bytemark make such a generous offer?
@@ -36,7 +36,7 @@ Club](https://www.codeclub.org.uk/).
 > project, which is based on a traditional computer desktop. We're
 > providing hosting for its community forums & wiki and bandwidth for its
 > very popular Raspberry Pi distribution.
-> 
+>
 > The MATE project's admirable goal is "to add support for new
 > technologies while preserving a classic desktop experience". Ubuntu
 > MATE combines this desktop with the well-tested OS base of
@@ -44,7 +44,7 @@ Club](https://www.codeclub.org.uk/).
 > [Debian](https://www.debian.org). All of that ensures that anyone who
 > wants a simple computer desktop can get one, on any computer, free of
 > charge.
-> 
+>
 > Personally speaking, Ubuntu MATE feels like a great model for a free
 > software community. They run a crowd-funding campaign and write a
 > [monthly report](https://ubuntu-mate.org/blog/ubuntu-mate-july-2016-supporters/)
@@ -56,14 +56,12 @@ Club](https://www.codeclub.org.uk/).
 >
 > *Matthew Bloch, Bytemark Managing Director.*
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Bytemark</h1>
-        <p>More information about Bytemark is available from <a href="https://www.bytemark.co.uk/r/ubuntu-mate/">www.bytemark.co.uk</a></p>
-        <a href="https://www.bytemark.co.uk/r/ubuntu-mate/" class="btn btn-primary btn-lg">Visit Bytemark</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Bytemark"
+    text = "More information about Bytemark is available from **bytemark.co.uk**"
+    button_text = "Visit Bytemark"
+    button_url = "https://www.bytemark.co.uk/r/ubuntu-mate/"
+%}
 
 ### And [Martin Wimpress](https://twitter.com/m_wimpress) had this to say:
 

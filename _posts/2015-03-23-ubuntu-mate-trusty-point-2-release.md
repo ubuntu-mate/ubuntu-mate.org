@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 14.04.2 Release
-permalink: ubuntu-mate-trusty-14.04.2-release
+permalink: /blog/ubuntu-mate-trusty-14.04.2-release
 category: release
 author: Martin Wimpress
 lang: en
@@ -26,7 +27,7 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
 ## What changed since the Ubuntu MATE 14.04.1 release?
 
-There are advantages and disadvantages to maintaining an unofficial Ubuntu 
+There are advantages and disadvantages to maintaining an unofficial Ubuntu
 derivative. The downside is that we have not been able to integrate all of
 the hardware enablement stack in Ubuntu MATE 14.04.2. We have only integrated
 the Linux 3.16 kernel, but not the updated Xorg stack. During our testing
@@ -60,7 +61,7 @@ He is what we've changed.
   * Added [LightDM GTK Greeter Settings](https://launchpad.net/lightdm-gtk-greeter-settings) 1.10. Thanks to [Sean M. Davis](http://smdavis.us)
   * Fixed sound themes. Thanks to [Sergio Schneider](https://plus.google.com/116549967007914384885/about) of the [Ubuntu MATE Updated project](http://sourceforge.net/projects/uumate/)
   * Fixed auto-login on first boot if auto-login was selected during the install.
-  * Enabled X zapping via `Ctrl+Alt+Backspace`. 
+  * Enabled X zapping via `Ctrl+Alt+Backspace`.
   * Enabled touch to click by default for touchpads.
   * Enabled Qt accessibility modules when a MATE session is detected.
   * Backported GTK 2.24.27.
@@ -83,7 +84,7 @@ He is what we've changed.
     [#780104](https://bugs.debian.org/780104), [#780210](https://bugs.debian.org/780210),
     [#780226](https://bugs.debian.org/780226), [#780399](https://bugs.debian.org/780399)
 
-Excluding the Kernel and LibreOffice updates, these updates have been rolled out 
+Excluding the Kernel and LibreOffice updates, these updates have been rolled out
 to existing Ubuntu MATE 14.04.1 installs.
 
 You may also want to review the changes that were made in stock Ubuntu 14.04.2.
@@ -91,18 +92,16 @@ You may also want to review the changes that were made in stock Ubuntu 14.04.2.
   * [14.04.2 Update Packages](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes#Updated_Packages)
   * [14.04.2 Change Summary](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes/ChangeSummary/14.04.2)
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 14.04 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/trusty/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 14.04 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/trusty/"
+%}
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

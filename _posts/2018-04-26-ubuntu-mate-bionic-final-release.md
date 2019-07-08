@@ -1,23 +1,24 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 18.04 LTS Final Release
-permalink: ubuntu-mate-bionic-final-release
+permalink: /blog/ubuntu-mate-bionic-final-release
 description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
 category: release
 author: Martin Wimpress
 lang: en
 ---
 
-**Charles Babbage wasn't lying when he said *"The only thing that would
+**Charles Babbage wasn't lying when he said _"The only thing that would
 make my Difference Engine any better would be a modern customisable
 desktop environment that didn't deviate from traditional desktop
-paradigms (unless I wanted it to.)"* In a long lost diary entry Ada
-Lovelace scribbled *"If only my code could be matched to an OS that had
+paradigms (unless I wanted it to.)"_ In a long lost diary entry Ada
+Lovelace scribbled _"If only my code could be matched to an OS that had
 a perfect blend of usability and style accompanied by a handpicked
-selection of quality software packages."*
+selection of quality software packages."_
 [ENIAC](https://en.wikipedia.org/wiki/ENIAC), moments before being
-unplugged in 1956, spat out a final message: *"Give us a reboot when
-Ubuntu MATE 18.04 LTS is out will ya?"* **
+unplugged in 1956, spat out a final message: _"Give us a reboot when
+Ubuntu MATE 18.04 LTS is out will ya?"_**
 
 Dust off 20,000 vacuum tubes and check those 5,000,000 hand soldered
 joints because Ubuntu MATE 18.04 LTS is here and it's time to power it
@@ -47,8 +48,8 @@ and associated technologies in their spare time. You are the 20,000
 vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
 MATE. We couldn't be prouder.
 
-<p align="center">
-[Ubuntu MATE 18.04 LTS](/gallery/blog/1804-final.png)
+{:.center}
+![Ubuntu MATE 18.04 LTS](/gallery/blog/1804-final.png)
 
 No one reads the release notes, isn't that right
 [DasGeek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ)? So
@@ -115,8 +116,8 @@ We've added some new features to the file manager (Caja).
 `gksu` is deprecated and being removed from Debian. We are aligning
 with that objective by replacing all use of `gksu` with PolicyKit.
 
-<p align="center">
-[Caja Rename](/gallery/layouts/caja-rename.png)
+{:.center}
+![Caja Rename](/gallery/layouts/caja-rename.png)
 
 ### Window Manager (Marco)
 
@@ -131,9 +132,9 @@ Marco now supports drag to quadrant window tiling, cursor keys can be
 used to navigate the <kbd>Alt</kbd>+<kbd>Tab</kbd>switcher and keyboard
 shortcuts to move windows to another monitor were added.
 
-<div align="center">
-<iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include blog/youtube.html
+    embed = "https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0"
+%}
 
 # Desktop layouts
 
@@ -230,7 +231,7 @@ but can be added to any panel, for those who just prefer to use global
 menus or those who want to maximise screen space available to their
 applications.
 
-<p align="center">
+{:.center}
 [Ubuntu MATE Global Menu](/gallery/layouts/global-menu.gif)
 
 ## Indicators
@@ -307,7 +308,7 @@ launcher, which enables a fullscreen searchable application launcher
 while the other layouts present Brisk Menu as a more traditional menu.
 
 {:.center}
-![Brisk Menu Dash Launcher](/gallery/bionic/brisk-menu-dash.png)
+!![Brisk Menu Dash Launcher](/gallery/bionic/brisk-menu-dash.png)
 
 
 ## MATE Window Applets
@@ -318,7 +319,7 @@ panel. We used Window Applets to enhance the Mutiny and Netbook layouts
 so that both will now remove window controls from maximised windows and
 relocate the window controls in the panel.
 
-<p align="center">
+{:.center}
 [MATE Window Applets](/gallery/bionic/maximus.gif)
 
 ## Head-Up Display
@@ -344,7 +345,7 @@ the active application eliminates refocusing your attention to a
 different part of the screen, particularly helpful for users with high
 resolution or multi-display workstations.
 
-<p align="center">
+{:.center}
 ["Head-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
@@ -365,8 +366,8 @@ Switching layouts is far more reliable now too. We've removed the
 Interface section tweaked have been dropped from GTK3, making the whole section
 redundant. When saving a panel layout the Dock status will be saved too.
 
-<p align="center">
-[MATE Tweak](/gallery/bionic/mate-tweak.png)
+{:.center}
+![MATE Tweak](/gallery/bionic/mate-tweak.png)
 
 # Ubuntu MATE Welcome
 
@@ -382,8 +383,8 @@ select several installs and removals and process them all at once.
 A new Browser Selection screen has been added so you can quickly
 install your preferred browser.
 
-<p align="center">
-[Browser Selection](/gallery/bionic/browser-selection.png)
+{:.center}
+![Browser Selection](/gallery/bionic/browser-selection.png)
 
 ## System telemetry
 
@@ -412,8 +413,8 @@ video player, audio manager, etc. are not installed. If you're
 interested, here is [the complete list of software that is removed from
 a full Ubuntu MATE 18.04 installation to make the minimal install](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove).
 
-<p align="center">
-[Minimal Install](/gallery/bionic/minimal-install.png)
+{:.center}
+![Minimal Install](/gallery/bionic/minimal-install.png)
 
 So, who's this aimed at? There are users who like to uninstall the
 software they do not need or want to build out their own desktop
@@ -429,17 +430,15 @@ Ubuntu MATE including **how to use everything we ship by default**, along with
 detailed instruction on how to tailor, tweak and customise Ubuntu MATE to
 suit your preferences.
 
-<p align="center">
-[Ubuntu MATE Guide](/gallery/bionic/ubuntu-mate-guide.png)
+{:.center}
+![Ubuntu MATE Guide](/gallery/bionic/ubuntu-mate-guide.png)
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Buy the books</h1>
-        <p>Print and ebook versions of the books <b>Ubuntu MATE: Upgrading from Windows or OSX</b> and <b>Using Ubuntu MATE and Its Applications</b> are available from our shop.</p>
-        <a href="https://ubuntu-mate.boutique" class="btn btn-primary btn-lg">Shop</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Buy the books"
+    text = "Print and ebook versions of the books **Ubuntu MATE: Upgrading from Windows or OSX** and **Using Ubuntu MATE and Its Applications** are available from our shop."
+    button_text = "Shop"
+    button_url = "/shop/"
+%}
 
 ## Slick Greeter
 
@@ -447,8 +446,8 @@ Ubuntu MATE switched to [Slick Greeter](https://github.com/linuxmint/slick-greet
 development cycle, which still uses LightDM under the hood but is far
 more attractive and HiDPI aware.
 
-<p align="center">
-[Slick Greeter](/gallery/layouts/slick-greeter.png)
+{:.center}
+![Slick Greeter](/gallery/layouts/slick-greeter.png)
 
 ### Slick Greeter Settings
 
@@ -457,8 +456,8 @@ We worked with our friends at [Lubuntu](https://lubuntu.me/) and
 utility for Slick Greeter just moments before the final freeze window
 closed for 18.04.
 
-<p align="center">
-[Slick Greeter Settings](/gallery/bionic/lightdm-settings.png)
+{:.center}
+![Slick Greeter Settings](/gallery/bionic/lightdm-settings.png)
 
 ## Artwork
 
@@ -496,29 +495,27 @@ type usual emoji, such as `:-)`, and it will automatically change to a
 glyph. Alternatively you can right click in the input area and select
 *Insert Emoji* that will display the emoji picker below.
 
-<p align="center">
-[Emoji Picker](/gallery/bionic/emoji.png)
+{:.center}
+![Emoji Picker](/gallery/bionic/emoji.png)
 
 ## Major Applications
 
 Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
 59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
 
-<p align="center">
-[Major Applications](/gallery/bionic/versions.png)
+{:.center}
+![Major Applications](/gallery/bionic/versions.png)
 
 See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all
 the changes and improvements that Ubuntu MATE benefits from.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 18.04 LTS</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 18.04 LTS"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Upgrading from Ubuntu MATE 16.04 or 17.10
 

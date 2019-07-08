@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.04 Beta 2
-permalink: ubuntu-mate-vivid-beta2
+permalink: /blog/ubuntu-mate-vivid-beta2
 category: dev
 author: Martin Wimpress
 lang: en
@@ -19,7 +20,7 @@ creating new upstream MATE Desktop 1.8.x point releases. Thanks guys!
 
 Thanks also to [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl),
 [Colin Watson](https://launchpad.net/~cjwatson), [Adam Conrad](https://launchpad.net/~adconrad)
-and [Daniel Holbach](https://launchpad.net/~dholbach) for their patience and 
+and [Daniel Holbach](https://launchpad.net/~dholbach) for their patience and
 guidance that has helped fix and improve Ubuntu MATE.
 
 ## What works?
@@ -71,14 +72,12 @@ Here is what changed since Ubuntu MATE 15.04 Beta 1:
   * Updated MATE profile for Compiz to enhance the effects slightly.
   * Replaced Cheese with guvcview.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.04 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/vivid/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.04 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/vivid/"
+%}
 
 ## Known Issues
 
@@ -107,7 +106,7 @@ You'll also want to check the Ubuntu MATE bug tracker to see what has already be
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

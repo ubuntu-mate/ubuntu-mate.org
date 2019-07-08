@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.10 Beta 1
-permalink: ubuntu-mate-yakkety-beta1
+permalink: /blog/ubuntu-mate-yakkety-beta1
 description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 1
 category: dev
 author: Martin Wimpress
@@ -24,10 +25,9 @@ We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1610-beta1.png" alt="Ubuntu MATE 16.10 Beta 1" /><br />
-<b>As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.</b>
-</div>
+{:.center}
+![Ubuntu MATE 16.10 Beta 1](/gallery/blog/ubuntu-mate-1610-beta1.png)
+**As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.**
 
 ## What works?
 
@@ -79,14 +79,12 @@ This is what has been added, updated or removed.
     * Testing during Alpha 2 revealed some show stopping issues. **We will revisit this feature in 17.04**.
     * If you installed Ubuntu MATE 16.10 prior to Beta 1 then please `sudo apt purge mate-hud`.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.10</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.10"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

@@ -1,6 +1,6 @@
 ---
 title: Ubuntu MATE 17.10 Beta 2
-permalink: ubuntu-mate-artful-beta2
+permalink: /blog/ubuntu-mate-artful-beta2
 description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 2
 category: dev
 author: Martin Wimpress
@@ -120,7 +120,7 @@ with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron
 and others. You can now make more of your available screen space while
 using Ubuntu MATE.
 
-<p align="center">
+{:.center}
 [Global Menu](/gallery/layouts/global-menu.gif)
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
@@ -130,7 +130,8 @@ application was launched from the terminal, menu or launcher.
 
 ## Super key
 
-<img class="right" src="/gallery/layouts/superkey.png" alt="Super Key">
+{:.right}
+![Super Key](/gallery/layouts/superkey.png)
 
 Complete Super key support is available from several of the panel
 layouts. We're thrilled to welcome [Victor
@@ -203,8 +204,8 @@ with MATE. The default Indicators are:
   * Sound
   * Session
 
-<p align="center">
-[Indicators](/gallery/layouts/indicators.png)
+{:.center}
+![Indicators](/gallery/layouts/indicators.png)
 
 ## MATE Tweak
 
@@ -217,8 +218,8 @@ much requested features.
   * Prompts before executing operations that could wipe your custom, but unsaved, tweaks.
   * **NEW in 17.10 Beta 1** - You can also delete previously saved custom panel layouts.
 
-<p align="center">
-[MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
+{:.center}
+![MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
 
 When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
@@ -242,8 +243,8 @@ to see the full line up of new artwork though `;-)`
 **NEW in 17.10 Beta 1** - We've switched to Slick Greeter which still
 uses LightDM under the hood but has a much nicer look and feel.
 
-<p align="center">
-[Slick Greeter](/gallery/layouts/slick-greeter.png)
+{:.center}
+![Slick Greeter](/gallery/layouts/slick-greeter.png)
 
 ## File manager
 
@@ -256,8 +257,8 @@ MATE file manager.
     * The obsolete `gksu` is being removed from Debian and we are aligning with that objective by replacing the use of `gksu` with PolicyKit.
   * Updated [Folder Color](http://foldercolor.tuxfamily.org/). Now supports custom emblems and properly integrates with the Ubuntu MATE default icon theme.
 
-<p align="center">
-[Caja Rename](/gallery/layouts/caja-rename.png)
+{:.center}
+![Caja Rename](/gallery/layouts/caja-rename.png)
 
 ### The bit no one reads but probably should
 
@@ -299,14 +300,12 @@ MATE file manager.
   * Experimental HiDPI support is a little less experimental.
   * ...and a whole lot of other little improvements and fixes.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 17.10</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 17.10"
+    text = "We've even redesigned the download page so it's even easier to get started."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE community donations
-permalink: ubuntu-mate-community-donations
+permalink: /blog/ubuntu-mate-community-donations
 description: Donate and help grown the Ubuntu MATE community
 category: news
 author: Martin Wimpress
@@ -32,12 +33,10 @@ community to vote for the worthy beneficiaries.
 We have set up a number of payment options that should hopefully suit everyone.
 Go on, be brilliant, help grow our community.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Grow your community</h1>
-        <p>Become a full Ubuntu MATE community member by helping to grow and
-        sustain it. Warm and fuzzy sensations guaranteed.</p>
-        <a href="/donate/" class="btn btn-primary btn-lg">Donate</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Grow your community"
+    text = "Become a full Ubuntu MATE community member by helping to grow and
+        sustain it. Warm and fuzzy sensations guaranteed."
+    button_text = "/donate/"
+    button_url = "Donate"
+%}

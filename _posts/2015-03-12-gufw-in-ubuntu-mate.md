@@ -1,7 +1,7 @@
---- 
+---
 layou: blog-post
 title: Gufw in Ubuntu MATE 15.04
-permalink: Gufw-in-ubuntu-mate-vivid-vervet
+permalink: /blog/Gufw-in-ubuntu-mate-vivid-vervet
 category: news
 author: Martin Wimpress
 lang: en
@@ -11,8 +11,9 @@ This short video introduces Gufw, a firewall configuration utility, that is inte
 
   * <http://gufw.org>
 
-<p align="center">
-[Gufw in Ubuntu MATE 15.04](https://www.youtube.com/embed/FBaFL6UnDAE?html5=1)
+{% include blog/youtube.html
+    embed = "https://www.youtube.com/embed/FBaFL6UnDAE?html5=1"
+%}
 
 New videos in this series will be added to the following YouTube playlist.
 

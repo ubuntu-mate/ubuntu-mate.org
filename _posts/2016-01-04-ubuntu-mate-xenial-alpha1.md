@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.04 Alpha 1
-permalink: ubuntu-mate-xenial-alpha1
+permalink: /blog/ubuntu-mate-xenial-alpha1
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 1
 category: dev
 author: Martin Wimpress
@@ -69,14 +70,12 @@ this release!
 It is coming really soon. In fact it should be available via updates in
 a couple of days after this Alpha 1 release.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 16.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/xenial/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 16.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/xenial/"
+%}
 
 ## Known Issues
 

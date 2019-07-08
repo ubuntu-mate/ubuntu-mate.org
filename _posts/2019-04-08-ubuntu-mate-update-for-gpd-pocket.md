@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 18.04 and 19.04 for GPD Pocket & Pocket 2
-permalink: ubuntu-mate-update-for-gpd-pocket
+permalink: /blog/ubuntu-mate-update-for-gpd-pocket
 description: Ubuntu MATE 18.04 and 19.04 for GPD Pocket & Pocket 2
 category: release
 author: Martin Wimpress
@@ -15,12 +16,15 @@ tweaks to get these devices working *"out of the box"* without any faffing
 about. **Today we are releasing Ubuntu MATE 18.04.2 and Ubuntu MATE 19.04
 images for both devices**. Read on to find out more...
 
-<p align="center">
+{:.center}
 [Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)](/gallery/blog/gpd-pockets-news.jpg)
+
+{:.caption}
+**Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)**
 
 # What's new?
 
-## Ubuntu MATE 18.04.2 
+## Ubuntu MATE 18.04.2
 
 Thanks to the recent hardware enablement stack upgrade in Ubuntu it is now
 possible to create images based on Ubuntu MATE 18.04.2 for the GPD Pocket and
@@ -44,11 +48,9 @@ improvement we've made since the Ubuntu MATE 18.10 images were created:
   * Enabled an **emulated mouse scroll wheel**, activated by holding down the right track point button and moving the trackpoint up/down.
   * **GRUB is now usable post-install** for both devices!
 
-<div class="bs-component">
-  <div class="jumbotron">
-    <h1>More Details & Downloads</h1>
-      <p>Find out more about Ubuntu MATE for the GPD Pocket and Pocket 2. Get the downloads!</p>
-      <a href="/gpd-pocket/" class="btn btn-primary btn-lg">Details &amp; Downloads</a>
-      </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "More Details & Downloads"
+    text = "Find out more about Ubuntu MATE for the GPD Pocket and Pocket 2. Get the downloads!"
+    button_text = "/gpd-pocket/"
+    button_url = "Details & Downloads"
+%}

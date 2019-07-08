@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: MATE Desktop GTK2 vs GTK3 memory consumption
-permalink: mate-desktop-gtk2-vs-gtk3-memory-consumption
+permalink: /blog/mate-desktop-gtk2-vs-gtk3-memory-consumption
 description: How does MATE Desktop for GTK2 RAM use compare to MATE Desktop for GTK3?
 category: news
 author: Martin Wimpress
@@ -14,18 +15,18 @@ The number two question in the Ubuntu MATE community right now is:
 
 The answer is **Yes, but No**. Read on for a full explanation.
 
-[Computer RAM](/gallery/blog/RAM.png)
+![Computer RAM](/gallery/blog/RAM.png)
 
-Let's also take this opportunity to deal with another claim that cropped up 
-recently, [that MATE Desktop 1.14.1 on Ubuntu MATE 16.04 uses significantly 
-more memory that MATE Desktop 1.12.1 on Ubuntu MATE 
+Let's also take this opportunity to deal with another claim that cropped up
+recently, [that MATE Desktop 1.14.1 on Ubuntu MATE 16.04 uses significantly
+more memory that MATE Desktop 1.12.1 on Ubuntu MATE
 16.04](https://plus.google.com/+BhikkhuSubhuti/posts/Y8td54KiGsA).
 
 ## Test conditions
 
   * MATE Desktop 1.12.1 and MATE Desktop 1.14.1 for Ubuntu MATE 16.04 **are both built against GTK2 only**.
-  * These RAM comparisons were generated using 
-  [ps_mem](https://github.com/pixelb/ps_mem), because this is the correct tool 
+  * These RAM comparisons were generated using
+  [ps_mem](https://github.com/pixelb/ps_mem), because this is the correct tool
   for accurately measuring memory consumption, *one does not simply measure RAM consumption using System Monitor*.
 
 If you want to tinker with `ps_mem` yourself it can be installed as follows:
@@ -36,9 +37,9 @@ If you want to tinker with `ps_mem` yourself it can be installed as follows:
 
 ### Method for 16.04
 
-Ubuntu MATE 16.04 was installed in a VM and fully upgraded and Ubuntu MATE 
-Welcome autostart was disabled, but all other defaults were used in all tests. 
-Upon login, `CRTL + ALT + t` was pressed to start a terminal and the following 
+Ubuntu MATE 16.04 was installed in a VM and fully upgraded and Ubuntu MATE
+Welcome autostart was disabled, but all other defaults were used in all tests.
+Upon login, `CRTL + ALT + t` was pressed to start a terminal and the following
 script was run:
 
 ```bash
@@ -59,18 +60,18 @@ ps_mem | tee -a ${VER}.txt
 echo "Done"
 ```
 
-After the results were collected for Ubuntu MATE 16.04 running MATE Desktop 
-1.12.1 the system was [upgraded to MATE Desktop 
-1.14.1](/blog/mate-desktop-114-for-xenial-xerus/) and rebooted twice. Upon 
+After the results were collected for Ubuntu MATE 16.04 running MATE Desktop
+1.12.1 the system was [upgraded to MATE Desktop
+1.14.1](/blog/mate-desktop-114-for-xenial-xerus/) and rebooted twice. Upon
 login the same script was executed in the same way.
 
 ### Method for 16.10
 
-[Ubuntu MATE 16.10 
-daily](http://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/) was 
-installed in a VM and fully upgraded and Ubuntu MATE Welcome autostart was 
-disabled, but all other defaults were used in all tests. Upon login, `CRTL + 
-ALT + t` was pressed to start a terminal and the same script, as described 
+[Ubuntu MATE 16.10
+daily](http://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/) was
+installed in a VM and fully upgraded and Ubuntu MATE Welcome autostart was
+disabled, but all other defaults were used in all tests. Upon login, `CRTL +
+ALT + t` was pressed to start a terminal and the same script, as described
 above, was run.
 
 ## Results
@@ -115,16 +116,16 @@ Here are the results:
 
 Here are some quick conclusions:
 
-  * **MATE Desktop 1.14.1 does not use significantly more RAM that MATE Desktop 
+  * **MATE Desktop 1.14.1 does not use significantly more RAM that MATE Desktop
   1.12.1**, when both are built again GTK2.
-  * **Ubuntu MATE 16.10 (pre-alpha)** using MATE Desktop 1.14.1 built against GTK3 
+  * **Ubuntu MATE 16.10 (pre-alpha)** using MATE Desktop 1.14.1 built against GTK3
   **uses less RAM than either Ubuntu MATE 16.04 configuration** using GTK2.
 
-That second point needs some explaination because the detailed `ps_mem` output 
-included at the end of this blog post clearly shows that all MATE applications 
+That second point needs some explaination because the detailed `ps_mem` output
+included at the end of this blog post clearly shows that all MATE applications
 built against GTK3 use more RAM than their GTK2 counterparts.
 
-**Ubuntu MATE 16.10 (pre-alpha) is using less RAM than Ubuntu MATE 16.04** for the 
+**Ubuntu MATE 16.10 (pre-alpha) is using less RAM than Ubuntu MATE 16.04** for the
 following reasons:
 
   * **Tilda is no longer executed by default in Ubuntu MATE 16.10**, it is now an option in MATE Tweak.

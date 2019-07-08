@@ -1,18 +1,19 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.04 generic ARMv7 root file system
-permalink: ubuntu-mate-vivid-armhf-rootfs
+permalink: /blog/ubuntu-mate-vivid-armhf-rootfs
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
 {:.right}
-[ARM CPU](/assets/img/logos/arm-cpu.png)
+![ARM CPU](/assets/img/logos/arm-cpu.png)
 
-The Ubuntu MATE team have made a generic Ubuntu MATE 15.04 root file system for 
-ARMv7 devices. This root file system is intended for ARMv7 enthusiasts and 
-board manufacturers who'd like to make an Ubuntu MATE image for their device(s). 
+The Ubuntu MATE team have made a generic Ubuntu MATE 15.04 root file system for
+ARMv7 devices. This root file system is intended for ARMv7 enthusiasts and
+board manufacturers who'd like to make an Ubuntu MATE image for their device(s).
 In order to adapt the root file system for your device you'll need to:
 
   * Add a boot loader

@@ -1,7 +1,8 @@
---- 
+---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 14.04 reviewed by Linux Luddites
-permalink: ubuntu-mate-reviewed-by-linux-luddites
+permalink: /blog/ubuntu-mate-reviewed-by-linux-luddites
 category: news
 author: Martin Wimpress
 lang: en

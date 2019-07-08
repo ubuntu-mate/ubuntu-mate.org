@@ -1,7 +1,8 @@
---- 
+---
 layout: blog-post
-title: Ubuntu MATE Remix Alpha1
-permalink: ubuntu-mate-remix-alpha1
+class: blog
+title: Ubuntu MATE Remix Alpha 1
+permalink: /blog/ubuntu-mate-remix-alpha1
 category: dev
 author: Martin Wimpress
 lang: en
@@ -9,14 +10,12 @@ lang: en
 
 **Yes, it's here and it's *very* alpha. So, be nice. Please!**
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE Remix Alpha1 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/utopic/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE Remix Alpha 1 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/utopic/"
+%}
 
 ## What works?
 
@@ -42,7 +41,7 @@ broken things we haven't discovered yet. The following is known to be broken:
   * Some theming in the Live session is not correct.
   * Probably a whole heap more.
 
-If you spot any other issues please report them on the project's bug tracker. 
+If you spot any other issues please report them on the project's bug tracker.
 
   * [Ubuntu MATE Remix Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 

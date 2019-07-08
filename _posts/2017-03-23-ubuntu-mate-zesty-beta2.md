@@ -1,7 +1,7 @@
 ---
 format: blog-post
 title: Ubuntu MATE 17.04 Beta 2
-permalink: ubuntu-mate-zesty-beta2
+permalink: /blog/ubuntu-mate-zesty-beta2
 description: Ubuntu MATE 17.04 (Zesty Zapus) Beta 2
 category: dev
 author: Martin Wimpress
@@ -19,8 +19,8 @@ We are preparing Ubuntu MATE 17.04 (Zesty Zapus) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<p align="center">
-[Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
+{:.center}
+![Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
 
 ## What works?
 
@@ -45,13 +45,13 @@ Here is a run down of what has been changed, updated or added.
   * Upgraded to **MATE Desktop 1.18.0**, you can read the [MATE 1.18 release announcement](http://mate-desktop.org/blog/2017-03-13-mate-1-18-released/) for the full details.
     * The entire MATE Desktop suite of applications and components is now GTK3+ only!
     * **Added full support for [libinput](https://www.freedesktop.org/wiki/Software/libinput/)**, a modern library to handle input devices such as mice, trackpads and touch screens for Wayland and X11.
-    * Separate settings for handedness (left/right-handed) and motion acceleration/threshold.    
+    * Separate settings for handedness (left/right-handed) and motion acceleration/threshold.
     * **Much improved accessibility support (particularly for visually impaired users)**, many thanks to our friends at [Hypra.fr](http://hypra.fr/-Home-17-.html?lang=en) for their contribution!
     * Lots of deprecated GTK+ methods have been replaced and many bugs have been fixed.
-    * **Lock screen will load the users selected background** instead of the system defined default.    
+    * **Lock screen will load the users selected background** instead of the system defined default.
     * Translations are updated. *Thank you to our team of translators!*
-    * **Notifications now implement action icons support**, for example playback control icons used by media players.        
-    * Reworked the font viewer to add font browsing mode, support for TTC fonts and the Font Viewer is now exposed in the menus.    
+    * **Notifications now implement action icons support**, for example playback control icons used by media players.
+    * Reworked the font viewer to add font browsing mode, support for TTC fonts and the Font Viewer is now exposed in the menus.
     * A number of **memory leaks have been plugged**.
   * **Caja adds several new features** including:
     * Added a copy queue and copy pausing.
@@ -68,7 +68,7 @@ Here is a run down of what has been changed, updated or added.
   * MATE Terminal includes a couple of new features:
     * **Attempting to close a terminal that has an active process will request confirmation before proceeding**.
     * Terminal tabs can be closed with a middle mouse button click.
-  * **Atril, the document viewer, has much improved page load times** and adds support for `unarchiver` used by some comics.    
+  * **Atril, the document viewer, has much improved page load times** and adds support for `unarchiver` used by some comics.
   * The Eye of MATE and Pluma plugin systems have been refactored:
     * **All the Eye of MATE and Pluma plugins are back** as a result of all C and Python plugins having been ported to `libpeas`.
   * Upgraded to **Brisk Menu 0.3.0**
@@ -89,7 +89,7 @@ Here is a run down of what has been changed, updated or added.
     * Integrated Qt4 and Qt5 theming with GTK+
   * Upgraded to **Ubuntu MATE Welcome 17.04.8**
     * Updated several applications and added, the much requested, kdenline.
-    * **Enabled the Bulk Queue by default**, the Software Boutique can now add multiple applications to the install/remove queue and process them via a single operation. 
+    * **Enabled the Bulk Queue by default**, the Software Boutique can now add multiple applications to the install/remove queue and process them via a single operation.
   * Upgraded to **MATE Tweak 17.04.2**
     * Added support for the **new Pantheon layout that uses Brisk Menu**.
   * Upgraded to **MATE Menu 17.04.2**
@@ -103,14 +103,12 @@ Here is a run down of what has been changed, updated or added.
     * Ubuntu MATE **16.04 will continue to support 32-bit PowerPC until 2019 and Ubuntu will offser security updates until 2021.**
   * *A-n-d most exciting of all...* **MATE Calculator is back, ported to GTK3+ and replaces Galculator** `:-D`
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 17.04</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 17.04"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

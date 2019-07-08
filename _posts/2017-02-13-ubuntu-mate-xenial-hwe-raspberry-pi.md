@@ -1,5 +1,6 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 16.04.2 for Raspberry Pi 2 and Raspberry Pi 3
 peramlink: ubuntu-mate-xenial-point-2-raspberry-pi
 description: Ubuntu MATE 16.04.2 LTS (Xenial Xerus) for Raspbery Pi 2 and Raspberry Pi 3.
@@ -11,33 +12,29 @@ lang: en
 An Ubuntu MATE 16.04.2 image for the Raspberry Pi 2 and Raspberry Pi 3 is now
 available for download.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download</h1>
-        <p>Download Ubuntu MATE for the Raspberry Pi 2 Model B and Raspberry Pi 3 Model B.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-    </div>
-</div>
-
-The image for the Raspberry Pi 2 and Raspberry Pi 3 based on the regular 
-Ubuntu `armhf` base, not the new [Ubuntu *"Snappy"* 
-Core](https://www.ubuntu.com/core), which means that the installation 
+{% include blog/jumbotron.html
+    title = "Download"
+    text = "Download Ubuntu MATE for the Raspberry Pi 2 Model B and Raspberry Pi 3 Model B."
+    button_text = "Download"
+    button_url = "/download/"
+%}
+The image for the Raspberry Pi 2 and Raspberry Pi 3 based on the regular
+Ubuntu `armhf` base, not the new [Ubuntu *"Snappy"*
+Core](https://www.ubuntu.com/core), which means that the installation
 procedure for applications uses the traditional tools, ie `apt-get`.
 
-We have done what we can to optimise the build for the Raspberry Pi 2 and 
-Raspberry Pi 3, you can comfortably use applications such as LibreOffice, 
-which in fact is a joy to use :-) But the microSDHC I/O throughput is a 
-bottleneck so **we *highly* recommend that you use a Class 6 or Class 10 
-microSDHC** card. **Ubuntu MATE 16.04 also fully support the built-in 
-Bluetooth and Wifi on the Raspberry Pi 3** and also **feature **hardware 
-accelerated video playback in VLC and hardware accelerated decoding and 
+We have done what we can to optimise the build for the Raspberry Pi 2 and
+Raspberry Pi 3, you can comfortably use applications such as LibreOffice,
+which in fact is a joy to use :-) But the microSDHC I/O throughput is a
+bottleneck so **we *highly* recommend that you use a Class 6 or Class 10
+microSDHC** card. **Ubuntu MATE 16.04 also fully support the built-in
+Bluetooth and Wifi on the Raspberry Pi 3** and also **feature **hardware
+accelerated video playback in VLC and hardware accelerated decoding and
 encoding in ffmpeg**
 
-<div align="center">
-  <img src="/gallery/Screenshots/09_RASPBERRY.png" /></a><br />
-  <b>Ubuntu MATE 16.04.2 running on the Raspberry Pi 3.</b>
-</div>
-<br />
+{:.center}
+![Ubuntu MATE 16.04.2 running on the Raspberry Pi 3](/gallery/Screenshots/09_RASPBERRY.png)
+**Ubuntu MATE 16.04.2 running on the Raspberry Pi 3**
 
 ## Changes
 
@@ -99,10 +96,9 @@ These are the changes since Ubuntu MATE 16.04 for the Raspberry Pi was release.
   * Upon completion of the first boot setup WiFi doesn't work, at all. Reboot and WiFi will be available.
     * [#1572956](https://bugs.launchpad.net/bugs/1572956)
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>More Information</h1>
-        <p>Find out more about Ubuntu MATE for Raspberry Pi 2 Model B and Raspberry Pi 3 Model B.</p>
-        <a href="/raspberry-pi/" class="btn btn-primary btn-lg">Read more</a>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "More Information"
+    text = "Find out more about Ubuntu MATE for Raspberry Pi 2 Model B and Raspberry Pi 3 Model B."
+    button_text = "Read more"
+    button_url = "/raspberry-pi/"
+%}

@@ -1,13 +1,14 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 15.10 Beta 2
-permalink: ubuntu-mate-wily-beta2
+permalink: /blog/ubuntu-mate-wily-beta2
 category: dev
 author: Martin Wimpress
 lang: en
 ---
 
-We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on 
+We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
 [October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
 With this *Beta 2* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
@@ -30,7 +31,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE 15.10 Beta 1 release?
 
-Here's what changed in Ubuntu MATE 15.10 since Beta 1. 
+Here's what changed in Ubuntu MATE 15.10 since Beta 1.
 
   * Migration MATE 1.10 is complete.
     * Atril now supports ePub.
@@ -58,14 +59,12 @@ Here's what changed in Ubuntu MATE 15.10 since Beta 1.
   * Fixed `python-caja`. Caja Plugins were completely broken.
     * [LP: 1496925](https://bugs.launchpad.net/ubuntu/+source/python-caja/+bug/1496925)
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Ubuntu MATE 15.10 Download</h1>
-        <p>Join the fun and experience a retrospective future.</p>
-        <a href="/wily/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Ubuntu MATE 15.10 Download"
+    text = "Join the fun and experience a retrospective future."
+    button_text = "Download"
+    button_url = "/wily/"
+%}
 
 ## Known Issues
 
