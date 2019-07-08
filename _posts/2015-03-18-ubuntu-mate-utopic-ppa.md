@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 14.10 PPA Change
-.. slug: ubuntu-mate-utopic-ppa
-.. date: 2015-03-18 21:45:13 UTC
-.. tags: Ubuntu,MATE,Utopic
-.. link: 
-.. description: Ubuntu MATE 14.10 has a new PPA, you must enable it.
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 14.10 PPA Change
+permalink: ubuntu-mate-utopic-ppa
+description: Ubuntu MATE 14.10 has a new PPA, you must enable it.
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 ## No action required
 

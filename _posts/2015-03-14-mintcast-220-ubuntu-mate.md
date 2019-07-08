@@ -1,13 +1,11 @@
-<!-- 
-.. title: mintCast 220 - Ubuntu MATE
-.. slug: mintcast-220-ubuntu-mate
-.. date: 2015-03-14 15:47:00 UTC
-.. tags: Ubuntu,MATE,mintCast
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+--- 
+layout: blog-post
+title: mintCast 220 - Ubuntu MATE
+permalink: mintcast-220-ubuntu-mate
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Last week I joined Rob, Scott and Joe on [mintCast](http://www.mintcast.org/)
 episode 220. I had a great time and was invited to participate as a guest 

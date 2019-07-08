@@ -3,7 +3,7 @@ layout: blog-post
 title: Ubuntu MATE 19.04 Final Release
 permalink: ubuntu-mate-disco-final-release
 description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
-category: release
+category: news
 author: Martin Wimpress
 lang: en
 ---
@@ -16,7 +16,7 @@ the GPD Pocket and GPD Pocket 2](/gpd-pocket/). Read on to learn more...**
 
 <p align="center">
 [Ubuntu MATE 19.04](/gallery/blog/1904-final.png)
-**Ubuntu MATE 19.04 with the Mutiny layout**
+Ubuntu MATE 19.04 with the Mutiny layout
 
 ## What changed since the Ubuntu MATE 18.10 final release?
 

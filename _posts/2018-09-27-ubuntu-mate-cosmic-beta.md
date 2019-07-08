@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 18.10 Beta
-.. slug: ubuntu-mate-cosmic-beta
-.. date: 2018-09-27 23:30:00 UTC
-.. tags: Ubuntu,MATE,Cosmic,beta
-.. link:
-.. description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 18.10 Beta
+permalink: ubuntu-mate-cosmic-beta
+description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 **Ubuntu MATE 18.10 is a modest, yet strategic, upgrade over our 18.04
 release. If you want bug fixes and improved hardware support then 18.10 is for
@@ -20,10 +19,8 @@ We are preparing Ubuntu MATE 18.10 (Cosmic Cuttlefish) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/1810-beta.jpg" alt="Ubuntu MATE 18.10 Beta" /><br />
-Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
-</div>
+<p align="center">
+[Ubuntu MATE 18.10 Beta](/gallery/blog/1810-beta.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 
 ## What works?
 

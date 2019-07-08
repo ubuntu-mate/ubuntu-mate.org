@@ -1,12 +1,10 @@
-<!--
-.. title: Ubuntu MATE Stickers
-.. slug: ubuntu-mate-stickers
-.. date: 2015-09-14 12:01:09 UTC
-.. tags: Ubuntu,MATE,Shop,Store,Boutique,Shirt,Polo,T-Shirt,Computer,Apparel,Stickers
-.. link: https://ubuntu-mate.boutique/
-.. description: Ubuntu MATE Stickers are available.
-.. type: text
--->
+---
+layout: blog-post
+title: Ubuntu MATE Stickers
+permalink: ubuntu-mate-stickers
+category: news
+lang: en
+---
 
 ## The [Ubuntu MATE Stickers and Badges](https://ubuntu-mate.boutique) are available now!
 

@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.04 Beta1
-.. slug: ubuntu-mate-vivid-beta1
-.. date: 2015-02-26 17:30:37 UTC
-.. tags: Ubuntu,MATE,Vivid,beta
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.04 Beta1
+permalink: ubuntu-mate-vivid-beta1
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -131,7 +129,7 @@ been reported. These issues will be addressed in due course.
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 18.04 LTS Final Release
-.. slug: ubuntu-mate-bionic-final-release
-.. date: 2018-04-26 22:00:00 UTC
-.. tags: Ubuntu,MATE,Bionic,Beaver,LTS,final,18.04
-.. link:
-.. description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 18.04 LTS Final Release
+permalink: ubuntu-mate-bionic-final-release
+description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 **Charles Babbage wasn't lying when he said *"The only thing that would
 make my Difference Engine any better would be a modern customisable
@@ -48,9 +47,8 @@ and associated technologies in their spare time. You are the 20,000
 vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
 MATE. We couldn't be prouder.
 
-<div align="center">
-<img src="/gallery/blog/1804-final.png" alt="Ubuntu MATE 18.04 LTS" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 18.04 LTS](/gallery/blog/1804-final.png)
 
 No one reads the release notes, isn't that right
 [DasGeek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ)? So
@@ -117,9 +115,8 @@ We've added some new features to the file manager (Caja).
 `gksu` is deprecated and being removed from Debian. We are aligning
 with that objective by replacing all use of `gksu` with PolicyKit.
 
-<div align="center">
-<img src="/gallery/layouts/caja-rename.png" alt="Caja Rename" /><br />
-</div>
+<p align="center">
+[Caja Rename](/gallery/layouts/caja-rename.png)
 
 ### Window Manager (Marco)
 
@@ -233,9 +230,8 @@ but can be added to any panel, for those who just prefer to use global
 menus or those who want to maximise screen space available to their
 applications.
 
-<div align="center">
-<img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE Global Menu](/gallery/layouts/global-menu.gif)
 
 ## Indicators
 
@@ -310,9 +306,9 @@ The Mutiny and Cupertino desktop layouts make use of a new dash-style
 launcher, which enables a fullscreen searchable application launcher
 while the other layouts present Brisk Menu as a more traditional menu.
 
-<div align="center">
-<img src="/gallery/bionic/brisk-menu-dash.png" alt="Brisk Menu Dash Launcher" /><br />
-</div>
+{:.center}
+![Brisk Menu Dash Launcher](/gallery/bionic/brisk-menu-dash.png)
+
 
 ## MATE Window Applets
 
@@ -322,9 +318,8 @@ panel. We used Window Applets to enhance the Mutiny and Netbook layouts
 so that both will now remove window controls from maximised windows and
 relocate the window controls in the panel.
 
-<div align="center">
-<img src="/gallery/bionic/maximus.gif" alt="MATE Window Applets" /><br />
-</div>
+<p align="center">
+[MATE Window Applets](/gallery/bionic/maximus.gif)
 
 ## Head-Up Display
 
@@ -349,9 +344,8 @@ the active application eliminates refocusing your attention to a
 different part of the screen, particularly helpful for users with high
 resolution or multi-display workstations.
 
-<div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="Head-Up Display (HUD)" /><br />
-</div>
+<p align="center">
+["Head-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
 longer won't trigger the HUD. This is consistent with how the HUD in
@@ -371,9 +365,8 @@ Switching layouts is far more reliable now too. We've removed the
 Interface section tweaked have been dropped from GTK3, making the whole section
 redundant. When saving a panel layout the Dock status will be saved too.
 
-<div align="center">
-<img src="/gallery/bionic/mate-tweak.png" alt="MATE Tweak" /><br />
-</div>
+<p align="center">
+[MATE Tweak](/gallery/bionic/mate-tweak.png)
 
 # Ubuntu MATE Welcome
 
@@ -389,9 +382,8 @@ select several installs and removals and process them all at once.
 A new Browser Selection screen has been added so you can quickly
 install your preferred browser.
 
-<div align="center">
-<img src="/gallery/bionic/browser-selection.png" alt="Browser Selection" /><br />
-</div>
+<p align="center">
+[Browser Selection](/gallery/bionic/browser-selection.png)
 
 ## System telemetry
 
@@ -405,9 +397,9 @@ developer](https://paste.ubuntu.com/p/xWxbbDGBfn/). **We kindly request
 that if you install Ubuntu MATE you participate in sending us a
 telemetry report.**
 
-<div align="center">
-<img src="/gallery/bionic/telemetry.png" alt="Telemetry" /><br />
-</div>
+{:.center}
+![Telemetry](/gallery/bionic/telemetry.png)
+
 
 # General improvements
 
@@ -420,9 +412,8 @@ video player, audio manager, etc. are not installed. If you're
 interested, here is [the complete list of software that is removed from
 a full Ubuntu MATE 18.04 installation to make the minimal install](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove).
 
-<div align="center">
-<img src="/gallery/bionic/minimal-install.png" alt="Minimal Install" /><br />
-</div>
+<p align="center">
+[Minimal Install](/gallery/bionic/minimal-install.png)
 
 So, who's this aimed at? There are users who like to uninstall the
 software they do not need or want to build out their own desktop
@@ -438,9 +429,8 @@ Ubuntu MATE including **how to use everything we ship by default**, along with
 detailed instruction on how to tailor, tweak and customise Ubuntu MATE to
 suit your preferences.
 
-<div align="center">
-<img src="/gallery/bionic/ubuntu-mate-guide.png" alt="Ubuntu MATE Guide" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE Guide](/gallery/bionic/ubuntu-mate-guide.png)
 
 <div class="bs-component">
     <div class="jumbotron">
@@ -457,9 +447,8 @@ Ubuntu MATE switched to [Slick Greeter](https://github.com/linuxmint/slick-greet
 development cycle, which still uses LightDM under the hood but is far
 more attractive and HiDPI aware.
 
-<div align="center">
-<img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
-</div>
+<p align="center">
+[Slick Greeter](/gallery/layouts/slick-greeter.png)
 
 ### Slick Greeter Settings
 
@@ -468,9 +457,8 @@ We worked with our friends at [Lubuntu](https://lubuntu.me/) and
 utility for Slick Greeter just moments before the final freeze window
 closed for 18.04.
 
-<div align="center">
-<img src="/gallery/bionic/lightdm-settings.png" alt="Slick Greeter Settings" /><br />
-</div>
+<p align="center">
+[Slick Greeter Settings](/gallery/bionic/lightdm-settings.png)
 
 ## Artwork
 
@@ -508,18 +496,16 @@ type usual emoji, such as `:-)`, and it will automatically change to a
 glyph. Alternatively you can right click in the input area and select
 *Insert Emoji* that will display the emoji picker below.
 
-<div align="center">
-<img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
-</div>
+<p align="center">
+[Emoji Picker](/gallery/bionic/emoji.png)
 
 ## Major Applications
 
 Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
 59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
 
-<div align="center">
-<img src="/gallery/bionic/versions.png" alt="Major Applications" /><br />
-</div>
+<p align="center">
+[Major Applications](/gallery/bionic/versions.png)
 
 See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all

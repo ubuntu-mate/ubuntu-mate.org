@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 14.10 Beta2
-.. slug: ubuntu-mate-utopic-beta2
-.. date: 2014-09-25 10:45:00 UTC
-.. tags: Ubuntu,MATE,Utopic,beta2
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 14.10 Beta2
+permalink: ubuntu-mate-utopic-beta2
+tags: Ubuntu,MATE,Utopic,beta2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE 14.10 Beta2 is now available for download. This second beta 
 fixes a number of issues that were present in Beta1, adds a few new 

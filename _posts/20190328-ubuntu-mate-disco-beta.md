@@ -3,7 +3,7 @@ layout: blog-post
 title: Ubuntu MATE 19.04 Beta 1
 permalink: ubuntu-mate-disco-beta
 description: Ubuntu MATE 19.04 (Disco Dingo) Beta
-category: dev
+category: news
 author: Martin Wimpress
 lang: en
 ---
@@ -19,6 +19,7 @@ preparation for our next (stable) version.
 <p align="center">
 [Ubuntu MATE 19.04 Beta](/gallery/blog/1904-beta.png)
 Ubuntu MATE 19.04 with the Mutiny layout
+
 
 ## What works?
 

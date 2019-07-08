@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.04 Alpha2
-.. slug: ubuntu-mate-vivid-alpha2
-.. date: 2015-01-22 23:53:37 UTC
-.. tags: Ubuntu,MATE,Vivid,alpha
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.04 Alpha2
+permalink: ubuntu-mate-vivid-alpha2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE 15.04 Alpha2 is now available for download. This release builds
 on Ubuntu MATE 14.04 and 14.10 and introduces some new features. The observant
@@ -34,7 +32,7 @@ available via updates.
   * Added [MATE Menu](https://bitbucket.org/flexiondotorg/mate-menu), which is a fork of [MintMenu](https://github.com/linuxmint/mintmenu).
   * Added [MATE Tweak](https://bitbucket.org/flexiondotorg/mate-tweak), which is a fork of [MintDesktop](https://github.com/linuxmint/mintdesktop).
   * Added Compiz support. MATE Tweak can be used to live switch between Compiz and Marco, no log out/in required.
-  * Enabled X zapping via `Ctrl+Alt+Backspace`. 
+  * Enabled X zapping via `Ctrl+Alt+Backspace`.
   * Enabled screen reader activation via LightDM indicators and LightDM key bindings.
   * Enabled touch to click by default for touchpads.
   * Enable Tilda pull-down terminal integration. Press `F12` to show/hide.
@@ -65,7 +63,7 @@ Here are the known issues.
   and radio buttons. This is why Ambiant-MATE is still used for the live session
   and the LightDM theme.
   * Live switching between Compiz and Marco is experimental and may result in an
-  inconsistent Compiz configuration.  
+  inconsistent Compiz configuration.
   * Running an Ubuntu MATE live session as a Virtualbox may corrupt the video
   output of the guest.
     * You can correct the video display by pressing `Host+F1` to switch
@@ -79,7 +77,7 @@ been reported. These issues will be addressed in due course.
 
 ## Useful Information
 
-You may find the following information useful, which is why we titled 
+You may find the following information useful, which is why we titled
 the section *Useful Information* since the information presented here
 is mostly useful.
 

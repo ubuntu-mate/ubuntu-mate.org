@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.04 Final Release
-.. slug: ubuntu-mate-vivid-final-release
-.. date: 2015-04-23 15:23:23 UTC
-.. tags: Ubuntu,MATE,Vivid,Press Kit
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.04 Final Release
+permalink: ubuntu-mate-vivid-final-release
+category: release
+author: Martin Wimpress
+lanf: en
+---
 
 <div class="bs-component">
     <div class="jumbotron">

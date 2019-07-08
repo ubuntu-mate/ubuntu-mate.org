@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.10 Beta 1
-.. slug: ubuntu-mate-yakkety-beta1
-.. date: 2016-08-25 22:00:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,beta1
-.. link:
-.. description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 1
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.10 Beta 1
+permalink: ubuntu-mate-yakkety-beta1
+description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are underwhelmed to announce, quite possibly, our most uninteresting
 beta release *E-V-E-R!* `;-)` This beta release is all about the

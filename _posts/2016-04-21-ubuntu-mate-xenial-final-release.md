@@ -1,17 +1,15 @@
-<!--
-.. title: Ubuntu MATE 16.04 LTS
-.. slug: ubuntu-mate-xenial-final-release
-.. date: 2016-04-21 16:25:00 UTC
-.. tags: Ubuntu,MATE,Xenial,Xerus,16.04,final,LTS
-.. link:
-.. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.04 LTS
+permalink: ubuntu-mate-xenial-final-release
+description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04 LTS Final Release" />
-</div>
+<p align="center">
+[Ubuntu MATE 16.04 LTS Final Release](/gallery/blog/ubuntu-mate-1604-final.png)
 
 # Thank You!
 

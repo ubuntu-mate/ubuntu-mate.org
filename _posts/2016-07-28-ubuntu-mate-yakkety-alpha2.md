@@ -1,21 +1,21 @@
-<!--
-.. title: Ubuntu MATE 16.10 Alpha 2
-.. slug: ubuntu-mate-yakkety-alpha2
-.. date: 2016-07-28 11:45:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,alpha2
-.. link:
-.. description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.10 Alpha 2
+permalink: ubuntu-mate-yakkety-alpha2
+description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 [October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule)
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1610-alpha2.png" alt="Ubuntu MATE 16.10 Alpha 2" /><br />
+<p align="center">
+[Ubuntu MATE 16.10 Alpha 2](/gallery/blog/ubuntu-mate-1610-alpha2.png)
+
 <b>As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.</b>
 </div>
 

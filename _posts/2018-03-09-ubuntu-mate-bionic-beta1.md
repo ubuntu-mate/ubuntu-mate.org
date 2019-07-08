@@ -1,22 +1,20 @@
-<!--
-.. title: Ubuntu MATE 18.04 Beta 1
-.. slug: ubuntu-mate-bionic-beta1
-.. date: 2018-03-09 19:00:00 UTC
-.. tags: Ubuntu,MATE,Bionic,beta1
-.. link:
-.. description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 1
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 18.04 Beta 1
+permalink: ubuntu-mate-bionic-beta1
+description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for distribution on
 [April 26th, 2018](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule)
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/1804-beta1.png" alt="Ubuntu MATE 18.04 Beta 1" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 18.04 Beta 1](/gallery/blog/1804-beta1.png)
 
 ## What works?
 
@@ -55,15 +53,13 @@ You can [read the release announcement](http://mate-desktop.org/blog/2018-02-07-
 
 ### Global Menu and MATE HUD
 
-<div align="center">
-<img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE Global Menu](/gallery/layouts/global-menu.gif)
 
 The Global Menu integration is much improved. When the Global Menu is added to a panel the **application menus are automatically removed from the application window** and only presented globally, no additional configuration (as was the case) is required. Likewise removing the Global Menu from a panel will restore menus to their application windows.
 
-<div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE HUD](/gallery/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding `Alt` any longer won't trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've fixed a number of issues reported by users of Ubuntu MATE 17.10 regarding the HUD swallowing key presses. The HUD is also HiDPI aware now.
 
@@ -71,9 +67,8 @@ The HUD now has a 250ms (default) timeout, holding `Alt` any longer won't trigge
 
 Ubuntu MATE 18.04 uses Indicators by default in all layouts. These will be familiar to anyone who has used Unity 7 and offer better accessibility support and ease of use over notification area applets. The volume in Indicator Sound can now be over driven, so it is consistent with the MATE sound preferences. Notification area applets are still supported as a fallback.
 
-<div align="center">
-<img src="/gallery/layouts/indicators-small.png" alt="Ubuntu MATE HUD" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE HUD](/gallery/layouts/indicators-small.png)
 
 ### MATE Dock Applet
 
@@ -84,9 +79,8 @@ Ubuntu MATE 18.04 uses Indicators by default in all layouts. These will be famil
 
 ### Brisk Menu
 
-<div align="center">
-<img src="/gallery/bionic/brisk-menu-dash.png" alt="Brisk Menu Dash Launcher" /><br />
-</div>
+<p align="center">
+[Brisk Menu Dash Launcher](/gallery/bionic/brisk-menu-dash.png)
 
 Many users commented that when using the Mutiny layout the *"traditional"* menu felt out of place. The [Solus Project](https://solus-project.com/), the maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have add a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched version of Brisk Menu that includes this new dash launcher. When MATE Tweak is used to enable the Mutiny or Cupertino layout, it now switches on the dash launcher which enables a full screen, searchable, application launcher. Similarly, switching to the other panel layouts restores the more traditional Brisk Menu.
 
@@ -100,9 +94,8 @@ The Mutiny layout now integrates the [mate-window-applets](https://github.com/ub
 
 If you follow the Ubuntu news closely you may have heard that 18.04 now has a Minimal Install option. Ubuntu MATE was at the front of the queue to take advantage of this new feature.
 
-<div align="center">
-<img src="/gallery/bionic/minimal-install.png" alt="Brisk Menu Dash Launcher" /><br />
-</div>
+<p align="center">
+[Brisk Menu Dash Launcher](/gallery/bionic/minimal-install.png)
 
 The Minimal Install is a new option presented in the installer that will install just the MATE Desktop, its utilities, its themes and Firefox. All the other applications such as office suite, email client, video player, audio manager, etc. are not installed. If you're interested, here is [the complete list of software that will not be present on a minimal install of Ubuntu MATE 18.04](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove)
 
@@ -121,9 +114,8 @@ We've landed [caja-eiciel](https://github.com/darkshram/mate-eiciel) and [caja-s
 
 ### Artwork, Fonts & Emoji
 
-<div align="center">
-<img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
-</div>
+{;.center}
+[Emoji Picker](/gallery/bionic/emoji.png)
 
 We are no longer shipping `mate-backgrounds` by default. They have served us well, but are looking a little stale now. We have created a new selection of high quality wallpapers comprised of some abstract designs and high resolution photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot logo) is now HiDPI aware. Our friends at [Ubuntu Budgie](https://ubuntubudgie.org/) have uploaded a new version of Slick Greeter which now fades in smoothly, rather than the stuttering we saw in Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've added a colour emoji font too.
 

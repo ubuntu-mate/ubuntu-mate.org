@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.04 Beta 1
-.. slug: ubuntu-mate-xenial-beta1
-.. date: 2016-02-25 20:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,beta1
-.. link:
-.. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 1
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.04 Beta 1
+permalink: ubuntu-mate-xenial-beta1
+description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 [April 21st, 2016](https://wiki.ubuntu.org/XenialXerus/ReleaseSchedule)
@@ -41,9 +40,8 @@ First of all, I'd like to extend my thanks to:
   * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)** and **[Daniel Holbach](https://launchpad.net/~dholbach)** for sponsoring critical package updates for Ubuntu MATE.
   * **[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)** for creating a fantastic new Ubuntu MATE desktop wallpaper called *"A Dawn Gift"*.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1604-beta1.png" alt="Ubuntu MATE 16.04 Beta 1" />
-</div>
+<p align="center">
+[Ubuntu MATE 16.04 Beta 1](/gallery/blog/ubuntu-mate-1604-beta1.png)
 
 Thanks to everyone else from the Ubuntu MATE community who contributed to this release!
 

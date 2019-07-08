@@ -1,13 +1,12 @@
-<!--
-.. title: MATE Desktop 1.14 for Ubuntu MATE 16.04
-.. slug: mate-desktop-114-for-xenial-xerus
-.. date: 2016-06-08 13:01:00 UTC
-.. tags: Ubuntu,MATE,Xenial
-.. link:
-.. description: How to upgrade Ubuntu MATE 16.04 to MATE Desktop 1.14
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: MATE Desktop 1.14 for Ubuntu MATE 16.04
+permalink: mate-desktop-114-for-xenial-xerus
+description: How to upgrade Ubuntu MATE 16.04 to MATE Desktop 1.14
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 The [Ubuntu MATE Patrons](https://www.patreon.com/ubuntu_mate) have already 
 received this information, but here's an update for everyone.
@@ -18,10 +17,8 @@ The number one question in the Ubuntu MATE community right now is:
 
 The answer is, **now**. *Right now*.
 
-<div align="center">
-<img src="/gallery/blog/MATE114.png" alt="About MATE Desktop 1.14" />
-</div>
-<br />
+<p align="center">
+[About MATE Desktop 1.14](/gallery/blog/MATE114.png)
 
 We've published a [PPA containing MATE 1.14 that is 
 designed to work with Ubuntu MATE 16.04](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/xenial-mate).

@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 17.10
-.. slug: ubuntu-mate-artful-final-release
-.. date: 2017-10-19 13:15:00 UTC
-.. tags: Ubuntu,MATE,Artful,final,17.10
-.. link:
-.. description: Ubuntu MATE 17.10 (Artful Aardvark) Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 17.10
+permalink: ubuntu-mate-artful-final-release
+description: Ubuntu MATE 17.10 (Artful Aardvark) Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 # *Join the Mutiny!*
 
@@ -30,9 +29,8 @@ different desktop layouts each providing a distinctive workflow.
 *We mean it, keep reading! Don't just go hunting for the download button
 and skip over our most glorious release notes.*
 
-<div align="center">
-<img src="/gallery/blog/1710-final-Medium.png" alt="Ubuntu MATE 17.10 Final" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 17.10 Final](/gallery/blog/1710-final-Medium.png)
 
 # What changed since the Ubuntu MATE 17.04 final release?
 
@@ -104,9 +102,8 @@ with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron
 and others. You can now make more of your available screen space while
 using Ubuntu MATE.
 
-<div align="center">
-<img src="/gallery/layouts/global-menu.gif" alt="Global Menu" /><br />
-</div>
+<p align="center">
+[Global Menu](/gallery/layouts/global-menu.gif)
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
 we've had since 17.10 Alpha 2 we've made the Global Menu far more
@@ -159,9 +156,8 @@ great testing feedback.
   * The HUD is now reliably activated. In Alpha 2 is only responded to about one third of requests.
   * **NEW in 17.10 Beta 1** - The **HUD is now locally integrated**, so that it overlays on top of the activate application.
 
-<div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="The Locally integrated Heads-Up Display (HUD)" /><br />
-</div>
+{:.center}
+![The Locally integrated Heads-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
 
 ### Locally integrated rationale
 
@@ -189,9 +185,8 @@ with MATE. The default Indicators are:
   * Sound
   * Session
 
-<div align="center">
-<img src="/gallery/layouts/indicators.png" alt="Indicators" /><br />
-</div>
+<p align="center">
+[Indicators](/gallery/layouts/indicators.png)
 
 ## MATE Tweak
 
@@ -204,9 +199,8 @@ much requested features.
   * Prompts before executing operations that could wipe your custom, but unsaved, tweaks.
   * **NEW in 17.10 Beta 1** - You can also delete previously saved custom panel layouts.
 
-<div align="center">
-<img src="/gallery/layouts/mate-tweak.png" alt="MATE Tweak, more than just a tweak tool." /><br />
-</div>
+<p align="center">
+[MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
 
 When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
@@ -230,9 +224,8 @@ to see the full line up of new artwork though `;-)`
 **NEW in 17.10 Beta 1** - We've switched to Slick Greeter which still
 uses LightDM under the hood but has a much nicer look and feel.
 
-<div align="center">
-<img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
-</div>
+<p align="center">
+[Slick Greeter](/gallery/layouts/slick-greeter.png)
 
 ## File manager
 
@@ -245,9 +238,8 @@ MATE file manager.
     * The obsolete `gksu` is being removed from Debian and we are aligning with that objective by replacing the use of `gksu` with PolicyKit.
   * Updated [Folder Color](http://foldercolor.tuxfamily.org/). Now supports custom emblems and properly integrates with the Ubuntu MATE default icon theme.
 
-<div align="center">
-<img src="/gallery/layouts/caja-rename.png" alt="Caja Rename" /><br />
-</div>
+<p align="center">
+[Caja Rename](/gallery/layouts/caja-rename.png)
 
 ## Snaps installed by default
 
@@ -257,9 +249,8 @@ Ubuntu MATE 17.10 release the `pulsemixer` snap, [a console based mixer for
 PulseAudio](https://github.com/GeorgeFilipkin/pulsemixer), is installed
 by default.
 
-<div align="center">
-<img src="/gallery/layouts/pulsemixer.png" alt="pulsemixer" /><br />
-</div>
+<p align="center">
+[pulsemixer](/gallery/layouts/pulsemixer.png)
 
 Pre-installing snaps by default in the desktop images was an outcome of
 the [Ubuntu Rally that took place in New York](https://insights.ubuntu.com/2017/09/01/ubuntu-rally-in-nyc/).

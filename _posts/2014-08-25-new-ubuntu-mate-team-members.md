@@ -1,13 +1,11 @@
-<!-- 
-.. title: New Ubuntu MATE Team Members
-.. slug: new-ubuntu-mate-team-members
-.. date: 2014-08-25 19:47:51 UTC
-.. tags: Ubuntu,MATE,Team,Artwork
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post 
+title: New Ubuntu MATE Team Members
+permalink: new-ubuntu-mate-team-members
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Please join me in welcoming [Goce Mitevski](http://nicer2.com/),
 [Ivan Pejić](https://plus.google.com/113587242852192152625/)

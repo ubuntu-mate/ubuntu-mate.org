@@ -1,12 +1,10 @@
-<!-- 
-.. title: Ubuntu MATE server upgrades
-.. slug: ubuntu-mate-server-upgrades
-.. date: 2015-07-27 06:01:09 UTC
-.. tags: Ubuntu,MATE,infrastructure
-.. link: 
-.. description: 
-.. type: text
--->
+---
+format: blog-post
+title: Ubuntu MATE server upgrades
+permalink: ubuntu-mate-server-upgrades
+category: news
+lang: en
+---
 
 The Ubuntu MATE website is now load-balanced across multiple countries. This
 is in additional using [CloudFlare](https://www.cloudflare.com) for caching

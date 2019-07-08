@@ -1,13 +1,11 @@
-<!-- 
-.. title: Ubuntu MATE Remix sprint
-.. slug: ubuntu-mate-remix-sprint
-.. date: 2014-06-29 20:11:18 UTC
-.. tags: Ubuntu,MATE
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE Remix sprint
+permalink: ubuntu-mate-remix-sprint
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Earlier this week [popey](http://popey.com) and I met up for a one day 
 development sprint to try and make some headway with Ubuntu MATE Remix.

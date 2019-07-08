@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE community donations
-.. slug: ubuntu-mate-community-donations
-.. date: 2014-11-07 21:45:13 UTC
-.. tags: Ubuntu,MATE,community,donate
-.. link: https://ubuntu-mate.org/donate/
-.. description: Donate and help grown the Ubuntu MATE community
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE community donations
+permalink: ubuntu-mate-community-donations
+description: Donate and help grown the Ubuntu MATE community
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 A couple of months ago [I asked if the Ubuntu MATE community was interested in
 expanding without using social networks](/blog/alternative-community-forum-poll/).

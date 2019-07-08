@@ -1,13 +1,11 @@
-<!-- 
-.. title: MATE interview with Linux Luddites
-.. slug: mate-interview-with-linux-luddites
-.. date: 2014-10-13 18:55:32 UTC
-.. tags: MATE,Ubuntu MATE,Linux Luddites,interview
-.. link: http://linuxluddites.com/shows/episode-26/
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: MATE interview with Linux Luddites
+permalink: mate-interview-with-linux-luddites
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 [Linux Luddites](http://linuxluddites.com) were kind enough to interview 
 me last week. We discussed the origins of [MATE Desktop](http://mate-desktop.org),

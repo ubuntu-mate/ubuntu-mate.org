@@ -1,13 +1,11 @@
-<!--
-.. title: Do you want an alternative community forum?
-.. slug: alternative-community-forum-poll
-.. date: 2014-09-05 21:45:13 UTC
-.. tags: Ubuntu,MATE,forum,poll
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Do you want an alternative community forum?
+permalink: alternative-community-forum-poll
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 I have noticed that a few members of the Ubuntu MATE community have
 expressed an interest in a forum that is not powered by a social network.

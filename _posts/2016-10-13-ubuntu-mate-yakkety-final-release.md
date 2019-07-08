@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.10
-.. slug: ubuntu-mate-yakkety-final-release
-.. date: 2016-10-13 14:15:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,final,16.10
-.. link:
-.. description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.10
+permalink: ubuntu-mate-yakkety-final-release
+description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 <div align="center">
 <img src="/gallery/blog/ubuntu-mate-1610-final.png" alt="Ubuntu MATE 16.10 Final" /><br />
@@ -45,7 +44,7 @@
 > early!**
 >
 > **Thank you all for your continued support!**
-> 
+>
 > *Martin Wimpress, Ubuntu MATE Project Leader.*
 
 <div class="bs-component">
@@ -64,7 +63,7 @@ This is what has been added, updated or removed.
   * **Upgraded to MATE Desktop 1.16.0**
     * The entire MATE Desktop suite has been upgraded to MATE Desktop 1.16.0
     * Many, many, bug fixes.
-    * Translation updates.    
+    * Translation updates.
   * **Upgraded Ubuntu MATE Artwork 16.10.9**
     * Fix Firefox download progress bars. (LP: [#1630224](https://bugs.launchpad.net/bugs/1630224))
     * Fix Unlock button for Time and Date Settings. (LP: [#1630910](https://bugs.launchpad.net/bugs/1630910))
@@ -88,7 +87,7 @@ This is what has been added, updated or removed.
     * Fix Getting Started hints not appearing.
     * Hide "open at login" checkbox for live and guest sessions.
     * Remove ocenaudio. (LP: [#1613410](https://bugs.launchpad.net/bugs/1613410))
-    * Remove duplicate navigation buttons.    
+    * Remove duplicate navigation buttons.
     * Many other minor fixes and refinements.
   * **Upgraded to [MATE Dock Applet 0.75](https://github.com/robint99/mate-dock-applet/releases/tag/V0.75)**
     * Application actions now have their own popup window, which can be disabled if required.
@@ -96,7 +95,7 @@ This is what has been added, updated or removed.
     * Action lists and window list colours now match the panel.
     * Optional Compiz integration, to provide previews of an applications open windows.
     * Bug fixes.
-  * Many other bug fixes including: 
+  * Many other bug fixes including:
     * Fixed booting PowerPC iso on PowerMac G5 7,3. (LP: [#1626332](https://bugs.launchpad.net/bugs/1626332))
     * Fixed LightDM Guest Session warning dialog. (LP: [#1627395](https://bugs.launchpad.net/bugs/1627395))
     * Fixed Display Preferences not working. (LP: [#1628209](https://bugs.launchpad.net/bugs/1628209))
@@ -140,7 +139,7 @@ This is our known list of bugs that affect all flavours.
   * Ubiquity installer Slideshows and Ubuntu MATE Welcome display a blank window on PowerPC.
     * This is due to a bug in WebKit 2.
     * (LP: [#1561573](https://bugs.launchpad.net/bugs/1561573)),
-    (LP: [#1597764](https://bugs.launchpad.net/bugs/1597764))  
+    (LP: [#1597764](https://bugs.launchpad.net/bugs/1597764))
 
   * R300 GPU accelerated graphics do not work on PowerPC
     * (LP: [#1432949](https://bugs.launchpad.net/bugs/1432949)),

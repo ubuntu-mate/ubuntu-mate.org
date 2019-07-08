@@ -1,12 +1,10 @@
-<!--
-.. title: Progressing towards Ubuntu MATE Beta1
-.. slug: progressing-towards-ubuntu-mate-beta1
-.. date: 2014-08-17 11:11:11 UTC
-.. tags: Ubuntu,MATE,status
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
+---
+layout: blog-post
+title: Progressing towards Ubuntu MATE Beta1
+permalink: progressing-towards-ubuntu-mate-beta1
+category: news
+author: Martin Wimpress
+lang: en
 -->
 
 A few days ago I was asked [what is the current status of Ubuntu MATE, 

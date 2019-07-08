@@ -1,13 +1,11 @@
-<!-- 
-.. title: Ubuntu MATE to feature in LinuxWelt magazine
-.. slug: ubuntu-mate-to-feature-linuxwelt-magazine
-.. date: 2014-11-05 19:33:21 UTC
-.. tags: Ubuntu,MATE,Utopic,Review,magazine,cover disc
-.. link: http://www.pcwelt.de/downloads/Ubuntu_MATE-8957105.html﻿
-.. description: LinuxWelt 01 2015 edition to feature Ubuntu MATE 14.10 on DVD cover disc.
-.. type: text
-.. author: Martin Wimpress
--->
+--- 
+layout: blog-post
+title: Ubuntu MATE to feature in LinuxWelt magazine
+permalink: ubuntu-mate-to-feature-linuxwelt-magazine
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 <style>
 img.centered {
@@ -30,7 +28,8 @@ available in book stores all over Germany and via
 draft PDF of the Ubuntu MATE feature which one of the X2Go developers
 kindly translated for me at the weekend.
 
-<a href="http://www.idgshop.de/linuxwelt-magazin-abo-shop.htm?websale8=idg&ci=linuxwelt" target="_blank"><img class="centered" src="/gallery/Logos/LinuxWelt.jpg" alt="LinuxWelt" /></a>
+<p align="center">
+[LinuxWelt](http://www.idgshop.de/linuxwelt-magazin-abo-shop.htm?websale8=idg&ci=linuxwelt)
 
 Ubuntu MATE 14.10 will also be the cover DVD feature and LinuxWelt have
 commissioned approximately 50,000 DVDs that will include the 32 bit

@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 17.10 Beta 2
-.. slug: ubuntu-mate-artful-beta2
-.. date: 2017-09-28 19:00:00 UTC
-.. tags: Ubuntu,MATE,Artful,beta2
-.. link:
-.. description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+title: Ubuntu MATE 17.10 Beta 2
+permalink: ubuntu-mate-artful-beta2
+description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 # *Join the Mutiny!*
 
@@ -33,9 +31,8 @@ We are preparing Ubuntu MATE 17.10 (Artful Aardvark) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/1710-beta2-medium.png" alt="Ubuntu MATE 17.10 Beta 2" /><br />
-</div>
+{:.center}
+![Ubuntu MATE 17.10 Beta 2](/gallery/blog/1710-beta2-medium.png)
 
 ## What works?
 
@@ -123,9 +120,8 @@ with GTK, Qt, LibreOffice, Firefox/Thunderbird, Google Chrome, Electron
 and others. You can now make more of your available screen space while
 using Ubuntu MATE.
 
-<div align="center">
-<img src="/gallery/layouts/global-menu.gif" alt="Global Menu" /><br />
-</div>
+<p align="center">
+[Global Menu](/gallery/layouts/global-menu.gif)
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
 we've had since 17.10 Alpha 2 we've made the Global Menu far more
@@ -178,9 +174,8 @@ great testing feedback.
   * The HUD is now reliably activated. In Alpha 2 is only responded to about one third of requests.
   * **NEW in 17.10 Beta 1** - The **HUD is now locally integrated**, so that it overlays on top of the activate application.
 
-<div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="The Locally integrated Heads-Up Display (HUD)" /><br />
-</div>
+{:.center}
+![The Locally integrated Heads-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
 
 ### Locally integrated rationale
 
@@ -208,9 +203,8 @@ with MATE. The default Indicators are:
   * Sound
   * Session
 
-<div align="center">
-<img src="/gallery/layouts/indicators.png" alt="Indicators" /><br />
-</div>
+<p align="center">
+[Indicators](/gallery/layouts/indicators.png)
 
 ## MATE Tweak
 
@@ -223,9 +217,8 @@ much requested features.
   * Prompts before executing operations that could wipe your custom, but unsaved, tweaks.
   * **NEW in 17.10 Beta 1** - You can also delete previously saved custom panel layouts.
 
-<div align="center">
-<img src="/gallery/layouts/mate-tweak.png" alt="MATE Tweak, more than just a tweak tool." /><br />
-</div>
+<p align="center">
+[MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
 
 When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
@@ -249,9 +242,8 @@ to see the full line up of new artwork though `;-)`
 **NEW in 17.10 Beta 1** - We've switched to Slick Greeter which still
 uses LightDM under the hood but has a much nicer look and feel.
 
-<div align="center">
-<img src="/gallery/layouts/slick-greeter.png" alt="Slick Greeter" /><br />
-</div>
+<p align="center">
+[Slick Greeter](/gallery/layouts/slick-greeter.png)
 
 ## File manager
 
@@ -264,9 +256,8 @@ MATE file manager.
     * The obsolete `gksu` is being removed from Debian and we are aligning with that objective by replacing the use of `gksu` with PolicyKit.
   * Updated [Folder Color](http://foldercolor.tuxfamily.org/). Now supports custom emblems and properly integrates with the Ubuntu MATE default icon theme.
 
-<div align="center">
-<img src="/gallery/layouts/caja-rename.png" alt="Caja Rename" /><br />
-</div>
+<p align="center">
+[Caja Rename](/gallery/layouts/caja-rename.png)
 
 ### The bit no one reads but probably should
 

@@ -3,7 +3,7 @@ layout: blog-post
 title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi
 permalink: ubuntu-mate-bionic-beta1-raspberry-pi
 description: Ubuntu MATE 18.04 Beta-1 for the Raspberry Pi Model B 2, 3 and  3+
-category: dev
+category: news
 author: Martin Wimpress
 lang: en
 ---
@@ -14,6 +14,7 @@ preparation for our next (stable) version.
 
 <p align="center">
 [Ubuntu MATE running on the Raspberry Pi 3+](/gallery/Screenshots/09_raspberrypi.png)
+
 
 Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,
 with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).

@@ -1,13 +1,12 @@
-<!--
-.. title: Running Steam on Ubuntu MATE
-.. slug: running-steam-on-ubuntu-mate
-.. date: 2016-05-04 07:00:00 UTC
-.. tags: Ubuntu,MATE,Steam,benchmark,performance,gaming,Vulkan,OpenGL,nvidia
-.. link:
-.. description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how to get the optimum experience
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Running Steam on Ubuntu MATE
+permalink: running-steam-on-ubuntu-mate
+description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how to get the optimum experience
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 A couple of weeks ago [Phoronix published an article comparing the Steam 
 performance on various flavours of Ubuntu 
@@ -23,9 +22,8 @@ benchmark. A Linux gamer. Enter **[Pedro
 Mateus](https://twitter.com/UnaccountedFour)** from **[Linux Game 
 Cast](https://linuxgamecast.com/)**.
 
-<div align="center">
-<img src="/gallery/blog/steam-on-ubuntu-mate.png" alt="Steam on Ubuntu MATE" title="Steam on Ubuntu MATE"/>
-</div>
+<p align="center">
+[Steam on Ubuntu MATE](/gallery/blog/steam-on-ubuntu-mate.png)
 
 Pedro ran the benchmarks he is most familar with on his Steam Box by simply 
 replacing the SSD with one that had Ubuntu MATE 16.04 installed. Pedro also 

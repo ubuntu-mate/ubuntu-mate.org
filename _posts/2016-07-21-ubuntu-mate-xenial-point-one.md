@@ -1,17 +1,15 @@
-<!--
-.. title: Ubuntu MATE 16.04.1 LTS
-.. slug: ubuntu-mate-xenial-point-one
-.. date: 2016-07-21 06:04:01 UTC
-.. tags: Ubuntu,MATE,Xenial,Xerus,16.04.1,final,LTS
-.. link:
-.. description: Ubuntu MATE 16.04.1 (Xenial Xerus) LTS Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.04.1 LTS
+permalink: ubuntu-mate-xenial-point-one
+description: Ubuntu MATE 16.04.1 (Xenial Xerus) LTS Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1604-final.png" alt="Ubuntu MATE 16.04.1 LTS Final Release" />
-</div>
+<p align="center">
+[Ubuntu MATE 16.04.1 LTS Final Release](/gallery/blog/ubuntu-mate-1604-final.png)
 
 <div class="bs-component">
     <div class="jumbotron">

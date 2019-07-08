@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.04 Alpha 1
-.. slug: ubuntu-mate-xenial-alpha1
-.. date: 2016-01-04 16:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,alpha1
-.. link:
-.. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 1
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.04 Alpha 1
+permalink: ubuntu-mate-xenial-alpha1
+description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 [April 21st, 2016](https://wiki.ubuntu.org/XenialXerus/ReleaseSchedule)

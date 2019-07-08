@@ -1,17 +1,14 @@
-<!--
-.. title: Ubuntu MATE 15.10 Final Release
-.. slug: ubuntu-mate-wily-final-release
-.. date: 2015-10-22 11:15:10 UTC
-.. tags: Ubuntu,MATE,Wily,PressKit
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.10 Final Release
+permalink: ubuntu-mate-wily-final-release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
-<div align="center">
-<iframe id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+<p align="center">
+[Ubuntu MATE 15.10 Final Release](https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&#amp;rel=0&amp;showinfo=0)
 
 ## What works?
 

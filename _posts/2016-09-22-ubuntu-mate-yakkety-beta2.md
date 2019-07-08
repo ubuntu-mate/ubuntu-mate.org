@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.10 Beta 2
-.. slug: ubuntu-mate-yakkety-beta2
-.. date: 2016-09-28 06:30:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,beta2
-.. link:
-.. description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.10 Beta 2
+permalink: ubuntu-mate-yakkety-beta2
+description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are totally over excited (like we've been eating candy floss and
 toffee apples all night) about this final beta release of Ubuntu MATE

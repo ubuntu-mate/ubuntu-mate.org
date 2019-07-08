@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 17.10 Alpha 2
-.. slug: ubuntu-mate-artful-alpha2
-.. date: 2017-07-28 00:00:00 UTC
-.. tags: Ubuntu,MATE,Artful,alpha2
-.. link:
-.. description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 17.10 Alpha 2
+permalink: ubuntu-mate-artful-alpha2
+description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 # Welcome Unity 7 refugees! *This* is the Ubuntu flavour you've been searching for
 
@@ -24,9 +23,8 @@ We are preparing Ubuntu MATE 17.10 (Artful Aardvark) for distribution on
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/1710-alpha2-medium.png" alt="Ubuntu MATE 17.10 Alpha 2" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 17.10 Alpha 2](/gallery/blog/1710-alpha2-medium.png)
 
 ## What works?
 

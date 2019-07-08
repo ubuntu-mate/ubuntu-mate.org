@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 14.04.2 Release
-.. slug: ubuntu-mate-trusty-14.04.2-release
-.. date: 2015-03-23 21:54:37 UTC
-.. tags: Ubuntu,MATE,Trusty,final
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 14.04.2 Release
+permalink: ubuntu-mate-trusty-14.04.2-release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE 14.04.2 is available for download. This release fixes a few
 issues that were present in 14.04.1, adds some new features and

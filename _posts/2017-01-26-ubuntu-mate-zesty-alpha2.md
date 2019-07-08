@@ -1,22 +1,20 @@
-<!--
-.. title: Ubuntu MATE 17.04 Alpha 2
-.. slug: ubuntu-mate-zesty-alpha2
-.. date: 2017-01-27 20:30:00 UTC
-.. tags: Ubuntu,MATE,Zesty,alpha2
-.. link:
-.. description: Ubuntu MATE 17.04 (Zesty Zapus) Alpha 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 17.04 Alpha 2
+permalink: ubuntu-mate-zesty-alpha2
+description: Ubuntu MATE 17.04 (Zesty Zapus) Alpha 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE 17.04 (Zesty Zapus) for distribution on
 [April 13th, 2017](https://wiki.ubuntu.com/ZestyZapus/ReleaseSchedule)
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1704-alpha2.png" alt="Ubuntu MATE 17.04 Alpha 2" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 17.04 Alpha 2](/gallery/blog/ubuntu-mate-1704-alpha2.png)
 
 ## What works?
 

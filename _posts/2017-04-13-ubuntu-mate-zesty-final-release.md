@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 17.04
-.. slug: ubuntu-mate-zesty-final-release
-.. date: 2017-04-13 14:00:00 UTC
-.. tags: Ubuntu,MATE,Zesty,final,17.04
-.. link:
-.. description: Ubuntu MATE 17.04 (Zesty Zapus) Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 17.04
+permalink: ubuntu-mate-zesty-final-release
+description: Ubuntu MATE 17.04 (Zesty Zapus) Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 **We're totally over the bloody moon to announce Ubuntu MATE 17.04.
 This is our favourite release of Ubuntu MATE so far and, we believe, a
@@ -19,9 +18,8 @@ details. As always, we're never finished and eager to start work on
 hope you enjoy Ubuntu MATE 17.04 as much as we've enjoyed making it
 for you.**
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1704-beta2.png" alt="Ubuntu MATE 17.04 Beta 2" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
 
 # What's New in Ubuntu MATE 17.04?
 

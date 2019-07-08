@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.04 Beta 2
-.. slug: ubuntu-mate-xenial-beta2
-.. date: 2016-03-25 02:00:00 UTC
-.. tags: Ubuntu,MATE,Xenial,beta2
-.. link:
-.. description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Beta
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.04 Beta 2
+permalink: ubuntu-mate-xenial-beta2
+description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Final Beta
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 [April 21st, 2016](https://wiki.ubuntu.org/XenialXerus/ReleaseSchedule)
@@ -54,9 +53,8 @@ Also, thank you to everyone who has been testing Ubuntu MATE 16.04 Beta
 1 and filing bug reports. It has really helped identify lots of little
 issues that we've worked hard to fix.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1604-beta2.png" alt="Ubuntu MATE 16.04 Beta 2" />
-</div>
+<p align="center">
+[Ubuntu MATE 16.04 Beta 2](/gallery/blog/ubuntu-mate-1604-beta2.png)
 
 ### Here is what changed Ubuntu MATE 16.04 Beta 2 since Beta 1.
 

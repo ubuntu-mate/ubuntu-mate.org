@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE community launched
-.. slug: ubuntu-mate-community-launched
-.. date: 2015-01-14 21:45:13 UTC
-.. tags: Ubuntu,MATE,community
-.. link: https://ubuntu-mate.community
-.. description: Ubuntu MATE community launched
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE Community launched
+permalink: ubuntu-mate-community-launched
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Some months ago [we asked if the Ubuntu MATE community was interested in expanding without using social networks](/blog/alternative-community-forum-poll/).
 The answer was clear. Yes, you do. Then we asked [if the community would fund the required infrastructure and hosting](/blog/ubuntu-mate-community-donations/).
@@ -24,22 +22,22 @@ donated.
 </div>
 
 The Ubuntu MATE team decided to use [Discourse](http://www.discourse.org/)
-to provide a community space. You can sign up for an account on the 
+to provide a community space. You can sign up for an account on the
 our server or you can sign in with your social profiles if you want to.
 Discourse has a responsive design so anyone can access the community
 from any device, no apps required.
 
 The Ubuntu MATE community will act as forum, wiki and also replaces
-traditional mailing lists. When you sign up you'll receive a message 
+traditional mailing lists. When you sign up you'll receive a message
 that explains how to get around Discourse and use its most common
 features. Our hope is that the new Ubuntu MATE community site will
 become the hub through which all Ubuntu MATE communication can flow.
 
 ## The server
 
-A new quad core server with 4GB of RAM, 800GB RAID-6 Disk and 6TB 
+A new quad core server with 4GB of RAM, 800GB RAID-6 Disk and 6TB
 bandwidth has been deployed. It is running Ubuntu Server 14.04 LTS and
-[Docker](https://www.docker.com) is running in a container. 
+[Docker](https://www.docker.com) is running in a container.
 [Mandrill](https://mandrillapp.com/) is integrated for email
 notifications and [CloudFlare](https://www.cloudflare.com) provide
 an edge caching CDN, application firewall and adds an additional layer
@@ -50,6 +48,6 @@ enabled and uses perfect forward secrecy (PFS). The webserver also has
 [StatusCake](https://www.statuscake.com) is used to monitor the site
 availability and response times. At the time of writing the Ubuntu MATE
 community site gets an [A+](https://www.ssllabs.com/ssltest/analyze.html?d=ubuntu%2dmate.community&s=104.28.25.88&latest)
-rating from [SSL Labs](https://www.ssllabs.com). 
+rating from [SSL Labs](https://www.ssllabs.com).
 
 We hope you enjoy the new Ubuntu MATE community. See you on the other side!

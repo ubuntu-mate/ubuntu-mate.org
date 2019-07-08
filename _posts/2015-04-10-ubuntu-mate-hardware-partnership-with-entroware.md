@@ -1,17 +1,17 @@
-<!--
-.. title: Ubuntu MATE hardware partnership with Entroware
-.. slug: ubuntu-mate-hardware-partnership-with-entroware
-.. date: 2015-04-10 05:23:23 UTC
-.. tags: Ubuntu,MATE,Entroware,pre-installed,hardware,laptop,desktop
-.. link: https://www.entroware.com/store/ubuntu-mate-announcement
-.. description: Ubuntu MATE forges exciting partnership with Linux hardware startup Entroware
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE hardware partnership with Entroware
+permalink: ubuntu-mate-hardware-partnership-with-entroware
+description: Ubuntu MATE forges exciting partnership with Linux hardware startup Entroware
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE forges exciting partnership with Linux hardware startup [Entroware](https://www.entroware.com).
 
-<img class="centered" src="/images/merch/entroware/ubuntu-mate-entroware.png" alt="Ubuntu MATE and Entroware" />
+<p align="center">
+[Ubuntu MATE and Entroware](/images/merch/entroware/ubuntu-mate-entroware.png)
 
 Ubuntu MATE is a brand new official flavour of Ubuntu focussed on usability and
 stability, which has gained massive traction in the Linux community over the
@@ -19,11 +19,10 @@ past few months. Inspired by the traditional GNOME 2 interface of classic Ubuntu
 releases, Ubuntu MATE is the perfect distribution for easing the transition
 between Microsoft Windows or Mac OS and Linux.
 
-<div align="center">
-  <a href="https://www.entroware.com/store/orion"><img src="/images/merch/entroware/entroware-orion.png" /></a><br />
-  <b>With verified Linux compatible components, the Orion is designed with portability and style in mind.</b>
-</div>
-<br />
+<p align="center">
+[(/images/merch/entroware/entroware-orion.png)](https://www.entroware.com/store/orion)]
+<p align="center">
+**With verified Linux compatible components, the Orion is designed with portability and style in mind.**
 
 Entroware is a start up geared towards providing a complete *"out of the box"*
 Linux experience, with a heavy focus on hardware compatibility. While Entroware

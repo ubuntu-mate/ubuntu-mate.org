@@ -1,13 +1,11 @@
-<!-- 
-.. title: Ubuntu MATE 14.04 reviewed by Linux Luddites
-.. slug: ubuntu-mate-reviewed-by-linux-luddites
-.. date: 2014-11-26 18:55:32 UTC
-.. tags: Ubuntu MATE,Linux Luddites,Review
-.. link: http://linuxluddites.com/shows/episode-29/
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+--- 
+layout: blog-post
+title: Ubuntu MATE 14.04 reviewed by Linux Luddites
+permalink: ubuntu-mate-reviewed-by-linux-luddites
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 [Linux Luddites](http://linuxluddites.com) reviewed Ubuntu MATE 14.04 in
 [Episode #29](http://linuxluddites.com/shows/episode-29/). Ahead of their

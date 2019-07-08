@@ -1,19 +1,16 @@
-<!-- 
-.. title: Compiz in Ubuntu MATE 15.04
-.. slug: compiz-in-ubuntu-mate-vivid-vervet
-.. date: 2015-03-13 17:22:00 UTC
-.. tags: Ubuntu,MATE,Features,Vivid
-.. link: https://www.youtube.com/watch?v=k_nk02XELi4
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+--- 
+layout: blog-post
+title: Compiz in Ubuntu MATE 15.04
+permalink: compiz-in-ubuntu-mate-vivid-vervet
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 This short video introduces Compiz, a 3D-accelerated desktop effects compositor, that is integrated into Ubuntu MATE 15.04.
 
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/k_nk02XELi4?html5=1" frameborder="0" allowfullscreen></iframe>
-</div>
+<p align="center">
+[Compiz in Ubuntu MATE 15.04](https://www.youtube.com/embed/k_nk02XELi4?html5=1)
 
 New videos in this series will be added to the following YouTube playlist.
 

@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 18.10 Final Release
-.. slug: ubuntu-mate-cosmic-final-release
-.. date: 2018-10-18 17:00:00 UTC
-.. tags: Ubuntu,MATE,Cosmic,Cuttlefish,18.10,final
-.. link:
-.. description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Final Release
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 18.10 Final Release
+permalink: ubuntu-mate-cosmic-final-release
+description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Final Release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 **Ubuntu MATE 18.10 is a modest, yet strategic, upgrade over our 18.04
 release. If you want bug fixes and improved hardware support then 18.10 is for
@@ -16,10 +15,8 @@ release is also important for the upcoming 18.04.2 release. Oh yeah, we've
 also made a [bespoke Ubuntu MATE 18.10 image for the GPD Pocket and GPD Pocket
 2](/gpd-pocket/). Read on to learn more...**
 
-<div align="center">
-  <img src="/gallery/blog/1810-final.jpg" alt="Ubuntu MATE 18.10" /><br />
-  <b>Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC</b>
-</div>
+<p align="center">
+[Ubuntu MATE 18.10](/gallery/blog/1810-final.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 
 ## What changed since the Ubuntu MATE 18.04 final release?
 
@@ -59,11 +56,8 @@ bespoke image for the [GPD Pocket](https://gpd.hk/gpdpocket) and
 specific tweaks to get these devices working *"out of the box"*
 without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
 
-<div align="center">
-  <img src="/gallery/blog/gpd-pockets.jpg" /></a><br />
-  <b>Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)</b>
-</div>
-<br />
+<p align="center">
+[Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)](/gallery/blog/gpd-pockets.jpg)
 
 ## Raspberry Pi images
 
@@ -78,9 +72,8 @@ Hopefully we'll have something in time for Christmas 2018 `:-)`
 Accompanying **MATE Desktop 1.20.3** and **Linux 4.18** are **Firefox
 59.0.2**, **VLC 3.0.4**, **LibreOffice 6.1.2.1** and **Thunderbird 60.2.1**.
 
-<div align="center">
-<img src="/gallery/cosmic/versions.png" alt="Major Applications" /><br />
-</div>
+<p align="center">
+[Major Applications](/gallery/cosmic/versions.png)
 
 See the [Ubuntu 18.10 Release
 Notes](https://wiki.ubuntu.com/CosmicCuttlefish/ReleaseNotes) for details of all

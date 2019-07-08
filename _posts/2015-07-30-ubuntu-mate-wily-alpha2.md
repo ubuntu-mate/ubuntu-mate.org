@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.10 Alpha 2
-.. slug: ubuntu-mate-wily-alpha2
-.. date: 2015-07-30 15:08:37 UTC
-.. tags: Ubuntu,MATE,Wily,alpha2
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.10 Alpha 2
+permalink: ubuntu-mate-wily-alpha2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on 
 [October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)

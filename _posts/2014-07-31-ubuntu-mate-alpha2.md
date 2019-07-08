@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE Alpha2
-.. slug: ubuntu-mate-alpha2
-.. date: 2014-07-31 19:20:00 UTC
-.. tags: Ubuntu,MATE,alpha2
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE Alpha2
+permalink: ubuntu-mate-alpha2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are delighted to announce the release of Ubuntu MATE Alpha2.
 

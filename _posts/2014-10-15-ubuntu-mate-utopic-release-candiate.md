@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 14.10 Release Candidate
-.. slug: ubuntu-mate-utopic-release-candidate
-.. date: 2014-10-15 21:00:00 UTC
-.. tags: Ubuntu,MATE,Utopic,release candidate
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 14.10 Release Candidate
+permalink: ubuntu-mate-utopic-release-candidate
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE 14.10 release candidate is now available for download.
 This is the last release prior to the final 14.10 release and fixes

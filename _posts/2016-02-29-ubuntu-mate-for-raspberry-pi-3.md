@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE for Raspberry Pi 3
-.. slug: ubuntu-mate-for-raspberry-pi-3
-.. date: 2016-02-29 07:00:00 UTC
-.. tags: Ubuntu,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,Ubuntu MATE,15.10,Released
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE for Raspberry Pi 3
+permalink: ubuntu-mate-for-raspberry-pi-3
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 The [Raspberry Pi 3 Model B is
 here](https://www.raspberrypi.org/blog/raspberry-pi-3-on-sale/) and we
@@ -22,9 +20,8 @@ Foundation](https://www.raspberrypi.org/) for providing [Martin
 Wimpress](https://twitter.com/m_wimpress) with a Raspberry Pi 3 and
 engineering assistance over the weekend.
 
-<div align="center">
-  <img src="/images/logos/ubuntu-mate-flavour-maker-pi3.png" alt="Ubuntu MATE for the Raspberry Pi 3" title="Ubuntu MATE for the Raspberry Pi 3" />
-</div>
+<p align="center">
+[Ubuntu MATE for the Raspberry Pi 3](/images/logos/ubuntu-mate-flavour-maker-pi3.png)
 
 The Raspberry Pi 3 Model B is the same form factor as the Raspberry Pi
 B+ and Raspberry Pi 2 Model B, the RAM remains 1GB and the USB and

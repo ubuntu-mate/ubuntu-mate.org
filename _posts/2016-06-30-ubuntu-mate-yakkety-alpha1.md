@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.10 Alpha 1
-.. slug: ubuntu-mate-yakkety-alpha1
-.. date: 2016-06-30 19:35:00 UTC
-.. tags: Ubuntu,MATE,Yakkety,alpha1
-.. link:
-.. description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 1
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.10 Alpha 1
+permalink: ubuntu-mate-yakkety-alpha1
+description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 **Beaut, beauty! We're stoked to announce Ubuntu MATE 16.10 Alpha 1,
 the first distro to ship a fair dinkum MATE Desktop implementation

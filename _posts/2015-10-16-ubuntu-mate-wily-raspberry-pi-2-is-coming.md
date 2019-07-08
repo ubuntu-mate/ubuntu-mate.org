@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.10 for Raspberry Pi 2 is coming
-.. slug: ubuntu-mate-wily-for-raspberry-pi-2-is-coming
-.. date: 2015-10-16 14:32:23 UTC
-.. tags: Ubuntu,MATE,Raspberry Pi,armhf
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.10 for Raspberry Pi 2 is coming
+permalink: ubuntu-mate-wily-for-raspberry-pi-2-is-coming
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 The Ubuntu MATE team have been working on a revised image for the
 Raspberry Pi 2 based on Ubuntu MATE 15.10. It will be released on

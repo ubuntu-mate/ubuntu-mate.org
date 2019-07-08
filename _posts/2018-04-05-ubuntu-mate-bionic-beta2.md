@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 18.04 Beta 2
-.. slug: ubuntu-mate-bionic-beta2
-.. date: 2018-04-06 08:15:00 UTC
-.. tags: Ubuntu,MATE,Bionic,beta2
-.. link:
-.. description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 18.04 Beta 2
+permalink: ubuntu-mate-bionic-beta2
+description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 **Yeah baby! You know you want some of what we've got. Come and have a fling 
 with Ubuntu MATE 18.04 Beta 2.**
@@ -17,9 +16,8 @@ We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for distribution on
 this *Beta* pre-release, you can see what we are trying out in preparation for
 our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/1804-beta2.png" alt="Ubuntu MATE 18.04 Beta 2" /><br />
-</div>
+{;.center}
+[Ubuntu MATE 18.04 Beta 2](/gallery/blog/1804-beta2.png)
 
 ## What works?
 
@@ -94,9 +92,8 @@ I have decided to add a new layout to the collection available in Ubuntu MATE
 with the menu-bar (Applications, Places, System) replaced by Brisk Menu. It 
 looks like this:
 
-<div align="center">
-<img src="/gallery/bionic/familiar.png" alt="Familiar" /><br />
-</div>
+<p align="center">
+[Familiar](/gallery/bionic/familiar.png)
 
 Familiar is now the the default layout, Traditional will continue to be 
 shipped, unchanged, and will be available via MATE Tweak for those who prefer 
@@ -113,9 +110,9 @@ It's the little things, right?
 
 ### Global Menu and MATE HUD
 
-<div align="center">
-<img src="/gallery/layouts/global-menu.gif" alt="Ubuntu MATE Global Menu" /><br />
-</div>
+{:.center}
+[Ubuntu MATE Global Menu](/gallery/layouts/global-menu.gif)
+
 
 The Global Menu integration is much improved. When the Global Menu is added to 
 a panel the **application menus are automatically removed from the application 
@@ -123,9 +120,8 @@ window** and only presented globally, no additional configuration (as was the
 case) is required. Likewise removing the Global Menu from a panel will restore 
 menus to their application windows.
 
-<div align="center">
-<img src="/gallery/layouts/mate-hud-local.gif" alt="Ubuntu MATE HUD" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE HUD](/gallery/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding `Alt` any longer won't 
 trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've 
@@ -147,9 +143,8 @@ and ease of use over notification area applets. The volume in Indicator Sound
 can now be over driven, so it is consistent with the MATE sound preferences. 
 Notification area applets are still supported as a fallback.
 
-<div align="center">
-<img src="/gallery/layouts/indicators-small.png" alt="Ubuntu MATE HUD" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE HUD](/gallery/layouts/indicators-small.png)
 
 ### MATE Dock Applet
 
@@ -162,9 +157,8 @@ arrangements. The new version adds support for BAMF and icon scrolling.
 
 ### Brisk Menu
 
-<div align="center">
-<img src="/gallery/bionic/brisk-menu-dash.png" alt="Brisk Menu Dash Launcher" /><br />
-</div>
+{:.center}
+[Brisk Menu Dash Launcher](/gallery/bionic/brisk-menu-dash.png)
 
 Many users commented that when using the Mutiny layout the *"traditional"* 
 menu felt out of place. The [Solus Project](https://solus-project.com/), the 
@@ -194,9 +188,8 @@ If you follow the Ubuntu news closely you may have heard that 18.04 now has a
 Minimal Install option. Ubuntu MATE was at the front of the queue to take 
 advantage of this new feature.
 
-<div align="center">
-<img src="/gallery/bionic/minimal-install.png" alt="Minimal Install" /><br />
-</div>
+<p align="center">
+[Minimal Install](/gallery/bionic/minimal-install.png)
 
 The Minimal Install is a new option presented in the installer that will 
 install just the MATE Desktop, its utilities, its themes and Firefox. All the 
@@ -222,9 +215,8 @@ far more reliable now too. We've removed the *Interface* section from MATE
 Tweak. Sadly all the features the Interface section tweaked have been dropped 
 from GTK3 so are now redundant.
 
-<div align="center">
-<img src="/gallery/bionic/mate-tweak.png" alt="MATE Tweak" /><br />
-</div>
+<p align="center">
+[MATE Tweak](/gallery/bionic/mate-tweak.png)
 
 **We've added the following changes since 18.04 Beta 1**
 
@@ -241,9 +233,8 @@ We've landed [caja-eiciel](https://github.com/darkshram/mate-eiciel) and [caja-s
 
 ### Artwork, Fonts & Emoji
 
-<div align="center">
-<img src="/gallery/bionic/emoji.png" alt="Emoji Picker" /><br />
-</div>
+<p align="center">
+[Emoji Picker](/gallery/bionic/emoji.png)
 
 We are no longer shipping `mate-backgrounds` by default. They have served us 
 well, but are looking a little stale now. We have created a new selection of 

@@ -1,12 +1,11 @@
-<!-- 
-.. title: Ubuntu MATE Boutique
-.. slug: ubuntu-mate-boutique
-.. date: 2015-06-24 23:01:09 UTC
-.. tags: Ubuntu,MATE,Shop,Store,Boutique,Shirt,Polo,T-Shirt,Computer,Apparel
-.. link: https://ubuntu-mate.boutique/
-.. description: Ubuntu MATE Shop for computers, shirts and apparel
-.. type: text
--->
+---
+layout: blog-post 
+title: Ubuntu MATE Boutique
+permalink: ubuntu-mate-boutique
+description: Ubuntu MATE Shop for computers, shirts and apparel
+category: news
+lang: en
+---
 
 ## The [Ubuntu MATE Boutique](https://ubuntu-mate.boutique) is open!
 

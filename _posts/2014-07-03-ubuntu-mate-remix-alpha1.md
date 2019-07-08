@@ -1,13 +1,11 @@
-<!-- 
-.. title: Ubuntu MATE Remix Alpha1
-.. slug: ubuntu-mate-remix-alpha1
-.. date: 2014-07-03 16:25:00 UTC
-.. tags: Ubuntu,MATE,alpha1
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+--- 
+layout: blog-post
+title: Ubuntu MATE Remix Alpha1
+permalink: ubuntu-mate-remix-alpha1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 **Yes, it's here and it's *very* alpha. So, be nice. Please!**
 

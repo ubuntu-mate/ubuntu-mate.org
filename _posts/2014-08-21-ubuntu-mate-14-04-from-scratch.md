@@ -1,11 +1,11 @@
-<!--
-.. title: Ubuntu MATE 14.04 from Scratch
-.. slug: 2014-08-ubuntu-mate-14-04-from-scratch
-.. date: 2014-08-20 22:57:43
-.. tags: Ubuntu,MATE,LTS,Trusty
-.. link: 
-.. description: Installing Ubuntu MATE 14.04 from scratch
-.. author: Martin Wimpress
+---
+layout: blog-post
+title: Ubuntu MATE 14.04 from Scratch
+permalink: 2014-08-ubuntu-mate-14-04-from-scratch
+description: Installing Ubuntu MATE 14.04 from scratch
+category: dev
+author: Martin Wimpress
+lang: en
 -->
 
 We are getting a lot of requests for Ubuntu MATE 14.04 .iso images but we

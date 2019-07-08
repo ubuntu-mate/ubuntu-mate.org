@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.04.2 for Raspberry Pi 2 and Raspberry Pi 3
-.. slug: ubuntu-mate-xenial-point-2-raspberry-pi
-.. date: 2017-02-17 06:00:00 UTC
-.. tags: Ubuntu,Raspberry Pi,Raspberry Pi 2,Raspberry Pi 3,Ubuntu MATE,16.04,Xenial,Xerus,HWE
-.. link: https://ubuntu-mate.org/raspberry-pi/
-.. description: Ubuntu MATE 16.04.2 LTS (Xenial Xerus) for Raspbery Pi 2 and Raspberry Pi 3.
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.04.2 for Raspberry Pi 2 and Raspberry Pi 3
+peramlink: ubuntu-mate-xenial-point-2-raspberry-pi
+description: Ubuntu MATE 16.04.2 LTS (Xenial Xerus) for Raspbery Pi 2 and Raspberry Pi 3.
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 An Ubuntu MATE 16.04.2 image for the Raspberry Pi 2 and Raspberry Pi 3 is now
 available for download.

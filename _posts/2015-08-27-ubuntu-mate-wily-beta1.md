@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.10 Beta 1
-.. slug: ubuntu-mate-wily-beta1
-.. date: 2015-08-27 13:28:37 UTC
-.. tags: Ubuntu,MATE,Wily,beta1
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.10 Beta 1
+permalink: ubuntu-mate-wily-beta1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on 
 [October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)

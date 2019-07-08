@@ -1,15 +1,14 @@
-<!--
-.. title: Ubuntu MATE 15.04 generic ARMv7 root file system
-.. slug: ubuntu-mate-vivid-armhf-rootfs
-.. date: 2015-05-13 23:32:23 UTC
-.. tags: Ubuntu,MATE,armhf
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.04 generic ARMv7 root file system
+permalink: ubuntu-mate-vivid-armhf-rootfs
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
-<img class="right" src="/assets/img/logos/arm-cpu.png" alt="ARM CPU"/>
+{:.right}
+[ARM CPU](/assets/img/logos/arm-cpu.png)
 
 The Ubuntu MATE team have made a generic Ubuntu MATE 15.04 root file system for 
 ARMv7 devices. This root file system is intended for ARMv7 enthusiasts and 

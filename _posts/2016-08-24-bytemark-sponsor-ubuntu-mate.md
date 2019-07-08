@@ -1,22 +1,23 @@
-<!--
-.. title: Bytemark sponsor Ubuntu MATE
-.. slug: bytemark-sponsor-ubuntu-mate
-.. date: 2016-08-24 12:00:00 UTC
-.. tags: Ubuntu,MATE,Bytemark,sponsor,hosting,bandwidth,Cloud Servers
-.. link: https://blog.bytemark.co.uk/2016/08/24/were-supporting-ubuntu-mate
-.. description: Bytemark sponsor Ubuntu MATE hosting and bandwidth
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Bytemark sponsor Ubuntu MATE
+permalink: bytemark-sponsor-ubuntu-mate
+description: Bytemark sponsor Ubuntu MATE hosting and bandwidth
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 A couple of weeks ago the [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) Managing Director,
 [Matthew Bloch](https://twitter.com/matthewbloch), contacted the Ubuntu
 MATE team to offer free hosting for the project. As of August 18th 2016
 all the Ubuntu MATE infrastucture is hosted on [Bytemark Cloud Servers](https://www.bytemark.co.uk/cloud/).
 
-<a href="https://www.bytemark.co.uk/r/ubuntu-mate/"><img class="centered" src="/images/sponsors/bytemark-large.png" alt="Bytemark" /></a>
-<div align="center">**[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) are
-generously sponsoring Ubuntu MATE.**</div>
+<p align="center">
+[Bytemark](/images/sponsors/bytemark-large.png)
+<p align="center">
+[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) **are generously sponsoring Ubuntu MATE
+
 
 ## Why did Bytemark make such a generous offer?
 

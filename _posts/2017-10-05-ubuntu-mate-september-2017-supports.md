@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE September 2017 supporters
-.. slug: ubuntu-mate-september-2017-supporters
-.. date: 2017-10-05 13:00:00 UTC
-.. tags: Ubuntu,MATE,community,donate
-.. link:
-.. description: Community members who supported Ubuntu MATE this month.
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE September 2017 supporters
+permalink: ubuntu-mate-september-2017-supporters
+description: Community members who supported Ubuntu MATE this month.
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Many thanks to everyone who invested in the Ubuntu MATE project this
 month. You have been generous as always and ensured that we can meet
@@ -15,9 +14,8 @@ all the costs associated with running the Ubuntu MATE project. **As
 usual we've been able to fund some developers to work on Ubuntu MATE
 and MATE Desktop projects.**
 
-<div align="center">
-<img src="/gallery/blog/thankyou.png" alt="Thank you!" title="Thank You!"/>
-</div>
+<p align="center">
+[Thank you!](/gallery/blog/thankyou.png)
 
 ## How will this months crowd funding be spent?
 

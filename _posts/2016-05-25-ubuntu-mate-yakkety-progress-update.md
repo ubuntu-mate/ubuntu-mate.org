@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 16.10 progress update
-.. slug: ubuntu-mate-yakkety-progress-update
-.. date: 2016-05-25 13:45:00 UTC
-.. tags: Ubuntu,MATE,GTK3,Snappy,Welcome,Boutique
-.. link:
-.. description: Ubuntu MATE 16.10 progress update on the migration to GTK3+ and Snappy package research and development
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 16.10 progress update
+permalink: ubuntu-mate-yakkety-progress-update
+description: Ubuntu MATE 16.10 progress update on the migration to GTK3+ and Snappy package research and development
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 The [Ubuntu MATE Patrons](https://www.patreon.com/ubuntu_mate) have already 
 received some updates explaining most of this, but here's an update for 
@@ -61,16 +60,14 @@ ahead and the role Snaps will play in Ubuntu MATE's *"retrospective future"*.
 Right now we've got one snap package for Galculator, which is part of the MATE 
 Desktop suite of applications, and our first attempt looked liked this:
 
-<div align="center">
-<img src="/gallery/Progress-201605/Snappy_Galculator.png" alt="Snappy Galculator" />
-</div>
+{:.center}
+[Snappy Galculator](/gallery/Progress-201605/Snappy_Galculator.png)
 
 Oh dear! As you can see it's *very* early days `;-)` Fortunately, after some advice from
 Ubuntu developers, it now looks like this:
 
-<div align="center">
-<img src="/gallery/Progress-201605/Snappy_Galculator_2nd_Day.png" alt="Snappy Galculator Day 2" />
-</div>
+<p align="center">
+[Snappy Galculator Day 2](/gallery/Progress-201605/Snappy_Galculator_2nd_Day.png)
 
 Better! On the second day of experimenting with Snappy things improved. There 
 is still an issue with rendering some images, the .png images that surround 
@@ -93,9 +90,8 @@ Snaps will make that problem a snap to solve.
 
 Ubuntu MATE 16.10 will be a GTK3+ build only. This is both good and bad, here's why.
 
-<div align="center">
-<img src="/gallery/Progress-201605/MATE114_GTK318.png" alt="Ubuntu MATE 16.10 (dev build) running MATE 1.14 built against GTK 3.18" />
-</div>
+<p align="center">
+[/gallery/Progress-201605/Snappy_Galculator_2nd_Day.png](/gallery/Progress-201605/MATE114_GTK318.png)
 
 The screenshot above shows an early development build of Ubuntu MATE 16.10 
 running MATE 1.14 built against GTK 3.18. Many improvements have been made 
@@ -170,9 +166,8 @@ design refresh.
 The Software Boutique now features News, to **inform you of package additions, 
 modifications and removals**.
 
-<div align="center">
-<img src="/gallery/Progress-201605/Boutique_News.png" alt="Boutique News" />
-</div>
+<p align="center">
+[Boutique News](/gallery/Progress-201605/Boutique_News.png)
 
 ### Boutique Search
 
@@ -180,9 +175,8 @@ modifications and removals**.
 contributed some new applications, including [Atom](https://atom.io/),
 [Clementine](https://www.clementine-player.org/) and [Lutris](https://lutris.net/). 
 
-<div align="center">
-<img src="/gallery/Progress-201605/Boutique_Search.png" alt="Boutique Search" />
-</div>
+<p align="center">
+[Boutique Search](/gallery/Progress-201605/Boutique_Search.png)
 
 ## What of Ubuntu MATE 16.04?
 

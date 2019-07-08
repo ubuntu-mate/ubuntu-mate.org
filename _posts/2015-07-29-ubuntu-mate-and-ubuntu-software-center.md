@@ -1,13 +1,11 @@
-<!-- 
-.. title: Ubuntu MATE and Ubuntu Software Center
-.. slug: ubuntu-mate-and-ubuntu-software-center
-.. date: 2015-07-29 10:30:00 UTC
-.. tags: Ubuntu,MATE,Software Center,Linux Unplugged
-.. link: 
-.. description: 
-.. type: text
-.. author: Martin Wimpress
--->
+--- 
+layout: blog-post
+title: Ubuntu MATE and Ubuntu Software Center
+permalink: ubuntu-mate-and-ubuntu-software-center
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Last night I discovered that my decision to remove the Ubuntu Software Center 
 from the default install on Ubuntu MATE 15.10 has caused quite a stir. I genuinely
@@ -28,15 +26,13 @@ But before you go clicking the play button, know this:
 
 With that said, we discussed this is more detail last night. Have a listen.
 
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/A9ZaXk7Azxw?html5=1&start=234&end=1479" frameborder="0" allowfullscreen></iframe>
-</div>
+<p align="center">
+[Ubuntu MATE and Ubuntu Software Center](https://www.youtube.com/embed/A9ZaXk7Azxw?html5=1&start=234&end=1479)
 
 We also got stuck into it some more in the post show.
 
-<div align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/A9ZaXk7Azxw?html5=1&start=5055" frameborder="0" allowfullscreen></iframe>
-</div>
+<p align="center">
+[Ubuntu MATE and Ubuntu Software Center Post Show](https://www.youtube.com/embed/A9ZaXk7Azxw?html5=1&start=5055)
 
 [Jupiter Broadcasting](http://www.jupiterbroadcasting.com/) produce a number
 of weekly videocasts and podcasts mostly oriented around Linux, Open Source

@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 14.10 Release
-.. slug: ubuntu-mate-utopic-final-release
-.. date: 2014-10-23 19:13:37 UTC
-.. tags: Ubuntu,MATE,Utopic,final
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog
+title: Ubuntu MATE 14.10 Release
+permalink: ubuntu-mate-utopic-final-release
+category: release
+author: Martin Wimpress
+lang: en
+---
 
 The Ubuntu MATE 14.10 final release is now available for download.
 This release fixes a few issues that were present in the release

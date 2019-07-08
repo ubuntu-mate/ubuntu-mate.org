@@ -1,13 +1,12 @@
-<!--
-.. title: MATE Desktop GTK2 vs GTK3 memory consumption
-.. slug: mate-desktop-gtk2-vs-gtk3-memory-consumption
-.. date: 2016-06-10 13:01:00 UTC
-.. tags: Ubuntu,MATE,GTK2,GTK3,RAM,benchmark
-.. link:
-.. description: How does MATE Desktop for GTK2 RAM use compare to MATE Desktop for GTK3?
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: MATE Desktop GTK2 vs GTK3 memory consumption
+permalink: mate-desktop-gtk2-vs-gtk3-memory-consumption
+description: How does MATE Desktop for GTK2 RAM use compare to MATE Desktop for GTK3?
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 The number two question in the Ubuntu MATE community right now is:
 
@@ -15,10 +14,7 @@ The number two question in the Ubuntu MATE community right now is:
 
 The answer is **Yes, but No**. Read on for a full explanation.
 
-<div align="center">
-<img src="/gallery/blog/RAM.png" alt="Computer RAM" />
-</div>
-<br />
+[Computer RAM](/gallery/blog/RAM.png)
 
 Let's also take this opportunity to deal with another claim that cropped up 
 recently, [that MATE Desktop 1.14.1 on Ubuntu MATE 16.04 uses significantly 

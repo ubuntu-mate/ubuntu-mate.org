@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 14.04 for PowerPC
-.. slug: ubuntu-mate-trusty-powerpc
-.. date: 2014-12-16 22:56:13 UTC
-.. tags: Ubuntu,MATE,PowerPC
-.. link: https://plus.google.com/111285327879595317710/posts/2dTTB6qBHrA
-.. description: Ubuntu MATE 14.04.1 for PowerPC available for testing.
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 14.04 for PowerPC
+permalink: ubuntu-mate-trusty-powerpc
+description: Ubuntu MATE 14.04.1 for PowerPC available for testing.
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 A PowerPC edition of Ubuntu MATE 14.04 is ready for testing thanks to
 [Adam Smith](https://plus.google.com/u/0/111285327879595317710) from the Ubuntu

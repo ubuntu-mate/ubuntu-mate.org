@@ -1,17 +1,17 @@
-<!--
-.. title: Ubuntu MATE hardware partnership with LibreTrend
-.. slug: ubuntu-mate-hardware-partnership-with-libretrend
-.. date: 2015-07-02 05:23:23 UTC
-.. tags: Ubuntu,MATE,LibreTrend,pre-installed,hardware,desktop
-.. link:
-.. description: Ubuntu MATE agrees hardware partnership with LibreTrend
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE hardware partnership with LibreTrend
+permalink: ubuntu-mate-hardware-partnership-with-libretrend
+description: Ubuntu MATE agrees hardware partnership with LibreTrend
+category: news
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE agrees a partnership with GNU/Linux hardware manufacturer [LibreTrend](http://www.libretrend.com/en/).
 
-<img class="centered" src="/images/merch/libretrend/ubuntu-mate-libretrend.png" alt="Ubuntu MATE and LibreTrend" />
+<p align="center">
+[Ubuntu MATE and LibreTrend](/images/merch/libretrend/ubuntu-mate-libretrend.png)
 
 Ubuntu MATE is an official flavour of Ubuntu focussed on usability and
 stability, which has gained massive traction in the Linux community
@@ -19,16 +19,16 @@ over recent months. Inspired by the traditional GNOME 2 interface of
 classic Ubuntu releases, Ubuntu MATE is the perfect distribution for
 easing the transition between Microsoft Windows or Mac OS and Linux.
 
-<div align="center">
-  <a href="http://www.libretrend.com/en/store/librebox"><img src="/images/merch/libretrend/librebox-topbanner.jpg" /></a><br />
-  <b>The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.</b>
-</div>
-<br />
+<p align="center">
+[The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.](/images/merch/libretrend/librebox-topbanner.jpg)
+
+<p align="center">[LibreBox](http://www.libretrend.com/en/store/librebox)
 
 LibreTrend are the designer and manufacturer of the [LibreBox](http://www.libretrend.com/en/hardware),
 a computer geared towards providing a complete *"out of the box"* Linux
 experience, with a heavy focus on hardware compatibility. All the hardware in
 the LibreBox is Free Software friendly and 100% supported by *"blobless"* Linux drivers.
+
 
 <div class="row">
   <div class="col-lg-2">

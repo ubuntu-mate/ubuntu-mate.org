@@ -1,13 +1,12 @@
-<!--
-.. title: Ubuntu MATE 17.04 Beta 2
-.. slug: ubuntu-mate-zesty-beta2
-.. date: 2017-03-23 21:30:00 UTC
-.. tags: Ubuntu,MATE,Zesty,beta2
-.. link:
-.. description: Ubuntu MATE 17.04 (Zesty Zapus) Beta 2
-.. type: text
-.. author: Martin Wimpress
--->
+---
+format: blog-post
+title: Ubuntu MATE 17.04 Beta 2
+permalink: ubuntu-mate-zesty-beta2
+description: Ubuntu MATE 17.04 (Zesty Zapus) Beta 2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 **We're absolutely chuffed to bits to announce, what is quite possibly,
 the best Ubuntu MATE beta we've ever released. We didn't participate
@@ -20,9 +19,8 @@ We are preparing Ubuntu MATE 17.04 (Zesty Zapus) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/gallery/blog/ubuntu-mate-1704-beta2.png" alt="Ubuntu MATE 17.04 Beta 2" /><br />
-</div>
+<p align="center">
+[Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
 
 ## What works?
 

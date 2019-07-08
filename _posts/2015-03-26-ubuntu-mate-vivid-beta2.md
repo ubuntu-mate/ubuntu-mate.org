@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE 15.04 Beta 2
-.. slug: ubuntu-mate-vivid-beta2
-.. date: 2015-03-26 23:23:23 UTC
-.. tags: Ubuntu,MATE,Vivid,beta
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE 15.04 Beta 2
+permalink: ubuntu-mate-vivid-beta2
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE 15.04 Beta 2 is now available for official download. This
 release builds on Ubuntu MATE Beta 1, makes a few changes and fixes

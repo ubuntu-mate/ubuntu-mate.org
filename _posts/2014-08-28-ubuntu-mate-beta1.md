@@ -1,13 +1,11 @@
-<!--
-.. title: Ubuntu MATE Beta1
-.. slug: ubuntu-mate-beta1
-.. date: 2014-08-28 19:04:11 UTC
-.. tags: Ubuntu,MATE,beta1
-.. link:
-.. description:
-.. type: text
-.. author: Martin Wimpress
--->
+---
+layout: blog-post
+title: Ubuntu MATE Beta1
+permalink: ubuntu-mate-beta1
+category: dev
+author: Martin Wimpress
+lang: en
+---
 
 Ubuntu MATE Beta1 is released and represents a big step forward 
 compared to Alpha2, not least because Ubuntu MATE is now sporting new 
