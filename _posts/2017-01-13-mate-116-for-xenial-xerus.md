@@ -19,7 +19,7 @@ A popular question in the Ubuntu MATE community among the 16.04 users is:
 The answer is, **now**. *Right now*.
 
 {:.center}
-![About MATE Desktop 1.16](/gallery/blog/MATE116.png)
+![About MATE Desktop 1.16](/images/blog/MATE116.png)
 
 We've published a [PPA containing MATE 1.16 that is
 designed to work with Ubuntu MATE 16.04](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/xenial-mate).

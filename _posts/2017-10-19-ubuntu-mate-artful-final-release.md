@@ -31,7 +31,7 @@ different desktop layouts each providing a distinctive workflow.
 and skip over our most glorious release notes.*
 
 {:.center}
-![Ubuntu MATE 17.10 Final](/gallery/blog/1710-final-Medium.png)
+![Ubuntu MATE 17.10 Final](/images/blog/1710-final-Medium.png)
 
 # What changed since the Ubuntu MATE 17.04 final release?
 
@@ -69,13 +69,13 @@ Here are a few screenshots to give you a feel for how things look.
 <div id="banner-fade-20171019">
   <!-- start Basic Jquery Slider -->
   <ul class="bjqs">
-    <li><a class="image-reference" href="/gallery/layouts/00_mutiny.png"><img src="/gallery/layouts/00_mutiny.png" title="Mutiny Panel Layout"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/01_cupertino.png"><img src="/gallery/layouts/01_cupertino.png" title="Cupertino Panel Layout"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/02_redmond.png"><img src="/gallery/layouts/02_redmond.png" title="Redmond Panel Layout"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/03_pantheon.png"><img src="/gallery/layouts/03_pantheon.png" title="Pantheon Panel Layout"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/04_contemporary.png"><img src="/gallery/layouts/04_contemporary.png" title="Contemporary Panel Layout"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/05_netbook.png"><img src="/gallery/layouts/05_netbook.png" title="Netbook Panel Layout"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/06_traditional.png"><img src="/gallery/layouts/06_traditional.png" title="Traditional Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/00_mutiny.png"><img src="/images/blog/layouts/00_mutiny.png" title="Mutiny Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/01_cupertino.png"><img src="/images/blog/layouts/01_cupertino.png" title="Cupertino Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/02_redmond.png"><img src="/images/blog/layouts/02_redmond.png" title="Redmond Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/03_pantheon.png"><img src="/images/blog/layouts/03_pantheon.png" title="Pantheon Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/04_contemporary.png"><img src="/images/blog/layouts/04_contemporary.png" title="Contemporary Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/05_netbook.png"><img src="/images/blog/layouts/05_netbook.png" title="Netbook Panel Layout"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/06_traditional.png"><img src="/images/blog/layouts/06_traditional.png" title="Traditional Panel Layout"></a></li>
   </ul>
   <!-- end Basic jQuery Slider -->
 </div>
@@ -104,7 +104,7 @@ and others. You can now make more of your available screen space while
 using Ubuntu MATE.
 
 {:.center}
-[Global Menu](/gallery/layouts/global-menu.gif)
+[Global Menu](/images/blog/layouts/global-menu.gif)
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
 we've had since 17.10 Alpha 2 we've made the Global Menu far more
@@ -114,7 +114,7 @@ application was launched from the terminal, menu or launcher.
 ## Super key
 
 {:.right}
-![Super Key](/gallery/layouts/superkey.png)
+![Super Key](/images/blog/layouts/superkey.png)
 
 Complete Super key support is available from several of the panel
 layouts. We're thrilled to welcome [Victor
@@ -159,7 +159,7 @@ great testing feedback.
   * **NEW in 17.10 Beta 1** - The **HUD is now locally integrated**, so that it overlays on top of the activate application.
 
 {:.center}
-![The Locally integrated Heads-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
+![The Locally integrated Heads-Up Display (HUD)](/images/blog/layouts/mate-hud-local.gif)
 
 ### Locally integrated rationale
 
@@ -188,7 +188,7 @@ with MATE. The default Indicators are:
   * Session
 
 {:.center}
-![Indicators](/gallery/layouts/indicators.png)
+![Indicators](/images/blog/layouts/indicators.png)
 
 ## MATE Tweak
 
@@ -202,7 +202,7 @@ much requested features.
   * **NEW in 17.10 Beta 1** - You can also delete previously saved custom panel layouts.
 
 {:.center}
-![MATE Tweak, more than just a tweak tool.](/gallery/layouts/mate-tweak.png)
+![MATE Tweak, more than just a tweak tool.](/images/blog/layouts/mate-tweak.png)
 
 When activating the Compton compositor you should now experience an
 entirely tear free experience that is optimised for gaming. Thanks to
@@ -227,7 +227,7 @@ to see the full line up of new artwork though `;-)`
 uses LightDM under the hood but has a much nicer look and feel.
 
 {:.center}
-![Slick Greeter](/gallery/layouts/slick-greeter.png)
+![Slick Greeter](/images/blog/layouts/slick-greeter.png)
 
 ## File manager
 
@@ -241,7 +241,7 @@ MATE file manager.
   * Updated [Folder Color](http://foldercolor.tuxfamily.org/). Now supports custom emblems and properly integrates with the Ubuntu MATE default icon theme.
 
 {:.center}
-![Caja Rename](/gallery/layouts/caja-rename.png)
+![Caja Rename](/images/blog/layouts/caja-rename.png)
 
 ## Snaps installed by default
 
@@ -252,7 +252,7 @@ PulseAudio](https://github.com/GeorgeFilipkin/pulsemixer), is installed
 by default.
 
 {:.center}
-![pulsemixer](/gallery/layouts/pulsemixer.png)
+![pulsemixer](/images/blog/layouts/pulsemixer.png)
 
 Pre-installing snaps by default in the desktop images was an outcome of
 the [Ubuntu Rally that took place in New York](https://insights.ubuntu.com/2017/09/01/ubuntu-rally-in-nyc/).

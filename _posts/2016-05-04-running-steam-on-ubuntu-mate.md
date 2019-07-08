@@ -24,7 +24,7 @@ Mateus](https://twitter.com/UnaccountedFour)** from **[Linux Game
 Cast](https://linuxgamecast.com/)**.
 
 {:.center}
-![Steam on Ubuntu MATE](/gallery/blog/steam-on-ubuntu-mate.png)
+![Steam on Ubuntu MATE](/images/blog/steam-on-ubuntu-mate.png)
 
 Pedro ran the benchmarks he is most familar with on his Steam Box by simply
 replacing the SSD with one that had Ubuntu MATE 16.04 installed. Pedro also

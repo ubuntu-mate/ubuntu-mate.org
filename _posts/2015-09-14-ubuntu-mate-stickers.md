@@ -22,6 +22,6 @@ pre-installed with Ubuntu MATE and Ubuntu MATE branded clothes and apparel.
 {% include blog/jumbotron.html
     title = "Ubuntu MATE Boutique"
     text = "The Ubuntu MATE Boutique is full of exotic items."
-    button_text = "/shop/"
-    button_url = "Shop"
+    button_text = "Shop"
+    button_url = "/shop/"
 %}

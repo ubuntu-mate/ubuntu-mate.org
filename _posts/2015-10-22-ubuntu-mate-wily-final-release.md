@@ -53,7 +53,7 @@ release day along side the other supported architectures.
 You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
 
 {:.center}
-![Raspberry Pi logo](/images/logos/raspberry-pi.png)
+![Raspberry Pi logo](/images/blog/Logos/raspberry-pi.png)
 **Ubuntu MATE 15.10 is also available for the Raspberry Pi 2**
 
 ## Thanks

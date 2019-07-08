@@ -14,7 +14,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE running on the Raspberry Pi 3+](/gallery/Screenshots/09_raspberrypi.png)
+![Ubuntu MATE running on the Raspberry Pi 3+](/images/blog/Screenshots/09_raspberrypi.png)
 
 Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,
 with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).
@@ -104,8 +104,8 @@ High-level features of these images are:
 {% include blog/jumbotron.html
     title = "Download"
     text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today."
-    button_text = "/download/"
-    button_url = "Download"
+    button_text = "Download"
+    button_url = "/download/"
 %}
 
 ## Feedback and Improvements

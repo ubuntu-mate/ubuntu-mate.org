@@ -25,7 +25,7 @@ We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 16.10 Beta 2](/gallery/blog/ubuntu-mate-1610-beta2.png)
+![Ubuntu MATE 16.10 Beta 2](/images/blog/ubuntu-mate-1610-beta2.png)
 **As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.**
 
 ## What works?

@@ -10,7 +10,7 @@ lang: en
 ---
 
 {:.center}
-![Ubuntu MATE 16.10 Final](/gallery/blog/ubuntu-mate-1610-final.png)
+![Ubuntu MATE 16.10 Final](/images/blog/ubuntu-mate-1610-final.png)
 **As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.**
 
 # It's GTK3+ baby, all of it!

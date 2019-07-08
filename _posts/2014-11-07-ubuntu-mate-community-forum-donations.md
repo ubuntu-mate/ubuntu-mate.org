@@ -37,6 +37,6 @@ Go on, be brilliant, help grow our community.
     title = "Grow your community"
     text = "Become a full Ubuntu MATE community member by helping to grow and
         sustain it. Warm and fuzzy sensations guaranteed."
-    button_text = "/donate/"
-    button_url = "Donate"
+    button_text = "Donate"
+    button_url = "/donate/"
 %}

@@ -54,7 +54,7 @@ Also, thank you to everyone who has been testing Ubuntu MATE 16.04 Beta
 issues that we've worked hard to fix.
 
 {:.center}
-![Ubuntu MATE 16.04 Beta 2](/gallery/blog/ubuntu-mate-1604-beta2.png)
+![Ubuntu MATE 16.04 Beta 2](/images/blog/ubuntu-mate-1604-beta2.png)
 
 ### Here is what changed Ubuntu MATE 16.04 Beta 2 since Beta 1.
 

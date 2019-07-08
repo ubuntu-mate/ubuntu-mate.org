@@ -15,7 +15,7 @@ With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 16.10 Alpha 2](/gallery/blog/ubuntu-mate-1610-alpha2.png)
+![Ubuntu MATE 16.10 Alpha 2](/images/blog/ubuntu-mate-1610-alpha2.png)
 
 **As is now customary, our release artwork was made by [Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A).**
 

@@ -10,7 +10,7 @@ lang: en
 ---
 
 {:.center}
-![Ubuntu MATE 16.04 LTS Final Release](/gallery/blog/ubuntu-mate-1604-final.png)
+![Ubuntu MATE 16.04 LTS Final Release](/images/blog/ubuntu-mate-1604-final.png)
 
 # Thank You!
 

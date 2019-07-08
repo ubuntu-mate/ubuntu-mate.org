@@ -20,7 +20,7 @@ hope you enjoy Ubuntu MATE 17.04 as much as we've enjoyed making it
 for you.**
 
 {:.center}
-![Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
+![Ubuntu MATE 17.04 Beta 2](/images/blog/ubuntu-mate-1704-beta2.png)
 
 # What's New in Ubuntu MATE 17.04?
 

@@ -16,7 +16,7 @@ usual we've been able to fund some developers to work on Ubuntu MATE
 and MATE Desktop projects.**
 
 {:.center}
-![Thank you!](/gallery/blog/thankyou.png)
+![Thank you!](/images/blog/thankyou.png)
 
 ## How will this months crowd funding be spent?
 
@@ -41,7 +41,7 @@ projects](https://ubuntu-mate.org/blog/bytemark-sponsor-ubuntu-mate/).
 `:-D`
 
 {:.center}
-![Bytemark](/images/sponsors/bytemark.png)
+![Bytemark](/images/blog/sponsors/bytemark.png)
 
 ## Supporting Open Source
 

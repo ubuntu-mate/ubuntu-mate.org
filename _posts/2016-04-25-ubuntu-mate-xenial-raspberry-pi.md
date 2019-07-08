@@ -37,7 +37,7 @@ microSDHC** card. The 16.04 release is also the first to feature **hardware
 accelerated video playback in VLC and ffmpeg**.
 
 {:.center}
-![Ubuntu MATE 16.04 running on the Raspberry Pi 3](/gallery/Screenshots/09_RASPBERRY.png)
+![Ubuntu MATE 16.04 running on the Raspberry Pi 3](/images/blog/Screenshots/09_raspberrypi.png)
 **Ubuntu MATE 16.04 running on the Raspberry Pi 3.**
 
 ## Changes

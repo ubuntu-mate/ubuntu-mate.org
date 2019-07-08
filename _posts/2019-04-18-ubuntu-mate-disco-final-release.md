@@ -16,7 +16,7 @@ the GPD Pocket and GPD Pocket 2](/gpd-pocket/). Read on to learn more...**
 
 
 {:.center}
-![Ubuntu MATE 19.04](/gallery/blog/1904-final.png)
+![Ubuntu MATE 19.04](/images/blog/1904-final.png)
 **Ubuntu MATE 19.04 with the Mutiny layout**
 
 ## What changed since the Ubuntu MATE 18.10 final release?
@@ -55,7 +55,7 @@ If you have an NVIDIA GPU connected to your computer and select
 installation, the NVIDIA proprietary drivers will be installed.
 
 {:.center}
-![Third party drivers](/gallery/disco/select-third-party-drivers.png)
+![Third party drivers](/images/blog/disco/select-third-party-drivers.png)
 
 Post install, the proprietary NVIDIA drivers are installed and configured. To
 confirm this, open a terminal and run `nvidia-smi`. Ubuntu MATE users with
@@ -63,7 +63,7 @@ laptops that support hybrid graphics will see the MATE Optimus hybrid graphics
 applet displaying the NVIDIA logo.
 
 {:.center}
-![MATE Optimus - hybrid graphics switcher](/gallery/disco/mate-optimus-indicator.png)
+![MATE Optimus - hybrid graphics switcher](/images/blog/disco/mate-optimus-indicator.png)
 
 
 ### MATE Dock Applet
@@ -99,7 +99,7 @@ Accompanying **MATE Desktop 1.20.4** and **Linux 5.0.0** are **Firefox
 66.0.3**, **VLC 3.0.6**, **LibreOffice 6.2.2.2** and **Thunderbird 60.6.1**.
 
 {:.center}
-![Major Applications](/gallery/disco/versions.png)
+![Major Applications](/images/blog/disco/versions.png)
 
 See the [Ubuntu 19.04 Release
 Notes](https://wiki.ubuntu.com/DiscoDingo/ReleaseNotes) for details of all

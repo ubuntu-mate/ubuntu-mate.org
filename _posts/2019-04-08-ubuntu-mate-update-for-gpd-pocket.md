@@ -17,9 +17,7 @@ about. **Today we are releasing Ubuntu MATE 18.04.2 and Ubuntu MATE 19.04
 images for both devices**. Read on to find out more...
 
 {:.center}
-[Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)](/gallery/blog/gpd-pockets-news.jpg)
-
-{:.caption}
+![Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)](/images/blog/gpd-pockets-news.jpg)
 **Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)**
 
 # What's new?
@@ -51,6 +49,6 @@ improvement we've made since the Ubuntu MATE 18.10 images were created:
 {% include blog/jumbotron.html
     title = "More Details & Downloads"
     text = "Find out more about Ubuntu MATE for the GPD Pocket and Pocket 2. Get the downloads!"
-    button_text = "/gpd-pocket/"
-    button_url = "Details & Downloads"
+    button_text = "Details & Downloads"
+    button_url = "/gpd-pocket/"
 %}

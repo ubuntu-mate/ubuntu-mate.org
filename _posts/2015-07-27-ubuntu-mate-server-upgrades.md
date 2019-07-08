@@ -18,7 +18,7 @@ more DDoS counter measures in place and continue to make use of the European
 CDN kindly sponsored by [First-Colo](https://www.first-colo.com/).
 
 {:.center}
-![First-Colo](/assets/img/sponsors/firstcolo.png)
+![First-Colo](/images/blog/sponsors/firstcolo.png)
 
 We used this as an opportunity to add BitTorrent downloads for the [Raspberry
 Pi 2 images](https://ubuntu-mate.org/raspberry-pi/) and updated the Ubuntu

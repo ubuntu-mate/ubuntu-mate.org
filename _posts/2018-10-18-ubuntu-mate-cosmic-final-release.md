@@ -17,7 +17,7 @@ also made a [bespoke Ubuntu MATE 18.10 image for the GPD Pocket and GPD Pocket
 2](/gpd-pocket/). Read on to learn more...**
 
 {:.center}
-![Ubuntu MATE 18.10](/gallery/blog/1810-final.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
+![Ubuntu MATE 18.10](/images/blog/1810-final.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 
 ## What changed since the Ubuntu MATE 18.04 final release?
 
@@ -58,7 +58,7 @@ specific tweaks to get these devices working *"out of the box"*
 without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
 
 {:.center}
-![Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)](/gallery/blog/gpd-pockets.jpg)
+![Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)](/images/blog/gpd-pockets.jpg)
 
 {:.caption}
 **Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)**
@@ -77,7 +77,7 @@ Accompanying **MATE Desktop 1.20.3** and **Linux 4.18** are **Firefox
 59.0.2**, **VLC 3.0.4**, **LibreOffice 6.1.2.1** and **Thunderbird 60.2.1**.
 
 {:.center}
-![Major Applications](/gallery/cosmic/versions.png)
+![Major Applications](/images/blog/cosmic/versions.png)
 
 See the [Ubuntu 18.10 Release
 Notes](https://wiki.ubuntu.com/CosmicCuttlefish/ReleaseNotes) for details of all

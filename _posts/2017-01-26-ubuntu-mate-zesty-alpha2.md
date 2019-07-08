@@ -15,7 +15,7 @@ With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 17.04 Alpha 2](/gallery/blog/ubuntu-mate-1704-alpha2.png)
+![Ubuntu MATE 17.04 Alpha 2](/images/blog/ubuntu-mate-1704-alpha2.png)
 
 ## What works?
 

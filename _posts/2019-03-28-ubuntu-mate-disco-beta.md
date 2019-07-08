@@ -18,7 +18,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 19.04 Beta](/gallery/blog/1904-beta.png)
+![Ubuntu MATE 19.04 Beta](/images/blog/1904-beta.png)
 Ubuntu MATE 19.04 with the Mutiny layout
 
 ## What works?

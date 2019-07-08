@@ -22,7 +22,7 @@ MATE branded clothes and apparel.
 Many thanks to our hardware partners [Entroware](http://www.entroware.com) for providing the hardware selection.
 
 {:.center}
-![Entroware](/assets/img/sponsors/entroware.png)
+![Entroware](/images/blog/sponsors/entroware.png)
 
 The fantastic people at [HELLOTUX](http://www.hellotux.com) have worked really hard to get the Ubuntu MATE
 designs on high quality embroidered shirts (front and back).

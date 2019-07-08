@@ -19,7 +19,7 @@ The number one question in the Ubuntu MATE community right now is:
 The answer is, **now**. *Right now*.
 
 {:.center}
-![About MATE Desktop 1.14](/gallery/blog/MATE114.png)
+![About MATE Desktop 1.14](/images/blog/MATE114.png)
 
 We've published a [PPA containing MATE 1.14 that is
 designed to work with Ubuntu MATE 16.04](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/xenial-mate).

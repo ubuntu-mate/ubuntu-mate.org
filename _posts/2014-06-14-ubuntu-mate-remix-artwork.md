@@ -9,7 +9,7 @@ lang: en
 ---
 
 {:.center}
-![Ubuntu MATE](gallery/Artwork/Ubuntu_MATE.png)
+![Ubuntu MATE](/images/blog/Artwork/Ubuntu_MATE.png)
 
 [Sam Hewitt](http://snwh.org/) is an all-round good guy and design genius. I asked
 Sam if he had the time to create a logo for the project and he created a complete set
@@ -18,7 +18,7 @@ that the Ubuntu logo as known as the *"circle of friends"*. Sam has dubbed the U
 logo *"circle of MATEs"*. Brilliant!
 
 {:.center}
-![Circle of MATEs](/gallery/Artwork/Ubuntu_MATE_Logo.png)
+![Circle of MATEs](/images/blog/Artwork/Ubuntu_MATE_Logo.png)
 
 If you require access to the artwork the assets are available from Launchpad and licensed
 under under the Creative Commons Attribution-ShareAlike 4.0 International

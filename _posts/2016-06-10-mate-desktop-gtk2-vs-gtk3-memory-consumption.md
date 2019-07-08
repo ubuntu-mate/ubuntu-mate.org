@@ -15,7 +15,7 @@ The number two question in the Ubuntu MATE community right now is:
 
 The answer is **Yes, but No**. Read on for a full explanation.
 
-![Computer RAM](/gallery/blog/RAM.png)
+![Computer RAM](/images/blog/RAM.png)
 
 Let's also take this opportunity to deal with another claim that cropped up
 recently, [that MATE Desktop 1.14.1 on Ubuntu MATE 16.04 uses significantly

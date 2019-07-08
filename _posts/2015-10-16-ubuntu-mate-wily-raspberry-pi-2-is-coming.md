@@ -21,7 +21,7 @@ for the Raspberry Pi 2 and how we've (hopefully) improved the 15.10
 release based on the that feedback.
 
 {:.center}
-![Raspberry Pi logo](/images/logos/raspberry-pi.png)
+![Raspberry Pi logo](/images/blog/Logos/raspberry-pi.png)
 **Ubuntu MATE 15.10 is coming to the Raspberry Pi 2 on October 22nd 2015**
 
 ## Makers

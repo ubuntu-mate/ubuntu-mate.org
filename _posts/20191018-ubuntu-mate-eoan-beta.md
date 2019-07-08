@@ -16,7 +16,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 <div align="center">
-<img src="/gallery/blog/1910-beta.png" alt="Ubuntu MATE 19.10 Beta" /><br />
+<img src="/images/blog/1910-beta.png" alt="Ubuntu MATE 19.10 Beta" /><br />
 Ubuntu MATE 19.10 with the Familiar layout
 </div>
 
@@ -51,14 +51,12 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * MATE Tweak preserves user preferences when switching between custom layouts.
   * Start Applications hides system applications.
 
-<div class="bs-component">
-    <div class="jumbotron">
-        <h1>Download Ubuntu MATE 19.04 Beta</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
-        <a href="/download/" class="btn btn-primary btn-lg">Download</a>
-        </p>
-    </div>
-</div>
+{% include blog/jumbotron.html
+    title = "Download Ubuntu MATE 19.04 Beta"
+    text = "Our download page makes it easy to acquire the most suitable build for your hardware."
+    button_text = "Download"
+    button_url = "/download/"
+%}
 
 ## Known Issues
 

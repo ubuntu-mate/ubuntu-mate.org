@@ -12,7 +12,7 @@ lang: en
 Ubuntu MATE forges exciting partnership with Linux hardware startup [Entroware](https://www.entroware.com).
 
 {:.center}
-![Ubuntu MATE and Entroware](/images/merch/entroware/ubuntu-mate-entroware.png)
+![Ubuntu MATE and Entroware](/images/blog/merch/entroware/ubuntu-mate-entroware.png)
 
 Ubuntu MATE is a brand new official flavour of Ubuntu focussed on usability and
 stability, which has gained massive traction in the Linux community over the
@@ -21,7 +21,7 @@ releases, Ubuntu MATE is the perfect distribution for easing the transition
 between Microsoft Windows or Mac OS and Linux.
 
 {:.center}
-![Ubuntu MATE and Entroware](/images/merch/entroware/entroware-orion.png)
+![Ubuntu MATE and Entroware](/images/blog/merch/entroware/entroware-orion.png)
 
 {:.center}
 **With verified Linux compatible components, the Orion is designed with portability and style in mind.**
@@ -43,8 +43,8 @@ providing a range of quality Linux computers.
 {% include blog/jumbotron.html
     title = "Entroware Linux hardware"
     text = "More information about Entroware, and their products, are available online at entroware.com"
-    button_text = "https://www.entroware.com"
-    button_url = "Visit Entroware"
+    button_text = "Visit Entroware"
+    button_url = "https://www.entroware.com"
 %}
 
 ## About Ubuntu MATE

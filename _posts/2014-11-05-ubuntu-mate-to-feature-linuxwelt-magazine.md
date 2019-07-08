@@ -41,7 +41,7 @@ is.
     title = "LinuxWelt coverage of Ubuntu MATE 14.10"
     text = "Two page feature article about Ubuntu MATE 14.10 from LinuxWelt magazine."
     button_text = "Download PDF"
-    button_url = "/assets/pdf/LW_01_2015_Ubuntu_MATE_14.10.pdf"
+    button_url = "/images/blog/LW_01_2015_Ubuntu_MATE_14.10.pdf"
 %}
 
 You can also check out the link below for the online PC Welt summary of

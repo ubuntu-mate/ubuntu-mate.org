@@ -20,7 +20,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 17.04 Beta 2](/gallery/blog/ubuntu-mate-1704-beta2.png)
+![Ubuntu MATE 17.04 Beta 2](/images/blog/ubuntu-mate-1704-beta2.png)
 
 ## What works?
 

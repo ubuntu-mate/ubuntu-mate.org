@@ -60,13 +60,13 @@ Right now we've got one snap package for Galculator, which is part of the MATE
 Desktop suite of applications, and our first attempt looked liked this:
 
 {:.center}
-![Snappy Galculator](/gallery/Progress-201605/Snappy_Galculator.png)
+![Snappy Galculator](/images/blog/Progress-201605/Snappy_Galculator.png)
 
 Oh dear! As you can see it's *very* early days `;-)` Fortunately, after some advice from
 Ubuntu developers, it now looks like this:
 
 {:.center}
-![Snappy Galculator Day 2](/gallery/Progress-201605/Snappy_Galculator_2nd_Day.png)
+![Snappy Galculator Day 2](/images/blog/Progress-201605/Snappy_Galculator_2nd_Day.png)
 
 Better! On the second day of experimenting with Snappy things improved. There
 is still an issue with rendering some images, the .png images that surround
@@ -90,7 +90,7 @@ Snaps will make that problem a snap to solve.
 Ubuntu MATE 16.10 will be a GTK3+ build only. This is both good and bad, here's why.
 
 {:.center}
-![MATE 1.14 GTK3](/gallery/Progress-201605/MATE114_GTK318.png)
+![MATE 1.14 GTK3](/images/blog/Progress-201605/MATE114_GTK318.png)
 
 The screenshot above shows an early development build of Ubuntu MATE 16.10
 running MATE 1.14 built against GTK 3.18. Many improvements have been made
@@ -166,7 +166,7 @@ The Software Boutique now features News, to **inform you of package additions,
 modifications and removals**.
 
 {:.center}
-![Boutique News](/gallery/Progress-201605/Boutique_News.png)
+![Boutique News](/images/blog/Progress-201605/Boutique_News.png)
 
 ### Boutique Search
 
@@ -175,7 +175,7 @@ contributed some new applications, including [Atom](https://atom.io/),
 [Clementine](https://www.clementine-player.org/) and [Lutris](https://lutris.net/).
 
 {:.center}
-![Boutique Search](/gallery/Progress-201605/Boutique_Search.png)
+![Boutique Search](/images/blog/Progress-201605/Boutique_Search.png)
 
 ## What of Ubuntu MATE 16.04?
 

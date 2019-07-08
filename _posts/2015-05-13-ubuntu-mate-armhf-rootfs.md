@@ -9,7 +9,7 @@ lang: en
 ---
 
 {:.right}
-![ARM CPU](/assets/img/logos/arm-cpu.png)
+![ARM CPU](/images/blog/logos/arm-cpu.png)
 
 The Ubuntu MATE team have made a generic Ubuntu MATE 15.04 root file system for
 ARMv7 devices. This root file system is intended for ARMv7 enthusiasts and

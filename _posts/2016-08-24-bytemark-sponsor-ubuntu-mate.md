@@ -15,7 +15,7 @@ MATE team to offer free hosting for the project. As of August 18th 2016
 all the Ubuntu MATE infrastucture is hosted on [Bytemark Cloud Servers](https://www.bytemark.co.uk/cloud/).
 
 {:.center}
-![Bytemark](/images/sponsors/bytemark-large.png)
+![Bytemark](/images/blog/sponsors/bytemark-large.png)
 **[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) are generously sponsoring Ubuntu MATE**
 
 

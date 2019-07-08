@@ -12,7 +12,7 @@ lang: en
 Ubuntu MATE agrees a partnership with GNU/Linux hardware manufacturer [LibreTrend](http://www.libretrend.com/en/).
 
 {:.center}
-![Ubuntu MATE and LibreTrend](/images/merch/libretrend/ubuntu-mate-libretrend.png)
+![Ubuntu MATE and LibreTrend](/images/blog/merch/libretrend/ubuntu-mate-libretrend.png)
 
 Ubuntu MATE is an official flavour of Ubuntu focussed on usability and
 stability, which has gained massive traction in the Linux community
@@ -21,7 +21,7 @@ classic Ubuntu releases, Ubuntu MATE is the perfect distribution for
 easing the transition between Microsoft Windows or Mac OS and Linux.
 
 {:.center}
-![LibreBox ](/images/merch/libretrend/librebox-topbanner.jpg)
+![LibreBox](/images/blog/merch/libretrend/librebox-topbanner.jpg)
 **[The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.](http://www.libretrend.com/en/store/librebox)**
 
 LibreTrend are the designer and manufacturer of the [LibreBox](http://www.libretrend.com/en/hardware),

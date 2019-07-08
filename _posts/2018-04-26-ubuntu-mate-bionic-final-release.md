@@ -49,7 +49,7 @@ vacuum tubes and the 5,000,000 hand soldered joints that make up Ubuntu
 MATE. We couldn't be prouder.
 
 {:.center}
-![Ubuntu MATE 18.04 LTS](/gallery/blog/1804-final.png)
+![Ubuntu MATE 18.04 LTS](/images/blog/1804-final.png)
 
 No one reads the release notes, isn't that right
 [DasGeek](https://www.youtube.com/channel/UCIme1suHyN7cAGrTy8RBdhQ)? So
@@ -117,7 +117,7 @@ We've added some new features to the file manager (Caja).
 with that objective by replacing all use of `gksu` with PolicyKit.
 
 {:.center}
-![Caja Rename](/gallery/layouts/caja-rename.png)
+![Caja Rename](/images/blog/layouts/caja-rename.png)
 
 ### Window Manager (Marco)
 
@@ -157,16 +157,16 @@ to give you a feel for how you can configure your desktop experience.
 <div id="banner-fade-20180426">
   <!-- start Basic Jquery Slider -->
   <ul class="bjqs">
-    <li><a class="image-reference" href="/gallery/layouts/Familiar.png"><img src="/gallery/layouts/Familiar.png" title="Familiar - the default experience, a familiar two panel layout with a searchable menu"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Mutiny.png"><img src="/gallery/layouts/Mutiny.png" title="Mutiny - application dock, searchable launcher and global menus similar to Unity 7"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Cupertino.png"><img src="/gallery/layouts/Cupertino.png" title="Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Redmonwill not be
+    <li><a class="image-reference" href="/images/blog/layouts/Familiar.png"><img src="/images/blog/layouts/Familiar.png" title="Familiar - the default experience, a familiar two panel layout with a searchable menu"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Mutiny.png"><img src="/images/blog/layouts/Mutiny.png" title="Mutiny - application dock, searchable launcher and global menus similar to Unity 7"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Cupertino.png"><img src="/images/blog/layouts/Cupertino.png" title="Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Redmonwill not be
 317
-present on a minimal installd.png"><img src="/gallery/layouts/Redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Pantheon.png"><img src="/gallery/layouts/Pantheon.png" title="Pantheon - a dock and top panel with a searchable menu"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Contemporary.png"><img src="/gallery/layouts/Contemporary.png" title="Contemporary - modernised two panel layout featuring a searchable menu with global menus"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Netbook.png"><img src="/gallery/layouts/Netbook.png" title="Netbook - a compact, single top panel layout, ideal for small screens"></a></li>
-    <li><a class="image-reference" href="/gallery/layouts/Traditional.png"><img src="/gallery/layouts/Traditional.png" title="Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu"></a></li>
+present on a minimal installd.png"><img src="/images/blog/layouts/Redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Pantheon.png"><img src="/images/blog/layouts/Pantheon.png" title="Pantheon - a dock and top panel with a searchable menu"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Contemporary.png"><img src="/images/blog/layouts/Contemporary.png" title="Contemporary - modernised two panel layout featuring a searchable menu with global menus"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Netbook.png"><img src="/images/blog/layouts/Netbook.png" title="Netbook - a compact, single top panel layout, ideal for small screens"></a></li>
+    <li><a class="image-reference" href="/images/blog/layouts/Traditional.png"><img src="/images/blog/layouts/Traditional.png" title="Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu"></a></li>
   </ul>
   <!-- end Basic jQuery Slider -->
 </div>
@@ -204,7 +204,7 @@ of the projects we worked on to make it all possible.
 
 ## Super key
 
-<img class="right" src="/gallery/layouts/superkey-small.png" alt="Super Key">
+<img class="right" src="/images/blog/layouts/superkey-small.png" alt="Super Key">
 
 Super key (also known as the Windows key) support is available in the
 majority of the desktop layouts. This means <kbd>Super</kbd> can be used
@@ -232,11 +232,11 @@ menus or those who want to maximise screen space available to their
 applications.
 
 {:.center}
-[Ubuntu MATE Global Menu](/gallery/layouts/global-menu.gif)
+[Ubuntu MATE Global Menu](/images/blog/layouts/global-menu.gif)
 
 ## Indicators
 
-<img class="right" src="/gallery/layouts/indicators-small.png" alt="Indicators" />
+<img class="right" src="/images/blog/layouts/indicators-small.png" alt="Indicators" />
 
 **Ubuntu MATE 18.04 now uses Indicators by default in all layouts.** If
 you've used Ubuntu, these will be familiar. Indicators offer better
@@ -308,7 +308,7 @@ launcher, which enables a fullscreen searchable application launcher
 while the other layouts present Brisk Menu as a more traditional menu.
 
 {:.center}
-!![Brisk Menu Dash Launcher](/gallery/bionic/brisk-menu-dash.png)
+!![Brisk Menu Dash Launcher](/images/blog/bionic/brisk-menu-dash.png)
 
 
 ## MATE Window Applets
@@ -320,7 +320,7 @@ so that both will now remove window controls from maximised windows and
 relocate the window controls in the panel.
 
 {:.center}
-[MATE Window Applets](/gallery/bionic/maximus.gif)
+[MATE Window Applets](/images/blog/bionic/maximus.gif)
 
 ## Head-Up Display
 
@@ -346,7 +346,7 @@ different part of the screen, particularly helpful for users with high
 resolution or multi-display workstations.
 
 {:.center}
-["Head-Up Display (HUD)](/gallery/layouts/mate-hud-local.gif)
+["Head-Up Display (HUD)](/images/blog/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
 longer won't trigger the HUD. This is consistent with how the HUD in
@@ -367,7 +367,7 @@ Interface section tweaked have been dropped from GTK3, making the whole section
 redundant. When saving a panel layout the Dock status will be saved too.
 
 {:.center}
-![MATE Tweak](/gallery/bionic/mate-tweak.png)
+![MATE Tweak](/images/blog/bionic/mate-tweak.png)
 
 # Ubuntu MATE Welcome
 
@@ -384,7 +384,7 @@ A new Browser Selection screen has been added so you can quickly
 install your preferred browser.
 
 {:.center}
-![Browser Selection](/gallery/bionic/browser-selection.png)
+![Browser Selection](/images/blog/bionic/browser-selection.png)
 
 ## System telemetry
 
@@ -399,7 +399,7 @@ that if you install Ubuntu MATE you participate in sending us a
 telemetry report.**
 
 {:.center}
-![Telemetry](/gallery/bionic/telemetry.png)
+![Telemetry](/images/blog/bionic/telemetry.png)
 
 
 # General improvements
@@ -414,7 +414,7 @@ interested, here is [the complete list of software that is removed from
 a full Ubuntu MATE 18.04 installation to make the minimal install](https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-seeds/ubuntu-mate.bionic/view/head:/desktop.minimal-remove).
 
 {:.center}
-![Minimal Install](/gallery/bionic/minimal-install.png)
+![Minimal Install](/images/blog/bionic/minimal-install.png)
 
 So, who's this aimed at? There are users who like to uninstall the
 software they do not need or want to build out their own desktop
@@ -431,7 +431,7 @@ detailed instruction on how to tailor, tweak and customise Ubuntu MATE to
 suit your preferences.
 
 {:.center}
-![Ubuntu MATE Guide](/gallery/bionic/ubuntu-mate-guide.png)
+![Ubuntu MATE Guide](/images/blog/bionic/ubuntu-mate-guide.png)
 
 {% include blog/jumbotron.html
     title = "Buy the books"
@@ -447,7 +447,7 @@ development cycle, which still uses LightDM under the hood but is far
 more attractive and HiDPI aware.
 
 {:.center}
-![Slick Greeter](/gallery/layouts/slick-greeter.png)
+![Slick Greeter](/images/blog/layouts/slick-greeter.png)
 
 ### Slick Greeter Settings
 
@@ -457,7 +457,7 @@ utility for Slick Greeter just moments before the final freeze window
 closed for 18.04.
 
 {:.center}
-![Slick Greeter Settings](/gallery/bionic/lightdm-settings.png)
+![Slick Greeter Settings](/images/blog/bionic/lightdm-settings.png)
 
 ## Artwork
 
@@ -496,7 +496,7 @@ glyph. Alternatively you can right click in the input area and select
 *Insert Emoji* that will display the emoji picker below.
 
 {:.center}
-![Emoji Picker](/gallery/bionic/emoji.png)
+![Emoji Picker](/images/blog/bionic/emoji.png)
 
 ## Major Applications
 
@@ -504,7 +504,7 @@ Accompanying **MATE Desktop 1.20.1** and **Linux 4.15** are **Firefox
 59.0.2**, **VLC 3.0.1**, **LibreOffice 6.0.3.2** and **Thunderbird 52.7.0**.
 
 {:.center}
-![Major Applications](/gallery/bionic/versions.png)
+![Major Applications](/images/blog/bionic/versions.png)
 
 See the [Ubuntu 18.04 Release
 Notes](https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes) for details of all

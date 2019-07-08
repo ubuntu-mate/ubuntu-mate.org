@@ -33,7 +33,7 @@ accelerated video playback in VLC and hardware accelerated decoding and
 encoding in ffmpeg**
 
 {:.center}
-![Ubuntu MATE 16.04.2 running on the Raspberry Pi 3](/gallery/Screenshots/09_RASPBERRY.png)
+![Ubuntu MATE 16.04.2 running on the Raspberry Pi 3](/images/blog/Screenshots/09_raspberrypi.png)
 **Ubuntu MATE 16.04.2 running on the Raspberry Pi 3**
 
 ## Changes

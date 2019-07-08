@@ -21,7 +21,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 18.10 Beta](/gallery/blog/1810-beta.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
+![Ubuntu MATE 18.10 Beta](/images/blog/1810-beta.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
 
 ## What works?
 

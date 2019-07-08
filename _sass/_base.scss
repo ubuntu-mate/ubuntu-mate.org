@@ -55,6 +55,10 @@ code {
 *************************/
 content {
     margin-bottom: 60px;
+
+    img {
+        max-width: 100%;
+    }
 }
 
 content > .content {

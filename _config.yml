@@ -81,7 +81,7 @@ webp:
   img_dir: ["/images/"]
 
   # add ".gif" to the format list to generate webp for animated gifs as well
-  formats: [".jpeg", ".jpg", ".png", ".tiff", ".gif"]
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
 
   # File extensions for animated gif files
   gifs: [".gif"]

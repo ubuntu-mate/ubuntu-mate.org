@@ -26,7 +26,7 @@ With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 {:.center}
-![Ubuntu MATE 16.10 Beta 1](/gallery/blog/ubuntu-mate-1610-beta1.png)
+![Ubuntu MATE 16.10 Beta 1](/images/blog/ubuntu-mate-1610-beta1.png)
 **As is now customary, our release artwork was made by <a href="https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A" target="_blank"><i>Ghost Sixtyseven</i></a>.**
 
 ## What works?

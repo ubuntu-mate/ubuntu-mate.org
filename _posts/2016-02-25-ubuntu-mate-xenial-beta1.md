@@ -42,7 +42,7 @@ First of all, I'd like to extend my thanks to:
   * **[Ghost Sixtyseven](https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A)** for creating a fantastic new Ubuntu MATE desktop wallpaper called *"A Dawn Gift"*.
 
 {:.center}
-![Ubuntu MATE 16.04 Beta 1](/gallery/blog/ubuntu-mate-1604-beta1.png)
+![Ubuntu MATE 16.04 Beta 1](/images/blog/ubuntu-mate-1604-beta1.png)
 
 Thanks to everyone else from the Ubuntu MATE community who contributed to this release!
 
