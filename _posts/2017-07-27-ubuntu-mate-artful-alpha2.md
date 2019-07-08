@@ -7,6 +7,22 @@ description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
 category: dev
 author: Martin Wimpress
 lang: en
+
+gallery:
+    - image: /images/blog/layouts/00_mutiny.png
+      caption: Mutiny Panel Layout
+    - image: /images/blog/layouts/01_cupertino.png
+      caption: Cupertino Panel Layout
+    - image: /images/blog/layouts/02_redmond.png
+      caption: Redmond Panel Layout
+    - image: /images/blog/layouts/03_pantheon.png
+      caption: Pantheon Panel Layout
+    - image: /images/blog/layouts/04_contemporary.png
+      caption: Contemporary Panel Layout
+    - image: /images/blog/layouts/05_netbook.png
+      caption: Netbook Panel Layout
+    - image: /images/blog/layouts/06_traditional.png
+      caption: Traditional Panel Layout
 ---
 
 # Welcome Unity 7 refugees! *This* is the Ubuntu flavour you've been searching for
@@ -74,35 +90,7 @@ workflow:
 
 Here are a few screenshots to give you a feel for how things look.
 
-<!-- Outer wrapper for presentation only, this can be anything you like -->
-<div align="center">
-<div id="banner-fade-20170727">
-  <!-- start Basic Jquery Slider -->
-  <ul class="bjqs">
-    <li><a class="image-reference" href="/images/blog/layouts/00_mutiny.png"><img src="/images/blog/layouts/00_mutiny.png" title="Mutiny Panel Layout"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/01_cupertino.png"><img src="/images/blog/layouts/01_cupertino.png" title="Cupertino Panel Layout"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/02_redmond.png"><img src="/images/blog/layouts/02_redmond.png" title="Redmond Panel Layout"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/03_pantheon.png"><img src="/images/blog/layouts/03_pantheon.png" title="Pantheon Panel Layout"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/04_contemporary.png"><img src="/images/blog/layouts/04_contemporary.png" title="Contemporary Panel Layout"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/05_netbook.png"><img src="/images/blog/layouts/05_netbook.png" title="Netbook Panel Layout"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/06_traditional.png"><img src="/images/blog/layouts/06_traditional.png" title="Traditional Panel Layout"></a></li>
-  </ul>
-  <!-- end Basic jQuery Slider -->
-</div>
-<!-- End outer wrapper -->
-</div>
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/bjqs-1.3.min.js"></script>
-<script>
-    jQuery(document).ready(function($) {
-    $('#banner-fade-20170727').bjqs({
-        width : 960,
-        height : 540,
-        responsive : true,
-        usecaptions : true
-    });
-});
-</script>
+{% include blog/gallery.html %}
 
 ## Global Menu
 

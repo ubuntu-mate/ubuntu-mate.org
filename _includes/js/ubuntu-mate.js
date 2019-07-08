@@ -1,5 +1,5 @@
 //--------------------------------------
-// Dropdown
+// Header Dropdown
 // - Ensure only one is open at a time.
 // - Close a dropdown if user clicks outside.
 //--------------------------------------
@@ -36,3 +36,17 @@ function download_thanks() {
         window.location.href = "thanks/";
     }, 500);
 }
+
+//--------------------------------------
+// Carousel "Gallery"
+//--------------------------------------
+$(window).ready(function() {
+    if ($(".gallery").length > 0) {
+        $(".gallery").slick({
+            infinite: true,
+            dots: true,
+            nextArrow: '<button type="button" class="slick-next">→</button>',
+            prevArrow: '<button type="button" class="slick-prev">←</button>'
+        });
+    }
+});

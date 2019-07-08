@@ -7,6 +7,24 @@ description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
 category: release
 author: Martin Wimpress
 lang: en
+
+gallery:
+    - image: /images/blog/layouts/Familiar.png
+      caption: Familiar - the default experience, a familiar two panel layout with a searchable menu
+    - image: /images/blog/layouts/Mutiny.png
+      caption: Mutiny - application dock, searchable launcher and global menus similar to Unity 7
+    - image: /images/blog/layouts/Cupertino.png
+      caption: Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS
+    - image: /images/blog/layouts/Redmond.png
+      caption: Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows
+    - image: /images/blog/layouts/Pantheon.png
+      caption: Pantheon - a dock and top panel with a searchable menu
+    - image: /images/blog/layouts/Contemporary.png
+      caption: Contemporary - modernised two panel layout featuring a searchable menu with global menus
+    - image: /images/blog/layouts/Netbook.png
+      caption: Netbook - a compact, single top panel layout, ideal for small screens
+    - image: /images/blog/layouts/Traditional.png
+      caption: Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu
 ---
 
 **Charles Babbage wasn't lying when he said _"The only thing that would
@@ -152,40 +170,7 @@ available via MATE Tweak for those who prefer it.
 Here are some screenshots of the desktop layouts included in Ubuntu MATE
 to give you a feel for how you can configure your desktop experience.
 
-<!-- Outer wrapper for presentation only, this can be anything you like -->
-<div align="center">
-<div id="banner-fade-20180426">
-  <!-- start Basic Jquery Slider -->
-  <ul class="bjqs">
-    <li><a class="image-reference" href="/images/blog/layouts/Familiar.png"><img src="/images/blog/layouts/Familiar.png" title="Familiar - the default experience, a familiar two panel layout with a searchable menu"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Mutiny.png"><img src="/images/blog/layouts/Mutiny.png" title="Mutiny - application dock, searchable launcher and global menus similar to Unity 7"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Cupertino.png"><img src="/images/blog/layouts/Cupertino.png" title="Cupertino - a dock and top panel with searchable launcher and global menus similar to macOS"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Redmonwill not be
-317
-present on a minimal installd.png"><img src="/images/blog/layouts/Redmond.png" title="Redmond - single bottom panel with a searchable menu, similar to the taskbar in Windows"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Pantheon.png"><img src="/images/blog/layouts/Pantheon.png" title="Pantheon - a dock and top panel with a searchable menu"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Contemporary.png"><img src="/images/blog/layouts/Contemporary.png" title="Contemporary - modernised two panel layout featuring a searchable menu with global menus"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Netbook.png"><img src="/images/blog/layouts/Netbook.png" title="Netbook - a compact, single top panel layout, ideal for small screens"></a></li>
-    <li><a class="image-reference" href="/images/blog/layouts/Traditional.png"><img src="/images/blog/layouts/Traditional.png" title="Traditional - two panel layout featuring the iconic 'Applications, Places, System' menu"></a></li>
-  </ul>
-  <!-- end Basic jQuery Slider -->
-</div>
-<!-- End outer wrapper -->
-</div>
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/bjqs-1.3.min.js"></script>
-<script>
-    jQuery(document).ready(function($) {
-    $('#banner-fade-20180426').bjqs({
-        width : 682,
-        height : 512,
-        responsive : true,
-        usecaptions : true
-    });
-});
-</script>
-<br />
-<br />
+{% include blog/gallery.html %}
 
   * **Familiar** - the default experience, a familiar two panel layout with a searchable menu
   * **Mutiny** - application dock, searchable launcher and global menus similar to Unity 7
