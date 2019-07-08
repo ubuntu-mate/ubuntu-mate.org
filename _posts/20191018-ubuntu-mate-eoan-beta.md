@@ -15,10 +15,9 @@ We are preparing Ubuntu MATE 19.10 (Eoan Ermin) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-<div align="center">
-<img src="/images/blog/1910-beta.png" alt="Ubuntu MATE 19.10 Beta" /><br />
-Ubuntu MATE 19.10 with the Familiar layout
-</div>
+{:.center}
+![Ubuntu MATE 19.10 Beta](/images/blog/1910-beta.png)
+**Ubuntu MATE 19.10 with the Familiar layout**
 
 ## What works?
 

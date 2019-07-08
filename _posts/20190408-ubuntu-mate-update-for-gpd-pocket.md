@@ -45,15 +45,6 @@ improvement we've made since the Ubuntu MATE 18.10 images were created:
   * Enabled an **emulated mouse scroll wheel**, activated by holding down the right track point button and moving the trackpoint up/down.
   * **GRUB is now usable post-install** for both devices!
 
-<div class="bs-component">
-  <div class="jumbotron">
-    <h1></h1>
-      <p></p>
-      <a href="" class="btn btn-primary btn-lg"></a>
-      </p>
-    </div>
-</div>
-
 {% include blog/jumbotron.html
     title = "More Details & Downloads"
     text = "Find out more about Ubuntu MATE for the GPD Pocket and Pocket 2. Get the downloads!"

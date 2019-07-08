@@ -112,7 +112,7 @@ It's the little things, right?
 ### Global Menu and MATE HUD
 
 {:.center}
-[Ubuntu MATE Global Menu](/images/blog/layouts/global-menu.gif)
+![Ubuntu MATE Global Menu](/images/blog/layouts/global-menu.gif)
 
 
 The Global Menu integration is much improved. When the Global Menu is added to
@@ -122,7 +122,7 @@ case) is required. Likewise removing the Global Menu from a panel will restore
 menus to their application windows.
 
 {:.center}
-[Ubuntu MATE HUD](/images/blog/layouts/mate-hud-local.gif)
+![Ubuntu MATE HUD](/images/blog/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding `Alt` any longer won't
 trigger the HUD. This is consistent with how the HUD in Unity 7 works. We've

@@ -53,18 +53,16 @@ If you have an NVIDIA GPU connected to your computer and select
 *Install third-party software for graphics and Wi-Fi hardware* during
 installation, the NVIDIA proprietary drivers will be installed.
 
-<div align="center">
-<img src="/images/blog/disco/select-third-party-drivers.png" alt="Third party drivers" /><br />
-</div>
+{:.center}
+![Third party drivers](/images/blog/disco/select-third-party-drivers.png)
 
 Post install, the proprietary NVIDIA drivers are installed and configured. To
 confirm this, open a terminal and run `nvidia-smi`. Ubuntu MATE users with
 laptops that support hybrid graphics will see the MATE Optimus hybrid graphics
 applet displaying the NVIDIA logo.
 
-<div align="center">
-<img src="/images/blog/disco/mate-optimus-indicator.png" alt="MATE Optimus - hybrid graphics switcher" /><br />
-</div>
+{:.center}
+![MATE Optimus - hybrid graphics switcher](/images/blog/disco/mate-optimus-indicator.png)
 
 ### MATE Dock Applet
 
@@ -98,9 +96,8 @@ without any faffing about. [See our GPD Pocket page for more details](/gpd-pocke
 Accompanying **MATE Desktop 1.20.4** and **Linux 5.0.0** are **Firefox
 66.0.3**, **VLC 3.0.6**, **LibreOffice 6.2.2.2** and **Thunderbird 60.6.1**.
 
-<div align="center">
-<img src="/images/blog/disco/versions.png" alt="Major Applications" /><br />
-</div>
+{:.center}
+![Major Applications](/images/blog/disco/versions.png)
 
 See the [Ubuntu 19.04 Release
 Notes](https://wiki.ubuntu.com/DiscoDingo/ReleaseNotes) for details of all

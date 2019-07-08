@@ -111,7 +111,7 @@ and others. You can now make more of your available screen space while
 using Ubuntu MATE.
 
 {:.center}
-[Global Menu](/images/blog/layouts/global-menu.gif)
+![Global Menu](/images/blog/layouts/global-menu.gif)
 
 **NEW in 17.10 Beta 1** - Thanks to the excellent testing feedback
 we've had since 17.10 Alpha 2 we've made the Global Menu far more

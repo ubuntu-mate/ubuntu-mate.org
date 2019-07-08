@@ -217,7 +217,7 @@ menus or those who want to maximise screen space available to their
 applications.
 
 {:.center}
-[Ubuntu MATE Global Menu](/images/blog/layouts/global-menu.gif)
+![Ubuntu MATE Global Menu](/images/blog/layouts/global-menu.gif)
 
 ## Indicators
 
@@ -305,7 +305,7 @@ so that both will now remove window controls from maximised windows and
 relocate the window controls in the panel.
 
 {:.center}
-[MATE Window Applets](/images/blog/bionic/maximus.gif)
+![MATE Window Applets](/images/blog/bionic/maximus.gif)
 
 ## Head-Up Display
 
@@ -331,7 +331,7 @@ different part of the screen, particularly helpful for users with high
 resolution or multi-display workstations.
 
 {:.center}
-["Head-Up Display (HUD)](/images/blog/layouts/mate-hud-local.gif)
+![Heads-Up Display (HUD)](/images/blog/layouts/mate-hud-local.gif)
 
 The HUD now has a 250ms (default) timeout, holding <kbd>Alt</kbd> any
 longer won't trigger the HUD. This is consistent with how the HUD in

@@ -101,9 +101,8 @@ LibreOffice, Firefox/Thunderbird, Google Chrome, Electron and others.
 You can now make more of your available screen space while using Ubuntu
 MATE.
 
-<div align="center">
-<img src="/images/blog/layouts/global-menu.gif" alt="Global Menu" /><br />
-</div>
+{:.center}
+![Global Menu](/images/blog/layouts/global-menu.gif)
 
 ## Super key
 
@@ -140,9 +139,8 @@ remember which filter category it fits into or if you can't recall if
 preferences sits under File, Edit or Tools on your favourite browser,
 you can just search for it rather than hunting through the menus.
 
-<div align="center">
-<img src="/images/blog/layouts/mate-hud.gif" alt="The MATE Heads-Up Display (HUD)" /><br />
-</div>
+{:.center}
+![The MATE Heads-Up Display (HUD)](/images/blog/layouts/mate-hud.gif)
 
 Just like Global Menus the HUD is currently only available via the
 **Contemporary**, **Cupertino** and **Mutiny** layouts and is activated
