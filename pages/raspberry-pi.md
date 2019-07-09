@@ -300,7 +300,7 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 ## Known Issues
 
   * Empty panel on first boot. This is an intermittent issue with Ubuntu MATE when running on slower computers.
-    * The workaround in to start a terminal with `Ctrl` + `Alt` + `t` abd reset the default Familiar layout using `mate-tweak --layout familiar`
+    * The workaround in to start a terminal with `Ctrl` + `Alt` + `t` and reset the default Familiar layout using `mate-tweak --layout familiar`
   * Kernel panic when shutting down after initial setup
     * The worksround is to disconnect the power and reconnect it again. Everything will be fine `:-)`
 
