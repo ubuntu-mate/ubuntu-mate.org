@@ -37,7 +37,11 @@
 }
 
 .slick-active > button {
-    @extend .btn.green;
+    @extend .btn, .green;
+
+    &:active {
+        color: white;
+    }
 }
 
 .slick-next {
