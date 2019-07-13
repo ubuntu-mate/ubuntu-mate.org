@@ -64,7 +64,8 @@ languages: [
 ]
 default_lang: "en"
 exclude_from_localization: [
-    "assets"
+    "assets",
+    "images"
 ]
 parallel_localization: true
 
