@@ -55,7 +55,3 @@ fi
 # Externally delete source files not desired in the build output.
 cd _site/
 find . -name "*.xcf" -delete
-
-# Possible jekyll-polyglot bug, but /en/ does not exist, make this an aliases
-# to the root of the website.
-ln -s . en/

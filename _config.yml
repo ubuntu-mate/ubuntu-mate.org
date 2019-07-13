@@ -65,7 +65,8 @@ languages: [
 default_lang: "en"
 exclude_from_localization: [
     "assets",
-    "images"
+    "images",
+    "redirects"
 ]
 parallel_localization: true
 
