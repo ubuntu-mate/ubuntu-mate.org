@@ -1,5 +1,6 @@
 ---
-format: blog-post
+layout: blog-post
+class: blog
 title: Ubuntu MATE server upgrades
 permalink: /blog/ubuntu-mate-server-upgrades
 category: news
