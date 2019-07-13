@@ -1,7 +1,9 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE 19.10 Beta 1
-permalink: ubuntu-mate-eoan-beta
+permalink: /blog/ubuntu-mate-eoan-beta
+description:
 category: release
 author: Martin Wimpress
 lang: en
