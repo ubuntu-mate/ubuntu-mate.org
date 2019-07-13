@@ -9,3 +9,6 @@ pages/i18n/
 _data/**/
 pages/autogen/
 
+# Misc
+*.directory
+
