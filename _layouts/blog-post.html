@@ -19,17 +19,8 @@ layout: default
                 %}
                 <hr>
 
-                {% assign post_date = page.date | date: '%s' %}
-                {% assign post_expires = 'now' | date: '%s' | sum: 31536000 %}
-
-                {% if post_expires > post_date %}
-                    <div class="post-outdated">
-                        {% include images/fa/warning.svg %}
-                        {{ site.data.strings.outdated_post }}
-                    </div>
-                {% endif %}
-
                 {{ content }}
+
             </content>
 
             {% include partials/blog-sidebar.html %}
