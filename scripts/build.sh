@@ -47,9 +47,15 @@ export JEKYLL_ENV=production
 bundle exec jekyll build
 abort_if_failed $?
 
+if [ ! -d _site ]; then
+    exit 1
+fi
+
 # Due to a RegexpError in jekyll-polyglot, the wildcard doesn't work in _config.yml.
 # Externally delete source files not desired in the build output.
-if [ -f _site ]; then
-    cd _site/
-    find . -name "*.xcf" -delete
-fi
+cd _site/
+find . -name "*.xcf" -delete
+
+# Possible jekyll-polyglot bug, but /en/ does not exist, make this an aliases
+# to the root of the website.
+ln -s . en/
