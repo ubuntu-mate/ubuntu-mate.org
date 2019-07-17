@@ -56,38 +56,6 @@
             "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
         }
     },
-    "cosmic": {
-        "name": "18.10 (Cosmic)",
-        "description": "Interim release for users desiring the latest features and applications.",
-        "support": "Supported until July 2019",
-        "release-notes": "/blog/ubuntu-mate-cosmic-final-release/",
-        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/",
-        "pre-release": false,
-        "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/ubuntu-mate-18.10-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.10/release/ubuntu-mate-18.10-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:61edd86975510db683d89fe5a8c682eca986f7d6&dn=ubuntu-mate-18.10-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce",
-            "sha256sum": "d646ec5e22e8b60a2190a9828363592f0485692e36e00ecfce7220fac9775033",
-            "download-size": "2.10 GB"
-        },
-        "gpd-pocket": {
-            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso",
-            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:ae0b6e18d1fb7bac1a0836ed12ce43f4f721fbf4&dn=ubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket.is",
-            "sha256sum": "51e4d5ccadf8e043ec8b65c578e96d61232cb19675842fc08681e194e1022036",
-            "download-size": "2.10 GB",
-            "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
-        },
-        "gpd-pocket2": {
-            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso",
-            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:c572be29ea7151de758fbef49240ce6aa0a7e35f&dn=ubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-18.10-desktop-amd64-gpd-pocket2.iso",
-            "sha256sum": "0841aa4b0bf611610a5bcf5342a54e6b6682edd656a3645dbedba25af323427e",
-            "download-size": "2.10 GB",
-            "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
-        }
-    },
     "disco": {
         "name": "19.04 (Disco)",
         "description": "Interim release for users desiring the latest features and applications.",
@@ -118,6 +86,24 @@
             "sha256sum": "5fe9f517be62cf87538d3954f374056a3301bbfe501690ec1e608571d2b21583",
             "download-size": "2.08 GB",
             "alt-description": "Pre-configured to support the GPD Pocket 2 <i>out of the box</i>"
+        }
+    },
+    "eoan": {
+        "name": "19.10 (Eoan)",
+        "description": "Interim release for users desiring the latest features and applications.",
+        "support": "Supported until July 2020",
+        "release-notes": "/gpd-pocket/",
+        "background-url": "/assets/img/downloads/backgrounds/bionic.png",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/",
+        "pre-release": true,
+        "support": "Alpha 1",
+        "gpd-micropc": {
+            "direct": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso",
+            "torrent": "https://ubuntu-mate.org/gpd-pocket/ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:1bc32d16b19e2d026cc1341053548de30d35b119&dn=ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fgpd-pocket%2Fubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso",
+            "sha256sum": "8e81af0f2c4e81d9ab66cf6238b3b5adf8b50c9b566fa3d9942f68776158c700",
+            "download-size": "2.0 GB",
+            "alt-description": "Pre-configured to support the GPD MicroPC <i>out of the box</i>"
         }
     }
 }

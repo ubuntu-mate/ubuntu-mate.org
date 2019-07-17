@@ -1,4 +1,4 @@
-<!--
+n<!--
 .. title: Download
 .. slug: download
 .. date: 2017-07-06 10:00:00 UTC
@@ -135,6 +135,23 @@
                 </div>
             </button>
         </div>
+
+        <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="gpd-micropc" onclick="setArch('gpd-micropc', 'GPD MicroPC')">
+                <div class="icon">
+                    <span class="fa fa-laptop"></span>
+                </div>
+                <div class="details">
+                    <h3>GPD MicroPC</h3>
+                    <p>
+                        For the following devices:
+                        <ul>
+                            <li>GPD MicroPC</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
     </div>
 </div>
 
@@ -163,9 +180,9 @@
             </button>
         </div>
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="cosmic" onclick="setRelease('cosmic')">
+            <button class="download-option release-option" id="disco" onclick="setRelease('disco')">
                 <div class="icon">
-                    <img src="/assets/img/downloads/releases/cosmic.png" />
+                    <img src="/assets/img/downloads/releases/disco.png" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
@@ -175,9 +192,9 @@
             </button>
         </div>
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="disco" onclick="setRelease('disco')">
+            <button class="download-option release-option" id="eoan" onclick="setRelease('eoan')">
                 <div class="icon">
-                    <img src="/assets/img/downloads/releases/disco.png" />
+                    <!-- <img src="/assets/img/downloads/releases/disco.png" /> -->
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>

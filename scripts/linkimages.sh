@@ -33,6 +33,7 @@ link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-beta
 link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-beta-desktop-amd64-gpd-pocket2.iso"
 link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso"
 link_image gpd-pocket "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso"
+link_image gpd-pocket "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso"
 
 echo "Symlinking images..."
 for region in man yor; do
