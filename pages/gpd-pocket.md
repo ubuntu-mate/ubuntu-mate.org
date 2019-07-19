@@ -1,10 +1,10 @@
 <!--
-.. title: Ubuntu MATE for the GPD Pocket and GPD Pocket 2
+.. title: Ubuntu MATE for the GPD Pocket, Pocket 2 & MicroPC
 .. slug: gpd-pocket
 .. date: 2018-10-17 17:00:00 UTC
-.. tags: Ubuntu,MATE,GPD Pocket,GPD Pocket 2,download
+.. tags: Ubuntu,MATE,GPD Pocket,GPD Pocket 2,GPD MicroPC,download
 .. link:
-.. description: Ubuntu MATE for the GPD Pocket and GPD Pocket 2
+.. description: Ubuntu MATE for the GPD Pocket, GPD Pocket 2 & GPD MicroPC
 .. type: text
 .. author: Martin Wimpress
 -->
