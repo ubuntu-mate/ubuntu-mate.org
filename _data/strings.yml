@@ -192,6 +192,13 @@ design_guidelines: "Design Guidelines"
 
 
 #######################################
+# Testimonials
+#######################################
+quote_general_title: "What the Internet is saying..."
+quote_youtube_title: "What the YouTubers are showcasing..."
+
+
+#######################################
 # Miscellaneous
 #######################################
 toggle_sidebar: "Expand/Collapse Sidebar"

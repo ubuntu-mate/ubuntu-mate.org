@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = page.category
+                %}
+
+                [TODO: Page layout incomplete]
+
+                <h2>{{ site.data.strings.quote_general_title }}</h2>
+
+                {% for user in page.testimonials %}
+                    <img src="{{ user.author_image_url }}" alt="{{ user.author }}"/>
+                    <blockquote>{{ user.quote }}</blockquote>
+                    <p>{{ user.author}}</p>
+                    <p>{{ user.author_url }}</p>
+                {% endfor %}
+
+                <h2>{{ site.data.strings.quote_youtube_title }}</h2>
+
+                {% for video in page.youtube %}
+                    <p>
+                        <iframe width="560" height="315" src="{{ video.embed_url }}" frameborder="0"></iframe>
+                        <br>
+                        <h4>{{ video.author }}</h4>
+                        <blockquote>{{ video.quote }}</blockquote>
+                    </p>
+                {% endfor %}
+
+                {{ content }}
+
+            </content>
+        </div>
+
+    </div>
+
+</article>
