@@ -82,7 +82,7 @@ more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
   <div class="col-xs-6">
     <div class="well bs-component" align="center">
       <a href="/gpd-pocket/"><img class="centered" src="/images/logos/gpd-pocket2.png" alt="GPD Pocket" /></a><br />
-      <b>Ubuntu MATE is also available for the<br />GPD Pocket and GPD Pocket 2.</b>
+      <b>Ubuntu MATE is also available for the<br />GPD Pocket, GPD Pocket 2 & GPD MicroPC</b>
     </div>
   </div>
 </div>
