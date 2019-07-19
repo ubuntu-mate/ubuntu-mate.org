@@ -62,6 +62,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * MATE Window Applets
   * Theme fixes
   * Caja Deja Dup 0.0.8
+  * Caja Media Info extension.
 
 <div class="bs-component">
     <div class="jumbotron">
