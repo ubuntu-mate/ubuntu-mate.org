@@ -152,6 +152,22 @@
                 </div>
             </button>
         </div>
+        <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="topjoy-falcon" onclick="setArch('topjoy-falcon', 'Topjoy Falcon')">
+                <div class="icon">
+                    <span class="fa fa-laptop"></span>
+                </div>
+                <div class="details">
+                    <h3>Topjoy Falcon</h3>
+                    <p>
+                        For the following devices:
+                        <ul>
+                            <li>Topjoy Falcon</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
     </div>
 </div>
 

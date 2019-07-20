@@ -504,7 +504,7 @@ ARCHIVE_FILENAME = "index.html"
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
 # SLUG_TAG_PATH = True
-# Slug the Author URL. Easier for users to type, special characters are
+# Slug the Author URL. Easier for users to typeniko, special characters are
 # often removed or replaced as well.
 # SLUG_AUTHOR_PATH = True
 
@@ -524,6 +524,7 @@ REDIRECTIONS = [
 ("xenial/index.html", "/download/index.html"),
 ("pre-release/index.html", "/download/index.html"),
 ("development/index.html", "https://github.com/ubuntu-mate/"),
+("gpd-pocket/index.html", "/umpc/index.html"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for

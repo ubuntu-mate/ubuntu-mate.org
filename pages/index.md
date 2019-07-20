@@ -68,9 +68,10 @@ to give you a feel for how you can configure your desktop experience.
 ## Raspberry Pi & GPD Pocket
 
 We are delighted to provide ready-to-run images for the Raspberry Model B
-2, 3 and 3+ as well as the GPD Pocket and GPD Pocket 2. You can find out
+2, 3 and 3+ as well as a range of UMPCs such as the GPD Pocket,
+GPD Pocket 2, GPD MicroPC and Topjoy Falcon. You can find out
 more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
-[Ubuntu MATE GPD Pocket page](/gpd-pocket/).
+[Ubuntu MATE UMPC page](/umpc/).
 
 <div class="row">
   <div class="col-xs-6">
@@ -81,12 +82,11 @@ more from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/) and the
   </div>
   <div class="col-xs-6">
     <div class="well bs-component" align="center">
-      <a href="/gpd-pocket/"><img class="centered" src="/images/logos/gpd-pocket2.png" alt="GPD Pocket" /></a><br />
-      <b>Ubuntu MATE is also available for the<br />GPD Pocket, GPD Pocket 2 & GPD MicroPC</b>
+      <a href="/umpc/"><img class="centered" src="/images/logos/gpd-pocket2.png" alt="GPD Pocket" /></a><br />
+      <b>Ubuntu MATE is also available for the<br />GPD Pocket, GPD Pocket 2, GPD MicroPC & Topjoy MicroPC</b>
     </div>
   </div>
 </div>
-
 
 ## Sponsors
 

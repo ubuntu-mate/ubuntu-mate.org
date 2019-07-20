@@ -109,7 +109,7 @@ function setRelease(codename) {
     $("#direct-download var").html(getFilename(links["direct"]));
 
     // Special considerations for Raspberry Pi & GPD
-    if (arch == "armhf" || arch == "arm64" || arch == "gpd-pocket" || arch == "gpd-pocket2" || arch == "gpd-micropc") {
+    if (arch == "armhf" || arch == "arm64" || arch == "gpd-pocket" || arch == "gpd-pocket2" || arch == "gpd-micropc" || arch == "topjoy-falcon") {
         $("#mirrors").hide();
         $("#getting-started").hide();
     } else {
