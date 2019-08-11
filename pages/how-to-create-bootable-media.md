@@ -15,7 +15,7 @@
 
 [GNOME Disks](apt://gnome-disk-utility) is pre-installed on Ubuntu 16.04 and
 newer. Use the *Restore Disk Image...* option, **which natively supports XZ
-compressed images**.
+compressed images**.  It can be used for both USB drives and microSDHC cards.
 
 If **Disks** is not present on your system, you can install it from the terminal:
 
@@ -28,7 +28,7 @@ If **Disks** is not present on your system, you can install it from the terminal
 
 ### On GNU/Linux
 
-The image can be directly written to a microSDHC using a utility like
+The image can be directly written to a microSDHC or to a USB drive using a utility like
 `dd`, but we prefer `ddrescue` (from the [gddrescue](apt://gddrescue) package).
 
 For example, for Debian-based systems:
@@ -45,6 +45,10 @@ Replace `/dev/sdX` with your actual device. Use the `lsblk` command to check.
 
 
 ### On Windows
+
+If you want to make a bootable USB using Windows we recommend:
+
+ *	[Etcher](https://www.balena.io/etcher/) to write the image to a USB drive.
 
 If you want to make a microSDHC using Windows we recommend:
 
