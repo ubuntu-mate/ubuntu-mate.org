@@ -39,6 +39,32 @@ command line utility.
 
     ![](/gallery/quick-help-screenshots/sha256-ubuntu-2.png "Results from the hash")
 
+### Using GtkHash
+
+Install GtkHash with `sudo apt-get install gtkhash`.
+
+ * Launch _GtkHash_
+ * Select ISO in _File_ chooser
+ * Copy known checksums from `MD5SUMS, SHA1SUMS, SHA256SUMS` and paste into _Check_ field
+ * Click _Hash_
+ * Ensure you have green checkmark near one of the calculated checksums
+
+![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
+
+### GtkHash inside Caja
+
+On current Ubuntu MATE versions (18.04 LTS and newer) you can use a Caja add-on (installable via `sudo apt install caja-gtkhash`)
+
+ * Open _Caja_
+ * Navigate to file
+ * Open drop-down menu
+ * Select _Properties_
+ * Choose _Digests_ tab
+ * Copy known checksums from `MD5SUMS, SHA1SUMS, SHA256SUMS` and paste into _Check_ field
+
+![](/gallery/quick-help-screenshots/Caja-hash-howto.png "GtkHash inside Caja")
+
+Note: to make calculation faster you can check only the needed in the list as shown above.
 
 -----------
 ### On Windows
@@ -47,6 +73,7 @@ Checksum utilities are available on the web, such as:
 
  * [MD5 & SHA Checksum Utility](https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/)
  * [Hashtab](http://implbits.com/products/hashtab/)
+ * [Microsoft File Checksum Integrity Verifier](https://support.microsoft.com/en-us/help/889768/how-to-compute-the-md5-or-sha-1-cryptographic-hash-values-for-a-file)
 
 
 -----------
