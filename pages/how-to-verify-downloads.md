@@ -21,9 +21,41 @@ a server. BitTorrent is secure too as it checks pieces as it downloads.
 
 ## Check the SHA256 Hash (quick)
 
-### On Ubuntu and GNU/Linux
-In Ubuntu, and most other distributions, you can verify by using the `sha256sum`
-command line utility.
+### On Ubuntu MATE
+
+On current Ubuntu MATE versions (18.04 LTS and newer), `caja-gtkhash` is pre-installed
+and allows you to perform checksums from within the file browser.
+
+ * Navigate to the file in the **Caja** file manager.
+ * Open the file's properties.
+   * Either via the menu bar: **File → Properties** 
+   * Or right click the file → **Properties**.
+ * Choose **Digests** tab
+ * Copy the SHA256SUM checksum from the download page and paste into **Check** field
+
+![](/gallery/quick-help-screenshots/Caja-hash-howto.png "GtkHash inside Caja")
+
+**Note:** To make calculation faster, it's only necessary to check the checksums you have values for.
+
+---
+
+### On other GNU/Linux distributions
+
+#### Using a graphical tool: GtkHash
+
+If GtkHash isn't installed, you can install it via your distribution's software manager.
+
+ * Launch **GtkHash**
+ * Select ISO in _File_ chooser
+ * Copy the SHA256SUM checksum from the download page and paste into **Check** field
+ * Click **Hash**
+ * Ensure you have green checkmark near one of the calculated checksums
+
+![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
+
+#### Using the command line
+
+A majority of other distributions come with  `sha256sum` pre-installed.
 
 1. Open the folder containing the download in the terminal.
 
@@ -39,7 +71,6 @@ command line utility.
 
     ![](/gallery/quick-help-screenshots/sha256-ubuntu-2.png "Results from the hash")
 
-
 -----------
 ### On Windows
 
@@ -47,6 +78,7 @@ Checksum utilities are available on the web, such as:
 
  * [MD5 & SHA Checksum Utility](https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/)
  * [Hashtab](http://implbits.com/products/hashtab/)
+ * [Microsoft File Checksum Integrity Verifier](https://support.microsoft.com/en-us/help/889768/how-to-compute-the-md5-or-sha-1-cryptographic-hash-values-for-a-file)
 
 
 -----------
