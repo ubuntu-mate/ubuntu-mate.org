@@ -21,9 +21,41 @@ a server. BitTorrent is secure too as it checks pieces as it downloads.
 
 ## Check the SHA256 Hash (quick)
 
-### On Ubuntu and GNU/Linux
-In Ubuntu, and most other distributions, you can verify by using the `sha256sum`
-command line utility.
+### On Ubuntu MATE
+
+On current Ubuntu MATE versions (18.04 LTS and newer), `caja-gtkhash` is pre-installed
+and allows you to perform checksums from within the file browser.
+
+ * Navigate to the file in the **Caja** file manager.
+ * Open the file's properties.
+   * Either via the menu bar: **File → Properties** 
+   * Or right click the file → **Properties**.
+ * Choose **Digests** tab
+ * Copy the SHA256SUM checksum from the download page and paste into **Check** field
+
+![](/gallery/quick-help-screenshots/Caja-hash-howto.png "GtkHash inside Caja")
+
+**Note:** To make calculation faster, it's only necessary to check the checksums you have values for.
+
+---
+
+### On other GNU/Linux distributions
+
+#### Using a graphical tool: GtkHash
+
+If GtkHash isn't installed, you can install it via your distribution's software manager.
+
+ * Launch **GtkHash**
+ * Select ISO in _File_ chooser
+ * Copy the SHA256SUM checksum from the download page and paste into **Check** field
+ * Click **Hash**
+ * Ensure you have green checkmark near one of the calculated checksums
+
+![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
+
+#### Using the command line
+
+A majority of other distributions come with  `sha256sum` pre-installed.
 
 1. Open the folder containing the download in the terminal.
 
@@ -38,33 +70,6 @@ command line utility.
 3. Compare the hash with the one provided on the [Download](/download/) page.
 
     ![](/gallery/quick-help-screenshots/sha256-ubuntu-2.png "Results from the hash")
-
-### Using GtkHash
-
-Install GtkHash with `sudo apt-get install gtkhash`.
-
- * Launch _GtkHash_
- * Select ISO in _File_ chooser
- * Copy known checksums from `MD5SUMS, SHA1SUMS, SHA256SUMS` and paste into _Check_ field
- * Click _Hash_
- * Ensure you have green checkmark near one of the calculated checksums
-
-![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
-
-### GtkHash inside Caja
-
-On current Ubuntu MATE versions (18.04 LTS and newer) you can use a Caja add-on (installable via `sudo apt install caja-gtkhash`)
-
- * Open _Caja_
- * Navigate to file
- * Open drop-down menu
- * Select _Properties_
- * Choose _Digests_ tab
- * Copy known checksums from `MD5SUMS, SHA1SUMS, SHA256SUMS` and paste into _Check_ field
-
-![](/gallery/quick-help-screenshots/Caja-hash-howto.png "GtkHash inside Caja")
-
-Note: to make calculation faster you can check only the needed in the list as shown above.
 
 -----------
 ### On Windows
