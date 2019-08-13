@@ -39,11 +39,9 @@ and allows you to perform checksums from within the file browser.
 
 ---
 
-### On other GNU/Linux distributions
+### On GNU/Linux distributions: GtkHash (GUI)
 
-#### Using a graphical tool: GtkHash
-
-If GtkHash isn't installed, you can install it via your distribution's software manager.
+This method uses an application called **GtkHash**. This can be installed via your distribution's software manager.
 
  * Launch **GtkHash**
  * Select ISO in _File_ chooser
@@ -54,7 +52,7 @@ If GtkHash isn't installed, you can install it via your distribution's software 
     ![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
 
 
-#### Using the command line
+### On GNU/Linux distributions: Command Line
 
 A majority of other distributions come with  `sha256sum` pre-installed.
 
