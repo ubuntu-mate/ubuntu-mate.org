@@ -33,7 +33,7 @@ and allows you to perform checksums from within the file browser.
  * Choose **Digests** tab
  * Copy the SHA256SUM checksum from the download page and paste into **Check** field
 
-![](/gallery/quick-help-screenshots/Caja-hash-howto.png "GtkHash inside Caja")
+    ![](/gallery/quick-help-screenshots/Caja-hash-howto.png "GtkHash inside Caja")
 
 **Note:** To make calculation faster, it's only necessary to check the checksums you have values for.
 
@@ -51,7 +51,8 @@ If GtkHash isn't installed, you can install it via your distribution's software 
  * Click **Hash**
  * Ensure you have green checkmark near one of the calculated checksums
 
-![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
+    ![](/gallery/quick-help-screenshots/Gtk-hash-howto.png "Using GtkHash")
+
 
 #### Using the command line
 
@@ -59,7 +60,7 @@ A majority of other distributions come with  `sha256sum` pre-installed.
 
 1. Open the folder containing the download in the terminal.
 
-![](/gallery/quick-help-screenshots/sha256-ubuntu-1.png "Opening the folder in the terminal.")
+    ![](/gallery/quick-help-screenshots/sha256-ubuntu-1.png "Opening the folder in the terminal.")
 
 
 2. Type `sha256sum` followed by the file name of the image.
