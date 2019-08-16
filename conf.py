@@ -524,7 +524,6 @@ REDIRECTIONS = [
 ("xenial/index.html", "/download/index.html"),
 ("pre-release/index.html", "/download/index.html"),
 ("development/index.html", "https://github.com/ubuntu-mate/"),
-("gpd-pocket/index.html", "/umpc/index.html"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
@@ -540,6 +539,7 @@ REDIRECTIONS = [
 DEPLOY_COMMANDS = {
     'default': [
         'rsync -a --delete output/ www/',
+        'ln -s -T umpc www/gpd-pocket',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
         'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ matey@man.ubuntu-mate.net:ubuntu-mate.org/',
