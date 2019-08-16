@@ -2,9 +2,9 @@
 .. title: Ubuntu MATE for UMPCs
 .. slug: umpc
 .. date: 2018-10-17 17:00:00 UTC
-.. tags: Ubuntu,MATE,UMPC,GPD Pocket,GPD Pocket 2,GPD MicroPC,Topjoy,Falcon,download
+.. tags: Ubuntu,MATE,UMPC,GPD Pocket,GPD Pocket 2,GPD WIN 2,GPD MicroPC,Topjoy Falcon,OneMix Yoga 1s,OneMix Yoga 2,download
 .. link:
-.. description: Ubuntu MATE for the GPD Pocket, GPD Pocket 2, GPD MicroPC & Topjoy Falcon
+.. description: Ubuntu MATE for the GPD Pocket, GPD Pocket 2, GPD WIN 2, GPD MicroPC & Topjoy Falcon
 .. type: text
 .. author: Martin Wimpress
 -->
@@ -12,10 +12,12 @@
 The Ubuntu MATE team offers a bespoke images for the
 [GPD Pocket](https://gpd.hk/gpdpocket),
 [GPD Pocket 2](https://gpd.hk/gpdpocket2),
+[GPD WIN 2](https://gpd.hk/gdpwin2),
 [GPD MicroPC](https://gpd.hk/gpdmicropc) and
 [Topjoy Falcon](https://www.kickstarter.com/projects/440069565/falcon-worlds-first-8-inch-2-in-1-laptop)
 that include the hardware specific tweaks to get these devices working
-*"out of the box"* without any faffing about.
+*"out of the box"* without any faffing about. Some models of the OneMix
+Yoga devices are also supported.
 
 Ultra Mobile PCs (UMPC) have had something of a resurgence in recent years
 thanks to very successfull crowd funding campaigns for netbook style laptops 
@@ -28,7 +30,7 @@ others.
 
 <div align="center">
   <img src="/gallery/blog/gpd-pockets.jpg" /></a><br />
-  <b>Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)</b>
+  <b>Ubuntu MATE running on the GPD Pocket (left) and GPD Pocket 2 (right)</b>
 </div>
 <br />
 
@@ -39,7 +41,7 @@ The [Ubuntu MATE images for the UMPCs](https://ubuntu-mate.org/umpc/) add the fo
   * Enable **frame buffer and Xorg display rotation**.
     * Supports `modesetting` *and* `xorg-video-intel` display drivers.
   * Enable **TearFree rendering by default**.
-  * Enable touch screen rotation for Xorg and Wayland.  
+  * Enable touch screen rotation for Xorg and Wayland.
   * Enable **scroll whell emulation** for Xorg.
     * While holding down the **right track point button** on the Pocket, Pocket 2 & Topjoy Falcon.
     * While holding down the **centre track point button** on the MicroPC.
@@ -48,19 +50,19 @@ The [Ubuntu MATE images for the UMPCs](https://ubuntu-mate.org/umpc/) add the fo
     * Results in an effective resolution of 1280x800 to make the small display panels easily readable.
     * Simple to disable if you want to restore full resolution.
   * **GRUB is usable post-install**.
-    * GPD Pocket, MicroPC & TopJoy Falcon GRUB is rotated 90 degress, but functional.
+    * GPD Pocket, WIN 2, MicroPC & TopJoy Falcon GRUB is rotated 90 degress, but functional.
     * GPD Pocket 2 GRUB is correctly rotated and functional.
   * GPD Pocket BRMC4356 WiFi firmware enabled by default.
   * GPD Pocket fan control kernel module enable by default.
 
 ## Known Issues
 
-### GPD Pocket, MicroPC and Topjoy Falcon
+### GPD Pocket, WIN 2, MicroPC and Topjoy Falcon
 
   * The GRUB2 menu is rotated 90 degress on the GPD Pocket, MicroPC and Topjoy Falcon.
     * The workaround is to tilt your head.
   * The built in speaker in the GPD Pocket is mono and doesn't play audio from the right channel.
-    * The workaround is two use headphones connected the 3.5mm audio jack.
+    * The workaround is to use headphones connected the 3.5mm audio jack.
 
 ### GPD Pocket 2
 
@@ -76,7 +78,7 @@ The [Ubuntu MATE images for the UMPCs](https://ubuntu-mate.org/umpc/) add the fo
 <div class="bs-component">
   <div class="jumbotron">
     <h1>Download</h1>
-      <p>Run Ubuntu MATE on your GPD Pocket, GPD Pocket 2, GPD MicroPC or Topjoy Falcon today!</p>
+      <p>Run Ubuntu MATE on your GPD Pocket, GPD Pocket 2, GPD WIN 2, GPD MicroPC or Topjoy Falcon today!</p>
       <a href="/download/" class="btn btn-primary btn-lg">Download Ubuntu MATE</a>
       </p>
     </div>
@@ -104,7 +106,7 @@ following GitHub repository:
 
 ## Accessing UMPC boot menus
 
-### GPD Pocket & GPD MicroPC
+### GPD Pocket, GPD MicroPC, OneMix Yoga 2
 
 Switch the devcice on, immediately hold the <kbd>Fn</kbd> key and tap the <kbd>F7</kbd> key until the Boot Manager screen appears.
 
@@ -120,5 +122,5 @@ Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the <kbd>F2
 
 ## Feedback
 
-These images for the GPD Pocket and GPD Pocket 2 are community supported,
+These images for the GPD and Topjoy devices are community supported,
 please post all feedback via the [community forum](https://ubuntu-mate.community/).
