@@ -439,24 +439,6 @@
     <div id="sponsor1" class="row">
         <div class="col-xs-3">
             <div class="text-center">
-                <br/><br/>
-                <img src="/images/sponsors/osdisc.png" alt="OSDisc.com">
-            </div>
-        </div>
-        <div class="col-xs-9">
-            <h3>Purchase DVDs and USBs</h3>
-            <h4><b>OSDisc.com</b></h4>
-            <p>OSDisc.com is a leading source for Linux DVDs and USBs. Purchase ready-to-use bootable
-            DVDs and memory sticks that come pre-installed with Ubuntu MATE and have persistent storage.</p>
-            <a href="https://www.osdisc.com/products/ubuntumate?affiliate=ubuntumate" class="btn btn-primary">
-                <span class="fa fa-shopping-cart"></span> Purchase
-            </a>
-        </div>
-    </div>
-    <br/>
-    <div id="sponsor2" class="row">
-        <div class="col-xs-3">
-            <div class="text-center">
                 <br/>
                 <img src="/images/merch/hellotux/flash-drive.png" alt="HelloTux Flash Drive">
             </div>
