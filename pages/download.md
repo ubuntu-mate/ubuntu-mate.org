@@ -125,11 +125,13 @@
                     <span class="fa fa-laptop"></span>
                 </div>
                 <div class="details">
-                    <h3>GPD Pocket 2</h3>
+                    <h3>GPD Pocket 2 & GPD WIN 2</h3>
                     <p>
                         For the following devices:
                         <ul>
                             <li>GPD Pocket 2</li>
+                            <li>GPD WIN 2</li>
+                            <li>OneMix Yoga 2</li>
                         </ul>
                     </p>
                 </div>
