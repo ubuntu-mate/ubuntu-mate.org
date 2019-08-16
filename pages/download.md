@@ -131,6 +131,7 @@
                         <ul>
                             <li>GPD Pocket 2</li>
                             <li>GPD WIN 2</li>
+                            <li>OneMix Yoga 1s</li>
                             <li>OneMix Yoga 2</li>
                         </ul>
                     </p>
