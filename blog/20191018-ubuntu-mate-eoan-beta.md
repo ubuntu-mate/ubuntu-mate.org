@@ -63,6 +63,9 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Theme fixes
   * Caja Deja Dup 0.0.8
   * Caja Media Info extension.
+  * Dropped Compton and Compiz from the default install
+
+sudo apt install compiz compiz-core compiz-mate compiz-plugins compiz-plugins-default
 
 <div class="bs-component">
     <div class="jumbotron">
