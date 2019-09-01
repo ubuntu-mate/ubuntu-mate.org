@@ -28,7 +28,7 @@ and allows you to perform checksums from within the file browser.
 
  * Navigate to the file in the **Caja** file manager.
  * Open the file's properties.
-   * Either via the menu bar: **File → Properties** 
+   * Either via the menu bar: **File → Properties**
    * Or right click the file → **Properties**.
  * Choose **Digests** tab
  * Copy the SHA256SUM checksum from the download page and paste into **Check** field
@@ -121,9 +121,9 @@ from [Canonical's CD Images server](http://cdimage.ubuntu.com/ubuntu-mate/releas
 
 4. Verify the checksum of the downloaded image.
 
-        grep ubuntu-16.04-desktop-amd64.iso SHA256SUMS | sha256sum --check
+        grep ubuntu-mate-18.04-desktop-amd64.iso SHA256SUMS | sha256sum --check
 
 5. If you see "OK", the image is in good condition.
 
-        ubuntu-mate-15.10-desktop-amd64.iso: OK
+        ubuntu-mate-18.04-desktop-amd64.iso: OK
 
