@@ -43,9 +43,10 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Added MATE Desktop 1.22.1
   * Fixed frequent crashers in Brisk Menu, MATE Dock Applet and MATE Panel.
   * Brisk scrollbar fixed. Brisk upstream.
-  * Fixed oversized indicator icons
+  * Fixed oversized indicator icons.
     gallery/blog/indicators-after.png
     gallery/blog/indicators-before.png
+  * Fixed indicator scaling when changing the panel size.
   * Fixed race condition that could result in two network status icons being displayed
   * Fixed XPresent support
   * Fixed lock icons in the Network Indicator when establishing VPN connection
