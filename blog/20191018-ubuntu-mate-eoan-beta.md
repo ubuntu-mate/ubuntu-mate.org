@@ -42,6 +42,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
   * Added MATE Desktop 1.22.1
   * Fixed frequent crashers in Brisk Menu, MATE Dock Applet and MATE Panel.
+  * Brisk scrollbar fixed. Brisk upstream.
   * Fixed oversized indicator icons
     gallery/blog/indicators-after.png
     gallery/blog/indicators-before.png
@@ -51,12 +52,12 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Added `indicator-datetime` support
   * Switched from Thunderbird to Evolution as the default mail/calendar app
   * Dropped Brasero from the default installed applications.
-  * Reduce the .iso image size.
   * MATE Tweak preserves user preferences when switching between custom layouts.
   * Start Applications hides system applications.
   * GNOME MPV
   * indicator-notifications
   * Blueman 2.0.8
+  * Reduced the .iso image size, then made it big again.
   * nvidia-drivers.
   * Marco - invisble window corners. Alt + Tab. HiDPI gradients.
   * MATE Window Applets
@@ -64,6 +65,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Caja Deja Dup 0.0.8
   * Caja Media Info extension.
   * Dropped Compton and Compiz from the default install
+  * Ubuntu MATE Welcome layout switcher.
 
 sudo apt install compiz compiz-core compiz-mate compiz-plugins compiz-plugins-default
 
