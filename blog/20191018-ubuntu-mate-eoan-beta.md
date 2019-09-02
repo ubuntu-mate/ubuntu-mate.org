@@ -43,6 +43,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Added MATE Desktop 1.22.1
   * Fixed frequent crashers in Brisk Menu, MATE Dock Applet and MATE Panel.
   * Brisk scrollbar fixed. Brisk upstream.
+  * Upstream of MATE Dock Applet.
   * Fixed oversized indicator icons.
     gallery/blog/indicators-after.png
     gallery/blog/indicators-before.png
@@ -56,11 +57,10 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * MATE Tweak preserves user preferences when switching between custom layouts.
   * Start Applications hides system applications.
   * GNOME MPV
-  * indicator-notifications
+  * indicator-notifications and do not disturb.
   * Blueman 2.0.8
-  * Reduced the .iso image size, then made it big again.
-  * nvidia-drivers.
-  * Marco - invisble window corners. Alt + Tab. HiDPI gradients.
+  * Reduced the .iso image size, then made it big again because nvidia-drivers.
+  * Marco - invisble window corners. Alt + Tab. HiDPI gradients. No menu in window controls by default.
   * MATE Window Applets
   * Theme fixes
   * Caja Deja Dup 0.0.8
