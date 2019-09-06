@@ -59,6 +59,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * indicator-notifications and do not disturb.
   * Blueman 2.0.8
   * Reduced the .iso image size, then made it big again because nvidia-drivers.
+  * Languages on iso optimised for where UBuntu MATE is more used.
   * Marco - invisble window corners. Alt + Tab. HiDPI gradients. No menu in window controls by default.
   * MATE Window Applets
   * Theme fixes
