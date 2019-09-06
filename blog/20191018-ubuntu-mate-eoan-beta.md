@@ -50,7 +50,6 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Fixed indicator scaling when changing the panel size.
   * Fixed race condition that could result in two network status icons being displayed
   * Fixed XPresent support
-  * Fixed lock icons in the Network Indicator when establishing VPN connection
   * Added `indicator-datetime` support
   * Switched from Thunderbird to Evolution as the default mail/calendar app
   * Dropped Brasero from the default installed applications.
@@ -67,6 +66,10 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Caja Media Info extension.
   * Dropped Compton and Compiz from the default install
   * Ubuntu MATE Welcome layout switcher.
+  * MATE Screensaver lock on resume.
+  * Fix symbolic icons appearing where they should not. Control Center. Sound Preferences. Bluetooth.
+  * Improved batter indicators so they showing a charging symbol while charging.
+  * Fixed lock icons in the Network Indicator when establishing VPN connection
 
 sudo apt install compiz compiz-core compiz-mate compiz-plugins compiz-plugins-default
 
