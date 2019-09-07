@@ -71,6 +71,8 @@ Ubuntu MATE *Beta Releases* are recommended for:
   * Fix symbolic icons appearing where they should not. Control Center. Sound Preferences. Bluetooth.
   * Improved batter indicators so they showing a charging symbol while charging.
   * Fixed lock icons in the Network Indicator when establishing VPN connection
+  * MATE Optimus support NVIDIA On-Demand
+    gallery/blog/mate-optimus-19.10.1.png
 
 sudo apt install compiz compiz-core compiz-mate compiz-plugins compiz-plugins-default
 
