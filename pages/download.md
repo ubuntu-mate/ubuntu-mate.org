@@ -213,7 +213,7 @@
         <div class="col-xs-12 col-md-6">
             <button class="download-option release-option" id="eoan" onclick="setRelease('eoan')">
                 <div class="icon">
-                    <!-- <img src="/assets/img/downloads/releases/disco.png" /> -->
+                    <img src="/assets/img/downloads/releases/eoan.png" />
                 </div>
                 <div class="details">
                     <h3 class="name"></h3>
