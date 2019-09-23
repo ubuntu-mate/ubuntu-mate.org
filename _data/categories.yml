@@ -54,10 +54,6 @@ community:
       url: /community/desktop-hall-of-fame/
 
 shop:
-    - string_name: featured
-      icon: /images/Ambiant-MATE/help-about.svg
-      url: /shop/
-
     - string_name: computers
       icon: /images/shop/computer.png
       url: /shop/computers/
@@ -69,7 +65,3 @@ shop:
     - string_name: apparel
       icon: /images/shop/apparel.png
       url: /shop/apparel/
-
-    - string_name: dvd_usb
-      icon: /images/shop/dvd-usb.svg
-      url: /shop/dvd-usb/

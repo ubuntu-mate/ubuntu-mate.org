@@ -41,14 +41,4 @@ products:
       icon: images/brands/entroware.png
       url: /shop/computers/
       desc: Purchase a new certified Ubuntu MATE computer.
-
-    - name: OSDisc.com
-      icon: images/brands/osdisc.png
-      url: /shop/discs/
-      desc: Buy a CD-ROM that's ready to use.
-
-    - name: HELLOTUX
-      icon: images/brands/hellotux.png
-      url: https://www.hellotux.com/ubuntumate1604_flash_drive
-      desc: Buy a branded USB stick that's delivered to you.
 ---
