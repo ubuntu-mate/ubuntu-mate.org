@@ -77,9 +77,9 @@ applications to turn your computer into a truly powerful workstation.
   <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
-        <a class="list-group-item active" href="https://www.mozilla.org/thunderbird/features/">Thunderbird</a>
-        <p class="list-group-item"><img class="centered" src="/assets/img/apps/thunderbird.png"></p>
-        <p class="list-group-item">Email client with integrated spam filter</p>
+        <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Evolution">Evolution</a>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/evolution.png"></p>
+        <p class="list-group-item">An integrated mail, calendar and address book suite.</p>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@ applications to turn your computer into a truly powerful workstation.
       <div class="list-group">
         <a class="list-group-item active" href="https://wiki.gnome.org/Apps/Rhythmbox">Rhythmbox</a>
         <p class="list-group-item"><img class="centered" src="/assets/img/apps/rhythmbox.png"></p>
-        <p class="list-group-item">Music player and organiser</p>
+        <p class="list-group-item">Music player and organiser.</p>
       </div>
     </div>
   </div>
@@ -118,9 +118,9 @@ applications to turn your computer into a truly powerful workstation.
   <div class="col-xs-4">
     <div class="bs-component">
       <div class="list-group">
-        <a class="list-group-item active" href="www.videolan.org/vlc/">VLC</a>
-        <p class="list-group-item"><img class="centered" src="/assets/img/apps/vlc.png"></p>
-        <p class="list-group-item">Play, capture, broadcast your multimedia streams.</p>
+        <a class="list-group-item active" href="https://celluloid-player.github.io/">Celluloid</a>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/celluloid.png"></p>
+        <p class="list-group-item">Celluloid is a simple media player.</p>
       </div>
     </div>
   </div>
