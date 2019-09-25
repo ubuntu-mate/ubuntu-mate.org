@@ -84,7 +84,7 @@ a thing of the past** and **frame times in games 🎮 is further improved**. **I
 window corners are finally here!** Invisible window corners mean that windows
 can be easily resized 📏 without having to precisely grab the window corners.
 **HiDPI rendering improvements** fix a number of rendering problems that were
-present in various themes. * **Alt+Tab navigation** makes it possible to
+present in various themes. **Alt+Tab navigation** makes it possible to
 traverse the application switcher via keyboard and mouse. We've also **cleaned
 up the window controls** by removing the menu button. The menu is still
 available either by right clicking the window title bar or pressing
@@ -113,7 +113,7 @@ the following command:
     sudo apt install compiz compiz-core compiz-mate compiz-plugins compiz-plugins-default
 
 Only having one window manager to target means we can promptly deliver new
-features and minimise development effort. Which brings us too...
+features and minimise development effort. Which brings us to...
 
 ### New Key-bindings
 
@@ -243,7 +243,7 @@ feature**. When do not disturb is enabled, notifications will not be displayed
 but will be captured in the notification center for review. It's also
 **possible to blacklist some notifications**, so they are never stored by the
 notification center. I've created an icon theme for the notification center so
-it fits look and feel of the default Ubuntu MATE theme. **Notification hints
+it fits the look and feel of the default Ubuntu MATE theme. **Notification hints
 are also fixed** so any notifications supplying additional media, such as
 sounds or icons, now work. 
 
@@ -428,7 +428,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Download Ubuntu MATE 19.10 Beta</h1>
-        <p>Our download page makes it easy to acquire the most suitable build for your hardware.</p>
+        <p>Our download page makes it easy to acquire the most suitable build for your hardware.</p>
         <a href="/download/" class="btn btn-primary btn-lg">Download</a>
         </p>
     </div>
