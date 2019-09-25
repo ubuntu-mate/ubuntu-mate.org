@@ -70,7 +70,7 @@ good deal of fixes from MATE Desktop development snapshots. In total, 67
 additional patches have been applied to the MATE Desktop packages in Ubuntu
 MATE 19.10 to finesse this release as best as we can prior to launch day 🚀 
 Included in those patches are fixes for **locking the screen on resume from
-suspend**, and adding a **Media Information extension has been added to the
+suspend**, and adding a **Media Information extension to the
 file manager**. All this work has also been submitted to
 [Debian](https://www.debian.org/).
 
@@ -148,7 +148,7 @@ in Ubuntu MATE for a while:
   * <b>Open Task Manager:</b> <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Escape</kbd>
   * <b>Open System Information:</b> <kbd>Super</kbd> + <kbd>Pause</kbd>
 
-You **find all the keyboard shortcuts documented in the Getting Started section
+You can find all the keyboard shortcuts documented in the **Getting Started section
 of Ubuntu MATE Welcome**.
 
 ### Panel & Indicator improvements
@@ -158,11 +158,11 @@ This is where a good deal of effort has been invested. Let's break it down.
 ### Brisk Menu and MATE Dock Applet
 
 [Brisk Menu](https://github.com/getsolus/brisk-menu) is under the Solus GitHub
-organisation, but its been a couple of years since it had a new release. The
+organisation, but it's been a couple of years since it had a new release. The
 Solus Project gave me administrative access 🔱 to the Brisk Menu repo and I've
 made a new release. Thanks to the efforts of a couple of Ubuntu MATE
-contributors several bug 🐞 fixes have landed too, including **resolving
-frequent crasher in Brisk Menu and preventing a scrollbar always appearing
+contributors several bug 🐞 fixes have landed too, which includes **resolving
+frequent crashers in Brisk Menu and preventing a scrollbar always appearing
 in the category column** of the menu.
 
 The previous maintainer of [MATE Dock Applet](https://github.com/ubuntu-mate/mate-dock-applet)
@@ -196,6 +196,7 @@ A bug which resulted in **oversized icons in indicators is finally resolved**.
 <img src="/gallery/blog/indicators-after.png" alt="After" /><br />
 <b>After</b>
 </div>
+<br>
 
 However, it turned out some of the bugs were due to the icons 🎨 themselves.
 Over 💯 icons have been refactored 🖌️️ to correct their resolutions and the
@@ -221,7 +222,7 @@ Preferences, Bluetooth, OSD, etc**.
 
 [MATE Window Applets](https://github.com/ubuntu-mate/mate-window-applets)
 have received a number a bug fixes and new features from a community
-contributor. Window control icons now dynamically loaded from the currently
+contributor. Window control icons now dynamically load from the currently
 selected theme, rather than manually configuring user preferred icons, and
 **a number of bugs (including significant memory leaks) have also been
 resolved**.
@@ -243,7 +244,7 @@ but will be captured in the notification center for review. It's also
 **possible to blacklist some notifications**, so they are never stored by the
 notification center. I've created an icon theme for the notification center so
 it fits look and feel of the default Ubuntu MATE theme. **Notification hints
-are also fixed** so any notifications supplying additional media, such and
+are also fixed** so any notifications supplying additional media, such as
 sounds or icons, now work. 
 
 Personally, I love ❤️ this feature! No more will I have awkward messages from
@@ -276,7 +277,7 @@ For the many people who use web-mail exclusively this change will have no
 impact, but for those who use desktop mail we feel these productivity 📈
 improvements are significant.
 
-For those of you who love 💕 Thunderbird and wish to continue using it we will
+For those of you who love 💕 Thunderbird and wish to continue using it: we will
 continue to offer Thunderbird in the Software Boutique for a one-click install.
 Likewise, Evolution is now in the Software Boutique so can be installed/removed
 with one-click too.
@@ -292,7 +293,7 @@ Thunderbird for Evolution; **better desktop integration**.
 <img src="/gallery/eoan/gnome-mpv.png" alt="GNOME MPV" /><br />
 </div>
 
-We've changed the GNOME MPV default UI to better fit in with MATE Desktop by
+We've changed GNOME MPV's default UI to better fit in with MATE Desktop by
 not using client side decorations (CSD). GNOME MPV has an MPRIS implementation
 that completely integrates with the Sound Indicator. GNOME MPV uses less space
 on the ISO image compared to VLC and we'll get on to why that is important
@@ -300,12 +301,12 @@ later.
 
 GNOME MPV doesn't offer the extensive array of preferences and options
 to users that VLC does, and instead ships sane defaults; only surfacing
-options where they make sense. GNOME MPV is GTK3 application whereas VLC uses
+options where they make sense. GNOME MPV is a GTK3 application whereas VLC uses
 Qt5. **GNOME MPV looks right at home in Ubuntu MATE which uses GTK3 throughout**.
-While we've done our best to coerce VLC to take hints from the GTK theme it
+While we've done our best to coerce VLC to take hints from the GTK theme, it
 has never been perfect. Most importantly, **GNOME MPV is an excellent media
 player with the same broad media format support that VLC offers**. Ubuntu MATE
-20.04 will ship Celluloid 🎞️ the new name for GNOME MPV. VLC will remain in
+20.04 will ship Celluloid 🎞️, the new name for GNOME MPV. VLC will remain in
 the Software Boutique as a single click install for anyone who wants it.
 
 ## Magnus
@@ -355,19 +356,19 @@ now have this:
 <img src="/gallery/eoan/desktop-layout.png" alt="Desktop Layout Switcher" /><br />
 </div>
 
-### Nvidia drivers
+### NVIDIA drivers
 
 If you've been following the news surrounding Ubuntu you'll know that
-Ubuntu will be shipping the nvidia proprietary drivers on the ISO images.
+Ubuntu will be shipping the NVIDIA proprietary drivers on the ISO images.
 This is so anyone selecting the additional 3rd party hardware drivers during
 installation without an Internet connection will have the drivers available
-and they can be installed in offline scenarios.
+so they can be installed in offline scenarios.
 
-I've seeded the nvidia proprietary drivers in Ubuntu MATE 19.10 local apt
-repository present on the ISO images. This comes at the cost of increasing
-the ISO size by ~115MB, but I think this trade-off is worth it. The drivers
-are not active by default, just present in the local apt pool to facilitate
-installation should they be requested.
+I've seeded the NVIDIA proprietary drivers in the local apt
+repository present on the ISO images for Ubuntu MATE 19.10. This comes at the
+cost of increasing the ISO size by ~115MB, but I think this trade-off is worth it.
+The drivers are not active by default, just present in the local apt pool to
+facilitate installation should they be requested.
 
 Ubuntu MATE users with computers that support hybrid graphics will see the
 MATE Optimus hybrid graphics applet displaying the NVIDIA logo.
@@ -376,16 +377,16 @@ MATE Optimus hybrid graphics applet displaying the NVIDIA logo.
 <img src="/gallery/blog/mate-optimus-19.10.1.png" alt="MATE Optimus" /><br />
 </div>
 
-Now the nvidia 435 drivers are in Ubuntu 19.10 I have given MATE Optimus an
+Now the NVIDIA 435 drivers are in Ubuntu 19.10, I have given MATE Optimus an
 update. I've added support for NVIDIA On-Demand and will now prompt users to
-log out when switching GPUs profile. MATE, XFCE, Budgie, Cinnamon, GNOME, KDE
+log out when switching the GPU's profile. MATE, XFCE, Budgie, Cinnamon, GNOME, KDE
 and LXQt are all supported. Wrappers, called `offload-glx` & `offload-vulkan`
 can be used to easily offload games/apps to the PRIME renderer. **I am also
 delighted to see Ubuntu Budgie 19.10 are also shipping MATE Optimus!**
 
 ### ISO optimisations
 
-In order to squeeze those ~115MB of nvidia drivers on the ISO while keeping
+In order to squeeze those ~115MB of NVIDIA drivers on the ISO while keeping
 the ISO at ~2GB required some optimisation. Certainly switching to Evolution
 helped a bit. We've also **dropped Brasero from the default installed
 applications** because optical media burning is not a widespread use case
@@ -398,7 +399,7 @@ and the [Ubuntu Report](https://ubuntu.com/desktop/statistics).
 
 We dropped Chinese, Japanese and Indic language packs from the ISO and added
 Russian. This dropped the ISO size considerably and the savings gained were
-just about equivalent to what the nvidia drivers require.
+just about equivalent to what the NVIDIA drivers require.
 
 We are **currently shipping English, Spanish, Portuguese, German, French,
 Italian and Russian language packs on the iso**, with each language including
@@ -427,7 +428,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Download Ubuntu MATE 19.10 Beta</h1>
-        <p>We've even redesigned the download page so it's even easier to get started.</p>
+        <p>Our download page makes it easy to acquire the most suitable build for your hardware.</p>
         <a href="/download/" class="btn btn-primary btn-lg">Download</a>
         </p>
     </div>
