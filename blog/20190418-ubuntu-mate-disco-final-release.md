@@ -117,7 +117,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
     </div>
 </div>
 
-## Upgrading from Ubuntu MATE 18.04 or 18.10
+## Upgrading from Ubuntu MATE 18.10
 
   * Open the "Software & Updates" from the Control Center.
   * Select the 3rd Tab called "Updates".
