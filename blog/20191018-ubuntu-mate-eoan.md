@@ -451,12 +451,7 @@ Here are the known issues.
 ### Ubuntu MATE
 
   * Nothing significant.
-<!-- This issue was fixed in time for the beta
-  * [Encrypted installs will not boot](https://pad.lv/1841672)
-    * `cryptsetup` is being errorneously removed at the end of an install on to an encrypted LVM.
-    * This results in the install not being able to boot. See also [LP: #1801629](https://pad.lv/1801629)
-    * For the time being, don't perform an encrypted install.
--->
+
 ### Ubuntu family issues
 
 This is our known list of bugs that affects all flavours.
