@@ -33,6 +33,7 @@ link_image umpc "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-am
 link_image umpc "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso"
 link_image umpc "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-topjoy-falcon.iso"
 link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso"
+link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso"
 
 echo "Symlinking images..."
 for region in man yor; do
