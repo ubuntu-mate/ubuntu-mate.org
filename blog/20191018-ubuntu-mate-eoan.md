@@ -10,7 +10,7 @@
 -->
 
 **
-Ubuntu MATE 19.10 is a significant improvement over Ubuntu MATE 18.04 and 19.04. 
+Ubuntu MATE 19.10 is a significant improvement over Ubuntu MATE 18.04 and 19.04.
 The theme of this release is to address as many *"paper-cut"* issues as
 possible. Every new feature in Ubuntu MATE 19.10 has been added to address
 bugs or poor user experience. Many long standing paper-cuts are finally
@@ -68,7 +68,7 @@ Upstream [MATE Desktop](https://mate-desktop.org) recently released 1.22.2.
 All the updates are present in Ubuntu MATE 19.10 plus I've cherry 🍒 picked a
 good deal of fixes from MATE Desktop development snapshots. In total, 67
 additional patches have been applied to the MATE Desktop packages in Ubuntu
-MATE 19.10 to finesse this release as best as we can prior to launch day 🚀 
+MATE 19.10 to finesse this release as best as we can prior to launch day 🚀
 Included in those patches are fixes for **locking the screen on resume from
 suspend**, and adding a **Media Information extension to the
 file manager**. All this work has also been submitted to
@@ -409,10 +409,12 @@ all regional dialect variations. Anyone in other parts of the world will get
 the language packs providing they have an Internet connection during the
 install.
 
-So, while the Ubuntu MATE ISO image is larger than some, a good chunk of that
-size is providing drivers and language packs that will probably never end up
-getting installed on your computer. But, they are there to best service our 
-diverse community of user from across the world 🗺️ running a variety of hardware.
+Had we not optimised the ISO size it would have been 2.5GB, but instead it
+remains just a hair over 2.0GB. So, while the Ubuntu MATE ISO image is
+larger than some, a good chunk of that size is providing drivers and
+language packs that will probably never end up getting installed on your
+computer. But, the language packs are there to best service our diverse
+community of users from across the world 🗺️ running a variety of hardware.
 
 ## Major Applications
 
