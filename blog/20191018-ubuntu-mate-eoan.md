@@ -427,6 +427,17 @@ probably never end up getting installed on your computer. The language
 packs and drivers are there to best service our diverse community of users
 from across the world 🗺️ running a variety of hardware 💻
 
+### GPD MicroPC
+
+Alongside the generic image for 64-bit Intel PCs, we're also releasing a
+bespoke beta image for the [GPD MicroPC](http://gpd.hk/gpdmicropc) which
+includes hardware specific tweaks to get this device working *"out of the box"*
+without any faffing about. [See our UMPC page for more details](/umpc/).
+
+<div align="center">
+<iframe id="ytplayer" type="text/html" width="852" height="480" src="https://www.youtube.com/embed/_-zm17qlLU4?html5=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Major Applications
 
 Accompanying **MATE Desktop 1.22.2** and **Linux 5.3.0** are **Firefox 69.0.1**,
