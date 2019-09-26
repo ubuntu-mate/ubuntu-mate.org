@@ -409,12 +409,23 @@ all regional dialect variations. Anyone in other parts of the world will get
 the language packs providing they have an Internet connection during the
 install.
 
-Had we not optimised the ISO size it would have been 2.5GB, but instead it
-remains just a hair over 2.0GB. So, while the Ubuntu MATE ISO image is
-larger than some, a good chunk of that size is providing drivers and
-language packs that will probably never end up getting installed on your
-computer. But, the language packs are there to best service our diverse
-community of users from across the world 🗺️ running a variety of hardware.
+Other gains were made by:
+
+  * Changing to format of the weather station database which saved 15MB 😱
+  * Removing Qt4 components. [Qt4 is being removed from Debian and Ubuntu](https://wiki.debian.org/Qt4Removal).
+  * Removing [fcitx](https://fcitx-im.org/wiki/Fcitx) from the Live environment.
+  * Removing obsolete software from the ship-live seed.
+  * Removed `usb-creator-gtk` from the default install. GNOME Disks provides image writing capabilities.
+  * Reducing the size of Ubuntu MATE Welcome and Software Boutique snaps.
+  * Using image optimisation tools on every graphic asset in the default themes, icon themes and wallpaper back-catalog.
+
+**Had we not optimised the ISO image would have been 2.5GB, but instead it
+remains just a hair over 2.0GB while now hosting the nvidia drivers and 7
+language packs**. So, while the Ubuntu MATE ISO image is larger than some,
+a good chunk of that size is hosting drivers and language packs that will 
+probably never end up getting installed on your computer. The language
+packs and drivers are there to best service our diverse community of users
+from across the world 🗺️ running a variety of hardware 💻
 
 ## Major Applications
 
