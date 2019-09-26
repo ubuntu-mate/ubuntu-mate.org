@@ -336,8 +336,9 @@ are themed correctly for Ubuntu MATE users now**. This change is already
 available all the way back to Ubuntu MATE 16.04.
 
 The most noticeable theme issues that have been resolved are **expanders in tree
-view are now a sensible size** (they were so tiny) so you can easily click them
-and **window controls are correctly proportioned on CSD windows**.
+view are now a sensible size** (they were so tiny) so you can easily click them,
+**window controls are correctly proportioned on CSD windows** and we've add a
+splash of Chelsea Cucumber 🥒 to the Ubuntu MATE logo on the menu.
 
 ## MATE Tweak and Ubuntu MATE Welcome
 
@@ -370,19 +371,20 @@ cost of increasing the ISO size by ~115MB, but I think this trade-off is worth i
 The drivers are not active by default, just present in the local apt pool to
 facilitate installation should they be requested.
 
-Ubuntu MATE users with computers that support hybrid graphics will see the
-MATE Optimus hybrid graphics applet displaying the NVIDIA logo.
+Post-install, Ubuntu MATE users with computers that support hybrid graphics
+will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo.
 
 <div align="center">
 <img src="/gallery/blog/mate-optimus-19.10.1.png" alt="MATE Optimus" /><br />
 </div>
 
 Now the NVIDIA 435 drivers are in Ubuntu 19.10, I have given MATE Optimus an
-update. I've added support for NVIDIA On-Demand and will now prompt users to
-log out when switching the GPU's profile. MATE, XFCE, Budgie, Cinnamon, GNOME, KDE
-and LXQt are all supported. Wrappers, called `offload-glx` & `offload-vulkan`
-can be used to easily offload games/apps to the PRIME renderer. **I am also
-delighted to see Ubuntu Budgie 19.10 are also shipping MATE Optimus!**
+update. MATE Optimus adds support for NVIDIA On-Demand and will now prompt
+users to log out when switching the GPU's profile. MATE, XFCE, Budgie,
+Cinnamon, GNOME, KDE and LXQt are all supported. Wrappers, called `offload-glx`
+& `offload-vulkan` can be used to easily offload games/apps to the PRIME
+renderer. **I'm also delighted to see Ubuntu Budgie 19.10 are shipping MATE
+Optimus too!**
 
 ### ISO optimisations
 
