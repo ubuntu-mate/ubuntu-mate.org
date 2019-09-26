@@ -43,7 +43,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
 <div align="center">
 <img src="/gallery/eoan/eoan-ermine-desktop.png" alt="Ubuntu MATE 19.10" /><br />
-Ubuntu MATE 19.10
+<b>Ubuntu MATE 19.10 - <i>Harder, Better, Faster, Stronger</i></b>
 </div>
 
 # Ubuntu MATE 19.10 - paper 🧻 cut ️🔪 release
