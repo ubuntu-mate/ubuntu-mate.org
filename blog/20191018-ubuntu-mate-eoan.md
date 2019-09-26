@@ -419,8 +419,8 @@ Other gains were made by:
   * Reducing the size of Ubuntu MATE Welcome and Software Boutique snaps.
   * Using image optimisation tools on every graphic asset in the default themes, icon themes and wallpaper back-catalog.
 
-**Had we not optimised the ISO image would have been 2.5GB, but instead it
-remains just a hair over 2.0GB while now hosting the nvidia drivers and 7
+**Had we not optimised the ISO image it would have been 2.5GB, but instead
+it remains just a hair over 2.0GB while now hosting the nvidia drivers and 7
 language packs**. So, while the Ubuntu MATE ISO image is larger than some,
 a good chunk of that size is hosting drivers and language packs that will 
 probably never end up getting installed on your computer. The language
