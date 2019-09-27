@@ -139,6 +139,7 @@ all screen quadrants 📐 using any keyboard form factor.
 We updated the application launcher key-bindings, some of these have existed
 in Ubuntu MATE for a while:
 
+  * <b>Cycle external displays:</b> <kbd>Super</kbd> + <kbd>p</kbd>
   * <b>Lock Screen:</b> <kbd>Super</kbd> + <kbd>L</kbd>
   * <b>Screenshot a rectangle:</b> <kbd>Shift</kbd> + <kbd>PrintScr</kbd>
   * <b>Open File Manager:</b> <kbd>Super</kbd> + <kbd>e</kbd>
@@ -148,10 +149,14 @@ in Ubuntu MATE for a while:
   * <b>Open Task Manager:</b> <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Escape</kbd>
   * <b>Open System Information:</b> <kbd>Super</kbd> + <kbd>Pause</kbd>
 
-You can find all the keyboard shortcuts documented in the **Getting Started section
-of Ubuntu MATE Welcome**.
+The key-bindings compliment existing well established alternatives. So if
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>t</kbd> (Terminal) and
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> (Lock Screen) are ingrained in
+your muscle 💪 memory 🧠 they are still available too. You can find all the
+keyboard shortcuts documented in the **Getting Started section of Ubuntu MATE
+Welcome**.
 
-### Panel & Indicator improvements
+## Panel & Indicator improvements
 
 This is where a good deal of effort has been invested. Let's break it down.
 
@@ -199,7 +204,7 @@ Over 💯 icons have been refactored 🖌️️ to correct their resolutions or 
 ratio; as a result the panel and indicators both scale correctly.
 
 A race condition that could result in **two network status icons being
-displayed is fixed**, and **when connected via VPN lock icons are overlayed on
+displayed is fixed**, and **when connected via VPN, lock icons are overlayed on
 the Network Indicator**. The battery 🔋 indicator is improved and now has a
 larger **charging symbol while charging**.
 
@@ -223,11 +228,11 @@ Preferences, Bluetooth, OSD, etc**.
 [MATE Window Applets](https://github.com/ubuntu-mate/mate-window-applets)
 have received a number a bug fixes and new features from a community
 contributor. Window control icons now dynamically load from the currently
-selected theme, rather than manually configuring user preferred icons, and
+selected theme, rather than requiring manual user configuration, and
 **a number of bugs (including significant memory leaks) have also been
 resolved**.
 
-### Notification Center
+## Notification Center
 
 Ubuntu MATE 19.10 includes a **new Indicator that provides a "notification
 center"** 🔔 We worked with the [upstream developer to add new features
@@ -250,7 +255,7 @@ sounds or icons, now work.
 Personally, I love ❤️ this feature! No more will I have awkward messages from
 my Mum flash up while I'm presenting 😜
 
-### Evolution replaces Thunderbird
+## Evolution replaces Thunderbird
 
 The Ubuntu MATE development team discussed the pros and cons of switching the
 default mail ✉️ client in Ubuntu MATE to
@@ -282,7 +287,7 @@ continue to offer Thunderbird in the Software Boutique for a one-click install.
 Likewise, Evolution is now in the Software Boutique so can be installed/removed
 with one-click too.
 
-### GNOME MPV replaces VLC 
+## GNOME MPV replaces VLC 
 
 We have **switched from VLC to GNOME MPV**, soon be renamed to
 [Celluloid](https://celluloid-player.github.io/), for the default media
@@ -328,17 +333,18 @@ window magnified two, three, four, or five times. Magnus is now shipped 🚢
 by default in Ubuntu MATE 19.10, Ubuntu Budgie 19.10 and other distros are
 already picking up it too 💪
 
-### Ubuntu MATE Themes
+## Ubuntu MATE Themes
 
 Dozens of theme related bugs have been fixed and the Ubuntu MATE themes have
-been added the the `gtk-common-themes` used by snaps, **so snapped applications
+been added to the `gtk-common-themes` used by snaps, **so snapped applications
 are themed correctly for Ubuntu MATE users now**. This change is already
 available all the way back to Ubuntu MATE 16.04.
 
 The most noticeable theme issues that have been resolved are **expanders in tree
 view are now a sensible size** (they were so tiny) so you can easily click them,
 **window controls are correctly proportioned on CSD windows** and we've add a
-splash of Chelsea Cucumber 🥒 to the Ubuntu MATE logo on the menu.
+splash of Chelsea Cucumber 🥒 to the Ubuntu MATE logo on the menu. Everything
+the QA team highlighted has been fixed 🔨
 
 ## MATE Tweak and Ubuntu MATE Welcome
 
@@ -346,30 +352,29 @@ MATE Tweak now **preserves user preferences when switching between custom
 layouts** thanks to a community contribution.
 
 If you're familiar with MATE Tweak you'll know it can switch panel layouts
-to somewhat mimic other desktop environments and distros 🐧 We have now
-integrated a graphical layout switcher in Ubuntu MATE Welcome to better
-promote the feature and make it more accessible. We have actually had this
-feature since 18.04 but the bugs in MATE Panel I mentioned earlier meant it
-didn't work. All the associated panel bugs are now fixed 🔧 and therefore we
-now have this:
+to somewhat mimic other platforms and distros 🐧 We have now integrated a
+graphical layout switcher in Ubuntu MATE Welcome to better promote the feature
+and make it more accessible. We have actually had this feature since 18.04 but
+the bugs in MATE Panel I mentioned earlier meant it didn't work. With all the
+associated panel bugs fixed 🔧 we now have this:
 
 <div align="center">
 <img src="/gallery/eoan/desktop-layout.png" alt="Desktop Layout Switcher" /><br />
 </div>
 
-### NVIDIA drivers
+## NVIDIA drivers
 
 If you've been following the news surrounding Ubuntu you'll know that
-Ubuntu will be shipping the NVIDIA proprietary drivers on the ISO images.
-This is so anyone selecting the additional 3rd party hardware drivers during
-installation without an Internet connection will have the drivers available
-so they can be installed in offline scenarios.
+Ubuntu will be shipping 🚢 the NVIDIA proprietary drivers on the ISO images.
+Anyone selecting the additional 3rd party hardware drivers during installation
+without an Internet connection will have the drivers available in offline
+scenarios.
 
-I've seeded the NVIDIA proprietary drivers in the local apt
-repository present on the ISO images for Ubuntu MATE 19.10. This comes at the
-cost of increasing the ISO size by ~115MB, but I think this trade-off is worth it.
-The drivers are not active by default, just present in the local apt pool to
-facilitate installation should they be requested.
+This comes at the cost of increasing the ISO size by ~115MB, but I think this
+trade-off is worth it. The drivers are not active by default, just present in
+the apt repository provided on the ISO image to facilitate installation should
+they be requested. But, if your computer has an NVIDIA GPU, you can now have
+the drivers installed and operational immediately following install 🌟
 
 Post-install, Ubuntu MATE users with computers that support hybrid graphics
 will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo.
@@ -386,10 +391,15 @@ Cinnamon, GNOME, KDE and LXQt are all supported. Wrappers, called `offload-glx`
 renderer. **I'm also delighted to see Ubuntu Budgie 19.10 are shipping MATE
 Optimus too!**
 
-### ISO optimisations
+The **NVIDIA drivers are now going to receive updates via the official
+Ubuntu software repository**. So no need to add a PPA to get updates and more
+importantly, **the NVIDIA drivers are signed (which is not supported for
+drivers distributed via PPA) so you can keep Secure Boot enabled.**
+
+## ISO optimisations
 
 In order to squeeze those ~115MB of NVIDIA drivers on the ISO while keeping
-the ISO at ~2GB required some optimisation. Certainly switching to Evolution
+the ISO at ~2.0GB required some optimisation. Certainly switching to Evolution
 helped a bit. We've also **dropped Brasero from the default installed
 applications** because optical media burning is not a widespread use case
 these days. Brasero is still in Software Boutique should you need it.
@@ -420,7 +430,7 @@ Other gains were made by:
   * Using image optimisation tools on every graphic asset in the default themes, icon themes and wallpaper back-catalog.
 
 **Had we not optimised the ISO image it would have been 2.5GB, but instead
-it remains just a hair over 2.0GB while now hosting the nvidia drivers and 7
+it remains just a hair over 2.0GB while now hosting the NVIDIA drivers and 7
 language packs**. So, while the Ubuntu MATE ISO image is larger than some,
 a good chunk of that size is hosting drivers and language packs that will 
 probably never end up getting installed on your computer. The language
