@@ -181,20 +181,16 @@ switching is now 100% reliable**.
 
 ### Indicators
 
-We've **modified the Date/Time Indicator so that it integrates with MATE Desktop
-and now replaces the MATE clock applet** and corrects the placement of the
-clock/session indicators.
-
 A bug which resulted in **oversized icons in indicators is finally resolved**.
 
 <div align="center">
-<img src="/gallery/blog/indicators-before.png" alt="Before" /><br />
-<b>Before</b> 💩
+<b>Before</b> 💩<br />
+<img src="/gallery/blog/indicators-before.png" alt="Before" />
 </div>
-
+<br />
 <div align="center">
-<img src="/gallery/blog/indicators-after.png" alt="After" /><br />
-<b>After</b> 🤩
+<b>After</b> 🤩<br />
+<img src="/gallery/blog/indicators-after.png" alt="After" />
 </div>
 <br>
 
@@ -206,6 +202,10 @@ A race condition that could result in **two network status icons being
 displayed is fixed**, fixed **lock icons in the Network Indicator when
 establishing VPN connections**, improved battery 🔋 indicators so
 they show a **charging symbol while charging**.
+
+We've **added the Date/Time Indicator and modified it so it integrates with
+MATE Desktop and now replaces the MATE clock applet** which corrects the
+placement of the clock and session indicators.
 
 We've finally addressed a long standing issue which has been around since
 Ubuntu MATE 14.10 🕸️ Some of the monochrome symbolic icons used in the
