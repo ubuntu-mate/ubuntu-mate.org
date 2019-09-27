@@ -189,12 +189,12 @@ A bug which resulted in **oversized icons in indicators is finally resolved**.
 
 <div align="center">
 <img src="/gallery/blog/indicators-before.png" alt="Before" /><br />
-<b>Before</b>
+<b>Before</b> 💩
 </div>
 
 <div align="center">
 <img src="/gallery/blog/indicators-after.png" alt="After" /><br />
-<b>After</b>
+<b>After</b> 🤩
 </div>
 <br>
 
