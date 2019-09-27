@@ -2,7 +2,7 @@
 .. title: Ubuntu MATE 19.10 Release Notes
 .. slug: ubuntu-mate-19-10-eoan-ermine-release
 .. date: 2019-09-24 00:00:00 UTC
-.. tags: Ubuntu,MATE,Eoan,Ermine,19.10,private
+.. tags: Ubuntu,MATE,Eoan,Ermine,19.10
 .. link:
 .. description: Ubuntu MATE 19.10 (Eoan Ermine)
 .. type: text
