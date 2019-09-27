@@ -195,13 +195,13 @@ A bug which resulted in **oversized icons in indicators is finally resolved**.
 <br>
 
 However, it turned out some of the bugs were due to the icons 🎨 themselves.
-Over 💯 icons have been refactored 🖌️️ to correct their resolutions and the
-panel and indicators now scale correctly.
+Over 💯 icons have been refactored 🖌️️ to correct their resolutions or aspect
+ratio; as a result the panel and indicators both scale correctly.
 
 A race condition that could result in **two network status icons being
-displayed is fixed**, fixed **lock icons in the Network Indicator when
-establishing VPN connections**, improved battery 🔋 indicators so
-they show a **charging symbol while charging**.
+displayed is fixed**, and **when connect via VPN lock icons are overlayed on
+the Network Indicator**. The battery 🔋 indicator is improved and now has a
+larger **charging symbol while charging**.
 
 We've **added the Date/Time Indicator and modified it so it integrates with
 MATE Desktop and now replaces the MATE clock applet** which corrects the
