@@ -20,7 +20,7 @@ on to find out what we've been working on for the last 25 weeks.
 
 <!-- beta statement: comment out all of this for the final release -->
 We are preparing Ubuntu MATE 19.10 (Eoan Ermine) for distribution on
-[October 17th, 2018](https://wiki.ubuntu.com/EoanErmine/ReleaseSchedule)
+[October 17th, 2019](https://wiki.ubuntu.com/EoanErmine/ReleaseSchedule)
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
