@@ -56,7 +56,7 @@ the 19.10 development cycle and you'll see that every new feature in Ubuntu
 MATE 19.10 addresses one of these paper-cuts. We've achieved this by expanding
 our QA team significantly and Ubuntu MATE 19.10 has been subject to weekly
 testing throughout this cycle. I can't thank our QA team enough for
-highlighting the issues that are most visible.
+highlighting the issues that need attention.
 
 Most of **the paper-cut effort has been focused around the window manager,
 the panel and the indicators** as these are the main touching points of the
@@ -68,11 +68,11 @@ Upstream [MATE Desktop](https://mate-desktop.org) recently released 1.22.2.
 All the updates are present in Ubuntu MATE 19.10 plus I've cherry 🍒 picked a
 good deal of fixes from MATE Desktop development snapshots. In total, 67
 additional patches have been applied to the MATE Desktop packages in Ubuntu
-MATE 19.10 to finesse this release as best as we can prior to launch day 🚀
-Included in those patches are fixes for **locking the screen on resume from
-suspend**, and adding a **Media Information extension to the
-file manager**. All this work has also been submitted to
-[Debian](https://www.debian.org/).
+MATE 19.10 to finesse this release prior to launch day 🚀 Included in those
+patches are fixes for **locking the screen on resume from suspend**, adding
+a **Media Information extension to the file manager** and
+**performance improvements for the window manager**. All this work
+has also been submitted to [Debian](https://www.debian.org/).
 
 ### Window Manager improvements
 
