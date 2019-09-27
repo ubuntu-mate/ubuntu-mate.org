@@ -199,7 +199,7 @@ Over 💯 icons have been refactored 🖌️️ to correct their resolutions or 
 ratio; as a result the panel and indicators both scale correctly.
 
 A race condition that could result in **two network status icons being
-displayed is fixed**, and **when connect via VPN lock icons are overlayed on
+displayed is fixed**, and **when connected via VPN lock icons are overlayed on
 the Network Indicator**. The battery 🔋 indicator is improved and now has a
 larger **charging symbol while charging**.
 
