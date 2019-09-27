@@ -70,9 +70,10 @@ good deal of fixes from MATE Desktop development snapshots. In total, 67
 additional patches have been applied to the MATE Desktop packages in Ubuntu
 MATE 19.10 to finesse this release prior to launch day 🚀 Included in those
 patches are fixes for **locking the screen on resume from suspend**, adding
-a **Media Information extension to the file manager** and
-**performance improvements for the window manager**. All this work
-has also been submitted to [Debian](https://www.debian.org/).
+a **Media Information extension to the file manager**, **performance
+improvements for the window manager** and **cycling external displays using**
+<kbd>Super</kbd> + <kbd>p</kbd>. All this work has also been submitted 
+to [Debian](https://www.debian.org/).
 
 ### Window Manager improvements
 
@@ -167,8 +168,9 @@ organisation, but it's been a couple of years since it had a new release. The
 Solus Project gave me administrative access 🔱 to the Brisk Menu repo and I've
 made a new release. Thanks to the efforts of a couple of Ubuntu MATE
 contributors several bug 🐞 fixes have landed too, which includes **resolving
-frequent crashers in Brisk Menu and preventing a scrollbar always appearing
-in the category column** of the menu.
+frequent crashers in Brisk Menu, preventing a scrollbar always appearing
+in the category column** of the menu and **silencing sounds firing as you
+rollover menu entries**.
 
 The previous maintainer of [MATE Dock Applet](https://github.com/ubuntu-mate/mate-dock-applet)
 announced that he no longer had the time ⌛️ to develop the project. Ubuntu
@@ -204,13 +206,13 @@ Over 💯 icons have been refactored 🖌️️ to correct their resolutions or 
 ratio; as a result the panel and indicators both scale correctly.
 
 A race condition that could result in **two network status icons being
-displayed is fixed**, and **when connected via VPN, lock icons are overlayed on
-the Network Indicator**. The battery 🔋 indicator is improved and now has a
-larger **charging symbol while charging**.
+displayed is fixed**, and **when connected via VPN, lock icons are now
+overlayed on the Network Indicator**. The battery 🔋 indicator is improved
+and now has a larger **charging symbol while charging**.
 
-We've **added the Date/Time Indicator and modified it so it integrates with
-MATE Desktop and now replaces the MATE clock applet** which corrects the
-placement of the clock and session indicators.
+We've **added the Date/Time Indicator and integrated it with MATE Desktop
+and it now replaces the MATE clock applet** which corrects the placement of
+the clock and session indicators.
 
 We've finally addressed a long standing issue which has been around since
 Ubuntu MATE 14.10 🕸️ Some of the monochrome symbolic icons used in the
