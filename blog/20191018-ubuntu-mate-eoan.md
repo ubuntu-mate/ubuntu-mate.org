@@ -488,7 +488,12 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
-  * Nothing significant.
+  * [Caja dropbox does not start]](https://bugs.launchpad.net/ubuntu/+source/caja-dropbox/+bug/1845876).
+    * The `libdropbox_apex.so` shared object, as distributed by Dropbox, has the wrong file permissions.
+    * See [How to fix `libdropbox_apex.so` problem with latest Dropbox?](https://askubuntu.com/questions/1177519/how-to-fix-libdropbox-apex-so-problem-with-latest-dropbox).
+    * The workaround is to open a terminal and run the following command:
+
+    sudo chmod a+rx /var/lib/dropbox/.dropbox-dist/dropbox-lnx.x86_64-*/libdropbox_apex.so
 
 ### Ubuntu family issues
 
