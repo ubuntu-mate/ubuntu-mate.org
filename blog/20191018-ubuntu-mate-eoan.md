@@ -75,6 +75,16 @@ improvements for the window manager** and **cycling external displays using**
 <kbd>Super</kbd> + <kbd>p</kbd>. All this work has also been submitted 
 to [Debian](https://www.debian.org/).
 
+Since the final beta we also:
+
+  * Fixed irregular icon sizes in MATE Control Center and made them render nicely on HiDPI displays.
+  * Fixed Caja extensions not loading.
+  * Fixed `mate-power-manager` so it uses upower-glib `get_devices2()`.
+  * Fixed a crasher in MATE Dock Applet due to an Attribute error in `adjust_minimise_pos()`.
+  * Fixed Codec updates in Software Boutique.
+  * Updated Advanced MATE Menu to use the `start-here` icon, so all menus behave consistently.
+  * Updated the Ubuntu MATE Guide.
+
 ### Window Manager improvements
 
 Marco is the Window Manager for MATE Desktop and in Ubuntu MATE 19.10
