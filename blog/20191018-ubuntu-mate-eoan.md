@@ -100,7 +100,25 @@ a thing of the past** and **frame times in games 🎮 is further improved**. **I
 window corners are finally here!** Invisible window corners mean that windows
 can be easily resized 📏 without having to precisely grab the window corners.
 **HiDPI rendering improvements** fix a number of rendering problems that were
-present in various themes. **Alt+Tab navigation** makes it possible to
+present in various themes and components, **most notably windows controls are now
+HIDPI aware**.
+
+<div class="row">
+  <div class="col-xs-6">
+    <div class="well bs-component" align="center">
+    <b>Before</b> 😢<br />
+    <img src="/gallery/eoan/lo-windows-controls-clip.png" alt="Windows Controls Before" />
+    </div>
+  </div>
+  <div class="col-xs-6">
+    <div class="well bs-component" align="center">
+    <b>After</b> 😀<br />
+    <img src="/gallery/eoan/hi-windows-controls-clip.png" alt="Windows Controls After" />
+    </div>
+  </div>
+</div>
+
+**Alt+Tab navigation** makes it possible to
 traverse the application switcher via keyboard and mouse. We've also **cleaned
 up the window controls** by removing the menu button. The menu is still
 available either by right clicking the window title bar or pressing
