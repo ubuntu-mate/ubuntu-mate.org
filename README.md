@@ -10,7 +10,7 @@ Powered by [Nikola](https://getnikola.com/) - a static page generator.
 ## Translations
 
 The website is only in English at the moment. **There is currently no way for
-translators yet**, although Nikola has support for multilingual sites.
+translations to be made yet**, although Nikola has support for multilingual sites.
 
 ----------
 ## Setting up the Nikola Environment
