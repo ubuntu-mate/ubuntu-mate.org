@@ -82,7 +82,7 @@ to [Debian](https://www.debian.org/).
   * Fixed irregular icon sizes 📏 in MATE Control Center and made them render nicely on HiDPI displays.
   * Fixed Caja 📂 extensions not loading.
   * Fixed `mate-power-manager` 🔌 so it uses upower-glib `get_devices2()`.
-<!-- * Fixed Pluma 🗒 plugins not loading. -->
+  * Fixed Pluma 🗒 plugins not loading.
   * Fixed a crasher 💣 in MATE Dock Applet due to an Attribute error in `adjust_minimise_pos()`.
   * Fixed a `gnome-keyring` timeout ⏱ in `mate-session-manager`.
   * Fixed Codec 🎞 updates in Software Boutique.
