@@ -88,7 +88,7 @@ As for the wordmark, use the roundel logo only with the colour configurations ab
 
 # Which logo should I use?
 
-It has no different which logo you choose to use for your works. There isn't a _preferred_ version we like to see. Just select what you want so that the logo is well distinguishable. We recommend that you use the white versions of the logos on darker background, and that you use the coloured versions on lighter background.
+It makes no difference which logo you choose to use for your works. There isn't a _preferred_ version we like to see; the logo just has to be distinguishable. We recommend that you use the white versions of the logos on darker backgrounds, and that you use the coloured versions on lighter backgrounds.
 
 ---
 
@@ -113,7 +113,7 @@ The Circle of MATEs, when used on its own, must always have a clear area surroun
 
 # Incorrect use
 
-By following the guidelines on how to use them you will help to build a powerful and united identity for the Ubuntu MATE brand. This section shows examples of incorrect use.
+By following the guidelines on how to use these logos you will help to build a powerful and united identity for the Ubuntu MATE brand. This section shows examples of incorrect use.
 
 You must not:
 
