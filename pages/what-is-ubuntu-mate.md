@@ -183,7 +183,7 @@ are given back to the Linux distribution and the software improves as a
 result.
 
 Unlike Windows, and OSX,  Linux is not created and supported by just one 
-company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, 
+company. It is supported by Intel, Red Hat, Linaro, Samsung, IBM, SUSE, 
 Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 
 4,000 developers contributed to Linux over the last 15 years.
 
