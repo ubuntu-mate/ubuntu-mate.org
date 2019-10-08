@@ -70,10 +70,10 @@ Making an accessible operating system was a key priority when the
 Ubuntu MATE founders initially set out the goals of the project.
 
 Ubuntu MATE is never going to be able to offer the comprehensive
-integration of assistive technologies that [Sonar GNU/Linux](http://sonargnulinux.com/)
-provides. But we will continue to follow their lead so that Ubuntu MATE
-is a viable desktop solution where computer access is shared within a
-household or business where individual needs differ.
+integration of assistive technologies that Sonar GNU/Linux provides. But
+we will continue to follow their lead so that Ubuntu MATE is a viable
+desktop solution where computer access is shared within a household or
+business where individual needs differ.
 
 The upstream MATE Desktop team are actively engaged with visually
 impaired users from the Linux community to ret and ensure their needs

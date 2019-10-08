@@ -31,7 +31,7 @@ already present in Beta1.
   * Added `gnome-system-tools` due to community feedback requesting user and time management facilities. [LP #1367772](https://bugs.launchpad.net/ubuntu-mate/+bug/1367772)  
   * Added indicators to Ubiquity that enable access to assistive features and basic system configuration.
   * Added assistive features to LightDM.
-  * Added keybindings, compatible with [Sonar](http://sonargnulinux.com/), for toggling assistive features.
+  * Added keybindings, compatible with Sonar GNU/Linux, for toggling assistive features.
   * Added a MATE panel layout that is similar in appearance to Windows XP classic mode (see below for activation instructions).
   * Updated the default Ubuntu MATE panel layout to better reflect how Ubuntu 10.04 and 10.10 were arranged.
   * Updated some icon assets in Ambiant-MATE and Radiant-MATE. Thanks to [Jack Mohegan](https://plus.google.com/101312215214323407176/posts/2dyVkArfx49).
