@@ -151,7 +151,7 @@ this is unnecessary on the Pi 3+ as USB booting is enabled by default.
 ### Re-size file system
 
 The root parition is automatically resized, on first boot, to fully utilise
-the all available space on the microSD card or USB stick. No reboots required.
+all the available space on the microSD card or USB stick. No reboots required.
 
 ### First boot
 
@@ -179,7 +179,7 @@ to enable SSH.
 
 If you install SSH then you might also want to install [sshguard](sshguard)
 which is highly optimised and well suited for use on the Raspberry Pi to
-protects from brute force attacks against SSH.
+protect from brute force attacks against SSH.
 
     sudo apt install sshguard
 
@@ -213,7 +213,7 @@ and use the Python interface to manipulate the world around you from the Raspber
 
 You can disable/enable the desktop environment using `raspi-config`.
 
-If you only intended to run as a headless server then the official Ubuntu Server 18.04.2 images mightt be of interest:
+If you only intended to run as a headless server then the official Ubuntu Server 18.04.2 images might be of interest:
 
   * <https://wiki.ubuntu.com/ARM/RaspberryPi>
 
