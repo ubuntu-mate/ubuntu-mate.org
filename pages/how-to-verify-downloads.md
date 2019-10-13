@@ -97,7 +97,7 @@ Graphical utilities are also available:
 ## Check using Repository GPG Keys (secure)
 
 This method verifies the hashes published by Canonical are
-actually authenticate. Unlike performing a quick checksum,
+actually authentic. Unlike performing a quick checksum,
 the SHA256SUMS file is signed and only Ubuntu's key can unlock
 the file to reveal the checksums exactly as Ubuntu published them.
 
