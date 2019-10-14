@@ -25,7 +25,7 @@ can work on and material to help them get started.
 ## Reboot Ubuntu MATE Welcome and Software Boutique
 
 We will decouple Ubuntu MATE Welcome and the Software Boutique so they
-can be interated on independently. The code for both will be refactor
+can be iterated on independently. The code for both will be refactored
 and simplified so that other projects wanting to build on either can
 easily do so.
 
