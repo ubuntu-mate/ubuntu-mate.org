@@ -23,17 +23,25 @@ link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/armhf/ubuntu-mate-18.04.2
 link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/arm64/ubuntu-mate-18.04.2-beta2-desktop-arm64+raspi3-ext4.img.xz"
 link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/armhf/ubuntu-mate-18.04.2-beta2-desktop-armhf+raspi-ext4.img.xz"
 link_image raspberry-pi "/home/matey/ISO-Mirror/xenial/armhf/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz"
-link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso"
-link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso"
-link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.2-desktop-amd64-topjoy-falcon.iso"
+
+#link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket.iso"
+#link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.2-desktop-amd64-gpd-pocket2.iso"
+#link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.2-desktop-amd64-topjoy-falcon.iso"
 link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.3-desktop-amd64-gpd-pocket.iso"
 link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.3-desktop-amd64-gpd-pocket2.iso"
 link_image umpc "/home/matey/ISO-Mirror/bionic/amd64/ubuntu-mate-18.04.3-desktop-amd64-topjoy-falcon.iso"
+
 link_image umpc "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket.iso"
 link_image umpc "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-gpd-pocket2.iso"
 link_image umpc "/home/matey/ISO-Mirror/disco/amd64/ubuntu-mate-19.04-desktop-amd64-topjoy-falcon.iso"
-link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso"
-link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso"
+
+#link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-alpha1-desktop-amd64-gpd-micropc.iso"
+#link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso"
+link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso"
+link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso"
+link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso"
+link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso"
+link_image umpc "/home/matey/ISO-Mirror/eoan/amd64/ubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso"
 
 echo "Symlinking images..."
 for region in man yor; do

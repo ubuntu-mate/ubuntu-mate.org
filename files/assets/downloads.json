@@ -116,24 +116,59 @@
         "support": "Supported until July 2020",
         "release-notes": "/blog/ubuntu-mate-19-10-eoan-ermine-release/",
         "background-url": "/assets/img/downloads/backgrounds/bionic.png",
-        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/",
-        "pre-release": true,
-        "support": "Beta",
+        "other-downloads": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/",
+        "pre-release": false,
         "amd64": {
-            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/beta/ubuntu-mate-19.10-beta-desktop-amd64.iso",
-            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/beta/ubuntu-mate-19.10-beta-desktop-amd64.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:fd9b888ec51d17cc80810fdfda787f8fec5f1f43&dn=ubuntu-mate-19.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce",
-            "sha256sum": "1d07330399abaae4f04057466e640b99060244c3f7d7c331776b5141a8e889db",
-            "download-size": "2.0 GB"
+            "direct": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/ubuntu-mate-19.10-desktop-amd64.iso",
+            "torrent": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/ubuntu-mate-19.10-desktop-amd64.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:662948f49f28ab7f57e741e5189b6776588e9947&dn=ubuntu-mate-19.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce",
+            "sha256sum": "ac71c064b495a18c04839585dde94e2d7772b3cb1d1cae7d5db79ef2839068ae",
+            "download-size": "2.2 GB"
+        },
+        "gpd-pocket": {
+            "direct": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso",
+            "torrent": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:c8dc042deec17b65864072dcbdb897c531074a2d&dn=ubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso",
+            "sha256sum": "6c1a8d2aba27c8e9585678c3ef9c465b795a004a6f7b7dfbef691e668cd881bf",
+            "download-size": "2.2 GB",
+            "alt-name": "19.10 (Eoan) for GPD Pocket",
+            "alt-description": "Pre-configured to support the GPD Pocket <i>out of the box</i>"
+        },
+        "gpd-pocket2": {
+            "direct": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso",
+            "torrent": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:34f6399db5fab6d0491aec744d38ea2be775e6f8&dn=ubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso",
+            "sha256sum": "5fe9f517be62cf87538d3954f374056a3301bbfe501690ec1e608571d2b21583",
+            "download-size": "2.2 GB",
+            "alt-name": "19.10 (Eoan) for GPD Pocket 2 & GPD WIN 2",
+            "alt-description": "Pre-configured to support the GPD Pocket 2 & GPD WIN 2 <i>out of the box</i>"
         },
         "gpd-micropc": {
-            "direct": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso",
-            "torrent": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso.torrent",
-            "magnet-uri": "magnet:?xt=urn:btih:56b9a5944fcc22c4935283c50b0ad1b22cb6d9a0&dn=ubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-beta-desktop-amd64-gpd-micropc.iso",
-            "sha256sum": "36924c1f802c6dbd6326b85e08cf8a7bf856bfe180e84916bf1240dcd235bdf5",
-            "download-size": "2.0 GB",
+            "direct": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso",
+            "torrent": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:ad035b884b3fef9658a865f3c7d1f9a3d8cae249&dn=ubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso",
+            "sha256sum": "5a8d949c3acfccd9bdbb78c03206bc7ad55446ae7ee9fedf8744da6064173ca1",
+            "download-size": "2.2 GB",
             "alt-name": "19.10 (Eoan) for GPD MicroPC",
             "alt-description": "Pre-configured to support the GPD MicroPC <i>out of the box</i>"
+        },
+        "gpd-p2-max": {
+            "direct": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso",
+            "torrent": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:5c49310a9740a726622a83c00b489648bac2e4d2&dn=ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Feoan%2Fubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Feoan%2Fubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso",
+            "sha256sum": "d1f42175ede959b964c585be724bcaf132708b72978246de2eacd877943edbe6",
+            "download-size": "2.2 GB",
+            "alt-name": "19.10 (Eoan) for GPD P2 Max",
+            "alt-description": "Pre-configured to support the GPD P2 Max <i>out of the box</i>"
+        },
+        "topjoy-falcon": {
+            "direct": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso",
+            "torrent": "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso.torrent",
+            "magnet-uri": "magnet:?xt=urn:btih:aa6cfcf5cf31cde85b4983c4a96da7f036a37670&dn=ubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso",
+            "sha256sum": "42008ab3c1777876e55f971fcb0ae31764bddc9935a820fbe4c748c0320b945f",
+            "download-size": "2.2 GB",
+            "alt-name": "19.10 (Eoan) for Topjoy Falcon",
+            "alt-description": "Pre-configured to support the Topjoy Falcon <i>out of the box</i>"
         }
     }
 }

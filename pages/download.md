@@ -156,6 +156,23 @@
             </button>
         </div>
         <div class="col-xs-12 col-md-6">
+            <button class="download-option arch-option" id="gpd-p2-max" onclick="setArch('gpd-p2-max', 'GPD P2 Max')">
+                <div class="icon">
+                    <span class="fa fa-laptop"></span>
+                </div>
+                <div class="details">
+                    <h3>GPD P2 Max</h3>
+                    <p>
+                        For the following devices:
+                        <ul>
+                            <li>GPD P2 Max</li>
+                        </ul>
+                    </p>
+                </div>
+            </button>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
             <button class="download-option arch-option" id="topjoy-falcon" onclick="setArch('topjoy-falcon', 'Topjoy Falcon')">
                 <div class="icon">
                     <span class="fa fa-laptop"></span>
@@ -171,6 +188,7 @@
                 </div>
             </button>
         </div>
+
     </div>
 </div>
 
