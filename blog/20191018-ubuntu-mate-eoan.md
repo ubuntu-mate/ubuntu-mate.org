@@ -18,7 +18,7 @@ resolved. Make yourself a cup of tea ☕ and get a slice of cake 🍰 before rea
 on to find out what we've been working on for the last 25 weeks.
 **
 
-<!-- beta statement: comment out all of this for the final release -->
+<!-- beta statement: comment out all of this for the final release
 We are preparing Ubuntu MATE 19.10 (Eoan Ermine) for distribution on
 [October 17th, 2019](https://wiki.ubuntu.com/EoanErmine/ReleaseSchedule)
 With this *Beta* pre-release, you can see what we are trying out in
@@ -39,7 +39,7 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
   * Regular users who want to help us test by finding, reporting, and/or fixing bugs
   * Ubuntu MATE, MATE, and GTK+ developers.
-<!-- end of beta statement -->
+end of beta statement -->
 
 <div align="center">
 <img src="/gallery/eoan/eoan-ermine-desktop.png" alt="Ubuntu MATE 19.10" /><br />
@@ -77,7 +77,7 @@ to [Debian](https://www.debian.org/).
 
 **Since the final beta we worked on the following**:
 
-<!-- * Added *experimental* ZFS 🗄 install option. -->
+  * Added *experimental* ZFS 🗄 install option.
   * Fixed rendering window controls on HiDPI 🔍 displays.
   * Fixed irregular icon sizes 📏 in MATE Control Center and made them render nicely on HiDPI displays.
   * Fixed Caja 📂 extensions not loading.
@@ -96,12 +96,11 @@ Marco is the Window Manager for MATE Desktop and in Ubuntu MATE 19.10
 it brings a number of new features and fixes.
 
 **XPresent support is properly fixed** which means that **screen tearing is now
-a thing of the past** and **frame times in games 🎮 is further improved**. **Invisible
-window corners are finally here!** Invisible window corners mean that windows
-can be easily resized 📏 without having to precisely grab the window corners.
-**HiDPI rendering improvements** fix a number of rendering problems that were
-present in various themes and components, **most notably windows controls are now
-HIDPI aware**.
+a thing of the past** and **invisible window corners are finally here!** Invisible
+window corners mean that windows can be easily resized 📏 without having to
+precisely grab the window corners. **HiDPI rendering improvements** fix a number
+of rendering problems that were present in various themes and components,
+**most notably windows controls are now HIDPI aware**.
 
 <div class="row">
   <div class="col-xs-6">
@@ -472,10 +471,25 @@ probably never end up getting installed on your computer. The language
 packs and drivers are there to best service our diverse community of users
 from across the world 🗺️ running a variety of hardware 💻
 
-### GPD MicroPC
+## ZFS on root
+
+<div align="center">
+<img src="/gallery/eoan/zol-logo.png" alt="ZFS on Linux" /><br />
+</div>
+
+Support for ZFS as the root filesystem is added as an experimental feature in 19.10.
+The ZFS file system and partitioning layout is handled automatically directly via the
+installer.
+
+You can read more details on Didier Roche's blogs:
+
+  * [Part 1 - Ubuntu ZFS support in 19.10: introduction](https://didrocks.fr/2019/08/06/ubuntu-zfs-support-in-19.10-introduction/)
+  * [Part 2 - Ubuntu ZFS support in 19.10: ZFS on root](https://didrocks.fr/2019/10/11/ubuntu-zfs-support-in-19.10-zfs-on-root/)
+
+## GPD MicroPC & other UMPCs
 
 Alongside the generic image for 64-bit Intel PCs, we're also releasing a
-bespoke beta image for the [GPD MicroPC](http://gpd.hk/gpdmicropc) which
+bespoke image for the [GPD MicroPC](http://gpd.hk/gpdmicropc) which
 includes hardware specific tweaks to get this device working *"out of the box"*
 without any faffing about. [See our UMPC page for more details](/umpc/).
 
@@ -498,7 +512,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Download Ubuntu MATE 19.10 Beta</h1>
+        <h1>Download Ubuntu MATE 19.10</h1>
         <p>Our download page makes it easy to acquire the most suitable build for your hardware.</p>
         <a href="/download/" class="btn btn-primary btn-lg">Download</a>
         </p>
@@ -526,7 +540,9 @@ Here are the known issues.
     * See [How to fix `libdropbox_apex.so` problem with latest Dropbox?](https://askubuntu.com/questions/1177519/how-to-fix-libdropbox-apex-so-problem-with-latest-dropbox).
     * The workaround is to open a terminal and run the following command:
 
-    sudo chmod a+rx /var/lib/dropbox/.dropbox-dist/dropbox-lnx.x86_64-*/libdropbox_apex.so
+```
+sudo chmod a+rx /var/lib/dropbox/.dropbox-dist/dropbox-lnx.x86_64-*/libdropbox_apex.so
+```
 
 ### Ubuntu family issues
 
