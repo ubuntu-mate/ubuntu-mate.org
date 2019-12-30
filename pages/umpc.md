@@ -42,7 +42,7 @@ The [Ubuntu MATE images for the UMPCs](https://ubuntu-mate.org/umpc/) add the fo
     * Supports `modesetting` *and* `xorg-video-intel` display drivers.
   * Enable **TearFree rendering by default**.
   * Enable touch screen rotation for Xorg and Wayland.
-  * Enable **scroll whell emulation** for Xorg.
+  * Enable **scroll wheel emulation** for Xorg.
     * While holding down the **right track point button** on the Pocket, Pocket 2 & Topjoy Falcon.
     * While holding down the **centre track point button** on the MicroPC.
   * Enable double size console (tty) font resolution.
