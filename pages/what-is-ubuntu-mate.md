@@ -69,7 +69,7 @@ applications to turn your computer into a truly powerful workstation.
     <div class="bs-component">
       <div class="list-group">
         <a class="list-group-item active" href="https://www.mozilla.org/firefox/desktop/">Firefox</a>
-        <p class="list-group-item"><img class="centered" src="/assets/img/apps/firefox.png"></p>
+        <p class="list-group-item"><img class="centered" src="/assets/img/apps/firefox.svg" style="width:64px;height:64px"></p>
         <p class="list-group-item">Safe and easy web browser</p>
       </div>
     </div>
