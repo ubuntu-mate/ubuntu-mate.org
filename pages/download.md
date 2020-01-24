@@ -217,18 +217,6 @@
             </button>
         </div>
         <div class="col-xs-12 col-md-6">
-            <button class="download-option release-option" id="disco" onclick="setRelease('disco')">
-                <div class="icon">
-                    <img src="/assets/img/downloads/releases/disco.png" />
-                </div>
-                <div class="details">
-                    <h3 class="name"></h3>
-                    <p class="description"></p>
-                    <div class="support"></div>
-                </div>
-            </button>
-        </div>
-        <div class="col-xs-12 col-md-6">
             <button class="download-option release-option" id="eoan" onclick="setRelease('eoan')">
                 <div class="icon">
                     <img src="/assets/img/downloads/releases/eoan.png" />
