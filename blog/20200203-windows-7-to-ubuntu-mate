@@ -1,0 +1,115 @@
+<!--
+.. title: Why you should upgrade Windows 7 to Ubuntu MATE
+.. slug: why-you-should-upgrade-windows-7-to-ubuntu-mate
+.. date: 2020-02-03 00:00:00 UTC
+.. tags: Ubuntu,MATE,Windows,7
+.. link:
+.. description: Why you should upgrade Windows 7 to Ubuntu MATE
+.. type: text
+.. author: franksmcb
+-->
+
+## Why you should upgrade Windows 7 to Ubuntu MATE
+
+Windows 7 has reached the end of its life. It will no longer receive security updates and Microsoft's technical support will stop. Running an out-of-date OS can have serious potential risks, and if you're one of more than 750,000 people using Windows exposed to the internet, you may have a problem. Fortunately, there are two simple solutions: 1. Buy a new computer running another operating system, or 2. Install Linux on any computer you like. In this article, we will talk about the Linux option, specifically Ubuntu MATE.
+
+# What is Ubuntu MATE?
+
+<div align="center">
+<img src="/gallery/w7tomate/w7ubuntumate.png" alt="Ubuntu MATE" /><br />
+</div>
+
+Simply put, [Ubuntu MATE](https://ubuntu-mate.org/) is a typical modern computer operating system for the average computer user. It is a supported and official "flavor" of Ubuntu Linux, the most widely deployed Linux-based desktop operating system in the world. [Ubuntu](https://ubuntu.com/), pronounced oŏ'boŏntoō, is developed and supported by [Canonical, Ltd](https://canonical.com/). The name "MATE" is pronounced "Mah-Tay" (not "Mayt") and comes from the name of the yerba maté plant, a species of holly native to South America.
+
+While it is great for users who are upgrading from Windows 7 (or macOS), Ubuntu MATE is also an excellent choice for any kind of computer operator, from casual home user to professional software developer because of its modern, functionally thought-out design.
+
+**Modern and Full-Featured**
+
+When you use Ubuntu MATE, you'll find that it is a free, full-featured, and modern computer operating system, which is attractive and easy to understand. Its' update manager keeps both the operating system and all of its installed applications updated to the most current and secure release. Ubuntu MATE is more secure and better-supported than operating systems that come pre-installed on most personal computer hardware today. With modest hardware requirements, Ubuntu MATE is suitable for current workstations and laptops, single board computers and older hardware too. Ubuntu MATE makes modern computers faster and older computers usable.
+
+**Apps**
+
+Ubuntu MATE comes pre-installed with everything you need to browse the Internet, check email, use a word processor, read and store document files, view and edit photos, stream media, and subscribe to podcasts. Below is a sampling of some of the productivity applications you'll find as soon as you start using Ubuntu MATE.
+
+
+# Google Chrome
+
+<div align="center">
+<img src="/gallery/w7tomate/w7chrome" alt="Google Chrome" /><br />
+</div>
+
+It's likely a lot of users upgrading from Windows will be used to [Google Chrome](https://www.google.com/chrome/). Ubuntu MATE's Welcome application offers the choice of six browsers, including [Firefox](https://www.mozilla.org) and Chrome, and installing either one or several browsers is a button-click away. With Chrome, the approximate [56.1% of web browsers](https://www.w3counter.com/globalstats.php) who were using Google Chrome at the end of last year can easily move to Ubuntu MATE. You can even move all of your bookmarks from chrome on Windows 7 to Ubuntu MATE.
+
+To do so, click on the three dots at the top right of the browser. Move your mouse to "Bookmarks" and open "Bookmark manager". Select the bookmarks to save, select the three dots at the top right of the page again, and click "Export bookmarks". Google Chrome will then save your bookmarks as a HTML file online. Use the file to import your bookmarks back into Chrome once Ubuntu MATE is installed.
+
+# Office Suite
+
+<div align="center">
+<img src="/gallery/w7tomate/w7office" alt="Office Suite" /><br />
+</div>
+
+All online web apps are available with Ubuntu MATE, including [Microsoft's Office Online](https://products.office.com/en-us/free-office-online-for-the-web) and [Google's Docs, Sheets, and Slides](https://www.google.com/docs/about/) applications. Although the installed version of Microsoft Office is not available on Ubuntu MATE, the pre-installed application is LibreOffice, a full-featured office productivity suite that provides a near drop-in replacement for Microsoft's office suite and is compatible with Google's online office suite. Like many office suites, [LibreOffice](https://www.libreoffice.org/) includes several applications, but unlike other suites, it contains applications like Base and Math, as a parts of the suite. LibreOffice is truly full-featured, unlike other online versions of office productivity apps that provide only basic functions. Basic capabilities are fine until you need to use one of those "advanced" features. Then you'll be looking for something with all the features.
+
+# Spotify
+
+<div align="center">
+<img src="/gallery/w7tomate/w7spotify" alt="Spotify" /><br />
+</div>
+
+If you're moving from Windows 7, you'll want to keep your music. [Spotify](https://www.spotify.com), the most popular global audio streaming subscription service with [248m users](https://newsroom.spotify.com/company-info/) is on Ubuntu MATE too. It can be installed with a button click in the Software Boutique.
+
+
+# Shotwell Digital Photo Organizer
+
+Ubuntu MATE also provides a way to organize all of your digital photos with [Shotwell](https://wiki.gnome.org/Apps/Shotwell). When you first launch Shotwell, it scans your computer for photos and imports them so that you can use Shotwell to organize them. Once you have all the photos from your computer's hard drive within Shotwell, you can import new files from the menus, or by dragging and dropping them onto the Shotwell window, or by connecting a camera to your computer and choosing to import the photos from there. Of course, you can share your photos from Shotwell by exporting or printing them. You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow.
+
+# Skype
+
+<div align="center">
+<img src="/gallery/w7tomate/w7skype" alt="Skype" /><br />
+</div>>
+
+[Skype](https://www.skype.com/en/) is the most widely used cross-platform video calling app. It brings features like voice calls, video calls and desktop screen sharing to your computer. On Ubuntu MATE you can continue skyping to your heart's content.
+
+With these apps, most PC users will be able to function as normal. You can continue to search the web, listen to music, watch videos, talk with your friends and download new apps. Plus, you can discover thousands more apps designed and built by the community.
+
+# Getting new apps
+
+Ubuntu MATE's online software repositories (think: software catalog) gives access to thousands of additional apps ready to install. The software repositories for Ubuntu MATE are managed, maintained and updated by the distribution's maintainers and contain almost ALL of the full-featured, free and open-source software that has been tested for installation on Ubuntu MATE. Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE. If you don't find an installed application to do what you want to do, you'll likely find it in the Software Boutique or by using one of Ubuntu MATE's other software management applications, then you can install it from there.
+
+Installing software on Ubuntu MATE is actually easier and safer than on Windows. On Ubuntu MATE users install apps using the Software Boutique or the easily added Software Center and [Snap Store](https://snapcraft.io/store). Installing is just a case of clicking install, without needing to click through Windows asking to make changes to your computer.
+
+# Community
+
+Open-source means Ubuntu MATE is built by people, for users. It is backed by Canonical who provide extra services and support for large businesses to use Ubuntu in their organizations. It is free for anyone in the world to use, for anyone to contribute to, and so anyone can suggest or request new things. Even Microsoft is contributing in order to have their say. Open-source communities are famous for being passionate about their work and for being collaborative, they are open to everyone. Using Ubuntu MATE is a step towards joining a global community, and contributing your work to a bigger picture.
+
+People are what makes a community great. The [Ubuntu MATE community](https://ubuntu-mate.org/community/) is not just software people and computer people, but artists and photographers, entrepreneurs and inventors; people who contribute and provide feedback to make apps and features the best they can be.
+
+# Security
+
+This is the reason switch from Windows 7 is necessary. Security patches will no longer be supplied for Windows 7. Ubuntu MATE is secure. Every line of code is thoroughly vetted by Canonical or a member of the community. Code isn't implemented until it works as it's supposed to. There are full-time employees at Canonical actively looking for bugs and vulnerabilities.
+
+The built-in updater provided with Ubuntu MATE provides security updates for both its software applications and the operating system. Vulnerabilities are patched more quickly and are delivered automatically and more frequently than on Windows.
+
+Ubuntu MATE receives updates continuously. The updates include security patches for both Ubuntu MATE and its installed applications on the same frequent schedule. This ensures that you have the latest protection for all of your computer's software -- as soon as it's available!
+
+# How to get Ubuntu MATE
+
+There are three main ways to get Ubuntu MATE.
+
+1. You can install Ubuntu MATE on a computer you already have. There are [tutorials](https://ubuntu-mate.community/t/ubuntu-beginners-guide-complete-how-to-install-and-run-first-update/955) available to help you with the installation. There is also a [book](https://www.amazon.com/dp/ASIN/16588726810)  published on Amazon that includes written instructions on installing and using Ubuntu MATE.
+
+2. You can buy a new computer with Ubuntu MATE pre-installed from [Entroware](https://www.entroware.com/store/) and other computer providers. This is the most expensive option of the three, but it gets you up and running the fastest.
+
+3. You can also install Ubuntu in a virtual environment. This option might sound the most confusing and is the least intuitive if you’re new to Linux, but it is the most straightforward. This option means installing Ubuntu in a virtual environment on Linux, Windows or MacOS inside an application that lets you access Ubuntu from your desktop. A simple [walkthrough]( https://help.ubuntu.com/community/VirtualBox?_ga=2.111274180.1583151569.1580659436-408904912.1571266956) is available on the Ubuntu community Wiki page .
+
+# Summary
+
+To conclude, if you know anyone still running Windows 7, a relative, a small business owner, or a less than techy person in your life, let them know Windows 7 is leaving their system exposed. There are a few options to take, one of which is installing Ubuntu MATE, an operating system that offers thousands of new apps to explore and most of the features you can get from Windows -- for free. Ubuntu MATE is cared for by the community, with users across the globe, and by Canonical, who help to make it secure and function to an industry-leading level of reliability.
+
+
+
+
+
+*Much thanks to [Larry Bushey](https://www.goinglinux.com/) for the vast majority of this content.*
+*This posting is based on the fine work of [Rhys Davies](https://ubuntu.com/blog/why-you-should-upgrade-windows-7-to-ubuntu)*
