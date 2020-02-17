@@ -56,3 +56,28 @@ get-involved:
         - string_name: design_guidelines
           icon:
           url: /get-involved/design-guidelines/
+
+faq:
+    - category_string_name: prepare_media
+      items:
+        - string_name: download_help
+          icon:
+          url: /faq/downloads/
+
+        - string_name: verify_downloads
+          icon:
+          url: /faq/verify/
+
+        - string_name: how_to_image
+          icon:
+          url: /faq/usb-image/
+
+    - category_string_name: prepare_boot
+      items:
+        - string_name: bios_or_uefi
+          icon:
+          url: /faq/bios-uefi/
+
+        - string_name: what_is_live_session
+          icon:
+          url: /faq/live-session/

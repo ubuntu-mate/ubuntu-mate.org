@@ -37,7 +37,7 @@ show_all: "All Downloads"
 show_req: "System Requirements"
 download_ports: "Or.... choose a hardware port:"
 download_products: "Or... buy it preloaded:"
-download_help: "Help"
+download_help: "Which download should I choose?"
 label_LTS: "Recommended for stability and mission critical systems."
 label_nonLTS: "Interim release for users desiring the latest features and applications."
 label_prerelease:  "Development release for testing and debugging."
@@ -190,6 +190,20 @@ dev_backlog: "Backlog"
 dev_active: "In Progress"
 dev_completed: "Completed"
 design_guidelines: "Design Guidelines"
+
+
+#######################################
+# FAQs
+#######################################
+faq: "FAQs"
+# download_help: <see above>
+verify_downloads: "How to verify your download"
+how_to_image: "How to image a USB Drive"
+bios_or_uefi: "Do I boot in BIOS or UEFI mode?"
+what_is_live_session: "Can I try without installing?"
+
+prepare_media: "Preparing your media"
+prepare_boot: "Preparing to boot"
 
 
 #######################################
