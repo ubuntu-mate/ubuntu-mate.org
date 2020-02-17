@@ -38,7 +38,7 @@ ports:
 
 products:
     - name: Entroware
-      icon: /images/brands/entroware.png
+      icon: images/brands/entroware.svg
       url: /shop/computers/
       desc: Purchase a new certified Ubuntu MATE computer.
 
