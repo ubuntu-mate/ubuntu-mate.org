@@ -35,8 +35,9 @@ makes modern computers fast and old computers usable.
 [armhf (Recommended)]: /download/armhf/
 [arm64 (Experimental)]: /download/arm64/
 
-Raspberry Pi 4 is not currently supported at the moment, but is
-planned for a future version.
+The micro-SD card needs to be a minimum of 5 GB.
+
+Raspberry Pi 4 is not currently supported at the moment, but is planned for a future version.
 
 
 ### Hardware Ports

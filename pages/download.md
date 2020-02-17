@@ -18,12 +18,12 @@ arch:
 ports:
     - name: "Raspberry Pi (recommended)"
       icon: images/brands/rpi-outline.svg
-      desc: 'Compatible with models: B2, B3 and B3+.'
+      desc: 'Compatible with models: B2, B3 and B3+'
       id: armhf
 
     - name: "Raspberry Pi (experimental)"
       icon: images/brands/rpi-outline-64.svg
-      desc: 'Compatible with models: B3 and B3+.'
+      desc: 'Compatible with models: B3 and B3+'
       id: arm64
 
     - name: "GPD Pocket"
