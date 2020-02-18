@@ -1,72 +1,83 @@
 ---
-layout: page-category
+layout: team
 title: Team
 permalink: /about/team/
 lang: en
 class: about
 category: about
-team_founders:
 
-    - name: Martin Wimpress
-      avatar: https://avatars0.githubusercontent.com/u/304639?s=460&v=4
-      url:
-      roles:
-        - canonical
-        - ubuntu
-        - ubuntu_mate
-        - mate_desktop
+team:
 
-    - name: Alan Pope
-      avatar: https://avatars0.githubusercontent.com/u/1841272?s=460&v=4
-      url:
-      roles:
-        - canonical
-        - ubuntu
+    - title: Founders
+      members:
 
-team_core:
+        - name: Martin Wimpress
+          avatar: https://avatars0.githubusercontent.com/u/304639?s=460&v=4
+          url: https://wimpysworld.com/
+          roles:
+            - canonical
+            - ubuntu
+            - mate_desktop
+            - code
+            - packager
 
-    - name: Example Name
-      avatar: https://example.com/example.png
-      url: https://example.com
-      roles:
-        - canonical
-        - ubuntu
-        - ubuntu_mate
-        - mate_desktop
-        - bug
-        - moderator
-        - qa
-        - packager
+        - name: Alan Pope
+          avatar: https://avatars0.githubusercontent.com/u/1841272?s=460&v=4
+          url: http://popey.com/blog/
+          roles:
+            - canonical
+            - ubuntu
 
-team_qa:
+    - title: Core Members
+      members:
 
-    - name: Example Name
-      avatar: https://example.com/example.png
-      url: https://example.com
-      roles:
-        - canonical
-        - ubuntu
-        - ubuntu_mate
-        - mate_desktop
-        - bug
-        - moderator
-        - qa
-        - packager
+        - name: Example Name
+          avatar: null
+          url: null
+          roles:
+            - canonical
+            - ubuntu
+            - code
+            - artwork
+            - documentation
+            - mate_desktop
+            - moderator
+            - qa
+            - packager
 
-team_community:
+    - title: Quality Assurance
+      members:
 
-    - name: Example Name
-      avatar: https://example.com/example.png
-      url: https://example.com
-      roles:
-        - canonical
-        - ubuntu
-        - ubuntu_mate
-        - mate_desktop
-        - bug
-        - moderator
-        - qa
-        - packager
+        - name: Example Name
+          avatar: null
+          url: null
+          roles:
+            - canonical
+            - ubuntu
+            - code
+            - artwork
+            - documentation
+            - mate_desktop
+            - moderator
+            - qa
+            - packager
+
+    - title: Community
+      members:
+
+        - name: Example Name
+          avatar: null
+          url: null
+          roles:
+            - canonical
+            - ubuntu
+            - code
+            - artwork
+            - documentation
+            - mate_desktop
+            - moderator
+            - qa
+            - packager
 
 ---
 

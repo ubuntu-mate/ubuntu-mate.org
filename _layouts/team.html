@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = page.category
+                %}
+
+                {% for category in page.team %}
+
+                  <h3>{{ category.title }}</h3>
+
+                  <div class="team-members">
+
+                    {% for member in category.members %}
+                      <div class="member">
+
+                        {% if member.url %}<a href="{{ member.url }}" rel="external">{% endif %}
+
+                          <img class="member-avatar" src="{% if member.avatar %}{{ member.avatar }}{% else %}/images/people/nophoto.svg{% endif %}" alt="{{ member.name }}"/>
+
+                        {% if member.url %}</a>{% endif %}
+
+                        <div class="member-name">
+                            {% if member.url %}<a href="{{ member.url }}" rel="external">{% endif %}
+                                {{ member.name }}
+                            {% if member.url %}</a>{% endif %}
+                        </div>
+
+                        <div class="member-roles">
+                          {% for role in member.roles %}
+                            {% if role == "ubuntu" %}           {% assign icon = "/images/brands/ubuntu.svg" %}
+                                                                {% assign label = site.data.strings.team_ubuntu %}
+                            {% endif %}
+                            {% if role == "canonical" %}      {% assign icon = "/images/brands/canonical.svg" %}
+                                                                {% assign label = site.data.strings.team_ubuntu %}
+                            {% endif %}
+                            {% if role == "mate_desktop" %}   {% assign icon = "/images/brands/mate.svg" %}
+                                                                {% assign label = site.data.strings.team_mate %}
+                            {% endif %}
+                            {% if role == "artwork" %}           {% assign icon = "/images/Ambiant-MATE/preferences-desktop-theme.svg" %}
+                                                                {% assign label = site.data.strings.team_artwork %}
+                            {% endif %}
+                            {% if role == "code" %}        {% assign icon = "/images/Ambiant-MATE/applications-debugging.svg" %}
+                                                                {% assign label = site.data.strings.team_coder %}
+                            {% endif %}
+                            {% if role == "documentation" %}  {% assign icon = "/images/Ambiant-MATE/accessories-text-editor.svg" %}
+                                                                {% assign label = site.data.strings.team_docs %}
+                            {% endif %}
+                            {% if role == "moderator" %}      {% assign icon = "/images/Ambiant-MATE/applications-chat.svg" %}
+                                                                {% assign label = site.data.strings.team_moderator %}
+                            {% endif %}
+                            {% if role == "qa" %}             {% assign icon = "/images/Ambiant-MATE/lpi-bug.svg" %}
+                                                                {% assign label = site.data.strings.team_qa %}
+                            {% endif %}
+                            {% if role == "packager" %}       {% assign icon = "/images/categories/features/package.svg" %}
+                                                                {% assign label = site.data.strings.team_packager %}
+                            {% endif %}
+
+                            <img src="{{ icon }}" title="{{ label }}" alt="{{ label }}"/>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    {% endfor %}
+
+                  </div>
+
+                {% endfor %}
+
+                {{ content }}
+
+            </content>
+        </div>
+
+    </div>
+
+</article>

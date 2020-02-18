@@ -110,6 +110,7 @@ category_release: "Release Announcement"
 category_dev: "Development Update"
 category_news: "News"
 
+
 #######################################
 # Categories
 #######################################
@@ -201,6 +202,20 @@ what_is_live_session: "Can I try without installing?"
 
 prepare_media: "Preparing your media"
 prepare_boot: "Preparing to boot"
+
+
+#######################################
+# Team
+#######################################
+team_ubuntu: "Member of Ubuntu"
+team_canonical: "Works at Canonical"
+team_mate: "Member of MATE Desktop Team"
+team_coder: "Recurring Code Contributor"
+team_artwork: "Recurring Artwork Contributor"
+team_docs: "Recurring Artwork Contributor"
+team_moderator: "Community Moderator"
+team_qa: "Quality Assurance Tester"
+team_packager: "Package Maintainer"
 
 
 #######################################
