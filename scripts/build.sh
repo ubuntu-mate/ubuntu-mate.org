@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Can optionally pass --quick to skip translations and magnet links.
+#
+param="$1"
 
 function abort_if_failed() {
     if [ $1 != 0 ]; then
@@ -13,10 +17,12 @@ bundle install
 abort_if_failed $?
 
 # Generate any missing magnet URIs.
-echo -e "\nGenerate Magnet Links"
-echo "------------------------------------------------------"
-$(dirname "$0")/generate-magnet-links.py
-abort_if_failed $?
+if [ "$param" != "--quick" ]; then
+    echo -e "\nGenerate Magnet Links"
+    echo "------------------------------------------------------"
+    $(dirname "$0")/generate-magnet-links.py
+    abort_if_failed $?
+fi
 
 # Generate markdown files for downloads
 echo -e "\nGenerate Download Pages"
@@ -25,18 +31,22 @@ $(dirname "$0")/generate-download-pages.py
 abort_if_failed $?
 
 # Generate locales
-echo -e "\nGenerate locales"
-echo "------------------------------------------------------"
-$(dirname "$0")/manage-translations.py --generate
-abort_if_failed $?
+if [ "$param" != "--quick" ]; then
+    echo -e "\nGenerate locales"
+    echo "------------------------------------------------------"
+    $(dirname "$0")/manage-translations.py --generate
+    abort_if_failed $?
+fi
 
 # Build locales
-echo -e "\nBuild locales"
-echo "------------------------------------------------------"
-$(dirname "$0")/manage-translations.py --build
-abort_if_failed $?
+if [ "$param" != "--quick" ]; then
+    echo -e "\nBuild locales"
+    echo "------------------------------------------------------"
+    $(dirname "$0")/manage-translations.py --build
+    abort_if_failed $?
+fi
 
-# Build the site!
+# Build the site
 echo -e "\nJekyll Build"
 echo "------------------------------------------------------"
 if [ ! -d _site/ ]; then

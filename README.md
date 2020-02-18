@@ -41,6 +41,8 @@ To watch for changes locally:
 
 You can preview the website on your computer at http://localhost:4000.
 
+To skip build of magnet links and translations, pass `--quick` to `build.sh` or `watch.sh`.
+
 
 ## Translations
 
