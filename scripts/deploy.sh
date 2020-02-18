@@ -1,5 +1,7 @@
 #!/bin/bash
 
+scripts/link-images.sh
+
 echo "Setting permissions..."
 find _site/ -type d -exec chmod 755 {} \;
 find _site/ -type f -exec chmod 644 {} \;

@@ -22,7 +22,6 @@ deploy:
     skip_cleanup: true
     provider: script
     script:
-      - scripts/link-images.sh
       - scripts/deploy.sh
     on:
         branch: jekyll-update
