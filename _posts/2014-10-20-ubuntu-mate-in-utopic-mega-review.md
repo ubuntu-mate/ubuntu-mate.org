@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE in Utopic Mega Review
-permalink: /blog/ubuntu-mate-in-utopic-mega-review
+permalink: /blog/ubuntu-mate-in-utopic-mega-review/
+description:
 category: news
 author: Martin Wimpress
 lang: en

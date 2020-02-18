@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Compiz in Ubuntu MATE 15.04
-permalink: /blog/compiz-in-ubuntu-mate-vivid-vervet
+permalink: /blog/compiz-in-ubuntu-mate-vivid-vervet/
+description:
 category: news
 author: Martin Wimpress
 lang: en

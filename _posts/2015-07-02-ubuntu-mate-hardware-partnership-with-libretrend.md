@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE hardware partnership with LibreTrend
-permalink: /blog/ubuntu-mate-hardware-partnership-with-libretrend
+permalink: /blog/ubuntu-mate-hardware-partnership-with-libretrend/
 description: Ubuntu MATE agrees hardware partnership with LibreTrend
 category: news
 author: Martin Wimpress

@@ -1,7 +1,8 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE Boutique
-permalink: /blog/ubuntu-mate-boutique
+permalink: /blog/ubuntu-mate-boutique/
 description: Ubuntu MATE Shop for computers, shirts and apparel
 category: news
 lang: en

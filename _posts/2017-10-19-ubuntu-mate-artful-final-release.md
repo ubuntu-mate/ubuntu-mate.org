@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 17.10
-permalink: /blog/ubuntu-mate-artful-final-release
+permalink: /blog/ubuntu-mate-artful-final-release/
 description: Ubuntu MATE 17.10 (Artful Aardvark) Final Release
 category: release
 author: Martin Wimpress

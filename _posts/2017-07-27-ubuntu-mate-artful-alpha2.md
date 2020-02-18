@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 17.10 Alpha 2
-permalink: /blog/ubuntu-mate-artful-alpha2
+permalink: /blog/ubuntu-mate-artful-alpha2/
 description: Ubuntu MATE 17.10 (Artful Aardvark) Alpha 2
 category: dev
 author: Martin Wimpress

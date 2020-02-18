@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.10 PPA Change
-permalink: /blog/ubuntu-mate-utopic-ppa
+permalink: /blog/ubuntu-mate-utopic-ppa/
 description: Ubuntu MATE 14.10 has a new PPA, you must enable it.
 category: news
 author: Martin Wimpress

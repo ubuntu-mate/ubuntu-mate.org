@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Interface switching with Ubuntu MATE 15.04
-permalink: /blog/interface-switching-with-ubuntu-mate-vivid-vervet
+permalink: /blog/interface-switching-with-ubuntu-mate-vivid-vervet/
+description:
 category: news
 author: Martin Wimpress
 lang: en

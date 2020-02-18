@@ -2,8 +2,9 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE gets legit
-permalink: /blog/ubuntu-mate-gets-legit
-category: mews
+permalink: /blog/ubuntu-mate-gets-legit/
+description:
+category: news
 author: Martin Wimpress
 lang: en
 ---

@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.10 Beta 1
-permalink: /blog/ubuntu-mate-wily-beta1
+permalink: /blog/ubuntu-mate-wily-beta1/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

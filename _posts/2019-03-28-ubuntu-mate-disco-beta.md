@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 19.04 Beta 1
-permalink: /blog/ubuntu-mate-disco-beta
+permalink: /blog/ubuntu-mate-disco-beta/
 description: Ubuntu MATE 19.04 (Disco Dingo) Beta
 category: dev
 author: Martin Wimpress
@@ -19,7 +19,8 @@ preparation for our next (stable) version.
 
 {:.center}
 ![Ubuntu MATE 19.04 Beta](/images/blog/1904-beta.png)
-Ubuntu MATE 19.04 with the Mutiny layout
+**Ubuntu MATE 19.04 with the Mutiny layout**
+
 
 ## What works?
 

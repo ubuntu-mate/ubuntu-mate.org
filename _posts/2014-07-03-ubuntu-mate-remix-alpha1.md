@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE Remix Alpha 1
-permalink: /blog/ubuntu-mate-remix-alpha1
+permalink: /blog/ubuntu-mate-remix-alpha1/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: MATE. Say it!
-permalink: /blog/how-to-pronounce-mate
+permalink: /blog/how-to-pronounce-mate/
 description: How to pronounce MATE Desktop.
 category: news
 author: Martin Wimpress

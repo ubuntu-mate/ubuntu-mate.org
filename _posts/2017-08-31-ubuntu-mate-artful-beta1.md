@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 17.10 Beta 1
-permalink: /blog/ubuntu-mate-artful-beta1
+permalink: /blog/ubuntu-mate-artful-beta1/
 description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 1
 category: dev
 author: Martin Wimpress

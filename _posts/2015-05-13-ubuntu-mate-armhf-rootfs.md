@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.04 generic ARMv7 root file system
-permalink: /blog/ubuntu-mate-vivid-armhf-rootfs
+permalink: /blog/ubuntu-mate-vivid-armhf-rootfs/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Bytemark sponsor Ubuntu MATE
-permalink: /blog/bytemark-sponsor-ubuntu-mate
+permalink: /blog/bytemark-sponsor-ubuntu-mate/
 description: Bytemark sponsor Ubuntu MATE hosting and bandwidth
 category: news
 author: Martin Wimpress

@@ -2,8 +2,10 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE server upgrades
-permalink: /blog/ubuntu-mate-server-upgrades
+permalink: /blog/ubuntu-mate-server-upgrades/
+description:
 category: news
+author: Martin Wimpress
 lang: en
 ---
 

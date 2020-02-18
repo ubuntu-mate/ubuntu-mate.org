@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 18.10 Beta
-permalink: /blog/ubuntu-mate-cosmic-beta
+permalink: /blog/ubuntu-mate-cosmic-beta/
 description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
 category: dev
 author: Martin Wimpress

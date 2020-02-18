@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.10 progress update
-permalink: /blog/ubuntu-mate-yakkety-progress-update
+permalink: /blog/ubuntu-mate-yakkety-progress-update/
 description: Ubuntu MATE 16.10 progress update on the migration to GTK3+ and Snappy package research and development
 category: news
 author: Martin Wimpress

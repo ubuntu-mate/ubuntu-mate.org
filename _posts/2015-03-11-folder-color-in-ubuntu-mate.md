@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Folder Color in Ubuntu MATE 15.04
-permalink: /blog/folder-color-in-ubuntu-mate-vivid-vervet
+permalink: /blog/folder-color-in-ubuntu-mate-vivid-vervet/
+description:
 category: news
 author: Martin Wimpress
 lang: en

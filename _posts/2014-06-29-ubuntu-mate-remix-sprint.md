@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE Remix sprint
-permalink: /blog/ubuntu-mate-remix-sprint
+permalink: /blog/ubuntu-mate-remix-sprint/
+description:
 category: news
 author: Martin Wimpress
 lang: en

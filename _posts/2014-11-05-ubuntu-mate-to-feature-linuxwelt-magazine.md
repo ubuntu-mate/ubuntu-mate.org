@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE to feature in LinuxWelt magazine
-permalink: /blog/ubuntu-mate-to-feature-linuxwelt-magazine
+permalink: /blog/ubuntu-mate-to-feature-linuxwelt-magazine/
+description:
 category: news
 author: Martin Wimpress
 lang: en

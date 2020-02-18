@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE community donations
-permalink: /blog/ubuntu-mate-community-donations
+permalink: /blog/ubuntu-mate-community-donations/
 description: Donate and help grown the Ubuntu MATE community
 category: news
 author: Martin Wimpress

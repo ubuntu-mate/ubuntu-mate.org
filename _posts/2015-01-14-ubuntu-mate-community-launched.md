@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE Community launched
-permalink: /blog/ubuntu-mate-community-launched
+permalink: /blog/ubuntu-mate-community-launched/
+description:
 category: news
 author: Martin Wimpress
 lang: en

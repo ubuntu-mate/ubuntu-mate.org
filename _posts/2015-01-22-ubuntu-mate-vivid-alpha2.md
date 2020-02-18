@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.04 Alpha2
-permalink: /blog/ubuntu-mate-vivid-alpha2
+permalink: /blog/ubuntu-mate-vivid-alpha2/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

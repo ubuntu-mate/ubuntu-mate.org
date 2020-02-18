@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 17.04
-permalink: /blog/ubuntu-mate-zesty-final-release
+permalink: /blog/ubuntu-mate-zesty-final-release/
 description: Ubuntu MATE 17.04 (Zesty Zapus) Final Release
 category: release
 author: Martin Wimpress

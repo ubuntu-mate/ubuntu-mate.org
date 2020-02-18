@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.04 for PowerPC
-permalink: /blog/ubuntu-mate-trusty-powerpc
+permalink: /blog/ubuntu-mate-trusty-powerpc/
 description: Ubuntu MATE 14.04.1 for PowerPC available for testing.
 category: dev
 author: Martin Wimpress

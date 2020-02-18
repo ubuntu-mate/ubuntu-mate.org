@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE for Raspberry Pi 3
-permalink: /blog/ubuntu-mate-for-raspberry-pi-3
+permalink: /blog/ubuntu-mate-for-raspberry-pi-3/
+description:
 category: release
 author: Martin Wimpress
 lang: en

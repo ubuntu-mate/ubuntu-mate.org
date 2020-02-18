@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.10 Release
-permalink: /blog/ubuntu-mate-utopic-final-release
+permalink: /blog/ubuntu-mate-utopic-final-release/
+description:
 category: release
 author: Martin Wimpress
 lang: en

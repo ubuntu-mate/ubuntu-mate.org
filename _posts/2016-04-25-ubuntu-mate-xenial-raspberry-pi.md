@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.04 for Raspberry Pi 2 and Raspberry Pi 3
-permalink: /blog/ubuntu-mate-xenial-raspberry-pi
+permalink: /blog/ubuntu-mate-xenial-raspberry-pi/
 description: Ubuntu MATE 16.04 LTS (Xenial Xerus) for Raspbery Pi 2 and Raspberry Pi 3.
 category: release
 author: Martin Wimpress

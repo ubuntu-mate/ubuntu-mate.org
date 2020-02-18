@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE September 2017 supporters
-permalink: /blog/ubuntu-mate-september-2017-supporters
+permalink: /blog/ubuntu-mate-september-2017-supporters/
 description: Community members who supported Ubuntu MATE this month.
 category: news
 author: Martin Wimpress

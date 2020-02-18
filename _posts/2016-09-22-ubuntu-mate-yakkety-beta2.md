@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.10 Beta 2
-permalink: /blog/ubuntu-mate-yakkety-beta2
+permalink: /blog/ubuntu-mate-yakkety-beta2/
 description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 2
 category: dev
 author: Martin Wimpress

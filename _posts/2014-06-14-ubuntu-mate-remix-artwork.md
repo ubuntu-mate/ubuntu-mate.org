@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE Remix artwork
-permalink: /blog/ubuntu-mate-remix-artwork
+permalink: /blog/ubuntu-mate-remix-artwork/
+description:
 category: news
 author: Martin Wimpress
 lang: en

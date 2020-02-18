@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.10 Alpha 2
-permalink: /blog/ubuntu-mate-yakkety-alpha2
+permalink: /blog/ubuntu-mate-yakkety-alpha2/
 description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
 category: dev
 author: Martin Wimpress

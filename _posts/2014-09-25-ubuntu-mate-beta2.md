@@ -2,8 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.10 Beta 2
-permalink: /blog/ubuntu-mate-utopic-beta2
-tags: Ubuntu,MATE,Utopic,beta2
+permalink: /blog/ubuntu-mate-utopic-beta2/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

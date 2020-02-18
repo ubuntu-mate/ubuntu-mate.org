@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 19.04 Final Release
-permalink: /blog/ubuntu-mate-disco-final-release
+permalink: /blog/ubuntu-mate-disco-final-release/
 description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
 category: release
 author: Martin Wimpress
@@ -107,7 +107,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 19.04"
-    text = "We've even redesigned the download page so it's even easier to get started."
+    text = "Our download page makes it easy to acquire the most suitable build for your hardware."
     button_text = "Download"
     button_url = "/download/"
 %}

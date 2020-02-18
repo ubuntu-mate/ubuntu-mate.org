@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.04.1 LTS
-permalink: /blog/ubuntu-mate-xenial-point-one
+permalink: /blog/ubuntu-mate-xenial-point-one/
 description: Ubuntu MATE 16.04.1 (Xenial Xerus) LTS Final Release
 category: release
 author: Martin Wimpress

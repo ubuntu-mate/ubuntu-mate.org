@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Progressing towards Ubuntu MATE Beta1
-permalink: /blog/progressing-towards-ubuntu-mate-beta1
+permalink: /blog/progressing-towards-ubuntu-mate-beta1/
+description:
 category: news
 author: Martin Wimpress
 lang: en

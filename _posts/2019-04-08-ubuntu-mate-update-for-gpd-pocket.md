@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 18.04 and 19.04 for GPD Pocket & Pocket 2
-permalink: /blog/ubuntu-mate-update-for-gpd-pocket
+permalink: /blog/ubuntu-mate-update-for-gpd-pocket/
 description: Ubuntu MATE 18.04 and 19.04 for GPD Pocket & Pocket 2
 category: release
 author: Martin Wimpress

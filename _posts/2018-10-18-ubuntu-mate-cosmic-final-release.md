@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 18.10 Final Release
-permalink: /blog/ubuntu-mate-cosmic-final-release
+permalink: /blog/ubuntu-mate-cosmic-final-release/
 description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Final Release
 category: release
 author: Martin Wimpress

@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.10 Final Release
-permalink: /blog/ubuntu-mate-wily-final-release
+permalink: /blog/ubuntu-mate-wily-final-release/
+description:
 category: release
 author: Martin Wimpress
 lang: en

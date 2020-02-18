@@ -1,7 +1,9 @@
 ---
 layout: blog-post
+class: blog
 title: New Ubuntu MATE Team Members
-permalink: /blog/new-ubuntu-mate-team-members
+permalink: /blog/new-ubuntu-mate-team-members/
+description:
 category: news
 author: Martin Wimpress
 lang: en

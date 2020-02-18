@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 17.04 Beta 2
-permalink: /blog/ubuntu-mate-zesty-beta2
+permalink: /blog/ubuntu-mate-zesty-beta2/
 description: Ubuntu MATE 17.04 (Zesty Zapus) Beta 2
 category: dev
 author: Martin Wimpress

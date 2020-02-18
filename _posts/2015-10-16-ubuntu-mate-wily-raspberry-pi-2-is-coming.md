@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.10 for Raspberry Pi 2 is coming
-permalink: /blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming
+permalink: /blog/ubuntu-mate-wily-for-raspberry-pi-2-is-coming/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

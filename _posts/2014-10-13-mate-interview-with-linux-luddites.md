@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: MATE interview with Linux Luddites
-permalink: /blog/mate-interview-with-linux-luddites
+permalink: /blog/mate-interview-with-linux-luddites/
+description:
 category: news
 author: Martin Wimpress
 lang: en

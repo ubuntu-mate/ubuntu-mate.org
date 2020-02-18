@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.04.2 Release
-permalink: /blog/ubuntu-mate-trusty-14.04.2-release
+permalink: /blog/ubuntu-mate-trusty-14.04.2-release/
+description:
 category: release
 author: Martin Wimpress
 lang: en

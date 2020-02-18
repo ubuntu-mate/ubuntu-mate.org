@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: MATE Desktop GTK2 vs GTK3 memory consumption
-permalink: /blog/mate-desktop-gtk2-vs-gtk3-memory-consumption
+permalink: /blog/mate-desktop-gtk2-vs-gtk3-memory-consumption/
 description: How does MATE Desktop for GTK2 RAM use compare to MATE Desktop for GTK3?
 category: news
 author: Martin Wimpress

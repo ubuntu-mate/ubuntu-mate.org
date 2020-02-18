@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: mintCast 220 - Ubuntu MATE
-permalink: /blog/mintcast-220-ubuntu-mate
+permalink: /blog/mintcast-220-ubuntu-mate/
+description:
 category: news
 author: Martin Wimpress
 lang: en

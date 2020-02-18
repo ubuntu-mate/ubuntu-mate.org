@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE hardware partnership with Entroware
-permalink: /blog/ubuntu-mate-hardware-partnership-with-entroware
+permalink: /blog/ubuntu-mate-hardware-partnership-with-entroware/
 description: Ubuntu MATE forges exciting partnership with Linux hardware startup Entroware
 category: news
 author: Martin Wimpress

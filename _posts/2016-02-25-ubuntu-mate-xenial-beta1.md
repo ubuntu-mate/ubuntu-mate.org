@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.04 Beta 1
-permalink: /blog/ubuntu-mate-xenial-beta1
+permalink: /blog/ubuntu-mate-xenial-beta1/
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 1
 category: dev
 author: Martin Wimpress

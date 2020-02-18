@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 18.04 Beta 1
-permalink: /blog/ubuntu-mate-bionic-beta1
+permalink: /blog/ubuntu-mate-bionic-beta1/
 description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 1
 category: dev
 author: Martin Wimpress

@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: MATE Desktop 1.14 for Ubuntu MATE 16.04
-permalink: /blog/mate-desktop-114-for-xenial-xerus
+permalink: /blog/mate-desktop-114-for-xenial-xerus/
 description: How to upgrade Ubuntu MATE 16.04 to MATE Desktop 1.14
 category: release
 author: Martin Wimpress

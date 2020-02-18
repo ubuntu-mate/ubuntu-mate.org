@@ -2,10 +2,11 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.04 Final Release
-permalink: /blog/ubuntu-mate-vivid-final-release
+permalink: /blog/ubuntu-mate-vivid-final-release/
+description:
 category: release
 author: Martin Wimpress
-lanf: en
+lang: en
 ---
 
 {% include blog/jumbotron.html

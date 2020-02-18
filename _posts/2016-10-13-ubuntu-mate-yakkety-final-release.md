@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.10
-permalink: /blog/ubuntu-mate-yakkety-final-release
+permalink: /blog/ubuntu-mate-yakkety-final-release/
 description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
 category: release
 author: Martin Wimpress

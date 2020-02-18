@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE Stickers
-permalink: /blog/ubuntu-mate-stickers
+permalink: /blog/ubuntu-mate-stickers/
+description:
 category: news
 lang: en
 ---

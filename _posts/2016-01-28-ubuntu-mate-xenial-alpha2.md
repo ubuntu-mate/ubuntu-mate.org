@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 16.04 Alpha 2
-permalink: /blog/ubuntu-mate-xenial-alpha2
+permalink: /blog/ubuntu-mate-xenial-alpha2/
 description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 2
 category: dev
 author: Martin Wimpress

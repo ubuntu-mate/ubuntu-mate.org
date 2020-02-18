@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE and Ubuntu Software Center
-permalink: /blog/ubuntu-mate-and-ubuntu-software-center
+permalink: /blog/ubuntu-mate-and-ubuntu-software-center/
+description:
 category: news
 author: Martin Wimpress
 lang: en

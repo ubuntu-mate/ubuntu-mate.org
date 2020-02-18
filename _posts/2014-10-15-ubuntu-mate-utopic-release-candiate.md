@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.10 Release Candidate
-permalink: /blog/ubuntu-mate-utopic-release-candidate
+permalink: /blog/ubuntu-mate-utopic-release-candidate/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

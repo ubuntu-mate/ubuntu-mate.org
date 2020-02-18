@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Running Steam on Ubuntu MATE
-permalink: /blog/running-steam-on-ubuntu-mate
+permalink: /blog/running-steam-on-ubuntu-mate/
 description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how to get the optimum experience
 category: news
 author: Martin Wimpress

@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.04 Beta1
-permalink: /blog/ubuntu-mate-vivid-beta1
+permalink: /blog/ubuntu-mate-vivid-beta1/
+description:
 category: news
 author: Martin Wimpress
 lang: en

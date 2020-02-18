@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 18.04 LTS Final Release
-permalink: /blog/ubuntu-mate-bionic-final-release
+permalink: /blog/ubuntu-mate-bionic-final-release/
 description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
 category: release
 author: Martin Wimpress

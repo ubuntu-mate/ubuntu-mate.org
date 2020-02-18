@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 14.04 from Scratch
-permalink: /blog/2014-08-ubuntu-mate-14-04-from-scratch
+permalink: /blog/2014-08-ubuntu-mate-14-04-from-scratch/
 description: Installing Ubuntu MATE 14.04 from scratch
 category: dev
 author: Martin Wimpress

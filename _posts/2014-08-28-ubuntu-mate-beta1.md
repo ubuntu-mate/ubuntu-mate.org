@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE Beta 1
-permalink: /blog/ubuntu-mate-beta1
+permalink: /blog/ubuntu-mate-beta1/
+description:
 category: dev
 author: Martin Wimpress
 lang: en

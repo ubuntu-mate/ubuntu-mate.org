@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Do you want an alternative community forum?
-permalink: /blog/alternative-community-forum-poll
+permalink: /blog/alternative-community-forum-poll/
+description:
 category: news
 author: Martin Wimpress
 lang: en

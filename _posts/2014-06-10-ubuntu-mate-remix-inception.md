@@ -1,7 +1,9 @@
 ---
 layout: blog-post
+class: blog
 title: Ubuntu MATE Remix inception
-permalink: ubuntu-mate-remix-inception
+permalink: /blog/ubuntu-mate-remix-inception/
+description:
 category: news
 author: Martin Wimpress
 lang: en

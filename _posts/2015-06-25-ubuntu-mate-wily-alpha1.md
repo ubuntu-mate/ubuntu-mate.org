@@ -2,7 +2,8 @@
 layout: blog-post
 class: blog
 title: Ubuntu MATE 15.10 Alpha 1
-permalink: /blog/ubuntu-mate-wily-alpha1
+permalink: /blog/ubuntu-mate-wily-alpha1/
+description:
 category: dev
 author: Martin Wimpress
 lang: en
