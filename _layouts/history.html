@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = page.category
+                %}
+
+                <div class="milestone-timeline">
+
+                    {% for milestone in page.history %}
+
+                        <div class="milestone">
+                            <div class="milestone-arrows">
+                                <div class="line"></div>
+                                <div class="era">{{ milestone.era }}</div>
+                                {% include images/arrow.svg %}
+                            </div>
+
+                            <div class="milestone-content">
+                                <div class="milestone-markdown">
+                                    <h3>{{ milestone.title }}</h3>
+
+                                    {{ milestone.desc | markdownify }}
+                                </div>
+
+                                {% if milestone.image %}
+                                    <img class="milestone-image" src="{{ milestone.image }}" alt=""/>
+                                {% endif %}
+
+                            </div>
+
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+                {{ content }}
+
+            </content>
+        </div>
+
+    </div>
+
+</article>
