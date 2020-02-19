@@ -79,12 +79,10 @@ team:
             - qa
             - packager
 
+thanks:
+
+    - "FirstName LastName: Designer of MATE logo."
+
+    - "FirstName LastName: Example text"
+
 ---
-
-# Contributors & Special Thanks
-
-These people made small, but significant contributions.
-
-* **Example Name** - Designer of MATE logo.
-
-* **Example Name** - Example text

@@ -217,6 +217,9 @@ team_moderator: "Community Moderator"
 team_qa: "Quality Assurance Tester"
 team_packager: "Package Maintainer"
 
+thanks_title: "Contributors & Special Thanks"
+thanks_subtitle: "These people made small, but significant contributions."
+
 
 #######################################
 # Testimonials
