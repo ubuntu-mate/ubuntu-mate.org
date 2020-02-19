@@ -1,0 +1,7 @@
+<a class="twitter-timeline" data-width="350" data-height="350" data-dnt="true" data-theme="light" href="https://twitter.com/{{ include.handler }}?ref_src=twsrc%5Etfw">
+    {% include images/fa/twitter.svg %} @{{ include.handler }}
+    <br>
+</a>
+{% if include.no_script != true %}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endif %}

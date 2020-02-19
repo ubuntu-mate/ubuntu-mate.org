@@ -27,6 +27,16 @@
     }
 }
 
+.twitter-timeline {
+    width: 100% !important;
+
+    > svg {
+        height: 20px;
+        width: 20px;
+        vertical-align: middle;
+    }
+}
+
 /* Index specific */
 .post-card {
     display: block;
