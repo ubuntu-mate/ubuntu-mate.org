@@ -16,25 +16,35 @@ arch:
       id: i386
 
 ports:
-    - name: "Raspberry Pi (recommended)"
+    - name: Raspberry Pi (recommended)
       icon: images/brands/rpi-outline.svg
-      desc: 'Compatible with models: B2, B3 and B3+'
+      desc: '32-bit. Compatible with models: B2, B3 and B3+'
       id: armhf
 
-    - name: "Raspberry Pi (experimental)"
+    - name: Raspberry Pi (experimental)
       icon: images/brands/rpi-outline-64.svg
-      desc: 'Compatible with models: B3 and B3+'
+      desc: '64-bit. Compatible with models: B3 and B3+'
       id: arm64
 
-    - name: "GPD Pocket"
+    - name: GPD Pocket
       icon: images/fa/laptop.svg
-      desc: For the original GPD Pocket model.
+      desc: Optimised for this hardware.
       id: gpd_pocket
 
-    - name: "GPD Pocket 2"
+    - name: GPD Pocket 2
       icon: images/fa/laptop.svg
-      desc: For the GPD Pocket 2 hardware.
+      desc: Optimised for this hardware.
       id: gpd_pocket_2
+
+    - name: GPD Micro PC
+      icon: images/fa/laptop.svg
+      desc: Optimised for this hardware.
+      id: gpd_micro_pc
+
+    - name: Topjoy Falcon
+      icon: images/fa/laptop.svg
+      desc: Optimised for this hardware.
+      id: gpd_p2_max
 
 products:
     - name: Entroware
