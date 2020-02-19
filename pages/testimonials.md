@@ -5,8 +5,8 @@ permalink: /community/testimonials/
 lang: en
 class: community
 category: community
-
 testimonials:
+
     - author: "Author Name"
       author_url: "http://example.com"
       author_image_url: "/images/Ambiant-MATE/system-users.svg"
