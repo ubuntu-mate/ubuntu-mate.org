@@ -58,6 +58,16 @@ get-involved:
           url: /get-involved/design-guidelines/
 
 faq:
+    - category_string_name: "Ubuntu MATE"
+      items:
+        - string_name: about_project
+          icon:
+          url: /faq/project/
+
+        - string_name: roadmap
+          icon:
+          url: /faq/roadmap/
+
     - category_string_name: prepare_media
       items:
         - string_name: download_help

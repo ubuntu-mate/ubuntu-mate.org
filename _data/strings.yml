@@ -200,6 +200,8 @@ how_to_image: "How to image a USB Drive"
 bios_or_uefi: "Do I boot in BIOS or UEFI mode?"
 what_is_live_session: "Can I try without installing?"
 
+about_project: "Project Questions"
+roadmap: "Roadmap"
 prepare_media: "Preparing your media"
 prepare_boot: "Preparing to boot"
 
