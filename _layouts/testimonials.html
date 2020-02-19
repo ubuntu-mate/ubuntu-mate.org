@@ -12,27 +12,48 @@ layout: default
                     id = page.category
                 %}
 
-                [TODO: Page layout incomplete]
-
                 <h2>{{ site.data.strings.quote_general_title }}</h2>
 
-                {% for user in page.testimonials %}
-                    <img src="{{ user.author_image_url }}" alt="{{ user.author }}"/>
-                    <blockquote>{{ user.quote }}</blockquote>
-                    <p>{{ user.author}}</p>
-                    <p>{{ user.author_url }}</p>
-                {% endfor %}
+                <div class="testimonial-quotes">
+                  {% for user in page.testimonials %}
+
+                    {% if user.avatar == null %}
+                        {% assign avatar = "/images/people/nophoto.svg" %}
+                    {% else %}
+                        {% assign avatar = user.avatar %}
+                    {% endif %}
+
+                    <div class="testimonial-quote">
+                        <img class="avatar" src="{{ avatar }}" alt="{{ user.who }}"/>
+                        <div class="quote-block">
+                            <blockquote class="quote">
+                                {{ user.quote }}
+                                {% include images/arrow.svg %}
+                            </blockquote>
+                            <div class="author">
+                                {{ user.who }}
+                                <br>
+                                <a href="{{ user.url }}">{{ user.handler }}</a>
+                            </div>
+                        </div>
+                    </div>
+                  {% endfor %}
+                </div>
 
                 <h2>{{ site.data.strings.quote_youtube_title }}</h2>
 
-                {% for video in page.youtube %}
-                    <p>
-                        <iframe width="560" height="315" src="{{ video.embed_url }}" frameborder="0"></iframe>
-                        <br>
-                        <h4>{{ video.author }}</h4>
-                        <blockquote>{{ video.quote }}</blockquote>
-                    </p>
-                {% endfor %}
+                <div class="testimonial-videos">
+                  {% for video in page.youtube %}
+                    <div class="testimonial-video">
+                        <iframe class="video" width="560" height="315" src="{{ video.embed_url }}" frameborder="0"></iframe>
+                        <h4 class="author">{{ video.who }}</h4>
+                        <em class="subject">{{ video.subject }}</em>
+                        <blockquote class="quote">
+                            {{ video.quote }}
+                        </blockquote>
+                    </div>
+                  {% endfor %}
+                </div>
 
                 {{ content }}
 
