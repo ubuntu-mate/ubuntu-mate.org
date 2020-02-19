@@ -50,3 +50,16 @@ $(window).ready(function() {
         });
     }
 });
+
+//--------------------------------------
+// Search page
+//--------------------------------------
+$(window).ready(function() {
+    if ($("#search-input").length > 0) {
+        var sjs = SimpleJekyllSearch({
+            searchInput: document.getElementById("search-input"),
+            resultsContainer: document.getElementById("results-container"),
+            json: "/assets/search.json"
+        });
+    }
+});
