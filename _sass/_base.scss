@@ -149,3 +149,16 @@ p.center {
         }
     }
 }
+
+kbd {
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0,0,0,.2), 0 0 0 1px #fff inset;
+    background: #fafafa;
+    border: 1px solid $button-border;
+    color: $text-colour-dark;
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: 1.4;
+    margin: 0 0.1em;
+    padding: 0.1em 0.5em;
+}
