@@ -33,6 +33,10 @@ arch:
     - arm64     # Pi Experimental
     - gpd_pocket
     - gpd_pocket_2
+    - gpd_micropc
+    - gpd_p2_max
+    - topjoy_falcon
+
 
 downloads:
     amd64:
@@ -117,7 +121,7 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:5c49310a9740a726622a83c00b489648bac2e4d2&dn=ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Feoan%2Fubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Feoan%2Fubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso"
           bandwidth_costs: true
 
-    topjoy-falcon:
+    topjoy_falcon:
         - release: bionic
           url: "https://ubuntu-mate.org/umpc/ubuntu-mate-18.04.3-desktop-amd64-topjoy-falcon.iso"
           sha256sum: "3e32f7706ec472b92b0ed4d26286595e4172b3b4476026b995a03a1baf625632"

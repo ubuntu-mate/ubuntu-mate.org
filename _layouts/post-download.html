@@ -46,6 +46,11 @@ layout: default
     {% if arch == "i386" %}{% assign fg = "/images/ubuntu-mate/i386.svg" %}{% endif %}
     {% if arch == "armhf" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
     {% if arch == "arm64" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+    {% if arch == "gpd_pocket" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+    {% if arch == "gpd_pocket_2" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+    {% if arch == "gpd_micropc" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+    {% if arch == "gpd_p2_max" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+    {% if arch == "topjoy_falcon" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
 
     {% capture banner_text %}
         <h2>Ubuntu MATE {{ release.name }}</h2>
