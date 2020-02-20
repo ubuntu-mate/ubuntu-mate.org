@@ -1,10 +1,10 @@
 ---
 layout: testimonials
 title: Testimonials
-permalink: /community/testimonials/
+permalink: /about/testimonials/
 lang: en
-class: community
-category: community
+class: about
+category: about
 testimonials:
 
     - who: "Author Name"

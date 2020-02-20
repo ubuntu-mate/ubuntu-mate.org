@@ -3,17 +3,21 @@ about:
       icon: /images/brands/ubuntu-mate.svg
       url: /about/
 
-    - string_name: history
-      icon: /images/Ambiant-MATE/time-admin.svg
-      url: /about/history/
-
     - string_name: system_requirements
       icon: /images/Ambiant-MATE/computer.svg
       url: /about/requirements/
 
+    - string_name: history
+      icon: /images/Ambiant-MATE/time-admin.svg
+      url: /about/history/
+
     - string_name: team
       icon: /images/Ambiant-MATE/system-users.svg
       url: /about/team/
+
+    - string_name: testimonials
+      icon: /images/Ambiant-MATE/applications-chat.svg
+      url: /about/testimonials/
 
 features:
     - name: Under the Hood
@@ -44,10 +48,6 @@ community:
     - string_name: community
       icon: /images/Ambiant-MATE/system-users.svg
       url: /community/
-
-    - string_name: testimonials
-      icon: /images/Ambiant-MATE/applications-chat.svg
-      url: /community/testimonials/
 
     - string_name: hall_of_fame
       icon: /images/Ambiant-MATE/user-desktop.svg
