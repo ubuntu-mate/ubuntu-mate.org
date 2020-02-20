@@ -44,6 +44,21 @@ You can preview the website on your computer at http://localhost:4000.
 To skip build of magnet links and translations, pass `--quick` to `build.sh` or `watch.sh`.
 
 
+### Testing
+
+Continuous Integration will perform validation checks to ensure the website
+maintains a high quality standard for visitors around the world. Before running
+tests on your local machine, install the Ruby gem:
+
+    gem install html-proofer
+
+Then thereon after, you may run:
+
+    ./scripts/test.sh
+
+This will check links, images and page metadata for errors.
+
+
 ## Translations
 
 We are ready to speak multiple languages! Visit
