@@ -23,14 +23,15 @@
     img {
         display: inline-block;
         height: auto;
-        width: 200px;
+        width: 300px;
         margin: 15px;
         vertical-align: middle;
     }
 
     a {
         color: white;
-        opacity: 0.5;
+        font-size: 0.8em;
+        padding: 6px 16px;
     }
 }
 
@@ -38,8 +39,22 @@
     display: inline-block;
     font-size: 24px;
     vertical-align: middle;
+    max-width: $sm;
 
     h1, h2, h3 {
         font-weight: 400;
     }
+
+    p {
+        font-weight: 300;
+    }
+
+    a {
+        display: inline-block;
+    }
+}
+
+/* Home page only */
+.page.has-banner .banner {
+    margin-top: -15px;
 }

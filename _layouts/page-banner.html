@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="page has-banner">
+
+    {% capture banner_text %}
+        <h2>{{ page.banner_title }}</h2>
+        <p>{{ page.banner_subtitle }}</p>
+        {% if page.banner_url != null %}
+            <a class="btn green" href="{{ page.banner_url | relative_url }}">{{ page.banner_label }}</a>
+        {% endif %}
+    {% endcapture %}
+
+    {% include partials/banner.html
+        bg = page.banner_bg
+        fg = page.banner_fg
+        text = banner_text
+        variant = "white-text"
+    %}
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% if page.show_categories %}
+                    {% include partials/categories.html
+                        id = page.category
+                    %}
+                {% endif %}
+
+                {{ content }}
+
+            </content>
+        </div>
+
+    </div>
+
+</article>

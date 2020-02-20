@@ -6,15 +6,15 @@
 {% capture uuid %}banner-{{ include.bg | split:'/' | last | replace:'.jpg','' | replace:' ','-' }}{% endcapture %}
 
 {% if background_path %}
-    <style>
-        #{{ uuid }} {
-            background-image: url({{ background_path }});
-        }
+<style>
+    #{{ uuid }} {
+        background-image: url({{ background_path }});
+    }
 
-        .webp #{{ uuid }} {
-            background-image: url({{ background_path | replace:'.jpg', '.webp' }});
-        }
-    </style>
+    .webp #{{ uuid }} {
+        background-image: url({{ background_path | replace:'.jpg', '.webp' }});
+    }
+</style>
 {% endif %}
 
 <div id="{{ uuid }}" class="banner {% if variant %}{{ variant }}{% endif %}">
