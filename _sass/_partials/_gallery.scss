@@ -7,11 +7,12 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 720px;
-    margin: 15px 0;
+    margin: 30px auto;
 }
 
 .slick-list {
     cursor: grab;
+    box-shadow: 0px 0px 5px;
 
     &:active {
         cursor: grabbing;
@@ -32,13 +33,22 @@
     order: 3;
     display: flex;
     list-style: none;
-    margin: 0;
     padding: 0;
+}
+
+.slick-prev,
+.slick-dots,
+.slick-next {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .slick-active > button {
     @extend .btn, .green;
+    color: white;
 
+    &:hover,
+    &:focus,
     &:active {
         color: white;
     }

@@ -39,3 +39,28 @@ th, td {
 .split-long-lines {
     word-wrap: anywhere;
 }
+
+table.transparent {
+    tr {
+        background: transparent !important;
+        border: none;
+    }
+}
+
+table.icons {
+    text-align: center;
+
+    th {
+        text-align: center;
+    }
+
+    svg, img {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    td {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
