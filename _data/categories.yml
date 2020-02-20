@@ -56,7 +56,7 @@ community:
 shop:
     - string_name: computers
       icon: /images/shop/computer.png
-      url: /shop/computers/
+      url: /shop/
 
     - string_name: books
       icon: /images/downloads/guides.png

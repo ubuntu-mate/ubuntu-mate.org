@@ -1,7 +1,7 @@
 ---
 layout: catalogue
 title: Desktops & Laptops
-permalink: /shop/computers/
+permalink: /shop/
 lang: en
 class: shop
 category: shop
