@@ -99,16 +99,15 @@
 
 /* Download Details */
 .download-details {
-    display: block;
+    display: flex;
     padding: 0px 15px;
-    width: 100%;
-
-    th, td {
-        width: 50%;
-    }
+    width: 760px;
+    margin: 15px auto;
 
     th {
         text-align: right;
+        width: 200px;
+        max-width: 100%;
     }
 }
 

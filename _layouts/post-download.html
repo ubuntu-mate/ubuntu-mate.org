@@ -42,6 +42,11 @@ layout: default
 
     </div>
 
+    {% assign fg = "/images/ubuntu-mate/laptop.png" %}
+    {% if arch == "i386" %}{% assign fg = "/images/ubuntu-mate/i386.svg" %}{% endif %}
+    {% if arch == "armhf" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+    {% if arch == "arm64" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+
     {% capture banner_text %}
         <h2>Ubuntu MATE {{ release.name }}</h2>
         <p>{{ release.codename }}</p>
@@ -50,7 +55,7 @@ layout: default
 
     {% include partials/banner.html
         bg = "/images/wallpapers/bionic.jpg"
-        fg = "/images/ubuntu-mate/logo.svg"
+        fg = fg
         text = banner_text
         variant = "white-text"
     %}
