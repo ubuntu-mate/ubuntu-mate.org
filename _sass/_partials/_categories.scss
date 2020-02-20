@@ -5,6 +5,11 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    position: sticky;
+    top: 60px;
+    background: $background;
+    box-shadow: 0px 10px 20px $background;
+    z-index: 10;
 }
 
 .category-item {
