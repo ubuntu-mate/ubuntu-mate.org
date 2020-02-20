@@ -29,6 +29,16 @@ gallery:
       caption: null
 ---
 
+
+# In a nutshell...
+
+Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop
+environment. It is ideal for those who want the most out of their computers and
+prefer a traditional desktop metaphor. With modest hardware requirements it is
+suitable for modern workstations, single board computers and older hardware alike.
+Ubuntu MATE makes modern computers fast and old computers usable.
+
+
 # Screenshots
 
 Here are some screenshots of the desktop layouts included in Ubuntu MATE to
@@ -58,11 +68,8 @@ GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 
 Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate):
 
----
-
 {:.center}
 [![](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/r/ubuntu-mate/)
 [![](/images/sponsors/entroware.png)](https://entroware.com/)
 [![](/images/sponsors/whatisseo.png)](http://www.whatisseo.com/)
 
----
