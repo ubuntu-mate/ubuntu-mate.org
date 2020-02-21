@@ -24,7 +24,7 @@ CDN kindly sponsored by [First-Colo](https://www.first-colo.com/).
 ![First-Colo](/images/blog/sponsors/firstcolo.png)
 
 We used this as an opportunity to add BitTorrent downloads for the [Raspberry
-Pi 2 images](https://ubuntu-mate.org/raspberry-pi/) and updated the Ubuntu
+Pi 2 images](/ports/raspberry-pi/) and updated the Ubuntu
 MATE 14.04 torrents. Both now have 5 web-seeds in addition to those of you
 generously seeding Ubuntu MATE.
 

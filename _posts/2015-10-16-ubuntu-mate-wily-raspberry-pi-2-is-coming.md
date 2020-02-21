@@ -128,4 +128,4 @@ community](https://ubuntu-mate.community). We really were listening.
 A release candidate image has been sent off for final testing to our
 crack team of, erm, testers. When Ubuntu MATE 15.10 for the Raspberry
 Pi 2 is ready we'll update our [Ubuntu MATE for the Raspberry Pi
-2](/raspberry-pi/) page. See you October 22nd `:-)`.
+2](/ports/raspberry-pi/) page. See you October 22nd `:-)`.

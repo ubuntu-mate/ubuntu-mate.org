@@ -37,7 +37,7 @@ compared to Ubuntu MATE 14.10:
 
   * Ubuntu MATE 15.04 is an official Ubuntu flavour.
   * Established a hardware partnership with [Entroware](https://www.entroware.com).
-  * Added PowerPC and [Raspberry Pi 2](/raspberry-pi/) as supported hardware architectures.
+  * Added PowerPC and [Raspberry Pi 2](/ports/raspberry-pi/) as supported hardware architectures.
   * Added a new default theme called [Yuyo](https://github.com/snwh/yuyo-gtk-theme).
   * Added [user interface switching](https://youtu.be/YI4IWO_SpiI) to MATE Tweak.
   * Added [fully integrated Compiz support](https://youtu.be/k_nk02XELi4).

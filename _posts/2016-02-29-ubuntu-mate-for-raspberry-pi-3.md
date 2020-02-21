@@ -47,7 +47,7 @@ very soon*.
     title = "Download"
     text = "Download Ubuntu MATE for the Raspberry Pi 2 Model B and Raspberry Pi 3 Model B."
     button_text = "Download"
-    button_url = "/raspberry-pi/"
+    button_url = "/ports/raspberry-pi/"
 %}
 
 The image will fit on a 4GB (or larger) microSHDC card, is

@@ -46,7 +46,7 @@ High-level features of these images are:
     title = "More Information"
     text = "Find out more about Ubuntu MATE for Raspberry Pi Model B 2, 3, and 3+"
     button_text = "Read more"
-    button_url = "/raspberry-pi/"
+    button_url = "/ports/raspberry-pi/"
 %}
 
 ## Supported Raspberry Pi

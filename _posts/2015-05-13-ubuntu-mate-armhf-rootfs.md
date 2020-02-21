@@ -23,7 +23,7 @@ In order to adapt the root file system for your device you'll need to:
   * Add any other hardware specific configuration
 
 We've created some instructions and example build scripts based on the work we
-did to make [Ubuntu MATE 15.04 for the Raspberry Pi 2](/raspberry-pi/). The
+did to make [Ubuntu MATE 15.04 for the Raspberry Pi 2](/ports/raspberry-pi/). The
 instructions are brief but hopefully sufficient for ARM device hackers to get
 started.
 

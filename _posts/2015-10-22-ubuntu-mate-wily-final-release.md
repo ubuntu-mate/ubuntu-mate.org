@@ -51,7 +51,7 @@ Here's what changed in Ubuntu MATE 15.10 since Beta 2.
 
 We are delighted to release Ubuntu MTE 15.10 for the Raspberry Pi 2 on
 release day along side the other supported architectures.
-You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/raspberry-pi/).
+You can find out more and download the image from the [Ubuntu MATE Raspberry Pi page](/ports/raspberry-pi/).
 
 {:.center}
 ![Raspberry Pi logo](/images/blog/Logos/raspberry-pi.png)

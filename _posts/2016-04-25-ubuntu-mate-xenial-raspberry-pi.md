@@ -16,7 +16,7 @@ now available for download.
     title = "Download"
     text = "Download Ubuntu MATE for the Raspberry Pi 2 Model B and Raspberry Pi 3 Model B."
     button_text = "Download"
-    button_url = "/raspberry-pi/"
+    button_url = "/ports/raspberry-pi/"
 %}
 
 The image is built from the regular Ubuntu `armhf` base, not the new

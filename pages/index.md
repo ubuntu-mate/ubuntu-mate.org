@@ -54,7 +54,7 @@ and 3+ as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,
 GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 
 {:.transparent .icons}
-| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/gpd-pocket/) |
+| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/umpcs/) |
 | Works with:   | Optimised for:
 | ------------- | ---------------- |
 | Model 2 B     | GPD Pocket

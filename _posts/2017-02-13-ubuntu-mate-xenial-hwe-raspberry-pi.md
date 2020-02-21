@@ -100,5 +100,5 @@ These are the changes since Ubuntu MATE 16.04 for the Raspberry Pi was release.
     title = "More Information"
     text = "Find out more about Ubuntu MATE for Raspberry Pi 2 Model B and Raspberry Pi 3 Model B."
     button_text = "Read more"
-    button_url = "/raspberry-pi/"
+    button_url = "/ports/raspberry-pi/"
 %}
