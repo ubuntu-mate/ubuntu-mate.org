@@ -11,7 +11,7 @@ addons:
       - rsync
 
 before_script:
-    - gem install htmlproofer
+    - gem install html-proofer
 
 script:
     - scripts/build.sh
