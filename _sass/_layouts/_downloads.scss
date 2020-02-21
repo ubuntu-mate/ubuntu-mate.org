@@ -172,9 +172,20 @@
 
     &:first-child {
         border: none;
+        margin-top: 0;
     }
 
     div > img {
         max-width: 100%;
+    }
+}
+
+.choose-alt-download {
+    text-align: center;
+    margin: 10px 0;
+
+    svg {
+        height: 20px;
+        width: 20px;
     }
 }

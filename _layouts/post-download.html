@@ -1,62 +1,34 @@
 ---
 layout: default
 ---
-<article class="page">
 
-    <div class="container">
+<meta name="robots" content="noindex, nofollow"/>
 
-        <div class="row">
-            <header class="page-header col">
-                <h1 class="page-title">{{ site.data.strings.downloads_title }}</h1>
-            </header>
-        </div>
+{% assign download = null %}
+{% for ver in site.data.downloads.downloads[page.download_id] %}
+    {% if page.release_id == ver.release %}{% assign download = ver %}{% break %}{% endif %}
+{% endfor %}
+{% assign release = site.data.downloads.releases[download.release] %}
+{% assign arch = page.download_id %}
 
-        <div class="row">
-            <div class="page-content col">
+{% assign fg = "/images/ubuntu-mate/laptop.png" %}
+{% if arch == "i386" %}{% assign fg = "/images/ubuntu-mate/i386.svg" %}{% endif %}
+{% if arch == "armhf" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+{% if arch == "arm64" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+{% if arch == "gpd_pocket" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "gpd_pocket_2" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "gpd_micropc" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "gpd_p2_max" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "topjoy_falcon" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
 
-                <a class="download-back" href="../">
-                    {% include images/fa/chevron-left.svg %}
-                </a>
+{% capture banner_text %}
+    <small>{{ site.data.strings.post_download_title }}</small>
+    <h2>Ubuntu MATE {{ release.name }}</h2>
+    <p>{{ release.codename }}</p>
+    <p style="opacity:0.5">{{ arch }}</p>
+{% endcapture %}
 
-                <h3 class="download-title">
-                    {{ site.data.strings.post_download }}
-                </h3>
-
-                <div class="progress-indicator">
-                    <div class="dot active"></div>
-                    <div class="dot active"></div>
-                    <div class="dot active"></div>
-                </div>
-
-            </div>
-        </div>
-
-        {% assign download = null %}
-        {% for ver in site.data.downloads.downloads[page.download_id] %}
-            {% if page.release_id == ver.release %}{% assign download = ver %}{% break %}{% endif %}
-        {% endfor %}
-        {% assign release = site.data.downloads.releases[download.release] %}
-        {% assign arch = page.download_id %}
-
-        <br>
-
-    </div>
-
-    {% assign fg = "/images/ubuntu-mate/laptop.png" %}
-    {% if arch == "i386" %}{% assign fg = "/images/ubuntu-mate/i386.svg" %}{% endif %}
-    {% if arch == "armhf" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
-    {% if arch == "arm64" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
-    {% if arch == "gpd_pocket" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
-    {% if arch == "gpd_pocket_2" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
-    {% if arch == "gpd_micropc" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
-    {% if arch == "gpd_p2_max" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
-    {% if arch == "topjoy_falcon" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
-
-    {% capture banner_text %}
-        <h2>Ubuntu MATE {{ release.name }}</h2>
-        <p>{{ release.codename }}</p>
-        <p style="opacity:0.5">{{ arch }}</p>
-    {% endcapture %}
+<article class="page has-banner">
 
     {% include partials/banner.html
         bg = "/images/wallpapers/bionic.jpg"
@@ -64,6 +36,16 @@ layout: default
         text = banner_text
         variant = "white-text"
     %}
+
+    <p class="choose-alt-download">
+        <a href="../../">
+            {% include images/fa/chevron-left.svg %}
+            {{ site.data.strings.post_download_link_1 }}
+        </a>
+        <a href="../../../">
+            {{ site.data.strings.post_download_link_2 }}
+        </a>
+    </p>
 
     <div class="container">
 
