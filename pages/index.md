@@ -69,6 +69,6 @@ GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate):
 
 {:.center}
-[![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/r/ubuntu-mate/)
+[![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/?r=ubuntu-mate)
 [![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)
 [![What is SEO](/images/sponsors/whatisseo.png)](http://www.whatisseo.com/)
