@@ -54,7 +54,7 @@ and 3+ as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,
 GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 
 {:.transparent .icons}
-| [![](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![](/images/hardware/gpd-pocket2.png)](/ports/gpd-pocket/) |
+| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/gpd-pocket/) |
 | Works with:   | Optimised for:
 | ------------- | ---------------- |
 | Model 2 B     | GPD Pocket
@@ -69,7 +69,6 @@ GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate):
 
 {:.center}
-[![](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/r/ubuntu-mate/)
-[![](/images/sponsors/entroware.png)](https://entroware.com/)
-[![](/images/sponsors/whatisseo.png)](http://www.whatisseo.com/)
-
+[![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/r/ubuntu-mate/)
+[![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)
+[![What is SEO](/images/sponsors/whatisseo.png)](http://www.whatisseo.com/)

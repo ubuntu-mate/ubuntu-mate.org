@@ -14,7 +14,7 @@ layout: page-category
 
                 <div class="row catalogue-item">
                     <div class="col-md-4 col-sm-12 product-image">
-                        <img src="{{ item.img }}" alt="{{ item.name }}"/>
+                        <img src="{{ item.img }}" alt="{{ item.name | replace:'"', "&#8221;" }}"/>
                     </div>
 
                     <div class="col-md-8 col-sm-12 product-description">

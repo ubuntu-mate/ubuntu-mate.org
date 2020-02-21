@@ -12,7 +12,7 @@ lang: en
 I have noticed that a few members of the Ubuntu MATE community have
 expressed an interest in a forum that is not powered by a social network.
 We've conducted all previous polls via the
-[Ubuntu MATE Google+ community](/communtiy/), but holding such a vote on
+[Ubuntu MATE Google+ community](/community/), but holding such a vote on
 G+ may skew the results. So please cast your vote below and if there is
 enough interest we can explore the options.
 
