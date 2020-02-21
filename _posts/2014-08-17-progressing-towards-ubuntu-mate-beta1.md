@@ -126,7 +126,7 @@ Ubuntu MATE bug tracker.
 We'd like to establish an Ubuntu MATE artwork team who can drive the
 artwork and design efforts. There are clearly several members of the
 Ubuntu MATE community who are already interested in this area. If you
-would like to join them then [please let us know](/communty/) so we can
+would like to join them then [please let us know](/community/) so we can
 formalise the team structure.
 
 # No show stoppers

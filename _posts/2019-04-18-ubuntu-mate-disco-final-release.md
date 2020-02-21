@@ -12,7 +12,7 @@ lang: en
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug
 fixes and improved hardware support, *particularly for NVIDIA GPU owners*, then
 19.04 is for you. Oh yeah, we've also made [bespoke Ubuntu MATE 19.04 images for
-the GPD Pocket and GPD Pocket 2](/gpd-pocket/). Read on to learn more...**
+the GPD Pocket and GPD Pocket 2](/ports/umpcs/). Read on to learn more...**
 
 
 {:.center}
@@ -91,7 +91,7 @@ Alongside the generic image for 64-bit Intel PCs, we're also releasing bespoke
 images for the [GPD Pocket](https://gpd.hk/gpdpocket) and
 [GPD Pocket 2](https://gpd.hk/gpdpocket2). These include hardware
 specific tweaks to get these devices working *"out of the box"*
-without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
+without any faffing about. [See our GPD Pocket page for more details](/ports/umpcs/).
 
 ## Major Applications
 

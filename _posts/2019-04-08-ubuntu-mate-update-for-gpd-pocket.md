@@ -50,5 +50,5 @@ improvement we've made since the Ubuntu MATE 18.10 images were created:
     title = "More Details & Downloads"
     text = "Find out more about Ubuntu MATE for the GPD Pocket and Pocket 2. Get the downloads!"
     button_text = "Details & Downloads"
-    button_url = "/gpd-pocket/"
+    button_url = "/ports/umpcs/"
 %}

@@ -14,7 +14,7 @@ release. If you want bug fixes and improved hardware support then 18.10 is for
 you. For those who prefer staying on the LTS then everything in this 18.10
 release is also important for the upcoming 18.04.2 release. Oh yeah, we've
 also made a [bespoke Ubuntu MATE 18.10 image for the GPD Pocket and GPD Pocket
-2](/gpd-pocket/). Read on to learn more...**
+2](/ports/umpcs/). Read on to learn more...**
 
 {:.center}
 ![Ubuntu MATE 18.10](/images/blog/1810-final.jpg) Superposition on the Intel Core i7-8809G Radeon RX Vega M powered Hades Canyon NUC
@@ -55,7 +55,7 @@ Alongside the generic image for 64-bit Intel PCs we're also releasing a
 bespoke image for the [GPD Pocket](https://gpd.hk/gpdpocket) and
 [GPD Pocket 2](https://gpd.hk/gpdpocket2) that includes the hardware
 specific tweaks to get these devices working *"out of the box"*
-without any faffing about. [See our GPD Pocket page for more details](/gpd-pocket/).
+without any faffing about. [See our GPD Pocket page for more details](/ports/umpcs/).
 
 {:.center}
 ![Ubuntu MATE 18.10 running on the GPD Pocket (left) and GPD Pocket 2 (right)](/images/blog/gpd-pockets.jpg)
