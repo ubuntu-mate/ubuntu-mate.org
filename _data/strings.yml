@@ -237,6 +237,19 @@ umpc: "Ultra Mobile PCs (UMPCs)"
 
 
 #######################################
+# Funding
+#######################################
+js_required: "JavaScript needs to be enabled in your browser to use this form."
+paypal_monthly: "Monthly PayPal Supporter"
+paypal_one_time: "One time PayPal donation"
+paypal_select: "Select an amount"
+paypal_specify: "Specify your own amount"
+paypal_currency: "Currency"
+paypal_submit: "Submit"
+paypal_invalid_amount: "Please enter a valid amount - thanks!"
+
+
+#######################################
 # Miscellaneous
 #######################################
 toggle_sidebar: "Expand/Collapse Sidebar"

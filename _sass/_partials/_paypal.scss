@@ -1,0 +1,32 @@
+#PayPal {
+    margin: 15px 0;
+
+    .well {
+        background: $grey-lightest;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: row;
+    }
+
+    label {
+        display: block;
+        margin: 4px 0;
+
+        input[type=radio] {
+            vertical-align: middke;
+            margin-right: 5px;
+        }
+    }
+
+    button {
+        margin: 10px 0;
+    }
+
+    var {
+        font-style: normal;
+    }
+}
