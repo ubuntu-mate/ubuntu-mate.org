@@ -84,6 +84,25 @@
             border-color: $ubuntu-mate-dark;
             background: $ubuntu-mate-light;
         }
+
+        &.current {
+            animation: current-dot 1s ease-in-out infinite;
+        }
+    }
+}
+
+@keyframes current-dot {
+    0% {
+        background: $ubuntu-mate-light;
+        border-color: $ubuntu-mate-dark;
+    }
+    50% {
+        background: $ubuntu-mate-dark;
+        border-color: $ubuntu-mate-light;
+    }
+    100% {
+        background: $ubuntu-mate-light;
+        border-color: $ubuntu-mate-dark;
     }
 }
 

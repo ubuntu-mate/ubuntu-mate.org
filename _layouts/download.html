@@ -30,9 +30,19 @@ layout: default
                 </h3>
 
                 <div class="progress-indicator">
-                    <div class="dot {% if page.step >= 1 %}active{% endif %}"></div>
-                    <div class="dot {% if page.step >= 2 %}active{% endif %}"></div>
-                    <div class="dot {% if page.step >= 3 %}active{% endif %}"></div>
+                    {% if page.step == 1 %}
+                        <div class="dot active current"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    {% elsif page.step == 2 %}
+                        <a class="dot active" href="../"></a>
+                        <div class="dot active current"></div>
+                        <div class="dot"></div>
+                    {% elsif page.step == 3 %}
+                        <a class="dot active" href="../../"></a>
+                        <a class="dot active" href="../"></a>
+                        <div class="dot active current"></div>
+                    {% endif %}
                 </div>
 
             </div>
