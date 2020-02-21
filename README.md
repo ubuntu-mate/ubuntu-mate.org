@@ -56,7 +56,10 @@ Then thereon after, you may run:
 
     ./scripts/test.sh
 
-This will check links, images and page metadata for errors.
+This will check internal links, images and page metadata for errors.
+
+From time to time, you may wish to run the test with `--external` to check
+links to other websites, blogs or people pages in case of [link rot](https://en.wikipedia.org/wiki/Link_rot).
 
 
 ## Translations
