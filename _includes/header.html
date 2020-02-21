@@ -27,12 +27,12 @@
                         </a>
                     </li>
                     <li>
-                        <label id="i18n-chooser-mobile" class="mobile-only nav-btn" for="i18n-chooser" title="{{ site.data.strings.change_lang }}: {{ site.data.strings[site.active_lang] }}" role="button" tabindex="0">
+                        <label id="i18n-chooser-mobile" class="mobile-only nav-btn" for="i18n-chooser" title="{{ site.data.strings.change_lang }}: {{ site.data.lang[site.active_lang] }}" role="button" tabindex="0">
                             {{ site.active_lang }}
                             {% include images/fa/caret-down.svg %}
                         </label>
-                        <label class="nav-btn i18n-btn dropdown-btn mobile-hidden" for="i18n-chooser" title="{{ site.data.strings.change_lang }}: {{ site.data.strings[site.active_lang] }}" role="button" tabindex="0">
-                            {{ site.data.strings[site.active_lang] }}
+                        <label class="nav-btn i18n-btn dropdown-btn mobile-hidden" for="i18n-chooser" title="{{ site.data.strings.change_lang }}: {{ site.data.lang[site.active_lang] }}" role="button" tabindex="0">
+                            {{ site.data.lang[site.active_lang] }}
                             {% include images/fa/caret-down.svg %}
                         </label>
                     </li>
@@ -46,7 +46,7 @@
                 <ul class="i18n-dropdown">
                     {% for lang in site.languages %}
                         <li>
-                            <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href=" /{{ lang }}/">{{ site.data.strings[lang] }}</a>
+                            <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href=" /{{ lang }}/">{{ site.data.lang[lang] }}</a>
                         </li>
                     {% endfor %}
                 </ul>

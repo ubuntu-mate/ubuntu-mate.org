@@ -80,6 +80,12 @@ the necessary files.
 
 When pages change, run `--generate`. Before building the site, run `--build`.
 
+Language lists are to be updated in:
+
+* `_i18n/locales.txt`
+* `_config.yml` (under `languages:`)
+* `_data/lang.yml`
+
 
 ## File Structure
 
