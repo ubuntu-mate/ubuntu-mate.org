@@ -139,14 +139,19 @@ p.center {
     text-align: center;
 
     img {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 10px auto;
 
         /* Caption */
         + strong {
             display: block;
             font-size: 0.9em;
         }
+    }
+}
+
+p.small {
+    img {
+        max-width: 600px;
     }
 }
 

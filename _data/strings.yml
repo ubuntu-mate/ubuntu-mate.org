@@ -140,6 +140,7 @@ books: "Books"
 apparel: "Apparel"
 purchase: "View Product"
 
+
 #######################################
 # Feature Grid
 #######################################
@@ -231,6 +232,15 @@ thanks_subtitle: "These people made small, but significant contributions."
 #######################################
 quote_general_title: "What the Internet is saying..."
 quote_youtube_title: "What the YouTubers are showcasing..."
+
+
+#######################################
+# Device Ports
+#######################################
+ports: "Device Ports"
+raspberry_pi: "Raspberry Pi"
+raspberry_pi_history: "Raspberry Pi Change Log"
+umpc: "Ultra Mobile PCs (UMPCs)"
 
 
 #######################################

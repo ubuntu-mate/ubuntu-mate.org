@@ -65,3 +65,16 @@ shop:
     - string_name: apparel
       icon: /images/shop/apparel.png
       url: /shop/apparel/
+
+ports:
+    - string_name: raspberry_pi
+      icon: /images/brands/raspberry-pi.svg
+      url: /ports/raspberry-pi/
+
+    - string_name: raspberry_pi_history
+      icon: /images/brands/raspberry-pi.svg
+      url: /ports/raspberry-pi-change-log/
+
+    - string_name: umpc
+      icon: /images/hardware/gpd-pocket2.png
+      url: /ports/umpcs/
