@@ -9,14 +9,14 @@ author: Martin Wimpress
 lang: en
 ---
 
-A couple of weeks ago the [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) Managing Director,
-[Matthew Bloch](https://twitter.com/matthewbloch), contacted the Ubuntu
+A couple of weeks ago the [Bytemark](https://www.bytemark.co.uk/?r=ubuntu-mate) Managing Director,
+Matthew Bloch, contacted the Ubuntu
 MATE team to offer free hosting for the project. As of August 18th 2016
-all the Ubuntu MATE infrastucture is hosted on [Bytemark Cloud Servers](https://www.bytemark.co.uk/cloud/).
+all the Ubuntu MATE infrastucture is hosted on Bytemark Cloud Servers.
 
 {:.center}
 ![Bytemark](/images/blog/sponsors/bytemark-large.png)
-**[Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) are generously sponsoring Ubuntu MATE**
+**[Bytemark](https://www.bytemark.co.uk/?r=ubuntu-mate) are generously sponsoring Ubuntu MATE**
 
 
 ## Why did Bytemark make such a generous offer?
@@ -30,9 +30,9 @@ Bytemark include [Debian](https://www.debian.org/),
 Society](https://www.mysociety.org/) and [Code
 Club](https://www.codeclub.org.uk/).
 
-### [Matthew Bloch](https://twitter.com/matthewbloch) had this to say:
+### Matthew Bloch had this to say:
 
-> I'm happy to announce that Bytemark is supporting the [Ubuntu MATE](https://ubuntu-mate.org/what-is-ubuntu-mate/) operating system
+> I'm happy to announce that Bytemark is supporting the [Ubuntu MATE](/what-is-ubuntu-mate/) operating system
 > project, which is based on a traditional computer desktop. We're
 > providing hosting for its community forums & wiki and bandwidth for its
 > very popular Raspberry Pi distribution.
@@ -47,7 +47,7 @@ Club](https://www.codeclub.org.uk/).
 >
 > Personally speaking, Ubuntu MATE feels like a great model for a free
 > software community. They run a crowd-funding campaign and write a
-> [monthly report](https://ubuntu-mate.org/blog/ubuntu-mate-july-2016-supporters/)
+> monthly report
 > on exactly how those funds are spent. After paying direct costs, they
 > pay contributors to work on much-needed features, and also to
 > developers of other projects that they depend on. While the amounts
@@ -60,14 +60,14 @@ Club](https://www.codeclub.org.uk/).
     title = "Bytemark"
     text = "More information about Bytemark is available from **bytemark.co.uk**"
     button_text = "Visit Bytemark"
-    button_url = "https://www.bytemark.co.uk/r/ubuntu-mate/"
+    button_url = "https://www.bytemark.co.uk/?r=ubuntu-mate"
 %}
 
 ### And [Martin Wimpress](https://twitter.com/m_wimpress) had this to say:
 
 > I am absolutely delighted that Bytemark reached out to Ubuntu MATE and
 > generously offered to cover all our hosting and bandwidth requirements.
-> We now have a resilient pair of geographically separated [Cloud Servers](https://www.bytemark.co.uk/cloud/)
+> We now have a resilient pair of geographically separated Cloud Servers.
 > powering the Ubuntu MATE websites, [community forums](https://ubuntu-mate.community) and Raspberry Pi
 > image downloads. This will enable Ubuntu MATE to channel far more of
 > the money raised via our crowd-funding into sponsored development of
@@ -89,4 +89,4 @@ centre in York, monitor its 10Gbps national network and deliver 24/7
 support to clients of all sizes. Brands hosted on Bytemark’s network
 include the Royal College of Art, data.gov.uk and DVLA Auctions.
 
-*More information about Bytemark is available online at [www.bytemark.co.uk](https://www.bytemark.co.uk/r/ubuntu-mate/)*
+*More information about Bytemark is available online at [www.bytemark.co.uk](https://www.bytemark.co.uk/?r=ubuntu-mate)*

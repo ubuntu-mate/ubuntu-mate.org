@@ -13,7 +13,7 @@ Some good news for Ubuntu MATE users in Germany.
 
 I spent last weekend at the [X2Go](http://wiki.x2go.org/doku.php) *"gathering"*
 in Essen, Germany. While there I got confirmation that
-[Linux Welt](http://www.idg.com/www/IDGProducts.nsf/ByKey/Germany_Publication_Linux-Welt)
+[Linux Welt](http://www.idg.com/)
 magazine will feature Ubuntu MATE in their 2015-01 edition. LinuxWelt is
 Germany's best selling bi-monthly Linux and Open-Source magazine and is
 available in book stores all over Germany and via
@@ -50,4 +50,4 @@ Ubuntu MATE and access the direct downloads of the Ubuntu MATE 14.10 .iso
 images they are hosting for us and the PDF of the article. What
 brilliant people!
 
-  * [Ubuntu MATE at PC Welt](http://www.pcwelt.de/downloads/Ubuntu_MATE-8957105.html﻿)
+  * [Ubuntu MATE at PC Welt](http://www.pcwelt.de/downloads/Ubuntu_MATE-8957105.html)

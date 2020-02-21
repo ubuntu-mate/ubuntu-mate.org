@@ -33,12 +33,12 @@ online FLOSS media and podcasts.
 
   * <http://news.softpedia.com/news/Ubuntu-MATE-Flavor-Could-Arrive-Soon-445509.shtml>
   * <http://www.phoronix.com/scan.php?page=news_item&px=MTcxMzM>
-  * <http://thevarguy.com/ubuntu/061014/canonical-considering-mate-remix-ubuntu-linux>
+  * <https://web.archive.org/web/20160304233022/http://thevarguy.com/ubuntu/061014/canonical-considering-mate-remix-ubuntu-linux>
   * <http://fullcirclemagazine.org/2014/06/07/ubuntu-mate-flavor-could-arrive-soon-prototype-looks-great-already/>
   * <http://www.itworld.com/open-source/422829/should-canonical-release-mate-version-ubuntu>
-  * <http://linuxluddites.com/shows/episode-17/>
+  * <https://luddites.latenightlinux.com/shows/episode-17>
   * <http://mintcast.org/2014/06/16/mintcast-203-texaslinuxfest/>
-  * <http://linuxluddites.com/shows/episode-18/>
+  * <https://luddites.latenightlinux.com/shows/episode-18>
 
 ## Great, you're *"Internet famous"*. Now what?
 

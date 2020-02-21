@@ -162,7 +162,7 @@ arrangements. The new version adds support for BAMF and icon scrolling.
 ![Brisk Menu Dash Launcher](/images/blog/bionic/brisk-menu-dash.png)
 
 Many users commented that when using the Mutiny layout the *"traditional"*
-menu felt out of place. The [Solus Project](https://solus-project.com/), the
+menu felt out of place. The [Solus Project](https://getsol.us), the
 maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have
 add a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched
 version of Brisk Menu that includes this new dash launcher. When MATE Tweak is
@@ -240,7 +240,7 @@ We've landed [caja-eiciel](https://github.com/darkshram/mate-eiciel) and [caja-s
 We are no longer shipping `mate-backgrounds` by default. They have served us
 well, but are looking a little stale now. We have created a new selection of
 high quality wallpapers comprised of some abstract designs and high resolution
-photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot
+photos from [unsplash.com](https://unsplash.com). The Ubuntu MATE Plymouth theme (boot
 logo) is now HiDPI aware. Our friends at [Ubuntu
 Budgie](https://ubuntubudgie.org/) have uploaded a new version of Slick
 Greeter which now fades in smoothly, rather than the stuttering we saw in

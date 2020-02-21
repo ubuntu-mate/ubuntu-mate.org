@@ -56,6 +56,6 @@ Ubuntu MATE is a stable, easy-to-use operating system with a configurable deskto
 environment. Ideal for those who want the most out of their computers and prefer
 a traditional desktop metaphor.
 
-More information about Ubuntu MATE is available online at [ubuntu-mate.org](https://ubuntu-mate.org)
+More information about Ubuntu MATE is available online at [ubuntu-mate.org](/)
 
 For further information please contact Mike Wilson, [mwilson@entroware.com](mailto:mwilson@entroware.com)

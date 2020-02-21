@@ -17,4 +17,4 @@ This short video introduces Compiz, a 3D-accelerated desktop effects compositor,
 
 New videos in this series will be added to the following YouTube playlist.
 
-  * [Introducing Ubuntu MATE 15.04](//www.youtube.com/playlist?list=PLE6KGGrWCFf0-7sVeKHpddNGUPCYTclBR)
+  * [Introducing Ubuntu MATE 15.04](https://www.youtube.com/playlist?list=PLE6KGGrWCFf0-7sVeKHpddNGUPCYTclBR)

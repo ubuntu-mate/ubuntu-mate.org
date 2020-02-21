@@ -88,8 +88,8 @@ via the MATE screensaver.
 ### GPD Pocket
 
 Alongside the generic image for 64-bit Intel PCs, we're also releasing bespoke
-images for the [GPD Pocket](https://gpd.hk/gpdpocket) and
-[GPD Pocket 2](https://gpd.hk/gpdpocket2). These include hardware
+images for the [GPD Pocket](https://www.gpd.hk/gpdpocket) and
+[GPD Pocket 2](https://www.gpd.hk/gpdpocket2). These include hardware
 specific tweaks to get these devices working *"out of the box"*
 without any faffing about. [See our GPD Pocket page for more details](/ports/umpcs/).
 

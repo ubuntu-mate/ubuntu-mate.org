@@ -37,7 +37,7 @@ gallery:
 *We mean it, keep reading! Don't just go hunting for the download button
 and skip over our most glorious release notes.*
 
- > [#systemau](https://systemau.net.au/) may be gone but they're not
+ > `#systemau` may be gone but they're not
  forgotten. Ubuntu MATE will continue with our unusual, sometimes
  witty, opening statements in our release notes in the hope that it
  inspires release note authors everywhere to drop the usual dull

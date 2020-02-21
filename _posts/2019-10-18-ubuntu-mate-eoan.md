@@ -446,7 +446,7 @@ You can read more details on Didier Roche's blogs:
 ## GPD MicroPC & other UMPCs
 
 Alongside the generic image for 64-bit Intel PCs, we're also releasing a
-bespoke image for the [GPD MicroPC](http://gpd.hk/gpdmicropc) which
+bespoke image for the [GPD MicroPC](https://www.gpd.hk/gpdmicropc) which
 includes hardware specific tweaks to get this device working *"out of the box"*
 without any faffing about. [See our UMPC page for more details](/ports/umpcs/).
 

@@ -9,7 +9,7 @@ author: Martin Wimpress
 lang: en
 ---
 
-Ubuntu MATE agrees a partnership with GNU/Linux hardware manufacturer [LibreTrend](http://www.libretrend.com/en/).
+Ubuntu MATE agrees a partnership with GNU/Linux hardware manufacturer [LibreTrend](https://libretrend.com).
 
 {:.center}
 ![Ubuntu MATE and LibreTrend](/images/blog/merch/libretrend/ubuntu-mate-libretrend.png)
@@ -22,9 +22,9 @@ easing the transition between Microsoft Windows or Mac OS and Linux.
 
 {:.center}
 ![LibreBox](/images/blog/merch/libretrend/librebox-topbanner.jpg)
-**[The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.](http://www.libretrend.com/en/store/librebox)**
+**[The LibreBox is built with verified GNU/Linux compatible components and designed with Free Software in mind.](https://libretrend.com)**
 
-LibreTrend are the designer and manufacturer of the [LibreBox](http://www.libretrend.com/en/hardware),
+LibreTrend are the designer and manufacturer of the [LibreBox](https://libretrend.com),
 a computer geared towards providing a complete *"out of the box"* Linux
 experience, with a heavy focus on hardware compatibility. All the hardware in
 the LibreBox is Free Software friendly and 100% supported by *"blobless"* Linux drivers.
@@ -61,7 +61,7 @@ LibreTrend is a Portuguese based Linux software, services and hardware design co
     title = "LibreTrend"
     text = "More information about LibreTrend, and their products and services, are available online at **libretrend.com**"
     button_text = "Visit LibreTrend"
-    button_url = "http://www.libretrend.com"
+    button_url = "http://libretrend.com"
 %}
 
 
@@ -74,6 +74,6 @@ Ubuntu MATE is a stable, easy-to-use operating system with a
 configurable desktop environment - ideal for those who want the most
 out of their computers and prefer a traditional desktop metaphor.
 
-More information about Ubuntu MATE is available online at [ubuntu-mate.org](https://ubuntu-mate.org)
+More information about Ubuntu MATE is available online at [ubuntu-mate.org](/)
 
-For further information please contact [Luis Da Costa](http://www.libretrend.com/en/contact)
+For further information please contact [Luis Da Costa](https://libretrend.com/contact-us)

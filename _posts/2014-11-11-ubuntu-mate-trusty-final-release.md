@@ -52,9 +52,9 @@ released to Ubuntu MATE 14.10 via updates.
   * Added missing faces pixmaps [LP #1385822](https://bugs.launchpad.net/ubuntu-mate/+bug/1385822).
   * Added missing `policykit-desktop-priviledges`.
   * Added support for Indicators and updated some panel layouts to include indicator enabled variants.
-  * Added [MATE Menu](https://bitbucket.org/flexiondotorg/mate-menu), which is a fork of [MintMenu](https://github.com/linuxmint/mintmenu).
-  * Added [MATE Tweak](https://bitbucket.org/flexiondotorg/mate-tweak), which is a fork of [MintDesktop](https://github.com/linuxmint/mintdesktop).
-  * Enabled the [Accessibility PPA](https://launchpad.net/~accessibility-dev/+archive/ubuntu/ppa) to add Orca 3.14 which improves the accessibility of Firefox.
+  * Added [MATE Menu](https://github.com/ubuntu-mate/mate-menu), which is a fork of [MintMenu](https://github.com/linuxmint/mintmenu).
+  * Added [MATE Tweak](https://github.com/ubuntu-mate/mate-tweak), which is a fork of [MintDesktop](https://github.com/linuxmint/mintdesktop).
+  * Enabled the **Accessibility PPA** to add Orca 3.14 which improves the accessibility of Firefox.
   * Enabled screen reader activation via LightDM indicators and LightDM key bindings.
   * Fixed accessibility keybindings to toggle the Orca screen reader. Thanks to [Sander Sweers](https://github.com/infirit).
   * Fixed Plymouth not displaying boot up splash screens.

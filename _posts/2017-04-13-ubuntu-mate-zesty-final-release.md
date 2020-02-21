@@ -32,10 +32,10 @@ following ways:
   which completes the transition to GTK3+, fixes countless bugs and
   introduces some much needed new features and modernisations.
 
-  * [Daniel Foré](http://danielfore.com/) from [elementary](https://elementary.io)
+  * Daniel Foré from [elementary](https://elementary.io)
   contributed new icons to Ubuntu MATE which deliver style and panache.
 
-  * [Ikey Doherty](https://plus.google.com/+IkeyDoherty) from [Solus](https://solus-project.com/)
+  * [Ikey Doherty](https://plus.google.com/+IkeyDoherty) from [Solus](https://getsol.us)
   created [Brisk Menu](https://github.com/solus-project/brisk-menu) in
   collaboration with Ubuntu MATE. This efficient menu is integrated in
   the new Pantheon layout available via MATE Tweak.
@@ -52,12 +52,12 @@ following ways:
   contributed retouched art assets for the Ubuntu MATE themes including
   scaled variants for when we are ready to go HiDPI.
 
-  * [Luke Horwell](https://ubuntu-mate.community/users/lah7) from [Ubuntu MATE](https://ubuntu-mate.org)
+  * [Luke Horwell](https://ubuntu-mate.community/users/lah7) from [Ubuntu MATE](/)
   updated the Bulk Queue in Ubuntu MATE Welcome and the Software Boutique
   so you can now queue up multiple application install/remove and execute
   them in one operation.
 
-  * [Martin Wimpress](https://flexion.org) from [Ubuntu MATE](https://ubuntu-mate.org)
+  * [Martin Wimpress](https://flexion.org) from [Ubuntu MATE](/)
   did some stuff but no one remembers what.
 
 **We extend our sincere thanks to everyone who contributed to this

@@ -23,7 +23,7 @@ Wimpress](https://twitter.com/m_wimpress) with a Raspberry Pi 3 and
 engineering assistance over the weekend.
 
 {:.center}
-![Ubuntu MATE for the Raspberry Pi 3](/images/logos/ubuntu-mate-flavour-maker-pi3.png)
+![Ubuntu MATE for the Raspberry Pi 3](/images/blog/ubuntu-mate-flavour-maker-pi3.png)
 
 The Raspberry Pi 3 Model B is the same form factor as the Raspberry Pi
 B+ and Raspberry Pi 2 Model B, the RAM remains 1GB and the USB and
@@ -60,7 +60,7 @@ bottleneck so we recommend that you **use a Class 6 or Class 10
 microSDHC card**.
 
 The image is built from the regular Ubuntu armhf base, not the new
-[Snappy Ubuntu](https://developer.ubuntu.com/en/snappy/), which means
+[Snappy Ubuntu](https://ubuntu.com/core), which means
 that the installation procedure for applications is the same as that for
 the regular desktop versions ie using `apt-get`. **The images will only
 work in a Raspberry Pi 2 Model B and Raspberry Pi 3 Model B**

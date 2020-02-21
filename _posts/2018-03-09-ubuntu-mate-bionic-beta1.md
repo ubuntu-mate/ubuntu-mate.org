@@ -83,7 +83,7 @@ Ubuntu MATE 18.04 uses Indicators by default in all layouts. These will be famil
 {:.center}
 ![Brisk Menu Dash Launcher](/images/blog/bionic/brisk-menu-dash.png)
 
-Many users commented that when using the Mutiny layout the *"traditional"* menu felt out of place. The [Solus Project](https://solus-project.com/), the maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have add a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched version of Brisk Menu that includes this new dash launcher. When MATE Tweak is used to enable the Mutiny or Cupertino layout, it now switches on the dash launcher which enables a full screen, searchable, application launcher. Similarly, switching to the other panel layouts restores the more traditional Brisk Menu.
+Many users commented that when using the Mutiny layout the *"traditional"* menu felt out of place. The [Solus Project](https://getsol.us), the maintainers of [Brisk Menu](https://github.com/solus-project/brisk-menu), have add a dash-style launcher at our request. Ubuntu MATE 18.04 includes a patched version of Brisk Menu that includes this new dash launcher. When MATE Tweak is used to enable the Mutiny or Cupertino layout, it now switches on the dash launcher which enables a full screen, searchable, application launcher. Similarly, switching to the other panel layouts restores the more traditional Brisk Menu.
 
 ### MATE Window Applets
 
@@ -118,7 +118,7 @@ We've landed [caja-eiciel](https://github.com/darkshram/mate-eiciel) and [caja-s
 {;.center}
 ![Emoji Picker](/images/blog/bionic/emoji.png)
 
-We are no longer shipping `mate-backgrounds` by default. They have served us well, but are looking a little stale now. We have created a new selection of high quality wallpapers comprised of some abstract designs and high resolution photos from [unsplash.com](unsplash.com). The Ubuntu MATE Plymouth theme (boot logo) is now HiDPI aware. Our friends at [Ubuntu Budgie](https://ubuntubudgie.org/) have uploaded a new version of Slick Greeter which now fades in smoothly, rather than the stuttering we saw in Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've added a colour emoji font too.
+We are no longer shipping `mate-backgrounds` by default. They have served us well, but are looking a little stale now. We have created a new selection of high quality wallpapers comprised of some abstract designs and high resolution photos from [unsplash.com](https://unsplash.com). The Ubuntu MATE Plymouth theme (boot logo) is now HiDPI aware. Our friends at [Ubuntu Budgie](https://ubuntubudgie.org/) have uploaded a new version of Slick Greeter which now fades in smoothly, rather than the stuttering we saw in Ubuntu MATE 17.10. We've switched to Noto Sans for users of Japanese, Chinese and Korean fonts and glyphs. MATE Desktop 1.20 supports emoji input, so we've added a colour emoji font too.
 
 ### Raspberry Pi images
 

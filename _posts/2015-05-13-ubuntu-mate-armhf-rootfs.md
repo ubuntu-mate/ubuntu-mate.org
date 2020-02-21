@@ -27,8 +27,8 @@ did to make [Ubuntu MATE 15.04 for the Raspberry Pi 2](/ports/raspberry-pi/). Th
 instructions are brief but hopefully sufficient for ARM device hackers to get
 started.
 
-  * [Ubuntu MATE for ARMv7 documentation and downloads](/armhf-rootfs/)
-  * [Ubuntu MATE for ARMv7 build scripts](https://bitbucket.org/ubuntu-mate/ubuntu-mate-armhf)
+  * [Ubuntu MATE for ARMv7 documentation and downloads](/old-release/)
+  * [Ubuntu MATE for ARMv7 build scripts](https://github.com/mibs510/ubuntu-mate-armhf/tree/076ef07bb502923cd43cb07331476e9730fbefe7)
 
 We'd love to see Ubuntu MATE images for more ARMv7 devices. We will gladly host
 the images and catalogue what the community creates on this website. If you start
@@ -36,4 +36,4 @@ working on, or create, an Ubuntu MATE image for an ARMv7 device then please let
 us know in the [Ubuntu MATE Development Discussion](https://ubuntu-mate.community/c/development-discussion) forum.
 
 If you have any improvements, or add support for a new device, then please submit
-a pull request to our [BitBucket](https://bitbucket.org/ubuntu-mate/ubuntu-mate-armhf).
+a pull request to our [BitBucket](https://github.com/mibs510/ubuntu-mate-armhf/tree/076ef07bb502923cd43cb07331476e9730fbefe7).

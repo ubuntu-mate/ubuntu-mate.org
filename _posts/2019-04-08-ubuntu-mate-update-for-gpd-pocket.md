@@ -10,8 +10,8 @@ lang: en
 ---
 
 Back in October 2018 the Ubuntu MATE team released bespoke images of Ubuntu
-MATE 18.10 for the [GPD Pocket](https://gpd.hk/gpdpocket) and
-[GPD Pocket 2](https://gpd.hk/gpdpocket2) that included hardware specific
+MATE 18.10 for the [GPD Pocket](https://www.gpd.hk/gpdpocket) and
+[GPD Pocket 2](https://www.gpd.hk/gpdpocket2) that included hardware specific
 tweaks to get these devices working *"out of the box"* without any faffing
 about. **Today we are releasing Ubuntu MATE 18.04.2 and Ubuntu MATE 19.04
 images for both devices**. Read on to find out more...
@@ -26,12 +26,12 @@ images for both devices**. Read on to find out more...
 
 Thanks to the recent hardware enablement stack upgrade in Ubuntu it is now
 possible to create images based on Ubuntu MATE 18.04.2 for the GPD Pocket and
-GPD Pocket 2. [These images are final and available to download now!](https://ubuntu-mate.org/download/)
+GPD Pocket 2. [These images are final and available to download now!](/download/)
 
 ## Ubuntu MATE 19.04
 
 The Ubuntu MATE 19.04 release is just days away, so we have also prepared
-Ubuntu MATE 19.04 Beta images for both devices. [Also availble for download now](https://ubuntu-mate.org/download/)
+Ubuntu MATE 19.04 Beta images for both devices. [Also availble for download now](/download/)
 and you can simply collect updates to get from the beta to final release on
 April 18th 2019.
 

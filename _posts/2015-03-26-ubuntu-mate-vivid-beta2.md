@@ -14,7 +14,7 @@ release builds on Ubuntu MATE Beta 1, makes a few changes and fixes
 a lot of bugs.
 
 As usual preparing this release of Ubuntu MATE has been a team effort.
-Special thanks to [Mike Gabriel](https://alioth.debian.org/users/sunweaver/),
+Special thanks to Mike Gabriel,
 [Vlad Orlov](https://github.com/monsta) and [Stefano Karapetsas](https://github.com/stefano-k)
 for putting in a great deal of effort triaging bugs, doing code reviews and
 creating new upstream MATE Desktop 1.8.x point releases. Thanks guys!
@@ -89,7 +89,7 @@ affect every Ubuntu flavour.
     * The computer will require a manual power off or reset after the disc has been ejected.
     * [LP: 1436816](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1436816)
   * Virtualbox guests will only get a resolution of 640x480
-    * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/), see [comment #13](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/comments/13) for a work around.
+    * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/)
   * It is not possible to install the Virtualbox drivers via the Additional Hardware application.
     * [LP: #1434579](https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/1434579)
     * The workaround is to open a shell and `sudo apt-get install virtualbox-guest-x11`.

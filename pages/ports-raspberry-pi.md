@@ -142,7 +142,7 @@ to enable SSH.
 
     sudo apt install openssh-server
 
-If you install SSH then you might also want to install [sshguard](sshguard)
+If you install SSH then you might also want to install `sshguard`
 which is highly optimised and well suited for use on the Raspberry Pi to
 protect from brute force attacks against SSH.
 

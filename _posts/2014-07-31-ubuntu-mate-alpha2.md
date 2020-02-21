@@ -36,7 +36,7 @@ work. Notice the heavy use of *"should*", YMMV.
   * Added Ambiance and Radiance themes to Pluma.
   * Added Rhythmbox and Totem plugins.
   * Added Release Notes to Ubquity.
-  * Added support for Marco to Ubiquity. [MERGE #226114](https://code.launchpad.net/~ubuntu-mate-dev/ubiquity/ubiquity-marco/+merge/226114)
+  * Added support for Marco to Ubiquity.
   * Fixed Network Manager applet.
   * Fixed inconsistent theme in live session installer.
   * Fixed default icons in LibreOffice.

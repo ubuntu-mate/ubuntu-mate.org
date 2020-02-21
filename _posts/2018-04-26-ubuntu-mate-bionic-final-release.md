@@ -282,7 +282,7 @@ at matching applications and windows to their dock icons.
 
 [Brisk Menu](https://github.com/solus-project/brisk-menu) is an
 efficient, searchable, menu for the MATE Desktop. We've collaborated
-with the [Solus Project](https://solus-project.com/), the maintainers
+with the [Solus Project](https://getsol.us), the maintainers
 of Brisk Menu. A number of features have been added so that, like
 Ubuntu MATE itself, Brisk Menu is chameleonic. You'll find Brisk Menu
 is used in several of the Ubuntu MATE desktop layouts and is presented
@@ -466,7 +466,7 @@ Plymouth theme (boot logo) is now HiDPI aware.
 We are no longer shipping `mate-backgrounds` by default. They have
 served us well, but are looking a little stale now. We have created a
 new selection of high quality wallpapers comprised of some abstract
-designs and high resolution photos from [unsplash.com](unsplash.com).
+designs and high resolution photos from [unsplash.com](https://unsplash.com).
 
 ### Emoji
 
@@ -548,8 +548,8 @@ This is our known list of bugs that affects all flavours.
 
   * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)
     * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session.
-  * [Systems may fail to boot when connected over DisplayPort to an external screen, on nvidia graphics hardware such as the GTX970 chipset](https://pad.lv/1723619])
-  * [The warning dialog when a user force a UEFI installation does not respond to input event and the installation is then blocked at this stage](https://pad/lv/1724482)
+  * [Systems may fail to boot when connected over DisplayPort to an external screen, on nvidia graphics hardware such as the GTX970 chipset](https://pad.lv/1723619)
+  * [The warning dialog when a user force a UEFI installation does not respond to input event and the installation is then blocked at this stage](https://pad.lv/1724482)
     * Avoid yourself some troubles and do not force a UEFI installation without a UEFI partition, `grub-installer` will fail anyway.
   * [Doing an *"Entire disk"* installation over an existing LVM installation will fail because the installer selects the wrong boot device](https://pad.lv/1724417)
     * Use custom partitioning instead and manually select the right boot device in the combo box.

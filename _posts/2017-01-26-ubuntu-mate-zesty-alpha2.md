@@ -47,7 +47,7 @@ This is what have been updated or added.
     * Many, many, bug fixes.
     * Translation updates.
   * Upgraded to **Ubuntu MATE Artwork 17.04.1**
-    * **New folder icons contributed by [Daniel Foré](http://danielfore.com/)** from [elementary](https://elementary.io)
+    * **New folder icons contributed by Daniel Foré** from [elementary](https://elementary.io)
     * Ambiant-MATE and Radiant-MATE fixes.
     * **New pixel doubled assets contributed by [Michael Tunnel](http://michaeltunnell.com/)** from [TuxDigitial](http://tuxdigital.com/)
   * Upgraded to **Ubuntu MATE Welcome 17.04.1**

@@ -10,7 +10,7 @@ lang: en
 ---
 
 We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
-[October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
+[October 22nd, 2015](https://wiki.ubuntu.com/WilyWerewolf/ReleaseSchedule)
 With this *Alpha 2* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 

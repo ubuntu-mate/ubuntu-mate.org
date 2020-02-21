@@ -16,7 +16,7 @@
         <input name="currency_code" type="hidden" value="USD">
         <input name="src" type="hidden" value="1">
         <input name="sra" type="hidden" value="1">
-        <input name="return" type="hidden" value="https://ubuntu-mate.org {{ /funding/thank-you/ | absolute_url }}">
-        <input name="cancel_return" type="hidden" value="https://ubuntu-mate.org/{{ /funding/cancelled/ | absolute_url }}">
+        <input name="return" type="hidden" value="{{ /funding/thank-you/ | absolute_url }}">
+        <input name="cancel_return" type="hidden" value="{{ /funding/cancelled/ | absolute_url }}">
     </form>
 {% endfor %}

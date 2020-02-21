@@ -9,10 +9,10 @@ category: ports
 # Ubuntu MATE for Ultra Mobile PCs
 
 The Ubuntu MATE team offers a bespoke images for the
-[GPD Pocket](https://gpd.hk/gpdpocket),
-[GPD Pocket 2](https://gpd.hk/gpdpocket2),
-[GPD WIN 2](https://gpd.hk/gdpwin2),
-[GPD MicroPC](https://gpd.hk/gpdmicropc) and
+[GPD Pocket](https://www.gpd.hk/gpdpocket),
+[GPD Pocket 2](https://www.gpd.hk/gpdpocket2),
+[GPD WIN 2](https://www.gpd.hk/gdpwin2),
+[GPD MicroPC](https://www.gpd.hk/gpdmicropc) and
 [Topjoy Falcon](https://www.kickstarter.com/projects/440069565/falcon-worlds-first-8-inch-2-in-1-laptop)
 that include the hardware specific tweaks to get these devices working
 *"out of the box"* without any faffing about. Some models of the OneMix

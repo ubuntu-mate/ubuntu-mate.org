@@ -10,26 +10,6 @@ catalogue:
     - group: Laptops
       items:
 
-        - name: 14" Orion
-          price: Starting at £549.99
-          img: /images/shop/entroware/orion_front_mate.jpg
-          url: https://www.entroware.com/store/orion?tracking=ubmate
-          description: >-
-
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 15” Matte FHD LED (1920x1080),
-            Intel® UHD Graphics.
-
-        - name: 15" Aether
-          price: Starting at £599.99
-          img: /images/shop/entroware/aether_front_mate.jpg
-          url: https://www.entroware.com/store/aether?tracking=ubmate
-          description: >-
-
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 15” Matte FHD LED (1920x1080),
-            Intel® UHD Graphics.
-
         - name: 14" Apollo
           price: Starting at £649.99
           img: /images/shop/entroware/apollo_front_mate.jpg

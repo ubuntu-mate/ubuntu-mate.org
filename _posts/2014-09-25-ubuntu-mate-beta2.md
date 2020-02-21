@@ -45,7 +45,7 @@ already present in Beta1.
   * Fixed video corruption in the Ubiquity installer.
   * Fixed activation of the default sound theme.
   * Fixed speaker test sounds in the Sound preferences.
-  * Merged Ubuntu MATE specific PolicyKit desktop privileges upstream. [MERGE #230610](https://code.launchpad.net/~ubuntu-mate-dev/ubuntu/utopic/policykit-desktop-privileges/mate-fixes/+merge/230610)
+  * Merged Ubuntu MATE specific PolicyKit desktop privileges upstream.
   * Removed `virtualbox-guest-x11` from the Live session.
   * Removed [wubi](https://wiki.ubuntu.com/WubiGuide) from the Ubuntu MATE .iso image.
 

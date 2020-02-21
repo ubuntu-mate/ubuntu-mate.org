@@ -71,13 +71,6 @@ Here is what changed Ubuntu MATE 16.04 LTS Final Release since Beta 2:
     * Minor bugs fixes.
   * Prepared the Ubuntu MATE 16.04 image for the Raspberry Pi 2 and Raspberry Pi 3.
 
-{% include blog/jumbotron.html
-    title = "Ubuntu MATE 16.04 summary of changes"
-    text = "If you're interested in a general overview of what change in Ubuntu MATE 16.04, take a look at our press kit."
-    button_text = "Press Kit"
-    button_url = "/ubuntu-mate-1604-presskit/"
-%}
-
 ### Community contributors
 
 Here are just a few of the people who contributed to Ubuntu MATE during the
@@ -98,16 +91,16 @@ Developer heading up the Debian MATE Packaging team. The vast majority
 of Ubuntu MATE development actually happens in Debian and we owe a huge
 debt of gratitude to Mike for his tireless efforts.
 
-Thanks to **[Joe Ressington](http://joeress.com/about)**, **[Isaac
-Carter](http://twitter.com/stupidcoder)** and **[Albert
+Thanks to **[Joe Ressington](http://joeress.com/about)**, **Isaac
+Carter** and **[Albert
 Hickey](http://plus.google.com/+Winkleink)**, from **[The Pi
 Podcast](http://thepipodcast.com/)**, for testing Ubuntu MATE 16.04 for
 the Raspberry Pi 2 and Raspberry Pi 3. You really helped ironout some
 kinks and improved the release quality for everyone.
 
 Thank you to **[Alexei
-Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts
-Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help
+Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **Alberts
+Muktupāvels** for their help
 improving MATE integration in Compiz.
 
 Thanks **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for

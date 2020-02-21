@@ -17,14 +17,14 @@ would all come a gutser. But we put in big mobs of effort to ensure
 it's not complete ball dust. Give it a burl!**
 
 The above statement is for the benefit of our friends at
-[#systemau](https://systemau.net.au/) who lament the predictable and
+`#systemau` who lament the predictable and
 often dreary wording used in Linux distro release announcements. We
 hope we've helped restore balance to the force `;-)`
 
 # Ubuntu MATE 16.10 Alpha 1
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on
-[October 13th, 2016](https://wiki.ubuntu.org/YakketyYak/ReleaseSchedule)
+[October 13th, 2016](https://wiki.ubuntu.com/YakketyYak/ReleaseSchedule)
 With this *Alpha* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
@@ -96,8 +96,8 @@ This is what have been updated or added.
     * Sports a **new look and many visual and usability enhancements**.
     * Getting Started section offers **much more assistance for a post install setup and configuration**. (Some elements back ported to 16.04)
     * Adds **driver installer for Logitech's Unifying Receiver peripherals**.
-    * New builds are **[automatically tested](https://semaphoreci.com/lah7/ubuntu-mate-welcome)**.
-      * Testers can **check out [this daily PPA](https://launchpad.net/~lah7/+archive/ubuntu/ubuntu-mate-welcome-dev),** including packages for Xenial users wanting to test new versions of Welcome.
+    * New builds are **automatically tested**.
+      * Testers can **check out [this daily PPA](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/welcome),** including packages for Xenial users wanting to test new versions of Welcome.
     * Detailed **system specifications can now be copied to the clipboard**.
     * Assorted **performance optimisations**.
   * **Upgraded Software Boutique.**
@@ -109,14 +109,14 @@ This is what have been updated or added.
     * Introduces a new feature to **display a complete list of all applications and the repositories they are sourced from**.
     * Support added for **installing software for `arm64` and `ppc64el` architectures**.
     * Software **install and removal notifications now use the associated application icon**.
-  * **Upgraded [MATE Tweak](https://bitbucket.org/ubuntu-mate/mate-tweak/)**
+  * **Upgraded [MATE Tweak](https://github.com/ubuntu-mate/mate-tweak/)**
     * Splits up the UI and introduces a new Panel section.
     * Can now **change icon sizes and menu item icon sizes in the panel**, exposing a new MATE Desktop 1.14 capability. This has two benefits, **bigger icons for high resolution displays** and, if you are so inclined, **large panels suitable for touch input but without changing the desktop metaphor**.
     * Supports **enabling new style GTK3+ indicators**.
     * **Supports `xcompmgr` compositor, the preferred compositor to use along side the Raspberry Pi hardware accelerated VC4 drivers**.
     * **Tilda is no longer enabled by default**. Tilda is still installed by default, but can now be optionally enabled via MATE Tweak.
   * **Upgraded [MATE Dock Applet](https://github.com/robint99/mate-dock-applet)** which now supports GTK3+
-  * **Upgraded [MATE Menu](https://bitbucket.org/ubuntu-mate/mate-menu)** which now support GTK3+
+  * **Upgraded [MATE Menu](https://github.com/ubuntu-mate/mate-menu)** which now support GTK3+
 
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 16.10"

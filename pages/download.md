@@ -39,7 +39,7 @@ ports:
     - name: GPD Micro PC
       icon: images/fa/laptop.svg
       desc: Optimised for this hardware.
-      id: gpd_micro_pc
+      id: gpd_micropc
 
     - name: Topjoy Falcon
       icon: images/fa/laptop.svg

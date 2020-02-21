@@ -10,7 +10,7 @@ lang: en
 ---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
-[April 21st, 2016](https://wiki.ubuntu.org/XenialXerus/ReleaseSchedule)
+[April 21st, 2016](https://wiki.ubuntu.com/XenialXerus/ReleaseSchedule)
 With this *Final Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
@@ -46,7 +46,7 @@ First of all, I'd like to extend my thanks to:
   * **[Luke Horwell](https://ubuntu-mate.community/users/lah7/)** and **[Robin Thompson](https://github.com/robint99)** for for their work on Ubuntu MATE Welcome and Software Boutique.
   * **[Gunnar Hjalmarsson](https://launchpad.net/~gunnarhj)** for his help making `im-config` and `gnome-language-selector` compatible with Ubuntu MATE.
   * **[Rico Tzschichholz](https://launchpad.net/~ricotz)** for his help completing MATE integration for Synapse.
-  * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **[Alberts Muktupāvels](https://launchpad.net/~albertsmuktupavels)** for their help improving MATE integration in Compiz.
+  * **[Alexei Sorokin](https://build.opensuse.org/user/show/XRevan86)** and **Alberts Muktupāvels** for their help improving MATE integration in Compiz.
   * **[Timo Jyrinki](https://launchpad.net/~timo-jyrinki)**, **[Daniel Holbach](https://launchpad.net/~dholbach)** and **[Artur Rona](https://launchpad.net/~ari-tczew)** for sponsoring package updates for Ubuntu MATE.
 
 Also, thank you to everyone who has been testing Ubuntu MATE 16.04 Beta

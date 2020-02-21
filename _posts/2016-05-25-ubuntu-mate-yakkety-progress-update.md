@@ -49,7 +49,7 @@ ahead and the role Snaps will play in Ubuntu MATE's *"retrospective future"*.
     title = "We are not dropping the classic Debian package based distribution model."
     text = "We want to make this point as clear as we can. The classic Debian based package distribution model is not being dropped."
     button_text = "Snappy"
-    button_url = "https://developer.ubuntu.com/en/snappy/"
+    button_url = "https://ubuntu.com/core"
 %}
 
 **OK, got that? .deb packages are not being dropped. Good `:-)`**

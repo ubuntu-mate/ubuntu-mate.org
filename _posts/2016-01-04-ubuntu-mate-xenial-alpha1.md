@@ -10,7 +10,7 @@ lang: en
 ---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
-[April 21st, 2016](https://wiki.ubuntu.org/XenialXerus/ReleaseSchedule)
+[April 21st, 2016](https://wiki.ubuntu.com/XenialXerus/ReleaseSchedule)
 With this *Alpha 1* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 

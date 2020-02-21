@@ -52,8 +52,8 @@ and these improvements will soon be available in Ubuntu 18.04.2 too.
 ### GPD Pocket
 
 Alongside the generic image for 64-bit Intel PCs we're also releasing a
-bespoke image for the [GPD Pocket](https://gpd.hk/gpdpocket) and
-[GPD Pocket 2](https://gpd.hk/gpdpocket2) that includes the hardware
+bespoke image for the [GPD Pocket](https://www.gpd.hk/gpdpocket) and
+[GPD Pocket 2](https://www.gpd.hk/gpdpocket2) that includes the hardware
 specific tweaks to get these devices working *"out of the box"*
 without any faffing about. [See our GPD Pocket page for more details](/ports/umpcs/).
 

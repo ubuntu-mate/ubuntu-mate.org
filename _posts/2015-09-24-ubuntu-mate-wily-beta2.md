@@ -10,7 +10,7 @@ lang: en
 ---
 
 We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
-[October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
+[October 22nd, 2015](https://wiki.ubuntu.com/WilyWerewolf/ReleaseSchedule)
 With this *Beta 2* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
@@ -39,7 +39,7 @@ Here's what changed in Ubuntu MATE 15.10 since Beta 1.
     * MATE Sensors Applet now supports NVIDIA GPUs.
     * For more details see the [MATE 1.10 Release Notes](http://mate-desktop.org/blog/2015-06-11-mate-1-10-released/).
   * Added Lightning Calendar plugin to Thunderbird, including Google calendar support.
-  * Added new community contributed ["Keep Calm" wallpaper](http://timapple.com/ubuntu-mate-wallpaper/) by [Tim Apple](http://timapple.com/).
+  * Added new community contributed **"Keep Calm" wallpaper** by Tim Apple.
   * Updated Blueman to 2.0 - Manys thanks to the [Xubuntu](http://xubuntu.org) team for helping with this.
     * Now uses BlueZ 5.34.
     * Brings many Bluetooth improvements and fixes.

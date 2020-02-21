@@ -73,7 +73,7 @@ Here is a run down of what has been changed, updated or added.
   * The Eye of MATE and Pluma plugin systems have been refactored:
     * **All the Eye of MATE and Pluma plugins are back** as a result of all C and Python plugins having been ported to `libpeas`.
   * Upgraded to **Brisk Menu 0.3.0**
-    * Brisk is a new efficient menu for the MATE Desktop developed by the [Solus Project](https://solus-project.com/).
+    * Brisk is a new efficient menu for the MATE Desktop developed by the [Solus Project](https://getsol.us).
     * **Integrated in the new Pantheon layout** available via MATE Tweak.
     * The Brisk Menu default hotkey is currently `Ctrl+F10`
   * Upgraded to **Ubuntu MATE Artwork 17.04.7**

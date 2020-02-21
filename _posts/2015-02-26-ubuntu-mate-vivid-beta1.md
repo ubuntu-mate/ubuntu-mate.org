@@ -46,8 +46,8 @@ have helped make this possible:
 It is also worth mentioning that the [Xubuntu](http://xubuntu.org/) team
 have been ever so welcoming and great collaborators. Some new features
 in Ubuntu MATE have come directly from Xubuntu development efforts. As always,
-I can't thank [Mike Gabriel](https://alioth.debian.org/users/sunweaver/) and
-[Vangelis Mouhtsis](https://alioth.debian.org/users/gnugr-guest/) enough for
+I can't thank Mike Gabriel and
+Vangelis Mouhtsis enough for
 their help working the MATE packages through Debian and fixing bugs. A
 large percentage of the Ubuntu MATE development is actually taking place in
 Debian.
@@ -75,13 +75,13 @@ Here what changed since Ubuntu MATE 15.04 Alpha2:
   * Updated [LightDM GTK Greeter Settings](https://launchpad.net/lightdm-gtk-greeter-settings) 1.10. Thanks to [Sean M. Davis](http://smdavis.us)
   * Updated Yuyo GTK theme to better support GTK 3.14. Thanks to [Sam Hewitt](http://snwh.org/).
   * [Fixed GTK+ 2.x]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=777142) so it better supports multi monitor under MATE. Thanks to [Vlad Orlov](https://github.com/monsta) (MATE Core Dev).
-    * This was then merge upstream. Thanks [Wolfgang Ulbrich](https://github.com/NiceandGently) (MATE Core Dev)
+    * This was then merge upstream. Thanks [Wolfgang Ulbrich](https://github.com/raveit65) (MATE Core Dev)
     * This resulted in GTK 2.24.26 being released which is now included in Ubuntu 15.04.
   * Fixed uninstalling packages from the Ubuntu MATE meta packages.
     * This is as a result of achieving official status.
   * Fixed being an unofficial Ubuntu flavour.
     * This is as a result of achieving official status `;-)`
-  * Merged [MATE Compatibility integration into upstream Compiz](https://code.launchpad.net/~ubuntu-mate-dev/compiz/compiz-mate/+merge/249578)
+  * Merged MATE Compatibility integration into upstream Compiz.
     * While Compiz is installed by default, it is not enabled by default.
     * MATE Tweak includes an option to switch between Marco and Compiz, no log out/in required.
 
@@ -111,7 +111,7 @@ It is not all good news however. Here are the known issues.
   * Live switching between Compiz and Marco is somewhat experimental and may result in
   no window decorations on some older GPUs.
   * Virtualbox guests may only get a resolution of 640x480
-    * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/), see [comment #13](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/comments/13) for a work around.
+    * [LP: #1368784](https://bugs.launchpad.net/ubuntu/+source/virtualbox/+bug/1368784/)
   * Running an Ubuntu MATE live session as a Virtualbox guest may corrupt the video
   output of the guest.
     * You can correct the video display by pressing `Host+F1` to switch

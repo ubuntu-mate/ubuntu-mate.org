@@ -20,7 +20,7 @@ now available for download.
 %}
 
 The image is built from the regular Ubuntu `armhf` base, not the new
-[Snappy Ubuntu](https://developer.ubuntu.com/en/snappy/), which means
+[Snappy Ubuntu](https://ubuntu.com/core), which means
 that the installation procedure for applications is the same as that for
 the regular desktop versions ie using `apt-get`. However, since
 Ubuntu MATE 16.04 snap packages can be installed alongside classic deb

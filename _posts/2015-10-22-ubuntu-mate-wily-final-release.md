@@ -68,8 +68,8 @@ the [core team](/team/) there are few people who deserve a public
 Many thanks to [David Chadderton](https://ubuntu-mate.community/users/webspresso/activity)
 from [Webspresso](http://webspresso.co.uk/), [Rohith Madhavan](https://ubuntu-mate.community/t/ubuntu-mate-wallpapers/965),
 [quidsup](http://quidsup.net/wallpaper/show.php?i=Neon-UbuntuMATE),
-[Tim Apple](http://timapple.com/), Jack Mohegan and
-[Linux Scoop](http://linuxscoop.com/) for the new community contributed artwork and videos.
+Tim Apple, Jack Mohegan and
+[Linux Scoop](https://linuxscoop.com/) for the new community contributed artwork and videos.
 
 Thank you to Luke Horwell for adding the animations, transitions and
 categorisation to Ubuntu MATE Welcome. Thanks to Larry Bushey, from
@@ -80,7 +80,7 @@ also to [Matt Hartley](http://www.matthartley.com/), from
 Ubuntu MATE Welcome Software selection.
 
 Thanks to [Joe Ressington](http://joeress.com/about),
-[Isaac Carter](http://twitter.com/stupidcoder) and
+Isaac Carter and
 [Albert Hickey](http://plus.google.com/+Winkleink), from
 [The Pi Podcast](http://thepipodcast.com/), for testing Ubuntu MATE
 15.10 for the Raspberry Pi 2. You really helped ironout some kinks and
@@ -131,10 +131,3 @@ been reported. These issues will be addressed in due course.
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
-
-{% include blog/jumbotron.html
-    title = "Ubuntu MATE 15.10 Press Kit"
-    text = "If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful."
-    button_text = "Press Kit"
-    button_url = "/ubuntu-mate-1510-presskit/"
-%}

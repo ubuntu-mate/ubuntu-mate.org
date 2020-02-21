@@ -31,8 +31,8 @@ available via updates.
   * Added Yuyo and Yuyo-Dark themes with Yuyo-Dark being the default. Thanks to [Sam Hewitt](http://snwh.org).
   * Added missing `libnss-mdns` [LP #1380945](https://bugs.launchpad.net/ubuntu-mate/+bug/1380945).
   * Added missing faces pixmaps [LP #1385822](https://bugs.launchpad.net/ubuntu-mate/+bug/1385822).
-  * Added [MATE Menu](https://bitbucket.org/flexiondotorg/mate-menu), which is a fork of [MintMenu](https://github.com/linuxmint/mintmenu).
-  * Added [MATE Tweak](https://bitbucket.org/flexiondotorg/mate-tweak), which is a fork of [MintDesktop](https://github.com/linuxmint/mintdesktop).
+  * Added [MATE Menu](https://github.com/ubuntu-mate/mate-menu), which is a fork of [MintMenu](https://github.com/linuxmint/mintmenu).
+  * Added [MATE Tweak](https://github.com/ubuntu-mate/mate-tweak), which is a fork of [MintDesktop](https://github.com/linuxmint/mintdesktop).
   * Added Compiz support. MATE Tweak can be used to live switch between Compiz and Marco, no log out/in required.
   * Enabled X zapping via `Ctrl+Alt+Backspace`.
   * Enabled screen reader activation via LightDM indicators and LightDM key bindings.

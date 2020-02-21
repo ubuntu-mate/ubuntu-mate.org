@@ -20,7 +20,7 @@ Ubuntu MATE 15.04 is now available for download. This release builds
 on Ubuntu MATE Beta 2 and mostly fixes bugs.
 
 As usual preparing this release of Ubuntu MATE has been a team effort.
-Thanks to [Mike Gabriel](https://alioth.debian.org/users/sunweaver/),
+Thanks to Mike Gabriel,
 [Vlad Orlov](https://github.com/monsta), [Mathieu Trudel-Lapierre](https://launchpad.net/~mathieu-tl),
 [Martin Pitt](https://launchpad.net/~pitti), [Adam Conrad](https://launchpad.net/~adconrad)
 and [Daniel Holbach](https://launchpad.net/~dholbach) for helping get the Ubuntu
@@ -38,7 +38,7 @@ compared to Ubuntu MATE 14.10:
   * Ubuntu MATE 15.04 is an official Ubuntu flavour.
   * Established a hardware partnership with [Entroware](https://www.entroware.com).
   * Added PowerPC and [Raspberry Pi 2](/ports/raspberry-pi/) as supported hardware architectures.
-  * Added a new default theme called [Yuyo](https://github.com/snwh/yuyo-gtk-theme).
+  * Added a new default theme called [Yuyo](hhttps://github.com/Acidburn0zzz/yuyo-gtk-theme).
   * Added [user interface switching](https://youtu.be/YI4IWO_SpiI) to MATE Tweak.
   * Added [fully integrated Compiz support](https://youtu.be/k_nk02XELi4).
   * Added [Tilda pull-down terminal](https://youtu.be/_woWvmHl3Rc).
@@ -134,10 +134,3 @@ You may find the following information useful, which is why we titled the sectio
 Is there anything you can help with or want to be involved in? Maybe you just
 want to discuss your experiences or ask the maintainers some questions. Please
 [come and talk to us](https://ubuntu-mate.community/).
-
-{% include blog/jumbotron.html
-    title = "Ubuntu MATE 15.04 Press Kit"
-    text = "If you are a publisher, blogger, Podcaster or Youtuber then you might find our press kit useful."
-    button_text = "Press Kit"
-    button_url = "/ubuntu-mate-1504-presskit/"
-%}

@@ -10,7 +10,7 @@ lang: en
 ---
 
 We are preparing Ubuntu MATE Wily Werewolf (15.10) for distribution on
-[October 22nd, 2015](https://wiki.ubuntu.org/WilyWerewolf/ReleaseSchedule)
+[October 22nd, 2015](https://wiki.ubuntu.com/WilyWerewolf/ReleaseSchedule)
 With this *Alpha 1* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
@@ -57,8 +57,6 @@ Here what changed in Ubuntu MATE 15.10 Alpha 1 since Ubuntu MATE 15.04.
   * Updated the Ambiant-MATE and Radiant-MATE themes so that GTK3 application that use Header Bars now have traditional window decorations.
   * Updated key bindings for MATE, Marco and Compiz so they are broadly consistent and mostly the same as Unity.
   * Updated the `ubuntu-mate-core` and `ubuntu-mate-desktop` tasks/meta-packages so a *basic* Ubuntu MATE system can be installed from the `mini.iso` using just the `ubuntu-mate-core` package.
-    * [Ubuntu 15.10 daily i386 mini.iso](http://archive.ubuntu.com/ubuntu/dists/wily/main/installer-i386/current/images/netboot/mini.iso)
-    * [Ubuntu 15.10 daily amd64 mini.iso](http://archive.ubuntu.com/ubuntu/dists/wily/main/installer-amd64/current/images/netboot/mini.iso)
   * Updated default application handlers.
     + `.deb` files are now handled by `gdebi`.
     + `apt://` URLs are now handled by `apturl`.
