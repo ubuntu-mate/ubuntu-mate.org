@@ -84,10 +84,6 @@ faq:
 
     - category_string_name: prepare_boot
       items:
-        - string_name: bios_or_uefi
-          icon:
-          url: /faq/bios-uefi/
-
         - string_name: what_is_live_session
           icon:
           url: /faq/live-session/
