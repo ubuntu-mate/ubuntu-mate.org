@@ -9,6 +9,8 @@ Powered by [Jekyll](https://jekyllrb.com/), a static site generator.
 
 ## Getting Started
 
+See [EDITING.md](EDITING.md) for notes on adding/editing pages on this website.
+
 ### Edit on GitHub
 
 The easiest way to edit ubuntu-mate.org is to use GitHub to edit the page.
@@ -16,7 +18,7 @@ Simply find the page you want and create a pull request!
 
 **Translators,** please see the [Translations](#Translations) section instead.
 
-### Setup
+### Edit Locally
 
 Install [Jekyll](https://jekyllrb.com) as follows:
 
@@ -31,7 +33,8 @@ Some additional packages are needed to build the project:
 
     sudo apt install python3-yaml transmission-cli
 
-This website has a few programmatically generated files, so be sure to run:
+This website has a few programmatically generated files, so be sure to use the supplied
+script:
 
     ./scripts/build.sh
 
@@ -70,8 +73,8 @@ to translate this website. The Ubuntu MATE team will pull in completed translati
 
 We use the [polyglot](https://github.com/untra/polyglot) gem to provide i18n support.
 
-When building the website, use `scripts/generate-translations.sh` to generate
-the necessary files.
+As part of the build script, the website will generate the markdown files for other
+languages via `scripts/manage-translations.py`. This can be ran manually too:
 
 | Parameter             | Action                                            |
 |-----------------------|---------------------------------------------------|
@@ -114,7 +117,7 @@ Language lists are to be updated in:
 | Folder            | Purpose
 |-------------------|------------------------------------------------------|
 | `_i18n`           | Source files (.pot, .po) for translating.
-| `redirects`       | Meta redirects from legacy website.
+| `redirects`       | Meta redirects from legacy links.
 
 
 ## License

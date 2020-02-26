@@ -43,6 +43,7 @@ feed:
 exclude:
     - Gemfile
     - Gemfile.lock
+    - EDITING.md
     - README.md
     - LICENSE.md
     - scripts
