@@ -14,7 +14,7 @@ sidebar: get-involved
 {:.center}
 ![Main Logo](/images/get-involved/logo-guidelines/Main_Logo.png)
 
-The Ubuntu MATE logo captures the precise and reliable qualities of the brand in a straight forward symbol and wordmark.
+The Ubuntu MATE logo captures the precise and reliable qualities of the brand in a straightforward symbol and wordmark.
 
 It is made up of a custom designed font (wordmark), carefully spaced with a re-drawn ‘Circle of MATEs’ placed within a roundel.
 
@@ -48,14 +48,14 @@ The Circle of MATEs is the symbol that accompanies the wordmark in the Ubuntu MA
 {:.center}
 ![Main Logo](/images/get-involved/logo-guidelines/Main_Logo.png) ![Main Logo White](/images/get-involved/logo-guidelines/Main_Logo_white.png)
 
-The wordmark logo is presented only with colours above. Please, never change any of the colours in the logo. The white logo has been placed on a green background for visibility purposes. The background is not part of the logo; you are free to place the logo on whatever background you want, you just have to be able to see it.
+The wordmark logo is presented only with colours above. Please, never change any of the colours in the logo. The white logo has been placed on a green background for visibility purposes. The background is not part of the logo; you are free to place the logo on whatever background you want, so long as you are able to see it.
 
 ### Roundel
 
 {:.center .small}
 ![Circle of MATEs Green](/images/get-involved/logo-guidelines/Circle_of_MATEs_green.png) ![Circle of MATEs White](/images/get-involved/logo-guidelines/Circle_of_MATEs_white.png)
 
-As with the wordmark, use the roundel logo only with the colour configurations above. The white version has been placed on a green background for visibility purposes. The background is not part of the logo; you are free to place the logo on whatever background you want, you just have to be able to see it.
+As with the wordmark, use the roundel logo only with the colour configurations above. The white version has been placed on a green background for visibility purposes. The background is not part of the logo; you are free to place the logo on whatever background you want, so long as you are able to see it.
 
 ### Which logo should I use?
 
