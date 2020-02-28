@@ -46,17 +46,23 @@
 
     span {
         margin: 0 5px;
-        transition: color $transition-duration $transition-timing;
     }
 
     &:hover,
     &:focus {
-        background-color: $grey-light;
+        background: lighten($ubuntu-mate-light, 30%);
+        color: $text-colour-dark;
         text-decoration: none;
+
+        svg path {
+            fill: $text-colour-light;
+        }
     }
 
     &:active {
-        background-color: $grey-dark;
+        background: lighten($ubuntu-mate-light, 15%);
+        color: $text-colour-dark;
+        outline-color: lighten($ubuntu-mate-light, 15%);
         transition: none;
 
         span {
@@ -66,7 +72,7 @@
     }
 
     &.active {
-        background-color: $ubuntu-mate-light;
+        background-color: lighten($ubuntu-mate-light, 5%);
 
         span {
             color: white;
@@ -119,8 +125,7 @@
 
 .sidebar-title,
 .sidebar-link {
-    transition: background-color $transition-duration $transition-timing,
-                opacity $transition-duration $transition-timing;
+    transition: opacity $transition-duration $transition-timing;
     opacity: 1;
 }
 

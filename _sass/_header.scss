@@ -168,7 +168,7 @@ $header-height: 60px;
         }
 
         .checked::after {
-            content: "✓";
+            content: "●";
             position: absolute;
             right: 15px;
             font-size: 20px;
