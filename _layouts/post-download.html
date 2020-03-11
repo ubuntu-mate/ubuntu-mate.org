@@ -28,10 +28,12 @@ layout: default
     <p style="opacity:0.5">{{ arch }}</p>
 {% endcapture %}
 
+{% capture background_path %}/images/wallpapers/{{ release.wallpaper }}{% endcapture %}
+
 <article class="page has-banner">
 
     {% include partials/banner.html
-        bg = "/images/wallpapers/bionic.jpg"
+        bg = background_path
         fg = fg
         text = banner_text
         variant = "white-text"
