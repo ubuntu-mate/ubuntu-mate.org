@@ -65,5 +65,5 @@ This is how we can continually improve and grow without having to charge our use
 Ask the [Ubuntu MATE community](https://ubuntu-mate.org/community/).
 
 ## What has Ubuntu MATE got planned for the future?
-Hopefully our [roadmap](/roadmap/) outlines some of what we have planned. If you have any ideas yourself, we’d love to hear from you.
+Hopefully our [roadmap](/faq/roadmap/) outlines some of what we have planned. If you have any ideas yourself, we’d love to hear from you.
 
