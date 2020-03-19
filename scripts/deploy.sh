@@ -11,5 +11,4 @@ rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete _site/ matey@man.ubuntu-m
 rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete _site/ matey@yor.ubuntu-mate.net:preview.ubuntu-mate.org/
 
 echo "Clearing CDN cache..."
-chmod +x scripts/.CDN_purge.sh
-scripts/.CDN_purge.sh
+ssh -o StrictHostKeyChecking=no matey@yor.ubuntu-mate.net /home/matey/post-deploy-actions.sh "preview.ubuntu-mate.org"
