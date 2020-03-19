@@ -1,5 +1,5 @@
 language: ruby
-dist: xenial
+dist: bionic
 
 addons:
   apt:
@@ -11,7 +11,7 @@ addons:
       - rsync
 
 before_script:
-    - gem install html-proofer
+    - gem install bundler html-proofer
 
 script:
     - scripts/build.sh --magnet-uri --locales
