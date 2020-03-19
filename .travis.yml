@@ -14,7 +14,7 @@ before_script:
     - gem install html-proofer
 
 script:
-    - scripts/build.sh
+    - scripts/build.sh --magnet-uri --locales
     - scripts/test.sh
 
 before_deploy:

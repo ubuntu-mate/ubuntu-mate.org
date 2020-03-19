@@ -1,8 +1,20 @@
 #!/bin/bash
 #
-# Can optionally pass --quick to skip translations and magnet links.
+# Parameters:
+#   --magnet-uri    Fetch torrent files and generate magnet URIs.
+#   --locales       Build localized pages
 #
-param="$1"
+while [ $# -ne 0 ]
+do
+    arg="$1"
+    case "$arg" in
+        "--magnet-uri")
+            generate_magnet_uri=true;;
+        "--locales")
+            generate_locales=true;;
+    esac
+    shift
+done
 
 function abort_if_failed() {
     if [ $1 != 0 ]; then
@@ -17,7 +29,7 @@ bundle install
 abort_if_failed $?
 
 # Generate any missing magnet URIs.
-if [ "$param" != "--quick" ]; then
+if [ "$generate_magnet_uri" == "true" ]; then
     echo -e "\nGenerate Magnet Links"
     echo "------------------------------------------------------"
     $(dirname "$0")/generate-magnet-links.py
@@ -31,7 +43,7 @@ $(dirname "$0")/generate-download-pages.py
 abort_if_failed $?
 
 # Generate locales
-if [ "$param" != "--quick" ]; then
+if [ "$generate_locales" == "true" ]; then
     echo -e "\nGenerate locales"
     echo "------------------------------------------------------"
     $(dirname "$0")/manage-translations.py --generate
@@ -39,7 +51,7 @@ if [ "$param" != "--quick" ]; then
 fi
 
 # Build locales
-if [ "$param" != "--quick" ]; then
+if [ "$generate_locales" == "true" ]; then
     echo -e "\nBuild locales"
     echo "------------------------------------------------------"
     $(dirname "$0")/manage-translations.py --build

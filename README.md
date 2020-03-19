@@ -33,21 +33,33 @@ Some additional packages are needed to build the project:
 
     sudo apt install python3-yaml transmission-cli
 
-This website has a few programmatically generated files, so be sure to use the supplied
-script:
-
-    ./scripts/build.sh
-
 To watch for changes locally:
 
     ./scripts/watch.sh
 
+The first build may take a while to complete, but will be substantially faster
+afterwards.
+
 You can preview the website on your computer at http://localhost:4000.
 
-To skip build of magnet links and translations, pass `--quick` to `build.sh` or `watch.sh`.
+
+## Building
+
+This website has a few programmatically generated files, such as localized pages
+and automatic magnet link generation for torrents. These can be enabled by passing
+the parameters to either `build.sh` or `watch.sh`
+
+| Parameter     | What it does                                              |
+| ------------- | --------------------------------------------------------- |
+| --magnet-uri  | Fetch torrent files and generate magnet links.
+| --locales     | Build localized pages.
+
+For example:
+
+    ./scripts/build.sh --locales --magnet-uri
 
 
-### Testing
+## Testing
 
 Continuous Integration will perform validation checks to ensure the website
 maintains a high quality standard for visitors around the world. Before running
