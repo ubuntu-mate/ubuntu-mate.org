@@ -19,6 +19,17 @@ layout: default
                 %}
                 <hr>
 
+                {% assign post_date = page.date | date: '%s' | plus: 0 %}
+                {% assign today = 'now' | date: '%s' | plus: 0 %}
+                {% assign post_expires = post_date | plus: 31540000 %}
+
+                {% if today > post_expires %}
+                    <div class="post-outdated">
+                        {% include images/fa/warning.svg %}
+                        {{ site.data.strings.outdated_post }}
+                    </div>
+                {% endif %}
+
                 {{ content }}
 
             </content>
