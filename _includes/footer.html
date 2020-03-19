@@ -19,7 +19,7 @@
                     <a href="https://www.transifex.com/ubuntu-mate/public/" class="external" rel="nofollow">{{ site.data.strings.translate_site }} {% include images/fa/external-link-alt.svg %}</a>
                 </div>
                 <div class="social-links">
-                    {% assign links = "rss,github,mastodon,twitter,facebook,youtube" | split: "," %}
+                    {% assign links = "rss,launchpad,github,trello,irc,mastodon,twitter,facebook,youtube" | split: "," %}
                     {% for link in links %}
                         <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
                     {% endfor %}
