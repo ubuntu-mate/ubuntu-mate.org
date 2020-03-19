@@ -1,6 +1,6 @@
 ---
 layout: page-category
-title: What is Ubuntu MATE?
+title: About
 permalink: /about/
 lang: en
 class: about

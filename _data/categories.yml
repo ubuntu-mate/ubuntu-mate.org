@@ -52,7 +52,7 @@ community:
 shop:
     - string_name: computers
       icon: /images/shop/computer.png
-      url: /shop/
+      url: /shop/computers/
 
     - string_name: books
       icon: /images/downloads/guides.png

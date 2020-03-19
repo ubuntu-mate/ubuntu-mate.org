@@ -1,6 +1,6 @@
 ---
 layout: feature-grid
-title: Under the Hood | Features
+title: Features
 permalink: /features/
 lang: en
 class: features
