@@ -39,6 +39,11 @@ plugins:
 feed:
     path: rss.xml
 
+# Workaround: i18n plugin causes CSS generation to output a source map.
+# https://github.com/untra/polyglot/issues/107
+sass:
+    sourcemap: never
+
 # Exclude from processing.
 exclude:
     - Gemfile
