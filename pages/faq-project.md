@@ -11,6 +11,8 @@ sidebar: faq
 
 If we get asked something frequently enough we’ll try to provide the answers here.
 
+{% include partials/toc.html %}
+
 ### What is Ubuntu MATE exactly?
 See our [What is Ubuntu MATE?](/about/) page.
 

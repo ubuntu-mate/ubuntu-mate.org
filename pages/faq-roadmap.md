@@ -11,6 +11,8 @@ sidebar: faq
 
 This page outlines some of the activities the Ubuntu MATE team will research, and possibly implement, in future development cycles to improve and refine our operating system.
 
+{% include partials/toc.html %}
+
 ## Grow community participation and engagement
 
 Ubuntu MATE and MATE Desktop are created by very small teams. We’ll improve our documentation so that new contributors can find tasks they can work on and material to help them get started.
