@@ -59,7 +59,15 @@ $(window).ready(function() {
         var sjs = SimpleJekyllSearch({
             searchInput: document.getElementById("search-input"),
             resultsContainer: document.getElementById("results-container"),
-            json: "/assets/search.json"
+            json: "/search/search.json"
         });
+
+        // Execute search again if using back button.
+        var value = $("#search-input").val();
+        if (value.length > 0) {
+            setTimeout(function() {
+                sjs.search(value);
+            }, 750);
+        }
     }
 });
