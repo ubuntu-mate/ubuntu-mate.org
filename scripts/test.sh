@@ -11,6 +11,14 @@
 # --external        All of the above, plus external links.
 #
 
+cd "$(dirname $0)/../"
+
+function check_for_error() {
+    if [ $1 != 0 ]; then
+        exit 1
+    fi
+}
+
 if [ "$1" == "--external" ]; then
     # i18n pages are ignored as it will take much longer and duplicate URL checks.
     ignore_list=""
@@ -19,6 +27,7 @@ if [ "$1" == "--external" ]; then
     done
     ignore_list+="/_site/en/"
 
+    echo "Proofing HTML (and external links)..."
     htmlproofer \
         --assume-extension \
         --check-html \
@@ -29,6 +38,7 @@ if [ "$1" == "--external" ]; then
         --file-ignore "$ignore_list" \
         ./_site
 else
+    echo "Proofing HTML..."
     htmlproofer \
         --assume-extension \
         --check-html \
@@ -37,6 +47,7 @@ else
         --disable-external \
         ./_site
 fi
+check_for_error $?
 
 #
 # Included checks:
@@ -52,6 +63,6 @@ fi
 #   --enforce-https         cdimage.ubuntu.com is only HTTP.
 #
 
-if [ $? != 0 ]; then
-    exit 1
-fi
+# Markdown frontmatter consistency check
+./scripts/helpers/validate-frontmatter.py
+check_for_error $?
