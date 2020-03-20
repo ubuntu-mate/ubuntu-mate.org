@@ -1,5 +1,6 @@
 ---
 layout: download
+title: Download
 permalink: /download/
 lang: en
 step: 1
