@@ -200,6 +200,7 @@ verify_downloads: "How to verify your download"
 how_to_image: "How to image a USB Drive"
 bios_or_uefi: "Do I boot in BIOS or UEFI mode?"
 what_is_live_session: "Can I try without installing?"
+how_to_dvd: "How to burn an image to DVD"
 
 about_project: "Project Questions"
 roadmap: "Roadmap"
