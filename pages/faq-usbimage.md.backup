@@ -128,7 +128,5 @@ If **Disks** is not present on your system, you can install it from the terminal
 ![GNOME Disks Are You Sure](/images/bootable/gnome_disks_are_you_sure.png)
 
 * Gnome Disks will ask for your password for authentication. Enter it and click "Authenticate."
-
-![GNOME Disks In Progress](/images/bootable/gnome_disks_in_progress.png)
-
+* 
 * Gnome Disks will begin writing the image, and will show a progress bar. Eject the disk before removing.
