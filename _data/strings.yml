@@ -197,7 +197,7 @@ design_guidelines: "Design Guidelines"
 faq: "FAQs"
 # download_help: <see above>
 the_project: "The Project"
-verify_downloads: "Verifying your download"
+verify_downloads: "Verifying for corruption"
 how_to_image: "Imaging a USB Drive"
 what_is_live_session: "Can I try without installing?"
 how_to_dvd: "Burning to DVD"
