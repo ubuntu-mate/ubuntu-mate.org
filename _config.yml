@@ -31,9 +31,6 @@ url: "https://preview.ubuntu-mate.org" # the base hostname & protocol for your s
 # Build settings
 markdown: kramdown
 
-kramdown:
-    parse_block_html: true
-
 # Plugins
 plugins:
     - jekyll-feed
