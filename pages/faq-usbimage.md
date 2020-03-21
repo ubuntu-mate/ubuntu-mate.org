@@ -26,23 +26,23 @@ To install and try Ubuntu MATE from a USB drive or SD card, you'll need media wi
  Click on the **Select Image** button and choose the Ubuntu MATE .iso file you want to use.
 
 
- ![EtcherSelectWindows](/images/bootable/Etcher-Select-image.png)
+ ![EtcherSelectWindows](/images/faq/bootable/Etcher-Select-image.png)
 
  Next click the **Select Target** button and choose the appropriate USB device to write the .iso to.
 
- ![EtcherSelectTarget](/images/bootable/Etcher-Select-target.png)
+ ![EtcherSelectTarget](/images/faq/bootable/Etcher-Select-target.png)
 
  Finally, click the **Flash!** button to begin the process.
 
- ![EtcherFlashWindows](/images/bootable/Etcher-Flash.png)
+ ![EtcherFlashWindows](/images/faq/bootable/Etcher-Flash.png)
 
  It will show a progress bar as it operates.
 
- ![EtcherRunning](/images/bootable/Etcher-running.png)
+ ![EtcherRunning](/images/faq/bootable/Etcher-running.png)
 
  Etcher will notify you when the process is complete.
 
- ![EtcherCompleteWindows](/images/bootable/Etcher-complete.png)
+ ![EtcherCompleteWindows](/images/faq/bootable/Etcher-complete.png)
 
  Please remove the USB drive and plug it into the system where you want to install Ubuntu MATE. 
 
@@ -70,19 +70,19 @@ If you plan on writing *and* using your bootable USB on Mac hardware, you'll nee
 * Select the `MS-DOS (FAT)` format and `GUID Partition Map` from the respective drop-down menus.
 * Check (and double check - you can lose data if you select the wrong device or partition) that you've chosen the target USB stick and click `Erase`.
 
-![DiskUtility](/images/bootable/disk-utility.png)
+![DiskUtility](/images/faq/bootable/disk-utility.png)
 
 * Download and install [Etcher](https://www.balena.io/etcher/), an open source project that flashes ISOs to SD cards and USB drives. 
 * If necessary, open the 'Security and Privacy' section in System Preferences and allow apps downloaded from 'App Store and identified developers.' If this still does not allow you to run Etcher, click 'Open Anyway.'
 
-![OpenEtcher](/images/bootable/open-etcher.png)
+![OpenEtcher](/images/faq/bootable/open-etcher.png)
 
 * Select the previously downloaded Ubuntu MATE ISO (which, by default, is in your Downloads folder) using **Select Image**.
 * Confirm **Select Target** is pointing to the intended USB drive, and if not, choose the appropriate device.
 * Click **Flash!** to write the ISO to your USB drive. Etcher will prompt you for your password. Etcher will display its progress, and inform you when the process has successfully completed with the image below.
 * If OSX informs you 'The disk you inserted is not readable by this computer,' select **Eject**, not **Initialise**
 
-![EtcherSuccess](/images/bootable/Etcher-complete.png)
+![EtcherSuccess](/images/faq/bootable/Etcher-complete.png)
 
 * To use your bootable media on a Mac device, insert the USB stick and restart or turn on the device while holding the option/alt key to launch Startup Manager. Click on the gold disk labeled 'EFI Boot,' which will bring you to the Ubuntu boot menu.
 
@@ -103,7 +103,7 @@ The image can be directly written to a microSDHC or to a USB drive using an util
 * On a Debian-based system, like Ubuntu MATE, run `sudo apt update` and `sudo apt install gddrescue`. 
 * To find the block device name of your USB or microSDHC device, enter `sudo fdisk -l` to see all connected devices. For example, in the image below, the USB drive is /dev/sdb1/. Checking the name of your device is a key step, as writing to the wrong device might corrupt or destroy your data. 
 
-![fdisk-l](/images/bootable/fdisk-l.png)
+![fdisk-l](/images/faq/bootable/fdisk-l.png)
 
 * Once you've confirmed you have correct block device, enter `sudo ddrescue --force -D path/to/.iso /dev/sdx`, replacing 'path/to/.iso' and 'sdx' with the path to the iso file and block device name of your USB drive or microSDHC.
 
@@ -117,18 +117,18 @@ If **Disks** is not present on your system, you can install it from the terminal
 * Download your chosen Ubuntu MATE image, keep note of the location, and insert your USB drive. Be sure it's visible in File Manager/Caja. Remember this process will format your USB drive and erase all existing data, so be sure you've backed it up.
 * Right-click on the ISO file, and select "Open with Disk Image Writer."
 
-![GNOME Disks Right Click](/images/bootable/gnome_disks_right_click.png)
+![GNOME Disks Right Click](/images/faq/bootable/gnome_disks_right_click.png)
 
 * GNOME Disks will open a "Restore Disk Image" popup. Select your USB drive in the "Destination" drop-down menu.
 
-![GNOME Disks Start Restoring](/images/bootable/gnome_disks_start_restoring.png)
+![GNOME Disks Start Restoring](/images/faq/bootable/gnome_disks_start_restoring.png)
 
 * Click "Start Restoring." When it asks if you're sure you want to write the disk image to the device, click "Restore."
 
-![GNOME Disks Are You Sure](/images/bootable/gnome_disks_are_you_sure.png)
+![GNOME Disks Are You Sure](/images/faq/bootable/gnome_disks_are_you_sure.png)
 
 * Gnome Disks will ask for your password for authentication. Enter it and click "Authenticate."
 
-![GNOME Disks In Progress](/images/bootable/gnome_disks_in_progress.png)
+![GNOME Disks In Progress](/images/faq/bootable/gnome_disks_in_progress.png)
 
 * Gnome Disks will begin writing the image, and will show a progress bar. Eject the disk before removing.
