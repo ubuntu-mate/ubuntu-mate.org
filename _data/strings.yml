@@ -196,16 +196,16 @@ design_guidelines: "Design Guidelines"
 #######################################
 faq: "FAQs"
 # download_help: <see above>
-verify_downloads: "How to verify your download"
-how_to_image: "How to image a USB Drive"
-bios_or_uefi: "Do I boot in BIOS or UEFI mode?"
+the_project: "The Project"
+verify_downloads: "Verifying your download"
+how_to_image: "Imaging a USB Drive"
 what_is_live_session: "Can I try without installing?"
-how_to_dvd: "How to burn an image to DVD"
+how_to_dvd: "Burning to DVD"
 
 about_project: "Project Questions"
 roadmap: "Roadmap"
-prepare_media: "Preparing your media"
-prepare_boot: "Preparing to boot"
+prepare_media: "Media Preparations"
+prepare_boot: "Boot Preparations"
 
 
 #######################################

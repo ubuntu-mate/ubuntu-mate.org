@@ -33,7 +33,7 @@ Lastly, we'll review the static site building tools using by Ubuntu MATE and MAT
 
 ## Modern display server support
 
-Wayland is set to become the defacto next generation display server. While Xorg has some years of usefulness remaining, now is the time to start planning for how MATE Desktop, and thefore Ubuntu MATE, implement support for Wayland.
+Wayland is set to become the defacto next generation display server. While Xorg has some years of usefulness remaining, now is the time to start planning for how MATE Desktop, and therefore Ubuntu MATE, implement support for Wayland.
 
 ## Voice command
 

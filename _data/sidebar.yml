@@ -58,7 +58,7 @@ get-involved:
           url: /get-involved/design-guidelines/
 
 faq:
-    - category_string_name: "Ubuntu MATE"
+    - category_string_name: the_project
       items:
         - string_name: about_project
           icon:
@@ -81,15 +81,13 @@ faq:
         - string_name: how_to_image
           icon:
           url: /faq/usb-image/
-        
- 
+
         - string_name: how_to_dvd
-        	  icon: 
-        	  url: https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#1-overview 	  
+          icon:  /images/faq/external-link-alt.svg
+          url: https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#1-overview
 
     - category_string_name: prepare_boot
       items:
         - string_name: what_is_live_session
           icon:
           url: /faq/live-session/
-  
