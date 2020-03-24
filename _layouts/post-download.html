@@ -137,3 +137,8 @@ layout: default
     </div>
 
 </article>
+
+{% capture download_name %}Ubuntu MATE {{ release.name }}{% endcapture %}
+<script>
+    document.title = "{{ site.data.strings.post_download_thanks | replace: '[]', download_name }}";
+</script>

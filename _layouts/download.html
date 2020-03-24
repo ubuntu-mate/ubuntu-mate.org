@@ -236,6 +236,10 @@ layout: default
             <table class="download-details">
                 <tbody>
                     <tr>
+                        <th>{{ site.data.strings.file_name }}</th>
+                        <td>{{ download.url | split:'/' | last }}</td>
+                    </tr>
+                    <tr>
                         <th>{{ site.data.strings.file_size }}</th>
                         <td>{{ download.size }}</td>
                     </tr>
