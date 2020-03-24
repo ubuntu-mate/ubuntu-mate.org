@@ -40,15 +40,6 @@ features:
       icon: /images/categories/features/mate-panel.svg
       url: /features/panel/
 
-community:
-    - string_name: community
-      icon: /images/Ambiant-MATE/system-users.svg
-      url: /community/
-
-    - string_name: hall_of_fame
-      icon: /images/Ambiant-MATE/user-desktop.svg
-      url: /community/desktop-hall-of-fame/
-
 shop:
     - string_name: computers
       icon: /images/shop/computer.png
