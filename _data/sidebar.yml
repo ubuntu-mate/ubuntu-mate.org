@@ -74,9 +74,13 @@ faq:
           icon:
           url: /faq/downloads/
 
-        - string_name: verify_downloads
+        - string_name: verify_downloads_quick
           icon:
-          url: /faq/verify/
+          url: /faq/verify-download-quick/
+
+        - string_name: verify_downloads_secure
+          icon:
+          url: /faq/verify-download-secure/
 
         - string_name: how_to_image
           icon:

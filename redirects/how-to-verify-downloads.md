@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /how-to-verify-downloads/
-destination: /faq/verify/
+destination: /faq/verify-download-quick/
 ---
