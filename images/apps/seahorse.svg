@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg11300" width="128" height="128" style="enable-background:new" version="1.0" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title id="title4162">Adwaita Icon Template</title>
+ <defs id="defs3">
+  <linearGradient id="linearGradient1986" x1="78.692" x2="67.122" y1="238.31" y2="249.88" gradientTransform="translate(55.101 .071067)" gradientUnits="userSpaceOnUse">
+   <stop id="stop963" style="stop-color:#f6f5f4" offset="0"/>
+   <stop id="stop965" style="stop-color:#fff" offset=".25732"/>
+   <stop id="stop1085" style="stop-color:#c0bfbc" offset=".6"/>
+   <stop id="stop1087" style="stop-color:#f6f5f4" offset=".70312"/>
+   <stop id="stop967" style="stop-color:#f6f5f4" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1988" x1="88.508" x2="85.887" y1="67.68" y2="70.301" gradientTransform="translate(55.77 171.28)" gradientUnits="userSpaceOnUse">
+   <stop id="stop1036" style="stop-color:#c0bfbc" offset="0"/>
+   <stop id="stop1038" style="stop-color:#f6f5f4" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1039" x1="142" x2="198" y1="268" y2="268" gradientUnits="userSpaceOnUse">
+   <stop id="stop1292" style="stop-color:#77767b" offset="0"/>
+   <stop id="stop1300" style="stop-color:#c0bfbc" offset=".17589"/>
+   <stop id="stop1302" style="stop-color:#77767b" offset=".40926"/>
+   <stop id="stop1294" style="stop-color:#3d3846" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GNOME Design Team</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:title>Adwaita Icon Template</dc:title>
+    <dc:subject>
+     <rdf:Bag/>
+    </dc:subject>
+    <dc:date/>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:rights>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:identifier/>
+    <dc:relation/>
+    <dc:language/>
+    <dc:coverage/>
+    <dc:description/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:contributor>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,-172)">
+  <g id="layer9">
+   <rect id="rect1027" x="8" y="224" width="112" height="64" rx="8" ry="8" style="enable-background:new;fill:#2ec27e;paint-order:normal"/>
+   <g id="g1256" transform="matrix(1 0 0 1.1429 -4.8523e-8 -22.857)" style="enable-background:new;stroke-width:.93541;stroke:#26a269">
+    <path id="path1164" d="m27 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1166" d="m32 230v14" style="fill:none;stroke-width:3.7417;stroke:#26a269"/>
+    <path id="path1168" d="m37 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1170" d="m41 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1172" d="m46 230v14" style="fill:none;stroke-width:3.7417;stroke:#26a269"/>
+    <path id="path1174" d="m56 230v14" style="fill:none;stroke-width:3.7417;stroke:#26a269"/>
+    <path id="path1176" d="m51 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1178" d="m63 230v14" style="fill:none;stroke-width:5.6125;stroke:#26a269"/>
+    <path id="path1180" d="m69 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1182" d="m73 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1184" d="m77 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1186" d="m82 230v14" style="fill:none;stroke-width:3.7417;stroke:#26a269"/>
+    <path id="path1188" d="m87 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1190" d="m99 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1192" d="m93 230v14" style="fill:none;stroke-width:5.6125;stroke:#26a269"/>
+    <path id="path1194" d="m103 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+    <path id="path1196" d="m107 230v14" style="fill:none;stroke-width:1.8708;stroke:#26a269"/>
+   </g>
+   <g id="g1130" transform="translate(-4.8523e-8 12)" style="enable-background:new;fill:#8ff0a4">
+    <path id="path1940" d="m22.216 254 1.1973 5.0684-3.9004-3.2793-1.4531 2.5918 5.0098 1.6582-5.043 1.5898 1.4336 2.6406 3.9551-3.3047-1.1992 5.0352h3.4102l-1.1016-4.959 3.834 3.3144 1.4766-2.6191-4.9785-1.6856 5.1172-1.4258-1.4531-2.6191-4.0332 3.084 1.1367-5.0898z" style="fill:#8ff0a4"/>
+    <path id="path1056" d="m38.216 254 1.1973 5.0684-3.9004-3.2793-1.4531 2.5918 5.0098 1.6582-5.043 1.5898 1.4336 2.6406 3.9551-3.3047-1.1992 5.0352h3.4102l-1.1016-4.959 3.834 3.3144 1.4766-2.6191-4.9785-1.6856 5.1172-1.4258-1.4531-2.6191-4.0332 3.084 1.1367-5.0898z" style="fill:#8ff0a4"/>
+    <path id="path1062" d="m54.216 254 1.1973 5.0684-3.9004-3.2793-1.4531 2.5918 5.0098 1.6582-5.043 1.5898 1.4336 2.6406 3.9551-3.3047-1.1992 5.0352h3.4102l-1.1016-4.959 3.834 3.3144 1.4766-2.6191-4.9785-1.6856 5.1172-1.4258-1.4531-2.6191-4.0332 3.084 1.1367-5.0898z" style="fill:#8ff0a4"/>
+    <path id="path1068" d="m70.216 254 1.1973 5.0684-3.9004-3.2793-1.4531 2.5918 5.0098 1.6582-5.043 1.5898 1.4336 2.6406 3.9551-3.3047-1.1992 5.0352h3.4102l-1.1016-4.959 3.834 3.3144 1.4766-2.6191-4.9785-1.6856 5.1172-1.4258-1.4531-2.6191-4.0332 3.084 1.1367-5.0898z" style="fill:#8ff0a4"/>
+    <path id="path1074" d="m86.216 254 1.1973 5.0684-3.9004-3.2793-1.4531 2.5918 5.0098 1.6582-5.043 1.5898 1.4336 2.6406 3.9551-3.3047-1.1992 5.0352h3.4102l-1.1016-4.959 3.834 3.3144 1.4766-2.6191-4.9785-1.6856 5.1172-1.4258-1.4531-2.6191-4.0332 3.084 1.1367-5.0898z" style="fill:#8ff0a4"/>
+    <path id="path1080" d="m102.22 254 1.1973 5.0684-3.9004-3.2793-1.4531 2.5918 5.0098 1.6582-5.043 1.5898 1.4336 2.6406 3.9551-3.3047-1.1992 5.0352h3.4102l-1.1016-4.959 3.834 3.3144 1.4766-2.6191-4.9785-1.6856 5.1172-1.4258-1.4531-2.6191-4.0332 3.084 1.1367-5.0898z" style="fill:#8ff0a4"/>
+   </g>
+   <rect id="rect954" x="8" y="200" width="112" height="40" rx="8" ry="8" style="enable-background:new;fill:#2ec27e;paint-order:normal"/>
+   <rect id="rect961" x="8" y="214" width="112" height="18" style="enable-background:new;fill:#241f31;paint-order:normal"/>
+   <path id="path1138" d="m22 242-7.2 6 7.2 6z" style="enable-background:new;fill-rule:evenodd;fill:#26a269"/>
+  </g>
+  <g id="g959-3" transform="rotate(180 107.5 242)" style="enable-background:new">
+   <path id="path947-0" d="m170 296a28 28 0 0 1-28-28 28 28 0 0 1 28-28 28 28 0 0 1 28 28 28 28 0 0 1-28 28zm0.0312-12a6.0313 6 0 0 0 6.0312-6 6.0313 6 0 0 0-6.0312-6 6.0313 6 0 0 0-6.0312 6 6.0313 6 0 0 0 6.0312 6z" style="enable-background:new;fill:url(#linearGradient1039);paint-order:normal"/>
+   <g id="g955-3" transform="matrix(.70711 -.70711 -.70711 -.70711 243.95 484.32)">
+    <path id="path1990" d="m125.41 214.44-16.971 16.971 8.3674 8.3674 3.6534-3.4177 4.2426 4.2426h2.8284v2.8284l2.1213 2.1213h4.2426v4.2426h2.8284v2.8284h5.6568v5.6569h2.8284v2.8284h12.728l4.9497-4.9498v-4.2426z" style="enable-background:new;fill:#77767b;paint-order:normal"/>
+    <path id="path951-1" d="m124 213.03-16.971 16.971 8.3674 8.3674 3.6534-3.4177 4.2426 4.2426h2.8284v2.8284l2.1213 2.1213h4.2426v4.2426h2.8284v2.8284h5.6568v5.6569h2.8284v2.8284h12.728l4.9497-4.9498v-4.2426z" style="enable-background:new;fill:url(#linearGradient1986);paint-order:normal"/>
+    <path id="path953-2" d="m125.75 221.26c-1.7939 2e-3 -2.6781 2.1824-1.3926 3.4336l33.585 33.586 2.8284-2.8284-33.586-33.586c-0.37702-0.38755-0.89487-0.60597-1.4356-0.60547z" style="enable-background:new;fill:url(#linearGradient1988);paint-order:normal"/>
+   </g>
+   <path id="path957-8" d="m170 298a28 28 0 0 0 28-28 28 28 0 0 0-28-28 28 28 0 0 0-28 28 28 28 0 0 0 28 28zm-0.0312-12a6.0313 6 0 0 1-6.0312-6 6.0313 6 0 0 1 6.0312-6 6.0313 6 0 0 1 6.0312 6 6.0313 6 0 0 1-6.0312 6z" style="enable-background:new;fill:#f6f5f4;paint-order:normal"/>
+  </g>
+ </g>
+</svg>

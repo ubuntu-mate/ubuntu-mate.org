@@ -9,45 +9,185 @@
       url: /features/boutique/
       icon: /images/ubuntu-mate/boutique.svg
 
-    - string_name: ubuntu_mate_defaults
+    - string_name: panel_defaults
+      icon: /images/categories/features/mate-panel.svg
+      url: /features/panel/
+
+    - string_name: theming
+      icon: /images/Ambiant-MATE/preferences-desktop-theme.svg
+
+    - string_name: mate_tweak
       icon: /images/Ambiant-MATE/user-desktop.svg
 
-    - string_name: wallpapers
-      icon: /images/Ambiant-MATE/preferences-desktop-theme.svg
+    - string_name: guide
+      icon: /images/apps/help.svg
+      url: /shop/books/
 
 - string_name: mate_desktop
   icon: /images/brands/mate.svg
   provides:
-    - name: Pluma
-      icon: /images/Ambiant-MATE/accessories-text-editor.svg
+    - name: Engrampa
+      icon: /images/apps/engrampa.svg
 
     - name: Caja
       icon: /images/Ambiant-MATE/system-file-manager.svg
 
-    - name: Mozo
-      icon: /images/Ambiant-MATE/menu-editor.svg
+    - name: Pluma
+      icon: /images/Ambiant-MATE/accessories-text-editor.svg
 
-    - name: MATE Calc
-      icon: /images/Ambiant-MATE/accessories-calculator.svg
+    - string_name: mate_calc
+      icon: /images/apps/accessories-calculator.svg
+
+    - string_name: mate_font_viewer
+      icon: /images/apps/preferences-desktop-font.png
+
+    - string_name: mate_search
+      icon: /images/apps/system-search.png
+
+    - string_name: mate_screenshot
+      icon: /images/apps/camera-photo.svg
+
+    - string_name: mate_color_selection
+      icon: /images/apps/mate-color-selection.png
+
+    - string_name: mate_dictionary
+      icon: /images/apps/accessories-dictionary.svg
+
+    - string_name: system_log
+      icon: /images/apps/mate-system-log.png
+
+    - string_name: mate_disk_usage_analyzer
+      icon: /images/apps/mate-disk-usage-analyzer.png
+
+    - string_name: mate_system_monitor
+      icon: /images/apps/utilities-system-monitor.svg
+
+    - string_name: mate_terminal
+      icon: /images/apps/utilities-terminal.svg
+
+    - string_name: mate_power_statistics
+      icon: /images/apps/mate-power-statistics.png
+
+    - name: Mozo
+      icon: /images/apps/mozo.svg
 
 - string_name: preinstalled
   icon: /images/Ambiant-MATE/media-optical.svg
   provides:
+    - name: Déjà Dup
+      icon: /images/apps/deja-dup.svg
+      not_in_min_install: true
+
     - string_name: gnome_disks
-      icon: /images/apps/gnome-disks.png
+      icon: /images/apps/gnome-disks.svg
+      not_in_min_install: true
+
+    - string_name: character_map
+      icon: /images/apps/accessories-character-map.png
+
+    - string_name: seahorse
+      icon: /images/apps/seahorse.svg
+      not_in_min_install: true
+
+    - name: Plank
+      icon: /images/apps/plank.svg
+
+    - name: Redshift
+      icon: /images/apps/redshift.svg
+      not_in_min_install: true
+
+    - name: Firefox
+      icon: /images/apps/firefox.svg
+
+    - string_name: simple_scan
+      icon: /images/apps/simple-scan.svg
+      not_in_min_install: true
+
+    - name: Shotwell
+      icon: /images/apps/shotwell.png
+      not_in_min_install: true
+
+    - name: Transmission
+      icon: /images/apps/transmission.png
+      not_in_min_install: true
+
+    - name: Evolution
+      icon: /images/apps/evolution.svg
+      not_in_min_install: true
+
+    - name: LibreOffice
+      icon: /images/apps/libreoffice.svg
+      not_in_min_install: true
+
+    - name: Celluloid
+      icon: /images/apps/celluloid.svg
+      not_in_min_install: true
+
+    - name: Cheese
+      icon: /images/apps/cheese.svg
+      not_in_min_install: true
+
+    - name: Rhythmbox
+      icon: /images/apps/rhythmbox.svg
+      not_in_min_install: true
 
     - name: GParted
       icon: /images/apps/gparted.svg
       live_only: true
+
+    - name: gdebi
+      icon: /images/apps/application-x-deb.svg
+      not_in_min_install: true
+
+    - name: Firmware
+      icon: /images/apps/firmware.svg
+
+    - name: Blueman
+      icon: /images/apps/blueman-device.svg
+
+    - string_name: nm
+      icon: /images/apps/preferences-system-network.svg
+
+    - name: gufw
+      icon: /images/apps/gufw.png
+      not_in_min_install: true
+
+    - name: Magnus
+      icon: /images/apps/zoom-best-fit.svg
+
+    - name: Onboard
+      icon: /images/apps/onboard.svg
+
+    - string_name: orca
+      icon: /images/apps/orca.png
+
 
 - string_name: ubuntu_base
   icon: /images/brands/ubuntu.svg
   provides:
     - string_name: software_dist
       technology: apt
+      icon: /images/apps/application-x-deb.svg
 
     - string_name: software_snap
       technology: snapd
+      icon: /images/apps/snapcraft.png
+
+    - string_name: shell
+      technology: bash
+      icon: /images/apps/utilities-terminal.svg
+
+    - string_name: installer
+      technology: ubiquity
+      icon: /images/apps/ubiquity.svg
+
+    - string_name: printer
+      technology: cups
+      icon: /images/apps/printer.svg
+
+    - string_name: apport
+      technology: apport
+      icon: /images/apps/apport.svg
 
     - string_name: display
       technology: X.org
@@ -61,25 +201,11 @@
     - string_name: win_man
       technology: marco
 
-    - string_name: win_man
-      technology: compiz 0.9
-      optional: true
-
-    - string_name: win_man
-      technology: compton
-      optional: true
-
-    - string_name: installer
-      technology: ubiquity
-
     - string_name: boot_splash
       technology: plymouth
 
     - string_name: bootloader
-      technology: GRUB 2
-
-    - string_name: printer
-      technology: cups
+      technology: grub2
 
 - string_name: gnu_linux
   icon: /images/brands/tux.svg

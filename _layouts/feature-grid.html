@@ -46,21 +46,21 @@ layout: default
                                     {% if item.url %}
                                     <a class="feature" href="{{ item.url }}">
                                     {% else %}
-                                    <div class="feature {% if item.optional == true or item.live_only == true %}grey{% endif %}">
+                                    <div class="feature {% if item.not_in_min_install == true or item.live_only == true %}grey{% endif %}">
                                     {% endif %}
-
-                                        {% if item.technology %}
-                                            <code>{{ item.technology }}</code>
-                                        {% endif %}
 
                                         {% if item.icon %}
                                             <img src="{{ item.icon }}" alt="{{ name }}"/>
                                         {% endif %}
 
+                                        {% if item.technology %}
+                                            <code>{{ item.technology }}</code>
+                                        {% endif %}
+
                                         {% if name %}
                                             <span>
                                                 {{ name }}{% if item.url %}{% include images/fa/external-link-alt.svg %}{% endif %}
-                                                {% if item.optional %}<span class="key-hover" title="{{ site.data.strings.optional }}">*</span>{% endif %}
+                                                {% if item.not_in_min_install %}<span class="key-hover" title="{{ site.data.strings.not_in_min_install }}">*</span>{% endif %}
                                                 {% if item.live_only %}<span class="key-hover" title="{{ site.data.strings.live_only }}">**</span>{% endif %}
                                             </span>
                                         {% endif %}
@@ -78,7 +78,7 @@ layout: default
                     {% endfor %}
 
                     <div class="key">
-                        <p><span>*</span> {{ site.data.strings.optional }}</p>
+                        <p><span>*</span> {{ site.data.strings.not_in_min_install }}</p>
                         <p><span>**</span> {{ site.data.strings.live_only }}</p>
                     </div>
 

@@ -11,5 +11,3 @@ category: features
 
 Being a Linux distribution, Ubuntu MATE is comprised of many parts from the
 contributions of developers worldwide.
-
-Take a look at what makes Ubuntu MATE different using the categories above.
