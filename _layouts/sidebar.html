@@ -14,6 +14,7 @@ layout: default
         <div class="row sidebar-view">
             <input id="sidebar-collapsed" type="checkbox" style="appearance:none;display:none"/>
             <div class="col sidebar">
+              <div class="sidebar-wrapper">
                 {% assign data = site.data.sidebar[page.sidebar] %}
                 {% for category in data %}
                     <div class="sidebar-title">{{ site.data.strings[category.category_string_name] }}</div>
@@ -32,6 +33,7 @@ layout: default
                     {% include images/fa/chevron-left.svg %}
                 </label>
                 <div class="sidebar-border"></div>
+              </div>
             </div>
 
             <content class="page-content col">
