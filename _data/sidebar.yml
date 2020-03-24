@@ -89,9 +89,3 @@ faq:
         - string_name: how_to_dvd
           icon:  /images/faq/external-link-alt.svg
           url: https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#1-overview
-
-    - category_string_name: prepare_boot
-      items:
-        - string_name: what_is_live_session
-          icon:
-          url: /faq/live-session/

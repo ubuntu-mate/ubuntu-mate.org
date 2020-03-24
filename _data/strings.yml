@@ -225,13 +225,11 @@ the_project: "The Project"
 verify_downloads_quick: "Verify for Corruption"
 verify_downloads_secure: "Verify for Tampering"
 how_to_image: "Imaging a USB Drive"
-what_is_live_session: "Can I try without installing?"
 how_to_dvd: "Burning to DVD"
 
 about_project: "Project Questions"
 roadmap: "Roadmap"
 prepare_media: "Media Preparations"
-prepare_boot: "Boot Preparations"
 
 
 #######################################
