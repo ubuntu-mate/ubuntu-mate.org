@@ -37,7 +37,8 @@ $header-height: 60px;
 
     &:hover {
         img {
-            transform: rotate(125deg);
+            transition: transform $transition-duration $transition-timing;
+            transform: rotate(120deg);
         }
     }
 
@@ -48,8 +49,6 @@ $header-height: 60px;
     img {
         height: 48px;
         width: 48px;
-        transition: transform $transition-duration $transition-timing;
-        transform: rotate(0deg);
     }
 }
 
