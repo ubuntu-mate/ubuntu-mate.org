@@ -16,8 +16,8 @@ This page aims to address common questions for new users.
 ## Which architecture?
 
 * **amd64** is for a desktop or laptop computer built around 2005 and later.
-While the name may suggest otherwise, but this supports both AMD and Intel processors
-capable of 64-bit instructions. Supporting both BIOS and UEFI motherboards
+While the name may suggest otherwise, this supports both AMD and Intel processors
+capable of 64-bit instructions, BIOS and UEFI motherboards
 as well as PC/Mac computers.
 
 * **i386** has been discontinued and will no longer receive updates after April 2021.
@@ -31,8 +31,8 @@ applications that will benefit from a 64-bit instruction set.
 
 **Historic**
 
-* **powerpc** is built for Macs before 2006 and some IBM PowerPC machines.
-New downloads for these are no longer available.
+* **powerpc** is for non-Intel Macs before 2006 and compatible IBM PowerPC
+machines. New downloads for these are no longer available.
 
 
 ## Which release?
@@ -55,17 +55,17 @@ the **Software & Updates** application.
 
 Instead of downloading from one source, BitTorrent retrieves and verifies the
 file from many computers. This can help save bandwidth costs for the host, be
-interupted for later and in many cases achieve faster download speeds.
+paused/resumed and in many cases achieve faster download speeds.
 
-If you have a BitTorrent client installed already, a **magnet link** will
+If you already have a BitTorrent client installed, a **magnet link** will
 open it automatically.
 
 
 ### Direct Download
 
 This is your standard download straight from the server to your browser (over
-HTTP/S). It is recommended to verify the download using the provided checksum
-afterwards to be sure it was downloaded in one piece.
+HTTP/S). It is [recommended to verify the download](/faq/verify-download-quick/)
+using the provided checksum afterwards to be sure it was downloaded in one piece.
 
 
 ## Can I order a disc or USB drive?

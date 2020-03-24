@@ -43,9 +43,6 @@ Additionally, we will review the development platforms and communication/
 collaboration tools used by the MATE Desktop team to improve team communication
 and simplfy the project infrastructure where possible.
 
-Lastly, we'll review the static site building tools using by Ubuntu MATE and
-MATE Desktop so that the websites can be more easily maintained.
-
 ## Modern display server support
 
 Wayland is set to become the defacto next generation display server. While Xorg

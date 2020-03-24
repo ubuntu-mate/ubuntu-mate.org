@@ -7,7 +7,7 @@ class: faq
 sidebar: faq
 ---
 
-# Project FAQs
+# FAQs
 
 If we get asked something frequently enough we’ll try to provide the answers
 here.
