@@ -189,8 +189,6 @@ turn their Ubuntu MATE workstation into a productive tool.
 
 ## Media casting and streaming
 
-<img class="right" src="/assets/img/misc/phone-small.png" alt="Phone" width="124" height="240" />
-
 Seamless integration with home media server content and media casting
 devices is essential in order for Ubuntu MATE to remain relevant
 for many home users. We will try to deliver on that.
