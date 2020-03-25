@@ -16,13 +16,19 @@
                     <a href="/ports/">{{ site.data.strings.ports }}</a>
                     <a href="/faq/">{{ site.data.strings.faq }}</a>
                     <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/commits/master" class="external" rel="nofollow">{{ site.data.strings.recent_changes }} {% include images/fa/external-link-alt.svg %}</a>
-                    <a href="https://www.transifex.com/ubuntu-mate/public/" class="external" rel="nofollow">{{ site.data.strings.translate_site }} {% include images/fa/external-link-alt.svg %}</a>
                 </div>
                 <div class="social-links">
                     {% assign links = "rss,launchpad,github,trello,irc,mastodon,twitter,facebook,youtube" | split: "," %}
                     {% for link in links %}
                         <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
                     {% endfor %}
+                </div>
+                <div class="footer-links">
+                    {% if site.active_lang == 'en' and page.autogen == null %}
+                    <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/edit/jekyll-update/{{ page.path }}" class="external" rel="nofollow">{{ site.data.strings.edit_page }} {% include images/fa/external-link-alt.svg %}</a>
+                    {% endif %}
+
+                    <a href="https://www.transifex.com/ubuntu-mate/public/" class="external" rel="nofollow">{{ site.data.strings.translate_site }} {% include images/fa/external-link-alt.svg %}</a>
                 </div>
             </div>
         </div>

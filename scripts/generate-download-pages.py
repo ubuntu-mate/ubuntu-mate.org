@@ -43,6 +43,7 @@ def write_md_file(filename, permalink, layout, step, download_id=None, release_i
     output += "\npermalink: " + permalink
     output += "\nlang: en"
     output += "\nclass: download"
+    output += "\nautogen: true"
     output += "\nstep: " + str(step)
 
     if download_id:
