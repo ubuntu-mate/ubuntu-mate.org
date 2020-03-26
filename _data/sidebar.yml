@@ -26,7 +26,7 @@ get-involved:
           url: /get-involved/bug-triage/
 
         - string_name: testing_qa
-          icon: /images/brands/ubuntu-mate.svg
+          icon: /images/get-involved/qa.svg
           url: /get-involved/testing-qa/
 
         - string_name: bug_fix
