@@ -32,34 +32,22 @@ layout: default
                 <div class="feature-mini">
 
                     <div class="feature left">
-                        {% include picture-2x.html
-                            dir = "/images/features"
-                            img = page.left_image_filename
-                            ext = "png"
-                            alt = page.left_image_alt
-                        %}
+                        <img src="/images/features/{{ page.left_image_filename }}.png" alt="{{ page.left_image_alt }}"/>
+                        <img class="hover" src="/images/features/{{ page.left_image_filename }}-hover.png" alt=""/>
                         <h3>{{ page.left_title }}</h3>
                         <p>{{ page.left_subtitle }}</p>
                     </div>
 
                     <div class="feature middle">
-                        {% include picture-2x.html
-                            dir = "/images/features"
-                            img = page.middle_image_filename
-                            ext = "png"
-                            alt = page.middle_image_alt
-                        %}
+                        <img src="/images/features/{{ page.middle_image_filename }}.png" alt="{{ page.middle_image_alt }}"/>
+                        <img class="hover" src="/images/features/{{ page.middle_image_filename }}-hover.png" alt=""/>
                         <h3>{{ page.middle_title }}</h3>
                         <p>{{ page.middle_subtitle }}</p>
                     </div>
 
                     <div class="feature right">
-                        {% include picture-2x.html
-                            dir = "/images/features"
-                            img = page.right_image_filename
-                            ext = "png"
-                            alt = page.right_image_alt
-                        %}
+                        <img src="/images/features/{{ page.right_image_filename }}.png" alt="{{ page.right_image_alt }}"/>
+                        <img class="hover" src="/images/features/{{ page.right_image_filename }}-hover.png" alt=""/>
                         <h3>{{ page.right_title }}</h3>
                         <p>{{ page.right_subtitle }}</p>
                     </div>

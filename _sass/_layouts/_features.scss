@@ -236,11 +236,28 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
 
     .feature {
         flex: 1 0 33%;
+        position: relative;
     }
 
     img {
-        padding: 0 15px;
-        max-width: 100%;
+        margin: auto;
+        max-width: calc(100% - 30px);
+        box-shadow: 5px 5px 5px $grey-dark;
+    }
+
+    .hover {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity $transition-duration ease-in-out,
+                    visibility $transition-duration ease-in-out;
+        position: absolute;
+        left: 15px;
+    }
+
+    img:not(.hover):hover + .hover,
+    .hover:hover {
+        opacity: 1;
+        visibility: visible;
     }
 
     h3 {
@@ -251,7 +268,8 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
 
     p {
         font-size: 18px;
-        margin: 10px 0;
+        margin: 10px auto;
+        max-width: calc(100% - 30px);
     }
 }
 
