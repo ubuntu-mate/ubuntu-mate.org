@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE Beta 1
+title: Ubuntu MATE Remix Beta 1
 permalink: /blog/ubuntu-mate-beta1/
 description:
 category: dev
@@ -10,7 +10,7 @@ lang: en
 ---
 
 Ubuntu MATE Beta 1 is released and represents a big step forward
-compared to Alpha2, not least because Ubuntu MATE is now sporting new
+compared to Alpha 2, not least because Ubuntu MATE is now sporting new
 themes and artwork to give it a distinctive look. A number of bugs have
 also been fixed along the way and a few new ones have been introduced,
 **so make sure you read the release notes below**.
@@ -57,10 +57,10 @@ fixed too.
     button_url = "/utopic/"
 %}
 
-## Upgrading from Alpha2
+## Upgrading from Alpha 2
 
 Some of the package selections and default settings have changed since
-Alpha2. If you have Alpha2 installed, here is how to upgrade to Beta1.
+Alpha 2. If you have Alpha 2 installed, here is how to upgrade to Beta 1.
 
 Start a shell and upgrade.
 
@@ -110,7 +110,7 @@ tracker.
 
 ## Testing
 
-Ubuntu MATE Beta2 will be released at the end of September therefore we
+Ubuntu MATE Beta 2 will be released at the end of September therefore we
 need people installing, using Ubuntu MATE and reporting any issues you
 may find on the project's bug tracker.
 

@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-title: Progressing towards Ubuntu MATE Beta1
+title: Progressing towards Ubuntu MATE Beta 1
 permalink: /blog/progressing-towards-ubuntu-mate-beta1/
 description:
 category: news
@@ -36,15 +36,15 @@ the outstanding actions requested by the Ubuntu Technical Board in the
 coming days and I am confident Ubuntu MATE will achieve official status
 in due course.
 
-# Ubuntu MATE Beta1 progress
+# Ubuntu MATE Beta 1 progress
 
-Ubuntu MATE Beta1 is progressing nicely and is mainly focused on tweaking
+Ubuntu MATE Beta 1 is progressing nicely and is mainly focused on tweaking
 the themes and adding Ubuntu MATE specific artwork. The Ubuntu MATE
 community have been brilliant in this regard and contributed Ubuntu
 MATE wallpapers, LightDM theme, Plymouth theme and new desktop themes.
 A [SYSLINUX theme](http://imgur.com/jTEEdGV) is currently in the works.
 
-Some general improvements have also been made during the Beta1 cycle,
+Some general improvements have also been made during the Beta 1 cycle,
 such as desktop policy privilege fixes, meta package improvements and
 aligning the core packages with the other Ubuntu flavors.
 
@@ -131,12 +131,12 @@ formalise the team structure.
 
 # No show stoppers
 
-At this point in the Beta1 cycle there are no show stoppers and we
+At this point in the Beta 1 cycle there are no show stoppers and we
 continue to get daily reports from new users saying how impressed they
 are with the stability of Ubuntu MATE, even at this early stage.
 
 As of right now, we are on track for an August 28th release of Ubuntu
-MATE Beta1.
+MATE Beta 1.
 
 Is there anything you can help with or want to be involved in? Maybe you
 just want to discuss your experiences or ask the maintainers some questions.

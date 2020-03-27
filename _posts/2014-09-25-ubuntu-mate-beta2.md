@@ -10,7 +10,7 @@ lang: en
 ---
 
 Ubuntu MATE 14.10 Beta 2 is now available for download. This second beta
-fixes a number of issues that were present in Beta1, adds a few new
+fixes a number of issues that were present in Beta 1, adds a few new
 features and includes some more original artwork. We've managed to not
 introduce any new bugs this time but please **make sure you read the
 release notes below** because there are still unresolved issues you'll
@@ -18,13 +18,13 @@ need to be aware of.
 
 ## What works?
 
-Most things, more than in Beta1 at least. People tell us that Ubuntu
+Most things, more than in Beta 1 at least. People tell us that Ubuntu
 MATE is stable. You may, or may not, agree.
 
-## What changed since Beta1?
+## What changed since Beta 1?
 
 Beta 2 has been focused on fixing broken things and improving what was
-already present in Beta1.
+already present in Beta 1.
 
   * Released community contributed [Ubuntu MATE Identity graphics from Goce Mitevski](https://github.com/gocemitevski/ubuntu-mate-identity-graphics).
   * Added community contributed [GRUB2 theme from Ivan Pejić](https://github.com/nadrimajstor/grub2-themes-ubuntu-mate).
@@ -56,16 +56,16 @@ already present in Beta1.
     button_url = "/utopic/"
 %}
 
-## Upgrading from Beta1
+## Upgrading from Beta 1
 
-Some of the meta packages have changed since Beta1. If you have Beta1
-installed, here is how to upgrade to Beta2.
+Some of the meta packages have changed since Beta 1. If you have Beta 1
+installed, here is how to upgrade to Beta 2.
 
 Start a shell and update.
 
     sudo apt-get update
 
-If you were tracking development packages between Beta1 and Beta2 you
+If you were tracking development packages between Beta 1 and Beta 2 you
 will want to remove `grub-theme-ubuntu-mate` since it has a new name now.
 
     sudo apt-get remove grub-theme-ubuntu-mate
@@ -78,11 +78,11 @@ Remove some obsolete packages.
 
     sudo apt-get remove ubuntu-mate-desktop-policy-privileges
 
-Remove an erroneous apt configuration that has existed since Alpha1.
+Remove an erroneous apt configuration that has existed since Alpha 1.
 
     sudo rm /etc/apt/apt.conf.d/00recommends
 
-If you were tracking development packages between Beta1 and Beta2 you
+If you were tracking development packages between Beta 1 and Beta 2 you
 may want to remove IBus.
 
     sudo apt-get purge ibus ibus-anthy ibus-gtk ibus-gtk3 ibus-qt4

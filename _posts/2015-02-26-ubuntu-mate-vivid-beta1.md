@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE 15.04 Beta1
+title: Ubuntu MATE 15.04 Beta 1
 permalink: /blog/ubuntu-mate-vivid-beta1/
 description:
 category: news
@@ -16,15 +16,15 @@ lang: en
     button_url = ""
 %}
 
-Yes, we finally made it! Ubuntu MATE 15.04 Beta1 is now available
-for official download. This official release builds on Ubuntu MATE Alpha2,
+Yes, we finally made it! Ubuntu MATE 15.04 Beta 1 is now available
+for official download. This official release builds on Ubuntu MATE Alpha 2,
 introduces some new features and is officially official `:-D`
 
 ## What works?
 
 People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
-## What changed since the Ubuntu MATE 15.04 Alpha2 release?
+## What changed since the Ubuntu MATE 15.04 Alpha 2 release?
 
 Well, the big change is largely backend stuff as Ubuntu MATE has transitioned
 from our unofficial iso build servers to the official Canonical build
@@ -52,7 +52,7 @@ their help working the MATE packages through Debian and fixing bugs. A
 large percentage of the Ubuntu MATE development is actually taking place in
 Debian.
 
-Here what changed since Ubuntu MATE 15.04 Alpha2:
+Here what changed since Ubuntu MATE 15.04 Alpha 2:
 
   * Added everything required to build Ubuntu MATE 15.04 to the official Ubuntu archive.
   * Added PowerPC as an officially supported architecture for Ubuntu MATE 15.04.

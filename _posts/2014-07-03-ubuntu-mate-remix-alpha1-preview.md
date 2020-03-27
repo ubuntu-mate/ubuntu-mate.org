@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE Remix Alpha1 Preview
+title: Ubuntu MATE Remix Alpha 1 Preview
 permalink: /blog/ubuntu-mate-remix-alpha1-preview/
 description:
 category: news
@@ -10,7 +10,7 @@ lang: en
 ---
 
 Chris and Matt of the [Linux Action Show](http://www.jupiterbroadcasting.com/show/linuxactionshow/)
-gave Ubuntu MATE Remix Alpha1 a little preview in [Show 320](http://www.jupiterbroadcasting.com/61572/preventing-a-btrfs-nightmare-las-320/).
+gave Ubuntu MATE Remix Alpha 1 a little preview in [Show 320](http://www.jupiterbroadcasting.com/61572/preventing-a-btrfs-nightmare-las-320/).
 Here is what they had to say.
 
 {% include blog/youtube.html

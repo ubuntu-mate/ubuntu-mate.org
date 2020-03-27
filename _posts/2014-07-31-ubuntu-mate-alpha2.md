@@ -54,8 +54,8 @@ work. Notice the heavy use of *"should*", YMMV.
 
 Ubuntu MATE 14.10 is currently an alpha distribution and we are aware of the following issues:
 
-  * Upgrading from Ubuntu MATE Alpha1 using `apt-get` is not supported.
-    * We Recommend that you install a clean Alpha2.
+  * Upgrading from Ubuntu MATE Alpha 1 using `apt-get` is not supported.
+    * We Recommend that you install a clean Alpha 2.
   * Most Shotwell online publishing plugins do not work. [LP #1314904 ](https://bugs.launchpad.net/ubuntu/+source/shotwell/+bug/1314904)
     * This can be resolved by installing `unity-control-center-signon` but doing so installs a number of Unity packages which add duplicate functionality to the MATE Control Centre.
 

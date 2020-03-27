@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE 15.04 Alpha2
+title: Ubuntu MATE 15.04 Alpha 2
 permalink: /blog/ubuntu-mate-vivid-alpha2/
 description:
 category: dev
@@ -9,9 +9,9 @@ author: Martin Wimpress
 lang: en
 ---
 
-Ubuntu MATE 15.04 Alpha2 is now available for download. This release builds
+Ubuntu MATE 15.04 Alpha 2 is now available for download. This release builds
 on Ubuntu MATE 14.04 and 14.10 and introduces some new features. The observant
-among you will notice that there was no Alpha1 release because, reasons.
+among you will notice that there was no Alpha 1 release because, reasons.
 
 ## What works?
 
@@ -19,7 +19,7 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 
 ## What changed since the Ubuntu MATE 14.10 release?
 
-Here what changed in Ubuntu MATE 15.04 Alpha2 since Ubuntu MATE 14.10. Some of
+Here what changed in Ubuntu MATE 15.04 Alpha 2 since Ubuntu MATE 14.10. Some of
 these fixes and improvements have already been back ported to 14.10 and made
 available via updates.
 
