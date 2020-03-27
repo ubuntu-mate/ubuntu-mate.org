@@ -113,6 +113,10 @@ category_dev: "Development Update"
 category_news: "News"
 outdated_post: "This post is more than a year old and may be outdated."
 
+# Comments
+comments_title: "Comments"
+comments_none: "The comment section for this old article has been closed. There were no comments. :("
+comments_no_js: "To view comments, please enable JavaScript in your browser."
 
 #######################################
 # Categories

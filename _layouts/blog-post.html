@@ -30,9 +30,63 @@ layout: default
                     </div>
                 {% endif %}
 
-                {{ content }}
+                <article>
+
+                    {{ content }}
+
+                </article>
+
+                <div class="blog-comments">
+                    <h2>{{ site.data.strings.comments_title }}</h2>
+
+                    {% assign today_year = page.date | date: '%Y' | plus: 0 %}
+                    {% capture original_url %}{{ site.url }}{{ page.url }}{% endcapture %}
+                    {% assign original_url = original_url | replace:'{{ site.active_lang }}/','' %}
+
+                    {% if page.draft == true %}
+                        <p class="blog-comment-empty" style="color:red">
+                            This post is a draft. The comment section will not be revealed until it is published.
+                        </p>
+                    {% elsif today_year < 2020 and page.old_comments_topic_id == null %}
+                        <p class="blog-comment-empty">
+                            {{ site.data.strings.comments_none }}
+                        </p>
+                    {% else %}
+                        <noscript>
+                            <p class="blog-comment-empty">
+                                {{ site.data.strings.comments_no_js }}
+                            </p>
+                        </noscript>
+                        <div id='discourse-comments'></div>
+                        <script type="text/javascript">
+                            DiscourseEmbed = {
+                                discourseUrl: 'https://ubuntu-mate.community/',
+
+                                {% if page.old_comments_topic_id != null %}
+                                    topicId: {{ page.old_comments_topic_id }}
+                                {% else %}
+                                    discourseEmbedUrl: '{{ original_url }}'
+                                {% endif %}
+                            };
+                            (function() {
+                                var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                                d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                            })();
+                        </script>
+                    {% endif %}
+                </div>
 
             </content>
+
+            <div class="discourse" style="display:none">
+                {{ page.excerpt }}
+                <br><br>
+                {{ original_url }}
+                <br><br>
+                :point_down: Reply to this topic to leave a comment at the bottom of the blog post.
+                <br><br>
+            </div>
 
             {% include partials/blog-sidebar.html %}
 
