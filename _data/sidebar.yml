@@ -87,5 +87,5 @@ faq:
           url: /faq/usb-image/
 
         - string_name: how_to_dvd
-          icon:  /images/faq/external-link-alt.svg
-          url: https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows#1-overview
+          icon:
+          url: /faq/burn-disc/
