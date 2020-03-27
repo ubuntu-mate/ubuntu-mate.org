@@ -61,31 +61,31 @@ faq:
     - category_string_name: the_project
       items:
         - string_name: about_project
-          icon:
+          icon: /images/ubuntu-mate/logo.svg
           url: /faq/project/
 
         - string_name: roadmap
-          icon:
+          icon: /images/Ambiant-MATE/applications-development.svg
           url: /faq/roadmap/
 
     - category_string_name: prepare_media
       items:
         - string_name: download_help
-          icon:
+          icon: /images/Ambiant-MATE/go-down.svg
           url: /faq/downloads/
 
         - string_name: verify_downloads_quick
-          icon:
+          icon: /images/Ambiant-MATE/preview-file-24.svg
           url: /faq/verify-download-quick/
 
         - string_name: verify_downloads_secure
-          icon:
+          icon: /images/Ambiant-MATE/lpi-bug.svg
           url: /faq/verify-download-secure/
 
         - string_name: how_to_image
-          icon:
+          icon: /images/Ambiant-MATE/drive-removable-media-usb-24.svg
           url: /faq/usb-image/
 
         - string_name: how_to_dvd
-          icon:
+          icon: /images/Ambiant-MATE/media-optical-24.svg
           url: /faq/burn-disc/
