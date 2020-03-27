@@ -7,6 +7,7 @@ description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 2
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21334
 ---
 
 **Yeah baby! You know you want some of what we've got. Come and have a fling

@@ -7,6 +7,7 @@ description: Ubuntu MATE 18.04 LTS (Bionic Beaver) Final Release
 category: release
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21335
 
 gallery:
     - image: /images/blog/layouts/Familiar.png

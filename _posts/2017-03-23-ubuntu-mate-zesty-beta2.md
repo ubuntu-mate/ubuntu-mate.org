@@ -7,6 +7,7 @@ description: Ubuntu MATE 17.04 (Zesty Zapus) Beta 2
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21323
 ---
 
 **We're absolutely chuffed to bits to announce, what is quite possibly,

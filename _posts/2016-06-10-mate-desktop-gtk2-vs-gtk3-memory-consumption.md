@@ -7,6 +7,7 @@ description: How does MATE Desktop for GTK2 RAM use compare to MATE Desktop for 
 category: news
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21313
 ---
 
 The number two question in the Ubuntu MATE community right now is:

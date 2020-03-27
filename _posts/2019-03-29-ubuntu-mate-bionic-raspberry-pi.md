@@ -7,6 +7,7 @@ description: Ubuntu MATE 18.04 Beta-1 for the Raspberry Pi Model B 2, 3 and  3+
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21340
 ---
 
 We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.

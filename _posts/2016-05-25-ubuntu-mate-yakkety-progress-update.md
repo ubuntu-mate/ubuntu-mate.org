@@ -7,6 +7,7 @@ description: Ubuntu MATE 16.10 progress update on the migration to GTK3+ and Sna
 category: news
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21331
 ---
 
 The [Ubuntu MATE Patrons](https://www.patreon.com/ubuntu_mate) have already

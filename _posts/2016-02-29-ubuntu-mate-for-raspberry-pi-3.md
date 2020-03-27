@@ -7,6 +7,7 @@ description:
 category: release
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21308
 ---
 
 The [Raspberry Pi 3 Model B is

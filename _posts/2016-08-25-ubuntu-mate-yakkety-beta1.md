@@ -7,6 +7,7 @@ description: Ubuntu MATE 16.10 (Yakkety Yak) Beta 1
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21317
 ---
 
 We are underwhelmed to announce, quite possibly, our most uninteresting

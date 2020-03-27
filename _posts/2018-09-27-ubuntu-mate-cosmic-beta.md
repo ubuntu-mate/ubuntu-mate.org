@@ -7,6 +7,7 @@ description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Beta
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21337
 ---
 
 **Ubuntu MATE 18.10 is a modest, yet strategic, upgrade over our 18.04

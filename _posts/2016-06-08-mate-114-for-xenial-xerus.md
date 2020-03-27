@@ -7,6 +7,7 @@ description: How to upgrade Ubuntu MATE 16.04 to MATE Desktop 1.14
 category: release
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21312
 ---
 
 The [Ubuntu MATE Patrons](https://www.patreon.com/ubuntu_mate) have already

@@ -7,6 +7,7 @@ description: Bytemark sponsor Ubuntu MATE hosting and bandwidth
 category: news
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21318
 ---
 
 A couple of weeks ago the [Bytemark](https://www.bytemark.co.uk/?r=ubuntu-mate) Managing Director,

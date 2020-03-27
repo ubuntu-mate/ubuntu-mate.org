@@ -7,6 +7,7 @@ description: Ubuntu MATE 18.04 (Bionic Beaver) Beta 1
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21333
 ---
 
 We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for distribution on

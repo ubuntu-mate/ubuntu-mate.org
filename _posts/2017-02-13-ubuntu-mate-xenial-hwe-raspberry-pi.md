@@ -7,6 +7,7 @@ description: Ubuntu MATE 16.04.2 LTS (Xenial Xerus) for Raspbery Pi 2 and Raspbe
 category: release
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21322
 ---
 
 An Ubuntu MATE 16.04.2 image for the Raspberry Pi 2 and Raspberry Pi 3 is now

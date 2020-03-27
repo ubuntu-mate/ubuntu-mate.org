@@ -7,6 +7,7 @@ description: Ubuntu MATE 19.04 (Disco Dingo) Beta
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21339
 ---
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug

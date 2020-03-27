@@ -7,6 +7,7 @@ description: Ubuntu MATE 16.10 (Yakkety Yak) Final Release
 category: release
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21320
 ---
 
 {:.center}

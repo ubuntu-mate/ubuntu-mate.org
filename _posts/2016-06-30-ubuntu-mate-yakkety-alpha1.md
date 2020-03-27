@@ -7,6 +7,7 @@ description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 1
 category: dev
 author: Martin Wimpress
 lang: en
+old_comments_topic_id: 21314
 ---
 
 **Beaut, beauty! We're stoked to announce Ubuntu MATE 16.10 Alpha 1,
