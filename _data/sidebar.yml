@@ -40,21 +40,21 @@ get-involved:
     - category_string_name: dev_status
       items:
         - string_name: dev_backlog
-          icon:
+          icon: /images/get-involved/backlog.svg
           url: /get-involved/status-backlog/
 
         - string_name: dev_active
-          icon:
+          icon: /images/get-involved/active.svg
           url: /get-involved/status-active/
 
         - string_name: dev_completed
-          icon:
+          icon: /images/get-involved/completed.svg
           url: /get-involved/status-completed/
 
     - category_string_name: documentation
       items:
         - string_name: design_guidelines
-          icon:
+          icon: /images/ubuntu-mate/logo.svg
           url: /get-involved/design-guidelines/
 
 faq:
