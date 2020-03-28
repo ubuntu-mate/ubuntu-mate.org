@@ -9,9 +9,13 @@ sidebar: get-involved
 
 ## Crowd Funding
 
-Did you know one of the most important contributions you can make to Ubuntu MATE doesn't require a single line of code? Like many open source projects, community financial support not only helps keep the virtual lights on, but funds improvements to Ubuntu MATE, the MATE Desktop, and numerous other Open Source projects.
+Did you know one of the most important contributions you can make to Ubuntu MATE
+doesn't require a single line of code? Like many open source projects, community
+financial support not only helps keep the virtual lights on, but funds
+improvements to Ubuntu MATE, the MATE Desktop, and numerous other Open
+Source projects.
 
-From 2014 to 2017, your generosity helped pay for:
+Between 2014 and 2017, your generosity helped pay for:
 
 ### Ubuntu MATE
 
@@ -23,41 +27,44 @@ From 2014 to 2017, your generosity helped pay for:
 ### MATE Desktop
 
 * Reviewing and sponsoring uploads to Debian
-* Engrampa
 * Development and packaging in Debian
 * GTK3 migrating and porting
 * MATE Menu
 * MATE Dock
+* [Engrampa](https://github.com/mate-desktop/engrampa)
 * Development and packaging for Fedora and Linux Mint
 
 ### Open Source Projects
 
-* TLP
-* Geany
-* Transmission
-* Syncthing
-* Tilda
-* Plank
-* Ubuntu
-* Debian
-* Open BSD
-* VLC
+* [TLP](https://linrunner.de/en/tlp/tlp.html)
+* [Geany](https://www.geany.org/)
+* [Transmission](https://transmissionbt.com/)
+* [Syncthing](https://syncthing.net/)
+* [Tilda](https://github.com/lanoxx/tilda)
+* [Plank](https://launchpad.net/plank)
+* [Ubuntu](https://ubuntu.com)
+* [Debian](https://www.debian.org/)
+* [Open BSD](https://www.openbsd.org/)
+* [VLC](https://www.videolan.org/vlc/)
 
 ## Spreading the Word
 
-* MicroSD card and memory sticks flashed with Ubuntu MATE to distribute at Raspberry Pi Jams
+* MicroSD cards and memory sticks flashed with Ubuntu MATE to distribute at Raspberry Pi Jams
 * Raspberry Pis, ODROIDs, and a secondhand iBook G4 for development of specific Ubuntu MATE images
 * Dedicated servers
 * Prizes for community competitors
 * Getting Wimpy to UbuCon Europe 2016
-* A reasonably-priced beverage to celebrate the release of 15.10 :wine_glass:
+* A reasonably-priced beverage to celebrate the release of 15.10 🍷
 
-To show how a small donation can go a long way, let's look at how they funded our development Raspberry Pi 3s, which cost 62.90. This breaks down to:
+To show how a small donation can go a long way, let's look at how we funded
+two Raspberry Pi 3's for development, costing £62.90 each. This breaks down to:
 
-	* 31 donations of 2
-	* 12 donations of 5
-	* 7 donations of 10 (with a little change to spare)
+* 32 donations of £2, or
+* 13 donations of £5, or
+* 7 donations of £10 _(all with a little change to spare)_
 
-In short, :relaxed: + :dollar: :pound: :euro: :credit_card: = :green_heart:
+In short, 😌 + 💵 💷 💶 💳 = 💚
 
-So if you want to help grow our community and keep Ubuntu MATE amazing, head over to our [funding](/funding/) page and find out how you can help!
+So if you want to help grow our community and keep Ubuntu MATE amazing, head over to our funding page and find out how you can help!
+
+[View Funding Options](/funding/){:.btn .green}
