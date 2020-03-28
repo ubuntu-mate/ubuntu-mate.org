@@ -52,7 +52,7 @@ such as:
 * MATE Terminal
 * Pluma Text Editor
 
-[Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn}
+[Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn .green}
 
 **Unsure?** [We have a guide to using Transifex below ↓](#transifex)
 
