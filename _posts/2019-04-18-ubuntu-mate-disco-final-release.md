@@ -7,7 +7,7 @@ description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
 category: release
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21342
+discourse_topic_id: 21342
 ---
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug

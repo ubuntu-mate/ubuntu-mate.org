@@ -7,7 +7,7 @@ description: Ubuntu MATE 18.10 (Cosmic Cuttlefish) Final Release
 category: release
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21338
+discourse_topic_id: 21338
 ---
 
 **Ubuntu MATE 18.10 is a modest, yet strategic, upgrade over our 18.04

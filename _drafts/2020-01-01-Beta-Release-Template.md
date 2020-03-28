@@ -7,6 +7,7 @@ description: Ubuntu MATE XX.XX (YYYY YYYY)
 category: dev                                   # release
 author: Martin Wimpress
 lang: en
+discourse_topic_id: null
 ---
 
 We are preparing Ubuntu MATE XX.XX (YYYY YYYYYY) for distribution on

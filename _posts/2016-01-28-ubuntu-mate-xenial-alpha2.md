@@ -7,7 +7,7 @@ description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Alpha 2
 category: dev
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21306
+discourse_topic_id: 21306
 ---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on

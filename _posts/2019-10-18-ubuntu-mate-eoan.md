@@ -7,7 +7,7 @@ description: Ubuntu MATE 19.10 (Eoan Ermine)
 category: release
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21343
+discourse_topic_id: 21343
 ---
 
 **Ubuntu MATE 19.10 is a significant improvement over Ubuntu MATE 18.04 and 19.04.

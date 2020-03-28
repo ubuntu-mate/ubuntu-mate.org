@@ -7,7 +7,7 @@ description: Ubuntu MATE 16.04 (Xenial Xerus) LTS Beta 1
 category: dev
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21307
+discourse_topic_id: 21307
 ---
 
 We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on

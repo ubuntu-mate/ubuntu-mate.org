@@ -7,7 +7,7 @@ description: Ubuntu MATE 17.04 (Zesty Zapus) Final Release
 category: release
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21324
+discourse_topic_id: 21324
 ---
 
 **We're totally over the bloody moon to announce Ubuntu MATE 17.04.

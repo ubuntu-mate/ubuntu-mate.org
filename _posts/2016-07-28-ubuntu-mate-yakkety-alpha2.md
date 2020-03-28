@@ -7,7 +7,7 @@ description: Ubuntu MATE 16.10 (Yakkety Yak) Alpha 2
 category: dev
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21316
+discourse_topic_id: 21316
 ---
 
 We are preparing Ubuntu MATE 16.10 (Yakkety Yak) for distribution on

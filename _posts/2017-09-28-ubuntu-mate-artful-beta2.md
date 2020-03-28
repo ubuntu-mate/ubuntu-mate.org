@@ -7,7 +7,7 @@ description: Ubuntu MATE 17.10 (Artful Aardvark) Beta 2
 category: dev
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21327
+discourse_topic_id: 21327
 
 gallery:
     - image: /images/blog/layouts/00_mutiny.png

@@ -7,7 +7,7 @@ description: Ubuntu MATE 17.10 (Artful Aardvark) Final Release
 category: release
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21328
+discourse_topic_id: 21328
 
 gallery:
     - image: /images/blog/layouts/00_mutiny.png

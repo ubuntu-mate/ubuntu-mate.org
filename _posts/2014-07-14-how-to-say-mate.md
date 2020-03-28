@@ -7,7 +7,7 @@ description: How to pronounce MATE Desktop.
 category: news
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21297
+discourse_topic_id: 21297
 ---
 
 OK podcasters, enough!

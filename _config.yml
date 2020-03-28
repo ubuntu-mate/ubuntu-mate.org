@@ -65,6 +65,7 @@ twitter: "https://twitter.com/ubuntu_mate"
 youtube: "https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ/"
 mastodon: "https://ubuntu.social/@ubuntumate"
 rss: "/rss.xml"
+discourse: "https://ubuntu-mate.community"
 
 # i18n
 languages: [

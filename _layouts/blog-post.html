@@ -44,10 +44,27 @@ layout: default
                     {% assign original_url = original_url | replace:'{{ site.active_lang }}/','' %}
 
                     {% if page.draft == true %}
-                        <p class="blog-comment-empty" style="color:red">
-                            This post is a draft. The comment section will not be revealed until it is published.
+                        {% if page.discourse_topic_id == null %}
+                            <p class="blog-comment-empty" style="color:red">
+                                <strong>Topic ID Missing!</strong>
+                                <br><br>
+                                To enable comments for this blog post,
+                                <a href="https://ubuntu-mate.community/c/43">create an announcement topic in <strong>Scheduled</strong></a>,
+                                then copy the topic ID (from the URL) to this page's frontmatter.
+                                <pre>discourse_topic_id:</pre>
+                            </p>
+                        {% else %}
+                            <p class="blog-comment-empty" style="color:grey">
+                                This post is a draft. The comment section will be revealed once it is published.
+                                <br><br>
+                                <a href="{{ site.discourse }}/t/{{ page.discourse_topic_id }}">&rarr; Link to topic</a>
+                            </p>
+                        {% endif %}
+                    {% elsif today_year < 2020 and page.discourse_topic_id == null %}
+                        <p class="blog-comment-empty">
+                            {{ site.data.strings.comments_none_old }}
                         </p>
-                    {% elsif today_year < 2020 and page.old_comments_topic_id == null %}
+                    {% elsif page.discourse_topic_id == null %}
                         <p class="blog-comment-empty">
                             {{ site.data.strings.comments_none }}
                         </p>
@@ -60,13 +77,8 @@ layout: default
                         <div id='discourse-comments'></div>
                         <script type="text/javascript">
                             DiscourseEmbed = {
-                                discourseUrl: 'https://ubuntu-mate.community/',
-
-                                {% if page.old_comments_topic_id != null %}
-                                    topicId: {{ page.old_comments_topic_id }}
-                                {% else %}
-                                    discourseEmbedUrl: '{{ original_url }}'
-                                {% endif %}
+                                discourseUrl: '{{ site.discourse }}/',
+                                topicId: {{ page.discourse_topic_id }}
                             };
                             (function() {
                                 var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;

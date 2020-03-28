@@ -7,7 +7,7 @@ description: Ubuntu MATE makes an ideal Steam platform for Linux, find out how t
 category: news
 author: Martin Wimpress
 lang: en
-old_comments_topic_id: 21311
+discourse_topic_id: 21311
 ---
 
 A couple of weeks ago [Phoronix published an article comparing the Steam
