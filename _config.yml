@@ -54,6 +54,8 @@ exclude:
     - scripts
     - i18n
     - vendor
+    - .git
+    - .github
 
 # Network URLs
 launchpad: "https://launchpad.net/ubuntu-mate"
