@@ -34,7 +34,13 @@ We use Transifex for our in-house applications and this website.
 | Ubuntu MATE Guide | [Not translatable](https://github.com/ubuntu-mate/ubuntu-mate-guide)
 | Start Page        | <https://ubuntu-mate.community/t/how-to-translate-the-um-start-page/15169>
 
+The Welcome application suffers from a 'split strings' issue that may
+pose difficulties when translating in other languages. We apologise for the
+inconvenience and intend to refactor the application in a future release to
+address this issue.
+
 **Unsure?** [We have a guide to using Transifex below ↓](#transifex)
+
 
 ### MATE Desktop
 
@@ -56,7 +62,6 @@ such as:
 
 **Unsure?** [We have a guide to using Transifex below ↓](#transifex)
 
-
 ### Default Apps
 
 Below is a list of applications that are pre-installed and where you can
@@ -77,7 +82,7 @@ translate them.
 | Shotwell          | <https://translations.launchpad.net/ubuntu/+source/shotwell>
 | Transmission      | <https://github.com/transmission/transmission/wiki/Translating>
 | Evolution         | <https://translations.launchpad.net/ubuntu/+source/evolution>
-| Libreoffice       | <https://wiki.documentfoundation.org/Translating_LibreOffice>
+| LibreOffice       | <https://wiki.documentfoundation.org/Translating_LibreOffice>
 | Celluloid         | <https://github.com/celluloid-player/celluloid#contributing-translations>
 | Cheese            | <https://translations.launchpad.net/ubuntu/+source/cheese>
 | Rhythmbox         | <http://rhythmbox.sourceforge.net/translation.html>
@@ -87,6 +92,9 @@ translate them.
 | Magnus            | [Not translatable](https://translations.launchpad.net/magnus)
 | Onboard           | <https://translations.launchpad.net/onboard/trunk/+translations>
 | Orca Screen Reader| [Not translatable](https://translations.launchpad.net/orca)
+| Slick Greeter     | <https://translations.launchpad.net/linuxmint/latest/+pots/slick-greeter>
+
+* **Slick Greeter** is the default login screen.
 
 ---
 
