@@ -12,6 +12,10 @@
 
         </tr>
         {% for app in apps %}
+            {% if show == 'src' and app.src_url == null %}
+                {% continue %}
+            {% endif %}
+
             <tr>
                 <td class="name">
                     {% if app.img %}
@@ -32,7 +36,7 @@
                 </td>
                 {% endif %}
 
-                {% if show == 'src' %}
+                {% if show == 'src' and app.src_url != null %}
                 <td class="url">
                     <a href="{{ app.src_url }}">{{ app.src_url }}</a>
                 </td>
