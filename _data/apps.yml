@@ -34,6 +34,26 @@ ubuntu_mate:
       src_url: https://github.com/ubuntu-mate/mate-hud
       translations_url: null
 
+    - name: mate-menu
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-menu
+      translations_url: https://www.transifex.com/mate/MATE/
+
+    - name: mate-window-applets
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-window-applets
+      translations_url: null
+
+    - name: mate-dock-applet
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-dock-applet
+      translations_url: null
+
+    - name: indicator-emojitwo
+      img: /images/apps/indicator-emojitwo.png
+      src_url: https://github.com/ubuntu-mate/indicator-emojitwo
+      translations_url: null
+
 
 mate_desktop:
     - name: mate-calc
