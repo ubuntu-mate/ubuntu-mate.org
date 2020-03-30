@@ -25,19 +25,17 @@ shared between them.
 
 ### Ubuntu MATE
 
-We use Transifex for our in-house applications and this website.
+Applications specific to the Ubuntu MATE experience. For this website and our
+in-house applications, we use Transifex.
 
-| Application       | URL                                                   |
-| ----------------- | ----------------------------------------------------- |
-| Welcome           | <https://www.transifex.com/ubuntu-mate/public/>
-| Ubiquity Installation Slideshow | <https://translations.launchpad.net/ubuntu/focal/+source/ubiquity-slideshow-ubuntu/+pots/slideshow-ubuntu-mate>
-| Ubuntu MATE Guide | [Not translatable](https://github.com/ubuntu-mate/ubuntu-mate-guide)
-| Start Page        | <https://ubuntu-mate.community/t/how-to-translate-the-um-start-page/15169>
+{% include partials/app-directory.html list="ubuntu_mate" show="translations" %}
 
-The Welcome application suffers from a 'split strings' issue that may
+The **Welcome** application suffers from a 'split strings' issue that may
 pose difficulties when translating in other languages. We apologise for the
 inconvenience and intend to refactor the application in a future release to
 address this issue.
+
+Note that **Software Boutique** is currently part of the **Welcome** application.
 
 **Unsure?** [We have a guide to using Transifex below ↓](#transifex)
 
@@ -53,10 +51,11 @@ such as:
 * Eye of MATE Image Viewer
 * MATE Calculator
 * MATE Control Centre
-* MATE Panel
 * MATE System Monitor
 * MATE Terminal
 * Pluma Text Editor
+
+As well as system configuration and panel applets.
 
 [Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn .green}
 
@@ -67,34 +66,7 @@ such as:
 Below is a list of applications that are pre-installed and where you can
 translate them.
 
-| Application       | URL                                                   |
-| ----------------- | ----------------------------------------------------- |
-| Brisk Menu        | <https://translate.getsol.us/projects/brisk-menu/brisk-menu-translations/>
-| Deja-Dup          | <https://translations.launchpad.net/deja-dup>
-| GNOME Disks       | <https://translations.launchpad.net/ubuntu/+source/gnome-disk-utility>
-| gucharmap         | <https://gitlab.gnome.org/GNOME/gucharmap/-/blob/master/po/README>
-| Seahorse          | <https://translations.launchpad.net/ubuntu/+source/seahorse>
-| Plank             | <https://translations.launchpad.net/plank>
-| Redshift          | <https://translations.launchpad.net/redshift>
-| Apport            | <https://translations.launchpad.net/apport>
-| Firefox           | <https://support.mozilla.org/en-US/get-involved/l10n>
-| Simple Scan       | <https://translations.launchpad.net/ubuntu/+source/simple-scan>
-| Shotwell          | <https://translations.launchpad.net/ubuntu/+source/shotwell>
-| Transmission      | <https://github.com/transmission/transmission/wiki/Translating>
-| Evolution         | <https://translations.launchpad.net/ubuntu/+source/evolution>
-| LibreOffice       | <https://wiki.documentfoundation.org/Translating_LibreOffice>
-| Celluloid         | <https://github.com/celluloid-player/celluloid#contributing-translations>
-| Cheese            | <https://translations.launchpad.net/ubuntu/+source/cheese>
-| Rhythmbox         | <http://rhythmbox.sourceforge.net/translation.html>
-| GParted           | <https://l10n.gnome.org/module/gparted/>
-| gdebi             | <https://translations.launchpad.net/gdebi/trunk/+translations>
-| Firmware          | <https://gitlab.gnome.org/hughsie/gnome-firmware-updater/-/tree/master/po>
-| Magnus            | [Not translatable](https://translations.launchpad.net/magnus)
-| Onboard           | <https://translations.launchpad.net/onboard/trunk/+translations>
-| Orca Screen Reader| [Not translatable](https://translations.launchpad.net/orca)
-| Slick Greeter     | <https://translations.launchpad.net/linuxmint/latest/+pots/slick-greeter>
-
-* **Slick Greeter** is the default login screen.
+{% include partials/app-directory.html list="preinstalled" show="translations" %}
 
 ---
 
@@ -102,7 +74,9 @@ translate them.
 
 ### Launchpad
 
-A Launchpad account is required. Please [see the documentation](https://help.launchpad.net/Translations).
+Launchpad is used throughout Ubuntu for building and maintaining software.
+To translate, you'll need a Launchpad account.
+Please [see the documentation for translating](https://help.launchpad.net/Translations).
 
 ### Transifex
 

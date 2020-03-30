@@ -119,6 +119,7 @@ comments_none_old: "The comment section for this old article has been closed. Th
 comments_none: "Comments are not available for this post."
 comments_no_js: "To view comments, please enable JavaScript in your browser."
 
+
 #######################################
 # Categories
 #######################################
@@ -221,6 +222,10 @@ dev_active: "In Progress"
 dev_completed: "Completed"
 design_guidelines: "Design Guidelines"
 
+# App directory
+application: "Application"
+url: "URL"
+no_translation_url: "Does not support translations"
 
 #######################################
 # FAQs

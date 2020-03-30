@@ -1,0 +1,170 @@
+ubuntu_mate:
+    - name: Installation Slideshow
+      img: /images/apps/ubiquity.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/ubiquity-slideshow-ubuntu
+
+    - name: Ubuntu MATE Guide
+      img: /images/ubuntu-mate/logo.svg
+      src_url:
+      translations_url: null
+
+    - name: Start Page
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/start.ubuntu-mate.org
+      translations_url: https://ubuntu-mate.community/t/how-to-translate-the-um-start-page/15169
+
+    - name: Welcome
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/ubuntu-mate-welcome-legacy
+      translations_url: https://www.transifex.com/ubuntu-mate/public/
+
+    - name: ubuntu-mate.org
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/ubuntu-mate.org
+      translations_url: null                # Not set up yet
+
+
+mate_desktop:
+
+
+preinstalled:
+    - name: Ubiquity
+      img: /images/apps/ubiquity.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/ubiquity
+
+    - name: Brisk Menu
+      img: /images/apps/brisk.svg
+      src_url:
+      translations_url: https://translate.getsol.us/projects/brisk-menu/brisk-menu-translations/
+
+    - name: Déjà Dup
+      img: /images/apps/deja-dup.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/deja-dup
+
+    - name: GNOME Disks
+      img: /images/apps/gnome-disks.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/gnome-disk-utility
+
+    - name: gucharmap
+      img: /images/apps/accessories-character-map.png
+      src_url:
+      translations_url: https://gitlab.gnome.org/GNOME/gucharmap/-/blob/master/po/README
+
+    - name: Seahorse
+      img: /images/apps/seahorse.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/seahorse
+
+    - name: Plank
+      img: /images/apps/plank.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/plank
+
+    - name: Redshift
+      img: /images/apps/redshift.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/redshift
+
+    - name: Apport
+      img: /images/apps/apport.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/apport
+
+    - name: Firefox
+      img: /images/apps/firefox.svg
+      src_url:
+      translations_url: https://support.mozilla.org/en-US/get-involved/l10n
+
+    - name: Simple Scan
+      img: /images/apps/simple-scan.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/simple-scan
+
+    - name: Shotwell
+      img: /images/apps/shotwell.png
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/shotwell
+
+    - name: Transmission
+      img: /images/apps/transmission.png
+      src_url:
+      translations_url: https://github.com/transmission/transmission/wiki/Translating
+
+    - name: Evolution
+      img: /images/apps/evolution.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/evolution
+
+    - name: LibreOffice
+      img: /images/apps/libreoffice.svg
+      src_url:
+      translations_url: https://wiki.documentfoundation.org/Translating_LibreOffice
+
+    - name: Celluloid
+      img: /images/apps/celluloid.svg
+      src_url:
+      translations_url: https://github.com/celluloid-player/celluloid#contributing-translations
+
+    - name: Cheese
+      img: /images/apps/cheese.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/cheese
+
+    - name: Rhythmbox
+      img: /images/apps/rhythmbox.svg
+      src_url:
+      translations_url: http://rhythmbox.sourceforge.net/translation.html
+
+    - name: GParted
+      img: /images/apps/gparted.svg
+      src_url:
+      translations_url: https://l10n.gnome.org/module/gparted/
+
+    - name: gdebi
+      img: /images/apps/application-x-deb.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/gdebi/trunk/+translations
+
+    - name: Firmware
+      img: /images/apps/firmware.svg
+      src_url:
+      translations_url: https://gitlab.gnome.org/hughsie/gnome-firmware-updater/-/tree/master/po
+
+    - name: Magnus
+      img: /images/apps/zoom-best-fit.svg
+      src_url:
+      translations_url: null        # https://translations.launchpad.net/magnus but not public
+
+    - name: Onboard
+      img: /images/apps/onboard.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/onboard/trunk/+translations
+
+    - name: Orca
+      img: /images/apps/orca.png
+      src_url:
+      translations_url: null        # https://translations.launchpad.net/orca but not public
+
+    - name: Slick Greeter
+      img: /images/apps/lightdm-settings.png
+      src_url:
+      translations_url: https://translations.launchpad.net/linuxmint/latest/+pots/slick-greeter
+
+    - name: CUPS
+      img: /images/apps/printer.svg
+      src_url:
+      translations_url: https://www.cups.org/doc/translation.html
+
+    - name: software-properties
+      img: /images/apps/software-properties.png
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/software-properties
+
+    - name: update-manager
+      img: /images/apps/system-software-update.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/update-manager
