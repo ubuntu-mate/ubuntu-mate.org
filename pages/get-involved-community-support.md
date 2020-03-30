@@ -34,6 +34,13 @@ This helped our developers fix the immediate issue, and to keep this in mind for
 future versions. So if you have an idea (that's not a bug report) on how to
 improve Ubuntu MATE, let us know in the Development Discussion!
 
+### Tips, Tricks and Tutorials
+
+If you think of something that would be genuinely useful to others, consider
+writing out a guide, note it out as a quick tip, or write a tutorial. All posts
+in these categories are wiki, so you are welcome to improve upon others'
+work too.
+
 ### Be the Welcoming Committee
 
 Patience is a virtue. And like most virtues, sometimes it isn't easy.
