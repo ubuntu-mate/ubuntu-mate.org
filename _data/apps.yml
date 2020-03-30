@@ -309,3 +309,20 @@ preinstalled:
       img: /images/apps/system-software-update.svg
       src_url: https://code.launchpad.net/ubuntu/+source/update-manager
       translations_url: https://translations.launchpad.net/update-manager
+
+artwork:
+    - name: ubuntu-mate-artwork
+      img: /images/Ambiant-MATE/preferences-desktop-theme.svg
+      src_url: https://github.com/ubuntu-mate/ubuntu-mate-artwork
+
+    - name: mate-themes
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-themes
+
+    - name: mate-icon-theme
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-icon-theme
+
+    - name: grub2-themes-ubuntu-mate
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/grub2-themes-ubuntu-mate
