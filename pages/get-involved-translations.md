@@ -37,8 +37,10 @@ address this issue.
 
 Note that **Software Boutique** is currently part of the **Welcome** application.
 
-**Unsure?** [We have a guide to using Transifex below ↓](#transifex)
+[Translate on Transifex](https://www.transifex.com/ubuntu-mate/public/){:.btn .green}
+[Transifex Guide](#transifex){:.btn}
 
+---
 
 ### MATE Desktop
 
@@ -58,8 +60,9 @@ such as:
 As well as system configuration and panel applets.
 
 [Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn .green}
+[Transifex Guide](#transifex){:.btn}
 
-**Unsure?** [We have a guide to using Transifex below ↓](#transifex)
+---
 
 ### Default Apps
 
