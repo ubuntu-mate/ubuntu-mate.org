@@ -1,0 +1,20 @@
+.app-directory {
+    .name {
+        font-weight: 600;
+        min-width: 30%;
+    }
+
+    img {
+        max-height: 24px;
+        max-width: 24px;
+        vertical-align: middle;
+    }
+
+    span {
+        vertical-align: middle;
+    }
+}
+
+.no-url {
+    color: $grey-light;
+}

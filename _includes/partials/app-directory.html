@@ -1,0 +1,48 @@
+{% assign apps = site.data.apps[include.list] %}
+{% assign show = include.show %}
+
+<table class="app-directory">
+    <tbody>
+        <tr>
+            <th>{{ site.data.strings.application }}</th>
+
+            {% if show == 'translations' or show == 'src' %}
+            <th>{{ site.data.strings.url }}</th>
+            {% endif %}
+
+        </tr>
+        {% for app in apps %}
+            {% if show == 'src' and app.src_url == null %}
+                {% continue %}
+            {% endif %}
+
+            <tr>
+                <td class="name">
+                    {% if app.img %}
+                        <img src="{{ app.img }}" alt="{{ app.name }}"/>
+                    {% endif %}
+                    <span>{{ app.name }}</span>
+                </td>
+
+                {% if show == 'translations' and app.translations_url != null %}
+                <td class="url">
+                    <a href="{{ app.translations_url }}">{{ app.translations_url }}</a>
+                </td>
+                {% endif %}
+
+                {% if show == 'translations' and app.translations_url == null %}
+                <td class="url">
+                    <span class="no-url">{{ site.data.strings.no_translation_url }}</span>
+                </td>
+                {% endif %}
+
+                {% if show == 'src' and app.src_url != null %}
+                <td class="url">
+                    <a href="{{ app.src_url }}">{{ app.src_url }}</a>
+                </td>
+                {% endif %}
+
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
