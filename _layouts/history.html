@@ -13,36 +13,13 @@ layout: default
                 %}
 
                 <div class="milestone-timeline">
+                    <div class="milestone-sidebar"></div>
+                    <article class="milestone-article">
 
-                    {% for milestone in page.history %}
+                        {{ content }}
 
-                        <div class="milestone">
-                            <div class="milestone-arrows">
-                                <div class="line"></div>
-                                <div class="era">{{ milestone.era }}</div>
-                                {% include images/arrow.svg %}
-                            </div>
-
-                            <div class="milestone-content">
-                                <div class="milestone-markdown">
-                                    <h3>{{ milestone.title }}</h3>
-
-                                    {{ milestone.desc | markdownify }}
-                                </div>
-
-                                {% if milestone.image %}
-                                    <img class="milestone-image" src="{{ milestone.image }}" alt=""/>
-                                {% endif %}
-
-                            </div>
-
-                        </div>
-
-                    {% endfor %}
-
+                    </article>
                 </div>
-
-                {{ content }}
 
             </content>
         </div>

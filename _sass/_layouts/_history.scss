@@ -3,93 +3,39 @@ $side-arrow: 32px;
 
 .milestone-timeline {
     display: flex;
-    flex-direction: column;
-}
-
-.milestone-arrows {
-    width: $side-width;
-    background: url(/images/history/motif.jpg) repeat;
-    min-height: 190px;
-    background-size: 620px;
-    position: relative;
-    overflow: visible;
-
-    .line {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 30px;
-        width: 1px;
-        border-right: 2px solid $grey-dark;
-        transition: border-right-color $transition-duration $transition-timing;
-    }
-
-    .era {
-        position: absolute;
-        top: 20px;
-        left: 50px;
-        font-size: 1.25em;
-        color: $grey-dark;
-        transition: color $transition-duration $transition-timing,
-                    transform $transition-duration $transition-timing;
-    }
-
-    svg {
-        position: absolute;
-        top: 18px;
-        left: 15px;
-        height: $side-arrow;
-        width: $side-arrow;
-        transition: transform $transition-duration $transition-timing;
-
-        path {
-            position: sticky;
-            fill: $grey-dark;
-            transition: fill $transition-duration $transition-timing;
-        }
-    }
-}
-
-.milestone {
-    display: flex;
     flex-direction: row;
+}
 
-    &:hover {
-        .milestone-arrows {
-            svg {
-                transform: translateX(10px);
-            }
+.milestone-sidebar {
+    width: $side-width;
+    background: url(/images/history/motif.jpg) repeat -250px 0px;
+    min-height: 200px;
+    background-size: 480px;
+}
 
-            svg path {
-                fill: $grey-light;
-            }
+.milestone-article {
+    padding: 15px 0 15px 30px;
+    width: calc(100% - #{$side-width});
 
-            .era {
-                color: $grey-light;
-                transform: translateX(10px);
-            }
+    h2 {
+        position: absolute;
+        left: 30px;
+        margin-top: 15px;
+        font-size: 1.25em;
+        color: $grey-light;
 
-            .line {
-                border-right-color: $grey-light;
-            }
+        &:first-child {
+            margin-top: 30px;
         }
     }
 
-    &:nth-child(even) {
-        background: $background-alt;
+    h3 {
+        margin-top: 30px;
     }
 }
-
-.milestone-content {
-    display: flex;
-    padding: 15px;
-    width: calc(100% - #{$side-width});
-    padding-left: 30px;
-}
-
-.milestone-markdown {}
 
 .milestone-image {
+    float: right;
     margin-left: auto;
     max-height: 250px;
     max-width: 250px;
