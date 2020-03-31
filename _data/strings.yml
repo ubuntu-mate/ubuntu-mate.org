@@ -227,6 +227,7 @@ application: "Application"
 url: "URL"
 no_translation_url: "Does not support translations"
 
+
 #######################################
 # FAQs
 #######################################
@@ -246,18 +247,15 @@ prepare_media: "Media Preparations"
 #######################################
 # Team
 #######################################
-team_ubuntu: "Member of Ubuntu"
+team_ubuntu: "Ubuntu Member"
 team_canonical: "Works at Canonical"
-team_mate: "Member of MATE Desktop Team"
-team_coder: "Recurring Code Contributor"
-team_artwork: "Recurring Artwork Contributor"
-team_docs: "Recurring Artwork Contributor"
+team_mate: "MATE Desktop Team"
+team_coder: "Code Contributor"
+team_artwork: "Artwork Contributor"
+team_docs: "Documentation Contributor"
 team_moderator: "Community Moderator"
 team_qa: "Quality Assurance Tester"
 team_packager: "Package Maintainer"
-
-thanks_title: "Contributors & Special Thanks"
-thanks_subtitle: "These people made small, but significant contributions."
 
 
 #######################################
