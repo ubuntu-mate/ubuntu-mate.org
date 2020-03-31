@@ -32,15 +32,20 @@ ports:
       desc: Optimised for this hardware.
       id: gpd_pocket
 
-    - name: GPD Pocket 2
+    - name: GPD Pocket 2 and GPD WIN 2
       icon: images/fa/laptop.svg
-      desc: Optimised for this hardware.
+      desc: Plus OneMix Yoga 1s and OneMix Yoga 2
       id: gpd_pocket_2
 
     - name: GPD Micro PC
       icon: images/fa/laptop.svg
       desc: Optimised for this hardware.
       id: gpd_micropc
+
+    - name: GPD P2 Max
+      icon: images/fa/laptop.svg
+      desc: Optimised for this hardware.
+      id: gpd_p2_max
 
     - name: Topjoy Falcon
       icon: images/fa/laptop.svg

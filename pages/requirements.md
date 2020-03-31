@@ -44,5 +44,9 @@ Raspberry Pi 4 is not currently supported at the moment, but is planned for a fu
 
 Ubuntu MATE has been officially ported to, and works great on:
 
-* [GPD Pocket (Original)](/download/gpd_pocket/)
-* [GPD Pocket 2](/download/gpd_pocket_2/)
+| Codename              | Compatible with                                   |
+| --------------------- | ------------------------------------------------- |
+| [gpd_pocket](/download/gpd_pocket/) | Original GPD Pocket.
+| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix Yoga 1s and OneMix Yoga 2.
+| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC
+| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon

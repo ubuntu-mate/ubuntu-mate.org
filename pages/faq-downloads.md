@@ -34,6 +34,14 @@ applications that will benefit from a 64-bit instruction set.
 * **powerpc** is for non-Intel Macs before 2006 and compatible IBM PowerPC
 machines. New downloads for these are no longer available.
 
+**Ubuntu MATE Exclusive**
+
+* If you have an ultra mobile PC (UMPC), like certain GPD branded
+  models or a Topjoy Falcon, we have builds designed specifically for that
+  hardware.
+
+  More details can be [found on our UMPC page](/ports/umpcs/).
+
 
 ## Which release?
 
