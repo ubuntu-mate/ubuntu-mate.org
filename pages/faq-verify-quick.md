@@ -33,7 +33,7 @@ This method uses a third-party application named **MD5 & SHA Checksum Utility**.
 * Launch the application *MD5_and_SHA_Checksum_Utility.exe*
 * Click on the **Browse** button and browse to the *Ubuntu MATE* ISO file.
 
-![MD5 and SHA Checksum](/images/faq/verify/MD5_and_SHA_Checksum_Utility.png)
+    ![MD5 and SHA Checksum](/images/faq/verify/MD5_and_SHA_Checksum_Utility.png)
 
 **Note:** To make calculation faster, it's only necessary to check the checksums
 you have values for.
@@ -47,13 +47,13 @@ On macOS, you can verify checksums easily and manually in the command line, as
 * Open a **Terminal** window and a **Finder** window containing the ISO.
 * Type `shasum -a 256` and drag the ISO's file icon into **Terminal**.
 
-![Macbook SHA1](/images/faq/verify/MacbookSHA1.png)
+    ![Macbook SHA1](/images/faq/verify/MacbookSHA1.png)
 
 * Press **Enter** to begin the process. This may take a few moments.
 * Compare the SHA256 checksum printed to the command line to the checksum on
 the image's download page.
 
-![Macbook SHA2](/images/faq/verify/MacbookSHA2.png)
+    ![Macbook SHA2](/images/faq/verify/MacbookSHA2.png)
 
 
 ### GNU/Linux
@@ -67,7 +67,7 @@ This application can be installed via your distribution's software manager, if i
 * On the page where you downloaded the ISO, copy the SHA256 checksum and paste into the **Check** field
 * Click **Hash** - a green checkmark means the image is verified
 
-![Gtkhash](/images/faq/verify/gtkhash.png)
+    ![Gtkhash](/images/faq/verify/gtkhash.png)
 
 #### Command Line
 
@@ -89,4 +89,4 @@ pre-installed and allows you to perform checksums from within the file browser.
 * Open the **Digests** tab.
 * Copy the SHA256SUM checksum from the download page and paste into **Check** field. The green check mark means the download is verified.
 
-![Check SHA256 Hash](/images/faq/verify/Check-SHA256-Hash.png)
+    ![Check SHA256 Hash](/images/faq/verify/Check-SHA256-Hash.png)
