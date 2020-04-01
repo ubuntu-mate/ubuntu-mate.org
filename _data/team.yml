@@ -22,7 +22,6 @@
         - canonical
         - ubuntu
 
-
 - title: Regulars
   members:
 
@@ -124,30 +123,30 @@
       roles:
         - artwork
 
-   - name: Alexandru Polihron
-     avatar: "https://avatars2.githubusercontent.com/u/14872517?s=460&u=02ce1c8eb7cf432319e59cf803580f50845b9ddd&v=4"
-     url: "https://github.com/apolitech"
-     roles:
-       - qa
+    - name: Alexandru Polihron
+      avatar: "https://avatars2.githubusercontent.com/u/14872517?s=460&u=02ce1c8eb7cf432319e59cf803580f50845b9ddd&v=4"
+      url: "https://github.com/apolitech"
+      roles:
+        - qa
 
-   - name: Alexei Sorokin
-     avatar: "https://avatars0.githubusercontent.com/u/386788?s=400&v=4"
-     url: "https://github.com/XRevan86"
-     roles:
-       - mate_desktop
-       - qa
-       - bug_hunter
+    - name: Alexei Sorokin
+      avatar: "https://avatars0.githubusercontent.com/u/386788?s=400&v=4"
+      url: "https://github.com/XRevan86"
+      roles:
+        - mate_desktop
+        - qa
+        - bug_hunter
 
-   - name: Jon Uhler
-     avatar: null
-     url: "https://jonuhler.com/"
-     roles:
-       - qa
-       - bug_hunter
+    - name: Jon Uhler
+      avatar: null
+      url: "https://jonuhler.com/"
+      roles:
+        - qa
+        - bug_hunter
 
-   - name: Wolfgang Ulbrich
-     avatar: "https://avatars1.githubusercontent.com/u/961604?s=400&u=98aa39cd5b8bde7c5f2af88fc0194cb338114dc7&v=4"
-     url: "https://github.com/raveit65"
-     roles:
-       - mate_desktop
-       - artwork
+    - name: Wolfgang Ulbrich
+      avatar: "https://avatars1.githubusercontent.com/u/961604?s=400&u=98aa39cd5b8bde7c5f2af88fc0194cb338114dc7&v=4"
+      url: "https://github.com/raveit65"
+      roles:
+        - mate_desktop
+        - artwork
