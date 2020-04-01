@@ -35,6 +35,7 @@ markdown: kramdown
 plugins:
     - jekyll-feed
     - jekyll-webp
+    - jemoji
 
 feed:
     path: rss.xml

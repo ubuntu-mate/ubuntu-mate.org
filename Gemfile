@@ -17,3 +17,5 @@ end
 # https://github.com/sverrirs/jekyll-webp
 gem "jekyll-webp"
 
+# Emojis
+gem "jemoji"
