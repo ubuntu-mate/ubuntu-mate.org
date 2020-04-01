@@ -23,16 +23,16 @@ youtube:
     - embed_url: "https://www.youtube.com/embed/_h4R-yP2x80?rel=0"
       who: "QuidsUp"
       quote: "I keep thinking that Ubuntu MATE must run out of ideas at some point, yet they have surprised me on every single release. I look forward to seeing what they've come out with on the next release....On a final note, I do have to say to Mr. Martin Wimpress, you're making it difficult for me to justify staying with KDE when you're making Ubuntu MATE look this bloody good. Well-played, sir, well-played."
-      subject: "Review of Ubuntu MATE 16.04"
+      subject: "Review of Ubuntu MATE 18.04 LTS"
 
     - embed_url: "https://www.youtube.com/embed/rqA7b4ba29o?rel=0"
       who: "Joe from the EzeeLinux Show"
       quote: "I'm really excited about Ubuntu MATE....I'm so excited. Everything just works. This is awesome."
-      subject: "Review of Ubuntu MATE 16.04"
+      subject: "Review of Ubuntu MATE 18.04 LTS"
 
     - embed_url: "https://www.youtube.com/embed/WXqbMgHfHBI?rel=0"
       who: "Jay from LearnLinuxTV"
       quote: "Ubuntu MATE has a special place in my heart because the amount of work and careful attention that the development team puts into this release. It's like a labor of love and they really do a great job here."
-      subject: "Review of Ubuntu MATE 16.04"
+      subject: "Review of Ubuntu MATE 18.04 LTS"
 
 ---
