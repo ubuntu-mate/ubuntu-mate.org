@@ -40,3 +40,41 @@ $side-arrow: 32px;
     max-height: 250px;
     max-width: 250px;
 }
+
+@media (max-width: $sm) {
+    .milestone-sidebar {
+        display: none;
+    }
+
+    .milestone-article {
+        width: 100%;
+        padding: 0;
+
+        h2 {
+            position: static;
+            left: unset;
+            margin-top: 30px;
+            position: static;
+            background: url(/images/history/motif.jpg) repeat -0px 100px;
+            background-size: 500px;
+            padding: 10px 15px;
+            margin: 30px -15px 15px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        h3 {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: $xs) {
+    .milestone-image {
+        float: none;
+        text-align: center;
+        margin: 15px auto;
+    }
+}

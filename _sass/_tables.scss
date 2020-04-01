@@ -64,3 +64,12 @@ table.icons {
         padding-bottom: 0;
     }
 }
+
+@media (max-width: $xs) {
+    table.icons {
+        svg, img {
+            max-height: 30vh;
+            max-width: 30vw;
+        }
+    }
+}

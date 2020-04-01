@@ -37,13 +37,19 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: $sm) {
     .member-avatar,
     .member > a {
         height: 75px;
         width: 75px;
     }
 
+    .team-members .member {
+        width: 33%;
+    }
+}
+
+@media (max-width: $xs) {
     .team-members .member {
         width: 50%;
     }

@@ -18,12 +18,14 @@
 }
 
 .banner-inner {
+    display: flex;
     margin: auto;
 
     img {
         display: inline-block;
         height: auto;
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
         margin: 15px;
         vertical-align: middle;
     }
@@ -40,6 +42,7 @@
     font-size: 24px;
     vertical-align: middle;
     max-width: $sm;
+    margin: auto;
 
     h1, h2, h3 {
         font-weight: 400;
@@ -57,4 +60,41 @@
 /* Home page only */
 .page.has-banner .banner {
     margin-top: -15px;
+}
+
+@media (max-width: $md) {
+    .banner {
+        max-height: 240px;
+    }
+
+    .banner-inner {
+        img {
+            max-width: 250px;
+        }
+    }
+
+    .banner-text {
+        font-size: 20px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: $sm) {
+    .banner {
+        max-height: unset;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .banner-inner {
+        flex-direction: column;
+
+        img {
+            margin: auto;
+        }
+    }
+
+    .banner-text {
+        padding: 0 15px;
+    }
 }

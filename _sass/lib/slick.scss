@@ -98,3 +98,14 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+$sm: 768px - 1px;
+@media (max-width: $sm) {
+    .slick-dots {
+        flex-wrap: wrap;
+        margin: 15px auto;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 80px);
+    }
+}

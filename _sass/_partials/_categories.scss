@@ -94,17 +94,13 @@
     transition: color $transition-duration $transition-timing;
 }
 
-@media screen and (max-width: $md) {
-    .categories {
-        flex-wrap: wrap;
-    }
-
+@media screen and (max-width: $md), (max-height: $sm) {
     .category-item {
         padding: 5px;
         padding-bottom: 15px;
         margin-top: 10px;
         width: auto;
-        flex: 1 0 25%;
+        flex: 1 0 0;
 
         &:hover,
         &:focus,
@@ -126,7 +122,15 @@
     }
 }
 
-@media screen and (max-width: $xs) {
+@media screen and (max-width: $md), (max-height: $xs) {
+    .categories {
+        flex-wrap: wrap;
+        position: static;
+        top: 0;
+    }
+}
+
+@media (max-width: $xs) {
     .category-item {
         flex: 1 0 33%;
     }

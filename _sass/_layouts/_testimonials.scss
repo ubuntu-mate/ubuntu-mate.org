@@ -96,3 +96,25 @@ $avatar-size: 120px;
         width: 100%;
     }
 }
+
+@media (max-width: $sm) {
+    .testimonial-quote {
+        flex-direction: column;
+
+        .avatar {
+            margin: auto;
+        }
+
+        .quote-block {
+            width: 100%;
+
+            svg {
+                display: none;
+            }
+        }
+    }
+
+    .testimonial-video {
+        width: 100%;
+    }
+}

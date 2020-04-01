@@ -277,9 +277,29 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     .feature-highlight,
     .feature-highlight.reverse {
         flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 0;
 
         .highlight-text {
-            margin-top: 0;
+            margin-top: 15px;
+            text-align: center;
+
+            h3, p {
+                margin: 15px 0;
+            }
+        }
+    }
+
+    .feature-mini {
+        flex-direction: column;
+        margin-top: 0;
+
+        .feature {
+            margin-top: 30px;
+
+            &:first-child {
+                margin-top: 0;
+            }
         }
     }
 }
