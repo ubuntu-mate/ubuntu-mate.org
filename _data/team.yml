@@ -6,8 +6,8 @@
   members:
 
     - name: Martin Wimpress
-      avatar: https://avatars0.githubusercontent.com/u/304639?s=460&v=4
-      url: https://wimpysworld.com/
+      avatar: "https://avatars0.githubusercontent.com/u/304639?s=460&v=4"
+      url: "https://wimpysworld.com/"
       roles:
         - canonical
         - ubuntu
@@ -16,8 +16,8 @@
         - packager
 
     - name: Alan Pope
-      avatar: https://avatars0.githubusercontent.com/u/1841272?s=460&v=4
-      url: http://popey.com/blog/
+      avatar: "https://avatars0.githubusercontent.com/u/1841272?s=460&v=4"
+      url: "http://popey.com/blog/"
       roles:
         - canonical
         - ubuntu
@@ -27,127 +27,127 @@
   members:
 
     - name: Pablo Barciela
-      avatar: https://avatars2.githubusercontent.com/u/7734191?s=400&u=fd0be8cdb3620a24b45b22194592d5c8d842e4c8&v=4
-      url: https://github.com/sc0w
+      avatar: "https://avatars2.githubusercontent.com/u/7734191?s=400&u=fd0be8cdb3620a24b45b22194592d5c8d842e4c8&v=4"
+      url: "https://github.com/sc0w"
       roles:
         - artwork
         - mate_desktop
-        
+
     - name: Larry Bushey
       avatar: null
-      url: https://goinglinux.com/
+      url: "https://goinglinux.com/"
       roles:
         - documentation
-       
+
     - name: Michael Dooley
       avatar: null
       url: null
       roles:
         - qa
         - moderator
-       
+
     - name: Mike Gabriel
-      avatar: https://avatars2.githubusercontent.com/u/407231?s=400&u=7bd17167589ce6862f2d66da08561e4f02a986f7&v=4
-      url: https://github.com/sunweaver
-      roles: 
+      avatar: "https://avatars2.githubusercontent.com/u/407231?s=400&u=7bd17167589ce6862f2d66da08561e4f02a986f7&v=4"
+      url: "https://github.com/sunweaver"
+      roles:
         - mate_desktop
         - packager
-        
+
     - name: Luke Horwell
-      avatar: https://avatars0.githubusercontent.com/u/13032135?s=400&u=a875615a13b0f9a4fa6999d4c48e6e142fc426bf&v=4
-      url: https://github.com/lah7
+      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=400&u=a875615a13b0f9a4fa6999d4c48e6e142fc426bf&v=4"
+      url: "https://github.com/lah7"
       roles:
         - code
         - documentation
         - moderator
-        
+
     - name: franksmcb
-      avatar: https://avatars3.githubusercontent.com/u/44311495?s=400&u=ea48219473980a9a9162e63df291389e0f28083e&v=4
-      url: https://github.com/franksmcb
+      avatar: "https://avatars3.githubusercontent.com/u/44311495?s=400&u=ea48219473980a9a9162e63df291389e0f28083e&v=4"
+      url: "https://github.com/franksmcb"
       roles:
         - qa
         - moderation
         - bug_hunter
-              
+
     - name: Victor Kareh
-      avatar: https://avatars1.githubusercontent.com/u/259780?s=400&u=5a5e5898c9fe0b8f10a146ee070300c4a20bcc94&v=4
-      url: https://github.com/vkareh
+      avatar: "https://avatars1.githubusercontent.com/u/259780?s=400&u=5a5e5898c9fe0b8f10a146ee070300c4a20bcc94&v=4"
+      url: "https://github.com/vkareh"
       roles:
         - mate_desktop
-        - qa  
-        
+        - qa
+
     - name: Matthew Keeler
       avatar: null
-      url: https://ubuntu-mate.community/u/mttke/summary
+      url: "https://ubuntu-mate.community/u/mttke/summary"
       roles:
        - qa
        - moderation
-       
+
     - name: Luke Kuhn
-      avatar: https://avatars3.githubusercontent.com/u/14036792?s=400&v=4
-      url: https://github.com/lukefromdc
+      avatar: "https://avatars3.githubusercontent.com/u/14036792?s=400&v=4"
+      url: "https://github.com/lukefromdc"
       roles:
         - mate_desktop
         - artwork
         - qa
         - bug_hunter
-        
+
     - name: Jeff Labonte
-      avatar: https://avatars1.githubusercontent.com/u/9425955?s=400&v=4
-      url: https://github.com/JeffLabonte
-      roles: 
+      avatar: "https://avatars1.githubusercontent.com/u/9425955?s=400&v=4"
+      url: "https://github.com/JeffLabonte"
+      roles:
         - code
-    
+
     - name: Monica Madon
-      avatar: https://avatars1.githubusercontent.com/u/47995143?s=400&u=1781bbc03659c17d0149ffcc960454565158cb17&v=4
-      url: https://github.com/madhens
+      avatar: "https://avatars1.githubusercontent.com/u/47995143?s=400&u=1781bbc03659c17d0149ffcc960454565158cb17&v=4"
+      url: "https://github.com/madhens"
       roles:
         - documentation
-        
+
     - name: Vangelis Mouhtsis
-      avatar: https://avatars0.githubusercontent.com/u/44510190-s=400&u=a0ba689a8d78c543572428cfe13b617c1c511e7a&v=4
-      url: https://github.com/gnugr  
+      avatar: "https://avatars0.githubusercontent.com/u/44510190-s=400&u=a0ba689a8d78c543572428cfe13b617c1c511e7a&v=4"
+      url: "https://github.com/gnugr"
       roles:
         - mate_desktop
         - packager
-        
+
     - name: Vlad Orlov
-      avatar: https://avatars2.githubusercontent.com/u/5138986?s=400&v=4
-      url: https://github.com/monsta
-      roles: 
+      avatar: "https://avatars2.githubusercontent.com/u/5138986?s=400&v=4"
+      url: "https://github.com/monsta"
+      roles:
         - mate_desktop
         - bug_fixer
-        
+
     - name: Roberto Perico
-      avatar: https://avatars1.githubusercontent.com/u/17325227?s=400&v=4
-      url: https://github.com/RobertoPerico
+      avatar: "https://avatars1.githubusercontent.com/u/17325227?s=400&v=4"
+      url: "https://github.com/RobertoPerico"
       roles:
         - artwork
-        
+
    - name: Alexandru Polihron
-     avatar: https://avatars2.githubusercontent.com/u/14872517?s=460&u=02ce1c8eb7cf432319e59cf803580f50845b9ddd&v=4
-     url: https://github.com/apolitech
+     avatar: "https://avatars2.githubusercontent.com/u/14872517?s=460&u=02ce1c8eb7cf432319e59cf803580f50845b9ddd&v=4"
+     url: "https://github.com/apolitech"
      roles:
        - qa
-       
+
    - name: Alexei Sorokin
-     avatar: https://avatars0.githubusercontent.com/u/386788?s=400&v=4
-     url: https://github.com/XRevan86
+     avatar: "https://avatars0.githubusercontent.com/u/386788?s=400&v=4"
+     url: "https://github.com/XRevan86"
      roles:
        - mate_desktop
        - qa
        - bug_hunter
-       
+
    - name: Jon Uhler
      avatar: null
-     url: https://jonuhler.com/
-     roles: 
+     url: "https://jonuhler.com/"
+     roles:
        - qa
-       - bug_hunter  
-       
+       - bug_hunter
+
    - name: Wolfgang Ulbrich
-     avatar: https://avatars1.githubusercontent.com/u/961604?s=400&u=98aa39cd5b8bde7c5f2af88fc0194cb338114dc7&v=4
-     url: https://github.com/raveit65
+     avatar: "https://avatars1.githubusercontent.com/u/961604?s=400&u=98aa39cd5b8bde7c5f2af88fc0194cb338114dc7&v=4"
+     url: "https://github.com/raveit65"
      roles:
        - mate_desktop
-       - artwork                                                    
+       - artwork
