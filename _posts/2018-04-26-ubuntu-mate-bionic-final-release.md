@@ -151,7 +151,7 @@ Marco now supports drag to quadrant window tiling, cursor keys can be
 used to navigate the <kbd>Alt</kbd>+<kbd>Tab</kbd>switcher and keyboard
 shortcuts to move windows to another monitor were added.
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/V6kth-4M62o?html5=1&amp;rel=0&amp;showinfo=0"
 %}
 

@@ -13,7 +13,7 @@ This short video introduces Gufw, a firewall configuration utility, that is inte
 
   * <http://gufw.org>
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/FBaFL6UnDAE?html5=1"
 %}
 

@@ -16,7 +16,7 @@ Let's stop with the *"mait"* and the *"matey"*. It is pronounced
 *"mah-tay"* and if you can't start saying it right then we'll send Jean
 Claude van Damme round to give you some elocution lessons `;-)`
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/k0YDuSLXcX8?html5=1&rel=0&start=459&end=472"
 %}
 

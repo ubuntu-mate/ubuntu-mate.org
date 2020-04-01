@@ -61,7 +61,7 @@ Here what changed since Ubuntu MATE 15.04 Alpha 2:
     * [PowerPC FAQ](https://wiki.ubuntu.com/PowerPCFAQ)
   * Added an interface layout switcher to MATE Tweak, see the video below.
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/YI4IWO_SpiI&html5=1"
 %}
 

@@ -28,13 +28,13 @@ But before you go clicking the play button, know this:
 
 With that said, we discussed this is more detail last night. Have a listen.
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/A9ZaXk7Azxw?html5=1&start=234&end=1479"
 %}
 
 We also got stuck into it some more in the post show.
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/A9ZaXk7Azxw?html5=1&start=5055"
 %}
 

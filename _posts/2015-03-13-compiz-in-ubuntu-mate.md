@@ -11,7 +11,7 @@ lang: en
 
 This short video introduces Compiz, a 3D-accelerated desktop effects compositor, that is integrated into Ubuntu MATE 15.04.
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/k_nk02XELi4?html5=1"
 %}
 

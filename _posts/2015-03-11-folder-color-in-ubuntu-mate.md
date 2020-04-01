@@ -13,7 +13,7 @@ This short video introduces Folder Color which is integrated into Ubuntu MATE 15
 
   * <http://foldercolor.tuxfamily.org>
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/ZrSVepoNuJk?html5=1"
 %}
 

@@ -7,7 +7,7 @@ class: about
 category: about
 ---
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube-nocookie.com/embed/V6kth-4M62o"
 %}
 

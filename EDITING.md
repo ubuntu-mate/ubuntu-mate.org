@@ -282,7 +282,7 @@ Usually to present call to actions, commonly used on the blog.
 When using the "Share" functionality on YouTube, extract the URL and place it
 inside this `include` on the page:
 ```
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/XXXXXXXXXXX"
 %}
 ```

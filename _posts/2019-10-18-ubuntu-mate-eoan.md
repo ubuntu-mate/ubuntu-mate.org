@@ -454,7 +454,7 @@ without any faffing about. [See our UMPC page for more details](/ports/umpcs/).
 {:.center}
 ![ZFS on Linux](/images/blog/eoan/zol-logo.png)
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/_-zm17qlLU4?html5=1&amp;rel=0&amp;showinfo=0"
 %}
 

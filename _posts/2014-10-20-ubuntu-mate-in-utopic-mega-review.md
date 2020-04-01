@@ -14,7 +14,7 @@ covered Ubuntu MATE along side other Ubuntu flavours in [Show 335](http://www.ju
 Here is what they had to say about Ubuntu MATE, KDE Plasma 5.1, Xubuntu and Ubuntu. The reason
 this is a long clip is because Ubuntu MATE features more than once `:-D`
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/96qyn4xEWrQ?html5=1&start=2427&end=4116"
 %}
 

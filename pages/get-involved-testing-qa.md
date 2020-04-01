@@ -46,7 +46,7 @@ While you can certainly download an ISO release individually. For convenience,
 we **highly recommend** *zsync*. Eric Adams has produced a short video that is
 a great introduction to using *zsync* for testing:
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube-nocookie.com/embed/uZnAMefo0xs"
 %}
 

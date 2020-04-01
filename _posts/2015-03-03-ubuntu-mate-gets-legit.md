@@ -17,7 +17,7 @@ of gaining official status are, the new features you can expect to see in
 Ubuntu MATE 15.04 and how Ubuntu MATE is helping to fund other Open Source
 projects. The embedded video below starts at the begining of our chat.
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/lMZHLTyMsEw?html5=1&start=3540"
 %}
 

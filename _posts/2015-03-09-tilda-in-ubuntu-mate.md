@@ -13,7 +13,7 @@ This short video introduces Tilda, a pull-down terminal, that is integrated into
 
   * <https://github.com/lanoxx/tilda>
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/_woWvmHl3Rc?html5=1"
 %}
 

@@ -9,7 +9,7 @@ author: Martin Wimpress
 lang: en
 ---
 
-{% include blog/youtube.html
+{% include embed/youtube.html
     embed = "https://www.youtube.com/embed/KEHxHr-Ih9w?html5=1&#amp;rel=0&amp;showinfo=0"
 %}
 
