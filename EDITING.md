@@ -60,6 +60,21 @@ Some layouts and includes require YAML data in the frontmatter.
 On all pages, `class` is used to indicate the current page on the header.
 See [`_data/navigation.yml`](_data/navigation.yml) for the correct value.
 
+## Downloads
+
+The data is stored in `_data/downloads.yml`:
+
+* The **`releases`** key lists the versions currently available.
+* The **`arch`** key is a list of architctures. When adding/removing here, make changes in `pages/download.md` too.
+* The **`downloads`** key lists the downloads (releases) for each `arch`.
+
+Architectures may include ports to other devices, such as `gpd_pocket`.
+
+It is recommended to commit the `magnet-uri`, as opposed to leaving it blank.
+To obtain this automagically:
+
+    ./scripts/watch.sh --magnet-uri
+
 
 ## Layouts (`_layouts`)
 
@@ -142,22 +157,19 @@ right_subtitle: The lightweight alternate recognised by Ubuntu Unity users.
 #### `history`
 **Inherits:** [page-category](#page-category)
 
+The Markdown for this page should be structured like so:
+
+* **h2** - date/release, appears in sidebar.
+* **h3** - the title
+* an optional image with the class `milestone-image`
+* Markdown content as usual
+
 ```
-history:
+## Pre-2014
+### The Ubuntu MATE backstory
 
-    - title: Title of Milestone 1
-      era: "2014"
-      image: /path/to/image.png
-      desc: >-
-
-        Paragraph or two describing a milestone.
-
-    - title: Title of Milestone 2
-      era: "2020"
-      image: /path/to/image.png
-      desc: >-
-
-        Paragraph or two describing a milestone.
+{:.milestone-image}
+![MATE is a fork of GNOME 2](/images/history/gnome-mate-fork.svg)
 ```
 
 #### `page-banner`
@@ -181,25 +193,12 @@ appropriate.
 
 
 #### `team`
-```
-team:
-    - title: Name of Group 1
-      members:
 
-        - name: Example Name
-          avatar: /path/to/image.jpg or http://example.com/avatar.png or null
-          url: http://example.com or null
-          roles:
-            - canonical
-            - ubuntu
-            - code
-            - artwork
-            - documentation
-            - mate_desktop
-            - moderator
-            - qa
-            - packager      # Delete as appropriate
-```
+The Markdown on this page appears at the bottom, which is for Special Thanks and
+Contributors.
+
+The data for the circle and their icons can be found at `_data/team.yml`.
+
 
 #### `testimonals`
 ```
