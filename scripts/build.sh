@@ -77,3 +77,10 @@ fi
 # Externally delete source files not desired in the build output.
 cd _site/
 find . -name "*.xcf" -delete
+
+# WORKAROUND: Jekyll doesn't return exit code != 0 on a liquid exception, that
+# may cause the build to be empty. Ensure the build fails if there are no HTML files.
+html_count=$(find . -type f -name "*.html" | wc -l)
+if [ "$html_count" == "0" ]; then
+    exit 1
+fi
