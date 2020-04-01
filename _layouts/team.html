@@ -18,7 +18,9 @@ layout: default
 
                   <div class="team-members">
 
-                    {% for member in category.members %}
+                    {% assign members_az = category.members | sort: "name" %}
+
+                    {% for member in members_az %}
                       <div class="member">
 
                         {% if member.url %}<a href="{{ member.url }}" rel="external">{% endif %}
