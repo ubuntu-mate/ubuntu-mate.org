@@ -44,4 +44,4 @@ Triaging, also explains why it's important to make the fix in the right place,
 and why patching at the Ubuntu level (in the packages) is sometimes a better
 decision than only fixing upstream.
 
-{% include blog/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}
+{% include embed/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}

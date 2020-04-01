@@ -60,5 +60,5 @@ focus their efforts.
 
 The video below shows bug triaging (and Martin!) in action:
 
-{% include blog/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}
+{% include embed/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}
 
