@@ -37,6 +37,9 @@ address this issue.
 
 Note that **Software Boutique** is currently part of the **Welcome** application.
 
+> This website will soon be ready for translating! [Take a look at this post
+for more information.](https://ubuntu-mate.community/t/21386)
+
 [Translate on Transifex](https://www.transifex.com/ubuntu-mate/public/){:.btn .green}
 [Transifex Guide](#transifex){:.btn}
 
