@@ -33,17 +33,19 @@
         - mate_desktop
 
     - name: Larry Bushey
-      avatar: null
+      avatar: "https://avatars2.githubusercontent.com/u/1313055?s=150&v=4"
       url: "https://goinglinux.com/"
       roles:
+        - ubuntu_mate
         - documentation
 
     - name: Michael Dooley
-      avatar: null
+      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mdooley/150/14388_2.png"
       url: "https://ubuntu-mate.community/u/mdooley/summary"
       roles:
+        - ubuntu_mate
+        - community
         - qa
-        - moderator
 
     - name: Mike Gabriel
       avatar: "https://avatars2.githubusercontent.com/u/407231?s=150&v=4"
@@ -56,31 +58,35 @@
       avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
       url: "https://github.com/lah7"
       roles:
+        - ubuntu_mate
         - code
+        - community
         - documentation
-        - moderator
+        - artwork
 
-    - name: franksmcb
+    - name: Bill (franksmcb)
       avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
       url: "https://github.com/franksmcb"
       roles:
-        - qa
-        - moderation
+        - ubuntu_mate
         - bug_hunter
+        - qa
 
     - name: Victor Kareh
       avatar: "https://avatars1.githubusercontent.com/u/259780?s=150&v=4"
       url: "https://github.com/vkareh"
       roles:
+        - ubuntu_mate
         - mate_desktop
         - qa
 
     - name: Matthew Keeler
-      avatar: null
+      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mttke/150/13996_2.png"
       url: "https://ubuntu-mate.community/u/mttke/summary"
       roles:
-       - qa
-       - moderation
+        - ubuntu_mate
+        - community
+        - qa
 
     - name: Luke Kuhn
       avatar: "https://avatars3.githubusercontent.com/u/14036792?s=150&v=4"
@@ -88,19 +94,20 @@
       roles:
         - mate_desktop
         - artwork
-        - qa
         - bug_hunter
 
     - name: Jeff Labonte
       avatar: "https://avatars1.githubusercontent.com/u/9425955?s=150&v=4"
       url: "https://github.com/JeffLabonte"
       roles:
+        - ubuntu_mate
         - code
 
     - name: Monica Madon
       avatar: "https://avatars1.githubusercontent.com/u/47995143?s=150&v=4"
       url: "https://github.com/madhens"
       roles:
+        - ubuntu_mate
         - documentation
 
     - name: Vangelis Mouhtsis
@@ -127,6 +134,14 @@
       avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
       url: "https://github.com/apolitech"
       roles:
+        - ubuntu_mate
+        - qa
+
+    - name: Nikolay Strelkov
+      avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
+      url: "https://ubuntu-mate.community/u/Norbert_X/summary"
+      roles:
+        - ubuntu_mate
         - qa
 
     - name: Alexei Sorokin
@@ -134,14 +149,13 @@
       url: "https://github.com/XRevan86"
       roles:
         - mate_desktop
-        - qa
         - bug_hunter
 
     - name: Jon Uhler
       avatar: null
       url: "https://jonuhler.com/"
       roles:
-        - qa
+        - ubuntu_mate
         - bug_hunter
 
     - name: Wolfgang Ulbrich

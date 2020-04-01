@@ -35,32 +35,43 @@ layout: default
 
                         <div class="member-roles">
                           {% for role in member.roles %}
-                            {% if role == "ubuntu" %}           {% assign icon = "/images/brands/ubuntu.svg" %}
-                                                                {% assign label = site.data.strings.team_ubuntu %}
-                            {% endif %}
-                            {% if role == "canonical" %}      {% assign icon = "/images/brands/canonical.svg" %}
-                                                                {% assign label = site.data.strings.team_ubuntu %}
-                            {% endif %}
-                            {% if role == "mate_desktop" %}   {% assign icon = "/images/brands/mate.svg" %}
-                                                                {% assign label = site.data.strings.team_mate %}
-                            {% endif %}
-                            {% if role == "artwork" %}           {% assign icon = "/images/Ambiant-MATE/preferences-desktop-theme.svg" %}
-                                                                {% assign label = site.data.strings.team_artwork %}
-                            {% endif %}
-                            {% if role == "code" %}        {% assign icon = "/images/Ambiant-MATE/applications-debugging.svg" %}
-                                                                {% assign label = site.data.strings.team_coder %}
-                            {% endif %}
-                            {% if role == "documentation" %}  {% assign icon = "/images/Ambiant-MATE/accessories-text-editor.svg" %}
-                                                                {% assign label = site.data.strings.team_docs %}
-                            {% endif %}
-                            {% if role == "moderator" %}      {% assign icon = "/images/Ambiant-MATE/applications-chat.svg" %}
-                                                                {% assign label = site.data.strings.team_moderator %}
-                            {% endif %}
-                            {% if role == "qa" %}             {% assign icon = "/images/Ambiant-MATE/lpi-bug.svg" %}
-                                                                {% assign label = site.data.strings.team_qa %}
-                            {% endif %}
-                            {% if role == "packager" %}       {% assign icon = "/images/categories/features/package.svg" %}
-                                                                {% assign label = site.data.strings.team_packager %}
+                            {% if role == "ubuntu" %}            {% assign icon = "/images/brands/ubuntu.svg" %}
+                                                                 {% assign label = site.data.strings.team_ubuntu %}
+
+                            {% elsif role == "canonical" %}      {% assign icon = "/images/brands/canonical.svg" %}
+                                                                 {% assign label = site.data.strings.team_ubuntu %}
+
+                            {% elsif role == "mate_desktop" %}   {% assign icon = "/images/brands/mate.svg" %}
+                                                                 {% assign label = site.data.strings.team_mate %}
+
+                            {% elsif role == "ubuntu_mate" %}    {% assign icon = "/images/ubuntu-mate/logo.svg" %}
+                                                                 {% assign label = "Ubuntu MATE" %}
+
+                            {% elsif role == "artwork" %}        {% assign icon = "/images/Ambiant-MATE/preferences-desktop-theme.svg" %}
+                                                                 {% assign label = site.data.strings.team_artwork %}
+
+                            {% elsif role == "code" %}           {% assign icon = "/images/Ambiant-MATE/applications-debugging.svg" %}
+                                                                 {% assign label = site.data.strings.team_coder %}
+
+                            {% elsif role == "documentation" %}  {% assign icon = "/images/Ambiant-MATE/accessories-text-editor.svg" %}
+                                                                 {% assign label = site.data.strings.team_docs %}
+
+                            {% elsif role == "community" %}      {% assign icon = "/images/Ambiant-MATE/applications-chat.svg" %}
+                                                                 {% assign label = site.data.strings.team_community %}
+
+                            {% elsif role == "qa" %}             {% assign icon = "/images/get-involved/qa.svg" %}
+                                                                 {% assign label = site.data.strings.team_qa %}
+
+                            {% elsif role == "packager" %}       {% assign icon = "/images/categories/features/package.svg" %}
+                                                                 {% assign label = site.data.strings.team_packager %}
+
+                            {% elsif role == "bug_hunter" %}     {% assign icon = "/images/Ambiant-MATE/lpi-bug.svg" %}
+                                                                {% assign label = site.data.strings.team_bug_hunter %}
+
+                            {% elsif role == "bug_fixer" %}     {% assign icon = "/images/Ambiant-MATE/applications-debugging.svg" %}
+                                                                {% assign label = site.data.strings.team_bug_fixer %}
+                            {% else %}
+                                {{ role }}? {% continue %}
                             {% endif %}
 
                             <img src="{{ icon }}" title="{{ label }}" alt="{{ label }}"/>

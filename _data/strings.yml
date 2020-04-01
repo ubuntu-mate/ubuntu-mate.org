@@ -253,8 +253,10 @@ team_mate: "MATE Desktop Team"
 team_coder: "Code Contributor"
 team_artwork: "Artwork Contributor"
 team_docs: "Documentation Contributor"
-team_moderator: "Community Moderator"
+team_community: "Community"
 team_qa: "Quality Assurance Tester"
+team_bug_hunter: "Bug Hunter"
+team_bug_fixer: "Bug Fixer"
 team_packager: "Package Maintainer"
 
 
