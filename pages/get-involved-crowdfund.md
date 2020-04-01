@@ -54,7 +54,7 @@ Between 2014 and 2017, your generosity helped pay for:
 * Dedicated servers
 * Prizes for community competitors
 * Getting Wimpy to UbuCon Europe 2016
-* A reasonably-priced beverage to celebrate the release of 15.10 🍷
+* A reasonably-priced beverage to celebrate the release of 15.10 :wine:
 
 To show how a small donation can go a long way, let's look at how we funded
 two Raspberry Pi 3's for development, costing £62.90 each. This breaks down to:
@@ -63,7 +63,7 @@ two Raspberry Pi 3's for development, costing £62.90 each. This breaks down to:
 * 13 donations of £5, or
 * 7 donations of £10 _(all with a little change to spare)_
 
-In short, 😌 + 💵 💷 💶 💳 = 💚
+In short, :relieved: + :dollar: :pound: :euro: :credit_card: = :green_heart:
 
 So if you want to help grow our community and keep Ubuntu MATE amazing, head over to our funding page and find out how you can help!
 

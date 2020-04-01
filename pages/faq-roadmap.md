@@ -91,7 +91,7 @@ Overhaul the Ubuntu MATE design language and make is consistent for web
 and desktop. Create a new wallpaper collection based on abstract
 designs and high quality photos.
 
- ✅ *Implemented since Ubuntu MATE 18.04*
+ :heavy_check_mark: *Implemented since Ubuntu MATE 18.04*
 
 ## User experience
 
@@ -104,14 +104,14 @@ Ubuntu MATE can be augmented to provide an "*experience*" similar to
 what other contemporary desktop environments offer while retaining its
 classic desktop paradigm.
 
- ✅ *Implemented since Ubuntu MATE 16.04*
+ :heavy_check_mark: *Implemented since Ubuntu MATE 16.04*
 
 ## HiDPI support
 
 High pixel density laptops and displays are becoming increasingly common
 and Ubuntu MATE needs to provide a first class HiDPI experience.
 
- ✅ *Implemented since Ubuntu MATE 18.04*
+ :heavy_check_mark: *Implemented since Ubuntu MATE 18.04*
 
 ## Launchers and Docks
 
@@ -127,7 +127,7 @@ community polls (just as we have done in the past) to determine if the
 selected 3rd party tools should be integrated as defaults or optional
 extras.
 
- ✅ *Implemented since Ubuntu MATE 17.10 via Brisk Menu, MATE Menu and Super key support throughout MATE Desktop*
+ :heavy_check_mark: *Implemented since Ubuntu MATE 17.10 via Brisk Menu, MATE Menu and Super key support throughout MATE Desktop*
 
 ## Compiz
 
@@ -140,7 +140,7 @@ which is useful for individuals with low vision.
 The Ubuntu MATE team will create a simple way for Compiz to be
 installed and enabled for those users who want it.
 
- ✅ *Implemented since Ubuntu MATE 15.04*
+ :heavy_check_mark: *Implemented since Ubuntu MATE 15.04*
 
 ## Ubuntu MATE Tweak
 
@@ -156,7 +156,7 @@ docks or even Compiz. We will provide a tool to switch between these
 different desktop layouts that also enables/disables the appropriate
 launchers and docks where required.
 
-  ✅ *Implemented since Ubuntu MATE 15.04 via **MATE Tweak***
+  :heavy_check_mark: *Implemented since Ubuntu MATE 15.04 via **MATE Tweak***
 
 ## Complex input methods
 
@@ -172,7 +172,7 @@ will integrate either [IBus](https://code.google.com/p/ibus/) or
 [fcitx](https://fcitx-im.org/) into Ubuntu MATE to address this short
 coming.
 
- ✅ *Implemented since Ubuntu MATE 15.10*
+ :heavy_check_mark: *Implemented since Ubuntu MATE 15.10*
 
 ## Application install
 
@@ -185,7 +185,7 @@ The Ubuntu MATE community will select one application that is more
 suitable for a given task or activity so that new users can quickly
 turn their Ubuntu MATE workstation into a productive tool.
 
-  ✅ *Implemented since Ubuntu MATE 15.10 via **Ubuntu MATE Welcome***
+  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10 via **Ubuntu MATE Welcome***
 
 ## Media casting and streaming
 
@@ -200,7 +200,7 @@ to deliver the technologies to make this happen, we can provide simple
 installation options to enable access to these services, and where
 possible, ship the required software by default.
 
-  ✅ *Implemented since Ubuntu MATE 15.10 by using Software Boutique to install Google Chrome, Spotify or Pithos*
+  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10 by using Software Boutique to install Google Chrome, Spotify or Pithos*
 
 ## Mobile device integration
 
@@ -208,10 +208,10 @@ Currently Ubuntu MATE has the essential mobile device support you'd
 expect. You can plug in a phone or a media player and the device is
 automatically detected and mounted, you can then access the files on it.
 
-  ✅ *Implemented since Ubuntu MATE 15.10*
+  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10*
 
 Mobile device notifications can be wirelessly mirrored to your Ubuntu
 MATE desktop and for you to be able to send files or links wirelessly
 between your mobile devices and Ubuntu MATE.
 
-  ✅ *Implemented since Ubuntu MATE 16.04 by using the Software Boutique to install KDE Connect Indicator*
+  :heavy_check_mark: *Implemented since Ubuntu MATE 16.04 by using the Software Boutique to install KDE Connect Indicator*

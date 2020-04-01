@@ -30,14 +30,14 @@ preparation for our next (stable) version.
 The **Ubuntu MATE** team is proud to be a part of **Ubuntu Testing Week** which
 starts today (2 April) **until 8 April** along with the other flavours of the
 Ubuntu family. Please join us in testing the beta of Ubuntu MATE 20.04
-(Focal Fossa) as well sharing the 💚 by testing out some of the other flavours.
+(Focal Fossa) as well sharing the :green_heart: by testing out some of the other flavours.
 
 Unsure of how to test? [Alan Pope](http://popey.com/), the co-founder of Ubuntu
 MATE, has [made an outstanding video](https://www.youtube.com/watch?v=hXLiqjOkSmg)
 showing how easy it is to do.
 
 If you need some help, [join us in our beta testing thread](https://ubuntu-mate.community/t/ubuntu-mate-20-04-beta-testing/21369/).
-Did you find a 🐛? We've got a
+Did you find a :bug:? We've got a
 [helpful guide](https://ubuntu-mate.community/t/how-to-report-problems-in-ubuntu-mate/17943)
 on how to report it.
 
@@ -47,7 +47,7 @@ you may be interested in trying [quickemu](https://github.com/wimpysworld/quicke
 which allows you to easily manage QEMU VM's with a shell script.
 
 We hope you will join in and help us make Ubuntu MATE 20.04 and all of it's
-family a success 🎉
+family a success :tada:
 
 
 ## What works?
@@ -80,17 +80,17 @@ MATE 20.04.
 
 **Since the last LTS we worked on the following**:
 
-  * Added *experimental* ZFS 🗄 install option.
-  * Fixed rendering window controls on HiDPI 🔍 displays.
-  * Fixed irregular icon sizes 📏 in MATE Control Center and made them render nicely on HiDPI displays.
-  * Fixed unresponsive Caja 📂 extensions.
-  * Fixed `mate-power-manager` 🔌 to use upower-glib `get_devices2()`.
-  * Fixed unresponsive Pluma 🗒 plugins.
-  * Fixed a crasher 💣 in MATE Dock Applet due to an Attribute error in `adjust_minimise_pos()`.
+  * Added *experimental* ZFS :file_folder: install option.
+  * Fixed rendering window controls on HiDPI :mag: displays.
+  * Fixed irregular icon sizes :straight_ruler: in MATE Control Center and made them render nicely on HiDPI displays.
+  * Fixed unresponsive Caja :file_folder: extensions.
+  * Fixed `mate-power-manager` :electric_plug: to use upower-glib `get_devices2()`.
+  * Fixed unresponsive Pluma :notebook: plugins.
+  * Fixed a crasher :bomb: in MATE Dock Applet due to an Attribute error in `adjust_minimise_pos()`.
   * Fixed auto-start errors in `mate-session-manager`.
-  * Gave Ubuntu MATE Welcome a fresh coat of 🖌 .
-  * Updated the Ubuntu MATE Guide ❓
-  * Updated the Ubiquity Slideshow 🎭
+  * Gave Ubuntu MATE Welcome a fresh coat of :paintbrush:.
+  * Updated the Ubuntu MATE Guide  :question:
+  * Updated the Ubiquity Slideshow :performing_arts:
 
 ### Window Manager improvements
 
@@ -99,7 +99,7 @@ it brings a number of new features and fixes.
 
 **XPresent support is properly fixed**, which means that **screen tearing is now
 a thing of the past** and **invisible window corners are finally here!** Invisible
-window corners mean that windows can be easily resized 📏 without having to
+window corners mean that windows can be easily resized :straight_ruler: without having to
 precisely grab the window corners. **HiDPI rendering improvements** fix a number
 of rendering problems that were present in various themes and components.
 **Most notably, windows controls are now HIDPI aware**.
@@ -124,10 +124,10 @@ features and minimise development effort. Which brings us to...
 
 ### New Key-bindings
 
-The key-bindings for window tiling have only worked on full keyboards ⌨️ with a
-10-key pad. Few laptops 💻 have a 10-key pad and not all keyboards have a
+The key-bindings for window tiling have only worked on full keyboards :keyboard: with a
+10-key pad. Few laptops :computer: have a 10-key pad and not all keyboards have a
 10-key either. There are some well known key-bindings from other platforms that
-were not recognised in Ubuntu MATE. So, we've had a think 🤔 and have come up with this:
+were not recognised in Ubuntu MATE. So, we've had a think :think: and have come up with this:
 
   * **Maximise Window:** <kbd>Super</kbd> + <kbd>Up</kbd>
   * **Restore Window:** <kbd>Super</kbd> + <kbd>Down</kbd>
@@ -141,7 +141,7 @@ were not recognised in Ubuntu MATE. So, we've had a think 🤔 and have come up 
   * **Shade Window:** <kbd>Control</kbd> + <kbd>Alt</kbd> + <kbd>s</kbd>
 
 It is now possible to tile a window to
-all screen quadrants 📐 using any keyboard form factor.
+all screen quadrants :triangular_ruler: using any keyboard form factor.
 
 We updated the application launcher key-bindings, some of these have existed
 in Ubuntu MATE for a while:
@@ -159,7 +159,7 @@ in Ubuntu MATE for a while:
 The key-bindings compliment existing well established alternatives. So if
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (Terminal) and
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> (Lock Screen) are ingrained in
-your muscle 💪 memory 🧠 they are still available too. You can find all the
+your muscle :muscle: memory 🧠 they are still available too. You can find all the
 keyboard shortcuts documented in the **Getting Started section of Ubuntu MATE
 Welcome**.
 
@@ -167,16 +167,16 @@ Welcome**.
 
 [Brisk Menu](https://github.com/getsolus/brisk-menu) is under the Solus GitHub
 organisation, but it's been a couple of years since it had a new release. The
-Solus Project gave me administrative access 🔱 to the Brisk Menu repo and I've
+Solus Project gave me administrative access :trident: to the Brisk Menu repo and I've
 made a new release. Thanks to the efforts of a couple of Ubuntu MATE
-contributors, several bug 🐞 fixes have landed too, which includes **resolving
+contributors, several bug :bug: fixes have landed too, which includes **resolving
 frequent crashers in Brisk Menu, preventing a scrollbar always appearing
 in the category column** of the menu and **silencing sounds firing as you
 rollover menu entries**.
 
 ### MATE Panel
 
-MATE Panel has had a long-standing bug fixed that caused it to crash 💥 when
+MATE Panel has had a long-standing bug fixed that caused it to crash :boom: when
 the panel was reset or replaced. This was most noticeable when switching panel
 layouts via MATE Tweak and could result in the panel layout being left
 incomplete or entirely absent. This bug is now fixed! MATE Tweak has been
@@ -189,15 +189,15 @@ A bug which resulted in **oversized icons in indicators is finally resolved**.
 
 {:.center .transparent}
 | ![Before](/images/blog/eoan/indicators-before.png) | ![After](/images/blog/eoan/indicators-after.png)
-| **Before** 💩 | **After** 🤩
+| **Before** :poop: | **After** :heart_eyes:
 
-However, it turned out some of the bugs were due to the icons 🎨 themselves.
-Over 💯 icons have been refactored 🖌️️ to correct their resolutions or aspect
+However, it turned out some of the bugs were due to the icons :art: themselves.
+Over :100: icons have been refactored :paintbrush:️ to correct their resolutions or aspect
 ratio; as a result the panel and indicators both scale correctly.
 
 A race condition that could result in **two network status icons being
 displayed is fixed**, and **when connected via VPN, lock icons are now
-overlayed on the Network Indicator**. The battery 🔋 indicator is improved
+overlayed on the Network Indicator**. The battery :battery: indicator is improved
 and now has a larger **charging symbol while charging**.
 
 We've **added the Date/Time Indicator and integrated it with MATE Desktop
@@ -227,14 +227,14 @@ resolved**.
 ## Notification Center
 
 Ubuntu MATE 20.04 includes a **new Indicator that provides a "notification
-center"** 🔔 We worked with the [upstream developer to add new features
+center"** :bell: We worked with the [upstream developer to add new features
 to indicator-notifications](https://github.com/trism/indicator-notifications)
 and integrate it with MATE Notifications Daemon.
 
 {:.center}
 ![Notification Settings](/images/blog/eoan/notification-settings.png)
 
-We now have a **notification center that also offers a "do not disturb" 🛑
+We now have a **notification center that also offers a "do not disturb" :red_circle:
 feature**. When do not disturb is enabled, notifications will be muted and captured in the notification center for review. It's also
 **possible to blacklist some notifications**, so they are never stored by the
 notification center. I've created an icon theme for the notification center so
@@ -245,7 +245,7 @@ sounds or icons, now work.
 ## Evolution replaces Thunderbird
 
 The Ubuntu MATE development team discussed the pros and cons of switching the
-default mail ✉️ client in Ubuntu MATE to
+default mail :email: client in Ubuntu MATE to
 [Evolution](https://wiki.gnome.org/Apps/Evolution). Here is a summary of our
 assessment:
 
@@ -263,10 +263,10 @@ indicator. Clicking on an individual day in the month displays the events for th
 ![Indicator Date Time](/images/blog/eoan/indicator-datetime.png)
 
 For the many people who use web-mail exclusively, this change will have no
-impact, but for those who use desktop mail we feel these productivity 📈
+impact, but for those who use desktop mail we feel these productivity :chart_with_upwards_trend:
 improvements are significant.
 
-For those of you who love 💕 Thunderbird and wish to continue using it, we will
+For those of you who love :two_hearts: Thunderbird and wish to continue using it, we will
 continue to offer Thunderbird in the Software Boutique for a one-click install.
 Likewise, Evolution is now in the Software Boutique, and can be installed/removed
 with one click.
@@ -274,10 +274,10 @@ with one click.
 ## Magnus
 
 Most desktop environments are lacking a screen magnifier, which is an essential
-application for visually impaired 👓 computer users, as well as accurate
+application for visually impaired :eyeglasses: computer users, as well as accurate
 graphical design or detail work. One of the reasons we ship Compiz in Ubuntu
 MATE is because it has an excellent screen magnifier and was our solution for
-people who need magnification 🔍
+people who need magnification :mag:
 
 {:.center}
 ![Magnus for zooming into the screen](/images/blog/eoan/magnus.png)
@@ -285,7 +285,7 @@ people who need magnification 🔍
 Martin and [Stuart Langridge](https://twitter.com/sil) collaborated
 to create [Magnus](https://kryogenix.org/code/magnus/); **a very simple
 desktop magnifier**, showing the area around the mouse pointer in a separate
-window magnified two, three, four, or five times. Magnus is now shipped 🚢
+window magnified two, three, four, or five times. Magnus is now shipped :ship:
 by default in Ubuntu MATE 20.04.
 
 ## Ubuntu MATE Themes
@@ -298,8 +298,8 @@ available all the way back to Ubuntu MATE 16.04.
 The most noticeable resolved theme issues are **sensibly sized expanders in tree
 view** (they were so tiny) that are easily clickable,
 **window controls are correctly proportioned on CSD windows** and we've add a
-splash of Chelsea Cucumber 🥒 to the Ubuntu MATE logo on the menu. Everything
-the QA team highlighted has been fixed 🔨
+splash of Chelsea Cucumber :bug: to the Ubuntu MATE logo on the menu. Everything
+the QA team highlighted has been fixed :hammer:
 
 ## MATE Tweak and Ubuntu MATE Welcome
 
@@ -311,7 +311,7 @@ to somewhat mimic other platforms and distros 🐧 We have now integrated a
 graphical layout switcher in Ubuntu MATE Welcome to better promote the feature
 and make it more accessible. We have actually had this feature since 18.04, but
 the bugs in MATE Panel I mentioned earlier meant it didn't work. With all the
-associated panel bugs fixed 🔧 we now have this:
+associated panel bugs fixed :wrench: we now have this:
 
 {:.center}
 ![Desktop Layout Switcher](/images/blog/eoan/desktop-layout.png)
@@ -319,7 +319,7 @@ associated panel bugs fixed 🔧 we now have this:
 ## NVIDIA drivers
 
 If you've been following the news surrounding Ubuntu you'll know that
-Ubuntu will be shipping 🚢 the NVIDIA proprietary drivers on the ISO images.
+Ubuntu will be shipping :ship: the NVIDIA proprietary drivers on the ISO images.
 Anyone selecting the additional 3rd party hardware drivers during installation
 without an Internet connection will have the drivers available in offline
 scenarios.

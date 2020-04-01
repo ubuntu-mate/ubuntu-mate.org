@@ -12,9 +12,9 @@ sidebar: get-involved
 Ubuntu MATE is always improving and changing. Our development team is constantly
 working to make this the best experience possible but there will always be
 **bugs**! Finding these makes life easier on the developers and makes things
-better for our users. -- **including you** 😉
+better for our users. -- **including you** :wink:
 
-**So you want to find 🐛's and join in the fun? Yes, it really is!** 😊
+**So you want to find :bug:'s and join in the fun? Yes, it really is!** :slightly_smiling_face:
 
 * Join the [Ubuntu MATE Community](https://ubuntu-mate.community/)
 
@@ -50,9 +50,9 @@ a great introduction to using *zsync* for testing:
     embed = "https://www.youtube-nocookie.com/embed/uZnAMefo0xs"
 %}
 
-We'd 💚 to have you join us in testing and become part of our **Community**.
+We'd :green_heart: to have you join us in testing and become part of our **Community**.
 We are always looking for more testers!
 
 Finally, [Alan Pope](https://popey.com/) has produced a wonderful
 [video](https://www.youtube.com/watch?v=hXLiqjOkSmg) on testing Ubuntu MATE.
-We are sure you can do a better job of it than he did. 🤣
+We are sure you can do a better job of it than he did. :rofl:
