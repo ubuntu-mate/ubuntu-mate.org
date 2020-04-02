@@ -12,11 +12,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    sodipodi:docname="i386.svg"
-   viewBox="0 0 539.25 564.44"
+   viewBox="0 0 500 500"
    sodipodi:version="0.32"
    version="1.0"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   width="500"
+   height="500">
   <defs
      id="defs4">
     <linearGradient
@@ -44,11 +46,11 @@
     </linearGradient>
     <linearGradient
        id="linearGradient21122"
-       y2="489.93"
+       y2="489.92999"
        gradientUnits="userSpaceOnUse"
-       y1="489.93"
+       y1="489.92999"
        x2="575.13"
-       x1="265.36"
+       x1="265.35999"
        inkscape:collect="always">
       <stop
          id="stop3571"
@@ -61,28 +63,28 @@
     </linearGradient>
     <linearGradient
        id="linearGradient21124"
-       y2="473.18"
+       y2="473.17999"
        xlink:href="#linearGradient2815"
        gradientUnits="userSpaceOnUse"
-       y1="473.18"
-       x2="556.15"
+       y1="473.17999"
+       x2="556.15002"
        x1="288.47"
        inkscape:collect="always" />
     <linearGradient
        id="linearGradient21126"
-       y2="489.11"
+       y2="489.10999"
        xlink:href="#linearGradient2815"
        gradientUnits="userSpaceOnUse"
-       y1="489.11"
+       y1="489.10999"
        x2="559.12"
-       x1="532.3"
+       x1="532.29999"
        inkscape:collect="always" />
     <radialGradient
        id="radialGradient21128"
        xlink:href="#linearGradient18894"
        gradientUnits="userSpaceOnUse"
-       cy="635.45"
-       cx="398.3"
+       cy="635.45001"
+       cx="398.29999"
        gradientTransform="matrix(1,0,0,0.26287,0,468.41)"
        r="11.656"
        inkscape:collect="always" />
@@ -92,8 +94,8 @@
        id="radialGradient854"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,0.26287,0,468.41)"
-       cx="398.3"
-       cy="635.45"
+       cx="398.29999"
+       cy="635.45001"
        r="11.656" />
     <radialGradient
        inkscape:collect="always"
@@ -101,8 +103,8 @@
        id="radialGradient856"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,0.26287,0,468.41)"
-       cx="398.3"
-       cy="635.45"
+       cx="398.29999"
+       cy="635.45001"
        r="11.656" />
     <radialGradient
        inkscape:collect="always"
@@ -110,8 +112,8 @@
        id="radialGradient858"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,0.26287,0,468.41)"
-       cx="398.3"
-       cy="635.45"
+       cx="398.29999"
+       cy="635.45001"
        r="11.656" />
   </defs>
   <sodipodi:namedview
@@ -124,23 +126,27 @@
      inkscape:window-width="1024"
      borderopacity="1.0"
      inkscape:current-layer="layer1"
-     inkscape:cx="-202.93878"
-     inkscape:cy="348.97153"
+     inkscape:cx="-349.90123"
+     inkscape:cy="169.75153"
      showguides="true"
      inkscape:window-y="25"
      inkscape:window-x="0"
      inkscape:window-height="693"
      inkscape:pageopacity="0.0"
      inkscape:document-units="px"
-     showgrid="false" />
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(-83.449 -246.62)">
+     transform="translate(-152.41145,-238.84)">
     <g
        id="g21096"
-       transform="matrix(1.0252683,0,0,1.0252683,-36.002104,-9.6764639)">
+       transform="matrix(1.0252683,0,0,1.0252683,13.335346,-49.676465)">
       <path
          id="path2841"
          sodipodi:nodetypes="cccccccccccc"
@@ -295,7 +301,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(0.74408038,0,0,0.74408038,341.59493,-228.72299)"
+       transform="matrix(0.74408038,0,0,0.74408038,390.93238,-268.72299)"
        id="layer1-6"
        inkscape:label="Layer 1">
       <g
