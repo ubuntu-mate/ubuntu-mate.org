@@ -33,8 +33,11 @@ Ubuntu family. Please join us in testing the beta of Ubuntu MATE 20.04
 (Focal Fossa) as well sharing the :green_heart: by testing out some of the other flavours.
 
 Unsure of how to test? [Alan Pope](http://popey.com/), the co-founder of Ubuntu
-MATE, has [made an outstanding video](https://www.youtube.com/watch?v=hXLiqjOkSmg)
-showing how easy it is to do.
+MATE, has made an outstanding video showing how easy it is to do.
+
+{% include embed/youtube.html
+    embed = "https://www.youtube.com/embed/hXLiqjOkSmg"
+%}
 
 If you need some help, [join us in our beta testing thread](https://ubuntu-mate.community/t/ubuntu-mate-20-04-beta-testing/21369/).
 Did you find a :bug:? We've got a
@@ -57,14 +60,14 @@ People tell us that Ubuntu MATE is stable. You may, or may not, agree.
 Ubuntu MATE *Beta Releases* are *NOT* recommended for:
 
   * Regular users who are not aware of pre-release issues
-  * Anyone who needs a stable system
-  * Anyone uncomfortable running a possibly frequently broken system
-  * Anyone in a production environment with data or workflows that need to be reliable
+  * Anyone who requires a stable system
+  * Anyone uncomfortable running a system that can often be broken
+  * Anyone in a production environment with data or workflows that need reliability
 
 Ubuntu MATE *Beta Releases* are recommended for:
 
   * Regular users who want to help us test by finding, reporting, and/or fixing bugs
-  * Ubuntu MATE, MATE, and GTK+ developers.
+  * Ubuntu MATE, MATE, and GTK+ developers
 
 
 
@@ -110,11 +113,25 @@ of rendering problems that were present in various themes and components.
   * Marco is free from screen tearing
   * Marco frame performance when gaming is further improved
 
+**Minimized Application Preview**
+
+Minimized applications in the window list now present a thumbnail preview.
+
+{:.center}
+![Minimized Preview](/images/blog/focal/taskbar-preview.png)
+
 **Alt+Tab navigation** makes it possible to
-traverse the application switcher via keyboard and mouse. We've also **cleaned
-up the window controls** by removing the menu button. The menu is still
-available either by right clicking the window title bar or pressing
-<kbd>Alt</kbd> + <kbd>Space</kbd>.
+traverse the application switcher via keyboard and mouse.
+<kbd>Alt</kbd> + <kbd>Tab</kbd>.
+
+{:.center}
+![Alt-Tab Switcher](/images/blog/focal/alt-tab.png)
+
+**Workspace Switcher** allows you to switch between workspaces using a the keyboard and mouse.
+<kbd>Alt</kbd> + <kbd>Tab</kbd> + <kbd>Ctrl</kbd>.
+
+{:.center}
+![Workspace Switcher](/images/blog/focal/workspace-switcher.png)
 
 **Compiz and Compton have been removed from the default Ubuntu MATE
 install**. The fundamental reasons for including them no longer exist.
