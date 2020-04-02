@@ -11,7 +11,7 @@ discourse_topic_id: 21380
 ---
 
 We are preparing Ubuntu MATE 20.04 (Focal Fossa) for distribution on
-[October 17th, 2019](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule).
+[April 23rd, 2020](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule).
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
