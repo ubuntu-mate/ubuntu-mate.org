@@ -72,8 +72,7 @@ discourse: "https://ubuntu-mate.community"
 
 # i18n
 languages: [
-    "en",
-    "fr"
+    "en"
 ]
 default_lang: "en"
 exclude_from_localization: [
