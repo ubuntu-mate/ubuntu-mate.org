@@ -42,3 +42,7 @@ This website embeds the following libraries, with their licenses as follows:
 | ------------------------------------------------- | --------- | ------------------------- |
 | [FontAwesome 5 (Free)](https://fontawesome.com/)  | MIT       | `images/fa/*`
 | [Bootstrap 4](https://getbootstrap.com/)          | MIT       | `_sass/lib/bootstrap-*`
+| [jQuery 3.4.1](https://jquery.com)                | MIT       | `_includes/js/jquery-3.4.1.min.js`
+| [modernizr 3.6.0](https://modernizr.com)          | MIT       | `_includes/js/modernizr-webp-detection.js`
+| [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search) | MIT | `_includes/js/simple-jekyll-search.min.js`
+| [Slick](https://github.com/slick/slick)           | BSD 2-Clause "Simplified" | `_includes/js/slick.min.js`
