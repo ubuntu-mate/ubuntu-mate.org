@@ -24,8 +24,8 @@ layout: default
 {% capture banner_text %}
     <small>{{ site.data.strings.post_download_title }}</small>
     <h2>Ubuntu MATE {{ release.name }}</h2>
-    <p>{{ release.codename }}</p>
-    <p style="opacity:0.5">{{ arch }}</p>
+    <p>{{ site.data.strings.post_download_release | replace: '[Focal]', release.codename | replace: '[amd64]', arch }}</p>
+    <p><a class="btn green" href="{{ release.release_notes | absolute_url }}">{{ site.data.strings.release_notes }}</a></p>
 {% endcapture %}
 
 {% capture background_path %}/images/wallpapers/{{ release.wallpaper }}{% endcapture %}
@@ -127,9 +127,6 @@ layout: default
                 <ul>
                     <li>
                         <a href="{{ '/faq/usb-image/' | absolute_url }}">{{ site.data.strings.download_stuck_help_imgusb }}</a>
-                    </li>
-                    <li>
-                        <a href="{{ release.release_notes | absolute_url }}">{{ site.data.strings.download_stuck_rel_notes }}</a>
                     </li>
                     <li>
                         <a href="{{ '/faq/' | absolute_url }}">{{ site.data.strings.download_stuck_help_faq }}</a>

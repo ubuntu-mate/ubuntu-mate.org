@@ -27,6 +27,8 @@ choose_arch: "Choose an architecture"
 choose_version: "Choose a release"
 choose_download: "Choose a download"
 post_download_title: "Thank you for downloading:"
+post_download_release: "[Focal] for [amd64] systems"
+release_notes: "Release Notes"
 post_download_link_1: "Choose a different release"
 post_download_link_2: "or architecture"
 post_download_thanks: "Thank you for downloading []"
@@ -101,7 +103,6 @@ download_stuck_text: "Check out these resources:"
 download_stuck_help_imgusb: "How to image a flash drive (Windows, Mac, Linux)"
 download_stuck_help_community: "Ask the community"
 download_stuck_help_faq: "Frequently asked questions"
-download_stuck_rel_notes: "Read release notes"
 
 
 #######################################
