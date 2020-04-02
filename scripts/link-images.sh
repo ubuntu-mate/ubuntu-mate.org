@@ -13,9 +13,9 @@ function link_image() {
     local TOR_PATH="${ISO_PATH}.torrent"
     local TOR_FILE=$(basename ${TOR_PATH})
 
-    commands+=" && mkdir -p /home/matey/preview.ubuntu-mate.org/$PAGE"
-    commands+=" && ln -vsf ${ISO_PATH} /home/matey/preview.ubuntu-mate.org/$PAGE/$ISO_FILE"
-    commands+=" && ln -vsf ${TOR_PATH} /home/matey/preview.ubuntu-mate.org/$PAGE/$TOR_FILE"
+    commands+=" && mkdir -p /home/matey/ubuntu-mate.org/$PAGE"
+    commands+=" && ln -vsf ${ISO_PATH} /home/matey/ubuntu-mate.org/$PAGE/$ISO_FILE"
+    commands+=" && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
 }
 
 link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/arm64/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
