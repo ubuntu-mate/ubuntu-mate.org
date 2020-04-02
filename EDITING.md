@@ -150,7 +150,7 @@ middle_subtitle: Most familiar to Windows users.
 
 right_image_filename: placeholder
 right_image_alt:
-right_title: Munity
+right_title: Mutiny
 right_subtitle: The lightweight alternate recognised by Ubuntu Unity users.
 ```
 
