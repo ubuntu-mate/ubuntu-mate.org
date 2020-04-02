@@ -197,7 +197,7 @@ preinstalled:
 
     - name: Brisk Menu
       img: /images/apps/brisk.svg
-      src_url: https://github.com/solus-project/brisk-menu
+      src_url: https://github.com/getsolus/brisk-menu
       translations_url: https://translate.getsol.us/projects/brisk-menu/brisk-menu-translations/
 
     - name: Déjà Dup
