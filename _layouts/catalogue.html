@@ -1,0 +1,44 @@
+---
+layout: page-category
+---
+
+{{ content }}
+
+<div class="catalogue">
+    {% for group in page.catalogue %}
+
+        <div class="catalogue-group">
+            <h2>{{ group.group }}</h2>
+
+            {% for item in group.items %}
+
+                <div class="row catalogue-item">
+                    <div class="col-md-4 col-sm-12 product-image">
+                        <img src="{{ item.img }}" alt="{{ item.name | replace:'"', "&#8221;" }}"/>
+                    </div>
+
+                    <div class="col-md-8 col-sm-12 product-description">
+                        <h3>{{ item.name }}</h3>
+
+                        {% if item.price %}
+                        <p class="product-price">{{ item.price }}</p>
+                        {% endif %}
+
+                        {{ item.description | markdownify }}
+
+                        {% if item.url %}
+                        <a class="btn" href="{{ item.url }}">
+                            {% include images/fa/external-link-alt.svg %}
+                            {{ site.data.strings.purchase }}
+                        </a>
+                        {% endif %}
+
+                    </div>
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    {% endfor %}
+</div>

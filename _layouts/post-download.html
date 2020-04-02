@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+<meta name="robots" content="noindex, nofollow"/>
+
+{% assign download = null %}
+{% for ver in site.data.downloads.downloads[page.download_id] %}
+    {% if page.release_id == ver.release %}{% assign download = ver %}{% break %}{% endif %}
+{% endfor %}
+{% assign release = site.data.downloads.releases[download.release] %}
+{% assign arch = page.download_id %}
+
+{% assign fg = "/images/ubuntu-mate/laptop.png" %}
+{% if arch == "i386" %}{% assign fg = "/images/ubuntu-mate/i386.svg" %}{% endif %}
+{% if arch == "armhf" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+{% if arch == "arm64" %}{% assign fg = "/images/ubuntu-mate/rpi.png" %}{% endif %}
+{% if arch == "gpd_pocket" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "gpd_pocket_2" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "gpd_micropc" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "gpd_p2_max" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+{% if arch == "topjoy_falcon" %}{% assign fg = "/images/hardware/gpd-pocket2.png" %}{% endif %}
+
+{% capture banner_text %}
+    <small>{{ site.data.strings.post_download_title }}</small>
+    <h2>Ubuntu MATE {{ release.name }}</h2>
+    <p>{{ release.codename }}</p>
+    <p style="opacity:0.5">{{ arch }}</p>
+{% endcapture %}
+
+{% capture background_path %}/images/wallpapers/{{ release.wallpaper }}{% endcapture %}
+
+<article class="page has-banner">
+
+    {% include partials/banner.html
+        bg = background_path
+        fg = fg
+        text = banner_text
+        variant = "white-text"
+    %}
+
+    <p class="choose-alt-download">
+        <a href="../../">
+            {% include images/fa/chevron-left.svg %}
+            {{ site.data.strings.post_download_link_1 }}
+        </a>
+        <a href="../../../">
+            {{ site.data.strings.post_download_link_2 }}
+        </a>
+    </p>
+
+    <div class="container">
+
+        <div class="download-thanks row">
+            <div class="col-sm-2">
+                <img src="/images/downloads/tips.svg"/>
+            </div>
+            <div class="col-sm-10">
+                <h3>{{ site.data.strings.download_tip_title }}</h3>
+                {{ site.data.strings.download_tip_text | markdownify }}
+                <p>{% include embed/download-tip-paypal.html %}</p>
+                <p>{{ site.data.strings.download_tip_provider }}&nbsp;&nbsp;<img src="/images/brands/paypal.svg" alt="PayPal"/></p>
+                {{ site.data.strings.download_tip_footnote | markdownify }}
+            </div>
+        </div>
+
+        <div class="download-thanks row">
+            <div class="col-sm-2">
+                <img src="/images/downloads/verify.svg"/>
+            </div>
+            <div class="col-sm-10">
+                <h3>{{ site.data.strings.download_verify_title }}</h3>
+                {{ site.data.strings.download_verify_text | markdownify }}
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>{{ site.data.strings.filename }}</th>
+                            <td>{{ download.url | split:'/' | last }}</td>
+                        </tr>
+                        <tr>
+                            <th>SHA256SUM</th>
+                            <td><code>{{ download.sha256sum }}</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <a href="{{ '/faq/verify-download-quick/' | absolute_url }}">
+                        {% include images/fa/question-circle.svg %}
+                        {{ site.data.strings.download_verify_howto }}
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="download-thanks row">
+            <div class="col-sm-2">
+                <img src="/images/downloads/guides.png"/>
+            </div>
+            <div class="col-sm-10">
+                <h3>{{ site.data.strings.download_guide_title }}</h3>
+                {{ site.data.strings.download_guide_text | markdownify }}
+                <p>
+                    <a class="btn" href="{{ '/shop/books/' | absolute_url }}">
+                        {% include images/fa/shopping-cart.svg %}
+                        {{ site.data.strings.download_guide_shop_button }}
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="download-thanks row">
+            <div class="col-sm-2">
+                <img src="/images/downloads/stuck.svg"/>
+            </div>
+            <div class="col-sm-10">
+                <h3>{{ site.data.strings.download_stuck_title }}</h3>
+                {{ site.data.strings.download_stuck_text | markdownify }}
+
+                <ul>
+                    <li>
+                        <a href="{{ '/faq/usb-image/' | absolute_url }}">{{ site.data.strings.download_stuck_help_imgusb }}</a>
+                    </li>
+                    <li>
+                        <a href="{{ release.release_notes | absolute_url }}">{{ site.data.strings.download_stuck_rel_notes }}</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/faq/' | absolute_url }}">{{ site.data.strings.download_stuck_help_faq }}</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/community/' | absolute_url }}">{{ site.data.strings.download_stuck_help_community }}</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</article>
+
+{% capture download_name %}Ubuntu MATE {{ release.name }}{% endcapture %}
+<script>
+    document.title = "{{ site.data.strings.post_download_thanks | replace: '[]', download_name }}";
+</script>

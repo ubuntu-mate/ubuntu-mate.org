@@ -1,0 +1,137 @@
+.categories {
+    display: flex;
+    padding: 0;
+    margin-bottom: 30px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    position: sticky;
+    top: 60px;
+    background: $background;
+    box-shadow: 0px 10px 20px $background;
+    z-index: 10;
+}
+
+.category-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    border-bottom: 2px solid transparent;
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    width: 175px;
+    transition: background-color $transition-duration $transition-timing;
+    outline: none;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-bottom: 1px solid $grey-dark;
+        width: 50px;
+        transition: width $transition-duration $transition-timing,
+                    border-bottom-color $transition-duration $transition-timing;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: rgba($grey-lightest, 0.5);
+    }
+
+    &:active {
+        background-color: rgba($grey-lightest, 1);
+
+        &::after {
+            border-bottom-color: $grey-darker;
+        }
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+        text-decoration: none;
+
+        .category-name {
+            color: $ubuntu-mate-light;
+        }
+
+        &::after {
+            width: 150px;
+        }
+    }
+
+    &.active {
+        .category-name {
+            color: $ubuntu-mate-dark;
+        }
+
+        &::after {
+            color: $ubuntu-mate-dark;
+            border-width: 2px;
+            border-bottom-color: $ubuntu-mate-dark;
+        }
+    }
+}
+
+.category-icon {
+    height: 100%;
+    width: auto;
+    height: 80px;
+    max-width: 80px;
+    margin: auto;
+}
+
+.category-name {
+    color: $grey-darker;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+    transition: color $transition-duration $transition-timing;
+}
+
+@media screen and (max-width: $md), (max-height: $sm) {
+    .category-item {
+        padding: 5px;
+        padding-bottom: 15px;
+        margin-top: 10px;
+        width: auto;
+        flex: 1 0 0;
+
+        &:hover,
+        &:focus,
+        &.active {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+
+    .category-icon {
+        max-height: 40px;
+        max-width: 40px;
+    }
+
+    .category-name {
+        font-size: 16px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: $md), (max-height: $xs) {
+    .categories {
+        flex-wrap: wrap;
+        position: static;
+        top: 0;
+    }
+}
+
+@media (max-width: $xs) {
+    .category-item {
+        flex: 1 0 33%;
+    }
+}

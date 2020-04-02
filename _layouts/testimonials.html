@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = page.category
+                %}
+
+                <h2>{{ site.data.strings.quote_general_title }}</h2>
+
+                <div class="testimonial-quotes">
+                  {% for user in page.testimonials %}
+
+                    {% if user.avatar == null %}
+                        {% assign avatar = "/images/people/nophoto.svg" %}
+                    {% else %}
+                        {% assign avatar = user.avatar %}
+                    {% endif %}
+
+                    <div class="testimonial-quote">
+                        <img class="avatar" src="{{ avatar }}" alt="{{ user.who }}"/>
+                        <div class="quote-block">
+                            <blockquote class="quote">
+                                {{ user.quote }}
+                                {% include images/arrow.svg %}
+                            </blockquote>
+                            <div class="author">
+                                {{ user.who }}
+                                <br>
+                                <a href="{{ user.url }}">{{ user.handler }}</a>
+                            </div>
+                        </div>
+                    </div>
+                  {% endfor %}
+                </div>
+
+                <h2>{{ site.data.strings.quote_youtube_title }}</h2>
+
+                <div class="testimonial-videos">
+                  {% for video in page.youtube %}
+                    <div class="testimonial-video">
+                        <iframe class="video" width="560" height="315" src="{{ video.embed_url }}" frameborder="0"></iframe>
+                        <h4 class="author">{{ video.who }}</h4>
+                        <em class="subject">{{ video.subject }}</em>
+                        <blockquote class="quote">
+                            {{ video.quote }}
+                        </blockquote>
+                    </div>
+                  {% endfor %}
+                </div>
+
+                {{ content }}
+
+            </content>
+        </div>
+
+    </div>
+
+</article>

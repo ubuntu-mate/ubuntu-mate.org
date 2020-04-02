@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - jekyll-update
+  pull_request:
+    branches:
+      - jekyll-update
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get install ruby ruby-dev make gcc
+        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync
+        sudo gem install bundler html-proofer
+        bundle install
+
+    - name: Build website
+      run: |
+        scripts/build.sh --magnet-uri --locales
+
+    - name: Test for errors
+      run: |
+        scripts/test.sh
+
+    - name: Deploy to server
+      if: github.event_name == 'push'
+      run: |
+        mkdir -p $HOME/.ssh/
+        chmod 700 $HOME/.ssh/
+        echo -n "${{ secrets.SSH_MATEY }}" > $HOME/.ssh/id_rsa
+        chmod 600 $HOME/.ssh/id_rsa
+        scripts/deploy.sh

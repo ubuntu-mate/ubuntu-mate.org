@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = "features"
+                %}
+
+                <div class="feature-highlight {% if page.swap_position == true %}reverse{% endif %}">
+                    <div class="col-md-8 highlight-picture">
+                        {% include picture-2x.html
+                            dir = "/images/features"
+                            img = page.main_image_filename
+                            ext = "png"
+                            alt = page.main_image_alt
+                        %}
+                    </div>
+                    <div class="col-md-4 highlight-text">
+                        <h1>{{ page.main_title }}</h1>
+                        <h3>{{ page.main_subtitle }}</h3>
+                        <hr>
+                        {{ page.main_text | markdownify }}
+                    </div>
+                </div>
+
+                <div class="feature-mini">
+
+                    <div class="feature left">
+                        <img src="/images/features/{{ page.left_image_filename }}.png" alt="{{ page.left_image_alt }}"/>
+                        <img class="hover" src="/images/features/{{ page.left_image_filename }}-hover.png" alt=""/>
+                        <h3>{{ page.left_title }}</h3>
+                        <p>{{ page.left_subtitle }}</p>
+                    </div>
+
+                    <div class="feature middle">
+                        <img src="/images/features/{{ page.middle_image_filename }}.png" alt="{{ page.middle_image_alt }}"/>
+                        <img class="hover" src="/images/features/{{ page.middle_image_filename }}-hover.png" alt=""/>
+                        <h3>{{ page.middle_title }}</h3>
+                        <p>{{ page.middle_subtitle }}</p>
+                    </div>
+
+                    <div class="feature right">
+                        <img src="/images/features/{{ page.right_image_filename }}.png" alt="{{ page.right_image_alt }}"/>
+                        <img class="hover" src="/images/features/{{ page.right_image_filename }}-hover.png" alt=""/>
+                        <h3>{{ page.right_title }}</h3>
+                        <p>{{ page.right_subtitle }}</p>
+                    </div>
+
+                </div>
+
+                <div class="content">
+                    {{ content }}
+                </div>
+
+            </content>
+        </div>
+
+    </div>
+
+</article>

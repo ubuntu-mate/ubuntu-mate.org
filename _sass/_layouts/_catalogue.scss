@@ -1,0 +1,48 @@
+.catalogue-group {
+    margin-top: 15px;
+
+    + .catalogue-group {
+        margin-top: 30px;
+    }
+}
+
+.catalogue-item {
+    border-top: 1px solid $grey-light;
+    margin-top: 15px;
+    padding: 15px 0;
+
+    .product-price {
+        color: $ubuntu-mate-dark;
+    }
+
+    .product-image,
+    .product-image img {
+        max-height: 300px;
+        max-width: 300px;
+
+    }
+
+    .product-image {
+        display: flex;
+
+        img {
+            margin: auto;
+        }
+    }
+
+    .product-description {
+        padding: 15px;
+    }
+}
+
+@media (max-width: $sm) {
+    .catalogue-group {
+        text-align: center;
+    }
+
+    .catalogue-item {
+        .product-image {
+            margin: 0 auto;
+        }
+    }
+}

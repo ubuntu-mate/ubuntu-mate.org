@@ -1,0 +1,264 @@
+.download-title {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.download-subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 15px 0 0;
+}
+
+.download-back {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 30px;
+    transition: transform $transition-duration $transition-timing;
+
+    svg {
+        height: 48px;
+        width: 48px;
+        margin: auto;
+
+        path {
+            fill: $grey-light;
+            transition: fill $transition-duration $transition-timing;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        outline: none;
+        transform: translateX(-5px);
+
+        svg path {
+            fill: $grey-dark;
+        }
+    }
+}
+
+/* Progress Indicators */
+.progress-indicator {
+    cursor: default;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+
+    .dot {
+        background: $background;
+        border: 1px solid $grey-dark;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        height: 20px;
+        width: 20px;
+        margin: 0 5px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -15px;
+            right: -15px;
+            margin: auto;
+            border-bottom: 1px solid $grey-dark;
+            height: 1px;
+            z-index: -1;
+        }
+
+        &:first-child::before {
+            left: 0;
+        }
+
+        &:last-child::before {
+            right: 0;
+        }
+
+        &.active {
+            border-color: $ubuntu-mate-dark;
+            background: $ubuntu-mate-light;
+        }
+
+        &.current {
+            animation: current-dot 1s ease-in-out infinite;
+        }
+    }
+}
+
+@keyframes current-dot {
+    0% {
+        background: $ubuntu-mate-light;
+        border-color: $ubuntu-mate-dark;
+    }
+    50% {
+        background: $ubuntu-mate-dark;
+        border-color: $ubuntu-mate-light;
+    }
+    100% {
+        background: $ubuntu-mate-light;
+        border-color: $ubuntu-mate-dark;
+    }
+}
+
+/* Download Grid */
+.grey-text {
+    color: $grey-dark;
+    font-weight: 400;
+}
+
+.prerelease {
+    color: $danger;
+}
+
+/* Download Details */
+.download-details {
+    display: flex;
+    padding: 0px 15px;
+    width: 760px;
+    margin: 15px auto;
+
+    th {
+        text-align: right;
+        width: 200px;
+        max-width: 100%;
+    }
+}
+
+/* Download Table */
+.download-all-table {
+    table-layout: fixed;
+    margin: 0;
+    margin-bottom: 50px;
+
+    .filename {}
+    .arch {}
+    .size {}
+
+    .server {
+        img {
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    .checksum {}
+    .links {}
+}
+
+@media screen and (max-width: $md) {
+    .download-all-table {
+        .server {
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+.download-table-btn {
+    svg {
+        height: 24px;
+        width: 24px;
+
+        path {
+            fill: $ubuntu-mate-dark;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        svg path {
+            fill: $ubuntu-mate-light;
+        }
+    }
+
+    + .download-table-btn {
+        margin-left: 5px;
+    }
+}
+
+/* Download Thank You Page */
+.download-thanks {
+    border-top: 1px solid $grey-light;
+    margin: 30px 0;
+    padding-top: 30px;
+
+    &:first-child {
+        border: none;
+        margin-top: 0;
+    }
+
+    div > img {
+        max-width: 100%;
+    }
+}
+
+.choose-alt-download {
+    text-align: center;
+    margin: 10px 0;
+
+    svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: $md) {
+    .download-details {
+        width: calc(100% - 30px);
+    }
+}
+
+@media (max-width: $sm) {
+    .download-thanks {
+        div > img {
+            margin: auto;
+        }
+    }
+
+    .download-details {
+        tbody {
+            width: 100%;
+        }
+
+        tr {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        th {
+            text-align: center;
+            width: unset;
+            padding: 10px 0 0;
+        }
+    }
+}
+
+@media (max-width: $xs) {
+    .download-thanks {
+        div > img {
+            margin: auto;
+            max-width: 30vw;
+        }
+    }
+
+    .grid-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grid-icon {
+        margin: 0;
+    }
+
+    .grid-details {
+        margin-top: 15px;
+    }
+}

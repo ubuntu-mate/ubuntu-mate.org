@@ -1,0 +1,112 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Ubuntu MATE
+email: code@ubuntu-mate.org
+description: >- # this means to ignore newlines until "baseurl:"
+    A community developed, Ubuntu based operating system that beautifully
+    integrates the MATE desktop.
+
+    Ubuntu MATE is a stable, easy-to-use operating system with a configurable
+    desktop environment. Ideal for those who want the most out of their computers
+    and prefer a traditional desktop metaphor. With modest hardware requirements
+    it is suitable for modern workstations, single board computers and older
+    hardware alike.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://preview.ubuntu-mate.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+    - jekyll-feed
+    - jekyll-webp
+    - jemoji
+
+feed:
+    path: rss.xml
+
+# Workaround: i18n plugin causes CSS generation to output a source map.
+# https://github.com/untra/polyglot/issues/107
+sass:
+    sourcemap: never
+
+# Exclude from processing.
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - EDITING.md
+    - README.md
+    - LICENSE.md
+    - scripts
+    - i18n
+    - vendor
+    - .git
+    - .github
+
+# Network URLs
+launchpad: "https://launchpad.net/ubuntu-mate"
+github: "https://github.com/ubuntu-mate/"
+irc: "/irc/"
+trello: "https://trello.com/ubuntumatedevelopers"
+facebook: "https://www.facebook.com/UbuntuMATEedition/"
+twitter: "https://twitter.com/ubuntu_mate"
+youtube: "https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ/"
+mastodon: "https://ubuntu.social/@ubuntumate"
+rss: "/rss.xml"
+discourse: "https://ubuntu-mate.community"
+
+# i18n
+languages: [
+    "en",
+    "fr"
+]
+default_lang: "en"
+exclude_from_localization: [
+    "assets",
+    "images"
+]
+parallel_localization: true
+
+# Site configuration for the WebP Generator Plugin
+# The values here represent the defaults if nothing is set
+webp:
+  enabled: true
+
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize, nested directories will not be checked
+  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+  img_dir: ["/images/"]
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Local path to the WebP utilities to use (relative or absolute)
+  # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+  webp_path: nil
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: []

@@ -1,0 +1,121 @@
+/************************
+ * Buttons
+*************************/
+button,
+.btn {
+    background: linear-gradient($button-bg);
+    border: 1px solid $button-border;
+    color: $text-colour-dark;
+    cursor: default;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-decoration: none;
+
+    &:focus,
+    &:hover,
+    &:active {
+        border: 1px solid $button-border-focused;
+        color: $text-colour-dark;
+        outline: 0;
+        text-decoration: none;
+
+        svg path {
+            fill: $text-colour-dark;
+        }
+    }
+
+    &:active {
+        background: linear-gradient($button-bg-clicked);
+    }
+
+    img {
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+    }
+
+    svg path {
+        fill: $text-colour-dark;
+    }
+}
+
+a.btn {
+    /* Slightly more padding for anchors that look like buttons */
+    padding: 8px 12px;
+}
+
+/* Alternate button themes */
+button.inverted,
+.btn.inverted,
+button.green,
+.btn.green,
+button.yellow,
+.btn.yellow,
+button.red,
+.btn.red {
+    border-color: transparent;
+    color: $text-colour-light;
+
+    svg path {
+        fill: $text-colour-light;
+    }
+
+    &:focus,
+    &:hover {
+        fill: $text-colour-light;
+    }
+
+    &:active {
+        color: $text-colour-light;
+    }
+}
+
+/* Button Theme - Header/Footer */
+button.inverted,
+.btn.inverted {
+    background: linear-gradient($button-bg-inverted);
+
+    &:active {
+        background: linear-gradient($button-bg-inverted-clicked);
+    }
+}
+
+/* Button Theme - Green */
+button.green,
+.btn.green {
+    background: linear-gradient($button-bg-green);
+
+    &:active {
+        background: linear-gradient($button-bg-green-clicked);
+    }
+}
+
+/* Button Theme - Yellow */
+button.yellow,
+.btn.yellow {
+    background: linear-gradient($button-bg-yellow);
+
+    &:active {
+        background: linear-gradient($button-bg-yellow-clicked);
+    }
+}
+
+/* Button Theme - Red */
+button.red,
+.btn.red {
+    background: linear-gradient($button-bg-red);
+
+    &:active {
+        background: linear-gradient($button-bg-red-clicked);
+    }
+}
+
+/* Button Theme - Dropdown */
+button.dropdown {
+    color: $header-text;
+
+    &:hover {
+        color: $text-colour-light;
+    }
+}

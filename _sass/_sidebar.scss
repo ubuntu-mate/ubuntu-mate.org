@@ -1,0 +1,253 @@
+.sidebar-view {}
+
+.col.sidebar {
+    position: relative;
+    max-width: 320px;
+    padding: 15px;
+    padding-right: 0;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: $sm) {
+    .sidebar-wrapper {
+        position: sticky;
+        top: 90px;
+    }
+}
+
+.sidebar-border {
+    content: " ";
+    position: absolute;
+    border-right: 1px solid $grey-dark;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.sidebar-title,
+.sidebar-link {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sidebar-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.sidebar-link {
+    cursor: pointer;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid $grey-dark;
+    padding-left: 10px;
+    font-size: 15px;
+
+    img {
+        height: 24px;
+        width: auto;
+    }
+
+    span {
+        margin: 0 5px;
+    }
+
+    &:hover,
+    &:focus {
+        background: lighten($ubuntu-mate-light, 30%);
+        color: $text-colour-dark;
+        text-decoration: none;
+
+        svg path {
+            fill: $text-colour-light;
+        }
+    }
+
+    &:active {
+        background: lighten($ubuntu-mate-light, 15%);
+        color: $text-colour-dark;
+        outline-color: lighten($ubuntu-mate-light, 15%);
+        transition: none;
+
+        span {
+            color: white;
+            transition: none;
+        }
+    }
+
+    &.active {
+        background-color: lighten($ubuntu-mate-light, 5%);
+
+        span {
+            color: white;
+        }
+    }
+
+    + .sidebar-title {
+        padding-top: 30px;
+    }
+}
+
+.sidebar-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -25px;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    z-index: 1;
+
+    svg {
+        height: 20px;
+        width: 20px;
+
+        path {
+            fill: $grey-light;
+        }
+    }
+
+    &:hover {
+        ~ .sidebar-border {
+            border-color: $ubuntu-mate-dark !important;
+        }
+
+        svg path {
+            fill: $ubuntu-mate-dark;
+        }
+    }
+}
+
+/****************************************
+/* Collapse to maximize screen estate
+****************************************/
+.sidebar {
+    transition: max-width $transition-duration $transition-timing;
+    max-width: 300px;
+}
+
+.sidebar-title,
+.sidebar-link {
+    transition: opacity $transition-duration $transition-timing;
+    opacity: 1;
+}
+
+.sidebar-toggle svg {
+    transition: transform $transition-duration $transition-timing;
+    transform: rotate(0deg);
+}
+
+.sidebar-border {
+    transition: border-color $transition-duration $transition-timing;
+}
+
+#sidebar-collapsed:checked {
+    ~ .sidebar {
+        max-width: 0px;
+
+        .sidebar-title,
+        .sidebar-link {
+            opacity: 0;
+        }
+
+        .sidebar-toggle svg {
+            transform: rotate(180deg);
+        }
+
+        .sidebar-border {
+            border-color: $grey-dark;
+        }
+    }
+}
+
+#sidebar-invisible {
+    display: none;
+}
+
+/****************************************
+/* Floating collapsable sidebar on mobile/small screens
+****************************************/
+@media (max-width: $sm) {
+    .sidebar-container {
+        /* Simulate .no-gutters */
+        margin: 0;
+
+        .col {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        /****/
+        .page-header {
+            padding-left: 45px;
+        }
+    }
+
+    .col.sidebar {
+        position: fixed;
+        top: $header-height;
+        height: calc(100vh - #{$header-height});
+        background: $background-alt;
+        z-index: 1;
+        border: 1px solid $grey-dark;
+        overflow: auto;
+        padding-bottom: 60px;
+    }
+
+    .sidebar-wrapper {
+        position: relative;
+        top: unset;
+        padding-left: 30px;
+        height: calc(100vh - #{$header-height});
+    }
+
+    .sidebar-toggle {
+        top: 0;
+        left: 5px;
+        bottom: 0;
+        right: unset;
+
+        svg path {
+            fill: $grey-dark;
+        }
+    }
+
+    .page-content.page-has-sidebar {
+        margin-left: 45px;
+        margin-right: 30px;
+    }
+
+    #sidebar-collapsed:checked ~ .sidebar {
+        max-width: 30px;
+        overflow: hidden;
+    }
+
+    #sidebar-collapsed:not(:checked) ~ #sidebar-invisible {
+        display: block;
+    }
+
+    #sidebar-collapsed:checked ~ #sidebar-invisible {
+        display: none;
+    }
+
+    /* Allows user to click off the sidebar to close */
+    #sidebar-invisible {
+        display: block;
+        background: rgba(0,0,0,0.1);
+        position: fixed;
+        left: 0;
+        top: $header-height;
+        right: 0;
+        bottom: -20px;
+    }
+}
+
+/* Prevent sidebar stickiness when scrolling down */
+@media (max-height: $sm) {
+    .sidebar-wrapper {
+        position: relative;
+        top: 0;
+    }
+}

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <content class="page-content col">
+
+                {% include partials/categories.html
+                    id = page.category
+                %}
+
+                <div class="milestone-timeline">
+                    <div class="milestone-sidebar"></div>
+                    <article class="milestone-article">
+
+                        {{ content }}
+
+                    </article>
+                </div>
+
+            </content>
+        </div>
+
+    </div>
+
+</article>

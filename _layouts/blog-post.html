@@ -1,0 +1,109 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+        </div>
+
+        <div class="row blog-column">
+            <content class="page-content col">
+                <hr>
+                {% include partials/blog-metadata.html
+                    post = page
+                %}
+                <hr>
+
+                {% assign post_date = page.date | date: '%s' | plus: 0 %}
+                {% assign today = 'now' | date: '%s' | plus: 0 %}
+                {% assign post_expires = post_date | plus: 31540000 %}
+
+                {% if today > post_expires %}
+                    <div class="post-outdated">
+                        {% include images/fa/warning.svg %}
+                        {{ site.data.strings.outdated_post }}
+                    </div>
+                {% endif %}
+
+                <article>
+
+                    {{ content }}
+
+                </article>
+
+                <div class="blog-comments">
+                    <h2>{{ site.data.strings.comments_title }}</h2>
+
+                    {% assign today_year = page.date | date: '%Y' | plus: 0 %}
+                    {% capture original_url %}{{ site.url }}{{ page.url }}{% endcapture %}
+                    {% assign original_url = original_url | replace:'{{ site.active_lang }}/','' %}
+
+                    {% if page.draft == true %}
+                        {% if page.discourse_topic_id == null %}
+                            <p class="blog-comment-empty" style="color:red">
+                                <strong>Topic ID Missing!</strong>
+                                <br><br>
+                                To enable comments for this blog post,
+                                <a href="https://ubuntu-mate.community/c/43">create an announcement topic in <strong>Scheduled</strong></a>,
+                                then copy the topic ID (from the URL) to this page's frontmatter.
+                                <pre>discourse_topic_id:</pre>
+                            </p>
+                        {% else %}
+                            <p class="blog-comment-empty" style="color:grey">
+                                This post is a draft. The comment section will be revealed once it is published.
+                                <br><br>
+                                <a href="{{ site.discourse }}/t/{{ page.discourse_topic_id }}">&rarr; Link to topic</a>
+                            </p>
+                        {% endif %}
+                    {% elsif today_year < 2020 and page.discourse_topic_id == null %}
+                        <p class="blog-comment-empty">
+                            {{ site.data.strings.comments_none_old }}
+                        </p>
+                    {% elsif page.discourse_topic_id == null %}
+                        <p class="blog-comment-empty">
+                            {{ site.data.strings.comments_none }}
+                        </p>
+                    {% else %}
+                        <noscript>
+                            <p class="blog-comment-empty">
+                                {{ site.data.strings.comments_no_js }}
+                            </p>
+                        </noscript>
+                        <div id='discourse-comments'></div>
+                        <script type="text/javascript">
+                            DiscourseEmbed = {
+                                discourseUrl: '{{ site.discourse }}/',
+                                topicId: {{ page.discourse_topic_id }}
+                            };
+                            (function() {
+                                var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                                d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                            })();
+                        </script>
+                    {% endif %}
+                </div>
+
+            </content>
+
+            <div class="discourse" style="display:none">
+                {{ page.excerpt }}
+                <br><br>
+                {{ original_url }}
+                <br><br>
+                :point_down: Reply to this topic to leave a comment at the bottom of the blog post.
+                <br><br>
+            </div>
+
+            {% include partials/blog-sidebar.html %}
+
+        </div>
+
+    </div>
+
+</article>

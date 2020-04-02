@@ -1,0 +1,199 @@
+body, button, input {
+    font-family: $primary-font;
+    color: $text-colour-dark;
+}
+
+a {
+    color: $link-colour;
+
+    &:hover,
+    &:focus {
+        color: $link-colour-focused;
+
+        svg path {
+            fill: $link-colour-focused;
+        }
+    }
+
+    /* Generally a FontAwesome icon */
+    svg {
+        height: 16px;
+        width: 16px;
+        position: relative;
+        top: -1px;
+
+        path {
+            fill: $link-colour;
+        }
+    }
+}
+
+::selection {
+    background: $ubuntu-mate-dark;
+    color: $text-colour-light;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid $grey-light;
+}
+
+code {
+    font-family: $monospace-font;
+    color: $ubuntu-mate-dark;
+}
+
+/* Slight override on Bootstrap Grid */
+@media screen and (max-width: $sm) {
+    .container {
+        max-width: $md;
+    }
+}
+
+/************************
+ * Generic markdown content
+*************************/
+content {
+    margin-bottom: 60px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+content > .content {
+    margin: 40px 0;
+}
+
+/************************
+ * Push footer to the bottom
+*************************/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 320px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/************************
+ * Text class helpers
+*************************/
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.monospace-font {
+    font-family: $monospace-font;
+    font-size: 16px;
+}
+
+/************************
+ * Markdown
+*************************/
+blockquote {
+    background-color: $grey-lightest;
+    border-left: 2px solid $grey-dark;
+    padding: 10px;
+    padding-left: 45px;
+    position: relative;
+
+    p {
+        margin: 0;
+    }
+
+    &:before {
+        content: "❝";
+        color: $grey-dark;
+        font-size: 40px;
+        position: absolute;
+        left: 15px;
+        top: 0px;
+    }
+}
+
+pre {
+    display: block;
+    background-color: $grey-lightest;
+    color: black;
+    padding: 15px;
+    margin: 15px 0;
+    white-space: pre-wrap;
+
+    code {
+        color: black;
+    }
+}
+
+p.center {
+    text-align: center;
+
+    img {
+        margin: 10px auto;
+
+        /* Caption */
+        + strong {
+            display: block;
+            font-size: 0.9em;
+        }
+    }
+}
+
+p.small {
+    img {
+        max-width: 600px;
+    }
+}
+
+kbd {
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0,0,0,.2), 0 0 0 1px #fff inset;
+    background: #fafafa;
+    border: 1px solid $button-border;
+    color: $text-colour-dark;
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: 1.4;
+    margin: 0 0.1em;
+    padding: 0.1em 0.5em;
+}
+
+/* Table of Contents */
+.toc {
+    background: $grey-lightest;
+    border: 1px solid $grey-dark;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0 0 1em;
+
+    ul {
+        margin: 0;
+    }
+
+    /* Position anchors a bit lower so the header doesn't overlay */
+    ~ h1, ~ h2, ~h3, ~h4, ~h5 {
+        margin-top: -70px;
+        padding-top: 70px;
+
+        &:target {
+            animation: flash-text 3s ease-out;
+        }
+    }
+}
+
+@keyframes flash-text {
+    from {
+        color: $ubuntu-mate-dark;
+    }
+}

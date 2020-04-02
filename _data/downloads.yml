@@ -1,0 +1,139 @@
+
+# If you're running ./scripts/watch.sh, you'll need to reload after editing this file.
+
+releases:
+    bionic:
+        name: "18.04.4 LTS"
+        codename: "Bionic Beaver"
+        mascot: "bionic.png"
+        wallpaper: "bionic.jpg"
+        lts: true
+        prerelease: false
+        release_notes: "/blog/ubuntu-mate-bionic-final-release/"
+        end_of_life:
+            month: Apr
+            year: 2021
+
+    eoan:
+        name: "19.10"
+        codename: "Eoan Ermine"
+        mascot: "eoan.svg"
+        wallpaper: "bionic.jpg"
+        lts: false
+        prerelease: false
+        release_notes: "/blog/ubuntu-mate-19-10-eoan-ermine-release/"
+        end_of_life:
+            month: Jun
+            year: 2020
+
+
+# To list new architectures on the download page, add descriptions to download.md
+arch:
+    - amd64
+    - i386
+    - armhf     # Pi Stable
+    - arm64     # Pi Experimental
+    - gpd_pocket
+    - gpd_pocket_2
+    - gpd_micropc
+    - gpd_p2_max
+    - topjoy_falcon
+
+
+downloads:
+    amd64:
+        - release: bionic
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-amd64.iso"
+          sha256sum: "0b368fe1aadae30524ebd626a693d21e52930ba0d9835c6b80d57d2921486773"
+          size: "1.9 GB"
+          magnet-uri: "magnet:?xt=urn:btih:545e7abb9380c5cc4addae47ddab31886ce3b6d0&dn=ubuntu-mate-18.04.4-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce"
+
+        - release: eoan
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/ubuntu-mate-19.10-desktop-amd64.iso"
+          sha256sum: "ac71c064b495a18c04839585dde94e2d7772b3cb1d1cae7d5db79ef2839068ae"
+          size: "2.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:662948f49f28ab7f57e741e5189b6776588e9947&dn=ubuntu-mate-19.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+    i386:
+        - release: bionic
+          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-i386.iso"
+          sha256sum: "dcad373aec75fd38ec4f7db7b7ac471e2b6f64f29e3540bd008f222dd10037ea"
+          size: "1.9 GB"
+          magnet-uri: "magnet:?xt=urn:btih:WXMMWUDPVRQNB7GAVXX5PUOCHEPS4KLS&dn=ubuntu-mate-18.04.4-desktop-i386.iso&xl=1964244992&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+    armhf: # Pi Stable
+        - release: bionic
+          url: "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz"
+          sha256sum: "bb74b607da2f4d417851e006fadd5de1304f84681db9c4bd8f17ff1b1d410995"
+          size: "1.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:0ff3cb73ab4544bdc7789137f0bb9c381554918f&dn=ubuntu-mate-18.04.2-beta1-desktop-armhf%2Braspi-ext4.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fbionic%2Fubuntu-mate-18.04.2-beta1-desktop-armhf%2Braspi-ext4.img.xz"
+          bandwidth_costs: true
+
+    arm64: # Pi Experimental
+        - release: bionic
+          url: "https://ubuntu-mate.org/raspberry-pi/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
+          sha256sum: "bb4f6f722b41aa4c40b710b3cb81936127ecf799236ccbaa3b6b5455d8bf2b39"
+          size: "1.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:8dac78968dd13b6432a3986ff3609f1e1ab7984c&dn=ubuntu-mate-18.04.2-beta1-desktop-arm64%2Braspi3-ext4.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fbionic%2Fubuntu-mate-18.04.2-beta1-desktop-arm64%2Braspi3-ext4.img.xz"
+          bandwidth_costs: true
+
+    gpd_pocket:
+        - release: bionic
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-18.04.3-desktop-amd64-gpd-pocket.iso"
+          sha256sum: "23998ca54095ad4c86e7132de357dd2b07e99103a5dfbebf2ed36952789cb740"
+          size: "1.9 GB"
+          magnet-uri: "magnet:?xt=urn:btih:5a763fa0a7204333107247038badac1eb0c3c93f&dn=ubuntu-mate-18.04.3-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-18.04.3-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-18.04.3-desktop-amd64-gpd-pocket.iso"
+          bandwidth_costs: true
+
+        - release: eoan
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso"
+          sha256sum: "4adf45f4f191c2ea16233ea4e94021c347a2ffb56fa3130b7a43ac05accc2baa"
+          size: "2.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:c8dc042deec17b65864072dcbdb897c531074a2d&dn=ubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket.iso"
+          bandwidth_costs: true
+
+    gpd_pocket_2:
+        - release: bionic
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-18.04.3-desktop-amd64-gpd-pocket2.iso"
+          sha256sum: "49b7c09f9c99be8a14e3f9c3bae51d9b31faa799980de2fe1a1c76dedc2cd945"
+          size: "1.9 GB"
+          magnet-uri: "magnet:?xt=urn:btih:2b25c5d76594b0db00a35d51c8ab658dc229ebad&dn=ubuntu-mate-18.04.3-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-18.04.3-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-18.04.3-desktop-amd64-gpd-pocket2.iso"
+          bandwidth_costs: true
+
+        - release: eoan
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso"
+          sha256sum: "68880c337b75595b91eca3e37c821c97dfe10b01a53b4460cb1a329869a66ae9"
+          size: "2.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:34f6399db5fab6d0491aec744d38ea2be775e6f8&dn=ubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-pocket2.iso"
+          bandwidth_costs: true
+
+    gpd_micropc:
+        - release: eoan
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso"
+          sha256sum: "5a8d949c3acfccd9bdbb78c03206bc7ad55446ae7ee9fedf8744da6064173ca1"
+          size: "2.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:ad035b884b3fef9658a865f3c7d1f9a3d8cae249&dn=ubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-gpd-micropc.iso"
+          bandwidth_costs: true
+
+    gpd_p2_max:
+        - release: eoan
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso"
+          sha256sum: "d1f42175ede959b964c585be724bcaf132708b72978246de2eacd877943edbe6"
+          size: "2.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:5c49310a9740a726622a83c00b489648bac2e4d2&dn=ubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Feoan%2Fubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Feoan%2Fubuntu-mate-19.10-desktop-amd64-gpd-p2-max.iso"
+          bandwidth_costs: true
+
+    topjoy_falcon:
+        - release: bionic
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-18.04.3-desktop-amd64-topjoy-falcon.iso"
+          sha256sum: "3e32f7706ec472b92b0ed4d26286595e4172b3b4476026b995a03a1baf625632"
+          size: "1.9 GB"
+          magnet-uri: "magnet:?xt=urn:btih:d0e41d8ebb6468b4931ade02a114a3617f411130&dn=ubuntu-mate-18.04.3-desktop-amd64-topjoy-falcon.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-18.04.3-desktop-amd64-topjoy-falcon.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-18.04.3-desktop-amd64-topjoy-falcon.iso"
+          bandwidth_costs: true
+
+        - release: eoan
+          url: "https://ubuntu-mate.org/umpc/ubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso"
+          sha256sum: "42008ab3c1777876e55f971fcb0ae31764bddc9935a820fbe4c748c0320b945f"
+          size: "2.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:aa6cfcf5cf31cde85b4983c4a96da7f036a37670&dn=ubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-19.10-desktop-amd64-topjoy-falcon.iso"
+          bandwidth_costs: true

@@ -1,0 +1,193 @@
+/* Common across blog pages */
+.blog-column {
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: $sm + 1px) {
+    .blog-left-border {
+        border-left: 1px solid $grey-light;
+
+        .date {
+            display: block;
+            color: $grey-dark;
+        }
+    }
+}
+
+.latest-feed {
+    float: right;
+
+    svg {
+        height: 24px;
+        width: 24px;
+
+        path {
+            fill: $rss;
+        }
+    }
+}
+
+.twitter-timeline {
+    width: 100% !important;
+
+    > svg {
+        height: 20px;
+        width: 20px;
+        vertical-align: middle;
+    }
+}
+
+/* Index specific */
+.post-card {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin: 15px 0;
+    box-shadow: 0 0 5px $grey-light;
+    transition: box-shadow $transition-duration $transition-timing;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        box-shadow: 0 0 10px $grey-dark;
+    }
+}
+
+.post-card-title {}
+
+.post-card-excerpt {
+    color: $grey-dark;
+    font-style: italic;
+}
+
+.post-card-read-more {
+    margin-top: 10px;
+}
+
+.blog-archive {
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+/* Metadata - used on both index and post page */
+.blog-metadata {
+    color: $grey-dark;
+    margin: 10px 0;
+    font-size: 14px;
+
+    span {
+        border-right: 1px solid $grey-light;
+        padding-right: 5px;
+
+        + span {
+            margin-left: 5px;
+        }
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+}
+
+.post-category {
+    svg {
+        height: 16px;
+        width: 16px;
+        margin-right: 0px;
+        position: relative;
+        top: -1px;
+    }
+
+    /* Unknown category class */
+    color: $grey-darker;
+
+    svg path {
+        fill: $grey-dark;
+    }
+
+    &.release {
+        color: $ubuntu-mate-dark;
+
+        svg path {
+            fill: $ubuntu-mate-dark;
+        }
+    }
+
+    &.dev {
+        color: $danger;
+
+        svg path {
+            fill: $danger;
+        }
+    }
+}
+
+.post-date {}
+.post-author {}
+
+/* Post page specific */
+.post-outdated {
+    background: $alert-warning;
+    color: $alert-warning-text;
+    padding: 15px;
+    margin: 15px 0;
+
+    svg {
+        height: 16px;
+        width: 16px;
+        margin-right: 5px;
+    }
+}
+
+/* Partials */
+.jumbotron {
+    background-color: $grey-lightest;
+    background-image: url(/images/ubuntu-mate/logo-white.svg);
+    background-size: 200px;
+    background-position: bottom -70px right -70px;
+    background-repeat: no-repeat;
+    border: 2px solid $grey-light;
+    padding: 30px;
+    margin: 15px 0;
+    width: 100%;
+
+    h2 {}
+    p {}
+    a {}
+}
+
+.alert {
+    display: block;
+    padding: 15px;
+    margin: 15px 0;
+
+    /* Default style: Generic */
+    background-color: $grey-lightest;
+    color: $grey-darker;
+
+    /* Styles */
+    &.warning {
+        background-color: $alert-warning;
+        color: $alert-warning-text;
+    }
+
+    &.error {
+        background-color: $alert-error;
+        color: $alert-error-text;
+    }
+}
+
+.youtube-embed {
+    max-width: 100%;
+}
+
+.blog-comments {
+    margin: 30px 0;
+    padding: 30px 0;
+    border-top: 1px solid $grey-light;
+}
+
+.blog-comment-empty {
+    padding: 15px 0;
+}

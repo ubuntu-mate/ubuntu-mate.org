@@ -1,0 +1,59 @@
+{% capture breadcrumb_meta %}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "{{ site.url }}",
+                    "name": "Ubuntu MATE"
+                }
+            }
+
+            {% assign pos = 1 %}
+            {% assign parts = page.permalink | split:'/' %}
+            {% assign count = parts | size %}
+            {% assign posts = site.pages | concat: site.posts %}
+            {% assign cur_url = "" %}
+            {% assign cur_permalink = "" %}
+
+            {% if site.active_lang != "en" %}
+                {% capture cur_url %}{{ cur_url }}/{{ site.active_lang }}{% endcapture %}
+
+                {% assign pos = pos | plus:1 %}
+                ,{
+                    "@type": "ListItem",
+                    "position": {{ pos }},
+                    "item": {
+                        "@id": "{{ site.url }}{{ cur_url }}/",
+                        "name": "{{ site.data.lang[site.active_lang] }}"
+                    }
+                }
+            {% endif %}
+
+            {% for item in parts %}
+                {% if item == "" %}{% continue %}{% endif %}
+                {% capture cur_url %}{{ cur_url }}/{{ item }}{% endcapture %}
+                {% capture cur_permalink %}{{ cur_permalink }}/{{ item }}{% endcapture %}
+                {% capture page_permalink %}{{ cur_permalink }}/{% endcapture %}
+                {% assign pos = pos | plus:1 %}
+
+                ,{
+                    "@type": "ListItem",
+                    "position": {{ pos }},
+                    "item": {
+                        "@id": "{{ site.url }}{{ cur_url }}/",
+                        "name": "{% for p in posts %}{% if p.permalink == page_permalink %}{{ p.title | split: '|' | first | strip }}{% break %}{% endif %}{% endfor %}"
+                    }
+                }
+
+            {% endfor %}
+        ]
+    }
+</script>
+{% endcapture breadcrumb_meta %}
+
+{{ breadcrumb_meta | strip | strip_newlines }}

@@ -1,0 +1,29 @@
+---
+layout: null
+---
+[
+  {% assign posts = site.posts | concat: site.pages %}
+  {% for post in posts %}
+    {% if post.lang != site.active_lang %}{% continue %}{% endif %}
+    {% if post.title == null %}{% continue %}{% endif %}
+
+    {% case post.permalink %}
+        {% when "/403.html" %}{% continue %}
+        {% when "/404.html" %}{% continue %}
+        {% when "/500.html" %}{% continue %}
+        {% when "/502.html" %}{% continue %}
+        {% when "/503.html" %}{% continue %}
+        {% when "/504.html" %}{% continue %}
+        {% when "/old-release/" %}{% continue %}
+    {% endcase %}
+
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{% if site.active_lang != 'en' %}/{{ site.active_lang }}{% endif %}{{ post.permalink }}",
+      "date"     : "{{ post.date }}"
+    },
+  {% endfor %}
+  {}
+]

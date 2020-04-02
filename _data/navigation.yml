@@ -1,0 +1,31 @@
+- url: /about/
+  text: About
+  class: about
+
+- url: /features/
+  text: Features
+  class: features
+
+- url: /blog/
+  text: Blog
+  class: blog
+
+- url: /community/
+  text: Community
+  class: community
+
+- url: /download/
+  text: Download
+  class: download
+
+- url: /get-involved/
+  text: Get Involved
+  class: get-involved
+
+- url: /shop/
+  text: Emporium
+  class: shop
+
+- url: /funding/
+  text: Funding
+  class: funding

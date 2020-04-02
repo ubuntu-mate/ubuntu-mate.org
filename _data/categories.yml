@@ -1,0 +1,67 @@
+about:
+    - string_name: what_is_ubuntu_mate
+      icon: /images/brands/ubuntu-mate.svg
+      url: /about/
+
+    - string_name: system_requirements
+      icon: /images/Ambiant-MATE/computer.svg
+      url: /about/requirements/
+
+    - string_name: history
+      icon: /images/Ambiant-MATE/time-admin.svg
+      url: /about/history/
+
+    - string_name: team
+      icon: /images/Ambiant-MATE/system-users.svg
+      url: /about/team/
+
+    - string_name: testimonials
+      icon: /images/Ambiant-MATE/applications-chat.svg
+      url: /about/testimonials/
+
+features:
+    - name: Under the Hood
+      icon: /images/categories/features/package.svg
+      url: /features/
+
+    - string_name: mate_desktop
+      icon: /images/brands/mate.svg
+      url: /features/MATE/
+
+    - string_name: ubuntu_mate_welcome
+      icon: /images/brands/ubuntu-mate.svg
+      url: /features/welcome/
+
+    - string_name: software_boutique
+      icon: /images/ubuntu-mate/boutique.svg
+      url: /features/boutique/
+
+    - string_name: custom_panel
+      icon: /images/categories/features/mate-panel.svg
+      url: /features/panel/
+
+shop:
+    - string_name: computers
+      icon: /images/shop/computer.png
+      url: /shop/computers/
+
+    - string_name: books
+      icon: /images/downloads/guides.png
+      url: /shop/books/
+
+    - string_name: apparel
+      icon: /images/shop/apparel.png
+      url: /shop/apparel/
+
+ports:
+    - string_name: raspberry_pi
+      icon: /images/brands/raspberry-pi.svg
+      url: /ports/raspberry-pi/
+
+    - string_name: raspberry_pi_history
+      icon: /images/brands/raspberry-pi.svg
+      url: /ports/raspberry-pi-change-log/
+
+    - string_name: umpc
+      icon: /images/hardware/gpd-pocket2.png
+      url: /ports/umpcs/

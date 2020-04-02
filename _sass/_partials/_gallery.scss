@@ -1,0 +1,70 @@
+/*
+ * Galleries ("Carousels") are powered by Slick.js
+*/
+
+/* Outer */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+    margin: 30px auto;
+}
+
+.slick-list {
+    cursor: grab;
+    box-shadow: 0px 0px 5px;
+
+    &:active {
+        cursor: grabbing;
+    }
+}
+
+.slick-arrow {
+    display: block;
+}
+
+.slick-prev {
+    order: 2;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.slick-dots {
+    order: 3;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.slick-prev,
+.slick-dots,
+.slick-next {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.slick-active > button {
+    @extend .btn, .green;
+    color: white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: white;
+    }
+}
+
+.slick-next {
+    order: 4;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Inner */
+.gallery-item {}
+
+.gallery-caption {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0;
+}

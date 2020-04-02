@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+   <msapplication>
+     <tile>
+        <square70x70logo src="/assets/favicon/square70x70.png"/>
+        <square150x150logo src="/assets/favicon/square150x150.png"/>
+        <square310x310logo src="/assets/favicon/square310x310.png"/>
+        <TileColor>#87A556</TileColor>
+     </tile>
+     <notification>
+        <polling-uri  src="https://ubuntu-mate.org/rss.xml"/>
+        <frequency>30</frequency>
+        <cycle>1</cycle>
+     </notification>
+   </msapplication>
+</browserconfig>

@@ -1,0 +1,348 @@
+ubuntu_mate:
+    - name: Installation Slideshow
+      img: /images/apps/ubiquity.svg
+      src_url:
+      translations_url: https://translations.launchpad.net/ubuntu/+source/ubiquity-slideshow-ubuntu
+
+    - name: Ubuntu MATE Guide
+      img: /images/ubuntu-mate/logo.svg
+      src_url:
+      translations_url: null
+
+    - name: Welcome
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/ubuntu-mate-welcome-legacy
+      translations_url: https://www.transifex.com/ubuntu-mate/public/
+
+    - name: ubuntu-mate.org
+      img: /images/ubuntu-mate/logo.svg
+      src_url: null # Is a website, not software
+      translations_url: null # Not set up yet
+
+    - name: start.ubuntu-mate.org
+      img: /images/ubuntu-mate/logo.svg
+      src_url: null # Is a website, not software
+      translations_url: https://ubuntu-mate.community/t/how-to-translate-the-um-start-page/15169
+
+    - name: mate-optimus
+      img: /images/brands/nvidia.svg
+      src_url: https://github.com/ubuntu-mate/mate-optimus
+      translations_url: null
+
+    - name: mate-hud
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-hud
+      translations_url: null
+
+    - name: mate-menu
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-menu
+      translations_url: https://www.transifex.com/mate/MATE/
+
+    - name: mate-window-applets
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-window-applets
+      translations_url: null
+
+    - name: mate-dock-applet
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/mate-dock-applet
+      translations_url: null
+
+    - name: indicator-emojitwo
+      img: /images/apps/indicator-emojitwo.png
+      src_url: https://github.com/ubuntu-mate/indicator-emojitwo
+      translations_url: null
+
+
+mate_desktop:
+    - name: mate-calc
+      img: /images/apps/accessories-calculator.svg
+      src_url: https://github.com/mate-desktop/mate-calc
+
+    - name: engrampa
+      img: /images/apps/engrampa.svg
+      src_url: https://github.com/mate-desktop/engrampa
+
+    - name: mate-terminal
+      img: /images/apps/utilities-terminal.svg
+      src_url: https://github.com/mate-desktop/mate-terminal
+
+    - name: mate-user-guide
+      img: /images/apps/help.svg
+      src_url: https://github.com/mate-desktop/mate-user-guide
+
+    - name: mate-user-share
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-user-share
+
+    - name: libmatemixer
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/libmatemixer
+
+    - name: mate-notification-daemon
+      img: /images/apps/mate-notification-properties.png
+      src_url: https://github.com/mate-desktop/mate-notification-daemon
+
+    - name: mate-control-center
+      img: /images/apps/preferences-desktop.svg
+      src_url: https://github.com/mate-desktop/mate-control-center
+
+    - name: mate-panel
+      img: /images/categories/features/mate-panel.svg
+      src_url: https://github.com/mate-desktop/mate-panel
+
+    - name: mate-applets
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-applets
+
+    - name: mate-system-monitor
+      img: /images/apps/utilities-system-monitor.svg
+      src_url: https://github.com/mate-desktop/mate-system-monitor
+
+    - name: mate-settings-daemon
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-settings-daemon
+
+    - name: caja-extensions
+      img: /images/Ambiant-MATE/system-file-manager.svg
+      src_url: https://github.com/mate-desktop/caja-extensions
+
+    - name: mate-power-manager
+      img: /images/apps/mate-power-manager.png
+      src_url: https://github.com/mate-desktop/mate-power-manager
+
+    - name: mate-sensors-applet
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-sensors-applet
+
+    - name: mate-session-manager
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-session-manager
+
+    - name: mate-screensaver
+      img: /images/apps/preferences-desktop-screensaver.svg
+      src_url: https://github.com/mate-desktop/mate-screensaver
+
+    - name: mate-polkit
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-polkit
+
+    - name: mate-netbook
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-netbook
+
+    - name: mate-menus
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-menus
+
+    - name: mate-media
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-media
+
+    - name: mate-indicator-applet
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-indicator-applet
+
+    - name: caja
+      img: /images/Ambiant-MATE/system-file-manager.svg
+      src_url: https://github.com/mate-desktop/caja
+
+    - name: mate-desktop
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-desktop
+
+    - name: mate-utils
+      img: /images/apps/camera-photo.svg
+      src_url: https://github.com/mate-desktop/mate-utils
+
+    - name: pluma
+      img: /images/Ambiant-MATE/accessories-text-editor.svg
+      src_url: https://github.com/mate-desktop/pluma
+
+    - name: marco
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/marco
+
+    - name: libmateweather
+      img: /images/apps/libmateweather.svg
+      src_url: https://github.com/mate-desktop/libmateweather
+
+    - name: libmatekbd
+      img: /images/apps/input-keyboard.svg
+      src_url: https://github.com/mate-desktop/libmatekbd
+
+    - name: atril
+      img: /images/apps/atril.png
+      src_url: https://github.com/mate-desktop/atril
+
+    - name: eom
+      img: /images/apps/eom.svg
+      src_url: https://github.com/mate-desktop/eom
+
+    - name: python-caja
+      img: /images/Ambiant-MATE/system-file-manager.svg
+      src_url: https://github.com/mate-desktop/python-caja
+
+    - name: mozo
+      img: /images/apps/mozo.svg
+      src_url: https://github.com/mate-desktop/mozo
+
+
+preinstalled:
+    - name: Ubiquity
+      img: /images/apps/ubiquity.svg
+      src_url: https://code.launchpad.net/ubuntu/+source/ubiquity
+      translations_url: https://translations.launchpad.net/ubuntu/+source/ubiquity
+
+    - name: Brisk Menu
+      img: /images/apps/brisk.svg
+      src_url: https://github.com/solus-project/brisk-menu
+      translations_url: https://translate.getsol.us/projects/brisk-menu/brisk-menu-translations/
+
+    - name: Déjà Dup
+      img: /images/apps/deja-dup.svg
+      src_url: https://code.launchpad.net/deja-dup
+      translations_url: https://translations.launchpad.net/deja-dup
+
+    - name: GNOME Disks
+      img: /images/apps/gnome-disks.svg
+      src_url: https://gitlab.gnome.org/GNOME/gnome-disk-utility
+      translations_url: https://translations.launchpad.net/ubuntu/+source/gnome-disk-utility
+
+    - name: gucharmap
+      img: /images/apps/accessories-character-map.png
+      src_url: https://gitlab.gnome.org/GNOME/gucharmap
+      translations_url: https://gitlab.gnome.org/GNOME/gucharmap/-/blob/master/po/README
+
+    - name: Seahorse
+      img: /images/apps/seahorse.svg
+      src_url: https://github.com/GNOME/seahorse
+      translations_url: https://translations.launchpad.net/ubuntu/+source/seahorse
+
+    - name: Plank
+      img: /images/apps/plank.svg
+      src_url: https://github.com/ricotz/plank
+      translations_url: https://translations.launchpad.net/plank
+
+    - name: Redshift
+      img: /images/apps/redshift.svg
+      src_url: https://github.com/jonls/redshift
+      translations_url: https://translations.launchpad.net/redshift
+
+    - name: Apport
+      img: /images/apps/apport.svg
+      src_url: https://code.launchpad.net/apport
+      translations_url: https://translations.launchpad.net/apport
+
+    - name: Firefox
+      img: /images/apps/firefox.svg
+      src_url: https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Viewing_and_searching_Mozilla_source_code_online
+      translations_url: https://support.mozilla.org/en-US/get-involved/l10n
+
+    - name: Simple Scan
+      img: /images/apps/simple-scan.svg
+      src_url: https://gitlab.gnome.org/GNOME/simple-scan
+      translations_url: https://translations.launchpad.net/ubuntu/+source/simple-scan
+
+    - name: Shotwell
+      img: /images/apps/shotwell.png
+      src_url: https://gitlab.gnome.org/GNOME/shotwell
+      translations_url: https://translations.launchpad.net/ubuntu/+source/shotwell
+
+    - name: Transmission
+      img: /images/apps/transmission.png
+      src_url: https://github.com/transmission/transmission
+      translations_url: https://github.com/transmission/transmission/wiki/Translating
+
+    - name: Evolution
+      img: /images/apps/evolution.svg
+      src_url: https://gitlab.gnome.org/GNOME/evolution
+      translations_url: https://translations.launchpad.net/ubuntu/+source/evolution
+
+    - name: LibreOffice
+      img: /images/apps/libreoffice.svg
+      src_url: https://www.libreoffice.org/about-us/source-code/
+      translations_url: https://wiki.documentfoundation.org/Translating_LibreOffice
+
+    - name: Celluloid
+      img: /images/apps/celluloid.svg
+      src_url: https://github.com/celluloid-player/celluloid
+      translations_url: https://github.com/celluloid-player/celluloid#contributing-translations
+
+    - name: Cheese
+      img: /images/apps/cheese.svg
+      src_url: https://github.com/GNOME/cheese
+      translations_url: https://translations.launchpad.net/ubuntu/+source/cheese
+
+    - name: Rhythmbox
+      img: /images/apps/rhythmbox.svg
+      src_url: https://github.com/GNOME/rhythmbox
+      translations_url: http://rhythmbox.sourceforge.net/translation.html
+
+    - name: GParted
+      img: /images/apps/gparted.svg
+      src_url: https://github.com/GNOME/gparted
+      translations_url: https://l10n.gnome.org/module/gparted/
+
+    - name: gdebi
+      img: /images/apps/application-x-deb.svg
+      src_url: https://code.launchpad.net/gdebi
+      translations_url: https://translations.launchpad.net/gdebi/trunk/+translations
+
+    - name: Firmware
+      img: /images/apps/firmware.svg
+      src_url: https://gitlab.gnome.org/hughsie/gnome-firmware-updater
+      translations_url: https://gitlab.gnome.org/hughsie/gnome-firmware-updater/-/tree/master/po
+
+    - name: Magnus
+      img: /images/apps/zoom-best-fit.svg
+      src_url: https://github.com/stuartlangridge/magnus
+      translations_url: null # https://translations.launchpad.net/magnus but not public
+
+    - name: Onboard
+      img: /images/apps/onboard.svg
+      src_url: https://launchpad.net/onboard
+      translations_url: https://translations.launchpad.net/onboard/trunk/+translations
+
+    - name: Orca
+      img: /images/apps/orca.png
+      src_url: https://github.com/GNOME/orca
+      translations_url: null # https://translations.launchpad.net/orca but not public
+
+    - name: Slick Greeter
+      img: /images/apps/lightdm-settings.png
+      src_url: https://github.com/linuxmint/slick-greeter
+      translations_url: https://translations.launchpad.net/linuxmint/latest/+pots/slick-greeter
+
+    - name: CUPS
+      img: /images/apps/printer.svg
+      src_url: https://www.cups.org/
+      translations_url: https://www.cups.org/doc/translation.html
+
+    - name: software-properties
+      img: /images/apps/software-properties.png
+      src_url: https://code.launchpad.net/ubuntu/+source/software-properties
+      translations_url: https://translations.launchpad.net/ubuntu/+source/software-properties
+
+    - name: update-manager
+      img: /images/apps/system-software-update.svg
+      src_url: https://code.launchpad.net/ubuntu/+source/update-manager
+      translations_url: https://translations.launchpad.net/update-manager
+
+artwork:
+    - name: ubuntu-mate-artwork
+      img: /images/Ambiant-MATE/preferences-desktop-theme.svg
+      src_url: https://github.com/ubuntu-mate/ubuntu-mate-artwork
+
+    - name: mate-themes
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-themes
+
+    - name: mate-icon-theme
+      img: /images/brands/mate.svg
+      src_url: https://github.com/mate-desktop/mate-icon-theme
+
+    - name: grub2-themes-ubuntu-mate
+      img: /images/ubuntu-mate/logo.svg
+      src_url: https://github.com/ubuntu-mate/grub2-themes-ubuntu-mate

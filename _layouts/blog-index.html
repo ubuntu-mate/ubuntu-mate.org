@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+        </div>
+
+        <div class="row blog-column">
+            <content class="page-content col">
+
+            {% for post in site.posts %}
+                <a class="post-card" href="{{ post.permalink }}">
+                    <h3 class="post-card-title">{{ post.title }}</h3>
+
+                    {% include partials/blog-metadata.html
+                        post = post
+                    %}
+
+                    <div class="post-card-excerpt">
+                        {{ post.excerpt | strip_html }}
+                    </div>
+
+                    <div class="post-card-read-more">{{ site.data.strings.read_more }}</div>
+                </a>
+
+            {% endfor %}
+
+            </content>
+
+            {% include partials/blog-sidebar.html %}
+
+        </div>
+
+    </div>
+
+</article>

@@ -1,6 +1,17 @@
-.doit.db
-*.pyc
-www/
-output/
-cache/
-__pycache__/
+# Jekyll output and caches
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+# Generated at build
+*.mo
+pages/i18n/
+_data/**/
+pages/autogen/
+
+# Misc
+*.directory
+
+# TEMPORARY: Ignore PO files for other languages.
+/_i18n/

@@ -1,15 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-scripts_path=$(dirname $0)
+scripts/link-images.sh
 
-# Run any patches before deployment
-$scripts_path/pre-deploy-patches.sh
+echo "Setting permissions..."
+find _site/ -type d -exec chmod 755 {} \;
+find _site/ -type f -exec chmod 644 {} \;
 
-# Upload to web server
-nikola deploy
+echo "Syncing to server..."
+rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete _site/ matey@man.ubuntu-mate.net:preview.ubuntu-mate.org/
+rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete _site/ matey@yor.ubuntu-mate.net:preview.ubuntu-mate.org/
 
-# Clear the CDN cache
 echo "Clearing CDN cache..."
-chmod +x $scripts_path/CDN_purge.sh
-$scripts_path/CDN_purge.sh
-
+ssh -o StrictHostKeyChecking=no matey@yor.ubuntu-mate.net /home/matey/post-deploy-actions.sh "preview.ubuntu-mate.org"

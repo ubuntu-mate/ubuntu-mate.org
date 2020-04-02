@@ -1,0 +1,11 @@
+<div class="jumbotron">
+
+    <h2>{{ include.title }}</h2>
+
+    {{ include.text | markdownify }}
+
+    {% if include.button_url %}
+        <a href="{{ include.button_url }}" class="btn">{{ include.button_text }}</a>
+    {% endif %}
+
+</div>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="g" x1="88.596" x2="536.6" y1="-449.39" y2="-449.39" gradientTransform="matrix(.19643 0 0 .3421 -365.4 445.74)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#77767b" offset="0"/>
+   <stop stop-color="#c0bfbc" offset=".05"/>
+   <stop stop-color="#9a9996" offset=".1"/>
+   <stop stop-color="#9a9996" offset=".9"/>
+   <stop stop-color="#c0bfbc" offset=".95"/>
+   <stop stop-color="#77767b" offset="1"/>
+  </linearGradient>
+  <radialGradient id="i" cx="265.28" cy="65.436" r="56" gradientTransform="matrix(.17784 .04765 -.04766 .17786 -40.002 207.81)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5e5c64" offset="0"/>
+   <stop stop-color="#3d3846" offset=".572"/>
+   <stop stop-color="#241f31" offset="1"/>
+  </radialGradient>
+  <linearGradient id="h" x1="99.846" x2="431.14" y1="91.301" y2="91.301" gradientTransform="translate(190.74 -76.125) scale(.13281)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f6d32d" offset="0"/>
+   <stop stop-color="#f9f06b" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(0 -172)">
+  <g transform="translate(368)">
+   <rect x="-348" y="188" width="88" height="104" rx="8" ry="8" fill="url(#g)"/>
+   <rect x="-348" y="180" width="88" height="92" rx="8" ry="8" fill="#deddda"/>
+  </g>
+  <rect x="30" y="192" width="68" height="68" rx="34" ry="34" fill="#5e5c64"/>
+  <circle cx="64" cy="226" r="28" fill="#241f31"/>
+  <circle cx="64" cy="226" r="24" fill="#3d3846"/>
+  <circle transform="rotate(90)" cx="226" cy="-64" r="22" fill="url(#h)"/>
+  <ellipse cx="63.989" cy="226.1" rx="10.011" ry="10.012"/>
+  <ellipse transform="rotate(-15)" cx="3.291" cy="234.95" rx="8.011" ry="8.011" fill="url(#i)"/>
+ </g>
+</svg>

@@ -1,0 +1,120 @@
+$avatar-size: 120px;
+
+.testimonial-quotes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.testimonial-quote {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    max-width: 100%;
+    margin: 15px auto;
+
+    .quote-block {
+        width: calc(100% - #{$avatar-size} - 50px);
+    }
+
+    .avatar {
+        border-radius: 50%;
+        display: inline-block;
+        margin: auto;
+        margin-right: 30px;
+        vertical-align: middle;
+        height: $avatar-size;
+        width: $avatar-size;
+    }
+
+    .quote {
+        background: $grey-lightest;
+        border: 2px solid $grey-light;
+        border-radius: 10px;
+        margin: 5px;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        width: 100%;
+
+        svg {
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            left: -32px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            transform: rotate(180deg);
+
+            path {
+                stroke: $grey-light;
+                stroke-width: 4px;
+                fill: $grey-lightest;
+                stroke-dasharray: 0, 110, 50;
+            }
+        }
+    }
+
+    .author {
+        display: block;
+        font-size: 0.8em;
+        opacity: 0.5;
+        text-align: right;
+    }
+}
+
+.testimonial-videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.testimonial-video {
+    padding: 15px;
+    width: 33%;
+
+    .video {
+        height: 250px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .subject {
+        display: block;
+        opacity: 0.5;
+        margin: 0 0 15px;
+        font-style: italic;
+        font-size: 0.9em;
+    }
+
+    .author {
+        margin: 10px 0 5px;
+    }
+
+    .quote {
+        width: 100%;
+    }
+}
+
+@media (max-width: $sm) {
+    .testimonial-quote {
+        flex-direction: column;
+
+        .avatar {
+            margin: auto;
+        }
+
+        .quote-block {
+            width: 100%;
+
+            svg {
+                display: none;
+            }
+        }
+    }
+
+    .testimonial-video {
+        width: 100%;
+    }
+}

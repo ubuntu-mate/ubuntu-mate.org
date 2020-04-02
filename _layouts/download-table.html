@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+        </div>
+
+        <div class="row">
+            <content class="page-content col">
+
+                {{ content }}
+
+                <table class="download-all-table">
+                    <thead>
+                        <tr>
+                            <th class="filename">{{ site.data.strings.filename }}</th>
+                            <th class="arch">{{ site.data.strings.arch }}</th>
+                            <th class="file-size">{{ site.data.strings.file_size }}</th>
+                            <th class="server">{{ site.data.strings.server }}</th>
+                            <th class="checksum">SHA256SUM</th>
+                            <th class="links">{{ site.data.strings.download_links }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for arch in site.data.downloads.arch %}
+                            {% assign downloads = site.data.downloads.downloads[arch] %}
+                            {% for download in downloads %}
+                                <tr>
+                                    <td class="filename monospace-font">{{ download.url | split:'/' | last }}</td>
+                                    <td class="arch monospace-font">{{ arch }}</td>
+                                    <td class="size" >{{ download.size }}</td>
+                                    <td class="server">
+                                        {% if download.bandwidth_costs %}
+                                            <img src="/images/brands/ubuntu-mate.svg" alt=""/>
+                                            <span>ubuntu-mate.org</span>
+                                        {% else %}
+                                            <img src="/images/brands/ubuntu.svg" alt=""/>
+                                            <span>cdimage.ubuntu.com</span>
+                                        {% endif %}
+                                    </td>
+                                    <td class="checksum">
+                                        <code class="monospace-font">{{ download.sha256sum }}</code>
+                                    </td>
+                                    <td class="links">
+                                        <a class="download-table-btn" href="{{ download.url }}" title="{{ site.data.strings.direct }}">
+                                            {% include images/fa/download.svg %}
+                                        </a>
+                                        <a class="download-table-btn" href="{{ download.url }}.torrent" title="{{ site.data.strings.bittorrent }}">
+                                            {% include images/fa/network-wired.svg %}
+                                        </a>
+                                        <a class="download-table-btn" href="{{ download.magnet-uri }}" title="{{ site.data.strings.magnet }}">
+                                            {% include images/fa/magnet.svg %}
+                                        </a>
+                                        {% if download.bandwidth_costs %}
+                                            <a class="download-table-btn" href="{{ '/funding/' | absolute_url }}" title="{{ site.data.strings.support_bandwidth }}">
+                                                {% include images/fa/heart.svg %}
+                                            </a>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </content>
+        </div>
+
+    </div>
+
+</article>

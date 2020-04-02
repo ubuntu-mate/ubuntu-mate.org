@@ -1,0 +1,95 @@
+/************************
+ * Colours
+*************************/
+/* General */
+$background: white;
+$background-alt: #F3F3F3;
+$link-colour: #758A53;
+$link-colour-focused: #44522E;
+
+$grey-light: #D4D3D0;
+$grey-lightest: #EDEDED;
+$grey-dark: #A9A9A9;
+$grey-darker: #616161;
+
+$header-text: #DED9CB;
+$ubuntu-mate-dark: #667E40;
+$ubuntu-mate-light: #87A556;
+
+$text-colour-light: white;
+$text-colour-dark: black;
+
+/* Buttons */
+$button-border: $grey-light;
+$button-border-focused: $grey-dark;
+$button-spacing: 0.5em;
+
+$button-bg: white, #F5F4F3;
+$button-bg-clicked: #E4E4E4, #E9E9E9;
+
+$button-bg-inverted: #585858, #3C3B37;
+$button-bg-inverted-clicked: #3C3B37, #585858;
+
+$button-bg-green: #87A556, #6F8647;
+$button-bg-green-clicked:#6F8647, #87A556;
+
+$button-bg-yellow: #FBB24C, #F8970D;
+$button-bg-yellow-clicked: #F8970D, #FBB24C;
+
+$button-bg-red: #ED5E5A, #C03831;
+$button-bg-red-clicked: #C03831, #ED5E5A;
+
+/* Scroll Bars */
+$scroll-bar-gradient: #F1F0EE, #FDFDFD;
+$scroll-bar-gray: #C9C6C3;
+
+/* Tables */
+$table-row: #FFFFFF;
+$table-row-alt: #F9F9F9;
+$table-row-border: #D0D0D0;
+
+/* Ambiant-MATE Theme */
+$ambiant-bg: #3C3B37;
+$ambiant-text-colour-light: #DED9CB;
+$ambiant-text-colour-dark: #7F7F7D;
+
+/* Misc */
+$danger: #C03831;
+$rss: #E19424;
+
+/* Alert Colours (taken from GTK theme) */
+$alert-error: #E43E32;
+$alert-error-text: #FFF;
+$alert-warning: #FEFECD;
+$alert-warning-text: #000;
+
+/************************
+ * Dimensions
+*************************/
+$header-height: 60px;
+
+/************************
+ * Discourse inspired Dropdowns
+*************************/
+$dropdown-border: 1px solid #E9E9E9;
+$dropdown-shadow: 0 8px 14px rgba(0,0,0,0.15);
+
+/************************
+ * Bootstrap Grid
+*************************/
+$xs: 576px - 1px;
+$sm: 768px - 1px;
+$md: 992px - 1px;
+$lg: 1200px - 1px;
+
+/************************
+ * Animations
+*************************/
+$transition-duration: 0.3s;
+$transition-timing: ease-in-out;
+
+/************************
+ * Fonts
+*************************/
+$primary-font: "Ubuntu", "Ubuntu-Embed", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+$monospace-font: "Ubuntu Mono", monospace;

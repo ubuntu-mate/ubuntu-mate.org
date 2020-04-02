@@ -1,0 +1,91 @@
+get-involved:
+    - category_string_name: get_involved
+      items:
+        - string_name: crowd_fund
+          icon: /images/downloads/tips.svg
+          url: /get-involved/crowdfunding/
+
+        - string_name: spread_word
+          icon: /images/Ambiant-MATE/applications-chat.svg
+          url: /get-involved/spread-word/
+
+        - string_name: community_support
+          icon: /images/Ambiant-MATE/system-users.svg
+          url: /get-involved/community-support/
+
+        - string_name: translations
+          icon: /images/Ambiant-MATE/preferences-desktop-locale.svg
+          url: /get-involved/translations/
+
+        - string_name: artwork_themes
+          icon: /images/Ambiant-MATE/preferences-desktop-theme.svg
+          url: /get-involved/artwork/
+
+        - string_name: bug_triage
+          icon: /images/Ambiant-MATE/lpi-bug.svg
+          url: /get-involved/bug-triage/
+
+        - string_name: testing_qa
+          icon: /images/get-involved/qa.svg
+          url: /get-involved/testing-qa/
+
+        - string_name: bug_fix
+          icon: /images/Ambiant-MATE/applications-debugging.svg
+          url: /get-involved/bug-fixing/
+
+        - string_name: software_dev
+          icon: /images/Ambiant-MATE/applications-development.svg
+          url: /get-involved/development/
+
+    - category_string_name: dev_status
+      items:
+        - string_name: dev_backlog
+          icon: /images/get-involved/backlog.svg
+          url: /get-involved/status-backlog/
+
+        - string_name: dev_active
+          icon: /images/get-involved/active.svg
+          url: /get-involved/status-active/
+
+        - string_name: dev_completed
+          icon: /images/get-involved/completed.svg
+          url: /get-involved/status-completed/
+
+    - category_string_name: documentation
+      items:
+        - string_name: design_guidelines
+          icon: /images/ubuntu-mate/logo.svg
+          url: /get-involved/design-guidelines/
+
+faq:
+    - category_string_name: the_project
+      items:
+        - string_name: about_project
+          icon: /images/ubuntu-mate/logo.svg
+          url: /faq/project/
+
+        - string_name: roadmap
+          icon: /images/Ambiant-MATE/applications-development.svg
+          url: /faq/roadmap/
+
+    - category_string_name: prepare_media
+      items:
+        - string_name: download_help
+          icon: /images/Ambiant-MATE/go-down.svg
+          url: /faq/downloads/
+
+        - string_name: verify_downloads_quick
+          icon: /images/Ambiant-MATE/preview-file-24.svg
+          url: /faq/verify-download-quick/
+
+        - string_name: verify_downloads_secure
+          icon: /images/Ambiant-MATE/lpi-bug.svg
+          url: /faq/verify-download-secure/
+
+        - string_name: how_to_image
+          icon: /images/Ambiant-MATE/drive-removable-media-usb-24.svg
+          url: /faq/usb-image/
+
+        - string_name: how_to_dvd
+          icon: /images/Ambiant-MATE/media-optical-24.svg
+          url: /faq/burn-disc/

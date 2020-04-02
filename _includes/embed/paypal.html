@@ -1,0 +1,183 @@
+
+<noscript>
+    <div style="color:red; margin:15px 0;">
+        {{ site.data.strings.js_required }}
+    </div>
+</noscript>
+
+<div id="PayPal" class="bs-docs-section">
+  <div class="row">
+    <div class="col">
+      <div class="well bs-component">
+        <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
+          <fieldset>
+            <legend>{{ site.data.strings.paypal_monthly }}</legend>
+            <div class="form-group">
+              <label for="select" class="col col-form-label">{{ site.data.strings.paypal_currency }}</label>
+              <div class="col">
+                <select id="currency-month" class="form-control" name="currency_code">
+                  <option selected="">GBP</option>
+                  <option>EUR</option>
+                  <option>USD</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="donationAmount" class="col col-form-label">{{ site.data.strings.paypal_select }}</label>
+              <div class="col">
+                <label><input type="radio" name="amt" value="2.50"><var class="currency-month">&pound;</var>2.50</label>
+                <label><input type="radio" name="amt" value="5" checked=""><var class="currency-month">&pound;</var>5</label>
+                <label><input type="radio" name="amt" value="10"><var class="currency-month">&pound;</var>10</label>
+                <label><input type="radio" name="amt" value="25"><var class="currency-month">&pound;</var>25</label>
+                <label><input type="radio" name="amt" value="50"><var class="currency-month">&pound;</var>50</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="specifyAmount" class="col col-form-label"> {{ site.data.strings.paypal_specify }}</label>
+              <div class="col">
+                <var class="currency-month">&pound;</var> <input type="text" name="other" value="" size="5" maxlength="5">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col">
+                <button type="submit" class="btn green">{{ site.data.strings.paypal_submit }}</button>
+              </div>
+            </div>
+          </fieldset>
+          <input type="hidden" name="cmd" value="_xclick-subscriptions">
+          <input type="hidden" name="business" value="6282B4CZGVCB6">
+          <input type="hidden" name="item_name" value="Ubuntu MATE Monthly Supporter">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="charset" value="UTF-8">
+          <input type="hidden" name="a3" value="">
+          <input type="hidden" name="p3" value="1">
+          <input type="hidden" name="t3" value="M">
+          <input type="hidden" name="src" value="1">
+          <input type="hidden" name="sra" value="1">
+          <input type="hidden" name="return" value="https://ubuntu-mate.org/funding/success/">
+          <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/funding/cancelled/">
+        </form>
+      </div>
+    </div>
+    <div class="col">
+      <div class="well bs-component">
+        <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateSingleForm()" method="post">
+          <fieldset>
+            <legend>{{ site.data.strings.paypal_one_time }}</legend>
+            <div class="form-group">
+              <label for="select" class="col col-form-label">{{ site.data.strings.paypal_currency }}</label>
+              <div class="col">
+                <select id="currency-one" class="form-control" name="currency_code">
+                  <option selected="">GBP</option>
+                  <option>EUR</option>
+                  <option>USD</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="donationAmount" class="col col-form-label">{{ site.data.strings.paypal_select }}</label>
+              <div class="col">
+                <label><input type="radio" name="amt" value="2.50"><var class="currency-one">&pound;</var>2.50</label>
+                <label><input type="radio" name="amt" value="5" checked=""><var class="currency-one">&pound;</var>5</label>
+                <label><input type="radio" name="amt" value="10"><var class="currency-one">&pound;</var>10</label>
+                <label><input type="radio" name="amt" value="25"><var class="currency-one">&pound;</var>25</label>
+                <label><input type="radio" name="amt" value="50"><var class="currency-one">&pound;</var>50</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="specifyAmount" class="col col-form-label">{{ site.data.strings.paypal_specify }}</label>
+              <div class="col">
+                <var class="currency-one">&pound;</var>  <input type="text" name="other" value="" size="5" maxlength="5">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col">
+                <button type="submit" class="btn green">{{ site.data.strings.paypal_submit }}</button>
+              </div>
+            </div>
+          </fieldset>
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="6282B4CZGVCB6">
+          <input type="hidden" name="item_name" value="Ubuntu MATE One-time Donation">
+          <input type="hidden" name="no_shipping" value="1">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="charset" value="UTF-8">
+          <input type="hidden" name="amount" value="">
+          <input type="hidden" name="src" value="1">
+          <input type="hidden" name="sra" value="1">
+          <input type="hidden" name="return" value="https://ubuntu-mate.org/funding/success/">
+          <input type="hidden" name="cancel_return" value="https://ubuntu-mate.org/funding/cancelled/">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+    var currency_monthly = document.getElementById("currency-month");
+    var currency_one = document.getElementById("currency-one");
+
+    currency_monthly.addEventListener("change", function(e) {
+        switch(currency_monthly.value) {
+            case "GBP":
+                $(".currency-month").html("&pound;");
+                break;
+            case "EUR":
+                $(".currency-month").html("&euro;");
+                break;
+            case "USD":
+                $(".currency-month").html("$");
+                break;
+        }
+    }, false);
+
+    currency_one.addEventListener("change", function(e) {
+        switch(currency_one.value) {
+            case "GBP":
+                $(".currency-one").html("&pound;");
+                break;
+            case "EUR":
+                $(".currency-one").html("&euro;");
+                break;
+            case "USD":
+                $(".currency-one").html("$");
+                break;
+        }
+    }, false);
+
+    function validateMonthlyForm() {
+        var n = document.forms["monthly"]["other"].value;
+        if (n) {
+            if (!isNaN(parseFloat(n)) && isFinite(n) && (n > 0)) {
+                document.forms["monthly"]["a3"].value = n;
+                return true;
+            } else {
+                alert("{{ site.data.strings.paypal_invalid_amount }}");
+                document.forms["monthly"]["other"].value = "";
+                return false;
+            }
+        } else {
+            document.forms["monthly"]["a3"].value = document.forms["monthly"]["amt"].value;
+            return true;
+        }
+    }
+
+    function validateSingleForm() {
+        var n = document.forms["single"]["other"].value;
+        if (n) {
+            if (!isNaN(parseFloat(n)) && isFinite(n) && (n > 0)) {
+                document.forms["single"]["amount"].value = n;
+                return true;
+            } else {
+                alert("{{ site.data.strings.paypal_invalid_amount }}");
+                document.forms["single"]["other"].value = "";
+                return false;
+            }
+        } else {
+            document.forms["single"]["amount"].value = document.forms["single"]["amt"].value;
+            return true;
+        }
+    }
+</script>

@@ -1,0 +1,11 @@
+<div class="gallery">
+    {% for item in page.gallery %}
+        <div class="gallery-item">
+            <img src="{{ item.image }}" alt="{{ item.caption }}"/>
+
+            {% if item.caption %}
+                <div class="gallery-caption">{{ item.caption }}</div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>

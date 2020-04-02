@@ -1,0 +1,18 @@
+####################
+# Attempt to redirect images to WebP if one exists 
+# and the client supports the file format
+####################
+# check if browser accepts webp
+RewriteCond %{HTTP_ACCEPT} image/webp 
+
+# check if file is jpg or png
+RewriteCond %{REQUEST_FILENAME} (.*)\.(jpe?g|png)$
+
+# check if corresponding webp file exists image.png -> image.webp
+RewriteCond %1\.webp -f
+
+# serve up webp instead
+RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
+
+AddType image/webp .webp
+

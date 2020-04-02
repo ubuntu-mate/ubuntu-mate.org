@@ -1,0 +1,62 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% capture page_title %}
+        {% if page.permalink == '/' %}
+            {{ page.title }}
+        {% elsif page.layout == 'download' %}
+            {% if page.step == 1 %}
+                {{ site.data.strings.choose_arch }} | {{ site.data.strings.downloads_title }}
+            {% elsif page.step == 2 %}
+                {{ site.data.strings.choose_version }} | {{ site.data.strings.downloads_title }}
+            {% elsif page.step == 3 %}
+                {{ site.data.strings.choose_download }} | {{ site.data.strings.downloads_title }}
+            {% endif %}
+        {% elsif page.layout == 'download-thanks' %}
+            {{ site.data.strings.post_download }} | {{ site.data.strings.downloads_title }}
+        {% else %}
+            {% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}
+        {% endif %}
+    {% endcapture %}
+
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
+    <meta name="author" content="Ubuntu MATE Team">
+
+    <meta property="og:site_name" content="Ubuntu MATE">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ubuntu_mate">
+    <meta name="twitter:creator" content="@ubuntu_mate">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/rss.xml' | relative_url }}">
+
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
+    <meta name="application-name" content="Ubuntu MATE"/>
+    <meta name="msapplication-TileColor" content="#87A556"/>
+    <meta name="msapplication-TileImage" content="/assets/favicon/144x144.png">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+
+    {% if page.noindex == true %}
+    <meta name="robots" content="noindex"/>
+    {% endif %}
+
+    {% assign favicons = "16,32,64,96,144,196,256" | split: "," %}
+    {% for icon in favicons %}
+    <link rel="icon" type="image/png" sizes="196x196" href="/assets/favicon/{{ icon }}x{{ icon }}.png">
+    <link rel="apple-touch-icon" sizes="{{ icon }}x{{ icon }}" href="/assets/favicon/{{ icon }}x{{ icon }}.png">
+    {% endfor %}
+
+    <link rel="stylesheet" href="/assets/ubuntu-mate.css">
+
+    {% include schema.html %}
+
+</head>

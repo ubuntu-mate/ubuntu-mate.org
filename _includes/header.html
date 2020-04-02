@@ -1,0 +1,57 @@
+<header class="site-header" role="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <input id="i18n-chooser" class="dropdown-trigger" type="checkbox" style="display:none" onchange="dropdown_modal(this)"/>
+
+                <ul class="nav left">
+                    <li>
+                        <a class="nav-logo" href="/{{ site.active_lang }}/" title="{{ site.data.strings.homepage }}">
+                            <img src="/images/ubuntu-mate/logo-white.svg" alt="{{ site.data.strings.alt_logo_UM }}"/>
+                        </a>
+                    </li>
+
+                    <input id="primary-mobile-only-toggle" class="dropdown-trigger" type="checkbox" style="display:none" onchange="dropdown_modal(this)"/>
+
+                    <ul class="primary-nav">
+                      {% for nav in site.data.navigation %}
+                        <li>
+                            <a class="nav-btn {% if nav.url == page.permalink or nav.class == page.class %}active{% endif %}" href="{{ nav.url }}">{{ nav.text }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+
+                    <li class="nav-push-right">
+                        <a class="nav-btn" href="/search/" title="{{ site.data.strings.search }}">
+                            {% include images/fa/search.svg %}
+                        </a>
+                    </li>
+                    <li>
+                        <label id="i18n-chooser-mobile" class="mobile-only nav-btn" for="i18n-chooser" title="{{ site.data.strings.change_lang }}: {{ site.data.lang[site.active_lang] }}" role="button" tabindex="0">
+                            {{ site.active_lang }}
+                            {% include images/fa/caret-down.svg %}
+                        </label>
+                        <label class="nav-btn i18n-btn dropdown-btn mobile-hidden" for="i18n-chooser" title="{{ site.data.strings.change_lang }}: {{ site.data.lang[site.active_lang] }}" role="button" tabindex="0">
+                            {{ site.data.lang[site.active_lang] }}
+                            {% include images/fa/caret-down.svg %}
+                        </label>
+                    </li>
+                    <li class="mobile-only">
+                        <label id="primary-nav-mobile" class="nav-btn" for="primary-mobile-only-toggle" role="button" tabindex="0">
+                            {% include images/fa/menu.svg %}
+                        </label>
+                    </li>
+                </ul>
+
+                <ul class="i18n-dropdown">
+                    {% for lang in site.languages %}
+                        <li>
+                            <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href=" /{{ lang }}/">{{ site.data.lang[lang] }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="site-header-block"></div>

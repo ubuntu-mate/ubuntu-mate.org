@@ -1,0 +1,34 @@
+{% assign background_path = include.bg %}
+{% assign foreground_path = include.fg %}
+{% assign text = include.text %}
+{% assign variant = include.variant %}
+
+{% capture uuid %}banner-{{ include.bg | split:'/' | last | replace:'.jpg','' | replace:' ','-' }}{% endcapture %}
+
+{% if background_path %}
+<style>
+    #{{ uuid }} {
+        background-image: url({{ background_path }});
+    }
+
+    .webp #{{ uuid }} {
+        background-image: url({{ background_path | replace:'.jpg', '.webp' }});
+    }
+</style>
+{% endif %}
+
+<div id="{{ uuid }}" class="banner {% if variant %}{{ variant }}{% endif %}">
+    {% if foreground_path or text %}
+        <div class="banner-inner">
+            {% if foreground_path %}
+                <img src="{{ foreground_path }}" alt=""/>
+            {% endif %}
+
+            {% if text %}
+                <div class="banner-text">
+                    {{ text }}
+                </div>
+            {% endif %}
+        </div>
+    {% endif %}
+</div>

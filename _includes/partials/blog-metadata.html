@@ -1,0 +1,25 @@
+{% assign post = include.post %}
+
+<div class="blog-metadata">
+    <span class="post-category {{ post.category }}">
+        {% if post.category == 'release' %}
+            {% include images/fa/star.svg %}
+            {{ site.data.strings.category_release }}
+        {% elsif post.category == 'dev' %}
+            {% include images/fa/hammer.svg %}
+            {{ site.data.strings.category_dev }}
+        {% else %}
+            {{ site.data.strings.category_news }}
+        {% endif %}
+    </span>
+    <span class="post-date">
+        {% for p in site.posts %}
+          {% if p.title == post.title %}
+            {{ p.date | date: '%Y-%m-%d' }}
+          {% endif %}
+        {% endfor %}
+    </span>
+    <span class="post-author">
+        {{ post.author }}
+    </span>
+</div>

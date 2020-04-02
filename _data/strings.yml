@@ -1,0 +1,298 @@
+#######################################
+# Header/Footer
+#######################################
+homepage: "Home Page"
+search: "Search"
+change_lang: "Change Language"
+footnote: "An official flavour of the Ubuntu family. [Ubuntu] is a trademark of [Canonical Ltd.]"
+edit_page: "Improve this page"
+recent_changes: "Recent Site Changes"
+translate_site: "Translate this site"
+rss: "View RSS Feed"
+launchpad: "Ubuntu MATE on Launchpad"
+github: "Ubuntu MATE on GitHub"
+trello: "Development Trello Boards"
+irc: "#ubuntumate on Freenode (IRC)"
+mastodon: "Ubuntu MATE on Mastodon"
+facebook: "Ubuntu MATE on Facebook"
+twitter: "@ubuntu_mate on Twitter"
+youtube: "Ubuntu MATE on YouTube"
+
+
+#######################################
+# Downloads
+#######################################
+downloads_title: "Download"
+choose_arch: "Choose an architecture"
+choose_version: "Choose a release"
+choose_download: "Choose a download"
+post_download_title: "Thank you for downloading:"
+post_download_link_1: "Choose a different release"
+post_download_link_2: "or architecture"
+post_download_thanks: "Thank you for downloading []"
+lts: "Long Term Release (LTS) - Recommended for stability and mission critical systems."
+non-lts: "Interim release for users desiring the latest features and applications."
+show_all: "All Downloads"
+show_req: "System Requirements"
+download_ports: "Or.... choose a hardware port:"
+download_products: "Or... buy it preloaded:"
+download_help: "What should I download?"
+label_LTS: "Recommended for stability and mission critical systems."
+label_nonLTS: "Interim release for users desiring the latest features and applications."
+label_prerelease:  "Development release for testing and debugging."
+prerelease: "(Pre-release)"
+file_name: "File Name"
+file_size: "File Size"
+checksum: "Checksum"
+recommended: "Recommended"
+prefer_torrent: "**Spare the bytes!** A torrent is recommended to reduce bandwidth costs. It could deliver faster download speeds too!"
+label_bittorrent: "Receive the file distributed and verified by multiple computers."
+label_magnet: "Open my BitTorrent client."
+label_direct: "Via your web browser."
+end_of_life: "Supported until"
+filename: "Filename"
+arch: "Architecture"
+server: "Hosted by"
+download_links: "Download"
+direct: "Direct Download"
+bittorrent: "BitTorrent"
+magnet: "Magnet Link"
+support_bandwidth: "Support bandwidth costs"
+
+
+#######################################
+# Months
+#######################################
+jan: "January"
+feb: "February"
+mar: "March"
+apr: "April"
+may: "May"
+jun: "June"
+jul: "July"
+aug: "August"
+sep: "September"
+oct: "October"
+nov: "November"
+dec: "December"
+
+
+#######################################
+# Download thank you page
+#######################################
+download_tip_title: "Download Tip"
+download_tip_text: "_A little bit goes a long way._ If everyone who downloaded Ubuntu MATE tipped **$2.50**, it would fund the full-time development of Ubuntu MATE and MATE Desktop."
+download_tip_provider: "Powered by"
+download_tip_footnote: "To contribute more, use Bitcoin or become an Ubuntu MATE Patron, [visit the funding page.](/funding/)"
+
+download_verify_title: "Verify your download"
+download_verify_text: "Checking data integrity provides assurance your download is free from tampering and corruption."
+download_verify_howto: "How to verify downloads"
+
+download_guide_title: "Acquire a guide by your side"
+download_guide_text: "**Available in both paperback and ebook format.** These books can assist with upgrades from Windows/macOS, as well as introduce you to key applications of the Ubuntu MATE desktop."
+download_guide_shop_button: "Shop Books"
+
+download_stuck_title: "Get stuck?"
+download_stuck_text: "Check out these resources:"
+download_stuck_help_imgusb: "How to image a flash drive (Windows, Mac, Linux)"
+download_stuck_help_community: "Ask the community"
+download_stuck_help_faq: "Frequently asked questions"
+download_stuck_rel_notes: "Read release notes"
+
+
+#######################################
+# Blog
+#######################################
+latest_blogs: "Latest"
+archived_blogs: "Archives"
+rss: "RSS Feed"
+read_more: "Read more..."
+category_release: "Release Announcement"
+category_dev: "Development Update"
+category_news: "News"
+outdated_post: "This post is more than a year old and may be outdated."
+
+# Comments
+comments_title: "Comments"
+comments_none_old: "The comment section for this old article has been closed. There were no comments. :("
+comments_none: "Comments are not available for this post."
+comments_no_js: "To view comments, please enable JavaScript in your browser."
+
+
+#######################################
+# Categories
+#######################################
+# About
+about: "About"
+what_is_ubuntu_mate: What is Ubuntu MATE?
+history: "History"
+system_requirements: "System Requirements"
+team: "Team"
+testimonials: "Testimonials"
+
+# Features (for others, see below)
+features: "Features"
+custom_panel: "Panel Customisation"
+
+# Community
+community: "Community"
+
+# Shop
+shop: "Emporium"
+computers: "Desktop & Laptops"
+books: "Books"
+apparel: "Apparel"
+purchase: "View Product"
+
+
+#######################################
+# Feature Grid
+#######################################
+mate_desktop: "MATE Desktop"
+ubuntu_base: "Ubuntu Base"
+preinstalled: "Pre-installed Applications"
+gnu_linux: "GNU/Linux"
+live_only: "Only available during live session"
+not_in_min_install: "Not included in minimal install"
+
+# Apps that may have translatable names
+ubuntu_mate_welcome: "Welcome"
+software_boutique: "Software Boutique"
+panel_defaults: "Familiar Layouts"
+theming: "Wallpapers & Themes"
+gnome_disks: "GNOME Disks"
+mate_calc: "Calculator"
+mate_font_viewer: "Font Viewer"
+mate_search: "Search"
+mate_screenshot: "Screenshot"
+mate_color_selection: "Colour Selection"
+mate_dictionary: "Dictionary"
+mate_disk_usage_analyzer: "Disk Usage Analyzer"
+system_log: "System Log"
+mate_terminal: "Terminal"
+mate_system_monitor: "System Monitor"
+mate_power_statistics: "Power Statistics"
+mate_tweak: "MATE Tweak"
+guide: "Ubuntu MATE Guide"
+character_map: "Character Map"
+seahorse: "Passwords & Keys"
+apport: "Error Reporting"
+simple_scan: "Simple Scan"
+orca: "Orca Screen Reader"
+nm: "Network Manager"
+
+# Ubuntu Base
+software_dist: "Primary Software Distribution"
+software_snap: "Secondary Software Distribution"
+shell: "Shell"
+display: "Display Server"
+init: "Init System"
+audio: "Audio Server"
+win_man: "Window Manager"
+installer: "Installer"
+boot_splash: "Boot Splash"
+bootloader: "Bootloader"
+printer: "Printing Support"
+kernel1: "Wide range of hardware support"
+kernel2: "Secure by design"
+kernel3: "Excellent stability"
+
+
+#######################################
+# Get Involved
+#######################################
+# Titles
+get_involved: "Get Involved"
+dev_status: "Development Status"
+documentation: "Documentation"
+
+# Items
+crowd_fund: "Crowd Funder"
+spread_word: "Spread the Word"
+community_support: "Community Support"
+translations: "Translations"
+artwork_themes: "Artwork and Themes"
+bug_triage: "Bug Reporting and Triage"
+testing_qa: "Testing and Quality Assurance"
+bug_fix: "Bug Fixing"
+software_dev: "Software Development"
+dev_backlog: "Backlog"
+dev_active: "In Progress"
+dev_completed: "Completed"
+design_guidelines: "Design Guidelines"
+
+# App directory
+application: "Application"
+url: "URL"
+no_translation_url: "Does not support translations"
+
+
+#######################################
+# FAQs
+#######################################
+faq: "FAQs"
+# download_help: <see above>
+the_project: "The Project"
+verify_downloads_quick: "Verify for Corruption"
+verify_downloads_secure: "Verify for Tampering"
+how_to_image: "Imaging a USB Drive"
+how_to_dvd: "Burning to DVD"
+
+about_project: "Project Questions"
+roadmap: "Roadmap"
+prepare_media: "Media Preparations"
+
+
+#######################################
+# Team
+#######################################
+team_ubuntu: "Ubuntu Member"
+team_canonical: "Works at Canonical"
+team_mate: "MATE Desktop Team"
+team_coder: "Code Contributor"
+team_artwork: "Artwork Contributor"
+team_docs: "Documentation Contributor"
+team_community: "Community"
+team_qa: "Quality Assurance Tester"
+team_bug_hunter: "Bug Hunter"
+team_bug_fixer: "Bug Fixer"
+team_packager: "Package Maintainer"
+
+
+#######################################
+# Testimonials
+#######################################
+quote_general_title: "What the Internet is saying..."
+quote_youtube_title: "What the YouTubers are showcasing..."
+
+
+#######################################
+# Device Ports
+#######################################
+ports: "Device Ports"
+raspberry_pi: "Raspberry Pi"
+raspberry_pi_history: "Raspberry Pi Change Log"
+umpc: "Ultra Mobile PCs (UMPCs)"
+
+
+#######################################
+# Funding
+#######################################
+js_required: "JavaScript needs to be enabled in your browser to use this form."
+paypal_monthly: "Monthly PayPal Supporter"
+paypal_one_time: "One time PayPal donation"
+paypal_select: "Select an amount"
+paypal_specify: "Specify your own amount"
+paypal_currency: "Currency"
+paypal_submit: "Submit"
+paypal_invalid_amount: "Please enter a valid amount - thanks!"
+
+
+#######################################
+# Miscellaneous
+#######################################
+toggle_sidebar: "Expand/Collapse Sidebar"
+search_placeholder: "Enter keywords..."
+alt_logo_UM: "Ubuntu MATE Logo"
+toc: "Table of Contents"
