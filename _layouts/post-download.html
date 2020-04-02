@@ -51,6 +51,14 @@ layout: default
 
     <div class="container">
 
+        {% if release.prerelease == true %}
+            <div class="alert warning">
+                <strong>{% include images/fa/warning.svg %} {{ site.data.strings.prerelease_warning_title }}</strong>
+                <p>{{ site.data.strings.prerelease_warning_text }}</p>
+                <p><a href="/get-involved/">{{ site.data.strings.prerelease_warning_button }}</a></p>
+            </div>
+        {% endif %}
+
         <div class="download-thanks row">
             <div class="col-sm-2">
                 <img src="/images/downloads/tips.svg"/>

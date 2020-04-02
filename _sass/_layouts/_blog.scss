@@ -176,6 +176,20 @@
         background-color: $alert-error;
         color: $alert-error-text;
     }
+
+    svg {
+        height: 20px;
+        width: 20px;
+        vertical-align: middle;
+    }
+
+    p {
+        margin: 10px 0;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .youtube-embed {

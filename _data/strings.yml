@@ -58,6 +58,9 @@ direct: "Direct Download"
 bittorrent: "BitTorrent"
 magnet: "Magnet Link"
 support_bandwidth: "Support bandwidth costs"
+prerelease_warning_title: "Bugs might bite!"
+prerelease_warning_text: "This release is not production-ready. It's recommended for testers to help with Ubuntu MATE QA, or to provide feedback and file bug reports."
+prerelease_warning_button: "Learn how to get involved →"
 
 
 #######################################
