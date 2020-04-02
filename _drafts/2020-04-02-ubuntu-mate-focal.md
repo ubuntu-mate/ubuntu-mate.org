@@ -384,19 +384,9 @@ Here are the known issues.
 
 ### Ubuntu MATE
 
- * [Caja dropbox does not start](https://bugs.launchpad.net/ubuntu/+source/caja-dropbox/+bug/1845876).
-    * The `libdropbox_apex.so` shared object, as distributed by Dropbox, has the wrong file permissions.
-    * See [How to fix `libdropbox_apex.so` problem with latest Dropbox?](https://askubuntu.com/questions/1177519/how-to-fix-libdropbox-apex-so-problem-with-latest-dropbox).
-    * The workaround is to open a terminal and run the following command:
-
-           sudo chmod a+rx /var/lib/dropbox/.dropbox-dist/dropbox-lnx.x86_64-*/libdropbox_apex.so
-
  * [Xorg crashes to Login prompt in VirtualMachines](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1745345)
      * `gstreamer-vaapi` when installed, will cause xorg to crash and bring the user back to the login prompt when running certain applications.
      * See [Workaround for Xorg crashes to Login prompt in VirtualMachines 20.04](https://ubuntu-mate.community/t/workaround-for-xorg-crashes-to-login-prompt-in-virtualmachines-20-04/21368/2)
-
-  * The Software Boutique doesn't list any available software.
-    * As this is a beta, we will re-stock the software library closer to the final release date.
 
 ### Ubuntu family issues
 
