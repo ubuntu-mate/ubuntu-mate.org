@@ -26,6 +26,18 @@ releases:
             month: Jun
             year: 2020
 
+    focal:
+        name: "20.04"
+        codename: "Focal Fossa"
+        mascot: "focal.svg"
+        wallpaper: "focal.jpg"
+        lts: true
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-focal-fossa-release-notes/"
+        end_of_life:
+            month: Apr
+            year: 2030
+
 
 # To list new architectures on the download page, add descriptions to download.md
 arch:
@@ -53,6 +65,12 @@ downloads:
           sha256sum: "ac71c064b495a18c04839585dde94e2d7772b3cb1d1cae7d5db79ef2839068ae"
           size: "2.2 GB"
           magnet-uri: "magnet:?xt=urn:btih:662948f49f28ab7f57e741e5189b6776588e9947&dn=ubuntu-mate-19.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+        - release: focal
+          url: ""
+          sha256sum: ""
+          size: ""
+          magnet-uri: ""
 
     i386:
         - release: bionic
