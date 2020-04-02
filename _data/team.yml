@@ -152,7 +152,7 @@
         - bug_hunter
 
     - name: Jon Uhler
-      avatar: null
+      avatar: "https://bigdaddylinux.com/wp-content/uploads/2019/07/Jon-Uhler-2-200x200.jpg"
       url: "https://jonuhler.com/"
       roles:
         - ubuntu_mate
