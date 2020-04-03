@@ -10,7 +10,7 @@
   text: Blog
   class: blog
 
-- url: /community/
+- url: https://ubuntu-mate.community
   text: Community
   class: community
 
