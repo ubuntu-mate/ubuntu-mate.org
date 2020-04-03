@@ -23,7 +23,7 @@ catalogue:
             suggestions for personalizing Ubuntu MATE will help you feel right at home.
 
         - name: "Using Ubuntu MATE and Its Applications: Ubuntu MATE 20.04 LTS Edition"
-          price: $ 25.99
+          price: $15.99 - 25.99
           img: /images/shop/books/Using-UM.png
           url: http://www.amazon.com/dp/ASIN/B084DFZMFC
           description: >-
