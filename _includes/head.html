@@ -26,11 +26,25 @@
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
     <meta name="author" content="Ubuntu MATE Team">
 
+    {% assign og_image = "/images/homepage/01_familiar.png" %}
+    {% assign images = page.content | split: '<img ' %}
+    {% for image in images %}
+        {% if image contains 'src=' %}
+            {% assign og_image = image | split: 'src="' | last | split: '"' | first %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% if page.layout == "feature-page" %}
+        {% capture og_image %}/images/features/{{ page.main_image_filename }}.png{% endcapture %}
+    {% endif %}
+
     <meta property="og:site_name" content="Ubuntu MATE">
     <meta property="og:title" content="{{ page_title }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ og_image }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ubuntu_mate">
     <meta name="twitter:creator" content="@ubuntu_mate">
