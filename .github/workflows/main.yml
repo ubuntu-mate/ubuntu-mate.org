@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - jekyll-update
+      - master
   pull_request:
     branches:
-      - jekyll-update
+      - master
 
 jobs:
   build:
@@ -31,7 +31,7 @@ jobs:
         scripts/test.sh
 
     - name: Deploy to server
-      if: github.event_name == 'push'
+      if: github.event_name == 'push' && github.ref == 'master'
       run: |
         mkdir -p $HOME/.ssh/
         chmod 700 $HOME/.ssh/
