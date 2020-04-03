@@ -51,6 +51,8 @@ GEM
       jekyll (>= 3.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.12.0)
@@ -95,6 +97,7 @@ DEPENDENCIES
   jekyll!
   jekyll-feed
   jekyll-polyglot
+  jekyll-sitemap
   jemoji
 
 BUNDLED WITH

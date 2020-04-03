@@ -19,3 +19,6 @@ end
 
 # Emojis
 gem "jemoji"
+
+# Sitemap
+gem "jekyll-sitemap"

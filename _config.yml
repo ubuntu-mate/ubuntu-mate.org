@@ -36,6 +36,7 @@ plugins:
     - jekyll-feed
     #- jekyll-webp      # Disabled as nginx config not working on server
     - jemoji
+    - jekyll-sitemap
 
 feed:
     path: rss.xml
