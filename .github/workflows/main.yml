@@ -38,3 +38,4 @@ jobs:
         echo -n "${{ secrets.SSH_MATEY }}" > $HOME/.ssh/id_rsa
         chmod 600 $HOME/.ssh/id_rsa
         scripts/deploy.sh
+        scripts/link-images.sh
