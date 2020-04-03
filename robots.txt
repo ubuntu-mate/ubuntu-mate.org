@@ -1,0 +1,15 @@
+---
+layout: null
+---
+
+Sitemap: {{ site.url }}/sitemap.xml
+
+User-Agent: *
+
+# Avoid step-by-step download pages being indexed.
+# For context, visitors should choose their download from the beginning.
+{% for arch in site.data.downloads.arch %}
+Disallow: {{ site.url }}/download/{{ arch }}/{% for download in site.data.downloads.downloads[arch] %}
+Disallow: {{ site.url }}/download/{{ arch }}/{{ download.release }}/
+Disallow: {{ site.url }}/download/{{ arch }}/{{ download.release }}/thanks/
+{% endfor %}{% endfor %}
