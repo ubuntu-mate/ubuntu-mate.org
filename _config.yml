@@ -34,7 +34,7 @@ markdown: kramdown
 # Plugins
 plugins:
     - jekyll-feed
-    - jekyll-webp
+    #- jekyll-webp      # Disabled as nginx config not working on server
     - jemoji
 
 feed:

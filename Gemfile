@@ -15,7 +15,7 @@ end
 
 # WebP Generator
 # https://github.com/sverrirs/jekyll-webp
-gem "jekyll-webp"
+#gem "jekyll-webp"
 
 # Emojis
 gem "jemoji"
