@@ -11,7 +11,7 @@ catalogue:
       items:
 
         - name: "Ubuntu MATE: Upgrading from Windows or macOS - Second Edition"
-          price: $9.96 - $18.50 USD
+          price: $10.00 - $18.50 USD
           img: /images/shop/books/Upgrading-to-UM.png
           url: https://www.amazon.com/dp/ASIN/1658872681
           description: >-
@@ -23,7 +23,7 @@ catalogue:
             suggestions for personalizing Ubuntu MATE will help you feel right at home.
 
         - name: "Using Ubuntu MATE and Its Applications: Ubuntu MATE 20.04 LTS Edition"
-          price: $ TBC
+          price: $ 25.99
           img: /images/shop/books/Using-UM.png
           url: http://www.amazon.com/dp/ASIN/B084DFZMFC
           description: >-
