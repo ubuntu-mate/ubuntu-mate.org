@@ -95,6 +95,19 @@ MATE 20.04.
   * Updated the Ubuntu MATE Guide  :question:
   * Updated the Ubiquity Slideshow :performing_arts:
 
+## Firmware updater
+
+We've add a GTK front end for `fwupd` This application can:
+
+  * Upgrade, Downgrade, & Reinstall firmware on devices supported by `fwupd`.
+  * Unlock locked fwupd devices
+  * Verify firmware on supported devices
+  * Display all releases for a `fwupd` device
+
+{:.center}
+![Firmware](/images/blog/focal/firmware.png)
+**Ubuntu MATE 20.04 - Features an LVFS compatible Firmware management utility**
+
 ### Window Manager improvements
 
 Marco is the Window Manager for MATE Desktop and in Ubuntu MATE 20.04
