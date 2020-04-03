@@ -201,7 +201,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     .highlight-picture {
         img {
             max-width: 100%;
-            box-shadow: 0px 5px 15px 5px $grey-dark;
+            box-shadow: 0px 5px 15px 5px $shadow;
             margin: auto;
         }
     }
@@ -242,7 +242,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     img {
         margin: auto;
         max-width: calc(100% - 30px);
-        box-shadow: 5px 5px 5px $grey-dark;
+        box-shadow: 5px 5px 5px $shadow;
     }
 
     .hover {

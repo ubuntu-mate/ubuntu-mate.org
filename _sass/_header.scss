@@ -133,7 +133,7 @@
 
         ~ ul .i18n-btn,
         ~ ul #i18n-chooser-mobile {
-            background: $text-colour-light;
+            background: $background;
             color: $text-colour-dark;
             padding-bottom: 20px;
 
@@ -146,7 +146,7 @@
 
 .i18n-dropdown {
     display: none;
-    background: $text-colour-light;
+    background: $background;
     border: $dropdown-border;
     box-shadow: $dropdown-shadow;
     position: absolute;

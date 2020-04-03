@@ -3,6 +3,11 @@ body, button, input {
     color: $text-colour-dark;
 }
 
+body {
+    background: $background;
+    color: $text-colour-dark;
+}
+
 a {
     color: $link-colour;
 
@@ -126,13 +131,13 @@ blockquote {
 pre {
     display: block;
     background-color: $grey-lightest;
-    color: black;
+    color: $text-colour-dark;
     padding: 15px;
     margin: 15px 0;
     white-space: pre-wrap;
 
     code {
-        color: black;
+        color: $text-colour-dark;
     }
 }
 
@@ -159,7 +164,7 @@ p.small {
 kbd {
     border-radius: 3px;
     box-shadow: 0 2px 0 rgba(0,0,0,.2), 0 0 0 1px #fff inset;
-    background: #fafafa;
+    background: $background-alt;
     border: 1px solid $button-border;
     color: $text-colour-dark;
     display: inline-block;
