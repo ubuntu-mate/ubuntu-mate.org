@@ -20,7 +20,7 @@ jobs:
         sudo apt-get install ruby ruby-dev make gcc
         sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync
         sudo gem install bundler html-proofer
-        bundle install
+        bundle install --jobs=4
 
     - name: Build website
       run: |
