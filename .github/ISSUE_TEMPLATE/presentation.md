@@ -3,7 +3,7 @@ name: Visual or Functional Issue
 about: Something does not look right or work properly
 title:
 labels: 'presentation'
-assignees: 'lah7'
+assignees:
 
 ---
 
