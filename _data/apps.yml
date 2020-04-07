@@ -325,6 +325,11 @@ preinstalled:
       src_url: https://code.launchpad.net/ubuntu/+source/software-properties
       translations_url: https://translations.launchpad.net/ubuntu/+source/software-properties
 
+    - name: gnome-language-selector
+      img: /images/Ambiant-MATE/preferences-desktop-locale.svg
+      src_url: https://code.launchpad.net/~ubuntu-core-dev/language-selector/ubuntu
+      translations_url: https://translations.launchpad.net/language-selector
+
     - name: update-manager
       img: /images/apps/system-software-update.svg
       src_url: https://code.launchpad.net/ubuntu/+source/update-manager
