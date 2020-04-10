@@ -22,7 +22,7 @@ ubuntu_mate:
     - name: start.ubuntu-mate.org
       img: /images/ubuntu-mate/logo.svg
       src_url: null # Is a website, not software
-      translations_url: https://ubuntu-mate.community/t/how-to-translate-the-um-start-page/15169
+      translations_url: https://www.transifex.com/ubuntu-mate/startpage/
 
     - name: mate-optimus
       img: /images/brands/nvidia.svg
