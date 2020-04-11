@@ -20,7 +20,7 @@
                             }
                         </style>
                     </noscript>
-                    <a id="dark-toggle" href="#" onclick="toggle_dark(); event.preventDefault();">
+                    <a id="dark-toggle" tabindex="0" onclick="toggle_dark(); event.preventDefault();">
                         {% include images/footer/dark.svg %}
                         <span id="str-light">{{ site.data.strings.light_mode }}</span>
                         <span id="str-dark">{{ site.data.strings.dark_mode }}</span>
