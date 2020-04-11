@@ -5,6 +5,13 @@
 
   <body>
 
+    <script>
+        // For browsers that do not support dark mode via CSS.
+        if (localStorage.getItem("dark") == "true") {
+            document.getElementById("dark-sheet").media = "";
+        }
+    </script>
+
     {% include header.html %}
 
     <main class="page-content" aria-label="Content">

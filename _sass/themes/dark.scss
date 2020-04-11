@@ -81,3 +81,21 @@ blockquote a {
 input {
     background-color: $background-alt;
 }
+
+/************************
+ * Manual toggle in footer
+*************************/
+#str-light {
+    display: inline;
+}
+
+#str-dark {
+    display: none;
+}
+
+/* Not applicable if browser auto supports this */
+@media (prefers-color-scheme: dark) {
+    #dark-toggle {
+        display: none;
+    }
+}

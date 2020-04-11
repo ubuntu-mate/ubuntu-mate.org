@@ -49,3 +49,15 @@ $scroll-bar-gray: #C9C6C3;
 $table-row: #FFFFFF;
 $table-row-alt: #F9F9F9;
 $table-row-border: #D0D0D0;
+
+
+/************************
+ * Manual toggle in footer
+*************************/
+#str-light {
+    display: none;
+}
+
+#str-dark {
+    display: inline;
+}

@@ -17,6 +17,8 @@ mastodon: "Ubuntu MATE on Mastodon"
 facebook: "Ubuntu MATE on Facebook"
 twitter: "@ubuntu_mate on Twitter"
 youtube: "Ubuntu MATE on YouTube"
+dark_mode: "Dark Mode"
+light_mode: "Light Mode"
 
 
 #######################################

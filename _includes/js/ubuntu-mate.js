@@ -71,3 +71,20 @@ $(window).ready(function() {
         }
     }
 });
+
+//--------------------------------------
+// Dark mode toggle (for browsers that can't switch automatically)
+//--------------------------------------
+function toggle_dark() {
+    if (localStorage.getItem("dark") === "true") {
+        localStorage.setItem("dark", "false");
+        document.getElementById("dark-sheet").media = "(prefers-color-scheme: dark)";
+    } else {
+        localStorage.setItem("dark", "true");
+        document.getElementById("dark-sheet").media = "";
+    }
+}
+
+if (matchMedia("(prefers-color-scheme: dark)").matches === true) {
+    document.getElementById("dark-toggle").remove();
+}

@@ -13,6 +13,18 @@
             </div>
             <div class="col-md-12 col-lg-6 text-right">
                 <div class="footer-links">
+                    <noscript>
+                        <style>
+                            #dark-toggle {
+                                display: none;
+                            }
+                        </style>
+                    </noscript>
+                    <a id="dark-toggle" href="#" onclick="toggle_dark(); event.preventDefault();">
+                        {% include images/footer/dark.svg %}
+                        <span id="str-light">{{ site.data.strings.light_mode }}</span>
+                        <span id="str-dark">{{ site.data.strings.dark_mode }}</span>
+                    </a>
                     <a href="/ports/">{{ site.data.strings.ports }}</a>
                     <a href="/faq/">{{ site.data.strings.faq }}</a>
                 </div>
