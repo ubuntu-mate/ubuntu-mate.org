@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Successful Donation!
-permalink: /funding/completed/
+permalink: /funding/success/
 lang: en
 class: funding
 ---
