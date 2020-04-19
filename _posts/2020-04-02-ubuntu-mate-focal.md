@@ -20,10 +20,10 @@ to [MATE Desktop](https://mate-desktop.org) and Ubuntu MATE itself. For Ubuntu
 MATE 19.10 we [focused on addressing as many *"paper-cut"* issues as possible](/blog/ubuntu-mate-19-10-eoan-ermine-release/).
 That was a hugely successful :tada: initiative, the community feedback was
 overwhelmingly positive :chart_with_upwards_trend: and that is reflected in
-adoption; **the Ubuntu MATE 19.10 interim release is out most actively used
+adoption; **the Ubuntu MATE 19.10 interim release is our most actively used
 interim release to date!** :champagne: This was only possible thanks to
-dedicated group QA testers [joining the Ubuntu MATE team](/get-involved) and
-coordinating with developers to highlight :flashlight: where attention was
+dedicated group of QA testers [joining the Ubuntu MATE team](/get-involved)
+and coordinating with developers to highlight :flashlight: where attention was
 needed.
 
 Recognising that we're on to a good thing, :thumbsup: we've repeated this
@@ -38,7 +38,7 @@ submitting translations, providing patches, contributing to our crowd funding,
 developing new features, creating artwork, offering community support, actively
 testing and providing QA feedback to writing documentation or creating this
 fabulous website. Thank you! Thank you all for getting out there and making a
-difference!** :i_love_you_hand_sign:
+difference!** :green_heart:
 
 {:.center}
 ![Ubuntu MATE 20.04 Desktop](/images/blog/focal/focal-fossa-desktop.png)
@@ -49,15 +49,15 @@ difference!** :i_love_you_hand_sign:
 Those of you who follow the desktop Linux news will know that
 upstream [MATE Desktop recently released version 1.24](https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/).
 Ubuntu MATE 20.04 is shipping with MATE Desktop 1.24. Thus, all of the
-improvements in MATE Desktop 1.24 will be present in Ubuntu MATE 20.04 LTS.
+improvements in MATE Desktop 1.24 are present in Ubuntu MATE 20.04 LTS.
 
 **Since the last LTS we worked on the following**:
 
   * Added multiple coloured theme variations :art: as one-click installs for those of you who simply don't like Chelsea Cucumber :cucumber:
   * Added *experimental* ZFS :file_folder: install option.
   * Added GameMode :video_game: from [Feral Interactive](https://github.com/FeralInteractive/gamemode).
-  * Fixed several crashers :bomb: in Brisk Menu and add keyboard :keyboard: navigation.
-  * Fixed panel layout switching :hammer_and_wrench_ Layout switching via MATE Tweak Tweak and Ubuntu MATE Welcome is now stable and reliable.
+  * Fixed several crashers :bomb: in Brisk Menu and added keyboard :keyboard: navigation.
+  * Fixed panel layout switching :hammer_and_wrench: which is now stable and reliable via MATE Tweak Tweak and Ubuntu MATE Welcome.
   * Fixed rendering window controls on HiDPI :mag: displays.
   * Fixed irregular icon sizes :straight_ruler: in MATE Control Center and made them render nicely on HiDPI displays.
   * Fixed unresponsive Caja :file_folder: extensions.
@@ -72,12 +72,12 @@ improvements in MATE Desktop 1.24 will be present in Ubuntu MATE 20.04 LTS.
 
 ## Firmware updater
 
-We've add a GTK front end for `fwupd` This application can:
+We've add a GTK front end for `fwupd`; this application can:
 
-  * Upgrade, Downgrade, & Reinstall firmware on devices supported by `fwupd`.
-  * Unlock locked fwupd devices
-  * Verify firmware on supported devices
-  * Display all releases for a `fwupd` device
+  * Upgrade, Downgrade, & Reinstall firmware on devices supported by [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/).
+  * Unlock locked `fwupd` devices.
+  * Verify firmware on supported devices.
+  * Display all releases for a `fwupd` device.
 
 {:.center}
 ![Firmware](/images/blog/focal/firmware.png)
@@ -173,9 +173,9 @@ organisation, but it's been a couple of years since it had a new release. The
 Solus Project gave me administrative access :trident: to the Brisk Menu repo and I've
 made a new release. Thanks to the efforts of a couple of Ubuntu MATE
 contributors, several bug :bug: fixes have landed too, which includes
-**resolving frequent crashers :bomb in Brisk Menu, preventing a scrollbar always
-appearing in the category column** of the menu and **silencing sounds firing as you
-rollover menu entries**.
+**resolving frequent crashers :bomb: in Brisk Menu, preventing a scrollbar always
+appearing in the category column** of the menu, **silencing sounds firing as you
+rollover menu entries** and **adding keyboard :keyboard: navigation**.
 
 ### MATE Panel
 
@@ -183,8 +183,8 @@ MATE Panel has had a long-standing bug fixed that caused it to crash :boom: when
 the panel was reset or replaced. This was most noticeable when switching panel
 layouts via MATE Tweak and could result in the panel layout being left
 incomplete or entirely absent. This bug is now fixed! MATE Tweak has been
-updated to neatly integrate with with fixed MATE Panel behaviour so that **layout
-switching is now 100% reliable**.
+updated to neatly integrate with with fixed MATE Panel behaviour so that
+**layout switching is now 100% reliable**.
 
 ### Indicators
 
