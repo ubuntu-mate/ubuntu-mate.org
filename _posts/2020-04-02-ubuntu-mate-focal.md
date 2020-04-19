@@ -15,42 +15,49 @@ We are preparing Ubuntu MATE 20.04 (Focal Fossa) for distribution on
 With this *Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
+Ubuntu MATE 20.04 LTS represents 2 years :sweat_drops: of continued improvement
+to [MATE Desktop](https://mate-desktop.org) and Ubuntu MATE itself. For Ubuntu
+MATE 19.10 we [focused on addressing as many *"paper-cut"* issues as possible](/blog/ubuntu-mate-19-10-eoan-ermine-release/).
+That was a hugely successful :tada: initiative, the community feedback was
+overwhelmingly positive :chart_with_upwards_trend: and that is reflected in
+adoption; **the Ubuntu MATE 19.10 interim release is out most actively used
+interim release to date!** :champagne: This was only possible thanks to
+dedicated group QA testers [joining the Ubuntu MATE team](/get-involved) and
+coordinating with developers to highlight :flashlight: where attention was
+needed.
+
+Recognising that we're on to a good thing, :thumbsup: we've repeated this
+trick :male_mage: for Ubuntu MATE 20.04 LTS by once again by focusing :eyes:
+on the pain points our community is most vocal :loudspeaker: about. You'll
+find details of everything we've improved or fixed since 19.10 plus a summary
+of what's changed since 18.04 below :point_down:
+
+**I'd like to extend my sincere thanks to everyone who has played an active role
+in improving Ubuntu MATE for this LTS release :clap: From reporting bugs,
+submitting translations, providing patches, contributing to our crowd funding,
+developing new features, creating artwork, offering community support, actively
+testing and providing QA feedback to writing documentation or creating this
+fabulous website. Thank you! Thank you all for getting out there and making a
+difference!** :i_love_you_hand_sign:
 
 {:.center}
 ![Ubuntu MATE 20.04 Desktop](/images/blog/focal/focal-fossa-desktop.png)
 **Ubuntu MATE 20.04 - Welcome now offers a few buckets of paint!**
 
-## What works?
-
-People tell us that Ubuntu MATE is stable. You may, or may not, agree.
-
-Ubuntu MATE *Beta Releases* are *NOT* recommended for:
-
-  * Regular users who are not aware of pre-release issues
-  * Anyone who requires a stable system
-  * Anyone uncomfortable running a system that can often be broken
-  * Anyone in a production environment with data or workflows that need reliability
-
-Ubuntu MATE *Beta Releases* are recommended for:
-
-  * Regular users who want to help us test by finding, reporting, and/or fixing bugs
-  * Ubuntu MATE, MATE, and GTK+ developers
-
-
-
-## What changed since the Ubuntu MATE 18.04 LTS and 19.10?
+## What changed since the Ubuntu MATE 18.04 LTS?
 
 Those of you who follow the desktop Linux news will know that
 upstream [MATE Desktop recently released version 1.24](https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/).
-
-Ubuntu MATE 20.04 is shipping with MATE Desktop 1.24.
-
-Thus, all of the improvements in MATE Desktop 1.24 will be present in Ubuntu
-MATE 20.04.
+Ubuntu MATE 20.04 is shipping with MATE Desktop 1.24. Thus, all of the
+improvements in MATE Desktop 1.24 will be present in Ubuntu MATE 20.04 LTS.
 
 **Since the last LTS we worked on the following**:
 
+  * Added multiple coloured theme variations :art: as one-click installs for those of you who simply don't like Chelsea Cucumber :cucumber:
   * Added *experimental* ZFS :file_folder: install option.
+  * Added GameMode :video_game: from [Feral Interactive](https://github.com/FeralInteractive/gamemode).
+  * Fixed several crashers :bomb: in Brisk Menu and add keyboard :keyboard: navigation.
+  * Fixed panel layout switching :hammer_and_wrench_ Layout switching via MATE Tweak Tweak and Ubuntu MATE Welcome is now stable and reliable.
   * Fixed rendering window controls on HiDPI :mag: displays.
   * Fixed irregular icon sizes :straight_ruler: in MATE Control Center and made them render nicely on HiDPI displays.
   * Fixed unresponsive Caja :file_folder: extensions.
@@ -58,8 +65,9 @@ MATE 20.04.
   * Fixed unresponsive Pluma :notebook: plugins.
   * Fixed a crasher :bomb: in MATE Dock Applet due to an Attribute error in `adjust_minimise_pos()`.
   * Fixed auto-start errors in `mate-session-manager`.
+  * Fixed saving/restoring custom panel layouts via MATE Tweak.
   * Gave Ubuntu MATE Welcome a fresh coat of :paintbrush:.
-  * Updated the Ubuntu MATE Guide  :question:
+  * Updated the Ubuntu MATE Guide :question:
   * Updated the Ubiquity Slideshow :performing_arts:
 
 ## Firmware updater
@@ -89,7 +97,7 @@ of rendering problems that were present in various themes and components.
 
   * Magnus (see below) provides screen magnification
   * Marco supports invisible windows borders
-  * Marco has improved Alt+Tab behaviour
+  * Marco has improved <kbd>Alt</kbd> + <kbd>Tab</kbd> behaviour
   * Marco is free from screen tearing
   * Marco frame performance when gaming is further improved
 
@@ -113,18 +121,18 @@ traverse the application switcher via keyboard and mouse.
 {:.center}
 ![Workspace Switcher](/images/blog/focal/workspace-switcher.png)
 
-**Compiz and Compton have been removed from the default Ubuntu MATE
-install**. The fundamental reasons for including them no longer exist.
-
-Only having one window manager to target means we can promptly deliver new
-features and minimise development effort. Which brings us to...
+**Compiz and Compton have been removed from the default Ubuntu MATE install**.
+The fundamental reasons for including them no longer exist.Only having one
+window manager to target means we can promptly deliver new features and minimise
+development effort. Which brings us to...
 
 ### New Key-bindings
 
-The key-bindings for window tiling have only worked on full keyboards :keyboard: with a
-10-key pad. Few laptops :computer: have a 10-key pad and not all keyboards have a
-10-key either. There are some well known key-bindings from other platforms that
-were not recognised in Ubuntu MATE. So, we've had a think :think: and have come up with this:
+The key-bindings for window tiling have only worked on full keyboards
+:keyboard: with a 10-key pad. Few laptops :computer: have a 10-key pad and not
+all keyboards have a 10-key either. There are some well known key-bindings from
+other platforms that were not recognised in Ubuntu MATE. So, we've had a think
+:think: and have come up with this:
 
   * **Maximise Window:** <kbd>Super</kbd> + <kbd>Up</kbd>
   * **Restore Window:** <kbd>Super</kbd> + <kbd>Down</kbd>
@@ -137,11 +145,9 @@ were not recognised in Ubuntu MATE. So, we've had a think :think: and have come 
   * **Title Window to lower left Corner:** <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Super</kbd> + <kbd>Left</kbd>
   * **Shade Window:** <kbd>Control</kbd> + <kbd>Alt</kbd> + <kbd>s</kbd>
 
-It is now possible to tile a window to
-all screen quadrants :triangular_ruler: using any keyboard form factor.
-
-We updated the application launcher key-bindings, some of these have existed
-in Ubuntu MATE for a while:
+It is now possible to tile a window to all screen quadrants :triangular_ruler:
+using any keyboard form factor. We updated the application launcher
+key-bindings, some of these have existed in Ubuntu MATE for a while:
 
   * **Cycle external displays:** <kbd>Super</kbd> + <kbd>P</kbd>
   * **Lock Screen:** <kbd>Super</kbd> + <kbd>L</kbd>
@@ -156,9 +162,9 @@ in Ubuntu MATE for a while:
 The key-bindings compliment existing well established alternatives. So if
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (Terminal) and
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> (Lock Screen) are ingrained in
-your muscle :muscle: memory 🧠 they are still available too. You can find all the
-keyboard shortcuts documented in the **Getting Started section of Ubuntu MATE
-Welcome**.
+your muscle :muscle: memory 🧠 they are still available too. You can find all
+the keyboard shortcuts documented in the **Getting Started section of Ubuntu
+MATE Welcome**.
 
 ### Brisk Menu
 
@@ -166,9 +172,9 @@ Welcome**.
 organisation, but it's been a couple of years since it had a new release. The
 Solus Project gave me administrative access :trident: to the Brisk Menu repo and I've
 made a new release. Thanks to the efforts of a couple of Ubuntu MATE
-contributors, several bug :bug: fixes have landed too, which includes **resolving
-frequent crashers in Brisk Menu, preventing a scrollbar always appearing
-in the category column** of the menu and **silencing sounds firing as you
+contributors, several bug :bug: fixes have landed too, which includes
+**resolving frequent crashers :bomb in Brisk Menu, preventing a scrollbar always
+appearing in the category column** of the menu and **silencing sounds firing as you
 rollover menu entries**.
 
 ### MATE Panel
@@ -359,13 +365,26 @@ via the MATE screensaver.
 
 Support for ZFS as the root filesystem is added as an experimental feature in 20.04.
 The ZFS file system and partitioning layout is handled automatically directly via the
-installer.
+installer. `zsys` was added in 20.04 which now takes system snapshots before significant 
+installs or upgrades and inserts restore options into the GRUB bootloader menus should you
+need to recover.
 
 You can read more details on Didier Roche's blogs:
 
   * [Part 1 - Ubuntu ZFS support in 19.10: introduction](https://didrocks.fr/2019/08/06/ubuntu-zfs-support-in-19.10-introduction/)
   * [Part 2 - Ubuntu ZFS support in 19.10: ZFS on root](https://didrocks.fr/2019/10/11/ubuntu-zfs-support-in-19.10-zfs-on-root/)
 
+## Major Applications
+
+Accompanying **MATE Desktop 1.24.0** and **Linux 5.4** are **Firefox 75.0**,
+**Celluloid 0.18**, **LibreOffice 6.4.2.2** and **Evolution 3.36.1**.
+
+{:.center}
+![Major Applications](/images/blog/focal/versions.png)
+
+See the [Ubuntu 20.04 Release
+Notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes) for details of all
+the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 20.04 Beta"
@@ -374,6 +393,23 @@ You can read more details on Didier Roche's blogs:
     button_url = "/download/amd64/focal/"
 %}
 
+## Upgrading from Ubuntu MATE 18.04 LTS or 19.10
+
+You can upgrade to Ubuntu 20.04 LTS from either Ubuntu MATE 18.04 LTS or Ubuntu
+19.10. Ensure that you have all updates installed for your current version of
+Ubuntu MATE before you upgrade. 
+
+  * Open the "Software & Updates" from the Control Center.
+  * Select the 3rd Tab called "Updates".
+  * Set the "Notify me of a new Ubuntu version" drop down menu to "For long-term support versions" if you are using 18.04 LTS; set it to "For any new version" if you are using 19.10.
+  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c` into the command box.
+  * Update Manager should open up and tell you: New distribution release '20.04' is available.
+    * If not, you can use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
+  * Click "Upgrade" and follow the on-screen instructions.
+
+There are no offline upgrade options for Ubuntu MATE. Please ensure you have
+network connectivity to one of the official mirrors or to a locally accessible
+mirror and follow the instructions above. 
 
 ## Known Issues
 
@@ -382,7 +418,7 @@ Here are the known issues.
 ### Ubuntu MATE
 
  * [Xorg crashes to Login prompt in VirtualMachines](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1745345)
-     * `gstreamer-vaapi` when installed, will cause xorg to crash and bring the user back to the login prompt when running certain applications.
+     * When `gstreamer-vaapi` is installed it will cause Xorg to crash and bring the user back to the login prompt when running certain applications.
      * See [Workaround for Xorg crashes to Login prompt in VirtualMachines 20.04](https://ubuntu-mate.community/t/workaround-for-xorg-crashes-to-login-prompt-in-virtualmachines-20-04/21368/2)
 
 ### Ubuntu family issues
