@@ -13,8 +13,14 @@ arch:
 
     - name: "32-bit PCs and older Intel Macs"
       icon: images/fa/desktop.svg
-      desc: For older hardware based on i386. Officially supported until April 2021.
+      desc: For older hardware based on i386. Supported until April 2021.
       id: i386
+
+products:
+    - name: Entroware
+      icon: images/brands/entroware.svg
+      url: /shop/computers/
+      desc: Purchase a new Ubuntu MATE computer.
 
 ports:
     - name: Raspberry Pi (recommended)
@@ -51,11 +57,5 @@ ports:
       icon: images/fa/laptop.svg
       desc: Optimised for this hardware.
       id: gpd_p2_max
-
-products:
-    - name: Entroware
-      icon: images/brands/entroware.svg
-      url: /shop/computers/
-      desc: Purchase a new certified Ubuntu MATE computer.
 
 ---
