@@ -20,39 +20,6 @@ preparation for our next (stable) version.
 ![Ubuntu MATE 20.04 Desktop](/images/blog/focal/focal-fossa-desktop.png)
 **Ubuntu MATE 20.04 - Welcome now offers a few buckets of paint!**
 
-
-## Ubuntu Testing Week
-
-{:.center}
-![Ubuntu MATE with its family of flavours](/images/history/join-family.svg)
-
-
-The **Ubuntu MATE** team is proud to be a part of **Ubuntu Testing Week** which
-starts today (2 April) **until 8 April** along with the other flavours of the
-Ubuntu family. Please join us in testing the beta of Ubuntu MATE 20.04
-(Focal Fossa) as well sharing the :green_heart: by testing out some of the other flavours.
-
-Unsure of how to test? [Alan Pope](http://popey.com/), the co-founder of Ubuntu
-MATE, has made an outstanding video showing how easy it is to do.
-
-{% include embed/youtube.html
-    embed = "https://www.youtube.com/embed/hXLiqjOkSmg"
-%}
-
-If you need some help, [join us in our beta testing thread](https://ubuntu-mate.community/t/ubuntu-mate-20-04-beta-testing/21369/).
-Did you find a :bug:? We've got a
-[helpful guide](https://ubuntu-mate.community/t/how-to-report-problems-in-ubuntu-mate/17943)
-on how to report it.
-
-There are many way ways of testing. A spare machine, a secondary hard drive,
-a live USB, or using a VM (Virtual Machine). If you are planning on using a VM,
-you may be interested in trying [quickemu](https://github.com/wimpysworld/quickemu)
-which allows you to easily manage QEMU VM's with a shell script.
-
-We hope you will join in and help us make Ubuntu MATE 20.04 and all of it's
-family a success :tada:
-
-
 ## What works?
 
 People tell us that Ubuntu MATE is stable. You may, or may not, agree.
