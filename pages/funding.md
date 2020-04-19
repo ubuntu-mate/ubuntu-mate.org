@@ -74,11 +74,11 @@ sponsorship packages.
 ## Bitcoin
 
 Click or scan the QR code below to launch your Bitcoin client and
-donate 0.003 btc to Ubuntu MATE. Alternatively, copy and paste the
+donate 0.005 btc to Ubuntu MATE. Alternatively, copy and paste the
 Bitcoin address into your Bitcoin client to donate an amount of your choice.
 
 {:.center}
-[![](https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.003&message=Donate_0.003_btc_to_Ubuntu_MATE)](bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.015&label=Ubuntu%20MATE)
+[![](https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)](bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)
 
 {:.center}
 **1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**
