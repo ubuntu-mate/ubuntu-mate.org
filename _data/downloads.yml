@@ -27,7 +27,7 @@ releases:
             year: 2020
 
     focal:
-        name: "20.04"
+        name: "20.04 LTS"
         codename: "Focal Fossa"
         mascot: "focal.svg"
         wallpaper: "focal.jpg"
