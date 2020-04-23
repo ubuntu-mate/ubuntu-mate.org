@@ -10,11 +10,6 @@ lang: en
 discourse_topic_id: 21380
 ---
 
-We are preparing Ubuntu MATE 20.04 (Focal Fossa) for distribution on
-[April 23rd, 2020](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule).
-With this *Beta* pre-release, you can see what we are trying out in
-preparation for our next (stable) version.
-
 Ubuntu MATE 20.04 LTS represents 2 years :sweat_drops: of continued improvement
 to [MATE Desktop](https://mate-desktop.org) and Ubuntu MATE itself. For Ubuntu
 MATE 19.10 we [focused on addressing as many *"paper-cut"* issues as possible](/blog/ubuntu-mate-19-10-eoan-ermine-release/).
@@ -365,7 +360,7 @@ via the MATE screensaver.
 
 Support for ZFS as the root filesystem is added as an experimental feature in 20.04.
 The ZFS file system and partitioning layout is handled automatically directly via the
-installer. `zsys` was added in 20.04 which now takes system snapshots before significant 
+installer. `zsys` was added in 20.04 which now takes system snapshots before significant
 installs or upgrades and inserts restore options into the GRUB bootloader menus should you
 need to recover.
 
@@ -387,7 +382,7 @@ Notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes) for details of all
 the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 20.04 Beta"
+    title = "Download Ubuntu MATE 20.04"
     text = "Notice anything different? We've overhauled the website to make things easier to discover!"
     button_text = "Download"
     button_url = "/download/amd64/focal/"
@@ -397,7 +392,7 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 You can upgrade to Ubuntu 20.04 LTS from either Ubuntu MATE 18.04 LTS or Ubuntu
 19.10. Ensure that you have all updates installed for your current version of
-Ubuntu MATE before you upgrade. 
+Ubuntu MATE before you upgrade.
 
   * Open the "Software & Updates" from the Control Center.
   * Select the 3rd Tab called "Updates".
@@ -409,7 +404,7 @@ Ubuntu MATE before you upgrade.
 
 There are no offline upgrade options for Ubuntu MATE. Please ensure you have
 network connectivity to one of the official mirrors or to a locally accessible
-mirror and follow the instructions above. 
+mirror and follow the instructions above.
 
 ## Known Issues
 
