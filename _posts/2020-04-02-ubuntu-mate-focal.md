@@ -22,7 +22,7 @@ and coordinating with developers to highlight :flashlight: where attention was
 needed.
 
 Recognising that we're on to a good thing, :thumbsup: we've repeated this
-trick :man_mage: for Ubuntu MATE 20.04 LTS by once again by focusing :eyes:
+trick for Ubuntu MATE 20.04 LTS by once again by focusing :eyes:
 on the pain points our community is most vocal :loudspeaker: about. You'll
 find details of everything we've improved or fixed since 19.10 plus a summary
 of what's changed since 18.04 below :point_down:
