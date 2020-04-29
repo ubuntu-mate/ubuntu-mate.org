@@ -11,34 +11,34 @@ catalogue:
       items:
 
         - name: 14" Apollo
-          price: Starting at £649.99
+          price: Starting at £739.99
           img: /images/shop/entroware/apollo_front_mate.jpg
           url: https://www.entroware.com/store/apollo?tracking=ubmate
           description: >-
 
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 14” Matte FHD LED (1920x1080),
+            Configurable with 10th Generation Intel® Core™ Processors, up to
+            64GB DDR4 2666 MHz, up to 6TB storage, 14” Matte FHD LED (1920x1080),
             Intel® UHD Graphics.
 
         - name: 17" Hybris
-          price: Starting at £719.99
+          price: Starting at £799.99
           img: /images/shop/entroware/hybris_front_mate.jpg
           url: https://www.entroware.com/store/hybris?tracking=ubmate
           description: >-
 
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 17” Matte FHD LED (1920x1080),
+            Configurable with 9th Generation Intel® Core™ Processors, up to
+            64GB DDR4 2666 MHz, up to 6TB storage, 17.3” Matte FHD LED (1920x1080),
             Intel® UHD Graphics, optional NVIDIA® Graphics.
 
         - name: 15" Kratos
-          price: Starting at £729.99
+          price: Starting at £949.99
           img: /images/shop/entroware/kratos_front_mate.jpg
           url: https://www.entroware.com/store/kratos?tracking=ubmate
           description: >-
 
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 15” Matte FHD LED (1920x1080),
-            NVIDIA® MX150 or GTX 1050 Graphics.
+            Configurable with 9th Generation Intel® Core™ Processors, up to
+            32GB DDR4 2666 MHz, up to 6TB storage, 15.6” Matte FHD LED (1920x1080),
+            NVIDIA® GeForce GTX 1650 4GB.
 
         - name: 15" Proteus
           price: Starting at £769.99
@@ -46,41 +46,59 @@ catalogue:
           url: https://www.entroware.com/store/proteus?tracking=ubmate
           description: >-
 
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 15.6” Matte FHD LED (1920x1080),
+            Configurable with 10th Generation Intel® Core™ Processors, up to
+            64GB DDR4 2666 MHz, up to 2TB storage, 15.6” Matte FHD LED (1920x1080),
             Intel® UHD Graphics.
 
-        - name: 15" Zeus
-          price: Starting at £1299.99
+        - name: 17" Athena
+          price: Starting at £1399.99
           img: /images/shop/entroware/zeus_front_mate.jpg
-          url: https://www.entroware.com/store/zeus?tracking=ubmate
-          description: >-
-
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2666 MHz, up to 6TB storage, 15” Matte FHD LED (1920x1080)
-            or 15” Matte 4K LED (3840x2160), NVIDIA® 1060 or 1070 Max-Q Graphics.
-
-        - name: 17" Helios
-          price: Starting at £1699.99
-          img: /images/shop/entroware/helios_front_mate.jpg
-          url: https://www.entroware.com/store/helios?tracking=ubmate
+          url: https://www.entroware.com/store/athena?tracking=ubmate
           description: >-
 
             Configurable with 9th Generation Intel® Core™ Processors, up to
-            64GB DDR4 2666 MHz, up to 12TB storage, 17” Matte FHD LED (1920x1080),
-            NVIDIA® 2060, 2070, or 2080 Graphics.
+            64GB DDR4 2666 MHz, up to 8TB storage, 17” Matte FHD LED (1920x1080), 
+            NVIDIA® 2060, 2070 Max-Q, or 2080 Max-Q Graphics.
+
 
     - group: Desktops
       items:
         - name: 24" Ares
-          price: Starting at £699.99
+          price: Starting at £689.99
           img: /images/shop/entroware/ares.jpg
           url: https://www.entroware.com/store/ares?tracking=ubmate
           description: >-
 
-            Configurable with 8th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2400 MHz, up to 6TB storage, 24” Matte FHD LED (1920x1080),
+            Configurable with 9th Generation Intel® Core™ Processors, up to
+            32GB DDR4 2666 MHz, up to 6TB storage, 24” Matte FHD LED (1920x1080),
             Intel® HD Graphics.
+            
+        - name: Aura
+          price: Starting at £499.99
+          img: /images/shop/entroware/aura.jpg
+          url: https://www.entroware.com/store/aura?tracking=ubmate
+          description: >-
+          
+            Configurable with 9th Generation Intel® Core™ Processors, up to
+            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® Iris® Plus Graphics 655.  
+            
+        - name: Hades
+          price: Starting at £1899.99
+          img: /images/shop/entroware/hades.jpg
+          url: https://www.entroware.com/store/hades?tracking=ubmate
+          description: >-
+          
+            Configurable with 2nd Generation AMD® Ryzen™ Threadripper™ Processors, up to
+            128GB DDR4 2933 MHz pr 128GB DDR4 2400 Mhz ECC, up to 68TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, NVIDIA® GT1030 and NVIDIA® RTX 2060/2070/2080/2080Ti Graphics.  
+            
+        - name: Nyx
+          price: Starting at £1589.97
+          img: /images/shop/entroware/nyx.jpg
+          url: https://www.entroware.com/store/nyx?tracking=ubmate
+          description: >-
+          
+            Configurable with 9th Generation Intel® Core™ Processors, up to
+            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® UHD Graphics.               
 
 ---
 
