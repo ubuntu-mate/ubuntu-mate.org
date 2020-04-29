@@ -57,7 +57,7 @@ catalogue:
           description: >-
 
             Configurable with 9th Generation Intel® Core™ Processors, up to
-            64GB DDR4 2666 MHz, up to 8TB storage, 17” Matte FHD LED (1920x1080), 
+            64GB DDR4 2666 MHz, up to 8TB storage, 17” Matte FHD LED (1920x1080),
             NVIDIA® 2060, 2070 Max-Q, or 2080 Max-Q Graphics.
 
 
@@ -72,33 +72,33 @@ catalogue:
             Configurable with 9th Generation Intel® Core™ Processors, up to
             32GB DDR4 2666 MHz, up to 6TB storage, 24” Matte FHD LED (1920x1080),
             Intel® HD Graphics.
-            
+
         - name: Aura
           price: Starting at £499.99
           img: /images/shop/entroware/aura.jpg
           url: https://www.entroware.com/store/aura?tracking=ubmate
           description: >-
-          
+
             Configurable with 9th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® Iris® Plus Graphics 655.  
-            
+            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® Iris® Plus Graphics 655.
+
         - name: Hades
           price: Starting at £1899.99
           img: /images/shop/entroware/hades.jpg
           url: https://www.entroware.com/store/hades?tracking=ubmate
           description: >-
-          
+
             Configurable with 2nd Generation AMD® Ryzen™ Threadripper™ Processors, up to
-            128GB DDR4 2933 MHz pr 128GB DDR4 2400 Mhz ECC, up to 68TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, NVIDIA® GT1030 and NVIDIA® RTX 2060/2070/2080/2080Ti Graphics.  
-            
+            128GB DDR4 2933 MHz pr 128GB DDR4 2400 Mhz ECC, up to 68TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, NVIDIA® GT1030 and NVIDIA® RTX 2060/2070/2080/2080Ti Graphics.
+
         - name: Nyx
           price: Starting at £1589.97
           img: /images/shop/entroware/nyx.jpg
           url: https://www.entroware.com/store/nyx?tracking=ubmate
           description: >-
-          
+
             Configurable with 9th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® UHD Graphics.               
+            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® UHD Graphics.
 
 ---
 
