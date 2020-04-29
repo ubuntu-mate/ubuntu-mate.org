@@ -12,7 +12,7 @@ catalogue:
 
         - name: 14" Apollo
           price: Starting at £739.99
-          img: /images/shop/entroware/apollo_front_mate.jpg
+          img: /images/shop/entroware/apollo_front_mate.png
           url: https://www.entroware.com/store/apollo?tracking=ubmate
           description: >-
 
@@ -22,7 +22,7 @@ catalogue:
 
         - name: 17" Hybris
           price: Starting at £799.99
-          img: /images/shop/entroware/hybris_front_mate.jpg
+          img: /images/shop/entroware/hybris_front_mate.png
           url: https://www.entroware.com/store/hybris?tracking=ubmate
           description: >-
 
@@ -32,7 +32,7 @@ catalogue:
 
         - name: 15" Kratos
           price: Starting at £949.99
-          img: /images/shop/entroware/kratos_front_mate.jpg
+          img: /images/shop/entroware/kratos_front_mate.png
           url: https://www.entroware.com/store/kratos?tracking=ubmate
           description: >-
 
@@ -42,7 +42,7 @@ catalogue:
 
         - name: 15" Proteus
           price: Starting at £769.99
-          img: /images/shop/entroware/proteus_front_mate.jpg
+          img: /images/shop/entroware/proteus_front_mate.png
           url: https://www.entroware.com/store/proteus?tracking=ubmate
           description: >-
 
@@ -52,7 +52,7 @@ catalogue:
 
         - name: 17" Athena
           price: Starting at £1399.99
-          img: /images/shop/entroware/athena_front_mate.jpg
+          img: /images/shop/entroware/athena_front_mate.png
           url: https://www.entroware.com/store/athena?tracking=ubmate
           description: >-
 
@@ -65,7 +65,7 @@ catalogue:
       items:
         - name: 24" Ares
           price: Starting at £689.99
-          img: /images/shop/entroware/ares.jpg
+          img: /images/shop/entroware/ares.png
           url: https://www.entroware.com/store/ares?tracking=ubmate
           description: >-
 
@@ -75,7 +75,7 @@ catalogue:
 
         - name: Aura
           price: Starting at £499.99
-          img: /images/shop/entroware/aura.jpg
+          img: /images/shop/entroware/aura.png
           url: https://www.entroware.com/store/aura?tracking=ubmate
           description: >-
 
@@ -84,7 +84,7 @@ catalogue:
 
         - name: Hades
           price: Starting at £1899.99
-          img: /images/shop/entroware/hades.jpg
+          img: /images/shop/entroware/hades.png
           url: https://www.entroware.com/store/hades?tracking=ubmate
           description: >-
 
@@ -93,7 +93,7 @@ catalogue:
 
         - name: Nyx
           price: Starting at £1589.97
-          img: /images/shop/entroware/nyx.jpg
+          img: /images/shop/entroware/nyx.png
           url: https://www.entroware.com/store/nyx?tracking=ubmate
           description: >-
 
