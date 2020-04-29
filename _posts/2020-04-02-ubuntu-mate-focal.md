@@ -7,7 +7,7 @@ description: Ubuntu MATE 20.04 (Focal Fossa)
 category: release
 author: Martin Wimpress & franksmcb
 lang: en
-discourse_topic_id: 21380
+discourse_topic_id: 21642
 ---
 
 Ubuntu MATE 20.04 LTS represents 2 years :sweat_drops: of continued improvement
