@@ -52,7 +52,7 @@ catalogue:
 
         - name: 17" Athena
           price: Starting at £1399.99
-          img: /images/shop/entroware/zeus_front_mate.jpg
+          img: /images/shop/entroware/athena_front_mate.jpg
           url: https://www.entroware.com/store/athena?tracking=ubmate
           description: >-
 
