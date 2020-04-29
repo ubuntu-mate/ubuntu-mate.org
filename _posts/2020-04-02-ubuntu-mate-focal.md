@@ -397,7 +397,7 @@ Ubuntu MATE before you upgrade.
   * Open the "Software & Updates" from the Control Center.
   * Select the 3rd Tab called "Updates".
   * Set the "Notify me of a new Ubuntu version" drop down menu to "For long-term support versions" if you are using 18.04 LTS; set it to "For any new version" if you are using 19.10.
-  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c` into the command box.
+  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c -d` into the command box.
   * Update Manager should open up and tell you: New distribution release '20.04' is available.
     * If not, you can use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
   * Click "Upgrade" and follow the on-screen instructions.
