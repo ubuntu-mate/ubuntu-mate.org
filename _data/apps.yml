@@ -335,6 +335,11 @@ preinstalled:
       src_url: https://code.launchpad.net/ubuntu/+source/update-manager
       translations_url: https://translations.launchpad.net/update-manager
 
+    - name: network-manager-gnome
+      img: /images/Ambiant-MATE/preferences-system-network.svg
+      src_url: https://wiki.gnome.org/Projects/NetworkManager
+      translations_url: https://translate.zanata.org/project/view/NetworkManager?dswid=2740
+
 artwork:
     - name: ubuntu-mate-artwork
       img: /images/Ambiant-MATE/preferences-desktop-theme.svg
