@@ -277,6 +277,6 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Feedback and Improvements
 
-Thse images are not official Ubuntu products and are community
+These images are not official Ubuntu products and are community
 supported by the Ubuntu MATE team. Please post feedback and
-issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2).
+issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi).
