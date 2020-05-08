@@ -17,7 +17,7 @@ That was a hugely successful :tada: initiative, the community feedback was
 overwhelmingly positive :chart_with_upwards_trend: and that is reflected in
 adoption; **the Ubuntu MATE 19.10 interim release is our most actively used
 interim release to date!** :champagne: This was only possible thanks to
-dedicated group of QA testers [joining the Ubuntu MATE team](/get-involved)
+dedicated group of QA testers [joining the Ubuntu MATE team](/about/team/)
 and coordinating with developers to highlight :flashlight: where attention was
 needed.
 
