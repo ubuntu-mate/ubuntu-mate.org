@@ -46,14 +46,9 @@
                 <ul class="i18n-dropdown">
                     {% for lang in site.languages %}
                         <li>
-                            <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href=" /{{ lang }}/">{{ site.data.lang[lang] }}</a>
+                            <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href="/{{ lang }}{{ page.permalink }}">{{ site.data.lang[lang] }}</a>
                         </li>
                     {% endfor %}
-
-                    <!-- Temporary until locales are ready -->
-                    <li>
-                        <a class="nav-btn" href="https://ubuntu-mate.community/t/21386" style="opacity:0.33">Coming Soon!</a>
-                    </li>
                 </ul>
             </div>
         </div>

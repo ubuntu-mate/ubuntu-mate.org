@@ -42,14 +42,6 @@ echo "------------------------------------------------------"
 $(dirname "$0")/generate-download-pages.py
 abort_if_failed $?
 
-# Generate locales
-if [ "$generate_locales" == "true" ]; then
-    echo -e "\nGenerate locales"
-    echo "------------------------------------------------------"
-    $(dirname "$0")/manage-translations.py --generate
-    abort_if_failed $?
-fi
-
 # Build locales
 if [ "$generate_locales" == "true" ]; then
     echo -e "\nBuild locales"
