@@ -58,6 +58,7 @@ exclude:
     - vendor
     - .git
     - .github
+    - .tx
 
 # Network URLs
 launchpad: "https://launchpad.net/ubuntu-mate"

@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[ubuntu-mateorg.locales]
+file_filter = _i18n/<lang>/*.po
+source_file = _i18n/pots/*.pot
+source_lang = en
+type = PO

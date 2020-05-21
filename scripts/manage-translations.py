@@ -17,6 +17,8 @@ import subprocess
 import sys
 import polib
 
+MINIMUM_PERCENT = 50
+
 def check_if_installed(cmd, package):
     if not shutil.which(cmd):
         print("Command for '{0}' missing. Please install '{1}'")
@@ -48,8 +50,19 @@ def read_file(path):
     with open(path, "r") as f:
         return "".join(f.readlines())
 
-file_list = glob.glob(page_dir + "/*.md") + glob.glob(post_dir + "/*.md")
+page_list = glob.glob(page_dir + "/*.md")
+post_list = glob.glob(post_dir + "/*.md")
+file_list = page_list + post_list
 locale_list = read_file(os.path.join(i18n_dir, "locales.txt")).split("\n")
+
+# Exclude blog posts before 2019.
+new_post_list = []
+for post in post_list:
+    if os.path.basename(post)[:4] in ["2018", "2017", "2016", "2015", "2014"]:
+        continue
+    new_post_list.append(post)
+post_list = new_post_list
+file_list = page_list + post_list
 
 # Ensure locale has a folder
 for locale in locale_list:
@@ -208,18 +221,89 @@ def build():
             run("{0} {1} {2}".format(po2yaml, yaml_src, yaml_dst))
 
 
+def sync():
+    locale_no = 0
+    page_no = 0
+    print("Generating .tx/config file...")
+    tx_file = base_dir + "/.tx/config"
+
+    tx_data = []
+    tx_data.append("[main]\n")
+    tx_data.append("host = https://www.transifex.com\n")
+    a_z_file_list = sorted(page_list) + sorted(post_list)
+
+    for page in a_z_file_list:
+        filename = os.path.basename(page).replace(".md", "")
+        tx_data.append("\n[ubuntu-mate-org.{0}]\n".format(filename))
+        tx_data.append("file_filter = _i18n/<lang>/{0}.po\n".format(filename))
+        tx_data.append("source_file = _i18n/pots/{0}.pot\n".format(filename))
+        tx_data.append("source_lang = en\n")
+        tx_data.append("type = PO\n")
+
+    with open(tx_file, "w") as f:
+        f.writelines(tx_data)
+
+    print("Pulling translations from Transifex... (this may take a while)")
+    check_if_installed("tx", "transifex-client")
+    run("tx pull -a --minimum-perc=" + str(MINIMUM_PERCENT))
+
+    print("Generating locale lists...")
+    langs = glob.glob(i18n_dir + "/*")
+    lang_list = []
+    for lang in langs:
+        lang = os.path.basename(lang)
+        if lang == "pots" or lang == "locales.txt":
+            continue
+        print(" -> Found: " + lang)
+        lang_list.append(lang)
+
+    # (1) _i18n/locales.txt for our scripts.
+    with open(i18n_dir + "/locales.txt", "w") as f:
+        f.writelines(lang_list)
+
+    # (2) _config.yml for the jekyll-polyglot gem.
+    with open("_config.yml", "r") as f:
+        config = f.readlines()
+
+    new_config = []
+    for line in config:
+        if line.startswith("languages:"):
+            line = 'languages: ["en"'
+            for lang in lang_list:
+                line += ', "{0}"'.format(lang)
+            line += ']\n'
+        new_config.append(line)
+
+    with open("_config.yml", "w") as f:
+        f.writelines(new_config)
+
+    generate()
+    build()
+
+    print("Pushing source translations to Transifex... (this may take a while)")
+    run("tx push -s")
+
+    print("\nSync complete.\n")
+    print(" [!] Ready to commit the changes, but performing a website build is recommended.")
+    print(" [!] Strings for new languages need to be added at: _data/lang.yaml\n")
+
+
 # Process arguments
 try:
     arg = sys.argv[1]
 except Exception:
     print("Usage:")
-    print("    manage-translations.sh [--generate] [--build]")
+    print("    manage-translations.sh [--generate] [--build] [--sync]")
+    print("")
+    print("Sync is only possible for managers of Ubuntu MATE Transifex.")
     exit(0)
 
 if arg == "--generate":
     generate()
 elif arg == "--build":
     build()
+elif arg == "--sync":
+    sync()
 else:
     print("Invalid parameter")
     exit(1)
