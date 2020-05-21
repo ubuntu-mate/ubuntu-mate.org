@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Verifying Downloads
 permalink: /faq/burn-disc/
 lang: en
 class: faq
 sidebar: faq
+
+title: Verifying Downloads
+
 ---
 
 ## Burning to DVD

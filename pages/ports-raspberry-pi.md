@@ -1,9 +1,11 @@
 ---
 layout: page-category
-title: Raspberry Pi
 permalink: /ports/raspberry-pi/
 lang: en
 category: ports
+
+title: Raspberry Pi
+
 ---
 
 # Ubuntu MATE for Raspberry Pi
@@ -95,9 +97,11 @@ space of the microSD card.
 
 
 {% include blog/jumbotron.html
+
     title = "Download"
     text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today."
     button_text = "Download"
+
     button_url = "/download/"
 %}
 

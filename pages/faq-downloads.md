@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Download Help
 permalink: /faq/downloads/
 lang: en
 class: faq
 sidebar: faq
+
+title: Download Help
+
 ---
 
 # What should I download?

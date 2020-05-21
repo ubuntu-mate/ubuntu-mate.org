@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Get Involved
 permalink: /get-involved/
 lang: en
 class: get-involved
 sidebar: get-involved
+
+title: Get Involved
+
 ---
 
 ## There's many ways to grow the distribution.

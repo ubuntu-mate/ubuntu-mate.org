@@ -1,10 +1,12 @@
 ---
 layout: team
-title: Team
 permalink: /about/team/
 lang: en
 class: about
 category: about
+
+title: Team
+
 ---
 
 ## Contributors & Special Thanks

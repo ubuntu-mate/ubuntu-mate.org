@@ -1,10 +1,12 @@
 ---
 layout: page-category
-title: About
 permalink: /about/
 lang: en
 class: about
 category: about
+
+title: About
+
 ---
 
 {% include embed/youtube.html
@@ -145,10 +147,12 @@ computer, Ubuntu MATE adds a collection of additional applications to turn your
 computer into a truly powerful workstation.
 
 {% include blog/jumbotron.html
+
     title = "What's installed?"
     text = "Take a look at list of applications and features that make up this distribution."
     button_text = "See Features"
     button_url = "/features/"
+
 %}
 
 

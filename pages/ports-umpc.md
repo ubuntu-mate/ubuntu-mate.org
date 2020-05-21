@@ -1,9 +1,11 @@
 ---
 layout: page-category
-title: Ultra Mobile PCs
 permalink: /ports/umpcs/
 lang: en
 category: ports
+
+title: Ultra Mobile PCs
+
 ---
 
 # Ubuntu MATE for Ultra Mobile PCs
@@ -75,10 +77,12 @@ The Ubuntu MATE images for the UMPCs adds the following tweaks:
 
 
 {% include blog/jumbotron.html
+
     title = "Download"
     text = "Run Ubuntu MATE on your GPD Pocket, GPD Pocket 2, GPD WIN 2, GPD MicroPC or Topjoy Falcon today!"
     button_text = "Download"
     button_url = "/download/"
+
 %}
 
 

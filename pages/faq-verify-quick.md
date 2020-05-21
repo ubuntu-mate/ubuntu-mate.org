@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Verifying Downloads
 permalink: /faq/verify-download-quick/
 lang: en
 class: faq
 sidebar: faq
+
+title: Verifying Downloads
+
 ---
 
 ## Verify for Corruption

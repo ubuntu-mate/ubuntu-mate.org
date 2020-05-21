@@ -1,11 +1,13 @@
 ---
 layout: catalogue
-title: Apparel
 permalink: /shop/apparel/
 lang: en
 class: shop
 category: shop
-catalogue:
+
+title: Apparel
+
+catalogue: #noi18n
 
     - group: Apparel
       items:

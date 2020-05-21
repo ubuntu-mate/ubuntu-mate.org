@@ -1,10 +1,12 @@
 ---
 layout: page-category
-title: System Requirements
 permalink: /about/requirements/
 lang: en
 class: about
 category: about
+
+title: System Requirements
+
 ---
 
 Ubuntu MATE has modest hardware requirements, making it is suitable for modern

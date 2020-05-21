@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Download no longer available
 permalink: /old-release/
 lang: en
 noindex: true
+
+title: Download no longer available
+
 ---
 
 This link you've followed is very old and points to an unsupported version

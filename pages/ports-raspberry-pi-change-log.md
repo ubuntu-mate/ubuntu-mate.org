@@ -1,9 +1,11 @@
 ---
 layout: page-category
-title: Raspberry Pi Changes
 permalink: /ports/raspberry-pi-change-log/
 lang: en
 category: ports
+
+title: Raspberry Pi Changes
+
 ---
 
 # What's New for the Raspberry Pi 2 and 3?

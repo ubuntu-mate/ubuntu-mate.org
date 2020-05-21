@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Artwork
 permalink: /get-involved/artwork/
 lang: en
 class: get-involved
 sidebar: get-involved
+
+title: Artwork
+
 ---
 
 ## Artwork
