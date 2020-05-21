@@ -18,7 +18,7 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get install ruby ruby-dev make gcc
-        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync
+        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib
         sudo gem install bundler html-proofer
         bundle install --jobs=4
 

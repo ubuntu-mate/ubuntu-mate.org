@@ -7,6 +7,7 @@
 # Requires:
 #   - txt2po (provided in 'translate-toolkit')
 #   - po2txt (provided in 'translate-toolkit')
+#   - polib (provided in "python3-polib")
 #
 
 import argparse
