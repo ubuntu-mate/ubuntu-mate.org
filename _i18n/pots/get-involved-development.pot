@@ -1,0 +1,56 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/get-involved-development.md:9
+msgid "title: Software Development"
+msgstr ""
+
+#: pages/get-involved-development.md:13
+msgid "## Software Development"
+msgstr ""
+
+#: pages/get-involved-development.md:16
+msgid ""
+"For programmers, developers and hackers alike, there are various projects to get\n"
+"stuck into by contributing code and/or proposing solutions to problems."
+msgstr ""
+
+#: pages/get-involved-development.md:21
+msgid ""
+"Before submitting pull requests, be sure to have read its README, conform\n"
+"to a project's guidelines and the license. Good starting points are looking\n"
+"at issue lists to replicate problems, debug them and submit a patch that\n"
+"fixes them."
+msgstr ""
+
+#: pages/get-involved-development.md:26
+msgid "### Ubuntu MATE"
+msgstr ""
+
+#: pages/get-involved-development.md:30
+msgid "[View all repositories](https://github.com/ubuntu-mate){:.btn}"
+msgstr ""
+
+#: pages/get-involved-development.md:34
+msgid "### MATE Desktop"
+msgstr ""
+
+#: pages/get-involved-development.md:38
+msgid "[View all repositories](https://github.com/mate-desktop){:.btn}"
+msgstr ""
+
+#: pages/get-involved-development.md:42
+msgid "### Default Apps"
+msgstr ""

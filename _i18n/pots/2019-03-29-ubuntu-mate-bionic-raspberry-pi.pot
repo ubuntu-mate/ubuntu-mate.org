@@ -1,0 +1,152 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:16
+msgid ""
+"We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.\n"
+"With this *Beta* pre-release, you can see what we are trying out in\n"
+"preparation for our next (stable) version."
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:19
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE running on the Raspberry Pi 3+](/images/blog/Screenshots/09_raspberrypi.png)"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:25
+msgid ""
+"Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,\n"
+"with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).\n"
+"We have done what we can to optimise the builds for the Raspberry Pi without\n"
+"sacrificing the full desktop environment Ubuntu MATE provides on PC.\n"
+"High-level features of these images are:"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:45
+msgid ""
+"  * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.\n"
+"  * Automatic online filesystem expansion.\n"
+"  * Ethernet & WiFi (*where available*)\n"
+"  * Bluetooth (*where available*)\n"
+"  * Audio out via 3.5mm analog audio jack or HDMI\n"
+"  * Video out via Composite or HDMI\n"
+"  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io), [pigpio](http://abyz.me.uk/rpi/pigpio/) and [WiringPi](http://wiringpi.com/).\n"
+"  * Support for [Python Wheels for the Raspberry Pi](https://www.piwheels.org/).\n"
+"  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).\n"
+"  * Hardware acceleration:\n"
+"    * `fbturbo` driver is pre-installed but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).\n"
+"    *  VLC has hardware assisted video decoding.\n"
+"    *  `ffmpeg` has hardware assisted video decoding and encoding.\n"
+"    * The *experimental* VC4 driver can be enabled via `raspi-config`.\n"
+"    * Please note, the `arm64` images do not feature any VideoCore IV hardware acceleration.\n"
+"  * Additional software:\n"
+"    * A port of [`raspi-config` for Ubuntu](https://github.com/flexiondotorg/raspi-config/) is pre-installed.\n"
+"    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.\n"
+"    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install."
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:54
+msgid "## Supported Raspberry Pi"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:59
+msgid ""
+"  * These images will work on:\n"
+"    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)\n"
+"    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)\n"
+"    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(recommended)**"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:65
+msgid ""
+"  * These images *kind of* work on:\n"
+"    * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**\n"
+"      * Fails to complete the first boot setup due to insufficient memory.\n"
+"      * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.\n"
+"      * Due to only having 512MB RAM the `arm64` is not recommended. The `armhf` version can be very tight on resources."
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:67
+msgid "## Unsupported Raspberry Pi"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:73
+msgid ""
+"  * These images **will not work on** any Raspberry Pi model using an ARMv6 instruction set:\n"
+"    * [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)\n"
+"    * [Raspberry Pi 1 Model B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/)\n"
+"    * [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)\n"
+"    * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:75
+msgid "## Recent Changes"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:77
+msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:87
+msgid ""
+"  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.\n"
+"  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.\n"
+"  * Added hardware accelerated VLC (`armhf` only).\n"
+"  * Added hardware accelerated ffmpeg (`armhf` only).\n"
+"  * Enabled piwheels.\n"
+"  * Reduced boot time, after the initial first boot setup has been completed, by ~3 seconds.\n"
+"  * Uploaded SteamLink (`armhf` only) to the archive, not pre-installed.\n"
+"  * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.\n"
+"  * Raspberry Pi 3 Model A+ confirmed working, *kind of*."
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:89
+msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:100
+msgid ""
+"  * Fixed HDMI audio quality.\n"
+"  * Fixed USB booting.\n"
+"  * Fixed font caches.\n"
+"  * Added pre-seeded snaps.\n"
+"  * Added miscellaneous Raspberry Pi utilities.\n"
+"  * Added EGL/GLES/OpenVG libraries for VideoCore IV.\n"
+"  * Enabled splash screen.\n"
+"  * Improved window manager responsiveness.\n"
+"  * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.\n"
+"  * Switched to the CFQ scheduler."
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:102
+msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:104
+msgid ""
+"  * Initial Ubuntu MATE 18.04.2 images made available for private testing."
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:113
+msgid "## Feedback and Improvements"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:116
+msgid ""
+"Thse images are not official Ubuntu products and are community\n"
+"supported by the Ubuntu MATE team. Please post feedback and\n"
+"issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2)."
+msgstr ""

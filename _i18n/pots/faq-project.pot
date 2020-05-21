@@ -1,0 +1,244 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/faq-project.md:9
+msgid "title: Project Questions"
+msgstr ""
+
+#: pages/faq-project.md:13
+msgid "# FAQs"
+msgstr ""
+
+#: pages/faq-project.md:16
+msgid ""
+"If we get asked something frequently enough we’ll try to provide the answers\n"
+"here."
+msgstr ""
+
+#: pages/faq-project.md:20
+msgid "### What is Ubuntu MATE exactly?"
+msgstr ""
+
+#: pages/faq-project.md:22
+msgid "See our [What is Ubuntu MATE?](/about/) page."
+msgstr ""
+
+#: pages/faq-project.md:25
+msgid "### Is Ubuntu MATE an official Canonical project?"
+msgstr ""
+
+#: pages/faq-project.md:27
+msgid "No, it is an Ubuntu community project."
+msgstr ""
+
+#: pages/faq-project.md:30
+msgid "### OK, so who is behind Ubuntu MATE?"
+msgstr ""
+
+#: pages/faq-project.md:33
+msgid ""
+"Take a look at [our team page](/about/team/) to see the all-star cast who have\n"
+"made Ubuntu MATE possible."
+msgstr ""
+
+#: pages/faq-project.md:36
+msgid "### Is Ubuntu MATE an official Ubuntu “flavour”?"
+msgstr ""
+
+#: pages/faq-project.md:38
+msgid "Yes."
+msgstr ""
+
+#: pages/faq-project.md:41
+msgid ""
+"### Why is xyz application installed by default when I prefer abc "
+"application?"
+msgstr ""
+
+#: pages/faq-project.md:45
+msgid ""
+"In general, the default application selection follows what shipped in Ubuntu.\n"
+"The only reason we deviate from the default Ubuntu applications is if they are\n"
+"not compatible with Ubuntu MATE or pull in lots of unnecessary dependencies."
+msgstr ""
+
+#: pages/faq-project.md:49
+msgid ""
+"The reason for using the default applications as shipped by Ubuntu is that they\n"
+"are supported by the Ubuntu Desktop team. The Ubuntu MATE team is rather small\n"
+"so sharing the support responsibility makes sense, both for us and our users."
+msgstr ""
+
+#: pages/faq-project.md:52
+msgid ""
+"### Why is xyz application installed default when abc application is better?"
+msgstr ""
+
+#: pages/faq-project.md:54
+msgid "See the answer to the question above."
+msgstr ""
+
+#: pages/faq-project.md:60
+msgid ""
+"### Will Ubuntu MATE run on my computer?\n"
+"If you have a computer from [Entroware](https://www.entroware.com/store/),\n"
+"System76, ZaReason, Think Penguin or some models from Dell such as the XPS 13\n"
+"Developer Edition, then Ubuntu MATE will absolutely run on your computer."
+msgstr ""
+
+#: pages/faq-project.md:63
+msgid ""
+"Computers from major PC vendors such as Acer, ASUS, HP and Lenovo will most\n"
+"likely run Ubuntu MATE just fine too."
+msgstr ""
+
+#: pages/faq-project.md:70
+msgid ""
+"Ubuntu MATE is designed to run on almost any computer hardware. Of course Ubuntu\n"
+"MATE runs particularly well on the newest, fastest hardware, but it also runs\n"
+"well on computers manufactured in the last decade. In fact, an older computer\n"
+"designed during the Windows XP era, can easily be outfitted with the new, modern\n"
+"and fully-supported Ubuntu MATE and it will likely run better than it did with\n"
+"the previously installed operating system."
+msgstr ""
+
+#: pages/faq-project.md:73
+msgid "### Can I use iTunes on Ubuntu MATE?"
+msgstr ""
+
+#: pages/faq-project.md:82
+msgid ""
+"No. This is one of those programs that is specifically designed by Apple NOT to\n"
+"run on Linux. Although macOS has its roots in the same UNIX philosophy as Linux,\n"
+"macOS is not the same as Linux, and applications written for Apple’s operating\n"
+"system do not automatically run on Linux. However Spotify is available for\n"
+"Ubuntu MATE and there are plenty of alternative media players that will play\n"
+"music, create play lists, sync with mobile devices, and retrieve, manage and\n"
+"play podcasts. Rythmbox is provided with Ubuntu MATE and can play any of the\n"
+"music or podcasts in your iTunes library."
+msgstr ""
+
+#: pages/faq-project.md:85
+msgid "### Is Ubuntu MATE secure and safe to use?"
+msgstr ""
+
+#: pages/faq-project.md:93
+msgid ""
+"Ubuntu MATE is designed with security in mind. Unlike operating systems that\n"
+"update only once a month, Ubuntu MATE receives updates continuously. The updates\n"
+"include security patches for Ubuntu MATE and all of its components. Security\n"
+"updates for all of its installed applications are also provided on the same\n"
+"schedule. This ensures that you have the latest protection for all of your\n"
+"computer’s software, as soon as it’s available!\n"
+"Is Ubuntu MATE more secure than other operating systems?"
+msgstr ""
+
+#: pages/faq-project.md:98
+msgid ""
+"We think that security on Linux systems like Ubuntu MATE is superior. Ubuntu\n"
+"MATE users are not administrators by default. Administrators (“root” users) on\n"
+"any computer system have permission to do anything they want, including the\n"
+"ability to damage the system."
+msgstr ""
+
+#: pages/faq-project.md:109
+msgid ""
+"For example, other operating systems look at the name of a file to determine\n"
+"which program should open it, then immediately attempt to open it! That design\n"
+"makes it easy for an intruder to attack a computer. Ubuntu MATE opens a file\n"
+"based on what the file is, not based on its name. So even if a malicious program\n"
+" disguises its identity by using the name “Last Will and Testament.txt” Ubuntu\n"
+" MATE will recognize the file as a program. The system provides a warning that\n"
+" the file is not a text file, but that it is a program that will be run if you\n"
+" give it permission to continue. To be extra secure, Ubuntu MATE requires you\n"
+" to provide your administrator password before that permission is granted.\n"
+" Every single time."
+msgstr ""
+
+#: pages/faq-project.md:112
+msgid "### Can Ubuntu MATE get computer viruses and malware?"
+msgstr ""
+
+#: pages/faq-project.md:122
+msgid ""
+"Ubuntu MATE can get viruses and other infections… but it doesn’t. Rapid and\n"
+"timely updates ensure that there are very few, if any threats to Linux systems\n"
+"like Ubuntu MATE that persist in the wild. In reality, there have been very few\n"
+"“public” infections in the last 10 years that can affect Ubuntu MATE. They are\n"
+"no longer a threat to anyone installing or using a modern Linux distribution\n"
+"today. Ubuntu MATE is designed to make it difficult for viruses, root kits and\n"
+"other malware to be installed and run without conscious intervention by you,\n"
+"the user. Even if you do accidentally invite in an infection, chances are\n"
+"it’s designed to attack Windows and won’t do much, if any damage to Ubuntu MATE."
+msgstr ""
+
+#: pages/faq-project.md:125
+msgid "### How can Ubuntu MATE be free?"
+msgstr ""
+
+#: pages/faq-project.md:130
+msgid ""
+"What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source.\n"
+"Open Source software is software that can be freely used, changed, and shared\n"
+"(in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free,\n"
+"in the truest sense of the word."
+msgstr ""
+
+#: pages/faq-project.md:141
+msgid ""
+"Although you will find some versions (distributions) of Linux for purchase, the\n"
+"vast majority are provided free of charge, like Ubuntu MATE. Open Source\n"
+"software is licensed in a way that allows anyone to give it away for free,\n"
+"no strings attached. For example, the licence gives any member of the user\n"
+"community the freedom to use Linux for any purpose, to distribute, modify,\n"
+"redistribute, or even sell the operating system. If you do modify and then\n"
+"redistribute Linux with your modifications, you are required by the licence\n"
+"to submit your modifications for possible inclusion into future versions.\n"
+"There is no guarantee that this will ever happen, but if you have made it better,\n"
+"then your changes just might be included in the next release of Ubuntu MATE."
+msgstr ""
+
+#: pages/faq-project.md:147
+msgid ""
+"Many of the users of Linux are corporations that use the operating system to\n"
+"run their businesses, or include it within their products. Many of these\n"
+"corporations provide fixes and new features for Linux as they use the software\n"
+"for their businesses. These improvements are given back to the Linux community\n"
+"and Ubuntu MATE improves as a result."
+msgstr ""
+
+#: pages/faq-project.md:150
+msgid ""
+"This is how we can continually improve and grow without having to charge our\n"
+"users money."
+msgstr ""
+
+#: pages/faq-project.md:153
+msgid "### I’ve got a question. Where do I ask?"
+msgstr ""
+
+#: pages/faq-project.md:155
+msgid "Ask the [Ubuntu MATE community](/community/)."
+msgstr ""
+
+#: pages/faq-project.md:158
+msgid "### What has Ubuntu MATE got planned for the future?"
+msgstr ""
+
+#: pages/faq-project.md:160
+msgid ""
+"Hopefully our [roadmap](/faq/roadmap/) outlines some of what we have planned.\n"
+"If you have any ideas yourself, we’d love to hear from you."
+msgstr ""

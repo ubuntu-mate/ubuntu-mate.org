@@ -1,0 +1,89 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/requirements.md:9
+msgid "title: System Requirements"
+msgstr ""
+
+#: pages/requirements.md:15
+msgid ""
+"Ubuntu MATE has modest hardware requirements, making it is suitable for modern\n"
+"workstations, single board computers and older hardware alike. Ubuntu MATE\n"
+"makes modern computers fast and old computers usable."
+msgstr ""
+
+#: pages/requirements.md:17
+msgid "### Desktop and Laptop Computers"
+msgstr ""
+
+#: pages/requirements.md:26
+msgid ""
+"|                   | Minimum           | Recommended               |\n"
+"| ----------------- | ----------------- | ------------------------- |\n"
+"| **CPU**           | Pentium M 1.0GHz  | Core 2 Duo 1.6GHz\n"
+"| **CPU Architecture** | [i386] (until 2021) | [amd64]\n"
+"| **RAM**           | 1 GB              | 4 GB\n"
+"| **Storage**       | 8 GB              | 16 GB\n"
+"| **Boot Media**    | Bootable DVD-ROM  | Bootable DVD-ROM or USB Flash Drive\n"
+"| **Display**       | 1024 x 768        | 1440 x 900 or higher (with graphics acceleration)"
+msgstr ""
+
+#: pages/requirements.md:29
+msgid "### Raspberry Pi"
+msgstr ""
+
+#: pages/requirements.md:34
+msgid ""
+"| Build                 | Compatible with models        |\n"
+"| --------------------- | ----------------------------- |\n"
+"| [armhf (Recommended)] | B2, B3, B3+\n"
+"| [arm64 (Experimental)]| B3, B3+"
+msgstr ""
+
+#: pages/requirements.md:39
+msgid ""
+"[i386]: /download/i386/\n"
+"[amd64]: /download/amd64/\n"
+"[armhf (Recommended)]: /download/armhf/\n"
+"[arm64 (Experimental)]: /download/arm64/"
+msgstr ""
+
+#: pages/requirements.md:41
+msgid "The micro-SD card needs to be a minimum of 5 GB."
+msgstr ""
+
+#: pages/requirements.md:43
+msgid ""
+"Raspberry Pi 4 is not currently supported at the moment, but is planned for "
+"a future version."
+msgstr ""
+
+#: pages/requirements.md:46
+msgid "### Hardware Ports"
+msgstr ""
+
+#: pages/requirements.md:48
+msgid "Ubuntu MATE has been officially ported to, and works great on:"
+msgstr ""
+
+#: pages/requirements.md:54
+msgid ""
+"| Codename              | Compatible with                                   |\n"
+"| --------------------- | ------------------------------------------------- |\n"
+"| [gpd_pocket](/download/gpd_pocket/) | Original GPD Pocket.\n"
+"| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix Yoga 1s and OneMix Yoga 2.\n"
+"| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC\n"
+"| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon"
+msgstr ""

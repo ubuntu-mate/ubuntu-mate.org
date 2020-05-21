@@ -1,0 +1,28 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/features.md:9
+msgid "title: Features"
+msgstr ""
+
+#: pages/features.md:13
+msgid "## So, what's under the hood?"
+msgstr ""
+
+#: pages/features.md:15
+msgid ""
+"Being a Linux distribution, Ubuntu MATE is comprised of many parts from the\n"
+"contributions of developers worldwide."
+msgstr ""

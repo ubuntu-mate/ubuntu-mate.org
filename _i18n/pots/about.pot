@@ -1,0 +1,242 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/about.md:9
+msgid "title: About"
+msgstr ""
+
+#: pages/about.md:18
+msgid "# Objectives"
+msgstr ""
+
+#: pages/about.md:20
+msgid "Ubuntu MATE has a number of guiding objectives and goals."
+msgstr ""
+
+#: pages/about.md:29
+msgid ""
+"* Accessible to all, regardless of language and physical ability.\n"
+"* Increase both Ubuntu and MATE Desktop user adoption.\n"
+"* Ubuntu alternative for computers that aren’t powerful enough to run a composited desktop.\n"
+"* First choice Ubuntu platform for remote workstation solutions such as LTSP and X2Go.\n"
+"* Recreate the halcyon days of Ubuntu for users who prefer a traditional desktop metaphor.\n"
+"* Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar.\n"
+"* When possible contribute to Debian so both the Debian and Ubuntu communities benefit.\n"
+"* Software selection will favour functionality and stability over lightness and whimsy."
+msgstr ""
+
+#: pages/about.md:32
+msgid "# What _really_ is Ubuntu MATE?"
+msgstr ""
+
+#: pages/about.md:37
+msgid ""
+"If you are new to Ubuntu MATE, or only casually acquainted with Linux based\n"
+"distributions, it can be difficult to understand how a Linux operating system\n"
+"compares with other computer systems that you may already be familiar with.\n"
+"Hopefully this page will help demystify Ubuntu MATE for new-comers."
+msgstr ""
+
+#: pages/about.md:40
+msgid ""
+"{:.center}\n"
+"![Ubuntu + MATE = Ubuntu MATE](/images/ubuntu-mate/love.png)"
+msgstr ""
+
+#: pages/about.md:43
+msgid "## Ubuntu"
+msgstr ""
+
+#: pages/about.md:49
+msgid ""
+"[Ubuntu] is one of, if not the, largest deployed [Linux] based desktop operating\n"
+"systems in the world. [Linux] is at the heart of Ubuntu and makes it possible to\n"
+"create secure, powerful and versatile operating systems, such as Ubuntu and\n"
+"Android. [Android] is now in the hands of billions of people around the world\n"
+"and it’s also powered by Linux."
+msgstr ""
+
+#: pages/about.md:53
+msgid ""
+"Ubuntu is available in a number of different flavours, each coming with its\n"
+"own desktop environment. Ubuntu MATE takes the Ubuntu base operating system\n"
+"and adds the MATE Desktop."
+msgstr ""
+
+#: pages/about.md:56
+msgid ""
+"{:.center}\n"
+"![Ubuntu flavours](/images/history/join-family.svg)"
+msgstr ""
+
+#: pages/about.md:59
+msgid "## MATE Desktop"
+msgstr ""
+
+#: pages/about.md:61
+msgid "Wikipedia defines a [Desktop Environment] as:"
+msgstr ""
+
+#: pages/about.md:65
+msgid ""
+"> an implementation of the desktop metaphor made of a bundle of programs running\n"
+"on top of a computer operating system, which share a common graphical user\n"
+"interface (GUI). Desktop GUIs help the user to easily access and edit files."
+msgstr ""
+
+#: pages/about.md:72
+msgid ""
+"The [MATE Desktop] is one such implementation of a desktop environment and\n"
+"includes a file manager which can connect you to your local and networked files,\n"
+"a text editor, calculator, archive manager, image viewer, document viewer,\n"
+"system monitor and terminal. All of which are highly customisable and managed\n"
+"via a control centre."
+msgstr ""
+
+#: pages/about.md:76
+msgid ""
+"[MATE Desktop] provides an intuitive and attractive desktop environment using\n"
+"traditional metaphors, which means if you’ve ever used [Microsoft Windows] or\n"
+"[Apple's macOS], it will feel very familiar."
+msgstr ""
+
+#: pages/about.md:81
+msgid ""
+"The MATE Desktop has a rich history and is the continuation of the GNOME 2\n"
+"desktop, which was the default desktop environment on many Linux and Unix\n"
+"operating systems for over a decade. This means that MATE Desktop is tried,\n"
+"tested and very reliable."
+msgstr ""
+
+#: pages/about.md:84
+msgid "## First Class for Gaming"
+msgstr ""
+
+#: pages/about.md:87
+msgid ""
+"{:.center}\n"
+"![Steam screenshot](/images/homepage/05_netbook.png)"
+msgstr ""
+
+#: pages/about.md:92
+msgid ""
+"In recent years Linux has become a first class gaming platform thanks to [Valve]\n"
+"bringing the [Steam] platform to Linux. At the time of writing Steam has thousands\n"
+"of high quality indie and AAA titles available for Linux. Ubuntu MATE is fully\n"
+"compatible with Steam for Linux."
+msgstr ""
+
+#: pages/about.md:98
+msgid ""
+"While [Steam] is a major step forward for gaming on Linux, there are also many\n"
+"high quality and enjoyable Open Source games titles available for Ubuntu MATE\n"
+"via Software Boutique and Software Centre. It doesn’t matter if you like flight\n"
+"simulators, motor racing, first person shooters, jump and run or card games,\n"
+"you’ll find something to keep you entertained."
+msgstr ""
+
+#: pages/about.md:101
+msgid "## Open Source"
+msgstr ""
+
+#: pages/about.md:104
+msgid ""
+"{:.center}\n"
+"![Open Source Initiative](/images/brands/OSI-logo.png)"
+msgstr ""
+
+#: pages/about.md:109
+msgid ""
+"What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source.\n"
+"Open source software is software that can be freely used, changed, and shared\n"
+"(in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free,\n"
+"in the truest sense of the word."
+msgstr ""
+
+#: pages/about.md:120
+msgid ""
+"Although you will find some versions (distributions) of Linux for purchase, the\n"
+"vast majority are provided free of charge, like Ubuntu MATE. Open Source\n"
+"software is licensed in a way that allows anyone to give it away for free, no\n"
+"strings attached. For example, the licence gives any member of the user\n"
+"community the freedom to use Linux for any purpose, to distribute, modify,\n"
+"redistribute, or even sell the operating system. If you do modify and then\n"
+"redistribute Linux with your modifications, you are required by the licence\n"
+"to submit your modifications for possible inclusion into future versions.\n"
+"There is no guarantee that this will ever happen, but if you have made it\n"
+"better, then your changes just might be included in the next release of Ubuntu MATE."
+msgstr ""
+
+#: pages/about.md:127
+msgid ""
+"This is how we can continually improve and grow without having to charge our\n"
+"users money. Many of the users of Linux are corporations that use the operating\n"
+"system to run their businesses, or include it within their products. Many of\n"
+"these corporations provide fixes and new features for Linux as they use the\n"
+"software for their businesses. These improvements are given back to the Linux\n"
+" distribution and the software improves as a result."
+msgstr ""
+
+#: pages/about.md:132
+msgid ""
+"Unlike Windows, and macOS, Linux is not created and supported by just one company.\n"
+"It is supported by Intel, Red Hat, Linaro, Samsung, IBM, SUSE, Texas Instruments,\n"
+"Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 developers contributed\n"
+"to Linux over the last 15 years."
+msgstr ""
+
+#: pages/about.md:141
+msgid ""
+"Whether you are a home user of Ubuntu MATE, a Ubuntu MATE software or application\n"
+"developer, or an employee of an organisation that uses the operating system, you\n"
+"are a member of the Linux and Open Source communities and benefit from the efforts\n"
+"of the developers who contribute to Ubuntu MATE and its related projects, Linux,\n"
+"MATE, and Ubuntu. Members of the community can and do run Linux on almost any\n"
+"hardware, from the prettiest MacBook to the cheapest netbook, from the newest\n"
+"Chromebook to some very old machines designed for Windows, and from the most\n"
+"powerful Internet servers to the smallest smart thermostat."
+msgstr ""
+
+#: pages/about.md:144
+msgid "## Powerful Applications"
+msgstr ""
+
+#: pages/about.md:148
+msgid ""
+"While MATE Desktop provides the essential user interfaces to control and use a\n"
+"computer, Ubuntu MATE adds a collection of additional applications to turn your\n"
+"computer into a truly powerful workstation."
+msgstr ""
+
+#: pages/about.md:155
+msgid ""
+"    title = \"What's installed?\"\n"
+"    text = \"Take a look at list of applications and features that make up this distribution.\"\n"
+"    button_text = \"See Features\"\n"
+"    button_url = \"/features/\""
+msgstr ""
+
+#: pages/about.md:167
+msgid ""
+"[Ubuntu]: https://www.ubuntu.com/\n"
+"[Linux]: https://en.wikipedia.org/wiki/Linux\n"
+"[Android]: https://www.android.com/\n"
+"[Desktop Environment]: https://en.wikipedia.org/wiki/Desktop_environment\n"
+"[MATE Desktop]: https://mate-desktop.org\n"
+"[Microsoft Windows]: https://www.microsoft.com/windows\n"
+"[Apple's macOS]: https://apple.com/mac\n"
+"[Valve]: http://www.valvesoftware.com/\n"
+"[Steam]: https://store.steampowered.com/"
+msgstr ""

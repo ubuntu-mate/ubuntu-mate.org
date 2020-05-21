@@ -1,0 +1,78 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/get-involved-bug-fixing.md:9
+msgid "title: Bug Fixing"
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:13
+msgid "## Bug Fixing"
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:18
+msgid ""
+"If you're new to fixing bugs in Ubuntu MATE, and Ubuntu in general, you'll need\n"
+"a [Launchpad](https://bugs.launchpad.net/+login) account. This\n"
+"[Ubuntu Wiki page](https://wiki.ubuntu.com/HelpingWithBugs) is an excellent\n"
+"place to get started."
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:20
+msgid "### Recommended Skills"
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:27
+msgid ""
+"Although programming knowledge is very helpful in fixing bugs, there are some\n"
+"non-programming ways to handle reported and triaged issues. For example, there\n"
+"might be a typo or a problem with documentation. If you're proficient in a\n"
+"non-English language, you might fix a translation error. If you have Internet\n"
+"detective skills, you can track down fixes from upstream developers or other\n"
+"distributions."
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:29
+msgid "### Where to Start"
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:35
+msgid ""
+"The [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate) lists all\n"
+"open bugs. The bug tracker displays a bug's status (e.g. `New`, `Triaged`) and\n"
+"its importance (`Undecided`, `Wishlist`, `Low`, `High`). If a bug is `New`, it's\n"
+"best to [triage the bug](/get-involved/bug-triage/), to at least be sure it's a\n"
+"confirmed bug."
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:39
+msgid ""
+"If you would like to start in a safe, bug-fixing sandbox, you can practice with\n"
+"the trivial bugs of the [One Hundred Papercuts](https://launchpad.net/hundredpapercuts)\n"
+"project."
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:41
+msgid "### Learn More"
+msgstr ""
+
+#: pages/get-involved-bug-fixing.md:48
+msgid ""
+"This [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) page walks users through fixing bugs in Ubuntu.\n"
+"Also, be sure to use the amazing resource that is the [Ubuntu MATE community](https://ubuntu-mate.community/c/support/10)!\n"
+"Lastly, this video, in addition to being a useful resource on Bug\n"
+"Triaging, also explains why it's important to make the fix in the right place,\n"
+"and why patching at the Ubuntu level (in the packages) is sometimes a better\n"
+"decision than only fixing upstream."
+msgstr ""

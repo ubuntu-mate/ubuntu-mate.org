@@ -73,9 +73,7 @@ rss: "/rss.xml"
 discourse: "https://ubuntu-mate.community"
 
 # i18n
-languages: [
-    "en"
-]
+languages: ["en"]
 default_lang: "en"
 exclude_from_localization: [
     "assets",

@@ -1,0 +1,37 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/funding-cancelled.md:8
+msgid "title: Cancelled Donation"
+msgstr ""
+
+#: pages/funding-cancelled.md:12
+msgid "#### You cancelled your donation."
+msgstr ""
+
+#: pages/funding-cancelled.md:16
+msgid ""
+"Please reconsider, We've spent a great deal of time creating Ubuntu MATE\n"
+"and it is nice when the effort is recognised. As a donor, you'll be\n"
+"helping to cover our hosting costs and reward contributors to the project."
+msgstr ""
+
+#: pages/funding-cancelled.md:27
+msgid ""
+"    title = \"Oh well!\"\n"
+"    text = \"Strapped for cash? Yeah, we understand. Stop by and donate when you can spare the money.\"\n"
+"    button_text = \"Back to the homepage\"\n"
+"    button_url = \"/\""
+msgstr ""

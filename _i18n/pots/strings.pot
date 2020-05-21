@@ -1,0 +1,866 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "homepage"
+msgid "Home Page"
+msgstr ""
+
+msgctxt "search"
+msgid "Search"
+msgstr ""
+
+msgctxt "change_lang"
+msgid "Change Language"
+msgstr ""
+
+msgctxt "footnote"
+msgid "An official flavour of the Ubuntu family. [Ubuntu] is a trademark of [Canonical Ltd.]"
+msgstr ""
+
+msgctxt "edit_page"
+msgid "Improve this page"
+msgstr ""
+
+msgctxt "recent_changes"
+msgid "Recent Changes"
+msgstr ""
+
+msgctxt "translate_site"
+msgid "Translate this site"
+msgstr ""
+
+msgctxt "rss"
+msgid "RSS Feed"
+msgstr ""
+
+msgctxt "launchpad"
+msgid "Ubuntu MATE on Launchpad"
+msgstr ""
+
+msgctxt "github"
+msgid "Ubuntu MATE on GitHub"
+msgstr ""
+
+msgctxt "trello"
+msgid "Development Trello Boards"
+msgstr ""
+
+msgctxt "irc"
+msgid "#ubuntumate on Freenode (IRC)"
+msgstr ""
+
+msgctxt "mastodon"
+msgid "Ubuntu MATE on Mastodon"
+msgstr ""
+
+msgctxt "facebook"
+msgid "Ubuntu MATE on Facebook"
+msgstr ""
+
+msgctxt "twitter"
+msgid "@ubuntu_mate on Twitter"
+msgstr ""
+
+msgctxt "youtube"
+msgid "Ubuntu MATE on YouTube"
+msgstr ""
+
+msgctxt "dark_mode"
+msgid "Dark Mode"
+msgstr ""
+
+msgctxt "light_mode"
+msgid "Light Mode"
+msgstr ""
+
+msgctxt "downloads_title"
+msgid "Download"
+msgstr ""
+
+msgctxt "choose_arch"
+msgid "Choose an architecture"
+msgstr ""
+
+msgctxt "choose_version"
+msgid "Choose a release"
+msgstr ""
+
+msgctxt "choose_download"
+msgid "Choose a download"
+msgstr ""
+
+msgctxt "post_download_title"
+msgid "Thank you for downloading:"
+msgstr ""
+
+msgctxt "post_download_release"
+msgid "[Focal] for [amd64] systems"
+msgstr ""
+
+msgctxt "release_notes"
+msgid "Release Notes"
+msgstr ""
+
+msgctxt "download_started"
+msgid "Your download has started"
+msgstr ""
+
+msgctxt "download_started_help"
+msgid "Not working? Try clicking the link:"
+msgstr ""
+
+msgctxt "post_download_go_back"
+msgid "Choose a different download"
+msgstr ""
+
+msgctxt "lts"
+msgid "Long Term Release (LTS) - Recommended for stability and mission critical systems."
+msgstr ""
+
+msgctxt "non-lts"
+msgid "Interim release for users desiring the latest features and applications."
+msgstr ""
+
+msgctxt "show_all"
+msgid "All Downloads"
+msgstr ""
+
+msgctxt "show_req"
+msgid "System Requirements"
+msgstr ""
+
+msgctxt "download_ports"
+msgid "Or.... choose a hardware port:"
+msgstr ""
+
+msgctxt "download_products"
+msgid "Or... buy it preloaded:"
+msgstr ""
+
+msgctxt "download_help"
+msgid "What should I download?"
+msgstr ""
+
+msgctxt "label_LTS"
+msgid "Recommended for stability and mission critical systems."
+msgstr ""
+
+msgctxt "label_nonLTS"
+msgid "Interim release for users desiring the latest features and applications."
+msgstr ""
+
+msgctxt "label_prerelease"
+msgid "Development release for testing and debugging."
+msgstr ""
+
+msgctxt "prerelease"
+msgid "(Pre-release)"
+msgstr ""
+
+msgctxt "file_name"
+msgid "File Name"
+msgstr ""
+
+msgctxt "file_size"
+msgid "File Size"
+msgstr ""
+
+msgctxt "checksum"
+msgid "Checksum"
+msgstr ""
+
+msgctxt "recommended"
+msgid "Recommended"
+msgstr ""
+
+msgctxt "prefer_torrent"
+msgid "**Spare the bytes!** A torrent is recommended to reduce bandwidth costs. It could deliver faster download speeds too!"
+msgstr ""
+
+msgctxt "label_bittorrent"
+msgid "Receive the file distributed and verified by multiple computers."
+msgstr ""
+
+msgctxt "label_magnet"
+msgid "Open my BitTorrent client."
+msgstr ""
+
+msgctxt "label_direct"
+msgid "Via your web browser."
+msgstr ""
+
+msgctxt "end_of_life"
+msgid "Supported until"
+msgstr ""
+
+msgctxt "filename"
+msgid "Filename"
+msgstr ""
+
+msgctxt "arch"
+msgid "Architecture"
+msgstr ""
+
+msgctxt "server"
+msgid "Hosted by"
+msgstr ""
+
+msgctxt "download_links"
+msgid "Download"
+msgstr ""
+
+msgctxt "direct"
+msgid "Direct Download"
+msgstr ""
+
+msgctxt "bittorrent"
+msgid "BitTorrent"
+msgstr ""
+
+msgctxt "magnet"
+msgid "Magnet Link"
+msgstr ""
+
+msgctxt "support_bandwidth"
+msgid "Support bandwidth costs"
+msgstr ""
+
+msgctxt "prerelease_warning_title"
+msgid "Bugs might bite!"
+msgstr ""
+
+msgctxt "prerelease_warning_text"
+msgid "This release is not production-ready. It's recommended for testers to help with Ubuntu MATE QA, or to provide feedback and file bug reports."
+msgstr ""
+
+msgctxt "prerelease_warning_button"
+msgid "Learn how to get involved →"
+msgstr ""
+
+msgctxt "jan"
+msgid "January"
+msgstr ""
+
+msgctxt "feb"
+msgid "February"
+msgstr ""
+
+msgctxt "mar"
+msgid "March"
+msgstr ""
+
+msgctxt "apr"
+msgid "April"
+msgstr ""
+
+msgctxt "may"
+msgid "May"
+msgstr ""
+
+msgctxt "jun"
+msgid "June"
+msgstr ""
+
+msgctxt "jul"
+msgid "July"
+msgstr ""
+
+msgctxt "aug"
+msgid "August"
+msgstr ""
+
+msgctxt "sep"
+msgid "September"
+msgstr ""
+
+msgctxt "oct"
+msgid "October"
+msgstr ""
+
+msgctxt "nov"
+msgid "November"
+msgstr ""
+
+msgctxt "dec"
+msgid "December"
+msgstr ""
+
+msgctxt "download_tip_title"
+msgid "Download Tip"
+msgstr ""
+
+msgctxt "download_tip_text"
+msgid "_A little bit goes a long way._ If everyone who downloaded Ubuntu MATE tipped **$2.50**, it would fund the full-time development of Ubuntu MATE and MATE Desktop."
+msgstr ""
+
+msgctxt "download_tip_provider"
+msgid "Powered by"
+msgstr ""
+
+msgctxt "download_tip_footnote"
+msgid "To contribute more, use Bitcoin or become an Ubuntu MATE Patron, [visit the funding page.](/funding/)"
+msgstr ""
+
+msgctxt "download_verify_title"
+msgid "Verify your download"
+msgstr ""
+
+msgctxt "download_verify_text"
+msgid "Checking data integrity provides assurance your download is free from tampering and corruption."
+msgstr ""
+
+msgctxt "download_verify_howto"
+msgid "How to verify downloads"
+msgstr ""
+
+msgctxt "download_guide_title"
+msgid "Acquire a guide by your side"
+msgstr ""
+
+msgctxt "download_guide_text"
+msgid "**Available in both paperback and ebook format.** These books can assist with upgrades from Windows/macOS, as well as introduce you to key applications of the Ubuntu MATE desktop."
+msgstr ""
+
+msgctxt "download_guide_shop_button"
+msgid "Shop Books"
+msgstr ""
+
+msgctxt "download_stuck_title"
+msgid "Get stuck?"
+msgstr ""
+
+msgctxt "download_stuck_text"
+msgid "Check out these resources:"
+msgstr ""
+
+msgctxt "download_stuck_help_imgusb"
+msgid "How to image a flash drive (Windows, Mac, Linux)"
+msgstr ""
+
+msgctxt "download_stuck_help_community"
+msgid "Ask the community"
+msgstr ""
+
+msgctxt "download_stuck_help_faq"
+msgid "Frequently asked questions"
+msgstr ""
+
+msgctxt "latest_blogs"
+msgid "Latest"
+msgstr ""
+
+msgctxt "archived_blogs"
+msgid "Archives"
+msgstr ""
+
+msgctxt "read_more"
+msgid "Read more..."
+msgstr ""
+
+msgctxt "category_release"
+msgid "Release Announcement"
+msgstr ""
+
+msgctxt "category_dev"
+msgid "Development Update"
+msgstr ""
+
+msgctxt "category_news"
+msgid "News"
+msgstr ""
+
+msgctxt "outdated_post"
+msgid "This post is more than a year old and may be outdated."
+msgstr ""
+
+msgctxt "comments_title"
+msgid "Comments"
+msgstr ""
+
+msgctxt "comments_none_old"
+msgid "The comment section for this old article has been closed. There were no comments. :("
+msgstr ""
+
+msgctxt "comments_none"
+msgid "Comments are not available for this post."
+msgstr ""
+
+msgctxt "comments_no_js"
+msgid "To view comments, please enable JavaScript in your browser."
+msgstr ""
+
+msgctxt "about"
+msgid "About"
+msgstr ""
+
+msgctxt "what_is_ubuntu_mate"
+msgid "What is Ubuntu MATE?"
+msgstr ""
+
+msgctxt "history"
+msgid "History"
+msgstr ""
+
+msgctxt "system_requirements"
+msgid "System Requirements"
+msgstr ""
+
+msgctxt "team"
+msgid "Team"
+msgstr ""
+
+msgctxt "testimonials"
+msgid "Testimonials"
+msgstr ""
+
+msgctxt "features"
+msgid "Features"
+msgstr ""
+
+msgctxt "custom_panel"
+msgid "Panel Customisation"
+msgstr ""
+
+msgctxt "community"
+msgid "Community"
+msgstr ""
+
+msgctxt "shop"
+msgid "Emporium"
+msgstr ""
+
+msgctxt "computers"
+msgid "Desktop & Laptops"
+msgstr ""
+
+msgctxt "books"
+msgid "Books"
+msgstr ""
+
+msgctxt "apparel"
+msgid "Apparel"
+msgstr ""
+
+msgctxt "purchase"
+msgid "View Product"
+msgstr ""
+
+msgctxt "mate_desktop"
+msgid "MATE Desktop"
+msgstr ""
+
+msgctxt "ubuntu_base"
+msgid "Ubuntu Base"
+msgstr ""
+
+msgctxt "preinstalled"
+msgid "Pre-installed Applications"
+msgstr ""
+
+msgctxt "gnu_linux"
+msgid "GNU/Linux"
+msgstr ""
+
+msgctxt "live_only"
+msgid "Only available during live session"
+msgstr ""
+
+msgctxt "not_in_min_install"
+msgid "Not included in minimal install"
+msgstr ""
+
+msgctxt "ubuntu_mate_welcome"
+msgid "Welcome"
+msgstr ""
+
+msgctxt "software_boutique"
+msgid "Software Boutique"
+msgstr ""
+
+msgctxt "panel_defaults"
+msgid "Familiar Layouts"
+msgstr ""
+
+msgctxt "theming"
+msgid "Wallpapers & Themes"
+msgstr ""
+
+msgctxt "gnome_disks"
+msgid "GNOME Disks"
+msgstr ""
+
+msgctxt "mate_calc"
+msgid "Calculator"
+msgstr ""
+
+msgctxt "mate_font_viewer"
+msgid "Font Viewer"
+msgstr ""
+
+msgctxt "mate_search"
+msgid "Search"
+msgstr ""
+
+msgctxt "mate_screenshot"
+msgid "Screenshot"
+msgstr ""
+
+msgctxt "mate_color_selection"
+msgid "Colour Selection"
+msgstr ""
+
+msgctxt "mate_dictionary"
+msgid "Dictionary"
+msgstr ""
+
+msgctxt "mate_disk_usage_analyzer"
+msgid "Disk Usage Analyzer"
+msgstr ""
+
+msgctxt "system_log"
+msgid "System Log"
+msgstr ""
+
+msgctxt "mate_terminal"
+msgid "Terminal"
+msgstr ""
+
+msgctxt "mate_system_monitor"
+msgid "System Monitor"
+msgstr ""
+
+msgctxt "mate_power_statistics"
+msgid "Power Statistics"
+msgstr ""
+
+msgctxt "mate_tweak"
+msgid "MATE Tweak"
+msgstr ""
+
+msgctxt "guide"
+msgid "Ubuntu MATE Guide"
+msgstr ""
+
+msgctxt "character_map"
+msgid "Character Map"
+msgstr ""
+
+msgctxt "seahorse"
+msgid "Passwords & Keys"
+msgstr ""
+
+msgctxt "apport"
+msgid "Error Reporting"
+msgstr ""
+
+msgctxt "simple_scan"
+msgid "Simple Scan"
+msgstr ""
+
+msgctxt "orca"
+msgid "Orca Screen Reader"
+msgstr ""
+
+msgctxt "nm"
+msgid "Network Manager"
+msgstr ""
+
+msgctxt "software_dist"
+msgid "Primary Software Distribution"
+msgstr ""
+
+msgctxt "software_snap"
+msgid "Secondary Software Distribution"
+msgstr ""
+
+msgctxt "shell"
+msgid "Shell"
+msgstr ""
+
+msgctxt "display"
+msgid "Display Server"
+msgstr ""
+
+msgctxt "init"
+msgid "Init System"
+msgstr ""
+
+msgctxt "audio"
+msgid "Audio Server"
+msgstr ""
+
+msgctxt "win_man"
+msgid "Window Manager"
+msgstr ""
+
+msgctxt "installer"
+msgid "Installer"
+msgstr ""
+
+msgctxt "boot_splash"
+msgid "Boot Splash"
+msgstr ""
+
+msgctxt "bootloader"
+msgid "Bootloader"
+msgstr ""
+
+msgctxt "printer"
+msgid "Printing Support"
+msgstr ""
+
+msgctxt "kernel1"
+msgid "Wide range of hardware support"
+msgstr ""
+
+msgctxt "kernel2"
+msgid "Secure by design"
+msgstr ""
+
+msgctxt "kernel3"
+msgid "Excellent stability"
+msgstr ""
+
+msgctxt "get_involved"
+msgid "Get Involved"
+msgstr ""
+
+msgctxt "dev_status"
+msgid "Development Status"
+msgstr ""
+
+msgctxt "documentation"
+msgid "Documentation"
+msgstr ""
+
+msgctxt "crowd_fund"
+msgid "Crowd Funder"
+msgstr ""
+
+msgctxt "spread_word"
+msgid "Spread the Word"
+msgstr ""
+
+msgctxt "community_support"
+msgid "Community Support"
+msgstr ""
+
+msgctxt "translations"
+msgid "Translations"
+msgstr ""
+
+msgctxt "artwork_themes"
+msgid "Artwork and Themes"
+msgstr ""
+
+msgctxt "bug_triage"
+msgid "Bug Reporting and Triage"
+msgstr ""
+
+msgctxt "testing_qa"
+msgid "Testing and Quality Assurance"
+msgstr ""
+
+msgctxt "bug_fix"
+msgid "Bug Fixing"
+msgstr ""
+
+msgctxt "software_dev"
+msgid "Software Development"
+msgstr ""
+
+msgctxt "dev_backlog"
+msgid "Backlog"
+msgstr ""
+
+msgctxt "dev_active"
+msgid "In Progress"
+msgstr ""
+
+msgctxt "dev_completed"
+msgid "Completed"
+msgstr ""
+
+msgctxt "design_guidelines"
+msgid "Design Guidelines"
+msgstr ""
+
+msgctxt "application"
+msgid "Application"
+msgstr ""
+
+msgctxt "url"
+msgid "URL"
+msgstr ""
+
+msgctxt "no_translation_url"
+msgid "Does not support translations"
+msgstr ""
+
+msgctxt "faq"
+msgid "Project FAQs"
+msgstr ""
+
+msgctxt "the_project"
+msgid "The Project"
+msgstr ""
+
+msgctxt "verify_downloads_quick"
+msgid "Verify for Corruption"
+msgstr ""
+
+msgctxt "verify_downloads_secure"
+msgid "Verify for Tampering"
+msgstr ""
+
+msgctxt "how_to_image"
+msgid "Imaging a USB Drive"
+msgstr ""
+
+msgctxt "how_to_dvd"
+msgid "Burning to DVD"
+msgstr ""
+
+msgctxt "about_project"
+msgid "Project Questions"
+msgstr ""
+
+msgctxt "roadmap"
+msgid "Roadmap"
+msgstr ""
+
+msgctxt "prepare_media"
+msgid "Media Preparations"
+msgstr ""
+
+msgctxt "team_ubuntu"
+msgid "Ubuntu Member"
+msgstr ""
+
+msgctxt "team_canonical"
+msgid "Works at Canonical"
+msgstr ""
+
+msgctxt "team_mate"
+msgid "MATE Desktop Team"
+msgstr ""
+
+msgctxt "team_coder"
+msgid "Code Contributor"
+msgstr ""
+
+msgctxt "team_artwork"
+msgid "Artwork Contributor"
+msgstr ""
+
+msgctxt "team_docs"
+msgid "Documentation Contributor"
+msgstr ""
+
+msgctxt "team_community"
+msgid "Community"
+msgstr ""
+
+msgctxt "team_qa"
+msgid "Quality Assurance Tester"
+msgstr ""
+
+msgctxt "team_bug_hunter"
+msgid "Bug Hunter"
+msgstr ""
+
+msgctxt "team_bug_fixer"
+msgid "Bug Fixer"
+msgstr ""
+
+msgctxt "team_packager"
+msgid "Package Maintainer"
+msgstr ""
+
+msgctxt "quote_general_title"
+msgid "What the Internet is saying..."
+msgstr ""
+
+msgctxt "quote_youtube_title"
+msgid "What the YouTubers are showcasing..."
+msgstr ""
+
+msgctxt "ports"
+msgid "Device Ports"
+msgstr ""
+
+msgctxt "raspberry_pi"
+msgid "Raspberry Pi"
+msgstr ""
+
+msgctxt "raspberry_pi_history"
+msgid "Raspberry Pi Change Log"
+msgstr ""
+
+msgctxt "umpc"
+msgid "Ultra Mobile PCs (UMPCs)"
+msgstr ""
+
+msgctxt "js_required"
+msgid "JavaScript needs to be enabled in your browser to use this form."
+msgstr ""
+
+msgctxt "paypal_monthly"
+msgid "Monthly PayPal Supporter"
+msgstr ""
+
+msgctxt "paypal_one_time"
+msgid "One time PayPal donation"
+msgstr ""
+
+msgctxt "paypal_select"
+msgid "Select an amount"
+msgstr ""
+
+msgctxt "paypal_specify"
+msgid "Specify your own amount"
+msgstr ""
+
+msgctxt "paypal_currency"
+msgid "Currency"
+msgstr ""
+
+msgctxt "paypal_submit"
+msgid "Submit"
+msgstr ""
+
+msgctxt "paypal_invalid_amount"
+msgid "Please enter a valid amount - thanks!"
+msgstr ""
+
+msgctxt "toggle_sidebar"
+msgid "Expand/Collapse Sidebar"
+msgstr ""
+
+msgctxt "search_placeholder"
+msgid "Enter keywords..."
+msgstr ""
+
+msgctxt "alt_logo_UM"
+msgid "Ubuntu MATE Logo"
+msgstr ""
+
+msgctxt "toc"
+msgid "Table of Contents"
+msgstr ""

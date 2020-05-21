@@ -1,0 +1,230 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/history.md:9
+msgid "title: History"
+msgstr ""
+
+#: pages/history.md:14
+msgid ""
+"## Pre-2014\n"
+"### The Ubuntu MATE backstory"
+msgstr ""
+
+#: pages/history.md:17
+msgid ""
+"{:.milestone-image}\n"
+"![MATE is a fork of GNOME 2](/images/history/gnome-mate-fork.svg)"
+msgstr ""
+
+#: pages/history.md:22
+msgid ""
+"Although Ubuntu MATE technically began with Martin Wimpress and Alan\n"
+"Pope's sitting around the latter's kitchen table, it first started years\n"
+"earlier, with Martin's quest to restore 'wedded bliss' to his home and\n"
+"his wife's desktop environment."
+msgstr ""
+
+#: pages/history.md:28
+msgid ""
+"At that time, Martin was an Arch developer (disclaimer: we were required\n"
+"to say that), and he and his wife were mostly happy using an \"embryonic\"\n"
+"GNOME 3. A few years after the birth of their first child, Martin's wife\n"
+"came back to a more fully fledged GNOME 3, and gave her husband a\n"
+"directive: make GNOME 2 come back."
+msgstr ""
+
+#: pages/history.md:38
+msgid ""
+"Martin knew the MATE Desktop, a continuation of GNOME 2, existed, but\n"
+"had never actually used it before. He installed MATE on the household\n"
+"computers and all was again well, but he noticed a few issues beneath\n"
+"the surface. Knowing a happy wife equaled a happy life, Martin did what\n"
+"any Linux-using husband would do: he began contributing to the MATE\n"
+"Desktop. At first, this was low-key, mostly packaging for Arch, but then\n"
+"he began to make patches and fixes upstream. He also began installing\n"
+"the MATE Desktop for family members who weren't as technically\n"
+"proficient, who mainly wanted ease of use and continuity."
+msgstr ""
+
+#: pages/history.md:49
+msgid ""
+"As Martin became more involved with the MATE Desktop, he also became\n"
+"more involved in the world of Linux podcasting. He became an occasional\n"
+"talking head on [Linux Unplugged](https://linuxunplugged.com/), which\n"
+"nicely dovetailed with his new role as a community manager for the MATE\n"
+"Desktop. This meant he started doing more interviews, one of which was\n"
+"on the [Ubuntu Podcast](https://ubuntupodcast.org/) in 2012 or 2013.\n"
+"During the interview Martin pointed out how MATE was rather broken in\n"
+"Ubuntu, which saddened Alan Pope, one of the shows' hosts, for anyone\n"
+"unfamiliar with the podcast. He's still there, along with Mark Johnson\n"
+"and...gasp!...Martin."
+msgstr ""
+
+#: pages/history.md:53
+msgid ""
+"## 2014\n"
+"### Popey and Wimpress"
+msgstr ""
+
+#: pages/history.md:56
+msgid ""
+"{:.milestone-image}\n"
+"![Selfie photo of Wimpress and Popey](/images/people/wimpress-and-popey.webp)"
+msgstr ""
+
+#: pages/history.md:65
+msgid ""
+"A few weeks later, Martin got an e-mail from Alan with a one-word\n"
+"subject line: \"Hah!\" In the e-mail, Alan gave a link to matey.iso, the\n"
+"forebearer of Ubuntu MATE. By this point, Martin's family were growing\n"
+"frustrated with their desktop experience, and Martin found himself\n"
+"spending breaks managing their frustrations. They had stopped using the\n"
+"laptops Martin had provided, which were running the MATE Desktop on Arch\n"
+"(tricky to maintain from afar), and there were even rumors of switching\n"
+"to MacBooks. Quelle horreur!"
+msgstr ""
+
+#: pages/history.md:73
+msgid ""
+"Alan's e-mail, therefore, couldn't have come at a better time. Martin\n"
+"knew Ubuntu's reliability would make \"a sensible way forward.\" Alan and\n"
+"Martin took a day off work, and Martin made the brief drive to Alan's\n"
+"house. They sat in Alan's kitchen and put together the very first\n"
+"version of Ubuntu MATE. Once they were done, as Martin recalls, Alan\n"
+"\"kind of looked at me square in the eye and said 'you're responsible for\n"
+"this now. I'm out.'\""
+msgstr ""
+
+#: pages/history.md:77
+msgid ""
+"## 15.04\n"
+"### Ubuntu MATE becomes an official flavour"
+msgstr ""
+
+#: pages/history.md:80
+msgid ""
+"{:.milestone-image}\n"
+"![Ubuntu MATE joins the Ubuntu family](/images/history/join-family.svg)"
+msgstr ""
+
+#: pages/history.md:90
+msgid ""
+"Ubuntu MATE 14.10 was the [inaugural release](https://ubuntu-mate.org/blog/ubuntu-mate-utopic-final-release/),\n"
+"and it didn't take long for wider adoption to follow. With the release of\n"
+"15.04, Ubuntu MATE was now an [official Ubuntu community flavour](https://www.omgubuntu.co.uk/2015/02/ubuntu-mate-is-now-an-official-ubuntu-flavor).\n"
+"In 2015, [Entroware](https://www.entroware.com) announced it would offer\n"
+"Ubuntu MATE as a pre-install choice to its customers - the first example\n"
+"of an OEM supporting a boutique independent distribution. Incidentally,\n"
+"this made Martin's job as family IT support much easier, as he could\n"
+"simply point curious relatives to buy a laptop with the operating system\n"
+"he \"basically designed for them pre-installed.\""
+msgstr ""
+
+#: pages/history.md:94
+msgid ""
+"## 15.10\n"
+"### Introducing Software Boutique"
+msgstr ""
+
+#: pages/history.md:97
+msgid ""
+"{:.milestone-image}\n"
+"![Software Boutique logo - a coat hanger](/images/ubuntu-mate/boutique.svg)"
+msgstr ""
+
+#: pages/history.md:105
+msgid ""
+"The next release, however, involved a news-making controversy: the\n"
+"removal of the Ubuntu Software Center as a default, in favor of a highly\n"
+"curated Software Boutique inside the new Ubuntu MATE Welcome. This\n"
+"sparked headlines across the Internet, even as many users admitted the\n"
+"Ubuntu Software Center was buggy and slow. The replacement, however,\n"
+"was popular with users - VERY popular with\n"
+"[Chris Fisher from JB](https://youtu.be/KhzKnIMbn8g?t=510)."
+msgstr ""
+
+#: pages/history.md:109
+msgid ""
+"## 16.04\n"
+"### The First Official LTS"
+msgstr ""
+
+#: pages/history.md:113
+msgid ""
+"Canonical granted LTS status to Ubuntu MATE 16.04, its first offical\n"
+"long-term support version. Canonical also upgraded Martin to an employee\n"
+"on the Desktop Team in time for the 16.10 release."
+msgstr ""
+
+#: pages/history.md:117
+msgid ""
+"## 16.10\n"
+"### Ending the PowerPC Era"
+msgstr ""
+
+#: pages/history.md:124
+msgid ""
+"Prior to 2006, Power PCs were popular in Macs, before Apple switched to\n"
+"Intel processors. Ubuntu MATE initially provided support for these older\n"
+"machines, even buying a few secondhand specifically for development and\n"
+"testing. However, supporting this older architecture became increasingly\n"
+"difficult, and 16.04.01 was the last build, with Long Term Support\n"
+"ending in April 2019."
+msgstr ""
+
+#: pages/history.md:128
+msgid ""
+"## 18.10\n"
+"### Ending the i386 Era"
+msgstr ""
+
+#: pages/history.md:137
+msgid ""
+"In a post to the [Ubuntu MATE Community](https://ubuntu-mate.community/t/16715),\n"
+"Martin explained that Ubuntu MATE would no longer provide i386\n"
+"(32-bit Intel) images, although they could continue to carry i386\n"
+"packages in the repository. Although this was an unpopular decision\n"
+"with users still running i386 architecture, this decision was in line\n"
+"with several application and driver vendors, including nvidia and\n"
+"Mozilla, who had previously dropped their own support for the older\n"
+"platform."
+msgstr ""
+
+#: pages/history.md:141
+msgid ""
+"## 20.04 and beyond\n"
+"### Towards a Retrospective Future"
+msgstr ""
+
+#: pages/history.md:144
+msgid ""
+"{:.milestone-image}\n"
+"![Laptop running Ubuntu MATE](/images/ubuntu-mate/laptop.png)"
+msgstr ""
+
+#: pages/history.md:149
+msgid ""
+"The rest of Ubuntu MATE's history has yet to be written! The [roadmap](/faq/roadmap/)\n"
+"explains where the project will hopefully be in the years to come. If\n"
+"you want to be a part of that history to come, head over to our\n"
+"[Get Involved](/get-involved/) page."
+msgstr ""
+
+#: pages/history.md:151
+msgid ""
+"*Many thanks to InfinitelyGalactic for his interview with Martin, which\n"
+"provided much of the backstory and can be viewed [here](https://www.youtube.com/watch?v=-ls8xHhY4fI&t=1528s).*"
+msgstr ""

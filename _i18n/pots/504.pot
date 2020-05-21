@@ -1,0 +1,35 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/504.md:9
+msgid ""
+"title: 504 | Service Unavailable\n"
+"error_name: Gateway Timeout"
+msgstr ""
+
+#: pages/504.md:13
+msgid "# Connection troubles..."
+msgstr ""
+
+#: pages/504.md:17
+msgid ""
+"Sorry about that. Our infrastructure was unable to connect to the server that's\n"
+"supposed to serve your request. Perhaps it's undergoing maintenance or\n"
+"the server is overloaded right now."
+msgstr ""
+
+#: pages/504.md:18
+msgid "Please try your request again in a little while."
+msgstr ""

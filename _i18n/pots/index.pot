@@ -1,0 +1,97 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/index.md:28
+msgid "title: Ubuntu MATE | For a retrospective future"
+msgstr ""
+
+#: pages/index.md:30
+msgid "banner_title: For a retrospective future."
+msgstr ""
+
+#: pages/index.md:32
+msgid ""
+"banner_subtitle: A community developed, Ubuntu based operating system that "
+"beautifully integrates the MATE desktop."
+msgstr ""
+
+#: pages/index.md:34
+msgid "banner_label: Learn more"
+msgstr ""
+
+#: pages/index.md:39
+msgid "# In a nutshell..."
+msgstr ""
+
+#: pages/index.md:45
+msgid ""
+"Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop\n"
+"environment. It is ideal for those who want the most out of their computers and\n"
+"prefer a traditional desktop metaphor. With modest hardware requirements it is\n"
+"suitable for modern workstations, single board computers and older hardware alike.\n"
+"Ubuntu MATE makes modern computers fast and old computers usable."
+msgstr ""
+
+#: pages/index.md:48
+msgid "# Screenshots"
+msgstr ""
+
+#: pages/index.md:51
+msgid ""
+"Here are some screenshots of the desktop layouts included in Ubuntu MATE to\n"
+"give you a feel for how you can configure your desktop experience."
+msgstr ""
+
+#: pages/index.md:56
+msgid "# Raspberry Pi & GPD Pocket"
+msgstr ""
+
+#: pages/index.md:60
+msgid ""
+"We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3\n"
+"and 3+ as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,\n"
+"GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**"
+msgstr ""
+
+#: pages/index.md:70
+msgid ""
+"{:.transparent .icons}\n"
+"| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/umpcs/) |\n"
+"| Works with:   | Optimised for:\n"
+"| ------------- | ---------------- |\n"
+"| Model 2 B     | GPD Pocket\n"
+"| Model 3       | GPD Pocket 2\n"
+"| Model 3+      | GPD WIN 2\n"
+"|               | GPD MicroPC\n"
+"|               | Topjoy MicroPC"
+msgstr ""
+
+#: pages/index.md:73
+msgid "# Sponsors"
+msgstr ""
+
+#: pages/index.md:75
+msgid ""
+"Ubuntu MATE is kindly supported by these fine sponsors and [our awesome "
+"Patrons](https://www.patreon.com/ubuntu_mate):"
+msgstr ""
+
+#: pages/index.md:79
+msgid ""
+"{:.center}\n"
+"[![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/?r=ubuntu-mate)\n"
+"[![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)\n"
+"[![What is SEO](/images/sponsors/whatisseo.png)](http://www.whatisseo.com/)"
+msgstr ""
