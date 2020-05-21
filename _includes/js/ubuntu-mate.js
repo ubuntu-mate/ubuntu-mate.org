@@ -31,9 +31,9 @@ document.addEventListener("click", function(event) {
 // Download Links
 // - Navigates to the end page after click.
 //--------------------------------------
-function download_thanks() {
+function download_thanks(method) {
     setTimeout(function() {
-        window.location.href = "thanks/";
+        window.location.href = "thanks/?method=" + method;
     }, 500);
 }
 

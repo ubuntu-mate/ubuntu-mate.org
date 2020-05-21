@@ -39,16 +39,6 @@ layout: default
         variant = "white-text"
     %}
 
-    <p class="choose-alt-download">
-        <a href="../../">
-            {% include images/fa/chevron-left.svg %}
-            {{ site.data.strings.post_download_link_1 }}
-        </a>
-        <a href="../../../">
-            {{ site.data.strings.post_download_link_2 }}
-        </a>
-    </p>
-
     <div class="container">
 
         {% if release.prerelease == true %}
@@ -58,6 +48,63 @@ layout: default
                 <p><a href="/get-involved/">{{ site.data.strings.prerelease_warning_button }}</a></p>
             </div>
         {% endif %}
+
+        <div id="post-download-link" class="download-thanks row">
+            <div class="col-sm-2">
+                <img src="/images/categories/features/package.svg"/>
+            </div>
+            <div class="col-sm-10">
+                <h3>{{ site.data.strings.download_started }}</h3>
+                <p id="method-direct">
+                    {{ site.data.strings.download_started_help }}
+                    <br>
+                    <a class="retry" href="{{ download.url }}">{{ download.url }}</a>
+                </p>
+                <p id="method-torrent" style="display:none">
+                    {{ site.data.strings.download_started_help }}
+                    <br>
+                    <a class="retry" href="{{ download.url }}.torrent">{{ download.url }}.torrent</a>
+                </p>
+                <p id="method-magnet" style="display:none">
+                    {{ site.data.strings.download_started_help }}
+                    <br>
+                    <a class="retry" href="{{ download.magnet-uri }}">{{ download.magnet-uri }}</a>
+                </p>
+                <script>
+                    method = window.location.href.split("?method=")[1];
+                    m_direct = document.getElementById("method-direct");
+                    m_torrent = document.getElementById("method-torrent");
+                    m_magnet = document.getElementById("method-magnet");
+                    if (method != null || method != undefined) {
+                        m_direct.style.display = "none";
+                        m_torrent.style.display = "none";
+                        m_magnet.style.display = "none";
+                        switch(method) {
+                            case "direct":
+                                m_direct.style.display = "block";
+                                break;
+                            case "torrent":
+                                m_torrent.style.display = "block";
+                                break;
+                            case "magnet":
+                                m_magnet.style.display = "block";
+                                break;
+                            default:
+                                document.getElementById("post-download-link").remove();
+                                break;
+                        }
+                    }
+                </script>
+
+                <p class="choose-alt-download">
+                    <a href="../">
+                        {% include images/fa/chevron-left.svg %}
+                        {{ site.data.strings.post_download_go_back }}
+                    </a>
+                </p>
+
+            </div>
+        </div>
 
         <div class="download-thanks row">
             <div class="col-sm-2">
@@ -145,5 +192,5 @@ layout: default
 
 {% capture download_name %}Ubuntu MATE {{ release.name }}{% endcapture %}
 <script>
-    document.title = "{{ site.data.strings.post_download_thanks | replace: '[]', download_name }}";
+    document.title = "{{ site.data.strings.post_download_title | replace: '[]', download_name }}";
 </script>
