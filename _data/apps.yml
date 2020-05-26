@@ -12,12 +12,12 @@ ubuntu_mate:
     - name: Welcome
       img: /images/ubuntu-mate/logo.svg
       src_url: https://github.com/ubuntu-mate/ubuntu-mate-welcome-legacy
-      translations_url: https://www.transifex.com/ubuntu-mate/public/
+      translations_url: https://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome
 
     - name: ubuntu-mate.org
       img: /images/ubuntu-mate/logo.svg
       src_url: null # Is a website, not software
-      translations_url: null # Not set up yet
+      translations_url: https://www.transifex.com/ubuntu-mate/ubuntu-mate-org
 
     - name: start.ubuntu-mate.org
       img: /images/ubuntu-mate/logo.svg
