@@ -23,10 +23,14 @@ function abort_if_failed() {
 }
 
 # Ensure gems are up-to-date.
-echo -e "\nbundle install"
+echo -e "\nBuild Dependencies"
 echo "------------------------------------------------------"
-bundle install --jobs=4
-abort_if_failed $?
+bundle check
+
+if [ $? != 0 ]; then
+    bundle install --jobs=4
+    abort_if_failed $?
+fi
 
 # Generate any missing magnet URIs.
 if [ "$generate_magnet_uri" == "true" ]; then
