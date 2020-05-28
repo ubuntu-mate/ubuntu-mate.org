@@ -1,7 +1,9 @@
 #!/bin/bash
 
+cd $(dirname "$0")/../
+
 # Run build commands first
-$(dirname "$0")/build.sh $*
+./scripts/build.sh $*
 
 # Abort if it cannot be built.
 if [ $? != 0 ]; then

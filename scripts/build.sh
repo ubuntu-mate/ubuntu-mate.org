@@ -4,6 +4,8 @@
 #   --magnet-uri    Fetch torrent files and generate magnet URIs.
 #   --locales       Build localized pages
 #
+cd $(dirname "$0")/../
+
 while [ $# -ne 0 ]
 do
     arg="$1"
@@ -36,21 +38,21 @@ fi
 if [ "$generate_magnet_uri" == "true" ]; then
     echo -e "\nGenerate Magnet Links"
     echo "------------------------------------------------------"
-    $(dirname "$0")/generate-magnet-links.py
+    ./scripts/generate-magnet-links.py
     abort_if_failed $?
 fi
 
 # Generate markdown files for downloads
 echo -e "\nGenerate Download Pages"
 echo "------------------------------------------------------"
-$(dirname "$0")/generate-download-pages.py
+./scripts/generate-download-pages.py
 abort_if_failed $?
 
 # Build locales
 if [ "$generate_locales" == "true" ]; then
     echo -e "\nBuild locales"
     echo "------------------------------------------------------"
-    $(dirname "$0")/manage-translations.py --build
+    ./scripts/manage-translations.py --build
     abort_if_failed $?
 fi
 
