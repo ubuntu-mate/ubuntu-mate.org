@@ -20,3 +20,6 @@ gem "jemoji"
 
 # Sitemap
 gem "jekyll-sitemap"
+
+# External Testing
+gem "html-proofer"

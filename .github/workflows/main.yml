@@ -15,11 +15,19 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Cache RubyGems
+      uses: actions/cache@v2
+      env:
+        cache-name: rubygems
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
+
     - name: Install Dependencies
       run: |
-        sudo apt-get install ruby ruby-dev make gcc
+        sudo apt-get install ruby ruby-dev ruby-bundler make gcc
         sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib
-        sudo gem install bundler html-proofer
+        bundle config path vendor/bundle
         bundle install --jobs=4
 
     - name: Build website

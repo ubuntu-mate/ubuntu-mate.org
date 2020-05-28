@@ -13,6 +13,13 @@
 
 cd "$(dirname $0)/../"
 
+# CI only: htmlproofer is installed in vendor folder
+if [ -d "vendor/" ]; then
+    htmlproofer="bundle exec htmlproofer"
+else
+    htmlproofer="htmlproofer"
+fi
+
 function check_for_error() {
     if [ $1 != 0 ]; then
         exit 1
@@ -28,7 +35,7 @@ if [ "$1" == "--external" ]; then
     ignore_list+="/_site/en/"
 
     echo "Proofing HTML (and external links)..."
-    htmlproofer \
+    $htmlproofer \
         --assume-extension \
         --check-html \
         --check-img-http \
@@ -39,7 +46,7 @@ if [ "$1" == "--external" ]; then
         ./_site
 else
     echo "Proofing HTML..."
-    htmlproofer \
+    $htmlproofer \
         --assume-extension \
         --check-html \
         --check-img-http \
