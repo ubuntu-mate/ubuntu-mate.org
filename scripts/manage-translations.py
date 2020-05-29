@@ -93,6 +93,11 @@ def generate():
     for path in file_list:
         page_no += 1
         page = path.replace(".md", "").split("/")[-1]
+
+        # Ignore 50x pages as i18n versions are not used.
+        if page.startswith("50"):
+            continue
+
         print("  [{0}/{1}] {2}.pot".format(page_no, len(file_list), page))
 
         pot_path = "{0}/pots/{1}.pot".format(i18n_dir, page)
