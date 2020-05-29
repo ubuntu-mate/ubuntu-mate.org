@@ -46,23 +46,27 @@ po2yaml = os.path.join(base_dir, "scripts/helpers/po2yaml")
 if not os.path.exists(dest_dir):
     os.mkdir(dest_dir)
 
-# Gather file list
+# Gather locale list
 def read_file(path):
     with open(path, "r") as f:
         return "".join(f.readlines())
-
-page_list = glob.glob(page_dir + "/*.md")
-post_list = glob.glob(post_dir + "/*.md")
-file_list = page_list + post_list
 locale_list = read_file(os.path.join(i18n_dir, "locales.txt")).split("\n")
 
-# Exclude blog posts before 2019.
-new_post_list = []
-for post in post_list:
+# Gather pages - exclude non-translatable 50x error pages.
+page_list = []
+for page in glob.glob(page_dir + "/*.md"):
+    if os.path.basename(page).startswith("50"):
+        continue
+    page_list.append(page)
+
+# Gather posts - exclude blog posts before 2019.
+post_list = []
+for post in glob.glob(post_dir + "/*.md"):
     if os.path.basename(post)[:4] in ["2018", "2017", "2016", "2015", "2014"]:
         continue
-    new_post_list.append(post)
-post_list = new_post_list
+    post_list.append(post)
+
+# Put together lists
 file_list = page_list + post_list
 
 # Ensure locale has a folder
@@ -93,10 +97,6 @@ def generate():
     for path in file_list:
         page_no += 1
         page = path.replace(".md", "").split("/")[-1]
-
-        # Ignore 50x pages as i18n versions are not used.
-        if page.startswith("50"):
-            continue
 
         print("  [{0}/{1}] {2}.pot".format(page_no, len(file_list), page))
 

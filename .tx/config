@@ -13,30 +13,6 @@ source_file = _i18n/pots/404.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.500]
-file_filter = _i18n/<lang>/500.po
-source_file = _i18n/pots/500.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.502]
-file_filter = _i18n/<lang>/502.po
-source_file = _i18n/pots/502.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.503]
-file_filter = _i18n/<lang>/503.po
-source_file = _i18n/pots/503.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.504]
-file_filter = _i18n/<lang>/504.po
-source_file = _i18n/pots/504.pot
-source_lang = en
-type = PO
-
 [ubuntu-mate-org.about]
 file_filter = _i18n/<lang>/about.po
 source_file = _i18n/pots/about.pot
