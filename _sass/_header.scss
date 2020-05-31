@@ -224,7 +224,7 @@
 
     .primary-nav {
         display: none;
-        background: $text-colour-light;
+        background: $background;
         border: $dropdown-border;
         box-shadow: $dropdown-shadow;
         position: fixed;
@@ -235,10 +235,23 @@
         flex-wrap: wrap;
 
         li {
+            position: relative;
             width: 50%;
 
             a {
                 color: $text-colour-dark;
+
+                &.active {
+                    background: inherit;
+
+                    &::after {
+                        content: "●";
+                        position: absolute;
+                        right: 15px;
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                }
             }
         }
     }
