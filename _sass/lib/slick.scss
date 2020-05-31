@@ -113,7 +113,8 @@ $sm: 768px - 1px;
 $ss: 475px;
 @media (max-width: $ss) {
     .slick-dots {
-        width: calc(100% - (100vw / 4));
+        min-width: calc(100% - (100vw / 4));
+        max-width: calc(100% - (100vw / 4));
     }
     .slick-prev, .slick-dots, .slick-next {
         margin: 15px 0;
