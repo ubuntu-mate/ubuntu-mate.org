@@ -23,7 +23,7 @@
 
     img {
         display: inline-block;
-        height: auto;
+        height: max-content;
         width: 100%;
         max-width: 300px;
         margin: 15px;
@@ -35,10 +35,6 @@
         font-size: 0.8em;
         padding: 6px 16px;
     }
-}
-
-.banner-inner img {
-    height: intrinsic;
 }
 
 .banner-text {
