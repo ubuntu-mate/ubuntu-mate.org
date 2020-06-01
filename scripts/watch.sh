@@ -12,4 +12,4 @@ if [ $? != 0 ]; then
 fi
 
 # Watch for changes during development
-bundle exec jekyll serve --watch --livereload --drafts
+bundle exec jekyll serve --watch --livereload --drafts --host=0.0.0.0
