@@ -37,6 +37,10 @@
     }
 }
 
+.banner-inner img {
+    height: intrinsic;
+}
+
 .banner-text {
     display: inline-block;
     font-size: 24px;
