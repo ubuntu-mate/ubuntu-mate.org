@@ -3,8 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    min-height: 320px;
+    padding: 30px 0;
     width: 100%;
 
     /* Variants */
@@ -18,31 +17,25 @@
 }
 
 .banner-inner {
-    display: flex;
     margin: auto;
+}
 
-    img {
-        display: inline-block;
-        height: auto;
-        width: 100%;
-        max-width: 300px;
-        margin: 15px;
-        vertical-align: middle;
-    }
-
-    a {
-        color: white;
-        font-size: 0.8em;
-        padding: 6px 16px;
-    }
+.banner-image {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    padding: 15px;
+    vertical-align: middle;
 }
 
 .banner-text {
     display: inline-block;
     font-size: 24px;
-    vertical-align: middle;
     max-width: $sm;
     margin: auto;
+    vertical-align: middle;
 
     h1, h2, h3 {
         font-weight: 400;
@@ -54,23 +47,26 @@
 
     a {
         display: inline-block;
+        color: white;
+        font-size: 0.8em;
+        padding: 6px 16px;
     }
 }
 
-/* Home page only */
+/* Pages utilising a banner at the top, like the home page */
 .page.has-banner .banner {
     margin-top: -15px;
 }
 
 @media (max-width: $md) {
-    .banner {
-        max-height: 240px;
-    }
-
     .banner-inner {
         img {
             max-width: 250px;
         }
+    }
+
+    .banner-image {
+        padding: 0;
     }
 
     .banner-text {
@@ -81,20 +77,18 @@
 
 @media (max-width: $sm) {
     .banner {
-        max-height: unset;
         padding: 15px 0;
         text-align: center;
     }
 
     .banner-inner {
-        flex-direction: column;
-
         img {
             margin: auto;
         }
     }
 
     .banner-text {
+        display: block;
         padding: 0 15px;
     }
 }
