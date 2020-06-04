@@ -166,9 +166,14 @@
         }
 
         .checked::after {
-            content: "●";
+            content: " ";
+            background: $text-colour-dark;
+            border-radius: 50%;
             position: absolute;
-            right: 15px;
+            height: 10px;
+            width: 10px;
+            top: 20px;
+            right: 20px;
             font-size: 20px;
             line-height: 20px;
         }
@@ -245,9 +250,14 @@
                     background: inherit;
 
                     &::after {
-                        content: "●";
+                        content: " ";
                         position: absolute;
-                        right: 15px;
+                        background: $text-colour-dark;
+                        border-radius: 50%;
+                        height: 10px;
+                        width: 10px;
+                        top: 20px;
+                        right: 20px;
                         font-size: 20px;
                         line-height: 20px;
                     }
