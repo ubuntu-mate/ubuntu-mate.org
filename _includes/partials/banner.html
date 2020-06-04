@@ -21,7 +21,7 @@
     {% if foreground_path or text %}
         <div class="banner-inner">
             {% if foreground_path %}
-                <img src="{{ foreground_path }}" alt=""/>
+                <div class="banner-image" style="background-image: url({{ foreground_path }});">&nbsp;</div>
             {% endif %}
 
             {% if text %}
