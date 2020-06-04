@@ -21,15 +21,6 @@
     display: flex;
     margin: auto;
 
-    img {
-        display: inline-block;
-        height: max-content;
-        width: 100%;
-        max-width: 300px;
-        margin: 15px;
-        vertical-align: middle;
-    }
-
     a {
         color: white;
         font-size: 0.8em;
@@ -42,6 +33,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
+    margin: 0 15px;
     max-height: 240px;
     height: 500px;
     max-width: 300px;
@@ -77,14 +69,8 @@
         max-height: 240px;
     }
 
-    .banner-inner {
-        img {
-            max-width: 250px;
-        }
-    }
-
     .banner-image {
-        max-width: 250px;
+        max-width: 240px;
     }
 
     .banner-text {
@@ -102,10 +88,6 @@
 
     .banner-inner {
         flex-direction: column;
-
-        img {
-            margin: auto;
-        }
     }
 
     .banner-image {
