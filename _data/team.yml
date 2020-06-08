@@ -3,6 +3,7 @@
 #
 
 - title_name: founders_title
+  desc_name: founders_desc
   members:
 
     - name: Martin Wimpress
@@ -23,14 +24,8 @@
         - ubuntu
 
 - title_name: team1_title
+  desc_name: team1_desc
   members:
-
-    - name: Pablo Barciela
-      avatar: "https://avatars2.githubusercontent.com/u/7734191?s=150v=4"
-      url: "https://github.com/sc0w"
-      roles:
-        - artwork
-        - mate_desktop
 
     - name: Larry Bushey
       avatar: "https://avatars2.githubusercontent.com/u/1313055?s=150&v=4"
@@ -46,23 +41,6 @@
         - ubuntu_mate
         - community
         - qa
-
-    - name: Mike Gabriel
-      avatar: "https://avatars2.githubusercontent.com/u/407231?s=150&v=4"
-      url: "https://github.com/sunweaver"
-      roles:
-        - mate_desktop
-        - packager
-
-    - name: Luke Horwell
-      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
-      url: "https://github.com/lah7"
-      roles:
-        - ubuntu_mate
-        - code
-        - community
-        - documentation
-        - artwork
 
     - name: Bill (franksmcb)
       avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
@@ -88,14 +66,6 @@
         - community
         - qa
 
-    - name: Luke Kuhn
-      avatar: "https://avatars3.githubusercontent.com/u/14036792?s=150&v=4"
-      url: "https://github.com/lukefromdc"
-      roles:
-        - mate_desktop
-        - artwork
-        - bug_hunter
-
     - name: Jeff Labonte
       avatar: "https://avatars1.githubusercontent.com/u/9425955?s=150&v=4"
       url: "https://github.com/JeffLabonte"
@@ -109,6 +79,46 @@
       roles:
         - ubuntu_mate
         - documentation
+
+    - name: Alexandru Polihron
+      avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
+      url: "https://github.com/apolitech"
+      roles:
+        - ubuntu_mate
+        - qa
+
+    - name: Nikolay Strelkov
+      avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
+      url: "https://ubuntu-mate.community/u/Norbert_X/summary"
+      roles:
+        - ubuntu_mate
+        - qa
+
+- title_name: team2_title
+  desc_name: team2_desc
+  members:
+
+    - name: Pablo Barciela
+      avatar: "https://avatars2.githubusercontent.com/u/7734191?s=150v=4"
+      url: "https://github.com/sc0w"
+      roles:
+        - mate_desktop
+        - artwork
+
+    - name: Mike Gabriel
+      avatar: "https://avatars2.githubusercontent.com/u/407231?s=150&v=4"
+      url: "https://github.com/sunweaver"
+      roles:
+        - mate_desktop
+        - packager
+
+    - name: Luke Kuhn
+      avatar: "https://avatars3.githubusercontent.com/u/14036792?s=150&v=4"
+      url: "https://github.com/lukefromdc"
+      roles:
+        - mate_desktop
+        - artwork
+        - bug_hunter
 
     - name: Vangelis Mouhtsis
       avatar: "https://avatars0.githubusercontent.com/u/44510190?s=150&v=4"
@@ -130,20 +140,6 @@
       roles:
         - artwork
 
-    - name: Alexandru Polihron
-      avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
-      url: "https://github.com/apolitech"
-      roles:
-        - ubuntu_mate
-        - qa
-
-    - name: Nikolay Strelkov
-      avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
-      url: "https://ubuntu-mate.community/u/Norbert_X/summary"
-      roles:
-        - ubuntu_mate
-        - qa
-
     - name: Alexei Sorokin
       avatar: "https://avatars0.githubusercontent.com/u/386788?s=150&v=4"
       url: "https://github.com/XRevan86"
@@ -163,4 +159,70 @@
       url: "https://github.com/raveit65"
       roles:
         - mate_desktop
+        - artwork
+
+- title_name: contrib_title
+  desc_name: contrib_desc
+  members:
+
+    - name: Luke Horwell
+      desc: In-house Developer (2015-2020)
+      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
+      url: "https://github.com/lah7"
+      roles:
+        - ubuntu_mate
+        - code
+        - community
+        - documentation
+        - artwork
+
+    - name: Etienne Papegnies
+      desc: Moderator, QA Lead
+      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/ouroumov/150/10260_2.png"
+      url: "https://ubuntu-mate.community/admin/users/2129/ouroumov"
+      roles:
+        - ubuntu_mate
+        - community
+        - qa
+
+    - name: Robin Thompson
+      desc: MATE Dock Applet
+      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/robint99/150/2446_2.png"
+      url: "https://ubuntu-mate.community/u/robint99/summary"
+      roles:
+        - code
+
+    - name: Goce Mitevski
+      desc: Default Wallpaper (14.10-17.04)
+      avatar: "https://avatars3.githubusercontent.com/u/359855?s=150&v=4"
+      url: "https://github.com/gocemitevski/ubuntu-mate-wallpapers"
+      roles:
+        - artwork
+
+    - name: Sam Hewitt
+      desc: Ubuntu MATE Logo
+      avatar: "https://avatars3.githubusercontent.com/u/1217306?s=150&v=4"
+      url: "https://github.com/snwh"
+      roles:
+        - artwork
+
+    - name: Konstantin Pugin
+      desc: Global Menu (MATE Panel)
+      avatar: "https://avatars1.githubusercontent.com/u/1329638?s=150&v=4"
+      url: "https://github.com/rilian-la-te"
+      roles:
+        - code
+
+    - name: Ikey Doherty
+      desc: Brisk Menu
+      avatar: "https://avatars0.githubusercontent.com/u/164489?s=150&v=4"
+      url: "https://github.com/ikeydoherty"
+      roles:
+        - code
+
+    - name: Ivan Pejić
+      desc: GRUB/Plymouth Themes
+      avatar: "https://avatars3.githubusercontent.com/u/1753467?s=150&v=4"
+      url: "https://github.com/nadrimajstor/"
+      roles:
         - artwork

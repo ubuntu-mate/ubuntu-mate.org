@@ -15,6 +15,9 @@ layout: default
                 {% for category in site.data.team %}
 
                   <h3>{{ site.data.strings[category.title_name] }}</h3>
+                  {% if category.desc_name %}
+                    <p>{{ site.data.strings[category.desc_name] }}</p>
+                  {% endif %}
 
                   <div class="team-members">
 
@@ -34,6 +37,12 @@ layout: default
                                 {{ member.name }}
                             {% if member.url %}</a>{% endif %}
                         </div>
+
+                        {% if member.desc %}
+                            <div class="member-desc">
+                                {{ member.desc }}
+                            </div>
+                        {% endif %}
 
                         <div class="member-roles">
                           {% for role in member.roles %}

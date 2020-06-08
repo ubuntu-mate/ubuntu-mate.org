@@ -254,7 +254,14 @@ prepare_media: "Media Preparations"
 # Team
 #######################################
 founders_title: "Founders"
-team1_title: "Core Team"
+founders_desc: "The loons who thought it was a good idea."
+team1_title: "The Team"
+team1_desc: "The folks making decisions and steering the ship."
+team2_title: "Wider Community"
+team2_desc: "These people indirectly contribute to make things possible."
+contrib_title: "Notable Contributors"
+contrib_desc: "These people made history with the distro."
+
 team_ubuntu: "Ubuntu Member"
 team_canonical: "Works at Canonical"
 team_mate: "MATE Desktop Team"
