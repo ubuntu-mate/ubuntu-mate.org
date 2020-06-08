@@ -2,7 +2,7 @@
 # For special thanks and acknowledgements, edit pages/team.md
 #
 
-- title: Founders
+- title_name: founders_title
   members:
 
     - name: Martin Wimpress
@@ -22,7 +22,7 @@
         - canonical
         - ubuntu
 
-- title: Regulars
+- title_name: team1_title
   members:
 
     - name: Pablo Barciela

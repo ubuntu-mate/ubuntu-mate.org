@@ -253,6 +253,8 @@ prepare_media: "Media Preparations"
 #######################################
 # Team
 #######################################
+founders_title: "Founders"
+team1_title: "Core Team"
 team_ubuntu: "Ubuntu Member"
 team_canonical: "Works at Canonical"
 team_mate: "MATE Desktop Team"
