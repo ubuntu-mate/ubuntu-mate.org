@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"POT-Creation-Date: 2020-06-8 23:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -747,6 +747,38 @@ msgstr ""
 
 msgctxt "prepare_media"
 msgid "Media Preparations"
+msgstr ""
+
+msgctxt "founders_title"
+msgid "Founders"
+msgstr ""
+
+msgctxt "founders_desc"
+msgid "The loons who thought it was a good idea."
+msgstr ""
+
+msgctxt "team1_title"
+msgid "The Team"
+msgstr ""
+
+msgctxt "team1_desc"
+msgid "The folks making decisions and steering the ship."
+msgstr ""
+
+msgctxt "team2_title"
+msgid "Wider Community"
+msgstr ""
+
+msgctxt "team2_desc"
+msgid "These people indirectly contribute to make things possible."
+msgstr ""
+
+msgctxt "contrib_title"
+msgid "Notable Contributors"
+msgstr ""
+
+msgctxt "contrib_desc"
+msgid "These people made history with the distro."
 msgstr ""
 
 msgctxt "team_ubuntu"
