@@ -29,7 +29,7 @@
                     <a href="/faq/">{{ site.data.strings.faq }}</a>
                 </div>
                 <div class="social-links">
-                    {% assign links = "rss,launchpad,github,trello,irc,mastodon,twitter,facebook,youtube" | split: "," %}
+                    {% assign links = "rss,launchpad,github,trello,irc,mastodon,twitter,facebook" | split: "," %}
                     {% for link in links %}
                         <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
                     {% endfor %}
