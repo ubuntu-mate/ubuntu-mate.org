@@ -65,7 +65,7 @@
 
     {% assign favicons = "16,32,64,96,144,196,256" | split: "," %}
     {% for icon in favicons %}
-    <link rel="icon" type="image/png" sizes="196x196" href="/assets/favicon/{{ icon }}x{{ icon }}.png">
+    <link rel="icon" type="image/png" sizes="{{ icon }}x{{ icon }}" href="/assets/favicon/{{ icon }}x{{ icon }}.png">
     <link rel="apple-touch-icon" sizes="{{ icon }}x{{ icon }}" href="/assets/favicon/{{ icon }}x{{ icon }}.png">
     {% endfor %}
 
