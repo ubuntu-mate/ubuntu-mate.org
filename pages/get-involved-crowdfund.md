@@ -56,7 +56,7 @@ Between 2014 and 2017, your generosity helped pay for:
 * Dedicated servers
 * Prizes for community competitors
 * Getting Wimpy to UbuCon Europe 2016
-* A reasonably-priced beverage to celebrate the release of 15.10 :wine:
+* A reasonably-priced beverage to celebrate the release of 15.10 :wine_glass:
 
 To show how a small donation can go a long way, let's look at how we funded
 two Raspberry Pi 3's for development, costing £62.90 each. This breaks down to:
