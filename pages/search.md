@@ -1,8 +1,10 @@
 ---
 layout: search
-title: Search
 permalink: /search/
 lang: en
+
+title: Search
+
 ---
 
 Enter a few words to find pages and blog posts on this site.

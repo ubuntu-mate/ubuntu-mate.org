@@ -1,0 +1,77 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:18
+msgid ""
+"Back in October 2018 the Ubuntu MATE team released bespoke images of Ubuntu\n"
+"MATE 18.10 for the [GPD Pocket](https://www.gpd.hk/gpdpocket) and\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2) that included hardware specific\n"
+"tweaks to get these devices working *\"out of the box\"* without any faffing\n"
+"about. **Today we are releasing Ubuntu MATE 18.04.2 and Ubuntu MATE 19.04\n"
+"images for both devices**. Read on to find out more..."
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:22
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)](/images/blog/gpd-pockets-news.jpg)\n"
+"**Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD Pocket 2 (right)**"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:24
+msgid "# What's new?"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:26
+msgid "## Ubuntu MATE 18.04.2"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:30
+msgid ""
+"Thanks to the recent hardware enablement stack upgrade in Ubuntu it is now\n"
+"possible to create images based on Ubuntu MATE 18.04.2 for the GPD Pocket and\n"
+"GPD Pocket 2. [These images are final and available to download now!](/download/)"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:32
+msgid "## Ubuntu MATE 19.04"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:37
+msgid ""
+"The Ubuntu MATE 19.04 release is just days away, so we have also prepared\n"
+"Ubuntu MATE 19.04 Beta images for both devices. [Also availble for download now](/download/)\n"
+"and you can simply collect updates to get from the beta to final release on\n"
+"April 18th 2019."
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:39
+msgid "## Improvements"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:42
+msgid ""
+"Thanks to the feedback and contributions from the community, these are the\n"
+"improvement we've made since the Ubuntu MATE 18.10 images were created:"
+msgstr ""
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:48
+msgid ""
+"  * Frame buffer and Xorg display rotation now works with `modesetting` and `xorg-video-intel` display drivers.\n"
+"  * Enabled **TearFree rendering by default**.\n"
+"  * Updated touch screen rotation to support Xorg and Wayland.\n"
+"  * Enabled an **emulated mouse scroll wheel**, activated by holding down the right track point button and moving the trackpoint up/down.\n"
+"  * **GRUB is now usable post-install** for both devices!"
+msgstr ""

@@ -29,7 +29,7 @@
                     <a href="/faq/">{{ site.data.strings.faq }}</a>
                 </div>
                 <div class="social-links">
-                    {% assign links = "rss,launchpad,github,trello,irc,mastodon,twitter,facebook,youtube" | split: "," %}
+                    {% assign links = "rss,launchpad,github,trello,irc,mastodon,twitter,facebook" | split: "," %}
                     {% for link in links %}
                         <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
                     {% endfor %}
@@ -39,7 +39,7 @@
                     <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/edit/master/{{ page.path }}" class="external" rel="nofollow">{{ site.data.strings.edit_page }} {% include images/fa/external-link-alt.svg %}</a>
                     {% endif %}
 
-                    <a href="https://ubuntu-mate.community/t/21386" class="external" rel="nofollow">{{ site.data.strings.translate_site }} {% include images/fa/external-link-alt.svg %}</a>
+                    <a href="{{ site.translate }}" class="external" rel="nofollow">{{ site.data.strings.translate_site }} {% include images/fa/external-link-alt.svg %}</a>
                     <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/commits/master" class="external" rel="nofollow">{{ site.data.strings.recent_changes }} {% include images/fa/external-link-alt.svg %}</a>
                 </div>
             </div>

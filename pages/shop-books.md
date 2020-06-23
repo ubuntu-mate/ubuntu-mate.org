@@ -1,11 +1,13 @@
 ---
 layout: catalogue
-title: Books
 permalink: /shop/books/
 lang: en
 class: shop
 category: shop
-catalogue:
+
+title: Books
+
+catalogue: #noi18n
 
     - group: Books
       items:

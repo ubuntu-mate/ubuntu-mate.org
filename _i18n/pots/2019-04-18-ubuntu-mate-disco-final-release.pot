@@ -1,0 +1,239 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:17
+msgid ""
+"**Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug\n"
+"fixes and improved hardware support, *particularly for NVIDIA GPU owners*, then\n"
+"19.04 is for you. Oh yeah, we've also made [bespoke Ubuntu MATE 19.04 images for\n"
+"the GPD Pocket and GPD Pocket 2](/ports/umpcs/). Read on to learn more...**"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:22
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE 19.04](/images/blog/1904-final.png)\n"
+"**Ubuntu MATE 19.04 with the Mutiny layout**"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:24
+msgid "## What changed since the Ubuntu MATE 18.10 final release?"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:27
+msgid ""
+"Those of you who follow the desktop Linux news will know that\n"
+"upstream [MATE Desktop recently released version 1.22](https://mate-desktop.org/blog/2019-03-18-mate-1-22-released/)."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:34
+msgid ""
+"Let's rip that band-aid off and get this over quickly. Ubuntu MATE 19.04\n"
+"is shipping with MATE Desktop 1.20. Albeit, the latest maintenance release of\n"
+"MATE Desktop 1.20 with some of the bug fixes and new features from MATE\n"
+"Desktop 1.22 included. In fact, the version of MATE Desktop being shipped in\n"
+"19.04 is derived from the same MATE packages that will feature in the upcoming\n"
+"[Debian 10 (Buster)](https://wiki.debian.org/DebianBuster) release."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:41
+msgid ""
+"You may be wondering why we're not shipping MATE Desktop 1.22?\n"
+"The answer, stability. MATE Desktop 1.22 introduces some underlying API\n"
+"changes in core components and while all first party MATE Desktop\n"
+"applications are compatible with the changes and completely stable, some\n"
+"third party applications are not. Some third party applications are big\n"
+"crashers now and we've not been able to fix them in time."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:45
+msgid ""
+"So, we are playing it safe and sticking with MATE Desktop 1.20 and working\n"
+"with upstreams so we can land MATE Desktop 1.22 early in the Ubuntu MATE\n"
+"19.10 development cycle."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:47
+msgid "### NVIDIA Drivers"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:53
+msgid ""
+"During the Ubuntu 18.10 development cycle the Linux kernel, firmware,\n"
+"Mesa and Vulkan were all updated to ensure we offered the best possible\n"
+"support for sipping AMD GPUs. During the 19.04 cycle AMD support has\n"
+"been uplifted again but we have also improved the *\"out of box\"* experience\n"
+"for NVIDIA GPU owners too."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:57
+msgid ""
+"If you have an NVIDIA GPU connected to your computer and select\n"
+"*Install third-party software for graphics and Wi-Fi hardware* during\n"
+"installation, the NVIDIA proprietary drivers will be installed."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:60
+msgid ""
+"{:.center}\n"
+"![Third party drivers](/images/blog/disco/select-third-party-drivers.png)"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:65
+msgid ""
+"Post install, the proprietary NVIDIA drivers are installed and configured. To\n"
+"confirm this, open a terminal and run `nvidia-smi`. Ubuntu MATE users with\n"
+"laptops that support hybrid graphics will see the MATE Optimus hybrid graphics\n"
+"applet displaying the NVIDIA logo."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:68
+msgid ""
+"{:.center}\n"
+"![MATE Optimus - hybrid graphics switcher](/images/blog/disco/mate-optimus-indicator.png)"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:71
+msgid "### MATE Dock Applet"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:76
+msgid ""
+"[MATE Dock Applet](https://github.com/robint99/mate-dock-applet) has been\n"
+"updated to 0.88 which introduces some new visual options, based on\n"
+"the look of the Unity desktop. As seen in the screenshot at the start of this\n"
+"post, this has been used in the Mutiny layout to further mimic Unity 7."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:78
+msgid "### Remote Desktop Awareness"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:88
+msgid ""
+"Our MATE Desktop 1.20 packages ship with patches to support\n"
+"[Remote Desktop Awareness (RDA)](https://github.com/ArcticaProject/librda). RDA\n"
+"makes MATE Desktop more aware of its execution context so that it behaves\n"
+"differently when run inside a remote desktop session compared to when running\n"
+"on local hardware. Different remote technology solutions support different\n"
+"features and they can now be queried from within MATE components. The inclusion\n"
+"of RDA offers the option to suspend your remote connection; supports folder\n"
+"sharing in Caja; MIME type bindings for SSHFS shares and allows session suspension\n"
+"via the MATE screensaver."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:90
+msgid "### GPD Pocket"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:96
+msgid ""
+"Alongside the generic image for 64-bit Intel PCs, we're also releasing bespoke\n"
+"images for the [GPD Pocket](https://www.gpd.hk/gpdpocket) and\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2). These include hardware\n"
+"specific tweaks to get these devices working *\"out of the box\"*\n"
+"without any faffing about. [See our GPD Pocket page for more details](/ports/umpcs/)."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:98
+msgid "## Major Applications"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:101
+msgid ""
+"Accompanying **MATE Desktop 1.20.4** and **Linux 5.0.0** are **Firefox\n"
+"66.0.3**, **VLC 3.0.6**, **LibreOffice 6.2.2.2** and **Thunderbird 60.6.1**."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:104
+msgid ""
+"{:.center}\n"
+"![Major Applications](/images/blog/disco/versions.png)"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:108
+msgid ""
+"See the [Ubuntu 19.04 Release\n"
+"Notes](https://wiki.ubuntu.com/DiscoDingo/ReleaseNotes) for details of all\n"
+"the changes and improvements in Ubuntu that Ubuntu MATE benefits from."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:117
+msgid "## Upgrading from Ubuntu MATE 18.04 or 18.10"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:125
+msgid ""
+"  * Open the \"Software & Updates\" from the Control Center.\n"
+"  * Select the 3rd Tab called \"Updates\".\n"
+"  * Set the \"Notify me of a new Ubuntu version\" dropdown menu to \"For any new version\".\n"
+"  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c` into the command box.\n"
+"  * Update Manager should open up and tell you: New distribution release '19.04' is available.\n"
+"    * If not, you can use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`\n"
+"  * Click \"Upgrade\" and follow the on-screen instructions."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:127
+msgid "## Known Issues"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:129
+msgid "Here are the known issues."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:131
+msgid "### Ubuntu MATE"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:133
+msgid "  * Nothing significant."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:135
+msgid "### Ubuntu family issues"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:137
+msgid "This is our known list of bugs that affects all flavours."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:142
+msgid ""
+"  * When [selecting third-party drivers during install causes a long pause before the install proceeds](https://pad.lv/1824905).\n"
+"    * This is the `ubuntu-drivers` tool refreshing it's cache. Please wait a couple of minutes and the install will continue normally.\n"
+"  * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)\n"
+"    * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:145
+msgid ""
+"You'll also want to check the Ubuntu MATE bug tracker to see what has already\n"
+"been reported. These issues will be addressed in due course."
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:147
+msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:149
+msgid "## Feedback"
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:152
+msgid ""
+"Is there anything you can help with or want to be involved in? Maybe you just\n"
+"want to discuss your experiences or ask the maintainers some questions. Please\n"
+"[come and talk to us](https://ubuntu-mate.community/)."
+msgstr ""

@@ -1,0 +1,78 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/get-involved-spread-word.md:9
+msgid "title: Spread the Word"
+msgstr ""
+
+#: pages/get-involved-spread-word.md:13
+msgid "## Spread the Word"
+msgstr ""
+
+#: pages/get-involved-spread-word.md:18
+msgid ""
+"We hope you love Ubuntu MATE as much as we do! If you do, we'd love for you to\n"
+"share that excitement with others. Be creative! Put more green in your wardrobe.\n"
+"When someone asks if you like coffee or tea, mention how you prefer MATE or\n"
+"Ubuntu MATE. Here's a few other ideas."
+msgstr ""
+
+#: pages/get-involved-spread-word.md:20
+msgid "### Social Media"
+msgstr ""
+
+#: pages/get-involved-spread-word.md:26
+msgid ""
+"This is definitely the easiest way to introduce your family, friends, and\n"
+"random followers to Ubuntu MATE. Share a post from our [blog](/blog/). Follow\n"
+"us at **[@ubuntumate](https://twitter.com/ubuntu_mate)**\n"
+"and let our informative, GIF-filled posts inspire you to hit the 'Like' (and\n"
+"maybe even the 'Retweet') button."
+msgstr ""
+
+#: pages/get-involved-spread-word.md:31
+msgid ""
+"Talk about Ubuntu MATE on your favorite IRC,\n"
+"Mastodon, and Telegram groups, or your favorite Linux forum. Post an\n"
+"influencer-worthy pic of your home office on Instagram, and use a filter to make\n"
+"that green login screen pop. Make a Tik-Tok video so we all become Internet-famous."
+msgstr ""
+
+#: pages/get-involved-spread-word.md:33
+msgid "### Merchandise"
+msgstr ""
+
+#: pages/get-involved-spread-word.md:39
+msgid ""
+"Sometimes, spreading the word doesn't take any words at all! A stylish Ubuntu\n"
+"MATE polo, T-shirt, or hoodie can tell your friends, family, and coworkers you're\n"
+" smart in your fashion AND Linux distro choices. Your morning cup of caffeine\n"
+" can get you through your day and help spark a conversation. Find all these\n"
+" goodies at our [shop](/shop/)."
+msgstr ""
+
+#: pages/get-involved-spread-word.md:41
+msgid "### Reviews"
+msgstr ""
+
+#: pages/get-involved-spread-word.md:47
+msgid ""
+"Finally, one of the most useful ways of introducing people to Ubuntu MATE are\n"
+"through members of the Linux community who give helpful and honest reviews of\n"
+"Ubuntu MATE's strengths and weaknesses. We're fortunate to have a strong\n"
+"reviewing community, and you can see some of these reviews on our\n"
+"[Testimonials](/about/testimonials/) page. Community feedback has always helped\n"
+"us improve Ubuntu MATE, and we're excited to hear from new voices with new insights."
+msgstr ""

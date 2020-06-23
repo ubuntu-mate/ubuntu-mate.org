@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Project Questions
 permalink: /faq/project/
 lang: en
 class: faq
 sidebar: faq
+
+title: Project Questions
+
 ---
 
 # FAQs
@@ -15,19 +17,28 @@ here.
 {% include partials/toc.html %}
 
 ### What is Ubuntu MATE exactly?
+
 See our [What is Ubuntu MATE?](/about/) page.
 
+
 ### Is Ubuntu MATE an official Canonical project?
+
 No, it is an Ubuntu community project.
 
+
 ### OK, so who is behind Ubuntu MATE?
+
 Take a look at [our team page](/about/team/) to see the all-star cast who have
 made Ubuntu MATE possible.
 
+
 ### Is Ubuntu MATE an official Ubuntu “flavour”?
+
 Yes.
 
+
 ### Why is xyz application installed by default when I prefer abc application?
+
 In general, the default application selection follows what shipped in Ubuntu.
 The only reason we deviate from the default Ubuntu applications is if they are
 not compatible with Ubuntu MATE or pull in lots of unnecessary dependencies.
@@ -36,8 +47,11 @@ The reason for using the default applications as shipped by Ubuntu is that they
 are supported by the Ubuntu Desktop team. The Ubuntu MATE team is rather small
 so sharing the support responsibility makes sense, both for us and our users.
 
+
 ### Why is xyz application installed default when abc application is better?
+
 See the answer to the question above.
+
 
 ### Will Ubuntu MATE run on my computer?
 If you have a computer from [Entroware](https://www.entroware.com/store/),
@@ -54,7 +68,9 @@ designed during the Windows XP era, can easily be outfitted with the new, modern
 and fully-supported Ubuntu MATE and it will likely run better than it did with
 the previously installed operating system.
 
+
 ### Can I use iTunes on Ubuntu MATE?
+
 No. This is one of those programs that is specifically designed by Apple NOT to
 run on Linux. Although macOS has its roots in the same UNIX philosophy as Linux,
 macOS is not the same as Linux, and applications written for Apple’s operating
@@ -64,7 +80,9 @@ music, create play lists, sync with mobile devices, and retrieve, manage and
 play podcasts. Rythmbox is provided with Ubuntu MATE and can play any of the
 music or podcasts in your iTunes library.
 
+
 ### Is Ubuntu MATE secure and safe to use?
+
 Ubuntu MATE is designed with security in mind. Unlike operating systems that
 update only once a month, Ubuntu MATE receives updates continuously. The updates
 include security patches for Ubuntu MATE and all of its components. Security
@@ -89,7 +107,9 @@ based on what the file is, not based on its name. So even if a malicious program
  to provide your administrator password before that permission is granted.
  Every single time.
 
+
 ### Can Ubuntu MATE get computer viruses and malware?
+
 Ubuntu MATE can get viruses and other infections… but it doesn’t. Rapid and
 timely updates ensure that there are very few, if any threats to Linux systems
 like Ubuntu MATE that persist in the wild. In reality, there have been very few
@@ -100,7 +120,9 @@ other malware to be installed and run without conscious intervention by you,
 the user. Even if you do accidentally invite in an infection, chances are
 it’s designed to attack Windows and won’t do much, if any damage to Ubuntu MATE.
 
+
 ### How can Ubuntu MATE be free?
+
 What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source.
 Open Source software is software that can be freely used, changed, and shared
 (in modified or unmodified form) by anyone. In a nutshell Ubuntu MATE is free,
@@ -126,9 +148,13 @@ and Ubuntu MATE improves as a result.
 This is how we can continually improve and grow without having to charge our
 users money.
 
+
 ### I’ve got a question. Where do I ask?
+
 Ask the [Ubuntu MATE community](/community/).
 
+
 ### What has Ubuntu MATE got planned for the future?
+
 Hopefully our [roadmap](/faq/roadmap/) outlines some of what we have planned.
 If you have any ideas yourself, we’d love to hear from you.

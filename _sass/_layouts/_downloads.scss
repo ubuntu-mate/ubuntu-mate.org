@@ -199,10 +199,13 @@
     }
 }
 
-.choose-alt-download {
-    text-align: center;
-    margin: 10px 0;
+#post-download-link {
+    .retry {
+        font-size: 0.9em;
+    }
+}
 
+.choose-alt-download {
     svg {
         height: 20px;
         width: 20px;

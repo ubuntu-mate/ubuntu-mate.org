@@ -1,0 +1,350 @@
+[main]
+host = https://www.transifex.com
+
+[ubuntu-mate-org.403]
+file_filter = _i18n/<lang>/403.po
+source_file = _i18n/pots/403.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.404]
+file_filter = _i18n/<lang>/404.po
+source_file = _i18n/pots/404.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.about]
+file_filter = _i18n/<lang>/about.po
+source_file = _i18n/pots/about.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.blog]
+file_filter = _i18n/<lang>/blog.po
+source_file = _i18n/pots/blog.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.download-table]
+file_filter = _i18n/<lang>/download-table.po
+source_file = _i18n/pots/download-table.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.download]
+file_filter = _i18n/<lang>/download.po
+source_file = _i18n/pots/download.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-burn-disc]
+file_filter = _i18n/<lang>/faq-burn-disc.po
+source_file = _i18n/pots/faq-burn-disc.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-downloads]
+file_filter = _i18n/<lang>/faq-downloads.po
+source_file = _i18n/pots/faq-downloads.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-project]
+file_filter = _i18n/<lang>/faq-project.po
+source_file = _i18n/pots/faq-project.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-roadmap]
+file_filter = _i18n/<lang>/faq-roadmap.po
+source_file = _i18n/pots/faq-roadmap.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-usbimage]
+file_filter = _i18n/<lang>/faq-usbimage.po
+source_file = _i18n/pots/faq-usbimage.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-verify-quick]
+file_filter = _i18n/<lang>/faq-verify-quick.po
+source_file = _i18n/pots/faq-verify-quick.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq-verify-secure]
+file_filter = _i18n/<lang>/faq-verify-secure.po
+source_file = _i18n/pots/faq-verify-secure.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.faq]
+file_filter = _i18n/<lang>/faq.po
+source_file = _i18n/pots/faq.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.features-boutique]
+file_filter = _i18n/<lang>/features-boutique.po
+source_file = _i18n/pots/features-boutique.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.features-mate]
+file_filter = _i18n/<lang>/features-mate.po
+source_file = _i18n/pots/features-mate.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.features-panel]
+file_filter = _i18n/<lang>/features-panel.po
+source_file = _i18n/pots/features-panel.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.features-welcome]
+file_filter = _i18n/<lang>/features-welcome.po
+source_file = _i18n/pots/features-welcome.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.features]
+file_filter = _i18n/<lang>/features.po
+source_file = _i18n/pots/features.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.funding-cancelled]
+file_filter = _i18n/<lang>/funding-cancelled.po
+source_file = _i18n/pots/funding-cancelled.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.funding-success]
+file_filter = _i18n/<lang>/funding-success.po
+source_file = _i18n/pots/funding-success.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.funding]
+file_filter = _i18n/<lang>/funding.po
+source_file = _i18n/pots/funding.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-artwork]
+file_filter = _i18n/<lang>/get-involved-artwork.po
+source_file = _i18n/pots/get-involved-artwork.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-bug-fixing]
+file_filter = _i18n/<lang>/get-involved-bug-fixing.po
+source_file = _i18n/pots/get-involved-bug-fixing.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-bug-triage]
+file_filter = _i18n/<lang>/get-involved-bug-triage.po
+source_file = _i18n/pots/get-involved-bug-triage.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-community-support]
+file_filter = _i18n/<lang>/get-involved-community-support.po
+source_file = _i18n/pots/get-involved-community-support.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-crowdfund]
+file_filter = _i18n/<lang>/get-involved-crowdfund.po
+source_file = _i18n/pots/get-involved-crowdfund.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-development]
+file_filter = _i18n/<lang>/get-involved-development.po
+source_file = _i18n/pots/get-involved-development.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-guidelines-design]
+file_filter = _i18n/<lang>/get-involved-guidelines-design.po
+source_file = _i18n/pots/get-involved-guidelines-design.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-spread-word]
+file_filter = _i18n/<lang>/get-involved-spread-word.po
+source_file = _i18n/pots/get-involved-spread-word.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-status-active]
+file_filter = _i18n/<lang>/get-involved-status-active.po
+source_file = _i18n/pots/get-involved-status-active.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-status-backlog]
+file_filter = _i18n/<lang>/get-involved-status-backlog.po
+source_file = _i18n/pots/get-involved-status-backlog.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-status-completed]
+file_filter = _i18n/<lang>/get-involved-status-completed.po
+source_file = _i18n/pots/get-involved-status-completed.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-testing-qa]
+file_filter = _i18n/<lang>/get-involved-testing-qa.po
+source_file = _i18n/pots/get-involved-testing-qa.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved-translations]
+file_filter = _i18n/<lang>/get-involved-translations.po
+source_file = _i18n/pots/get-involved-translations.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.get-involved]
+file_filter = _i18n/<lang>/get-involved.po
+source_file = _i18n/pots/get-involved.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.history]
+file_filter = _i18n/<lang>/history.po
+source_file = _i18n/pots/history.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.index]
+file_filter = _i18n/<lang>/index.po
+source_file = _i18n/pots/index.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.irc]
+file_filter = _i18n/<lang>/irc.po
+source_file = _i18n/pots/irc.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.old-link]
+file_filter = _i18n/<lang>/old-link.po
+source_file = _i18n/pots/old-link.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.ports-raspberry-pi-change-log]
+file_filter = _i18n/<lang>/ports-raspberry-pi-change-log.po
+source_file = _i18n/pots/ports-raspberry-pi-change-log.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.ports-raspberry-pi]
+file_filter = _i18n/<lang>/ports-raspberry-pi.po
+source_file = _i18n/pots/ports-raspberry-pi.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.ports-umpc]
+file_filter = _i18n/<lang>/ports-umpc.po
+source_file = _i18n/pots/ports-umpc.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.ports]
+file_filter = _i18n/<lang>/ports.po
+source_file = _i18n/pots/ports.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.requirements]
+file_filter = _i18n/<lang>/requirements.po
+source_file = _i18n/pots/requirements.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.search]
+file_filter = _i18n/<lang>/search.po
+source_file = _i18n/pots/search.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.shop-apparel]
+file_filter = _i18n/<lang>/shop-apparel.po
+source_file = _i18n/pots/shop-apparel.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.shop-books]
+file_filter = _i18n/<lang>/shop-books.po
+source_file = _i18n/pots/shop-books.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.shop-computers]
+file_filter = _i18n/<lang>/shop-computers.po
+source_file = _i18n/pots/shop-computers.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.shop]
+file_filter = _i18n/<lang>/shop.po
+source_file = _i18n/pots/shop.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.team]
+file_filter = _i18n/<lang>/team.po
+source_file = _i18n/pots/team.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.testimonials]
+file_filter = _i18n/<lang>/testimonials.po
+source_file = _i18n/pots/testimonials.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.2019-03-28-ubuntu-mate-disco-beta]
+file_filter = _i18n/<lang>/2019-03-28-ubuntu-mate-disco-beta.po
+source_file = _i18n/pots/2019-03-28-ubuntu-mate-disco-beta.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.2019-03-29-ubuntu-mate-bionic-raspberry-pi]
+file_filter = _i18n/<lang>/2019-03-29-ubuntu-mate-bionic-raspberry-pi.po
+source_file = _i18n/pots/2019-03-29-ubuntu-mate-bionic-raspberry-pi.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.2019-04-08-ubuntu-mate-update-for-gpd-pocket]
+file_filter = _i18n/<lang>/2019-04-08-ubuntu-mate-update-for-gpd-pocket.po
+source_file = _i18n/pots/2019-04-08-ubuntu-mate-update-for-gpd-pocket.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.2019-04-18-ubuntu-mate-disco-final-release]
+file_filter = _i18n/<lang>/2019-04-18-ubuntu-mate-disco-final-release.po
+source_file = _i18n/pots/2019-04-18-ubuntu-mate-disco-final-release.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.2019-10-18-ubuntu-mate-eoan]
+file_filter = _i18n/<lang>/2019-10-18-ubuntu-mate-eoan.po
+source_file = _i18n/pots/2019-10-18-ubuntu-mate-eoan.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.2020-04-02-ubuntu-mate-focal]
+file_filter = _i18n/<lang>/2020-04-02-ubuntu-mate-focal.po
+source_file = _i18n/pots/2020-04-02-ubuntu-mate-focal.pot
+source_lang = en
+type = PO

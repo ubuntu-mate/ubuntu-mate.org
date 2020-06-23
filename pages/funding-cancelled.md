@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Cancelled Donation
 permalink: /funding/cancelled/
 lang: en
 class: funding
+
+title: Cancelled Donation
+
 ---
 
 #### You cancelled your donation.
@@ -17,8 +19,10 @@ helping to cover our hosting costs and reward contributors to the project.
 
 
 {% include blog/jumbotron.html
+
     title = "Oh well!"
     text = "Strapped for cash? Yeah, we understand. Stop by and donate when you can spare the money."
     button_text = "Back to the homepage"
     button_url = "/"
+
 %}

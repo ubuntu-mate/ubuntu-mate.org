@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Software Development
 permalink: /get-involved/development/
 lang: en
 class: get-involved
 sidebar: get-involved
+
+title: Software Development
+
 ---
 
 ## Software Development

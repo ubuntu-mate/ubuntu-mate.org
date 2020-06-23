@@ -1,11 +1,13 @@
 ---
 layout: catalogue
-title: Desktops & Laptops
 permalink: /shop/computers/
 lang: en
 class: shop
 category: shop
-catalogue:
+
+title: Desktops & Laptops
+
+catalogue: #noi18n
 
     - group: Laptops
       items:

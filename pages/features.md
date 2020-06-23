@@ -1,10 +1,12 @@
 ---
 layout: feature-grid
-title: Features
 permalink: /features/
 lang: en
 class: features
 category: features
+
+title: Features
+
 ---
 
 ## So, what's under the hood?

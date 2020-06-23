@@ -33,7 +33,7 @@ To install gem dependencies for the project;
 
 Some additional packages are needed to build the project:
 
-    sudo apt install python3-yaml transmission-cli
+    sudo apt install python3-yaml transmission-cli python3-polib
 
 To watch for changes locally:
 

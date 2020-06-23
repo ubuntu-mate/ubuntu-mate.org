@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Preparing a USB Image
 permalink: /faq/usb-image/
 lang: en
 class: faq
 sidebar: faq
+
+title: Preparing a USB Image
+
 ---
 
 ## What is bootable media?

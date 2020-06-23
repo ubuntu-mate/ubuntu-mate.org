@@ -58,6 +58,7 @@ exclude:
     - vendor
     - .git
     - .github
+    - .tx
 
 # Network URLs
 launchpad: "https://launchpad.net/ubuntu-mate"
@@ -66,15 +67,13 @@ irc: "/irc/"
 trello: "https://trello.com/ubuntumatedevelopers"
 facebook: "https://www.facebook.com/UbuntuMATEedition/"
 twitter: "https://twitter.com/ubuntu_mate"
-youtube: "https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ/"
 mastodon: "https://ubuntu.social/@ubuntumate"
 rss: "/rss.xml"
 discourse: "https://ubuntu-mate.community"
+translate: "https://www.transifex.com/ubuntu-mate/ubuntu-mate-org"
 
 # i18n
-languages: [
-    "en"
-]
+languages: ["en"]
 default_lang: "en"
 exclude_from_localization: [
     "assets",

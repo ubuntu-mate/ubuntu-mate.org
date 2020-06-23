@@ -159,17 +159,43 @@
 
     li {
         width: 100%;
+        min-width: 150px;
 
-        a {
+        .nav-btn {
             color: $text-colour-dark;
-        }
 
-        .checked::after {
-            content: "●";
-            position: absolute;
-            right: 15px;
-            font-size: 20px;
-            line-height: 20px;
+            &.checked {
+                background: lighten($ubuntu-mate-light, 5%);
+                color: $text-colour-light;
+
+                svg path {
+                    fill: $text-colour-light;
+                }
+
+                &::after {
+                    content: " ";
+                    background: $text-colour-light;
+                    border-radius: 50%;
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    top: 20px;
+                    right: 20px;
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+            }
+
+            &:hover,
+            &:focus {
+                background: lighten($ubuntu-mate-light, 10%);
+                color: $text-colour-light;
+                text-decoration: none;
+
+                svg path {
+                    fill: $text-colour-light;
+                }
+            }
         }
     }
 }
@@ -223,7 +249,7 @@
 
     .primary-nav {
         display: none;
-        background: $text-colour-light;
+        background: $background;
         border: $dropdown-border;
         box-shadow: $dropdown-shadow;
         position: fixed;
@@ -234,10 +260,28 @@
         flex-wrap: wrap;
 
         li {
+            position: relative;
             width: 50%;
 
             a {
                 color: $text-colour-dark;
+
+                &.active {
+                    color: $text-colour-light;
+
+                    &::after {
+                        content: " ";
+                        position: absolute;
+                        background: $text-colour-light;
+                        border-radius: 50%;
+                        height: 10px;
+                        width: 10px;
+                        top: 20px;
+                        right: 20px;
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                }
             }
         }
     }
@@ -249,7 +293,7 @@
             }
 
             ~ li #primary-nav-mobile {
-                background: $text-colour-light;
+                background: $background;
                 padding-bottom: 20px;
 
                 svg path {

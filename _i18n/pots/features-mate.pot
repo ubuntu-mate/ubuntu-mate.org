@@ -1,0 +1,58 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/features-mate.md:14
+msgid "title: MATE Desktop | Features"
+msgstr ""
+
+#: pages/features-mate.md:19
+msgid ""
+"main_image_alt: Screenshot of the MATE dialog\n"
+"main_title: The traditional desktop\n"
+"main_subtitle: New to some, a classic to others.\n"
+"main_text: >-"
+msgstr ""
+
+#: pages/features-mate.md:22
+msgid ""
+"    MATE is an intuitive attractive desktop using traditional\n"
+"    metaphors."
+msgstr ""
+
+#: pages/features-mate.md:24
+msgid ""
+"    The legacy of GNOME 2 continues to be modern, lightweight and fast."
+msgstr ""
+
+#: pages/features-mate.md:28
+msgid ""
+"left_image_alt: Screenshot of cascaded MATE application windows\n"
+"left_title: The Essentials\n"
+"left_subtitle: Conventional applications such as a text editor, image viewer and archive utility."
+msgstr ""
+
+#: pages/features-mate.md:32
+msgid ""
+"middle_image_alt: Screenshot of home folder\n"
+"middle_title: Caja File Manager\n"
+"middle_subtitle: Perform file management tasks with ease."
+msgstr ""
+
+#: pages/features-mate.md:36
+msgid ""
+"right_image_alt: Screenshot of sound indicator\n"
+"right_title: Modern Indicators\n"
+"right_subtitle: Preconfigured to provide convenient features (for supported applications)"
+msgstr ""

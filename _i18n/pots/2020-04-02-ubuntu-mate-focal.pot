@@ -1,0 +1,699 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:23
+msgid ""
+"Ubuntu MATE 20.04 LTS represents 2 years :sweat_drops: of continued improvement\n"
+"to [MATE Desktop](https://mate-desktop.org) and Ubuntu MATE itself. For Ubuntu\n"
+"MATE 19.10 we [focused on addressing as many *\"paper-cut\"* issues as possible](/blog/ubuntu-mate-19-10-eoan-ermine-release/).\n"
+"That was a hugely successful :tada: initiative, the community feedback was\n"
+"overwhelmingly positive :chart_with_upwards_trend: and that is reflected in\n"
+"adoption; **the Ubuntu MATE 19.10 interim release is our most actively used\n"
+"interim release to date!** :champagne: This was only possible thanks to\n"
+"dedicated group of QA testers [joining the Ubuntu MATE team](/about/team/)\n"
+"and coordinating with developers to highlight :flashlight: where attention was\n"
+"needed."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:29
+msgid ""
+"Recognising that we're on to a good thing, :thumbsup: we've repeated this\n"
+"trick for Ubuntu MATE 20.04 LTS by once again by focusing :eyes:\n"
+"on the pain points our community is most vocal :loudspeaker: about. You'll\n"
+"find details of everything we've improved or fixed since 19.10 plus a summary\n"
+"of what's changed since 18.04 below :point_down:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:37
+msgid ""
+"**I'd like to extend my sincere thanks to everyone who has played an active role\n"
+"in improving Ubuntu MATE for this LTS release :clap: From reporting bugs,\n"
+"submitting translations, providing patches, contributing to our crowd funding,\n"
+"developing new features, creating artwork, offering community support, actively\n"
+"testing and providing QA feedback to writing documentation or creating this\n"
+"fabulous website. Thank you! Thank you all for getting out there and making a\n"
+"difference!** :green_heart:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:41
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE 20.04 Desktop](/images/blog/focal/focal-fossa-desktop.png)\n"
+"**Ubuntu MATE 20.04 - Welcome now offers a few buckets of paint!**"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:43
+msgid "## What changed since the Ubuntu MATE 18.04 LTS?"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:48
+msgid ""
+"Those of you who follow the desktop Linux news will know that\n"
+"upstream [MATE Desktop recently released version 1.24](https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/).\n"
+"Ubuntu MATE 20.04 is shipping with MATE Desktop 1.24. Thus, all of the\n"
+"improvements in MATE Desktop 1.24 are present in Ubuntu MATE 20.04 LTS."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:50
+msgid "**Since the last LTS we worked on the following**:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:67
+msgid ""
+"  * Added multiple coloured theme variations :art: as one-click installs for those of you who simply don't like Chelsea Cucumber :cucumber:\n"
+"  * Added *experimental* ZFS :file_folder: install option.\n"
+"  * Added GameMode :video_game: from [Feral Interactive](https://github.com/FeralInteractive/gamemode).\n"
+"  * Fixed several crashers :bomb: in Brisk Menu and added keyboard :keyboard: navigation.\n"
+"  * Fixed panel layout switching :hammer_and_wrench: which is now stable and reliable via MATE Tweak Tweak and Ubuntu MATE Welcome.\n"
+"  * Fixed rendering window controls on HiDPI :mag: displays.\n"
+"  * Fixed irregular icon sizes :straight_ruler: in MATE Control Center and made them render nicely on HiDPI displays.\n"
+"  * Fixed unresponsive Caja :file_folder: extensions.\n"
+"  * Fixed `mate-power-manager` :electric_plug: to use upower-glib `get_devices2()`.\n"
+"  * Fixed unresponsive Pluma :notebook: plugins.\n"
+"  * Fixed a crasher :bomb: in MATE Dock Applet due to an Attribute error in `adjust_minimise_pos()`.\n"
+"  * Fixed auto-start errors in `mate-session-manager`.\n"
+"  * Fixed saving/restoring custom panel layouts via MATE Tweak.\n"
+"  * Gave Ubuntu MATE Welcome a fresh coat of :paintbrush:.\n"
+"  * Updated the Ubuntu MATE Guide :question:\n"
+"  * Updated the Ubiquity Slideshow :performing_arts:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:69
+msgid "## Firmware updater"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:71
+msgid "We've add a GTK front end for `fwupd`; this application can:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:76
+msgid ""
+"  * Upgrade, Downgrade, & Reinstall firmware on devices supported by [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/).\n"
+"  * Unlock locked `fwupd` devices.\n"
+"  * Verify firmware on supported devices.\n"
+"  * Display all releases for a `fwupd` device."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:80
+msgid ""
+"{:.center}\n"
+"![Firmware](/images/blog/focal/firmware.png)\n"
+"**Ubuntu MATE 20.04 - Features an LVFS compatible Firmware management utility**"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:82
+msgid "### Window Manager improvements"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:85
+msgid ""
+"Marco is the Window Manager for MATE Desktop and in Ubuntu MATE 20.04\n"
+"it brings a number of new features and fixes."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:92
+msgid ""
+"**XPresent support is properly fixed**, which means that **screen tearing is now\n"
+"a thing of the past** and **invisible window corners are finally here!** Invisible\n"
+"window corners mean that windows can be easily resized :straight_ruler: without having to\n"
+"precisely grab the window corners. **HiDPI rendering improvements** fix a number\n"
+"of rendering problems that were present in various themes and components.\n"
+"**Most notably, windows controls are now HIDPI aware**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:98
+msgid ""
+"  * Magnus (see below) provides screen magnification\n"
+"  * Marco supports invisible windows borders\n"
+"  * Marco has improved <kbd>Alt</kbd> + <kbd>Tab</kbd> behaviour\n"
+"  * Marco is free from screen tearing\n"
+"  * Marco frame performance when gaming is further improved"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:100
+msgid "**Minimized Application Preview**"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:102
+msgid ""
+"Minimized applications in the window list now present a thumbnail preview."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:105
+msgid ""
+"{:.center}\n"
+"![Minimized Preview](/images/blog/focal/taskbar-preview.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:109
+msgid ""
+"**Alt+Tab navigation** makes it possible to\n"
+"traverse the application switcher via keyboard and mouse.\n"
+"<kbd>Alt</kbd> + <kbd>Tab</kbd>."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:112
+msgid ""
+"{:.center}\n"
+"![Alt-Tab Switcher](/images/blog/focal/alt-tab.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:115
+msgid ""
+"**Workspace Switcher** allows you to switch between workspaces using a the keyboard and mouse.\n"
+"<kbd>Alt</kbd> + <kbd>Tab</kbd> + <kbd>Ctrl</kbd>."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:118
+msgid ""
+"{:.center}\n"
+"![Workspace Switcher](/images/blog/focal/workspace-switcher.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:123
+msgid ""
+"**Compiz and Compton have been removed from the default Ubuntu MATE install**.\n"
+"The fundamental reasons for including them no longer exist.Only having one\n"
+"window manager to target means we can promptly deliver new features and minimise\n"
+"development effort. Which brings us to..."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:125
+msgid "### New Key-bindings"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:131
+msgid ""
+"The key-bindings for window tiling have only worked on full keyboards\n"
+":keyboard: with a 10-key pad. Few laptops :computer: have a 10-key pad and not\n"
+"all keyboards have a 10-key either. There are some well known key-bindings from\n"
+"other platforms that were not recognised in Ubuntu MATE. So, we've had a think\n"
+":think: and have come up with this:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:142
+msgid ""
+"  * **Maximise Window:** <kbd>Super</kbd> + <kbd>Up</kbd>\n"
+"  * **Restore Window:** <kbd>Super</kbd> + <kbd>Down</kbd>\n"
+"  * **Title Window right:** <kbd>Super</kbd> + <kbd>Right</kbd>\n"
+"  * **Title Window left:** <kbd>Super</kbd> + <kbd>Left</kbd>\n"
+"  * **Center Window:** <kbd>Alt</kbd> + <kbd>Super</kbd> + <kbd>c</kbd>\n"
+"  * **Title Window to upper right corner:** <kbd>Alt</kbd> + <kbd>Super</kbd> + <kbd>Right</kbd>\n"
+"  * **Title Window to upper left corner:** <kbd>Alt</kbd> + <kbd>Super</kbd> + <kbd>Left</kbd>\n"
+"  * **Title Window to lower right corner:** <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Super</kbd> + <kbd>Right</kbd>\n"
+"  * **Title Window to lower left Corner:** <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Super</kbd> + <kbd>Left</kbd>\n"
+"  * **Shade Window:** <kbd>Control</kbd> + <kbd>Alt</kbd> + <kbd>s</kbd>"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:146
+msgid ""
+"It is now possible to tile a window to all screen quadrants :triangular_ruler:\n"
+"using any keyboard form factor. We updated the application launcher\n"
+"key-bindings, some of these have existed in Ubuntu MATE for a while:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:156
+msgid ""
+"  * **Cycle external displays:** <kbd>Super</kbd> + <kbd>P</kbd>\n"
+"  * **Lock Screen:** <kbd>Super</kbd> + <kbd>L</kbd>\n"
+"  * **Screenshot a rectangle:** <kbd>Shift</kbd> + <kbd>PrintScr</kbd>\n"
+"  * **Open File Manager:** <kbd>Super</kbd> + <kbd>e</kbd>\n"
+"  * **Open Terminal:** <kbd>Super</kbd> + <kbd>T</kbd>\n"
+"  * **Open Control Center:** <kbd>Super</kbd> + <kbd>I</kbd>\n"
+"  * **Open Search:** <kbd>Super</kbd> + <kbd>S</kbd>\n"
+"  * **Open Task Manager:** <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Escape</kbd>\n"
+"  * **Open System Information:** <kbd>Super</kbd> + <kbd>Pause</kbd>"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:163
+msgid ""
+"The key-bindings compliment existing well established alternatives. So if\n"
+"<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> (Terminal) and\n"
+"<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> (Lock Screen) are ingrained in\n"
+"your muscle :muscle: memory 🧠 they are still available too. You can find all\n"
+"the keyboard shortcuts documented in the **Getting Started section of Ubuntu\n"
+"MATE Welcome**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:165
+msgid "### Brisk Menu"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:174
+msgid ""
+"[Brisk Menu](https://github.com/getsolus/brisk-menu) is under the Solus GitHub\n"
+"organisation, but it's been a couple of years since it had a new release. The\n"
+"Solus Project gave me administrative access :trident: to the Brisk Menu repo and I've\n"
+"made a new release. Thanks to the efforts of a couple of Ubuntu MATE\n"
+"contributors, several bug :bug: fixes have landed too, which includes\n"
+"**resolving frequent crashers :bomb: in Brisk Menu, preventing a scrollbar always\n"
+"appearing in the category column** of the menu, **silencing sounds firing as you\n"
+"rollover menu entries** and **adding keyboard :keyboard: navigation**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:176
+msgid "### MATE Panel"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:183
+msgid ""
+"MATE Panel has had a long-standing bug fixed that caused it to crash :boom: when\n"
+"the panel was reset or replaced. This was most noticeable when switching panel\n"
+"layouts via MATE Tweak and could result in the panel layout being left\n"
+"incomplete or entirely absent. This bug is now fixed! MATE Tweak has been\n"
+"updated to neatly integrate with with fixed MATE Panel behaviour so that\n"
+"**layout switching is now 100% reliable**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:185
+msgid "### Indicators"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:187
+msgid ""
+"A bug which resulted in **oversized icons in indicators is finally "
+"resolved**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:191
+msgid ""
+"{:.center .transparent}\n"
+"| ![Before](/images/blog/eoan/indicators-before.png) | ![After](/images/blog/eoan/indicators-after.png)\n"
+"| **Before** :poop: | **After** :heart_eyes:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:195
+msgid ""
+"However, it turned out some of the bugs were due to the icons :art: themselves.\n"
+"Over :100: icons have been refactored :paintbrush:️ to correct their resolutions or aspect\n"
+"ratio; as a result the panel and indicators both scale correctly."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:200
+msgid ""
+"A race condition that could result in **two network status icons being\n"
+"displayed is fixed**, and **when connected via VPN, lock icons are now\n"
+"overlayed on the Network Indicator**. The battery :battery: indicator is improved\n"
+"and now has a larger **charging symbol while charging**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:204
+msgid ""
+"We've **added the Date/Time Indicator and integrated it with MATE Desktop\n"
+"and it now replaces the MATE clock applet** which corrects the placement of\n"
+"the clock and session indicators."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:208
+msgid ""
+"We've finally addressed a long standing issue which has been around since\n"
+"Ubuntu MATE 14.10 🕸️: some of the monochrome symbolic icons used in the\n"
+"indicators were also used in applications. The presented a couple of issues:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:211
+msgid ""
+"  * In certain cases, you couldn't easily see the icons against the window base colour.\n"
+"  * The mix of monochrome and full colour icons in applications looked inconsistent."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:215
+msgid ""
+"This issue is now resolved; **monochrome symbolic icons are only used for\n"
+"indicators and full colour icons are used in the Control Center, Sound\n"
+"Preferences, Bluetooth, OSD, etc**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:217
+msgid "### MATE Window Applets"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:224
+msgid ""
+"[MATE Window Applets](https://github.com/ubuntu-mate/mate-window-applets)\n"
+"have received a number of bug fixes and new features from a community\n"
+"contributor. Window control icons now dynamically load from the currently\n"
+"selected theme, rather than requiring manual user configuration.\n"
+"**A number of bugs (including significant memory leaks) have also been\n"
+"resolved**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:226
+msgid "## Notification Center"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:231
+msgid ""
+"Ubuntu MATE 20.04 includes a **new Indicator that provides a \"notification\n"
+"center\"** :bell: We worked with the [upstream developer to add new features\n"
+"to indicator-notifications](https://github.com/trism/indicator-notifications)\n"
+"and integrate it with MATE Notifications Daemon."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:234
+msgid ""
+"{:.center}\n"
+"![Notification Settings](/images/blog/eoan/notification-settings.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:242
+msgid ""
+"We now have a **notification center that also offers a \"do not disturb\" :red_circle:\n"
+"feature**. When do not disturb is enabled, notifications will be muted and captured in the notification center for review. It's also\n"
+"**possible to blacklist some notifications**, so they are never stored by the\n"
+"notification center. I've created an icon theme for the notification center so\n"
+"it fits the look and feel of the default Ubuntu MATE theme. **Notification hints\n"
+"are also fixed** so any notifications supplying additional media, such as\n"
+"sounds or icons, now work."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:244
+msgid "## Evolution replaces Thunderbird"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:249
+msgid ""
+"The Ubuntu MATE development team discussed the pros and cons of switching the\n"
+"default mail :email: client in Ubuntu MATE to\n"
+"[Evolution](https://wiki.gnome.org/Apps/Evolution). Here is a summary of our\n"
+"assessment:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:255
+msgid ""
+"  * Thunderbird does not integrate as well with the desktop.\n"
+"    * For example, theme integration, font integration, compatibility with HUD (which is increasingly difficult to support in Thunderbird), notifications with action buttons, locale and spell checking.\n"
+"  * Evolution integrates well with MATE Desktop given that both use GTK3.\n"
+"  * **Evolution includes interoperability with LibreOffice**, for which Ubuntu MATE is already shipping the required components.\n"
+"  * Evolution has superior **integration with Google Mail and Exchange**, including calendar, contacts, tasks, and memos."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:259
+msgid ""
+"**Indicator Date/Time also integrates with Evolution**. It is fully functional,\n"
+"including all the features of creating new events or opening upcoming events from the\n"
+"indicator. Clicking on an individual day in the month displays the events for that day, etc."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:262
+msgid ""
+"{:.center}\n"
+"![Indicator Date Time](/images/blog/eoan/indicator-datetime.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:266
+msgid ""
+"For the many people who use web-mail exclusively, this change will have no\n"
+"impact, but for those who use desktop mail we feel these productivity :chart_with_upwards_trend:\n"
+"improvements are significant."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:271
+msgid ""
+"For those of you who love :two_hearts: Thunderbird and wish to continue using it, we will\n"
+"continue to offer Thunderbird in the Software Boutique for a one-click install.\n"
+"Likewise, Evolution is now in the Software Boutique, and can be installed/removed\n"
+"with one click."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:273
+msgid "## Magnus"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:279
+msgid ""
+"Most desktop environments are lacking a screen magnifier, which is an essential\n"
+"application for visually impaired :eyeglasses: computer users, as well as accurate\n"
+"graphical design or detail work. One of the reasons we ship Compiz in Ubuntu\n"
+"MATE is because it has an excellent screen magnifier and was our solution for\n"
+"people who need magnification :mag:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:282
+msgid ""
+"{:.center}\n"
+"![Magnus for zooming into the screen](/images/blog/eoan/magnus.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:288
+msgid ""
+"Martin and [Stuart Langridge](https://twitter.com/sil) collaborated\n"
+"to create [Magnus](https://kryogenix.org/code/magnus/); **a very simple\n"
+"desktop magnifier**, showing the area around the mouse pointer in a separate\n"
+"window magnified two, three, four, or five times. Magnus is now shipped :ship:\n"
+"by default in Ubuntu MATE 20.04."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:290
+msgid "## Ubuntu MATE Themes"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:295
+msgid ""
+"Dozens of theme-related bugs have been fixed. The Ubuntu MATE themes have\n"
+"been added to the `gtk-common-themes` used by snaps, **so snapped applications\n"
+"are now themed correctly for Ubuntu MATE users**. This change is already\n"
+"available all the way back to Ubuntu MATE 16.04."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:301
+msgid ""
+"The most noticeable resolved theme issues are **sensibly sized expanders in tree\n"
+"view** (they were so tiny) that are easily clickable,\n"
+"**window controls are correctly proportioned on CSD windows** and we've add a\n"
+"splash of Chelsea Cucumber :bug: to the Ubuntu MATE logo on the menu. Everything\n"
+"the QA team highlighted has been fixed :hammer:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:303
+msgid "## MATE Tweak and Ubuntu MATE Welcome"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:306
+msgid ""
+"MATE Tweak now **preserves user preferences when switching between custom\n"
+"layouts** thanks to a community contribution."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:313
+msgid ""
+"If you're familiar with MATE Tweak, you'll know it can switch panel layouts\n"
+"to somewhat mimic other platforms and distros 🐧 We have now integrated a\n"
+"graphical layout switcher in Ubuntu MATE Welcome to better promote the feature\n"
+"and make it more accessible. We have actually had this feature since 18.04, but\n"
+"the bugs in MATE Panel I mentioned earlier meant it didn't work. With all the\n"
+"associated panel bugs fixed :wrench: we now have this:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:316
+msgid ""
+"{:.center}\n"
+"![Desktop Layout Switcher](/images/blog/eoan/desktop-layout.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:318
+msgid "## NVIDIA drivers"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:324
+msgid ""
+"If you've been following the news surrounding Ubuntu you'll know that\n"
+"Ubuntu will be shipping :ship: the NVIDIA proprietary drivers on the ISO images.\n"
+"Anyone selecting the additional 3rd party hardware drivers during installation\n"
+"without an Internet connection will have the drivers available in offline\n"
+"scenarios."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:327
+msgid ""
+"Post-install, Ubuntu MATE users with computers that support hybrid graphics\n"
+"will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:330
+msgid ""
+"{:.center}\n"
+"![MATE Optimus](/images/blog/eoan/mate-optimus-19.10.1.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:337
+msgid ""
+"We have given MATE Optimus an update. MATE Optimus adds support for NVIDIA On-Demand\n"
+"and will now prompt users to log out when switching the GPU's profile. MATE, XFCE, Budgie,\n"
+"Cinnamon, GNOME, KDE and LXQt are all supported. Wrappers, called `offload-glx`\n"
+"& `offload-vulkan`, can be used to easily offload games/apps to the PRIME\n"
+"renderer. **I'm also delighted to see Ubuntu Budgie 20.04 are shipping MATE\n"
+"Optimus too!**"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:342
+msgid ""
+"The **NVIDIA drivers are now going to receive updates via the official\n"
+"Ubuntu software repository**. So no need to add a PPA to get updates and more\n"
+"importantly, **the NVIDIA drivers are signed (which is not supported for\n"
+"drivers distributed via PPA) so you can keep Secure Boot enabled.**"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:345
+msgid "### Remote Desktop Awareness"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:355
+msgid ""
+"Our MATE Desktop 1.24 packages ship support for\n"
+"[Remote Desktop Awareness (RDA)](https://github.com/ArcticaProject/librda). RDA\n"
+"makes MATE Desktop more aware of its execution context, so it behaves\n"
+"differently when run inside a remote desktop session compared to when running\n"
+"on local hardware. Different remote technology solutions support different\n"
+"features and they can now be queried from within MATE components. The inclusion\n"
+"of RDA offers the option to suspend your remote connection, supports folder\n"
+"sharing in Caja and MIME type bindings for SSHFS shares, and allows session suspension\n"
+"via the MATE screensaver."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:357
+msgid "## ZFS on root"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:360
+msgid ""
+"{:.center}\n"
+"![ZFS on Linux](/images/blog/eoan/zol-logo.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:366
+msgid ""
+"Support for ZFS as the root filesystem is added as an experimental feature in 20.04.\n"
+"The ZFS file system and partitioning layout is handled automatically directly via the\n"
+"installer. `zsys` was added in 20.04 which now takes system snapshots before significant\n"
+"installs or upgrades and inserts restore options into the GRUB bootloader menus should you\n"
+"need to recover."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:368
+msgid "You can read more details on Didier Roche's blogs:"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:371
+msgid ""
+"  * [Part 1 - Ubuntu ZFS support in 19.10: introduction](https://didrocks.fr/2019/08/06/ubuntu-zfs-support-in-19.10-introduction/)\n"
+"  * [Part 2 - Ubuntu ZFS support in 19.10: ZFS on root](https://didrocks.fr/2019/10/11/ubuntu-zfs-support-in-19.10-zfs-on-root/)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:373
+msgid "## Major Applications"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:376
+msgid ""
+"Accompanying **MATE Desktop 1.24.0** and **Linux 5.4** are **Firefox 75.0**,\n"
+"**Celluloid 0.18**, **LibreOffice 6.4.2.2** and **Evolution 3.36.1**."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:379
+msgid ""
+"{:.center}\n"
+"![Major Applications](/images/blog/focal/versions.png)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:383
+msgid ""
+"See the [Ubuntu 20.04 Release\n"
+"Notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes) for details of all\n"
+"the changes and improvements in Ubuntu that Ubuntu MATE benefits from."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:392
+msgid "## Upgrading from Ubuntu MATE 18.04 LTS or 19.10"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:396
+msgid ""
+"You can upgrade to Ubuntu 20.04 LTS from either Ubuntu MATE 18.04 LTS or Ubuntu\n"
+"19.10. Ensure that you have all updates installed for your current version of\n"
+"Ubuntu MATE before you upgrade."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:404
+msgid ""
+"  * Open the \"Software & Updates\" from the Control Center.\n"
+"  * Select the 3rd Tab called \"Updates\".\n"
+"  * Set the \"Notify me of a new Ubuntu version\" drop down menu to \"For long-term support versions\" if you are using 18.04 LTS; set it to \"For any new version\" if you are using 19.10.\n"
+"  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c -d` into the command box.\n"
+"  * Update Manager should open up and tell you: New distribution release '20.04' is available.\n"
+"    * If not, you can use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`\n"
+"  * Click \"Upgrade\" and follow the on-screen instructions."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:408
+msgid ""
+"There are no offline upgrade options for Ubuntu MATE. Please ensure you have\n"
+"network connectivity to one of the official mirrors or to a locally accessible\n"
+"mirror and follow the instructions above."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:410
+msgid "## Known Issues"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:412
+msgid "Here are the known issues."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:414
+msgid "### Ubuntu MATE"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:418
+msgid ""
+" * [Xorg crashes to Login prompt in VirtualMachines](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1745345)\n"
+"     * When `gstreamer-vaapi` is installed it will cause Xorg to crash and bring the user back to the login prompt when running certain applications.\n"
+"     * See [Workaround for Xorg crashes to Login prompt in VirtualMachines 20.04](https://ubuntu-mate.community/t/workaround-for-xorg-crashes-to-login-prompt-in-virtualmachines-20-04/21368/2)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:420
+msgid "### Ubuntu family issues"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:422
+msgid "This is our known list of bugs that affects all flavours."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:425
+msgid ""
+"  * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)\n"
+"    * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:428
+msgid ""
+"You'll also want to check the Ubuntu MATE bug tracker to see what has already\n"
+"been reported. These issues will be addressed in due course."
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:430
+msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:432
+msgid "## Feedback"
+msgstr ""
+
+#: _posts/2020-04-02-ubuntu-mate-focal.md:435
+msgid ""
+"Is there anything you can help with or want to be involved in? Maybe you just\n"
+"want to discuss your experiences or ask the maintainers some questions. Please\n"
+"[come and talk to us](https://ubuntu-mate.community/)."
+msgstr ""

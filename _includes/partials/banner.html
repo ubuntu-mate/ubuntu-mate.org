@@ -18,17 +18,21 @@
 {% endif %}
 
 <div id="{{ uuid }}" class="banner {% if variant %}{{ variant }}{% endif %}">
-    {% if foreground_path or text %}
-        <div class="banner-inner">
-            {% if foreground_path %}
-                <img src="{{ foreground_path }}" alt=""/>
-            {% endif %}
+    <div class="container">
+        {% if foreground_path or text %}
+            <div class="row banner-inner">
+                {% if foreground_path %}
+                    <div class="col-12 col-md-4">
+                        <img class="banner-image" src="{{ foreground_path }}" alt=""/>
+                    </div>
+                {% endif %}
 
-            {% if text %}
-                <div class="banner-text">
-                    {{ text }}
-                </div>
-            {% endif %}
-        </div>
-    {% endif %}
+                {% if text %}
+                    <div class="col banner-text">
+                        {{ text }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
 </div>

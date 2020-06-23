@@ -12,6 +12,3 @@ pages/autogen/
 
 # Misc
 *.directory
-
-# TEMPORARY: Ignore PO files for other languages.
-/_i18n/

@@ -1,10 +1,12 @@
 ---
 layout: history
-title: History
 permalink: /about/history/
 lang: en
 class: about
 category: about
+
+title: History
+
 ---
 
 ## Pre-2014

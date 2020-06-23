@@ -1,9 +1,10 @@
 ---
 layout: download
-title: Download
 permalink: /download/
 lang: en
 step: 1
+
+title: Download
 
 arch:
     - name: "64-bit PCs/Macs"

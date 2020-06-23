@@ -1,0 +1,222 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-29 13:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/get-involved-translations.md:9
+msgid "title: Translations"
+msgstr ""
+
+#: pages/get-involved-translations.md:13
+msgid "## Translations"
+msgstr ""
+
+#: pages/get-involved-translations.md:15
+msgid "Bonjour! Hola! Guten Tag! 你好！"
+msgstr ""
+
+#: pages/get-involved-translations.md:20
+msgid ""
+"If you speak another language, translating is a perfect way to help your fellow\n"
+"speakers use the computer in a language more familiar to them. Contributions\n"
+"even help the wider Ubuntu and Linux communities at large as applications are\n"
+"shared between them."
+msgstr ""
+
+#: pages/get-involved-translations.md:24
+msgid ""
+"> The translators are our real heroes.\n"
+">\n"
+"> -- Martin Wimpress"
+msgstr ""
+
+#: pages/get-involved-translations.md:29
+msgid "### Ubuntu MATE"
+msgstr ""
+
+#: pages/get-involved-translations.md:32
+msgid ""
+"Applications specific to the Ubuntu MATE experience. For this website and our\n"
+"in-house applications, we use Transifex."
+msgstr ""
+
+#: pages/get-involved-translations.md:39
+msgid ""
+"The **Welcome** application suffers from a 'split strings' issue that may\n"
+"pose difficulties when translating in other languages. We apologise for the\n"
+"inconvenience and intend to refactor the application in a future release to\n"
+"address this issue."
+msgstr ""
+
+#: pages/get-involved-translations.md:41
+msgid ""
+"Note that **Software Boutique** is currently part of the **Welcome** "
+"application."
+msgstr ""
+
+#: pages/get-involved-translations.md:44
+msgid ""
+"[Translate on Transifex](https://www.transifex.com/ubuntu-mate/public/){:.btn .green}\n"
+"[Transifex Guide](#transifex){:.btn}"
+msgstr ""
+
+#: pages/get-involved-translations.md:48
+msgid "### MATE Desktop"
+msgstr ""
+
+#: pages/get-involved-translations.md:51
+msgid ""
+"The MATE Desktop team use Transifex for translations. This includes applications\n"
+"such as:"
+msgstr ""
+
+#: pages/get-involved-translations.md:61
+msgid ""
+"* Atril Document Viewer\n"
+"* Caja File Manager\n"
+"* Engrampa Archive Manager\n"
+"* Eye of MATE Image Viewer\n"
+"* MATE Calculator\n"
+"* MATE Control Centre\n"
+"* MATE System Monitor\n"
+"* MATE Terminal\n"
+"* Pluma Text Editor"
+msgstr ""
+
+#: pages/get-involved-translations.md:63
+msgid "As well as system configuration and panel applets."
+msgstr ""
+
+#: pages/get-involved-translations.md:66
+msgid ""
+"[Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn .green}\n"
+"[Transifex Guide](#transifex){:.btn}"
+msgstr ""
+
+#: pages/get-involved-translations.md:70
+msgid "### Default Apps"
+msgstr ""
+
+#: pages/get-involved-translations.md:73
+msgid ""
+"Below is a list of applications that are pre-installed and where you can\n"
+"translate them."
+msgstr ""
+
+#: pages/get-involved-translations.md:79
+msgid "## Translation Guide"
+msgstr ""
+
+#: pages/get-involved-translations.md:81
+msgid "### Launchpad"
+msgstr ""
+
+#: pages/get-involved-translations.md:85
+msgid ""
+"Launchpad is used throughout Ubuntu for building and maintaining software.\n"
+"To translate, you'll need a Launchpad account.\n"
+"Please [see the documentation for translating](https://help.launchpad.net/Translations)."
+msgstr ""
+
+#: pages/get-involved-translations.md:87
+msgid "### Transifex"
+msgstr ""
+
+#: pages/get-involved-translations.md:89
+msgid "1. Register for a free account at <https://www.transifex.com/signup/>"
+msgstr ""
+
+#: pages/get-involved-translations.md:91
+msgid ""
+"    ![Sign up button](/images/get-involved/translations/transifex-1.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:93
+msgid ""
+"1. Open the project page to find the application you'd like to translate."
+msgstr ""
+
+#: pages/get-involved-translations.md:95
+msgid "    ![Project Page](/images/get-involved/translations/transifex-2.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:97
+msgid "1. Choose the language team you'd like to join."
+msgstr ""
+
+#: pages/get-involved-translations.md:99
+msgid ""
+"    ![Choosing a language](/images/get-"
+"involved/translations/transifex-3.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:101
+msgid ""
+"    If the language is not listed, you can request it. Check back in a few "
+"days as this requires approval."
+msgstr ""
+
+#: pages/get-involved-translations.md:103
+msgid ""
+"    ![Request language in a dropdown menu](/images/get-"
+"involved/translations/transifex-4.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:105
+msgid "1. Pick the language you'd like to translate."
+msgstr ""
+
+#: pages/get-involved-translations.md:107
+msgid ""
+"    ![Picking a language from the list](/images/get-"
+"involved/translations/transifex-5.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:109
+msgid "1. Pick a resource from the list to translate."
+msgstr ""
+
+#: pages/get-involved-translations.md:111
+msgid ""
+"    ![Picking a language from the list](/images/get-"
+"involved/translations/transifex-6.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:113
+msgid "1. Click on the entry, a pop up will appear, click Translate."
+msgstr ""
+
+#: pages/get-involved-translations.md:115
+msgid ""
+"    ![Pop up after choosing a resource](/images/get-"
+"involved/translations/transifex-7.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:117
+msgid "1. Begin translating!"
+msgstr ""
+
+#: pages/get-involved-translations.md:119
+msgid ""
+"    ![Screenshot of main translation interface](/images/get-"
+"involved/translations/transifex-8.png)"
+msgstr ""
+
+#: pages/get-involved-translations.md:121
+msgid "* Don't forget to save your changes."
+msgstr ""
+
+#: pages/get-involved-translations.md:122
+msgid ""
+"    ![Save all button](/images/get-involved/translations/transifex-9.png)"
+msgstr ""

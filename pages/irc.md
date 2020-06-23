@@ -1,8 +1,10 @@
 ---
 layout: page
-title: IRC
 permalink: /irc/
 lang: en
+
+title: IRC
+
 ---
 
 You can use your IRC web client to jump into our `#ubuntu-mate` channel on

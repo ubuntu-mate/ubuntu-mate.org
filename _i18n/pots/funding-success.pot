@@ -1,0 +1,38 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+#: pages/funding-success.md:8
+msgid "title: Successful Donation!"
+msgstr ""
+
+#: pages/funding-success.md:12
+msgid "#### Many thanks for donating!"
+msgstr ""
+
+#: pages/funding-success.md:16
+msgid ""
+"We've spent a great deal of time creating Ubuntu MATE and it is great that you\n"
+"have recognised the effort we've put into it. Donations will be put towards our\n"
+"hosting costs and rewarding contributors to the project."
+msgstr ""
+
+#: pages/funding-success.md:25
+msgid ""
+"    title = \"Thanks again!\"\n"
+"    text = \"That warm and fuzzy sensation you can feel is the Internet\n"
+"        promoting you to **Ubuntu MATE Community Super Hero** status.\"\n"
+"    button_text = \"Back to the homepage\"\n"
+"    button_url = \"/\""
+msgstr ""

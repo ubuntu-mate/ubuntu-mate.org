@@ -1,10 +1,12 @@
 ---
 layout: catalogue
-title: Emporium
 permalink: /shop/
 lang: en
 class: shop
 category: shop
+
+title: Emporium
+
 ---
 
 

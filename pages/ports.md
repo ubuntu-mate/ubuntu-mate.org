@@ -1,9 +1,11 @@
 ---
 layout: page-category
-title: Device Ports
 permalink: /ports/
 lang: en
 category: ports
+
+title: Device Ports
+
 ---
 
 {:.center}

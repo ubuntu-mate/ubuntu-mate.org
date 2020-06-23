@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Verifying Downloads
 permalink: /faq/verify-download-secure/
 lang: en
 class: faq
 sidebar: faq
+
+title: Verifying Downloads
+
 ---
 
 ## Verify for Tampering

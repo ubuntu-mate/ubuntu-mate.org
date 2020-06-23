@@ -1,10 +1,12 @@
 ---
 layout: sidebar
-title: Roadmap
 permalink: /faq/roadmap/
 lang: en
 class: faq
 sidebar: faq
+
+title: Roadmap
+
 ---
 
 # Outstanding Objectives

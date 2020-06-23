@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Funding
 permalink: /funding/
 lang: en
 class: funding
+
+title: Funding
+
 ---
 
 This crowd funding campaign has the following objectives:
@@ -30,10 +32,12 @@ directly and get a badge in the [Ubuntu MATE Community](https://ubuntu-mate.comm
 
 
 {% include blog/jumbotron.html
+
     title = "Monthly supporter"
     text = "Become a monthly supporter via Patreon and help grow the Ubuntu MATE community."
     button_text = "Become a Patron"
     button_url = "https://www.patreon.com/ubuntu_mate"
+
 %}
 
 
@@ -63,11 +67,13 @@ sponsorship packages.
 
 
 {% include blog/jumbotron.html
+
     title = "Commercial Sponsor"
     text = "Become a commercial sponsor at Patreon
             and have your business prominently listed as a sponsor."
     button_text = "Become a commercial sponsor"
     button_url = "https://www.patreon.com/ubuntu_mate"
+
 %}
 
 

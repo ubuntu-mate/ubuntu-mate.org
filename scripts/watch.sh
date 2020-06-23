@@ -1,7 +1,9 @@
 #!/bin/bash
 
+cd $(dirname "$0")/../
+
 # Run build commands first
-$(dirname "$0")/build.sh $*
+./scripts/build.sh $*
 
 # Abort if it cannot be built.
 if [ $? != 0 ]; then
@@ -10,4 +12,4 @@ if [ $? != 0 ]; then
 fi
 
 # Watch for changes during development
-bundle exec jekyll serve --watch --livereload --drafts
+bundle exec jekyll serve --watch --livereload --drafts --host=0.0.0.0

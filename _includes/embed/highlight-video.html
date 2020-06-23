@@ -1,0 +1,38 @@
+<h2>{{ site.data.strings.highlight_video }}</h2>
+
+<p class="center">
+    <video id="highlight-video" controls poster="{{ include.embed_1_thumb }}">
+        <source id="highlight-mp4" src="{{ include.embed_1_mp4 }}" type="video/mp4"/>
+        <source id="highlight-webm" src="{{ include.embed_1_webm }}" type="video/webm"/>
+    </video>
+    <div id="highlight-selection">
+        <button id="highlight-one" onclick="play_highlight_1()" class="green">20.04</button>
+        <button id="highlight-two" onclick="play_highlight_2()">18.04</button>
+    </div>
+</p>
+<script>
+    var highlights = document.getElementById("highlight-video");
+    var highlight_mp4 = document.getElementById("highlight-mp4");
+    var highlight_webm = document.getElementById("highlight-webm");
+    var highlight_btn_1 = document.getElementById("highlight-one");
+    var highlight_btn_2 = document.getElementById("highlight-two");
+
+    function play_highlight_1() {
+        highlight_mp4.src = "{{ include.embed_1_mp4 }}";
+        highlight_webm.src = "{{ include.embed_1_webm }}";
+        highlight_btn_1.classList.add("green");
+        highlight_btn_2.classList.remove("green");
+        highlights.poster = "{{ include.embed_1_thumb }}";
+        highlights.load();
+    }
+
+    function play_highlight_2() {
+        highlight_mp4.src = "{{ include.embed_2_mp4 }}";
+        highlight_webm.src = "{{ include.embed_2_webm }}";
+        highlight_btn_1.classList.remove("green");
+        highlight_btn_2.classList.add("green");
+        highlights.poster = "{{ include.embed_2_thumb }}";
+        highlights.load();
+    }
+
+</script>
