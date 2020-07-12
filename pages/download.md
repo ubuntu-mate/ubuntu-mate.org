@@ -26,12 +26,12 @@ products:
 ports:
     - name: Raspberry Pi (recommended)
       icon: images/brands/rpi-outline.svg
-      desc: '32-bit. Compatible with models: B2, B3 and B3+'
+      desc: '32-bit. Compatible with models: B2, B3, B3+ and B4'
       id: armhf
 
     - name: Raspberry Pi (experimental)
       icon: images/brands/rpi-outline-64.svg
-      desc: '64-bit. Compatible with models: B3 and B3+'
+      desc: '64-bit. Compatible with models: B3, B3+ and B4'
       id: arm64
 
     - name: GPD Pocket

@@ -18,6 +18,8 @@ function link_image() {
     commands+=" && ln -vsf ${TOR_PATH} /home/matey/ubuntu-mate.org/$PAGE/$TOR_FILE"
 }
 
+link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/arm64/ubuntu-mate-20.04-beta1-desktop-arm64+raspi.img.xz"
+link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/armhf/ubuntu-mate-20.04-beta1-desktop-armhf+raspi.img.xz"
 link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/arm64/ubuntu-mate-18.04.2-beta1-desktop-arm64+raspi3-ext4.img.xz"
 link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/armhf/ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz"
 link_image raspberry-pi "/home/matey/ISO-Mirror/bionic/arm64/ubuntu-mate-18.04.2-beta2-desktop-arm64+raspi3-ext4.img.xz"
