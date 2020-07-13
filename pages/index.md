@@ -71,8 +71,10 @@ GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 
 # Sponsors
 
-Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate):
+Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate), such as our Level 42 Patron, [Andrew Miller](https://www.patreon.com/user/creators?u=2613385).
 
 {:.center}
 [![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/?r=ubuntu-mate)
 [![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)
+
+Also thanks to our Unlucky Patron, [Darrell Vermilion](https://www.patreon.com/bearstampede/creators).
