@@ -24,12 +24,12 @@ products:
       desc: Purchase a new Ubuntu MATE computer.
 
 ports:
-    - name: Raspberry Pi (recommended)
+    - name: Raspberry Pi
       icon: images/brands/rpi-outline.svg
       desc: '32-bit. Compatible with models: B2, B3, B3+ and B4'
       id: armhf
 
-    - name: Raspberry Pi (experimental)
+    - name: Raspberry Pi
       icon: images/brands/rpi-outline-64.svg
       desc: '64-bit. Compatible with models: B3, B3+ and B4'
       id: arm64
