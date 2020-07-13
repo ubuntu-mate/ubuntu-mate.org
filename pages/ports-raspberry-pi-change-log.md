@@ -8,9 +8,46 @@ title: Raspberry Pi Changes
 
 ---
 
-# What's New for the Raspberry Pi 2 and 3?
+# What's New for the Raspberry Pi?
 
 [See the Raspberry Pi page for latest developments.](/ports/raspberry-pi/)
+
+### Ubuntu MATE 18.04.2 Beta 2 - WIP
+
+  * Added Raspberry Pi specific applications to the Software Boutique.
+    * Minecraft: Pi Edition
+    * Steam Link
+  * Disabled WiFi Power Management.
+  * `openssh-server` no longer pre-installed.
+
+### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019
+
+  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.
+  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.
+  * Added hardware accelerated VLC (`armhf` only).
+  * Added hardware accelerated ffmpeg (`armhf` only).
+  * Enabled piwheels.
+  * Reduced boot time, after the initial first boot setup has been completed, by ~3 seconds.
+  * Uploaded SteamLink (`armhf` only) to the archive, not pre-installed.
+  * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.
+  * Raspberry Pi 3 Model A+ confirmed working, *kind of*.
+
+### Ubuntu MATE 18.04.2 - March 5th, 2019
+
+  * Fixed HDMI audio quality.
+  * Fixed USB booting.
+  * Fixed font caches.
+  * Added pre-seeded snaps.
+  * Added miscellaneous Raspberry Pi utilities.
+  * Added EGL/GLES/OpenVG libraries for VideoCore IV.
+  * Enabled splash screen.
+  * Improved window manager responsiveness.
+  * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.
+  * Switched to the CFQ scheduler.
+
+### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019
+
+  * Initial Ubuntu MATE 18.04.2 images made available for private testing.
 
 ### 2017-02-16 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3
 
