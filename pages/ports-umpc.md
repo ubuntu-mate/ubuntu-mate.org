@@ -59,7 +59,7 @@ The Ubuntu MATE images for the UMPCs adds the following tweaks:
 
 ### GPD Pocket, WIN 2, MicroPC and Topjoy Falcon
 
-  * The GRUB2 menu is rotated 90 degress on the GPD Pocket, MicroPC and Topjoy Falcon.
+  * The GRUB2 menu is rotated 90 degrees on the GPD Pocket, MicroPC and Topjoy Falcon.
     * The workaround is to tilt your head.
   * The built in speaker in the GPD Pocket is mono and doesn't play audio from the right channel.
     * The workaround is to use headphones connected the 3.5mm audio jack.
