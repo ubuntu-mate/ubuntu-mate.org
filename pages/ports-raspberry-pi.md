@@ -10,9 +10,9 @@ title: Raspberry Pi
 
 # Ubuntu MATE for Raspberry Pi
 
-Ubuntu MATE 18.04.2 is available for Raspberry Pi Model B 2, 3 and 3+ with separate
-images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what
-we can to optimise the builds for the Raspberry Pi without sacrificing the full
+Ubuntu MATE 20.04 beta 1 is available for Raspberry Pi Model B 2, 3, 3+ and 4 with
+separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done
+what we can to optimise the builds for the Raspberry Pi without sacrificing the full
 desktop environment Ubuntu MATE provides on PC.
 
 Ubuntu MATE for the Raspberry Pi provides a complete, familiar, desktop environment
@@ -22,37 +22,37 @@ You can prototype homebrew ARMv7 or ARMv8 based IoT devices in a comfortable des
 environment, including building and testing your apps as [snaps](https://snapcraft.io).
 The full Ubuntu archive is available to you.
 
-For hobbyist projects, you can stick with Ubuntu MATE for "deployment", even
-with the option to disable the X11 display server if it not an application
-requirement. But, if you have something more professional in mind then the
-applications and snaps you've prototyped with Ubuntu MATE can be used with Ubuntu
-server or Ubuntu Core (https://www.ubuntu.com/core) on one of the ARM-based
-reference platforms.
+For hobbyist projects, you can stick with Ubuntu MATE for "deployment". But, if
+you have something more professional in mind then the applications and snaps you've
+prototyped with Ubuntu MATE can be used with [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
+or [Ubuntu Core](https://www.ubuntu.com/core). You might want to check out the
+[Ubuntu Appliance Portfolio](https://ubuntu.com/appliance) too.
 
 ## Features
 
 High-level features of these images are:
 
-  * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.
+  * Ubuntu kernel.
+    * Performance optimised by the Ubuntu Kernel team.
+    * Regularly security patches by the Ubuntu Security team.
+  * VC4/V3D (fkms) driver is enabled by default.
+    * `fbturbo` driver is available if you want it, but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).
   * Automatic online filesystem expansion.
   * Ethernet & WiFi (*where available*)
   * Bluetooth (*where available*)
   * Audio out via 3.5mm analog audio jack or HDMI
   * Video out via Composite or HDMI
-  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io), [pigpio](http://abyz.me.uk/rpi/pigpio/) and [WiringPi](http://wiringpi.com/).
-  * Support for [Python Wheels for the Raspberry Pi](https://www.piwheels.org/).
-  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).
-  * Hardware acceleration:
-    * `fbturbo` driver is pre-installed but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).
-    *  VLC has hardware assisted video decoding.
-    *  `ffmpeg` has hardware assisted video decoding and encoding.
-    * The *experimental* VC4 driver can be enabled via `raspi-config`.
-    * Please note, the `arm64` images do not feature any VideoCore IV hardware acceleration.
+  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io) and [WiringPi](http://wiringpi.com/).
   * Additional software:
-    * A port of [`raspi-config` for Ubuntu](https://github.com/flexiondotorg/raspi-config/) is pre-installed.
     * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.
-    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
 
+<!--  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).
+  * Hardware acceleration:
+    *  `ffmpeg` has hardware assisted video decoding and encoding.
+    *  VLC has hardware assisted video decoding.
+  * Additional software:
+    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
+-->
 
 {:.center .small}
 ![Ubuntu MATE running on the Raspberry Pi 3+](/images/ports/09_raspberrypi.png)
@@ -60,13 +60,15 @@ High-level features of these images are:
 
 ## Supported Raspberry Pi
 
-  * These images will work on:
-    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
-    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
-    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(recommended)**
+  * These images work on:
+    * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) **(recommended)**
+      * A **Raspberry Pi 4 with 2GB or more** offers the best experience
+    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
   * These images *kind of* work on:
+    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
     * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**
+    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) **(not recommended)**
       * Fails to complete the first boot setup due to insufficient memory.
       * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.
       * Due to only having 512MB RAM the `arm64` is not recommended. The `armhf` version can be very tight on resources.
@@ -83,23 +85,32 @@ Memory pressure is reasonable using the `armhf` images (~350MB at idle)
 but quite tight on the `arm64` images (~490MB at idle). As always,
 microSDHC I/O throughput is a bottleneck on the Raspberry PPi so don't
 gimp your Raspberry Pi by cheaping out on poor performing microSDHC
-cards. We used the [Samsung 32GB 95MB/s Memory Evo Plus microSDHC cards](https://geni.us/AKAsg)
+cards. We used the [Samsung EVO Plus 32 GB microSDHC UHS-I U1](https://geni.us/AKAsg)
+and [Kingston 64 GB microSDXC Canvas Go Plus](https://geni.us/Jelmu)
 during the testing of these images and they significantly better
 performance than most other microSDHC cards we've tried.
 [But don't take our word for it](https://www.pidramble.com/wiki/benchmarks/microsd-cards).
 
-{:.center .small}
-[![Samsung 32GB 95MB/s Memory Evo Plus Micro SD Card with Adapter](/images/ports/SamsungEvoPlus.jpg)](https://geni.us/AKAsg)
-
 You'll need a microSD card which is **8GB** or greater to fit the image.
 The file system will automatically resize to occupy the unallocated
-space of the microSD card.
+space of the microSD card. Here out recommended kit lists:
 
+### Raspberry Pi 4 with 2GB RAM
+
+{:.transparent .icons}
+|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.jpg)](https://geni.us/GN70L)|[![Argon NEO Case](/images/ports/argon-neo.jpg)](https://geni.us/DcxV)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.jpg)](https://geni.us/AKAsg)|
+|Raspberry Pi 4 2GB RAM|Argon NEO Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
+
+### Raspberry Pi 4 with 4GB RAM
+
+{:.transparent .icons}
+|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.jpg)](https://geni.us/wKRpG)|[![Argon One Case](/images/ports/argon-one.jpg)](https://geni.us/lvbbi8n)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.jpg)](https://geni.us/Jelmu)|
+|Raspberry Pi 4 4GB RAM|Argon One Case|Kingston 64 GB microSDXC Canvas Go Plus|
 
 {% include blog/jumbotron.html
 
     title = "Download"
-    text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today."
+    text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3, 3+ or 4 today."
     button_text = "Download"
 
     button_url = "/download/"
@@ -107,7 +118,7 @@ space of the microSD card.
 
 
 ## Additional features
-
+<!--
 ### USB Booting
 
 The Ubuntu MATE 18.04.2 images for the Raspberry Pi support USB booting.
@@ -116,11 +127,11 @@ The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,
 are capable of booting from a USB drive. For the Pi 2 and 3 you'll first
 need to [program USB boot mode](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md),
 this is unnecessary on the Pi 3+ as USB booting is enabled by default.
-
+-->
 ### Re-size file system
 
-The root parition is automatically resized, on first boot, to fully utilise
-all the available space on the microSD card or USB stick. No reboots required.
+The root partition is automatically resized, on first boot, to fully utilise
+all the available space. No reboots required.
 
 ### First boot
 
@@ -135,9 +146,6 @@ boots are much quicker.
 The GPU firmware partition is mounted at `/boot/firmware`. The files
 `/boot/firmware/config.txt` and `/boot/firmware/cmdline.txt` contain
 the system configuration and kernel command line options respectively.
-Ubuntu MATE 18.04.2 includes a port of `raspi-config` that supports
-this location. These configuration files are also symlinked to `/boot/`
-to hopefully support 3rd party tools and applications.
 
 ### SSH
 
@@ -147,8 +155,8 @@ to enable SSH.
     sudo apt install openssh-server
 
 If you install SSH then you might also want to install `sshguard`
-which is highly optimised and well suited for use on the Raspberry Pi to
-protect from brute force attacks against SSH.
+which is highly optimised and well suited for use on the Raspberry Pi
+to protect from brute force attacks against SSH.
 
     sudo apt install sshguard
 
@@ -165,7 +173,8 @@ You can learn more about Steam Link for Raspberry Pi from Valve:
 
   * [Steam Link App for Raspberry Pi](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589)
 
-### Minecraft Pi Edition
+<!--
+### Minecraft: Pi Edition
 
 Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry Pi.
 It is based on an old version of Minecraft Pocket Edition and offers language
@@ -177,22 +186,13 @@ You can learn more about how to control the player, manually build with blocks
 and use the Python interface to manipulate the world around you from the Raspberry Pi Foundation.
 
   * [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi)
-
-### Enable and Disable X11
-
-You can disable/enable the desktop environment using `raspi-config`.
-
-If you only intended to run as a headless server then the official Ubuntu Server 18.04.2 images might be of interest:
-
-  * <https://wiki.ubuntu.com/ARM/RaspberryPi>
+-->
 
 ### Redirecting audio output
 
 The sound will output to HDMI by default if both HDMI and the 3.5mm audio jack
 are connected. You can, however, force the system to output to a particular
-device using `raspi-config`.
-
-For those of you who want to know how to do this without `raspi-config`:
+device.
 
 #### For HDMI
 
@@ -202,6 +202,7 @@ For those of you who want to know how to do this without `raspi-config`:
 
     sudo amixer cset numid=3 1
 
+<!--
 ### Hardware accelerated video
 
 Most videos will play with hardware acceleration using VLC which
@@ -222,62 +223,33 @@ playback control. You'll need to use the ffmpeg keyboard shortcuts.
 
 However if you have MPEG-2 or VC-1 video video files then **you will need MPEG-2
 and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/license-keys/)**.
-
+-->
 
 ## Recent Changes
 
-### Ubuntu MATE 18.04.2 Beta 2 - WIP
+### Ubuntu MATE 20.04 Beta 1 - 12 July 2020
 
-  * Added Raspberry Pi specific applications to the Software Boutique.
-    * Minecraft: Pi Edition
-    * Steam Link
-  * Disabled WiFi Power Management.
-  * `openssh-server` no longer pre-installed.
+  * Re-based on Ubuntu MATE 20.04.
+  * Added support for Raspberry Pi 4.
+  * Enabled the VC4/V3D (fkms) driver by default.
+  * Firefox uses Basic rendering by default.
+    * Based on community feedback and our testing the OMTC (OpenGL) compositing video playback is choppy by comparison.
+  * Added `rpi-eeprom`.
+  * Minecraft: Pi Edition is still be packaged.
+  * USB Booting is work in progress.
+  * Dropped `raspi-config`; we have something else in the works...
 
-### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019
+## Known Issues
 
-  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.
-  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.
-  * Added hardware accelerated VLC (`armhf` only).
-  * Added hardware accelerated ffmpeg (`armhf` only).
-  * Enabled piwheels.
-  * Reduced boot time, after the initial first boot setup has been completed, by ~3 seconds.
-  * Uploaded SteamLink (`armhf` only) to the archive, not pre-installed.
-  * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.
-  * Raspberry Pi 3 Model A+ confirmed working, *kind of*.
-
-### Ubuntu MATE 18.04.2 - March 5th, 2019
-
-  * Fixed HDMI audio quality.
-  * Fixed USB booting.
-  * Fixed font caches.
-  * Added pre-seeded snaps.
-  * Added miscellaneous Raspberry Pi utilities.
-  * Added EGL/GLES/OpenVG libraries for VideoCore IV.
-  * Enabled splash screen.
-  * Improved window manager responsiveness.
-  * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.
-  * Switched to the CFQ scheduler.
-
-### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019
-
-  * Initial Ubuntu MATE 18.04.2 images made available for private testing.
+  * WiFi is not available on first boot during the initial setup wizard
+    * WiFi is working on subsequent boos.
+  * The boot following initial setup is a little slow as the file system is automatically expanded and initial system configuration is completed.
+    * After this, boot performance is prompt.
+  * No USB booting *(yet)*
 
 ### Previous Changes
 
   * [See what changed in earlier releases.](/ports/raspberry-pi-change-log/)
-
-## Known Issues
-
-  * Empty panel on first boot. This is an intermittent issue with Ubuntu MATE when running on slower computers.
-    * The workaround in to start a terminal with `Ctrl` + `Alt` + `t` and reset the default Familiar layout using `mate-tweak --layout familiar`
-  * Kernel panic when shutting down after initial setup
-    * The worksround is to disconnect the power and reconnect it again. Everything will be fine `:-)`
-
-## TODO
-
-  * Build and publish a Raspberry Pi optimised web browser.
-  * Add more Python modules for popular HATs and peripherals to the archive.
 
 ## Feedback and Improvements
 

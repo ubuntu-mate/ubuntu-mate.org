@@ -54,8 +54,8 @@ give you a feel for how you can configure your desktop experience.
 
 # Raspberry Pi & GPD Pocket
 
-We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3
-and 3+ as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,
+We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3,
+3+ and 4 as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,
 GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 
 {:.transparent .icons}
@@ -63,11 +63,11 @@ GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
 | Works with:   | Optimised for:
 | ------------- | ---------------- |
 | Model 2 B     | GPD Pocket
-| Model 3       | GPD Pocket 2
-| Model 3+      | GPD WIN 2
-|               | GPD MicroPC
-|               | Topjoy MicroPC
-
+| Model 3       | [GPD Pocket 2](https://geni.us/5oiXa2)
+| Model 3+      | [GPD WIN 2](https://geni.us/pzyNb0)
+| Model 4       | [GPD MicroPC](https://geni.us/xYuBA)
+|               | [GPD P2 Max](https://geni.us/HAlIoA3)
+|               | Topjoy Falcon
 
 # Sponsors
 
