@@ -98,13 +98,13 @@ space of the microSD card. Here out recommended kit lists:
 ### Raspberry Pi 4 with 2GB RAM
 
 {:.transparent .icons}
-|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.jpg)](https://geni.us/GN70L)|[![Argon NEO Case](/images/ports/argon-neo.jpg)](https://geni.us/DcxV)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.jpg)](https://geni.us/AKAsg)|
+|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
 |Raspberry Pi 4 2GB RAM|Argon NEO Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
 
 ### Raspberry Pi 4 with 4GB RAM
 
 {:.transparent .icons}
-|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.jpg)](https://geni.us/wKRpG)|[![Argon One Case](/images/ports/argon-one.jpg)](https://geni.us/lvbbi8n)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.jpg)](https://geni.us/Jelmu)|
+|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|
 |Raspberry Pi 4 4GB RAM|Argon One Case|Kingston 64 GB microSDXC Canvas Go Plus|
 
 {% include blog/jumbotron.html
