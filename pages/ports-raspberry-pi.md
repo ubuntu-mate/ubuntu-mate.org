@@ -93,19 +93,25 @@ performance than most other microSDHC cards we've tried.
 
 You'll need a microSD card which is **8GB** or greater to fit the image.
 The file system will automatically resize to occupy the unallocated
-space of the microSD card. Here out recommended kit lists:
+space of the microSD card. Here is our recommended kit lists:
 
-### Raspberry Pi 4 with 2GB RAM
+### Raspberry Pi 4 with 8GB RAM
 
 {:.transparent .icons}
-|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
-|Raspberry Pi 4 2GB RAM|Argon NEO Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
+|Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|
+|[![Raspberry Pi 4 8GB RAM ](/images/ports/pi4-8GB.jpg)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.jpg)](https://geni.us/oRQKPJ)|
 
 ### Raspberry Pi 4 with 4GB RAM
 
 {:.transparent .icons}
-|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|
-|Raspberry Pi 4 4GB RAM|Argon One Case|Kingston 64 GB microSDXC Canvas Go Plus|
+|Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go Plus|
+|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|
+
+### Raspberry Pi 4 with 2GB RAM
+
+{:.transparent .icons}
+|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.webp)](https://geni.us/AKAsg)|
+|Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
 
 {% include blog/jumbotron.html
 
