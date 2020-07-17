@@ -4,21 +4,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-21 22:15+0100\n"
+"POT-Creation-Date: 2020-07-17 11:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
 
 #: pages/ports-raspberry-pi-change-log.md:8
 msgid "title: Raspberry Pi Changes"
 msgstr ""
 
 #: pages/ports-raspberry-pi-change-log.md:12
-msgid "# What's New for the Raspberry Pi 2 and 3?"
+msgid "# What's New for the Raspberry Pi?"
 msgstr ""
 
 #: pages/ports-raspberry-pi-change-log.md:14
@@ -27,10 +27,67 @@ msgid ""
 msgstr ""
 
 #: pages/ports-raspberry-pi-change-log.md:16
+msgid "### Ubuntu MATE 18.04.2 Beta 2 - WIP"
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:22
+msgid ""
+"  * Added Raspberry Pi specific applications to the Software Boutique.\n"
+"    * Minecraft: Pi Edition\n"
+"    * Steam Link\n"
+"  * Disabled WiFi Power Management.\n"
+"  * `openssh-server` no longer pre-installed."
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:24
+msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:34
+msgid ""
+"  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.\n"
+"  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.\n"
+"  * Added hardware accelerated VLC (`armhf` only).\n"
+"  * Added hardware accelerated ffmpeg (`armhf` only).\n"
+"  * Enabled piwheels.\n"
+"  * Reduced boot time, after the initial first boot setup has been completed, by ~3 seconds.\n"
+"  * Uploaded SteamLink (`armhf` only) to the archive, not pre-installed.\n"
+"  * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.\n"
+"  * Raspberry Pi 3 Model A+ confirmed working, *kind of*."
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:36
+msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:47
+msgid ""
+"  * Fixed HDMI audio quality.\n"
+"  * Fixed USB booting.\n"
+"  * Fixed font caches.\n"
+"  * Added pre-seeded snaps.\n"
+"  * Added miscellaneous Raspberry Pi utilities.\n"
+"  * Added EGL/GLES/OpenVG libraries for VideoCore IV.\n"
+"  * Enabled splash screen.\n"
+"  * Improved window manager responsiveness.\n"
+"  * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.\n"
+"  * Switched to the CFQ scheduler."
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:49
+msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:51
+msgid ""
+"  * Initial Ubuntu MATE 18.04.2 images made available for private testing."
+msgstr ""
+
+#: pages/ports-raspberry-pi-change-log.md:53
 msgid "### 2017-02-16 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:64
+#: pages/ports-raspberry-pi-change-log.md:101
 msgid ""
 "  * Performance optimised.\n"
 "    * Added automated first boot partition resizing.\n"
@@ -81,12 +138,12 @@ msgid ""
 "  * Reduced the image size to 5GB, down from 8GB."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:66
+#: pages/ports-raspberry-pi-change-log.md:103
 msgid ""
 "### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:73
+#: pages/ports-raspberry-pi-change-log.md:110
 msgid ""
 "  * Added OpemMAX IL hardware accelerated video playback to VLC.\n"
 "    * To enable hardware accelerated video playback go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.\n"
@@ -96,11 +153,11 @@ msgid ""
 "  * Removed tboplayer."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:75
+#: pages/ports-raspberry-pi-change-log.md:112
 msgid "### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:87
+#: pages/ports-raspberry-pi-change-log.md:124
 msgid ""
 "  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.\n"
 "  * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.\n"
@@ -115,24 +172,24 @@ msgid ""
 "  * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:89
+#: pages/ports-raspberry-pi-change-log.md:126
 msgid "### 2016-02-27 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:93
+#: pages/ports-raspberry-pi-change-log.md:130
 msgid ""
 "  * Added support for Raspberry Pi 3 integrated Wifi.\n"
 "  * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated Bluetooth.\n"
 "    * Support for the integrated Raspberry Pi 3 Bluetooth is not working but we hope to have an update that addresses this soon."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:95
+#: pages/ports-raspberry-pi-change-log.md:132
 msgid ""
 "### 2016-02-26 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 (internal "
 "testing build)"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:101
+#: pages/ports-raspberry-pi-change-log.md:138
 msgid ""
 "  * Added support for Raspberry Pi 3 Model B.\n"
 "    * No Raspberry Pi 3 integrated Wifi or Bluetooth support.\n"
@@ -141,11 +198,11 @@ msgid ""
 "  * Fixed an issue where the SSH host keys were not correctly regenerated on first boot."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:103
+#: pages/ports-raspberry-pi-change-log.md:140
 msgid "### 2015-12-21 - 15.10.1 for Raspberry Pi 2 Update"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:110
+#: pages/ports-raspberry-pi-change-log.md:147
 msgid ""
 "  * Migrated the build to [Ubuntu Pi Flavour Maker](https://ubuntu-pi-flavour-maker.org) project.\n"
 "  * Images are now XZ compressed, to save bandwidth and make them compatible with GNOME Disks.\n"
@@ -155,11 +212,11 @@ msgid ""
 "  * Reverted change to `/boot/config.txt` so audio is not forced to output over HDMI because this introduced more compatibility issues that it solved."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:112
+#: pages/ports-raspberry-pi-change-log.md:149
 msgid "### 2015-10-22 - 15.10 for Raspberry Pi 2 Final Release"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:128
+#: pages/ports-raspberry-pi-change-log.md:165
 msgid ""
 "  * Added OMXPlayer GUI.\n"
 "  * Added YouTube Downloader.\n"
@@ -178,11 +235,11 @@ msgid ""
 "  * Removed Compiz."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:130
+#: pages/ports-raspberry-pi-change-log.md:167
 msgid "### 2015-10-14 - 15.10 for Raspberry Pi 2 Release Candidate"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:156
+#: pages/ports-raspberry-pi-change-log.md:193
 msgid ""
 "  * Fixed framebuffer so it now uses 32-bit colour depth.\n"
 "  * Added Minecraft Pi Edition 0.1.1-4.\n"
@@ -211,11 +268,11 @@ msgid ""
 "  * Removed `oem-config`."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:158
+#: pages/ports-raspberry-pi-change-log.md:195
 msgid "### 2015-04-22 - 15.04 for Raspberry Pi 2 Final Release"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:179
+#: pages/ports-raspberry-pi-change-log.md:216
 msgid ""
 "  * Enabled Ryan Finnie's PPA.\n"
 "    * <https://launchpad.net/~fo0bar/+archive/ubuntu/rpi2>\n"
@@ -239,11 +296,11 @@ msgid ""
 "  * Removed `openssh-server` until host key regeneration can be integrated."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:181
+#: pages/ports-raspberry-pi-change-log.md:218
 msgid "### 2015-04-22 - 15.04 for Raspberry Pi 2 Beta 2"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:187
+#: pages/ports-raspberry-pi-change-log.md:224
 msgid ""
 "  * Enabled `systemd` as the init system.\n"
 "  * Added `raspberrypi-vc` (VideoCore GPU libraries) 1.20150301.0de0b20-3.\n"
@@ -252,10 +309,10 @@ msgid ""
 "  * Added `openssh-server`."
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:189
+#: pages/ports-raspberry-pi-change-log.md:226
 msgid "### 2015-03-07"
 msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:190
+#: pages/ports-raspberry-pi-change-log.md:227
 msgid "  * Initial Release."
 msgstr ""
