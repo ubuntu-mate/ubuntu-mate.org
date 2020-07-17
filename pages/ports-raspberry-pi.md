@@ -110,8 +110,8 @@ space of the microSD card. Here is our recommended kit lists:
 ### Raspberry Pi 4 with 2GB RAM
 
 {:.transparent .icons}
-|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
 |Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
+|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
 
 {% include blog/jumbotron.html
 
