@@ -36,7 +36,7 @@
                 <td class="column-problem">{{ issue.problem }}</td>
                 <td class="column-links">
                     {% for link in issue.workaround_links %}
-                        <a class="issue-link" href="{{ link }}" title="{{ link }}">{{ site.data.strings.link }}</a>
+                        <a class="issue-link" href="{{ link }}" rel="external" title="{{ link }}">◾ {{ site.data.strings.link }}</a>
                         <br>
                     {% endfor %}
                     {% unless issue.workaround_links %}
@@ -45,7 +45,17 @@
                 </td>
                 <td class="column-links">
                     {% for link in issue.upstream_links %}
-                        <a class="issue-link" href="{{ link }}" title="{{ link }}">{{ site.data.strings.link }}</a>
+                        {% capture text %}
+                            {% if link contains 'bugs.launchpad.net' %}
+                                LP: {{ link | split:'/' | last }}
+                            {% elsif link contains 'github.com' %}
+                                {% assign parts = link | split:'/' %}
+                                {{ parts[3] }}/{{ parts[4] }}#{{ parts[6] }}
+                            {% else %}
+                                {{ site.data.strings.link }}
+                            {% endif %}
+                        {% endcapture %}
+                        <a class="issue-link" href="{{ link }}" rel="external" title="{{ link }}">◾ {{ text }}</a>
                         <br>
                     {% endfor %}
                     {% unless issue.upstream_links %}
