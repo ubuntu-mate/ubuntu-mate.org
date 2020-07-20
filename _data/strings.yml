@@ -306,12 +306,13 @@ paypal_invalid_amount: "Please enter a valid amount - thanks!"
 #######################################
 # Known Issues Table
 #######################################
-affected_release: "Affected Release(s)"
-affected_component: "Component(s)"
-problem: "The Problem"
+affected_release: "Affects"
+affected_component: "Component"
+problem: "Problem"
 workaround: "Workarounds"
 upstream_links: "Upstream Links"
 link: "Link"
+na: "n/a"
 
 
 #######################################

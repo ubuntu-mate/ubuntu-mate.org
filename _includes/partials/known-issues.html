@@ -1,7 +1,7 @@
 <table class="known-issues">
     <thead>
         <tr>
-            <th colspan="2">{{ site.data.strings.affected_release }}</th>
+            <th>{{ site.data.strings.affected_release }}</th>
             <th>{{ site.data.strings.affected_component }}</th>
             <th class="column-problem">{{ site.data.strings.problem }}</th>
             <th class="column-links">{{ site.data.strings.workaround }}</th>
@@ -12,7 +12,6 @@
         {% for issue in site.data.known_issues %}
             <tr>
                 <td>{{ issue.release }}</td>
-                <td><code>{{ issue.arch }}</code></td>
                 <td>
                     {% assign icon = "" %}
 
@@ -40,12 +39,18 @@
                         <a class="issue-link" href="{{ link }}" title="{{ link }}">{{ site.data.strings.link }}</a>
                         <br>
                     {% endfor %}
+                    {% unless issue.workaround_links %}
+                        <span class="issue-no-link">{{ site.data.strings.na }}</span>
+                    {% endunless %}
                 </td>
                 <td class="column-links">
                     {% for link in issue.upstream_links %}
                         <a class="issue-link" href="{{ link }}" title="{{ link }}">{{ site.data.strings.link }}</a>
                         <br>
                     {% endfor %}
+                    {% unless issue.upstream_links %}
+                        <span class="issue-no-link">{{ site.data.strings.na }}</span>
+                    {% endunless %}
                 </td>
             </tr>
         {% endfor %}
