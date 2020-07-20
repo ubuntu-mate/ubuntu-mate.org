@@ -1,0 +1,24 @@
+/*
+ * Known Issues table
+*/
+.known-issues {
+    table-layout: fixed;
+
+    thead tr {
+        text-align: center;
+    }
+
+    .column-problem {
+        min-width: 20vw;
+    }
+
+    .column-links {
+        max-width: 100px;
+    }
+
+    .component-icon {
+        height: 24px;
+        width: 24px;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,53 @@
+<table class="known-issues">
+    <thead>
+        <tr>
+            <th colspan="2">{{ site.data.strings.affected_release }}</th>
+            <th>{{ site.data.strings.affected_component }}</th>
+            <th class="column-problem">{{ site.data.strings.problem }}</th>
+            <th class="column-links">{{ site.data.strings.workaround }}</th>
+            <th class="column-links">{{ site.data.strings.upstream_links }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for issue in site.data.known_issues %}
+            <tr>
+                <td>{{ issue.release }}</td>
+                <td><code>{{ issue.arch }}</code></td>
+                <td>
+                    {% assign icon = "" %}
+
+                    {% capture test_mate %}{{ issue.component | slice: 0, 4 }}{% endcapture %}
+                    {% capture test_umate %}{{ issue.component | slice: 0, 11 }}{% endcapture %}
+                    {% capture test_ubuntu %}{{ issue.component | slice: 0, 6 }}{% endcapture %}
+
+                    {% if test_mate == "MATE" %}
+                        {% assign icon = "/images/brands/mate.svg" %}
+                    {% elsif test_umate == "Ubuntu MATE" %}
+                        {% assign icon = "/images/brands/ubuntu-mate.svg" %}
+                    {% elsif test_ubuntu == "Ubuntu" %}
+                        {% assign icon = "/images/brands/ubuntu.svg" %}
+                    {% endif %}
+
+                    {% if icon != "" %}
+                        <img class="component-icon" src="{{ icon }}" alt=""/>
+                    {% endif %}
+
+                    {{ issue.component }}
+                </td>
+                <td class="column-problem">{{ issue.problem }}</td>
+                <td class="column-links">
+                    {% for link in issue.workaround_links %}
+                        <a class="issue-link" href="{{ link }}" title="{{ link }}">{{ site.data.strings.link }}</a>
+                        <br>
+                    {% endfor %}
+                </td>
+                <td class="column-links">
+                    {% for link in issue.upstream_links %}
+                        <a class="issue-link" href="{{ link }}" title="{{ link }}">{{ site.data.strings.link }}</a>
+                        <br>
+                    {% endfor %}
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

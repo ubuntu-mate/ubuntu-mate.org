@@ -304,6 +304,17 @@ paypal_invalid_amount: "Please enter a valid amount - thanks!"
 
 
 #######################################
+# Known Issues Table
+#######################################
+affected_release: "Affected Release(s)"
+affected_component: "Component(s)"
+problem: "The Problem"
+workaround: "Workarounds"
+upstream_links: "Upstream Links"
+link: "Link"
+
+
+#######################################
 # Miscellaneous
 #######################################
 toggle_sidebar: "Expand/Collapse Sidebar"

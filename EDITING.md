@@ -277,6 +277,13 @@ Usually to present call to actions, commonly used on the blog.
 
 ```
 
+#### Known Issues
+Shows a table of currently known issues with the distro. This data is stored
+at `_data/known-issues.yml`.
+```
+{% include partials/known-issues.html %}
+```
+
 #### YouTube Embed
 When using the "Share" functionality on YouTube, extract the URL and place it
 inside this `include` on the page:
