@@ -14,6 +14,7 @@ Here's a list of issues we have noted that may degrade your retrospective experi
 
 {% include /partials/known-issues.html %}
 
+
 ## Community Support
 
 If your issue isn't listed above, we highly recommend asking on the
@@ -24,6 +25,16 @@ your issue in [Support and Help Requests](https://ubuntu-mate.community/c/suppor
 your description of the problem and be excellent to each other.
 
 [ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}
+
+
+## Official Guide
+
+If this is your first time using Ubuntu MATE, we have an official guide to
+assist you on your journey. It's also pre-installed under the **Accessories**
+menu (for full installations).
+
+[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}
+[Buy Books](/shop/books/){:.btn}
 
 
 ## Other Resources
