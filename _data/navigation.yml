@@ -10,13 +10,13 @@
   text: Blog
   class: blog
 
-- url: /support/
-  text: Support
-  class: support
-
 - url: /download/
   text: Download
   class: download
+
+- url: /support/
+  text: Support
+  class: support
 
 - url: /get-involved/
   text: Get Involved
