@@ -12,3 +12,4 @@ pages/autogen/
 
 # Misc
 *.directory
+.bundle
