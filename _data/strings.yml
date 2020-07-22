@@ -97,6 +97,7 @@ download_verify_howto: "How to verify downloads"
 
 download_guide_title: "Acquire a guide by your side"
 download_guide_text: "**Available in both paperback and ebook format.** These books can assist with upgrades from Windows/macOS, as well as introduce you to key applications of the Ubuntu MATE desktop."
+download_guide_view_button: "View Online"
 download_guide_shop_button: "Shop Books"
 
 download_stuck_title: "Get stuck?"

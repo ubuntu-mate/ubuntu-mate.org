@@ -155,6 +155,10 @@ layout: default
                 <h3>{{ site.data.strings.download_guide_title }}</h3>
                 {{ site.data.strings.download_guide_text | markdownify }}
                 <p>
+                    <a class="btn green" href="https://guide.ubuntu-mate.org">
+                        {% include images/fa/external-link-alt.svg %}
+                        {{ site.data.strings.download_guide_view_button }}
+                    </a>
                     <a class="btn" href="{{ '/shop/books/' | absolute_url }}">
                         {% include images/fa/shopping-cart.svg %}
                         {{ site.data.strings.download_guide_shop_button }}
