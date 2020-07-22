@@ -88,3 +88,7 @@ Bitcoin address into your Bitcoin client to donate an amount of your choice.
 
 {:.center}
 **1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**
+
+## Affiliate Links
+
+Some page on this website include Amazon affiliate links to products we've tested and are known to be compatible with Ubuntu MATE. Clicking those links will earn us a commission, with no additional cost to you, in the event of purchases.
