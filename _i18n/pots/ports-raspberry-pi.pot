@@ -144,7 +144,7 @@ msgstr ""
 msgid ""
 "You'll need a microSD card which is **8GB** or greater to fit the image.\n"
 "The file system will automatically resize to occupy the unallocated\n"
-"space of the microSD card. Here is our recommended kit lists:"
+"space of the microSD card. Here is our recommended kit lists on Amazon:"
 msgstr ""
 
 #: pages/ports-raspberry-pi.md:99

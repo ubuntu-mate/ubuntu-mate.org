@@ -126,8 +126,20 @@ msgid ""
 "[![](https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)](bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)"
 msgstr ""
 
-#: pages/funding.md:90
+#: pages/funding.md:91
 msgid ""
 "{:.center}\n"
 "**1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**"
+msgstr ""
+
+#: pages/funding.md:93
+msgid "## Affiliate Links"
+msgstr ""
+
+#: pages/funding.md:94
+msgid ""
+"Some page on this website include Amazon affiliate links to products we've "
+"tested and are known to be compatible with Ubuntu MATE. Clicking those links"
+" will earn us a commission, with no additional cost to you, in the event of "
+"purchases."
 msgstr ""

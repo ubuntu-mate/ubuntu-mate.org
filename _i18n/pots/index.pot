@@ -62,7 +62,7 @@ msgstr ""
 msgid ""
 "We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3,\n"
 "3+ and 4 as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,\n"
-"GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**"
+"GPD MicroPC and Topjoy Falcon; some of which are available on Amazon. **Learn more of the features they support:**"
 msgstr ""
 
 #: pages/index.md:71

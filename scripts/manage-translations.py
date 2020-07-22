@@ -265,7 +265,7 @@ def sync():
 
     # (1) _i18n/locales.txt for our scripts.
     with open(i18n_dir + "/locales.txt", "w") as f:
-        f.writelines(lang_list)
+        f.writelines(" ".join(lang_list))
 
     # (2) _config.yml for the jekyll-polyglot gem.
     with open("_config.yml", "r") as f:

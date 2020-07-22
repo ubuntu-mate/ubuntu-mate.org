@@ -301,6 +301,12 @@ source_file = _i18n/pots/shop.pot
 source_lang = en
 type = PO
 
+[ubuntu-mate-org.support]
+file_filter = _i18n/<lang>/support.po
+source_file = _i18n/pots/support.pot
+source_lang = en
+type = PO
+
 [ubuntu-mate-org.team]
 file_filter = _i18n/<lang>/team.po
 source_file = _i18n/pots/team.pot

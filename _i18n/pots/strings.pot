@@ -333,6 +333,10 @@ msgctxt "download_guide_text"
 msgid "**Available in both paperback and ebook format.** These books can assist with upgrades from Windows/macOS, as well as introduce you to key applications of the Ubuntu MATE desktop."
 msgstr ""
 
+msgctxt "download_guide_view_button"
+msgid "View Online"
+msgstr ""
+
 msgctxt "download_guide_shop_button"
 msgid "Shop Books"
 msgstr ""
@@ -349,8 +353,8 @@ msgctxt "download_stuck_help_imgusb"
 msgid "How to image a flash drive (Windows, Mac, Linux)"
 msgstr ""
 
-msgctxt "download_stuck_help_community"
-msgid "Ask the community"
+msgctxt "download_stuck_help_support"
+msgid "See known issues or ask the community"
 msgstr ""
 
 msgctxt "download_stuck_help_faq"
@@ -433,8 +437,8 @@ msgctxt "custom_panel"
 msgid "Panel Customisation"
 msgstr ""
 
-msgctxt "community"
-msgid "Community"
+msgctxt "support"
+msgid "Support"
 msgstr ""
 
 msgctxt "shop"
@@ -875,6 +879,34 @@ msgstr ""
 
 msgctxt "paypal_invalid_amount"
 msgid "Please enter a valid amount - thanks!"
+msgstr ""
+
+msgctxt "affected_release"
+msgid "Affects"
+msgstr ""
+
+msgctxt "affected_component"
+msgid "Component"
+msgstr ""
+
+msgctxt "problem"
+msgid "Problem"
+msgstr ""
+
+msgctxt "workaround"
+msgid "Workarounds"
+msgstr ""
+
+msgctxt "upstream_links"
+msgid "Upstream Links"
+msgstr ""
+
+msgctxt "link"
+msgid "Link"
+msgstr ""
+
+msgctxt "na"
+msgid "n/a"
 msgstr ""
 
 msgctxt "toggle_sidebar"

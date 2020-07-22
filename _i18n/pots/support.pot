@@ -1,0 +1,88 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-22 18:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/support.md:9
+msgid ""
+"title: Support\n"
+"---"
+msgstr ""
+
+#: pages/support.md:12
+msgid "## Known Issues"
+msgstr ""
+
+#: pages/support.md:14
+msgid ""
+"Here's a list of issues we have noted that may degrade your retrospective "
+"experience."
+msgstr ""
+
+#: pages/support.md:19
+msgid "## Community Support"
+msgstr ""
+
+#: pages/support.md:26
+msgid ""
+"If your issue isn't listed above, we highly recommend asking on the\n"
+"[Ubuntu MATE Community](https://ubuntu-mate.community/). If this is your\n"
+"first time, you'll need to create a new account using the **Sign Up**\n"
+"button in the upper right hand corner. Once you have an account, post\n"
+"your issue in [Support and Help Requests](https://ubuntu-mate.community/c/support/10). Be detailed with\n"
+"your description of the problem and be excellent to each other."
+msgstr ""
+
+#: pages/support.md:28
+msgid "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
+msgstr ""
+
+#: pages/support.md:31
+msgid "## Official Guide"
+msgstr ""
+
+#: pages/support.md:35
+msgid ""
+"If this is your first time using Ubuntu MATE, we have an official guide to\n"
+"assist you on your journey. It's also pre-installed under the **Accessories**\n"
+"menu (for full installations)."
+msgstr ""
+
+#: pages/support.md:38
+msgid ""
+"[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
+"[Shop Books](/shop/books/){:.btn}"
+msgstr ""
+
+#: pages/support.md:41
+msgid "## Other Resources"
+msgstr ""
+
+#: pages/support.md:44
+msgid ""
+"While these sites aren't specific to Ubuntu MATE, they can still help\n"
+"you find a solution as we have a lot in common with the wider Ubuntu community."
+msgstr ""
+
+#: pages/support.md:48
+msgid ""
+"For the best results, make sure your report includes what you\n"
+"were doing when you had the problem, steps to reproduce and hardware specifications\n"
+"to help the people who will help you."
+msgstr ""
+
+#: pages/support.md:50
+msgid ""
+"[Ask Ubuntu](https://askubuntu.com){:.btn}\n"
+"[Launchpad Answers](https://answers.launchpad.net/){:.btn}"
+msgstr ""
