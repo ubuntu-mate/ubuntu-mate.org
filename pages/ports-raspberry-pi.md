@@ -93,7 +93,7 @@ performance than most other microSDHC cards we've tried.
 
 You'll need a microSD card which is **8GB** or greater to fit the image.
 The file system will automatically resize to occupy the unallocated
-space of the microSD card. Here is our recommended kit lists:
+space of the microSD card. Here is our recommended kit lists on Amazon:
 
 ### Raspberry Pi 4 with 8GB RAM
 

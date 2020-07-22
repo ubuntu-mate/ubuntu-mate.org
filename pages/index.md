@@ -56,7 +56,7 @@ give you a feel for how you can configure your desktop experience.
 
 We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3,
 3+ and 4 as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,
-GPD MicroPC and Topjoy Falcon. **Learn more of the features they support:**
+GPD MicroPC and Topjoy Falcon; some of which are available on Amazon. **Learn more of the features they support:**
 
 {:.transparent .icons}
 | [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/umpcs/) |
