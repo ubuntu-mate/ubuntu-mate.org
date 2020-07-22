@@ -34,7 +34,7 @@ assist you on your journey. It's also pre-installed under the **Accessories**
 menu (for full installations).
 
 [guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}
-[Buy Books](/shop/books/){:.btn}
+[Shop Books](/shop/books/){:.btn}
 
 
 ## Other Resources
