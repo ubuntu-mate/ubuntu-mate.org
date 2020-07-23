@@ -56,7 +56,7 @@ downloads:
     amd64:
         - release: bionic
           url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-amd64.iso"
-          sha256sum: "0b368fe1aadae30524ebd626a693d21e52930ba0d9835c6b80d57d2921486773"
+          sha256sum: "233c268963637c94a3527b90fce3cf74eeaaf03e9d3a5623457b4b2412778daa"
           size: "1.9 GB"
           magnet-uri: "magnet:?xt=urn:btih:545e7abb9380c5cc4addae47ddab31886ce3b6d0&dn=ubuntu-mate-18.04.4-desktop-amd64.iso&tr=http%3A%2F%2Ftorrent.ubuntu.com%3A6969%2Fannounce"
 
