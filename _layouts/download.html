@@ -152,7 +152,14 @@ layout: default
                                 <img src="/images/mascots/{{ release.mascot }}" alt="{{ release.codename }}"/>
                             </div>
                             <div class="grid-details">
-                                <h4 {% if release.prerelease %}class="prerelease"{% endif %}>{{ release.name }} {% if release.prerelease %}{{ site.data.strings.prerelease }}{% endif %}</h4>
+                                <h4 {% if release.prerelease %}class="prerelease"{% endif %}>
+                                    {% if version.release_name_override %}
+                                        {{ version.release_name_override }}
+                                    {% else %}
+                                        {{ release.name }}
+                                    {% endif %}
+                                    {% if release.prerelease %}{{ site.data.strings.prerelease }}{% endif %}
+                                </h4>
                                 <p class="grey-text">{{ release.codename }}</p>
                                 <p {% if release.prerelease %}class="prerelease"{% endif %}>
                                     {% if release.prerelease == true %}

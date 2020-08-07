@@ -23,7 +23,7 @@ layout: default
 
 {% capture banner_text %}
     <small>{{ site.data.strings.post_download_title }}</small>
-    <h2>Ubuntu MATE {{ release.name }}</h2>
+    <h2>Ubuntu MATE {% if download.release_name_override %}{{ download.release_name_override }}{% else %}{{ release.name }}{% endif %}</h2>
     <p>{{ site.data.strings.post_download_release | replace: '[Focal]', release.codename | replace: '[amd64]', arch }}</p>
     <p><a class="btn green" href="{{ release.release_notes | absolute_url }}">{{ site.data.strings.release_notes }}</a></p>
 {% endcapture %}
@@ -194,7 +194,7 @@ layout: default
 
 </article>
 
-{% capture download_name %}Ubuntu MATE {{ release.name }}{% endcapture %}
+{% capture download_name %}Ubuntu MATE {% if download.release_name_override %}{{ download.release_name_override }}{% else %}{{ release.name }}{% endif %}{% endcapture %}
 <script>
     document.title = "{{ site.data.strings.post_download_title | replace: '[]', download_name }}";
 </script>
