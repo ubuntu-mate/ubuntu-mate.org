@@ -25,12 +25,6 @@ source_file = _i18n/pots/blog.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.download-table]
-file_filter = _i18n/<lang>/download-table.po
-source_file = _i18n/pots/download-table.pot
-source_lang = en
-type = PO
-
 [ubuntu-mate-org.download]
 file_filter = _i18n/<lang>/download.po
 source_file = _i18n/pots/download.pot

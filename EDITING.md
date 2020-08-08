@@ -228,7 +228,6 @@ youtube:
 These are pre-determined for special purposes and shouldn't be used for new pages.
 
 * `blog-index`
-* `download-table`
 * `download`
 * `feature-grid`
 * `post-download`
