@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-08 16:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,104 +29,99 @@ msgid ""
 "tampered or corrupted."
 msgstr ""
 
-#: pages/faq-verify-secure.md:20
-msgid ""
-"**Note:** This method is only available to `amd64` and `i386` downloads."
-msgstr ""
-
-#: pages/faq-verify-secure.md:25
+#: pages/faq-verify-secure.md:23
 msgid "## Preperations"
 msgstr ""
 
-#: pages/faq-verify-secure.md:27
+#: pages/faq-verify-secure.md:25
 msgid "### Windows"
 msgstr ""
 
-#: pages/faq-verify-secure.md:31
+#: pages/faq-verify-secure.md:29
 msgid ""
 "We recommend using the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/faq),\n"
 "which allows you to run Ubuntu within Windows. This will provide a GNU/Linux\n"
 "environment for running GPG and checksum commands."
 msgstr ""
 
-#: pages/faq-verify-secure.md:33
+#: pages/faq-verify-secure.md:31
 msgid "For help setting up this environment, please see:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:35
+#: pages/faq-verify-secure.md:33
 msgid "* <https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows>"
 msgstr ""
 
-#: pages/faq-verify-secure.md:37
-msgctxt "pages/faq-verify-secure.md:37"
+#: pages/faq-verify-secure.md:35
+msgctxt "pages/faq-verify-secure.md:35"
 msgid "Once installed, jump to the [steps](#steps) section."
 msgstr ""
 
-#: pages/faq-verify-secure.md:40
+#: pages/faq-verify-secure.md:38
 msgid "### macOS"
 msgstr ""
 
-#: pages/faq-verify-secure.md:44
+#: pages/faq-verify-secure.md:42
 msgid ""
 "You'll need to install GnuPG (utility for verifying the signature) and\n"
 "`sha256sum` (for verifying the checksum). We recommend installing this via\n"
 "[Homebrew](https://brew.sh/), a command line package manager for macOS."
 msgstr ""
 
-#: pages/faq-verify-secure.md:47
+#: pages/faq-verify-secure.md:45
 msgid ""
 "1. Install: <https://brew.sh/>\n"
 "2. Run:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:50
+#: pages/faq-verify-secure.md:48
 msgid ""
 "       brew install gnupg\n"
 "       brew install coreutils"
 msgstr ""
 
-#: pages/faq-verify-secure.md:52
-msgctxt "pages/faq-verify-secure.md:52"
+#: pages/faq-verify-secure.md:50
+msgctxt "pages/faq-verify-secure.md:50"
 msgid "Once installed, jump to the [steps](#steps) section."
 msgstr ""
 
-#: pages/faq-verify-secure.md:55
+#: pages/faq-verify-secure.md:53
 msgid "### GNU/Linux"
 msgstr ""
 
-#: pages/faq-verify-secure.md:59
+#: pages/faq-verify-secure.md:57
 msgid ""
 "Most, if not all, distros (including Ubuntu MATE) comes preloaded with packages\n"
 "that provide `gnupg` and `sha256sum`. If yours doesn't, you can install these\n"
 "via your distro's package manager."
 msgstr ""
 
-#: pages/faq-verify-secure.md:61
+#: pages/faq-verify-secure.md:59
 msgid "In Ubuntu, `sha256sum` is provided in `coreutils`."
 msgstr ""
 
-#: pages/faq-verify-secure.md:64
+#: pages/faq-verify-secure.md:62
 msgid "## Steps"
 msgstr ""
 
-#: pages/faq-verify-secure.md:66
+#: pages/faq-verify-secure.md:64
 msgid "### 1. Obtain the checksums and signature"
+msgstr ""
+
+#: pages/faq-verify-secure.md:66
+msgid "For downloads provided by Canonical:"
 msgstr ""
 
 #: pages/faq-verify-secure.md:69
 msgid ""
-"Download the `SHA256SUM.gpg` and `SHA256SUM` file for the release you wish\n"
-"to verify:"
+"* <http://cdimages.ubuntu.com/ubuntu-mate/releases/>\n"
+"* Download the `SHA256SUM` and `SHA256SUM.gpg` files."
 msgstr ""
 
-#: pages/faq-verify-secure.md:71
-msgid "* <http://cdimages.ubuntu.com/ubuntu-mate/releases/>"
-msgstr ""
-
-#: pages/faq-verify-secure.md:83
+#: pages/faq-verify-secure.md:81
 msgid ""
 ">\n"
-"> **Wait... is this secure? The download server is HTTP!**\n"
+"> **Canonical's download server is HTTP! Is this secure?**\n"
 ">\n"
 "> This is a question that commonly asked. We use Canonical's infrastructure\n"
 "> being an official Ubuntu flavour. Many archive mirrors do not use\n"
@@ -138,20 +133,39 @@ msgid ""
 ">"
 msgstr ""
 
-#: pages/faq-verify-secure.md:85
+#: pages/faq-verify-secure.md:83
+msgid "Or for device ports provided by us:"
+msgstr ""
+
+#: pages/faq-verify-secure.md:86
+msgid ""
+"* <https://releases.ubuntu-mate.org>\n"
+"* Download the `.sha256` and `.sha256.sign` files."
+msgstr ""
+
+#: pages/faq-verify-secure.md:88
 msgid "First, let's find out if you have the signature key:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:87
-msgctxt "pages/faq-verify-secure.md:87"
+#: pages/faq-verify-secure.md:90
+msgctxt "pages/faq-verify-secure.md:90"
 msgid "    gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS"
 msgstr ""
 
-#: pages/faq-verify-secure.md:89
+#: pages/faq-verify-secure.md:92
+msgctxt "pages/faq-verify-secure.md:92"
+msgid "Or:"
+msgstr ""
+
+#: pages/faq-verify-secure.md:94
+msgid "    gpg --keyid-format long --verify *.sha256.sign *.sha256"
+msgstr ""
+
+#: pages/faq-verify-secure.md:96
 msgid "If this says:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:103
+#: pages/faq-verify-secure.md:110
 msgid ""
 ">\n"
 "> gpg: Signature made Thursday, October 17, 2019 PM03:13:47 BST\n"
@@ -168,37 +182,39 @@ msgid ""
 ">"
 msgstr ""
 
-#: pages/faq-verify-secure.md:105
-msgid "See the **step 2**, otherwise skip to **step 3**."
+#: pages/faq-verify-secure.md:112
+msgid ""
+"If you don't have the public key, see **step 2**, otherwise skip to **step "
+"3**."
 msgstr ""
 
-#: pages/faq-verify-secure.md:108
+#: pages/faq-verify-secure.md:115
 msgid "### 2. Retrieve the key (if applicable)"
 msgstr ""
 
-#: pages/faq-verify-secure.md:111
+#: pages/faq-verify-secure.md:118
 msgid ""
 "Here's how to securely download the signature key from the keyserver. This only\n"
 "needs to be performed once, except in the rare situation the keys were updated."
 msgstr ""
 
-#: pages/faq-verify-secure.md:114
+#: pages/faq-verify-secure.md:121
 msgid ""
 "In this instance, the two keys are `46181433FBB75451` and `D94AA3F0EFE21092`.\n"
 "Run this command, but add `0x` to the start of both these keys, like so:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:116
+#: pages/faq-verify-secure.md:123
 msgid ""
 "    gpg --keyid-format long --keyserver hkp://keyserver.ubuntu.com --recv-"
 "keys 0x46181433FBB75451 0xD94AA3F0EFE21092"
 msgstr ""
 
-#: pages/faq-verify-secure.md:118
+#: pages/faq-verify-secure.md:125
 msgid "You should get an output like this:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:132
+#: pages/faq-verify-secure.md:139
 msgid ""
 ">\n"
 "> gpg: key D94AA3F0EFE21092: public key \"Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>\" imported\n"
@@ -215,30 +231,42 @@ msgid ""
 ">"
 msgstr ""
 
-#: pages/faq-verify-secure.md:135
+#: pages/faq-verify-secure.md:141
+msgctxt "pages/faq-verify-secure.md:141"
+msgid "Or:"
+msgstr ""
+
+#: pages/faq-verify-secure.md:145
+msgid ""
+"> gpg: key 7454357CFFEE1E5C: public key \"Martin Wimpress <martin@wimpress.org>\" imported\n"
+"> gpg: Total number processed: 1\n"
+"> gpg:               imported: 1"
+msgstr ""
+
+#: pages/faq-verify-secure.md:149
 msgid ""
 "Suspicions should arise if the public key belongs to a random stranger, or looks\n"
 "forged."
 msgstr ""
 
-#: pages/faq-verify-secure.md:138
+#: pages/faq-verify-secure.md:152
 msgid "### 3. Is it a match?"
 msgstr ""
 
-#: pages/faq-verify-secure.md:140
+#: pages/faq-verify-secure.md:154
 msgid "Run this command:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:142
-msgctxt "pages/faq-verify-secure.md:142"
+#: pages/faq-verify-secure.md:156
+msgctxt "pages/faq-verify-secure.md:156"
 msgid "    gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS"
 msgstr ""
 
-#: pages/faq-verify-secure.md:144
+#: pages/faq-verify-secure.md:158
 msgid "And the output:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:170
+#: pages/faq-verify-secure.md:184
 msgid ""
 ">\n"
 "> gpg: Signature made Thursday, October 17, 2019 PM03:13:47 BST\n"
@@ -267,54 +295,54 @@ msgid ""
 ">"
 msgstr ""
 
-#: pages/faq-verify-secure.md:173
+#: pages/faq-verify-secure.md:187
 msgid ""
 "Note the **bold** lines which confirm the file was signed by the team\n"
 "over at Ubuntu. If this wasn't genuine, the result would be **BAD signature**."
 msgstr ""
 
-#: pages/faq-verify-secure.md:177
+#: pages/faq-verify-secure.md:191
 msgid ""
 "The \"key is not certified\" message is simply because you haven't explictly told\n"
 "GnuPG to trust this key. This is optional. You can\n"
 "[learn more about GnuPG on the wiki page](https://help.ubuntu.com/community/GnuPrivacyGuardHowto)."
 msgstr ""
 
-#: pages/faq-verify-secure.md:180
+#: pages/faq-verify-secure.md:194
 msgid "### 4. Verify the ISOs"
 msgstr ""
 
-#: pages/faq-verify-secure.md:183
+#: pages/faq-verify-secure.md:197
 msgid ""
 "Now we know the checksum file is untampered with, you can proceed to verify\n"
 "for corruption as normal."
 msgstr ""
 
-#: pages/faq-verify-secure.md:185
+#: pages/faq-verify-secure.md:199
 msgid "    sha256sum -c SHA256SUMS 2>&1 | grep OK"
 msgstr ""
 
-#: pages/faq-verify-secure.md:187
+#: pages/faq-verify-secure.md:201
 msgid "You should see \"OK\" in its output:"
 msgstr ""
 
-#: pages/faq-verify-secure.md:189
+#: pages/faq-verify-secure.md:203
 msgid "    ubuntu-mate-20.04-desktop-amd64.iso: OK"
 msgstr ""
 
-#: pages/faq-verify-secure.md:192
+#: pages/faq-verify-secure.md:206
 msgid ""
 "An empty output would indicate the file is corrupt and should re-downloaded\n"
 "again."
 msgstr ""
 
-#: pages/faq-verify-secure.md:195
+#: pages/faq-verify-secure.md:209
 msgid ""
 "There are other ways to perform checksum checks that don't require a Terminal,\n"
 "take a look at our [Verify for corruption](/faq/verify-download-quick/) for details."
 msgstr ""
 
-#: pages/faq-verify-secure.md:199
+#: pages/faq-verify-secure.md:213
 msgid ""
 "_This page is an adaptation of [Ubuntu's verification "
 "tutorial](https://discourse.ubuntu.com/t/14010)._"

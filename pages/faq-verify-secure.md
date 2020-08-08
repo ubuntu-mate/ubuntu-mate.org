@@ -108,7 +108,7 @@ If this says:
 > **gpg: Can't check signature: No public key**
 >
 
-See the **step 2**, otherwise skip to **step 3**.
+If you don't have the public key, see **step 2**, otherwise skip to **step 3**.
 
 
 ### 2. Retrieve the key (if applicable)
