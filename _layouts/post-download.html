@@ -196,5 +196,5 @@ layout: default
 
 {% capture download_name %}Ubuntu MATE {% if download.release_name_override %}{{ download.release_name_override }}{% else %}{{ release.name }}{% endif %}{% endcapture %}
 <script>
-    document.title = "{{ site.data.strings.post_download_title | replace: '[20.04]', download_name | replace: '[amd64]', arch }}";
+    document.title = "{{ site.data.strings.post_download_page_title | replace: '[20.04]', download_name | replace: '[amd64]', arch }}";
 </script>
