@@ -16,8 +16,6 @@ proving that this file's digital signature belongs to Ubuntu, you can be
 confident using these checksums to verify the downloaded files haven't been
 tampered or corrupted.
 
-**Note:** This method is only available to `amd64` and `i386` downloads.
-
 {% include partials/toc.html %}
 
 
@@ -64,13 +62,13 @@ In Ubuntu, `sha256sum` is provided in `coreutils`.
 
 ### 1. Obtain the checksums and signature
 
-Download the `SHA256SUM.gpg` and `SHA256SUM` file for the release you wish
-to verify:
+For downloads provided by Canonical:
 
 * <http://cdimages.ubuntu.com/ubuntu-mate/releases/>
+* Download the `SHA256SUM` and `SHA256SUM.gpg` files.
 
 >
-> **Wait... is this secure? The download server is HTTP!**
+> **Canonical's download server is HTTP! Is this secure?**
 >
 > This is a question that commonly asked. We use Canonical's infrastructure
 > being an official Ubuntu flavour. Many archive mirrors do not use
@@ -81,9 +79,18 @@ to verify:
 > you can trust the file.
 >
 
+Or for device ports provided by us:
+
+* <https://releases.ubuntu-mate.org>
+* Download the `.sha256` and `.sha256.sign` files.
+
 First, let's find out if you have the signature key:
 
     gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS
+
+Or:
+
+    gpg --keyid-format long --verify *.sha256.sign *.sha256
 
 If this says:
 
@@ -129,6 +136,13 @@ You should get an output like this:
 >
 > gpg:               imported: 2
 >
+
+Or:
+
+> gpg: key 7454357CFFEE1E5C: public key "Martin Wimpress <martin@wimpress.org>" imported
+> gpg: Total number processed: 1
+> gpg:               imported: 1
+
 
 Suspicions should arise if the public key belongs to a random stranger, or looks
 forged.
