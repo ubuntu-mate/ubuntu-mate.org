@@ -70,8 +70,17 @@ The data is stored in `_data/downloads.yml`:
 
 Architectures may include ports to other devices, such as `gpd_pocket`.
 
-It is recommended to commit the `magnet-uri`, as opposed to leaving it blank.
-To obtain this automagically:
+The URL, torrent and magnet URI is required. To obtain the magnet
+link automagically, set the `magnet-uri` key to `autogen` like so:
+
+```
+- release: bionic
+  ~~snip~~
+  magnet-uri: autogen
+```
+
+Then pass `--magnet-uri` to the `build` or `watch` script, which will overwrite
+`autogen` with the actual URI. This requires `transmission-show` to be installed.
 
     ./scripts/watch.sh --magnet-uri
 
