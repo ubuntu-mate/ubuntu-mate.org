@@ -83,11 +83,11 @@ downloads:
           bandwidth_costs: true
 
         - release: focal
-          release_name_override: "20.04"
-          url: "https://releases.ubuntu-mate.org/focal/armhf/ubuntu-mate-20.04-beta1-desktop-armhf+raspi.img.xz"
-          sha256sum: "82019e65bf836c10a7f4f787757e6f317ea8b9508f15ee23d25a85ef5107e9bc"
+          release_name_override: "20.04.1"
+          url: "https://releases.ubuntu-mate.org/focal/armhf/ubuntu-mate-20.04.1-beta2-desktop-armhf+raspi.img.xz"
+          sha256sum: "147233a6c01e6d4a59a8ef6823d573cc8ec157301e8efe7b8c45e08f9b4afaaa"
           size: "1.1 GB"
-          magnet-uri: "magnet:?xt=urn:btih:3e0cef34d73826905a752d253449cb7560fd5a81&dn=ubuntu-mate-20.04-beta1-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04-beta1-desktop-armhf%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04-beta1-desktop-armhf%2Braspi.img.xz"
+          magnet-uri: "magnet:?xt=urn:btih:b73d95cf704c47b00db15e6a656a4ca47495dac5&dn=ubuntu-mate-20.04.1-beta2-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-beta2-desktop-armhf%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-beta2-desktop-armhf%2Braspi.img.xz"
           bandwidth_costs: true
 
     arm64:
@@ -100,11 +100,11 @@ downloads:
           bandwidth_costs: true
 
         - release: focal
-          release_name_override: "20.04"
-          url: "https://releases.ubuntu-mate.org/focal/arm64/ubuntu-mate-20.04-beta1-desktop-arm64+raspi.img.xz"
-          sha256sum: "233c268963637c94a3527b90fce3cf74eeaaf03e9d3a5623457b4b2412778daa"
+          release_name_override: "20.04.1"
+          url: "https://releases.ubuntu-mate.org/focal/arm64/ubuntu-mate-20.04.1-beta2-desktop-arm64+raspi.img.xz"
+          sha256sum: "765d63d5b3c9783d656a124cf6e5527bb3f279ece26d67264327384393e01bd5"
           size: "1.2 GB"
-          magnet-uri: "magnet:?xt=urn:btih:662a4fc7295f283fa3f13c417f89d60226028a91&dn=ubuntu-mate-20.04-beta1-desktop-arm64%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04-beta1-desktop-arm64%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04-beta1-desktop-arm64%2Braspi.img.xz"
+          magnet-uri: "magnet:?xt=urn:btih:c0f3121bac16ae9c35fd4dd82ebd7f843000205c&dn=ubuntu-mate-20.04.1-beta2-desktop-arm64%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-beta2-desktop-arm64%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-beta2-desktop-arm64%2Braspi.img.xz"
           bandwidth_costs: true
 
     gpd_pocket:
