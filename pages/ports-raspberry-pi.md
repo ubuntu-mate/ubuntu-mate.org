@@ -233,6 +233,12 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Recent Changes
 
+### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020
+
+  * Re-based on Ubuntu MATE 20.04.1.
+  * Fixed WiFi on first boot during the initial setup wizard.
+  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible.
+
 ### Ubuntu MATE 20.04 Beta 1 - 12 July 2020
 
   * Re-based on Ubuntu MATE 20.04.
@@ -247,8 +253,6 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Known Issues
 
-  * WiFi is not available on first boot during the initial setup wizard
-    * WiFi is working on subsequent boos.
   * The boot following initial setup is a little slow as the file system is automatically expanded and initial system configuration is completed.
     * After this, boot performance is prompt.
   * No USB booting *(yet)*
