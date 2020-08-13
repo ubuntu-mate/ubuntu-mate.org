@@ -91,4 +91,4 @@ Bitcoin address into your Bitcoin client to donate an amount of your choice.
 
 ## Affiliate Links
 
-Some page on this website include Amazon affiliate links to products we've tested and are known to be compatible with Ubuntu MATE. Clicking those links will earn us a commission, with no additional cost to you, in the event of purchases.
+Some pages on this website include Amazon affiliate links to products we've tested and are known to be compatible with Ubuntu MATE. Clicking those links will earn us a commission, with no additional cost to you, in the event of purchases.
