@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-14 22:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,41 +44,45 @@ msgstr ""
 msgid "### Raspberry Pi"
 msgstr ""
 
-#: pages/requirements.md:34
+#: pages/requirements.md:31
+msgid "Only the **B models** of the Raspberry Pi family are supported:"
+msgstr ""
+
+#: pages/requirements.md:36
 msgid ""
-"| Build                 | Compatible with models        |\n"
-"| --------------------- | ----------------------------- |\n"
-"| [armhf (Recommended)] | B2, B3, B3+\n"
-"| [arm64 (Experimental)]| B3, B3+"
+"* Raspberry Pi 2\n"
+"* Raspberry Pi 3\n"
+"* Raspberry Pi 3+\n"
+"* Raspberry Pi 4 (all memory sizes)"
 msgstr ""
 
 #: pages/requirements.md:39
 msgid ""
+"All models support the [armhf] architecture. The Raspberry Pi 3 and newer\n"
+"can also take advantage of the 64-bit CPU using the [arm64] release."
+msgstr ""
+
+#: pages/requirements.md:44
+msgid ""
 "[i386]: /download/i386/\n"
 "[amd64]: /download/amd64/\n"
-"[armhf (Recommended)]: /download/armhf/\n"
-"[arm64 (Experimental)]: /download/arm64/"
-msgstr ""
-
-#: pages/requirements.md:41
-msgid "The micro-SD card needs to be a minimum of 5 GB."
-msgstr ""
-
-#: pages/requirements.md:43
-msgid ""
-"Raspberry Pi 4 is not currently supported at the moment, but is planned for "
-"a future version."
+"[armhf]: /download/armhf/\n"
+"[arm64]: /download/arm64/"
 msgstr ""
 
 #: pages/requirements.md:46
+msgid "The micro-SD card needs to be a minimum of 5 GB."
+msgstr ""
+
+#: pages/requirements.md:49
 msgid "### Hardware Ports"
 msgstr ""
 
-#: pages/requirements.md:48
+#: pages/requirements.md:51
 msgid "Ubuntu MATE has been officially ported to, and works great on:"
 msgstr ""
 
-#: pages/requirements.md:54
+#: pages/requirements.md:57
 msgid ""
 "| Codename              | Compatible with                                   |\n"
 "| --------------------- | ------------------------------------------------- |\n"

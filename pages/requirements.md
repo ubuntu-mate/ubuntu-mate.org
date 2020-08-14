@@ -27,19 +27,22 @@ makes modern computers fast and old computers usable.
 
 ### Raspberry Pi
 
-| Build                 | Compatible with models        |
-| --------------------- | ----------------------------- |
-| [armhf (Recommended)] | B2, B3, B3+
-| [arm64 (Experimental)]| B3, B3+
+Only the **B models** of the Raspberry Pi family are supported:
+
+* Raspberry Pi 2
+* Raspberry Pi 3
+* Raspberry Pi 3+
+* Raspberry Pi 4 (all memory sizes)
+
+All models support the [armhf] architecture. The Raspberry Pi 3 and newer
+can also take advantage of the 64-bit CPU using the [arm64] release.
 
 [i386]: /download/i386/
 [amd64]: /download/amd64/
-[armhf (Recommended)]: /download/armhf/
-[arm64 (Experimental)]: /download/arm64/
+[armhf]: /download/armhf/
+[arm64]: /download/arm64/
 
 The micro-SD card needs to be a minimum of 5 GB.
-
-Raspberry Pi 4 is not currently supported at the moment, but is planned for a future version.
 
 
 ### Hardware Ports
