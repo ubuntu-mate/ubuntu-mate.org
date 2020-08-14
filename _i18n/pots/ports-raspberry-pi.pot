@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-14 19:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -400,10 +400,21 @@ msgid "## Recent Changes"
 msgstr ""
 
 #: pages/ports-raspberry-pi.md:237
+msgid "### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:241
+msgid ""
+"  * Re-based on Ubuntu MATE 20.04.1.\n"
+"  * Fixed WiFi on first boot during the initial setup wizard.\n"
+"  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible."
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:243
 msgid "### Ubuntu MATE 20.04 Beta 1 - 12 July 2020"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:247
+#: pages/ports-raspberry-pi.md:253
 msgid ""
 "  * Re-based on Ubuntu MATE 20.04.\n"
 "  * Added support for Raspberry Pi 4.\n"
@@ -416,33 +427,31 @@ msgid ""
 "  * Dropped `raspi-config`; we have something else in the works..."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:249
+#: pages/ports-raspberry-pi.md:255
 msgid "## Known Issues"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:255
+#: pages/ports-raspberry-pi.md:259
 msgid ""
-"  * WiFi is not available on first boot during the initial setup wizard\n"
-"    * WiFi is working on subsequent boos.\n"
 "  * The boot following initial setup is a little slow as the file system is automatically expanded and initial system configuration is completed.\n"
 "    * After this, boot performance is prompt.\n"
 "  * No USB booting *(yet)*"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:257
+#: pages/ports-raspberry-pi.md:261
 msgid "### Previous Changes"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:259
+#: pages/ports-raspberry-pi.md:263
 msgid ""
 "  * [See what changed in earlier releases.](/ports/raspberry-pi-change-log/)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:261
+#: pages/ports-raspberry-pi.md:265
 msgid "## Feedback and Improvements"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:264
+#: pages/ports-raspberry-pi.md:268
 msgid ""
 "These images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"

@@ -348,3 +348,9 @@ file_filter = _i18n/<lang>/2020-04-02-ubuntu-mate-focal.po
 source_file = _i18n/pots/2020-04-02-ubuntu-mate-focal.pot
 source_lang = en
 type = PO
+
+[ubuntu-mate-org.strings]
+file_filter = _i18n/<lang>/strings.po
+source_file = _i18n/pots/strings.pot
+source_lang = en
+type = PO
