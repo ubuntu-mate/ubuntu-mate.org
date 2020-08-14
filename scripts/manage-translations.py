@@ -145,10 +145,8 @@ def generate():
     strings_yml_pot = "{0}/pots/strings.pot".format(i18n_dir)
     run("{0} -P {1} {2}".format(yaml2po, strings_yml, strings_yml_pot))
 
-    print("Regenerating locale po files...")
-    locale_no = 0
-    page_no = 0
-    for locale in locale_list:
+    print("Refreshing locale po files...")
+    for locale_no, locale in enumerate(locale_list):
         locale_no += 1
         if not locale:
             continue
@@ -156,10 +154,10 @@ def generate():
         locale = locale.strip()
 
         # For each markdown page, generate new POT and merge with existing.
-        for path in file_list:
+        for page_no, path in enumerate(file_list):
             page_no += 1
             page = path.replace(".md", "").split("/")[-1]
-            print("  [{0}/{1}] {2}: {3}".format(page_no, len(file_list) * (len(locale_list) - 1), locale, page))
+            print("  [{0}/{1}] {2}: {3}".format(page_no, len(file_list), locale, page))
 
             pot_path = "{0}/pots/{1}.pot".format(i18n_dir, page)
             po_path = "{0}/{1}/{2}.po".format(i18n_dir, locale, page)
@@ -181,8 +179,6 @@ def generate():
 
 
 def build():
-    locale_no = 0
-    page_no = 0
     print("Generating markdown files...")
 
     # Clear previously generated markdown files
@@ -190,18 +186,20 @@ def build():
         shutil.rmtree(dest_dir)
     os.mkdir(dest_dir)
 
-    for locale in locale_list:
-        locale_no += 1
+    total = len(locale_list) * len(file_list)
+    for locale_no, locale in enumerate(locale_list):
         if not locale:
             continue
 
         locale = locale.strip()
 
         # Create new markdown files from translated PO files.
-        for path in file_list:
-            page_no += 1
+        for page_no, path in enumerate(file_list):
             page = path.replace(".md", "").split("/")[-1]
-            print("  [{0}/{1}] {2}: {3}".format(page_no, len(file_list) * (len(locale_list) - 1), locale, page))
+            page_no += 1
+
+            current = page_no + (len(file_list) * locale_no)
+            print("  [{0}/{1}] {2}: {3}".format(current, total, locale, page))
 
             src = os.path.join(i18n_dir, locale, page + ".po")
             dst = os.path.join(dest_dir, page + "." + locale + ".md")
@@ -225,11 +223,10 @@ def build():
         yaml_dst = os.path.join(yaml_dir, locale, "strings.yml")
         if os.path.exists(yaml_src):
             run("{0} {1} {2}".format(po2yaml, yaml_src, yaml_dst))
+            run("{0} {1} {2}".format(po2yaml, yaml_src, yaml_dst))
 
 
 def sync():
-    locale_no = 0
-    page_no = 0
     print("Generating .tx/config file...")
     tx_file = base_dir + "/.tx/config"
 
@@ -238,13 +235,19 @@ def sync():
     tx_data.append("host = https://www.transifex.com\n")
     a_z_file_list = sorted(page_list) + sorted(post_list)
 
-    for page in a_z_file_list:
-        filename = os.path.basename(page).replace(".md", "")
+    def _add_to_tx(filename):
         tx_data.append("\n[ubuntu-mate-org.{0}]\n".format(filename))
         tx_data.append("file_filter = _i18n/<lang>/{0}.po\n".format(filename))
         tx_data.append("source_file = _i18n/pots/{0}.pot\n".format(filename))
         tx_data.append("source_lang = en\n")
         tx_data.append("type = PO\n")
+
+    for page in a_z_file_list:
+        filename = os.path.basename(page).replace(".md", "")
+        _add_to_tx(filename)
+
+    # strings.yml is in the _data directory
+    _add_to_tx("strings")
 
     with open(tx_file, "w") as f:
         f.writelines(tx_data)
@@ -253,19 +256,36 @@ def sync():
     check_if_installed("tx", "transifex-client")
     run("tx pull -a --minimum-perc=" + str(MINIMUM_PERCENT))
 
-    print("Generating locale lists...")
-    langs = glob.glob(i18n_dir + "/*")
-    lang_list = []
+    print("Updating locale lists...")
+    lang_paths = glob.glob(i18n_dir + "/*")
+    langs = []
+    for path in lang_paths:
+        if path.find("locales.txt") != -1 or path.find("pots") != -1:
+            continue
+        langs.append(path.split("/")[-1])
+
+    total_pots = len(glob.glob(i18n_dir + "/pots/*.pot"))
+    completed_langs = []
     for lang in langs:
         lang = os.path.basename(lang)
         if lang == "pots" or lang == "locales.txt":
             continue
-        print(" -> Found: " + lang)
-        lang_list.append(lang)
+
+        # Only add locale if it meets the threshold
+        lang_po = len(glob.glob(i18n_dir + "/" + lang + "/*"))
+        percent = int((lang_po / total_pots) * 100)
+        complete = percent >= MINIMUM_PERCENT
+
+        if complete:
+            print("|               | Will be published", end="\r")
+            completed_langs.append(lang)
+        print("|               |".format(percent),end="\r")
+        print("|       | {0}%".format(percent),end="\r")
+        print("| {0}".format(lang))
 
     # (1) _i18n/locales.txt for our scripts.
     with open(i18n_dir + "/locales.txt", "w") as f:
-        f.writelines(" ".join(lang_list))
+        f.writelines("\n".join(completed_langs))
 
     # (2) _config.yml for the jekyll-polyglot gem.
     with open("_config.yml", "r") as f:
@@ -275,13 +295,29 @@ def sync():
     for line in config:
         if line.startswith("languages:"):
             line = 'languages: ["en"'
-            for lang in lang_list:
-                line += ', "{0}"'.format(lang)
+            for lang in completed_langs:
+                 line += ', "{0}"'.format(lang)
             line += ']\n'
         new_config.append(line)
 
     with open("_config.yml", "w") as f:
         f.writelines(new_config)
+
+    # (3) Locale name for the interface
+    with open("_data/lang.yml", "r") as f:
+        lang_labels = f.readlines()
+
+    f = open("_data/lang.yml", "a")
+
+    missing_langs = []
+    for lang in completed_langs:
+        if " ".join(lang_labels).find(lang) == -1:
+            missing_langs.append(lang)
+            f.write('{0}: ""\n'.format(lang))
+    f.close()
+
+    if missing_langs:
+        print("\nNew language(s):\n    {0}\n".format(", ".join(missing_langs)))
 
     generate()
     build()
@@ -290,9 +326,10 @@ def sync():
     run("tx push -s")
 
     print("\nSync complete.\n")
-    print(" [!] Ready to commit the changes, but performing a website build is recommended.")
-    print(" [!] Strings for new languages need to be added at: _data/lang.yaml\n")
-
+    print(" \033[5m[!]\033[0m Ready to test/commit the changes. Performing a website build is recommended.")
+    if missing_langs:
+        print(" \033[5m[!]\033[0m New languages added! Add the strings in: _data/lang.yaml")
+    print("")
 
 # Process arguments
 try:
