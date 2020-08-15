@@ -55,20 +55,20 @@ arch:
 downloads:
     amd64:
         - release: bionic
-          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso"
           sha256sum: "b57f20257095e503aeee5a0aebd395c9288d911540db8686cae440265bfbf8dc"
           size: "1.9 GB"
           magnet-uri: "magnet:?xt=urn:btih:32310b4db84de5c023bfcb9f40648d8c9e7ca16e&dn=ubuntu-mate-18.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: focal
-          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.1-desktop-amd64.iso"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.1-desktop-amd64.iso"
           sha256sum: "c78cbaa40de6189e61ed5a70967d9a28148d72e9080441a55a578ee5f69d6065"
           size: "2.5 GB"
           magnet-uri: "magnet:?xt=urn:btih:05a34417a9058a0082c0d11541c39dea60f17bec&dn=ubuntu-mate-20.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     i386:
         - release: bionic
-          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-i386.iso"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-i386.iso"
           sha256sum: "b340bef5a534aa11285850b900c46fe097ea4ba650df44782e413f2f5c56729f"
           size: "1.9 GB"
           magnet-uri: "magnet:?xt=urn:btih:536ba3a7d7b15bf71613080cab90db96fc80a2d5&dn=ubuntu-mate-18.04.5-desktop-i386.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
