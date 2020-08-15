@@ -1,13 +1,15 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE 19.04 Final Release
 permalink: /blog/ubuntu-mate-disco-final-release/
 description: Ubuntu MATE 19.04 (Disco Dingo) Final Release
 category: release
 author: Martin Wimpress
 lang: en
 discourse_topic_id: 21342
+
+title: Ubuntu MATE 19.04 Final Release
+
 ---
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug

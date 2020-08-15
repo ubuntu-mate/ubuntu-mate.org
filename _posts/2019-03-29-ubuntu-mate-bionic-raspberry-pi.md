@@ -1,13 +1,15 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi
 permalink: /blog/ubuntu-mate-bionic-beta1-raspberry-pi/
 description: Ubuntu MATE 18.04 Beta-1 for the Raspberry Pi Model B 2, 3 and  3+
 category: dev
 author: Martin Wimpress
 lang: en
 discourse_topic_id: 21340
+
+title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi
+
 ---
 
 We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.

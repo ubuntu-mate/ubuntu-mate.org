@@ -1,13 +1,15 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE 20.04 Release Notes
 permalink: /blog/ubuntu-mate-focal-fossa-release-notes/
 description: Ubuntu MATE 20.04 (Focal Fossa)
 category: release
 author: Martin Wimpress & franksmcb
 lang: en
 discourse_topic_id: 21642
+
+title: Ubuntu MATE 20.04 Release Notes
+
 ---
 
 Ubuntu MATE 20.04 LTS represents 2 years :sweat_drops: of continued improvement

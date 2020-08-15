@@ -1,13 +1,15 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE 19.04 Beta 1
 permalink: /blog/ubuntu-mate-disco-beta/
 description: Ubuntu MATE 19.04 (Disco Dingo) Beta
 category: dev
 author: Martin Wimpress
 lang: en
 discourse_topic_id: 21339
+
+title: Ubuntu MATE 19.04 Beta 1
+
 ---
 
 **Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want bug

@@ -1,13 +1,15 @@
 ---
 layout: blog-post
 class: blog
-title: Ubuntu MATE XX.XX Release Notes
 permalink: /blog/ubuntu-mate-XX-XX-release-notes/
 description: Ubuntu MATE XX.XX (YYYY YYYY)
 category: dev                                   # release
 author: Martin Wimpress
 lang: en
 discourse_topic_id: null
+
+title: Ubuntu MATE XX.XX Release Notes
+
 ---
 
 We are preparing Ubuntu MATE XX.XX (YYYY YYYYYY) for distribution on
