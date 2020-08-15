@@ -55,11 +55,17 @@ $(window).ready(function() {
 // Search page
 //--------------------------------------
 $(window).ready(function() {
+    var locale = $("html").attr("lang");
+    var json_path = "/search/search.json";
+    if (locale != "en") {
+        json_path = "/" + locale + "/search/search.json";
+    }
+
     if ($("#search-input").length > 0) {
         var sjs = SimpleJekyllSearch({
             searchInput: document.getElementById("search-input"),
             resultsContainer: document.getElementById("results-container"),
-            json: "/search/search.json"
+            json: json_path
         });
 
         // Execute search again if using back button.

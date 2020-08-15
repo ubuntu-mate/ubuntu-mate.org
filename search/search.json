@@ -1,5 +1,6 @@
 ---
 layout: null
+lang: en
 ---
 [
   {% assign posts = site.posts | concat: site.pages %}
