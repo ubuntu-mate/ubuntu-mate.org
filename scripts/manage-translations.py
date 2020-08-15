@@ -32,7 +32,7 @@ MINIMUM_PERCENT = 50
 
 def check_if_installed(cmd, package):
     if not shutil.which(cmd):
-        print("Command for '{0}' missing. Please install '{1}'")
+        print("Command for '{0}' missing. Please install '{1}'".format(cmd, package))
         exit(1)
 
 check_if_installed("po2txt", "translate-toolkit")
