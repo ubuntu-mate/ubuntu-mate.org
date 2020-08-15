@@ -9,6 +9,7 @@ _site
 pages/i18n/
 _data/**/
 pages/autogen/
+_posts/*.*.md
 
 # Misc
 *.directory

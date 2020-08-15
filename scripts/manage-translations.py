@@ -9,6 +9,16 @@
 #   - po2txt (provided in 'translate-toolkit')
 #   - polib (provided in "python3-polib")
 #
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
 
 import argparse
 import os
@@ -28,6 +38,8 @@ def check_if_installed(cmd, package):
 check_if_installed("po2txt", "translate-toolkit")
 check_if_installed("txt2po", "translate-toolkit")
 check_if_installed("msgmerge", "translate-toolkit")
+check_if_installed("po2yaml", "translate-toolkit")
+check_if_installed("yaml2po", "translate-toolkit")
 
 # Directories
 os.chdir(os.path.join(os.path.dirname(__file__), "../"))
@@ -37,10 +49,6 @@ post_dir = "_posts"
 yaml_dir = "_data"
 i18n_dir = "_i18n"
 dest_dir = "pages/i18n"
-
-# External helper scripts
-yaml2po = os.path.join(base_dir, "scripts/helpers/yaml2po")
-po2yaml = os.path.join(base_dir, "scripts/helpers/po2yaml")
 
 # Ensure output directory exists
 if not os.path.exists(dest_dir):
@@ -59,12 +67,17 @@ for page in glob.glob(page_dir + "/*.md"):
         continue
     page_list.append(page)
 
-# Gather posts - exclude blog posts before 2019.
+# Gather posts - exclude blog posts before 2019 and translated posts
 post_list = []
+i18n_posts = glob.glob(post_dir + "/*.*.md")
+
 for post in glob.glob(post_dir + "/*.md"):
     if os.path.basename(post)[:4] in ["2018", "2017", "2016", "2015", "2014"]:
         continue
     post_list.append(post)
+
+for post in i18n_posts:
+    post_list.remove(post)
 
 # Put together lists
 file_list = page_list + post_list
@@ -142,8 +155,8 @@ def generate():
 
     # Re-generate a POT for strings.yml (for translating _includes and _layouts)
     strings_yml = "{0}/strings.yml".format(yaml_dir)
-    strings_yml_pot = "{0}/pots/strings.pot".format(i18n_dir)
-    run("{0} -P {1} {2}".format(yaml2po, strings_yml, strings_yml_pot))
+    strings_pot = "{0}/pots/strings.pot".format(i18n_dir)
+    run("yaml2po -i {0} -o {1}".format(strings_yml, strings_pot))
 
     print("Refreshing locale po files...")
     for locale_no, locale in enumerate(locale_list):
@@ -171,6 +184,7 @@ def generate():
 
         # Update strings.po
         strings_yml_po = "{0}/{1}/strings.po".format(i18n_dir, locale)
+        strings_yml_pot = "{0}/pots/strings.pot".format(i18n_dir)
         if os.path.exists(os.path.join(strings_yml_po)):
             run("msgmerge {0} {1} > new_po.tmp".format(strings_yml_po, strings_yml_pot))
             os.rename("new_po.tmp", strings_yml_po)
@@ -186,6 +200,9 @@ def build():
         shutil.rmtree(dest_dir)
     os.mkdir(dest_dir)
 
+    for post in i18n_posts:
+        os.remove(post)
+
     total = len(locale_list) * len(file_list)
     for locale_no, locale in enumerate(locale_list):
         if not locale:
@@ -196,6 +213,7 @@ def build():
         # Create new markdown files from translated PO files.
         for page_no, path in enumerate(file_list):
             page = path.replace(".md", "").split("/")[-1]
+            is_post = page.startswith("20")
             page_no += 1
 
             current = page_no + (len(file_list) * locale_no)
@@ -203,7 +221,9 @@ def build():
 
             src = os.path.join(i18n_dir, locale, page + ".po")
             dst = os.path.join(dest_dir, page + "." + locale + ".md")
-            run("po2txt --template {path} {src} {dst}".format(path=path, src=src, dst=dst))
+            if is_post:
+                dst = os.path.join(post_dir, page + "." + locale + ".md")
+            run("po2txt --fuzzy -t {path} {src} {dst}".format(path=path, src=src, dst=dst))
 
             # Ensure language code is definitely set.
             contents = ""
@@ -219,11 +239,11 @@ def build():
             os.mkdir(yaml_locale_dir)
 
         # Update an existing strings.po file if exists.
-        yaml_src = os.path.join(i18n_dir, locale, "strings.po")
-        yaml_dst = os.path.join(yaml_dir, locale, "strings.yml")
-        if os.path.exists(yaml_src):
-            run("{0} {1} {2}".format(po2yaml, yaml_src, yaml_dst))
-            run("{0} {1} {2}".format(po2yaml, yaml_src, yaml_dst))
+        strings_po = os.path.join(i18n_dir, locale, "strings.po")
+        template_yml = os.path.join(yaml_dir, "strings.yml")
+        strings_yml = os.path.join(yaml_dir, locale, "strings.yml")
+        if os.path.exists(strings_po):
+            run("po2yaml --fuzzy -i {0} -t {1} -o {2}".format(strings_po, template_yml, strings_yml))
 
 
 def sync():

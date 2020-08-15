@@ -20,7 +20,7 @@ about:
       url: /about/testimonials/
 
 features:
-    - name: Under the Hood
+    - string_name: under_the_hood
       icon: /images/categories/features/package.svg
       url: /features/
 

@@ -46,8 +46,6 @@ release_notes: "Release Notes"
 download_started: "Your download has started"
 download_started_help: "Not working? Try clicking the link:"
 post_download_go_back: "Choose a different download"
-lts: "Long Term Release (LTS) - Recommended for stability and mission critical systems."
-non-lts: "Interim release for users desiring the latest features and applications."
 browse_downloads: "Browse Downloads"
 show_req: "System Requirements"
 download_ports: "Or.... choose a hardware port:"
@@ -125,7 +123,6 @@ download_stuck_help_faq: "Frequently asked questions"
 #######################################
 latest_blogs: "Latest"
 archived_blogs: "Archives"
-rss: "RSS Feed"
 read_more: "Read more..."
 category_release: "Release Announcement"
 category_dev: "Development Update"
@@ -143,6 +140,7 @@ comments_no_js: "To view comments, please enable JavaScript in your browser."
 # Categories
 #######################################
 # About
+under_the_hood: "Under the Hood"
 what_is_ubuntu_mate: What is Ubuntu MATE?
 history: "History"
 system_requirements: "System Requirements"
