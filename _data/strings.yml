@@ -21,9 +21,21 @@ light_mode: "Light Mode"
 
 
 #######################################
+# Navigation
+#######################################
+about: "About"
+features: "Features"
+blog: "Blog"
+downloads: "Download"
+support: "Support"
+get_involved: "Get Involved"
+shop: "Emporium"
+funding: "Funding"
+
+
+#######################################
 # Downloads
 #######################################
-downloads_title: "Download"
 choose_arch: "Choose an architecture"
 choose_version: "Choose a release"
 choose_download: "Choose a download"
@@ -131,7 +143,6 @@ comments_no_js: "To view comments, please enable JavaScript in your browser."
 # Categories
 #######################################
 # About
-about: "About"
 what_is_ubuntu_mate: What is Ubuntu MATE?
 history: "History"
 system_requirements: "System Requirements"
@@ -139,14 +150,9 @@ team: "Team"
 testimonials: "Testimonials"
 
 # Features (for others, see below)
-features: "Features"
 custom_panel: "Panel Customisation"
 
-# Support
-support: "Support"
-
 # Shop
-shop: "Emporium"
 computers: "Desktop & Laptops"
 books: "Books"
 apparel: "Apparel"
@@ -210,7 +216,6 @@ kernel3: "Excellent stability"
 # Get Involved
 #######################################
 # Titles
-get_involved: "Get Involved"
 dev_status: "Development Status"
 documentation: "Documentation"
 

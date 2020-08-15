@@ -1,31 +1,31 @@
 - url: /about/
-  text: About
+  string_id: about
   class: about
 
 - url: /features/
-  text: Features
+  string_id: features
   class: features
 
 - url: /blog/
-  text: Blog
+  string_id: blog
   class: blog
 
 - url: /download/
-  text: Download
+  string_id: downloads
   class: download
 
 - url: /support/
-  text: Support
+  string_id: support
   class: support
 
 - url: /get-involved/
-  text: Get Involved
+  string_id: get_involved
   class: get-involved
 
 - url: /shop/
-  text: Emporium
+  string_id: shop
   class: shop
 
 - url: /funding/
-  text: Funding
+  string_id: funding
   class: funding

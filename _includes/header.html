@@ -16,7 +16,7 @@
                     <ul class="primary-nav">
                       {% for nav in site.data.navigation %}
                         <li>
-                            <a class="nav-btn {% if nav.url == page.permalink or nav.class == page.class %}active{% endif %}" href="{{ nav.url }}">{{ nav.text }}</a>
+                            <a class="nav-btn {% if nav.url == page.permalink or nav.class == page.class %}active{% endif %}" href="{{ nav.url }}">{{ site.data.strings[nav.string_id] }}</a>
                         </li>
                       {% endfor %}
                     </ul>

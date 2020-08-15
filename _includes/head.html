@@ -8,14 +8,14 @@
             {{ page.title }}
         {% elsif page.layout == 'download' %}
             {% if page.step == 1 %}
-                {{ site.data.strings.choose_arch }} | {{ site.data.strings.downloads_title }}
+                {{ site.data.strings.choose_arch }} | {{ site.data.strings.downloads }}
             {% elsif page.step == 2 %}
-                {{ site.data.strings.choose_version }} | {{ site.data.strings.downloads_title }}
+                {{ site.data.strings.choose_version }} | {{ site.data.strings.downloads }}
             {% elsif page.step == 3 %}
-                {{ site.data.strings.choose_download }} | {{ site.data.strings.downloads_title }}
+                {{ site.data.strings.choose_download }} | {{ site.data.strings.downloads }}
             {% endif %}
         {% elsif page.layout == 'download-thanks' %}
-            {{ site.data.strings.post_download }} | {{ site.data.strings.downloads_title }}
+            {{ site.data.strings.post_download }} | {{ site.data.strings.downloads }}
         {% else %}
             {% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}
         {% endif %}
