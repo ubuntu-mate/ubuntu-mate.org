@@ -85,6 +85,9 @@ We are ready to speak multiple languages! Visit
 [Transifex](https://www.transifex.com/ubuntu-mate/ubuntu-mate.org/)
 to translate this website. The Ubuntu MATE team will pull in completed translations.
 
+Please refer to the [guidelines](https://ubuntu-mate.community/t/22342) for
+the best practices.
+
 We use the [polyglot](https://github.com/untra/polyglot) gem to provide i18n support.
 
 As part of the build script, the website will generate the markdown files for other
