@@ -22,7 +22,7 @@
     {% endcapture %}
 
     <title>{{ page_title }}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="description" content="{{ page.excerpt | default: site.data.strings.site_description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
     <meta name="author" content="Ubuntu MATE Team">
 
@@ -42,7 +42,7 @@
     <meta property="og:site_name" content="Ubuntu MATE">
     <meta property="og:title" content="{{ page_title }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:description" content="{{ page.excerpt | default: site.data.strings.site_description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ og_image }}">
     <meta name="twitter:card" content="summary">

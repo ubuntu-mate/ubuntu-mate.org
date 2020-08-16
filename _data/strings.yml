@@ -323,6 +323,15 @@ na: "n/a"
 #######################################
 # Miscellaneous
 #######################################
+site_description: "
+A community developed, Ubuntu based operating system that beautifully
+integrates the MATE desktop.
+
+Ubuntu MATE is a stable, easy-to-use operating system with a configurable
+desktop environment. Ideal for those who want the most out of their computers
+and prefer a traditional desktop metaphor. With modest hardware requirements
+it is suitable for modern workstations, single board computers and older
+hardware alike."
 toggle_sidebar: "Expand/Collapse Sidebar"
 search_placeholder: "Enter keywords..."
 alt_logo_UM: "Ubuntu MATE Logo"

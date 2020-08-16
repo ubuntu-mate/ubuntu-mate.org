@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"POT-Creation-Date: 2020-08-16 19:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -936,6 +936,17 @@ msgstr ""
 
 #: na
 msgid "n/a"
+msgstr ""
+
+#: site_description
+msgid ""
+" A community developed, Ubuntu based operating system that beautifully "
+"integrates the MATE desktop.\n"
+"Ubuntu MATE is a stable, easy-to-use operating system with a configurable "
+"desktop environment. Ideal for those who want the most out of their "
+"computers and prefer a traditional desktop metaphor. With modest hardware "
+"requirements it is suitable for modern workstations, single board computers "
+"and older hardware alike."
 msgstr ""
 
 #: toggle_sidebar
