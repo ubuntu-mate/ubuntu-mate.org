@@ -104,3 +104,12 @@ if ($("html").attr("lang") != "en") {
     path.shift();
     $("#en-nav-btn").attr("href", "/" + path.join("/"));
 }
+
+//--------------------------------------
+// Blog index - hide older posts
+//--------------------------------------
+function show_all_posts() {
+    $(".post-card.old").removeClass("old");
+    $("#show-old-posts").remove();
+    return false;
+}

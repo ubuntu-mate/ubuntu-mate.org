@@ -15,7 +15,9 @@ layout: default
             <content class="page-content col">
 
             {% for post in site.posts %}
-                <a class="post-card" href="{{ post.permalink }}">
+                {% assign year = post.date | slice: 0,4 | plus: 0 %}
+
+                <a class="post-card {% if year < 2019 %}old{% endif %}" href="{{ post.permalink }}">
                     <h3 class="post-card-title">{{ post.title }}</h3>
 
                     {% include partials/blog-metadata.html
@@ -30,6 +32,8 @@ layout: default
                 </a>
 
             {% endfor %}
+
+            <a id="show-old-posts" onclick="show_all_posts(); event.preventDefault();" onkeydown="show_all_posts();" tabindex="0">{{ site.data.strings.show_all }}</a>
 
             </content>
 

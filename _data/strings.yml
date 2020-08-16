@@ -332,6 +332,7 @@ desktop environment. Ideal for those who want the most out of their computers
 and prefer a traditional desktop metaphor. With modest hardware requirements
 it is suitable for modern workstations, single board computers and older
 hardware alike."
+show_all: "Show all posts"
 toggle_sidebar: "Expand/Collapse Sidebar"
 search_placeholder: "Enter keywords..."
 alt_logo_UM: "Ubuntu MATE Logo"

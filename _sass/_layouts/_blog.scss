@@ -51,6 +51,22 @@
         text-decoration: none;
         box-shadow: 0 0 10px $grey-dark;
     }
+
+    &.old {
+        display: none;
+    }
+}
+
+#show-old-posts {
+    display: block;
+    cursor: pointer;
+    color: $link-colour;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+        color: $link-colour-focused;
+    }
 }
 
 .post-card-title {}
