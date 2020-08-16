@@ -66,6 +66,7 @@
     color: $text-colour-light;
     cursor: pointer;
     padding: 15px;
+    position: relative;
 
     &.active {
         background: lighten($ubuntu-mate-light, 5%);
