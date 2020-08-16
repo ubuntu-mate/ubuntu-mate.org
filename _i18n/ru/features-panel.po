@@ -1,0 +1,80 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/features-panel.md:14
+msgid "title: Panel Customisation | Features"
+msgstr "title: Настройка панелей | Возможности"
+
+#: pages/features-panel.md:19
+msgid ""
+"main_image_alt: Screenshot of MATE Tweak and Add to Panel window\n"
+"main_title: Customisable at its best\n"
+"main_subtitle: Set up the panels to resemble your familiar workflow.\n"
+"main_text: >-"
+msgstr ""
+"main_image_alt: Экранный снимок MATE Tweak и окна Добавить на Панель\n"
+"main_title: Настраиваемый в лучшем виде\n"
+"main_subtitle: Настройте панели в соответствии с привычным рабочим "
+"процессом.\n"
+"main_text: >-"
+
+#: pages/features-panel.md:22
+msgid ""
+"    Use MATE Tweak or the Welcome application to set a template, and add/"
+"remove\n"
+"    widgets and panels to suit your preferred workflow."
+msgstr ""
+"    Используйте MATE Tweak или приложение Welcome для выбора конфигурации, и "
+"добавления/удаления\n"
+"    виджетов и панелей в соответствии с вашим предпочтительным рабочим "
+"процессом."
+
+#: pages/features-panel.md:26
+msgid ""
+"left_image_alt:\n"
+"left_title: Cupertino\n"
+"left_subtitle: A dock and menu bar, similar to the aesthetic of macOS."
+msgstr ""
+"left_image_alt:\n"
+"left_title: Cupertino\n"
+"left_subtitle: Док и строка меню, похожие на эстетику macOS."
+
+#: pages/features-panel.md:30
+msgid ""
+"middle_image_alt:\n"
+"middle_title: Redmond\n"
+"middle_subtitle: Most familiar to Windows users."
+msgstr ""
+"middle_image_alt:\n"
+"middle_title: Redmond\n"
+"middle_subtitle: Наиболее знакомы пользователям Windows."
+
+#: pages/features-panel.md:34
+msgid ""
+"right_image_alt:\n"
+"right_title: Mutiny\n"
+"right_subtitle: The lightweight alternate recognised by Ubuntu Unity users."
+msgstr ""
+"right_image_alt:\n"
+"right_title: Mutiny\n"
+"right_subtitle: Легкая альтернатива, признанная пользователями Ubuntu Unity."

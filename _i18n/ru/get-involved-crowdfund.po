@@ -1,0 +1,184 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-crowdfund.md:9
+msgid "title: Crowd Funding"
+msgstr "title: Краудфандинг"
+
+#: pages/get-involved-crowdfund.md:13
+msgid "## Crowd Funding"
+msgstr "## Краудфандинг"
+
+#: pages/get-involved-crowdfund.md:19
+msgid ""
+"Did you know one of the most important contributions you can make to Ubuntu "
+"MATE\n"
+"doesn't require a single line of code? Like many open source projects, "
+"community\n"
+"financial support not only helps keep the virtual lights on, but funds\n"
+"improvements to Ubuntu MATE, the MATE Desktop, and numerous other Open\n"
+"Source projects."
+msgstr ""
+"Знаете ли вы, что для одного из самых важных вкладов в Ubuntu MATE\n"
+"не требуется ни единой строчки кода? Как и во многих проектах с открытым "
+"исходным кодом,\n"
+"финансовая поддержка сообщества не только помогает поддерживать виртуальный "
+"свет,\n"
+"но и финансирует улучшения Ubuntu MATE, MATE Desktop и множества других\n"
+"проектов с открытым исходным кодом."
+
+#: pages/get-involved-crowdfund.md:21
+msgid "Between 2014 and 2017, your generosity helped pay for:"
+msgstr "Между 2014 и 2017 годами платежи помогли развитию:"
+
+#: pages/get-involved-crowdfund.md:23
+msgid "### Ubuntu MATE"
+msgstr "### Ubuntu MATE"
+
+#: pages/get-involved-crowdfund.md:28
+msgid ""
+"* Welcome and Software Boutique\n"
+"* Ambiant and Radiant Themes\n"
+"* Brisk Menu\n"
+"* Accessibility fixes and improvements"
+msgstr ""
+"* Приложение Добро пожаловать и магазин программного обеспечения (Welcome и "
+"Software Boutique)\n"
+"* Темы Ambiant и Radiant\n"
+"* Меню Brisk\n"
+"* Улучшения и исправления для вспомогательных технологий"
+
+#: pages/get-involved-crowdfund.md:30
+msgid "### MATE Desktop"
+msgstr "### Рабочий стол MATE"
+
+#: pages/get-involved-crowdfund.md:38
+msgid ""
+"* Reviewing and sponsoring uploads to Debian\n"
+"* Development and packaging in Debian\n"
+"* GTK3 migrating and porting\n"
+"* MATE Menu\n"
+"* MATE Dock\n"
+"* [Engrampa](https://github.com/mate-desktop/engrampa)\n"
+"* Development and packaging for Fedora and Linux Mint"
+msgstr ""
+"* Рецензирование и поддержка публикации пакетов в Debian\n"
+"* Разработка и создание пакетов в Debian\n"
+"* Портирование и миграция на GTK3\n"
+"* Меню MATE\n"
+"* Док MATE\n"
+"* [Менеджер архивов Engrampa](https://github.com/mate-desktop/engrampa)\n"
+"* Разработка и создание пакетов для Fedora и Linux Mint"
+
+#: pages/get-involved-crowdfund.md:40
+msgid "### Open Source Projects"
+msgstr "### Проекты с открытым исходным кодом"
+
+#: pages/get-involved-crowdfund.md:51
+msgid ""
+"* [TLP](https://linrunner.de/en/tlp/tlp.html)\n"
+"* [Geany](https://www.geany.org/)\n"
+"* [Transmission](https://transmissionbt.com/)\n"
+"* [Syncthing](https://syncthing.net/)\n"
+"* [Tilda](https://github.com/lanoxx/tilda)\n"
+"* [Plank](https://launchpad.net/plank)\n"
+"* [Ubuntu](https://ubuntu.com)\n"
+"* [Debian](https://www.debian.org/)\n"
+"* [Open BSD](https://www.openbsd.org/)\n"
+"* [VLC](https://www.videolan.org/vlc/)"
+msgstr ""
+"* [TLP](https://linrunner.de/en/tlp/tlp.html)\n"
+"* [Geany](https://www.geany.org/)\n"
+"* [Transmission](https://transmissionbt.com/)\n"
+"* [Syncthing](https://syncthing.net/)\n"
+"* [Tilda](https://github.com/lanoxx/tilda)\n"
+"* [Plank](https://launchpad.net/plank)\n"
+"* [Ubuntu](https://ubuntu.com)\n"
+"* [Debian](https://www.debian.org/)\n"
+"* [Open BSD](https://www.openbsd.org/)\n"
+"* [VLC](https://www.videolan.org/vlc/)"
+
+#: pages/get-involved-crowdfund.md:53
+msgid "## Spreading the Word"
+msgstr "## Распространение информации"
+
+#: pages/get-involved-crowdfund.md:60
+msgid ""
+"* MicroSD cards and memory sticks flashed with Ubuntu MATE to distribute at "
+"Raspberry Pi Jams\n"
+"* Raspberry Pis, ODROIDs, and a secondhand iBook G4 for development of "
+"specific Ubuntu MATE images\n"
+"* Dedicated servers\n"
+"* Prizes for community competitors\n"
+"* Getting Wimpy to UbuCon Europe 2016\n"
+"* A reasonably-priced beverage to celebrate the release of 15.10 :wine_glass:"
+msgstr ""
+"* Карты памяти MicroSD и флешки с записанным на них Ubuntu MATE для "
+"распространения на джемах Raspberry Pi\n"
+"* Приобретение плат Raspberry Pi, ODROID, и подержанных iBook G4 для "
+"разработки специальных вариантов образов Ubuntu MATE\n"
+"* Выделенные сервера\n"
+"* Призы для участников сообщества\n"
+"* Поездка Мартина Вимпресса на конференцию UbuCon Europe 2016\n"
+"* Напитки по разумной цене в честь выпуска 15.10 :wine_glass:"
+
+#: pages/get-involved-crowdfund.md:63
+msgid ""
+"To show how a small donation can go a long way, let's look at how we funded\n"
+"two Raspberry Pi 3's for development, costing £62.90 each. This breaks down "
+"to:"
+msgstr ""
+"Чтобы показать, как небольшое может иметь большое значение, давайте "
+"посмотрим, как мы\n"
+"профинансировали приобретение для разработки двух Raspberry Pi 3, стоящих "
+"каждая по £62.90. Это разбивается на:"
+
+#: pages/get-involved-crowdfund.md:67
+msgid ""
+"* 32 donations of £2, or\n"
+"* 13 donations of £5, or\n"
+"* 7 donations of £10 _(all with a little change to spare)_"
+msgstr ""
+"* 32 пожертвования по £2, или\n"
+"* 13 пожертвований по £5, или\n"
+"* 7 пожертвований по £10 _(примерно, с учетом сдачи)_"
+
+#: pages/get-involved-crowdfund.md:69
+msgid ""
+"In short, :relieved: + :dollar: :pound: :euro: :credit_card: = :green_heart:"
+msgstr ""
+"Другими словами, :relieved: + :dollar: :pound: :euro: :credit_card: = :"
+"green_heart:"
+
+#: pages/get-involved-crowdfund.md:71
+msgid ""
+"So if you want to help grow our community and keep Ubuntu MATE amazing, head "
+"over to our funding page and find out how you can help!"
+msgstr ""
+"Поэтому, если вы хотите помочь развитию нашего сообщества и сохранить "
+"великолепный Ubuntu MATE, перейдите\n"
+"на нашу страницу финансирования и узнайте, чем вы можете помочь!"
+
+#: pages/get-involved-crowdfund.md:72
+msgid "[View Funding Options](/funding/){:.btn .green}"
+msgstr "[Узнать о финансировании](/funding/){:.btn .green}"

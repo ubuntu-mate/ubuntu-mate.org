@@ -1,0 +1,171 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-testing-qa.md:9
+msgid "title: Testing & Quality Assurance"
+msgstr "title: Тестирование и обеспечение качества"
+
+#: pages/get-involved-testing-qa.md:13
+msgid "## Testing & Quality Assurance"
+msgstr "## Тестирование и обеспечение качества"
+
+#: pages/get-involved-testing-qa.md:18
+msgid ""
+"Ubuntu MATE is always improving and changing. Our development team is "
+"constantly\n"
+"working to make this the best experience possible but there will always be\n"
+"**bugs**! Finding these makes life easier on the developers and makes "
+"things\n"
+"better for our users. -- **including you** :wink:"
+msgstr ""
+"Ubuntu MATE постоянно улучшается и меняется. Наша команда разработчиков "
+"постоянно\n"
+"работает над тем, чтобы сделать эти процессы максимально комфортными, но "
+"здесь всегда могут\n"
+"возникнуть **ошибки**! Их поиск облегчает жизнь разработчикам и улучшает "
+"жизнь\n"
+"всех наших пользователей. -- **включая вас** :wink:"
+
+#: pages/get-involved-testing-qa.md:20
+msgid ""
+"**So you want to find :bug:'s and join in the fun? Yes, it really is!** :"
+"slightly_smiling_face:"
+msgstr ""
+"**Хотите ли вы поискать :bug: и присоединиться к веселью? Да, действительно "
+"так!** :slightly_smiling_face:"
+
+#: pages/get-involved-testing-qa.md:22
+msgid "* Join the [Ubuntu MATE Community](https://ubuntu-mate.community/)"
+msgstr ""
+"* Присоединитесь к [сообществу Ubuntu MATE](https://ubuntu-mate.community/)"
+
+#: pages/get-involved-testing-qa.md:24
+msgid ""
+"* Create a [Launchpad/Ubuntu SSO](https://login.launchpad.net/"
+"qGtZ05jM0QUUftoV/+login) account"
+msgstr ""
+"* Создайте единую учетную запись [Launchpad/Ubuntu SSO](https://login."
+"launchpad.net/qGtZ05jM0QUUftoV/+login)"
+
+#: pages/get-involved-testing-qa.md:26
+msgid "* [Download the ISO](http://iso.qa.ubuntu.com/qatracker)"
+msgstr "* [Скачайте файл ISO-образа](http://iso.qa.ubuntu.com/qatracker)"
+
+#: pages/get-involved-testing-qa.md:28
+msgid ""
+"     ![Showing download links on the Ubuntu ISO tracker](/images/get-"
+"involved/qa/download.png)"
+msgstr ""
+"     ![Отображение ссылок для загрузки на ISO трекере Ubuntu](/images/get-"
+"involved/qa/download.png)"
+
+#: pages/get-involved-testing-qa.md:30
+msgid "* Test!"
+msgstr "* Тестируйте!"
+
+#: pages/get-involved-testing-qa.md:32
+msgid ""
+"     ![Showing test cases on the Ubuntu ISO tracker](/images/get-involved/qa/"
+"testcases.png)"
+msgstr ""
+"     ![Отображение способов тестирования на ISO трекере Ubuntu](/images/get-"
+"involved/qa/testcases.png)"
+
+#: pages/get-involved-testing-qa.md:35
+msgid "* Report and Update the ISO Tracker"
+msgstr "* Сообщите о результатах и обновите ISO трекер"
+
+#: pages/get-involved-testing-qa.md:37
+msgid ""
+"     ![Showing reports on the Ubuntu ISO tracker](/images/get-involved/qa/"
+"report.png)"
+msgstr ""
+"     ![Отображение результатов на ISO трекере Ubuntu](/images/get-involved/"
+"qa/report.png)"
+
+#: pages/get-involved-testing-qa.md:39
+msgid ""
+"It's pretty simple but very important! Here are some tips & tricks that will "
+"help."
+msgstr ""
+"Это довольно просто, но очень важно! Вот несколько советов и приемов, "
+"которые помогут."
+
+#: pages/get-involved-testing-qa.md:43
+msgid ""
+"* [How to report bugs](https://ubuntu-mate.community/t/how-to-report-"
+"problems-in-ubuntu-mate/17943)\n"
+"* [Step-by-step guide](https://wiki.ubuntu.com/Testing/ISO/Walkthrough)\n"
+"* Let us know about issues via the [Ubuntu MATE Community](https://ubuntu-"
+"mate.community/)"
+msgstr ""
+"* [Как сообщить об ошибках](https://ubuntu-mate.community/t/how-to-report-"
+"problems-in-ubuntu-mate/17943)\n"
+"* [Пошаговая инструкция](https://wiki.ubuntu.com/Testing/ISO/Walkthrough)\n"
+"* Сообщите нам о проблемах через [сообщество Ubuntu MATE](https://ubuntu-"
+"mate.community/)"
+
+#: pages/get-involved-testing-qa.md:46
+msgid ""
+"Also remember to ask yourself **Is the problem reproducible?** We need to "
+"know\n"
+"the steps needed to reproduce your issue."
+msgstr ""
+"Также не забудьте спросить себя: **Воспроизводима ли эта проблема?** Нам "
+"нужно знать\n"
+"шаги для воспроизведения вашей проблемы."
+
+#: pages/get-involved-testing-qa.md:50
+msgid ""
+"While you can certainly download an ISO release individually. For "
+"convenience,\n"
+"we **highly recommend** *zsync*. Eric Adams has produced a short video that "
+"is\n"
+"a great introduction to using *zsync* for testing:"
+msgstr ""
+"Вы конечно же можете скачивать ISO релиз каждый раз заново, но для удобства\n"
+"мы **настоятельно рекомендуем** использовать *zsync*. Эрик Адамс выпустил "
+"короткое видео,\n"
+"которое является отличным введением в использование *zsync* при тестировании:"
+
+#: pages/get-involved-testing-qa.md:57
+msgid ""
+"We'd :green_heart: to have you join us in testing and become part of our "
+"**Community**.\n"
+"We are always looking for more testers!"
+msgstr ""
+"Мы будем :green_heart: чтобы вы присоединились к нам в тестировании и стали "
+"частью нашего **Сообщества**.\n"
+"Мы всегда ищем больше новых тестировщиков!"
+
+#: pages/get-involved-testing-qa.md:60
+msgid ""
+"Finally, [Alan Pope](https://popey.com/) has produced a wonderful\n"
+"[video](https://www.youtube.com/watch?v=hXLiqjOkSmg) on testing Ubuntu "
+"MATE.\n"
+"We are sure you can do a better job of it than he did. :rofl:"
+msgstr ""
+"Наконец, [Алан Поуп](https://popey.com/) выпустил замечательное\n"
+"[видео](https://www.youtube.com/watch?v=hXLiqjOkSmg) о тестировании Ubuntu "
+"MATE.\n"
+"Мы уверены, что вы справитесь с этим даже лучше, чем он. :rofl:"

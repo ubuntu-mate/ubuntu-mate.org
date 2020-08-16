@@ -1,0 +1,220 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-downloads.md:9
+msgid "title: Download Help"
+msgstr "title: Помощь с загрузками"
+
+#: pages/faq-downloads.md:13
+msgid "# What should I download?"
+msgstr "# Что мне следует загрузить?"
+
+#: pages/faq-downloads.md:15
+msgid "This page aims to address common questions for new users."
+msgstr ""
+"Эта страница предназначена для ответов на общие вопросы новых пользователей."
+
+#: pages/faq-downloads.md:19
+msgid "## Which architecture?"
+msgstr "## Какую архитектуру выбрать?"
+
+#: pages/faq-downloads.md:24
+msgid ""
+"* **amd64** is for a desktop or laptop computer built around 2005 and "
+"later.\n"
+"While the name may suggest otherwise, this supports both AMD and Intel "
+"processors\n"
+"capable of 64-bit instructions, BIOS and UEFI motherboards\n"
+"as well as PC/Mac computers."
+msgstr ""
+"* **amd64** предназначена для компьютеров и ноутбуков, выпущенных около 2005 "
+"года и позднее.\n"
+"Хотя из названия может показаться другое, она поддерживает процессоры AMD и "
+"Intel,\n"
+"способные исполнять 64-битные инструкции, материнские платы с BIOS и UEFI\n"
+"а также ПК/Mac."
+
+#: pages/faq-downloads.md:27
+msgid ""
+"* **i386** has been discontinued and will no longer receive updates after "
+"April 2021.\n"
+"This one runs on any 32-bit PC or Intel Mac."
+msgstr ""
+"* **i386** считается устаревшей и не будет более получать обновления после "
+"апреля 2021 года.\n"
+"Работает в 32-битных ПК или Intel Mac."
+
+#: pages/faq-downloads.md:30
+msgid ""
+"* **armhf** is for the Raspberry Pi and other compatible microcomputers.\n"
+"This one is 32-bit, but is recommended."
+msgstr ""
+"* **armhf** предназначена для Raspberry Pi и других микрокомпьютеров.\n"
+"Она 32-битная, но при этом является рекомендуемой."
+
+#: pages/faq-downloads.md:33
+msgid ""
+"* **arm64** is the 64-bit version ideal for users that intend to run "
+"complex\n"
+"applications that will benefit from a 64-bit instruction set."
+msgstr ""
+"* **arm64** является 64-битной и идеально подходит для тех пользователей, "
+"которые собираются использовать сложные\n"
+"программы, использование 64-битных инструкций в которых оказывается "
+"выигрышным."
+
+#: pages/faq-downloads.md:35
+msgid "**Historic**"
+msgstr "**Исторические**"
+
+#: pages/faq-downloads.md:38
+msgid ""
+"* **powerpc** is for non-Intel Macs before 2006 and compatible IBM PowerPC\n"
+"machines. New downloads for these are no longer available."
+msgstr ""
+"* **powerpc** предназначена для не-Intel Mac, выпущенных до 2006 года и "
+"совместимых с архитетурой IBM PowerPC.\n"
+"Новые загрузки для этой архитектуры более недоступны."
+
+#: pages/faq-downloads.md:40
+msgid "**Ubuntu MATE Exclusive**"
+msgstr "**Эксклюзивы Ubuntu MATE**"
+
+#: pages/faq-downloads.md:44
+msgid ""
+"* If you have an ultra mobile PC (UMPC), like certain GPD branded\n"
+"  models or a Topjoy Falcon, we have builds designed specifically for that\n"
+"  hardware."
+msgstr ""
+"* Если у вас есть ультра-мобильный компьютер (УМПК) типа производимых "
+"компанией GPD моделей\n"
+"  или Topjoy Falcon, то у нас есть специально подготовленные сборки для\n"
+"  таких устройств."
+
+#: pages/faq-downloads.md:46
+msgid "  More details can be [found on our UMPC page](/ports/umpcs/)."
+msgstr ""
+"  Более подробно вы можете узнать о них [на нашей странице УМПК](/ports/"
+"umpcs/)."
+
+#: pages/faq-downloads.md:49
+msgid "## Which release?"
+msgstr "## Какую версию выбрать?"
+
+#: pages/faq-downloads.md:52
+msgid ""
+"* Choose an **LTS** (Long Term Release) if you prefer **stability**. These "
+"are supported for\n"
+"**3 years** with a new upgrade available every **2 years**."
+msgstr ""
+"* Выбирайте версию **LTS** (Long Term Release, т.е. с долгосрочной "
+"поддержкой) если вы предпочитаете **стабильность**. Такие версии "
+"поддерживаются\n"
+"**3 года** с возможностью обновления каждые **2 года**."
+
+#: pages/faq-downloads.md:56
+msgid ""
+"* Choose a **non-LTS** (interim) release if you like the **latest "
+"features**.\n"
+"These are released more frequently (every 6 months) but are only supported "
+"for\n"
+"9 months."
+msgstr ""
+"* Выбирайте **не-LTS** версию (промежуточную) если вы предпочитаете "
+"**новейшие функции**.\n"
+"Такие версии выходят более часто (раз в 6 месяцев) и поддерживаются всего\n"
+"9 месяцев."
+
+#: pages/faq-downloads.md:60
+msgid ""
+"Both releases equally receive security updates provided by the Ubuntu team.\n"
+"You may upgrade from an LTS to a non-LTS releases by changing your "
+"preferences in\n"
+"the **Software & Updates** application."
+msgstr ""
+"Оба типа версий в одинаковой степени получают обновления безопасности от "
+"команды Ubuntu.\n"
+"Вы можете обновить LTS версию на не-LTS если измените настройки в "
+"приложении\n"
+"**Программы и обновления**."
+
+#: pages/faq-downloads.md:63
+msgid "## Which download method?"
+msgstr "## Какой метод загрузки использовать?"
+
+#: pages/faq-downloads.md:65
+msgid "### BitTorrent"
+msgstr "### BitTorrent"
+
+#: pages/faq-downloads.md:69
+msgid ""
+"Instead of downloading from one source, BitTorrent retrieves and verifies "
+"the\n"
+"file from many computers. This can help save bandwidth costs for the host, "
+"be\n"
+"paused/resumed and in many cases achieve faster download speeds."
+msgstr ""
+"Вместо того, чтобы загружать файл из одного источника, BitTorrent получает и "
+"верифицирует его\n"
+"от нескольких компьютеров. Это позволяет ументшить стоимость трафика на "
+"стороне сервера, дает\n"
+"возможность приостановки/восстановления загузки и во многих случаях "
+"позволяет увеличить скорость загрузки."
+
+#: pages/faq-downloads.md:72
+msgid ""
+"If you already have a BitTorrent client installed, a **magnet link** will\n"
+"open it automatically."
+msgstr ""
+"Если у вас уже установлен клиент BitTorrent, то нажатие на **magnet-ссылку** "
+"откроет\n"
+"его автоматически."
+
+#: pages/faq-downloads.md:75
+msgid "### Direct Download"
+msgstr "### Прямая загрузка"
+
+#: pages/faq-downloads.md:79
+msgid ""
+"This is your standard download straight from the server to your browser "
+"(over\n"
+"HTTP/S). It is [recommended to verify the download](/faq/verify-download-"
+"quick/)\n"
+"using the provided checksum afterwards to be sure it was downloaded in one "
+"piece."
+msgstr ""
+"Это стандартный способ загрузки непосредственно с нашего сервера в ваш веб-"
+"браузер через\n"
+"HTTP/S. При этом [рекомендуется верифицировать загрузку](/faq/verify-"
+"download-quick/)\n"
+"воспользовавшись предоставленной контрольной суммой, чтобы убедиться в "
+"целостности загруженного файла."
+
+#: pages/faq-downloads.md:82
+msgid "## Can I order a disc or USB drive?"
+msgstr "## Могу ли я заказать компакт-диск или USB-накопитель?"
+
+#: pages/faq-downloads.md:83
+msgid "Unfortunately, we do not have any suppliers to provide this service."
+msgstr ""
+"К сожалению, у нас нет поставщиков, которые могли бы предоставить эту услугу."

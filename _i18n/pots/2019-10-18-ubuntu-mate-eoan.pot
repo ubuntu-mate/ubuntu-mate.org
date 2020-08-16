@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.0.0\n"
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:19
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:12
+msgid "title: Ubuntu MATE 19.10 Release Notes"
+msgstr ""
+
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:21
 msgid ""
 "**Ubuntu MATE 19.10 is a significant improvement over Ubuntu MATE 18.04 and 19.04.\n"
 "The theme of this release is to address as many *\"paper-cut\"* issues as\n"
@@ -23,18 +27,18 @@ msgid ""
 "on to find out what we've been working on for the last 25 weeks.**"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:24
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:26
 msgid ""
 "{:.center}\n"
 "![Ubuntu MATE 19.10 Beta](/images/blog/eoan/eoan-ermine-desktop.png)\n"
 "**_Harder, Better, Faster, Stronger_**"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:27
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:29
 msgid "# Ubuntu MATE 19.10 - paper 🧻 cut ️🔪 release"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:37
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:39
 msgid ""
 "I have not been completely happy 😞 with the quality of recent Ubuntu MATE\n"
 "releases. All the important stuff works but there have been niggly issues\n"
@@ -47,18 +51,18 @@ msgid ""
 "highlighting the issues that need attention."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:41
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:43
 msgid ""
 "Most of **the paper-cut effort has been focused around the window manager,\n"
 "the panel and the indicators** as these are the main touching points of the\n"
 "desktop environment that users interact with."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:43
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:45
 msgid "## MATE Desktop 1.22.2"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:54
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:56
 msgid ""
 "Upstream [MATE Desktop](https://mate-desktop.org) recently released 1.22.2.\n"
 "All the updates are present in Ubuntu MATE 19.10 plus I've cherry 🍒 picked a\n"
@@ -72,11 +76,11 @@ msgid ""
 "to [Debian](https://www.debian.org/)."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:56
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:58
 msgid "**Since the final beta we worked on the following**:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:69
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:71
 msgid ""
 "  * Added *experimental* ZFS 🗄 install option.\n"
 "  * Fixed rendering window controls on HiDPI 🔍 displays.\n"
@@ -92,17 +96,17 @@ msgid ""
 "  * Updated the Ubiquity Slideshow 🎭"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:71
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:73
 msgid "### Window Manager improvements"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:74
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:76
 msgid ""
 "Marco is the Window Manager for MATE Desktop and in Ubuntu MATE 19.10\n"
 "it brings a number of new features and fixes."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:81
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:83
 msgid ""
 "**XPresent support is properly fixed** which means that **screen tearing is now\n"
 "a thing of the past** and **invisible window corners are finally here!** Invisible\n"
@@ -112,14 +116,14 @@ msgid ""
 "**most notably windows controls are now HIDPI aware**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:85
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:87
 msgid ""
 "| **Before** 😢 | **After** 😀 |\n"
 "| ------------- | ------------ |\n"
 "| ![Before](/images/blog/eoan/lo-windows-controls-clip.png) | ![After](/images/blog/eoan/hi-windows-controls-clip.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:91
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:93
 msgid ""
 "**Alt+Tab navigation** makes it possible to\n"
 "traverse the application switcher via keyboard and mouse. We've also **cleaned\n"
@@ -128,11 +132,11 @@ msgid ""
 "<kbd>Alt</kbd> + <kbd>Space</kbd>."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:93
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:95
 msgid "### Compiz & Compton"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:98
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:100
 msgid ""
 "The main reason we've been shipping shipping Compton and Compiz in Ubuntu MATE\n"
 "was to offer a solution to screen tearing or improve game performance. Compiz\n"
@@ -140,7 +144,7 @@ msgid ""
 "for visually impaired users. However, now that..."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:105
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:107
 msgid ""
 "  * Magnus (see below) provides screen magnification\n"
 "  * Marco supports invisible windows borders\n"
@@ -150,35 +154,35 @@ msgid ""
 "  * Using Compton and Compiz with MATE Desktop introduces other bugs and integration issues"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:108
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:110
 msgid ""
 "...it is **time to remove Compiz and Compton from the default Ubuntu MATE\n"
 "install**. The fundamental reasons for including them no longer exist."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:111
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:113
 msgid ""
 "If you love 😍 Compiz, it can be installed by opening a terminal and running\n"
 "the following command:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:113
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:115
 msgid ""
 "    sudo apt install compiz compiz-core compiz-mate compiz-plugins compiz-"
 "plugins-default"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:116
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:118
 msgid ""
 "Only having one window manager to target means we can promptly deliver new\n"
 "features and minimise development effort. Which brings us to..."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:118
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:120
 msgid "### New Key-bindings"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:123
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:125
 msgid ""
 "The key-bindings for window tiling have only worked on full keyboards ⌨️ with a\n"
 "10-key pad. Few laptops 💻 have a 10-key pad and not all keyboards have a\n"
@@ -186,7 +190,7 @@ msgid ""
 "were not recognised in Ubuntu MATE. So, we've had a think 🤔 and come up with this:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:134
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:136
 msgid ""
 "  * <b>Maximise Window:</b> <kbd>Super</kbd> + <kbd>Up</kbd>\n"
 "  * <b>Restore Window:</b> <kbd>Super</kbd> + <kbd>Down</kbd>\n"
@@ -200,19 +204,19 @@ msgid ""
 "  * <b>Shade Window:</b> <kbd>Control</kbd> + <kbd>Alt</kbd> + <kbd>s</kbd>"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:137
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:139
 msgid ""
 "I'm happy 😀 with these key-bindings as it is now possible to tile a window to\n"
 "all screen quadrants 📐 using any keyboard form factor."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:140
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:142
 msgid ""
 "We updated the application launcher key-bindings, some of these have existed\n"
 "in Ubuntu MATE for a while:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:150
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:152
 msgid ""
 "  * <b>Cycle external displays:</b> <kbd>Super</kbd> + <kbd>p</kbd>\n"
 "  * <b>Lock Screen:</b> <kbd>Super</kbd> + <kbd>L</kbd>\n"
@@ -225,7 +229,7 @@ msgid ""
 "  * <b>Open System Information:</b> <kbd>Super</kbd> + <kbd>Pause</kbd>"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:157
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:159
 msgid ""
 "The key-bindings compliment existing well established alternatives. So if\n"
 "<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>t</kbd> (Terminal) and\n"
@@ -235,20 +239,20 @@ msgid ""
 "Welcome**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:159
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:161
 msgid "## Panel & Indicator improvements"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:161
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:163
 msgid ""
 "This is where a good deal of effort has been invested. Let's break it down."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:163
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:165
 msgid "### Brisk Menu and MATE Dock Applet"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:172
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:174
 msgid ""
 "[Brisk Menu](https://github.com/getsolus/brisk-menu) is under the Solus GitHub\n"
 "organisation, but it's been a couple of years since it had a new release. The\n"
@@ -260,7 +264,7 @@ msgid ""
 "rollover menu entries**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:177
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:179
 msgid ""
 "The previous maintainer of [MATE Dock Applet](https://github.com/ubuntu-mate/mate-dock-applet)\n"
 "announced that he no longer had the time ⌛️ to develop the project. Ubuntu\n"
@@ -268,11 +272,11 @@ msgid ""
 "releases 🤘 which include fixes for frequent crashes."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:179
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:181
 msgid "### MATE Panel"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:186
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:188
 msgid ""
 "MATE Panel has had a long standing bug fixed that caused it to crash 💥 when\n"
 "the panel was reset or replaced. This was most noticeable when switching panel\n"
@@ -282,38 +286,38 @@ msgid ""
 "switching is now 100% reliable**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:188
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:190
 msgid "### Indicators"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:190
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:192
 msgid ""
 "A bug which resulted in **oversized icons in indicators is finally "
 "resolved**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:195
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:197
 msgid ""
 "{:.center}\n"
 "![Before](/images/blog/eoan/indicators-before.png)\n"
 "**Before 😢**"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:199
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:201
 msgid ""
 "{:.center}\n"
 "![After](/images/blog/eoan/indicators-after.png)\n"
 "**After 😀**"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:204
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:206
 msgid ""
 "However, it turned out some of the bugs were due to the icons 🎨 themselves.\n"
 "Over 💯 icons have been refactored 🖌️️ to correct their resolutions or aspect\n"
 "ratio; as a result the panel and indicators both scale correctly."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:209
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:211
 msgid ""
 "A race condition that could result in **two network status icons being\n"
 "displayed is fixed**, and **when connected via VPN, lock icons are now\n"
@@ -321,38 +325,38 @@ msgid ""
 "and now has a larger **charging symbol while charging**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:213
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:215
 msgid ""
 "We've **added the Date/Time Indicator and integrated it with MATE Desktop\n"
 "and it now replaces the MATE clock applet** which corrects the placement of\n"
 "the clock and session indicators."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:217
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:219
 msgid ""
 "We've finally addressed a long standing issue which has been around since\n"
 "Ubuntu MATE 14.10 🕸️ Some of the monochrome symbolic icons used in the\n"
 "indicators were also used in applications. The presented a couple of issues:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:220
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:222
 msgid ""
 "  * In some cases you couldn't easily see the icons against the window base colour.\n"
 "  * The mix of monochrome and full colour icons in applications looked inconsistent."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:224
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:226
 msgid ""
 "This issue is now resolved, **monochrome symbolic icons are only used for\n"
 "indicators and full colour icons are used in the Control Center, Sound\n"
 "Preferences, Bluetooth, OSD, etc**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:226
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:228
 msgid "### MATE Window Applets"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:233
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:235
 msgid ""
 "[MATE Window Applets](https://github.com/ubuntu-mate/mate-window-applets)\n"
 "have received a number a bug fixes and new features from a community\n"
@@ -362,11 +366,11 @@ msgid ""
 "resolved**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:235
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:237
 msgid "## Notification Center"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:240
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:242
 msgid ""
 "Ubuntu MATE 19.10 includes a **new Indicator that provides a \"notification\n"
 "center\"** 🔔 We worked with the [upstream developer to add new features\n"
@@ -374,13 +378,13 @@ msgid ""
 "and integrate it with MATE Notifications Daemon."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:243
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:245
 msgid ""
 "{:.center}\n"
 "![Notification Settings](/images/blog/eoan/notification-settings.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:252
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:254
 msgid ""
 "We now have a **notification center which also offers a \"do not disturb\" 🛑\n"
 "feature**. When do not disturb is enabled, notifications will not be displayed\n"
@@ -392,17 +396,17 @@ msgid ""
 "sounds or icons, now work."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:255
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:257
 msgid ""
 "Personally, I love ❤️ this feature! No more will I have awkward messages from\n"
 "my Mum flash up while I'm presenting 😜"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:257
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:259
 msgid "## Evolution replaces Thunderbird"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:262
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:264
 msgid ""
 "The Ubuntu MATE development team discussed the pros and cons of switching the\n"
 "default mail ✉️ client in Ubuntu MATE to\n"
@@ -410,7 +414,7 @@ msgid ""
 "assessment:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:269
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:271
 msgid ""
 "  * Thunderbird does not integrate as well with the desktop.\n"
 "    * For example, theme integration, font integration, compatibility with HUD (which is increasingly difficult to support in Thunderbird), notifications with action buttons, locale and spell checking.\n"
@@ -420,7 +424,7 @@ msgid ""
 "  * Evolution has superior **integration with Google Mail and Exchange**, including calendar, contacts, tasks, and memos."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:274
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:276
 msgid ""
 "**Indicator Date/Time also integrates with Evolution**. It is fully functional,\n"
 "all the features of creating new events or opening upcoming events from the\n"
@@ -428,20 +432,20 @@ msgid ""
 "selected day etc."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:277
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:279
 msgid ""
 "{:.center}\n"
 "![Indicator Date/Time](/images/blog/eoan/indicator-datetime.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:281
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:283
 msgid ""
 "For the many people who use web-mail exclusively this change will have no\n"
 "impact, but for those who use desktop mail we feel these productivity 📈\n"
 "improvements are significant."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:286
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:288
 msgid ""
 "For those of you who love 💕 Thunderbird and wish to continue using it: we will\n"
 "continue to offer Thunderbird in the Software Boutique for a one-click install.\n"
@@ -449,11 +453,11 @@ msgid ""
 "with one-click too."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:288
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:290
 msgid "## GNOME MPV replaces VLC"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:293
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:295
 msgid ""
 "We have **switched from VLC to GNOME MPV**, soon be renamed to\n"
 "[Celluloid](https://celluloid-player.github.io/), for the default media\n"
@@ -461,13 +465,13 @@ msgid ""
 "Thunderbird for Evolution; **better desktop integration**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:296
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:298
 msgid ""
 "{:.center}\n"
 "![GNOME MPV](/images/blog/eoan/gnome-mpv.jpg)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:302
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:304
 msgid ""
 "We've changed GNOME MPV's default UI to better fit in with MATE Desktop by\n"
 "not using client side decorations (CSD). GNOME MPV has an MPRIS implementation\n"
@@ -476,7 +480,7 @@ msgid ""
 "later."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:312
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:314
 msgid ""
 "GNOME MPV doesn't offer the extensive array of preferences and options\n"
 "to users that VLC does, and instead ships sane defaults; only surfacing\n"
@@ -489,11 +493,11 @@ msgid ""
 "the Software Boutique as a single click install for anyone who wants it."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:314
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:316
 msgid "## Magnus"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:320
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:322
 msgid ""
 "Most desktop environments are lacking a screen magnifier, which is an essential\n"
 "application for visually impaired 👓 computer users and also useful for accurate\n"
@@ -502,13 +506,13 @@ msgid ""
 "people who need magnification 🔍"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:323
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:325
 msgid ""
 "{:.center}\n"
 "![Magnus](/images/blog/eoan/magnus.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:330
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:332
 msgid ""
 "I collaborated with my friend [Stuart Langridge](https://twitter.com/sil)\n"
 "to create [Magnus](https://kryogenix.org/code/magnus/); **a very simple\n"
@@ -518,11 +522,11 @@ msgid ""
 "already picking up it too 💪"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:332
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:334
 msgid "## Ubuntu MATE Themes"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:337
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:339
 msgid ""
 "Dozens of theme related bugs have been fixed and the Ubuntu MATE themes have\n"
 "been added to the `gtk-common-themes` used by snaps, **so snapped applications\n"
@@ -530,7 +534,7 @@ msgid ""
 "available all the way back to Ubuntu MATE 16.04."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:343
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:345
 msgid ""
 "The most noticeable theme issues that have been resolved are **expanders in tree\n"
 "view are now a sensible size** (they were so tiny) so you can easily click them,\n"
@@ -539,17 +543,17 @@ msgid ""
 "the QA team highlighted has been fixed 🔨"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:345
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:347
 msgid "## MATE Tweak and Ubuntu MATE Welcome"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:348
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:350
 msgid ""
 "MATE Tweak now **preserves user preferences when switching between custom\n"
 "layouts** thanks to a community contribution."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:355
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:357
 msgid ""
 "If you're familiar with MATE Tweak you'll know it can switch panel layouts\n"
 "to somewhat mimic other platforms and distros 🐧 We have now integrated a\n"
@@ -559,17 +563,17 @@ msgid ""
 "associated panel bugs fixed 🔧 we now have this:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:358
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:360
 msgid ""
 "{:.center}\n"
 "![Desktop Layout Switcher](/images/blog/eoan/desktop-layout.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:360
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:362
 msgid "## NVIDIA drivers"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:366
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:368
 msgid ""
 "If you've been following the news surrounding Ubuntu you'll know that\n"
 "Ubuntu will be shipping 🚢 the NVIDIA proprietary drivers on the ISO images.\n"
@@ -578,7 +582,7 @@ msgid ""
 "scenarios."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:372
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:374
 msgid ""
 "This comes at the cost of increasing the ISO size by ~115MB, but I think this\n"
 "trade-off is worth it. The drivers are not active by default, just present in\n"
@@ -587,19 +591,19 @@ msgid ""
 "the drivers installed and operational immediately following install 🌟"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:375
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:377
 msgid ""
 "Post-install, Ubuntu MATE users with computers that support hybrid graphics\n"
 "will see the MATE Optimus hybrid graphics applet displaying the NVIDIA logo."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:378
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:380
 msgid ""
 "{:.center}\n"
 "![MATE Optimus](/images/blog/eoan/mate-optimus-19.10.1.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:386
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:388
 msgid ""
 "Now the NVIDIA 435 drivers are in Ubuntu 19.10, I have given MATE Optimus an\n"
 "update. MATE Optimus adds support for NVIDIA On-Demand and will now prompt\n"
@@ -610,7 +614,7 @@ msgid ""
 "Optimus too!**"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:391
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:393
 msgid ""
 "The **NVIDIA drivers are now going to receive updates via the official\n"
 "Ubuntu software repository**. So no need to add a PPA to get updates and more\n"
@@ -618,11 +622,11 @@ msgid ""
 "drivers distributed via PPA) so you can keep Secure Boot enabled.**"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:393
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:395
 msgid "## ISO optimisations"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:399
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:401
 msgid ""
 "In order to squeeze those ~115MB of NVIDIA drivers on the ISO while keeping\n"
 "the ISO at ~2.0GB required some optimisation. Certainly switching to Evolution\n"
@@ -631,7 +635,7 @@ msgid ""
 "these days. Brasero is still in Software Boutique should you need it."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:404
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:406
 msgid ""
 "The main gains came from **analysing the data we have about our user distribution\n"
 "across countries** and changing what language packs we make available on the ISO.\n"
@@ -639,14 +643,14 @@ msgid ""
 "and the [Ubuntu Report](https://ubuntu.com/desktop/statistics)."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:408
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:410
 msgid ""
 "We dropped Chinese, Japanese and Indic language packs from the ISO and added\n"
 "Russian. This dropped the ISO size considerably and the savings gained were\n"
 "just about equivalent to what the NVIDIA drivers require."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:414
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:416
 msgid ""
 "We are **currently shipping English, Spanish, Portuguese, German, French,\n"
 "Italian and Russian language packs on the iso**, with each language including\n"
@@ -655,11 +659,11 @@ msgid ""
 "install."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:416
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:418
 msgid "Other gains were made by:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:424
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:426
 msgid ""
 "  * Changing to format of the weather station database which saved 15MB 😱\n"
 "  * Removing Qt4 components. [Qt4 is being removed from Debian and Ubuntu](https://wiki.debian.org/Qt4Removal).\n"
@@ -670,7 +674,7 @@ msgid ""
 "  * Using image optimisation tools on every graphic asset in the default themes, icon themes and wallpaper back-catalog."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:432
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:434
 msgid ""
 "**Had we not optimised the ISO image it would have been 2.5GB, but instead\n"
 "it remains just a hair over 2.0GB while now hosting the NVIDIA drivers and 7\n"
@@ -681,39 +685,39 @@ msgid ""
 "from across the world 🗺️ running a variety of hardware 💻"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:434
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:436
 msgid "## ZFS on root"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:437
-msgctxt "_posts/2019-10-18-ubuntu-mate-eoan.md:437"
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:439
+msgctxt "_posts/2019-10-18-ubuntu-mate-eoan.md:439"
 msgid ""
 "{:.center}\n"
 "![ZFS on Linux](/images/blog/eoan/zol-logo.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:441
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:443
 msgid ""
 "Support for ZFS as the root filesystem is added as an experimental feature in 19.10.\n"
 "The ZFS file system and partitioning layout is handled automatically directly via the\n"
 "installer."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:443
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:445
 msgid "You can read more details on Didier Roche's blogs:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:446
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:448
 msgid ""
 "  * [Part 1 - Ubuntu ZFS support in 19.10: introduction](https://didrocks.fr/2019/08/06/ubuntu-zfs-support-in-19.10-introduction/)\n"
 "  * [Part 2 - Ubuntu ZFS support in 19.10: ZFS on root](https://didrocks.fr/2019/10/11/ubuntu-zfs-support-in-19.10-zfs-on-root/)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:448
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:450
 msgid "## GPD MicroPC & other UMPCs"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:453
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:455
 msgid ""
 "Alongside the generic image for 64-bit Intel PCs, we're also releasing a\n"
 "bespoke image for the [GPD MicroPC](https://www.gpd.hk/gpdmicropc) which\n"
@@ -721,41 +725,41 @@ msgid ""
 "without any faffing about. [See our UMPC page for more details](/ports/umpcs/)."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:456
-msgctxt "_posts/2019-10-18-ubuntu-mate-eoan.md:456"
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:458
+msgctxt "_posts/2019-10-18-ubuntu-mate-eoan.md:458"
 msgid ""
 "{:.center}\n"
 "![ZFS on Linux](/images/blog/eoan/zol-logo.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:462
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:464
 msgid "## Major Applications"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:465
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:467
 msgid ""
 "Accompanying **MATE Desktop 1.22.2** and **Linux 5.3.0** are **Firefox 69.0.1**,\n"
 "**GNOME MPV 0.16**, **LibreOffice 6.3.1.2** and **Evolution 3.34.0**."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:468
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:470
 msgid ""
 "{:.center}\n"
 "![Major Applications](/images/blog/eoan/versions.png)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:472
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:474
 msgid ""
 "See the [Ubuntu 19.10 Release\n"
 "Notes](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes) for details of all\n"
 "the changes and improvements in Ubuntu that Ubuntu MATE benefits from."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:484
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:486
 msgid "## Upgrading from Ubuntu MATE 19.04"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:492
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:494
 msgid ""
 "  * Open the \"Software & Updates\" from the Control Center.\n"
 "  * Select the 3rd Tab called \"Updates\".\n"
@@ -766,19 +770,19 @@ msgid ""
 "  * Click \"Upgrade\" and follow the on-screen instructions."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:494
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:496
 msgid "## Known Issues"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:496
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:498
 msgid "Here are the known issues."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:498
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:500
 msgid "### Ubuntu MATE"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:503
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:505
 msgid ""
 "  * [Caja dropbox does not start](https://bugs.launchpad.net/ubuntu/+source/caja-dropbox/+bug/1845876).\n"
 "    * The `libdropbox_apex.so` shared object, as distributed by Dropbox, has the wrong file permissions.\n"
@@ -786,42 +790,42 @@ msgid ""
 "    * The workaround is to open a terminal and run the following command:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:507
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:509
 msgid ""
 "```\n"
 "sudo chmod a+rx /var/lib/dropbox/.dropbox-dist/dropbox-lnx.x86_64-*/libdropbox_apex.so\n"
 "```"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:509
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:511
 msgid "### Ubuntu family issues"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:511
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:513
 msgid "This is our known list of bugs that affects all flavours."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:514
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:516
 msgid ""
 "  * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)\n"
 "    * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:517
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:519
 msgid ""
 "You'll also want to check the Ubuntu MATE bug tracker to see what has already\n"
 "been reported. These issues will be addressed in due course."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:519
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:521
 msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:521
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:523
 msgid "## Feedback"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:524
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:526
 msgid ""
 "Is there anything you can help with or want to be involved in? Maybe you just\n"
 "want to discuss your experiences or ask the maintainers some questions. Please\n"

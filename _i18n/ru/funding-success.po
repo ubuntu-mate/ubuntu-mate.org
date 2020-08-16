@@ -1,0 +1,57 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/funding-success.md:8
+msgid "title: Successful Donation!"
+msgstr "title: Успешное пожертвование!"
+
+#: pages/funding-success.md:12
+msgid "#### Many thanks for donating!"
+msgstr "#### Большое спасибо за пожертвование!"
+
+#: pages/funding-success.md:16
+msgid ""
+"We've spent a great deal of time creating Ubuntu MATE and it is great that "
+"you\n"
+"have recognised the effort we've put into it. Donations will be put towards "
+"our\n"
+"hosting costs and rewarding contributors to the project."
+msgstr ""
+"Мы потратили много времени на создание Ubuntu MATE, и нам приятно,\n"
+"когда усилия признаются. Пожертвования будут использованы для\n"
+"покрытия наших расходов на хостинг и вознаграждения участников проекта."
+
+#: pages/funding-success.md:25
+msgid ""
+"    title = \"Thanks again!\"\n"
+"    text = \"That warm and fuzzy sensation you can feel is the Internet\n"
+"        promoting you to **Ubuntu MATE Community Super Hero** status.\"\n"
+"    button_text = \"Back to the homepage\"\n"
+"    button_url = \"/\""
+msgstr ""
+"    title = \"Еще раз спасибо!\"\n"
+"    text = \"Это теплое и нечеткое ощущение, которое вы можете почувствовать "
+"в Интернете, -\n"
+"        мы отмечаем ваш статус **Супер героя сообщества Ubuntu MATE**.\"\n"
+"    button_text = \"Вернуться на главную\"\n"
+"    button_url = \"/\""

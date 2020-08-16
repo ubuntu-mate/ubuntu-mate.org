@@ -1,0 +1,84 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/features-mate.md:14
+msgid "title: MATE Desktop | Features"
+msgstr "title: Рабочий стол MATE | Возможности"
+
+#: pages/features-mate.md:19
+msgid ""
+"main_image_alt: Screenshot of the MATE dialog\n"
+"main_title: The traditional desktop\n"
+"main_subtitle: New to some, a classic to others.\n"
+"main_text: >-"
+msgstr ""
+"main_image_alt: Экранный снимок диалогового окна MATE\n"
+"main_title: Традиционный рабочий стол\n"
+"main_subtitle: Для кого-то новый, для остальных - классический.\n"
+"main_text: >-"
+
+#: pages/features-mate.md:22
+msgid ""
+"    MATE is an intuitive attractive desktop using traditional\n"
+"    metaphors."
+msgstr ""
+"    MATE - интуитивно понятный привлекательный рабочий стол,\n"
+"    использующий традиционные метафоры."
+
+#: pages/features-mate.md:24
+msgid "    The legacy of GNOME 2 continues to be modern, lightweight and fast."
+msgstr "    Наследие GNOME 2 остается современным, легким и быстрым."
+
+#: pages/features-mate.md:28
+msgid ""
+"left_image_alt: Screenshot of cascaded MATE application windows\n"
+"left_title: The Essentials\n"
+"left_subtitle: Conventional applications such as a text editor, image viewer "
+"and archive utility."
+msgstr ""
+"left_image_alt: Экранный снимок каскада окон приложений MATE\n"
+"left_title: Основы\n"
+"left_subtitle: Обычные приложения, такие как текстовый редактор, программа "
+"просмотра изображений и архиватор."
+
+#: pages/features-mate.md:32
+msgid ""
+"middle_image_alt: Screenshot of home folder\n"
+"middle_title: Caja File Manager\n"
+"middle_subtitle: Perform file management tasks with ease."
+msgstr ""
+"middle_image_alt: Экранный снимок домашнего каталога\n"
+"middle_title: Файловый менеджер Caja\n"
+"middle_subtitle: Выполняет задачи по управлению файлами легко."
+
+#: pages/features-mate.md:36
+msgid ""
+"right_image_alt: Screenshot of sound indicator\n"
+"right_title: Modern Indicators\n"
+"right_subtitle: Preconfigured to provide convenient features (for supported "
+"applications)"
+msgstr ""
+"right_image_alt: Экранный снимок индикатора звука\n"
+"right_title: Современные индикаторы\n"
+"right_subtitle: Предварительно настроены для обеспечения удобных функций "
+"(для поддерживаемых приложений)"

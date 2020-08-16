@@ -1,0 +1,141 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/requirements.md:9
+msgid "title: System Requirements"
+msgstr "title: Системные требования"
+
+#: pages/requirements.md:15
+msgid ""
+"Ubuntu MATE has modest hardware requirements, making it is suitable for "
+"modern\n"
+"workstations, single board computers and older hardware alike. Ubuntu MATE\n"
+"makes modern computers fast and old computers usable."
+msgstr ""
+"Ubuntu MATE имеет скромные аппаратные требования,\n"
+"что делает его подходящим для современных рабочих станций, одноплатных "
+"компьютеров и более старого оборудования. Ubuntu MATE\n"
+"делает современные компьютеры быстрыми, а старые - удобными."
+
+#: pages/requirements.md:17
+msgid "### Desktop and Laptop Computers"
+msgstr "### Компьютеры и ноутбуки"
+
+#: pages/requirements.md:26
+msgid ""
+"|                   | Minimum           | Recommended               |\n"
+"| ----------------- | ----------------- | ------------------------- |\n"
+"| **CPU**           | Pentium M 1.0GHz  | Core 2 Duo 1.6GHz\n"
+"| **CPU Architecture** | [i386] (until 2021) | [amd64]\n"
+"| **RAM**           | 1 GB              | 4 GB\n"
+"| **Storage**       | 8 GB              | 16 GB\n"
+"| **Boot Media**    | Bootable DVD-ROM  | Bootable DVD-ROM or USB Flash "
+"Drive\n"
+"| **Display**       | 1024 x 768        | 1440 x 900 or higher (with "
+"graphics acceleration)"
+msgstr ""
+"|                   | Минимально           | Рекомендуется               |\n"
+"| ----------------- | ----------------- | ------------------------- |\n"
+"| **CPU**           | Pentium M 1.0ГГц  | Core 2 Duo 1.6ГГц\n"
+"| **Архитектура CPU** | [i386] (до 2021) | [amd64]\n"
+"| **RAM**           | 1 Гб              | 4 Гб\n"
+"| **Хранилище**       | 8 Гб              | 16 Гб\n"
+"| **Загрузочный носитель**    | загрузочный DVD-ROM  | загрузочный DVD-ROM "
+"или USB Flash Drive\n"
+"| **Дисплей**       | 1024 x 768        | 1440 x 900 или выше  (с "
+"графическим ускорением)"
+
+#: pages/requirements.md:29
+msgid "### Raspberry Pi"
+msgstr "### Raspberry Pi"
+
+#: pages/requirements.md:31
+msgid "Only the **B models** of the Raspberry Pi family are supported:"
+msgstr "Поддерживаются только **модели B** семейства Raspberry Pi:"
+
+#: pages/requirements.md:36
+msgid ""
+"* Raspberry Pi 2\n"
+"* Raspberry Pi 3\n"
+"* Raspberry Pi 3+\n"
+"* Raspberry Pi 4 (all memory sizes)"
+msgstr ""
+"* Raspberry Pi 2\n"
+"* Raspberry Pi 3\n"
+"* Raspberry Pi 3+\n"
+"* Raspberry Pi 4 (все объемы памяти)"
+
+#: pages/requirements.md:39
+msgid ""
+"All models support the [armhf] architecture. The Raspberry Pi 3 and newer\n"
+"can also take advantage of the 64-bit CPU using the [arm64] release."
+msgstr ""
+"Все модели поддерживают архитектуру [armhf]. Raspberry Pi 3 и более новые\n"
+"могут воспользоваться преимуществами использования 64-битной архитектуры "
+"процессора, используя выпуски для [arm64]."
+
+#: pages/requirements.md:44
+msgid ""
+"[i386]: /download/i386/\n"
+"[amd64]: /download/amd64/\n"
+"[armhf]: /download/armhf/\n"
+"[arm64]: /download/arm64/"
+msgstr ""
+"[i386]: /download/i386/\n"
+"[amd64]: /download/amd64/\n"
+"[armhf]: /download/armhf/\n"
+"[arm64]: /download/arm64/"
+
+#: pages/requirements.md:46
+msgid "The micro-SD card needs to be a minimum of 5 GB."
+msgstr "Карта памяти micro-SD должна быть не менее 5 Гб."
+
+#: pages/requirements.md:49
+msgid "### Hardware Ports"
+msgstr "### Аппаратное портирование"
+
+#: pages/requirements.md:51
+msgid "Ubuntu MATE has been officially ported to, and works great on:"
+msgstr "Ubuntu MATE была официально портирована и отлично работает на:"
+
+#: pages/requirements.md:57
+msgid ""
+"| Codename              | Compatible with                                   "
+"|\n"
+"| --------------------- | ------------------------------------------------- "
+"|\n"
+"| [gpd_pocket](/download/gpd_pocket/) | Original GPD Pocket.\n"
+"| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix "
+"Yoga 1s and OneMix Yoga 2.\n"
+"| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC\n"
+"| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon"
+msgstr ""
+"| Кодовое имя           | Совместимость с                                   "
+"|\n"
+"| --------------------- | ------------------------------------------------- "
+"|\n"
+"| [gpd_pocket](/download/gpd_pocket/) | Оригинальный GPD Pocket.\n"
+"| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix "
+"Yoga 1s и OneMix Yoga 2.\n"
+"| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC\n"
+"| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon"

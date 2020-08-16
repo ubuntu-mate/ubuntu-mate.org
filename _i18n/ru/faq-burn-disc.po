@@ -1,0 +1,142 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-burn-disc.md:9
+msgid "title: Verifying Downloads"
+msgstr "title: Запись DVD диска"
+
+#: pages/faq-burn-disc.md:13
+msgid "## Burning to DVD"
+msgstr "## Запись DVD диска"
+
+#: pages/faq-burn-disc.md:17
+msgid ""
+"If your computer has a DVD burner and blank DVD-R/RW/+R/+RW media, here's "
+"how\n"
+"you can make your own Ubuntu MATE installation disc and live session for "
+"your\n"
+"desktop or laptop."
+msgstr ""
+"Если у вашего компьютера есть устройство записи DVD и у вас есть пустой диск "
+"DVD-R/RW/+R/+RW, то вы можете воспользоваться инструкцией ниже для записи "
+"Ubuntu MATE на диск для использования его в качестве установочного носителя "
+"или запуска \"живой\" сессии с него\n"
+"на вашем компьютере или ноутбуке."
+
+#: pages/faq-burn-disc.md:22
+msgid "### Windows"
+msgstr "### Windows"
+
+#: pages/faq-burn-disc.md:25
+msgid ""
+"Windows 7 (and later) supports the ability to burn straight from the "
+"desktop.\n"
+"Right click the file and choose **Burn image**."
+msgstr ""
+"Windows 7 (и новее) предоставляет возможность записи файлов образов напрямую "
+"с рабочего стола.\n"
+"Нажмите правой кнопкой мыши на файле и выберите **Записать образ**."
+
+#: pages/faq-burn-disc.md:27
+msgid "![Right clicking an ISO file in Windows](/images/faq/dvd/win.png)"
+msgstr ""
+"![Меню правой кнопки мыши для файла ISO в Windows](/images/faq/dvd/win.png)"
+
+#: pages/faq-burn-disc.md:31
+msgid ""
+"If you need to use an older computer running Windows Vista or earlier, "
+"consider\n"
+"[InfraRecorder](http://infrarecorder.org/?page_id=5), a free and open-"
+"source\n"
+"image-burning program."
+msgstr ""
+"Если вам приходится использовать более старый компьютер с Windows Vista или "
+"старше, то вы\n"
+"можете использовать бесплатную программу с открытым исходным кодом "
+"[InfraRecorder](http://infrarecorder.org/?page_id=5)\n"
+"для записи файла образа."
+
+#: pages/faq-burn-disc.md:34
+msgid "### macOS"
+msgstr "### macOS"
+
+#: pages/faq-burn-disc.md:37
+msgid ""
+"macOS supports the ability to burn using **Disk Utility**.\n"
+"Right click the file and choose **Burn image**."
+msgstr ""
+"macOS предоставляет возможность записи образов с использованием **Дисковой "
+"утилиты**.\n"
+"Нажмите правой кнопкой мыши на файле и выберите **Записать образ**."
+
+#: pages/faq-burn-disc.md:39
+msgid "![Right clicking an ISO file on Mac](/images/faq/dvd/macOS.png)"
+msgstr ""
+"![Меню правой кнопки мыши для файла ISO на Mac](/images/faq/dvd/macOS.png)"
+
+#: pages/faq-burn-disc.md:42
+msgid "### GNU/Linux"
+msgstr "### GNU/Linux"
+
+#: pages/faq-burn-disc.md:46
+msgid ""
+"Your distribution may or may not provide disc burning tools as many believe\n"
+"it is an uncommon necessity these days. If you don't have one installed, "
+"here's\n"
+"a couple you may try:"
+msgstr ""
+"Ваш дистрибутив может предлагать или не предлагать программу для записи "
+"дисков, поскольку многие считают, что это не популярно в настоящее время.\n"
+"Если у вас такая программа не установлена, то вот\n"
+"пара программ, которые можно попробовать:"
+
+#: pages/faq-burn-disc.md:49
+msgid ""
+"* [Brasero](https://wiki.gnome.org/Apps/Brasero)\n"
+"* [K3b](https://kde.org/applications/multimedia/org.kde.k3b)"
+msgstr ""
+"* [Brasero](https://wiki.gnome.org/Apps/Brasero)\n"
+"* [K3b](https://kde.org/applications/multimedia/org.kde.k3b)"
+
+#: pages/faq-burn-disc.md:52
+msgid ""
+"Use your distribution's software manager to install these. Both are free "
+"and\n"
+"open source software."
+msgstr ""
+"Используйте систему управления программами вашего дистрибутива для их "
+"установки. Обе программы бесплатные\n"
+"и имеют открытый исходный код."
+
+#: pages/faq-burn-disc.md:54
+msgid "Right click the file and open the ISO file in the disc burning utility."
+msgstr ""
+"Нажмите правой кнопкой мыши на файле ISO для его открытия в программе записи "
+"дисков."
+
+#: pages/faq-burn-disc.md:55
+msgid ""
+"![Right clicking an ISO file in Ubuntu MATE](/images/faq/dvd/ubuntumate.png)"
+msgstr ""
+"![Меню правой кнопки мыши для файла ISO в Ubuntu MATE](/images/faq/dvd/"
+"ubuntumate.png)"

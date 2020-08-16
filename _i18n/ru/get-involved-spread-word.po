@@ -1,0 +1,133 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-spread-word.md:9
+msgid "title: Spread the Word"
+msgstr "title: Распространение информации"
+
+#: pages/get-involved-spread-word.md:13
+msgid "## Spread the Word"
+msgstr "## Распространение информации"
+
+#: pages/get-involved-spread-word.md:18
+msgid ""
+"We hope you love Ubuntu MATE as much as we do! If you do, we'd love for you "
+"to\n"
+"share that excitement with others. Be creative! Put more green in your "
+"wardrobe.\n"
+"When someone asks if you like coffee or tea, mention how you prefer MATE or\n"
+"Ubuntu MATE. Here's a few other ideas."
+msgstr ""
+"Мы надеемся, что вы любите Ubuntu MATE так же сильно, как и мы! Если это "
+"искренне, то\n"
+"мы будем рады, если вы разделите это чувство с другими. Будьте креативны! "
+"Добавьте больше зеленого в свой гардероб.\n"
+"А когда кто-то спросит, любите ли вы кофе или чай, укажите,\n"
+"что вы предпочитаете MATE или Ubuntu MATE. Это лишь несколько идей."
+
+#: pages/get-involved-spread-word.md:20
+msgid "### Social Media"
+msgstr "### Социальные сети"
+
+#: pages/get-involved-spread-word.md:26
+msgid ""
+"This is definitely the easiest way to introduce your family, friends, and\n"
+"random followers to Ubuntu MATE. Share a post from our [blog](/blog/). "
+"Follow\n"
+"us at **[@ubuntumate](https://twitter.com/ubuntu_mate)**\n"
+"and let our informative, GIF-filled posts inspire you to hit the "
+"'Like' (and\n"
+"maybe even the 'Retweet') button."
+msgstr ""
+"Это определенно самый простой способ познакомить вашу семью, друзей и\n"
+"случайных подписчиков с Ubuntu MATE. Поделитесь публикацией из нашего [блога]"
+"(/blog/). Подпишитесь\n"
+"на нас в Твиттере **[@ubuntumate](https://twitter.com/ubuntu_mate)**\n"
+"и пусть наши информативные сообщения, наполненные GIF-иллюстрациями, "
+"вдохновят вас нажать кнопку 'Нравится' (и,\n"
+"возможно, даже кнопку 'Ретвитнуть')."
+
+#: pages/get-involved-spread-word.md:31
+msgid ""
+"Talk about Ubuntu MATE on your favorite IRC,\n"
+"Mastodon, and Telegram groups, or your favorite Linux forum. Post an\n"
+"influencer-worthy pic of your home office on Instagram, and use a filter to "
+"make\n"
+"that green login screen pop. Make a Tik-Tok video so we all become Internet-"
+"famous."
+msgstr ""
+"Вы можете пообщаться на тему Ubuntu MATE в ваших любимых IRC,\n"
+"группах Mastodon и Telegram, или на Linux форуме. Опубликуйте в Instagram "
+"фото вашего домашнего офиса,\n"
+"достойное внимания, и воспользуйтесь фильтром, чтобы зеленый экран входа в "
+"систему выделялся.\n"
+"Сделайте видео в Tik-Tok, чтобы мы все стали известными в Интернете."
+
+#: pages/get-involved-spread-word.md:33
+msgid "### Merchandise"
+msgstr "### Продукция"
+
+#: pages/get-involved-spread-word.md:39
+msgid ""
+"Sometimes, spreading the word doesn't take any words at all! A stylish "
+"Ubuntu\n"
+"MATE polo, T-shirt, or hoodie can tell your friends, family, and coworkers "
+"you're\n"
+" smart in your fashion AND Linux distro choices. Your morning cup of "
+"caffeine\n"
+" can get you through your day and help spark a conversation. Find all these\n"
+" goodies at our [shop](/shop/)."
+msgstr ""
+"Иногда для распространения слова вообще не нужны слова! Стильная футболка-"
+"поло,\n"
+"футболка или худи Ubuntu MATE расскажет вашим друзьям, семье и коллегам, что "
+"вы разбираетесь в моде И выборе дистрибутива Linux.\n"
+"Утренняя чашка кофеина поможет вам в течение дня и поможет зажечь разговор.\n"
+"Все эти вкусности можно найти в нашем [магазине](/shop/)."
+
+#: pages/get-involved-spread-word.md:41
+msgid "### Reviews"
+msgstr "### Обзоры"
+
+#: pages/get-involved-spread-word.md:47
+msgid ""
+"Finally, one of the most useful ways of introducing people to Ubuntu MATE "
+"are\n"
+"through members of the Linux community who give helpful and honest reviews "
+"of\n"
+"Ubuntu MATE's strengths and weaknesses. We're fortunate to have a strong\n"
+"reviewing community, and you can see some of these reviews on our\n"
+"[Testimonials](/about/testimonials/) page. Community feedback has always "
+"helped\n"
+"us improve Ubuntu MATE, and we're excited to hear from new voices with new "
+"insights."
+msgstr ""
+"Наконец, один из самых полезных способов познакомить людей с Ubuntu MATE - "
+"через\n"
+"членов сообщества Linux, которые делают полезные и честные обзоры сильных и "
+"слабых сторон\n"
+"Ubuntu MATE. Нам повезло, что у нас сильное сообщество рецензентов,\n"
+"и вы можете увидеть некоторые из этих обзоров на нашей странице [Отзывы](/"
+"about/testimonials/).\n"
+"Отзывы сообщества всегда помогали нам улучшать Ubuntu MATE,\n"
+"и мы рады слышать новые голоса с новыми идеями."

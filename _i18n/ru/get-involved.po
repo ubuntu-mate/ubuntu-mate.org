@@ -1,0 +1,39 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved.md:9
+msgid "title: Get Involved"
+msgstr "title: Участвовать"
+
+#: pages/get-involved.md:13
+msgid "## There's many ways to grow the distribution."
+msgstr "## Есть много способов помочь развитию проекта."
+
+#: pages/get-involved.md:15
+msgid ""
+"Pick a topic on the left to explore the different ways you can contribute "
+"to\n"
+"the development of Ubuntu MATE."
+msgstr ""
+"Выберите тему слева, чтобы изучить различные способы, которыми вы можете\n"
+"внести свой вклад в разработку Ubuntu MATE."

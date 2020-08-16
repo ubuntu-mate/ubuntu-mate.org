@@ -1,0 +1,993 @@
+#
+# Translators:
+# Luke Horwell, 2020
+# Nikolay Strelkov, 2020
+#
+#. extracted from _data/strings.yml
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-08-14 20:49+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: homepage
+msgid "Home Page"
+msgstr "Главная страница"
+
+#: search
+msgctxt "search"
+msgid "Search"
+msgstr "Поиск"
+
+#: change_lang
+msgid "Change Language"
+msgstr "Выбрать язык"
+
+#: footnote
+msgid ""
+"An official flavour of the Ubuntu family. [Ubuntu] is a trademark of "
+"[Canonical Ltd.]"
+msgstr ""
+"Официальная редакция семейства Ubuntu. [Ubuntu] является торговой маркой "
+"[Canonical Ltd.]"
+
+#: edit_page
+msgid "Improve this page"
+msgstr "Улучшить эту страницу"
+
+#: recent_changes
+msgid "Recent Changes"
+msgstr "Недавние изменения"
+
+#: translate_site
+msgid "Translate this site"
+msgstr "Перевести этот сайт"
+
+#: rss
+msgid "View RSS Feed"
+msgstr "RSS лента"
+
+#: launchpad
+msgid "Ubuntu MATE on Launchpad"
+msgstr "Ubuntu MATE на Launchpad"
+
+#: github
+msgid "Ubuntu MATE on GitHub"
+msgstr "Ubuntu MATE на GitHub"
+
+#: trello
+msgid "Development Trello Boards"
+msgstr "Планирание разработки в Trello"
+
+#: irc
+msgid "#ubuntumate on Freenode (IRC)"
+msgstr "#ubuntumate на Freenode (IRC)"
+
+#: mastodon
+msgid "Ubuntu MATE on Mastodon"
+msgstr "Ubuntu MATE в Mastodon"
+
+#: facebook
+msgid "Ubuntu MATE on Facebook"
+msgstr "Ubuntu MATE в Facebook"
+
+#: twitter
+msgid "@ubuntu_mate on Twitter"
+msgstr "@ubuntu_mate в Twitter"
+
+#: dark_mode
+msgid "Dark Mode"
+msgstr "Темная тема"
+
+#: light_mode
+msgid "Light Mode"
+msgstr "Светлая тема"
+
+#: about
+msgid "About"
+msgstr "О проекте"
+
+#: features
+msgid "Features"
+msgstr "Возможности"
+
+#: blog
+msgid "Blog"
+msgstr "Блог"
+
+#: downloads
+msgctxt "downloads"
+msgid "Download"
+msgstr "Загрузка"
+
+#: support
+msgid "Support"
+msgstr "Поддержка"
+
+#: get_involved
+msgid "Get Involved"
+msgstr "Участвовать"
+
+#: shop
+msgid "Emporium"
+msgstr "Магазин"
+
+#: funding
+msgid "Funding"
+msgstr "Финансирование"
+
+#: choose_arch
+msgid "Choose an architecture"
+msgstr "Выберите архитектуру"
+
+#: choose_version
+msgid "Choose a release"
+msgstr "Выберите версию"
+
+#: choose_download
+msgid "Choose a download"
+msgstr "Выберите метод загрузки"
+
+#: post_download_page_title
+msgid "Thank you for downloading [20.04] ([amd64])"
+msgstr "Благодарим за загрузку [20.04] ([amd64])"
+
+#: post_download_title
+msgid "Thank you for downloading:"
+msgstr "Благодарим за загрузку:"
+
+#: post_download_release
+msgid "[Focal] for [amd64] systems"
+msgstr "[Focal] для систем [amd64]"
+
+#: release_notes
+msgid "Release Notes"
+msgstr "Примечания к выпуску"
+
+#: download_started
+msgid "Your download has started"
+msgstr "Ваша загрузка началась"
+
+#: download_started_help
+msgid "Not working? Try clicking the link:"
+msgstr "Не работает? Попробуйте нажать на ссылку:"
+
+#: post_download_go_back
+msgid "Choose a different download"
+msgstr "Выбрать другую загрузку"
+
+#: browse_downloads
+msgid "Browse Downloads"
+msgstr "Смотреть загрузки"
+
+#: show_req
+msgctxt "show_req"
+msgid "System Requirements"
+msgstr "Требования к системе"
+
+#: download_ports
+msgid "Or.... choose a hardware port:"
+msgstr "Или... выберите аппаратный порт:"
+
+#: download_products
+msgid "Or... buy it preloaded:"
+msgstr "Или... купите предустановленным:"
+
+#: download_help
+msgid "What should I download?"
+msgstr "Что мне следует загрузить?"
+
+#: label_LTS
+msgid "Recommended for stability and mission critical systems."
+msgstr "Рекомендуется для стабильной работы критически важных систем."
+
+#: label_nonLTS
+msgid ""
+"Interim release for users desiring the latest features and applications."
+msgstr ""
+"Промежуточная версия для пользователей, желающих получить новейшие функции и "
+"приложения."
+
+#: label_prerelease
+msgid "Development release for testing and debugging."
+msgstr "Разрабатываемые версии для тестирования и отладки."
+
+#: prerelease
+msgid "(Pre-release)"
+msgstr "(предварительные версии)"
+
+#: file_name
+msgid "File Name"
+msgstr "Имя файла"
+
+#: file_size
+msgid "File Size"
+msgstr "Размер файла"
+
+#: checksum
+msgid "Checksum"
+msgstr "Контрольная сумма"
+
+#: recommended
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: prefer_torrent
+msgid ""
+"**Spare the bytes!** A torrent is recommended to reduce bandwidth costs. It "
+"could deliver faster download speeds too!"
+msgstr ""
+"**Экономьте байты!** Рекомендуется использовать торрент для снижения затрат "
+"на пропускную способность. Он также может обеспечить более высокую скорость "
+"загрузки!"
+
+#: label_bittorrent
+msgid "Receive the file distributed and verified by multiple computers."
+msgstr ""
+"Получить файл, распределенный и верифицированный несколькими компьютерами."
+
+#: label_magnet
+msgid "Open my BitTorrent client."
+msgstr "Открыть мой клиент BitTorrent."
+
+#: label_direct
+msgid "Via your web browser."
+msgstr "С помощью вашего веб-браузер."
+
+#: end_of_life
+msgid "Supported until"
+msgstr "Поддерживается до"
+
+#: filename
+msgid "Filename"
+msgstr "Имя файла"
+
+#: arch
+msgid "Architecture"
+msgstr "Архитектура"
+
+#: server
+msgid "Hosted by"
+msgstr "Хостинг"
+
+#: download_links
+msgctxt "download_links"
+msgid "Download"
+msgstr "Загрузка"
+
+#: direct
+msgid "Direct Download"
+msgstr "Прямая загрузка"
+
+#: bittorrent
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+#: magnet
+msgid "Magnet Link"
+msgstr "Magnet-ссылка"
+
+#: support_bandwidth
+msgid "Support bandwidth costs"
+msgstr "Поддержка затрат на полосу пропускания"
+
+#: prerelease_warning_title
+msgid "Bugs might bite!"
+msgstr "Ошибки могут укусить!"
+
+#: prerelease_warning_text
+msgid ""
+"This release is not production-ready. It's recommended for testers to help "
+"with Ubuntu MATE QA, or to provide feedback and file bug reports."
+msgstr ""
+"Этот выпуск не готов к широкому использованию. Но вы можете его загрузить "
+"для тестирования и помощи нашей команде Ubuntu MATE QA и предоставить отзывы "
+"и отправить отчеты об ошибках."
+
+#: prerelease_warning_button
+msgid "Learn how to get involved →"
+msgstr "Узнать как принять участие →"
+
+#: jan
+msgid "January"
+msgstr "Январь"
+
+#: feb
+msgid "February"
+msgstr "Февраль"
+
+#: mar
+msgid "March"
+msgstr "Март"
+
+#: apr
+msgid "April"
+msgstr "Апрель"
+
+#: may
+msgid "May"
+msgstr "Май"
+
+#: jun
+msgid "June"
+msgstr "Июнь"
+
+#: jul
+msgid "July"
+msgstr "Июль"
+
+#: aug
+msgid "August"
+msgstr "Август"
+
+#: sep
+msgid "September"
+msgstr "Сентябрь"
+
+#: oct
+msgid "October"
+msgstr "Октябрь"
+
+#: nov
+msgid "November"
+msgstr "Ноябрь"
+
+#: dec
+msgid "December"
+msgstr "Декабрь"
+
+#: download_tip_title
+msgid "Download Tip"
+msgstr "Совет по загрузке"
+
+#: download_tip_text
+msgid ""
+"_A little bit goes a long way._ If everyone who downloaded Ubuntu MATE "
+"tipped **$2.50**, it would fund the full-time development of Ubuntu MATE and "
+"MATE Desktop."
+msgstr ""
+"_Даже малое имеет большое значение._ Если бы каждый, кто загрузил Ubuntu "
+"MATE, оставит **$2.50** чаевых, то это позволило бы профинансировать "
+"постоянную разработку Ubuntu MATE и рабочего стола MATE."
+
+#: download_tip_provider
+msgid "Powered by"
+msgstr "С помощью"
+
+#: download_tip_footnote
+msgid ""
+"To contribute more, use Bitcoin or become an Ubuntu MATE Patron, [visit the "
+"funding page.](/funding/)"
+msgstr ""
+"Чтобы внести больше, используйте Bitcoin или станьте патроном MATE, [посетив "
+"страницу финансирования](/funding/)."
+
+#: download_verify_title
+msgid "Verify your download"
+msgstr "Проверьте вашу загрузку"
+
+#: download_verify_text
+msgid ""
+"Checking data integrity provides assurance your download is free from "
+"tampering and corruption."
+msgstr ""
+"Проверка целостности данных гарантирует, что ваша загрузка защищена от "
+"подделки и повреждения."
+
+#: download_verify_howto
+msgid "How to verify downloads"
+msgstr "Верикация загрузок"
+
+#: download_guide_title
+msgid "Acquire a guide by your side"
+msgstr "Получите подробную инструкцию"
+
+#: download_guide_text
+msgid ""
+"**Available in both paperback and ebook format.** These books can assist "
+"with upgrades from Windows/macOS, as well as introduce you to key "
+"applications of the Ubuntu MATE desktop."
+msgstr ""
+"**Доступна как в мягкой обложке, так и формате электронной книги.** Эти "
+"книги помогут с обновлнием Windows/macOS, а также познакомят вас с ключевыми "
+"приложениями рабочего стола Ubuntu MATE."
+
+#: download_guide_view_button
+msgid "View Online"
+msgstr "Смотреть онлайн"
+
+#: download_guide_shop_button
+msgid "Shop Books"
+msgstr "Купить книги"
+
+#: download_stuck_title
+msgid "Get stuck?"
+msgstr "Застряли?"
+
+#: download_stuck_text
+msgid "Check out these resources:"
+msgstr "Ознакомьтесь с этими ресурсами:"
+
+#: download_stuck_help_imgusb
+msgid "How to image a flash drive (Windows, Mac, Linux)"
+msgstr ""
+"Как записать установочный носитель на флеш-накопитель (Windows, Mac, Linux)"
+
+#: download_stuck_help_support
+msgid "See known issues or ask the community"
+msgstr "Просмотрите известные проблемы или спросите сообщество"
+
+#: download_stuck_help_faq
+msgid "Frequently asked questions"
+msgstr "Часто задаваемые вопросы"
+
+#: latest_blogs
+msgid "Latest"
+msgstr "Актуальное"
+
+#: archived_blogs
+msgid "Archives"
+msgstr "Архивы"
+
+#: read_more
+msgid "Read more..."
+msgstr "Читать дальше..."
+
+#: category_release
+msgid "Release Announcement"
+msgstr "Объявление о выпуске"
+
+#: category_dev
+msgid "Development Update"
+msgstr "Новости разработки"
+
+#: category_news
+msgid "News"
+msgstr "Новости"
+
+#: outdated_post
+msgid "This post is more than a year old and may be outdated."
+msgstr "Этому посту больше года и, возможно, он устарел."
+
+#: comments_title
+msgid "Comments"
+msgstr "Комментарии"
+
+#: comments_none_old
+msgid ""
+"The comment section for this old article has been closed. There were no "
+"comments. :("
+msgstr ""
+"Раздел комментариев к этой старой статье был закрыт. Комментариев нет. :("
+
+#: comments_none
+msgid "Comments are not available for this post."
+msgstr "Комментарии к этому сообщению недоступны."
+
+#: comments_no_js
+msgid "To view comments, please enable JavaScript in your browser."
+msgstr "Для просмотра комментариев включите JavaScript в вашем браузере."
+
+#: under_the_hood
+msgid "Under the Hood"
+msgstr "Под капотом"
+
+#: what_is_ubuntu_mate
+msgid "What is Ubuntu MATE?"
+msgstr "Что такое Ubuntu MATE?"
+
+#: history
+msgid "History"
+msgstr "История"
+
+#: system_requirements
+msgctxt "system_requirements"
+msgid "System Requirements"
+msgstr "Требования к системе"
+
+#: team
+msgid "Team"
+msgstr "Команда"
+
+#: testimonials
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: custom_panel
+msgid "Panel Customisation"
+msgstr "Настройка панелей"
+
+#: computers
+msgid "Desktop & Laptops"
+msgstr "Компьютеры и ноутбуки"
+
+#: books
+msgid "Books"
+msgstr "Книги"
+
+#: apparel
+msgid "Apparel"
+msgstr "Атрибутика"
+
+#: purchase
+msgid "View Product"
+msgstr "Смотреть продукт"
+
+#: mate_desktop
+msgid "MATE Desktop"
+msgstr "Рабочий стол MATE"
+
+#: ubuntu_base
+msgid "Ubuntu Base"
+msgstr "База Ubuntu"
+
+#: preinstalled
+msgid "Pre-installed Applications"
+msgstr "Предустановлленые приложения"
+
+#: gnu_linux
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: live_only
+msgid "Only available during live session"
+msgstr "Только в режиме живой сессии"
+
+#: not_in_min_install
+msgid "Not included in minimal install"
+msgstr "Не включено в минимальную установку"
+
+#: ubuntu_mate_welcome
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: software_boutique
+msgid "Software Boutique"
+msgstr "Магазин программного обеспечения"
+
+#: panel_defaults
+msgid "Familiar Layouts"
+msgstr "Привычные макеты панелей"
+
+#: theming
+msgid "Wallpapers & Themes"
+msgstr "Фоны рабочего стола и темы"
+
+#: gnome_disks
+msgid "GNOME Disks"
+msgstr "Диски GNOME"
+
+#: mate_calc
+msgid "Calculator"
+msgstr "Калькулятор"
+
+#: mate_font_viewer
+msgid "Font Viewer"
+msgstr "Просмотр шрифтов"
+
+#: mate_search
+msgctxt "mate_search"
+msgid "Search"
+msgstr "Поиск"
+
+#: mate_screenshot
+msgid "Screenshot"
+msgstr "Снимки экрана"
+
+#: mate_color_selection
+msgid "Colour Selection"
+msgstr "Выбор цвета"
+
+#: mate_dictionary
+msgid "Dictionary"
+msgstr "Словарь"
+
+#: mate_disk_usage_analyzer
+msgid "Disk Usage Analyzer"
+msgstr "Анализатор использования дисков"
+
+#: system_log
+msgid "System Log"
+msgstr "Просмотр журналов"
+
+#: mate_terminal
+msgid "Terminal"
+msgstr "Терминал"
+
+#: mate_system_monitor
+msgid "System Monitor"
+msgstr "Системный монитор"
+
+#: mate_power_statistics
+msgid "Power Statistics"
+msgstr "История электропотребления"
+
+#: mate_tweak
+msgid "MATE Tweak"
+msgstr "MATE Tweak"
+
+#: guide
+msgid "Ubuntu MATE Guide"
+msgstr "Ubuntu MATE Guide"
+
+#: character_map
+msgid "Character Map"
+msgstr "Таблица символов"
+
+#: seahorse
+msgid "Passwords & Keys"
+msgstr "Пароли и ключи"
+
+#: apport
+msgid "Error Reporting"
+msgstr "Сообщения об ошибках"
+
+#: simple_scan
+msgid "Simple Scan"
+msgstr "Сканер документов"
+
+#: orca
+msgid "Orca Screen Reader"
+msgstr "Экранный диктор Orca"
+
+#: nm
+msgid "Network Manager"
+msgstr "Сетевой менеджер"
+
+#: software_dist
+msgid "Primary Software Distribution"
+msgstr "Основной источник программ"
+
+#: software_snap
+msgid "Secondary Software Distribution"
+msgstr "Вторичный источник программ"
+
+#: shell
+msgid "Shell"
+msgstr "Оболочка"
+
+#: display
+msgid "Display Server"
+msgstr "Дисплейный сервер"
+
+#: init
+msgid "Init System"
+msgstr "Системы инициализации"
+
+#: audio
+msgid "Audio Server"
+msgstr "Звуковой сервер"
+
+#: win_man
+msgid "Window Manager"
+msgstr "Менеджер окон"
+
+#: installer
+msgid "Installer"
+msgstr "Программа установки"
+
+#: boot_splash
+msgid "Boot Splash"
+msgstr "Загрузочная заставка"
+
+#: bootloader
+msgid "Bootloader"
+msgstr "Загрузчик"
+
+#: printer
+msgid "Printing Support"
+msgstr "Поддержка печати"
+
+#: kernel1
+msgid "Wide range of hardware support"
+msgstr "Широкий диапазон поддерживаемого оборудования"
+
+#: kernel2
+msgid "Secure by design"
+msgstr "Создан безопасным"
+
+#: kernel3
+msgid "Excellent stability"
+msgstr "Отличная стабильность"
+
+#: dev_status
+msgid "Development Status"
+msgstr "Состояние разработки"
+
+#: documentation
+msgid "Documentation"
+msgstr "Документация"
+
+#: crowd_fund
+msgid "Crowd Funder"
+msgstr "Краудфандинг"
+
+#: spread_word
+msgid "Spread the Word"
+msgstr "Распространение информации"
+
+#: community_support
+msgid "Community Support"
+msgstr "Поддержка сообщества"
+
+#: translations
+msgid "Translations"
+msgstr "Переводы"
+
+#: artwork_themes
+msgid "Artwork and Themes"
+msgstr "Внешний вид"
+
+#: bug_triage
+msgid "Bug Reporting and Triage"
+msgstr "Сообщение об ошибках и сортировка"
+
+#: testing_qa
+msgid "Testing and Quality Assurance"
+msgstr "Тестирование и обеспечение качества"
+
+#: bug_fix
+msgid "Bug Fixing"
+msgstr "Исправление ошибок"
+
+#: software_dev
+msgid "Software Development"
+msgstr "Разработка программ"
+
+#: dev_backlog
+msgid "Backlog"
+msgstr "Запланировано"
+
+#: dev_active
+msgid "In Progress"
+msgstr "Активно"
+
+#: dev_completed
+msgid "Completed"
+msgstr "Выполнено"
+
+#: design_guidelines
+msgid "Design Guidelines"
+msgstr "Рекомендации по дизайну"
+
+#: application
+msgid "Application"
+msgstr "Приложение"
+
+#: url
+msgid "URL"
+msgstr "Ссылка"
+
+#: no_translation_url
+msgid "Does not support translations"
+msgstr "Не поддерживает переводы"
+
+#: faq
+msgid "Project FAQs"
+msgstr "ЧаВо проекта"
+
+#: the_project
+msgid "The Project"
+msgstr "Проект"
+
+#: verify_downloads_quick
+msgid "Verify for Corruption"
+msgstr "Проверка целостности"
+
+#: verify_downloads_secure
+msgid "Verify for Tampering"
+msgstr "Проверка достоверности"
+
+#: how_to_image
+msgid "Imaging a USB Drive"
+msgstr "Запись USB носителя"
+
+#: how_to_dvd
+msgid "Burning to DVD"
+msgstr "Запись на DVD"
+
+#: about_project
+msgid "Project Questions"
+msgstr "Вопросы о проекте"
+
+#: roadmap
+msgid "Roadmap"
+msgstr "Оперативный план"
+
+#: prepare_media
+msgid "Media Preparations"
+msgstr "Подготовка носителей"
+
+#: founders_title
+msgid "Founders"
+msgstr "Основатели"
+
+#: founders_desc
+msgid "The loons who thought it was a good idea."
+msgstr "Психи, которые думали, что это хорошая идея."
+
+#: team1_title
+msgid "The Team"
+msgstr "Команда"
+
+#: team1_desc
+msgid "The folks making decisions and steering the ship."
+msgstr "Люди, которые принимают решения и управляют кораблем."
+
+#: team2_title
+msgid "Wider Community"
+msgstr "Более широкое сообщество"
+
+#: team2_desc
+msgid "These people indirectly contribute to make things possible."
+msgstr "Эти люди косвенно способствуют тому, чтобы все стало возможным."
+
+#: contrib_title
+msgid "Notable Contributors"
+msgstr "Известные участники"
+
+#: contrib_desc
+msgid "These people made history with the distro."
+msgstr "Эти люди вошли в историю с дистрибутивом."
+
+#: team_ubuntu
+msgid "Ubuntu Member"
+msgstr "Участник Ubuntu"
+
+#: team_canonical
+msgid "Works at Canonical"
+msgstr "Работает в Canonical"
+
+#: team_mate
+msgid "MATE Desktop Team"
+msgstr "Команда рабочего стола MATE"
+
+#: team_coder
+msgid "Code Contributor"
+msgstr "Создание кода"
+
+#: team_artwork
+msgid "Artwork Contributor"
+msgstr "Создание дизайна"
+
+#: team_docs
+msgid "Documentation Contributor"
+msgstr "Создание документации"
+
+#: team_community
+msgid "Community"
+msgstr "Участие в сообществе"
+
+#: team_qa
+msgid "Quality Assurance Tester"
+msgstr "Тестирование для обеспечения качества"
+
+#: team_bug_hunter
+msgid "Bug Hunter"
+msgstr "Охота на ошибки"
+
+#: team_bug_fixer
+msgid "Bug Fixer"
+msgstr "Исправление ошибок"
+
+#: team_packager
+msgid "Package Maintainer"
+msgstr "Поддержка пакетов"
+
+#: quote_general_title
+msgid "What the Internet is saying..."
+msgstr "Что говорит Интернет ..."
+
+#: quote_youtube_title
+msgid "What the YouTubers are showcasing..."
+msgstr "Что демонстрируют на YouTube..."
+
+#: ports
+msgid "Device Ports"
+msgstr "Поддержка устройств"
+
+#: raspberry_pi
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: raspberry_pi_history
+msgid "Raspberry Pi Change Log"
+msgstr "Raspberry Pi список изменений"
+
+#: umpc
+msgid "Ultra Mobile PCs (UMPCs)"
+msgstr "Ультра-мобильные ПК (УМПК)"
+
+#: js_required
+msgid "JavaScript needs to be enabled in your browser to use this form."
+msgstr ""
+"Для использования этой формы в вашем браузере должен быть включен JavaScript."
+
+#: paypal_monthly
+msgid "Monthly PayPal Supporter"
+msgstr "Ежемесячный платеж PayPal"
+
+#: paypal_one_time
+msgid "One time PayPal donation"
+msgstr "Однократный платеж PayPal"
+
+#: paypal_select
+msgid "Select an amount"
+msgstr "Выберите сумму"
+
+#: paypal_specify
+msgid "Specify your own amount"
+msgstr "Укажите свою сумму"
+
+#: paypal_currency
+msgid "Currency"
+msgstr "Валюта"
+
+#: paypal_submit
+msgid "Submit"
+msgstr "Отправить"
+
+#: paypal_invalid_amount
+msgid "Please enter a valid amount - thanks!"
+msgstr "Пожалуйста введите правильную сумму - спасибо!"
+
+#: affected_release
+msgid "Affects"
+msgstr "Затрагивает"
+
+#: affected_component
+msgid "Component"
+msgstr "Компонент"
+
+#: problem
+msgid "Problem"
+msgstr "Проблема"
+
+#: workaround
+msgid "Workarounds"
+msgstr "Временное решение"
+
+#: upstream_links
+msgid "Upstream Links"
+msgstr "Ссылка в апстриме"
+
+#: link
+msgid "Link"
+msgstr "Ссылка"
+
+#: na
+msgid "n/a"
+msgstr "н/д"
+
+#: toggle_sidebar
+msgid "Expand/Collapse Sidebar"
+msgstr "Развернуть/свернуть боковую панель"
+
+#: search_placeholder
+msgid "Enter keywords..."
+msgstr "Введите запрос..."
+
+#: alt_logo_UM
+msgid "Ubuntu MATE Logo"
+msgstr "Логотип Ubuntu MATE"
+
+#: toc
+msgid "Table of Contents"
+msgstr "Содержание"
+
+#: highlight_video
+msgid "Highlights"
+msgstr "Особенности"

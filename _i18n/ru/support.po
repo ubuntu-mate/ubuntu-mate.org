@@ -1,0 +1,129 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-07-22 17:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/support.md:9
+msgid ""
+"title: Support\n"
+"---"
+msgstr ""
+"title: Поддержка\n"
+"---"
+
+#: pages/support.md:12
+msgid "## Known Issues"
+msgstr "## Известные проблемы"
+
+#: pages/support.md:14
+msgid ""
+"Here's a list of issues we have noted that may degrade your retrospective "
+"experience."
+msgstr ""
+"Здесь представлен список известных нам проблем, которые могут ухудшить ваш "
+"ретроспективный опыт использования дистрибутива."
+
+#: pages/support.md:19
+msgid "## Community Support"
+msgstr "## Поддержка сообщества"
+
+#: pages/support.md:26
+msgid ""
+"If your issue isn't listed above, we highly recommend asking on the\n"
+"[Ubuntu MATE Community](https://ubuntu-mate.community/). If this is your\n"
+"first time, you'll need to create a new account using the **Sign Up**\n"
+"button in the upper right hand corner. Once you have an account, post\n"
+"your issue in [Support and Help Requests](https://ubuntu-mate.community/c/"
+"support/10). Be detailed with\n"
+"your description of the problem and be excellent to each other."
+msgstr ""
+"Если ваша проблема не представлена в списке выше, мы крайне рекомендуем "
+"рассказать о ней на [Ubuntu MATE Community](https://ubuntu-mate."
+"community/).\n"
+"Если вы делаете это в первый раз, то вам следует создать новую учетную "
+"запись нажатием на кнопку **Sign Up** в правом верхнем углу страницы.\n"
+"После создания учетной записи вы сможете сообщить о своей проблеме в разделе "
+"[Support and Help Requests](https://ubuntu-mate.community/c/support/10).\n"
+"Постарайтесь максимально подробно описать проблему и уважайте других "
+"участников."
+
+#: pages/support.md:28
+msgid "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
+msgstr "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
+
+#: pages/support.md:31
+msgid "## Official Guide"
+msgstr "## Официальное руководство"
+
+#: pages/support.md:35
+msgid ""
+"If this is your first time using Ubuntu MATE, we have an official guide to\n"
+"assist you on your journey. It's also pre-installed under the "
+"**Accessories**\n"
+"menu (for full installations)."
+msgstr ""
+"Если вы используете Ubuntu MATE впервые, то вы можете воспользоваться "
+"официальным руководством по использованию системы Ubuntu MATE Guide (при "
+"полной установке оно доступно в меню **Стандартные**)."
+
+#: pages/support.md:38
+msgid ""
+"[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
+"[Shop Books](/shop/books/){:.btn}"
+msgstr ""
+"[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
+"[Купить книги](/shop/books/){:.btn}"
+
+#: pages/support.md:41
+msgid "## Other Resources"
+msgstr "## Другие ресурсы"
+
+#: pages/support.md:44
+msgid ""
+"While these sites aren't specific to Ubuntu MATE, they can still help\n"
+"you find a solution as we have a lot in common with the wider Ubuntu "
+"community."
+msgstr ""
+"Сайты из списка ниже не являются специфичными для Ubuntu MATE, но они могут "
+"помочь решить общие проблемы, возникающие у сообщества пользователей Ubuntu."
+
+#: pages/support.md:48
+msgid ""
+"For the best results, make sure your report includes what you\n"
+"were doing when you had the problem, steps to reproduce and hardware "
+"specifications\n"
+"to help the people who will help you."
+msgstr ""
+"Для получения наилучших результатов убедитесь, что ваше сообщение в полной\n"
+"мере описывает проблему, шаги для ее воспроизведения и спецификации\n"
+"используемого аппаратного обеспечения. Так вы поможете другим пользователям\n"
+"помочь вам."
+
+#: pages/support.md:50
+msgid ""
+"[Ask Ubuntu](https://askubuntu.com){:.btn}\n"
+"[Launchpad Answers](https://answers.launchpad.net/){:.btn}"
+msgstr ""
+"[Ask Ubuntu](https://askubuntu.com){:.btn}\n"
+"[Launchpad Answers](https://answers.launchpad.net/){:.btn}\n"
+"\n"
+"Примечание: вопросы и ответы на сайтах из списка выше должны быть написаны "
+"на английском языке."

@@ -1,0 +1,234 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/funding.md:8
+msgid "title: Funding"
+msgstr "title: Финансирование"
+
+#: pages/funding.md:12
+msgid "This crowd funding campaign has the following objectives:"
+msgstr "Эта краудфандинговая кампания преследует следующие цели:"
+
+#: pages/funding.md:18
+msgid ""
+"  * Fund the costs associated with running the Ubuntu MATE and MATE Desktop "
+"projects.\n"
+"    * These include domain name registrations and service charges for things "
+"like the content delivery network, web application firewall and "
+"transactional email services used by the forums.\n"
+"  * Fund the development of Ubuntu MATE and MATE Desktop via financial "
+"rewards for contributors to either project.\n"
+"  * Help subsidise the travel expenses of team members to represent Ubuntu "
+"MATE and MATE Desktop at FLOSS conferences.\n"
+"  * Support other Open Source projects that Ubuntu MATE depends upon."
+msgstr ""
+"  * Финансирование расходов, связанных с запуском проектов Ubuntu MATE и "
+"MATE Desktop..\n"
+"    * К ним относятся регистрация доменного имени и плата за обслуживание "
+"таких вещей, как сеть доставки контента, брандмауэр веб-приложений и услуги "
+"транзакционной электронной почты, используемые на форумах.\n"
+"  * Финансирование разработки Ubuntu MATE и MATE Desktop посредством "
+"финансовых вознаграждений для участников обоих проектов.\n"
+"  * Субсидирование командировочных расходов членов команды для представления "
+"Ubuntu MATE и MATE Desktop на конференциях FLOSS.\n"
+"  * Поддержка других проектов с открытым исходным кодом, от которых зависит "
+"Ubuntu MATE."
+
+#: pages/funding.md:21
+msgid ""
+"We have set up a number of payment options that should hopefully suit\n"
+"everyone. Go on, be brilliant, help grow our community."
+msgstr ""
+"Мы создали ряд способов оплаты, которые, надеемся, устроят\n"
+"всех. Проявите великодушие, помогите развитию нашего сообщества."
+
+#: pages/funding.md:23
+msgid "## Patreon"
+msgstr "## Patreon"
+
+#: pages/funding.md:28
+msgid ""
+"This is a unique way to fund an Open Source community. A regular\n"
+"monthly income for the Ubuntu MATE project will allow us to better plan\n"
+"how best to reward our contributors and sponsor other Open Source\n"
+"projects."
+msgstr ""
+"Это уникальный способ финансировать сообщество с открытым исходным кодом. "
+"Регулярный\n"
+"ежемесячный доход для проекта Ubuntu MATE позволит нам лучше планировать,\n"
+"как лучше всего вознаграждать наших участников и спонсировать другие "
+"проекты\n"
+"с открытым исходным кодом"
+
+#: pages/funding.md:32
+msgid ""
+"**Patrons get exclusive project exclusive project news, updates, are "
+"invited\n"
+"to join an exclusive Telegram channel where you can talk to the developers\n"
+"directly and get a badge in the [Ubuntu MATE Community](https://ubuntu-mate."
+"community).**"
+msgstr ""
+"**Покровители получают эксклюзивные новости проекта, обновления, могут "
+"присоединиться\n"
+"к эксклюзивному каналу Telegram, где могут напрямую пообщаться с "
+"разработчиками\n"
+"и получить значок в [сообществе Ubuntu MATE](https://ubuntu-mate.community)."
+"**"
+
+#: pages/funding.md:40
+msgid ""
+"    title = \"Monthly supporter\"\n"
+"    text = \"Become a monthly supporter via Patreon and help grow the Ubuntu "
+"MATE community.\"\n"
+"    button_text = \"Become a Patron\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+msgstr ""
+"    title = \"Ежемесячная поддержка\"\n"
+"    text = \"Станьте ежемесячным спонсором через Patreon и помогите "
+"расширить сообщество Ubuntu MATE.\"\n"
+"    button_text = \"Стать покровителем на Patreon\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+
+#: pages/funding.md:45
+msgid "## PayPal"
+msgstr "## PayPal"
+
+#: pages/funding.md:48
+msgid ""
+"{:.center}\n"
+"![PayPal logo](/images/brands/paypal.svg)"
+msgstr ""
+"{:.center}\n"
+"![логотип PayPal](/images/brands/paypal.svg)"
+
+#: pages/funding.md:53
+msgid ""
+"We'd prefer you set-up a recurring payment to help ensure that monthly\n"
+"costs are always covered and it also allows us to better plan how to\n"
+"reward our contributors and sponsor other Open Source projects.\n"
+"That said, one time donations are also gratefully accepted."
+msgstr ""
+"Мы бы предпочли, чтобы вы установили периодический платеж, чтобы "
+"гарантировать,\n"
+"что ежемесячные расходы всегда покрываются, а также это позволяет\n"
+"нам лучше планировать, как вознаграждать наших участников и спонсировать "
+"другие проекты с открытым исходным кодом.\n"
+"При этом с благодарностью принимаются и разовые пожертвования."
+
+#: pages/funding.md:57
+msgid ""
+"**NOTE! If you are considering a monthly recurring payment via PayPal then\n"
+"you should probably use the [Ubuntu MATE Patreon](https://www.patreon.com/"
+"ubuntu_mate)\n"
+"to benefit from Patron rewards.**"
+msgstr ""
+"**Примечание. Если вы планируете ежемесячный регулярный платеж через PayPal, "
+"вам, вероятно,\n"
+"следует использовать [Ubuntu MATE Patreon](https://www.patreon.com/"
+"ubuntu_mate),\n"
+"чтобы получить вознаграждение для покровителей.**"
+
+#: pages/funding.md:62
+msgid "# Commercial sponsorship"
+msgstr "# Коммерческое спонсорство"
+
+#: pages/funding.md:67
+msgid ""
+"If you are using, or plan to use, Ubuntu MATE in a commercial\n"
+"environment and would like to sponsor the project more formally, then\n"
+"please head over to our Patreon page where we have commercial\n"
+"sponsorship packages."
+msgstr ""
+"Если вы используете или планируете использовать Ubuntu MATE в коммерческой\n"
+"среде и хотели бы спонсировать проект более формально,\n"
+"перейдите на нашу страницу Patreon, где у нас есть коммерческие\n"
+"спонсорские пакеты."
+
+#: pages/funding.md:76
+msgid ""
+"    title = \"Commercial Sponsor\"\n"
+"    text = \"Become a commercial sponsor at Patreon\n"
+"            and have your business prominently listed as a sponsor.\"\n"
+"    button_text = \"Become a commercial sponsor\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+msgstr ""
+"    title = \"Коммерческий спонсор\"\n"
+"    text = \"Станьте коммерческим спонсором на Patreon\n"
+"            и ваша компания станет видна в списке спонсоров.\"\n"
+"    button_text = \"Стать коммерческим спонсором\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+
+#: pages/funding.md:81
+msgid "## Bitcoin"
+msgstr "## Bitcoin"
+
+#: pages/funding.md:85
+msgid ""
+"Click or scan the QR code below to launch your Bitcoin client and\n"
+"donate 0.005 btc to Ubuntu MATE. Alternatively, copy and paste the\n"
+"Bitcoin address into your Bitcoin client to donate an amount of your choice."
+msgstr ""
+"Нажмите на или отсканируйте QR-код ниже для запуска клиента Bitcoin и\n"
+"перевода 0.005 BTC для Ubuntu MATE. Или скопируйте и вставьте адрес Bitcoin\n"
+"в ваш Bitcoin клиент для перевода выбранной вами суммы."
+
+#: pages/funding.md:88
+msgid ""
+"{:.center}\n"
+"[![](https://chart.googleapis.com/chart?"
+"chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?"
+"amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)]"
+"(bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)"
+msgstr ""
+"{:.center}\n"
+"[![](https://chart.googleapis.com/chart?"
+"chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?"
+"amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)]"
+"(bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)"
+
+#: pages/funding.md:91
+msgid ""
+"{:.center}\n"
+"**1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**"
+msgstr ""
+"{:.center}\n"
+"**1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**"
+
+#: pages/funding.md:93
+msgid "## Affiliate Links"
+msgstr "## Партнерские ссылки"
+
+#: pages/funding.md:94
+msgid ""
+"Some pages on this website include Amazon affiliate links to products we've "
+"tested and are known to be compatible with Ubuntu MATE. Clicking those links "
+"will earn us a commission, with no additional cost to you, in the event of "
+"purchases."
+msgstr ""
+"На некоторых страницах этого веб-сайта есть партнерские ссылки Amazon на "
+"продукты,\n"
+"которые мы тестировали и которые, как известно, совместимы с Ubuntu MATE. "
+"Переходы по этим ссылкам,\n"
+"позволяют нам получать комиссию без каких-либо дополнительных затрат с вашей "
+"стороны в случае\n"
+"совершения покупок."

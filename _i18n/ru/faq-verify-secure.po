@@ -1,0 +1,516 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-verify-secure.md:9
+msgid "title: Verifying Downloads"
+msgstr "title: Верификация загрузок"
+
+#: pages/faq-verify-secure.md:13
+msgid "## Verify for Tampering"
+msgstr "## Проверка достоверности"
+
+#: pages/faq-verify-secure.md:18
+msgid ""
+"This method will verify the signature on the `SHA256SUMS` checksum file. By\n"
+"proving that this file's digital signature belongs to Ubuntu, you can be\n"
+"confident using these checksums to verify the downloaded files haven't been\n"
+"tampered or corrupted."
+msgstr ""
+"Этот метод проверяет цифровую подпись файла `SHA256SUMS` контрольных сумм. "
+"Убедившись,\n"
+"что цифровая подпись принадлежит Ubuntu, вы можете\n"
+"с уверенностью использовать эти контрольные суммы чтобы удостовериться, что "
+"загруженные файлы не были подделаны\n"
+"или повреждены."
+
+#: pages/faq-verify-secure.md:23
+msgid "## Preperations"
+msgstr "## Подготовка"
+
+#: pages/faq-verify-secure.md:25
+msgid "### Windows"
+msgstr "### Windows"
+
+#: pages/faq-verify-secure.md:29
+msgid ""
+"We recommend using the [Windows Subsystem for Linux (WSL)](https://docs."
+"microsoft.com/en-us/windows/wsl/faq),\n"
+"which allows you to run Ubuntu within Windows. This will provide a GNU/"
+"Linux\n"
+"environment for running GPG and checksum commands."
+msgstr ""
+"Мы рекомендуем использовать [Windows Subsystem for Linux (WSL)](https://docs."
+"microsoft.com/en-us/windows/wsl/faq),\n"
+"которая позволяет запустить Ubuntu внутри Windows. Таким образом вы получите "
+"доступ к среде GNU/Linux\n"
+"для запуска команд для GPG и контрольных сумм."
+
+#: pages/faq-verify-secure.md:31
+msgid "For help setting up this environment, please see:"
+msgstr "Для настройки такой среды, пожалуйста, посмотрите:"
+
+#: pages/faq-verify-secure.md:33
+msgid "* <https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows>"
+msgstr "* <https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows>"
+
+#: pages/faq-verify-secure.md:35
+msgctxt "pages/faq-verify-secure.md:35"
+msgid "Once installed, jump to the [steps](#steps) section."
+msgstr "После установки перейдите к разделу [шаги](#шаги)."
+
+#: pages/faq-verify-secure.md:38
+msgid "### macOS"
+msgstr "### macOS"
+
+#: pages/faq-verify-secure.md:42
+msgid ""
+"You'll need to install GnuPG (utility for verifying the signature) and\n"
+"`sha256sum` (for verifying the checksum). We recommend installing this via\n"
+"[Homebrew](https://brew.sh/), a command line package manager for macOS."
+msgstr ""
+"Вам потребуется установить GnuPG (утилиту для проверки цифровой подписи) и\n"
+"`sha256sum` (для проверки контрольной суммы). Мы рекомендуем выполнить их "
+"установку через\n"
+"терминальный пакетный менеджер для macOS [Homebrew](https://brew.sh/)."
+
+#: pages/faq-verify-secure.md:45
+msgid ""
+"1. Install: <https://brew.sh/>\n"
+"2. Run:"
+msgstr ""
+"1. Установите: <https://brew.sh/>\n"
+"2. Запустите:"
+
+#: pages/faq-verify-secure.md:48
+msgid ""
+"       brew install gnupg\n"
+"       brew install coreutils"
+msgstr ""
+"       brew install gnupg\n"
+"       brew install coreutils"
+
+#: pages/faq-verify-secure.md:50
+msgctxt "pages/faq-verify-secure.md:50"
+msgid "Once installed, jump to the [steps](#steps) section."
+msgstr "После установки перейдите в раздел [шаги](#шаги)."
+
+#: pages/faq-verify-secure.md:53
+msgid "### GNU/Linux"
+msgstr "### GNU/Linux"
+
+#: pages/faq-verify-secure.md:57
+msgid ""
+"Most, if not all, distros (including Ubuntu MATE) comes preloaded with "
+"packages\n"
+"that provide `gnupg` and `sha256sum`. If yours doesn't, you can install "
+"these\n"
+"via your distro's package manager."
+msgstr ""
+"Большинство, если не все, дистрибутивов (включая Ubuntu MATE), имеют "
+"предустановленными пакеты\n"
+"с программами `gnupg` и `sha256sum`. Если они у вас еще не установлены, то "
+"вы можете их установить\n"
+"с помощью менеджера управления пакетами вашего дистрибутива."
+
+#: pages/faq-verify-secure.md:59
+msgid "In Ubuntu, `sha256sum` is provided in `coreutils`."
+msgstr "В Ubuntu, `sha256sum` содержится в пакете `coreutils`."
+
+#: pages/faq-verify-secure.md:62
+msgid "## Steps"
+msgstr "## Шаги"
+
+#: pages/faq-verify-secure.md:64
+msgid "### 1. Obtain the checksums and signature"
+msgstr "### 1. Загрузка контрольных сумм и цифровой подписи"
+
+#: pages/faq-verify-secure.md:66
+msgid "For downloads provided by Canonical:"
+msgstr "Для загрузок, предоставляемых Canonical:"
+
+#: pages/faq-verify-secure.md:69
+msgid ""
+"* <http://cdimages.ubuntu.com/ubuntu-mate/releases/>\n"
+"* Download the `SHA256SUM` and `SHA256SUM.gpg` files."
+msgstr ""
+"* <http://cdimages.ubuntu.com/ubuntu-mate/releases/>\n"
+"* Загрузите файлы `SHA256SUM` и `SHA256SUM.gpg`."
+
+#: pages/faq-verify-secure.md:81
+msgid ""
+">\n"
+"> **Canonical's download server is HTTP! Is this secure?**\n"
+">\n"
+"> This is a question that commonly asked. We use Canonical's infrastructure\n"
+"> being an official Ubuntu flavour. Many archive mirrors do not use\n"
+"> SSL to reduce the overhead of HTTPS.\n"
+">\n"
+"> The GPG fingerprint is validated against the Ubuntu keyserver.\n"
+"> So, regardless of where you obtained the file, if the signature matches,\n"
+"> you can trust the file.\n"
+">"
+msgstr ""
+">\n"
+"> **Сервер загрузок Canonical использует HTTP! Разве это безопасно?**\n"
+">\n"
+"> Такой вопрос задается достаточно часто. Мы используем инфраструктуру "
+"Canonical\n"
+"> будучи официальной редакцией Ubuntu. Много зеркал с архивами не "
+"используют\n"
+"> SSL для уменьшения накладных расходов, вызываемых HTTPS.\n"
+">\n"
+"> Цифровая подпись GPG проверяется с помощью сервера ключей Ubuntu.\n"
+"> Поэтому, независимо от места получения вами файла, вы можете ему доверять\n"
+"> при совпадении цифровой подписи.\n"
+">"
+
+#: pages/faq-verify-secure.md:83
+msgid "Or for device ports provided by us:"
+msgstr "Или для предоставляемых нами портов для устройств:"
+
+#: pages/faq-verify-secure.md:86
+msgid ""
+"* <https://releases.ubuntu-mate.org>\n"
+"* Download the `.sha256` and `.sha256.sign` files."
+msgstr ""
+"* <https://releases.ubuntu-mate.org>\n"
+"* Загрузите файлы `.sha256` и `.sha256.sign`."
+
+#: pages/faq-verify-secure.md:88
+msgid "First, let's find out if you have the signature key:"
+msgstr "Вначале нужно проверить наличие ключа подписи:"
+
+#: pages/faq-verify-secure.md:90
+msgctxt "pages/faq-verify-secure.md:90"
+msgid "    gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS"
+msgstr "    gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS"
+
+#: pages/faq-verify-secure.md:92
+msgctxt "pages/faq-verify-secure.md:92"
+msgid "Or:"
+msgstr "Или:"
+
+#: pages/faq-verify-secure.md:94
+msgid "    gpg --keyid-format long --verify *.sha256.sign *.sha256"
+msgstr "    gpg --keyid-format long --verify *.sha256.sign *.sha256"
+
+#: pages/faq-verify-secure.md:96
+msgid "If this says:"
+msgstr "Если вы видите:"
+
+#: pages/faq-verify-secure.md:110
+msgid ""
+">\n"
+"> gpg: Signature made Thursday, October 17, 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                using DSA key 46181433FBB75451\n"
+">\n"
+"> **gpg: Can't check signature: No public key**\n"
+">\n"
+"> gpg: Signature made Thursday, October 17, 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                using RSA key D94AA3F0EFE21092\n"
+">\n"
+"> **gpg: Can't check signature: No public key**\n"
+">"
+msgstr ""
+">\n"
+"> gpg: Подпись сделана Четверг, 17 Октябрь 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                ключом DSA с идентификатором 46181433FBB75451\n"
+">\n"
+"> **gpg: Не могу проверить подпись: Нет открытого ключа**\n"
+">\n"
+"> gpg: Подпись сделана Четверг, 17 Октябрь 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                ключом RSA с идентификатором D94AA3F0EFE21092\n"
+">\n"
+"> **gpg: Не могу проверить подпись: Нет открытого ключа**\n"
+">"
+
+#: pages/faq-verify-secure.md:112
+msgid ""
+"If you don't have the public key, see **step 2**, otherwise skip to **step "
+"3**."
+msgstr ""
+"Если у вас нет открытого ключа, то используйте **шаг 2**, а в противном "
+"случае можете его пропустить и перейти к **шагу 3**."
+
+#: pages/faq-verify-secure.md:115
+msgid "### 2. Retrieve the key (if applicable)"
+msgstr "### 2. Получение ключа (если необходимо)"
+
+#: pages/faq-verify-secure.md:118
+msgid ""
+"Here's how to securely download the signature key from the keyserver. This "
+"only\n"
+"needs to be performed once, except in the rare situation the keys were "
+"updated."
+msgstr ""
+"Ниже представлен способ загрузки ключа подписи с сервера ключей. Это "
+"однократная\n"
+"операция с тем исключением, что ключи могли быть обновлены."
+
+#: pages/faq-verify-secure.md:121
+msgid ""
+"In this instance, the two keys are `46181433FBB75451` and "
+"`D94AA3F0EFE21092`.\n"
+"Run this command, but add `0x` to the start of both these keys, like so:"
+msgstr ""
+"В этом конкретном случае нам нужны два ключа - `46181433FBB75451` и "
+"`D94AA3F0EFE21092`.\n"
+"Используйте команду ниже с добавлением `0x` в начало каждого из этих ключей, "
+"т.е.:"
+
+#: pages/faq-verify-secure.md:123
+msgid ""
+"    gpg --keyid-format long --keyserver hkp://keyserver.ubuntu.com --recv-"
+"keys 0x46181433FBB75451 0xD94AA3F0EFE21092"
+msgstr ""
+"    gpg --keyid-format long --keyserver hkp://keyserver.ubuntu.com --recv-"
+"keys 0x46181433FBB75451 0xD94AA3F0EFE21092"
+
+#: pages/faq-verify-secure.md:125
+msgid "You should get an output like this:"
+msgstr "Вы получите вывод похожий на:"
+
+#: pages/faq-verify-secure.md:139
+msgid ""
+">\n"
+"> gpg: key D94AA3F0EFE21092: public key \"Ubuntu CD Image Automatic Signing "
+"Key (2012) <cdimage@ubuntu.com>\" imported\n"
+">\n"
+"> gpg: key 46181433FBB75451: 110 signatures not checked due to missing keys\n"
+">\n"
+"> gpg: key 46181433FBB75451: public key \"Ubuntu CD Image Automatic Signing "
+"Key <cdimage@ubuntu.com>\" imported\n"
+">\n"
+"> gpg: no ultimately trusted keys found\n"
+">\n"
+"> gpg: Total number processed: 2\n"
+">\n"
+"> gpg:               imported: 2\n"
+">"
+msgstr ""
+">\n"
+"> gpg: ключ D94AA3F0EFE21092: импортирован открытый ключ \"Ubuntu CD Image "
+"Automatic Signing Key (2012) <cdimage@ubuntu.com>\"\n"
+">\n"
+"> gpg: ключ 46181433FBB75451: 110 подписей не проверено за отсутствием "
+"ключа\n"
+">\n"
+"> gpg: ключ 46181433FBB75451: импортирован открытый ключ \"Ubuntu CD Image "
+"Automatic Signing Key <cdimage@ubuntu.com>\"\n"
+">\n"
+"> gpg: абсолютно доверенных ключей не найдено\n"
+">\n"
+"> gpg: Всего обработано: 2\n"
+">\n"
+"> gpg:               импортировано: 2\n"
+">"
+
+#: pages/faq-verify-secure.md:141
+msgctxt "pages/faq-verify-secure.md:141"
+msgid "Or:"
+msgstr "Или:"
+
+#: pages/faq-verify-secure.md:145
+msgid ""
+"> gpg: key 7454357CFFEE1E5C: public key \"Martin Wimpress <martin@wimpress."
+"org>\" imported\n"
+"> gpg: Total number processed: 1\n"
+"> gpg:               imported: 1"
+msgstr ""
+"> gpg: ключ 7454357CFFEE1E5C: импортирован открытый ключ \"Martin Wimpress "
+"<martin@wimpress.org>\"\n"
+"> gpg: Всего обработано: 1\n"
+"> gpg:               импортировано: 1"
+
+#: pages/faq-verify-secure.md:149
+msgid ""
+"Suspicions should arise if the public key belongs to a random stranger, or "
+"looks\n"
+"forged."
+msgstr ""
+"Подозрения должны возникнуть в случаях если открытый ключ принадлежит "
+"случайному проходимцу или выглядит\n"
+"поддельно."
+
+#: pages/faq-verify-secure.md:152
+msgid "### 3. Is it a match?"
+msgstr "### 3. Есть совпадение?"
+
+#: pages/faq-verify-secure.md:154
+msgid "Run this command:"
+msgstr "Выполните команду:"
+
+#: pages/faq-verify-secure.md:156
+msgctxt "pages/faq-verify-secure.md:156"
+msgid "    gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS"
+msgstr "    gpg --keyid-format long --verify SHA256SUMS.gpg SHA256SUMS"
+
+#: pages/faq-verify-secure.md:158
+msgid "And the output:"
+msgstr "Посмотрите ее вывод:"
+
+#: pages/faq-verify-secure.md:184
+msgid ""
+">\n"
+"> gpg: Signature made Thursday, October 17, 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                using DSA key 46181433FBB75451\n"
+">\n"
+"> **gpg: Good signature from \"Ubuntu CD Image Automatic Signing Key "
+"<cdimage@ubuntu.com>\" [unknown]**\n"
+">\n"
+"> gpg: WARNING: This key is not certified with a trusted signature!\n"
+">\n"
+"> gpg:          There is no indication that the signature belongs to the "
+"owner.\n"
+">\n"
+"> Primary key fingerprint: C598 6B4F 1257 FFA8 6632  CBA7 4618 1433 FBB7 "
+"5451\n"
+">\n"
+"> gpg: Signature made Thursday, October 17, 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                using RSA key D94AA3F0EFE21092\n"
+">\n"
+"> **gpg: Good signature from \"Ubuntu CD Image Automatic Signing Key (2012) "
+"<cdimage@ubuntu.com>\" [unknown]**\n"
+">\n"
+"> gpg: WARNING: This key is not certified with a trusted signature!\n"
+">\n"
+"> gpg:          There is no indication that the signature belongs to the "
+"owner.\n"
+">\n"
+"> Primary key fingerprint: 8439 38DF 228D 22F7 B374  2BC0 D94A A3F0 EFE2 "
+"1092\n"
+">"
+msgstr ""
+">\n"
+"> gpg: Подпись сделана Четверг, 17 Октября 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                ключом DSA с идентификатором 46181433FBB75451\n"
+">\n"
+"> **gpg: Действительная подпись пользователя \"Ubuntu CD Image Automatic "
+"Signing Key <cdimage@ubuntu.com>\" [неизвестно]**\n"
+">\n"
+"> gpg: Внимание: Данный ключ не заверен доверенной подписью!\n"
+">\n"
+"> gpg:          Нет указаний на то, что подпись принадлежит владельцу.\n"
+">\n"
+"> Отпечаток первичного ключа: C598 6B4F 1257 FFA8 6632  CBA7 4618 1433 FBB7 "
+"5451\n"
+">\n"
+"> gpg: Подпись сделана Четверг, 17 Октября 2019 PM03:13:47 BST\n"
+">\n"
+"> gpg:                ключом RSA с идентификатором D94AA3F0EFE21092\n"
+">\n"
+"> **gpg: Действительная подпись пользователя \"Ubuntu CD Image Automatic "
+"Signing Key (2012) <cdimage@ubuntu.com>\" [неизвестно]**\n"
+">\n"
+"> gpg: Внимание: Данный ключ не заверен доверенной подписью!\n"
+">\n"
+"> gpg:          Нет указаний на то, что подпись принадлежит владельцу.\n"
+">\n"
+"> Отпечаток первичного ключа: 8439 38DF 228D 22F7 B374  2BC0 D94A A3F0 EFE2 "
+"1092\n"
+">"
+
+#: pages/faq-verify-secure.md:187
+msgid ""
+"Note the **bold** lines which confirm the file was signed by the team\n"
+"over at Ubuntu. If this wasn't genuine, the result would be **BAD "
+"signature**."
+msgstr ""
+"Обратите внимание на **полужирные** строки, которые подтверждают подпись "
+"файлов командой\n"
+"в Ubuntu. Если это не так, то результатом является **НЕПРАВИЛЬНАЯ подпись**."
+
+#: pages/faq-verify-secure.md:191
+msgid ""
+"The \"key is not certified\" message is simply because you haven't explictly "
+"told\n"
+"GnuPG to trust this key. This is optional. You can\n"
+"[learn more about GnuPG on the wiki page](https://help.ubuntu.com/community/"
+"GnuPrivacyGuardHowto)."
+msgstr ""
+"Сообщение \"Данный ключ не заверен доверенной подписью!\" возникает из-за "
+"того, что мы не сказали GnuPG о необходимости доверять этому ключу. Это не "
+"обязательно. Вы можете\n"
+"[узнать больше о GnuPG на странице](https://help.ubuntu.com/community/"
+"GnuPrivacyGuardHowto)."
+
+#: pages/faq-verify-secure.md:194
+msgid "### 4. Verify the ISOs"
+msgstr "### 4. Верификация файлов ISO"
+
+#: pages/faq-verify-secure.md:197
+msgid ""
+"Now we know the checksum file is untampered with, you can proceed to verify\n"
+"for corruption as normal."
+msgstr ""
+"Теперь мы знаем, что файл контрольной суммы не был подделан, поэтому мы "
+"можем проверять \n"
+"целостность как обычно."
+
+#: pages/faq-verify-secure.md:199
+msgid "    sha256sum -c SHA256SUMS 2>&1 | grep OK"
+msgstr "    sha256sum -c SHA256SUMS 2>&1 | grep -E 'OK|ЦЕЛ'"
+
+#: pages/faq-verify-secure.md:201
+msgid "You should see \"OK\" in its output:"
+msgstr "Вы должны увидеть сообщение \"ЦЕЛ\" (или \"OK\") в результате:"
+
+#: pages/faq-verify-secure.md:203
+msgid "    ubuntu-mate-20.04-desktop-amd64.iso: OK"
+msgstr "    ubuntu-mate-20.04-desktop-amd64.iso: ЦЕЛ"
+
+#: pages/faq-verify-secure.md:206
+msgid ""
+"An empty output would indicate the file is corrupt and should re-downloaded\n"
+"again."
+msgstr ""
+"Пустая строка будет означать, что файл поврежден и вам следует загрузить "
+"его\n"
+"повторно."
+
+#: pages/faq-verify-secure.md:209
+msgid ""
+"There are other ways to perform checksum checks that don't require a "
+"Terminal,\n"
+"take a look at our [Verify for corruption](/faq/verify-download-quick/) for "
+"details."
+msgstr ""
+"Существуют другие способы проверки целостности, которые не требуют "
+"использования терминала,\n"
+"посмотрите страницу [Проверка целостности](/faq/verify-download-quick/) для "
+"подробностей."
+
+#: pages/faq-verify-secure.md:213
+msgid ""
+"_This page is an adaptation of [Ubuntu's verification tutorial](https://"
+"discourse.ubuntu.com/t/14010)._"
+msgstr ""
+"_Эта страница является адаптацией [руководства верификации Ubuntu](https://"
+"discourse.ubuntu.com/t/14010)._"

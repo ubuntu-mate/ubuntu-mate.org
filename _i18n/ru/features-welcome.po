@@ -1,0 +1,87 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/features-welcome.md:14
+msgid "title: Ubuntu MATE Welcome | Features"
+msgstr "title: Ubuntu MATE Welcome | Возможности"
+
+#: pages/features-welcome.md:19
+msgid ""
+"main_image_alt: Welcome application showing a main menu\n"
+"main_title: Start with Welcome\n"
+"main_subtitle: Your in-depth introduction with handy tips\n"
+"main_text: >-"
+msgstr ""
+"main_image_alt: Меню приложения Добро пожаловать\n"
+"main_title: Начните с Добро пожаловать\n"
+"main_subtitle: Ваше подробное введение с полезными советами\n"
+"main_text: >-"
+
+#: pages/features-welcome.md:23
+msgid ""
+"    Welcome is a bespoke greeter that introduces everyone - new and existing "
+"-\n"
+"    to the world of Ubuntu MATE. Get advice on drivers, set up features\n"
+"    and discover ways to engage with the community."
+msgstr ""
+"    Приложение Welcome специально создано для знакомства новых и опытных "
+"пользователей\n"
+"    с миром Ubuntu MATE. Получите советы по драйверам, настройте функции\n"
+"    и откройте для себя способы взаимодействия с сообществом."
+
+#: pages/features-welcome.md:27
+msgid ""
+"left_image_alt: Welcome application showing a list of topics\n"
+"left_title: Handy Guides\n"
+"left_subtitle: Topics that introduce you to core philosophy of Ubuntu MATE "
+"and its ecosystem."
+msgstr ""
+"left_image_alt: Приложение Welcome демонстрирует список тем\n"
+"left_title: Удобные руководства\n"
+"left_subtitle: Темы, знакомящие вас с основной философией Ubuntu MATE и его "
+"экосистемы."
+
+#: pages/features-welcome.md:31
+msgid ""
+"middle_image_alt: Welcome application showing a section about drivers\n"
+"middle_title: Tailored to your hardware\n"
+"middle_subtitle: For example, NVIDIA GPUs will offer details on the latest "
+"drivers."
+msgstr ""
+"middle_image_alt: Приложение Welcome отображает раздел драйверов\n"
+"middle_title: Специально для вашего оборудования\n"
+"middle_subtitle: Например, для графических процессоров NVIDIA будет "
+"предложена подробная информацию о последних драйверах."
+
+#: pages/features-welcome.md:35
+msgid ""
+"right_image_alt: Welcome application showing a panel choice screen\n"
+"right_title: Instant Choice\n"
+"right_subtitle: Pick your preferred web browser, panel layout and theme "
+"colour."
+msgstr ""
+"right_image_alt: Приложение Welcome предлагает выбор браузера и оформления "
+"панелей\n"
+"right_title: Мгновенный выбор\n"
+"right_subtitle: Выберите предпочтительный веб-браузер, макет панелей и цвет "
+"темы."

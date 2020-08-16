@@ -1,0 +1,301 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-translations.md:9
+msgid "title: Translations"
+msgstr "title: Переводы"
+
+#: pages/get-involved-translations.md:13
+msgid "## Translations"
+msgstr "## Переводы"
+
+#: pages/get-involved-translations.md:15
+msgid "Bonjour! Hola! Guten Tag! 你好！"
+msgstr "Bonjour! Hola! Guten Tag! 你好！"
+
+#: pages/get-involved-translations.md:20
+msgid ""
+"If you speak another language, translating is a perfect way to help your "
+"fellow\n"
+"speakers use the computer in a language more familiar to them. "
+"Contributions\n"
+"even help the wider Ubuntu and Linux communities at large as applications "
+"are\n"
+"shared between them."
+msgstr ""
+"Если вы говорите на нескольких языках, то перевод - отличный способ помочь "
+"вашим коллегам\n"
+"использовать компьютер на наиболее знакомом им языке. Выполнение переводов "
+"также помогает\n"
+"более широкому сообществу Ubuntu и Linux в целом,\n"
+"поскольку приложения являются общими для них."
+
+#: pages/get-involved-translations.md:24
+msgid ""
+"> The translators are our real heroes.\n"
+">\n"
+"> -- Martin Wimpress"
+msgstr ""
+"> Переводчики - наши настоящие герои.\n"
+">\n"
+"> -- Мартин Вимпресс"
+
+#: pages/get-involved-translations.md:29
+msgid "### Ubuntu MATE"
+msgstr "### Ubuntu MATE"
+
+#: pages/get-involved-translations.md:32
+msgid ""
+"Applications specific to the Ubuntu MATE experience. For this website and "
+"our\n"
+"in-house applications, we use Transifex."
+msgstr ""
+"Приложения, специфичные для Ubuntu MATE. Для этого веб-сайта и наших\n"
+"собственных приложений мы используем Transifex."
+
+#: pages/get-involved-translations.md:39
+msgid ""
+"The **Welcome** application suffers from a 'split strings' issue that may\n"
+"pose difficulties when translating in other languages. We apologise for the\n"
+"inconvenience and intend to refactor the application in a future release to\n"
+"address this issue."
+msgstr ""
+"Приложение **Добро пожаловать** (**Welcome**) имеет проблему 'разделенных "
+"строк', которая может\n"
+"создать трудности при переводе на другие языки. Приносим\n"
+"извинения за неудобства и намерены провести переработку приложения в "
+"следующем выпуске,\n"
+"чтобы решить эту проблему."
+
+#: pages/get-involved-translations.md:41
+msgid ""
+"Note that **Software Boutique** is currently part of the **Welcome** "
+"application."
+msgstr ""
+"Пожалуйста, учтите что **Магазин программного обеспечения** (**Software "
+"Boutique**) теперь является частью приложения\n"
+"**Добро пожаловать** (**Welcome**)."
+
+#: pages/get-involved-translations.md:44
+msgid ""
+"[Translate on Transifex](https://www.transifex.com/ubuntu-mate/public/){:."
+"btn .green}\n"
+"[Transifex Guide](#transifex){:.btn}"
+msgstr ""
+"[Перевести на Transifex](https://www.transifex.com/ubuntu-mate/public/){:."
+"btn .green}\n"
+"[Руководство по Transifex](#transifex){:.btn}"
+
+#: pages/get-involved-translations.md:48
+msgid "### MATE Desktop"
+msgstr "### Рабочий стол MATE"
+
+#: pages/get-involved-translations.md:51
+msgid ""
+"The MATE Desktop team use Transifex for translations. This includes "
+"applications\n"
+"such as:"
+msgstr ""
+"Команда рабочего стола MATE использует Transifex для перевода\n"
+"таких приложений как:\n"
+
+#: pages/get-involved-translations.md:61
+msgid ""
+"* Atril Document Viewer\n"
+"* Caja File Manager\n"
+"* Engrampa Archive Manager\n"
+"* Eye of MATE Image Viewer\n"
+"* MATE Calculator\n"
+"* MATE Control Centre\n"
+"* MATE System Monitor\n"
+"* MATE Terminal\n"
+"* Pluma Text Editor"
+msgstr ""
+"* Просмотрщик документов Atril\n"
+"* Файловый менеджер Caja\n"
+"* Менеджер архивов Engrampa\n"
+"* Программа просмотра изображений MATE\n"
+"* Калькулятор MATE\n"
+"* Центр управления MATE\n"
+"* Системный монитор MATE\n"
+"* Терминал MATE\n"
+"* Текстовый редактор Pluma"
+
+#: pages/get-involved-translations.md:63
+msgid "As well as system configuration and panel applets."
+msgstr "А также конфигурация системы и апплеты панели."
+
+#: pages/get-involved-translations.md:66
+msgid ""
+"[Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn ."
+"green}\n"
+"[Transifex Guide](#transifex){:.btn}"
+msgstr ""
+"[Перевести на Transifex](https://www.transifex.com/projects/p/MATE/){:.btn ."
+"green}\n"
+"[Руководство по Transifex](#transifex){:.btn}"
+
+#: pages/get-involved-translations.md:70
+msgid "### Default Apps"
+msgstr "### Предустановленные приложения"
+
+#: pages/get-involved-translations.md:73
+msgid ""
+"Below is a list of applications that are pre-installed and where you can\n"
+"translate them."
+msgstr ""
+"Ниже представлен список предустановленных приложений, и ссылки на\n"
+"ресурсы для их перевода."
+
+#: pages/get-involved-translations.md:79
+msgid "## Translation Guide"
+msgstr "## Руководство по переводу"
+
+#: pages/get-involved-translations.md:81
+msgid "### Launchpad"
+msgstr "### Launchpad"
+
+#: pages/get-involved-translations.md:85
+msgid ""
+"Launchpad is used throughout Ubuntu for building and maintaining software.\n"
+"To translate, you'll need a Launchpad account.\n"
+"Please [see the documentation for translating](https://help.launchpad.net/"
+"Translations)."
+msgstr ""
+"Launchpad широко используется в Ubuntu для создания и поддержки программного "
+"обеспечения.\n"
+"Для перевода вам понадобится учетная запись Launchpad.\n"
+"Пожалуйста, [изучите документацию по переводу](https://help.launchpad.net/"
+"Translations)."
+
+#: pages/get-involved-translations.md:87
+msgid "### Transifex"
+msgstr "### Transifex"
+
+#: pages/get-involved-translations.md:89
+msgid "1. Register for a free account at <https://www.transifex.com/signup/>"
+msgstr ""
+"1. Зарегистрируйте бесплатную учетную запись на <https://www.transifex.com/"
+"signup/>"
+
+#: pages/get-involved-translations.md:91
+msgid ""
+"    ![Sign up button](/images/get-involved/translations/transifex-1.png)"
+msgstr ""
+"    ![Кнопка регистрации](/images/get-involved/translations/transifex-1.png)"
+
+#: pages/get-involved-translations.md:93
+msgid ""
+"1. Open the project page to find the application you'd like to translate."
+msgstr ""
+"1. Откройте страницу проекта, чтобы найти приложение, которое вы хотите "
+"перевести."
+
+#: pages/get-involved-translations.md:95
+msgid "    ![Project Page](/images/get-involved/translations/transifex-2.png)"
+msgstr ""
+"    ![Страница проекта](/images/get-involved/translations/transifex-2.png)"
+
+#: pages/get-involved-translations.md:97
+msgid "1. Choose the language team you'd like to join."
+msgstr "1. Выберите языковую команду, к которой хотите присоединиться."
+
+#: pages/get-involved-translations.md:99
+msgid ""
+"    ![Choosing a language](/images/get-involved/translations/transifex-3.png)"
+msgstr "    ![Выбор языка](/images/get-involved/translations/transifex-3.png)"
+
+#: pages/get-involved-translations.md:101
+msgid ""
+"    If the language is not listed, you can request it. Check back in a few "
+"days as this requires approval."
+msgstr ""
+"    Если языка нет в списке, вы можете запросить его. Повторите попытку "
+"через несколько дней, так как это требует одобрения."
+
+#: pages/get-involved-translations.md:103
+msgid ""
+"    ![Request language in a dropdown menu](/images/get-involved/translations/"
+"transifex-4.png)"
+msgstr ""
+"    ![Запрос языка в выпадающем меню](/images/get-involved/translations/"
+"transifex-4.png)"
+
+#: pages/get-involved-translations.md:105
+msgid "1. Pick the language you'd like to translate."
+msgstr "1. Выберите язык, на который хотите перевести."
+
+#: pages/get-involved-translations.md:107
+msgid ""
+"    ![Picking a language from the list](/images/get-involved/translations/"
+"transifex-5.png)"
+msgstr ""
+"    ![Выбор языка из списка](/images/get-involved/translations/transifex-5."
+"png)"
+
+#: pages/get-involved-translations.md:109
+msgid "1. Pick a resource from the list to translate."
+msgstr "1. Выберите ресурс из списка для перевода."
+
+#: pages/get-involved-translations.md:111
+msgid ""
+"    ![Picking a language from the list](/images/get-involved/translations/"
+"transifex-6.png)"
+msgstr ""
+"    ![Выбор ресурса для перевода](/images/get-involved/translations/"
+"transifex-6.png)"
+
+#: pages/get-involved-translations.md:113
+msgid "1. Click on the entry, a pop up will appear, click Translate."
+msgstr "1. Нажмите на запись, появится всплывающее окно, нажмите Перевести."
+
+#: pages/get-involved-translations.md:115
+msgid ""
+"    ![Pop up after choosing a resource](/images/get-involved/translations/"
+"transifex-7.png)"
+msgstr ""
+"    ![Всплывающее окно после выбора ресурса](/images/get-involved/"
+"translations/transifex-7.png)"
+
+#: pages/get-involved-translations.md:117
+msgid "1. Begin translating!"
+msgstr "1. Начните переводить!"
+
+#: pages/get-involved-translations.md:119
+msgid ""
+"    ![Screenshot of main translation interface](/images/get-involved/"
+"translations/transifex-8.png)"
+msgstr ""
+"    ![Экранный снимок основного окна переводов](/images/get-involved/"
+"translations/transifex-8.png)"
+
+#: pages/get-involved-translations.md:121
+msgid "* Don't forget to save your changes."
+msgstr "* Не забудьте сохранить ваши изменения."
+
+#: pages/get-involved-translations.md:122
+msgid ""
+"    ![Save all button](/images/get-involved/translations/transifex-9.png)"
+msgstr ""
+"    ![Кнопка сохранить все](/images/get-involved/translations/transifex-9."
+"png)"

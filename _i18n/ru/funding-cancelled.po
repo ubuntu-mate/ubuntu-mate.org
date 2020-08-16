@@ -1,0 +1,56 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/funding-cancelled.md:8
+msgid "title: Cancelled Donation"
+msgstr "title: Отмененное пожертвование"
+
+#: pages/funding-cancelled.md:12
+msgid "#### You cancelled your donation."
+msgstr "#### Вы отменили свое пожертвование"
+
+#: pages/funding-cancelled.md:16
+msgid ""
+"Please reconsider, We've spent a great deal of time creating Ubuntu MATE\n"
+"and it is nice when the effort is recognised. As a donor, you'll be\n"
+"helping to cover our hosting costs and reward contributors to the project."
+msgstr ""
+"Пожалуйста, подумайте еще раз. Мы потратили много времени на создание Ubuntu "
+"MATE,\n"
+"и нам приятно, когда усилия признаются. В качестве спонсора вы могли бы "
+"помочь нам\n"
+"покрыть наши расходы на хостинг и вознаградить участников проекта."
+
+#: pages/funding-cancelled.md:27
+msgid ""
+"    title = \"Oh well!\"\n"
+"    text = \"Strapped for cash? Yeah, we understand. Stop by and donate when "
+"you can spare the money.\"\n"
+"    button_text = \"Back to the homepage\"\n"
+"    button_url = \"/\""
+msgstr ""
+"    title = \"Ну что ж!\"\n"
+"    text = \"Не хватает денег? Да, мы понимаем. Зайдите и сделайте "
+"пожертвование, когда сможете это сделать.\"\n"
+"    button_text = \"Вернуться на главную\"\n"
+"    button_url = \"/\""

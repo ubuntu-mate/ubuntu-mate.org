@@ -1,0 +1,56 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/irc.md:7
+msgid "title: IRC"
+msgstr "title: IRC"
+
+#: pages/irc.md:13
+msgid ""
+"You can use your IRC web client to jump into our `#ubuntu-mate` channel on\n"
+"[Freenode](https://freenode.net/).\n"
+"Come and say hello! :wave:"
+msgstr ""
+"Вы можете использовать веб-клиент для IRC и перейти на наш канал `#ubuntu-"
+"mate` на\n"
+"[Freenode](https://freenode.net/).\n"
+"Заходите и общайтесь! :wave:"
+
+#: pages/irc.md:16
+msgid ""
+"If you need an IRC client, [**Hexchat**](https://hexchat.github.io/) is a "
+"popular\n"
+"cross-platform client."
+msgstr ""
+"Если вы хотите использовать IRC клиент, то\n"
+"[**Hexchat**](https://hexchat.github.io/) может быть хорошим кросс-"
+"платформенным выбором."
+
+#: pages/irc.md:18
+msgid ""
+"For support, you'll likely find your questions are best answered by\n"
+"browsing and joining our [Community forum](https://ubuntu-mate.community/)."
+msgstr ""
+"Для поддержки скорее всего наиболее удобным способом получения ответов на\n"
+"вопросы будет вступление в наше сообщество - [Community forum](https://"
+"ubuntu-mate.community/)."

@@ -1,21 +1,24 @@
-# 
+#
 # Translators:
 # Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020\n"
-"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Translate Toolkit 3.0.0\n"
 
 #: pages/404.md:13
@@ -36,8 +39,8 @@ msgstr "**Ну, это неудобно...**"
 
 #: pages/404.md:22
 msgid ""
-"Perhaps the page moved somewhere else, but it may never have existed here at"
-" all."
+"Perhaps the page moved somewhere else, but it may never have existed here at "
+"all."
 msgstr ""
 "Возможно, страница переместилась куда-то еще, но, возможно, здесь ее вообще "
 "никогда не было."
@@ -52,8 +55,10 @@ msgstr ""
 
 #: pages/404.md:27
 msgid ""
-"* Check out the [Downloads page](/download/) for all the latest, supported releases.\n"
-"* If you were really looking for an old release, [take a look at this list](https://ubuntu-mate.community/old-releases)."
+"* Check out the [Downloads page](/download/) for all the latest, supported "
+"releases.\n"
+"* If you were really looking for an old release, [take a look at this list]"
+"(https://ubuntu-mate.community/old-releases)."
 msgstr ""
 
 #: pages/404.md:29
@@ -64,5 +69,6 @@ msgstr ""
 msgid ""
 "* [To the homepage!](/)\n"
 "* [Search the site](/search/)\n"
-"* [Report this as an issue on GitHub](https://github.com/ubuntu-mate/ubuntu-mate.org/issues)"
+"* [Report this as an issue on GitHub](https://github.com/ubuntu-mate/ubuntu-"
+"mate.org/issues)"
 msgstr ""

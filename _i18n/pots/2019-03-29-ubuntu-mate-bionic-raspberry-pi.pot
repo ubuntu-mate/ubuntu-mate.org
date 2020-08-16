@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,20 +13,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.0.0\n"
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:16
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:12
+msgid "title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi"
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:18
 msgid ""
 "We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.\n"
 "With this *Beta* pre-release, you can see what we are trying out in\n"
 "preparation for our next (stable) version."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:19
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:21
 msgid ""
 "{:.center}\n"
 "![Ubuntu MATE running on the Raspberry Pi 3+](/images/blog/Screenshots/09_raspberrypi.png)"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:25
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:27
 msgid ""
 "Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,\n"
 "with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).\n"
@@ -35,7 +39,7 @@ msgid ""
 "High-level features of these images are:"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:45
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:47
 msgid ""
 "  * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.\n"
 "  * Automatic online filesystem expansion.\n"
@@ -58,11 +62,11 @@ msgid ""
 "    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:54
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:56
 msgid "## Supported Raspberry Pi"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:59
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:61
 msgid ""
 "  * These images will work on:\n"
 "    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)\n"
@@ -70,7 +74,7 @@ msgid ""
 "    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(recommended)**"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:65
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:67
 msgid ""
 "  * These images *kind of* work on:\n"
 "    * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**\n"
@@ -79,11 +83,11 @@ msgid ""
 "      * Due to only having 512MB RAM the `arm64` is not recommended. The `armhf` version can be very tight on resources."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:67
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:69
 msgid "## Unsupported Raspberry Pi"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:73
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:75
 msgid ""
 "  * These images **will not work on** any Raspberry Pi model using an ARMv6 instruction set:\n"
 "    * [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)\n"
@@ -92,15 +96,15 @@ msgid ""
 "    * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:75
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:77
 msgid "## Recent Changes"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:77
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:79
 msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:87
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:89
 msgid ""
 "  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.\n"
 "  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.\n"
@@ -113,11 +117,11 @@ msgid ""
 "  * Raspberry Pi 3 Model A+ confirmed working, *kind of*."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:89
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:91
 msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:100
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:102
 msgid ""
 "  * Fixed HDMI audio quality.\n"
 "  * Fixed USB booting.\n"
@@ -131,20 +135,20 @@ msgid ""
 "  * Switched to the CFQ scheduler."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:102
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:104
 msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:104
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:106
 msgid ""
 "  * Initial Ubuntu MATE 18.04.2 images made available for private testing."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:113
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:115
 msgid "## Feedback and Improvements"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:116
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:118
 msgid ""
 "Thse images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"

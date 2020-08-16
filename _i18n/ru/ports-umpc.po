@@ -1,0 +1,320 @@
+#
+# Translators:
+# Nikolay Strelkov, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Nikolay Strelkov, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/ports-umpc.md:8
+msgid "title: Ultra Mobile PCs"
+msgstr "title: Ультра-мобильные ПК"
+
+#: pages/ports-umpc.md:12
+msgid "# Ubuntu MATE for Ultra Mobile PCs"
+msgstr "# Ubuntu MATE для ультра-мобильных ПК"
+
+#: pages/ports-umpc.md:22
+msgid ""
+"The Ubuntu MATE team offers a bespoke images for the\n"
+"[GPD Pocket](https://www.gpd.hk/gpdpocket),\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2),\n"
+"[GPD WIN 2](https://www.gpd.hk/gdpwin2),\n"
+"[GPD MicroPC](https://www.gpd.hk/gpdmicropc) and\n"
+"[Topjoy Falcon](https://www.kickstarter.com/projects/440069565/falcon-worlds-"
+"first-8-inch-2-in-1-laptop)\n"
+"that include the hardware specific tweaks to get these devices working\n"
+"*\"out of the box\"* without any faffing about. Some models of the OneMix\n"
+"Yoga devices are also supported."
+msgstr ""
+"Команда Ubuntu MATE предлагает индивидуальные установочные образы для\n"
+"[GPD Pocket](https://www.gpd.hk/gpdpocket),\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2),\n"
+"[GPD WIN 2](https://www.gpd.hk/gdpwin2),\n"
+"[GPD MicroPC](https://www.gpd.hk/gpdmicropc) и\n"
+"[Topjoy Falcon](https://www.kickstarter.com/projects/440069565/falcon-worlds-"
+"first-8-inch-2-in-1-laptop),\n"
+"которые включают аппаратные настройки, обеспечивающие работу этих устройств\n"
+"*\"из коробки\"* без каких-либо забот. Некоторые модели OneMix\n"
+"Yoga также поддерживаются."
+
+#: pages/ports-umpc.md:30
+msgid ""
+"Ultra Mobile PCs (UMPC) have had something of a resurgence in recent years\n"
+"thanks to very successfull crowd funding campaigns for netbook style "
+"laptops\n"
+"featuring a high resolution touch displays housed in an aluminium alloy\n"
+"body. These scripts for UMPC devices are based on the excellent work by\n"
+"[Hans de Goede](https://hansdegoede.livejournal.com/), [nexus511](https://"
+"apt.nexus511.net/),\n"
+"[stockmind](https://github.com/stockmind/gpd-pocket-ubuntu-respin) and many\n"
+"others."
+msgstr ""
+"Ультра мобильные ПК (УМПК) в последние годы возродились\n"
+"благодаря нескольким краудфандинговым кампаниям для устройств класса "
+"нетбуков,\n"
+"предлагающих сенсорные экраны высокого разрешения и корпуса\n"
+"из алюминиевого сплава. Скрипты для устройств УМПК основаны на превосходных "
+"результатах работы\n"
+"[Ганса де Гёде](https://hansdegoede.livejournal.com/), [nexus511](https://"
+"apt.nexus511.net/),\n"
+"[stockmind](https://github.com/stockmind/gpd-pocket-ubuntu-respin) и многих\n"
+"других."
+
+#: pages/ports-umpc.md:35
+msgid ""
+"{:.center .small}\n"
+"![Ubuntu MATE running on the GPD Pocket (left) and GPD Pocket 2 (right)](/"
+"images/blog/gpd-pockets.jpg)\n"
+"**Ubuntu MATE running on the GPD Pocket (left) and GPD Pocket 2 (right)**"
+msgstr ""
+"{:.center .small}\n"
+"![Ubuntu MATE работает на GPD Pocket (слева) и GPD Pocket 2 (справа)](/"
+"images/blog/gpd-pockets.jpg)\n"
+"**Ubuntu MATE работает на GPD Pocket (слева) и GPD Pocket 2 (справа)**"
+
+#: pages/ports-umpc.md:38
+msgid "## What works"
+msgstr "## Что работает?"
+
+#: pages/ports-umpc.md:40
+msgid "The Ubuntu MATE images for the UMPCs adds the following tweaks:"
+msgstr "Образы Ubuntu MATE для УМПК добавляют следующие улучшения:"
+
+#: pages/ports-umpc.md:57
+msgid ""
+"  * Enable **frame buffer and Xorg display rotation**.\n"
+"    * Supports `modesetting` *and* `xorg-video-intel` display drivers.\n"
+"  * Enable **TearFree rendering by default**.\n"
+"  * Enable touch screen rotation for Xorg and Wayland.\n"
+"  * Enable **scroll wheel emulation** for Xorg.\n"
+"    * While holding down the **right track point button** on the Pocket, "
+"Pocket 2 & Topjoy Falcon.\n"
+"    * While holding down the **centre track point button** on the MicroPC.\n"
+"  * Enable double size console (tty) font resolution.\n"
+"  * Enable **resolution scaling** for 1920x1200 displays. *(MATE Desktop "
+"only)*\n"
+"    * Results in an effective resolution of 1280x800 to make the small "
+"display panels easily readable.\n"
+"    * Simple to disable if you want to restore full resolution.\n"
+"  * **GRUB is usable post-install**.\n"
+"    * GPD Pocket, WIN 2, MicroPC & TopJoy Falcon GRUB is rotated 90 degress, "
+"but functional.\n"
+"    * GPD Pocket 2 GRUB is correctly rotated and functional.\n"
+"  * GPD Pocket BRMC4356 WiFi firmware enabled by default.\n"
+"  * GPD Pocket fan control kernel module enable by default."
+msgstr ""
+"  * Включение **поворота кадрового буфера и дисплея в Xorg**.\n"
+"    * Поддержка драйверов экрана `modesetting` *и* `xorg-video-intel`.\n"
+"  * Включение **рендеринга TearFree по умолчанию**.\n"
+"  * Включение поворота сенсорного экрана в Xorg и Wayland.\n"
+"  * Включение **эмуляции колеса прокрутки** в Xorg.\n"
+"    * При удержании **правой кнопки трек-поинта** на моделях Pocket, Pocket "
+"2 и Topjoy Falcon.\n"
+"    * При удержании **центральной кнопки трек-поинта** на модели MicroPC.\n"
+"  * Включение двукратного масштабирования шрифта в консоли (tty).\n"
+"  * Включение **масштабирования разрешения** для экранов 1920x1200 *(только "
+"рабочий стол MATE)*.\n"
+"    * Позволяет получить эффективное разрешение 1280x800 для улучшение "
+"читаемости информации на маленьком экране.\n"
+"    * Может быть легко выключено если вы хотите использовать полноценное "
+"разрешение.\n"
+"  * **GRUB может быть нормально использован после установки**.\n"
+"    * На моделях GPD Pocket, WIN 2, MicroPC и TopJoy Falcon меню GRUB "
+"повернуто на 90 градусов и при этом работает.\n"
+"    * На модели GPD Pocket 2 окно GRUB правильно повернуто и нормально "
+"работает.\n"
+"  * Прошивка BRMC4356 WiFi для GPD Pocket задействована по умолчанию.\n"
+"  * Драйвер ядра для контроля вентилятора GPD Pocket задействован по "
+"умолчанию."
+
+#: pages/ports-umpc.md:59
+msgid "## Known Issues"
+msgstr "## Известные проблемы"
+
+#: pages/ports-umpc.md:61
+msgid "### GPD Pocket, WIN 2, MicroPC and Topjoy Falcon"
+msgstr "### GPD Pocket, WIN 2, MicroPC и Topjoy Falcon"
+
+#: pages/ports-umpc.md:66
+msgid ""
+"  * The GRUB2 menu is rotated 90 degrees on the GPD Pocket, MicroPC and "
+"Topjoy Falcon.\n"
+"    * The workaround is to tilt your head.\n"
+"  * The built in speaker in the GPD Pocket is mono and doesn't play audio "
+"from the right channel.\n"
+"    * The workaround is to use headphones connected the 3.5mm audio jack."
+msgstr ""
+"  * Меню GRUB2 повернуто на 90 градусов на устройствах GPD Pocket, MicroPC и "
+"Topjoy Falcon.\n"
+"    * Проблема решается наклоном головы.\n"
+"  * Встроенный в устройство GPD Pocket динамик имеет один канал и не может "
+"воспроизводить звук правого канала.\n"
+"    * Проблема решается использованием наушников, подключенных к аудио-"
+"разъему 3.5 мм."
+
+#: pages/ports-umpc.md:68
+msgid "### GPD Pocket 2"
+msgstr "### GPD Pocket 2"
+
+#: pages/ports-umpc.md:72
+msgid ""
+"  * The boot menu is not displayed in the GPD Pocket 2 live media.\n"
+"    * The workaround is to wait and the system will boot after a few seconds "
+"or press <kbd>Enter</kbd> to boot immeditately.\n"
+"    * However, **GRUB is fully functional and usable post-install**."
+msgstr ""
+"  * Меню загрузки живого установочного носителя не отображается на экране "
+"GPD Pocket 2.\n"
+"    * Проблема решается ождиданием загрузки устройства и нажатием "
+"<kbd>Enter</kbd> для немедленной загрузки.\n"
+"    * Однако, **после установки GRUB оказывается полнофункциональным**."
+
+#: pages/ports-umpc.md:74
+msgid "### GPD Pocket, Pocket 2 & MicroPC, Topjoy Falcon"
+msgstr "### GPD Pocket, Pocket 2 и MicroPC, Topjoy Falcon"
+
+#: pages/ports-umpc.md:77
+msgid ""
+"  * The Plymouth splash screen is not rotated.\n"
+"    * The workaround is to not care."
+msgstr ""
+"  * Окно загрузочной заставки Plymouth не повернуто.\n"
+"    * Решением проблемы является ее игнорирование."
+
+#: pages/ports-umpc.md:85
+msgid ""
+"    title = \"Download\"\n"
+"    text = \"Run Ubuntu MATE on your GPD Pocket, GPD Pocket 2, GPD WIN 2, "
+"GPD MicroPC or Topjoy Falcon today!\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+"    title = \"Загрузка\"\n"
+"    text = \"Запустите Ubuntu MATE на вашем GPD Pocket, GPD Pocket 2, GPD "
+"WIN 2, GPD MicroPC или Topjoy Falcon сегодня!\"\n"
+"    button_text = \"Загрузка\"\n"
+"    button_url = \"/download/\""
+
+#: pages/ports-umpc.md:90
+msgid "## Disable desktop session scaling"
+msgstr "## Отключение масштабирования сессии рабочего стола"
+
+#: pages/ports-umpc.md:95
+msgid ""
+"If you want to restore the full native resolution of display then open\n"
+"*Startup Applications* from the *Control Center*. Find the entry called\n"
+"*GPD Pocket Display Scaler* in the *Startup Programs* tab and untick it.\n"
+"Log out and back in and the full 1920x1200 resolution is restored."
+msgstr ""
+"Если вы хотите восстановить полное родное разрешение экрана, то запустите "
+"*Центр управления* и\n"
+"откройте настройку *Запускаемые приложения*. Найдите строку\n"
+"*GPD Pocket Display Scaler* на вкладке *Автоматически запускаемые программы* "
+"и снимите отметку с нее.\n"
+"Завершите сеанс и зайдите в систему снова для восстановления полного "
+"1920x1200 разрешения экрана."
+
+#: pages/ports-umpc.md:100
+msgid ""
+"{:.center}\n"
+"![Disabling the UMPC Pocket Display Scaler via Startup Applications "
+"Preferences](/images/blog/gpd-pocket-display-scaler.png)\n"
+"**Disabling the UMPC Pocket Display Scaler via Startup Applications "
+"Preferences**"
+msgstr ""
+"{:.center}\n"
+"![Отключение UMPC Pocket Display Scaler через настройку Запускаемые "
+"приложения](/images/blog/gpd-pocket-display-scaler.png)\n"
+"**Отключение UMPC Pocket Display Scaler через настройку Запускаемые "
+"приложения**"
+
+#: pages/ports-umpc.md:103
+msgid "## How were these images created?"
+msgstr "## Как были созданы эти установочные образы?"
+
+#: pages/ports-umpc.md:106
+msgid ""
+"With a script called `umpc-ubuntu-respin.sh` which you can find in the\n"
+"following GitHub repository:"
+msgstr ""
+"Образы были созданы с помощью скрипта `umpc-ubuntu-respin.sh`, который вы "
+"можете найти в\n"
+"репозитории GitHub:"
+
+#: pages/ports-umpc.md:108
+msgid "  * <https://github.com/wimpysworld/umpc-ubuntu>"
+msgstr "  * <https://github.com/wimpysworld/umpc-ubuntu>"
+
+#: pages/ports-umpc.md:110
+msgid "## Accessing UMPC boot menus"
+msgstr "## Вход в меню загрузки УМПК"
+
+#: pages/ports-umpc.md:112
+msgid "### GPD Pocket, GPD MicroPC, OneMix Yoga 2"
+msgstr "### GPD Pocket, GPD MicroPC, OneMix Yoga 2"
+
+#: pages/ports-umpc.md:114
+msgid ""
+"Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the "
+"<kbd>F7</kbd> key until the Boot Manager screen appears."
+msgstr ""
+"Включите устройство, сразу же удерживайте кнопку <kbd>Fn</kbd> и нажимайте "
+"на кнопку <kbd>F7</kbd> до появления экрана Boot Manager."
+
+#: pages/ports-umpc.md:116
+msgid "### GPD Pocket 2 & Topjoy Falcon"
+msgstr "### GPD Pocket 2 и Topjoy Falcon"
+
+#: pages/ports-umpc.md:118
+msgid ""
+"Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the "
+"<kbd>F12</kbd> key until the Boot Manager screen appears."
+msgstr ""
+"Включите устройство, сразу же удерживайте кнопку <kbd>Fn</kbd> и нажимайте "
+"на кнопку <kbd>F12</kbd> до появления экрана Boot Manager."
+
+#: pages/ports-umpc.md:120
+msgid "## Accessing UMPC BIOS menus"
+msgstr "## Вход в меню BIOS УМПК"
+
+#: pages/ports-umpc.md:122
+msgid "### Topjoy Falcon"
+msgstr "### Topjoy Falcon"
+
+#: pages/ports-umpc.md:124
+msgid ""
+"Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the "
+"<kbd>F2</kbd> key until the BIOS appears."
+msgstr ""
+"Включите устройство, сразу же удерживайте кнопку <kbd>Fn</kbd> и нажимайте "
+"на кнопку <kbd>F2</kbd> до появления BIOS."
+
+#: pages/ports-umpc.md:126
+msgid "## Feedback"
+msgstr "## Обратная связь"
+
+#: pages/ports-umpc.md:128
+msgid ""
+"These images for the GPD and Topjoy devices are community supported,\n"
+"please post all feedback via the [community forum](https://ubuntu-mate."
+"community/)."
+msgstr ""
+"Установочные образы для устройств GPD и Topjoy поддерживаются сообществом,\n"
+"поэтому вы можете получить поддержку на нашем [форуме сообщества](https://"
+"ubuntu-mate.community/)."
