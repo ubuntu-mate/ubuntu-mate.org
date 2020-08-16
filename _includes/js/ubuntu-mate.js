@@ -94,3 +94,13 @@ function toggle_dark() {
 if (matchMedia("(prefers-color-scheme: dark)").matches === true) {
     document.getElementById("dark-toggle").remove();
 }
+
+//--------------------------------------
+// i18n: /en/ link does not work
+//--------------------------------------
+if ($("html").attr("lang") != "en") {
+    var path = window.location.pathname.split("/");
+    path.shift()
+    path.shift();
+    $("#en-nav-btn").attr("href", "/" + path.join("/"));
+}
