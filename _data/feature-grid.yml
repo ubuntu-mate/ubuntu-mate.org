@@ -21,7 +21,7 @@
 
     - string_name: guide
       icon: /images/apps/help.svg
-      url: /shop/books/
+      url: https://guide.ubuntu-mate.org
 
 - string_name: mate_desktop
   icon: /images/brands/mate.svg
