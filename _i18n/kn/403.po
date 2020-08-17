@@ -1,0 +1,51 @@
+# 
+# Translators:
+# Sai Vinoba <saivinoba@sumati.net>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 20:08+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Sai Vinoba <saivinoba@sumati.net>, 2020\n"
+"Language-Team: Kannada (https://www.transifex.com/ubuntu-mate/teams/110208/kn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/403.md:13
+msgid "title: 403 | Forbidden"
+msgstr "title: 403 | ನಿಷೇಧಿತ"
+
+#: pages/403.md:18
+msgid ""
+"## 403. Forbidden\n"
+"---"
+msgstr ""
+"## 403. ನಿಷೇಧಿತ\n"
+"---"
+
+#: pages/403.md:20
+msgid "**Only the superuser can let you in.**"
+msgstr "**ಕೇವಲ ಸೂಪರ್‌ಯೂಸರ್ ನಿಮ್ಮನ್ನು ಒಳಗೆ ಬಿಡಬಹುದು.**"
+
+#: pages/403.md:22
+msgid ""
+"Nice try! The server denied access to the page or resource you were trying "
+"to access."
+msgstr ""
+"ಒಳ್ಳೆ ಪ್ರಯತ್ನ! ನೀವು ಪ್ರವೇಶಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಪುಟ ಅಥವಾ ಸಂಪನ್ಮೂಲಕ್ಕೆ "
+"ಪ್ರವೇಶವನ್ನು ಸರ್ವರ್ ನಿರಾಕರಿಸಿದೆ."
+
+#: pages/403.md:23
+msgid ""
+"Would you like to [return to the homepage](/) or [search the "
+"site](/search/)?"
+msgstr ""
+"ನೀವೇನು ಬಯಸುವಿರಿ, [ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗುವುದು](/) ಅಥವಾ [ಜಾಲತಾಣವನ್ನು "
+"ಹುಡುಕುವುದು](/search/)?"

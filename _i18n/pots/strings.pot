@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-16 19:53+0100\n"
+"POT-Creation-Date: 2020-08-17 17:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -947,6 +947,10 @@ msgid ""
 "computers and prefer a traditional desktop metaphor. With modest hardware "
 "requirements it is suitable for modern workstations, single board computers "
 "and older hardware alike."
+msgstr ""
+
+#: show_all
+msgid "Show all posts"
 msgstr ""
 
 #: toggle_sidebar

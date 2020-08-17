@@ -1,0 +1,223 @@
+# 
+# Translators:
+# Sai Vinoba <saivinoba@sumati.net>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 20:09+0100\n"
+"PO-Revision-Date: 2020-05-21 21:10+0000\n"
+"Last-Translator: Sai Vinoba <saivinoba@sumati.net>, 2020\n"
+"Language-Team: Kannada (https://www.transifex.com/ubuntu-mate/teams/110208/kn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:12
+msgid "title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi"
+msgstr "title: ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ಗಾಗಿ ಉಬುಂಟು ಮಾಟೆ 18.04 ಬೀಟಾ 1"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:18
+msgid ""
+"We are preparing **Ubuntu MATE 18.04 (Bionic Beaver) for the Raspberry Pi**.\n"
+"With this *Beta* pre-release, you can see what we are trying out in\n"
+"preparation for our next (stable) version."
+msgstr ""
+"ನಾವು ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ಗಾಗಿ **ಉಬುಂಟು ಮಾಟೆ 18.04 (ಬಯೋನಿಕ್ ಬೀವರ್) ಅನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಿದ್ದೇವೆ **.\n"
+"ಈ *ಬೀಟಾ* ಪೂರ್ವ-ಬಿಡುಗಡೆಯೊಂದಿಗೆ, ನಮ್ಮ ಮುಂದಿನ (ಸ್ಥಿರ) ಆವೃತ್ತಿಯ ತಯಾರಿಗಾಗಿ ನಾವು ಏನು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇವೆ ಎಂಬುದನ್ನು ನೀವು ನೋಡಬಹುದು."
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:21
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE running on the Raspberry Pi 3+](/images/blog/Screenshots/09_raspberrypi.png)"
+msgstr ""
+"{:.center}\n"
+"![ರಾಸ್ಪ್ ಬೆರಿ ಪೈ 3+ ನಲ್ಲಿ ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಉಬುಂಟು ಮಾಟೆ](/images/blog/Screenshots/09_raspberrypi.png)"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:27
+msgid ""
+"Ubuntu MATE 18.04 Beta 1 is available for Raspberry Pi Model B 2, 3 and 3+,\n"
+"with separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit).\n"
+"We have done what we can to optimise the builds for the Raspberry Pi without\n"
+"sacrificing the full desktop environment Ubuntu MATE provides on PC.\n"
+"High-level features of these images are:"
+msgstr ""
+"`armhf` (ARMv7 32-bit) ಮತ್ತು `arm64` (ARMv8 64-bit) ಗಳಿಗಾಗಿ ಪ್ರತ್ಯೇಕ ಇಮೇಜುಗಳನ್ನು ಒಳಗೊಂಡಂತೆ, ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ಮಾಡೆಲ್ B 2, 3 ಮತ್ತು 3+ ಗಳಿಗೆ  ಉಬುಂಟು ಮಾಟೆ 18.04 ಬೀಟಾ 1 ಲಭ್ಯವಿದೆ.\n"
+"PCಯಲ್ಲಿ ಉಬುಂಟು ಮಾಟೆ ಒದಗಿಸುವ ಪೂರ್ಣ ಡೆಸ್ಕ್‌ಟಾಪ್ ಪರಿಸರವನ್ನು ತ್ಯಜಿಸದೆಯೇ, ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ನ ನಿರ್ಮಿತಿಗಳನ್ನು ಎಷ್ಟರ ಮಟ್ಟಿಗೆ ಅತ್ಯುತ್ತಮವಾಗಿಸಲು ಸಾಧ್ಯವೋ ಅಷ್ಟು ನಾವು ಮಾಡಿದ್ದೇವೆ.\n"
+"ಈ ಪ್ರತಿಗಳ ಉನ್ನತ-ಮಟ್ಟದ ವೈಶಿಷ್ಟ್ಯಗಳು:"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:47
+msgid ""
+"  * Ubuntu kernel, fully maintained by the Ubuntu Kernel and Security teams.\n"
+"  * Automatic online filesystem expansion.\n"
+"  * Ethernet & WiFi (*where available*)\n"
+"  * Bluetooth (*where available*)\n"
+"  * Audio out via 3.5mm analog audio jack or HDMI\n"
+"  * Video out via Composite or HDMI\n"
+"  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io), [pigpio](http://abyz.me.uk/rpi/pigpio/) and [WiringPi](http://wiringpi.com/).\n"
+"  * Support for [Python Wheels for the Raspberry Pi](https://www.piwheels.org/).\n"
+"  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).\n"
+"  * Hardware acceleration:\n"
+"    * `fbturbo` driver is pre-installed but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).\n"
+"    *  VLC has hardware assisted video decoding.\n"
+"    *  `ffmpeg` has hardware assisted video decoding and encoding.\n"
+"    * The *experimental* VC4 driver can be enabled via `raspi-config`.\n"
+"    * Please note, the `arm64` images do not feature any VideoCore IV hardware acceleration.\n"
+"  * Additional software:\n"
+"    * A port of [`raspi-config` for Ubuntu](https://github.com/flexiondotorg/raspi-config/) is pre-installed.\n"
+"    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.\n"
+"    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install."
+msgstr ""
+"* ಉಬುಂಟು ಕರ್ನಲ್ ಮತ್ತು ಭದ್ರತಾ ತಂಡಗಳು ಸಂಪೂರ್ಣವಾಗಿ ನಿರ್ವಹಿಸುತ್ತಿರುವ ಉಬುಂಟು ಕರ್ನಲ್.\n"
+"* ಸ್ವಯಂಚಾಲಿತ ಆನ್‌ಲೈನ್ ಫೈಲ್‌ಸಿಸ್ಟಮ್ ವಿಸ್ತರಣೆ.\n"
+"* ಎತರ್ನೆಟ್ ಮತ್ತು WiFi (*ಲಭ್ಯವಿರುವಲ್ಲಿ*)\n"
+"* ಬ್ಲೂಟೂತ್ (*ಲಭ್ಯವಿರುವಲ್ಲಿ*)\n"
+"* 3.5ಮಿಮೀ ಅನಲಾಗ್ ಆಡಿಯೊ ಜ್ಯಾಕ್ ಅಥವಾ ಎಚ್‌ಡಿಎಂಐ ಮೂಲಕ ಆಡಿಯೋ ಔಟ್\n"
+"* ಕಾಂಪೋಸಿಟ್ ಅಥವಾ ಎಚ್‌ಡಿಎಂಐ ಮೂಲಕ ವೀಡಿಯೊ ಔಟ್\n"
+"* [GPIO Zero](https://gpiozero.readthedocs.io), [pigpio](http://abyz.me.uk/rpi/pigpio/) ಮತ್ತು [WiringPi](http://wiringpi.com/) ಗಳ ಮೂಲಕ GPIO ಪ್ರವೇಶ.\n"
+"* [ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ಗಾಗಿ ಪೈಥಾನ್ ವೀಲ್ಸ್](https://www.piwheels.org/) ಗೆ ಬೆಂಬಲ.\n"
+"* [USB ಬೂಟಿಂಗ್](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md) ಗೆ ಬೆಂಬಲ.\n"
+"* ಯಂತ್ರಾಂಶ ವೇಗವರ್ಧನೆ:\n"
+"* `fbturbo` ಡ್ರೈವರ್ ಅನ್ನು ಮೊದಲೇ ಸ್ಥಾಪಿಸಲಾಗಿದೆ ಆದರೆ ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ನಲ್ಲಿ 2D ವೇಗವರ್ಧಿತ ವಿಂಡೋ ಮೂವಿಂಗ್ / ಸ್ಕ್ರೋಲಿಂಗ್‌ಗೆ ಸೀಮಿತವಾಗಿದೆ (BCM2835 DMA ನಿಯಂತ್ರಕವನ್ನು ಬಳಸಿಕೊಂಡು).\n"
+"* VLC ಯು ಯಂತ್ರಾಂಶ ನೆರವಿನ ವೀಡಿಯೊ ಡಿಕೋಡಿಂಗ್ ಹೊಂದಿದೆ.\n"
+"* `ffmpeg` ಯಂತ್ರಾಂಶ ನೆರವಿನ ವೀಡಿಯೊ ಡಿಕೋಡಿಂಗ್ ಮತ್ತು ಎನ್ಕೋಡಿಂಗ್ ಹೊಂದಿದೆ.\n"
+"* `raspi-config` ಮೂಲಕ *ಪ್ರಾಯೋಗಿಕ * VC4 ಚಾಲಕವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು.\n"
+"* ದಯವಿಟ್ಟು ಗಮನಿಸಿ, `arm64` ಪ್ರತಿಗಳು ಯಾವುದೇ VideoCore IV ಯಂತ್ರಾಂಶ ವೇಗವರ್ಧನೆಯನ್ನು ಒಳಗೊಂಡಿರುವುದಿಲ್ಲ.\n"
+"* ಹೆಚ್ಚುವರಿ ತಂತ್ರಾಂಶ:\n"
+"* [ಉಬುಂಟುಗಾಗಿ `raspi-config`](https://github.com/flexiondotorg/raspi-config/) ನ ಪೋರ್ಟ್ ಪೂರ್ವ-ಸ್ಥಾಪಿತವಾಗಿದೆ.\n"
+"* [Steam ಕೊಂಡಿ](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) ಅನುಸ್ಥಾಪಿಸಲು ಉಪಲಭ್ದವಿದೆ.\n"
+"* [Minecraft: Pi ಆವೃತ್ತಿ](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) ಅನುಸ್ಥಾಪಿಸಲು ಉಪಲಭ್ದವಿದೆ."
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:56
+msgid "## Supported Raspberry Pi"
+msgstr "## ಬೆಂಬಲಿತ ರಾಸ್ಪ್ ಬೆರಿ ಪೈ"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:61
+msgid ""
+"  * These images will work on:\n"
+"    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)\n"
+"    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)\n"
+"    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(recommended)**"
+msgstr ""
+" * ಈ ಪ್ರತಿಗಳು ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಕೆಲಸಮಾಡುತ್ತವೆ:\n"
+"* [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)\n"
+"* [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)\n"
+"* [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ)**"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:67
+msgid ""
+"  * These images *kind of* work on:\n"
+"    * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**\n"
+"      * Fails to complete the first boot setup due to insufficient memory.\n"
+"      * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.\n"
+"      * Due to only having 512MB RAM the `arm64` is not recommended. The `armhf` version can be very tight on resources."
+msgstr ""
+" * ಈ ಪ್ರತಿಗಳು ಇದರಲ್ಲಿ 'ಬಹುತೇಕ' ಕೆಲಸಮಾಡುತ್ತವೆ:\n"
+"* [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(ಶಿಫಾರಸು ಮಾಡುವುದಿಲ್ಲ)**\n"
+"* ಸಾಕಷ್ಟು ಮೆಮೊರಿ ಇಲ್ಲದ ಕಾರಣ ಮೊದಲ ಬೂಟ್ ಸೆಟಪ್ ಪೂರ್ಣಗೊಳಿಸಲು ವಿಫಲಗೊಳ್ಳುತ್ತದೆ.\n"
+"* ನೀವು ಇನ್ನೊಂದು Pi ನಲ್ಲಿ ಸೆಟಪ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದರೆ ಆ ಕಾರ್ಡ್ ಅನ್ನು Pi 3 Model A+ ನಲ್ಲಿ ಸೇರಿಸಬಹುದು ಮತ್ತು ಅದು ಕೆಲಸ ಮಾಡುತ್ತದೆ.\n"
+"* ಕೇವಲ 512MB RAM ಹೊಂದಿರುವ ಕಾರಣ `arm64` ಅನ್ನು ಶಿಫಾರಸು ಮಾಡುವುದಿಲ್ಲ. `arm64` ಆವೃತ್ತಿಯು ಸಂಪನ್ಮೂಲಗಳ ಮೇಲೆ ತುಂಬಾ ಬಿಗಿಯಾಗಿರುತ್ತದೆ."
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:69
+msgid "## Unsupported Raspberry Pi"
+msgstr "## ಬೆಂಬಲವಿಲ್ಲದ ರಾಸ್ಪ್ ಬೆರಿ ಪೈ"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:75
+msgid ""
+"  * These images **will not work on** any Raspberry Pi model using an ARMv6 instruction set:\n"
+"    * [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)\n"
+"    * [Raspberry Pi 1 Model B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/)\n"
+"    * [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)\n"
+"    * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)"
+msgstr ""
+" * ARMv6 ಸೂಚನಾ ಸೆಟ್ ಬಳಸುವ ಯಾವುದೇ ರಾಸ್ಪ್ ಬೆರಿ ಪೈ ಮಾದರಿಯಲ್ಲಿ ಈ ಪ್ರತಿಗಳು **ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ**:\n"
+"* [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)\n"
+"* [Raspberry Pi 1 Model B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/)\n"
+"* [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)\n"
+"* [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:77
+msgid "## Recent Changes"
+msgstr "## ಇತ್ತೀಚಿನ ಬದಲಾವಣೆಗಳು"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:79
+msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
+msgstr "### ಉಬುಂಟು ಮಾಟೆ 18.04.2 ಬೀಟಾ 1 - ಮಾರ್ಚ್ 24, 2019"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:89
+msgid ""
+"  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.\n"
+"  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.\n"
+"  * Added hardware accelerated VLC (`armhf` only).\n"
+"  * Added hardware accelerated ffmpeg (`armhf` only).\n"
+"  * Enabled piwheels.\n"
+"  * Reduced boot time, after the initial first boot setup has been completed, by ~3 seconds.\n"
+"  * Uploaded SteamLink (`armhf` only) to the archive, not pre-installed.\n"
+"  * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.\n"
+"  * Raspberry Pi 3 Model A+ confirmed working, *kind of*."
+msgstr ""
+" * ವಿಡಿಯೋಕೋರ್ IV ಗಾಗಿ EGL/GLES/OpenVG ಗ್ರಂಥಾಲಯಗಳು ಸರಿಪಡಿಸಲಾಗಿದೆ.\n"
+"* ಉಬುಂಟು ಮಾಟೆ Welcomeನಲ್ಲಿ Raspberry Pi ನ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸರಿಪಡಿಸಲಾಗಿದೆ.\n"
+"* ಹಾರ್ಡ್‌ವೇರ್ ವೇಗವರ್ಧಿತ VLC ಸೇರಿಸಲಾಗಿದೆ (`armhf` ಮಾತ್ರ).\n"
+"* ಹಾರ್ಡ್‌ವೇರ್ ವೇಗವರ್ಧಿತ ffmpeg ಸೇರಿಸಲಾಗಿದೆ (`armhf` ಮಾತ್ರ).\n"
+"* piwheels ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.\n"
+"* ಆರಂಭಿಕ ಮೊದಲ ಬೂಟ್ ಸೆಟಪ್ ಪೂರ್ಣಗೊಂಡ ನಂತರ ~3 ಸೆಕೆಂಡುಗಳಷ್ಟು ಕಡಿಮೆಯಾದ ಬೂಟ್ ಸಮಯ.\n"
+"* ಆರ್ಕೈವ್‌ಗೆ SteamLink (`armhf` ಮಾತ್ರ) ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ, ಪೂರ್ವ-ಸ್ಥಾಪಿತವಲ್ಲ.\n"
+"* ಆರ್ಕೈವ್‌ಗೆ Minecraft Pi ಆವೃತ್ತಿ (`armhf` ಮಾತ್ರ) ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ, ಪೂರ್ವ-ಸ್ಥಾಪಿತವಲ್ಲ.\n"
+"* Raspberry Pi 3 Model A+ ಕೆಲಸ ಮಾಡುವುದನ್ನು ದೃಢಪಡಿಸಲಾಗಿದೆ, *ಬಹುತೇಕ*."
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:91
+msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
+msgstr "### ಉಬುಂಟು ಮಾಟೆ 18.04.2 - ಮಾರ್ಚ್ 5, 2019"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:102
+msgid ""
+"  * Fixed HDMI audio quality.\n"
+"  * Fixed USB booting.\n"
+"  * Fixed font caches.\n"
+"  * Added pre-seeded snaps.\n"
+"  * Added miscellaneous Raspberry Pi utilities.\n"
+"  * Added EGL/GLES/OpenVG libraries for VideoCore IV.\n"
+"  * Enabled splash screen.\n"
+"  * Improved window manager responsiveness.\n"
+"  * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.\n"
+"  * Switched to the CFQ scheduler."
+msgstr ""
+" * HDMI ಆಡಿಯೊ ಗುಣಮಟ್ಟ ಸರಿಪಡಿಸಲಾಗಿದೆ.\n"
+"* USB ಬೂಟಿಂಗ್ ಸರಿಪಡಿಸಲಾಗಿದೆ.\n"
+"* ಅಕ್ಷರ ಸಂಗ್ರಹಗಳನ್ನು ಸರಿಪಡಿಸಲಾಗಿದೆ.\n"
+"* ಪೂರ್ವ-ಬಿತ್ತಿದ snapಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ.\n"
+"* ವಿವಿಧ  Raspberry Pi ಉಪಯುಕ್ತತೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ.\n"
+"* VideoCore IV ಗಾಗಿ EGL/GLES/OpenVG ಗ್ರಂಥಾಲಯಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ.\n"
+"* splash ಪರದೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.\n"
+"* ವಿಂಡೋ ಮ್ಯಾನೇಜರ್ ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕತೆಯನ್ನು ಸುಧಾರಿಸಲಾಗಿದೆ..\n"
+"* ಜಡ RAM ಬಳಕೆಯನ್ನು arm64ನಲ್ಲಿ ~30MB ಅಷ್ಟು ಮತ್ತು armhfನಲ್ಲಿ ~10MB ಅಷ್ಟು ಕಡಿಮೆ ಮಾಡಲಾಗಿದೆ.\n"
+"* CFQ ಶೆಡ್ಯೂಲರ್‌ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ."
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:104
+msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
+msgstr "### ಉಬುಂಟು ಮಾಟೆ 18.04.2 ಆಲ್ಫಾ 1 - ಮಾರ್ಚ್ 2, 2019"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:106
+msgid ""
+"  * Initial Ubuntu MATE 18.04.2 images made available for private testing."
+msgstr ""
+"* ಆರಂಭಿಕ ಉಬುಂಟು ಮಾಟೆ 18.04.2 ಇಮೇಜುಗಳನ್ನು ಖಾಸಗಿ ಪರೀಕ್ಷೆಗೆ ಲಭ್ಯಗೊಳಿಸಲಾಗಿದೆ."
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:115
+msgid "## Feedback and Improvements"
+msgstr "## ಪ್ರತಿಕ್ರಿಯೆ ಮತ್ತು ಸುಧಾರಣೆಗಳು"
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:118
+msgid ""
+"Thse images are not official Ubuntu products and are community\n"
+"supported by the Ubuntu MATE team. Please post feedback and\n"
+"issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi-2)."
+msgstr ""
+"ಈ ಪ್ರತಿಗಳು ಅಧಿಕೃತ ಉಬುಂಟು ಉತ್ಪನ್ನಗಳಲ್ಲ ಮತ್ತು ಉಬುಂಟು ಮಾಟೆ ತಂಡದಿಂದ ಸಮುದಾಯ ಬೆಂಬಲಿತವಾಗಿವೆ. ದಯವಿಟ್ಟು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಹಾಗು ಸಮಸ್ಯೆಗಳನ್ನು \n"
+"[ಮೀಸಲಾದ ಸಮುದಾಯ ವೇದಿಕೆಯಲ್ಲಿ](https://ubuntu-mate.community/c/support/raspberry-pi-2) ಪೋಸ್ಟ್ ಮಾಡಿ."

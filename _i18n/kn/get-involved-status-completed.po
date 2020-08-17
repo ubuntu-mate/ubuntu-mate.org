@@ -1,0 +1,31 @@
+# 
+# Translators:
+# Sai Vinoba <saivinoba@sumati.net>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 20:08+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Sai Vinoba <saivinoba@sumati.net>, 2020\n"
+"Language-Team: Kannada (https://www.transifex.com/ubuntu-mate/teams/110208/kn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-status-completed.md:9
+msgid "title: Status - Completed"
+msgstr "title: ಸ್ಥಿತಿ - ಪೂರ್ಣಗೊಂಡಿದೆ"
+
+#: pages/get-involved-status-completed.md:12
+msgid ""
+"<iframe class=\"trello\" src=\"https://trello.com/b/KWvQqGoV.html\" "
+"scrolling=\"yes\"></iframe>"
+msgstr ""
+"<iframe class=\"trello\" src=\"https://trello.com/b/KWvQqGoV.html\" "
+"scrolling=\"yes\"></iframe>"

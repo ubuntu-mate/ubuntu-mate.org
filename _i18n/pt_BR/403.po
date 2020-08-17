@@ -1,0 +1,51 @@
+# 
+# Translators:
+# Marcos Falieri <falieri@tutanota.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Marcos Falieri <falieri@tutanota.com>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/ubuntu-mate/teams/110208/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/403.md:13
+msgid "title: 403 | Forbidden"
+msgstr "title: 403 | Acesso negado"
+
+#: pages/403.md:18
+msgid ""
+"## 403. Forbidden\n"
+"---"
+msgstr ""
+"## 403. Acesso negado\n"
+"---"
+
+#: pages/403.md:20
+msgid "**Only the superuser can let you in.**"
+msgstr "**Só o super usuário pode deixá-lo entrar.**"
+
+#: pages/403.md:22
+msgid ""
+"Nice try! The server denied access to the page or resource you were trying "
+"to access."
+msgstr ""
+"Boa tentativa! O servidor negou o acesso à página ou ao recursos que você "
+"estava tentando acessar."
+
+#: pages/403.md:23
+msgid ""
+"Would you like to [return to the homepage](/) or [search the "
+"site](/search/)?"
+msgstr ""
+"Você gostaria de [voltar à página inicial](/) ou [procurar no "
+"site](/pesquisar/)?"

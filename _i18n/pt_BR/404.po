@@ -1,0 +1,68 @@
+# 
+# Translators:
+# Marcos Falieri <falieri@tutanota.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Marcos Falieri <falieri@tutanota.com>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/ubuntu-mate/teams/110208/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/404.md:13
+msgid "title: 404 | Not Found"
+msgstr "title: 404 | Não encontrado"
+
+#: pages/404.md:18
+msgid ""
+"## 404. Page Not Found\n"
+"---"
+msgstr ""
+"## 404. Página não encontrada\n"
+"---"
+
+#: pages/404.md:20
+msgid "**Well, this is embarrasing...**"
+msgstr "**Bem, isto é embaraçoso...**"
+
+#: pages/404.md:22
+msgid ""
+"Perhaps the page moved somewhere else, but it may never have existed here at"
+" all."
+msgstr ""
+"Talvez a página tenha sido movida para outro lugar, mas pode nunca ter "
+"existido aqui."
+
+#: pages/404.md:24
+msgid ""
+"If you were following a link to a download, it might be for an unsupported "
+"release."
+msgstr ""
+"Se você estivesse seguindo um link para um download, poderia ser para uma "
+"versão não suportada."
+
+#: pages/404.md:27
+msgid ""
+"* Check out the [Downloads page](/download/) for all the latest, supported releases.\n"
+"* If you were really looking for an old release, [take a look at this list](https://ubuntu-mate.community/old-releases)."
+msgstr ""
+
+#: pages/404.md:29
+msgid "**Where now?**"
+msgstr ""
+
+#: pages/404.md:32
+msgid ""
+"* [To the homepage!](/)\n"
+"* [Search the site](/search/)\n"
+"* [Report this as an issue on GitHub](https://github.com/ubuntu-mate/ubuntu-mate.org/issues)"
+msgstr ""
