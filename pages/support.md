@@ -14,6 +14,10 @@ Here's a list of issues we have noted that may degrade your retrospective experi
 
 {% include /partials/known-issues.html %}
 
+For a complete listing of Ubuntu MATE Bugs
+
+[Ubuntu MATE Bugs](https://bugs.launchpad.net/ubuntu-mate){:.btn .green}
+
 
 ## Community Support
 
