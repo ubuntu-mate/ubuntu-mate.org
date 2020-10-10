@@ -126,6 +126,12 @@
     - name: Cheese
       icon: /images/apps/cheese.svg
       not_in_min_install: true
+      class: "not-in-20-10"
+
+    - name: Webcamoid
+      icon: /images/apps/webcamoid.png
+      not_in_min_install: true
+      class: "not-in-20-04"
 
     - name: Rhythmbox
       icon: /images/apps/rhythmbox.svg

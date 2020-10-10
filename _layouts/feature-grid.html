@@ -6,7 +6,7 @@ layout: default
     <div class="container">
 
         <div class="row">
-            <content class="page-content col">
+            <content class="page-content col feature-page">
 
                 {% include partials/categories.html
                     id = "features"
@@ -14,6 +14,23 @@ layout: default
 
                 <div class="content">
                     {{ content }}
+                </div>
+
+                <div class="feature-filters">
+                    <noscript>
+                        <p>{{ site.data.strings.js_required }}</p>
+                    </noscript>
+                    <label>
+                        {{ site.data.strings.filter_distro }}
+                        <select id="filter-distro" class="feature-filter" onchange="refresh_feature_filters()">
+                            <option name="not-in-20-10">20.10</option>
+                            <option name="not-in-20-04">20.04 LTS</option>
+                        </select>
+                    </label>
+                    <label>
+                        <input id="filter-min-only" class="feature-filter" type="checkbox" onchange="refresh_feature_filters()"/>
+                        {{ site.data.strings.filter_min_only }}
+                    </label>
                 </div>
 
                 {% assign grid = site.data.feature-grid %}
@@ -46,7 +63,7 @@ layout: default
                                     {% if item.url %}
                                     <a class="feature" href="{{ item.url }}">
                                     {% else %}
-                                    <div class="feature {% if item.not_in_min_install == true or item.live_only == true %}grey{% endif %}">
+                                    <div class="feature {% if item.class %}filter-{{ item.class }}{% endif %} {% if item.not_in_min_install == true %}filter-min-only{% endif %}">
                                     {% endif %}
 
                                         {% if item.icon %}
@@ -60,8 +77,7 @@ layout: default
                                         {% if name %}
                                             <span>
                                                 {{ name }}{% if item.url %}{% include images/fa/external-link-alt.svg %}{% endif %}
-                                                {% if item.not_in_min_install %}<span class="key-hover" title="{{ site.data.strings.not_in_min_install }}">*</span>{% endif %}
-                                                {% if item.live_only %}<span class="key-hover" title="{{ site.data.strings.live_only }}">**</span>{% endif %}
+                                                {% if item.live_only %}<span class="key-hover" title="{{ site.data.strings.live_only }}">*</span>{% endif %}
                                             </span>
                                         {% endif %}
 
@@ -78,8 +94,7 @@ layout: default
                     {% endfor %}
 
                     <div class="key">
-                        <p><span>*</span> {{ site.data.strings.not_in_min_install }}</p>
-                        <p><span>**</span> {{ site.data.strings.live_only }}</p>
+                        <p><span>*</span> {{ site.data.strings.live_only }}</p>
                     </div>
 
                 </div>

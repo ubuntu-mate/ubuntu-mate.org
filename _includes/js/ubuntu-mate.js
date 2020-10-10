@@ -113,3 +113,25 @@ function show_all_posts() {
     $("#show-old-posts").remove();
     return false;
 }
+
+//--------------------------------------
+// Features - filter dropdowns
+//--------------------------------------
+function refresh_feature_filters() {
+    var filter_distro = document.getElementById("filter-distro");
+    var filter_minimal = document.getElementById("filter-min-only");
+
+    var class_name = filter_distro.options[filter_distro.selectedIndex].attributes.name.value;
+    var min_only = filter_minimal.checked;
+
+    $(".feature").removeClass("filtered");
+    $(".filter-" + class_name).addClass("filtered");
+    if (min_only === true) {
+        $(".filter-min-only").addClass("filtered");
+    }
+    filter_distro.disabled = filter_minimal.checked;
+}
+
+if ($(".feature-filter").length > 0) {
+    refresh_feature_filters();
+}
