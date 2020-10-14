@@ -160,12 +160,16 @@ purchase: "View Product"
 #######################################
 # Feature Grid
 #######################################
+# Filters
+filter_distro: "Show:"
+filter_min_only: "Minimal install only"
+
+# Categories
 mate_desktop: "MATE Desktop"
 ubuntu_base: "Ubuntu Base"
 preinstalled: "Pre-installed Applications"
 gnu_linux: "GNU/Linux"
 live_only: "Only available during live session"
-not_in_min_install: "Not included in minimal install"
 
 # Apps that may have translatable names
 ubuntu_mate_welcome: "Welcome"
