@@ -7,21 +7,9 @@ class: support
 title: Support
 ---
 
-
-## Known Issues
-
-Here's a list of issues we have noted that may degrade your retrospective experience.
-
-{% include /partials/known-issues.html %}
-
-For a complete listing of Ubuntu MATE Bugs
-
-[Ubuntu MATE Bugs](https://bugs.launchpad.net/ubuntu-mate){:.btn .green}
-
-
 ## Community Support
 
-If your issue isn't listed above, we highly recommend asking on the
+If you need help, we encourage you to join fellow users in the
 [Ubuntu MATE Community](https://ubuntu-mate.community/). If this is your
 first time, you'll need to create a new account using the **Sign Up**
 button in the upper right hand corner. Once you have an account, post
@@ -33,9 +21,9 @@ your description of the problem and be excellent to each other.
 
 ## Official Guide
 
-If this is your first time using Ubuntu MATE, we have an official guide to
-assist you on your journey. It's also pre-installed under the **Accessories**
-menu (for full installations).
+If this is your first time using Ubuntu MATE, we have an official guide 
+to assist you on your journey. It's also pre-installed under the 
+**Accessories** menu (for full installations).
 
 [guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}
 [Shop Books](/shop/books/){:.btn}
@@ -52,3 +40,16 @@ to help the people who will help you.
 
 [Ask Ubuntu](https://askubuntu.com){:.btn}
 [Launchpad Answers](https://answers.launchpad.net/){:.btn}
+
+## Known Issues
+
+Here's a list of issues we have noted that may degrade your retrospective experience.
+
+{% include /partials/known-issues.html %}
+
+For a complete listing of Ubuntu MATE Bugs
+
+[Ubuntu MATE Bugs](https://bugs.launchpad.net/ubuntu-mate){:.btn .green}
+
+To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/bug-triage/){:.btn}
+
