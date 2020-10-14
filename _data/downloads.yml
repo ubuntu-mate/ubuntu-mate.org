@@ -26,6 +26,17 @@ releases:
             month: Apr
             year: 2023
 
+    groovy:
+        name: "20.10"
+        codename: "Groovy Gorilla"
+        mascot: "groovy.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-groovy-gorilla-release-notes/"
+        end_of_life:
+            month: Jul
+            year: 2021
 
 
 # To list new architectures on the download page, add descriptions to download.md
