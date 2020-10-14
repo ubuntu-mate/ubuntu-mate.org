@@ -14,7 +14,7 @@ title: Bug Reporting and Triage
 
 ### Where do I report a bug?
 
-All bugs go to [Launchpad - Ubuntu MATE bugs](https://bugs.launchpad.net/ubuntu-mate)
+Bugs are submitted to the [Ubuntu MATE project on Launchpad](https://bugs.launchpad.net/ubuntu-mate)
 
 If you don't already have an account, [set one up on Launchpad](https://help.launchpad.net/YourAccount/NewAccount)
 before you get started. 
@@ -67,4 +67,3 @@ fixers know where they need to focus their efforts.
 The video below shows bug triaging (and Martin!) in action:
 
 {% include embed/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}
-
