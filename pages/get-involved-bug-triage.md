@@ -21,7 +21,7 @@ before you get started.
 
 ### How do I report a bug?
 
-[This tutorial](https://ubuntu-mate.community/t/how-to-report-problems-in-ubuntu-mate/17943) by APolihron, one of our QA testers,
+[This tutorial](https://ubuntu-mate.community/t/17943) by APolihron, one of our QA testers,
 demonstrates how to file a bug report. It is incredibly useful, 
 with gifs to illustrate each step of the process!
 
