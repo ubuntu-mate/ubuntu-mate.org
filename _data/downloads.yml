@@ -14,18 +14,6 @@ releases:
             month: Apr
             year: 2021
 
-    eoan:
-        name: "19.10"
-        codename: "Eoan Ermine"
-        mascot: "eoan.svg"
-        wallpaper: "bionic.jpg"
-        lts: false
-        prerelease: false
-        release_notes: "/blog/ubuntu-mate-19-10-eoan-ermine-release/"
-        end_of_life:
-            month: Jun
-            year: 2020
-
     focal:
         name: "20.04.1 LTS"
         codename: "Focal Fossa"
@@ -37,6 +25,18 @@ releases:
         end_of_life:
             month: Apr
             year: 2023
+
+    groovy:
+        name: "20.10"
+        codename: "Groovy Gorilla"
+        mascot: "groovy.png"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-19-10-eoan-ermine-release/"
+        end_of_life:
+            month: Jun
+            year: 2021
 
 
 # To list new architectures on the download page, add descriptions to download.md
