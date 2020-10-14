@@ -23,7 +23,7 @@ before you get started.
 
 [This tutorial](https://ubuntu-mate.community/t/17943) by APolihron, one of our QA testers,
 demonstrates how to file a bug report. It is incredibly useful, 
-with gifs to illustrate each step of the process!
+with GIFs to illustrate each step of the process!
 
 ## Who can I talk to about bugs and bug reporting?
 
