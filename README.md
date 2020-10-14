@@ -49,7 +49,8 @@ You can preview the website on your computer at http://localhost:4000.
 
 This website has a few programmatically generated files, such as localized pages
 and automatic magnet link generation for torrents. These can be enabled by passing
-the parameters to either `build.sh` or `watch.sh`
+the parameters to either `build.sh` or `watch.sh`. To obtain the magnet
+link automagically, set the `magnet-uri` key to `autogen`.
 
 | Parameter     | What it does                                              |
 | ------------- | --------------------------------------------------------- |

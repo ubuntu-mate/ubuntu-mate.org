@@ -65,7 +65,7 @@ See [`_data/navigation.yml`](_data/navigation.yml) for the correct value.
 The data is stored in `_data/downloads.yml`:
 
 * The **`releases`** key lists the versions currently available.
-* The **`arch`** key is a list of architctures. When adding/removing here, make changes in `pages/download.md` too.
+* The **`arch`** key is a list of architectures. When adding/removing here, make changes in `pages/download.md` too.
 * The **`downloads`** key lists the downloads (releases) for each `arch`.
 
 Architectures may include ports to other devices, such as `gpd_pocket`.
