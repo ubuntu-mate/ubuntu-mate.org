@@ -51,5 +51,4 @@ For a complete listing of Ubuntu MATE Bugs
 
 [Ubuntu MATE Bugs](https://bugs.launchpad.net/ubuntu-mate){:.btn .green}
 
-To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/bug-triage/){:.btn}
-
+To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/bug-triage/) under [Get Involved](/get-involved/).
