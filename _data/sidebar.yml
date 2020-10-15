@@ -37,20 +37,6 @@ get-involved:
           icon: /images/Ambiant-MATE/applications-development.svg
           url: /get-involved/development/
 
-    - category_string_name: dev_status
-      items:
-        - string_name: dev_backlog
-          icon: /images/get-involved/backlog.svg
-          url: /get-involved/status-backlog/
-
-        - string_name: dev_active
-          icon: /images/get-involved/active.svg
-          url: /get-involved/status-active/
-
-        - string_name: dev_completed
-          icon: /images/get-involved/completed.svg
-          url: /get-involved/status-completed/
-
     - category_string_name: documentation
       items:
         - string_name: design_guidelines
