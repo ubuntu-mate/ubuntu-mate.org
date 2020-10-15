@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-17 17:27+0100\n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
 "Last-Translator: Nikolay Strelkov, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -68,17 +68,9 @@ msgstr "Ubuntu MATE на Launchpad"
 msgid "Ubuntu MATE on GitHub"
 msgstr "Ubuntu MATE на GitHub"
 
-#: trello
-msgid "Development Trello Boards"
-msgstr "Планирание разработки в Trello"
-
 #: irc
 msgid "#ubuntumate on Freenode (IRC)"
 msgstr "#ubuntumate на Freenode (IRC)"
-
-#: mastodon
-msgid "Ubuntu MATE on Mastodon"
-msgstr "Ubuntu MATE в Mastodon"
 
 #: facebook
 msgid "Ubuntu MATE on Facebook"
@@ -526,6 +518,14 @@ msgstr "Атрибутика"
 msgid "View Product"
 msgstr "Смотреть продукт"
 
+#: filter_distro
+msgid "Show:"
+msgstr ""
+
+#: filter_min_only
+msgid "Minimal install only"
+msgstr ""
+
 #: mate_desktop
 msgid "MATE Desktop"
 msgstr "Рабочий стол MATE"
@@ -545,10 +545,6 @@ msgstr "GNU/Linux"
 #: live_only
 msgid "Only available during live session"
 msgstr "Только в режиме живой сессии"
-
-#: not_in_min_install
-msgid "Not included in minimal install"
-msgstr "Не включено в минимальную установку"
 
 #: ubuntu_mate_welcome
 msgid "Welcome"
@@ -1015,3 +1011,12 @@ msgstr "Содержание"
 #: highlight_video
 msgid "Highlights"
 msgstr "Особенности"
+
+#~ msgid "Development Trello Boards"
+#~ msgstr "Планирание разработки в Trello"
+
+#~ msgid "Ubuntu MATE on Mastodon"
+#~ msgstr "Ubuntu MATE в Mastodon"
+
+#~ msgid "Not included in minimal install"
+#~ msgstr "Не включено в минимальную установку"

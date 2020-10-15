@@ -1,15 +1,16 @@
 # 
 # Translators:
 # Marcos Falieri <falieri@tutanota.com>, 2020
+# Nicolas Lima <nicolitaslj2@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"POT-Creation-Date: 2020-08-17 17:26+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Marcos Falieri <falieri@tutanota.com>, 2020\n"
+"Last-Translator: Nicolas Lima <nicolitaslj2@gmail.com>, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/ubuntu-mate/teams/110208/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr ""
 
 #: pages/403.md:20
 msgid "**Only the superuser can let you in.**"
-msgstr "**Só o super usuário pode deixá-lo entrar.**"
+msgstr "**Só o superusuário pode deixá-lo entrar.**"
 
 #: pages/403.md:22
 msgid ""

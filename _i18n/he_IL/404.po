@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-08-17 17:26+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: shy tzedaka <shaytzedaka123@gmail.com>, 2020\n"
 "Language-Team: Hebrew (Israel) (https://www.transifex.com/ubuntu-mate/teams/110208/he_IL/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: pages/404.md:13
 msgid "title: 404 | Not Found"
-msgstr "לא נמצא | 404 :title"
+msgstr "title: לא נמצא | 404"
 
 #: pages/404.md:18
 msgid ""
@@ -38,19 +38,21 @@ msgstr "**טוב, זה מביך...**"
 msgid ""
 "Perhaps the page moved somewhere else, but it may never have existed here at"
 " all."
-msgstr ""
+msgstr "כנראה שהעמוד הועבר למקום אחר. אבל יכול להיות שהוא לא היה קיים בכלל."
 
 #: pages/404.md:24
 msgid ""
 "If you were following a link to a download, it might be for an unsupported "
 "release."
-msgstr ""
+msgstr "אם באתם לפה דרך קישור להורדה. כנראה שזה קישור לגירסה שכבר לא נתמכת."
 
 #: pages/404.md:27
 msgid ""
 "* Check out the [Downloads page](/download/) for all the latest, supported releases.\n"
 "* If you were really looking for an old release, [take a look at this list](https://ubuntu-mate.community/old-releases)."
 msgstr ""
+"* בדקו את [עמוד הורדות](/download/) בשביל כל הגירסאות הנתמכות והעדכניות ביותר\n"
+"* אם אתם ממש רוצים למצוא גירסה ישנה יותר, [בדקו את הרשימה הזו](https://ubuntu-mate.community/old-releases)."
 
 #: pages/404.md:29
 msgid "**Where now?**"

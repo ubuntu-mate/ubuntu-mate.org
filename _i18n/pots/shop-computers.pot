@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 11:59+0100\n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,23 +55,7 @@ msgid ""
 "            Intel® UHD Graphics, optional NVIDIA® Graphics."
 msgstr ""
 
-#: pages/shop-computers.md:40
-msgid ""
-"        - name: 15\" Kratos\n"
-"          price: Starting at £949.99\n"
-"          img: /images/shop/entroware/kratos_front_mate.png\n"
-"          url: https://www.entroware.com/store/kratos?tracking=ubmate\n"
-"          description: >-"
-msgstr ""
-
-#: pages/shop-computers.md:44
-msgid ""
-"            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
-"            32GB DDR4 2666 MHz, up to 6TB storage, 15.6” Matte FHD LED (1920x1080),\n"
-"            NVIDIA® GeForce GTX 1650 4GB."
-msgstr ""
-
-#: pages/shop-computers.md:50
+#: pages/shop-computers.md:41
 msgid ""
 "        - name: 15\" Proteus\n"
 "          price: Starting at £769.99\n"
@@ -80,30 +64,14 @@ msgid ""
 "          description: >-"
 msgstr ""
 
-#: pages/shop-computers.md:54
+#: pages/shop-computers.md:45
 msgid ""
 "            Configurable with 10th Generation Intel® Core™ Processors, up to\n"
 "            64GB DDR4 2666 MHz, up to 2TB storage, 15.6” Matte FHD LED (1920x1080),\n"
 "            Intel® UHD Graphics."
 msgstr ""
 
-#: pages/shop-computers.md:60
-msgid ""
-"        - name: 17\" Athena\n"
-"          price: Starting at £1399.99\n"
-"          img: /images/shop/entroware/athena_front_mate.png\n"
-"          url: https://www.entroware.com/store/athena?tracking=ubmate\n"
-"          description: >-"
-msgstr ""
-
-#: pages/shop-computers.md:64
-msgid ""
-"            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
-"            64GB DDR4 2666 MHz, up to 8TB storage, 17” Matte FHD LED (1920x1080),\n"
-"            NVIDIA® 2060, 2070 Max-Q, or 2080 Max-Q Graphics."
-msgstr ""
-
-#: pages/shop-computers.md:73
+#: pages/shop-computers.md:54
 msgid ""
 "    - group: Desktops\n"
 "      items:\n"
@@ -114,14 +82,14 @@ msgid ""
 "          description: >-"
 msgstr ""
 
-#: pages/shop-computers.md:77
+#: pages/shop-computers.md:58
 msgid ""
 "            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
 "            32GB DDR4 2666 MHz, up to 6TB storage, 24” Matte FHD LED (1920x1080),\n"
 "            Intel® HD Graphics."
 msgstr ""
 
-#: pages/shop-computers.md:83
+#: pages/shop-computers.md:64
 msgid ""
 "        - name: Aura\n"
 "          price: Starting at £499.99\n"
@@ -130,13 +98,13 @@ msgid ""
 "          description: >-"
 msgstr ""
 
-#: pages/shop-computers.md:86
+#: pages/shop-computers.md:67
 msgid ""
 "            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
 "            32GB DDR4 2666 MHz, up to 6TB storage, optional 24\" or 27\" Matte FHD LED (1920x1080) displays, Intel® Iris® Plus Graphics 655."
 msgstr ""
 
-#: pages/shop-computers.md:92
+#: pages/shop-computers.md:73
 msgid ""
 "        - name: Hades\n"
 "          price: Starting at £1899.99\n"
@@ -145,38 +113,23 @@ msgid ""
 "          description: >-"
 msgstr ""
 
-#: pages/shop-computers.md:95
+#: pages/shop-computers.md:76
 msgid ""
 "            Configurable with 2nd Generation AMD® Ryzen™ Threadripper™ Processors, up to\n"
 "            128GB DDR4 2933 MHz pr 128GB DDR4 2400 Mhz ECC, up to 68TB storage, optional 24\" or 27\" Matte FHD LED (1920x1080) displays, NVIDIA® GT1030 and NVIDIA® RTX 2060/2070/2080/2080Ti Graphics."
 msgstr ""
 
-#: pages/shop-computers.md:101
-msgid ""
-"        - name: Nyx\n"
-"          price: Starting at £1589.97\n"
-"          img: /images/shop/entroware/nyx.png\n"
-"          url: https://www.entroware.com/store/nyx?tracking=ubmate\n"
-"          description: >-"
-msgstr ""
-
-#: pages/shop-computers.md:104
-msgid ""
-"            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
-"            32GB DDR4 2666 MHz, up to 6TB storage, optional 24\" or 27\" Matte FHD LED (1920x1080) displays, Intel® UHD Graphics."
-msgstr ""
-
-#: pages/shop-computers.md:109
+#: pages/shop-computers.md:81
 msgid "## Entroware"
 msgstr ""
 
-#: pages/shop-computers.md:112
+#: pages/shop-computers.md:84
 msgid ""
 "{:.center}\n"
 "[![Entroware logo](/images/shop/entroware/entroware.png)](https://www.entroware.com/store/?tracking=ubmate)"
 msgstr ""
 
-#: pages/shop-computers.md:117
+#: pages/shop-computers.md:89
 msgid ""
 "[Entroware](https://entroware.com/) is a UK based Linux computer manufacturer,\n"
 "founded in early 2014, providing a range of quality Linux computers focused on a\n"

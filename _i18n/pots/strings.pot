@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-17 17:27+0100\n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,16 +56,8 @@ msgstr ""
 msgid "Ubuntu MATE on GitHub"
 msgstr ""
 
-#: trello
-msgid "Development Trello Boards"
-msgstr ""
-
 #: irc
 msgid "#ubuntumate on Freenode (IRC)"
-msgstr ""
-
-#: mastodon
-msgid "Ubuntu MATE on Mastodon"
 msgstr ""
 
 #: facebook
@@ -493,6 +485,14 @@ msgstr ""
 msgid "View Product"
 msgstr ""
 
+#: filter_distro
+msgid "Show:"
+msgstr ""
+
+#: filter_min_only
+msgid "Minimal install only"
+msgstr ""
+
 #: mate_desktop
 msgid "MATE Desktop"
 msgstr ""
@@ -511,10 +511,6 @@ msgstr ""
 
 #: live_only
 msgid "Only available during live session"
-msgstr ""
-
-#: not_in_min_install
-msgid "Not included in minimal install"
 msgstr ""
 
 #: ubuntu_mate_welcome

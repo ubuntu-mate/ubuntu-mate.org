@@ -175,24 +175,6 @@ source_file = _i18n/pots/get-involved-spread-word.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.get-involved-status-active]
-file_filter = _i18n/<lang>/get-involved-status-active.po
-source_file = _i18n/pots/get-involved-status-active.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.get-involved-status-backlog]
-file_filter = _i18n/<lang>/get-involved-status-backlog.po
-source_file = _i18n/pots/get-involved-status-backlog.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.get-involved-status-completed]
-file_filter = _i18n/<lang>/get-involved-status-completed.po
-source_file = _i18n/pots/get-involved-status-completed.pot
-source_lang = en
-type = PO
-
 [ubuntu-mate-org.get-involved-testing-qa]
 file_filter = _i18n/<lang>/get-involved-testing-qa.po
 source_file = _i18n/pots/get-involved-testing-qa.pot

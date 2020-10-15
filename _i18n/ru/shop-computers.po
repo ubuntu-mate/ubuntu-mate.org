@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-17 17:26+0100\n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Nikolay Strelkov, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -86,33 +86,7 @@ msgstr ""
 "(1920x1080),\n"
 "            Intel® UHD Graphics, опционально NVIDIA® Graphics."
 
-#: pages/shop-computers.md:40
-msgid ""
-"        - name: 15\" Kratos\n"
-"          price: Starting at £949.99\n"
-"          img: /images/shop/entroware/kratos_front_mate.png\n"
-"          url: https://www.entroware.com/store/kratos?tracking=ubmate\n"
-"          description: >-"
-msgstr ""
-"        - name: 15\" Kratos\n"
-"          price: от £949.99\n"
-"          img: /images/shop/entroware/kratos_front_mate.png\n"
-"          url: https://www.entroware.com/store/kratos?tracking=ubmate\n"
-"          description: >-"
-
-#: pages/shop-computers.md:44
-msgid ""
-"            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
-"            32GB DDR4 2666 MHz, up to 6TB storage, 15.6” Matte FHD LED "
-"(1920x1080),\n"
-"            NVIDIA® GeForce GTX 1650 4GB."
-msgstr ""
-"            Выбор из 9-го поколения Intel® Core™ Processors, до\n"
-"            32Гб DDR4 2666 МГц, до 6Тб хранилища, 15.6” матовый FHD LED "
-"(1920x1080),\n"
-"            NVIDIA® GeForce GTX 1650 4Гб."
-
-#: pages/shop-computers.md:50
+#: pages/shop-computers.md:41
 msgid ""
 "        - name: 15\" Proteus\n"
 "          price: Starting at £769.99\n"
@@ -126,7 +100,7 @@ msgstr ""
 "          url: https://www.entroware.com/store/proteus?tracking=ubmate\n"
 "          description: >-"
 
-#: pages/shop-computers.md:54
+#: pages/shop-computers.md:45
 msgid ""
 "            Configurable with 10th Generation Intel® Core™ Processors, up "
 "to\n"
@@ -139,33 +113,7 @@ msgstr ""
 "(1920x1080),\n"
 "            Intel® UHD Graphics."
 
-#: pages/shop-computers.md:60
-msgid ""
-"        - name: 17\" Athena\n"
-"          price: Starting at £1399.99\n"
-"          img: /images/shop/entroware/athena_front_mate.png\n"
-"          url: https://www.entroware.com/store/athena?tracking=ubmate\n"
-"          description: >-"
-msgstr ""
-"        - name: 17\" Athena\n"
-"          price: от £1399.99\n"
-"          img: /images/shop/entroware/athena_front_mate.png\n"
-"          url: https://www.entroware.com/store/athena?tracking=ubmate\n"
-"          description: >-"
-
-#: pages/shop-computers.md:64
-msgid ""
-"            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
-"            64GB DDR4 2666 MHz, up to 8TB storage, 17” Matte FHD LED "
-"(1920x1080),\n"
-"            NVIDIA® 2060, 2070 Max-Q, or 2080 Max-Q Graphics."
-msgstr ""
-"            Выбор из 9-го поколения Intel® Core™ Processors, до\n"
-"            64Гб DDR4 2666 МГц, до 8Тб хранилища, 17” матовый FHD LED "
-"(1920x1080),\n"
-"            NVIDIA® 2060, 2070 Max-Q, или 2080 Max-Q Graphics."
-
-#: pages/shop-computers.md:73
+#: pages/shop-computers.md:54
 msgid ""
 "    - group: Desktops\n"
 "      items:\n"
@@ -183,7 +131,7 @@ msgstr ""
 "          url: https://www.entroware.com/store/ares?tracking=ubmate\n"
 "          description: >-"
 
-#: pages/shop-computers.md:77
+#: pages/shop-computers.md:58
 msgid ""
 "            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
 "            32GB DDR4 2666 MHz, up to 6TB storage, 24” Matte FHD LED "
@@ -195,7 +143,7 @@ msgstr ""
 "(1920x1080),\n"
 "            Intel® HD Graphics."
 
-#: pages/shop-computers.md:83
+#: pages/shop-computers.md:64
 msgid ""
 "        - name: Aura\n"
 "          price: Starting at £499.99\n"
@@ -209,7 +157,7 @@ msgstr ""
 "          url: https://www.entroware.com/store/aura?tracking=ubmate\n"
 "          description: >-"
 
-#: pages/shop-computers.md:86
+#: pages/shop-computers.md:67
 msgid ""
 "            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
 "            32GB DDR4 2666 MHz, up to 6TB storage, optional 24\" or 27\" "
@@ -219,7 +167,7 @@ msgstr ""
 "            32Гб DDR4 2666 МГц, до 6Тб хранилища, опционально 24\" или 27\" "
 "матовый FHD LED (1920x1080) дисплей, Intel® Iris® Plus Graphics 655."
 
-#: pages/shop-computers.md:92
+#: pages/shop-computers.md:73
 msgid ""
 "        - name: Hades\n"
 "          price: Starting at £1899.99\n"
@@ -233,7 +181,7 @@ msgstr ""
 "          url: https://www.entroware.com/store/hades?tracking=ubmate\n"
 "          description: >-"
 
-#: pages/shop-computers.md:95
+#: pages/shop-computers.md:76
 msgid ""
 "            Configurable with 2nd Generation AMD® Ryzen™ Threadripper™ "
 "Processors, up to\n"
@@ -247,35 +195,11 @@ msgstr ""
 "хранилища, опционально 24\" или 27\" матовый FHD LED (1920x1080) дисплей, "
 "NVIDIA® GT1030 и NVIDIA® RTX 2060/2070/2080/2080Ti Graphics."
 
-#: pages/shop-computers.md:101
-msgid ""
-"        - name: Nyx\n"
-"          price: Starting at £1589.97\n"
-"          img: /images/shop/entroware/nyx.png\n"
-"          url: https://www.entroware.com/store/nyx?tracking=ubmate\n"
-"          description: >-"
-msgstr ""
-"        - name: Nyx\n"
-"          price: от £1589.97\n"
-"          img: /images/shop/entroware/nyx.png\n"
-"          url: https://www.entroware.com/store/nyx?tracking=ubmate\n"
-"          description: >-"
-
-#: pages/shop-computers.md:104
-msgid ""
-"            Configurable with 9th Generation Intel® Core™ Processors, up to\n"
-"            32GB DDR4 2666 MHz, up to 6TB storage, optional 24\" or 27\" "
-"Matte FHD LED (1920x1080) displays, Intel® UHD Graphics."
-msgstr ""
-"            Выбор из 9-го поколения Intel® Core™ Processors, до\n"
-"            32Гб DDR4 2666 МГц, до 6Тб хранилища, опционально 24\" или 27\" "
-"матовый FHD LED (1920x1080) дисплей, Intel® UHD Graphics."
-
-#: pages/shop-computers.md:109
+#: pages/shop-computers.md:81
 msgid "## Entroware"
 msgstr "## Entroware"
 
-#: pages/shop-computers.md:112
+#: pages/shop-computers.md:84
 msgid ""
 "{:.center}\n"
 "[![Entroware logo](/images/shop/entroware/entroware.png)](https://www."
@@ -285,7 +209,7 @@ msgstr ""
 "[![Entroware логотип](/images/shop/entroware/entroware.png)](https://www."
 "entroware.com/store/?tracking=ubmate)"
 
-#: pages/shop-computers.md:117
+#: pages/shop-computers.md:89
 msgid ""
 "[Entroware](https://entroware.com/) is a UK based Linux computer "
 "manufacturer,\n"
@@ -302,3 +226,76 @@ msgstr ""
 "Linux опыта \"из-коробки\" благодаря высокой аппаратной совместимости.\n"
 "Entroware предоставляет возможность приобретения компьютеров с "
 "предустановленным Ubuntu MATE с полной поддержкой."
+
+#~ msgid ""
+#~ "        - name: 15\" Kratos\n"
+#~ "          price: Starting at £949.99\n"
+#~ "          img: /images/shop/entroware/kratos_front_mate.png\n"
+#~ "          url: https://www.entroware.com/store/kratos?tracking=ubmate\n"
+#~ "          description: >-"
+#~ msgstr ""
+#~ "        - name: 15\" Kratos\n"
+#~ "          price: от £949.99\n"
+#~ "          img: /images/shop/entroware/kratos_front_mate.png\n"
+#~ "          url: https://www.entroware.com/store/kratos?tracking=ubmate\n"
+#~ "          description: >-"
+
+#~ msgid ""
+#~ "            Configurable with 9th Generation Intel® Core™ Processors, up "
+#~ "to\n"
+#~ "            32GB DDR4 2666 MHz, up to 6TB storage, 15.6” Matte FHD LED "
+#~ "(1920x1080),\n"
+#~ "            NVIDIA® GeForce GTX 1650 4GB."
+#~ msgstr ""
+#~ "            Выбор из 9-го поколения Intel® Core™ Processors, до\n"
+#~ "            32Гб DDR4 2666 МГц, до 6Тб хранилища, 15.6” матовый FHD LED "
+#~ "(1920x1080),\n"
+#~ "            NVIDIA® GeForce GTX 1650 4Гб."
+
+#~ msgid ""
+#~ "        - name: 17\" Athena\n"
+#~ "          price: Starting at £1399.99\n"
+#~ "          img: /images/shop/entroware/athena_front_mate.png\n"
+#~ "          url: https://www.entroware.com/store/athena?tracking=ubmate\n"
+#~ "          description: >-"
+#~ msgstr ""
+#~ "        - name: 17\" Athena\n"
+#~ "          price: от £1399.99\n"
+#~ "          img: /images/shop/entroware/athena_front_mate.png\n"
+#~ "          url: https://www.entroware.com/store/athena?tracking=ubmate\n"
+#~ "          description: >-"
+
+#~ msgid ""
+#~ "            Configurable with 9th Generation Intel® Core™ Processors, up "
+#~ "to\n"
+#~ "            64GB DDR4 2666 MHz, up to 8TB storage, 17” Matte FHD LED "
+#~ "(1920x1080),\n"
+#~ "            NVIDIA® 2060, 2070 Max-Q, or 2080 Max-Q Graphics."
+#~ msgstr ""
+#~ "            Выбор из 9-го поколения Intel® Core™ Processors, до\n"
+#~ "            64Гб DDR4 2666 МГц, до 8Тб хранилища, 17” матовый FHD LED "
+#~ "(1920x1080),\n"
+#~ "            NVIDIA® 2060, 2070 Max-Q, или 2080 Max-Q Graphics."
+
+#~ msgid ""
+#~ "        - name: Nyx\n"
+#~ "          price: Starting at £1589.97\n"
+#~ "          img: /images/shop/entroware/nyx.png\n"
+#~ "          url: https://www.entroware.com/store/nyx?tracking=ubmate\n"
+#~ "          description: >-"
+#~ msgstr ""
+#~ "        - name: Nyx\n"
+#~ "          price: от £1589.97\n"
+#~ "          img: /images/shop/entroware/nyx.png\n"
+#~ "          url: https://www.entroware.com/store/nyx?tracking=ubmate\n"
+#~ "          description: >-"
+
+#~ msgid ""
+#~ "            Configurable with 9th Generation Intel® Core™ Processors, up "
+#~ "to\n"
+#~ "            32GB DDR4 2666 MHz, up to 6TB storage, optional 24\" or 27\" "
+#~ "Matte FHD LED (1920x1080) displays, Intel® UHD Graphics."
+#~ msgstr ""
+#~ "            Выбор из 9-го поколения Intel® Core™ Processors, до\n"
+#~ "            32Гб DDR4 2666 МГц, до 6Тб хранилища, опционально 24\" или "
+#~ "27\" матовый FHD LED (1920x1080) дисплей, Intel® UHD Graphics."

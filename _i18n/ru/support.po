@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-17 17:27+0100\n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: 2020-07-22 17:09+0000\n"
 "Last-Translator: Nikolay Strelkov, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -29,25 +29,14 @@ msgstr ""
 "title: Поддержка\n"
 "---"
 
-#: pages/support.md:12
-msgid "## Known Issues"
-msgstr "## Известные проблемы"
-
-#: pages/support.md:14
-msgid ""
-"Here's a list of issues we have noted that may degrade your retrospective "
-"experience."
-msgstr ""
-"Здесь представлен список известных нам проблем, которые могут ухудшить ваш "
-"ретроспективный опыт использования дистрибутива."
-
-#: pages/support.md:19
+#: pages/support.md:11
 msgid "## Community Support"
 msgstr "## Поддержка сообщества"
 
-#: pages/support.md:26
+#: pages/support.md:18
+#, fuzzy
 msgid ""
-"If your issue isn't listed above, we highly recommend asking on the\n"
+"If you need help, we encourage you to join fellow users in the\n"
 "[Ubuntu MATE Community](https://ubuntu-mate.community/). If this is your\n"
 "first time, you'll need to create a new account using the **Sign Up**\n"
 "button in the upper right hand corner. Once you have an account, post\n"
@@ -65,26 +54,26 @@ msgstr ""
 "Постарайтесь максимально подробно описать проблему и уважайте других "
 "участников."
 
-#: pages/support.md:28
+#: pages/support.md:20
 msgid "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
 msgstr "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
 
-#: pages/support.md:31
+#: pages/support.md:23
 msgid "## Official Guide"
 msgstr "## Официальное руководство"
 
-#: pages/support.md:35
+#: pages/support.md:27
+#, fuzzy
 msgid ""
-"If this is your first time using Ubuntu MATE, we have an official guide to\n"
-"assist you on your journey. It's also pre-installed under the "
-"**Accessories**\n"
-"menu (for full installations)."
+"If this is your first time using Ubuntu MATE, we have an official guide \n"
+"to assist you on your journey. It's also pre-installed under the \n"
+"**Accessories** menu (for full installations)."
 msgstr ""
 "Если вы используете Ubuntu MATE впервые, то вы можете воспользоваться "
 "официальным руководством по использованию системы Ubuntu MATE Guide (при "
 "полной установке оно доступно в меню **Стандартные**)."
 
-#: pages/support.md:38
+#: pages/support.md:30
 msgid ""
 "[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
 "[Shop Books](/shop/books/){:.btn}"
@@ -92,11 +81,11 @@ msgstr ""
 "[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
 "[Купить книги](/shop/books/){:.btn}"
 
-#: pages/support.md:41
+#: pages/support.md:33
 msgid "## Other Resources"
 msgstr "## Другие ресурсы"
 
-#: pages/support.md:44
+#: pages/support.md:36
 msgid ""
 "While these sites aren't specific to Ubuntu MATE, they can still help\n"
 "you find a solution as we have a lot in common with the wider Ubuntu "
@@ -105,7 +94,7 @@ msgstr ""
 "Сайты из списка ниже не являются специфичными для Ubuntu MATE, но они могут "
 "помочь решить общие проблемы, возникающие у сообщества пользователей Ubuntu."
 
-#: pages/support.md:48
+#: pages/support.md:40
 msgid ""
 "For the best results, make sure your report includes what you\n"
 "were doing when you had the problem, steps to reproduce and hardware "
@@ -117,7 +106,7 @@ msgstr ""
 "используемого аппаратного обеспечения. Так вы поможете другим пользователям\n"
 "помочь вам."
 
-#: pages/support.md:50
+#: pages/support.md:43
 msgid ""
 "[Ask Ubuntu](https://askubuntu.com){:.btn}\n"
 "[Launchpad Answers](https://answers.launchpad.net/){:.btn}"
@@ -127,3 +116,31 @@ msgstr ""
 "\n"
 "Примечание: вопросы и ответы на сайтах из списка выше должны быть написаны "
 "на английском языке."
+
+#: pages/support.md:45
+msgid "## Known Issues"
+msgstr "## Известные проблемы"
+
+#: pages/support.md:47
+msgid ""
+"Here's a list of issues we have noted that may degrade your retrospective "
+"experience."
+msgstr ""
+"Здесь представлен список известных нам проблем, которые могут ухудшить ваш "
+"ретроспективный опыт использования дистрибутива."
+
+#: pages/support.md:51
+msgid "For a complete listing of Ubuntu MATE Bugs:"
+msgstr ""
+
+#: pages/support.md:53
+msgid ""
+"[Ubuntu MATE Bugs on Launchpad](https://bugs.launchpad.net/ubuntu-mate){:."
+"btn .green}"
+msgstr ""
+
+#: pages/support.md:54
+msgid ""
+"To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/"
+"bug-triage/) under [Get Involved](/get-involved/)."
+msgstr ""

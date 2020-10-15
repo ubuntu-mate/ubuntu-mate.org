@@ -1,15 +1,16 @@
 # 
 # Translators:
-# Omer, 2020
+# Omer I.S., 2020
+# shy tzedaka <shaytzedaka123@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-16 17:51+0100\n"
+"POT-Creation-Date: 2020-08-17 17:26+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Omer, 2020\n"
+"Last-Translator: shy tzedaka <shaytzedaka123@gmail.com>, 2020\n"
 "Language-Team: Hebrew (Israel) (https://www.transifex.com/ubuntu-mate/teams/110208/he_IL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,10 +28,12 @@ msgid ""
 "This link you've followed is very old and points to an unsupported version\n"
 "that is no longer available to download from this website."
 msgstr ""
+"הקישור שהוביל אותכם לפה מאוד ישן ומוביל לגירסה\n"
+"שכבר לא נתמכת ושכבר לא זמינה להורדה מהאתר הזה."
 
 #: pages/old-link.md:15
 msgid "For more information, check out this topic from the community:"
-msgstr ""
+msgstr "לעוד מידע, בדקו את הפוסט הזה מהקהילה:"
 
 #: pages/old-link.md:16
 msgid "<https://ubuntu-mate.community/old-releases/>"
