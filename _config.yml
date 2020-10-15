@@ -55,7 +55,6 @@ exclude:
 launchpad: "https://launchpad.net/ubuntu-mate"
 github: "https://github.com/ubuntu-mate/"
 irc: "/irc/"
-trello: "https://trello.com/ubuntumatedevelopers"
 facebook: "https://www.facebook.com/UbuntuMATEedition/"
 twitter: "https://twitter.com/ubuntu_mate"
 mastodon: "https://ubuntu.social/@ubuntumate"
