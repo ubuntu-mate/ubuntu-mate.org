@@ -74,15 +74,6 @@ catalogue: #noi18n
             Configurable with 2nd Generation AMD® Ryzen™ Threadripper™ Processors, up to
             128GB DDR4 2933 MHz pr 128GB DDR4 2400 Mhz ECC, up to 68TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, NVIDIA® GT1030 and NVIDIA® RTX 2060/2070/2080/2080Ti Graphics.
 
-        - name: Nyx
-          price: Starting at £1589.97
-          img: /images/shop/entroware/nyx.png
-          url: https://www.entroware.com/store/nyx?tracking=ubmate
-          description: >-
-
-            Configurable with 9th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® UHD Graphics.
-
 ---
 
 
