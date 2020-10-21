@@ -125,24 +125,8 @@ mirror and follow the instructions above.
 
 Here are the known issues.
 
-### Ubuntu MATE
+{% include partials/known-issues.html filter="XX.XX" %}
 
-  * (List issues or state if there are none)
-
-### Ubuntu family issues
-
-This is our known list of bugs that affects all flavours.
-
-
-  * [Write a short description of the bug](link to the bug's launchpad entry) and any additional info
-  * If there is a condition or workaround, place it in an indendent bullet point below.
-  * Pull information from https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes (for current release)
-
-
-You'll also want to check the Ubuntu MATE bug tracker to see what has already
-been reported. These issues will be addressed in due course.
-
-  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)
 
 ## Feedback
 

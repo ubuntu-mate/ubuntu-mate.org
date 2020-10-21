@@ -287,9 +287,9 @@ Usually to present call to actions, commonly used on the blog.
 
 #### Known Issues
 Shows a table of currently known issues with the distro. This data is stored
-at `_data/known-issues.yml`.
+at `_data/known-issues.yml`. A `filter` can be optionally specified.
 ```
-{% include partials/known-issues.html %}
+{% include partials/known-issues.html filter="20.10" %}
 ```
 
 #### YouTube Embed
