@@ -9,7 +9,19 @@
         </tr>
     </thead>
     <tbody>
-        {% for issue in site.data.known_issues %}
+        {% assign release_filter = include.filter %}
+        {% if release_filter != null and release_filter != "" %}
+            {% assign issues = "" | split: "," %}
+            {% for issue in site.data.known_issues %}
+                {% if issue.release contains release_filter %}
+                    {% assign issues = issues | push: issue %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% assign issues = site.data.known_issues %}
+        {% endif %}
+
+        {% for issue in issues %}
             <tr>
                 <td>{{ issue.release }}</td>
                 <td>
