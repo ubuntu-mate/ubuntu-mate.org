@@ -225,6 +225,10 @@ def build():
                 dst = os.path.join(post_dir, page + "." + locale + ".md")
             run("po2txt --fuzzy -t {path} {src} {dst}".format(path=path, src=src, dst=dst))
 
+            # If the page isn't translated yet, skip.
+            if not os.path.exists(dst):
+                continue
+
             # Ensure language code is definitely set.
             contents = ""
             with open(dst, "r") as f:
