@@ -1,7 +1,15 @@
+{% assign release_filter = include.filter %}
+{% assign using_filter = false %}
+{% if release_filter != null and release_filter != "" %}
+    {% assign using_filter = true %}
+{% endif %}
+
 <table class="known-issues">
     <thead>
         <tr>
-            <th>{{ site.data.strings.affected_release }}</th>
+            {% if using_filter == false %}
+                <th>{{ site.data.strings.affected_release }}</th>
+            {% endif %}
             <th>{{ site.data.strings.affected_component }}</th>
             <th class="column-problem">{{ site.data.strings.problem }}</th>
             <th class="column-links">{{ site.data.strings.workaround }}</th>
@@ -9,8 +17,7 @@
         </tr>
     </thead>
     <tbody>
-        {% assign release_filter = include.filter %}
-        {% if release_filter != null and release_filter != "" %}
+        {% if using_filter == true %}
             {% assign issues = "" | split: "," %}
             {% for issue in site.data.known_issues %}
                 {% if issue.release contains release_filter %}
@@ -23,7 +30,9 @@
 
         {% for issue in issues %}
             <tr>
-                <td>{{ issue.release }}</td>
+                {% if using_filter == false %}
+                    <td>{{ issue.release }}</td>
+                {% endif %}
                 <td>
                     {% assign icon = "" %}
 
