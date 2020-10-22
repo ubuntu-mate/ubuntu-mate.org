@@ -1,0 +1,298 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 19:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:12
+msgid ""
+"title: Ubuntu MATE 20.10 Release Notes\n"
+"description: What's new in Ubuntu MATE 20.10 (Groovy Gorilla)"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:20
+msgid ""
+"The releases following an LTS are always a good time ⌚ to make changes the set\n"
+"the future direction 🗺️ of the distribution with an eye on where we want to be for\n"
+"the next LTS release. Therefore, Ubuntu MATE 20.10 ships with that latest MATE\n"
+"Desktop 1.24.1, keeps paces with other developments within Ubuntu (such as\n"
+"Active Directory authentication) and migrated to the Ayatana Indicators project."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:25
+msgid ""
+"If you want bug fixes :bug:, kernel updates :corn:, a new web camera control :movie_camera:,\n"
+"and a new indicator :point_right: experience, then 20.10 is for you :tada:. Ubuntu MATE 20.10\n"
+"will be supported for 9 months until July 2021. If you need Long Term\n"
+"Support, we recommend you use Ubuntu MATE 20.04 LTS."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:27
+msgid "Read on to learn more... :point_down:"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:31
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE 20.10 (Groovy Gorilla)](/images/blog/groovy/groovy-gorilla-desktop.png)\n"
+"**Ubuntu MATE 20.10 (Groovy Gorilla)**"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:33
+msgid "## What's changed since Ubuntu MATE 20.04?"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:35
+msgid "### MATE Desktop"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:44
+msgid ""
+"If you follow the [Ubuntu MATE twitter account](https://twitter.com/ubuntu_mate) 🐦\n"
+"you'll know that MATE Desktop 1.24.1 was recently released. Naturally Ubuntu\n"
+"MATE 20.10 features that maintenance release of MATE Desktop. In addition, [we\n"
+"have prepared updated MATE Desktop 1.24.1 packages for Ubuntu MATE 20.04](https://pad.lv/1891891)\n"
+"that are currently in the SRU process. Given the number of MATE packages being\n"
+"updated in 20.04, it might take some time ⏳ for all the updates to land, but\n"
+"we're hopeful that the fixes and improvements from MATE Desktop 1.24.1 will\n"
+"soon be available for those of you running 20.04 LTS 👍"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:46
+msgid "### Active Directory"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:50
+msgid ""
+"The Ubuntu Desktop team added the option to enroll your computer into an\n"
+"Active Directory domain 🔑 during install. We've been tracking that work and the\n"
+"same capability is available in Ubuntu MATE too."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:54
+msgid ""
+"{:.center}\n"
+"![Active Directory Enrollment](/images/blog/groovy/active-directory.png)\n"
+"**Enroll your computer into an Active Directory domain**"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:56
+msgid "### Ayatana Indicators"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:60
+msgid ""
+"There is a significant under the hood change 🔧 in Ubuntu MATE 20.10 that you\n"
+"might not even notice 👀 at a surface level; we've replaced Ubuntu Indicators\n"
+"with [Ayatana Indicators](https://github.com/AyatanaIndicators)."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:63
+msgid ""
+"We'll explain some of the background, why we've made this change, the short\n"
+"term impact and the long term benefits."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:65
+msgid "#### What are Ayatana Indicators?"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:73
+msgid ""
+"In short, Ayatana Indicators is a fork of Ubuntu Indicators that aims to be\n"
+"cross-distro compatible and re-usable for any desktop environment 👌 Indicators\n"
+"were developed by Canonical some years ago, initially for the GNOME2\n"
+"implementation in Ubuntu and then refined for use in the Unity desktop. Ubuntu\n"
+"MATE has supported the Ubuntu Indicators for some years now and we've contributed\n"
+"patches to integrate MATE support into the suite of Ubuntu Indicators. Existing\n"
+"indicators are compatible with Ayatana Indicators."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:78
+msgid ""
+"We have migrated Ubuntu MATE 20.10 to Ayatana Indicators and Arctica Greeter. I\n"
+"live streamed 📡 the development work to switch from Ubuntu Indicators to\n"
+"Ayatana Indicators which you can find below if you're interested in some of the\n"
+"technical details 🤓"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:84
+msgid "#### The benefits of Ayatana Indicators"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:88
+msgid ""
+"Ubuntu MATE 20.10 is our first release to feature Ayatana Indicators and as\n"
+"such there are a couple of drawbacks; there is no messages indicator and no\n"
+"graphical tool to configure the display manager greeter (login window) 😞"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:91
+msgid ""
+"Both will return in a future release and the greeter can be configured\n"
+"using `dconf-editor` in the meantime."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:95
+msgid ""
+"{:.center}\n"
+"![Arctica Greeter dconf configuration](/images/blog/groovy/arctica-greeter-dconf.png)\n"
+"**Configuring Arctica Greeter with `dconf-editor`**"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:98
+msgid ""
+"That said, there are significant benefits that result from migrating to Ayatana\n"
+"Indicators:"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:106
+msgid ""
+"  * Debian and Ubuntu MATE are now aligned with regards to Indicator support; patches are no longer required in Ubuntu MATE which reduces the maintenance overhead.\n"
+"  * [MATE Tweak](https://github.com/ubuntu-mate/mate-tweak) is now a cross-distro application, without the need for distro specific patches.\n"
+"  * We've switched from [Slick Greeter](https://github.com/linuxmint/slick-greeter) to [Arctica Greeter](https://github.com/ArcticaProject/arctica-greeter) (both forks of Unity Greeter)\n"
+"    * Arctica Greeter integrates completely with Ayatana Indicators; so there is now a consistent Indicator experience in the greeter and desktop environment.\n"
+"  * Multiple projects are now using Ayatana Indicators, including desktop environments, distros and even mobile phone projects such as [UBports](https://ubports.com/). With more developers collaborating in one place we are seeing the collection of available indicators grow 📈\n"
+"  * Through UBports contributions to Ayatana Indicators we will soon have a Bluetooth indicator that can replace Blueman, providing a much simpler way to connect and manage Bluetooth devices. UBports have also been working on a network indicator and we hope to consolidate that to provide improved network management as well.\n"
+"  * Other indicators that are being worked on include printers, accessibility, keyboard (long absent from Ubuntu MATE), webmail and display."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:108
+msgid ""
+"So, that is the backstory about how developers from different projects come "
+"together to collaborate on a shared interest and improve software for their "
+"users 💪"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:110
+msgid "### Webcamoid"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:113
+msgid ""
+"We've replaced Cheese :cheese: with Webcamoid :movie_camera: as the default webcam tool for\n"
+"several reasons."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:117
+msgid ""
+"  * Webcamoid is a full webcam/capture configuration tool with recording, overlays and more, unlike Cheese. While there were initial concerns :pensive:, since\n"
+"Webcamoid is a Qt5 app, nearly all the requirements in the image are pulled in via YouTube-DL :tada:.\n"
+"  * We've disabled notifications :bell: for Webcamoid updates if installed from universe pocket as a deb-version, since this would cause errors in the  user's system and force them to download a non-deb version. This only affects users who don't have an existing Webcamoid configuration."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:119
+msgid "### Linux Kernel"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:123
+msgid ""
+"Ubuntu MATE 20.10 includes the 5.8 Linux kernel. This includes numerous\n"
+"updates and added support since the 5.4 Linux kernel released in\n"
+"Ubuntu 20.04 LTS. Some notable examples include:"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:136
+msgid ""
+"* Airtime Queue limits for better WiFi connection quality\n"
+"* Btrfs RAID1 with 3 and 4 copies and more checksum alternatives\n"
+"* USB 4 (Thunderbolt 3 protocol) support added\n"
+"* X86 Enable 5-level paging support by default\n"
+"* Intel Gen11 (Ice Lake) and Gen12 (Tiger Lake) graphics support\n"
+"* Initial support for AMD Family 19h (Zen 3)\n"
+"* Thermal pressure tracking for systems for better task placement wrt CPU core\n"
+"* XFS online repair\n"
+"* OverlayFS pairing with VirtIO-FS\n"
+"* General Notification Queue for key/keyring notification, mount changes, etc.\n"
+"* Active State Power Management (ASPM) for improved power savings of PCIe-to-PCI devices\n"
+"* Initial support for POWER10"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:138
+msgid "## Raspberry Pi images"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:141
+msgid ""
+"We have been preparing Ubuntu MATE 20.04 images for the Raspberry Pi and\n"
+"we will be release final image for 20.04 and 20.10 in the coming days 🙂"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:143
+msgid "## Major Applications"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:146
+msgid ""
+"Accompanying **MATE Desktop 1.24.1** and **Linux 5.8** are **Firefox\n"
+"81**, **LibreOffice 7.0.2**, **Evolution 3.38** & **Celluloid 0.18**."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:149
+msgid ""
+"{:.center}\n"
+"![Major Applications](/images/blog/groovy/versions.png)"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:152
+msgid ""
+"See the [Ubuntu 20.10 Release Notes](https://discourse.ubuntu.com/t/groovy-gorilla-release-notes/15533)\n"
+"for details of all the changes and improvements that Ubuntu MATE benefits from."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:161
+msgid "## Upgrading from Ubuntu MATE 20.04 LTS"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:165
+msgid ""
+"You can upgrade to Ubuntu MATE 20.10 from Ubuntu MATE 20.04 LTS. Ensure that you\n"
+"have all updates installed for your current version of Ubuntu MATE before you\n"
+"upgrade."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:173
+msgid ""
+"  * Open the \"Software & Updates\" from the Control Center.\n"
+"  * Select the 3rd Tab called \"Updates\".\n"
+"  * Set the \"Notify me of a new Ubuntu version\" drop down menu to \"For any new version\".\n"
+"  * Press <kbd>Alt</kbd>+<kbd>F2</kbd> and type in `update-manager -c -d` into the command box.\n"
+"  * Update Manager should open up and tell you: New distribution release 'XX.XX' is available.\n"
+"    * If not, you can use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`\n"
+"  * Click \"Upgrade\" and follow the on-screen instructions."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:177
+msgid ""
+"There are no offline upgrade options for Ubuntu MATE. Please ensure you have\n"
+"network connectivity to one of the official mirrors or to a locally accessible\n"
+"mirror and follow the instructions above."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:180
+msgid "## Known Issues"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:182
+msgid "Here are the known issues."
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:187
+msgid "## Feedback"
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:190
+msgid ""
+"Is there anything you can help with or want to be involved in? Maybe you just\n"
+"want to discuss your experiences or ask the maintainers some questions. Please\n"
+"[come and talk to us](https://ubuntu-mate.community/)."
+msgstr ""
