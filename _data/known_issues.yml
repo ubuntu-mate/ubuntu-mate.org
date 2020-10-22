@@ -1,8 +1,8 @@
-- release: 20.10
+- release: "20.10"
   component: Ubuntu
   problem: Initial sound level set to zero, breaks screen reader install
   workaround_links:
-    - For non-screen reader users, sound can be manually unmuted from `alsamixer` 
+    - https://bugs.launchpad.net/ubuntu/+source/alsa-lib/+bug/1897934/comments/9
   upstream_links:
     - https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/1897934
 
