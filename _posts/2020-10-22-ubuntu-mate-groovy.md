@@ -21,7 +21,7 @@ Active Directory authentication) and migrated to the Ayatana Indicators project.
 If you want bug fixes :bug:, kernel updates :corn:, a new web camera control :movie_camera:,
 and a new indicator :point_right: experience, then 20.10 is for you :tada:. Ubuntu MATE 20.10
 will be supported for 9 months until July 2021. If you need Long Term
-Support, we recommend you use [Ubuntu MATE 20.04 LTS](website!)
+Support, we recommend you use Ubuntu MATE 20.04 LTS.
 
 Read on to learn more... :point_down:
 
