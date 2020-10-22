@@ -3,7 +3,13 @@
     margin-bottom: 60px;
 }
 
-@media screen and (min-width: $sm + 1px) {
+@media screen and (max-width: $md) {
+    #blog-sidebar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: $md + 1px) {
     .blog-left-border {
         border-left: 1px solid $grey-light;
 
