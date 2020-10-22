@@ -32,7 +32,7 @@ releases:
         mascot: "groovy.svg"
         wallpaper: "focal.jpg"
         lts: false
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-groovy-gorilla-release-notes/"
         end_of_life:
             month: Jul
