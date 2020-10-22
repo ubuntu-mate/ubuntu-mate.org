@@ -5,7 +5,7 @@ permalink: /blog/ubuntu-mate-groovy-gorilla-release-notes/
 category: release
 author: Monica Madon & Martin Wimpress
 lang: en
-discourse_topic_id: # TBC
+discourse_topic_id: # 22888
 
 title: Ubuntu MATE 20.10 Release Notes
 description: What's new in Ubuntu MATE 20.10 (Groovy Gorilla)
