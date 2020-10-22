@@ -67,10 +67,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:05a34417a9058a0082c0d11541c39dea60f17bec&dn=ubuntu-mate-20.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: groovy
-          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/beta/ubuntu-mate-20.10-beta-desktop-amd64.iso"
-          sha256sum: "cfc55ef10be8c8736cf14b03426e148f350ad66c02a9e3c60205002f1753c826"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/release/ubuntu-mate-20.10-desktop-amd64.iso"
+          sha256sum: "9c7eee81c26ee28d825635641a4d948a940b0c04b7b506d422ac674b204807e5"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:a5f58a23f2ad1df550d44037ce7dd4c438f04978&dn=ubuntu-mate-20.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:897ba1967a2cebd37cf98b6d8071c12230362a28&dn=ubuntu-mate-20.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     i386:
         - release: bionic
