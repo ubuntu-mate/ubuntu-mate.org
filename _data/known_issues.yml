@@ -1,11 +1,3 @@
-- release: "20.10"
-  component: Ubuntu
-  problem: Initial sound level set to zero, breaks screen reader install
-  workaround_links:
-    - https://bugs.launchpad.net/ubuntu/+source/alsa-lib/+bug/1897934/comments/9
-  upstream_links:
-    - https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/1897934
-
 - release: 20.04 LTS
   component: Ubuntu MATE
   problem: Some locales (like pt_BL) are missing menu icons.
