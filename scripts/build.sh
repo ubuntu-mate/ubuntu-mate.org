@@ -59,10 +59,6 @@ fi
 # Build the site
 echo -e "\nJekyll Build"
 echo "------------------------------------------------------"
-if [ ! -d _site/ ]; then
-    mkdir _site
-fi
-
 export JEKYLL_ENV=production
 bundle exec jekyll build
 abort_if_failed $?

@@ -30,11 +30,19 @@ jobs:
         bundle config path vendor/bundle
         bundle install --jobs=4
 
-    - name: Build website
+    - name: Build Website
+      run: |
+        scripts/build.sh --magnet-uri
+
+    - name: Proofing
+      run: |
+        scripts/test.sh
+
+    - name: Build Website (with locales)
       run: |
         scripts/build.sh --magnet-uri --locales
 
-    - name: Test for errors
+    - name: Proofing (with locales)
       run: |
         scripts/test.sh
 
