@@ -1,15 +1,15 @@
 #
 # Translators:
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-10-23 22:24+0100\n"
 "PO-Revision-Date: 2020-07-22 17:09+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -34,7 +34,6 @@ msgid "## Community Support"
 msgstr "## Поддержка сообщества"
 
 #: pages/support.md:18
-#, fuzzy
 msgid ""
 "If you need help, we encourage you to join fellow users in the\n"
 "[Ubuntu MATE Community](https://ubuntu-mate.community/). If this is your\n"
@@ -44,9 +43,8 @@ msgid ""
 "support/10). Be detailed with\n"
 "your description of the problem and be excellent to each other."
 msgstr ""
-"Если ваша проблема не представлена в списке выше, мы крайне рекомендуем "
-"рассказать о ней на [Ubuntu MATE Community](https://ubuntu-mate."
-"community/).\n"
+"Если вам нужна помощь, мы рекомендуем вам присоединиться к другим "
+"пользователям на [Ubuntu MATE Community](https://ubuntu-mate.community/).\n"
 "Если вы делаете это в первый раз, то вам следует создать новую учетную "
 "запись нажатием на кнопку **Sign Up** в правом верхнем углу страницы.\n"
 "После создания учетной записи вы сможете сообщить о своей проблеме в разделе "
@@ -63,7 +61,6 @@ msgid "## Official Guide"
 msgstr "## Официальное руководство"
 
 #: pages/support.md:27
-#, fuzzy
 msgid ""
 "If this is your first time using Ubuntu MATE, we have an official guide \n"
 "to assist you on your journey. It's also pre-installed under the \n"
@@ -131,16 +128,21 @@ msgstr ""
 
 #: pages/support.md:51
 msgid "For a complete listing of Ubuntu MATE Bugs:"
-msgstr ""
+msgstr "Полный список ошибок Ubuntu MATE:"
 
 #: pages/support.md:53
 msgid ""
 "[Ubuntu MATE Bugs on Launchpad](https://bugs.launchpad.net/ubuntu-mate){:."
 "btn .green}"
 msgstr ""
+"[Ошибки Ubuntu MATE на Launchpad](https://bugs.launchpad.net/ubuntu-mate){:."
+"btn .green}"
 
 #: pages/support.md:54
 msgid ""
 "To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/"
 "bug-triage/) under [Get Involved](/get-involved/)."
 msgstr ""
+"Чтобы узнать как сообщить об ошибке, посетите страницу [Сообщение об ошибках "
+"и сортировка](/get-involved/bug-triage/) в разделе [Участвовать](/get-"
+"involved/)."

@@ -1,7 +1,7 @@
 #
 # Translators:
 # Luke Horwell, 2020
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #. extracted from _data/strings.yml
 #, fuzzy
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-10-23 22:24+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -520,11 +520,11 @@ msgstr "Смотреть продукт"
 
 #: filter_distro
 msgid "Show:"
-msgstr ""
+msgstr "Показать:"
 
 #: filter_min_only
 msgid "Minimal install only"
-msgstr ""
+msgstr "Только минимальная установка"
 
 #: mate_desktop
 msgid "MATE Desktop"
@@ -1011,12 +1011,3 @@ msgstr "Содержание"
 #: highlight_video
 msgid "Highlights"
 msgstr "Особенности"
-
-#~ msgid "Development Trello Boards"
-#~ msgstr "Планирание разработки в Trello"
-
-#~ msgid "Ubuntu MATE on Mastodon"
-#~ msgstr "Ubuntu MATE в Mastodon"
-
-#~ msgid "Not included in minimal install"
-#~ msgstr "Не включено в минимальную установку"

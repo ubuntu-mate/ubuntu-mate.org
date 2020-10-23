@@ -1,15 +1,15 @@
 #
 # Translators:
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-10-23 22:24+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -30,7 +30,6 @@ msgid "## Bug Fixing"
 msgstr "## Исправление ошибок"
 
 #: pages/get-involved-bug-fixing.md:18
-#, fuzzy
 msgid ""
 "If you're new to fixing bugs in Ubuntu MATE, and Ubuntu in general, you'll "
 "need\n"
@@ -43,14 +42,13 @@ msgstr ""
 "Эта\n"
 "[страница Ubuntu Wiki](https://wiki.ubuntu.com/HelpingWithBugs) - отличное "
 "место\n"
-"для начала."
+"для изучения процесса исправления ошибок в Ubuntu."
 
 #: pages/get-involved-bug-fixing.md:20
 msgid "### Recommended Skills"
 msgstr "### Рекомендуемые навыки"
 
 #: pages/get-involved-bug-fixing.md:27
-#, fuzzy
 msgid ""
 "Although programming knowledge is very helpful, there are some\n"
 "non-programming ways to handle reported and triaged issues. For example, \n"
@@ -61,8 +59,7 @@ msgid ""
 "developers \n"
 "or other distributions."
 msgstr ""
-"Хотя знания программирования очень полезны при исправлении ошибок, так же "
-"существуют\n"
+"Хотя знания программирования очень полезны, так же существуют\n"
 "не связанные с программированием способы взаимодействия с сообщениями об "
 "ошибках и их сортировкой.\n"
 "Например, может быть опечатка или проблема с документацией. Если вы владеете "
@@ -99,7 +96,6 @@ msgstr ""
 "подтверждается."
 
 #: pages/get-involved-bug-fixing.md:39
-#, fuzzy
 msgid ""
 "If you would like to start in a safe bug-fixing sandbox, you can practice "
 "with\n"
@@ -116,7 +112,6 @@ msgid "### Learn More"
 msgstr "### Узнать больше"
 
 #: pages/get-involved-bug-fixing.md:45
-#, fuzzy
 msgid ""
 "This [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) page walks users \n"
 "through fixing bugs in Ubuntu. Also, be sure to join the amazing resource \n"
@@ -126,13 +121,7 @@ msgstr ""
 "Эта страница [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) проводит "
 "пользователя через весь процесс исправления ошибок в Ubuntu.\n"
 "Также обязательно воспользуйтесь таким замечательным ресурсом, как "
-"[сообщество Ubuntu MATE](https://ubuntu-mate.community/c/support/10)!\n"
-"Наконец, это видео, помимо того, что является полезным пособием по выявлению "
-"и сортировке ошибок,\n"
-"также объясняет почему нужно делать исправление в нужном месте и\n"
-"почему исправление на уровне Ubuntu (в пакетах) иногда оказывается лучшим "
-"решением,\n"
-"чем простое исправление в восходящем потоке."
+"[сообщество Ubuntu MATE](https://ubuntu-mate.community/c/support/10)!"
 
 #: pages/get-involved-bug-fixing.md:49
 msgid ""
@@ -140,3 +129,9 @@ msgid ""
 "place, and why patching at the Ubuntu level (in the packages) is sometimes \n"
 "better than only fixing upstream."
 msgstr ""
+"Наконец, это видео, помимо того, что является полезным пособием по выявлению "
+"и сортировке ошибок,\n"
+"также объясняет почему нужно делать исправление в нужном месте и\n"
+"почему исправление на уровне Ubuntu (в пакетах) иногда оказывается лучшим "
+"решением,\n"
+"чем простое исправление в восходящем потоке."
