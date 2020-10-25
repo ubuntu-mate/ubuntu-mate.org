@@ -72,7 +72,7 @@
   upstream_links:
     - https://bugs.launchpad.net/ubuntu-mate/+bug/1884379
     
-- release: 20.10
+- release: "20.10"
   component: Ayatana Indicators
   problem: Clock missing on panel upon upgrade to 20.10
   workaround_links:
