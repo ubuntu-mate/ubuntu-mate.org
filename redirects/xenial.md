@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /xenial/
-destination: /old-release/
+destination: https://releases.ubuntu-mate.org/archived/xenial/
 ---

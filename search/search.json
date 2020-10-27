@@ -15,7 +15,6 @@ lang: en
         {% when "/502.html" %}{% continue %}
         {% when "/503.html" %}{% continue %}
         {% when "/504.html" %}{% continue %}
-        {% when "/old-release/" %}{% continue %}
     {% endcase %}
 
     {

@@ -27,7 +27,7 @@ did to make [Ubuntu MATE 15.04 for the Raspberry Pi 2](/ports/raspberry-pi/). Th
 instructions are brief but hopefully sufficient for ARM device hackers to get
 started.
 
-  * [Ubuntu MATE for ARMv7 documentation and downloads](/old-release/)
+  * [Ubuntu MATE for ARMv7 documentation and downloads](https://releases.ubuntu-mate.org/archived/vivid/armhf/)
   * [Ubuntu MATE for ARMv7 build scripts](https://github.com/mibs510/ubuntu-mate-armhf/tree/076ef07bb502923cd43cb07331476e9730fbefe7)
 
 We'd love to see Ubuntu MATE images for more ARMv7 devices. We will gladly host
