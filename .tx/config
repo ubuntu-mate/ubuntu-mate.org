@@ -211,12 +211,6 @@ source_file = _i18n/pots/irc.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.old-link]
-file_filter = _i18n/<lang>/old-link.po
-source_file = _i18n/pots/old-link.pot
-source_lang = en
-type = PO
-
 [ubuntu-mate-org.ports-raspberry-pi-change-log]
 file_filter = _i18n/<lang>/ports-raspberry-pi-change-log.po
 source_file = _i18n/pots/ports-raspberry-pi-change-log.pot

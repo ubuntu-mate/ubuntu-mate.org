@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /vivid/
-destination: /old-release/
+destination: https://releases.ubuntu-mate.org/archived/vivid/
 ---

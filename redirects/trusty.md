@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /trusty/
-destination: /old-release/
+destination: https://releases.ubuntu-mate.org/archived/trusty/
 ---
