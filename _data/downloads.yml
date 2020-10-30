@@ -103,10 +103,10 @@ downloads:
           bandwidth_costs: true
 
         - release: groovy
-          url: "https://releases.ubuntu-mate.org/groovy/arm64/ubuntu-mate-20.04.1-desktop-arm64+raspi.img.xz"
+          url: "https://releases.ubuntu-mate.org/groovy/arm64/ubuntu-mate-20.10-desktop-arm64+raspi.img.xz"
           sha256sum: "06e26aa197eb8e7fc8144b006aab7a011fdd03990b0bf3584a95c36d55546170"
           size: "1.2 GB"
-          magnet-uri: ""
+          magnet-uri: "magnet:?xt=urn:btih:335354bfd362b1b9f2909be9b110a7d7d56a8988&dn=ubuntu-mate-20.10-desktop-arm64%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     gpd_pocket:
