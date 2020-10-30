@@ -159,7 +159,6 @@ downloads:
 
     topjoy_falcon:
         - release: focal
-          release_name_override: "20.04.1"
           url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-topjoy-falcon.iso"
           sha256sum: "b614954b3c1862ef82959a71a663f98ee95537eff71ff41645b6edcaf8b1369b"
           size: "2.5 GB"
