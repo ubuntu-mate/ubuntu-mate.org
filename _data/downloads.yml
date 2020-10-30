@@ -84,14 +84,14 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/armhf/ubuntu-mate-20.04.1-desktop-armhf+raspi.img.xz"
           sha256sum: "9f0310b5a7f665ea4cf2b8b75a7b3cc104cfe33b7628a4876979f922c9f5d1cf"
           size: "1.1 GB"
-          magnet-uri: "magnet:?xt=urn:btih:518045823d47e45d00e5230716a8310f31d16a92&dn=ubuntu-mate-20.04.1-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-desktop-armhf%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-desktop-armhf%2Braspi.img.xz"
+          magnet-uri: "magnet:?xt=urn:btih:518045823d47e45d00e5230716a8310f31d16a92&dn=ubuntu-mate-20.04.1-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
         - release: groovy
           url: "https://releases.ubuntu-mate.org/groovy/armhf/ubuntu-mate-20.10-desktop-armhf+raspi.img.xz"
           sha256sum: "50390e16c6c66eb43724bbd4227a0bd469fe2eb342d2ae7aa12e2e62c296d661"
           size: "1.2 GB"
-          magnet-uri: "magnet:?xt=urn:btih:fc3640b2855622481a75b78e3b2b481edc5c9682&dn=ubuntu-mate-20.10-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.10-desktop-armhf%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.10-desktop-armhf%2Braspi.img.xz"
+          magnet-uri: "magnet:?xt=urn:btih:fc3640b2855622481a75b78e3b2b481edc5c9682&dn=ubuntu-mate-20.10-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     arm64:
@@ -99,7 +99,7 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/arm64/ubuntu-mate-20.04.1-desktop-arm64+raspi.img.xz"
           sha256sum: "81593d415c48f01ae429289375dc870573ddb414de201409b0fc8e96e2e663e3"
           size: "1.2 GB"
-          magnet-uri: "magnet:?xt=urn:btih:152bb961f073173ee6b0a0a3e2d0c77c569646cb&dn=ubuntu-mate-20.04.1-desktop-arm64%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-desktop-arm64%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fraspberry-pi%2Fubuntu-mate-20.04.1-desktop-arm64%2Braspi.img.xz"
+          magnet-uri: "magnet:?xt=urn:btih:152bb961f073173ee6b0a0a3e2d0c77c569646cb&dn=ubuntu-mate-20.04.1-desktop-arm64%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
         - release: groovy
@@ -114,7 +114,7 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket.iso"
           sha256sum: "681d92ab653842fdce5105054fee2859c42b986583c0ed666a616487f33c9380"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:e02b355665e11c926d7eb592e09bf9ba50f9c732&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-pocket.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-pocket.iso"
+          magnet-uri: "magnet:?xt=urn:btih:e02b355665e11c926d7eb592e09bf9ba50f9c732&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     gpd_pocket_2:
@@ -122,7 +122,7 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket2.iso"
           sha256sum: "a4e55363b87afd25c3550bbdd54ebed05204e15bb7b7155b436ba0652d035a8a"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:36d4ad0876f832167ed3d0aa0c652c478430f077&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-pocket2.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-pocket2.iso"
+          magnet-uri: "magnet:?xt=urn:btih:36d4ad0876f832167ed3d0aa0c652c478430f077&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     gpd_micropc:
@@ -130,7 +130,7 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-gpd-micropc.iso"
           sha256sum: "dfe0233c045bed163dec663a86798cd3f823116de1a248e310774f9069c35285"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:8371c62ce75417ca1abcb21eac00137d87f68d7c&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-micropc.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-micropc.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-micropc.iso"
+          magnet-uri: "magnet:?xt=urn:btih:8371c62ce75417ca1abcb21eac00137d87f68d7c&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-micropc.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     gpd_p2_max:
@@ -138,7 +138,7 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-gpd-p2-max.iso"
           sha256sum: "3cb9997549d84dbfe0ff0b61cefe1ac3b90c2b6c57c4974915155c1982291774"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:c46a9546736f820aae13568d4b6b67ce6e9a46e2&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-p2-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-p2-max.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-gpd-p2-max.iso"
+          magnet-uri: "magnet:?xt=urn:btih:c46a9546736f820aae13568d4b6b67ce6e9a46e2&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-p2-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     topjoy_falcon:
@@ -146,5 +146,5 @@ downloads:
           url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-topjoy-falcon.iso"
           sha256sum: "b614954b3c1862ef82959a71a663f98ee95537eff71ff41645b6edcaf8b1369b"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:55d8d1f8e843b3caab4621a2bf1845817efbc0ee&dn=ubuntu-mate-20.04.1-desktop-amd64-topjoy-falcon.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-topjoy-falcon.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-20.04.1-desktop-amd64-topjoy-falcon.iso"
+          magnet-uri: "magnet:?xt=urn:btih:55d8d1f8e843b3caab4621a2bf1845817efbc0ee&dn=ubuntu-mate-20.04.1-desktop-amd64-topjoy-falcon.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
