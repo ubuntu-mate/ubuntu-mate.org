@@ -10,10 +10,10 @@ title: Raspberry Pi
 
 # Ubuntu MATE for Raspberry Pi
 
-Ubuntu MATE 20.04 beta 1 is available for Raspberry Pi Model B 2, 3, 3+ and 4 with
-separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done
-what we can to optimise the builds for the Raspberry Pi without sacrificing the full
-desktop environment Ubuntu MATE provides on PC.
+Ubuntu MATE 20.04 is available for Raspberry Pi with separate images for
+`armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what we can to
+optimise the builds for the Raspberry Pi without sacrificing the full desktop
+environment Ubuntu MATE provides on PC.
 
 Ubuntu MATE for the Raspberry Pi provides a complete, familiar, desktop environment
 that can be used for basic desktop computing. It is also of interest to makers and
@@ -43,37 +43,41 @@ High-level features of these images are:
   * Audio out via 3.5mm analog audio jack or HDMI
   * Video out via Composite or HDMI
   * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io) and [WiringPi](http://wiringpi.com/).
-  * Additional software:
-    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.
+  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md) is available for Ubuntu MATE 20.10 or newer.
+  * Automatic first-boot file system resizing.
+  * First-boot setup wizard guides you through creating a user account and configuring WiFi.
 
-<!--  * Support for [USB Booting](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md).
+<!--
   * Hardware acceleration:
     *  `ffmpeg` has hardware assisted video decoding and encoding.
     *  VLC has hardware assisted video decoding.
   * Additional software:
+    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589) is available for install.
     * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
 -->
 
 {:.center .small}
-![Ubuntu MATE running on the Raspberry Pi 3+](/images/ports/09_raspberrypi.png)
-**Ubuntu MATE running on the Raspberry Pi 3+**
+![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi.png)
+**Ubuntu MATE running on the Raspberry Pi 4**
 
 ## Supported Raspberry Pi
 
   * These images work on:
     * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) **(recommended)**
-      * A **Raspberry Pi 4 with 2GB or more** offers the best experience
-    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+    * [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000) in a [Compute Module 4 IO Board](https://www.raspberrypi.org/products/compute-module-4-io-board/) **(recommended)**
+      * A **Raspberry Pi 4 and Compute Module 4 with 2GB RAM or more** offers the best experience.
+    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(not recommended)**
+      * With just 1GB of RAM, everything works but desktop use is hampered by memory pressure.
+
+## Unsupported Raspberry Pi
 
   * These images *kind of* work on:
-    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
+    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) **(not recommended)**
     * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**
     * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) **(not recommended)**
       * Fails to complete the first boot setup due to insufficient memory.
       * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.
-      * Due to only having 512MB RAM the `arm64` is not recommended. The `armhf` version can be very tight on resources.
-
-## Unsupported Raspberry Pi
+      * Due to only having 512MB RAM the `arm64` is not recommended; even the `armhf` version can be very tight on resources.
 
   * These images **will not work on** any Raspberry Pi model using an ARMv6 instruction set:
     * [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)
@@ -99,13 +103,13 @@ space of the microSD card. Here is our recommended kit lists on Amazon:
 
 {:.transparent .icons}
 |Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|
-|[![Raspberry Pi 4 8GB RAM ](/images/ports/pi4-8GB.jpg)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.jpg)](https://geni.us/oRQKPJ)|
+|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.jpg)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.jpg)](https://geni.us/oRQKPJ)|
 
 ### Raspberry Pi 4 with 4GB RAM
 
 {:.transparent .icons}
 |Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go Plus|
-|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|
+|[![Raspberry Pi 4 4GB RAM](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|
 
 ### Raspberry Pi 4 with 2GB RAM
 
@@ -114,38 +118,39 @@ space of the microSD card. Here is our recommended kit lists on Amazon:
 |[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
 
 {% include blog/jumbotron.html
-
     title = "Download"
-    text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3, 3+ or 4 today."
+    text = "Run Ubuntu MATE on your Raspberry Pi today."
     button_text = "Download"
-
     button_url = "/download/"
 %}
 
-
 ## Additional features
-<!--
+
 ### USB Booting
 
-The Ubuntu MATE 18.04.2 images for the Raspberry Pi support USB booting.
+Ubuntu MATE 20.10 and newer support USB booting, **but Ubuntu MATE 20.04 does not**.
+
+### Compute Module 4
+
+If you have a [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000)
+you can enable the USB2 outputs on the [Compute Module 4 IO Board](https://www.raspberrypi.org/products/compute-module-4-io-board/),
+assuming your Compute Module is plugged into such a board, by un-commenting the following line in
+`/boot/firmware/config.txt`.
+
+    #dtoverlay=dwc2,dr_mode=host
+
+#### Enable USB boot for Raspberry Pi 4
+
+To enable USB mass storage boot on a Raspberry Pi 4 follow these steps:
+
+  * [Enable optional USB boot on Raspberry Pi 4](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#4-optional-usb-boot)
+
+### Enable USB boot for Raspberry Pi 2, 3 and 3+
 
 The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,
 are capable of booting from a USB drive. For the Pi 2 and 3 you'll first
 need to [program USB boot mode](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md),
 this is unnecessary on the Pi 3+ as USB booting is enabled by default.
--->
-### Re-size file system
-
-The root partition is automatically resized, on first boot, to fully utilise
-all the available space. No reboots required.
-
-### First boot
-
-**NOTE! There are no predefined user accounts**. The first time you
-boot the Ubuntu MATE image it will run through a setup wizard where you
-can create your own user account and configure your regional settings.
-The first boot setup takes a few minutes to complete, but subsequent
-boots are much quicker.
 
 ### Firmware
 
@@ -166,6 +171,7 @@ to protect from brute force attacks against SSH.
 
     sudo apt install sshguard
 
+<!--
 ### Steam Link for Raspberry Pi
 
 The Steam Link app extends Steam Link functionality to the Raspberry Pi
@@ -179,7 +185,6 @@ You can learn more about Steam Link for Raspberry Pi from Valve:
 
   * [Steam Link App for Raspberry Pi](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589)
 
-<!--
 ### Minecraft: Pi Edition
 
 Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry Pi.
@@ -196,8 +201,12 @@ and use the Python interface to manipulate the world around you from the Raspber
 
 ### Redirecting audio output
 
-The sound will output to HDMI by default if both HDMI and the 3.5mm audio jack
-are connected. You can, however, force the system to output to a particular
+If you have issues with audio, you may try un-commenting the following line in `/boot/firmware/config.txt`:
+
+    #hdmi_drive=2
+
+This forces the HDMI output into HDMI mode instead of DVI; which doesn't support
+audio output. You can also configure the system to output to a particular audio
 device.
 
 #### For HDMI
@@ -233,6 +242,19 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Recent Changes
 
+### Ubuntu MATE 20.04.1 & 20.10 - October 30th 2020
+
+  * Ubuntu MATE 20.10 is capable of USB boot.
+  * Compute Module 4 support.
+  * The `gpio`, `i2c`, `input` and `spi` groups are pre-created.
+    * The user created using the first-boot wizard is automatically added to the groups above.
+  * `cloud-init` is completely removed; file system expansion is handled by `cloud-initramfs-growroot` and the `x-systemd.growfs` mount option.
+  * Snaps are initialized while the first-boot setup wizard runs.
+  * Plymouth splash screen is displayed correctly during first-boot.
+  * Serial console is disabled by default.
+  * `gpu_mem` configured for 128MB by default.
+  * `hdmi_drive` now defaults to DVI mode.
+
 ### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020
 
   * Re-based on Ubuntu MATE 20.04.1.
@@ -250,12 +272,6 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
   * Minecraft: Pi Edition is still be packaged.
   * USB Booting is work in progress.
   * Dropped `raspi-config`; we have something else in the works...
-
-## Known Issues
-
-  * The boot following initial setup is a little slow as the file system is automatically expanded and initial system configuration is completed.
-    * After this, boot performance is prompt.
-  * No USB booting *(yet)*
 
 ### Previous Changes
 
