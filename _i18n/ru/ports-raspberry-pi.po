@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-10-31 18:07+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Nikolay Strelkov, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -30,14 +30,14 @@ msgid "# Ubuntu MATE for Raspberry Pi"
 msgstr "# Ubuntu MATE для Raspberry Pi"
 
 #: pages/ports-raspberry-pi.md:17
+#, fuzzy
 msgid ""
-"Ubuntu MATE 20.04 beta 1 is available for Raspberry Pi Model B 2, 3, 3+ and "
-"4 with\n"
-"separate images for  `armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We "
-"have done\n"
-"what we can to optimise the builds for the Raspberry Pi without sacrificing "
-"the full\n"
-"desktop environment Ubuntu MATE provides on PC."
+"Ubuntu MATE 20.04 is available for Raspberry Pi with separate images for\n"
+"`armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what we can "
+"to\n"
+"optimise the builds for the Raspberry Pi without sacrificing the full "
+"desktop\n"
+"environment Ubuntu MATE provides on PC."
 msgstr ""
 "Ubuntu MATE 20.04 beta 1 доступна для Raspberry Pi Model B 2, 3, 3+ и 4 в "
 "виде\n"
@@ -103,7 +103,8 @@ msgstr "## Возможности"
 msgid "High-level features of these images are:"
 msgstr "Основные возможности образов:"
 
-#: pages/ports-raspberry-pi.md:48
+#: pages/ports-raspberry-pi.md:49
+#, fuzzy
 msgid ""
 "  * Ubuntu kernel.\n"
 "    * Performance optimised by the Ubuntu Kernel team.\n"
@@ -119,9 +120,12 @@ msgid ""
 "  * Video out via Composite or HDMI\n"
 "  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io) and "
 "[WiringPi](http://wiringpi.com/).\n"
-"  * Additional software:\n"
-"    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-"
-"IFGH-6589) is available for install."
+"  * Support for [USB Booting](https://www.raspberrypi.org/documentation/"
+"hardware/raspberrypi/bootmodes/msd.md) is available for Ubuntu MATE 20.10 or "
+"newer.\n"
+"  * Automatic first-boot file system resizing.\n"
+"  * First-boot setup wizard guides you through creating a user account and "
+"configuring WiFi."
 msgstr ""
 "  * Ядро из Ubuntu.\n"
 "    * Оптимизация производительности командой разработки Ubuntu Kernel.\n"
@@ -142,14 +146,16 @@ msgstr ""
 "    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-"
 "IFGH-6589) доступно для установки."
 
-#: pages/ports-raspberry-pi.md:56
+#: pages/ports-raspberry-pi.md:58
+#, fuzzy
 msgid ""
-"<!--  * Support for [USB Booting](https://www.raspberrypi.org/documentation/"
-"hardware/raspberrypi/bootmodes/msd.md).\n"
+"<!--\n"
 "  * Hardware acceleration:\n"
 "    *  `ffmpeg` has hardware assisted video decoding and encoding.\n"
 "    *  VLC has hardware assisted video decoding.\n"
 "  * Additional software:\n"
+"    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-"
+"IFGH-6589) is available for install.\n"
 "    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/"
 "getting-started-with-minecraft-pi) is available for install.\n"
 "-->"
@@ -165,30 +171,39 @@ msgstr ""
 "getting-started-with-minecraft-pi) доступно для загрузки.\n"
 "-->"
 
-#: pages/ports-raspberry-pi.md:60
+#: pages/ports-raspberry-pi.md:62
+#, fuzzy
 msgid ""
 "{:.center .small}\n"
-"![Ubuntu MATE running on the Raspberry Pi 3+](/images/ports/09_raspberrypi."
+"![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi."
 "png)\n"
-"**Ubuntu MATE running on the Raspberry Pi 3+**"
+"**Ubuntu MATE running on the Raspberry Pi 4**"
 msgstr ""
 "{:.center .small}\n"
 "![Ubuntu MATE работает на Raspberry Pi 3+](/images/ports/09_raspberrypi."
 "png)\n"
 "**Ubuntu MATE работает на Raspberry Pi 3+**"
 
-#: pages/ports-raspberry-pi.md:62
+#: pages/ports-raspberry-pi.md:64
 msgid "## Supported Raspberry Pi"
 msgstr "## Поддерживаемые Raspberry Pi"
 
-#: pages/ports-raspberry-pi.md:67
+#: pages/ports-raspberry-pi.md:71
+#, fuzzy
 msgid ""
 "  * These images work on:\n"
 "    * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/"
 "raspberry-pi-4-model-b/) **(recommended)**\n"
-"      * A **Raspberry Pi 4 with 2GB or more** offers the best experience\n"
+"    * [Compute Module 4](https://www.raspberrypi.org/products/compute-"
+"module-4/?variant=raspberry-pi-cm4001000) in a [Compute Module 4 IO Board]"
+"(https://www.raspberrypi.org/products/compute-module-4-io-board/) "
+"**(recommended)**\n"
+"      * A **Raspberry Pi 4 and Compute Module 4 with 2GB RAM or more** "
+"offers the best experience.\n"
 "    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/"
-"raspberry-pi-3-model-b-plus/)"
+"raspberry-pi-3-model-b-plus/) **(not recommended)**\n"
+"      * With just 1GB of RAM, everything works but desktop use is hampered "
+"by memory pressure."
 msgstr ""
 "  * Эти образы работают на:\n"
 "    * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/"
@@ -198,11 +213,16 @@ msgstr ""
 "    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/"
 "raspberry-pi-3-model-b-plus/)"
 
-#: pages/ports-raspberry-pi.md:75
+#: pages/ports-raspberry-pi.md:73
+msgid "## Unsupported Raspberry Pi"
+msgstr "## Неподдерживаемые Raspberry Pi"
+
+#: pages/ports-raspberry-pi.md:81
+#, fuzzy
 msgid ""
 "  * These images *kind of* work on:\n"
 "    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/"
-"raspberry-pi-3-model-b/)\n"
+"raspberry-pi-3-model-b/) **(not recommended)**\n"
 "    * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/"
 "raspberry-pi-3-model-a-plus/) **(not recommended)**\n"
 "    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/"
@@ -210,8 +230,8 @@ msgid ""
 "      * Fails to complete the first boot setup due to insufficient memory.\n"
 "      * If you have completed the setup on another Pi that card can be "
 "inserted in a Pi 3 Model A+ and it will work.\n"
-"      * Due to only having 512MB RAM the `arm64` is not recommended. The "
-"`armhf` version can be very tight on resources."
+"      * Due to only having 512MB RAM the `arm64` is not recommended; even "
+"the `armhf` version can be very tight on resources."
 msgstr ""
 "  * Эти образы *почти* работают на:\n"
 "    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/"
@@ -227,11 +247,7 @@ msgstr ""
 "      * Из-за наличия только 512 Мб ОЗУ использование `arm64` не "
 "рекомендуется. Версия `armhf` может быть очень скудной по ресурсам."
 
-#: pages/ports-raspberry-pi.md:77
-msgid "## Unsupported Raspberry Pi"
-msgstr "## Неподдерживаемые Raspberry Pi"
-
-#: pages/ports-raspberry-pi.md:83
+#: pages/ports-raspberry-pi.md:87
 msgid ""
 "  * These images **will not work on** any Raspberry Pi model using an ARMv6 "
 "instruction set:\n"
@@ -255,7 +271,7 @@ msgstr ""
 "    * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-"
 "pi-zero-w/)"
 
-#: pages/ports-raspberry-pi.md:93
+#: pages/ports-raspberry-pi.md:97
 msgid ""
 "Memory pressure is reasonable using the `armhf` images (~350MB at idle)\n"
 "but quite tight on the `arm64` images (~490MB at idle). As always,\n"
@@ -286,7 +302,7 @@ msgstr ""
 "[Можете не верить нам на слово](https://www.pidramble.com/wiki/benchmarks/"
 "microsd-cards)."
 
-#: pages/ports-raspberry-pi.md:97
+#: pages/ports-raspberry-pi.md:101
 msgid ""
 "You'll need a microSD card which is **8GB** or greater to fit the image.\n"
 "The file system will automatically resize to occupy the unallocated\n"
@@ -299,15 +315,16 @@ msgstr ""
 "карте памяти microSD. Ниже представлен список рекомендаций товаров, "
 "доступных на Amazon:"
 
-#: pages/ports-raspberry-pi.md:99
+#: pages/ports-raspberry-pi.md:103
 msgid "### Raspberry Pi 4 with 8GB RAM"
 msgstr "### Raspberry Pi 4 с 8 Гб ОЗУ"
 
-#: pages/ports-raspberry-pi.md:103
+#: pages/ports-raspberry-pi.md:107
+#, fuzzy
 msgid ""
 "{:.transparent .icons}\n"
 "|Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|\n"
-"|[![Raspberry Pi 4 8GB RAM ](/images/ports/pi4-8GB.jpg)](https://geni.us/"
+"|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.jpg)](https://geni.us/"
 "QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/"
 "lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme."
 "jpg)](https://geni.us/oRQKPJ)|"
@@ -319,16 +336,17 @@ msgstr ""
 "lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme."
 "jpg)](https://geni.us/oRQKPJ)|"
 
-#: pages/ports-raspberry-pi.md:105
+#: pages/ports-raspberry-pi.md:109
 msgid "### Raspberry Pi 4 with 4GB RAM"
 msgstr "### Raspberry Pi 4 с 4 Гб ОЗУ"
 
-#: pages/ports-raspberry-pi.md:109
+#: pages/ports-raspberry-pi.md:113
+#, fuzzy
 msgid ""
 "{:.transparent .icons}\n"
 "|Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go "
 "Plus|\n"
-"|[![Raspberry Pi 4 4GB RAM ](/images/ports/pi4-4GB.webp)](https://geni.us/"
+"|[![Raspberry Pi 4 4GB RAM](/images/ports/pi4-4GB.webp)](https://geni.us/"
 "wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/"
 "DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/"
 "KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|"
@@ -341,11 +359,11 @@ msgstr ""
 "DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/"
 "KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|"
 
-#: pages/ports-raspberry-pi.md:111
+#: pages/ports-raspberry-pi.md:115
 msgid "### Raspberry Pi 4 with 2GB RAM"
 msgstr "### Raspberry Pi 4 с 2 Гб ОЗУ"
 
-#: pages/ports-raspberry-pi.md:115
+#: pages/ports-raspberry-pi.md:119
 msgid ""
 "{:.transparent .icons}\n"
 "|Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I "
@@ -363,43 +381,71 @@ msgstr ""
 "[Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus."
 "png)](https://geni.us/AKAsg)|"
 
-#: pages/ports-raspberry-pi.md:121
-msgid ""
-"    title = \"Download\"\n"
-"    text = \"Run Ubuntu MATE on your Raspberry Pi Model B 2, 3, 3+ or 4 "
-"today.\"\n"
-"    button_text = \"Download\""
-msgstr ""
-"    title = \"Загрузка\"\n"
-"    text = \"Запустите Ubuntu MATE на вашей Raspberry Pi Model B 2, 3, 3+ "
-"или 4 сегодня.\"\n"
-"    button_text = \"Загрузка\""
-
-#: pages/ports-raspberry-pi.md:129
-msgid ""
-"## Additional features\n"
-"<!--\n"
-"### USB Booting"
+#: pages/ports-raspberry-pi.md:128
+#, fuzzy
+msgid "## Additional features"
 msgstr ""
 "## Дополнительное возможности\n"
 "<!--\n"
 "### Загрузка с USB"
 
-#: pages/ports-raspberry-pi.md:131
-msgid ""
-"The Ubuntu MATE 18.04.2 images for the Raspberry Pi support USB booting."
+#: pages/ports-raspberry-pi.md:130
+msgid "### USB Booting"
 msgstr ""
-"Образы Ubuntu MATE 18.04.2 могут быть запущены на Raspberry Pi через USB."
 
-#: pages/ports-raspberry-pi.md:138
+#: pages/ports-raspberry-pi.md:132
+msgid ""
+"Ubuntu MATE 20.10 and newer support USB booting, **but Ubuntu MATE 20.04 "
+"does not**."
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:134
+msgid "### Compute Module 4"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:139
+msgid ""
+"If you have a [Compute Module 4](https://www.raspberrypi.org/products/"
+"compute-module-4/?variant=raspberry-pi-cm4001000)\n"
+"you can enable the USB2 outputs on the [Compute Module 4 IO Board](https://"
+"www.raspberrypi.org/products/compute-module-4-io-board/),\n"
+"assuming your Compute Module is plugged into such a board, by un-commenting "
+"the following line in\n"
+"`/boot/firmware/config.txt`."
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:141
+msgid "    #dtoverlay=dwc2,dr_mode=host"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:143
+#, fuzzy
+msgid "#### Enable USB boot for Raspberry Pi 4"
+msgstr "### Steam Link для Raspberry Pi"
+
+#: pages/ports-raspberry-pi.md:145
+msgid "To enable USB mass storage boot on a Raspberry Pi 4 follow these steps:"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:147
+msgid ""
+"  * [Enable optional USB boot on Raspberry Pi 4](https://ubuntu.com/"
+"tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#4-optional-usb-"
+"boot)"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:149
+msgid "### Enable USB boot for Raspberry Pi 2, 3 and 3+"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:154
+#, fuzzy
 msgid ""
 "The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,\n"
 "are capable of booting from a USB drive. For the Pi 2 and 3 you'll first\n"
 "need to [program USB boot mode](https://www.raspberrypi.org/documentation/"
 "hardware/raspberrypi/bootmodes/msd.md),\n"
-"this is unnecessary on the Pi 3+ as USB booting is enabled by default.\n"
-"-->\n"
-"### Re-size file system"
+"this is unnecessary on the Pi 3+ as USB booting is enabled by default."
 msgstr ""
 "Платы Raspberry Pi 3, 3+ и Pi 2 v1.2, использующие систему на кристалле "
 "BCM2837 как у Pi 3,\n"
@@ -411,39 +457,11 @@ msgstr ""
 "-->\n"
 "### Изменение размера файловой системы"
 
-#: pages/ports-raspberry-pi.md:141
-msgid ""
-"The root partition is automatically resized, on first boot, to fully "
-"utilise\n"
-"all the available space. No reboots required."
-msgstr ""
-"Раздел корневой файловой системы автоматически изменяет свой размер при "
-"первой загрузке для полного использования\n"
-"всего доступного дискового пространства. Перезагрузка не требуется."
-
-#: pages/ports-raspberry-pi.md:143
-msgid "### First boot"
-msgstr "### Первая загрузка"
-
-#: pages/ports-raspberry-pi.md:149
-msgid ""
-"**NOTE! There are no predefined user accounts**. The first time you\n"
-"boot the Ubuntu MATE image it will run through a setup wizard where you\n"
-"can create your own user account and configure your regional settings.\n"
-"The first boot setup takes a few minutes to complete, but subsequent\n"
-"boots are much quicker."
-msgstr ""
-"**Примечание! Предустановленных учетных записей нет**. При первой загрузке\n"
-"образа Ubuntu MATE вам будет предложен мастер установки, где вы сможете\n"
-"создать пользователя и задать региональные настройки.\n"
-"Первая загрузка требует нескольких минут для завершения, а последующие\n"
-"загрузки выполняются значительно быстрее."
-
-#: pages/ports-raspberry-pi.md:151
+#: pages/ports-raspberry-pi.md:156
 msgid "### Firmware"
 msgstr "### Микропрограммы"
 
-#: pages/ports-raspberry-pi.md:155
+#: pages/ports-raspberry-pi.md:160
 msgid ""
 "The GPU firmware partition is mounted at `/boot/firmware`. The files\n"
 "`/boot/firmware/config.txt` and `/boot/firmware/cmdline.txt` contain\n"
@@ -454,11 +472,11 @@ msgstr ""
 "соответственно\n"
 "настройки системы и строку инициализации ядра."
 
-#: pages/ports-raspberry-pi.md:157
+#: pages/ports-raspberry-pi.md:162
 msgid "### SSH"
 msgstr "### SSH"
 
-#: pages/ports-raspberry-pi.md:160
+#: pages/ports-raspberry-pi.md:165
 msgid ""
 "The OpenSSH server is not installed by default. Simply install it to\n"
 "to enable SSH."
@@ -467,11 +485,11 @@ msgstr ""
 "любой момент\n"
 "для включения SSH."
 
-#: pages/ports-raspberry-pi.md:162
+#: pages/ports-raspberry-pi.md:167
 msgid "    sudo apt install openssh-server"
 msgstr "    sudo apt install openssh-server"
 
-#: pages/ports-raspberry-pi.md:166
+#: pages/ports-raspberry-pi.md:171
 msgid ""
 "If you install SSH then you might also want to install `sshguard`\n"
 "which is highly optimised and well suited for use on the Raspberry Pi\n"
@@ -482,15 +500,18 @@ msgstr ""
 "Raspberry Pi\n"
 "для защиты от атак грубой силы, направленных на SSH."
 
-#: pages/ports-raspberry-pi.md:168
+#: pages/ports-raspberry-pi.md:173
 msgid "    sudo apt install sshguard"
 msgstr "    sudo apt install sshguard"
 
-#: pages/ports-raspberry-pi.md:170
-msgid "### Steam Link for Raspberry Pi"
+#: pages/ports-raspberry-pi.md:176
+#, fuzzy
+msgid ""
+"<!--\n"
+"### Steam Link for Raspberry Pi"
 msgstr "### Steam Link для Raspberry Pi"
 
-#: pages/ports-raspberry-pi.md:175
+#: pages/ports-raspberry-pi.md:181
 msgid ""
 "The Steam Link app extends Steam Link functionality to the Raspberry Pi\n"
 "Model B 3 and 3+ and uses the same streaming technology as Valve's\n"
@@ -502,16 +523,16 @@ msgstr ""
 "Steam Link, что позволяет вам играть в любимые игры и даже быть VR зрителем\n"
 "игр прямо на Raspberry Pi."
 
-#: pages/ports-raspberry-pi.md:177
+#: pages/ports-raspberry-pi.md:183
 msgid "Can be installed via `sudo apt install steamlink`"
 msgstr "Может быть установлен с помощью `sudo apt install steamlink`"
 
-#: pages/ports-raspberry-pi.md:179
+#: pages/ports-raspberry-pi.md:185
 msgid "You can learn more about Steam Link for Raspberry Pi from Valve:"
 msgstr ""
 "Вы можете узнать больше о Steam Link для Raspberry Pi на странице Valve:"
 
-#: pages/ports-raspberry-pi.md:181
+#: pages/ports-raspberry-pi.md:187
 msgid ""
 "  * [Steam Link App for Raspberry Pi](https://support.steampowered.com/"
 "kb_article.php?ref=6153-IFGH-6589)"
@@ -519,15 +540,14 @@ msgstr ""
 "  * [Приложение Steam Link App для Raspberry Pi](https://support."
 "steampowered.com/kb_article.php?ref=6153-IFGH-6589)"
 
-#: pages/ports-raspberry-pi.md:184
-msgid ""
-"<!--\n"
-"### Minecraft: Pi Edition"
+#: pages/ports-raspberry-pi.md:189
+#, fuzzy
+msgid "### Minecraft: Pi Edition"
 msgstr ""
 "<!--\n"
 "### Minecraft: Pi Edition"
 
-#: pages/ports-raspberry-pi.md:188
+#: pages/ports-raspberry-pi.md:193
 msgid ""
 "Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry "
 "Pi.\n"
@@ -540,11 +560,11 @@ msgstr ""
 "Он основан на старой версии Minecraft Pocket Edition и предлагает\n"
 "языковые связки для Python."
 
-#: pages/ports-raspberry-pi.md:190
+#: pages/ports-raspberry-pi.md:195
 msgid "Can be installed via `sudo apt install minecraft-pi`"
 msgstr "Может быть установлен с помощью `sudo apt install minecraft-pi`"
 
-#: pages/ports-raspberry-pi.md:193
+#: pages/ports-raspberry-pi.md:198
 msgid ""
 "You can learn more about how to control the player, manually build with "
 "blocks\n"
@@ -556,7 +576,7 @@ msgstr ""
 "и использования интерфейса Python для управления окружающим миром вокруг вас "
 "на странице Raspberry Pi Foundation."
 
-#: pages/ports-raspberry-pi.md:196
+#: pages/ports-raspberry-pi.md:201
 msgid ""
 "  * [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/"
 "projects/getting-started-with-minecraft-pi)\n"
@@ -566,15 +586,27 @@ msgstr ""
 "getting-started-with-minecraft-pi)\n"
 "-->"
 
-#: pages/ports-raspberry-pi.md:198
+#: pages/ports-raspberry-pi.md:203
 msgid "### Redirecting audio output"
 msgstr "### Перенаправление аудио вывода"
 
-#: pages/ports-raspberry-pi.md:202
+#: pages/ports-raspberry-pi.md:205
 msgid ""
-"The sound will output to HDMI by default if both HDMI and the 3.5mm audio "
-"jack\n"
-"are connected. You can, however, force the system to output to a particular\n"
+"If you have issues with audio, you may try un-commenting the following line "
+"in `/boot/firmware/config.txt`:"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:207
+msgid "    #hdmi_drive=2"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:211
+#, fuzzy
+msgid ""
+"This forces the HDMI output into HDMI mode instead of DVI; which doesn't "
+"support\n"
+"audio output. You can also configure the system to output to a particular "
+"audio\n"
 "device."
 msgstr ""
 "Звук по умолчанию выводится через HDMI если HDMI и звуковой разъем 3.5 мм\n"
@@ -582,23 +614,23 @@ msgstr ""
 "нужного\n"
 "устройства вывода."
 
-#: pages/ports-raspberry-pi.md:204
+#: pages/ports-raspberry-pi.md:213
 msgid "#### For HDMI"
 msgstr "#### Для HDMI"
 
-#: pages/ports-raspberry-pi.md:206
+#: pages/ports-raspberry-pi.md:215
 msgid "    sudo amixer cset numid=3 2"
 msgstr "    sudo amixer cset numid=3 2"
 
-#: pages/ports-raspberry-pi.md:208
+#: pages/ports-raspberry-pi.md:217
 msgid "#### For 3.5mm audio jack"
 msgstr "#### Для аудио разъем 3.5 мм"
 
-#: pages/ports-raspberry-pi.md:210
+#: pages/ports-raspberry-pi.md:219
 msgid "    sudo amixer cset numid=3 1"
 msgstr "    sudo amixer cset numid=3 1"
 
-#: pages/ports-raspberry-pi.md:213
+#: pages/ports-raspberry-pi.md:222
 msgid ""
 "<!--\n"
 "### Hardware accelerated video"
@@ -606,7 +638,7 @@ msgstr ""
 "<!--\n"
 "### Аппаратное ускорение видео"
 
-#: pages/ports-raspberry-pi.md:217
+#: pages/ports-raspberry-pi.md:226
 msgid ""
 "Most videos will play with hardware acceleration using VLC which\n"
 "is pre-installed in Ubuntu MATE. To use hardware accelerated video playback\n"
@@ -618,11 +650,11 @@ msgstr ""
 "воспроизведения видео\n"
 "с помощью `ffplay` вы должны указать использование `h264_mmal` кодека."
 
-#: pages/ports-raspberry-pi.md:219
+#: pages/ports-raspberry-pi.md:228
 msgid "    `ffplay -vcodec h264_mmal video.mp4`"
 msgstr "    `ffplay -vcodec h264_mmal video.mp4`"
 
-#: pages/ports-raspberry-pi.md:223
+#: pages/ports-raspberry-pi.md:232
 msgid ""
 "Hardware accelerated playback on the Raspberry Pi works by overlaying the\n"
 "video directly to the screen. Therefore there are no onscreen controls for\n"
@@ -635,7 +667,7 @@ msgstr ""
 "воспроизведением. Вам придется использовать клавиатурные сочетания для "
 "управления ffmpeg."
 
-#: pages/ports-raspberry-pi.md:225
+#: pages/ports-raspberry-pi.md:234
 msgid ""
 "  * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-"
 "playing)"
@@ -643,7 +675,7 @@ msgstr ""
 "  * [клавиатурные сочетания для ffplay](https://ffmpeg.org/ffplay.html#toc-"
 "While-playing)"
 
-#: pages/ports-raspberry-pi.md:227
+#: pages/ports-raspberry-pi.md:236
 msgid ""
 "`ffmpeg` also offer hardware enabled video encoding via the `h264_omx` "
 "encoder. Here is an example:"
@@ -651,7 +683,7 @@ msgstr ""
 "`ffmpeg` также предлагает аппаратное кодирование с помощью кодера "
 "`h264_omx`. Ниже представлен пример:"
 
-#: pages/ports-raspberry-pi.md:229
+#: pages/ports-raspberry-pi.md:238
 msgid ""
 "    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx output."
 "mp4`"
@@ -659,7 +691,7 @@ msgstr ""
 "    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx output."
 "mp4`"
 
-#: pages/ports-raspberry-pi.md:233
+#: pages/ports-raspberry-pi.md:242
 msgid ""
 "However if you have MPEG-2 or VC-1 video video files then **you will need "
 "MPEG-2\n"
@@ -673,15 +705,36 @@ msgstr ""
 "keys/)**.\n"
 "-->"
 
-#: pages/ports-raspberry-pi.md:235
+#: pages/ports-raspberry-pi.md:244
 msgid "## Recent Changes"
 msgstr "## Последние изменения"
 
-#: pages/ports-raspberry-pi.md:237
+#: pages/ports-raspberry-pi.md:246
+#, fuzzy
+msgid "### Ubuntu MATE 20.04.1 & 20.10 - October 30th 2020"
+msgstr "### Ubuntu MATE 20.04.1 Beta 2 - 13 августа 2020"
+
+#: pages/ports-raspberry-pi.md:257
+msgid ""
+"  * Ubuntu MATE 20.10 is capable of USB boot.\n"
+"  * Compute Module 4 support.\n"
+"  * The `gpio`, `i2c`, `input` and `spi` groups are pre-created.\n"
+"    * The user created using the first-boot wizard is automatically added to "
+"the groups above.\n"
+"  * `cloud-init` is completely removed; file system expansion is handled by "
+"`cloud-initramfs-growroot` and the `x-systemd.growfs` mount option.\n"
+"  * Snaps are initialized while the first-boot setup wizard runs.\n"
+"  * Plymouth splash screen is displayed correctly during first-boot.\n"
+"  * Serial console is disabled by default.\n"
+"  * `gpu_mem` configured for 128MB by default.\n"
+"  * `hdmi_drive` now defaults to DVI mode."
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:259
 msgid "### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020"
 msgstr "### Ubuntu MATE 20.04.1 Beta 2 - 13 августа 2020"
 
-#: pages/ports-raspberry-pi.md:241
+#: pages/ports-raspberry-pi.md:263
 msgid ""
 "  * Re-based on Ubuntu MATE 20.04.1.\n"
 "  * Fixed WiFi on first boot during the initial setup wizard.\n"
@@ -693,11 +746,11 @@ msgstr ""
 "  * Убрана опция `gpu_mem` из `config.txt`, поскольку значения по умолчанию "
 "могут быть очень заметными."
 
-#: pages/ports-raspberry-pi.md:243
+#: pages/ports-raspberry-pi.md:265
 msgid "### Ubuntu MATE 20.04 Beta 1 - 12 July 2020"
 msgstr "### Ubuntu MATE 20.04 Beta 1 - 12 июля 2020"
 
-#: pages/ports-raspberry-pi.md:253
+#: pages/ports-raspberry-pi.md:275
 msgid ""
 "  * Re-based on Ubuntu MATE 20.04.\n"
 "  * Added support for Raspberry Pi 4.\n"
@@ -721,39 +774,22 @@ msgstr ""
 "  * Работы по обеспечению загрузки через USB ведутся.\n"
 "  * Убрана `raspi-config`; поскольку у нас есть кое-что еще в работе..."
 
-#: pages/ports-raspberry-pi.md:255
-msgid "## Known Issues"
-msgstr "## Известные проблемы"
-
-#: pages/ports-raspberry-pi.md:259
-msgid ""
-"  * The boot following initial setup is a little slow as the file system is "
-"automatically expanded and initial system configuration is completed.\n"
-"    * After this, boot performance is prompt.\n"
-"  * No USB booting *(yet)*"
-msgstr ""
-"  * Загрузка после начальной настройки немного медленная, так как файловая "
-"система автоматически расширяется и начальная конфигурация системы "
-"завершается.\n"
-"    * После этого процесс загрузки идет быстрее.\n"
-"  * Нет загрузки с USB *(пока)*"
-
-#: pages/ports-raspberry-pi.md:261
+#: pages/ports-raspberry-pi.md:277
 msgid "### Previous Changes"
 msgstr "### Предыдущие изменения"
 
-#: pages/ports-raspberry-pi.md:263
+#: pages/ports-raspberry-pi.md:279
 msgid ""
 "  * [See what changed in earlier releases.](/ports/raspberry-pi-change-log/)"
 msgstr ""
 "  * [Посмотрите что менялось в ранних версиях.](/ports/raspberry-pi-change-"
 "log/)"
 
-#: pages/ports-raspberry-pi.md:265
+#: pages/ports-raspberry-pi.md:281
 msgid "## Feedback and Improvements"
 msgstr "## Обратная связь и улучшения"
 
-#: pages/ports-raspberry-pi.md:268
+#: pages/ports-raspberry-pi.md:284
 msgid ""
 "These images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"
@@ -765,3 +801,60 @@ msgstr ""
 "команды Ubuntu MATE. Пожалуйста, направляйте свои отзывы и\n"
 "сообщения об ошибка в [специальной ветке форума сообщества](https://ubuntu-"
 "mate.community/c/support/raspberry-pi)."
+
+#~ msgid ""
+#~ "    title = \"Download\"\n"
+#~ "    text = \"Run Ubuntu MATE on your Raspberry Pi Model B 2, 3, 3+ or 4 "
+#~ "today.\"\n"
+#~ "    button_text = \"Download\""
+#~ msgstr ""
+#~ "    title = \"Загрузка\"\n"
+#~ "    text = \"Запустите Ubuntu MATE на вашей Raspberry Pi Model B 2, 3, 3+ "
+#~ "или 4 сегодня.\"\n"
+#~ "    button_text = \"Загрузка\""
+
+#~ msgid ""
+#~ "The Ubuntu MATE 18.04.2 images for the Raspberry Pi support USB booting."
+#~ msgstr ""
+#~ "Образы Ubuntu MATE 18.04.2 могут быть запущены на Raspberry Pi через USB."
+
+#~ msgid ""
+#~ "The root partition is automatically resized, on first boot, to fully "
+#~ "utilise\n"
+#~ "all the available space. No reboots required."
+#~ msgstr ""
+#~ "Раздел корневой файловой системы автоматически изменяет свой размер при "
+#~ "первой загрузке для полного использования\n"
+#~ "всего доступного дискового пространства. Перезагрузка не требуется."
+
+#~ msgid "### First boot"
+#~ msgstr "### Первая загрузка"
+
+#~ msgid ""
+#~ "**NOTE! There are no predefined user accounts**. The first time you\n"
+#~ "boot the Ubuntu MATE image it will run through a setup wizard where you\n"
+#~ "can create your own user account and configure your regional settings.\n"
+#~ "The first boot setup takes a few minutes to complete, but subsequent\n"
+#~ "boots are much quicker."
+#~ msgstr ""
+#~ "**Примечание! Предустановленных учетных записей нет**. При первой "
+#~ "загрузке\n"
+#~ "образа Ubuntu MATE вам будет предложен мастер установки, где вы сможете\n"
+#~ "создать пользователя и задать региональные настройки.\n"
+#~ "Первая загрузка требует нескольких минут для завершения, а последующие\n"
+#~ "загрузки выполняются значительно быстрее."
+
+#~ msgid "## Known Issues"
+#~ msgstr "## Известные проблемы"
+
+#~ msgid ""
+#~ "  * The boot following initial setup is a little slow as the file system "
+#~ "is automatically expanded and initial system configuration is completed.\n"
+#~ "    * After this, boot performance is prompt.\n"
+#~ "  * No USB booting *(yet)*"
+#~ msgstr ""
+#~ "  * Загрузка после начальной настройки немного медленная, так как "
+#~ "файловая система автоматически расширяется и начальная конфигурация "
+#~ "системы завершается.\n"
+#~ "    * После этого процесс загрузки идет быстрее.\n"
+#~ "  * Нет загрузки с USB *(пока)*"
