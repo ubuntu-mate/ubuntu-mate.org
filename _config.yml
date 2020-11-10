@@ -60,6 +60,7 @@ twitter: "https://twitter.com/ubuntu_mate"
 rss: "/rss.xml"
 discourse: "https://ubuntu-mate.community"
 translate: "https://www.transifex.com/ubuntu-mate/ubuntu-mate-org"
+discord: "https://discord.gg/T8NDH5RaEj"
 
 # i18n
 languages: ["en", "ru"]
