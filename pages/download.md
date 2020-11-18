@@ -54,6 +54,11 @@ ports:
       desc: Optimised for this hardware.
       id: gpd_p2_max
 
+    - name: GPD WIN Max
+      icon: images/fa/laptop.svg
+      desc: Optimised for this hardware.
+      id: gpd_win_max
+
     - name: Topjoy Falcon
       icon: images/fa/laptop.svg
       desc: Optimised for this hardware.
