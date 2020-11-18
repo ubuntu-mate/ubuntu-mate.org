@@ -49,6 +49,7 @@ arch:
     - gpd_pocket_2
     - gpd_micropc
     - gpd_p2_max
+    - gpd_win_max
     - topjoy_falcon
 
 
@@ -139,6 +140,14 @@ downloads:
           sha256sum: "3cb9997549d84dbfe0ff0b61cefe1ac3b90c2b6c57c4974915155c1982291774"
           size: "2.5 GB"
           magnet-uri: "magnet:?xt=urn:btih:c46a9546736f820aae13568d4b6b67ce6e9a46e2&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-p2-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
+          bandwidth_costs: true
+
+    gpd_win_max:
+        - release: focal
+          url: "https://releases.ubuntu-mate.org/focal/amd64/ubuntu-mate-20.04.1-desktop-amd64-gpd-win-max.iso"
+          sha256sum: "c89866cfd69ff2163f3983f8341a9dd6ad26ae7bfb8f7a5e2fe8335f788cb994"
+          size: "2.5 GB"
+          magnet-uri: "magnet:?xt=urn:btih:1dd943169d6a4373ecb1b786e99ae5e730dfd49b&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-win-max.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
           bandwidth_costs: true
 
     topjoy_falcon:
