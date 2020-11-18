@@ -49,6 +49,7 @@
         - ubuntu_mate
         - bug_hunter
         - qa
+        - ubuntu
 
     - name: Victor Kareh
       avatar: "https://avatars1.githubusercontent.com/u/259780?s=150&v=4"
@@ -58,34 +59,13 @@
         - mate_desktop
         - qa
 
-    - name: Matthew Keeler
-      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mttke/150/13996_2.png"
-      url: "https://ubuntu-mate.community/u/mttke/summary"
-      roles:
-        - ubuntu_mate
-        - community
-        - qa
-
-    - name: Jeff Labonte
-      avatar: "https://avatars1.githubusercontent.com/u/9425955?s=150&v=4"
-      url: "https://github.com/JeffLabonte"
-      roles:
-        - ubuntu_mate
-        - code
-
     - name: Monica Madon
       avatar: "https://avatars1.githubusercontent.com/u/47995143?s=150&v=4"
       url: "https://github.com/madhens"
       roles:
         - ubuntu_mate
         - documentation
-
-    - name: Alexandru Polihron
-      avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
-      url: "https://github.com/apolitech"
-      roles:
-        - ubuntu_mate
-        - qa
+        - community
 
     - name: Nikolay Strelkov
       avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
@@ -147,13 +127,6 @@
         - mate_desktop
         - bug_hunter
 
-    - name: Jon Uhler
-      avatar: "https://bigdaddylinux.com/wp-content/uploads/2019/07/Jon-Uhler-2-200x200.jpg"
-      url: "https://www.linkedin.com/in/jon-uhler/"
-      roles:
-        - ubuntu_mate
-        - bug_hunter
-
     - name: Wolfgang Ulbrich
       avatar: "https://avatars1.githubusercontent.com/u/961604?s=150&v=4"
       url: "https://github.com/raveit65"
@@ -166,7 +139,7 @@
   members:
 
     - name: Luke Horwell
-      desc: In-house Developer (2015-2020)
+      desc: Developer, Web Maintainer
       avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
       url: "https://github.com/lah7"
       roles:
@@ -226,3 +199,11 @@
       url: "https://github.com/nadrimajstor/"
       roles:
         - artwork
+
+    - name: Alexandru Polihron
+      desc: QA Engineer
+      avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
+      url: "https://github.com/apolitech"
+      roles:
+        - ubuntu_mate
+        - qa
