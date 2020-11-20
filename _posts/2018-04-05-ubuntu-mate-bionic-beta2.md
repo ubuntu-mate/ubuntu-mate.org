@@ -18,7 +18,7 @@ We are preparing Ubuntu MATE 18.04 (Bionic Beaver) for distribution on
 this *Beta* pre-release, you can see what we are trying out in preparation for
 our next (stable) version.
 
-{;.center}
+{:.center}
 ![Ubuntu MATE 18.04 Beta 2](/images/blog/1804-beta2.png)
 
 ## What works?
