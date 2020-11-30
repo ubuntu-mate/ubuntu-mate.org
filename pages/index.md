@@ -67,6 +67,7 @@ GPD MicroPC and Topjoy Falcon; some of which are available on Amazon. **Learn mo
 | Model 3+      | [GPD WIN 2](https://geni.us/pzyNb0)
 | Model 4       | [GPD MicroPC](https://geni.us/xYuBA)
 |               | [GPD P2 Max](https://geni.us/HAlIoA3)
+|               | [GPD WIN Max](https://geni.us/B2tWs)
 |               | Topjoy Falcon
 
 # Sponsors
