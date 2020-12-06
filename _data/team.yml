@@ -73,6 +73,20 @@
       roles:
         - ubuntu_mate
         - qa
+        
+    - name: Sai Vinoba
+      avatar: "https://avatars3.githubusercontent.com/u/5097130?s=460&v=4"
+      url: "https://github.com/saivinoba"
+      roles:
+        - ubuntu_mate
+        - qa
+        
+    - name: Primož Ajdišek
+      avatar: "https://avatars0.githubusercontent.com/u/6921913?s=460&v=4"
+      url: "https://github.com/bigpod98"
+      roles:
+        - ubuntu_mate
+        - packager
 
 - title_name: team2_title
   desc_name: team2_desc
