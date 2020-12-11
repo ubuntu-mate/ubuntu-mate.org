@@ -29,6 +29,8 @@ import sys
 import polib
 
 MINIMUM_PERCENT = 50
+IS_GIT_REPO = True
+
 
 def check_if_installed(cmd, package):
     if not shutil.which(cmd):
@@ -49,6 +51,9 @@ post_dir = "_posts"
 yaml_dir = "_data"
 i18n_dir = "_i18n"
 dest_dir = "pages/i18n"
+
+if not os.path.exists(".git"):
+    IS_GIT_REPO = False
 
 # Ensure output directory exists
 if not os.path.exists(dest_dir):
@@ -115,7 +120,8 @@ def generate():
 
         pot_path = "{0}/pots/{1}.pot".format(i18n_dir, page)
 
-        # Generate POT file
+        # Generate POT file, replacing if changed
+        pot_bytes_before = os.stat(pot_path).st_size
         run("txt2po --pot {0} {1}".format(path, pot_path))
 
         # Strip out critical strings that should not be translated.
@@ -153,6 +159,11 @@ def generate():
 
         pot.save(pot_path)
 
+        # (Git only) Prevent commiting if nothing changes
+        pot_bytes_after = os.stat(pot_path).st_size
+        if IS_GIT_REPO and pot_bytes_before == pot_bytes_after:
+            run("git checkout {0}".format(pot_path))
+
     # Re-generate a POT for strings.yml (for translating _includes and _layouts)
     strings_yml = "{0}/strings.yml".format(yaml_dir)
     strings_pot = "{0}/pots/strings.pot".format(i18n_dir)
@@ -174,6 +185,7 @@ def generate():
 
             pot_path = "{0}/pots/{1}.pot".format(i18n_dir, page)
             po_path = "{0}/{1}/{2}.po".format(i18n_dir, locale, page)
+            po_bytes_before = os.stat(po_path).st_size
 
             # Update PO files (merging existing data if it exists)
             if os.path.exists(os.path.join(po_path)):
@@ -181,6 +193,11 @@ def generate():
                 os.rename("new_po.tmp", po_path)
             else:
                 shutil.copy(pot_path, po_path)
+
+            # (Git only) Prevent commiting unnecessary changes (date/version only)
+            po_bytes_after = os.stat(po_path).st_size
+            if IS_GIT_REPO and po_bytes_before == po_bytes_after:
+                run("git checkout {0}".format(po_path))
 
         # Update strings.po
         strings_yml_po = "{0}/{1}/strings.po".format(i18n_dir, locale)
@@ -354,6 +371,7 @@ def sync():
     if missing_langs:
         print(" \033[5m[!]\033[0m New languages added! Add the strings in: _data/lang.yaml")
     print("")
+
 
 # Process arguments
 try:
