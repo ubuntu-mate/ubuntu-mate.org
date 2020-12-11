@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:12
 msgid "title: Ubuntu MATE 18.04 Beta 1 for Raspberry Pi"
@@ -144,11 +144,19 @@ msgid ""
 "  * Initial Ubuntu MATE 18.04.2 images made available for private testing."
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:115
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:113
+msgid ""
+"    title = \"Download\"\n"
+"    text = \"Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today.\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:117
 msgid "## Feedback and Improvements"
 msgstr ""
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:118
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:120
 msgid ""
 "Thse images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"

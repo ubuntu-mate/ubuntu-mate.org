@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:12
 msgid "title: Ubuntu MATE 19.04 Final Release"
@@ -174,11 +174,19 @@ msgid ""
 "the changes and improvements in Ubuntu that Ubuntu MATE benefits from."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:119
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:117
+msgid ""
+"    title = \"Download Ubuntu MATE Today\"\n"
+"    text = \"\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:121
 msgid "## Upgrading from Ubuntu MATE 18.04 or 18.10"
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:127
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:129
 msgid ""
 "  * Open the \"Software & Updates\" from the Control Center.\n"
 "  * Select the 3rd Tab called \"Updates\".\n"
@@ -189,31 +197,31 @@ msgid ""
 "  * Click \"Upgrade\" and follow the on-screen instructions."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:129
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:131
 msgid "## Known Issues"
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:131
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:133
 msgid "Here are the known issues."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:133
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:135
 msgid "### Ubuntu MATE"
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:135
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:137
 msgid "  * Nothing significant."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:137
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:139
 msgid "### Ubuntu family issues"
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:139
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:141
 msgid "This is our known list of bugs that affects all flavours."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:144
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:146
 msgid ""
 "  * When [selecting third-party drivers during install causes a long pause before the install proceeds](https://pad.lv/1824905).\n"
 "    * This is the `ubuntu-drivers` tool refreshing it's cache. Please wait a couple of minutes and the install will continue normally.\n"
@@ -221,21 +229,21 @@ msgid ""
 "    * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:147
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:149
 msgid ""
 "You'll also want to check the Ubuntu MATE bug tracker to see what has already\n"
 "been reported. These issues will be addressed in due course."
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:149
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:151
 msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:151
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:153
 msgid "## Feedback"
 msgstr ""
 
-#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:154
+#: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:156
 msgid ""
 "Is there anything you can help with or want to be involved in? Maybe you just\n"
 "want to discuss your experiences or ask the maintainers some questions. Please\n"

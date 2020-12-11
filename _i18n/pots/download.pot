@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: pages/download.md:8
 msgid "title: Download"
@@ -93,6 +93,14 @@ msgid ""
 msgstr ""
 
 #: pages/download.md:61
+msgid ""
+"    - name: GPD WIN Max\n"
+"      icon: images/fa/laptop.svg\n"
+"      desc: Optimised for this hardware.\n"
+"      id: gpd_win_max"
+msgstr ""
+
+#: pages/download.md:66
 msgid ""
 "    - name: Topjoy Falcon\n"
 "      icon: images/fa/laptop.svg\n"

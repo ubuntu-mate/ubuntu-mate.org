@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:10+0000\n"
 "Last-Translator: Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -271,11 +271,20 @@ msgid ""
 msgstr ""
 "  * Первые образы Ubuntu MATE 18.04.2 доступны для приватного тестирования."
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:115
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:113
+msgid ""
+"    title = \"Download\"\n"
+"    text = \"Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today."
+"\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:117
 msgid "## Feedback and Improvements"
 msgstr "## Обратная связь и улучшения"
 
-#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:118
+#: _posts/2019-03-29-ubuntu-mate-bionic-raspberry-pi.md:120
 msgid ""
 "Thse images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"

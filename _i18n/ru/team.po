@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Nikolay Strelkov, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -39,7 +39,8 @@ msgstr ""
 "Эти люди внесли значительный, уникальный вклад или были\n"
 "членами команды в прошлом."
 
-#: pages/team.md:29
+#: pages/team.md:32
+#, fuzzy
 msgid ""
 "* **Alexander Browne**: Former QA engineer for Ubuntu MATE\n"
 "* **Aron Xu:** Debian developer and former MATE package maintainer for "
@@ -55,7 +56,10 @@ msgid ""
 "* **Sefan Ric:** Solus developer and former MATE Desktop contributor\n"
 "* **Simon Quigley:** MOTU and former sponsor and oversight of MATE Desktop "
 "packages\n"
-"* **Tim Apple**: Former QA engineer for Ubuntu MATE"
+"* **Tim Apple**: Former QA engineer for Ubuntu MATE\n"
+"* **Matthew Keeler**: Former QA engineer for Ubuntu MATE\n"
+"* **Jon Uhler**: Former QA enginner for Ubuntu MATE\n"
+"* **Jeff Labonte**: Improver of Software Boutique"
 msgstr ""
 "* **Alexander Browne**: в прошлом инженер QA для Ubuntu MATE\n"
 "* **Aron Xu:** в прошлом разработчик Debian и сопровождающий пакетов MATE "
@@ -74,11 +78,11 @@ msgstr ""
 "MATE Desktop\n"
 "* **Tim Apple**: в прошлом инженер QA для Ubuntu MATE"
 
-#: pages/team.md:31
+#: pages/team.md:34
 msgid "## Kickstarters"
 msgstr "## Kickstarters"
 
-#: pages/team.md:34
+#: pages/team.md:37
 msgid ""
 "These initial efforts helped the project officially support different\n"
 "ventures."
@@ -86,7 +90,7 @@ msgstr ""
 "Эти первоначальные усилия помогли проекту официально поддержать различные\n"
 "начинания."
 
-#: pages/team.md:36
+#: pages/team.md:39
 msgid ""
 "* **Adam Smith:** Created the initial PowerPC build of Ubuntu MATE\n"
 "* **Rohith Madhavan:** Created the initial Raspberry Pi 2 build of Ubuntu "

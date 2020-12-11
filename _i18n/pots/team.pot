@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: pages/team.md:9
 msgid "title: Team"
@@ -27,7 +27,7 @@ msgid ""
 "team members in the past."
 msgstr ""
 
-#: pages/team.md:29
+#: pages/team.md:32
 msgid ""
 "* **Alexander Browne**: Former QA engineer for Ubuntu MATE\n"
 "* **Aron Xu:** Debian developer and former MATE package maintainer for Debian\n"
@@ -40,20 +40,23 @@ msgid ""
 "* **Pedro Meteus:** IGP and GPU enhancements for improved video and gaming\n"
 "* **Sefan Ric:** Solus developer and former MATE Desktop contributor\n"
 "* **Simon Quigley:** MOTU and former sponsor and oversight of MATE Desktop packages\n"
-"* **Tim Apple**: Former QA engineer for Ubuntu MATE"
-msgstr ""
-
-#: pages/team.md:31
-msgid "## Kickstarters"
+"* **Tim Apple**: Former QA engineer for Ubuntu MATE\n"
+"* **Matthew Keeler**: Former QA engineer for Ubuntu MATE\n"
+"* **Jon Uhler**: Former QA enginner for Ubuntu MATE\n"
+"* **Jeff Labonte**: Improver of Software Boutique"
 msgstr ""
 
 #: pages/team.md:34
+msgid "## Kickstarters"
+msgstr ""
+
+#: pages/team.md:37
 msgid ""
 "These initial efforts helped the project officially support different\n"
 "ventures."
 msgstr ""
 
-#: pages/team.md:36
+#: pages/team.md:39
 msgid ""
 "* **Adam Smith:** Created the initial PowerPC build of Ubuntu MATE\n"
 "* **Rohith Madhavan:** Created the initial Raspberry Pi 2 build of Ubuntu MATE"

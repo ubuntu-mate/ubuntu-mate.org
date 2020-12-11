@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -223,19 +223,27 @@ msgstr ""
 "приостановить сеанс с помощью\n"
 "экранной заставки MATE."
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:94
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:92
+msgid ""
+"    title = \"Download Ubuntu MATE Today\"\n"
+"    text = \"\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:96
 msgid "## Known Issues"
 msgstr "## Известные проблемы"
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:96
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:98
 msgid "Here are the known issues."
 msgstr "Ниже представлен список известных нам проблем."
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:98
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:100
 msgid "### Ubuntu MATE"
 msgstr "### Ubuntu MATE"
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:101
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:103
 msgid ""
 "  * The Software Boutique doesn't list any available software.\n"
 "    * An update, due very soon, will re-stock the software library and add a "
@@ -246,15 +254,15 @@ msgstr ""
 "    * Планируемое в ближайшем времени обновлении пересоберет библиотеку "
 "программ и добавит в нее новые программы."
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:103
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:105
 msgid "### Ubuntu family issues"
 msgstr "### Общие проблемы семейства Ubuntu"
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:105
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:107
 msgid "This is our known list of bugs that affects all flavours."
 msgstr "Ниже представлен список проблем, затрагивающих все редакции."
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:108
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:110
 msgid ""
 "  * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and "
 "Ubuntu Budgie](https://pad.lv/1713720)\n"
@@ -267,7 +275,7 @@ msgstr ""
 "команду `apt install oem-config-slideshow-ubuntu-mate` в подготовительной "
 "OEM сессии."
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:111
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:113
 msgid ""
 "You'll also want to check the Ubuntu MATE bug tracker to see what has "
 "already\n"
@@ -276,16 +284,16 @@ msgstr ""
 "Вы также можете захотеть проверить трекер ошибок Ubuntu MATE, чтобы узнать,\n"
 "о каких ошибках уже было сообщено. Эти вопросы будут решены в должное время."
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:113
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:115
 msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
 msgstr ""
 "  * [трекер ошибок Ubuntu MATE](https://bugs.launchpad.net/ubuntu-mate)"
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:115
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:117
 msgid "## Feedback"
 msgstr "## Обратная связь"
 
-#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:118
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:120
 msgid ""
 "Is there anything you can help with or want to be involved in? Maybe you "
 "just\n"

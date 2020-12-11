@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 22:24+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-10-22 18:38+0000\n"
 "Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -455,11 +455,19 @@ msgstr ""
 "для получения подробной информации обо всех изменениях и улучшениях в "
 "Ubuntu, от которых выигрывает Ubuntu MATE."
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:161
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:159
+msgid ""
+"    title = \"Download Ubuntu MATE Today\"\n"
+"    text = \"This new release will be first available for PC/Mac users.\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:163
 msgid "## Upgrading from Ubuntu MATE 20.04 LTS"
 msgstr "## Обновление с версии Ubuntu MATE 20.04 LTS"
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:165
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:167
 msgid ""
 "You can upgrade to Ubuntu MATE 20.10 from Ubuntu MATE 20.04 LTS. Ensure that "
 "you\n"
@@ -472,7 +480,7 @@ msgstr ""
 "установили все необходимые обновления для вашей текущей версии Ubuntu MATE \n"
 "перед обновлением."
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:173
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:175
 msgid ""
 "  * Open the \"Software & Updates\" from the Control Center.\n"
 "  * Select the 3rd Tab called \"Updates\".\n"
@@ -498,7 +506,7 @@ msgstr ""
 "upgrader/check-new-release-gtk`\n"
 "  * Нажмите \"Обновить\" и следуйте инструкциям на экране."
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:177
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:179
 msgid ""
 "There are no offline upgrade options for Ubuntu MATE. Please ensure you "
 "have\n"
@@ -512,19 +520,19 @@ msgstr ""
 "зеркалу,\n"
 "и следуйте приведенным выше инструкциям."
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:180
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:182
 msgid "## Known Issues"
 msgstr "## Известные проблемы"
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:182
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:184
 msgid "Here are the known issues."
 msgstr "Ниже представлен список известных нам проблем."
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:187
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:189
 msgid "## Feedback"
 msgstr "## Обратная связь"
 
-#: _posts/2020-10-22-ubuntu-mate-groovy.md:190
+#: _posts/2020-10-22-ubuntu-mate-groovy.md:192
 msgid ""
 "Is there anything you can help with or want to be involved in? Maybe you "
 "just\n"

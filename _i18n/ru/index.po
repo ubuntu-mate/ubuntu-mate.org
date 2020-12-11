@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Nikolay Strelkov, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -99,7 +99,8 @@ msgstr ""
 "GPD MicroPC и Topjoy Falcon; часть из которых доступна на Amazon. **Узнайте "
 "больше о предоставляемых ими возможностях:**"
 
-#: pages/index.md:71
+#: pages/index.md:72
+#, fuzzy
 msgid ""
 "{:.transparent .icons}\n"
 "| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-"
@@ -112,6 +113,7 @@ msgid ""
 "| Model 3+      | [GPD WIN 2](https://geni.us/pzyNb0)\n"
 "| Model 4       | [GPD MicroPC](https://geni.us/xYuBA)\n"
 "|               | [GPD P2 Max](https://geni.us/HAlIoA3)\n"
+"|               | [GPD WIN Max](https://geni.us/B2tWs)\n"
 "|               | Topjoy Falcon"
 msgstr ""
 "{:.transparent .icons}\n"
@@ -127,11 +129,11 @@ msgstr ""
 "|               | [GPD P2 Max](https://geni.us/HAlIoA3)\n"
 "|               | Topjoy Falcon"
 
-#: pages/index.md:73
+#: pages/index.md:74
 msgid "# Sponsors"
 msgstr "# Спонсоры"
 
-#: pages/index.md:75
+#: pages/index.md:76
 msgid ""
 "Ubuntu MATE is kindly supported by these fine sponsors and [our awesome "
 "Patrons](https://www.patreon.com/ubuntu_mate), such as our Level 42 Patron, "
@@ -142,7 +144,7 @@ msgstr ""
 "патрон 42 уровня, [Эндрю Миллер](https://www.patreon.com/user/creators?"
 "u=2613385)."
 
-#: pages/index.md:79
+#: pages/index.md:80
 msgid ""
 "{:.center}\n"
 "[![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/?"
@@ -154,7 +156,7 @@ msgstr ""
 "r=ubuntu-mate)\n"
 "[![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)"
 
-#: pages/index.md:80
+#: pages/index.md:81
 msgid ""
 "Also thanks to our Unlucky Patron, [Darrell Vermilion](https://www.patreon."
 "com/bearstampede/creators)."

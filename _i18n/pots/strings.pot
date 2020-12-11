@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: homepage
 msgid "Home Page"
@@ -45,7 +45,11 @@ msgid "Translate this site"
 msgstr ""
 
 #: rss
-msgid "View RSS Feed"
+msgid "View Blog RSS Feed"
+msgstr ""
+
+#: rss_discourse
+msgid "View Community RSS Feed"
 msgstr ""
 
 #: launchpad
@@ -66,6 +70,10 @@ msgstr ""
 
 #: twitter
 msgid "@ubuntu_mate on Twitter"
+msgstr ""
+
+#: discord
+msgid "Wimpy's World on Discord"
 msgstr ""
 
 #: dark_mode

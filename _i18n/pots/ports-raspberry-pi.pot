@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-31 18:07+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.1.1\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: pages/ports-raspberry-pi.md:8
 msgid "title: Raspberry Pi"
@@ -184,25 +184,33 @@ msgid ""
 "|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:128
-msgid "## Additional features"
+#: pages/ports-raspberry-pi.md:126
+msgid ""
+"    title = \"Download\"\n"
+"    text = \"Run Ubuntu MATE on your Raspberry Pi today.\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
 msgstr ""
 
 #: pages/ports-raspberry-pi.md:130
-msgid "### USB Booting"
+msgid "## Additional features"
 msgstr ""
 
 #: pages/ports-raspberry-pi.md:132
+msgid "### USB Booting"
+msgstr ""
+
+#: pages/ports-raspberry-pi.md:134
 msgid ""
 "Ubuntu MATE 20.10 and newer support USB booting, **but Ubuntu MATE 20.04 "
 "does not**."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:134
+#: pages/ports-raspberry-pi.md:136
 msgid "### Compute Module 4"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:139
+#: pages/ports-raspberry-pi.md:141
 msgid ""
 "If you have a [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000)\n"
 "you can enable the USB2 outputs on the [Compute Module 4 IO Board](https://www.raspberrypi.org/products/compute-module-4-io-board/),\n"
@@ -210,31 +218,31 @@ msgid ""
 "`/boot/firmware/config.txt`."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:141
+#: pages/ports-raspberry-pi.md:143
 msgid "    #dtoverlay=dwc2,dr_mode=host"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:143
+#: pages/ports-raspberry-pi.md:145
 msgid "#### Enable USB boot for Raspberry Pi 4"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:145
+#: pages/ports-raspberry-pi.md:147
 msgid ""
 "To enable USB mass storage boot on a Raspberry Pi 4 follow these steps:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:147
+#: pages/ports-raspberry-pi.md:149
 msgid ""
 "  * [Enable optional USB boot on Raspberry Pi "
 "4](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-"
 "pi-4#4-optional-usb-boot)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:149
+#: pages/ports-raspberry-pi.md:151
 msgid "### Enable USB boot for Raspberry Pi 2, 3 and 3+"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:154
+#: pages/ports-raspberry-pi.md:156
 msgid ""
 "The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,\n"
 "are capable of booting from a USB drive. For the Pi 2 and 3 you'll first\n"
@@ -242,49 +250,49 @@ msgid ""
 "this is unnecessary on the Pi 3+ as USB booting is enabled by default."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:156
+#: pages/ports-raspberry-pi.md:158
 msgid "### Firmware"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:160
+#: pages/ports-raspberry-pi.md:162
 msgid ""
 "The GPU firmware partition is mounted at `/boot/firmware`. The files\n"
 "`/boot/firmware/config.txt` and `/boot/firmware/cmdline.txt` contain\n"
 "the system configuration and kernel command line options respectively."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:162
+#: pages/ports-raspberry-pi.md:164
 msgid "### SSH"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:165
+#: pages/ports-raspberry-pi.md:167
 msgid ""
 "The OpenSSH server is not installed by default. Simply install it to\n"
 "to enable SSH."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:167
+#: pages/ports-raspberry-pi.md:169
 msgid "    sudo apt install openssh-server"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:171
+#: pages/ports-raspberry-pi.md:173
 msgid ""
 "If you install SSH then you might also want to install `sshguard`\n"
 "which is highly optimised and well suited for use on the Raspberry Pi\n"
 "to protect from brute force attacks against SSH."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:173
+#: pages/ports-raspberry-pi.md:175
 msgid "    sudo apt install sshguard"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:176
+#: pages/ports-raspberry-pi.md:178
 msgid ""
 "<!--\n"
 "### Steam Link for Raspberry Pi"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:181
+#: pages/ports-raspberry-pi.md:183
 msgid ""
 "The Steam Link app extends Steam Link functionality to the Raspberry Pi\n"
 "Model B 3 and 3+ and uses the same streaming technology as Valve's\n"
@@ -292,142 +300,142 @@ msgid ""
 "VR games right from your Raspberry Pi."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:183
+#: pages/ports-raspberry-pi.md:185
 msgid "Can be installed via `sudo apt install steamlink`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:185
+#: pages/ports-raspberry-pi.md:187
 msgid "You can learn more about Steam Link for Raspberry Pi from Valve:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:187
+#: pages/ports-raspberry-pi.md:189
 msgid ""
 "  * [Steam Link App for Raspberry "
 "Pi](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:189
+#: pages/ports-raspberry-pi.md:191
 msgid "### Minecraft: Pi Edition"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:193
+#: pages/ports-raspberry-pi.md:195
 msgid ""
 "Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry Pi.\n"
 "It is based on an old version of Minecraft Pocket Edition and offers language\n"
 "bindings for Python."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:195
+#: pages/ports-raspberry-pi.md:197
 msgid "Can be installed via `sudo apt install minecraft-pi`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:198
+#: pages/ports-raspberry-pi.md:200
 msgid ""
 "You can learn more about how to control the player, manually build with blocks\n"
 "and use the Python interface to manipulate the world around you from the Raspberry Pi Foundation."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:201
+#: pages/ports-raspberry-pi.md:203
 msgid ""
 "  * [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi)\n"
 "-->"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:203
+#: pages/ports-raspberry-pi.md:205
 msgid "### Redirecting audio output"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:205
+#: pages/ports-raspberry-pi.md:207
 msgid ""
 "If you have issues with audio, you may try un-commenting the following line "
 "in `/boot/firmware/config.txt`:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:207
+#: pages/ports-raspberry-pi.md:209
 msgid "    #hdmi_drive=2"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:211
+#: pages/ports-raspberry-pi.md:213
 msgid ""
 "This forces the HDMI output into HDMI mode instead of DVI; which doesn't support\n"
 "audio output. You can also configure the system to output to a particular audio\n"
 "device."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:213
+#: pages/ports-raspberry-pi.md:215
 msgid "#### For HDMI"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:215
+#: pages/ports-raspberry-pi.md:217
 msgid "    sudo amixer cset numid=3 2"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:217
+#: pages/ports-raspberry-pi.md:219
 msgid "#### For 3.5mm audio jack"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:219
+#: pages/ports-raspberry-pi.md:221
 msgid "    sudo amixer cset numid=3 1"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:222
+#: pages/ports-raspberry-pi.md:224
 msgid ""
 "<!--\n"
 "### Hardware accelerated video"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:226
+#: pages/ports-raspberry-pi.md:228
 msgid ""
 "Most videos will play with hardware acceleration using VLC which\n"
 "is pre-installed in Ubuntu MATE. To use hardware accelerated video playback\n"
 "with `ffplay` you must specify the `h264_mmal` codec."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:228
+#: pages/ports-raspberry-pi.md:230
 msgid "    `ffplay -vcodec h264_mmal video.mp4`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:232
+#: pages/ports-raspberry-pi.md:234
 msgid ""
 "Hardware accelerated playback on the Raspberry Pi works by overlaying the\n"
 "video directly to the screen. Therefore there are no onscreen controls for\n"
 "playback control. You'll need to use the ffmpeg keyboard shortcuts."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:234
+#: pages/ports-raspberry-pi.md:236
 msgid ""
 "  * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-"
 "playing)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:236
+#: pages/ports-raspberry-pi.md:238
 msgid ""
 "`ffmpeg` also offer hardware enabled video encoding via the `h264_omx` "
 "encoder. Here is an example:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:238
+#: pages/ports-raspberry-pi.md:240
 msgid ""
 "    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx "
 "output.mp4`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:242
+#: pages/ports-raspberry-pi.md:244
 msgid ""
 "However if you have MPEG-2 or VC-1 video video files then **you will need MPEG-2\n"
 "and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/license-keys/)**.\n"
 "-->"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:244
+#: pages/ports-raspberry-pi.md:246
 msgid "## Recent Changes"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:246
+#: pages/ports-raspberry-pi.md:248
 msgid "### Ubuntu MATE 20.04.1 & 20.10 - October 30th 2020"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:257
+#: pages/ports-raspberry-pi.md:259
 msgid ""
 "  * Ubuntu MATE 20.10 is capable of USB boot.\n"
 "  * Compute Module 4 support.\n"
@@ -441,22 +449,22 @@ msgid ""
 "  * `hdmi_drive` now defaults to DVI mode."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:259
+#: pages/ports-raspberry-pi.md:261
 msgid "### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:263
+#: pages/ports-raspberry-pi.md:265
 msgid ""
 "  * Re-based on Ubuntu MATE 20.04.1.\n"
 "  * Fixed WiFi on first boot during the initial setup wizard.\n"
 "  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:265
+#: pages/ports-raspberry-pi.md:267
 msgid "### Ubuntu MATE 20.04 Beta 1 - 12 July 2020"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:275
+#: pages/ports-raspberry-pi.md:277
 msgid ""
 "  * Re-based on Ubuntu MATE 20.04.\n"
 "  * Added support for Raspberry Pi 4.\n"
@@ -469,20 +477,20 @@ msgid ""
 "  * Dropped `raspi-config`; we have something else in the works..."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:277
+#: pages/ports-raspberry-pi.md:279
 msgid "### Previous Changes"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:279
+#: pages/ports-raspberry-pi.md:281
 msgid ""
 "  * [See what changed in earlier releases.](/ports/raspberry-pi-change-log/)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:281
+#: pages/ports-raspberry-pi.md:283
 msgid "## Feedback and Improvements"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:284
+#: pages/ports-raspberry-pi.md:286
 msgid ""
 "These images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"

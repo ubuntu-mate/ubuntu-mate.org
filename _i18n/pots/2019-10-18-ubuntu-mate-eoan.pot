@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: _posts/2019-10-18-ubuntu-mate-eoan.md:12
 msgid "title: Ubuntu MATE 19.10 Release Notes"
@@ -755,11 +755,19 @@ msgid ""
 "the changes and improvements in Ubuntu that Ubuntu MATE benefits from."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:486
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:482
+msgid ""
+"    title = \"Download Ubuntu MATE Today\"\n"
+"    text = \"\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:488
 msgid "## Upgrading from Ubuntu MATE 19.04"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:494
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:496
 msgid ""
 "  * Open the \"Software & Updates\" from the Control Center.\n"
 "  * Select the 3rd Tab called \"Updates\".\n"
@@ -770,19 +778,19 @@ msgid ""
 "  * Click \"Upgrade\" and follow the on-screen instructions."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:496
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:498
 msgid "## Known Issues"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:498
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:500
 msgid "Here are the known issues."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:500
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:502
 msgid "### Ubuntu MATE"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:505
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:507
 msgid ""
 "  * [Caja dropbox does not start](https://bugs.launchpad.net/ubuntu/+source/caja-dropbox/+bug/1845876).\n"
 "    * The `libdropbox_apex.so` shared object, as distributed by Dropbox, has the wrong file permissions.\n"
@@ -790,42 +798,42 @@ msgid ""
 "    * The workaround is to open a terminal and run the following command:"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:509
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:511
 msgid ""
 "```\n"
 "sudo chmod a+rx /var/lib/dropbox/.dropbox-dist/dropbox-lnx.x86_64-*/libdropbox_apex.so\n"
 "```"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:511
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:513
 msgid "### Ubuntu family issues"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:513
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:515
 msgid "This is our known list of bugs that affects all flavours."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:516
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:518
 msgid ""
 "  * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and Ubuntu Budgie](https://pad.lv/1713720)\n"
 "    * To work around this, run `apt install oem-config-slideshow-ubuntu-mate` in the OEM prepare session."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:519
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:521
 msgid ""
 "You'll also want to check the Ubuntu MATE bug tracker to see what has already\n"
 "been reported. These issues will be addressed in due course."
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:521
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:523
 msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:523
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:525
 msgid "## Feedback"
 msgstr ""
 
-#: _posts/2019-10-18-ubuntu-mate-eoan.md:526
+#: _posts/2019-10-18-ubuntu-mate-eoan.md:528
 msgid ""
 "Is there anything you can help with or want to be involved in? Maybe you just\n"
 "want to discuss your experiences or ask the maintainers some questions. Please\n"
