@@ -100,7 +100,11 @@ if not os.path.exists(os.path.join(i18n_dir, "pots")):
     os.mkdir(os.path.join(i18n_dir, "pots"))
 
 # Run commands
-def run(command):
+def run(command, show_output=False):
+    if show_output:
+        os.system(command)
+        return
+
     try:
         proc = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError:
@@ -295,7 +299,7 @@ def sync():
 
     print("Pulling translations from Transifex... (this may take a while)")
     check_if_installed("tx", "transifex-client")
-    run("tx pull -a --minimum-perc=" + str(MINIMUM_PERCENT))
+    run("tx pull -a --minimum-perc=" + str(MINIMUM_PERCENT), show_output=True)
 
     print("Updating locale lists...")
     lang_paths = glob.glob(i18n_dir + "/*")
@@ -364,7 +368,7 @@ def sync():
     build()
 
     print("Pushing source translations to Transifex... (this may take a while)")
-    run("tx push -s")
+    run("tx push -s", show_output=True)
 
     print("\nSync complete.\n")
     print(" \033[5m[!]\033[0m Ready to test/commit the changes. Performing a website build is recommended.")
