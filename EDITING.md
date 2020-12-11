@@ -277,10 +277,12 @@ Only one gallery is supported per page.
 Usually to present call to actions, commonly used on the blog.
 ```
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 20.04"
-    text = "We've even redesigned the download page so it's even easier to get started."
+
+    title = "Download Ubuntu MATE today"
+    text = "This new release will be first available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
+
 %}
 
 ```

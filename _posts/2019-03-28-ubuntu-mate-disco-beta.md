@@ -84,10 +84,12 @@ sharing in Caja, MIME type bindings for SSHFS shares and allows session suspensi
 via the MATE screensaver.
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 19.04 Beta"
-    text = "We've even redesigned the download page so it's even easier to get started."
+
+    title = "Download Ubuntu MATE Today"
+    text = ""
     button_text = "Download"
     button_url = "/download/"
+
 %}
 
 ## Known Issues

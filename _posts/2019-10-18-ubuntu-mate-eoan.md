@@ -474,10 +474,12 @@ the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 19.10"
-    text = "Our download page makes it easy to acquire the most suitable build for your hardware."
+
+    title = "Download Ubuntu MATE Today"
+    text = ""
     button_text = "Download"
     button_url = "/download/"
+
 %}
 
 

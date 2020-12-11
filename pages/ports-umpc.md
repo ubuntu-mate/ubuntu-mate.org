@@ -78,7 +78,7 @@ The Ubuntu MATE images for the UMPCs adds the following tweaks:
 {% include blog/jumbotron.html
 
     title = "Download"
-    text = "Run Ubuntu MATE on your GPD Pocket, GPD Pocket 2, GPD WIN 2, GPD MicroPC or Topjoy Falcon today!"
+    text = "Run Ubuntu MATE on your GPD hardware or Topjoy Falcon today!"
     button_text = "Download"
     button_url = "/download/"
 

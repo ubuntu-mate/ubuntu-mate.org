@@ -151,10 +151,12 @@ See the [Ubuntu 20.10 Release Notes](https://discourse.ubuntu.com/t/groovy-goril
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 20.10"
+
+    title = "Download Ubuntu MATE Today"
     text = "This new release will be first available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
+
 %}
 
 ## Upgrading from Ubuntu MATE 20.04 LTS

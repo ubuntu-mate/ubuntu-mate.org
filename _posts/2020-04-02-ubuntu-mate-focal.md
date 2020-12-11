@@ -384,10 +384,12 @@ Notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes) for details of all
 the changes and improvements in Ubuntu that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 20.04"
-    text = "Notice anything different? We've overhauled the website to make things easier to discover!"
+
+    title = "Download Ubuntu MATE Today"
+    text = ""
     button_text = "Download"
-    button_url = "/download/amd64/focal/"
+    button_url = "/download/"
+
 %}
 
 ## Upgrading from Ubuntu MATE 18.04 LTS or 19.10

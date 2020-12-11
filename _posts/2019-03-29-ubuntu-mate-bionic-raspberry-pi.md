@@ -105,10 +105,12 @@ High-level features of these images are:
   * Initial Ubuntu MATE 18.04.2 images made available for private testing.
 
 {% include blog/jumbotron.html
+
     title = "Download"
     text = "Run Ubuntu MATE on your Raspberry Pi Model B 2, 3 or 3+ today."
     button_text = "Download"
     button_url = "/download/"
+
 %}
 
 ## Feedback and Improvements
