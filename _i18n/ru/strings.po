@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 21:13+0100\n"
+"POT-Creation-Date: 2020-12-12 16:42+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
 "Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: homepage
 msgid "Home Page"
@@ -57,14 +57,12 @@ msgid "Translate this site"
 msgstr "Перевести этот сайт"
 
 #: rss
-#, fuzzy
 msgid "View Blog RSS Feed"
-msgstr "RSS лента"
+msgstr "RSS лента блога"
 
 #: rss_discourse
-#, fuzzy
 msgid "View Community RSS Feed"
-msgstr "RSS лента"
+msgstr "RSS лента сообщества"
 
 #: launchpad
 msgid "Ubuntu MATE on Launchpad"
@@ -88,7 +86,7 @@ msgstr "@ubuntu_mate в Twitter"
 
 #: discord
 msgid "Wimpy's World on Discord"
-msgstr ""
+msgstr "Wimpy's World в Discord"
 
 #: dark_mode
 msgid "Dark Mode"

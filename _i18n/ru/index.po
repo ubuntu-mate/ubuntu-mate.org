@@ -1,6 +1,6 @@
 #
 # Translators:
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: pages/index.md:28
 msgid "title: Ubuntu MATE | For a retrospective future"
@@ -100,7 +100,6 @@ msgstr ""
 "больше о предоставляемых ими возможностях:**"
 
 #: pages/index.md:72
-#, fuzzy
 msgid ""
 "{:.transparent .icons}\n"
 "| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-"
@@ -117,8 +116,8 @@ msgid ""
 "|               | Topjoy Falcon"
 msgstr ""
 "{:.transparent .icons}\n"
-"| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-"
-"pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/"
+"| [![Raspberry Pi логотип](/images/brands/raspberry-pi.svg)](/ports/"
+"raspberry-pi/) |[![GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/"
 "umpcs/) |\n"
 "| Работает на:   | Оптимизировано для:\n"
 "| ------------- | ---------------- |\n"
@@ -127,6 +126,7 @@ msgstr ""
 "| Model 3+      | [GPD WIN 2](https://geni.us/pzyNb0)\n"
 "| Model 4       | [GPD MicroPC](https://geni.us/xYuBA)\n"
 "|               | [GPD P2 Max](https://geni.us/HAlIoA3)\n"
+"|               | [GPD WIN Max](https://geni.us/B2tWs)\n"
 "|               | Topjoy Falcon"
 
 #: pages/index.md:74

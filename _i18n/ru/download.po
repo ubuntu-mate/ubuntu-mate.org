@@ -1,7 +1,7 @@
 #
 # Translators:
 # Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: pages/download.md:8
 msgid "title: Download"
@@ -142,17 +142,16 @@ msgstr ""
 "      id: gpd_p2_max"
 
 #: pages/download.md:61
-#, fuzzy
 msgid ""
 "    - name: GPD WIN Max\n"
 "      icon: images/fa/laptop.svg\n"
 "      desc: Optimised for this hardware.\n"
 "      id: gpd_win_max"
 msgstr ""
-"    - name: GPD P2 Max\n"
+"    - name: GPD WIN Max\n"
 "      icon: images/fa/laptop.svg\n"
 "      desc: Оптимизация под это устройство.\n"
-"      id: gpd_p2_max"
+"      id: gpd_win_max"
 
 #: pages/download.md:66
 msgid ""

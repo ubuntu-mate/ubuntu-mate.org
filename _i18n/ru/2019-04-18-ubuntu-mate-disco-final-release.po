@@ -1,7 +1,7 @@
 #
 # Translators:
-# Nikolay Strelkov, 2020
 # Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:10+0000\n"
-"Last-Translator: Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:12
 msgid "title: Ubuntu MATE 19.04 Final Release"
@@ -260,9 +260,9 @@ msgstr ""
 "Вместе с универсальным установочным образом для 64-битных ПК Intel, мы также "
 "выпустили индивидуальные\n"
 "образы для [GPD Pocket](https://www.gpd.hk/gpdpocket) и\n"
-"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2). Они включают специальные "
-"аппаратные\n"
-"настройки, обеспечивающие работу этих устройств \"* без каких-либо\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2). Они включают изменения и "
+"улучшения, \n"
+"обеспечивающие работу этих устройств \"*из коробки*\" без каких-либо\n"
 "забот. [Смотрите нашу специальную страницу GPD Pocket чтобы узнать "
 "подробности](/ports/umpcs/)."
 
@@ -306,6 +306,10 @@ msgid ""
 "    button_text = \"Download\"\n"
 "    button_url = \"/download/\""
 msgstr ""
+"    title = \"Загрузите Ubuntu MATE сегодня\"\n"
+"    text = \"\"\n"
+"    button_text = \"Загрузить\"\n"
+"    button_url = \"/download/\""
 
 #: _posts/2019-04-18-ubuntu-mate-disco-final-release.md:121
 msgid "## Upgrading from Ubuntu MATE 18.04 or 18.10"

@@ -1,7 +1,7 @@
 #
 # Translators:
 # Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: pages/team.md:9
 msgid "title: Team"
@@ -40,7 +40,6 @@ msgstr ""
 "членами команды в прошлом."
 
 #: pages/team.md:32
-#, fuzzy
 msgid ""
 "* **Alexander Browne**: Former QA engineer for Ubuntu MATE\n"
 "* **Aron Xu:** Debian developer and former MATE package maintainer for "
@@ -76,7 +75,10 @@ msgstr ""
 "прошлом\n"
 "* **Simon Quigley:** MOTU и в прошлом спонсорство и присмотр за пакетами "
 "MATE Desktop\n"
-"* **Tim Apple**: в прошлом инженер QA для Ubuntu MATE"
+"* **Tim Apple**: в прошлом инженер QA для Ubuntu MATE\n"
+"* **Matthew Keeler**: в прошлом инженер QA для Ubuntu MATE\n"
+"* **Jon Uhler**: в прошлом инженер QA для Ubuntu MATE\n"
+"* **Jeff Labonte**: улучшения для Software Boutique"
 
 #: pages/team.md:34
 msgid "## Kickstarters"

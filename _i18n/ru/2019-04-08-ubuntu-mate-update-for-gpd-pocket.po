@@ -1,7 +1,7 @@
 #
 # Translators:
-# Nikolay Strelkov, 2020
 # Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:10+0000\n"
-"Last-Translator: Dmitry Kiryanov <mitya.kagamine@gmail.com>, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:11
 msgid "title: Ubuntu MATE 18.04 and 19.04 for GPD Pocket & Pocket 2"
@@ -40,8 +40,8 @@ msgstr ""
 "Еще в октябре 2018 года команда Ubuntu MATE выпустила индивидуальные образы "
 "Ubuntu\n"
 "MATE 18.10 для [GPD Pocket](https://www.gpd.hk/gpdpocket) и\n"
-"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2) которые включали аппаратные "
-"настройки,\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2) которые включали изменения и "
+"улучшения,\n"
 "обеспечившие работу этих устройств *\"из коробки\"* без каких-либо\n"
 "забот. **Сегодня мы выпускаем образы Ubuntu MATE 18.04.2 и Ubuntu MATE "
 "19.04\n"
@@ -142,3 +142,8 @@ msgid ""
 "    button_text = \"Details & Downloads\"\n"
 "    button_url = \"/ports/umpcs/\""
 msgstr ""
+"    title = \"Больше подробностей и загрузки\"\n"
+"    text = \"Узнайте больше об Ubuntu MATE для GPD Pocket и  Pocket 2. "
+"Перейдите к загрузке!\"\n"
+"    button_text = \"Подробности и загрузка\"\n"
+"    button_url = \"/ports/umpcs/\""

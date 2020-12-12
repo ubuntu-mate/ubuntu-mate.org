@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
 
 #: _posts/2020-10-22-ubuntu-mate-groovy.md:12
 msgid ""
@@ -462,6 +462,11 @@ msgid ""
 "    button_text = \"Download\"\n"
 "    button_url = \"/download/\""
 msgstr ""
+"    title = \"Загрузите Ubuntu MATE сегодня\"\n"
+"    text = \"Этот новый выпуск будет сначала доступен для пользователей ПК/"
+"Mac.\"\n"
+"    button_text = \"Загрузить\"\n"
+"    button_url = \"/download/\""
 
 #: _posts/2020-10-22-ubuntu-mate-groovy.md:163
 msgid "## Upgrading from Ubuntu MATE 20.04 LTS"
