@@ -25,6 +25,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
+        sudo apt-get update
         sudo apt-get install ruby ruby-dev ruby-bundler make gcc
         sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib
         bundle config path vendor/bundle
