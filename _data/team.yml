@@ -66,6 +66,7 @@
         - ubuntu_mate
         - documentation
         - community
+        - ubuntu
 
     - name: Nikolay Strelkov
       avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
