@@ -291,12 +291,10 @@ quote_youtube_title: "What the YouTubers are showcasing..."
 
 
 #######################################
-# Device Ports
+# Device Ports (Footer)
 #######################################
-ports: "Device Ports"
+device_ports: "Device Ports"
 raspberry_pi: "Raspberry Pi"
-raspberry_pi_history: "Raspberry Pi Change Log"
-umpc: "Ultra Mobile PCs (UMPCs)"
 
 
 #######################################

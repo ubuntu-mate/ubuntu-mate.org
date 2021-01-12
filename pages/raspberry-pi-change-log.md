@@ -1,8 +1,7 @@
 ---
 layout: page-category
-permalink: /ports/raspberry-pi-change-log/
+permalink: /raspberry-pi/changelog/
 lang: en
-category: ports
 
 title: Raspberry Pi Changes
 

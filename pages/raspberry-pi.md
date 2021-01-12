@@ -1,8 +1,7 @@
 ---
 layout: page-category
-permalink: /ports/raspberry-pi/
+permalink: /raspberry-pi/
 lang: en
-category: ports
 
 title: Raspberry Pi
 

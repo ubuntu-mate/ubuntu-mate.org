@@ -212,26 +212,20 @@ source_lang = en
 type = PO
 
 [ubuntu-mate-org.ports-raspberry-pi-change-log]
-file_filter = _i18n/<lang>/ports-raspberry-pi-change-log.po
-source_file = _i18n/pots/ports-raspberry-pi-change-log.pot
+file_filter = _i18n/<lang>/raspberry-pi-change-log.po
+source_file = _i18n/pots/raspberry-pi-change-log.pot
 source_lang = en
 type = PO
 
 [ubuntu-mate-org.ports-raspberry-pi]
-file_filter = _i18n/<lang>/ports-raspberry-pi.po
-source_file = _i18n/pots/ports-raspberry-pi.pot
+file_filter = _i18n/<lang>/raspberry-pi.po
+source_file = _i18n/pots/raspberry-pi.pot
 source_lang = en
 type = PO
 
 [ubuntu-mate-org.ports-umpc]
-file_filter = _i18n/<lang>/ports-umpc.po
-source_file = _i18n/pots/ports-umpc.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.ports]
-file_filter = _i18n/<lang>/ports.po
-source_file = _i18n/pots/ports.pot
+file_filter = _i18n/<lang>/umpc.po
+source_file = _i18n/pots/umpc.pot
 source_lang = en
 type = PO
 
