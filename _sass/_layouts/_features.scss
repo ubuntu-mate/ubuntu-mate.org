@@ -162,13 +162,22 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     }
 }
 
+@media screen and (max-width: $md), (max-height: $sm) {
+    .feature-filters {
+        top: 158px;
+    }
+}
+
+@media screen and (max-width: $md), (max-height: $xs) {
+    .feature-filters {
+        position: static;
+        margin: 15px 0;
+    }
+}
+
 @media screen and (max-width: $md) {
     .feature-vendor {
         flex-direction: column;
-    }
-
-    .feature-filters {
-        top: 60px;
     }
 
     .vendor-details {
