@@ -45,8 +45,16 @@
 
 .footer-links {
     a {
-        display: inline-block;
+        display: inline-flex;
         padding: 2px 10px;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            span {
+                text-decoration: underline;
+            }
+        }
 
         + a {
             border-left: 1px solid $ambiant-text-colour-light;
@@ -56,12 +64,24 @@
         svg {
             height: 12px;
             width: auto;
-            position: relative;
-            top: -1px;
-            left: 2px;
+            margin: auto 5px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
 
             path {
                 fill: $ambiant-text-colour-light;
+            }
+        }
+
+        &.link-with-icon {
+            svg {
+                height: 16px;
             }
         }
     }
