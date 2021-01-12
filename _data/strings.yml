@@ -291,10 +291,11 @@ quote_youtube_title: "What the YouTubers are showcasing..."
 
 
 #######################################
-# Device Ports (Footer)
+# Device Ports
 #######################################
 device_ports: "Device Ports"
 raspberry_pi: "Raspberry Pi"
+learn_more_rpi: "Learn more about our Raspberry Pi release"
 
 
 #######################################
