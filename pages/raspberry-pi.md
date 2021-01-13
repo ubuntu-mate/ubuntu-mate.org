@@ -1,7 +1,8 @@
 ---
-layout: page-category
+layout: sidebar
 permalink: /raspberry-pi/
 lang: en
+sidebar: raspberry-pi
 
 title: Raspberry Pi
 

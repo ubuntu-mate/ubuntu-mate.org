@@ -1,7 +1,8 @@
 ---
-layout: page-category
+layout: sidebar
 permalink: /raspberry-pi/changelog/
 lang: en
+sidebar: raspberry-pi
 
 title: Raspberry Pi Changes
 

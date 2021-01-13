@@ -259,6 +259,15 @@ prepare_media: "Media Preparations"
 
 
 #######################################
+# Raspberry Pi "Device Port" Sidebar
+#######################################
+about_features: "About & Features"
+whats_new: "What's New?"
+install_guide: "Install Guide"
+compatibility: "Compatibility Check"
+
+
+#######################################
 # Team
 #######################################
 founders_title: "Founders"
