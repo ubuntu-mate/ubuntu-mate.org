@@ -28,7 +28,7 @@ layout: default
 
                         {% if member.url %}<a href="{{ member.url }}" rel="external">{% endif %}
 
-                          <img class="member-avatar" src="{% if member.avatar %}{{ member.avatar }}{% else %}/images/people/nophoto.svg{% endif %}" alt="{{ member.name }}"/>
+                          <img class="member-avatar" loading="lazy" src="{% if member.avatar %}{{ member.avatar }}{% else %}/images/people/nophoto.svg{% endif %}" alt="{{ member.name }}"/>
 
                         {% if member.url %}</a>{% endif %}
 
