@@ -1,4 +1,4 @@
-{% assign apps = site.data.apps[include.list] %}
+{% assign apps = site.data.apps[include.list] | sort: 'name' %}
 {% assign show = include.show %}
 
 <table class="app-directory">
