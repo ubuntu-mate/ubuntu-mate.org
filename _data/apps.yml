@@ -190,6 +190,11 @@ mate_desktop:
 
 
 preinstalled:
+    - name: Ayatana Indicators
+      img: /images/categories/features/mate-panel.svg
+      src_url: https://github.com/AyatanaIndicators
+      translations_url: https://hosted.weblate.org/projects/ayatana-indicators/
+
     - name: Ubiquity
       img: /images/apps/ubiquity.svg
       src_url: https://code.launchpad.net/ubuntu/+source/ubiquity
