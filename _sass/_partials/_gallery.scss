@@ -4,10 +4,30 @@
 
 /* Outer */
 .gallery {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     max-width: 720px;
     margin: 30px auto;
+
+    button {
+        font-size: 0;
+        padding: 0;
+        height: 15px;
+        width: 30px;
+
+        &.slick-prev,
+        &.slick-next {
+            position: absolute;
+            top: 0;
+            bottom: 70px;
+            font-size: 16px;
+            margin: auto;
+            height: 35px;
+            width: 35px;
+            z-index: 1;
+        }
+    }
 }
 
 .slick-list {
@@ -25,26 +45,31 @@
 
 .slick-prev {
     order: 2;
-    margin-left: auto;
-    margin-right: 0;
+    left: -50px;
+}
+
+.slick-next {
+    order: 4;
+    right: -50px;
 }
 
 .slick-dots {
-    order: 3;
     display: flex;
+    order: 3;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
-}
+    margin: 15px auto;
 
-.slick-prev,
-.slick-dots,
-.slick-next {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    button {
+        border: none;
+        background: rgba($grey-lightest, 0.5);
+        margin: 0 2px;
+    }
 }
 
 .slick-active > button {
-    @extend .btn, .green;
+    background: $ubuntu-mate-light;
     color: white;
 
     &:hover,
@@ -54,10 +79,16 @@
     }
 }
 
-.slick-next {
-    order: 4;
-    margin-left: 0;
-    margin-right: auto;
+@media (max-width: $sm) {
+    .slick-prev {
+        left: 0;
+        min-width: 0;
+    }
+
+    .slick-next {
+        right: 0;
+        min-width: 0;
+    }
 }
 
 /* Inner */
