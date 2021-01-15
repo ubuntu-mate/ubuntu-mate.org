@@ -28,6 +28,11 @@ prototyped with Ubuntu MATE can be used with [Ubuntu Server](https://ubuntu.com/
 or [Ubuntu Core](https://www.ubuntu.com/core). You might want to check out the
 [Ubuntu Appliance Portfolio](https://ubuntu.com/appliance) too.
 
+{:.center .small}
+![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi.png)
+**Ubuntu MATE running on the Raspberry Pi 4**
+
+
 ## Features
 
 High-level features of these images are:
@@ -56,75 +61,23 @@ High-level features of these images are:
     * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) is available for install.
 -->
 
-{:.center .small}
-![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi.png)
-**Ubuntu MATE running on the Raspberry Pi 4**
+---
 
-## Supported Raspberry Pi
-
-  * These images work on:
-    * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) **(recommended)**
-    * [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000) in a [Compute Module 4 IO Board](https://www.raspberrypi.org/products/compute-module-4-io-board/) **(recommended)**
-      * A **Raspberry Pi 4 and Compute Module 4 with 2GB RAM or more** offers the best experience.
-    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(not recommended)**
-      * With just 1GB of RAM, everything works but desktop use is hampered by memory pressure.
-
-## Unsupported Raspberry Pi
-
-  * These images *kind of* work on:
-    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) **(not recommended)**
-    * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**
-    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) **(not recommended)**
-      * Fails to complete the first boot setup due to insufficient memory.
-      * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.
-      * Due to only having 512MB RAM the `arm64` is not recommended; even the `armhf` version can be very tight on resources.
-
-  * These images **will not work on** any Raspberry Pi model using an ARMv6 instruction set:
-    * [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)
-    * [Raspberry Pi 1 Model B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/)
-    * [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
-    * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
-
-Memory pressure is reasonable using the `armhf` images (~350MB at idle)
-but quite tight on the `arm64` images (~490MB at idle). As always,
-microSDHC I/O throughput is a bottleneck on the Raspberry PPi so don't
-gimp your Raspberry Pi by cheaping out on poor performing microSDHC
-cards. We used the [Samsung EVO Plus 32 GB microSDHC UHS-I U1](https://geni.us/AKAsg)
-and [Kingston 64 GB microSDXC Canvas Go Plus](https://geni.us/Jelmu)
-during the testing of these images and they significantly better
-performance than most other microSDHC cards we've tried.
-[But don't take our word for it](https://www.pidramble.com/wiki/benchmarks/microsd-cards).
-
-You'll need a microSD card which is **8GB** or greater to fit the image.
-The file system will automatically resize to occupy the unallocated
-space of the microSD card. Here is our recommended kit lists on Amazon:
-
-### Raspberry Pi 4 with 8GB RAM
+## Hardware Recommendations
 
 {:.transparent .icons}
 |Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|
 |[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.jpg)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.jpg)](https://geni.us/oRQKPJ)|
 
-### Raspberry Pi 4 with 4GB RAM
-
 {:.transparent .icons}
 |Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go Plus|
 |[![Raspberry Pi 4 4GB RAM](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|
-
-### Raspberry Pi 4 with 2GB RAM
 
 {:.transparent .icons}
 |Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
 |[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
 
-{% include blog/jumbotron.html
-
-    title = "Download"
-    text = "Run Ubuntu MATE on your Raspberry Pi today."
-    button_text = "Download"
-    button_url = "/download/"
-
-%}
+---
 
 ## Additional features
 
@@ -242,42 +195,7 @@ However if you have MPEG-2 or VC-1 video video files then **you will need MPEG-2
 and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/license-keys/)**.
 -->
 
-## Recent Changes
-
-### Ubuntu MATE 20.04.1 & 20.10 - October 30th 2020
-
-  * Ubuntu MATE 20.10 is capable of USB boot.
-  * Compute Module 4 support.
-  * The `gpio`, `i2c`, `input` and `spi` groups are pre-created.
-    * The user created using the first-boot wizard is automatically added to the groups above.
-  * `cloud-init` is completely removed; file system expansion is handled by `cloud-initramfs-growroot` and the `x-systemd.growfs` mount option.
-  * Snaps are initialized while the first-boot setup wizard runs.
-  * Plymouth splash screen is displayed correctly during first-boot.
-  * Serial console is disabled by default.
-  * `gpu_mem` configured for 128MB by default.
-  * `hdmi_drive` now defaults to DVI mode.
-
-### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020
-
-  * Re-based on Ubuntu MATE 20.04.1.
-  * Fixed WiFi on first boot during the initial setup wizard.
-  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible.
-
-### Ubuntu MATE 20.04 Beta 1 - 12 July 2020
-
-  * Re-based on Ubuntu MATE 20.04.
-  * Added support for Raspberry Pi 4.
-  * Enabled the VC4/V3D (fkms) driver by default.
-  * Firefox uses Basic rendering by default.
-    * Based on community feedback and our testing the OMTC (OpenGL) compositing video playback is choppy by comparison.
-  * Added `rpi-eeprom`.
-  * Minecraft: Pi Edition is still be packaged.
-  * USB Booting is work in progress.
-  * Dropped `raspi-config`; we have something else in the works...
-
-### Previous Changes
-
-  * [See what changed in earlier releases.](/ports/raspberry-pi-change-log/)
+---
 
 ## Feedback and Improvements
 

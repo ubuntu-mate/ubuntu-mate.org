@@ -10,9 +10,40 @@ title: Raspberry Pi Changes
 
 # What's New for the Raspberry Pi?
 
-[See the Raspberry Pi page for latest developments.](/ports/raspberry-pi/)
+{% include partials/toc.html %}
 
-### Ubuntu MATE 18.04.2 Beta 2 - WIP
+### 30 October 2020 - 20.04.1 & 20.10
+
+  * Ubuntu MATE 20.10 is capable of USB boot.
+  * Compute Module 4 support.
+  * The `gpio`, `i2c`, `input` and `spi` groups are pre-created.
+    * The user created using the first-boot wizard is automatically added to the groups above.
+  * `cloud-init` is completely removed; file system expansion is handled by `cloud-initramfs-growroot` and the `x-systemd.growfs` mount option.
+  * Snaps are initialized while the first-boot setup wizard runs.
+  * Plymouth splash screen is displayed correctly during first-boot.
+  * Serial console is disabled by default.
+  * `gpu_mem` configured for 128MB by default.
+  * `hdmi_drive` now defaults to DVI mode.
+
+### 13 August 2020 - 20.04.1 Beta 2
+
+  * Re-based on Ubuntu MATE 20.04.1.
+  * Fixed WiFi on first boot during the initial setup wizard.
+  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible.
+
+### 12 July 2020 - 20.04 Beta 1
+
+  * Re-based on Ubuntu MATE 20.04.
+  * Added support for Raspberry Pi 4.
+  * Enabled the VC4/V3D (fkms) driver by default.
+  * Firefox uses Basic rendering by default.
+    * Based on community feedback and our testing the OMTC (OpenGL) compositing video playback is choppy by comparison.
+  * Added `rpi-eeprom`.
+  * Minecraft: Pi Edition is still be packaged.
+  * USB Booting is work in progress.
+  * Dropped `raspi-config`; we have something else in the works...
+
+### 06 April 2019 - 18.04.2 Beta 2
 
   * Added Raspberry Pi specific applications to the Software Boutique.
     * Minecraft: Pi Edition
@@ -20,7 +51,7 @@ title: Raspberry Pi Changes
   * Disabled WiFi Power Management.
   * `openssh-server` no longer pre-installed.
 
-### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019
+### 24 March 2019 - 18.04.2 Beta 1
 
   * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.
   * Fixed Raspberry Pi features in Ubuntu MATE Welcome.
@@ -32,7 +63,7 @@ title: Raspberry Pi Changes
   * Uploaded Minecraft Pi Edition (`armhf` only) to the archive, not pre-installed.
   * Raspberry Pi 3 Model A+ confirmed working, *kind of*.
 
-### Ubuntu MATE 18.04.2 - March 5th, 2019
+### 05 March 2019 - 18.04.2 Alpha 1
 
   * Fixed HDMI audio quality.
   * Fixed USB booting.
@@ -45,11 +76,11 @@ title: Raspberry Pi Changes
   * Reduced idle RAM consumption by ~30MB on arm64 and ~10MB on armhf.
   * Switched to the CFQ scheduler.
 
-### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019
+### 02 March 2019 - 18.04.2 Alpha 1
 
   * Initial Ubuntu MATE 18.04.2 images made available for private testing.
 
-### 2017-02-16 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3
+### 16 February 2017 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3
 
   * Performance optimised.
     * Added automated first boot partition resizing.
@@ -99,7 +130,7 @@ title: Raspberry Pi Changes
     * `sshguard` is also automatically enabled when you enable SSH.
   * Reduced the image size to 5GB, down from 8GB.
 
-### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
+### 24 April 2016 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3
 
   * Added OpemMAX IL hardware accelerated video playback to VLC.
     * To enable hardware accelerated video playback go to `Tools` -> `Preferences` -> `Video` and select `OpenMax IL`.
@@ -108,7 +139,7 @@ title: Raspberry Pi Changes
   * Increased the minimum microSDHC card size to 8GB.
   * Removed tboplayer.
 
-### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
+### 05 April 2016 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3
 
   * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with Raspberry Pi specific features.
   * Updated BlueZ 5.37 with patches to support the Raspberry Pi 3 integrated Bluetooth.
@@ -122,13 +153,13 @@ title: Raspberry Pi Changes
   * Migrated configuration tweaks to `raspberrypi-general-mods` and `raspberrypi-sys-mods`.
   * Experimental hardware accelerated OpenGL can be enabled, *if you know how* `;-)`
 
-### 2016-02-27 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3
+### 27 February 2016 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3
 
   * Added support for Raspberry Pi 3 integrated Wifi.
   * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated Bluetooth.
     * Support for the integrated Raspberry Pi 3 Bluetooth is not working but we hope to have an update that addresses this soon.
 
-### 2016-02-26 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 (internal testing build)
+### 26 February 2016 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 (internal testing build)
 
   * Added support for Raspberry Pi 3 Model B.
     * No Raspberry Pi 3 integrated Wifi or Bluetooth support.
@@ -136,7 +167,7 @@ title: Raspberry Pi Changes
   * Updated all packages to the current version in the Ubuntu 15.10 archive.
   * Fixed an issue where the SSH host keys were not correctly regenerated on first boot.
 
-### 2015-12-21 - 15.10.1 for Raspberry Pi 2 Update
+### 21 December 2015 - 15.10.1 for Raspberry Pi 2 Update
 
   * Migrated the build to [Ubuntu Pi Flavour Maker](https://ubuntu-pi-flavour-maker.org) project.
   * Images are now XZ compressed, to save bandwidth and make them compatible with GNOME Disks.
@@ -145,7 +176,7 @@ title: Raspberry Pi Changes
   * Updated to Linux 4.1.15.
   * Reverted change to `/boot/config.txt` so audio is not forced to output over HDMI because this introduced more compatibility issues that it solved.
 
-### 2015-10-22 - 15.10 for Raspberry Pi 2 Final Release
+### 22 October 2015 - 15.10 for Raspberry Pi 2 Final Release
 
   * Added OMXPlayer GUI.
   * Added YouTube Downloader.
@@ -163,7 +194,7 @@ title: Raspberry Pi Changes
     * Simliar to how Raspbian does it except *only* Scratch can be executed with elevated privileges, not everything.
   * Removed Compiz.
 
-### 2015-10-14 - 15.10 for Raspberry Pi 2 Release Candidate
+### 14 October 2015 - 15.10 for Raspberry Pi 2 Release Candidate
 
   * Fixed framebuffer so it now uses 32-bit colour depth.
   * Added Minecraft Pi Edition 0.1.1-4.
@@ -191,7 +222,7 @@ title: Raspberry Pi Changes
   * Enabled Plymouth to improve startup and shutdown performance.
   * Removed `oem-config`.
 
-### 2015-04-22 - 15.04 for Raspberry Pi 2 Final Release
+### 22 April 2015 - 15.04 for Raspberry Pi 2 Final Release
 
   * Enabled Ryan Finnie's PPA.
     * <https://launchpad.net/~fo0bar/+archive/ubuntu/rpi2>
@@ -214,7 +245,7 @@ title: Raspberry Pi Changes
   * Fixed `/etc/network/interfaces` so that the Ethernet device is now configurable via Network Manager.
   * Removed `openssh-server` until host key regeneration can be integrated.
 
-### 2015-04-22 - 15.04 for Raspberry Pi 2 Beta 2
+### 22 April 2015 - 15.04 for Raspberry Pi 2 Beta 2
 
   * Enabled `systemd` as the init system.
   * Added `raspberrypi-vc` (VideoCore GPU libraries) 1.20150301.0de0b20-3.
@@ -222,6 +253,6 @@ title: Raspberry Pi Changes
   * Added `linux-firmware`.
   * Added `openssh-server`.
 
-### 2015-03-07
+### 07 March 2015
 
   * Initial Release.
