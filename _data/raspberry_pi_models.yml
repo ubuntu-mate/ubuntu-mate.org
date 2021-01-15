@@ -1,0 +1,71 @@
+- model: Raspberry Pi 1 A+
+  ram: "<512 MB"
+  cpu: ARMv6
+  armhf: false
+  arm64: false
+
+- model: Raspberry Pi 1 B+
+  ram: 512 MB
+  cpu: ARMv6
+  armhf: false
+  arm64: false
+
+- model: Raspberry Pi Zero
+  ram: 512 MB
+  cpu: ARMv6
+  armhf: false
+  arm64: false
+
+- model: Raspberry Pi Zero W
+  ram: 512 MB
+  cpu: ARMv6
+  armhf: false
+  arm64: false
+
+- model: Raspberry Pi 2 B
+  ram: 1 GB
+  cpu: ARMv7
+  armhf: true
+  arm64: false
+
+- model: Raspberry Pi 3 B
+  ram: 1 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true
+
+- model: Raspberry Pi 3 B+
+  ram: 1 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true
+
+- model: Raspberry Pi 4 B
+  ram: 1 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true
+
+- model:
+  ram: 2 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true
+
+- model:
+  ram: 4 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true
+
+- model:
+  ram: 8 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true
+
+- model: Raspberry Pi 400
+  ram: 4 GB
+  cpu: ARMv8
+  armhf: true
+  arm64: true

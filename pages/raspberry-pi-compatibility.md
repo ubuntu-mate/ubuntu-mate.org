@@ -10,24 +10,7 @@ title: Raspberry Pi Compatibility
 
 ## Supported Raspberry Pi Models
 
-| Model                 | RAM   | Instruction Set | [armhf]  | [arm64]   |
-| --------------------- | ----- | --------------- | -------- | --------- |
-| Raspberry Pi 1 A+     | <512 MB | ARMv6         | No        | No        |
-| Raspberry Pi 1 B+     | 512 MB| ARMv6           | No        | No        |
-| Raspberry Pi Zero     | 512 MB| ARMv6           | No        | No        |
-| Raspberry Pi Zero W   | 512 MB| ARMv6           | No        | No        |
-| Raspberry Pi 2 B      | 1 GB  | ARMv7           | Yes       | No        |
-| Raspberry Pi 3 B      | 1 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 3 B      | 1 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 3 B+     | 1 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 4 B      | 1 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 4 B      | 2 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 4 B      | 4 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 4 B      | 8 GB  | ARMv8           | Yes       | Yes       |
-| Raspberry Pi 400      | 4 GB  | ARMv8           | Yes       | Yes       |
-
-[armhf]: /download/armhf/
-[arm64]: /download/arm64/
+{% include partials/pi-compatibility-table.html %}
 
 Note that the experience with models with 1 GB of RAM may be hampered by
 memory pressure and increase wear on SD cards due to swapping.

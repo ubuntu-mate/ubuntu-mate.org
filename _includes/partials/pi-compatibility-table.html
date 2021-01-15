@@ -1,0 +1,32 @@
+<table class="table-yes-no">
+    <thead>
+        <tr>
+            <th>{{ site.data.strings.model }}</th>
+            <th>{{ site.data.strings.ram }}</th>
+            <th>{{ site.data.strings.instruction_set }}</th>
+            <th><a href="/download/armhf/">armhf</a></th>
+            <th><a href="/download/arm64/">arm64</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for model in site.data.raspberry_pi_models %}
+            <tr>
+                <td>{{ model.model }}</td>
+                <td>{{ model.ram }}</td>
+                <td>{{ model.cpu }}</td>
+
+                {% if model.armhf == true %}
+                    <td class="yes">{% include images/fa/check.svg %}</td>
+                {% else %}
+                    <td class="no">{% include images/fa/no.svg %}</td>
+                {% endif %}
+
+                {% if model.arm64 == true %}
+                    <td class="yes">{% include images/fa/check.svg %}</td>
+                {% else %}
+                    <td class="no">{% include images/fa/no.svg %}</td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
