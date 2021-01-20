@@ -17,14 +17,14 @@ In this tutorial, we walk you through the process of installing Ubuntu MATE Desk
 
 What you'll learn:
 
-- How to create a bootable Ubuntu Mate Desktop microSD card
-- How to setup your Ubuntu Desktop for daily use
+- How to create a bootable Ubuntu MATE Desktop microSD card
+- Tips on booting from USB drives (optional)
 
 What you'll need:
 
 - A microSD card (4GB minimum, 8GB recommended)
 - A computer with a microSD card drive
-- A Raspberry Pi 4
+- A Raspberry Pi 2 or newer
 - A micro USB-C power cable
 - A monitor with an HDMI interface
 - A micro HDMI cable
@@ -82,7 +82,8 @@ First set your language, then set your keyboard layout.
 
 ![Keyboard](/images/rpi/keyboard.png)
 
-Now pick yourself a timezone. This is used to give you the correct system time for your local.
+Now pick yourself a time zone. Unlike convential computers, the Raspberry Pi
+does not have a battery-powered hardware clock and must sync the date and time from the Internet.
 
 ![Timezone](/images/rpi/location.png)
 
@@ -92,31 +93,33 @@ Now choose a user name and password.
 
 ![User](/images/rpi/user.png)
 
-After setting the keyboard layout, timezone and user credentials you'll be taken to the login screen after a few minutes. And voila! you are almost done.
+After setting the keyboard layout, timezone and user credentials you'll be taken to the login screen after a few minutes. And voila! You are almost done.
 
 Welcome to your new Ubuntu MATE Desktop:
 
 ![Destop](/images/rpi/desktop.png)
 
 
-Once logged in, the first thing you should do is to update Ubuntu MATE. You can use the command line for that.
-
-    sudo apt update
-    sudo apt upgrade
-
-You can also use the Software Updater:
+Once logged in, the first thing you should do is to update Ubuntu MATE. This can
+be done via the **Software Updater** application:
 
 ![Update](/images/rpi/update.png)
 
-At this point you can enjoy your MATE set up as is, or add software as needed through the Software Boutique:
+Alternately, you can update via the Terminal:
 
+    sudo apt update
+    sudo apt full-upgrade
+
+At this point you can enjoy your MATE set up as is, or add software as needed through the Software Boutique:
 
 ![Software](/images/rpi/software.png)
 
 
-## (Optional) USB Boot
+## (Optional) Setting up USB Boot
 
-You can also now boot from a USB attached hard-drive or SSD with no microSD card involved. You have to do this after booting from an SD card however because all Raspberry Pi 4 models ship with an EEPROM configuration that boots from SD cards only, but we can change that.
+:warning: **For Raspberry Pi 4 only.**
+
+You can also now boot from a USB attached hard drive or SSD with no microSD card involved. You have to do this after booting from an SD card however because all Raspberry Pi 4 models ship with an EEPROM configuration that boots from SD cards only, but we can change that.
 
 The first check you've got an up to date EEPROM version on your Pi 4:
 
@@ -146,14 +149,20 @@ To apply any changes (the EEPROM is only updated during the early stages of boot
 
     sudo reboot
 
-Now we need to get the image onto a hard drive. That's the easy part. If you roll this tutorial back to “Prepare the SD Card” and go through it replacing “SD card” with “Hard Drive” you'll have it.
+Now we need to get the image onto a hard drive. That's the easy part. If you roll this tutorial back to “Prepare the SD Card” and go through it replacing “SD Card” with “Hard Drive” you'll have it.
 
 You should now be able to boot from your hard drive. Congratulations!
 
-> **Warning:** Be aware that some drives have issues being used to boot the Pi. In particular:
+> :warning: **Warning: Some drives may have issues when used to boot the Pi.**
 >
-> - Spinning hard disks require a lot more power than SSDs and will very likely need a powered USB hub or USB hard drive enclosure.
-> - Hubs themselves can cause compatibility issues, so you may be better off with an SSD (typically no need for a hub and no spin-up time issues).
+> In particular, spinning hard disks require a lot more power than SSDs or flash memory.
+> You will very likely need a powered USB hub or external USB drive enclosure.
+>
+> Insufficient power for 2.5 HDDs may fail to spin up without power, or increase
+> their risk of corruption due to power fluctuations.
+>
+> Certain USB hubs may cause compatibility issues. For best results, an SSD is recommended.
+
 
 There's lots of good information on both the Pi forums and various GitHub issues for debugging boot issues; here's a selection of links in a rough “look at this first” order from our top Pi guy:
 
@@ -163,3 +172,7 @@ There's lots of good information on both the Pi forums and various GitHub issues
 * [Pi Forums: Pi 4 USB3 SSD slow speeds?](https://www.raspberrypi.org/forums/viewtopic.php?t=245931)
 * [Pi Docs: Pi 4 Bootloader Configuration](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md)
 * [GitHub Issue: Enclosure doesn't power on after reboot](https://github.com/raspberrypi/rpi-eeprom/issues/180)
+
+---
+
+_This page is an adaptation of [Ubuntu's Raspberry Pi tutorial.](https://discourse.ubuntu.com/t/18925)_
