@@ -67,7 +67,7 @@ High-level features of these images are:
 
 {:.transparent .icons}
 |Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|
-|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.jpg)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.jpg)](https://geni.us/oRQKPJ)|
+|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.webp)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.webp)](https://geni.us/oRQKPJ)|
 
 {:.transparent .icons}
 |Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go Plus|
@@ -75,7 +75,7 @@ High-level features of these images are:
 
 {:.transparent .icons}
 |Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|
-|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
+|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.webp)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|
 
 ---
 
