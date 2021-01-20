@@ -316,6 +316,17 @@ These are re-used across page layouts and shouldn't be used in Markdown files:
 * `partials/blog-sidebar.html`
 * `partials/categories.html`
 
+#### Raspberry Pi Compatibilty Table
+
+The data files are at:
+
+* `_data/raspberry_pi_models.yml` - for architecture compatibilty
+* `_data/raspberry_pi_releases.yml` - for release compatibilty
+
+Adding new releases to `raspberry_pi_releases.yml` will require some table
+tweaks to the HTML at `partials/pi-compatibility-table.html` (the heading
+and conditional check)
+
 ## Images
 
 All images are to be kept in this folder. Reference them on any page or blog post via

@@ -15,18 +15,13 @@ title: Raspberry Pi Compatibility
 Note that the experience with models with 1 GB of RAM may be hampered by
 memory pressure and increase wear on SD cards due to swapping.
 
-### Raspberry Pi 2
-
-This model fails to complete set up due to insufficient memory.
-
-* If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.
-* Due to only having 512MB RAM, the system can be very tight on resources.
 
 ## armhf or arm64?
 
 Good question! [This is answered on our Raspberry Pi Download page.](/raspberry-pi/download/)
 
-## Memory and storage stats
+
+## Memory and Storage Statistics for 18.04
 
 Memory pressure is reasonable using the `armhf` images (~350MB at idle)
 but quite tight on the `arm64` images (~490MB at idle). As always,
@@ -40,4 +35,4 @@ performance than most other microSDHC cards we've tried.
 
 You'll need a microSD card which is **8GB** or greater to fit the image.
 The file system will automatically resize to occupy the unallocated
-space of the microSD card. Here is our recommended kit lists on Amazon:
+space of the microSD card.

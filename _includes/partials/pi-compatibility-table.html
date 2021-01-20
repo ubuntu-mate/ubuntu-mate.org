@@ -30,3 +30,57 @@
         {% endfor %}
     </tbody>
 </table>
+
+<h2>{{ site.data.strings.compatible_releases }}</h2>
+
+<table class="table-yes-no">
+    <thead>
+        <tr>
+            <th>{{ site.data.strings.model }}</th>
+            <th>16.04</th>
+            <th>18.04</th>
+            <th>20.04</th>
+            <th>20.10</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for model in site.data.raspberry_pi_releases %}
+            <tr>
+                <td>{{ model.model }}</td>
+
+                {% if model[1604] == true %}
+                    <td class="yes">{% include images/fa/check.svg %}</td>
+                {% elsif model[1604] == "slow" %}
+                    <td class="partial" style="cursor:help" title="{{ site.data.strings.compatible_but_slow }}">{% include images/fa/clock.svg %}</td>
+                {% else %}
+                    <td class="no">{% include images/fa/no.svg %}</td>
+                {% endif %}
+
+                {% if model[1804] == true %}
+                    <td class="yes">{% include images/fa/check.svg %}</td>
+                {% elsif model[1804] == "slow" %}
+                    <td class="partial" style="cursor:help" title="{{ site.data.strings.compatible_but_slow }}">{% include images/fa/thumbs-down.svg %}</td>
+                {% else %}
+                    <td class="no">{% include images/fa/no.svg %}</td>
+                {% endif %}
+
+                {% if model[2004] == true %}
+                    <td class="yes">{% include images/fa/check.svg %}</td>
+                {% elsif model[2004] == "slow" %}
+                    <td class="partial" style="cursor:help" title="{{ site.data.strings.compatible_but_slow }}">{% include images/fa/thumbs-down.svg %}</td>
+                {% else %}
+                    <td class="no">{% include images/fa/no.svg %}</td>
+                {% endif %}
+
+                {% if model[2010] == true %}
+                    <td class="yes">{% include images/fa/check.svg %}</td>
+                {% elsif model[2010] == "slow" %}
+                    <td class="partial" style="cursor:help" title="{{ site.data.strings.compatible_but_slow }}">{% include images/fa/thumbs-down.svg %}</td>
+                {% else %}
+                    <td class="no">{% include images/fa/no.svg %}</td>
+                {% endif %}
+
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

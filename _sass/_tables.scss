@@ -78,7 +78,9 @@ table.icons {
         width: 20px;
     }
 
-    .yes, .no {
+    .yes,
+    .no,
+    .partial {
         text-align: center;
     }
 
@@ -87,6 +89,14 @@ table.icons {
 
         svg path {
             fill: lighten($success, 20%);
+        }
+    }
+
+    .partial {
+        background-color: $amber;
+
+        svg path {
+            fill: #000;
         }
     }
 

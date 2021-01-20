@@ -1,0 +1,23 @@
+- model: Raspberry Pi 2
+  1604: true
+  1804: true
+  2004: slow
+  2010: slow
+
+- model: Raspberry Pi 3 B
+  1604: true
+  1804: true
+  2004: true
+  2010: true
+
+- model: Raspberry Pi 3 B+
+  1604: false
+  1804: true
+  2004: true
+  2010: true
+
+- model: Raspberry Pi 4
+  1604: false
+  1804: false
+  2004: true
+  2010: true
