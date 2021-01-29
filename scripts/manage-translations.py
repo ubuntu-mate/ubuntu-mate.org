@@ -271,7 +271,7 @@ def build():
             run("po2yaml --fuzzy -i {0} -t {1} -o {2}".format(strings_po, template_yml, strings_yml))
 
 
-def sync():
+def sync(pull=False, push=False):
     print("Generating .tx/config file...")
     tx_file = base_dir + "/.tx/config"
 
@@ -297,9 +297,10 @@ def sync():
     with open(tx_file, "w") as f:
         f.writelines(tx_data)
 
-    print("Pulling translations from Transifex... (this may take a while)")
-    check_if_installed("tx", "transifex-client")
-    run("tx pull -a --minimum-perc=" + str(MINIMUM_PERCENT), show_output=True)
+    if pull:
+        print("Pulling translations from Transifex... (this may take a while)")
+        check_if_installed("tx", "transifex-client")
+        run("tx pull -a --minimum-perc=" + str(MINIMUM_PERCENT), show_output=True)
 
     print("Updating locale lists...")
     lang_paths = glob.glob(i18n_dir + "/*")
@@ -367,10 +368,12 @@ def sync():
     generate()
     build()
 
-    print("Pushing source translations to Transifex... (this may take a while)")
-    run("tx push -s", show_output=True)
+    if push:
+        print("Pushing source translations to Transifex... (this may take a while)")
+        run("tx push -s", show_output=True)
 
-    print("\nSync complete.\n")
+    if pull and push:
+        print("\nSync complete.\n")
     print(" \033[5m[!]\033[0m Ready to test/commit the changes. Performing a website build is recommended.")
     if missing_langs:
         print(" \033[5m[!]\033[0m New languages added! Add the strings in: _data/lang.yaml")
@@ -392,7 +395,11 @@ if arg == "--generate":
 elif arg == "--build":
     build()
 elif arg == "--sync":
-    sync()
+    sync(True, True)
+elif arg == "--pull":
+    sync(True, False)
+elif arg == "--push":
+    sync(False, True)
 else:
     print("Invalid parameter")
     exit(1)
