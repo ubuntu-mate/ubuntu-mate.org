@@ -1,0 +1,382 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-guidelines-design.md:9
+msgid "title: Design Guidelines"
+msgstr "title: Instructions de Conception"
+
+#: pages/get-involved-guidelines-design.md:13
+msgid "## Design Guidelines"
+msgstr "## Instruction de Conception"
+
+#: pages/get-involved-guidelines-design.md:15
+msgid "### Ubuntu MATE Logo"
+msgstr "### Logo Ubuntu MATE"
+
+#: pages/get-involved-guidelines-design.md:18
+msgid ""
+"{:.center}\n"
+"![Main Logo](/images/get-involved/logo-guidelines/Main_Logo.png)"
+msgstr ""
+"{:.center}\n"
+"![Logo Principal](/images/get-involved/logo-guidelines/Main_Logo.png)"
+
+#: pages/get-involved-guidelines-design.md:21
+msgid ""
+"The Ubuntu MATE logo captures the precise and reliable qualities of the "
+"brand\n"
+"in a straightforward symbol and wordmark."
+msgstr ""
+"Le logo d'Ubuntu MATE capture les qualités précises et fiables de la marque\n"
+"dans un symbole et un wordmark simples."
+
+#: pages/get-involved-guidelines-design.md:24
+msgid ""
+"It is made up of a custom designed font (wordmark), carefully spaced with a\n"
+"re-drawn ‘Circle of MATEs’ placed within a roundel."
+msgstr ""
+"Il est fait d'une police (wordmark) conçue sur mesure, prudemment espacée "
+"avec un\n"
+"'Cercle de MATEs' redessiné, placé à l'intérieur d'un médaillon."
+
+#: pages/get-involved-guidelines-design.md:28
+msgid ""
+"Consistent use of the Ubuntu MATE logo is essential in creating a united "
+"brand\n"
+"identity. The master logo is supplied as artwork and should never be "
+"altered,\n"
+"distorted or re-created in any way."
+msgstr ""
+"Une utilisation cohérente du logo Ubuntu MATE est essentielle à la création "
+"d'une identité\n"
+"de marque unie. Le logo principal est fourni en tant qu'illustration et ne "
+"devrait jamais être altéré,\n"
+"déformé ou recréé sous quelque forme que ce soit."
+
+#: pages/get-involved-guidelines-design.md:31
+msgid "### Logo Elements"
+msgstr "### Éléments du Logo"
+
+#: pages/get-involved-guidelines-design.md:34
+msgid ""
+"{:.center}\n"
+"![Logo Elements](/images/get-involved/logo-guidelines/Logo_elements.png)"
+msgstr ""
+"{:.center}\n"
+"![Éléments du Logo](/images/get-involved/logo-guidelines/Logo_elements.png)"
+
+#: pages/get-involved-guidelines-design.md:36
+msgid "#### Wordmark"
+msgstr "#### Wordmark"
+
+#: pages/get-involved-guidelines-design.md:39
+msgid ""
+"The logotype is created using the Ubuntu font. The word _MATE_ is uppercase "
+"and\n"
+"represents the desktop environment used: MATE Desktop."
+msgstr ""
+"Le logotype est créé en utilisant la police Ubuntu. Le mot _MATE_ est en "
+"majuscules et\n"
+"représente l'environnement de bureau utilisé: Bureau MATE."
+
+#: pages/get-involved-guidelines-design.md:41
+msgid "#### Roundel"
+msgstr "#### Médaillon"
+
+#: pages/get-involved-guidelines-design.md:43
+msgid "Circular shape containing the Circle of MATEs."
+msgstr "Forme circulaire contenant le Cercle de MATEs."
+
+#: pages/get-involved-guidelines-design.md:45
+msgid "### The Circle of MATEs"
+msgstr "### Le Cercle de MATEs."
+
+#: pages/get-involved-guidelines-design.md:48
+msgid ""
+"{:.center}\n"
+"![Circle of MATEs](/images/get-involved/logo-guidelines/Circle_of_MATEs.png)"
+msgstr ""
+"{:.center}\n"
+"![Cercle de MATEs](/images/get-involved/logo-guidelines/Circle_of_MATEs.png)"
+
+#: pages/get-involved-guidelines-design.md:54
+msgid ""
+"The Circle of MATEs is the symbol that accompanies the wordmark in the "
+"Ubuntu\n"
+"MATE logo. The triangles inside the roundel represent the three fundamental\n"
+"elements of this project: the Ubuntu base, the MATE Desktop and the "
+"community.\n"
+"The circular lines represent the connection and the collaboration between\n"
+"these elements."
+msgstr ""
+"Le Cercle de MATEs est le symbol qui accompagne le woodmark dans le\n"
+"logo d'Ubuntu MATE. Les triangles à l'intérieur du médaillon représentent "
+"les trois\n"
+"éléments fondamentaux de ce projet: la base Ubuntu, le Bureau MATE et la "
+"communauté.\n"
+"Les lignes circulaires représentent la connexion et la collobration\n"
+"entre ces éléments."
+
+#: pages/get-involved-guidelines-design.md:58
+msgid ""
+"### Available colorways\n"
+"#### Wordmark"
+msgstr ""
+"### Coloris Disponibles\n"
+"#### Wordmark"
+
+#: pages/get-involved-guidelines-design.md:61
+msgid ""
+"{:.center}\n"
+"![Main Logo](/images/get-involved/logo-guidelines/Main_Logo.png) ![Main Logo "
+"White](/images/get-involved/logo-guidelines/Main_Logo_white.png)"
+msgstr ""
+"{:.center}\n"
+"![Logo Principal](/images/get-involved/logo-guidelines/Main_Logo.png) ![Logo "
+"Principal Blanc](/images/get-involved/logo-guidelines/Main_Logo_white.png)"
+
+#: pages/get-involved-guidelines-design.md:67
+msgid ""
+"The wordmark logo is presented only with colours above. Please, never "
+"change\n"
+"any of the colours in the logo. The white logo has been placed on a green\n"
+"background for visibility purposes. The background is not part of the logo;\n"
+"you are free to place the logo on whatever background you want, so long as\n"
+"you are able to see it."
+msgstr ""
+"Le logo woodmark est seulement présenté avec les couleurs ci-dessus. S'il-"
+"vous-plaît, \n"
+"ne changez jamais la moindre couleur dans le logo. Le logo blanc a été placé "
+"sur un fond\n"
+"vert à des fins de visibilité. L'arrière-plan ne fait pas partie du logo:\n"
+"vous êtes libres de placer le logo sur le fond de votre choix, du moment\n"
+"que vous soyez en mesure de le voir."
+
+#: pages/get-involved-guidelines-design.md:69
+msgid "### Roundel"
+msgstr "### Médaillon"
+
+#: pages/get-involved-guidelines-design.md:72
+msgid ""
+"{:.center .small}\n"
+"![Circle of MATEs Green](/images/get-involved/logo-guidelines/"
+"Circle_of_MATEs_green.png) ![Circle of MATEs White](/images/get-involved/"
+"logo-guidelines/Circle_of_MATEs_white.png)"
+msgstr ""
+"{:.center .small}\n"
+"![Cercle de MATEs Vert](/images/get-involved/logo-guidelines/"
+"Circle_of_MATEs_green.png) ![Cercle de MATEs Blanc](/images/get-involved/"
+"logo-guidelines/Circle_of_MATEs_white.png)"
+
+#: pages/get-involved-guidelines-design.md:77
+msgid ""
+"As with the wordmark, use the roundel logo only with the colour "
+"configurations\n"
+"above. The white version has been placed on a green background for "
+"visibility\n"
+"purposes. The background is not part of the logo; you are free to place the\n"
+"logo on whatever background you want, so long as you are able to see it."
+msgstr ""
+"Tout comme pour le woodmark, utilisez le médaillon seulement dans la "
+"configuration de couleurs ci-dessus.\n"
+"La version blanche a été placée sur un fond vert à des fins de visiblité.\n"
+"Le fond ne fait pas partie du logo: vous êtes libres de placer le logo sur "
+"le fond de votre choix, du moment que vous soyez en mesure de le voir."
+
+#: pages/get-involved-guidelines-design.md:79
+msgid "### Which logo should I use?"
+msgstr "### Quel logo devrais-je utiliser ?"
+
+#: pages/get-involved-guidelines-design.md:85
+msgid ""
+"It makes no difference which logo you choose to use for your works. There "
+"isn't\n"
+"a _preferred_ version we like to see. Just select what you want so that the "
+"logo\n"
+"is well distinguishable. We recommend that you use the white versions of "
+"the\n"
+"logos on darker backgrounds, and that you use the coloured versions on "
+"lighter\n"
+"backgrounds."
+msgstr ""
+"Peu importe le logo que vous choisissez d'utiliser pour vos travaux.\n"
+"Nous ne _préférons_ pas\n"
+"une version plutôt qu'une autre. Sélectionnez seulement ce que vous voulez "
+"du moment que le logo \n"
+"soit bien reconnaissable. Nous vous recommandons d'utiliser les versions "
+"blanches du logo\n"
+"sur des fonds sombres et d'utiliser les versions colorées sur des fonds "
+"clairs."
+
+#: pages/get-involved-guidelines-design.md:87
+msgid "### Exclusion Zone"
+msgstr "### Zone d'Exclusion"
+
+#: pages/get-involved-guidelines-design.md:91
+msgid ""
+"The Ubuntu logo must always have a clear area surrounding it, free from any\n"
+"other element. To define this area, measure the height of the roundel and "
+"use\n"
+"half this measure to create the boundary of clear space around the logo."
+msgstr ""
+"Le logo Ubuntu doit toujours disposer d'une zone dégagée l'entourant, libre "
+"de tout autre élément. Pour définir cette zone, mesurez la hauteur du "
+"médaillon et\n"
+"utilisez\n"
+"la moitié de cette mesure pour créer les limites de la zone dégagée autour "
+"du logo."
+
+#: pages/get-involved-guidelines-design.md:94
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE Logo Margins](/images/get-involved/logo-guidelines/Ubuntu-MATE-"
+"Tag-Green-and-Black-margins.png)"
+msgstr ""
+"{:.center}\n"
+"![Les Marges du Logo Ubuntu MATE](/images/get-involved/logo-guidelines/"
+"Ubuntu-MATE-Tag-Green-and-Black-margins.png)"
+
+#: pages/get-involved-guidelines-design.md:99
+msgid ""
+"The Circle of MATEs, when used on its own, must always have a clear area\n"
+"surrounding it, free from any other element. To define this area, measure "
+"the\n"
+"height of the roundel and use a quarter of this measure to create the "
+"boundary\n"
+"of clear space."
+msgstr ""
+"Le Cercle de MATEs, quand utilisé seul, doit toujours disposer d'une zone "
+"dégagée l'entourant, libre de tout autre élément. Pour définir cette zone, "
+"mesurez la \n"
+"hauteur di médaillon et utilisez un quart de cette mesure pour créer les "
+"limites de la \n"
+"zone dégagée."
+
+#: pages/get-involved-guidelines-design.md:102
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE Rondel Margins](/images/get-involved/logo-guidelines/Ubuntu-"
+"MATE-Rondel-Green-margins.png)"
+msgstr ""
+"{:.center}\n"
+"![Marges du Médaillon Ubuntu MATE](/images/get-involved/logo-guidelines/"
+"Ubuntu-MATE-Rondel-Green-margins.png)"
+
+#: pages/get-involved-guidelines-design.md:104
+msgid "### Incorrect use"
+msgstr "### Utilisation Incorrecte"
+
+#: pages/get-involved-guidelines-design.md:108
+msgid ""
+"By following the guidelines on how to use this artwork, you will help to "
+"build a\n"
+"powerful and united identity for the Ubuntu MATE brand. This section shows\n"
+"examples of incorrect use."
+msgstr ""
+"En suivant les instructions relatives à l'utilisation de cette illustration, "
+"vous nous aidere à\n"
+"construire une identité forte et unie pour la marque Ubuntu MATE. Cette "
+"section montre\n"
+"des exemples d'utilisation incorrecte."
+
+#: pages/get-involved-guidelines-design.md:110
+msgid "You must not:"
+msgstr "Vous ne devez pas:"
+
+#: pages/get-involved-guidelines-design.md:117
+msgid ""
+"1. Change the spacing between the individual elements or characters\n"
+"2. Change the colour of the wordmark\n"
+"3. Change the colour of the Circle of MATEs\n"
+"4. Change the arrangement of the elements\n"
+"5. Place the logo at an angle other than horizontal or vertical\n"
+"6. Change the proportion of the logo"
+msgstr ""
+"1. Changer l'espacement entre les éléments individuels ou les caractères\n"
+"2. Changer la couleur du wordmark\n"
+"3. Changer la couleur des Cercles de MATEs\n"
+"4. Changer l'agencement des éléments\n"
+"5. Placer le logo dans un angle autre qu'horizontal ou vertical\n"
+"6. Changer les proportions du logo"
+
+#: pages/get-involved-guidelines-design.md:120
+msgid "### Ubuntu MATE stacked logo"
+msgstr "### Logo Ubuntu MATE empilé"
+
+#: pages/get-involved-guidelines-design.md:124
+msgid ""
+"{:.center .small}\n"
+"![Ubuntu MATE Stacked Logo](/images/get-involved/logo-guidelines/"
+"Wheel_tag_coloured.png)\n"
+"![Ubuntu MATE Stacked Logo Margins](/images/get-involved/logo-guidelines/"
+"Ubuntu-MATE-Tag-Green-and-Black-Square-margins.png)"
+msgstr ""
+"{:.center .small}\n"
+"![Logo Ubuntu MATE Empilé](/images/get-involved/logo-guidelines/"
+"Wheel_tag_coloured.png)\n"
+"![Marges du Logo Ubuntu MATE Empilé](/images/get-involved/logo-guidelines/"
+"Ubuntu-MATE-Tag-Green-and-Black-Square-margins.png)"
+
+#: pages/get-involved-guidelines-design.md:129
+msgid ""
+"A stacked version of the logo has also been made. Consistent use of the "
+"Ubuntu\n"
+"MATE logo is essential in creating a united brand identity. The master logo "
+"is\n"
+"supplied as artwork and should never be altered, distorted or re-created in\n"
+"any way."
+msgstr ""
+"Une version empilée du logo a également été faite. Une utilisation "
+"cohérente \n"
+"du logo Ubuntu MATE est essentielle à la création d'une identité de\n"
+"marque unie. Le logo principal est fourni en tant qu'illustration et ne "
+"devrait jamais être altéré,déformé ou recréé sous quelque forme que\n"
+"ce soit."
+
+#: pages/get-involved-guidelines-design.md:134
+msgid ""
+"The stacked Ubuntu MATE logo must always have a clear area surrounding it, "
+"free\n"
+"from any other element. To define this area, measure the height of the "
+"roundel\n"
+"and use a quarter of this measure to create the boundary of clear space "
+"around\n"
+"the logo."
+msgstr ""
+"Le logo empilé Ubuntu doit toujours disposer d'une zone dégagée l'entourant, "
+"libre de tout autre élément. Pour définir cette zone, mesurez la hauteur du "
+"médaillon et\n"
+"utilisez\n"
+"un quart de cette mesure pour créer les limites de la zone dégagée autour du "
+"logo."
+
+#: pages/get-involved-guidelines-design.md:137
+msgid "### Assets"
+msgstr "### Éléments"
+
+#: pages/get-involved-guidelines-design.md:139
+msgid ""
+"You can find these graphic assets in the\n"
+"[ubuntu-mate/brand-artwork](https://github.com/ubuntu-mate/brand-artwork) "
+"repository."
+msgstr ""
+"Vous pouvez retrouver ces éléments graphiques dans le dépôt\n"
+"[ubuntu-mate/brand-artwork](https://github.com/ubuntu-mate/brand-artwork)."

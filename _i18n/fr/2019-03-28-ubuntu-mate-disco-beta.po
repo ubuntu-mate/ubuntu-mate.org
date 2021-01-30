@@ -1,0 +1,315 @@
+#
+# Translators:
+# forevertoo sonic <scratch.haydenledean@gmail.com>, 2020
+# Alexis Grodwohl <alexis.grodwohl@gmail.com>, 2021
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:12
+msgid "title: Ubuntu MATE 19.04 Beta 1"
+msgstr "title: Ubuntu MATE 19.04 Beta 1"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:17
+msgid ""
+"**Ubuntu MATE 19.04 is a modest upgrade over previous releases. If you want "
+"bug\n"
+"fixes and improved hardware support then 19.04 is for you.**"
+msgstr ""
+"**Ubuntu MATE 19.04 est une amélioration modeste des versions précédentes. "
+"Si vous voulez la correction des bugs ou un meilleur support matériel, alors "
+"19.04 est pour vous.** "
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:22
+msgid ""
+"We are preparing Ubuntu MATE 19.04 (Disco Dingo) for distribution on\n"
+"[April 18th, 2018](https://wiki.ubuntu.com/DiscoDingo/ReleaseSchedule)\n"
+"With this *Beta* pre-release, you can see what we are trying out in\n"
+"preparation for our next (stable) version."
+msgstr ""
+"Nous préparons Ubuntu MATE 19.04 (Disco Dingo) pour distribution au\n"
+"[18 Avril 2018] (https://wiki.ubuntu.com/DiscoDingo/ReleaseSchedule)\n"
+"Avec cette *Beta* pre-release, vous pouvez voir ce que nous essayons en\n"
+"préparation de notre prochaine version (stable)."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:26
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE 19.04 Beta](/images/blog/1904-beta.png)\n"
+"**Ubuntu MATE 19.04 with the Mutiny layout**"
+msgstr ""
+"{:.center}\n"
+"![Ubuntu MATE 19.04 Beta](/images/blog/1904-beta.png)\n"
+"**Ubuntu MATE 19.04 avec le layout Munity**"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:29
+msgid "## What works?"
+msgstr "## Ce qui fonctionne ?"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:31
+msgid "People tell us that Ubuntu MATE is stable. You may, or may not, agree."
+msgstr ""
+"Des personnes nous disent que Ubuntu MATE est stable. Vous pouvez, où pas, "
+"être d'accord."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:33
+msgid "Ubuntu MATE *Beta Releases* are *NOT* recommended for:"
+msgstr "Les *versions bêta* Ubuntu MATE ne sont *PAS* recommandée pour :   "
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:38
+msgid ""
+"  * Regular users who are not aware of pre-release issues\n"
+"  * Anyone who needs a stable system\n"
+"  * Anyone uncomfortable running a possibly frequently broken system\n"
+"  * Anyone in a production environment with data or workflows that need to "
+"be reliable"
+msgstr ""
+"* Utilisateurs lambda qui ne sont pas au courant des problèmes des pre-"
+"release\n"
+"* Quiconque ayant besoin d'un système stable\n"
+"* Les personnes qui ne sont pas à l‘aise avec un système qui peut souvent "
+"tomber en panne\n"
+"* LEs utilisateurs d‘un environnement de production utilisant des données où "
+"des flux ayant besoin d'être reliés"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:40
+msgid "Ubuntu MATE *Beta Releases* are recommended for:"
+msgstr "Ubuntu MATE *Versions Bêta* sont recommandé pour : "
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:43
+msgid ""
+"  * Regular users who want to help us test by finding, reporting, and/or "
+"fixing bugs\n"
+"  * Ubuntu MATE, MATE, and GTK+ developers"
+msgstr ""
+"* Les utilisateurs réguliers qui veulent nous aider à tester en trouvant, "
+"rapportant et/ou corrigeant les bugs\n"
+"* Les développeurs d'Ubuntu MATE, MATE et GTK+."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:45
+msgid "## What changed since the Ubuntu MATE 18.10 final release?"
+msgstr ""
+"## Quels sont les changements depuis la version finale d'Ubuntu MATE 18.10 ?"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:48
+msgid ""
+"Those of you who follow the desktop Linux news will know that\n"
+"upstream [MATE Desktop recently released version 1.22](https://mate-desktop."
+"org/blog/2019-03-18-mate-1-22-released/)."
+msgstr ""
+"Ceux d'entre vous qui suivent l'actualité du bureau Linux sauront qu'en "
+"amont le [Bureau MATE a récemment sorti la version 1.22](https://mate-"
+"desktop.org/blog/2019-03-18-mate-1-22-released/)."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:55
+msgid ""
+"Let's rip that band-aid off and get this over quickly. Ubuntu MATE 19.04\n"
+"is shipping with MATE Desktop 1.20. Albeit, the latest maintenance release "
+"of\n"
+"MATE Desktop 1.20 with some of the bug fixes and new features from MATE\n"
+"Desktop 1.22 included. In fact, the version of MATE Desktop being shipped "
+"in\n"
+"19.04 is derived from the same MATE packages that will feature in the "
+"upcoming\n"
+"[Debian 10 (Buster)](https://wiki.debian.org/DebianBuster) release."
+msgstr ""
+"Commençons par arracher ce pansement et finissons-en vite. Ubuntu MATE 19.04 "
+"est livré avec le Bureau MATE 1.20. Toutefois, la dernière version de "
+"maintenance du\n"
+" Bureau MATE 1.20 avec quelques correctifs et nouvelles fonctionnalités du "
+"Bureau \n"
+"MATE 1.22 inclus.  En fait, la version du Bureau MATE qui est livrée avec "
+"190.4\n"
+"est dérivée des mêmes paquets MATE qui seront fournis dans  la version à "
+"venir de Debian,[Debian 10 (Buster)](https://wiki.debian.org/DebianBuster)."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:62
+msgid ""
+"You may be wondering why we're not shipping MATE Desktop 1.22?\n"
+"The answer, stability. MATE Desktop 1.22 introduces some underlying API\n"
+"changes in core components and while all first party MATE Desktop\n"
+"applications are compatible with the changes and completely stable, some\n"
+"third party applications are not. Some third party applications are big\n"
+"crashers now and we've not been able to fix them in time."
+msgstr ""
+"Vous vous demandez peut-être pourquoi nous n'avons pas livré le Bureau MATE "
+"1.22 ?\n"
+"La réponse est: la stabilité. Le Bureau MATE 1.22 apporte quelques "
+"changements sous-jacents d'API dans des composants essentiels et, bien que "
+"toutes les applications de première partie du Bureau MATE\n"
+" soient compatibles avec les changements et parfaitement stables, quelques \n"
+"applications de troisième partie ne le sont pas. Ces applications plantent\n"
+"beaucoup à l'heure actuelle et nous n'avons pas été en mesure de les "
+"corriger."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:66
+msgid ""
+"So, we are playing it safe and sticking with MATE Desktop 1.20 and working\n"
+"with upstreams so we can land MATE Desktop 1.22 early in the Ubuntu MATE\n"
+"19.10 development cycle."
+msgstr ""
+"Alors, nous jouons la carte de la sécurité et restons avec le Bureau MATE "
+"1.20 et travaillons\n"
+"en amont pour que le Bureau MATE 1.22 puisse atterrir tôt dans le cycle de "
+"développement\n"
+"d'Ubuntu MATE 19.10."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:68
+msgid "### MATE Dock Applet"
+msgstr "### Applet Dock MATE"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:73
+msgid ""
+"[MATE Dock Applet](https://github.com/robint99/mate-dock-applet) has been\n"
+"updated to 0.88 which introduces some new visual options, both based on\n"
+"the look of the Unity desktop. As can be seen in the screenshot above these\n"
+"can be used to make the Mutiny layout more closely mimic Unity 7."
+msgstr ""
+"L'[Applet MATE Dock](https://github.com/robint99/mate-dock-applet) a  été\n"
+"mis à jour en version 0.88 qui apporte de nouvelles options visuelles, "
+"toutes les deux basées\n"
+"sur le look du bureau Unity. Comme en atteste la capture d'écran ci-dessus,\n"
+"Cela a été utilisé pour que la disposition Mutiny soit encore plus proche "
+"d'Unity 7."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:75
+msgid "### Remote Desktop Awareness"
+msgstr "### Conscience du Bureau à Distance"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:85
+msgid ""
+"Our MATE Desktop 1.20 packages ship with patches to support\n"
+"[Remote Desktop Awareness (RDA)](https://github.com/ArcticaProject/librda). "
+"RDA\n"
+"makes MATE Desktop more aware of its execution context so that it behaves\n"
+"differently when run inside a remote desktop session compared to when "
+"running\n"
+"on local hardware. Different remote technology solutions support different\n"
+"features and they can now be queried from within MATE components. The "
+"inclusion\n"
+"of RDA offers the option to suspend your remote connection, supports folder\n"
+"sharing in Caja, MIME type bindings for SSHFS shares and allows session "
+"suspension\n"
+"via the MATE screensaver."
+msgstr ""
+"Nos paquets du Bureau MATE 1.20 apportent des correctifs pour la prise en "
+"charge de la\n"
+"[Conscience du Bureau à Distance (RDA)](https://github.com/ArcticaProject/"
+"librda). La RDA\n"
+"permet au Bureau MATE d'être mieux au courant du contexte de l'exécution, de "
+"sorte qu'il\n"
+"se comporte différemment dans une session de bureau à distance ou sur du "
+"matériel local.\n"
+"Différentes solutions de la technologie à distance prennent en charge des "
+"fonctionnalités différentes\n"
+"et elles peuvent dorénavant être cherchées à partir des composants MATE. "
+"L'inclusion de la RDA\n"
+"permet de suspendre votre connexion à distance, de prendre en charge le "
+"partage\n"
+"de dossiers dans Caja et les liaisons de type MIME pour les partages SSHFS "
+"et permet la suspension de session\n"
+"par l'économisateur d'écran MATE."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:92
+msgid ""
+"    title = \"Download Ubuntu MATE Today\"\n"
+"    text = \"\"\n"
+"    button_text = \"Download\"\n"
+"    button_url = \"/download/\""
+msgstr ""
+"    title = \"Téléchargez Ubuntu MATE Aujourd'hui\"\n"
+"    text = \"\"\n"
+"    button_text = \"Télécharger\"\n"
+"    button_url = \"/download/\""
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:96
+msgid "## Known Issues"
+msgstr "## Problèmes Connus"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:98
+msgid "Here are the known issues."
+msgstr "Voici les problèmes connus."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:100
+msgid "### Ubuntu MATE"
+msgstr "### Ubuntu MATE"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:103
+msgid ""
+"  * The Software Boutique doesn't list any available software.\n"
+"    * An update, due very soon, will re-stock the software library and add a "
+"few new applications too."
+msgstr ""
+"* La Boutique de Logiciels ne contient aucun logiciel disponible.\n"
+" * Une mise à jour, qui ne devrait pas tarder, rechargera la bibliothèque de "
+"logiciels et y ajoutera quelques unes au passage."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:105
+msgid "### Ubuntu family issues"
+msgstr "### Problèmes de la famille Ubuntu"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:107
+msgid "This is our known list of bugs that affects all flavours."
+msgstr ""
+"Ceci est notre liste de problèmes connus qui affectent toutes les variantes."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:110
+msgid ""
+"  * [Ubiquity slide shows are missing for OEM installs of Ubuntu MATE and "
+"Ubuntu Budgie](https://pad.lv/1713720)\n"
+"    * To work around this, run `apt install oem-config-slideshow-ubuntu-"
+"mate` in the OEM prepare session."
+msgstr ""
+"  * [Les diaporamas d'Ubiquity pour les installations OEM d'Ubuntu MATE et "
+"Ubuntu Budgie ne sont pas disponibles](https://pad.lv/1713720)\n"
+"    * À titre de solution, exécutez `apt install oem-config-slideshow-ubuntu-"
+"mate` dans la session de préparation de l'OEM."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:113
+msgid ""
+"You'll also want to check the Ubuntu MATE bug tracker to see what has "
+"already\n"
+"been reported. These issues will be addressed in due course."
+msgstr ""
+"Vous voudrez aussi jeter un œil au tracker de bugs d'Ubuntu MATE\n"
+"pour voir ce qui a déjà été rapporté. Ces problème seront réglés en temps "
+"voulu."
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:115
+msgid "  * [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate)"
+msgstr ""
+"  * [Tracker de Bugs d'Ubuntu MATE](https://bugs.launchpad.net/ubuntu-mate)"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:117
+msgid "## Feedback"
+msgstr "## Commentaires"
+
+#: _posts/2019-03-28-ubuntu-mate-disco-beta.md:120
+msgid ""
+"Is there anything you can help with or want to be involved in? Maybe you "
+"just\n"
+"want to discuss your experiences or ask the maintainers some questions. "
+"Please\n"
+"[come and talk to us](https://ubuntu-mate.community/)."
+msgstr ""
+"Pourriez-vous nous aider de quelque façon que ce soit ou voudriez-vous vous "
+"impliquer ? Peut-être voudriez\n"
+"vous simplement discuter de vos expériences ou poser quelques questions aux "
+"mainteneurs.\n"
+"S'il-vous-plaît,\n"
+"[venez nous parler](https://ubuntu-mate.community/)."

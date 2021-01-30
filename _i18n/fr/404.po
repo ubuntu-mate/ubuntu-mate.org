@@ -1,0 +1,80 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/404.md:13
+msgid "title: 404 | Not Found"
+msgstr "title: 404 | Indisponible"
+
+#: pages/404.md:18
+msgid ""
+"## 404. Page Not Found\n"
+"---"
+msgstr ""
+"## 404. Page indisponible\n"
+"---"
+
+#: pages/404.md:20
+msgid "**Well, this is embarrasing...**"
+msgstr "**Eh bien, c'est embarrassant...**"
+
+#: pages/404.md:22
+msgid ""
+"Perhaps the page moved somewhere else, but it may never have existed here at "
+"all."
+msgstr ""
+"Peut-être que la page a été déplacée ailleurs, mais elle pourrait très bien "
+"ne jamais avoir existé ici."
+
+#: pages/404.md:24
+msgid ""
+"If you were following a link to a download, it might be for an unsupported "
+"release."
+msgstr ""
+"Si vous avez cliqué sur un lien de téléchargement, il se peut qu'il soit "
+"pour une version non supportée."
+
+#: pages/404.md:27
+msgid ""
+"* Check out the [Downloads page](/download/) for all the latest, supported "
+"releases.\n"
+"* If you were really looking for an old release, [take a look at this list]"
+"(https://ubuntu-mate.community/old-releases)."
+msgstr ""
+"* Regardez la [page des Téléchargements](/download/) pour toutes les "
+"versions les plus récentes et supportées.\n"
+"* Si vous cherchiez vraiment une vieille version, [jetez un coup d'œil à "
+"cette liste](https://ubuntu-mate.community/old-releases)."
+
+#: pages/404.md:29
+msgid "**Where now?**"
+msgstr "**Où maintenant?**"
+
+#: pages/404.md:32
+msgid ""
+"* [To the homepage!](/)\n"
+"* [Search the site](/search/)\n"
+"* [Report this as an issue on GitHub](https://github.com/ubuntu-mate/ubuntu-"
+"mate.org/issues)"
+msgstr ""
+"* [Vers la page d'accueil!](/)\n"
+"* [Rechercher sur le site](/search/)\n"
+"* [Soumettre en tant que problème sur GitHub](https://github.com/ubuntu-mate/"
+"ubuntu-mate.org/issues)"

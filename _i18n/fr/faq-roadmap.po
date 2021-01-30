@@ -1,0 +1,591 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-roadmap.md:9
+msgid "title: Roadmap"
+msgstr "title: Feuille de Route"
+
+#: pages/faq-roadmap.md:13
+msgid "# Outstanding Objectives"
+msgstr "# Des Objectifs Exceptionnels"
+
+#: pages/faq-roadmap.md:17
+msgid ""
+"This page outlines some of the activities the Ubuntu MATE team will "
+"research,\n"
+"and possibly implement, in future development cycles to improve and refine "
+"our\n"
+"operating system."
+msgstr ""
+"Cette page décrit quelques unes des activités sur lesquelles l'équipe Ubuntu "
+"MATE fait de la recherche\n"
+"et qui seront éventuellement mises en œuvre, dans un cycle de développement "
+"à l'avenir afin de raffiner notre\n"
+"système d'exploitation."
+
+#: pages/faq-roadmap.md:21
+msgid "## Grow community participation and engagement"
+msgstr "## Améliorer la participation et l'engagement de la communauté"
+
+#: pages/faq-roadmap.md:25
+msgid ""
+"Ubuntu MATE and MATE Desktop are created by very small teams. We’ll improve "
+"our\n"
+"documentation so that new contributors can find tasks they can work on and\n"
+"material to help them get started."
+msgstr ""
+"Ubuntu MATE et le Bureau MATE ont été créés par de très petites  équipes. "
+"Nous améliorerons notre\n"
+"documentation de sorte que les nouveaux contributeurs puissent trouver des "
+"tâches à effectuer\n"
+"et de la matière pour les aider à démarrer. "
+
+#: pages/faq-roadmap.md:27
+msgid "## Reboot Ubuntu MATE Welcome and Software Boutique"
+msgstr "## Redémarrer Ubuntu MATE Bienvenue et la Boutique de Logiciels"
+
+#: pages/faq-roadmap.md:31
+msgid ""
+"We will decouple Ubuntu MATE Welcome and the Software Boutique so they can "
+"be\n"
+"iterated on independently. The code for both will be refactored and "
+"simplified\n"
+"so that other projects wanting to build on either can easily do so."
+msgstr ""
+"Nous dissocierons Ubuntu MATE Bienvenue et la Boutique de Logiciels afin "
+"qu'ils puissent être\n"
+"itérés indépendamment. Le code pour ces deux logiciels sera remanié et "
+"simplifié\n"
+"pour que d'autres projets désirant se baser sur eux puissent aisément le "
+"faire."
+
+#: pages/faq-roadmap.md:37
+msgid ""
+"Both applications will be delivered as snaps to break the development cycle\n"
+"relationship with the distribution, giving us the freedom to develop both\n"
+"without the usual constraints of distribution release management. This will\n"
+"also benefit Ubuntu MATE, which will automatically get new features, "
+"application\n"
+" listings, and other improvements."
+msgstr ""
+"Les deux applications seront fournies en tant que snaps afin de casser la "
+"relation avec le cycle \n"
+"de développement de la distribution, nous donnant ainsi la liberté de\n"
+"développer les deux applications sans les contraintes habituelles liées à la "
+"gestion de la version de la distribution. Ubuntu MATE en tirera ainsi\n"
+"bénéfice, en obtenant automatiquement de nouvelles fonctionnalités, "
+"applications \n"
+" , listes et autres améliorations."
+
+#: pages/faq-roadmap.md:39
+msgid "## Developer tooling and collaboration"
+msgstr "## L'outillage du développeur et la collaboration"
+
+#: pages/faq-roadmap.md:43
+msgid ""
+"Ubuntu MATE and MATE Desktop will expand their use of continuous "
+"integration\n"
+"and automated testing in an effort to save the small development teams "
+"burning\n"
+"valuable time on activities best left to a bot."
+msgstr ""
+"Ubuntu MATE et le Bureau MATE élargiront leur utilisation d'une intégration "
+"continue\n"
+"et les tests automatisés afin d'épargner aux petites équipes de "
+"développement de \n"
+"perdre un temps monstre sur des activités mieux adaptées pour un robot."
+
+#: pages/faq-roadmap.md:47
+msgid ""
+"Additionally, we will review the development platforms and communication/\n"
+"collaboration tools used by the MATE Desktop team to improve team "
+"communication\n"
+"and simplfy the project infrastructure where possible."
+msgstr ""
+"En outre, nous passerons en revue les plateformes de développement de "
+"communication/\n"
+"les outils de collaboration utilisés par l'équipe du Bureau MATE pour "
+"améliorer la communication au sein de l'équipe\n"
+"et simplifier l'infrastructure du projet où cela est possible."
+
+#: pages/faq-roadmap.md:49
+msgid "## Modern display server support"
+msgstr "## Le support d'un serveur d'affichage moderne"
+
+#: pages/faq-roadmap.md:53
+msgid ""
+"Wayland is set to become the defacto next generation display server. While "
+"Xorg\n"
+"has some years of usefulness remaining, now is the time to start planning "
+"for\n"
+"how MATE Desktop, and therefore Ubuntu MATE, implement support for Wayland."
+msgstr ""
+"Wayland est amené à être de facto le serveur d'affichage de prochaine "
+"génération.\n"
+"Bien qu'il reste encore à Xorg\n"
+"quelques années d'utilité devant lui, il est temps de commencer à planifier "
+"comment\n"
+"le Bureau MATE et en conséquence, Ubuntu MATE, mettront en œuvre le support "
+"pour Wayland."
+
+#: pages/faq-roadmap.md:55
+msgid "## Voice command"
+msgstr "## Commande vocale"
+
+#: pages/faq-roadmap.md:59
+msgid ""
+"Smart speakers are growing in popularity and commanding mobile devices by "
+"voice\n"
+"is already common place. We will research how effectively voice commands can "
+"be\n"
+"integrated into Ubuntu MATE."
+msgstr ""
+"Les enceintes connectées connaissent une popularité grandissante et "
+"commander des appareils mobiles\n"
+"par la voix est déjà une chose commune. Nous rechercherons comment intégrer "
+"efficacement des commandes\n"
+"vocales dans Ubuntu MATE."
+
+#: pages/faq-roadmap.md:61
+msgid "## Accessibility"
+msgstr "## Accessibilité"
+
+#: pages/faq-roadmap.md:64
+msgid ""
+"Making an accessible operating system was a key priority when the Ubuntu "
+"MATE\n"
+"founders initially set out the goals of the project."
+msgstr ""
+"Créer un système d'exploitation accessible était une priorité clé quand les "
+"fondateurs\n"
+"d'Ubuntu MATE ont initialement défini les buts du projet."
+
+#: pages/faq-roadmap.md:70
+msgid ""
+"While Ubuntu MATE is never going to be able to offer the comprehensive\n"
+"integration of assistive technologies that Sonar GNU/Linux provides, we "
+"will\n"
+"continue to follow their lead so that Ubuntu MATE is a viable desktop "
+"solution\n"
+"where computer access is shared within a household or business where "
+"individual\n"
+"needs differ."
+msgstr ""
+"Bien qu'Ubuntu MATE ne parviendra jamais à offrir l'intégration complète des "
+"technologies\n"
+"d'assistance que Sonar GNU/Linux fournit, nous continuerons à suivre\n"
+"leur exemople\n"
+"de sorte qu'Ubuntu MATE demeure une solution de bureau viable\n"
+"quand l'accès à l'ordinateur est partagé dans un foyer ou une entreprise où\n"
+"les besoins individuels sont différents."
+
+#: pages/faq-roadmap.md:74
+msgid ""
+"The upstream MATE Desktop team are actively engaged with visually impaired "
+"users\n"
+"from the Linux community to ensure their needs are met. This effort will "
+"likely\n"
+"never be complete, as it requires constant refinement."
+msgstr ""
+"L'équipe du Bureau MATE est engagée en amont avec des utilisateurs "
+"malvoyants\n"
+"de la communauté de Linux pour être certaine que leurs besoins sont "
+"satisfaits. Cet effort ne sera probablement jamais complet, mais il requiert "
+"un raffinement perpétuel."
+
+#: pages/faq-roadmap.md:76
+msgid "## Translation"
+msgstr "## Traduction"
+
+#: pages/faq-roadmap.md:82
+msgid ""
+"Translation of Ubuntu and MATE desktop is handled upstream thanks to the "
+"tireless\n"
+"efforts of many translators, therefore the Ubuntu MATE operating system is\n"
+"available in many languages. However, this website is currently available "
+"in\n"
+"English only and we will work with the community to make it available in "
+"other\n"
+"languages."
+msgstr ""
+"La traduction d'Ubuntu et du Bureau MATE est gérée en amont grâce aux "
+"efforts inlassables\n"
+"de nombreux traducteurs, faisant ainsi d'Ubuntu MATE un système "
+"d'exploitation\n"
+"disponible dans de nombreuses langues. Toutefois, ce site est, à l'heure "
+"actuelle, \n"
+"seulement disponible en anglais et nous travaillerons avec la communauté "
+"pour le rendre disponible dans d'autres\n"
+"langues."
+
+#: pages/faq-roadmap.md:86
+msgid "# Completed Objectives"
+msgstr "# Objectifs Accomplis"
+
+#: pages/faq-roadmap.md:89
+msgid ""
+"While these initiatives are considered \"complete\" they will of course\n"
+"be maintained and improved."
+msgstr ""
+"Bien que ces initiatives soient considérées comme étant \"accomplies\", "
+"elles seront toujours maintenues et améliorées."
+
+#: pages/faq-roadmap.md:91
+msgid "## Artwork"
+msgstr "## Illustrations"
+
+#: pages/faq-roadmap.md:95
+msgid ""
+"Overhaul the Ubuntu MATE design language and make is consistent for web\n"
+"and desktop. Create a new wallpaper collection based on abstract\n"
+"designs and high quality photos."
+msgstr ""
+"Remanier le langage de conception d'Ubuntu MATE et le rendre cohérent sur le "
+"web\n"
+"et le bureau. Créer une nouvelle collection de fonds d'écran basée sur des "
+"conceptions abstraites et des photos de haute qualité."
+
+#: pages/faq-roadmap.md:97
+msgctxt "pages/faq-roadmap.md:97"
+msgid " :heavy_check_mark: *Implemented since Ubuntu MATE 18.04*"
+msgstr " :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 18.04*"
+
+#: pages/faq-roadmap.md:99
+msgid "## User experience"
+msgstr "## L'expérience utilisateur"
+
+#: pages/faq-roadmap.md:102
+msgid ""
+"I am reliably informed that everything is a *user experience* these\n"
+"days. User interfaces are, apparently, passé."
+msgstr ""
+"J'ai bien conscience que tout est question \"d'expérience utilisateur\" de "
+"nos jours. Les interfaces utilisateurs appartiennent, dirait-on, au passé."
+
+#: pages/faq-roadmap.md:108
+msgid ""
+"The MATE desktop offers a traditional desktop metaphor but it is also\n"
+"extremely customisable. When combined with some 3rd party applications\n"
+"Ubuntu MATE can be augmented to provide an \"*experience*\" similar to\n"
+"what other contemporary desktop environments offer while retaining its\n"
+"classic desktop paradigm."
+msgstr ""
+"Le bureau MATE offre une métaphore traditionnelle de bureau mais il est\n"
+"également extrêmement personnalisable. Quand il est combiné avec des "
+"applications de 3ème partie,\n"
+"Ubuntu MATE peut être renforcé pour proposer une \"expérience\" similaire à "
+"celles d'autres environnements de bureau contemporains tout en conservant "
+"son paradigme d'un bureau classique."
+
+#: pages/faq-roadmap.md:110
+msgid " :heavy_check_mark: *Implemented since Ubuntu MATE 16.04*"
+msgstr " :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 16.04*"
+
+#: pages/faq-roadmap.md:112
+msgid "## HiDPI support"
+msgstr "## Support du HiDPI"
+
+#: pages/faq-roadmap.md:115
+msgid ""
+"High pixel density laptops and displays are becoming increasingly common\n"
+"and Ubuntu MATE needs to provide a first class HiDPI experience."
+msgstr ""
+"Les ordinateurs portables et les moniteurs à haute densité de pixels "
+"deviennent de plus en plus communs\n"
+"et Ubuntu MATE doit fournir une expérience HiDPI de première classe."
+
+#: pages/faq-roadmap.md:117
+msgctxt "pages/faq-roadmap.md:117"
+msgid " :heavy_check_mark: *Implemented since Ubuntu MATE 18.04*"
+msgstr " :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 18.04*"
+
+#: pages/faq-roadmap.md:119
+msgid "## Launchers and Docks"
+msgstr "## Lanceurs et Docks"
+
+#: pages/faq-roadmap.md:126
+msgid ""
+"We will evaluate 3rd party launchers, such as Slingscold,\n"
+"[Synapse](http://mhr3.blogspot.com/2010/11/introducing-synapse-acetylcholine."
+"html),\n"
+"[The Duck Launcher](https://github.com/the-duck/launcher) and 3rd party "
+"docks,\n"
+"such as [Plank](https://launchpad.net/plank), to\n"
+"see how they can be integrated with Ubuntu MATE to make user interaction\n"
+"with the desktop more efficient."
+msgstr ""
+"Nous évaluerons les lanceurs de 3ème partie, tels Slingcold,,\n"
+"[Synapse](http://mhr3.blogspot.com/2010/11/introducing-synapse-acetylcholine."
+"html),\n"
+"[The Duck Launcher](https://github.com/the-duck/launcher) et des docks de "
+"3ème partie,\n"
+"tel [Plank](https://launchpad.net/plank), pour\n"
+"voir comment ils peuvent être intégrés à Ubuntu MATE pour rendre "
+"l'interaction\n"
+"avec le bureau plus efficace."
+
+#: pages/faq-roadmap.md:131
+msgid ""
+"Launchers and docks are not to everyone's tastes so we will conduct\n"
+"community polls (just as we have done in the past) to determine if the\n"
+"selected 3rd party tools should be integrated as defaults or optional\n"
+"extras."
+msgstr ""
+"Les lanceurs et les docks ne sont pas du goût de tout le monde et nous "
+"mènerons des sondages communautaires (à l'image de ce que nous avons fait "
+"par le passé) pour déterminer si les outils de 3ème partie sélectionnés "
+"devraient être intégrés par défaut ou être des options supplémentaires."
+
+#: pages/faq-roadmap.md:133
+msgid ""
+" :heavy_check_mark: *Implemented since Ubuntu MATE 17.10 via Brisk Menu, "
+"MATE Menu and Super key support throughout MATE Desktop*"
+msgstr ""
+" :heavy_check_mark: *Mis en œuvre depuis MATE 17.10 par le Brisk Menu, le "
+"Menu MATE et le support de la touche Super à travers le Bureau MATE*"
+
+#: pages/faq-roadmap.md:135
+msgid "## Compiz"
+msgstr "## Compiz"
+
+#: pages/faq-roadmap.md:141
+msgid ""
+"There are some hardcore Compiz addicts in the MATE community. That said\n"
+"Compiz will never be enabled by default in Ubuntu MATE, but we do want\n"
+"to cater for those people who want it. Compiz does include some\n"
+"features that are of real benefit, such as the Enhanced Zoom plug-in\n"
+"which is useful for individuals with low vision."
+msgstr ""
+"Il y a des mordus de Compiz dans la communauté MATE. Ceci étant dit,\n"
+"Compiz ne sera jamais activé par défaut dans Ubuntu MATE mais nous voulons\n"
+"prendre soin des gens qui le désirent. Compiz comporte quelques "
+"fonctionnalités qui offrent un réel avantage, comme le greffon de Zoom "
+"Amélioré qui est vraiment utile pour les individus malvoyants."
+
+#: pages/faq-roadmap.md:144
+msgid ""
+"The Ubuntu MATE team will create a simple way for Compiz to be\n"
+"installed and enabled for those users who want it."
+msgstr ""
+"L'équipe Ubuntu MATE créera un moyen simple pour installer et activer\n"
+"Compiz pour les utilisateurs qui souhaitent l'utiliser."
+
+#: pages/faq-roadmap.md:146
+msgid " :heavy_check_mark: *Implemented since Ubuntu MATE 15.04*"
+msgstr " :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 15.04*"
+
+#: pages/faq-roadmap.md:148
+msgid "## Ubuntu MATE Tweak"
+msgstr "## Ubuntu MATE Tweak"
+
+#: pages/faq-roadmap.md:153
+msgid ""
+"There are a plethora of options behind MATE that are not yet exposed\n"
+"via control centre applets. The Ubuntu MATE team have already provided\n"
+"a simple tool to tweak your MATE configuration called MATE Tweak and\n"
+"over time that tool be be enhanced and improved."
+msgstr ""
+"Il y a pléthore d'options derrière MATE qui ne sont pas encore accessibles "
+"depuis des applets du centre de contrôle.\n"
+"L'équipe Ubuntu MATE a déjà fourni\n"
+"un outil simple pour personnaliser votre configuration MATE appelé MATE "
+"Tweak \n"
+"et avec le temps cet outil sera renforcé et amélioré."
+
+#: pages/faq-roadmap.md:160
+msgid ""
+"A number of different panel layouts are already available in Ubuntu MATE.\n"
+"Panel layouts that offer a pure MATE desktop will continue to be made\n"
+"available and others added that may also rely on 3rd party launchers,\n"
+"docks or even Compiz. We will provide a tool to switch between these\n"
+"different desktop layouts that also enables/disables the appropriate\n"
+"launchers and docks where required."
+msgstr ""
+"Différentes dispositions de tableau de bord sont déjà disponibles dans "
+"Ubuntu MATE.\n"
+"Les dispositions de tableau de bord qui offrent un bureau MATE épuré "
+"continueront\n"
+"d'être disponibles et d'autres seront ajoutées, qui s'appuieront sur des "
+"lanceurs et docks de 3ème partie,  ou bien même Compiz.\n"
+"Nous fournirons un outil pour basculer entre ces différentes dispositions de "
+"bureau et nous activerons/désactiverons les lanceurs et docks\n"
+"appropriés quand ce sera nécessaire."
+
+#: pages/faq-roadmap.md:162
+msgid ""
+"  :heavy_check_mark: *Implemented since Ubuntu MATE 15.04 via **MATE Tweak***"
+msgstr ""
+"  :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 15.04 par **MATE "
+"Tweak***"
+
+#: pages/faq-roadmap.md:164
+msgid "## Complex input methods"
+msgstr "## Méthodes d'entrée complexes"
+
+#: pages/faq-roadmap.md:167
+msgid ""
+"We've received feedback that complex input method support in Ubuntu\n"
+"MATE could be better."
+msgstr ""
+"Nous avons reçu des retours comme quoi le support des méthodes d'entrée dans "
+"Ubuntu MATE pourrait être amélioré."
+
+#: pages/faq-roadmap.md:176
+msgid ""
+"MATE does have support for complex input methods right now, but having\n"
+"spoken to some users in China and Japan, we now better understand their\n"
+"requirements. To that end we've documented how to install and enable\n"
+"IBus and fcitx on the [download page](/download/). That was just the\n"
+"first step in ensuring everyone is catered for and in the future we\n"
+"will integrate either [IBus](https://code.google.com/p/ibus/) or\n"
+"[fcitx](https://fcitx-im.org/) into Ubuntu MATE to address this short\n"
+"coming."
+msgstr ""
+"MATE supporte déjà les méthodes d'entrée complexes à l'heure actuelle,\n"
+"mais\n"
+"après discussion avec certains utilisateurs chinois et japonais, nous "
+"comprenons mieux leurs \n"
+"besoins. À cette fin, nous avons documenté comment installer et activer\n"
+"IBus et fcitx sur la [page de téléchargement](/download/). C'était seulement "
+"la première étape pour s'assurer que tout le monde soit pris en charge et "
+"dans le futur, nous souhaiterions intégrer soit [IBus](https://code.google."
+"com/p/ibus/), soit\n"
+"[fcitx](https://fcitx-im.org/) dans Ubuntu MATE afin de combler cette lacune."
+
+#: pages/faq-roadmap.md:178
+msgid " :heavy_check_mark: *Implemented since Ubuntu MATE 15.10*"
+msgstr " :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 15.10*"
+
+#: pages/faq-roadmap.md:180
+msgid "## Application install"
+msgstr "## Installation d'Application"
+
+#: pages/faq-roadmap.md:185
+msgid ""
+"Users new to Linux are often overwhelmed by the vast choice of software\n"
+"on offer. The Ubuntu MATE team will create a curated selection of\n"
+"applications suitable for use with Ubuntu MATE that can be installed\n"
+"via one click."
+msgstr ""
+"Les nouveaux utilisateurs de Linux sont souvent dépassés par le vaste choix "
+"de logiciels \n"
+"disponibles. L'équipe Ubuntu MATE créera une sélection organisée\n"
+"d'applications adaptées à l'utilisation avec Ubuntu MATE et pouvant être "
+"installées\n"
+"en un clic."
+
+#: pages/faq-roadmap.md:189
+msgid ""
+"The Ubuntu MATE community will select one application that is more\n"
+"suitable for a given task or activity so that new users can quickly\n"
+"turn their Ubuntu MATE workstation into a productive tool."
+msgstr ""
+"La communauté Ubuntu MATE choisira une application qui est mieux\n"
+"adaptée à une tâche ou une activité donnée de sorte que les nouveaux \n"
+"utilisateurs puissent rapidement faire de leur station de travail Ubuntu "
+"MATE un outil productif."
+
+#: pages/faq-roadmap.md:191
+msgid ""
+"  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10 via **Ubuntu MATE "
+"Welcome***"
+msgstr ""
+" :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 15.10 par **Ubuntu MATE "
+"Bienvenue***"
+
+#: pages/faq-roadmap.md:193
+msgid "## Media casting and streaming"
+msgstr "## Diffusion de media et streaming"
+
+#: pages/faq-roadmap.md:197
+msgid ""
+"Seamless integration with home media server content and media casting\n"
+"devices is essential in order for Ubuntu MATE to remain relevant\n"
+"for many home users. We will try to deliver on that."
+msgstr ""
+"L'intégration transparente avec le contenu d'un serveur multimédia "
+"domestique et les périphériques de diffusion multimédia\n"
+"est essentielle pour qu'Ubuntu MATE puisse demeurer pertinent aux yeux de "
+"nombreux utilisateurs domestiques. Nous essaierons de fournir cela."
+
+#: pages/faq-roadmap.md:204
+msgid ""
+"Similarly being able to access popular subscription-based streaming\n"
+"services such as Netflix, Amazon Instant Video and Spotify is also an\n"
+"expectation for many users. While the Ubuntu MATE team can do little\n"
+"to deliver the technologies to make this happen, we can provide simple\n"
+"installation options to enable access to these services, and where\n"
+"possible, ship the required software by default."
+msgstr ""
+"Accessoirement, être capable d'accéder à des services populaires de\n"
+" diffusion en ligne par abonnement tels Netflix, Amazon Instant Video ou \n"
+"encore Spotify fait également partie des attentes de nombreux\n"
+" utilisateurs. Bien que l'équipe Ubuntu MATE ne peut pas faire grand chose à "
+"cet effet, nous pouvons toutefois apporter des options d'installation "
+"simples\n"
+"pour permettre l'accès à ces services, et quand cela est possible, fournir\n"
+" les logiciels requis par défaut."
+
+#: pages/faq-roadmap.md:206
+msgid ""
+"  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10 by using Software "
+"Boutique to install Google Chrome, Spotify or Pithos*"
+msgstr ""
+" :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 15.10 en utilisant la "
+"Boutique de Logiciels pour installer Google Chrome, Spotify ou Pithos*"
+
+#: pages/faq-roadmap.md:208
+msgid "## Mobile device integration"
+msgstr "## Intégration des appareils mobiles"
+
+#: pages/faq-roadmap.md:212
+msgid ""
+"Currently Ubuntu MATE has the essential mobile device support you'd\n"
+"expect. You can plug in a phone or a media player and the device is\n"
+"automatically detected and mounted, you can then access the files on it."
+msgstr ""
+"À l'heure actuelle, Ubuntu MATE intègre l'essentiel du support des appareils "
+"mobiles comme vous pourriez vous y attendre. Vous pouvez connecter un "
+"téléphone ou un lecteur média et l'appareil sera\n"
+"automatiquement détecté et monté. Vous pourrez alors accéder aux fichiers "
+"qui sont dessus."
+
+#: pages/faq-roadmap.md:214
+msgid "  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10*"
+msgstr " :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 15.10*"
+
+#: pages/faq-roadmap.md:218
+msgid ""
+"Mobile device notifications can be wirelessly mirrored to your Ubuntu\n"
+"MATE desktop and for you to be able to send files or links wirelessly\n"
+"between your mobile devices and Ubuntu MATE."
+msgstr ""
+"Les notifications des appareils mobiles peuvent être redirigées sans fil\n"
+"vers votre bureau MATE et vous pouvez également envoyer sans fil des "
+"fichiers ou des liens entre vos appareils mobiles et Ubuntu MATE."
+
+#: pages/faq-roadmap.md:219
+msgid ""
+"  :heavy_check_mark: *Implemented since Ubuntu MATE 16.04 by using the "
+"Software Boutique to install KDE Connect Indicator*"
+msgstr ""
+" :heavy_check_mark: *Mis en œuvre depuis Ubuntu MATE 16.04 en utilisant la "
+"Boutique de Logiciels pour installer l'Indicateur de Connexion KDE*"

@@ -1,0 +1,302 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-translations.md:9
+msgid "title: Translations"
+msgstr "title: Traductions"
+
+#: pages/get-involved-translations.md:13
+msgid "## Translations"
+msgstr "## Traductions"
+
+#: pages/get-involved-translations.md:15
+msgid "Bonjour! Hola! Guten Tag! 你好！"
+msgstr "Bonjour! Hola! Guten Tag! 你好！"
+
+#: pages/get-involved-translations.md:20
+msgid ""
+"If you speak another language, translating is a perfect way to help your "
+"fellow\n"
+"speakers use the computer in a language more familiar to them. "
+"Contributions\n"
+"even help the wider Ubuntu and Linux communities at large as applications "
+"are\n"
+"shared between them."
+msgstr ""
+"Si vous parlez une autre langue, la traduction est parfaite pour aider les "
+"gens qui la parlent également \n"
+"à utiliser leur ordinateur dans une langue qui leur est plus familière.\n"
+"Les contributions aident même à élargir les communautés Linux et Ubuntu au "
+"même titre comme les applications sont partagées entre elles."
+
+#: pages/get-involved-translations.md:24
+msgid ""
+"> The translators are our real heroes.\n"
+">\n"
+"> -- Martin Wimpress"
+msgstr ""
+"> Les traducteurs sont nos véritables héros.\n"
+">\n"
+"> -- Martin Wimpress"
+
+#: pages/get-involved-translations.md:29
+msgid "### Ubuntu MATE"
+msgstr "### Ubuntu MATE"
+
+#: pages/get-involved-translations.md:32
+msgid ""
+"Applications specific to the Ubuntu MATE experience. For this website and "
+"our\n"
+"in-house applications, we use Transifex."
+msgstr ""
+"Les applications spécifiques à l'expérience Ubuntu MATE. Pour ce site\n"
+"et nos \n"
+"applications maison, nous utilisons Transifex."
+
+#: pages/get-involved-translations.md:39
+msgid ""
+"The **Welcome** application suffers from a 'split strings' issue that may\n"
+"pose difficulties when translating in other languages. We apologise for the\n"
+"inconvenience and intend to refactor the application in a future release to\n"
+"address this issue."
+msgstr ""
+"L'application **Bienvenue** souffre d'un problème de 'chaînes coupées\" qui "
+"pourrait poser quelques soucis lors de la traduction dans d'autres langues. "
+"Nous présentons nos excuses\n"
+"pour l'inconfort et nous avons l'intention de remanier l'application dans "
+"une version future\n"
+"pour régler ce problème."
+
+#: pages/get-involved-translations.md:41
+msgid ""
+"Note that **Software Boutique** is currently part of the **Welcome** "
+"application."
+msgstr ""
+"Notez qu'à l'heure actuelle, **Boutique de Logiciels** fait partie de "
+"l'application **Bienvenue**."
+
+#: pages/get-involved-translations.md:44
+msgid ""
+"[Translate on Transifex](https://www.transifex.com/ubuntu-mate/public/){:."
+"btn .green}\n"
+"[Transifex Guide](#transifex){:.btn}"
+msgstr ""
+"[Traduire sur Transifex](https://www.transifex.com/ubuntu-mate/public/){:."
+"btn .green}\n"
+"[Guide de Transifex](#transifex){:.btn}"
+
+#: pages/get-involved-translations.md:48
+msgid "### MATE Desktop"
+msgstr "### Bureau MATE"
+
+#: pages/get-involved-translations.md:51
+msgid ""
+"The MATE Desktop team use Transifex for translations. This includes "
+"applications\n"
+"such as:"
+msgstr ""
+"L'équipe du Bureau MATE utilise Transifex pour les traductions. Cela "
+"comporte des applications\n"
+"telles:"
+
+#: pages/get-involved-translations.md:61
+msgid ""
+"* Atril Document Viewer\n"
+"* Caja File Manager\n"
+"* Engrampa Archive Manager\n"
+"* Eye of MATE Image Viewer\n"
+"* MATE Calculator\n"
+"* MATE Control Centre\n"
+"* MATE System Monitor\n"
+"* MATE Terminal\n"
+"* Pluma Text Editor"
+msgstr ""
+"* Visionneur de Documents Atril\n"
+"* Gestionnaire de Fichiers Caja\n"
+"* Gestionnaire d'Archives Engrampa\n"
+"* Visionneuse d'Images Eye of MATE\n"
+"* Calculatrice MATE\n"
+"* Centre de Contrôle MATE\n"
+"* Moniteur Système MATE\n"
+"* Terminal MATE\n"
+"* Éditeur de Texte Pluma"
+
+#: pages/get-involved-translations.md:63
+msgid "As well as system configuration and panel applets."
+msgstr ""
+"Tout comme la configuration du système et les applets de tableau de bord."
+
+#: pages/get-involved-translations.md:66
+msgid ""
+"[Translate on Transifex](https://www.transifex.com/projects/p/MATE/){:.btn ."
+"green}\n"
+"[Transifex Guide](#transifex){:.btn}"
+msgstr ""
+"[Traduire sur Transifex](https://www.transifex.com/projects/p/MATE/){:.btn ."
+"green}\n"
+"[Guide de Transifex](#transifex){:.btn}"
+
+#: pages/get-involved-translations.md:70
+msgid "### Default Apps"
+msgstr "### Applications par Défaut"
+
+#: pages/get-involved-translations.md:73
+msgid ""
+"Below is a list of applications that are pre-installed and where you can\n"
+"translate them."
+msgstr ""
+"Ci-dessous se dresse une liste d'applications qui sont pré-installées ainsi\n"
+"que les endroits pour les traduire"
+
+#: pages/get-involved-translations.md:79
+msgid "## Translation Guide"
+msgstr "## Guide de Traduction"
+
+#: pages/get-involved-translations.md:81
+msgid "### Launchpad"
+msgstr "### Launchpad"
+
+#: pages/get-involved-translations.md:85
+msgid ""
+"Launchpad is used throughout Ubuntu for building and maintaining software.\n"
+"To translate, you'll need a Launchpad account.\n"
+"Please [see the documentation for translating](https://help.launchpad.net/"
+"Translations)."
+msgstr ""
+"Launchpad est utilisé d'un bout à l'autre par Ubuntu pour assembler et "
+"maintenir les logiciels.\n"
+"Pour traduire, vous devez posséder un compte Launchpad.\n"
+"Veuillez [voir la documentation pour traduire](https://help.launchpad.net/"
+"Translations)."
+
+#: pages/get-involved-translations.md:87
+msgid "### Transifex"
+msgstr "### Transifex"
+
+#: pages/get-involved-translations.md:89
+msgid "1. Register for a free account at <https://www.transifex.com/signup/>"
+msgstr ""
+"1. Inscrivez-vous pour un compte gratuit sur <https://www.transifex.com/"
+"signup/>"
+
+#: pages/get-involved-translations.md:91
+msgid ""
+"    ![Sign up button](/images/get-involved/translations/transifex-1.png)"
+msgstr ""
+"    ![Bouton s'inscrire](/images/get-involved/translations/transifex-1.png)"
+
+#: pages/get-involved-translations.md:93
+msgid ""
+"1. Open the project page to find the application you'd like to translate."
+msgstr ""
+"1. Ouvrez la page des projets pour trouver l'application que vous aimeriez "
+"traduire."
+
+#: pages/get-involved-translations.md:95
+msgid "    ![Project Page](/images/get-involved/translations/transifex-2.png)"
+msgstr ""
+"    ![Page des projets](/images/get-involved/translations/transifex-2.png)"
+
+#: pages/get-involved-translations.md:97
+msgid "1. Choose the language team you'd like to join."
+msgstr "1. Choisir l'équipe de langue que vous aimeriez rejoindre."
+
+#: pages/get-involved-translations.md:99
+msgid ""
+"    ![Choosing a language](/images/get-involved/translations/transifex-3.png)"
+msgstr ""
+"    ![Choisir une langue](/images/get-involved/translations/transifex-3.png)"
+
+#: pages/get-involved-translations.md:101
+msgid ""
+"    If the language is not listed, you can request it. Check back in a few "
+"days as this requires approval."
+msgstr ""
+"Si la langue ne figure pas dans la liste, vous pouvez la réclamer. Essayez à "
+"nouveau dans quelques jours comme cela requiert l'approbation."
+
+#: pages/get-involved-translations.md:103
+msgid ""
+"    ![Request language in a dropdown menu](/images/get-involved/translations/"
+"transifex-4.png)"
+msgstr ""
+"    ![Réclamer une langue dans le menu déroulant](/images/get-involved/"
+"translations/transifex-4.png)"
+
+#: pages/get-involved-translations.md:105
+msgid "1. Pick the language you'd like to translate."
+msgstr "1. Sélectionnez la langue que vous aimeriez traduire."
+
+#: pages/get-involved-translations.md:107
+msgid ""
+"    ![Picking a language from the list](/images/get-involved/translations/"
+"transifex-5.png)"
+msgstr ""
+"    ![Choisir une langue dans la liste](/images/get-involved/translations/"
+"transifex-5.png)"
+
+#: pages/get-involved-translations.md:109
+msgid "1. Pick a resource from the list to translate."
+msgstr "1. Choisir une ressource à traduire dans la liste."
+
+#: pages/get-involved-translations.md:111
+msgid ""
+"    ![Picking a language from the list](/images/get-involved/translations/"
+"transifex-6.png)"
+msgstr ""
+"    ![Choisir une langue dans la liste](/images/get-involved/translations/"
+"transifex-6.png)"
+
+#: pages/get-involved-translations.md:113
+msgid "1. Click on the entry, a pop up will appear, click Translate."
+msgstr ""
+"1. Cliquez sur l'entrée, une fenêtre pop-up apparaîtra, cliquez sur Traduire."
+
+#: pages/get-involved-translations.md:115
+msgid ""
+"    ![Pop up after choosing a resource](/images/get-involved/translations/"
+"transifex-7.png)"
+msgstr ""
+"    ![Fenêtre pop-up après avoir choisi une ressource](/images/get-involved/"
+"translations/transifex-7.png)"
+
+#: pages/get-involved-translations.md:117
+msgid "1. Begin translating!"
+msgstr "1. Commencez la traduction !"
+
+#: pages/get-involved-translations.md:119
+msgid ""
+"    ![Screenshot of main translation interface](/images/get-involved/"
+"translations/transifex-8.png)"
+msgstr ""
+"    ![Capture d'écran de l'interface principale de traduction](/images/get-"
+"involved/translations/transifex-8.png)"
+
+#: pages/get-involved-translations.md:121
+msgid "* Don't forget to save your changes."
+msgstr "* N'oubliez pas d'enregistrer vos changements."
+
+#: pages/get-involved-translations.md:122
+msgid ""
+"    ![Save all button](/images/get-involved/translations/transifex-9.png)"
+msgstr ""
+"    ![Bouton enregistrer tout](/images/get-involved/translations/transifex-9."
+"png)"

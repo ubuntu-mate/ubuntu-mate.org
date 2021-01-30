@@ -1,0 +1,74 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-development.md:9
+msgid "title: Software Development"
+msgstr "title: Développement du Logiciel"
+
+#: pages/get-involved-development.md:13
+msgid "## Software Development"
+msgstr "## Développement du Logiciel"
+
+#: pages/get-involved-development.md:16
+msgid ""
+"For programmers, developers and hackers alike, there are various projects to "
+"get\n"
+"stuck into by contributing code and/or proposing solutions to problems."
+msgstr ""
+"Pour les programmeurs comme pour les développeurs et les hackers, il y a de "
+"nombreux projets \n"
+"auxquels se coller en contribuant au code et/ou en proposant des solutions "
+"aux problèmes."
+
+#: pages/get-involved-development.md:21
+msgid ""
+"Before submitting pull requests, be sure to have read its README, conform\n"
+"to a project's guidelines and the license. Good starting points are looking\n"
+"at issue lists to replicate problems, debug them and submit a patch that\n"
+"fixes them."
+msgstr ""
+"Avant de soumettre des requêtes de tiorage, soyez certains d'avoir lu le "
+"LISEZMOI, conformez-vous\n"
+"aux instructions du projet et la licence. Pour bien démarrer, il convient de "
+"parcourir\n"
+"la liste des problèmes afin de les répliquer, de les déboguer et de "
+"soumettre un patch qui\n"
+"les règle."
+
+#: pages/get-involved-development.md:26
+msgid "### Ubuntu MATE"
+msgstr "### Ubuntu MATE"
+
+#: pages/get-involved-development.md:30
+msgid "[View all repositories](https://github.com/ubuntu-mate){:.btn}"
+msgstr "[Voir tous les dépôts](https://github.com/ubuntu-mate){:.btn}"
+
+#: pages/get-involved-development.md:34
+msgid "### MATE Desktop"
+msgstr "### Bureau MATE"
+
+#: pages/get-involved-development.md:38
+msgid "[View all repositories](https://github.com/mate-desktop){:.btn}"
+msgstr "[Voir tous les dépôts](https://github.com/mate-desktop){:.btn}"
+
+#: pages/get-involved-development.md:42
+msgid "### Default Apps"
+msgstr "### Applications par Défaut"

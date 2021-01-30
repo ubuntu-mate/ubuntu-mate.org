@@ -1,0 +1,51 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/403.md:13
+msgid "title: 403 | Forbidden"
+msgstr "title: 403 | interdit"
+
+#: pages/403.md:18
+msgid ""
+"## 403. Forbidden\n"
+"---"
+msgstr ""
+"## 403. Interdit\n"
+"---"
+
+#: pages/403.md:20
+msgid "**Only the superuser can let you in.**"
+msgstr "**Seul le super-utilisateur peut vous laisser entrer.**"
+
+#: pages/403.md:22
+msgid ""
+"Nice try! The server denied access to the page or resource you were trying "
+"to access."
+msgstr ""
+"Bien essayé ! Le serveur ne vous a pas donné l'accès à la page ou la "
+"ressource à laquelle vous essayiez d'accéder."
+
+#: pages/403.md:23
+msgid ""
+"Would you like to [return to the homepage](/) or [search the site](/search/)?"
+msgstr ""
+"Voudriez-vous [retourner à la page d'accueil](/) or [rechercher sur le site]"
+"(/search/)?"

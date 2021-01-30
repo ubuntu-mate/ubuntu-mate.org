@@ -1,0 +1,156 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-artwork.md:9
+msgid "title: Artwork"
+msgstr "title: Illustrations"
+
+#: pages/get-involved-artwork.md:13
+msgid "## Artwork"
+msgstr "## Illustrations"
+
+#: pages/get-involved-artwork.md:17
+msgid ""
+"We might be biased, or REALLY like the color green, but we think Ubuntu MATE "
+"is\n"
+"pretty sharp looking. If you're graphically inclined, or you love testing\n"
+"themes, then we have several different ways to contribute."
+msgstr ""
+"Nous sommes peut-être subjectifs, ou bien nous aimons VRAIMENT la couleur "
+"verte, mais nous estimons qu'Ubuntu MATE\n"
+"a une allure très pointue. Si vous aimez les arts graphiques, ou que vous "
+"adorez tester \n"
+"des thèmes, alors vous pouvez contribuer de différentes façons."
+
+#: pages/get-involved-artwork.md:20
+msgid "## Wallpaper"
+msgstr "## Fond d'écran"
+
+#: pages/get-involved-artwork.md:25
+msgid ""
+"If you have digital art or photography you think would make a brilliant "
+"Ubuntu\n"
+"MATE wallpaper, we invite you to\n"
+"[share it with the rest of the community](https://ubuntu-mate.community/c/"
+"multimedia/artwork/8).\n"
+"To be considered for official inclusion in Ubuntu MATE, wallpaper must:"
+msgstr ""
+"Si vous avez de l'art digital ou une photographie qui selon vous ferait un "
+"excellent\n"
+"fond d'écran pour Ubuntu MATE, nous vous invitons à le\n"
+"[partager avec le reste de la communauté](https://ubuntu-mate.community/c/"
+"multimedia/artwork/8).\n"
+"Pour être officiellement inclus dans Ubuntu MATE, un fond d'écran doit:"
+
+#: pages/get-involved-artwork.md:28
+msgid ""
+"* have a minimum resolution of 1920x1080.\n"
+"* be posted under the [Attribution-ShareAlike 4.0 International (CC-BY-"
+"SA-4.0) license](https://creativecommons.org/licenses/by-sa/4.0/) which must "
+"be stated in the post."
+msgstr ""
+"* avoir une résolution minimum de 1920x1080.\n"
+"* être postée sous la [Attribution-ShareAlike 4.0 International (CC-BY-"
+"SA-4.0) licence](https://creativecommons.org/licenses/by-sa/4.0/) qui doit "
+"figurer dans le post."
+
+#: pages/get-involved-artwork.md:31
+msgid "## Theme Testing and Fixing"
+msgstr "## Test et Correction du Thème"
+
+#: pages/get-involved-artwork.md:35
+msgid ""
+"One of the best things about Ubuntu MATE, and all Linux distros, is the "
+"ability\n"
+"to customise your experience. Ubuntu MATE comes with the Ambiant-MATE theme "
+"as\n"
+"default, though users can choose from pre-installed themes or install their "
+"own."
+msgstr ""
+"L'une des meilleures choses à propos d'Ubuntu MATE, et de toutes les "
+"distributions de Linux, c'est la capacité\n"
+"de personnaliser l'expérience.  Ubuntu MATE vient avec le thème Ambiant-"
+"MATE \n"
+"par défaut, toutefois les utilisateurs peuvent choisir parmi des thèmes pré-"
+"installés ou installer leur propre thème."
+
+#: pages/get-involved-artwork.md:40
+msgid ""
+"While most [GTK 2.x and GTK 3.x themes](https://mate-desktop.org/themes/) "
+"will\n"
+"work with MATE, some require additional support to run smoothly. If you "
+"want\n"
+"to contribute in this area, ask the theme maintainers to add MATE support "
+"or\n"
+"submit improvements yourself."
+msgstr ""
+"Alors que la plupart des [ thèmesGTK 2.x and GTK 3.x](https://mate-desktop."
+"org/themes/) fonctionneront\n"
+"avec MATE,  certains requièrent un support additionnel pour s'exécuter "
+"correctement. Si vous voulez\n"
+"contribuer dans ce domaine, demandez aux mainteneurs d'ajouter le support "
+"pour MATE ou\n"
+"soumettez vous-même des améliorations."
+
+#: pages/get-involved-artwork.md:43
+msgid ""
+"If you've found a papercut in one of the pre-installed themes, raise an "
+"issue\n"
+"or submit a pull request:"
+msgstr ""
+"Si vous avez trouvé un défaut dans l'un des thèmes pré-installez, créez un "
+"problème\n"
+"ou soumettez une demande de contribution:"
+
+#: pages/get-involved-artwork.md:48
+msgid "## Develop Brand Artwork"
+msgstr "## Développer les Illustrations de la Marque"
+
+#: pages/get-involved-artwork.md:51
+msgid ""
+"Do you like swag? We do too! If you'd like to make brand artwork, we'd love "
+"to\n"
+"see it. Before you start creating, keep these two things in mind:"
+msgstr ""
+"Vous aimez le swag ? Nous aussi ! Si vous aimeriez créer des illustrations "
+"pour la marque, nous aimerions\n"
+"les voir. Avant de commencer à créer, veuillez garder ces deux choses à "
+"l'esprit:"
+
+#: pages/get-involved-artwork.md:54
+msgid ""
+"* All brand artwork needs to be made available under the Attribution-"
+"ShareAlike 4.0 International (CC-BY-SA-4.0) license.\n"
+"* For usage of the Ubuntu MATE logo, please see the [Logo Guidelines](/get-"
+"involved/design-guidelines/)."
+msgstr ""
+"* Toutes les illustrations de marque doivent être rendues disponibles sous "
+"la licence Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0).\n"
+"* Pour l'usage du logo Ubuntu MATE [Instructions du Logo](/get-involved/"
+"design-guidelines/)."
+
+#: pages/get-involved-artwork.md:55
+msgid ""
+"[Brand Artwork Resources](https://github.com/ubuntu-mate/brand-artwork){:."
+"btn}"
+msgstr ""
+"[Ressources d'Illustration de Marque](https://github.com/ubuntu-mate/brand-"
+"artwork){:.btn}"

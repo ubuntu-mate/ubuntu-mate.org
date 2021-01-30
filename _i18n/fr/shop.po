@@ -1,0 +1,47 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/shop.md:9
+msgid "title: Emporium"
+msgstr "title: Marché"
+
+#: pages/shop.md:14
+msgid "## Welcome to the Emporium!"
+msgstr "## Bienvenue au marché !"
+
+#: pages/shop.md:17
+msgid ""
+"We offer shiny new computers, books and other merchandise to show off to "
+"your\n"
+"friends and family! Pick a category above."
+msgstr ""
+"Nous vous proposons des ordinateurs flambant neufs, des livres et d'autres "
+"articles pour mettre en valeur Ubuntu MATE auprès de votre famille et de vos "
+"amis ! Choisissez une catégorie au-dessus."
+
+#: pages/shop.md:19
+msgid ""
+"{:.center}\n"
+"![A shopping trolley with Ubuntu MATE Merchandise](/images/shop/shop.svg)"
+msgstr ""
+"{:.center}\n"
+"![Un caddie de courses avec de la marchandise Ubuntu MATE](/images/shop/shop."
+"svg)"

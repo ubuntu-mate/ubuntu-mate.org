@@ -1,0 +1,229 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/funding.md:8
+msgid "title: Funding"
+msgstr "title: Financement"
+
+#: pages/funding.md:12
+msgid "This crowd funding campaign has the following objectives:"
+msgstr "Cette campagne de financement participatif a les objectifs suivants:"
+
+#: pages/funding.md:18
+msgid ""
+"  * Fund the costs associated with running the Ubuntu MATE and MATE Desktop "
+"projects.\n"
+"    * These include domain name registrations and service charges for things "
+"like the content delivery network, web application firewall and "
+"transactional email services used by the forums.\n"
+"  * Fund the development of Ubuntu MATE and MATE Desktop via financial "
+"rewards for contributors to either project.\n"
+"  * Help subsidise the travel expenses of team members to represent Ubuntu "
+"MATE and MATE Desktop at FLOSS conferences.\n"
+"  * Support other Open Source projects that Ubuntu MATE depends upon."
+msgstr ""
+"  * Financer les coûts associés à l'exécution des projets Ubuntu MATE et "
+"Bureau MATE.\n"
+"    *  Ces coûts incluent les enregistrements de nom de domaine et les "
+"charges de service pour des choses telles le réseau de diffusion de contenu, "
+"le pare-feu de l'application web et les services d'email transactionnels "
+"utilisés par les forums.\n"
+"  * Financer le développement d'Ubuntu MATE et du Bureau MATE à travers des "
+"récompenses financières pour les contributeurs de chaque projet.\n"
+"  * Aider à subventionner les dépenses de transport des membres de l'équipe "
+"qui représentent Ubuntu MATE et le Bureau MATE aux conférences FLOSS.\n"
+"  * Supporter d'autres projets Open Source desquels Ubuntu MATE dépend."
+
+#: pages/funding.md:21
+msgid ""
+"We have set up a number of payment options that should hopefully suit\n"
+"everyone. Go on, be brilliant, help grow our community."
+msgstr ""
+"Nous avons mis en place un certain nombre d'options de paiement qui "
+"devraient, espérons-le, convenir à tout le monde.\n"
+"Allez, soyez excellent et aidez-nous à faire grandir notre communauté."
+
+#: pages/funding.md:23
+msgid "## Patreon"
+msgstr "## Patreon"
+
+#: pages/funding.md:28
+msgid ""
+"This is a unique way to fund an Open Source community. A regular\n"
+"monthly income for the Ubuntu MATE project will allow us to better plan\n"
+"how best to reward our contributors and sponsor other Open Source\n"
+"projects."
+msgstr ""
+"C'est un moyen unique de financer une communauté Open Source. Un\n"
+"revenu mensuel régulier pour le projet Ubuntu MATE nous permettra de\n"
+"mieux planifier comment récompenser du mieux possible nos\n"
+"contributeurs et sponsoriser d'autres projets Open Source."
+
+#: pages/funding.md:32
+msgid ""
+"**Patrons get exclusive project exclusive project news, updates, are "
+"invited\n"
+"to join an exclusive Telegram channel where you can talk to the developers\n"
+"directly and get a badge in the [Ubuntu MATE Community](https://ubuntu-mate."
+"community).**"
+msgstr ""
+"**Les patrons obtiennent des nouvelles exclusives du projet, des mises à "
+"jour, sont invités\n"
+"un salon exclusif Telegram sur lequel vous pouvez parler aux développeurs\n"
+"directement et obtenir un badge dans la [Communauté Ubuntu MATE](https://"
+"ubuntu-mate.community).**"
+
+#: pages/funding.md:40
+msgid ""
+"    title = \"Monthly supporter\"\n"
+"    text = \"Become a monthly supporter via Patreon and help grow the Ubuntu "
+"MATE community.\"\n"
+"    button_text = \"Become a Patron\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+msgstr ""
+"    title = \"Supporter mensuel\"\n"
+"    text = \"Devenez un supporter mensuel avec Patreon et aidez-nous à faire "
+"grandir la communauté Ubuntu MATE.\"\n"
+"    button_text = \"Devenez un Patron\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+
+#: pages/funding.md:45
+msgid "## PayPal"
+msgstr "## PayPal"
+
+#: pages/funding.md:48
+msgid ""
+"{:.center}\n"
+"![PayPal logo](/images/brands/paypal.svg)"
+msgstr ""
+"{:.center}\n"
+"![PayPal logo](/images/brands/paypal.svg)"
+
+#: pages/funding.md:53
+msgid ""
+"We'd prefer you set-up a recurring payment to help ensure that monthly\n"
+"costs are always covered and it also allows us to better plan how to\n"
+"reward our contributors and sponsor other Open Source projects.\n"
+"That said, one time donations are also gratefully accepted."
+msgstr ""
+"Nous préférerions que vous mettiez en place un paiement récurrent pour\n"
+"être sûrs que nos coûts mensuels soient toujours couverts et cela nous\n"
+"permet de mieux planifier comment récompenser nos contributeurs et \n"
+"sponsoriser d'autres projets Open Source.\n"
+"Ceci étant dit, les donations uniques sont également chaleureusement "
+"acceptées."
+
+#: pages/funding.md:57
+msgid ""
+"**NOTE! If you are considering a monthly recurring payment via PayPal then\n"
+"you should probably use the [Ubuntu MATE Patreon](https://www.patreon.com/"
+"ubuntu_mate)\n"
+"to benefit from Patron rewards.**"
+msgstr ""
+"**NOTE ! Si vous avez l'intention de verser un paiement récurrent mensuel "
+"via PayPal, alors\n"
+"vous devriez probablement utiliser le [Patreon Ubuntu MATE](https://www."
+"patreon.com/ubuntu_mate)\n"
+"pour bénéficier des récompenses des Patrons.**"
+
+#: pages/funding.md:62
+msgid "# Commercial sponsorship"
+msgstr "# Sponsoring commercial"
+
+#: pages/funding.md:67
+msgid ""
+"If you are using, or plan to use, Ubuntu MATE in a commercial\n"
+"environment and would like to sponsor the project more formally, then\n"
+"please head over to our Patreon page where we have commercial\n"
+"sponsorship packages."
+msgstr ""
+"Si vous utilisez, ou avez l'intention d'utiliser, Ubuntu MATE dans un\n"
+"environnement commercial et voudriez formellement sponsoriser le \n"
+"projet, veuillez s'il-vous-plaît vous dirigez sur notre page Patreon où nous "
+"avons des paquets de sponsoring commercial."
+
+#: pages/funding.md:76
+msgid ""
+"    title = \"Commercial Sponsor\"\n"
+"    text = \"Become a commercial sponsor at Patreon\n"
+"            and have your business prominently listed as a sponsor.\"\n"
+"    button_text = \"Become a commercial sponsor\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+msgstr ""
+"    title = \"Sponsor Commercial\"\n"
+"    text = \"Devenez un sponsor commercial sur Patreon\n"
+"            et ayez votre entreprise listée en évidence en tant que sponsor."
+"\"\n"
+"    button_text = \"Devenez un sponsor commercial\"\n"
+"    button_url = \"https://www.patreon.com/ubuntu_mate\""
+
+#: pages/funding.md:81
+msgid "## Bitcoin"
+msgstr "## Bitcoin"
+
+#: pages/funding.md:85
+msgid ""
+"Click or scan the QR code below to launch your Bitcoin client and\n"
+"donate 0.005 btc to Ubuntu MATE. Alternatively, copy and paste the\n"
+"Bitcoin address into your Bitcoin client to donate an amount of your choice."
+msgstr ""
+"Cliquez ou scannez le QR code ci-dessous pour lancer votre client Bitcoin\n"
+"et donner 0.005 btc à Ubuntu MATE. Vous pouvez également \n"
+"copier-coller l'adresse Bitcoin dans votre client Bitcoin pour donner le "
+"montant de votre choix."
+
+#: pages/funding.md:88
+msgid ""
+"{:.center}\n"
+"[![](https://chart.googleapis.com/chart?"
+"chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?"
+"amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)]"
+"(bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)"
+msgstr ""
+"{:.center}\n"
+"[![](https://chart.googleapis.com/chart?"
+"chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?"
+"amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)]"
+"(bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)"
+
+#: pages/funding.md:91
+msgid ""
+"{:.center}\n"
+"**1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**"
+msgstr ""
+"{:.center}\n"
+"**1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**"
+
+#: pages/funding.md:93
+msgid "## Affiliate Links"
+msgstr "## Liens Affiliés"
+
+#: pages/funding.md:94
+msgid ""
+"Some pages on this website include Amazon affiliate links to products we've "
+"tested and are known to be compatible with Ubuntu MATE. Clicking those links "
+"will earn us a commission, with no additional cost to you, in the event of "
+"purchases."
+msgstr ""
+"Certaines pages sur ce site web contiennent des liens affiliés Amazon vers "
+"des produits que nous avons testés et sachons compatibles avec Ubuntu MATE. "
+"Cliquer sur ces liens nous rapporte une commission, sans coût additionnel "
+"pour vous, en cas d'achat."

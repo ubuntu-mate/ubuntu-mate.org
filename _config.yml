@@ -64,7 +64,7 @@ translate: "https://www.transifex.com/ubuntu-mate/ubuntu-mate-org"
 discord: "https://discord.gg/T8NDH5RaEj"
 
 # i18n
-languages: ["en", "ru"]
+languages: ["en", "fr", "ru"]
 default_lang: "en"
 exclude_from_localization: [
     "assets",

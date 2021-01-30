@@ -1,0 +1,136 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-bug-fixing.md:9
+msgid "title: Bug Fixing"
+msgstr "title: Correction de Bugs"
+
+#: pages/get-involved-bug-fixing.md:13
+msgid "## Bug Fixing"
+msgstr "## Correction de Bugs"
+
+#: pages/get-involved-bug-fixing.md:18
+msgid ""
+"If you're new to fixing bugs in Ubuntu MATE, and Ubuntu in general, you'll "
+"need\n"
+"a [Launchpad](https://bugs.launchpad.net/+login) account. This\n"
+"[Ubuntu Wiki page](https://wiki.ubuntu.com/HelpingWithBugs) is an excellent\n"
+"place to learn about bug fixing in Ubuntu."
+msgstr ""
+"Si vous êtes nouveau dans le domaine de la correction des bugs dans Ubuntu "
+"MATE, et dans Ubuntu en général, vous aurez besoin \n"
+"d'un compte [Launchpad](https://bugs.launchpad.net/+login) . Cette\n"
+"[page de l'Ubuntu Wiki](https://wiki.ubuntu.com/HelpingWithBugs) est un "
+"excellent\n"
+"endroit pour apprendre à corriger les bugs dans Ubuntu."
+
+#: pages/get-involved-bug-fixing.md:20
+msgid "### Recommended Skills"
+msgstr "### Talents Recommandés"
+
+#: pages/get-involved-bug-fixing.md:27
+msgid ""
+"Although programming knowledge is very helpful, there are some\n"
+"non-programming ways to handle reported and triaged issues. For example, \n"
+"there might be a typo or a problem with documentation. If you're "
+"proficient \n"
+"in a non-English language, you might fix a translation error. If you have \n"
+"Internet detective skills, you can track down fixes from upstream "
+"developers \n"
+"or other distributions."
+msgstr ""
+"Bien que la connaissance en programmation est très utile, il y a\n"
+"d'autres façons de gérer les problèmes rapportés et triés. Par exemple\n"
+"il y a peut-être une faute de frappe ou un problème avec la documentation. "
+"Si vous êtes \n"
+"compétents dans un langage autre que l'anglais, vous pourriez régler une "
+"erreur de traduction; Si vous avez des talents de détective de l'Internet, "
+"vous pourriez suivre ces corrections de développeurs en amont\n"
+"ou dans d'autres distributions."
+
+#: pages/get-involved-bug-fixing.md:29
+msgid "### Where to Start"
+msgstr "### Par quoi Commencer ?"
+
+#: pages/get-involved-bug-fixing.md:35
+msgid ""
+"The [Ubuntu MATE Bug Tracker](https://bugs.launchpad.net/ubuntu-mate) lists "
+"all\n"
+"open bugs. The bug tracker displays a bug's status (e.g. `New`, `Triaged`) "
+"and\n"
+"its importance (`Undecided`, `Wishlist`, `Low`, `High`). If a bug is `New`, "
+"it's\n"
+"best to [triage the bug](/get-involved/bug-triage/), to at least be sure "
+"it's a\n"
+"confirmed bug."
+msgstr ""
+"Le [Tracker de Bugs Ubuntu MATE](https://bugs.launchpad.net/ubuntu-mate) "
+"dresse une liste de tous\n"
+"les bugs ouverts. Le tracker de bug affiche l'état d'un bug  (exemple: "
+"`Nouveau`, `Trié) et\n"
+"son importance (`Non réglée`, `Liste de souhaits`, `Basse`, `Haute`). Si un "
+"bug est `Nouveau`, il\n"
+"vaut mieux [trier le bug](/get-involved/bug-triage/), pour être au moins sûr "
+"qu'il s'agit\n"
+"d'un bug confirmé."
+
+#: pages/get-involved-bug-fixing.md:39
+msgid ""
+"If you would like to start in a safe bug-fixing sandbox, you can practice "
+"with\n"
+"the trivial bugs of the [One Hundred Papercuts](https://launchpad.net/"
+"hundredpapercuts)\n"
+"project."
+msgstr ""
+"Si vous désirez commencer dans une sandbox sûre pour la correction de bugs, "
+"vous pouvez vous entraîner avec\n"
+"les bugs insignifiants du projet des \n"
+"[Cent Papercuts](https://launchpad.net/hundredpapercuts)."
+
+#: pages/get-involved-bug-fixing.md:41
+msgid "### Learn More"
+msgstr "### En Apprendre Plus"
+
+#: pages/get-involved-bug-fixing.md:45
+msgid ""
+"This [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) page walks users \n"
+"through fixing bugs in Ubuntu. Also, be sure to join the amazing resource \n"
+"that is the [Ubuntu MATE community](https://ubuntu-mate.community/c/"
+"support/10)!"
+msgstr ""
+"Cette page de l' [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) "
+"accompagne les utilisateurs \n"
+"dans la correction des bugs dans Ubuntu. Aussi, soyez sûr de rejoindre la "
+"ressource extraordinaire\n"
+"qu'est [la communauté Ubuntu MATE](https://ubuntu-mate.community/c/"
+"support/10)!"
+
+#: pages/get-involved-bug-fixing.md:49
+msgid ""
+"Lastly, this video explains why it's important to fix bugs in the right \n"
+"place, and why patching at the Ubuntu level (in the packages) is sometimes \n"
+"better than only fixing upstream."
+msgstr ""
+"Enfin, cette vidéo explique pourquoi il est important de corriger les bugs "
+"au bon\n"
+"endroit, et pourquoi corriger au niveau d'Ubuntu (dans les paquets) est "
+"parfois\n"
+"mieux que de corriger seulement en amont."

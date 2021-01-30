@@ -1,0 +1,171 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-testing-qa.md:9
+msgid "title: Testing & Quality Assurance"
+msgstr "title:  Tests & Assurance Qualité"
+
+#: pages/get-involved-testing-qa.md:13
+msgid "## Testing & Quality Assurance"
+msgstr "## Tests & Assurance Qualité"
+
+#: pages/get-involved-testing-qa.md:18
+msgid ""
+"Ubuntu MATE is always improving and changing. Our development team is "
+"constantly\n"
+"working to make this the best experience possible but there will always be\n"
+"**bugs**! Finding these makes life easier on the developers and makes "
+"things\n"
+"better for our users. -- **including you** :wink:"
+msgstr ""
+"Ubuntu MATE est en constante amélioration et évolution. Notre équipe de "
+"développement travaille\n"
+"constamment pour obtenir la meilleure expérience possible mais il y aura "
+"toujours\n"
+"des **bugs**!  Les trouver facilite la vie de nos développeurs et améliore "
+"les choses\n"
+"pour nos utilisateurs. -- **Vous compris** :wink:"
+
+#: pages/get-involved-testing-qa.md:20
+msgid ""
+"**So you want to find :bug:'s and join in the fun? Yes, it really is!** :"
+"slightly_smiling_face:"
+msgstr ""
+"** Alors comme ça, vous voulez trouver des bugs :bug:'s et vous joindre à la "
+"fête ? Oui, c'est vraiment amusant !** :slightly_smiling_face:"
+
+#: pages/get-involved-testing-qa.md:22
+msgid "* Join the [Ubuntu MATE Community](https://ubuntu-mate.community/)"
+msgstr ""
+"* Rejoindre la [Communauté Ubuntu MATE](https://ubuntu-mate.community/)"
+
+#: pages/get-involved-testing-qa.md:24
+msgid ""
+"* Create a [Launchpad/Ubuntu SSO](https://login.launchpad.net/"
+"qGtZ05jM0QUUftoV/+login) account"
+msgstr ""
+"* Créer un compte [Launchpad/Ubuntu SSO](https://login.launchpad.net/"
+"qGtZ05jM0QUUftoV/+login)"
+
+#: pages/get-involved-testing-qa.md:26
+msgid "* [Download the ISO](http://iso.qa.ubuntu.com/qatracker)"
+msgstr "* [Téléchargez l'ISO](http://iso.qa.ubuntu.com/qatracker)"
+
+#: pages/get-involved-testing-qa.md:28
+msgid ""
+"     ![Showing download links on the Ubuntu ISO tracker](/images/get-"
+"involved/qa/download.png)"
+msgstr ""
+"     ![Liens de téléchargement sur le tracker Ubuntu ISO](/images/get-"
+"involved/qa/download.png)"
+
+#: pages/get-involved-testing-qa.md:30
+msgid "* Test!"
+msgstr "* Test !"
+
+#: pages/get-involved-testing-qa.md:32
+msgid ""
+"     ![Showing test cases on the Ubuntu ISO tracker](/images/get-involved/qa/"
+"testcases.png)"
+msgstr ""
+"     ![Cas de test sur le tracker Ubuntu ISO](/images/get-involved/qa/"
+"testcases.png)"
+
+#: pages/get-involved-testing-qa.md:35
+msgid "* Report and Update the ISO Tracker"
+msgstr "* Rapporter et Mettre à Jour le tracker ISO"
+
+#: pages/get-involved-testing-qa.md:37
+msgid ""
+"     ![Showing reports on the Ubuntu ISO tracker](/images/get-involved/qa/"
+"report.png)"
+msgstr ""
+"     ![Rapports sur le tracker Ubuntu ISO](/images/get-involved/qa/report."
+"png)"
+
+#: pages/get-involved-testing-qa.md:39
+msgid ""
+"It's pretty simple but very important! Here are some tips & tricks that will "
+"help."
+msgstr ""
+"C'est plutôt simple mais tellement important ! Voici quelques trucs & "
+"astuces qui vous aideront."
+
+#: pages/get-involved-testing-qa.md:43
+msgid ""
+"* [How to report bugs](https://ubuntu-mate.community/t/how-to-report-"
+"problems-in-ubuntu-mate/17943)\n"
+"* [Step-by-step guide](https://wiki.ubuntu.com/Testing/ISO/Walkthrough)\n"
+"* Let us know about issues via the [Ubuntu MATE Community](https://ubuntu-"
+"mate.community/)"
+msgstr ""
+"* [Comment rapporter des bugs](https://ubuntu-mate.community/t/how-to-report-"
+"problems-in-ubuntu-mate/17943)\n"
+"* [Guide étape par étape](https://wiki.ubuntu.com/Testing/ISO/Walkthrough)\n"
+"* Tenez-nous au courant des problèmes par la [Communauté Ubuntu MATE]"
+"(https://ubuntu-mate.community/)"
+
+#: pages/get-involved-testing-qa.md:46
+msgid ""
+"Also remember to ask yourself **Is the problem reproducible?** We need to "
+"know\n"
+"the steps needed to reproduce your issue."
+msgstr ""
+"Pensez à vous demander **Mon problème peut-être il être reproduit ?** Nous "
+"devons connaître\n"
+"les étapes requises pour reproduire votre problème."
+
+#: pages/get-involved-testing-qa.md:50
+msgid ""
+"While you can certainly download an ISO release individually. For "
+"convenience,\n"
+"we **highly recommend** *zsync*. Eric Adams has produced a short video that "
+"is\n"
+"a great introduction to using *zsync* for testing:"
+msgstr ""
+"Vous pouvez certainement télécharger chaque version individuellement. Pour "
+"votre confort,\n"
+"nous vous **recommandons chaudement** *zsync*. Eric Adams a produit une "
+"courte vidéo\n"
+"qui est une formidable introduction à l'utilisation de *zsync* pour tester:"
+
+#: pages/get-involved-testing-qa.md:57
+msgid ""
+"We'd :green_heart: to have you join us in testing and become part of our "
+"**Community**.\n"
+"We are always looking for more testers!"
+msgstr ""
+"Nous :green_heart: que vous nous rejoigniez pour tester et faire partie de "
+"notre **Communauté**.\n"
+"Nous cherchons toujours plus de testeurs !"
+
+#: pages/get-involved-testing-qa.md:60
+msgid ""
+"Finally, [Alan Pope](https://popey.com/) has produced a wonderful\n"
+"[video](https://www.youtube.com/watch?v=hXLiqjOkSmg) on testing Ubuntu "
+"MATE.\n"
+"We are sure you can do a better job of it than he did. :rofl:"
+msgstr ""
+"Enfin, [Alan Pope](https://popey.com/) a produit une vidéo géniale\n"
+"[video](https://www.youtube.com/watch?v=hXLiqjOkSmg) sur comment tester "
+"Ubuntu MATE.\n"
+"Nous sommes certains que vous pourrez faire du meilleur travail que lui. :"
+"rofl:"

@@ -1,0 +1,57 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/funding-success.md:8
+msgid "title: Successful Donation!"
+msgstr "title: Donation Réussie !"
+
+#: pages/funding-success.md:12
+msgid "#### Many thanks for donating!"
+msgstr "#### Merci beaucoup pour la donation !"
+
+#: pages/funding-success.md:16
+msgid ""
+"We've spent a great deal of time creating Ubuntu MATE and it is great that "
+"you\n"
+"have recognised the effort we've put into it. Donations will be put towards "
+"our\n"
+"hosting costs and rewarding contributors to the project."
+msgstr ""
+"Nous avons passé bien du temps à créer Ubuntu MATE et c'est formidable \n"
+"que vous reconnaissiez les efforts que nous avons mis dans le projet. Les "
+"donations \n"
+"seront réparties entre nos coûts d'hébergement et les récompenses aux "
+"contributeurs du projet."
+
+#: pages/funding-success.md:25
+msgid ""
+"    title = \"Thanks again!\"\n"
+"    text = \"That warm and fuzzy sensation you can feel is the Internet\n"
+"        promoting you to **Ubuntu MATE Community Super Hero** status.\"\n"
+"    button_text = \"Back to the homepage\"\n"
+"    button_url = \"/\""
+msgstr ""
+"    title = \"Merci encore !\"\n"
+"    text = \"Cette sensation chaude  et confuse que vous pouvez ressentir "
+"est l'Internet qui vous élève au rang de **Super Héros de la Communauté "
+"Ubuntu MATE**.\"\n"
+"    button_text = \"Retour à la page d'accueil\"\n"
+"    button_url = \"/\""

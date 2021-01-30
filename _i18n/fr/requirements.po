@@ -1,0 +1,141 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/requirements.md:9
+msgid "title: System Requirements"
+msgstr "title: Configuration requise"
+
+#: pages/requirements.md:15
+msgid ""
+"Ubuntu MATE has modest hardware requirements, making it is suitable for "
+"modern\n"
+"workstations, single board computers and older hardware alike. Ubuntu MATE\n"
+"makes modern computers fast and old computers usable."
+msgstr ""
+"Ubuntu MATE requiert une configuration modeste, le rendant parfaitement "
+"adapté aux\n"
+"stations de travail modernes, aux ordinateurs à carte unique et au matériel "
+"plus ancien. Ubuntu MATE rend les ordinateurs modernes rapides et les "
+"ordinateurs moins récents utilisables."
+
+#: pages/requirements.md:17
+msgid "### Desktop and Laptop Computers"
+msgstr "### Ordinateurs fixes et portables"
+
+#: pages/requirements.md:26
+msgid ""
+"|                   | Minimum           | Recommended               |\n"
+"| ----------------- | ----------------- | ------------------------- |\n"
+"| **CPU**           | Pentium M 1.0GHz  | Core 2 Duo 1.6GHz\n"
+"| **CPU Architecture** | [i386] (until 2021) | [amd64]\n"
+"| **RAM**           | 1 GB              | 4 GB\n"
+"| **Storage**       | 8 GB              | 16 GB\n"
+"| **Boot Media**    | Bootable DVD-ROM  | Bootable DVD-ROM or USB Flash "
+"Drive\n"
+"| **Display**       | 1024 x 768        | 1440 x 900 or higher (with "
+"graphics acceleration)"
+msgstr ""
+"|                   | Minimum           | Recommandé               |\n"
+"| ----------------- | ----------------- | ------------------------- |\n"
+"| **CPU**           | Pentium M 1.0GHz  | Core 2 Duo 1.6GHz\n"
+"| **CPU Architecture** | [i386] (jusqu'en 2021) | [amd64]\n"
+"| **RAM**           | 1 GO              | 4 GO\n"
+"| **Stockage**       | 8 GO              | 16 GO\n"
+"| **Media de démarrage**    | DVD-ROM amorçable | DVD-ROM or USB Flash "
+"Drive\n"
+"| **Affichage**       | 1024 x 768        | 1440 x 900 ou plus (avec "
+"accélération graphique)"
+
+#: pages/requirements.md:29
+msgid "### Raspberry Pi"
+msgstr "### Raspberry Pi"
+
+#: pages/requirements.md:31
+msgid "Only the **B models** of the Raspberry Pi family are supported:"
+msgstr "Seuls les **modèles B** de la famille Raspberry Pi sont supportés:"
+
+#: pages/requirements.md:36
+msgid ""
+"* Raspberry Pi 2\n"
+"* Raspberry Pi 3\n"
+"* Raspberry Pi 3+\n"
+"* Raspberry Pi 4 (all memory sizes)"
+msgstr ""
+"* Raspberry Pi 2\n"
+"* Raspberry Pi 3\n"
+"* Raspberry Pi 3+\n"
+"* Raspberry Pi 4 (toutes tailles de mémoire)"
+
+#: pages/requirements.md:39
+msgid ""
+"All models support the [armhf] architecture. The Raspberry Pi 3 and newer\n"
+"can also take advantage of the 64-bit CPU using the [arm64] release."
+msgstr ""
+"Tous les modèles supportent l'architecture [armhf]. Le Raspberry Pi 3 et "
+"plus récents\n"
+"peuvent aussi tirer profit du CPU 64-bit en utilisant la version [arm64]."
+
+#: pages/requirements.md:44
+msgid ""
+"[i386]: /download/i386/\n"
+"[amd64]: /download/amd64/\n"
+"[armhf]: /download/armhf/\n"
+"[arm64]: /download/arm64/"
+msgstr ""
+"[i386]: /download/i386/\n"
+"[amd64]: /download/amd64/\n"
+"[armhf]: /download/armhf/\n"
+"[arm64]: /download/arm64/"
+
+#: pages/requirements.md:46
+msgid "The micro-SD card needs to be a minimum of 5 GB."
+msgstr "La taille de la carte micro-SD doit être au minimum de 5 GO."
+
+#: pages/requirements.md:49
+msgid "### Hardware Ports"
+msgstr "### Portages Matériels"
+
+#: pages/requirements.md:51
+msgid "Ubuntu MATE has been officially ported to, and works great on:"
+msgstr ""
+"Ubuntu MATE a été officiellement porté sur, et fonctionne très bien sur:"
+
+#: pages/requirements.md:57
+msgid ""
+"| Codename              | Compatible with                                   "
+"|\n"
+"| --------------------- | ------------------------------------------------- "
+"|\n"
+"| [gpd_pocket](/download/gpd_pocket/) | Original GPD Pocket.\n"
+"| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix "
+"Yoga 1s and OneMix Yoga 2.\n"
+"| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC\n"
+"| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon"
+msgstr ""
+"| Nom de code              | Compatible "
+"avec                                   |\n"
+"| --------------------- | ------------------------------------------------- "
+"|\n"
+"| [gpd_pocket](/download/gpd_pocket/) | GPD Pocket originel.\n"
+"| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix "
+"Yoga 1s et OneMix Yoga 2.\n"
+"| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC\n"
+"| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon"

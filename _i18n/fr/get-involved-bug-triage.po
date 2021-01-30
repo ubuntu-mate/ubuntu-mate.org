@@ -1,0 +1,171 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/get-involved-bug-triage.md:9
+msgid "title: Bug Reporting and Triage"
+msgstr "title: Rapport et Triage de Bugs"
+
+#: pages/get-involved-bug-triage.md:14
+msgid "## Bug Reporting"
+msgstr "## Rapport de Bugs"
+
+#: pages/get-involved-bug-triage.md:16
+msgid "### Where do I report a bug?"
+msgstr "### Où dois-je rapporter un bug ?"
+
+#: pages/get-involved-bug-triage.md:18
+msgid ""
+"Bugs are submitted to the [Ubuntu MATE project on Launchpad](https://bugs."
+"launchpad.net/ubuntu-mate)"
+msgstr ""
+"Les bugs sont soumis sur le [projet Ubuntu MATE sur Launchpad](https://bugs."
+"launchpad.net/ubuntu-mate)"
+
+#: pages/get-involved-bug-triage.md:21
+msgid ""
+"If you don't already have an account, [set one up on Launchpad](https://help."
+"launchpad.net/YourAccount/NewAccount)\n"
+"before you get started. "
+msgstr ""
+"Si vous ne possédez pas déjà un compte, [créez-en un sur Launchpad](https://"
+"help.launchpad.net/YourAccount/NewAccount) avant de démarrer."
+
+#: pages/get-involved-bug-triage.md:23
+msgid "### How do I report a bug?"
+msgstr "### Comment dois-je rapporter un bug ?"
+
+#: pages/get-involved-bug-triage.md:27
+msgid ""
+"[This tutorial](https://ubuntu-mate.community/t/17943) by APolihron, one of "
+"our QA testers,\n"
+"demonstrates how to file a bug report. It is incredibly useful, \n"
+"with GIFs to illustrate each step of the process!"
+msgstr ""
+"[Ce tutoriel](https://ubuntu-mate.community/t/17943) par APolihron, l'un de "
+"nos testeurs Assurance Qualité,\n"
+"montre comment remplir un rapport de bug. Il est incroyablement utile, \n"
+"avec des GIFs pour illustrer chaque étape du processus !"
+
+#: pages/get-involved-bug-triage.md:29
+msgid "## Who can I talk to about bugs and bug reporting?"
+msgstr ""
+"## À qui puis-je m'adresser pour discuter des bugs et des rapports de bugs ?"
+
+#: pages/get-involved-bug-triage.md:33
+msgid ""
+"Join the Ubuntu MATE community in the [Support and Help Requests](https://"
+"ubuntu-mate.community/c/support/10)\n"
+"section of the Community page to talk to new and experienced bug\n"
+"reporters! "
+msgstr ""
+"Rejoignez la communauté Ubuntu MATE dans la section [Support et Demandes "
+"d'Aide](https://ubuntu-mate.community/c/support/10)\n"
+"de la page de la Communauté pour discuter avec des rapporteurs nouveaux "
+"comme expérimentés !"
+
+#: pages/get-involved-bug-triage.md:39
+msgid "## Bug Triage"
+msgstr "## Triage de bugs"
+
+#: pages/get-involved-bug-triage.md:42
+msgid ""
+"If you're comfortable with bug reporting, bug triage is another great\n"
+"way to contribute to Ubuntu MATE!"
+msgstr ""
+"Si vous êtes à l'aise avec le rapport de bugs, le triage de bugs est une "
+"autre\n"
+"incroyable façon de contribuer à Ubuntu MATE !"
+
+#: pages/get-involved-bug-triage.md:45
+msgid ""
+"Bug triagers help teams determine which bugs are critical, and which are \n"
+"less urgent."
+msgstr ""
+"Les trieurs de bugs aident les équipes à déterminer quels sont les bugs "
+"critiques et ceux qui sont\n"
+"moins urgents."
+
+#: pages/get-involved-bug-triage.md:49
+msgid ""
+"Some bug triage tasks require special privileges granted by project owners "
+"or\n"
+"administrators, but others simply require a [Launchpad](https://code."
+"launchpad.net/ubuntu/+login) account.\n"
+"Here are the key things you can do to help us prioritise bugs:"
+msgstr ""
+"Certaines tâches du triage de bugs requièrent des privilèges spéciaux "
+"accordés par les propriétaires du projet ou\n"
+"les administrateurs, mais d'autres requièrent simplement un compte "
+"[Launchpad](https://code.launchpad.net/ubuntu/+login).\n"
+"Ici sont les choses clés que vous pouvez faire pour nous aider à établir des "
+"priorités entre les bugs."
+
+#: pages/get-involved-bug-triage.md:61
+msgid ""
+"* Can you reproduce a reported bug? If you can, write up the steps you "
+"followed\n"
+"to confirm the issue.\n"
+"* If you confirmed the bug, could you also replicate the issue in stock "
+"Ubuntu\n"
+"or other flavours? Your report should indicate if the bug affected other\n"
+"flavours, or it only affected Ubuntu MATE.\n"
+"* If you can't reproduce the bug, can you get more information from the\n"
+"original bug reporter?\n"
+"* Did you determine the bug was a duplicate? If you did, mark one bug as a "
+"duplicate\n"
+"of the other.\n"
+"* Did you determine the bug was filed with the wrong project? If so, re-open "
+"the\n"
+"bug with the right project and leave a note in the bug's initial location."
+msgstr ""
+"* Pouvez-vous reproduire un bug qui a été rapporté ? Si oui, décrivez les "
+"étapes que vous avez suivies\n"
+"pour confirmer le problème.\n"
+"* Si vous confirmez le bug, pouvez-vous également reproduire le problème "
+"dans Ubuntu stock\n"
+"ou d'autres variantes ? Votre rapport devrait indiquer si le bug affectait "
+"d'autres variantes, ou s'il affectait seulement Ubuntu MATE\n"
+"* Si vous ne parvenez pas à reproduire le bug, pouvez-vous obtenir plus "
+"d'information de la part du rapporteur originel du bug ?\n"
+"* Avez-vous déterminé que le bug était un double ? Si oui, marquez un bug en "
+"tant que double\n"
+"de l'autre.\n"
+"* Avez-vous déterminé que le bug avait été déposé dans le mauvais projet ? "
+"Si oui rouvrez le\n"
+"bug avec le bon projet et laissez une note à l'endroit initial du bug."
+
+#: pages/get-involved-bug-triage.md:66
+msgid ""
+"Bug triage can help us realise where an error is, especially if the error\n"
+"is upstream (for example, with the MATE Desktop instead of Ubuntu MATE.) \n"
+"Bug triagers help maintain communication between projects and help bug \n"
+"fixers know where they need to focus their efforts."
+msgstr ""
+"Le triage de bugs peut nous aider à réaliser où se situait une erreur,\n"
+"particulièrement si l'erreur se situe en amont (par exemple, avec le Bureau "
+"MATE au lieu d'Ubuntu MATE.)\n"
+"Les trieurs de bugs nous aident à maintenir la communication entre les "
+"projets et aident\n"
+"les correcteurs de bugs à savoir où concentrer leurs efforts."
+
+#: pages/get-involved-bug-triage.md:68
+msgid "The video below shows bug triaging (and Martin!) in action:"
+msgstr "La vidéo ci-dessous montre le triage de bugs (et Martin!) en action:"

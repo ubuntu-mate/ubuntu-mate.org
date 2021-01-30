@@ -1,0 +1,139 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-burn-disc.md:9
+msgid "title: Verifying Downloads"
+msgstr "title: Vérifier les téléchargements"
+
+#: pages/faq-burn-disc.md:13
+msgid "## Burning to DVD"
+msgstr "## Graver sur DVD"
+
+#: pages/faq-burn-disc.md:17
+msgid ""
+"If your computer has a DVD burner and blank DVD-R/RW/+R/+RW media, here's "
+"how\n"
+"you can make your own Ubuntu MATE installation disc and live session for "
+"your\n"
+"desktop or laptop."
+msgstr ""
+"Si votre ordinateur possède un graveur de DVD et un média DVD-R/RW/+R/+RW "
+"vierge, voici comment\n"
+"faire votre propre disque d'installation Ubuntu MATE et une session live "
+"pour votre\n"
+"ordinateur fixe ou portable."
+
+#: pages/faq-burn-disc.md:22
+msgid "### Windows"
+msgstr "### Windows"
+
+#: pages/faq-burn-disc.md:25
+msgid ""
+"Windows 7 (and later) supports the ability to burn straight from the "
+"desktop.\n"
+"Right click the file and choose **Burn image**."
+msgstr ""
+"Windows 7 (et plus récents) supporte la possibilité de graver directement à "
+"partir du bureau.\n"
+"Effectuez un clic droit sur le fichier et choisissez **Graver l'image**."
+
+#: pages/faq-burn-disc.md:27
+msgid "![Right clicking an ISO file in Windows](/images/faq/dvd/win.png)"
+msgstr "![Clic droit sur un fichier ISO dans Windows](/images/faq/dvd/win.png)"
+
+#: pages/faq-burn-disc.md:31
+msgid ""
+"If you need to use an older computer running Windows Vista or earlier, "
+"consider\n"
+"[InfraRecorder](http://infrarecorder.org/?page_id=5), a free and open-"
+"source\n"
+"image-burning program."
+msgstr ""
+"Si vous avez besoin d'utiliser un ordinateur plus ancien sous Windows Vista "
+"ou encore plus ancien, pensez à utiliser \n"
+"[InfraRecorder](http://infrarecorder.org/?page_id=5), un logiciel libre et "
+"open source\n"
+"pour graver des images."
+
+#: pages/faq-burn-disc.md:34
+msgid "### macOS"
+msgstr "### macOS"
+
+#: pages/faq-burn-disc.md:37
+msgid ""
+"macOS supports the ability to burn using **Disk Utility**.\n"
+"Right click the file and choose **Burn image**."
+msgstr ""
+"macOS supporte la possibilité de graver en utilisant **Utilitaire de "
+"Disque**\n"
+"Effectuez un clic droit sur le fichier et choisissez **Graver l'image**."
+
+#: pages/faq-burn-disc.md:39
+msgid "![Right clicking an ISO file on Mac](/images/faq/dvd/macOS.png)"
+msgstr "![Clic droit sur un fichier ISO sur Mac](/images/faq/dvd/macOS.png)"
+
+#: pages/faq-burn-disc.md:42
+msgid "### GNU/Linux"
+msgstr "### GNU/Linux"
+
+#: pages/faq-burn-disc.md:46
+msgid ""
+"Your distribution may or may not provide disc burning tools as many believe\n"
+"it is an uncommon necessity these days. If you don't have one installed, "
+"here's\n"
+"a couple you may try:"
+msgstr ""
+"Votre distribution ne fournit pas forcément d'utilitaires pour graver des "
+"images contrairement à ce que tout le monde croit\n"
+"C'est une nécessité peu commune de nos jours. Si vous n'en disposez pas "
+"d'installé\n"
+"voici quelques uns que vous pourriez essayer:"
+
+#: pages/faq-burn-disc.md:49
+msgid ""
+"* [Brasero](https://wiki.gnome.org/Apps/Brasero)\n"
+"* [K3b](https://kde.org/applications/multimedia/org.kde.k3b)"
+msgstr ""
+"* [Brasero](https://wiki.gnome.org/Apps/Brasero)\n"
+"* [K3b](https://kde.org/applications/multimedia/org.kde.k3b)"
+
+#: pages/faq-burn-disc.md:52
+msgid ""
+"Use your distribution's software manager to install these. Both are free "
+"and\n"
+"open source software."
+msgstr ""
+"Utilisez le gestionnaire de logiciels de votre distribution pour les "
+"installer. Ce sont tous les deux\n"
+"des logiciels libres et open source."
+
+#: pages/faq-burn-disc.md:54
+msgid "Right click the file and open the ISO file in the disc burning utility."
+msgstr ""
+"Effectuez un clic droit sur le fichier et ouvrez le fichier ISO dans "
+"l'utilitaire de gravure d'images."
+
+#: pages/faq-burn-disc.md:55
+msgid ""
+"![Right clicking an ISO file in Ubuntu MATE](/images/faq/dvd/ubuntumate.png)"
+msgstr ""
+"![Clic droit sur un fichier ISO dans Ubuntu MATE](/images/faq/dvd/ubuntumate."
+"png)"

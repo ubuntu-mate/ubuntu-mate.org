@@ -1,0 +1,84 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+# Luke Horwell, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Luke Horwell, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/features-mate.md:14
+msgid "title: MATE Desktop | Features"
+msgstr "title: Bureau MATE | Fonctionnalités"
+
+#: pages/features-mate.md:19
+msgid ""
+"main_image_alt: Screenshot of the MATE dialog\n"
+"main_title: The traditional desktop\n"
+"main_subtitle: New to some, a classic to others.\n"
+"main_text: >-"
+msgstr ""
+"main_image_alt: \"Capture d'écran d'une boîte de dialogue MATE\"\n"
+"main_title: Le bureau traditionnel\n"
+"main_subtitle: \"Nouveau pour certains, un classique pour d'autres.\"\n"
+"main_text: >-"
+
+#: pages/features-mate.md:22
+msgid ""
+"    MATE is an intuitive attractive desktop using traditional\n"
+"    metaphors."
+msgstr ""
+"    MATE est un bureau intuitif et attractif utilisant des métaphores "
+"traditionnelles."
+
+#: pages/features-mate.md:24
+msgid "    The legacy of GNOME 2 continues to be modern, lightweight and fast."
+msgstr "    L'héritage de GNOME 2 continue d'être moderne, léger et rapide."
+
+#: pages/features-mate.md:28
+msgid ""
+"left_image_alt: Screenshot of cascaded MATE application windows\n"
+"left_title: The Essentials\n"
+"left_subtitle: Conventional applications such as a text editor, image viewer "
+"and archive utility."
+msgstr ""
+"left_image_alt: \"Capture d'écran de fenêtres d'application MATE en cascade"
+"\"\n"
+"left_title: Les Essentiels\n"
+"left_subtitle: \"Des applications conventionnelles comme un éditeur de "
+"texte, un visionneur d'images et un utilitaire d'archives.\""
+
+#: pages/features-mate.md:32
+msgid ""
+"middle_image_alt: Screenshot of home folder\n"
+"middle_title: Caja File Manager\n"
+"middle_subtitle: Perform file management tasks with ease."
+msgstr ""
+"middle_image_alt: \"Capture d'écran du dossier personnel\"\n"
+"middle_title: Gestionnaire de Fichiers Caja\n"
+"middle_subtitle: Réalisez les tâches de gestion de fichiers avec aisance."
+
+#: pages/features-mate.md:36
+msgid ""
+"right_image_alt: Screenshot of sound indicator\n"
+"right_title: Modern Indicators\n"
+"right_subtitle: Preconfigured to provide convenient features (for supported "
+"applications)"
+msgstr ""
+"right_image_alt: \"Capture d'écran de l'indicateur du son\"\n"
+"right_title: Indicateurs Modernes\n"
+"right_subtitle: Pré-configuré pour fournir des fonctionnalités pratiques "
+"(pour les applications qui les supportent)"

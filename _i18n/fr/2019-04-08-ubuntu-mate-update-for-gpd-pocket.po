@@ -1,0 +1,151 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-11 21:13+0100\n"
+"PO-Revision-Date: 2020-05-21 21:10+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:11
+msgid "title: Ubuntu MATE 18.04 and 19.04 for GPD Pocket & Pocket 2"
+msgstr "title: Ubuntu MATE 18.04 et 19.04 pour GPD Pocket & Pocket 2"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:20
+msgid ""
+"Back in October 2018 the Ubuntu MATE team released bespoke images of Ubuntu\n"
+"MATE 18.10 for the [GPD Pocket](https://www.gpd.hk/gpdpocket) and\n"
+"[GPD Pocket 2](https://www.gpd.hk/gpdpocket2) that included hardware "
+"specific\n"
+"tweaks to get these devices working *\"out of the box\"* without any "
+"faffing\n"
+"about. **Today we are releasing Ubuntu MATE 18.04.2 and Ubuntu MATE 19.04\n"
+"images for both devices**. Read on to find out more..."
+msgstr ""
+"En octobre 2018, l'équipe d'Ubuntu MATE a sorti des images sur mesure "
+"d'Ubuntu\n"
+"MATE 18.10 pour [GPD Pocket](https://www.gpd.hk/gpdpocket) et [GPD Pocket 2]"
+"(https://www.gpd.hk/gpdpocket2)\n"
+"qui comportent\n"
+"des ajustements spécifiques pour que ces appareils fonctionnent *\"clé en "
+"mains\"* sans perte de temps.\n"
+"**Aujourd'hui nous annonçons la sortie des images d'Ubuntu MATE 18.04.2 et "
+"d'Ubuntu MATE 19.04 pour\n"
+"ces deux appareils**.  Continuez de lire pour en savoir plus..."
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:24
+msgid ""
+"{:.center}\n"
+"![Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD "
+"Pocket 2 (right)](/images/blog/gpd-pockets-news.jpg)\n"
+"**Ubuntu MATE 18.04.2 running on the GPD Pocket (left) and 19.04 on the GPD "
+"Pocket 2 (right)**"
+msgstr ""
+"{:.center}\n"
+"![Ubuntu MATE 18.04.2 sur le GPD Pocket (à gauche) et 19.04 sur le GPD "
+"Pocket 2 (à droite)](/images/blog/gpd-pockets-news.jpg)\n"
+"**Ubuntu MATE 18.04.2 sur le GPD Pocket (à gauche) et 19.04 sur le GPD "
+"Pocket 2 (à droite)**"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:26
+msgid "# What's new?"
+msgstr "# Quoi de neuf ?"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:28
+msgid "## Ubuntu MATE 18.04.2"
+msgstr "## Ubuntu MATE 18.04.2"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:32
+msgid ""
+"Thanks to the recent hardware enablement stack upgrade in Ubuntu it is now\n"
+"possible to create images based on Ubuntu MATE 18.04.2 for the GPD Pocket "
+"and\n"
+"GPD Pocket 2. [These images are final and available to download now!](/"
+"download/)"
+msgstr ""
+"Grâce à la récente mise à niveau de la pie de fonctionnalités matérielles "
+"dans Ubuntu\n"
+"il est dorénavant possible de créer des images basées sur Ubuntu MATE "
+"18.04.2 pour le GPD Pocket  et le GPD Pocket 2. [Ces images sont en version "
+"finale et disponibles en téléchargement dès maintenant !](/download/)"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:34
+msgid "## Ubuntu MATE 19.04"
+msgstr "## Ubuntu MATE 19.04"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:39
+msgid ""
+"The Ubuntu MATE 19.04 release is just days away, so we have also prepared\n"
+"Ubuntu MATE 19.04 Beta images for both devices. [Also availble for download "
+"now](/download/)\n"
+"and you can simply collect updates to get from the beta to final release on\n"
+"April 18th 2019."
+msgstr ""
+"Nous sommes à quelques jours de la sortie d'Ubuntu MATE 19.04, donc nous "
+"avons \n"
+"aussi préparé des images d'Ubuntu MATE 19.04 Beta pour les deux appareils. "
+"[Aussi disponibles en téléchargement dès maintenant](/download/)\n"
+"et vous pourrez simplement installer les mises à jour pour passer de la "
+"version beta à la version finale\n"
+"le 18 Avril 2019."
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:41
+msgid "## Improvements"
+msgstr "## Améliorations"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:44
+msgid ""
+"Thanks to the feedback and contributions from the community, these are the\n"
+"improvement we've made since the Ubuntu MATE 18.10 images were created:"
+msgstr ""
+"Grâce aux commentaires et contributions de la communauté, \n"
+"ce sont \n"
+"les améliorations que nous avons faites depuis la création des images "
+"d'Ubuntu MATE 18.10:"
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:50
+msgid ""
+"  * Frame buffer and Xorg display rotation now works with `modesetting` and "
+"`xorg-video-intel` display drivers.\n"
+"  * Enabled **TearFree rendering by default**.\n"
+"  * Updated touch screen rotation to support Xorg and Wayland.\n"
+"  * Enabled an **emulated mouse scroll wheel**, activated by holding down "
+"the right track point button and moving the trackpoint up/down.\n"
+"  * **GRUB is now usable post-install** for both devices!"
+msgstr ""
+"* Le tampon de trame et la rotation de l'affichage Xorg fonctionne avec "
+"`modesetting` et les pilotes d'affichage `xorg-video-intel`.\n"
+"* Activé **rendu TearFree par défaut**.\n"
+"* Mis à jour la rotation de l'écran tactile pour prendre en charge Xorg et "
+"Wayland.\n"
+"* Activé une **molette émulée de défilement de la souris**, activée en "
+"maintenant le bouton droit du trackpoint et en déplaçant le trackpoint vers "
+"le haut/bas.\n"
+"* **GRUB est désormais utilisable après l'installation** Pour les deux "
+"appareils ! "
+
+#: _posts/2019-04-08-ubuntu-mate-update-for-gpd-pocket.md:57
+msgid ""
+"    title = \"More Details & Downloads\"\n"
+"    text = \"Find out more about Ubuntu MATE for the GPD Pocket and Pocket "
+"2. Get the downloads!\"\n"
+"    button_text = \"Details & Downloads\"\n"
+"    button_url = \"/ports/umpcs/\""
+msgstr ""
+"    title = \"Plus de Détails & Téléchargements\"\n"
+"    text = \"Apprenez-en plus à propos d'Ubuntu MATE pour les GPD Pocket et "
+"Pocket 2. Obtenez les téléchargements !\"\n"
+"    button_text = \"Plus de Détails & Téléchargements\"\n"
+"    button_url = \"/ports/umpcs/\""

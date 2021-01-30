@@ -1,0 +1,516 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-usbimage.md:9
+msgid "title: Preparing a USB Image"
+msgstr "title: Préparer une image USB"
+
+#: pages/faq-usbimage.md:13
+msgid "## What is bootable media?"
+msgstr "## Qu'est-ce qu'un média de démarrage ?"
+
+#: pages/faq-usbimage.md:18
+msgid ""
+"**So you want to try Ubuntu MATE from a USB drive or SD card?** Great! If "
+"you're\n"
+"new to the process, you might be wondering why you just can't copy the "
+"Ubuntu MATE\n"
+"image on to your media and be good to go. To run an operating system, you "
+"need\n"
+"to write the image to the drive in a way that allows your computer to boot "
+"from it."
+msgstr ""
+"**Alors vous voulez essayer Ubuntu MATE à partir d'une clé USB ou carte SD ?"
+"** Super ! Si c'est\n"
+"nouveau pour vous, vous devez vous demander pourquoi vous ne pouvez\n"
+"pas seulement copier l'image d'Ubuntu MATE sur votre média pour qu'il soit "
+"utilisable. Pour faire tourner un système d'exploitation, vous devez\n"
+"écrire l'image sur le disque de façon que l'ordinateur puisse démarrer "
+"dessus."
+
+#: pages/faq-usbimage.md:22
+msgid ""
+"To install and try Ubuntu MATE from a USB drive or SD card, you'll need "
+"media\n"
+"with at least 4 GB of memory and have\n"
+"[downloaded a compatible copy of Ubuntu MATE](/faq/downloads/) for your "
+"system."
+msgstr ""
+"Pour installer et essayer Ubuntu MATE à partir d'une clé USB ou d'une carte "
+"SD, vous aurez besoin\n"
+"d'un média avec au moins 4 GO de mémoire et et avoir téléchargé [une copie "
+"compatible d'Ubuntu MATE](/faq/downloads/) pour votre système. "
+
+#: pages/faq-usbimage.md:27
+msgid "## Instructions"
+msgstr "## Instructions"
+
+#: pages/faq-usbimage.md:29
+msgid "This applies to both USB and microSD cards."
+msgstr "Ceci s'applique tant aux clés USB qu'aux cartes microSD."
+
+#: pages/faq-usbimage.md:32
+msgid ""
+"If the downloaded file has a `.xz` extension, use [7-Zip](http://www.7-zip."
+"org/)\n"
+"to extract the `.img` file first."
+msgstr ""
+"Si votre fichier téléchargé a une extension `.xz`, utilisez [7-Zip](http://"
+"www.7-zip.org/)\n"
+"pour extraire le fichier `.img` en premier lieu."
+
+#: pages/faq-usbimage.md:36
+msgid "### Windows"
+msgstr "### Windows"
+
+#: pages/faq-usbimage.md:39
+msgid ""
+"1. Download the latest version of [balenaEtcher](https://www.balena.io/"
+"etcher/).\n"
+"Double-click on the downloaded file to install."
+msgstr ""
+"1. Téléchargez la dernière version de [balenaEtcher](https://www.balena.io/"
+"etcher/).\n"
+"Double-cliquez sur le fichier téléchargé pour installer."
+
+#: pages/faq-usbimage.md:41
+msgid "2. Run the **balenaEtcher** application."
+msgstr "2. Exécutez l'application **balenaEtcher**."
+
+#: pages/faq-usbimage.md:44
+msgid ""
+"3. Click on the **Select Image** button and choose the Ubuntu MATE `.iso` "
+"file\n"
+"you want to use."
+msgstr ""
+"3. Cliquez sur le bouton **Sélectionner l'Image** et choisissez le fichier `."
+"iso` d'Ubuntu MATE\n"
+"que vous désirez utiliser."
+
+#: pages/faq-usbimage.md:46
+msgid ""
+"    ![Screenshot of Etcher](/images/faq/bootable/Etcher-Select-Image.png)"
+msgstr ""
+"    ![Capture d'écran d'Etcher](/images/faq/bootable/Etcher-Select-Image.png)"
+
+#: pages/faq-usbimage.md:49
+msgid ""
+"4. Click the **Select Target** button and choose the appropriate USB device "
+"to\n"
+"write the .iso to."
+msgstr ""
+"4. Cliquez sur le bouton **Sélectionner la Cible** et choisissez la clé USB "
+"appropriée\n"
+"sur laquelle écrire l'image .iso."
+
+#: pages/faq-usbimage.md:51
+msgid ""
+"    ![Screenshot of Etcher](/images/faq/bootable/Etcher-Select-target.png)"
+msgstr ""
+"    ![Capture d'écran d'Etcher](/images/faq/bootable/Etcher-Select-target."
+"png)"
+
+#: pages/faq-usbimage.md:53
+msgid "5. Finally, click the **Flash!** button to begin the process."
+msgstr "5. Enfin, cliquez sur **Flasher !** pour commencer le processus."
+
+#: pages/faq-usbimage.md:55
+msgid "    ![Screenshot of Etcher](/images/faq/bootable/Etcher-Flash.png)"
+msgstr "    ![Capture d'écran d'Etcher](/images/faq/bootable/Etcher-Flash.png)"
+
+#: pages/faq-usbimage.md:57
+msgid "* It will show a progress bar as it operates."
+msgstr "* Une barre de progression s'affichera pendant l'opération."
+
+#: pages/faq-usbimage.md:59
+msgid "    ![Screenshot of Etcher](/images/faq/bootable/Etcher-running.png)"
+msgstr ""
+"    ![Capture d'écran d'Etcher](/images/faq/bootable/Etcher-running.png)"
+
+#: pages/faq-usbimage.md:61
+msgid "* Etcher will notify you when the process is complete."
+msgstr "* Etcher vous notifiera lorsque le processus sera terminé."
+
+#: pages/faq-usbimage.md:63
+msgid "    ![Screenshot of Etcher](/images/faq/bootable/Etcher-complete.png)"
+msgstr ""
+"    ![Capture d'écran d'Etcher](/images/faq/bootable/Etcher-complete.png)"
+
+#: pages/faq-usbimage.md:66
+msgid ""
+"* Please remove the USB drive and plug it into the system where you want to\n"
+"install Ubuntu MATE."
+msgstr ""
+"* Veuillez retirer la clé USB et l'insérer dans le système sur lequel\n"
+"vous voudriez installer Ubuntu MATE."
+
+#: pages/faq-usbimage.md:71
+msgid "### macOS"
+msgstr "### macOS"
+
+#: pages/faq-usbimage.md:75
+msgid ""
+"If you plan on writing *and* using your bootable USB on Mac hardware, "
+"you'll\n"
+"need to erase and reformat your memory stick using Apple's *Disk Utility*,\n"
+"which you can launch from **Applications > Utilities** or the search "
+"function."
+msgstr ""
+"Si vous avez l'intention d'écrire *et* utiliser la clé USB amorçable sur du "
+"matériel Mac,\n"
+"vous aurez\n"
+"besoin d'effacer et de formater votre clé USB en utilisant `Utilitaire des "
+"Disques` d'Apple\n"
+"que vous pouvez lancer à partir d'**Applications > Utilitaires** ou de la "
+"fonction recherche."
+
+#: pages/faq-usbimage.md:83
+msgid ""
+"1. After launching *Disk Utility*, insert your USB stick, which will then "
+"appear.\n"
+"  * If it does not, check **View > Show All Devices** from the menu bar.\n"
+"1. Select the USB stick, and select `Erase` from the tool bar or right-click "
+"menu.\n"
+"1. Select the `MS-DOS (FAT)` format and `GUID Partition Map` from the "
+"respective\n"
+"drop-down menus.\n"
+"1. Check (and double check - you **can lose data if you select the wrong "
+"device\n"
+"or partition**) that you've chosen the target USB stick and click `Erase`."
+msgstr ""
+"1. Après avoir lancé *Utilitaires de Disques*, insérez votre clé USB, qui "
+"apparaîtra alors.\n"
+"  * Si ce n'est pas le cas, vérifiez dans **Affichage > Montrer Tous Les "
+"Périphériques** à partir de la barre de menu.\n"
+"1. Sélectionnez la clé USB, puis sélectionnez `Effacer` dans la barre "
+"d'outils ou le menu du clic droit.\n"
+"1. Sélectionnez le format `MS-DOS (FAT)`  et `Table de Partition GUID` dans "
+"les menus\n"
+"déroulants respectifs.\n"
+"1. Vérifiez (par deux fois - vous pouvez **perdre vos données si vous "
+"sélectionnez le mauvais disque ou la mauvaise\n"
+"partition**) que vous avez choisi la clé USB cible et cliquez sur `Effacer`."
+
+#: pages/faq-usbimage.md:85
+msgid ""
+"    ![Screenshot of Disk Utility](/images/faq/bootable/disk-utility.png)"
+msgstr ""
+"    ![Capture d'écran de l'Utilitaire des Disques](/images/faq/bootable/disk-"
+"utility.png)"
+
+#: pages/faq-usbimage.md:91
+msgid ""
+"1. Download and install [Etcher](https://www.balena.io/etcher/), an open "
+"source\n"
+"project that flashes ISOs to SD cards and USB drives.\n"
+"1. If necessary, open the 'Security and Privacy' section in System "
+"Preferences\n"
+"and allow apps downloaded from 'App Store and identified developers.' If "
+"this\n"
+"still does not allow you to run Etcher, click 'Open Anyway.'"
+msgstr ""
+"1. Téléchargez et installez [Etcher](https://www.balena.io/etcher/), un "
+"projet open source\n"
+"qui flashe des ISOs sur des cartes SD et des clés USB.\n"
+"1. Si nécessaire, ouvrez la section 'Sécurité et Confidentialité' dans les "
+"Préférences Systèmes\n"
+"et autorisez les applications téléchargées sur l' 'App Store et les "
+"développeurs identifiés.' Si cela\n"
+"ne vous permet toujours pas de lancer Etcher, cliquez sur 'Ouvrir Malgré "
+"Tout.'"
+
+#: pages/faq-usbimage.md:93
+msgid "    ![Screenshot of Etcher](/images/faq/bootable/open-etcher.png)"
+msgstr "    ![Capture d'écran d'Etcher](/images/faq/bootable/open-etcher.png)"
+
+#: pages/faq-usbimage.md:103
+msgid ""
+"1. Select the previously downloaded Ubuntu MATE ISO (which, by default, is "
+"in\n"
+"your Downloads folder) using **Select Image**.\n"
+"1. Confirm **Select Target** is pointing to the intended USB drive, and if "
+"not,\n"
+"choose the appropriate device.\n"
+"1. Click **Flash!** to write the ISO to your USB drive. Etcher will prompt "
+"you\n"
+"for your password. Etcher will display its progress, and inform you when "
+"the\n"
+"process has successfully completed with the image below.\n"
+"1. If macOS informs you 'The disk you inserted is not readable by this "
+"computer,'\n"
+" select **Eject**, not **Initialise**"
+msgstr ""
+"1. Sélectionnez l'image ISO d'Ubuntu MATE préalablement téléchargée (qui par "
+"défaut, se trouve dans \n"
+"votre dossier Téléchargements) en utilisant **Sélectionner l'Image**.\n"
+"1. Confirmez que **Sélectionner la Cible** pointe bien vers la clé USB "
+"voulue et si ce n'est pas le cas,\n"
+"choisissez le périphérique approprié.\n"
+"1. Cliquez sur **Flasher !** pour écrire l'image ISO sur votre clé USB. "
+"Etcher vous\n"
+"demandera votre mot de passe. Etcher affichera la progression et vous "
+"informera quand\n"
+"le processus sera terminé avec succès avec l'image ci-dessous.\n"
+"1 Si macOS vous informe que 'Le disque que vous avez inséré n'est pas "
+"lisible sur cet ordinateur'\n"
+"sélectionnez **Éjecter** et non **Initialiser**."
+
+#: pages/faq-usbimage.md:105
+msgid ""
+"    ![Screenshot of Mac's unreadable disk message](/images/faq/bootable/disk-"
+"not-readable.png)"
+msgstr ""
+"    ![Capture d'écran sur Mac du message de disque illisible](/images/faq/"
+"bootable/disk-not-readable.png)"
+
+#: pages/faq-usbimage.md:110
+msgid ""
+"1. To use your bootable media on a Mac device, insert the USB stick and "
+"restart\n"
+"or turn on the device while holding the option/alt key to launch Startup\n"
+"Manager. Click on the gold disk labeled 'EFI Boot,' which will bring you to\n"
+"the Ubuntu boot menu."
+msgstr ""
+"1. Pour utiliser votre média amorçable sur un appareil Mac, insérez la clé "
+"USB et redémarrez\n"
+"ou allumez l'appareil en maintenant la touche option/alt pour lancer le "
+"Gestionnaire de\n"
+"Démarrage. Cliquez sur le disque doré étiqueté 'EFI Boot,' qui vous mènera "
+"au\n"
+"menu de démarrage Ubuntu."
+
+#: pages/faq-usbimage.md:112
+msgid ""
+"If you cannot boot from the USB drive on your Mac, try [burning a DVD]"
+"(https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-windows)."
+msgstr ""
+"Si vous ne pouvez pas démarrer sur la clé USB sur votre Mac, essayez de "
+"[graver un DVD](https://ubuntu.com/tutorials/tutorial-burn-a-dvd-on-"
+"windows). "
+
+#: pages/faq-usbimage.md:117
+msgid "### GNU/Linux"
+msgstr "### GNU/Linux"
+
+#: pages/faq-usbimage.md:120
+msgid ""
+"There are several apps and utilities for writing an ISO to a USB drive or a\n"
+"microSDHC in GNU/Linux, but we prefer `ddrescue` (from the [gddrescue](apt://"
+"gddrescue) package)."
+msgstr ""
+"Il y a plusieurs apps et utilitaires pour écrire une image ISO sur une clé "
+"USB ou une \n"
+"carte microSDHC sous GNU/Linux, mais nous préférons `ddrescue` (du paquet "
+"[gddrescue](apt://gddrescue))."
+
+#: pages/faq-usbimage.md:124
+msgid ""
+"The image can be directly written to a microSDHC or to a USB drive using an\n"
+"utility like `dd`, but we prefer `ddrescue` (from the\n"
+"[gddrescue](apt://gddrescue) package)."
+msgstr ""
+"L'image peut être écrite directement sur une carte microSDHC ou sur le clé "
+"usb en utilisant\n"
+"un\n"
+"utilitaire comme `dd`, mais nous préférons `ddrescue` (du paquet [gddrescue]"
+"(apt://gddrescue))."
+
+#: pages/faq-usbimage.md:126
+msgid "On a Debian-based system, like Ubuntu MATE, run:"
+msgstr "Sur un système basé sur Debian, tel Ubuntu MATE, exécutez:"
+
+#: pages/faq-usbimage.md:129
+msgid ""
+"    sudo apt update\n"
+"    sudo apt install gddrescue"
+msgstr ""
+"    sudo apt update\n"
+"    sudo apt install gddrescue"
+
+#: pages/faq-usbimage.md:132
+msgid ""
+"To find the block device name of your USB or microSDHC device, to see all "
+"your\n"
+"connected devices:"
+msgstr ""
+"Afin de trouver le nom de périphérique bloc de votre clé USB ou de votre "
+"carte microSDHC, pour voir tous vos\n"
+"appareils connectés:"
+
+#: pages/faq-usbimage.md:134
+msgid "    sudo fdisk -l"
+msgstr "    sudo fdisk -l"
+
+#: pages/faq-usbimage.md:138
+msgid ""
+"For example, in the image below, the USB drive is `/dev/sdb1/`. Checking "
+"the\n"
+"name of your device is a key step, as **writing to the wrong device might "
+"corrupt\n"
+"or destroy your data**."
+msgstr ""
+"Par exemple, dans l'image ci-dessous, la clé USB est `/dev/sdb1/`. Vérifiez\n"
+"le\n"
+"nom de votre appareil est une étape cruciale, car **écrire sur le mauvais "
+"appareil pourrait \n"
+"corrompre ou détruire vos données**."
+
+#: pages/faq-usbimage.md:140
+msgid ""
+"![Screenshot of fdisk command in terminal](/images/faq/bootable/fdisk-l.png)"
+msgstr ""
+"![Capture d'écran de la commande fdisk dans le terminal](/images/faq/"
+"bootable/fdisk-l.png)"
+
+#: pages/faq-usbimage.md:144
+msgid ""
+"Once you've confirmed you have the correct block device, enter the "
+"following\n"
+"command replacing `path/to/iso` and `sdx` with the path to the iso file and\n"
+"block device name of your USB drive or microSDHC."
+msgstr ""
+"Une fois que vous avez confirmé que vous avez le bon périphérique bloc, "
+"entrez\n"
+"les commandes suivantes en remplaçant `path/to/iso` et `sdx` avec le chemin "
+"vers le fichier iso\n"
+"et le nom de périphérique bloc de votre clé USB ou carte microSDHC."
+
+#: pages/faq-usbimage.md:146
+msgid "    sudo ddrescue --force -D path/to/iso /dev/sdx"
+msgstr "    sudo ddrescue --force -D path/to/iso /dev/sdx"
+
+#: pages/faq-usbimage.md:151
+msgid "### Ubuntu/Ubuntu MATE"
+msgstr "### Ubuntu/Ubuntu MATE"
+
+#: pages/faq-usbimage.md:154
+msgid ""
+"[GNOME Disks](apt://gnome-disk-utility) comes pre-installed on Ubuntu 16.04 "
+"and\n"
+"later. This is an easy way to create a bootable USB drive."
+msgstr ""
+"[GNOME Disques](apt://gnome-disk-utility) est pré-installé sur Ubuntu à "
+"partir de la version 16.04.\n"
+"C'est une méthode facile pour créer des clés USB de démarrage."
+
+#: pages/faq-usbimage.md:156
+msgid ""
+"If **Disks** is not present on your system, you can install it from the "
+"terminal:"
+msgstr ""
+"Si **Disques** n'est pas présent sur votre système, vous pouvez l'installer "
+"à partir du terminal:"
+
+#: pages/faq-usbimage.md:158
+msgid "    sudo apt-get install gnome-disk-utility"
+msgstr "    sudo apt-get install gnome-disk-utility"
+
+#: pages/faq-usbimage.md:163
+msgid ""
+"1. Download your chosen Ubuntu MATE image, keep note of the location, and "
+"insert\n"
+"your USB drive. Be sure it's visible in File Manager/Caja. Remember this "
+"process\n"
+"will format your USB drive and **erase all existing data**, so be sure "
+"you've\n"
+"backed it up."
+msgstr ""
+"1. Téléchargez l'image d'Ubuntu MATE choisie, gardez à l'esprit l'endroit où "
+"elle est stockée et insérez\n"
+"votre clé USB. Assurez-vous qu'elle soit visible dans le Gestionnaire de "
+"Fichiers/Caja. Rappelez-vous que ce processus\n"
+"formatera votre clé USB et **effacera toutes les données existantes*, alors "
+"soyez sûr\n"
+"d'avoir effectué une sauvegarde."
+
+#: pages/faq-usbimage.md:165
+msgid ""
+"1. Right-click on the ISO file, and select \"Open with Disk Image Writer.\""
+msgstr ""
+"1. Faites un clic droit sur le fichier ISO et sélectionnez \"Ouvrir avec "
+"l'Enregistreur d'Image Disque.\""
+
+#: pages/faq-usbimage.md:167
+msgid ""
+"    ![Right clicking an ISO file](/images/faq/bootable/"
+"gnome_disks_right_click.png)"
+msgstr ""
+"    ![Clic droit sur un fichier ISO](/images/faq/bootable/"
+"gnome_disks_right_click.png)"
+
+#: pages/faq-usbimage.md:169
+msgid "1. Select your USB drive in the \"Destination\" drop-down menu."
+msgstr "1. Sélectionnez votre clé USB dans le menu déroulant \"Destination\"."
+
+#: pages/faq-usbimage.md:171
+msgid ""
+"    ![Screenshot of restore disk image prompt](/images/faq/bootable/"
+"gnome_disks_start_restoring.png)"
+msgstr ""
+"    ![Capture d'écran du message de restauration de l'image disque](/images/"
+"faq/bootable/gnome_disks_start_restoring.png)"
+
+#: pages/faq-usbimage.md:174
+msgid ""
+"1. Click \"Start Restoring.\" When it asks if you're sure you want to write "
+"the\n"
+"disk image to the device, click \"Restore.\""
+msgstr ""
+"1. Cliquez sur \"Commencez la Restauration.\" Quand il vous demande si vous "
+"êtes sûr de vouloir écrire\n"
+"l'image disque sur le périphérique, cliquez sur \"Restaurer.\""
+
+#: pages/faq-usbimage.md:176
+msgid ""
+"    ![Screenshot of GNOME Disks confirming action](/images/faq/bootable/"
+"gnome_disks_are_you_sure.png)"
+msgstr ""
+"    ![Capture d'écran de Gnomes Disques confirmant l'action](/images/faq/"
+"bootable/gnome_disks_are_you_sure.png)"
+
+#: pages/faq-usbimage.md:178
+msgid ""
+"1. You may be asked for your password for authentication. Enter it and click "
+"\"Authenticate.\""
+msgstr ""
+"1. Votre mot de passe pourra vous être demandé pour l'authentification. "
+"Entrez-le et cliquez sur \"Authentifier.\""
+
+#: pages/faq-usbimage.md:181
+msgid ""
+"1. GNOME Disks will begin writing the image, showing its progress and an\n"
+"estimated time."
+msgstr ""
+"1. GNOME Disques commencera à écrire l'image, affichant la progression et\n"
+"une estimation de la durée."
+
+#: pages/faq-usbimage.md:183
+msgid ""
+"    ![Screenshot of GNOME Disks writing data](/images/faq/bootable/"
+"gnome_disks_in_progress.png)"
+msgstr ""
+"    ![Capture d'écran de GNOME Disques écrivant des données](/images/faq/"
+"bootable/gnome_disks_in_progress.png)"
+
+#: pages/faq-usbimage.md:184
+msgid "When complete, eject (or power off) the disk before removing."
+msgstr ""
+"Quand c'est terminé, éjectez (ou éteignez) le disque avant de le retirer."

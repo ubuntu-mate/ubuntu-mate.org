@@ -1,0 +1,145 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-07-22 17:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/support.md:9
+msgid ""
+"title: Support\n"
+"---"
+msgstr ""
+"title: Support\n"
+"---"
+
+#: pages/support.md:11
+msgid "## Community Support"
+msgstr "## Support de la Communauté"
+
+#: pages/support.md:18
+msgid ""
+"If you need help, we encourage you to join fellow users in the\n"
+"[Ubuntu MATE Community](https://ubuntu-mate.community/). If this is your\n"
+"first time, you'll need to create a new account using the **Sign Up**\n"
+"button in the upper right hand corner. Once you have an account, post\n"
+"your issue in [Support and Help Requests](https://ubuntu-mate.community/c/"
+"support/10). Be detailed with\n"
+"your description of the problem and be excellent to each other."
+msgstr ""
+"Si vous avez besoin d'aide, nous vous encourageons à rejoindre les\n"
+"autres utilisateurs dans la [Communauté Ubuntu MATE](https://ubuntu-mate."
+"community/). Si c'est votre première fois, vous aurez besoin de créer un "
+"nouveau compte en utilisant le bouton **S'inscrire** dans le coin en\n"
+"haut à droite. Une fois que vous disposez d'un compte, postez votre problème "
+"dans [Requêtes de Support et d'Aide](https://ubuntu-mate.community/c/"
+"support/10). Décrivez précisément\n"
+"votre problème et soyez excellents les uns avec les autres."
+
+#: pages/support.md:20
+msgid "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
+msgstr "[ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}"
+
+#: pages/support.md:23
+msgid "## Official Guide"
+msgstr "## Guide Officiel"
+
+#: pages/support.md:27
+msgid ""
+"If this is your first time using Ubuntu MATE, we have an official guide \n"
+"to assist you on your journey. It's also pre-installed under the \n"
+"**Accessories** menu (for full installations)."
+msgstr ""
+"S'il s'agit de votre première fois en tant qu'utilisateur d'Ubuntu MATE,\n"
+"nous avons un guide officiel pour vous assister dans votre aventure. Il est "
+"également pré-installé dans le menu **Accessoires** (pour les installations "
+"complètes)."
+
+#: pages/support.md:30
+msgid ""
+"[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
+"[Shop Books](/shop/books/){:.btn}"
+msgstr ""
+"[guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}\n"
+"[Shop Books](/shop/books/){:.btn}"
+
+#: pages/support.md:33
+msgid "## Other Resources"
+msgstr "## Autres Ressources"
+
+#: pages/support.md:36
+msgid ""
+"While these sites aren't specific to Ubuntu MATE, they can still help\n"
+"you find a solution as we have a lot in common with the wider Ubuntu "
+"community."
+msgstr ""
+"Bien que ces sites ne soient pas spécifiques à Ubuntu MATE, ils peuvent\n"
+"toujours vous aider à trouver une solution comme nous avons beaucoup en "
+"commun avec la large communauté Ubuntu."
+
+#: pages/support.md:40
+msgid ""
+"For the best results, make sure your report includes what you\n"
+"were doing when you had the problem, steps to reproduce and hardware "
+"specifications\n"
+"to help the people who will help you."
+msgstr ""
+"Pour obtenir de meilleurs résultats, assurez-vous que votre rapport\n"
+"comprend ce que vous étiez en train de faire lorsque le problème s'est "
+"produit, les étapes pour le reproduire ainsi que votre configuration "
+"matérielle\n"
+"afin d'aider les gens qui vous aideront."
+
+#: pages/support.md:43
+msgid ""
+"[Ask Ubuntu](https://askubuntu.com){:.btn}\n"
+"[Launchpad Answers](https://answers.launchpad.net/){:.btn}"
+msgstr ""
+"[Ask Ubuntu](https://askubuntu.com){:.btn}\n"
+"[Launchpad Answers](https://answers.launchpad.net/){:.btn}"
+
+#: pages/support.md:45
+msgid "## Known Issues"
+msgstr "## Problèmes Connus"
+
+#: pages/support.md:47
+msgid ""
+"Here's a list of issues we have noted that may degrade your retrospective "
+"experience."
+msgstr ""
+"Voici une liste des problèmes dont nous sommes au courant qui pourraient "
+"entacher votre expérience rétrospective."
+
+#: pages/support.md:51
+msgid "For a complete listing of Ubuntu MATE Bugs:"
+msgstr "Pour une liste complète des Bugs d'Ubuntu MATE:"
+
+#: pages/support.md:53
+msgid ""
+"[Ubuntu MATE Bugs on Launchpad](https://bugs.launchpad.net/ubuntu-mate){:."
+"btn .green}"
+msgstr ""
+"[Bugs d'Ubuntu MATE sur Launchpad](https://bugs.launchpad.net/ubuntu-mate){:."
+"btn .green}"
+
+#: pages/support.md:54
+msgid ""
+"To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/"
+"bug-triage/) under [Get Involved](/get-involved/)."
+msgstr ""
+"Pour apprendre à rapporter un bug, allez sur [Rapport et Triage de Bugs](/"
+"get-involved/bug-triage/) sous [Soyez Impliqués](/get-involved/)."

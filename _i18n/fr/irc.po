@@ -1,0 +1,54 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/irc.md:7
+msgid "title: IRC"
+msgstr "title: IRC"
+
+#: pages/irc.md:13
+msgid ""
+"You can use your IRC web client to jump into our `#ubuntu-mate` channel on\n"
+"[Freenode](https://freenode.net/).\n"
+"Come and say hello! :wave:"
+msgstr ""
+"Vous pouvez utiliser votre client web IRC pour nous joindre sur notre salon "
+"`#ubuntu-mate` \n"
+"sur [Freenode](https://freenode.net/).\n"
+"Passez nous faire coucou ! :wave:"
+
+#: pages/irc.md:16
+msgid ""
+"If you need an IRC client, [**Hexchat**](https://hexchat.github.io/) is a "
+"popular\n"
+"cross-platform client."
+msgstr ""
+"Si vous avez besoin d'un client IRC, [**Hexchat**](https://hexchat.github."
+"io/) est un client\n"
+"populaire multi-plateformes."
+
+#: pages/irc.md:18
+msgid ""
+"For support, you'll likely find your questions are best answered by\n"
+"browsing and joining our [Community forum](https://ubuntu-mate.community/)."
+msgstr ""
+"Pour du support, vous trouverez probablement les meilleures réponses à vos "
+"questions en parcourant et rejoignant notre [Forum de la communauté](https://"
+"ubuntu-mate.community/)."

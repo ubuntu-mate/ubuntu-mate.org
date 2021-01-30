@@ -1,0 +1,217 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.0.0\n"
+
+#: pages/faq-downloads.md:9
+msgid "title: Download Help"
+msgstr "title: Aide au Téléchargement"
+
+#: pages/faq-downloads.md:13
+msgid "# What should I download?"
+msgstr "# Que devrais-je télécharger ?"
+
+#: pages/faq-downloads.md:15
+msgid "This page aims to address common questions for new users."
+msgstr ""
+"L'objectif de cette page est de répondre aux questions communes des nouveaux "
+"utilisateurs."
+
+#: pages/faq-downloads.md:19
+msgid "## Which architecture?"
+msgstr "## Quelle architecture ?"
+
+#: pages/faq-downloads.md:24
+msgid ""
+"* **amd64** is for a desktop or laptop computer built around 2005 and "
+"later.\n"
+"While the name may suggest otherwise, this supports both AMD and Intel "
+"processors\n"
+"capable of 64-bit instructions, BIOS and UEFI motherboards\n"
+"as well as PC/Mac computers."
+msgstr ""
+"* **amd64** est à destination d'un ordinateur fixe ou portable fabriqué vers "
+"2005 ou plus récemment.\n"
+"Bien que le nom suggère le contraire, ceci supporte aussi bien les "
+"processeurs AMD qu'Intel\n"
+"capables d'exécuter des instructions 64-bit , BIOS et cartes mères UEFI \n"
+"ainsi que les ordinateurs PC/Mac."
+
+#: pages/faq-downloads.md:27
+msgid ""
+"* **i386** has been discontinued and will no longer receive updates after "
+"April 2021.\n"
+"This one runs on any 32-bit PC or Intel Mac."
+msgstr ""
+"* **i386** a été abandonnée et ne recevra plus de mises à jour après avril "
+"2021.\n"
+"Elle s'exécute sur tout PC 32-bit ou Mac Intel."
+
+#: pages/faq-downloads.md:30
+msgid ""
+"* **armhf** is for the Raspberry Pi and other compatible microcomputers.\n"
+"This one is 32-bit, but is recommended."
+msgstr ""
+"* **armhf** est à destination du Raspberry Pi et d'autres micro-ordinateurs "
+"compatibles.\n"
+"Celle-ci est 32-bit, mais recommandée."
+
+#: pages/faq-downloads.md:33
+msgid ""
+"* **arm64** is the 64-bit version ideal for users that intend to run "
+"complex\n"
+"applications that will benefit from a 64-bit instruction set."
+msgstr ""
+"* **arm64** est la version 64-bit idéale pour les utilisateurs ayant "
+"l'intention d'exécuter des applications\n"
+"complexes qui tireront bénéfice du jeu d'instructions 64-bit."
+
+#: pages/faq-downloads.md:35
+msgid "**Historic**"
+msgstr "**Historique**"
+
+#: pages/faq-downloads.md:38
+msgid ""
+"* **powerpc** is for non-Intel Macs before 2006 and compatible IBM PowerPC\n"
+"machines. New downloads for these are no longer available."
+msgstr ""
+"* **powerpc** est pour les Macs non-Intel d'avant 2006 et les machines "
+"compatibles IBM PowerPC.\n"
+"Les nouveaux téléchargements pour ceux-ci ne sont plus disponibles."
+
+#: pages/faq-downloads.md:40
+msgid "**Ubuntu MATE Exclusive**"
+msgstr "**Exclusif à Ubuntu MATE**"
+
+#: pages/faq-downloads.md:44
+msgid ""
+"* If you have an ultra mobile PC (UMPC), like certain GPD branded\n"
+"  models or a Topjoy Falcon, we have builds designed specifically for that\n"
+"  hardware."
+msgstr ""
+"* Si vous possédez un PC ultra mobile (UMPC), comme certains modèles de "
+"marque GPD \n"
+"  ou un Topjoy Falcon, nous avons des versions spécialement conçues pour ce\n"
+"  matériel."
+
+#: pages/faq-downloads.md:46
+msgid "  More details can be [found on our UMPC page](/ports/umpcs/)."
+msgstr ""
+"Plus de détails peuvent être [trouvés sur notre page UMPC](/ports/umpcs/)."
+
+#: pages/faq-downloads.md:49
+msgid "## Which release?"
+msgstr "## Quelle version ?"
+
+#: pages/faq-downloads.md:52
+msgid ""
+"* Choose an **LTS** (Long Term Release) if you prefer **stability**. These "
+"are supported for\n"
+"**3 years** with a new upgrade available every **2 years**."
+msgstr ""
+"* Choisissez une version **LTS** (Long Term Release) si vous préférez la "
+"**stabilité**. Elles disposent d'un support de\n"
+"**3 ans** avec une nouvelle mise à niveau tous les **2 ans**."
+
+#: pages/faq-downloads.md:56
+msgid ""
+"* Choose a **non-LTS** (interim) release if you like the **latest "
+"features**.\n"
+"These are released more frequently (every 6 months) but are only supported "
+"for\n"
+"9 months."
+msgstr ""
+"* Choisissez une version **non-LTS** (intermédiaire) si vous aimez les "
+"**dernières fonctionnalités**.\n"
+"Elles sortent plus fréquemment (tous les 6 mois) mais ne disposent que d'un "
+"support de\n"
+"9 mois."
+
+#: pages/faq-downloads.md:60
+msgid ""
+"Both releases equally receive security updates provided by the Ubuntu team.\n"
+"You may upgrade from an LTS to a non-LTS releases by changing your "
+"preferences in\n"
+"the **Software & Updates** application."
+msgstr ""
+"Les deux versions reçoivent autant de mises à jour de sécurité fournies par "
+"l'équipe Ubuntu.\n"
+"Vous pouvez mettre à niveau une version LTS vers une version non-LTS en "
+"changeant vos préférences dans l'application\n"
+"**Logiciels & Mises à Jour**."
+
+#: pages/faq-downloads.md:63
+msgid "## Which download method?"
+msgstr "## Quelle méthode de téléchargement ?"
+
+#: pages/faq-downloads.md:65
+msgid "### BitTorrent"
+msgstr "### BitTorrent"
+
+#: pages/faq-downloads.md:69
+msgid ""
+"Instead of downloading from one source, BitTorrent retrieves and verifies "
+"the\n"
+"file from many computers. This can help save bandwidth costs for the host, "
+"be\n"
+"paused/resumed and in many cases achieve faster download speeds."
+msgstr ""
+"Au lieu de télécharger à partir d'une seule source, BitTorrent récupère et "
+"vérifie \n"
+"le fichier à partir de nombreux ordinateurs. Cela peut aider à économiser "
+"des frais de bande passante pour l'hébergeur,\n"
+"être pausé/continué et dans bien des situations atteindre des vitesses de "
+"téléchargement supérieures."
+
+#: pages/faq-downloads.md:72
+msgid ""
+"If you already have a BitTorrent client installed, a **magnet link** will\n"
+"open it automatically."
+msgstr ""
+"Si vous disposez déjà d'un client BitTorrent installé, un **lien magnet**\n"
+"s'ouvrira automatiquement."
+
+#: pages/faq-downloads.md:75
+msgid "### Direct Download"
+msgstr "### Téléchargement Direct"
+
+#: pages/faq-downloads.md:79
+msgid ""
+"This is your standard download straight from the server to your browser "
+"(over\n"
+"HTTP/S). It is [recommended to verify the download](/faq/verify-download-"
+"quick/)\n"
+"using the provided checksum afterwards to be sure it was downloaded in one "
+"piece."
+msgstr ""
+"C'est votre téléchargement standard à partir du serveur, vers votre "
+"navigateur \n"
+"(en HTTP/S). Il est [recommandé de vérifier le téléchargement](/faq/verify-"
+"download-quick/)\n"
+"en utilisant la somme de contrôle fournie quand le téléchargement est "
+"terminé pour être sûr qu'il soit arrivé en un seul morceau."
+
+#: pages/faq-downloads.md:82
+msgid "## Can I order a disc or USB drive?"
+msgstr "## Puis-je commander un DVD ou une clé USB ?"
+
+#: pages/faq-downloads.md:83
+msgid "Unfortunately, we do not have any suppliers to provide this service."
+msgstr ""
+"Malheureusement, nous ne disposons pas de fournisseurs assurant ce service."
