@@ -25,8 +25,8 @@ markdown: kramdown
 # Plugins
 plugins:
     - jekyll-feed
+    - jekyll-last-modified-at
     - jemoji
-    - jekyll-sitemap
 
 feed:
     path: rss.xml

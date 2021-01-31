@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  {% assign pages = site.html_pages | concat: site.posts %}
+  {% for page in pages %}
+
+    {% if page.layout == "redirect" %}{% continue %}{% endif %}
+    {% if page.layout == "null" %}{% continue %}{% endif %}
+    {% if page.layout == "error-serious" %}{% continue %}{% endif %}
+    {% if page.name == "rss.xml" %}{% continue %}{% endif %}
+
+    {% assign start_of_permalink = page.permalink | slice: 0,3 %}
+    {% if start_of_permalink == "/40" %}{% continue %}{% endif %}
+    {% if start_of_permalink == "/50" %}{% continue %}{% endif %}
+
+    <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date: '%Y-%m-%d' }}</lastmod>
+        {% for lang in site.languages %}
+            {% if lang == "en" %}{% continue %}{% endif %}
+            <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.url }}"/>
+        {% endfor %}
+    </url>
+  {% endfor %}
+
+</urlset>

@@ -51,15 +51,15 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-last-modified-at (1.3.0)
+      jekyll (>= 3.7, < 5.0)
+      posix-spawn (~> 0.3.9)
     jekyll-polyglot (1.3.3)
       jekyll (>= 3.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-sitemap (1.4.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll-webp (1.0.0)
     jemoji (0.12.0)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
@@ -83,6 +83,7 @@ GEM
     parallel (1.20.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    posix-spawn (0.3.15)
     public_suffix (4.0.6)
     racc (1.5.2)
     rainbow (3.0.0)
@@ -112,9 +113,8 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-feed
+  jekyll-last-modified-at
   jekyll-polyglot
-  jekyll-sitemap
-  jekyll-webp
   jemoji
 
 BUNDLED WITH

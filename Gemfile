@@ -9,13 +9,14 @@ group :jekyll_plugins do
 
     # i18n Support
     gem "jekyll-polyglot"
+
+    # Get modification date of pages
+    # https://github.com/gjtorikian/jekyll-last-modified-at
+    gem "jekyll-last-modified-at"
 end
 
 # Emojis
 gem "jemoji"
-
-# Sitemap
-gem "jekyll-sitemap"
 
 # External Testing
 gem "html-proofer"
