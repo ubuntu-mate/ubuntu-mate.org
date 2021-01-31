@@ -33,7 +33,7 @@ jobs:
 
     - name: Build Website
       run: |
-        scripts/build.sh --magnet-uri --webp
+        scripts/build.sh --magnet-uri
 
     - name: Proofing
       run: |
@@ -46,6 +46,10 @@ jobs:
     - name: Proofing with locales
       run: |
         scripts/test.sh
+
+    - name: Generate WebP images
+      run: |
+        scripts/helpers/generate-webp.sh
 
     - name: Deploy to server
       if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate.org' }}
