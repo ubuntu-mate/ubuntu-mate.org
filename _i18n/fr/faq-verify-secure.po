@@ -75,7 +75,7 @@ msgstr "* <https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows>"
 #: pages/faq-verify-secure.md:35
 msgctxt "pages/faq-verify-secure.md:35"
 msgid "Once installed, jump to the [steps](#steps) section."
-msgstr "Une fois installé, allez à la section [étapes](#steps)."
+msgstr "Une fois installé, allez à la section [étapes](#étapes)."
 
 #: pages/faq-verify-secure.md:38
 msgid "### macOS"
@@ -112,7 +112,7 @@ msgstr ""
 #: pages/faq-verify-secure.md:50
 msgctxt "pages/faq-verify-secure.md:50"
 msgid "Once installed, jump to the [steps](#steps) section."
-msgstr "Une fois installé, allez à la section [étapes](#steps)."
+msgstr "Une fois installé, allez à la section [étapes](#étapes)."
 
 #: pages/faq-verify-secure.md:53
 msgid "### GNU/Linux"
