@@ -14,6 +14,8 @@ do
             generate_magnet_uri=true;;
         "--locales")
             generate_locales=true;;
+        "--webp")
+            generate_webp=true;;
     esac
     shift
 done
@@ -67,10 +69,18 @@ if [ ! -d _site ]; then
     exit 1
 fi
 
+# Generate WebP files
+if [ "$generate_webp" == "true" ]; then
+    echo -e "\nGenerate WebP Images"
+    echo "------------------------------------------------------"
+    ./scripts/helpers/generate-webp.sh
+    abort_if_failed $?
+fi
+
 # Due to a RegexpError in jekyll-polyglot, the wildcard doesn't work in _config.yml.
 # Externally delete source files not desired in the build output.
 cd _site/
-find . -name "*.xcf" -delete
+find . -name "*.xcf*" -delete
 
 # WORKAROUND: Jekyll doesn't return exit code != 0 on a liquid exception, that
 # may cause the build to be empty. Ensure the build fails if there are no HTML files.

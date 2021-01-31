@@ -325,10 +325,16 @@ Markdown:
 ![alt text](/images/folder/image.png)
 ````
 
-Currently, only the **Features** page supports @2x images for HiDPI displays. The website
-will however, automatically optimise the image's compression efficency by creating a
-WebP version of the image. The server should be configured to serve this asset where
-available.
+**HiDPI Displays**
+
+* Currently, only the **Features** page supports @2x images for HiDPI displays.
+
+**WebP Support**
+
+* The published website will automatically optimise the image's compression
+efficency by creating a WebP version of the image. The server is configured to
+serve this asset in-place of existing image files were available.
+* Some templates in the code use the `<picture>` tag to reference the WebP.
 
 SVGs that are used on buttons and styling may be placed in `_includes/images/` instead,
 which appends SVG directly into the page for manipulation through styling.

@@ -27,15 +27,23 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install ruby ruby-dev ruby-bundler make gcc
-        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib
+        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib webp
         bundle config path vendor/bundle
         bundle install --jobs=4
 
-    - name: Build Localized Website
+    - name: Build Website
       run: |
-        scripts/build.sh --magnet-uri --locales
+        scripts/build.sh --magnet-uri --webp
 
     - name: Proofing
+      run: |
+        scripts/test.sh
+
+    - name: Build Website with locales
+      run: |
+        scripts/build.sh --locales
+
+    - name: Proofing with locales
       run: |
         scripts/test.sh
 
