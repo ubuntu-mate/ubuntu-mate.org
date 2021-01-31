@@ -3,21 +3,7 @@
 {% assign text = include.text %}
 {% assign variant = include.variant %}
 
-{% capture uuid %}banner-{{ include.bg | split:'/' | last | replace:'.jpg','' | replace:' ','-' }}{% endcapture %}
-
-{% if background_path %}
-<style>
-    #{{ uuid }} {
-        background-image: url({{ background_path }});
-    }
-
-    .webp #{{ uuid }} {
-        background-image: url({{ background_path | replace:'.jpg', '.webp' }});
-    }
-</style>
-{% endif %}
-
-<div id="{{ uuid }}" class="banner {% if variant %}{{ variant }}{% endif %}">
+<div class="banner {% if variant %}{{ variant }}{% endif %}" {% if background_path %}style="background-image: url({{ background_path }});"{% endif %}>
     <div class="container">
         {% if foreground_path or text %}
             <div class="row banner-inner">
