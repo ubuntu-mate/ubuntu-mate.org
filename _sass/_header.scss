@@ -1,3 +1,7 @@
+
+$trigger-smaller-header: 1060px;
+$trigger-smallest-header: 865px;
+
 .site-header {
     background: $ubuntu-mate-light;
     position: fixed;
@@ -105,6 +109,7 @@
     padding: 15px;
 }
 
+#i18n-chooser-mobile,
 .nav-i18n-btn {
     img, svg {
         display: inline-block;
@@ -128,7 +133,7 @@
 
 #i18n-chooser {
     &:checked {
-        ~ .i18n-dropdown {
+        ~ ul .i18n-dropdown {
             display: flex;
         }
 
@@ -151,16 +156,17 @@
     border: $dropdown-border;
     box-shadow: $dropdown-shadow;
     position: absolute;
-    top: $header-height - 5px;
+    top: $header-height - 4px;
     right: 15px;
     margin: auto;
     list-style: none;
     padding: 0;
     flex-wrap: wrap;
+    flex-direction: column;
 
     li {
-        width: 100%;
-        min-width: 150px;
+        width: 150px;
+        max-width: 90vw;
 
         .nav-btn {
             color: $text-colour-dark;
@@ -212,7 +218,7 @@
     }
 }
 
-@media screen and (min-width: $sm + 1px) and (max-width: $md) {
+@media screen and (min-width: $trigger-smallest-header + 1px) and (max-width: $trigger-smaller-header) {
     .nav-btn {
         padding: 10px 0.75vw;
         margin: 5px 0;
@@ -235,7 +241,10 @@
     }
 }
 
-@media screen and (max-width: $sm) {
+@media screen and (max-width: $trigger-smallest-header + 1px) and (max-width: $trigger-smaller-header) {
+}
+
+@media screen and (max-width: $trigger-smallest-header) {
     .mobile-only {
         display: block;
     }
@@ -302,5 +311,14 @@
                 }
             }
         }
+    }
+
+    /* Show full language text, not shortened locale code */
+    #i18n-chooser-mobile {
+        display: none;
+    }
+
+    .i18n-btn {
+        display: block;
     }
 }
