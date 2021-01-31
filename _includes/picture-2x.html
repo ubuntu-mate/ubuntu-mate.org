@@ -2,9 +2,7 @@
 {% assign img = include.img %}
 {% assign ext = include.ext %}
 <picture>
-<!--
     <source srcset="{{ dir }}/{{ img }}.webp 1x, {{ dir }}/2x/{{ img }}.webp 2x" type="image/webp">
--->
     <source srcset="{{ dir }}/{{ img }}.{{ ext }} 1x, {{ dir }}/2x/{{ img }}.{{ ext }} 2x" type="image/{{ ext }}">
     <img src="{{ dir }}/{{ img }}.{{ ext }}" alt=""/>
 </picture>
