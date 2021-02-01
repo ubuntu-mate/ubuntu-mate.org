@@ -183,7 +183,7 @@ msgstr ""
 "> L'empreinte digitale GPG est validée contre la clé de serveur d'Ubuntu.\n"
 "> Alors, peu importe où vous avez obtenu le fichier, si les signatures "
 "coïncident,\n"
-">Vous pouvez faire confiance au fichier.\n"
+">vous pouvez faire confiance au fichier.\n"
 ">"
 
 #: pages/faq-verify-secure.md:83
@@ -448,7 +448,7 @@ msgid ""
 msgstr ""
 "Notez les lignes en **gras** qui confirment que le fichier a été signé par "
 "l'équipe d'Ubuntu. Si ce n'était pas véritable, le résultat serait "
-"**MAUVAISe signature**."
+"**MAUVAISE signature**."
 
 #: pages/faq-verify-secure.md:191
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-30 21:19+0100\n"
+"POT-Creation-Date: 2021-02-01 17:02+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
 "Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -160,7 +160,7 @@ msgstr "Votre téléchargement a démarré"
 
 #: download_started_help
 msgid "Not working? Try clicking the link:"
-msgstr "Ne fonctionne pas ? Essayez de cliquer sur le lien:"
+msgstr "Cela ne fonctionne pas ? Essayez de cliquer sur le lien:"
 
 #: post_download_go_back
 msgid "Choose a different download"
@@ -208,7 +208,7 @@ msgstr "(Pré-version)"
 
 #: file_name
 msgid "File Name"
-msgstr "Nom de Fichier"
+msgstr "Nom du Fichier"
 
 #: file_size
 msgid "File Size"
@@ -245,11 +245,11 @@ msgstr "Par votre navigateur web."
 
 #: end_of_life
 msgid "Supported until"
-msgstr "Pris en charge jusqu'en"
+msgstr "Supporté jusqu'en"
 
 #: filename
 msgid "Filename"
-msgstr "Nom de fichier"
+msgstr "Nom du fichier"
 
 #: arch
 msgid "Architecture"
@@ -290,8 +290,8 @@ msgid ""
 "with Ubuntu MATE QA, or to provide feedback and file bug reports."
 msgstr ""
 "Cette version n'est pas prête pour la production. Elle est recommandée aux "
-"testeurs pour aider avec l'Assurance Qualité d'Ubuntu MATE, ou pour donner "
-"des retours et remplir des rapports de bug."
+"testeurs pour aider avec l'Assurance Qualité d'Ubuntu MATE, ou pour fournir "
+"des commentaires et remplir des rapports de bug."
 
 #: prerelease_warning_button
 msgid "Learn how to get involved →"
@@ -368,7 +368,7 @@ msgid ""
 "To contribute more, use Bitcoin or become an Ubuntu MATE Patron, [visit the "
 "funding page.](/funding/)"
 msgstr ""
-"Pour contribuer plus, utilisez le Bitcoin ou devenez un Patron d'Ubuntu "
+"Pour contribuer plus, utilisez le Bitcoin ou devenez un Mécène d'Ubuntu "
 "MATE, [visiter la page de financement.](/funding/)"
 
 #: download_verify_title
@@ -419,7 +419,7 @@ msgstr "Jetez un œil à ces ressources:"
 
 #: download_stuck_help_imgusb
 msgid "How to image a flash drive (Windows, Mac, Linux)"
-msgstr "Comment graver une image sur une clé USB (Windows, Mac, Linux)"
+msgstr "Comment flasher une image sur une clé USB (Windows, Mac, Linux)"
 
 #: download_stuck_help_support
 msgid "See known issues or ask the community"
@@ -455,7 +455,7 @@ msgstr "Nouveautés"
 
 #: outdated_post
 msgid "This post is more than a year old and may be outdated."
-msgstr "Ce post est vieux de plus d'un an et pourrait être obsolète."
+msgstr "Ce post est ancien de plus d'un an et pourrait être obsolète."
 
 #: comments_title
 msgid "Comments"
@@ -498,7 +498,7 @@ msgstr "Configuration Requise"
 
 #: team
 msgid "Team"
-msgstr "L'Équipe"
+msgstr "L'équipe"
 
 #: testimonials
 msgid "Testimonials"
@@ -506,7 +506,7 @@ msgstr "Témoignages"
 
 #: custom_panel
 msgid "Panel Customisation"
-msgstr "Personnalisation du tableau de bord"
+msgstr "Personnalisation des tableaux de bord"
 
 #: computers
 msgid "Desktop & Laptops"
@@ -679,7 +679,7 @@ msgstr "Gestionnaire de Fenêtres"
 
 #: installer
 msgid "Installer"
-msgstr "Installe"
+msgstr "Installateur"
 
 #: boot_splash
 msgid "Boot Splash"
@@ -779,7 +779,7 @@ msgstr "Ne prend pas en charge les traductions"
 
 #: faq
 msgid "Project FAQs"
-msgstr "FAQs du Projett"
+msgstr "FAQs du Projet"
 
 #: the_project
 msgid "The Project"
@@ -847,7 +847,7 @@ msgstr "Ces gens ont créé l'Histoire avec la distro."
 
 #: team_ubuntu
 msgid "Ubuntu Member"
-msgstr "Membre Ubuntu"
+msgstr "Membre d'Ubuntu"
 
 #: team_canonical
 msgid "Works at Canonical"
@@ -891,7 +891,7 @@ msgstr "Mainteneur de Paquets"
 
 #: quote_general_title
 msgid "What the Internet is saying..."
-msgstr "Ce qu'internet en dit..."
+msgstr "Ce qu'Internet en dit..."
 
 #: quote_youtube_title
 msgid "What the YouTubers are showcasing..."
@@ -1008,7 +1008,7 @@ msgstr "Entrez des mots-clés..."
 
 #: alt_logo_UM
 msgid "Ubuntu MATE Logo"
-msgstr "Logo Ubuntu MATE"
+msgstr "Logo d'Ubuntu MATE"
 
 #: toc
 msgid "Table of Contents"

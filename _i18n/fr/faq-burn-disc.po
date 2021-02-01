@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Si votre ordinateur possède un graveur de DVD et un média DVD-R/RW/+R/+RW "
 "vierge, voici comment\n"
-"faire votre propre disque d'installation Ubuntu MATE et une session live "
+"faire votre propre disque d'installation d'Ubuntu MATE et une session live "
 "pour votre\n"
 "ordinateur fixe ou portable."
 
@@ -51,8 +51,8 @@ msgid ""
 "desktop.\n"
 "Right click the file and choose **Burn image**."
 msgstr ""
-"Windows 7 (et plus récents) supporte la possibilité de graver directement à "
-"partir du bureau.\n"
+"Windows 7 (et plus récents) prend en charge la possibilité de graver "
+"directement à partir du bureau.\n"
 "Effectuez un clic droit sur le fichier et choisissez **Graver l'image**."
 
 #: pages/faq-burn-disc.md:27
@@ -104,7 +104,7 @@ msgstr ""
 "Votre distribution ne fournit pas forcément d'utilitaires pour graver des "
 "images contrairement à ce que tout le monde croit\n"
 "C'est une nécessité peu commune de nos jours. Si vous n'en disposez pas "
-"d'installé\n"
+"d'installé,\n"
 "voici quelques uns que vous pourriez essayer:"
 
 #: pages/faq-burn-disc.md:49

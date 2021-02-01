@@ -29,7 +29,7 @@ msgstr "## Traductions"
 
 #: pages/get-involved-translations.md:15
 msgid "Bonjour! Hola! Guten Tag! 你好！"
-msgstr "Bonjour! Hola! Guten Tag! 你好！"
+msgstr "Bonjour ! Hola ! Guten Tag ! 你好！"
 
 #: pages/get-involved-translations.md:20
 msgid ""
@@ -164,7 +164,7 @@ msgid ""
 "translate them."
 msgstr ""
 "Ci-dessous se dresse une liste d'applications qui sont pré-installées ainsi\n"
-"que les endroits pour les traduire"
+"que les endroits pour les traduire."
 
 #: pages/get-involved-translations.md:79
 msgid "## Translation Guide"

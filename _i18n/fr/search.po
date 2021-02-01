@@ -26,8 +26,7 @@ msgstr "title: Recherche"
 #: pages/search.md:11
 msgid "Enter a few words to find pages and blog posts on this site."
 msgstr ""
-"Entrez quelques mots pour trouver des pages et et des posts de blog sur ce "
-"site."
+"Entrez quelques mots pour trouver des pages et des posts de blog sur ce site."
 
 #: pages/search.md:13
 msgid ""
@@ -35,6 +34,6 @@ msgid ""
 "visit\n"
 "<https://ubuntu-mate.community>"
 msgstr ""
-"Si vous recherchez des sujets d'aide et des retours de la communauté, "
+"Si vous recherchez des sujets d'aide et des commentaires de la communauté, "
 "veuillez visiter\n"
 "<https://ubuntu-mate.community>"

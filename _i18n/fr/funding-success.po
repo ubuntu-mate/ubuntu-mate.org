@@ -38,7 +38,7 @@ msgstr ""
 "Nous avons passé bien du temps à créer Ubuntu MATE et c'est formidable \n"
 "que vous reconnaissiez les efforts que nous avons mis dans le projet. Les "
 "donations \n"
-"seront réparties entre nos coûts d'hébergement et les récompenses aux "
+"seront réparties entre nos frais d'hébergement et les récompenses aux "
 "contributeurs du projet."
 
 #: pages/funding-success.md:25

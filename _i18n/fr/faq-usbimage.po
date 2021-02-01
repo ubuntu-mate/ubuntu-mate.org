@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Pour installer et essayer Ubuntu MATE à partir d'une clé USB ou d'une carte "
 "SD, vous aurez besoin\n"
-"d'un média avec au moins 4 GO de mémoire et et avoir téléchargé [une copie "
+"d'un média avec au moins 4 GO de mémoire et avoir téléchargé [une copie "
 "compatible d'Ubuntu MATE](/faq/downloads/) pour votre système. "
 
 #: pages/faq-usbimage.md:27
@@ -269,7 +269,7 @@ msgstr ""
 "demandera votre mot de passe. Etcher affichera la progression et vous "
 "informera quand\n"
 "le processus sera terminé avec succès avec l'image ci-dessous.\n"
-"1 Si macOS vous informe que 'Le disque que vous avez inséré n'est pas "
+"1. Si macOS vous informe que 'Le disque que vous avez inséré n'est pas "
 "lisible sur cet ordinateur'\n"
 "sélectionnez **Éjecter** et non **Initialiser**."
 
@@ -295,7 +295,7 @@ msgstr ""
 "Gestionnaire de\n"
 "Démarrage. Cliquez sur le disque doré étiqueté 'EFI Boot,' qui vous mènera "
 "au\n"
-"menu de démarrage Ubuntu."
+"menu de démarrage d'Ubuntu."
 
 #: pages/faq-usbimage.md:112
 msgid ""
@@ -474,8 +474,8 @@ msgid ""
 "the\n"
 "disk image to the device, click \"Restore.\""
 msgstr ""
-"1. Cliquez sur \"Commencez la Restauration.\" Quand il vous demande si vous "
-"êtes sûr de vouloir écrire\n"
+"1. Cliquez sur \"Commencez la Restauration.\" Quand l'on vous demande si "
+"vous êtes sûr de vouloir écrire\n"
 "l'image disque sur le périphérique, cliquez sur \"Restaurer.\""
 
 #: pages/faq-usbimage.md:176

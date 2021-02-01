@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Ces gens ont contribué de manière significative, singulière ou ont servi en "
 "tant que\n"
-"membres de l'équipe dans le passé."
+"membres de l'équipe par le passé."
 
 #: pages/team.md:32
 msgid ""
@@ -88,7 +88,7 @@ msgid ""
 "These initial efforts helped the project officially support different\n"
 "ventures."
 msgstr ""
-"Ces offerts initiaux ont aidé le projet à supporter officiellement "
+"Ces efforts initiaux ont aidé le projet à supporter officiellement "
 "différentes\n"
 "initiatives."
 

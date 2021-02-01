@@ -165,8 +165,8 @@ msgid ""
 "            32GB DDR4 2666 MHz, up to 6TB storage, optional 24\" or 27\" "
 "Matte FHD LED (1920x1080) displays, Intel® Iris® Plus Graphics 655."
 msgstr ""
-"            Configurable avec la 9th Génération de Processeurs Intel® Core™, "
-"jusqu'à\n"
+"            Configurable avec la 9ème Génération de Processeurs Intel® "
+"Core™, jusqu'à\n"
 "            32GO DDR4 2666 MHz, jusqu'à 6TO de stockage, écrans optionnels "
 "24\" or 27\" Matte FHD LED (1920x1080), Intel® Iris® Plus Graphics 655."
 
@@ -195,7 +195,7 @@ msgstr ""
 "            Configurable avec la 2ème Génération de Processeurs AMD® Ryzen™ "
 "Threadripper™, jusqu'à\n"
 "            128GO DDR4 2933 MHz ou 128GO DDR4 2400 Mhz ECC, jusqu'à 68TO de "
-"stockage, écrans optionnels 24\" or 27\" Matte FHD LED (1920x1080), NVIDIA® "
+"stockage, écrans optionnels 24\" ou 27\" Matte FHD LED (1920x1080), NVIDIA® "
 "GT1030 et NVIDIA® RTX 2060/2070/2080/2080Ti Graphics."
 
 #: pages/shop-computers.md:81
@@ -209,7 +209,7 @@ msgid ""
 "entroware.com/store/?tracking=ubmate)"
 msgstr ""
 "{:.center}\n"
-"[![Logo Entroware](/images/shop/entroware/entroware.png)](https://www."
+"[![Logo d'Entroware](/images/shop/entroware/entroware.png)](https://www."
 "entroware.com/store/?tracking=ubmate)"
 
 #: pages/shop-computers.md:89

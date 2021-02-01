@@ -1,7 +1,6 @@
 #
 # Translators:
 # Yoshida Shouyou, 2021
-# Luke Horwell, 2021
 #
 #, fuzzy
 msgid ""
@@ -10,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Luke Horwell, 2021\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "fr/)\n"
 "Language: fr\n"
@@ -43,10 +42,10 @@ msgid ""
 "    to the world of Ubuntu MATE. Get advice on drivers, set up features\n"
 "    and discover ways to engage with the community."
 msgstr ""
-"    Bienvenue est un écran d'accueil sur mesure qui présente à tout le monde "
-"- nouveaux utilisateurs comme anciens - le monde d'Ubuntu MATE . Recevez des "
+"    Bienvenue est un écran d'accueil sur mesure qui présente à tous - "
+"nouveaux utilisateurs comme anciens - le monde d'Ubuntu MATE . Recevez des "
 "conseils sur les pilotes, réglez des fonctionnalités et découvrez des moyens "
-"pour s'engager dans la communauté."
+"pour vous engager dans la communauté."
 
 #: pages/features-welcome.md:27
 msgid ""
@@ -69,8 +68,8 @@ msgid ""
 msgstr ""
 "middle_image_alt: Une section sur les pilotes dans l'application Bienvenue\n"
 "middle_title: Adapté à votre matériel\n"
-"middle_subtitle: Par exemple, les GPUs NVIDIA préciseront des détails sur "
-"les derniers pilotes."
+"middle_subtitle: Par exemple, des détails sur les derniers pilotes seront "
+"affichés pour les GPUs NVIDIA."
 
 #: pages/features-welcome.md:35
 msgid ""
@@ -79,7 +78,7 @@ msgid ""
 "right_subtitle: Pick your preferred web browser, panel layout and theme "
 "colour."
 msgstr ""
-"right_image_alt: Un choix de tableau de bord dans l'application Bienvenue\n"
+"right_image_alt: Un choix de tableaux de bord dans l'application Bienvenue\n"
 "right_title: Choix Instantané\n"
 "right_subtitle: Choisissez votre navigateur web préféré, une disposition de "
-"tableau de bord et un thème de couleurs."
+"tableaux de bord et un thème de couleurs."

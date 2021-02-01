@@ -56,11 +56,10 @@ msgstr ""
 "|                   | Minimum           | Recommandé               |\n"
 "| ----------------- | ----------------- | ------------------------- |\n"
 "| **CPU**           | Pentium M 1.0GHz  | Core 2 Duo 1.6GHz\n"
-"| **CPU Architecture** | [i386] (jusqu'en 2021) | [amd64]\n"
+"| **Architecture CPU** | [i386] (jusqu'en 2021) | [amd64]\n"
 "| **RAM**           | 1 GO              | 4 GO\n"
 "| **Stockage**       | 8 GO              | 16 GO\n"
-"| **Media de démarrage**    | DVD-ROM amorçable | DVD-ROM or USB Flash "
-"Drive\n"
+"| **Media de démarrage**    | DVD-ROM amorçable | DVD-ROM ou Clé USB\n"
 "| **Affichage**       | 1024 x 768        | 1440 x 900 ou plus (avec "
 "accélération graphique)"
 
@@ -70,7 +69,8 @@ msgstr "### Raspberry Pi"
 
 #: pages/requirements.md:31
 msgid "Only the **B models** of the Raspberry Pi family are supported:"
-msgstr "Seuls les **modèles B** de la famille Raspberry Pi sont supportés:"
+msgstr ""
+"Seuls les **modèles B** de la famille Raspberry Pi sont pris en charge:"
 
 #: pages/requirements.md:36
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 "* Raspberry Pi 2\n"
 "* Raspberry Pi 3\n"
 "* Raspberry Pi 3+\n"
-"* Raspberry Pi 4 (toutes tailles de mémoire)"
+"* Raspberry Pi 4 (toutes quantités de mémoire)"
 
 #: pages/requirements.md:39
 msgid ""

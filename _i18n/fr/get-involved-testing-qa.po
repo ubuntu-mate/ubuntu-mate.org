@@ -40,7 +40,7 @@ msgstr ""
 "développement travaille\n"
 "constamment pour obtenir la meilleure expérience possible mais il y aura "
 "toujours\n"
-"des **bugs**!  Les trouver facilite la vie de nos développeurs et améliore "
+"des **bugs** !  Les trouver facilite la vie de nos développeurs et améliore "
 "les choses\n"
 "pour nos utilisateurs. -- **Vous compris** :wink:"
 
@@ -55,7 +55,7 @@ msgstr ""
 #: pages/get-involved-testing-qa.md:22
 msgid "* Join the [Ubuntu MATE Community](https://ubuntu-mate.community/)"
 msgstr ""
-"* Rejoindre la [Communauté Ubuntu MATE](https://ubuntu-mate.community/)"
+"* Rejoindre la [Communauté d'Ubuntu MATE](https://ubuntu-mate.community/)"
 
 #: pages/get-involved-testing-qa.md:24
 msgid ""
@@ -74,7 +74,7 @@ msgid ""
 "     ![Showing download links on the Ubuntu ISO tracker](/images/get-"
 "involved/qa/download.png)"
 msgstr ""
-"     ![Liens de téléchargement sur le tracker Ubuntu ISO](/images/get-"
+"     ![Liens de téléchargement sur le tracker d'ISO d'Ubuntu](/images/get-"
 "involved/qa/download.png)"
 
 #: pages/get-involved-testing-qa.md:30
@@ -86,20 +86,20 @@ msgid ""
 "     ![Showing test cases on the Ubuntu ISO tracker](/images/get-involved/qa/"
 "testcases.png)"
 msgstr ""
-"     ![Cas de test sur le tracker Ubuntu ISO](/images/get-involved/qa/"
+"     ![Cas de test sur le tracker d'ISO d'Ubuntu](/images/get-involved/qa/"
 "testcases.png)"
 
 #: pages/get-involved-testing-qa.md:35
 msgid "* Report and Update the ISO Tracker"
-msgstr "* Rapporter et Mettre à Jour le tracker ISO"
+msgstr "* Rapporter et Mettre à Jour le tracker d'ISO"
 
 #: pages/get-involved-testing-qa.md:37
 msgid ""
 "     ![Showing reports on the Ubuntu ISO tracker](/images/get-involved/qa/"
 "report.png)"
 msgstr ""
-"     ![Rapports sur le tracker Ubuntu ISO](/images/get-involved/qa/report."
-"png)"
+"     ![Rapports sur le tracker d'ISO d'Ubuntu](/images/get-involved/qa/"
+"report.png)"
 
 #: pages/get-involved-testing-qa.md:39
 msgid ""
@@ -120,7 +120,7 @@ msgstr ""
 "* [Comment rapporter des bugs](https://ubuntu-mate.community/t/how-to-report-"
 "problems-in-ubuntu-mate/17943)\n"
 "* [Guide étape par étape](https://wiki.ubuntu.com/Testing/ISO/Walkthrough)\n"
-"* Tenez-nous au courant des problèmes par la [Communauté Ubuntu MATE]"
+"* Tenez-nous au courant des problèmes par la [Communauté d'Ubuntu MATE]"
 "(https://ubuntu-mate.community/)"
 
 #: pages/get-involved-testing-qa.md:46
@@ -129,8 +129,8 @@ msgid ""
 "know\n"
 "the steps needed to reproduce your issue."
 msgstr ""
-"Pensez à vous demander **Mon problème peut-être il être reproduit ?** Nous "
-"devons connaître\n"
+"Pensez à vous demander **Mon problème peut-il être reproduit ?** Nous devons "
+"connaître\n"
 "les étapes requises pour reproduire votre problème."
 
 #: pages/get-involved-testing-qa.md:50

@@ -21,7 +21,7 @@ msgstr ""
 
 #: pages/ports.md:8
 msgid "title: Device Ports"
-msgstr "title: Ports d'Appareils"
+msgstr "title: Portages d'Appareils"
 
 #: pages/ports.md:13
 msgid ""
@@ -39,5 +39,5 @@ msgid ""
 "Choose a port to read more on its features and current status."
 msgstr ""
 "{:.center}\n"
-"Choisissez un port pour en savoir plus sur ses fonctionnalités et son état "
-"actuel."
+"Choisissez un portage pour en savoir plus sur ses fonctionnalités et son "
+"état actuel."

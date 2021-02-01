@@ -159,8 +159,8 @@ msgid ""
 "* 13 donations of £5, or\n"
 "* 7 donations of £10 _(all with a little change to spare)_"
 msgstr ""
-"* 32 donations de 2£, or\n"
-"* 13 donations de 5£, or\n"
+"* 32 donations de 2£, ou\n"
+"* 13 donations de 5£, ou\n"
 "* 7 donations de 10£ _(avec de la petite monnaie à économiser)_"
 
 #: pages/get-involved-crowdfund.md:69

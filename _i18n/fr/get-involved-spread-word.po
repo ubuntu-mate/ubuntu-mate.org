@@ -46,7 +46,7 @@ msgstr ""
 
 #: pages/get-involved-spread-word.md:20
 msgid "### Social Media"
-msgstr "### Social Media"
+msgstr "### Réseaux Sociaux"
 
 #: pages/get-involved-spread-word.md:26
 msgid ""
@@ -78,8 +78,8 @@ msgstr ""
 "Mastodon, les groupes Telegram, ou votre forum de Linux préféré. Postez\n"
 "une image digne d'un influenceur de votre bureau sur Instagram, et utilisez "
 "un filtre pour\n"
-"faire ressortir le vert de l'écran d'accueil. Faites une vidéo sur Tik-Tok "
-"pour que nous puissions tous devenir célèbres sur Internet."
+"faire ressortir le vert de l'écran de connexion. Faites une vidéo sur Tik-"
+"Tok pour que nous puissions tous devenir célèbres sur Internet."
 
 #: pages/get-involved-spread-word.md:33
 msgid "### Merchandise"
@@ -96,8 +96,8 @@ msgid ""
 " can get you through your day and help spark a conversation. Find all these\n"
 " goodies at our [shop](/shop/)."
 msgstr ""
-"Parfois, passer le mot ne requiert pas de mots du tout ! Un polo stylé "
-"Ubuntu MATE,\n"
+"Parfois, passer le mot ne requiert pas le moindre mot ! Un polo stylé Ubuntu "
+"MATE,\n"
 "un T-shirt, un sweat à capuche peuvent montrer à vos amis, votre famille et "
 "vos collègues que vous avez du goût tant pour la mode qu'en termes de choix "
 "de distribution de Linux. Votre tasse matinale de caféine\n"

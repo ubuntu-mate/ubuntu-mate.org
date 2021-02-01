@@ -28,7 +28,7 @@ msgid ""
 "## 404. Page Not Found\n"
 "---"
 msgstr ""
-"## 404. Page indisponible\n"
+"## 404. Page Indisponible\n"
 "---"
 
 #: pages/404.md:20
@@ -65,7 +65,7 @@ msgstr ""
 
 #: pages/404.md:29
 msgid "**Where now?**"
-msgstr "**Où maintenant?**"
+msgstr "**Où maintenant ?**"
 
 #: pages/404.md:32
 msgid ""
@@ -74,7 +74,7 @@ msgid ""
 "* [Report this as an issue on GitHub](https://github.com/ubuntu-mate/ubuntu-"
 "mate.org/issues)"
 msgstr ""
-"* [Vers la page d'accueil!](/)\n"
+"* [Vers la page d'accueil !](/)\n"
 "* [Rechercher sur le site](/search/)\n"
 "* [Soumettre en tant que problème sur GitHub](https://github.com/ubuntu-mate/"
 "ubuntu-mate.org/issues)"

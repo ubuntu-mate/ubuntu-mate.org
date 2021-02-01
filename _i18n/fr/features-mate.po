@@ -1,7 +1,6 @@
 #
 # Translators:
 # Yoshida Shouyou, 2021
-# Luke Horwell, 2021
 #
 #, fuzzy
 msgid ""
@@ -10,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Luke Horwell, 2021\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "fr/)\n"
 "Language: fr\n"
@@ -55,11 +54,11 @@ msgid ""
 "left_subtitle: Conventional applications such as a text editor, image viewer "
 "and archive utility."
 msgstr ""
-"left_image_alt: \"Capture d'écran de fenêtres d'application MATE en cascade"
+"left_image_alt: \"Capture d'écran de fenêtres d'applications MATE en cascade"
 "\"\n"
 "left_title: Les Essentiels\n"
 "left_subtitle: \"Des applications conventionnelles comme un éditeur de "
-"texte, un visionneur d'images et un utilitaire d'archives.\""
+"texte, une visionneuse d'images et un utilitaire d'archives.\""
 
 #: pages/features-mate.md:32
 msgid ""
@@ -81,4 +80,4 @@ msgstr ""
 "right_image_alt: \"Capture d'écran de l'indicateur du son\"\n"
 "right_title: Indicateurs Modernes\n"
 "right_subtitle: Pré-configuré pour fournir des fonctionnalités pratiques "
-"(pour les applications qui les supportent)"
+"(pour les applications qui les prennent en charge)"

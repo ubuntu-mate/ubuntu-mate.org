@@ -1,7 +1,6 @@
 #
 # Translators:
 # Yoshida Shouyou, 2021
-# Luke Horwell, 2021
 #
 #, fuzzy
 msgid ""
@@ -10,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-15 21:27+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Luke Horwell, 2021\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "fr/)\n"
 "Language: fr\n"
@@ -22,7 +21,7 @@ msgstr ""
 
 #: pages/features-panel.md:14
 msgid "title: Panel Customisation | Features"
-msgstr "title: Personnalisation du Tableau de Bord | Fonctionnalités"
+msgstr "title: Personnalisation des Tableaux de Bord | Fonctionnalités"
 
 #: pages/features-panel.md:19
 msgid ""
@@ -45,8 +44,8 @@ msgid ""
 "    widgets and panels to suit your preferred workflow."
 msgstr ""
 "    Utilisez MATE Tweak ou l'application Bienvenue pour choisir un modèle et "
-"ajouter/retirer des widgets et des tableaux de bord adaptés à votre flux de "
-"travail préféré."
+"ajouter/supprimer des widgets et des tableaux de bord adaptés à votre flux "
+"de travail préféré."
 
 #: pages/features-panel.md:26
 msgid ""

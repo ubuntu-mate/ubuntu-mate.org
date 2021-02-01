@@ -1,6 +1,7 @@
 #
 # Translators:
 # Yannick Mauray <yannick@frenchguy.ch>, 2021
+# Yoshida Shouyou, 2021
 #
 #, fuzzy
 msgid ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 21:13+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Yannick Mauray <yannick@frenchguy.ch>, 2021\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "fr/)\n"
 "Language: fr\n"
@@ -74,7 +75,7 @@ msgid ""
 "Here are some screenshots of the desktop layouts included in Ubuntu MATE to\n"
 "give you a feel for how you can configure your desktop experience."
 msgstr ""
-"Voici quelques captures d'écran des agencements de bureau inclus dans "
+"Voici quelques captures d'écran des dispositions de bureau inclus dans "
 "Ubuntu\n"
 "MATE pour vous donner une idée de la façon dont vous pouvez configurer "
 "votre\n"
@@ -143,8 +144,8 @@ msgid ""
 "[Andrew Miller](https://www.patreon.com/user/creators?u=2613385)."
 msgstr ""
 "Ubuntu MATE est soutenu par ces excellents sponsors et [nos formidables "
-"mécènes](https://www.patreon.com/ubuntu_mate), tels que notre mécène de "
-"niveau 42, [Andrew Miller](https://www.patreon.com/user/creators?u=2613385)."
+"Mécènes](https://www.patreon.com/ubuntu_mate), tels que notre mécène de "
+"Niveau 42, [Andrew Miller](https://www.patreon.com/user/creators?u=2613385)."
 
 #: pages/index.md:80
 msgid ""
@@ -163,5 +164,5 @@ msgid ""
 "Also thanks to our Unlucky Patron, [Darrell Vermilion](https://www.patreon."
 "com/bearstampede/creators)."
 msgstr ""
-"Merci également à note Mécène Malchanceux [Darrell Vermilion](https://www."
+"Merci également à notre Mécène Malchanceux [Darrell Vermilion](https://www."
 "patreon.com/bearstampede/creators)."

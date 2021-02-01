@@ -94,7 +94,7 @@ msgstr ""
 "downloads/md5-sha-1-checksum-utility/)\n"
 "* Lancez l'application *MD5_and_SHA_Checksum_Utility.exe*\n"
 "* Cliquez sur le bouton **Parcourir** et naviguez vers le fichier ISO "
-"*Ubuntu MATE*."
+"*d'Ubuntu MATE*."
 
 #: pages/faq-verify-quick.md:39
 msgid ""
@@ -153,7 +153,7 @@ msgstr ""
 "quelques instants.\n"
 "* Comparez la somme de contrôle SHA256 affichée en ligne de commande avec la "
 "somme de contrôle\n"
-"de la page de téléchargement de l'image.."
+"de la page de téléchargement de l'image."
 
 #: pages/faq-verify-quick.md:59
 msgid "    ![Macbook SHA2](/images/faq/verify/MacbookSHA2.png)"
@@ -217,7 +217,7 @@ msgid ""
 msgstr ""
 "* En premier lieu, basculez dans le répertoire où l'ISO est stockée\n"
 "* Entrez `sha256sum ubuntu-mate-XX.XX-version.iso`, en substituant le nom de "
-"l'ISO spécifique que vous avez téléchargée..\n"
+"l'ISO spécifique que vous avez téléchargée.\n"
 "* Comparez la somme de contrôle SHA256 affichée en ligne de commande à celle "
 "de la page de téléchargement."
 
