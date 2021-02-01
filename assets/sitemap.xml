@@ -13,6 +13,7 @@ permalink: /sitemap.xml
     {% if page.layout == "null" %}{% continue %}{% endif %}
     {% if page.layout == "error-serious" %}{% continue %}{% endif %}
     {% if page.name == "rss.xml" %}{% continue %}{% endif %}
+    {% if page.autogen == true %}{% continue %}{% endif %}
 
     {% assign start_of_permalink = page.permalink | slice: 0,3 %}
     {% if start_of_permalink == "/40" %}{% continue %}{% endif %}
