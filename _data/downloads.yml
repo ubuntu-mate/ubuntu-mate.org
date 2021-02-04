@@ -15,7 +15,7 @@ releases:
             year: 2021
 
     focal:
-        name: "20.04.1 LTS"
+        name: "20.04.2 LTS"
         codename: "Focal Fossa"
         mascot: "focal.svg"
         wallpaper: "focal.jpg"
@@ -62,10 +62,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:32310b4db84de5c023bfcb9f40648d8c9e7ca16e&dn=ubuntu-mate-18.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: focal
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.1-desktop-amd64.iso"
-          sha256sum: "c78cbaa40de6189e61ed5a70967d9a28148d72e9080441a55a578ee5f69d6065"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.2-desktop-amd64.iso"
+          sha256sum: "c53f4d4cd53cba3e2d458ffbe550e4f40526051f63081545f49bb2045a6d7017"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:05a34417a9058a0082c0d11541c39dea60f17bec&dn=ubuntu-mate-20.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:51930cdb2be448be84e0e91453aa52136d06222e&dn=ubuntu-mate-20.04.2-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: groovy
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/release/ubuntu-mate-20.10-desktop-amd64.iso"
