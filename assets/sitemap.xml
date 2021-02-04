@@ -4,7 +4,7 @@ permalink: /sitemap.xml
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   {% assign pages = site.html_pages | concat: site.posts %}
   {% for page in pages %}
@@ -24,7 +24,7 @@ permalink: /sitemap.xml
         <lastmod>{{ page.last_modified_at | date: '%Y-%m-%d' }}</lastmod>
         {% for lang in site.languages %}
             {% if lang == "en" %}{% continue %}{% endif %}
-            <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.url }}"/>
+            <xhtml:link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.url }}"/>
         {% endfor %}
     </url>
   {% endfor %}
