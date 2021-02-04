@@ -29,7 +29,6 @@
       avatar: "https://avatars0.githubusercontent.com/u/304639?s=150&v=4"
       url: "https://wimpysworld.com/"
       roles:
-        - canonical
         - ubuntu
         - mate_desktop
         - code
@@ -54,6 +53,7 @@
       avatar: "https://avatars.githubusercontent.com/u/66331276?s=150&v=4"
       url: "https://github.com/Maik-aD"
       roles:
+        - ubuntu_mate
         - qa
 
     - name: Larry Bushey
@@ -65,7 +65,15 @@
 
     - name: Michael Dooley
       avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mdooley/150/14388_2.png"
-      url: "https://ubuntu-mate.community/u/mdooley/summary"
+      url: "https://ubuntu-mate.community/u/mdooley"
+      roles:
+        - ubuntu_mate
+        - community
+        - qa
+
+    - name: Etienne Papegnies
+      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/ouroumov/150/10260_2.png"
+      url: "https://ubuntu-mate.community/u/ouroumov"
       roles:
         - ubuntu_mate
         - community
@@ -103,9 +111,10 @@
       url: "https://github.com/madhens"
       roles:
         - ubuntu_mate
+        - canonical
+        - ubuntu
         - documentation
         - community
-        - ubuntu
 
     - name: Nikolay Strelkov
       avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
@@ -156,6 +165,7 @@
       url: "https://github.com/sunweaver"
       roles:
         - mate_desktop
+        - debian
         - packager
 
     - name: Luke Kuhn
@@ -180,12 +190,6 @@
         - mate_desktop
         - bug_fixer
 
-    - name: Roberto Perico
-      avatar: "https://avatars1.githubusercontent.com/u/17325227?s=150&v=4"
-      url: "https://github.com/RobertoPerico"
-      roles:
-        - artwork
-
     - name: Alexei Sorokin
       avatar: "https://avatars0.githubusercontent.com/u/386788?s=150&v=4"
       url: "https://github.com/XRevan86"
@@ -208,14 +212,6 @@
 - title_name: contrib_title
   desc_name: contrib_desc
   members:
-
-    - name: Etienne Papegnies
-      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/ouroumov/150/10260_2.png"
-      url: "https://ubuntu-mate.community/admin/users/2129/ouroumov"
-      roles:
-        - ubuntu_mate
-        - community
-        - qa
 
     - name: Robin Thompson
       desc: MATE Dock Applet
@@ -274,6 +270,11 @@
 - title_name: contrib2_title
   desc_name: contrib2_desc
   members:
+
+    - name: Roberto Perico
+      # Ubuntu MATE Wallpapers
+      roles:
+        - artwork
 
     - name: Alexander Browne
       # Former QA engineer for Ubuntu MATE
