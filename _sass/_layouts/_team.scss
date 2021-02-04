@@ -44,6 +44,19 @@
     }
 }
 
+.member.compact {
+    padding: 15px;
+    margin: 2px;
+
+    &:nth-child(odd) {
+        background-color: $grid-bg;
+    }
+
+    &:nth-child(even) {
+        background-color: $grid-bg-alt;
+    }
+}
+
 @media (max-width: $sm) {
     .member-avatar,
     .member > a {

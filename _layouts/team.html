@@ -24,11 +24,13 @@ layout: default
                     {% assign members_az = category.members | sort: "name" %}
 
                     {% for member in members_az %}
-                      <div class="member">
+                      <div class="member {% unless member.avatar %}compact{% endunless %}">
 
                         {% if member.url %}<a href="{{ member.url }}" rel="external">{% endif %}
 
-                          <img class="member-avatar" loading="lazy" src="{% if member.avatar %}{{ member.avatar }}{% else %}/images/people/nophoto.svg{% endif %}" alt="{{ member.name }}"/>
+                          {% if member.avatar %}
+                            <img class="member-avatar" loading="lazy" src="{% if member.avatar %}{{ member.avatar }}{% else %}/images/people/nophoto.svg{% endif %}" alt="{{ member.name }}"/>
+                          {% endif %}
 
                         {% if member.url %}</a>{% endif %}
 
@@ -58,6 +60,9 @@ layout: default
                             {% elsif role == "ubuntu_mate" %}    {% assign icon = "/images/ubuntu-mate/logo.svg" %}
                                                                  {% assign label = "Ubuntu MATE" %}
 
+                            {% elsif role == "debian" %}        {% assign icon = "/images/brands/debian.svg" %}
+                                                                {% assign label = site.data.strings.team_debian %}
+
                             {% elsif role == "artwork" %}        {% assign icon = "/images/Ambiant-MATE/preferences-desktop-theme.svg" %}
                                                                  {% assign label = site.data.strings.team_artwork %}
 
@@ -81,6 +86,13 @@ layout: default
 
                             {% elsif role == "bug_fixer" %}     {% assign icon = "/images/Ambiant-MATE/applications-debugging.svg" %}
                                                                 {% assign label = site.data.strings.team_bug_fixer %}
+
+                            {% elsif role == "raspberry_pi" %}  {% assign icon = "/images/brands/raspberry-pi.svg" %}
+                                                                {% assign label = site.data.strings.team_rpi_contrib %}
+
+                            {% elsif role == "accessibility" %} {% assign icon = "/images/Ambiant-MATE/preferences-desktop-accessibility.svg" %}
+                                                                {% assign label = site.data.strings.team_accessibility %}
+
                             {% else %}
                                 {{ role }}? {% continue %}
                             {% endif %}

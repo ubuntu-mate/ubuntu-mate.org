@@ -1,7 +1,26 @@
 #
-# For special thanks and acknowledgements, edit pages/team.md
+# All roles IDs:
 #
-
+#   - ubuntu        ┐
+#   - canonical     │
+#   - mate_desktop  │- Official members of teams/organisations
+#   - ubuntu_mate   │
+#   - debian        ┘
+#
+#   - artwork
+#   - code
+#   - documentation
+#   - community
+#   - qa
+#   - packager
+#   - bug_hunter
+#   - bug_fixer
+#   - raspberry_pi
+#   - accessibility
+#
+# ==========================
+# Founders
+# ==========================
 - title_name: founders_title
   desc_name: founders_desc
   members:
@@ -23,6 +42,10 @@
         - canonical
         - ubuntu
 
+# ==========================
+# Ubuntu MATE Team
+# ==========================
+# Requires: name, avatar, url, roles
 - title_name: team1_title
   desc_name: team1_desc
   members:
@@ -32,7 +55,6 @@
       url: "https://github.com/Maik-aD"
       roles:
         - qa
-
 
     - name: Larry Bushey
       avatar: "https://avatars2.githubusercontent.com/u/1313055?s=150&v=4"
@@ -91,14 +113,14 @@
       roles:
         - ubuntu_mate
         - qa
-        
+
     - name: Sai Vinoba
       avatar: "https://avatars3.githubusercontent.com/u/5097130?s=460&v=4"
       url: "https://github.com/saivinoba"
       roles:
         - ubuntu_mate
         - qa
-        
+
     - name: Primož Ajdišek
       avatar: "https://avatars0.githubusercontent.com/u/6921913?s=460&v=4"
       url: "https://github.com/bigpod98"
@@ -112,9 +134,12 @@
       roles:
         - ubuntu_mate
         - documentation
-        - qa 
+        - qa
 
-
+# ==========================
+# Wider Community
+# ==========================
+# Requires: name, avatar, url, roles
 - title_name: team2_title
   desc_name: team2_desc
   members:
@@ -175,14 +200,16 @@
         - mate_desktop
         - artwork
 
+# ==========================
+# Notable Contributors
+# ==========================
+# Requires: name, avatar, url, roles
+# Optional: desc (non-translatable!)
 - title_name: contrib_title
   desc_name: contrib_desc
   members:
 
-
-
     - name: Etienne Papegnies
-      desc: Moderator, QA Lead
       avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/ouroumov/150/10260_2.png"
       url: "https://ubuntu-mate.community/admin/users/2129/ouroumov"
       roles:
@@ -212,7 +239,7 @@
         - artwork
 
     - name: Konstantin Pugin
-      desc: Global Menu (MATE Panel)
+      desc: Global Menu
       avatar: "https://avatars1.githubusercontent.com/u/1329638?s=150&v=4"
       url: "https://github.com/rilian-la-te"
       roles:
@@ -233,9 +260,89 @@
         - artwork
 
     - name: Alexandru Polihron
-      desc: QA Engineer
       avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
       url: "https://github.com/apolitech"
       roles:
         - ubuntu_mate
         - qa
+
+
+# ==========================
+# Contributors & Special Thanks
+# ==========================
+# Requires: name, roles
+- title_name: contrib2_title
+  desc_name: contrib2_desc
+  members:
+
+    - name: Alexander Browne
+      # Former QA engineer for Ubuntu MATE
+      roles:
+        - qa
+
+    - name: Aron Xu
+      # Debian developer and former MATE package maintainer for Debian
+      roles:
+        - debian
+        - packager
+
+    - name: Daniel Foré
+      # Improver of the Ubuntu MATE icon theme
+      roles:
+        - artwork
+
+    - name: Jack Mohegan
+      # Assorted user interface improvements
+      roles:
+        - code
+
+    - name: Johnny Dennis
+      # Lead developer of tomxplayer for the Raspberry Pi
+      roles:
+        - raspberry_pi
+
+    - name: Jonathan Nadeau
+      # Assistive technology advisor and accessibility testing
+      roles:
+        - accessibility
+        - bug_hunter
+
+    - name: Matt Hartley
+      # User experience advisor
+      roles:
+        - bug_hunter
+
+    - name: Michael Tunnell
+      # Toucher-upper of GTK art assets
+      roles:
+        - artwork
+
+    - name: Pedro Meteus
+      # IGP and GPU enhancements for improved video and gaming
+      roles:
+        - code
+
+    - name: Sefan Ric
+      # Solus developer and former MATE Desktop contributor
+      roles:
+        - mate_desktop
+
+    - name: Simon Quigley
+      # MOTU and former sponsor and oversight of MATE Desktop packages
+      roles:
+        - packager
+
+    - name: Tim Apple
+      # Former QA engineer for Ubuntu MATE
+      roles:
+        - qa
+
+    - name: Matthew Keeler
+      # Former QA engineer for Ubuntu MATE
+      roles:
+        - qa
+
+    - name: Jeff Labonte
+      # Improver of Software Boutique
+      roles:
+        - code

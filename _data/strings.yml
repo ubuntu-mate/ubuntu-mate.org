@@ -269,6 +269,8 @@ team2_title: "Wider Community"
 team2_desc: "These people indirectly contribute to make things possible."
 contrib_title: "Notable Contributors"
 contrib_desc: "These people made history with the distro."
+contrib2_title: "Contributors & Special Thanks"
+contrib2_desc: "These people have made significant, singular contributions or have served as team members in the past."
 
 team_ubuntu: "Ubuntu Member"
 team_canonical: "Works at Canonical"
@@ -281,6 +283,9 @@ team_qa: "Quality Assurance Tester"
 team_bug_hunter: "Bug Hunter"
 team_bug_fixer: "Bug Fixer"
 team_packager: "Package Maintainer"
+team_debian: "Debian Developer"
+team_rpi_contrib: "Raspberry Pi Contributor"
+team_accessibility: "Accessibility Improvements"
 
 
 #######################################
