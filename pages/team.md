@@ -27,7 +27,6 @@ team members in the past.
 * **Simon Quigley:** MOTU and former sponsor and oversight of MATE Desktop packages
 * **Tim Apple**: Former QA engineer for Ubuntu MATE
 * **Matthew Keeler**: Former QA engineer for Ubuntu MATE
-* **Jon Uhler**: Former QA enginner for Ubuntu MATE
 * **Jeff Labonte**: Improver of Software Boutique
 
 ## Kickstarters

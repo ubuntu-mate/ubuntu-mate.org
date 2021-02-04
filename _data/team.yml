@@ -27,6 +27,13 @@
   desc_name: team1_desc
   members:
 
+    - name: Maik Adameitz
+      avatar: "https://avatars.githubusercontent.com/u/66331276?s=150&v=4"
+      url: "https://github.com/Maik-aD"
+      roles:
+        - qa
+
+
     - name: Larry Bushey
       avatar: "https://avatars2.githubusercontent.com/u/1313055?s=150&v=4"
       url: "https://goinglinux.com/"
@@ -41,6 +48,16 @@
         - ubuntu_mate
         - community
         - qa
+
+    - name: Luke Horwell
+      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
+      url: "https://github.com/lah7"
+      roles:
+        - ubuntu_mate
+        - code
+        - community
+        - documentation
+        - artwork
 
     - name: Bill (franksmcb)
       avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
@@ -88,6 +105,15 @@
       roles:
         - ubuntu_mate
         - packager
+
+    - name: Jon Uhler
+      avatar: "https://bigdaddylinux.com/wp-content/uploads/2019/07/Jon-Uhler-2-200x200.jpg"
+      url: "https://jonuhler.com/"
+      roles:
+        - ubuntu_mate
+        - documentation
+        - qa 
+
 
 - title_name: team2_title
   desc_name: team2_desc
@@ -153,16 +179,7 @@
   desc_name: contrib_desc
   members:
 
-    - name: Luke Horwell
-      desc: Developer, Web Maintainer
-      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
-      url: "https://github.com/lah7"
-      roles:
-        - ubuntu_mate
-        - code
-        - community
-        - documentation
-        - artwork
+
 
     - name: Etienne Papegnies
       desc: Moderator, QA Lead
