@@ -28,7 +28,7 @@
                         {% for lang in site.languages %}
                             <li>
                                 {% if lang == 'en' %}
-                                <a id="en-nav-btn" class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href=" {{ page.permalink }}">{{ site.data.lang[lang] }}</a>
+                                <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" {% static_href %}href="{{ page.permalink }}"{% endstatic_href %}>{{ site.data.lang[lang] }}</a>
                                 {% else %}
                                 <a class="nav-btn {% if lang == site.active_lang %}checked{% endif %}" href="/{{ lang }}{{ page.permalink }}">{{ site.data.lang[lang] }}</a>
                                 {% endif %}
