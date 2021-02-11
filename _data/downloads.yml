@@ -62,10 +62,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:32310b4db84de5c023bfcb9f40648d8c9e7ca16e&dn=ubuntu-mate-18.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: focal
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.2-desktop-amd64.iso"
-          sha256sum: "c53f4d4cd53cba3e2d458ffbe550e4f40526051f63081545f49bb2045a6d7017"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.2.0-desktop-amd64.iso"
+          sha256sum: "ec85f45a8d9f68cd9e9522471621079d2de0d597cd6ec63d29f3986929f920d3"
           size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:51930cdb2be448be84e0e91453aa52136d06222e&dn=ubuntu-mate-20.04.2-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:f47d65ebebf4bf962b2d6c48af6c8709b5e2e90c&dn=ubuntu-mate-20.04.2.0-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: groovy
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/release/ubuntu-mate-20.10-desktop-amd64.iso"
