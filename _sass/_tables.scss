@@ -69,3 +69,42 @@ table.icons {
         }
     }
 }
+
+/* Used for Raspberry Pi Compatibility table */
+.table-yes-no {
+    svg {
+        margin: auto;
+        height: 20px;
+        width: 20px;
+    }
+
+    .yes,
+    .no,
+    .partial {
+        text-align: center;
+    }
+
+    .yes {
+        background-color: $success;
+
+        svg path {
+            fill: lighten($success, 20%);
+        }
+    }
+
+    .partial {
+        background-color: $amber;
+
+        svg path {
+            fill: #000;
+        }
+    }
+
+    .no {
+        background-color: $danger;
+
+        svg path {
+            fill: #fff;
+        }
+    }
+}

@@ -17,7 +17,13 @@ layout: default
               <div class="sidebar-wrapper">
                 {% assign data = site.data.sidebar[page.sidebar] %}
                 {% for category in data %}
-                    <div class="sidebar-title">{{ site.data.strings[category.category_string_name] }}</div>
+                    <div class="sidebar-title">
+                        {% if category.string %}
+                            {{ category.string }}
+                        {% else %}
+                            {{ site.data.strings[category.category_string_name] }}
+                        {% endif %}
+                    </div>
 
                     {% for item in category.items %}
                         <a class="sidebar-link {% if item.url == page.permalink %}active{% endif %}" href="{{ item.url }}">

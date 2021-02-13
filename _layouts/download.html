@@ -197,6 +197,18 @@ layout: default
                 {% endfor %}
             </div>
 
+            <div class="row">
+                <div class="col">
+                    {% if page.download_id == "armhf" or page.download_id == "arm64" %}
+                    <p class="text-center">
+                        <a href="/raspberry-pi/">
+                            {{ site.data.strings.learn_more_rpi }}
+                        </a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+
         {% elsif page.step == 3 %}
 
             {% assign download = null %}

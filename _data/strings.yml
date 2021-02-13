@@ -259,6 +259,20 @@ prepare_media: "Media Preparations"
 
 
 #######################################
+# Raspberry Pi
+#######################################
+about_features: "About & Features"
+whats_new: "What's New?"
+install_guide: "Install Guide"
+compatibility: "Compatibility Check"
+compatible_releases: "Compatible Releases"
+compatible_but_slow: "Compatible but performance is poor. Not recommended."
+model: "Model"
+ram: "RAM"
+instruction_set: "Instruction Set"
+
+
+#######################################
 # Team
 #######################################
 founders_title: "Founders"
@@ -298,10 +312,9 @@ quote_youtube_title: "What the YouTubers are showcasing..."
 #######################################
 # Device Ports
 #######################################
-ports: "Device Ports"
+device_ports: "Device Ports"
 raspberry_pi: "Raspberry Pi"
-raspberry_pi_history: "Raspberry Pi Change Log"
-umpc: "Ultra Mobile PCs (UMPCs)"
+learn_more_rpi: "Learn more about our Raspberry Pi release"
 
 
 #######################################

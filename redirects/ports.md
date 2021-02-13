@@ -1,5 +1,5 @@
 ---
 layout: redirect
-permalink: /ports/umpcs/
+permalink: /ports/
 destination: /umpcs/
 ---

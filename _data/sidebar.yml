@@ -75,3 +75,26 @@ faq:
         - string_name: how_to_dvd
           icon: /images/Ambiant-MATE/media-optical-24.svg
           url: /faq/burn-disc/
+
+raspberry-pi:
+    - string: "Raspberry Pi"
+      items:
+        - string_name: about_features
+          icon: /images/brands/raspberry-pi.svg
+          url: /raspberry-pi/
+
+        - string_name: whats_new
+          icon: /images/Ambiant-MATE/help-about.svg
+          url: /raspberry-pi/changelog/
+
+        - string_name: compatibility
+          icon: /images/ubuntu-mate/rpi.png
+          url: /raspberry-pi/compatibility/
+
+        - string_name: downloads
+          icon: /images/apps/ubiquity.svg
+          url: /raspberry-pi/download/
+
+        - string_name: install_guide
+          icon: /images/apps/help.svg
+          url: /raspberry-pi/install/

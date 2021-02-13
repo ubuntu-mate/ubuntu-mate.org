@@ -1,8 +1,7 @@
 ---
 layout: page-category
-permalink: /ports/umpcs/
+permalink: /umpcs/
 lang: en
-category: ports
 
 title: Ultra Mobile PCs
 

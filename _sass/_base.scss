@@ -126,6 +126,10 @@ blockquote {
 
     p {
         margin: 0;
+
+        + p {
+            margin-top: 10px;
+        }
     }
 
     &:before {
@@ -135,6 +139,11 @@ blockquote {
         position: absolute;
         left: 15px;
         top: 0px;
+    }
+
+    ul {
+        margin: 10px 0;
+        padding-left: 15px;
     }
 }
 
