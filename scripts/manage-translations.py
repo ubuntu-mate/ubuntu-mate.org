@@ -125,7 +125,10 @@ def generate():
         pot_path = "{0}/pots/{1}.pot".format(i18n_dir, page)
 
         # Generate POT file, replacing if changed
-        pot_bytes_before = os.stat(pot_path).st_size
+        pot_bytes_before = 0
+        if os.path.exists(pot_path):
+            pot_bytes_before = os.stat(pot_path).st_size
+
         run("txt2po --pot {0} {1}".format(path, pot_path))
 
         # Strip out critical strings that should not be translated.
@@ -189,7 +192,9 @@ def generate():
 
             pot_path = "{0}/pots/{1}.pot".format(i18n_dir, page)
             po_path = "{0}/{1}/{2}.po".format(i18n_dir, locale, page)
-            po_bytes_before = os.stat(po_path).st_size
+            po_bytes_before = 0
+            if os.path.exists(po_path):
+                po_bytes_before = os.stat(po_path).st_size
 
             # Update PO files (merging existing data if it exists)
             if os.path.exists(os.path.join(po_path)):

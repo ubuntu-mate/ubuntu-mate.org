@@ -211,21 +211,33 @@ source_file = _i18n/pots/irc.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.ports-raspberry-pi-change-log]
+[ubuntu-mate-org.raspberry-pi-change-log]
 file_filter = _i18n/<lang>/raspberry-pi-change-log.po
 source_file = _i18n/pots/raspberry-pi-change-log.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.ports-raspberry-pi]
-file_filter = _i18n/<lang>/raspberry-pi.po
-source_file = _i18n/pots/raspberry-pi.pot
+[ubuntu-mate-org.raspberry-pi-compatibility]
+file_filter = _i18n/<lang>/raspberry-pi-compatibility.po
+source_file = _i18n/pots/raspberry-pi-compatibility.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.ports-umpc]
-file_filter = _i18n/<lang>/umpc.po
-source_file = _i18n/pots/umpc.pot
+[ubuntu-mate-org.raspberry-pi-download]
+file_filter = _i18n/<lang>/raspberry-pi-download.po
+source_file = _i18n/pots/raspberry-pi-download.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.raspberry-pi-install]
+file_filter = _i18n/<lang>/raspberry-pi-install.po
+source_file = _i18n/pots/raspberry-pi-install.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.raspberry-pi]
+file_filter = _i18n/<lang>/raspberry-pi.po
+source_file = _i18n/pots/raspberry-pi.pot
 source_lang = en
 type = PO
 
@@ -280,6 +292,12 @@ type = PO
 [ubuntu-mate-org.testimonials]
 file_filter = _i18n/<lang>/testimonials.po
 source_file = _i18n/pots/testimonials.pot
+source_lang = en
+type = PO
+
+[ubuntu-mate-org.umpcs]
+file_filter = _i18n/<lang>/umpcs.po
+source_file = _i18n/pots/umpcs.pot
 source_lang = en
 type = PO
 

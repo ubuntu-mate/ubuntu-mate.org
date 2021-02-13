@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-01 17:02+0100\n"
+"POT-Creation-Date: 2021-02-13 14:42+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
 "Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -813,6 +813,44 @@ msgstr "Feuille de Route"
 msgid "Media Preparations"
 msgstr "Préparations du Media"
 
+#: about_features
+#, fuzzy
+msgid "About & Features"
+msgstr "Fonctionnalités"
+
+#: whats_new
+msgid "What's New?"
+msgstr ""
+
+#: install_guide
+#, fuzzy
+msgid "Install Guide"
+msgstr "Installateur"
+
+#: compatibility
+msgid "Compatibility Check"
+msgstr ""
+
+#: compatible_releases
+msgid "Compatible Releases"
+msgstr ""
+
+#: compatible_but_slow
+msgid "Compatible but performance is poor. Not recommended."
+msgstr ""
+
+#: model
+msgid "Model"
+msgstr ""
+
+#: ram
+msgid "RAM"
+msgstr ""
+
+#: instruction_set
+msgid "Instruction Set"
+msgstr ""
+
 #: founders_title
 msgid "Founders"
 msgstr "Fondateurs"
@@ -845,6 +883,16 @@ msgstr "Contributeurs Notables"
 msgid "These people made history with the distro."
 msgstr "Ces gens ont créé l'Histoire avec la distro."
 
+#: contrib2_title
+msgid "Contributors & Special Thanks"
+msgstr ""
+
+#: contrib2_desc
+msgid ""
+"These people have made significant, singular contributions or have served as "
+"team members in the past."
+msgstr ""
+
 #: team_ubuntu
 msgid "Ubuntu Member"
 msgstr "Membre d'Ubuntu"
@@ -856,6 +904,11 @@ msgstr "Travaille chez Canonical"
 #: team_mate
 msgid "MATE Desktop Team"
 msgstr "Équipe du Bureau MATE"
+
+#: team_debian
+#, fuzzy
+msgid "Debian Member"
+msgstr "Membre d'Ubuntu"
 
 #: team_coder
 msgid "Code Contributor"
@@ -889,6 +942,15 @@ msgstr "Correcteur de Bugs"
 msgid "Package Maintainer"
 msgstr "Mainteneur de Paquets"
 
+#: team_rpi_contrib
+#, fuzzy
+msgid "Raspberry Pi Contributor"
+msgstr "Contributeurs Notables"
+
+#: team_accessibility
+msgid "Accessibility Improvements"
+msgstr ""
+
 #: quote_general_title
 msgid "What the Internet is saying..."
 msgstr "Ce qu'Internet en dit..."
@@ -897,7 +959,7 @@ msgstr "Ce qu'Internet en dit..."
 msgid "What the YouTubers are showcasing..."
 msgstr "Ce que mettent en valeur les Youtubeurs..."
 
-#: ports
+#: device_ports
 msgid "Device Ports"
 msgstr "Portages Matériels"
 
@@ -905,13 +967,9 @@ msgstr "Portages Matériels"
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: raspberry_pi_history
-msgid "Raspberry Pi Change Log"
-msgstr "Notes de Version Raspberry Pi"
-
-#: umpc
-msgid "Ultra Mobile PCs (UMPCs)"
-msgstr "PCs Ultra Mobiles (UMPCs)"
+#: learn_more_rpi
+msgid "Learn more about our Raspberry Pi release"
+msgstr ""
 
 #: js_required
 msgid "JavaScript needs to be enabled in your browser to use this form."
@@ -1017,3 +1075,9 @@ msgstr "Table des Matières"
 #: highlight_video
 msgid "Highlights"
 msgstr "Mises en lumière"
+
+#~ msgid "Raspberry Pi Change Log"
+#~ msgstr "Notes de Version Raspberry Pi"
+
+#~ msgid "Ultra Mobile PCs (UMPCs)"
+#~ msgstr "PCs Ultra Mobiles (UMPCs)"

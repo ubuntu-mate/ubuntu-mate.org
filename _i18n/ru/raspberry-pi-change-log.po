@@ -1,15 +1,15 @@
 #
 # Translators:
-# Nikolay Strelkov, 2020
+# Norbert X, 2020
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 21:27+0100\n"
+"POT-Creation-Date: 2021-02-13 14:23+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Nikolay Strelkov, 2020\n"
+"Last-Translator: Norbert X, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -21,26 +21,69 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Translate Toolkit 3.0.0\n"
 
-#: pages/ports-raspberry-pi-change-log.md:8
+#: pages/raspberry-pi-change-log.md:8
 msgid "title: Raspberry Pi Changes"
 msgstr "title: изменения для Raspberry Pi"
 
-#: pages/ports-raspberry-pi-change-log.md:12
+#: pages/raspberry-pi-change-log.md:12
 msgid "# What's New for the Raspberry Pi?"
 msgstr "# Что нового для Raspberry Pi?"
 
-#: pages/ports-raspberry-pi-change-log.md:14
-msgid ""
-"[See the Raspberry Pi page for latest developments.](/ports/raspberry-pi/)"
+#: pages/raspberry-pi-change-log.md:16
+msgid "### 30 October 2020 - 20.04.1 & 20.10"
 msgstr ""
-"[Посмотрите страницу новейших изменений для Raspberry Pi.](/ports/raspberry-"
-"pi/)"
 
-#: pages/ports-raspberry-pi-change-log.md:16
-msgid "### Ubuntu MATE 18.04.2 Beta 2 - WIP"
+#: pages/raspberry-pi-change-log.md:27
+msgid ""
+"  * Ubuntu MATE 20.10 is capable of USB boot.\n"
+"  * Compute Module 4 support.\n"
+"  * The `gpio`, `i2c`, `input` and `spi` groups are pre-created.\n"
+"    * The user created using the first-boot wizard is automatically added to "
+"the groups above.\n"
+"  * `cloud-init` is completely removed; file system expansion is handled by "
+"`cloud-initramfs-growroot` and the `x-systemd.growfs` mount option.\n"
+"  * Snaps are initialized while the first-boot setup wizard runs.\n"
+"  * Plymouth splash screen is displayed correctly during first-boot.\n"
+"  * Serial console is disabled by default.\n"
+"  * `gpu_mem` configured for 128MB by default.\n"
+"  * `hdmi_drive` now defaults to DVI mode."
+msgstr ""
+
+#: pages/raspberry-pi-change-log.md:29
+msgid "### 13 August 2020 - 20.04.1 Beta 2"
+msgstr ""
+
+#: pages/raspberry-pi-change-log.md:33
+msgid ""
+"  * Re-based on Ubuntu MATE 20.04.1.\n"
+"  * Fixed WiFi on first boot during the initial setup wizard.\n"
+"  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible."
+msgstr ""
+
+#: pages/raspberry-pi-change-log.md:35
+msgid "### 12 July 2020 - 20.04 Beta 1"
+msgstr ""
+
+#: pages/raspberry-pi-change-log.md:45
+msgid ""
+"  * Re-based on Ubuntu MATE 20.04.\n"
+"  * Added support for Raspberry Pi 4.\n"
+"  * Enabled the VC4/V3D (fkms) driver by default.\n"
+"  * Firefox uses Basic rendering by default.\n"
+"    * Based on community feedback and our testing the OMTC (OpenGL) "
+"compositing video playback is choppy by comparison.\n"
+"  * Added `rpi-eeprom`.\n"
+"  * Minecraft: Pi Edition is still be packaged.\n"
+"  * USB Booting is work in progress.\n"
+"  * Dropped `raspi-config`; we have something else in the works..."
+msgstr ""
+
+#: pages/raspberry-pi-change-log.md:47
+#, fuzzy
+msgid "### 06 April 2019 - 18.04.2 Beta 2"
 msgstr "### Ubuntu MATE 18.04.2 Beta 2 - в разработке"
 
-#: pages/ports-raspberry-pi-change-log.md:22
+#: pages/raspberry-pi-change-log.md:53
 msgid ""
 "  * Added Raspberry Pi specific applications to the Software Boutique.\n"
 "    * Minecraft: Pi Edition\n"
@@ -55,11 +98,11 @@ msgstr ""
 "  * Выключено управление питанием WiFi.\n"
 "  * Сервер `openssh-server` больше не предустанавливается."
 
-#: pages/ports-raspberry-pi-change-log.md:24
-msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
-msgstr "### Ubuntu MATE 18.04.2 Beta 1 - 24 марта 2019"
+#: pages/raspberry-pi-change-log.md:55
+msgid "### 24 March 2019 - 18.04.2 Beta 1"
+msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:34
+#: pages/raspberry-pi-change-log.md:65
 msgid ""
 "  * Fixed EGL/GLES/OpenVG libraries for VideoCore IV.\n"
 "  * Fixed Raspberry Pi features in Ubuntu MATE Welcome.\n"
@@ -85,11 +128,11 @@ msgstr ""
 "предустановлен.\n"
 "  * Подтверждена работа платы Raspberry Pi 3 Model A+, *почти*."
 
-#: pages/ports-raspberry-pi-change-log.md:36
-msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
-msgstr "### Ubuntu MATE 18.04.2 - 5 марта 2019"
+#: pages/raspberry-pi-change-log.md:67
+msgid "### 05 March 2019 - 18.04.2 Alpha 1"
+msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:47
+#: pages/raspberry-pi-change-log.md:78
 msgid ""
 "  * Fixed HDMI audio quality.\n"
 "  * Fixed USB booting.\n"
@@ -114,21 +157,23 @@ msgstr ""
 "или на ~10 Мб для armhf.\n"
 "  * Выполнено переключение на планировщик CFQ."
 
-#: pages/ports-raspberry-pi-change-log.md:49
-msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
-msgstr "### Ubuntu MATE 18.04.2 Alpha 1 - 2 марта 2019"
+#: pages/raspberry-pi-change-log.md:80
+msgid "### 02 March 2019 - 18.04.2 Alpha 1"
+msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:51
+#: pages/raspberry-pi-change-log.md:82
 msgid ""
 "  * Initial Ubuntu MATE 18.04.2 images made available for private testing."
 msgstr ""
 "  * Первые образы Ubuntu MATE 18.04.2 доступны для приватного тестирования."
 
-#: pages/ports-raspberry-pi-change-log.md:53
-msgid "### 2017-02-16 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3"
+#: pages/raspberry-pi-change-log.md:84
+#, fuzzy
+msgid ""
+"### 16 February 2017 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3"
 msgstr "### 2017-02-16 - 16.04.2 выпуск для Raspbery Pi 2 и Raspberry Pi 3"
 
-#: pages/ports-raspberry-pi-change-log.md:101
+#: pages/raspberry-pi-change-log.md:132
 msgid ""
 "  * Performance optimised.\n"
 "    * Added automated first boot partition resizing.\n"
@@ -260,13 +305,14 @@ msgstr ""
 "    * `sshguard` включается автоматически если вы включаете SSH.\n"
 "  * Размер образа уменьшен с 8 Гб до 5 Гб."
 
-#: pages/ports-raspberry-pi-change-log.md:103
+#: pages/raspberry-pi-change-log.md:134
+#, fuzzy
 msgid ""
-"### 2016-04-24 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3"
+"### 24 April 2016 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3"
 msgstr ""
 "### 2016-04-24 - 16.04 Final Release для Raspbery Pi 2 и Raspberry Pi 3"
 
-#: pages/ports-raspberry-pi-change-log.md:110
+#: pages/raspberry-pi-change-log.md:141
 msgid ""
 "  * Added OpemMAX IL hardware accelerated video playback to VLC.\n"
 "    * To enable hardware accelerated video playback go to `Tools` -> "
@@ -286,11 +332,12 @@ msgstr ""
 "  * Увеличен минимальный размер карты памяти microSDHC до 8 Гб.\n"
 "  * Удален tboplayer."
 
-#: pages/ports-raspberry-pi-change-log.md:112
-msgid "### 2016-04-05 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3"
+#: pages/raspberry-pi-change-log.md:143
+#, fuzzy
+msgid "### 05 April 2016 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3"
 msgstr "### 2016-04-05 - 16.04 Beta 2 для Raspberry Pi 2 и Raspberry Pi 3"
 
-#: pages/ports-raspberry-pi-change-log.md:124
+#: pages/raspberry-pi-change-log.md:155
 msgid ""
 "  * Updated to Ubuntu MATE 16.04 including the new Welcome which comes with "
 "Raspberry Pi specific features.\n"
@@ -326,11 +373,12 @@ msgstr ""
 "  * Экспериментальное ускорение OpenGL теперь может быть задействовано, "
 "*если вы знаете как* `;-)`"
 
-#: pages/ports-raspberry-pi-change-log.md:126
-msgid "### 2016-02-27 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3"
+#: pages/raspberry-pi-change-log.md:157
+#, fuzzy
+msgid "### 27 February 2016 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3"
 msgstr "### 2016-02-27 - 15.10.3 для Raspberry Pi 2 и Raspberry Pi 3"
 
-#: pages/ports-raspberry-pi-change-log.md:130
+#: pages/raspberry-pi-change-log.md:161
 msgid ""
 "  * Added support for Raspberry Pi 3 integrated Wifi.\n"
 "  * Updated BlueZ 5.35 with patch to support the Raspberry Pi 3 integrated "
@@ -344,15 +392,16 @@ msgstr ""
 "    * Поддержка встроенного в Raspberry Pi 3 модуля Bluetooth не работает, "
 "но мы надеемся на выпуск обновления для скорого решения этой проблемы."
 
-#: pages/ports-raspberry-pi-change-log.md:132
+#: pages/raspberry-pi-change-log.md:163
+#, fuzzy
 msgid ""
-"### 2016-02-26 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 (internal "
-"testing build)"
+"### 26 February 2016 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 "
+"(internal testing build)"
 msgstr ""
 "### 2016-02-26 - 15.10.2 для Raspberry Pi 2 и Raspberry Pi 3 (образ для "
 "внутреннего тестирования)"
 
-#: pages/ports-raspberry-pi-change-log.md:138
+#: pages/raspberry-pi-change-log.md:169
 msgid ""
 "  * Added support for Raspberry Pi 3 Model B.\n"
 "    * No Raspberry Pi 3 integrated Wifi or Bluetooth support.\n"
@@ -370,11 +419,12 @@ msgstr ""
 "  * Исправлена ошибка повторной генерации серверных SSH ключей при первой "
 "загрузке."
 
-#: pages/ports-raspberry-pi-change-log.md:140
-msgid "### 2015-12-21 - 15.10.1 for Raspberry Pi 2 Update"
+#: pages/raspberry-pi-change-log.md:171
+#, fuzzy
+msgid "### 21 December 2015 - 15.10.1 for Raspberry Pi 2 Update"
 msgstr "### 2015-12-21 - 15.10.1 для Raspberry Pi 2 Update"
 
-#: pages/ports-raspberry-pi-change-log.md:147
+#: pages/raspberry-pi-change-log.md:178
 msgid ""
 "  * Migrated the build to [Ubuntu Pi Flavour Maker](https://ubuntu-pi-"
 "flavour-maker.org) project.\n"
@@ -397,11 +447,12 @@ msgstr ""
 "принудительно через HDMI; прошлое решение создало больше проблем "
 "совместимости, чем решило."
 
-#: pages/ports-raspberry-pi-change-log.md:149
-msgid "### 2015-10-22 - 15.10 for Raspberry Pi 2 Final Release"
+#: pages/raspberry-pi-change-log.md:180
+#, fuzzy
+msgid "### 22 October 2015 - 15.10 for Raspberry Pi 2 Final Release"
 msgstr "### 2015-10-22 - 15.10 для Raspberry Pi 2 Final Release"
 
-#: pages/ports-raspberry-pi-change-log.md:165
+#: pages/raspberry-pi-change-log.md:196
 msgid ""
 "  * Added OMXPlayer GUI.\n"
 "  * Added YouTube Downloader.\n"
@@ -438,11 +489,12 @@ msgstr ""
 "Scratch может быть запущен с повышенными привилегиями, а не все.\n"
 "  * Удален Compiz."
 
-#: pages/ports-raspberry-pi-change-log.md:167
-msgid "### 2015-10-14 - 15.10 for Raspberry Pi 2 Release Candidate"
+#: pages/raspberry-pi-change-log.md:198
+#, fuzzy
+msgid "### 14 October 2015 - 15.10 for Raspberry Pi 2 Release Candidate"
 msgstr "### 2015-10-14 - 15.10 для Raspberry Pi 2 Release Candidate"
 
-#: pages/ports-raspberry-pi-change-log.md:193
+#: pages/raspberry-pi-change-log.md:224
 msgid ""
 "  * Fixed framebuffer so it now uses 32-bit colour depth.\n"
 "  * Added Minecraft Pi Edition 0.1.1-4.\n"
@@ -513,11 +565,12 @@ msgstr ""
 "  * Задействован Plymouth для повышения скорости загрузки и выключения.\n"
 "  * Удален `oem-config`."
 
-#: pages/ports-raspberry-pi-change-log.md:195
-msgid "### 2015-04-22 - 15.04 for Raspberry Pi 2 Final Release"
+#: pages/raspberry-pi-change-log.md:226
+#, fuzzy
+msgid "### 22 April 2015 - 15.04 for Raspberry Pi 2 Final Release"
 msgstr "### 2015-04-22 - 15.04 для Raspberry Pi 2 Final Release"
 
-#: pages/ports-raspberry-pi-change-log.md:216
+#: pages/raspberry-pi-change-log.md:247
 msgid ""
 "  * Enabled Ryan Finnie's PPA.\n"
 "    * <https://launchpad.net/~fo0bar/+archive/ubuntu/rpi2>\n"
@@ -578,11 +631,12 @@ msgstr ""
 "  * Удален `openssh-server` до тех пор, пока не будет реализована повторная "
 "гененерация серверных ключей."
 
-#: pages/ports-raspberry-pi-change-log.md:218
-msgid "### 2015-04-22 - 15.04 for Raspberry Pi 2 Beta 2"
+#: pages/raspberry-pi-change-log.md:249
+#, fuzzy
+msgid "### 22 April 2015 - 15.04 for Raspberry Pi 2 Beta 2"
 msgstr "### 2015-04-22 - 15.04 для Raspberry Pi 2 Beta 2"
 
-#: pages/ports-raspberry-pi-change-log.md:224
+#: pages/raspberry-pi-change-log.md:255
 msgid ""
 "  * Enabled `systemd` as the init system.\n"
 "  * Added `raspberrypi-vc` (VideoCore GPU libraries) 1.20150301.0de0b20-3.\n"
@@ -597,10 +651,28 @@ msgstr ""
 "  * Добавлен `linux-firmware`.\n"
 "  * Добавлен `openssh-server`."
 
-#: pages/ports-raspberry-pi-change-log.md:226
-msgid "### 2015-03-07"
-msgstr "### 2015-03-07"
+#: pages/raspberry-pi-change-log.md:257
+msgid "### 07 March 2015"
+msgstr ""
 
-#: pages/ports-raspberry-pi-change-log.md:227
+#: pages/raspberry-pi-change-log.md:258
 msgid "  * Initial Release."
 msgstr "  * Первоначальный релиз."
+
+#~ msgid ""
+#~ "[See the Raspberry Pi page for latest developments.](/ports/raspberry-pi/)"
+#~ msgstr ""
+#~ "[Посмотрите страницу новейших изменений для Raspberry Pi.](/ports/"
+#~ "raspberry-pi/)"
+
+#~ msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
+#~ msgstr "### Ubuntu MATE 18.04.2 Beta 1 - 24 марта 2019"
+
+#~ msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
+#~ msgstr "### Ubuntu MATE 18.04.2 - 5 марта 2019"
+
+#~ msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
+#~ msgstr "### Ubuntu MATE 18.04.2 Alpha 1 - 2 марта 2019"
+
+#~ msgid "### 2015-03-07"
+#~ msgstr "### 2015-03-07"

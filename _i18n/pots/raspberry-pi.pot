@@ -4,24 +4,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 21:13+0100\n"
+"POT-Creation-Date: 2021-02-13 14:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.2.0\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
 
-#: pages/ports-raspberry-pi.md:8
+#: pages/raspberry-pi.md:8
 msgid "title: Raspberry Pi"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:12
+#: pages/raspberry-pi.md:12
 msgid "# Ubuntu MATE for Raspberry Pi"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:17
+#: pages/raspberry-pi.md:17
 msgid ""
 "Ubuntu MATE 20.04 is available for Raspberry Pi with separate images for\n"
 "`armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what we can to\n"
@@ -29,7 +29,7 @@ msgid ""
 "environment Ubuntu MATE provides on PC."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:24
+#: pages/raspberry-pi.md:24
 msgid ""
 "Ubuntu MATE for the Raspberry Pi provides a complete, familiar, desktop environment\n"
 "that can be used for basic desktop computing. It is also of interest to makers and\n"
@@ -39,7 +39,7 @@ msgid ""
 "The full Ubuntu archive is available to you."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:30
+#: pages/raspberry-pi.md:30
 msgid ""
 "For hobbyist projects, you can stick with Ubuntu MATE for \"deployment\". But, if\n"
 "you have something more professional in mind then the applications and snaps you've\n"
@@ -48,15 +48,22 @@ msgid ""
 "[Ubuntu Appliance Portfolio](https://ubuntu.com/appliance) too."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:32
+#: pages/raspberry-pi.md:34
+msgid ""
+"{:.center .small}\n"
+"![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi.png)\n"
+"**Ubuntu MATE running on the Raspberry Pi 4**"
+msgstr ""
+
+#: pages/raspberry-pi.md:37
 msgid "## Features"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:34
+#: pages/raspberry-pi.md:39
 msgid "High-level features of these images are:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:49
+#: pages/raspberry-pi.md:54
 msgid ""
 "  * Ubuntu kernel.\n"
 "    * Performance optimised by the Ubuntu Kernel team.\n"
@@ -74,7 +81,7 @@ msgid ""
 "  * First-boot setup wizard guides you through creating a user account and configuring WiFi."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:58
+#: pages/raspberry-pi.md:63
 msgid ""
 "<!--\n"
 "  * Hardware acceleration:\n"
@@ -86,131 +93,50 @@ msgid ""
 "-->"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:62
-msgid ""
-"{:.center .small}\n"
-"![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi.png)\n"
-"**Ubuntu MATE running on the Raspberry Pi 4**"
+#: pages/raspberry-pi.md:67
+msgid "## Hardware Recommendations"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:64
-msgid "## Supported Raspberry Pi"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:71
-msgid ""
-"  * These images work on:\n"
-"    * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) **(recommended)**\n"
-"    * [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000) in a [Compute Module 4 IO Board](https://www.raspberrypi.org/products/compute-module-4-io-board/) **(recommended)**\n"
-"      * A **Raspberry Pi 4 and Compute Module 4 with 2GB RAM or more** offers the best experience.\n"
-"    * [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) **(not recommended)**\n"
-"      * With just 1GB of RAM, everything works but desktop use is hampered by memory pressure."
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:73
-msgid "## Unsupported Raspberry Pi"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:81
-msgid ""
-"  * These images *kind of* work on:\n"
-"    * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) **(not recommended)**\n"
-"    * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/) **(not recommended)**\n"
-"    * [Raspberry Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) **(not recommended)**\n"
-"      * Fails to complete the first boot setup due to insufficient memory.\n"
-"      * If you have completed the setup on another Pi that card can be inserted in a Pi 3 Model A+ and it will work.\n"
-"      * Due to only having 512MB RAM the `arm64` is not recommended; even the `armhf` version can be very tight on resources."
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:87
-msgid ""
-"  * These images **will not work on** any Raspberry Pi model using an ARMv6 instruction set:\n"
-"    * [Raspberry Pi 1 Model A+](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)\n"
-"    * [Raspberry Pi 1 Model B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/)\n"
-"    * [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)\n"
-"    * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:97
-msgid ""
-"Memory pressure is reasonable using the `armhf` images (~350MB at idle)\n"
-"but quite tight on the `arm64` images (~490MB at idle). As always,\n"
-"microSDHC I/O throughput is a bottleneck on the Raspberry PPi so don't\n"
-"gimp your Raspberry Pi by cheaping out on poor performing microSDHC\n"
-"cards. We used the [Samsung EVO Plus 32 GB microSDHC UHS-I U1](https://geni.us/AKAsg)\n"
-"and [Kingston 64 GB microSDXC Canvas Go Plus](https://geni.us/Jelmu)\n"
-"during the testing of these images and they significantly better\n"
-"performance than most other microSDHC cards we've tried.\n"
-"[But don't take our word for it](https://www.pidramble.com/wiki/benchmarks/microsd-cards)."
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:101
-msgid ""
-"You'll need a microSD card which is **8GB** or greater to fit the image.\n"
-"The file system will automatically resize to occupy the unallocated\n"
-"space of the microSD card. Here is our recommended kit lists on Amazon:"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:103
-msgid "### Raspberry Pi 4 with 8GB RAM"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:107
+#: pages/raspberry-pi.md:71
 msgid ""
 "{:.transparent .icons}\n"
 "|Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|\n"
-"|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.jpg)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.jpg)](https://geni.us/oRQKPJ)|"
+"|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.webp)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.webp)](https://geni.us/oRQKPJ)|"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:109
-msgid "### Raspberry Pi 4 with 4GB RAM"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:113
+#: pages/raspberry-pi.md:75
 msgid ""
 "{:.transparent .icons}\n"
 "|Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go Plus|\n"
 "|[![Raspberry Pi 4 4GB RAM](/images/ports/pi4-4GB.webp)](https://geni.us/wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:115
-msgid "### Raspberry Pi 4 with 2GB RAM"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:119
+#: pages/raspberry-pi.md:79
 msgid ""
 "{:.transparent .icons}\n"
 "|Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I U1|\n"
-"|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.jpg)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|"
+"|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/GN70L)|[![Flirc Case](/images/ports/flirc.webp)](https://geni.us/QvssBp)|[![Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus.png)](https://geni.us/AKAsg)|"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:126
-msgid ""
-"    title = \"Download\"\n"
-"    text = \"Run Ubuntu MATE on your Raspberry Pi today.\"\n"
-"    button_text = \"Download\"\n"
-"    button_url = \"/download/\""
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:130
+#: pages/raspberry-pi.md:83
 msgid "## Additional features"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:132
+#: pages/raspberry-pi.md:85
 msgid "### USB Booting"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:134
+#: pages/raspberry-pi.md:87
 msgid ""
 "Ubuntu MATE 20.10 and newer support USB booting, **but Ubuntu MATE 20.04 "
 "does not**."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:136
+#: pages/raspberry-pi.md:89
 msgid "### Compute Module 4"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:141
+#: pages/raspberry-pi.md:94
 msgid ""
 "If you have a [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000)\n"
 "you can enable the USB2 outputs on the [Compute Module 4 IO Board](https://www.raspberrypi.org/products/compute-module-4-io-board/),\n"
@@ -218,31 +144,31 @@ msgid ""
 "`/boot/firmware/config.txt`."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:143
+#: pages/raspberry-pi.md:96
 msgid "    #dtoverlay=dwc2,dr_mode=host"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:145
+#: pages/raspberry-pi.md:98
 msgid "#### Enable USB boot for Raspberry Pi 4"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:147
+#: pages/raspberry-pi.md:100
 msgid ""
 "To enable USB mass storage boot on a Raspberry Pi 4 follow these steps:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:149
+#: pages/raspberry-pi.md:102
 msgid ""
 "  * [Enable optional USB boot on Raspberry Pi "
 "4](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-"
 "pi-4#4-optional-usb-boot)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:151
+#: pages/raspberry-pi.md:104
 msgid "### Enable USB boot for Raspberry Pi 2, 3 and 3+"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:156
+#: pages/raspberry-pi.md:109
 msgid ""
 "The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,\n"
 "are capable of booting from a USB drive. For the Pi 2 and 3 you'll first\n"
@@ -250,49 +176,49 @@ msgid ""
 "this is unnecessary on the Pi 3+ as USB booting is enabled by default."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:158
+#: pages/raspberry-pi.md:111
 msgid "### Firmware"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:162
+#: pages/raspberry-pi.md:115
 msgid ""
 "The GPU firmware partition is mounted at `/boot/firmware`. The files\n"
 "`/boot/firmware/config.txt` and `/boot/firmware/cmdline.txt` contain\n"
 "the system configuration and kernel command line options respectively."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:164
+#: pages/raspberry-pi.md:117
 msgid "### SSH"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:167
+#: pages/raspberry-pi.md:120
 msgid ""
 "The OpenSSH server is not installed by default. Simply install it to\n"
 "to enable SSH."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:169
+#: pages/raspberry-pi.md:122
 msgid "    sudo apt install openssh-server"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:173
+#: pages/raspberry-pi.md:126
 msgid ""
 "If you install SSH then you might also want to install `sshguard`\n"
 "which is highly optimised and well suited for use on the Raspberry Pi\n"
 "to protect from brute force attacks against SSH."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:175
+#: pages/raspberry-pi.md:128
 msgid "    sudo apt install sshguard"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:178
+#: pages/raspberry-pi.md:131
 msgid ""
 "<!--\n"
 "### Steam Link for Raspberry Pi"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:183
+#: pages/raspberry-pi.md:136
 msgid ""
 "The Steam Link app extends Steam Link functionality to the Raspberry Pi\n"
 "Model B 3 and 3+ and uses the same streaming technology as Valve's\n"
@@ -300,197 +226,138 @@ msgid ""
 "VR games right from your Raspberry Pi."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:185
+#: pages/raspberry-pi.md:138
 msgid "Can be installed via `sudo apt install steamlink`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:187
+#: pages/raspberry-pi.md:140
 msgid "You can learn more about Steam Link for Raspberry Pi from Valve:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:189
+#: pages/raspberry-pi.md:142
 msgid ""
 "  * [Steam Link App for Raspberry "
 "Pi](https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:191
+#: pages/raspberry-pi.md:144
 msgid "### Minecraft: Pi Edition"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:195
+#: pages/raspberry-pi.md:148
 msgid ""
 "Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry Pi.\n"
 "It is based on an old version of Minecraft Pocket Edition and offers language\n"
 "bindings for Python."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:197
+#: pages/raspberry-pi.md:150
 msgid "Can be installed via `sudo apt install minecraft-pi`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:200
+#: pages/raspberry-pi.md:153
 msgid ""
 "You can learn more about how to control the player, manually build with blocks\n"
 "and use the Python interface to manipulate the world around you from the Raspberry Pi Foundation."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:203
+#: pages/raspberry-pi.md:156
 msgid ""
 "  * [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi)\n"
 "-->"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:205
+#: pages/raspberry-pi.md:158
 msgid "### Redirecting audio output"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:207
+#: pages/raspberry-pi.md:160
 msgid ""
 "If you have issues with audio, you may try un-commenting the following line "
 "in `/boot/firmware/config.txt`:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:209
+#: pages/raspberry-pi.md:162
 msgid "    #hdmi_drive=2"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:213
+#: pages/raspberry-pi.md:166
 msgid ""
 "This forces the HDMI output into HDMI mode instead of DVI; which doesn't support\n"
 "audio output. You can also configure the system to output to a particular audio\n"
 "device."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:215
+#: pages/raspberry-pi.md:168
 msgid "#### For HDMI"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:217
+#: pages/raspberry-pi.md:170
 msgid "    sudo amixer cset numid=3 2"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:219
+#: pages/raspberry-pi.md:172
 msgid "#### For 3.5mm audio jack"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:221
+#: pages/raspberry-pi.md:174
 msgid "    sudo amixer cset numid=3 1"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:224
+#: pages/raspberry-pi.md:177
 msgid ""
 "<!--\n"
 "### Hardware accelerated video"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:228
+#: pages/raspberry-pi.md:181
 msgid ""
 "Most videos will play with hardware acceleration using VLC which\n"
 "is pre-installed in Ubuntu MATE. To use hardware accelerated video playback\n"
 "with `ffplay` you must specify the `h264_mmal` codec."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:230
+#: pages/raspberry-pi.md:183
 msgid "    `ffplay -vcodec h264_mmal video.mp4`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:234
+#: pages/raspberry-pi.md:187
 msgid ""
 "Hardware accelerated playback on the Raspberry Pi works by overlaying the\n"
 "video directly to the screen. Therefore there are no onscreen controls for\n"
 "playback control. You'll need to use the ffmpeg keyboard shortcuts."
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:236
+#: pages/raspberry-pi.md:189
 msgid ""
 "  * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-"
 "playing)"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:238
+#: pages/raspberry-pi.md:191
 msgid ""
 "`ffmpeg` also offer hardware enabled video encoding via the `h264_omx` "
 "encoder. Here is an example:"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:240
+#: pages/raspberry-pi.md:193
 msgid ""
 "    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx "
 "output.mp4`"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:244
+#: pages/raspberry-pi.md:197
 msgid ""
 "However if you have MPEG-2 or VC-1 video video files then **you will need MPEG-2\n"
 "and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/license-keys/)**.\n"
 "-->"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:246
-msgid "## Recent Changes"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:248
-msgid "### Ubuntu MATE 20.04.1 & 20.10 - October 30th 2020"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:259
-msgid ""
-"  * Ubuntu MATE 20.10 is capable of USB boot.\n"
-"  * Compute Module 4 support.\n"
-"  * The `gpio`, `i2c`, `input` and `spi` groups are pre-created.\n"
-"    * The user created using the first-boot wizard is automatically added to the groups above.\n"
-"  * `cloud-init` is completely removed; file system expansion is handled by `cloud-initramfs-growroot` and the `x-systemd.growfs` mount option.\n"
-"  * Snaps are initialized while the first-boot setup wizard runs.\n"
-"  * Plymouth splash screen is displayed correctly during first-boot.\n"
-"  * Serial console is disabled by default.\n"
-"  * `gpu_mem` configured for 128MB by default.\n"
-"  * `hdmi_drive` now defaults to DVI mode."
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:261
-msgid "### Ubuntu MATE 20.04.1 Beta 2 - 13 August 2020"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:265
-msgid ""
-"  * Re-based on Ubuntu MATE 20.04.1.\n"
-"  * Fixed WiFi on first boot during the initial setup wizard.\n"
-"  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible."
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:267
-msgid "### Ubuntu MATE 20.04 Beta 1 - 12 July 2020"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:277
-msgid ""
-"  * Re-based on Ubuntu MATE 20.04.\n"
-"  * Added support for Raspberry Pi 4.\n"
-"  * Enabled the VC4/V3D (fkms) driver by default.\n"
-"  * Firefox uses Basic rendering by default.\n"
-"    * Based on community feedback and our testing the OMTC (OpenGL) compositing video playback is choppy by comparison.\n"
-"  * Added `rpi-eeprom`.\n"
-"  * Minecraft: Pi Edition is still be packaged.\n"
-"  * USB Booting is work in progress.\n"
-"  * Dropped `raspi-config`; we have something else in the works..."
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:279
-msgid "### Previous Changes"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:281
-msgid ""
-"  * [See what changed in earlier releases.](/ports/raspberry-pi-change-log/)"
-msgstr ""
-
-#: pages/ports-raspberry-pi.md:283
+#: pages/raspberry-pi.md:201
 msgid "## Feedback and Improvements"
 msgstr ""
 
-#: pages/ports-raspberry-pi.md:286
+#: pages/raspberry-pi.md:204
 msgid ""
 "These images are not official Ubuntu products and are community\n"
 "supported by the Ubuntu MATE team. Please post feedback and\n"

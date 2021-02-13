@@ -1,0 +1,72 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-13 14:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
+
+#: pages/raspberry-pi-download.md:8
+msgid "title: Raspberry Pi Download Options"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:12
+msgid "## Which image should I download?"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:14
+msgid "We offer two images:"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:16
+msgid "### arm64"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:20
+msgid ""
+"We recommend `arm64` for newer Pi models with more then 2 GB of RAM as the\n"
+"hardware will benefit from CPU and memory pressure optimisations.\n"
+"This will be our focus for future development."
+msgstr ""
+
+#: pages/raspberry-pi-download.md:23
+msgid "### armhf"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:27
+msgid ""
+"`armhf` has been the traditional target for Raspbian, and works best on\n"
+"low RAM hardware like the Pi 2 and 3. Choose this one if you need to "
+"maximize\n"
+"compatibility with software designed for Raspberry Pi OS."
+msgstr ""
+
+#: pages/raspberry-pi-download.md:30
+msgid "## Download"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:32
+msgid ""
+"If your Raspberry Pi is an earlier model, [make sure it is compatible.](/"
+"raspberry-pi/compatibility/)"
+msgstr ""
+
+#: pages/raspberry-pi-download.md:35
+msgid ""
+"Please note the schedule for new images are typically are behind the\n"
+"desktop releases of Ubuntu MATE."
+msgstr ""
+
+#: pages/raspberry-pi-download.md:37
+msgid ""
+"[Download arm64](/download/arm64/){:.btn .green}\n"
+"[Download armhf](/download/armhf/){:.btn}"
+msgstr ""

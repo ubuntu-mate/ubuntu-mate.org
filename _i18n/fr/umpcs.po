@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 21:13+0100\n"
+"POT-Creation-Date: 2021-02-13 14:42+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
 "Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Translate Toolkit 3.2.0\n"
 
-#: pages/ports-umpc.md:8
+#: pages/umpcs.md:7
 msgid "title: Ultra Mobile PCs"
 msgstr "title: PCs Ultra Mobile"
 
-#: pages/ports-umpc.md:12
+#: pages/umpcs.md:11
 msgid "# Ubuntu MATE for Ultra Mobile PCs"
 msgstr "# Ubuntu MATE pour PCs Ultra Mobiles"
 
-#: pages/ports-umpc.md:24
+#: pages/umpcs.md:23
 msgid ""
 "The Ubuntu MATE team offers a bespoke images for the\n"
 "[GPD Pocket](https://gpd.hk/gpdpocket),\n"
@@ -55,7 +55,7 @@ msgstr ""
 " une expérience \"clés en mains\" sans perte de temps. Certains modèles "
 "d'appareils OneMix Yoga sont également pris en charge."
 
-#: pages/ports-umpc.md:32
+#: pages/umpcs.md:31
 msgid ""
 "Ultra Mobile PCs (UMPC) have had something of a resurgence in recent years\n"
 "thanks to very successful crowd funding campaigns for netbook style laptops\n"
@@ -78,7 +78,7 @@ msgstr ""
 "[stockmind](https://github.com/stockmind/gpd-pocket-ubuntu-respin) et bien \n"
 "d'autres personnes."
 
-#: pages/ports-umpc.md:37
+#: pages/umpcs.md:36
 msgid ""
 "{:.center .small}\n"
 "![Ubuntu MATE running on the GPD Pocket (left) and GPD Pocket 2 (right)](/"
@@ -90,16 +90,16 @@ msgstr ""
 "images/blog/gpd-pockets.jpg)\n"
 "**Ubuntu MATE sur le GPD Pocket (à gauche) et le GPD Pocket 2 (à droite)**"
 
-#: pages/ports-umpc.md:40
+#: pages/umpcs.md:39
 msgid "## What works"
 msgstr "## Ce qui fonctionne"
 
-#: pages/ports-umpc.md:42
+#: pages/umpcs.md:41
 msgid "The Ubuntu MATE images for the UMPCs adds the following tweaks:"
 msgstr ""
 "Les images d'Ubuntu MATE pour les UMPCs ajoutent les ajustements suivants:"
 
-#: pages/ports-umpc.md:57
+#: pages/umpcs.md:56
 msgid ""
 "  * Enable **frame buffer and Xorg display rotation**.\n"
 "    * Supports `modesetting` *and* `xorg-video-intel` display drivers.\n"
@@ -139,15 +139,15 @@ msgstr ""
 "par défaut.\n"
 "  * Le GPD WIN Max propose un EDID persistant et personnalisé."
 
-#: pages/ports-umpc.md:59
+#: pages/umpcs.md:58
 msgid "## Known Issues"
 msgstr "## Problèmes Connus"
 
-#: pages/ports-umpc.md:61
+#: pages/umpcs.md:60
 msgid "### GPD Pocket, WIN 2, MicroPC, WIN Max and Topjoy Falcon"
 msgstr "### GPD Pocket, WIN 2, MicroPC, WIN Max et Topjoy Falcon"
 
-#: pages/ports-umpc.md:66
+#: pages/umpcs.md:65
 msgid ""
 "  * The GRUB2 menu is rotated 90 degrees on the GPD Pocket, MicroPC and "
 "Topjoy Falcon.\n"
@@ -163,11 +163,11 @@ msgstr ""
 "d'audio à partir du canal droit.\n"
 "    * La solution est d'utiliser un casque connecté au jack audio 3.5mm."
 
-#: pages/ports-umpc.md:68
+#: pages/umpcs.md:67
 msgid "### GPD Pocket 2"
 msgstr "### GPD Pocket 2"
 
-#: pages/ports-umpc.md:72
+#: pages/umpcs.md:71
 msgid ""
 "  * The boot menu is not displayed in the GPD Pocket 2 live media.\n"
 "    * The workaround is to wait and the system will boot after a few seconds "
@@ -181,11 +181,11 @@ msgstr ""
 "    * Toutefois, **GRUB est pleinement fonctionnel et utilisable après "
 "installation**."
 
-#: pages/ports-umpc.md:74
+#: pages/umpcs.md:73
 msgid "### GPD WIN 2, GPD WIN Max & Topjoy Falcon"
 msgstr "### GPD WIN 2, GPD WIN Max & Topjoy Falcon"
 
-#: pages/ports-umpc.md:77
+#: pages/umpcs.md:76
 msgid ""
 "  * The Plymouth splash screen is not correctly orientated; and for the GPD "
 "WIN Max incorrectly coloured.\n"
@@ -195,7 +195,7 @@ msgstr ""
 "GPD Win Max, les couleurs ne seront pas correctes.\n"
 "* La solution est de ne pas s'en soucier."
 
-#: pages/ports-umpc.md:84
+#: pages/umpcs.md:83
 msgid ""
 "    title = \"Download\"\n"
 "    text = \"Run Ubuntu MATE on your GPD hardware or Topjoy Falcon today!\"\n"
@@ -208,11 +208,11 @@ msgstr ""
 "    button_text = \"Télécharger\"\n"
 "    button_url = \"/download/\""
 
-#: pages/ports-umpc.md:88
+#: pages/umpcs.md:87
 msgid "## How were these images created?"
 msgstr "## Comment ces images ont-elles été créées ?"
 
-#: pages/ports-umpc.md:91
+#: pages/umpcs.md:90
 msgid ""
 "With a script called `umpc-ubuntu-respin.sh` which you can find in the\n"
 "following GitHub repository:"
@@ -220,19 +220,19 @@ msgstr ""
 "Avec un script appelé `umpc-ubuntu-respin.sh` que vous pouvez trouver dans "
 "le dépôt GitHub suivant:"
 
-#: pages/ports-umpc.md:93
+#: pages/umpcs.md:92
 msgid "  * <https://github.com/wimpysworld/umpc-ubuntu>"
 msgstr "  * <https://github.com/wimpysworld/umpc-ubuntu>"
 
-#: pages/ports-umpc.md:95
+#: pages/umpcs.md:94
 msgid "## Accessing UMPC boot menus"
 msgstr "## Accéder aux menus de démarrage de l'UMPC"
 
-#: pages/ports-umpc.md:97
+#: pages/umpcs.md:96
 msgid "### GPD Pocket, GPD MicroPC, GPD P2 Max, OneMix Yoga 2"
 msgstr "### GPD Pocket, GPD MicroPC, GPD P2 Max, OneMix Yoga 2"
 
-#: pages/ports-umpc.md:99
+#: pages/umpcs.md:98
 msgid ""
 "Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the "
 "<kbd>F7</kbd> key until the Boot Manager screen appears."
@@ -241,11 +241,11 @@ msgstr ""
 "sur la touche <kbd>F7</kbd> jusqu'à ce que l'écran de Gestion de Démarrage "
 "apparaisse."
 
-#: pages/ports-umpc.md:101
+#: pages/umpcs.md:100
 msgid "### GPD Win Max"
 msgstr "### GPD Win Max"
 
-#: pages/ports-umpc.md:103
+#: pages/umpcs.md:102
 msgid ""
 "Switch the device on, immediately hold the <kbd>F7</kbd> key until the Boot "
 "Manager screen appears."
@@ -253,11 +253,11 @@ msgstr ""
 "Allumez l'appareil, maintenez immédiatement la touche <kbd>7</kbd> jusqu'à "
 "ce que l'écran de Gestion de Démarrage apparaisse."
 
-#: pages/ports-umpc.md:105
+#: pages/umpcs.md:104
 msgid "### GPD Pocket 2 & Topjoy Falcon"
 msgstr "### GPD Pocket 2 & Topjoy Falcon"
 
-#: pages/ports-umpc.md:107
+#: pages/umpcs.md:106
 msgid ""
 "Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the "
 "<kbd>F12</kbd> key until the Boot Manager screen appears."
@@ -266,15 +266,15 @@ msgstr ""
 "sur la touche <kbd>F12</kbd> jusqu'à ce que l'écran de Gestion de Démarrage "
 "apparaisse."
 
-#: pages/ports-umpc.md:109
+#: pages/umpcs.md:108
 msgid "## Accessing UMPC BIOS menus"
 msgstr "## Accéder aux menus du BIOS de l'UMPC"
 
-#: pages/ports-umpc.md:111
+#: pages/umpcs.md:110
 msgid "### GPD WIN 2"
 msgstr "### GPD WIN 2"
 
-#: pages/ports-umpc.md:115
+#: pages/umpcs.md:114
 msgid ""
 "Switch the device on, when the GPD logo is displayed press <kbd>Del</kbd> "
 "to\n"
@@ -287,11 +287,11 @@ msgstr ""
 "périphérique de stockage\n"
 "à partir duquel vous souhaitez démarrer sous *Boot Override*"
 
-#: pages/ports-umpc.md:117
+#: pages/umpcs.md:116
 msgid "### Topjoy Falcon"
 msgstr "### Topjoy Falcon"
 
-#: pages/ports-umpc.md:119
+#: pages/umpcs.md:118
 msgid ""
 "Switch the device on, immediately hold the <kbd>Fn</kbd> key and tap the "
 "<kbd>F2</kbd> key until the BIOS appears."
@@ -299,11 +299,11 @@ msgstr ""
 "Allumez l'appareil, maintenez immédiatement la touche <kbd>Fn</kbd> et tapez "
 "sur la touche <kbd>F2</kbd> jusqu'à ce que le BIOS apparaisse."
 
-#: pages/ports-umpc.md:121
+#: pages/umpcs.md:120
 msgid "## Feedback"
 msgstr "## Commentaires"
 
-#: pages/ports-umpc.md:123
+#: pages/umpcs.md:122
 msgid ""
 "These images for the GPD and Topjoy devices are community supported,\n"
 "please post all feedback via the [community forum](https://ubuntu-mate."

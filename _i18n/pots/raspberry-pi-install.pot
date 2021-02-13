@@ -1,0 +1,356 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-13 14:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
+
+#: pages/raspberry-pi-install.md:8
+msgid "title: Raspberry Pi Installation Guide"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:15
+msgid "## 1. Overview"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:17
+msgid ""
+"In this tutorial, we walk you through the process of installing Ubuntu MATE "
+"Desktop on a Raspberry Pi."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:19
+msgid "What you'll learn:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:22
+msgid ""
+"- How to create a bootable Ubuntu MATE Desktop microSD card\n"
+"- Tips on booting from USB drives (optional)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:24
+msgid "What you'll need:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:32
+msgid ""
+"- A microSD card (4GB minimum, 8GB recommended)\n"
+"- A computer with a microSD card drive\n"
+"- A Raspberry Pi 2 or newer\n"
+"- A micro USB-C power cable\n"
+"- A monitor with an HDMI interface\n"
+"- A micro HDMI cable\n"
+"- A USB keyboard"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:35
+msgid "## 2. Download the Ubuntu MATE image"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:38
+msgid ""
+"Download either the 32-bit or 64-bit image depending on your needs. Make sure\n"
+"that the version is [compatible with your Raspberry Pi model.](/raspberry-pi/compatibility/)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:40
+msgid "[Downloads for Raspberry Pi](/raspberry-pi/download/){:.btn}"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:43
+msgid "## 3. Prepare the SD Card"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:45
+msgid "First, insert the microSD card into your computer."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:48
+msgid ""
+"You need to install the right Raspberry Pi Imager for your operating system.\n"
+"You can do this on Ubuntu by running:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:50
+msgid "    sudo snap install rpi-imager"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:52
+msgid "Or on other operating systems follow these links:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:56
+msgid ""
+"- [Raspberry Pi Imager as a deb package](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#2-prepare-the-sd-card)\n"
+"- [Raspberry Pi Imager for Windows](https://downloads.raspberrypi.org/imager/imager.exe)\n"
+"- [Raspberry Pi Imager for macOS](https://downloads.raspberrypi.org/imager/imager.dmg)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:58
+msgid "Once this is done, start the Imager and open the “CHOOSE OS” menu."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:60
+msgid "![PI Imager](/images/rpi/piimager.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:63
+msgid "Scroll down the menu and click “Use custom”."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:65
+msgid "![Choose Custom](/images/rpi/choosecustom.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:67
+msgid ""
+"A dialog box will open asking you to choose the image you wish to burn. "
+"Click through and select your file."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:69
+msgid "![Choose File](/images/rpi/fileselect.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:71
+msgid ""
+"Once you have made your custom image selection open the “SD Card” menu."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:73
+msgid ""
+"> **Note:** Please make sure you choose the right location to write to. This"
+" could erase your data."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:75
+msgid ""
+"Select the microSD card you have inserted, and click “WRITE”. Then just sit "
+"back and wait for the magic to happen… (This magic might take a few minutes)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:78
+msgid "## 4. Boot your Desktop"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:80
+msgid ""
+"Ensure your HDMI screen and a USB keyboard are plugged in before powering "
+"the Pi. You will be able to see the boot process on screen and, eventually, "
+"the first run wizard."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:82
+msgid "First set your language, then set your keyboard layout."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:84
+msgid "![Keyboard](/images/rpi/keyboard.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:87
+msgid ""
+"Now pick yourself a time zone. Unlike convential computers, the Raspberry Pi\n"
+"does not have a battery-powered hardware clock and must sync the date and time from the Internet."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:89
+msgid "![Timezone](/images/rpi/location.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:91
+msgid ""
+"You will be prompted to choose a local Wi-Fi network. Select your Wi-Fi "
+"network and enter the password in the network connection screen."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:93
+msgid "Now choose a user name and password."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:95
+msgid "![User](/images/rpi/user.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:97
+msgid ""
+"After setting the keyboard layout, timezone and user credentials you'll be "
+"taken to the login screen after a few minutes. And voila! You are almost "
+"done."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:99
+msgid "Welcome to your new Ubuntu MATE Desktop:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:101
+msgid "![Destop](/images/rpi/desktop.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:105
+msgid ""
+"Once logged in, the first thing you should do is to update Ubuntu MATE. This can\n"
+"be done via the **Software Updater** application:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:107
+msgid "![Update](/images/rpi/update.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:109
+msgid "Alternately, you can update via the Terminal:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:112
+msgid ""
+"    sudo apt update\n"
+"    sudo apt full-upgrade"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:114
+msgid ""
+"At this point you can enjoy your MATE set up as is, or add software as "
+"needed through the Software Boutique:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:116
+msgid "![Software](/images/rpi/software.png)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:119
+msgid "## (Optional) Setting up USB Boot"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:121
+msgid ":warning: **For Raspberry Pi 4 only.**"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:123
+msgid ""
+"You can also now boot from a USB attached hard drive or SSD with no microSD "
+"card involved. You have to do this after booting from an SD card however "
+"because all Raspberry Pi 4 models ship with an EEPROM configuration that "
+"boots from SD cards only, but we can change that."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:125
+msgid "The first check you've got an up to date EEPROM version on your Pi 4:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:127
+msgid "    sudo apt install rpi-eeprom"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:129
+msgid "Extract the current bootloader configuration to a text file:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:131
+msgid "    sudo vcgencmd bootloader_config > bootconf.txt"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:133
+msgid ""
+"Next we need to set the `BOOT_ORDER` option to `0xf41` (meaning attempt SD "
+"card, then USB mass-storage device, then repeat; see the [Raspberry Pi 4 "
+"bootloader configuration] for more information)."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:135
+msgid ""
+"[Raspberry Pi 4 bootloader configuration]: "
+"https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:137
+msgid "    sed -i -e '/^BOOT_ORDER=/ s/=.*$/=0xf41/' bootconf.txt"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:139
+msgid ""
+"Alternatively, open `bootconf.txt` and make the edits yourself if you don't "
+"like sed-hacking."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:141
+msgid "Now we generate a copy of the EEPROM with the update configuration:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:143
+msgid ""
+"    rpi-eeprom-config --out pieeprom-new.bin --config bootconf.txt "
+"/lib/firmware/raspberrypi/bootloader/critical/pieeprom-2020-09-03.bin"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:145
+msgid "Set the system to flash the new EEPROM firmware on the next boot"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:147
+msgid "    sudo rpi-eeprom-update -d -f ./pieeprom-new.bin"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:149
+msgid ""
+"To apply any changes (the EEPROM is only updated during the early stages of "
+"boot)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:151
+msgid "    sudo reboot"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:153
+msgid ""
+"Now we need to get the image onto a hard drive. That's the easy part. If you"
+" roll this tutorial back to “Prepare the SD Card” and go through it "
+"replacing “SD Card” with “Hard Drive” you'll have it."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:155
+msgid "You should now be able to boot from your hard drive. Congratulations!"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:165
+msgid ""
+"> :warning: **Warning: Some drives may have issues when used to boot the Pi.**\n"
+">\n"
+"> In particular, spinning hard disks require a lot more power than SSDs or flash memory.\n"
+"> You will very likely need a powered USB hub or external USB drive enclosure.\n"
+">\n"
+"> Insufficient power for 2.5 HDDs may fail to spin up without power, or increase\n"
+"> their risk of corruption due to power fluctuations.\n"
+">\n"
+"> Certain USB hubs may cause compatibility issues. For best results, an SSD is recommended."
+msgstr ""
+
+#: pages/raspberry-pi-install.md:168
+msgid ""
+"There's lots of good information on both the Pi forums and various GitHub "
+"issues for debugging boot issues; here's a selection of links in a rough "
+"“look at this first” order from our top Pi guy:"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:175
+msgid ""
+"* [Pi Forums: Is your Pi not booting?](https://www.raspberrypi.org/forums/viewtopic.php?t=58151)\n"
+"* [Pi Forums: USB MSD boot EEPROM](https://www.raspberrypi.org/forums/viewtopic.php?f=63&amp;t=277007)\n"
+"* [Pi Forums: Pi 4 USB3 SSD slow speeds?](https://www.raspberrypi.org/forums/viewtopic.php?t=245931)\n"
+"* [Pi Docs: Pi 4 Bootloader Configuration](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md)\n"
+"* [GitHub Issue: Enclosure doesn't power on after reboot](https://github.com/raspberrypi/rpi-eeprom/issues/180)"
+msgstr ""
+
+#: pages/raspberry-pi-install.md:178
+msgid ""
+"_This page is an adaptation of [Ubuntu's Raspberry Pi "
+"tutorial.](https://discourse.ubuntu.com/t/18925)_"
+msgstr ""
