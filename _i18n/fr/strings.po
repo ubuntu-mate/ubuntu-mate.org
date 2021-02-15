@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-13 14:42+0100\n"
+"POT-Creation-Date: 2021-02-15 11:27+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
 "Last-Translator: Yoshida Shouyou, 2021\n"
 "Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.2.0\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
 
 #: homepage
 msgid "Home Page"
@@ -814,42 +814,40 @@ msgid "Media Preparations"
 msgstr "Préparations du Media"
 
 #: about_features
-#, fuzzy
 msgid "About & Features"
-msgstr "Fonctionnalités"
+msgstr "À Propos & Fonctionnalités"
 
 #: whats_new
 msgid "What's New?"
-msgstr ""
+msgstr "Quoi de neuf ?"
 
 #: install_guide
-#, fuzzy
 msgid "Install Guide"
-msgstr "Installateur"
+msgstr "Guide d'Installation"
 
 #: compatibility
 msgid "Compatibility Check"
-msgstr ""
+msgstr "Vérification de la Compatibilité"
 
 #: compatible_releases
 msgid "Compatible Releases"
-msgstr ""
+msgstr "Versions Compatibles"
 
 #: compatible_but_slow
 msgid "Compatible but performance is poor. Not recommended."
-msgstr ""
+msgstr "Compatible, cependant avec de mauvaises performances. Pas recommandé."
 
 #: model
 msgid "Model"
-msgstr ""
+msgstr "Modèle"
 
 #: ram
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: instruction_set
 msgid "Instruction Set"
-msgstr ""
+msgstr "Jeux d'Instructions"
 
 #: founders_title
 msgid "Founders"
@@ -885,13 +883,15 @@ msgstr "Ces gens ont créé l'Histoire avec la distro."
 
 #: contrib2_title
 msgid "Contributors & Special Thanks"
-msgstr ""
+msgstr "Contributeurs & Remerciements Particuliers"
 
 #: contrib2_desc
 msgid ""
 "These people have made significant, singular contributions or have served as "
 "team members in the past."
 msgstr ""
+"Ces gens ont contribué de manière significative, singulière ou ont servi en "
+"tant que membres de l'équipe par le passé."
 
 #: team_ubuntu
 msgid "Ubuntu Member"
@@ -906,9 +906,8 @@ msgid "MATE Desktop Team"
 msgstr "Équipe du Bureau MATE"
 
 #: team_debian
-#, fuzzy
 msgid "Debian Member"
-msgstr "Membre d'Ubuntu"
+msgstr "Membre de Debian"
 
 #: team_coder
 msgid "Code Contributor"
@@ -943,13 +942,12 @@ msgid "Package Maintainer"
 msgstr "Mainteneur de Paquets"
 
 #: team_rpi_contrib
-#, fuzzy
 msgid "Raspberry Pi Contributor"
-msgstr "Contributeurs Notables"
+msgstr "Contributeur au Raspberry Pi"
 
 #: team_accessibility
 msgid "Accessibility Improvements"
-msgstr ""
+msgstr "Améliorations d'Accessibilité"
 
 #: quote_general_title
 msgid "What the Internet is saying..."
@@ -969,7 +967,7 @@ msgstr "Raspberry Pi"
 
 #: learn_more_rpi
 msgid "Learn more about our Raspberry Pi release"
-msgstr ""
+msgstr "En apprendre plus sur notre version Raspberry Pi"
 
 #: js_required
 msgid "JavaScript needs to be enabled in your browser to use this form."
@@ -1075,9 +1073,3 @@ msgstr "Table des Matières"
 #: highlight_video
 msgid "Highlights"
 msgstr "Mises en lumière"
-
-#~ msgid "Raspberry Pi Change Log"
-#~ msgstr "Notes de Version Raspberry Pi"
-
-#~ msgid "Ultra Mobile PCs (UMPCs)"
-#~ msgstr "PCs Ultra Mobiles (UMPCs)"

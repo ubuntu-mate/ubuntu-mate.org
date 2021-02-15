@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-change-log.md:8
 msgid "title: Raspberry Pi Changes"
@@ -29,7 +29,7 @@ msgstr "# Quoi de Neuf pour le Raspberry Pi?"
 
 #: pages/raspberry-pi-change-log.md:16
 msgid "### 30 October 2020 - 20.04.1 & 20.10"
-msgstr ""
+msgstr "### 30 Octobre 2020 - 20.04.1 & 20.10"
 
 #: pages/raspberry-pi-change-log.md:27
 msgid ""
@@ -46,10 +46,25 @@ msgid ""
 "  * `gpu_mem` configured for 128MB by default.\n"
 "  * `hdmi_drive` now defaults to DVI mode."
 msgstr ""
+"  * Ubuntu MATE 20.10 est capable du démarrage par USB.\n"
+"  * Prise en charge du Compute Module 4.\n"
+"  * Les groupes `gpio`, `i2c`, `input` et `spi` sont pré-créés.\n"
+"    * L'utilisateur créé au cours de l'assistant lors du premier démarrage "
+"est automatiquement ajouté aux groupes ci-dessus..\n"
+"  * `cloud-init` est complètement supprimé; l'expansion du système de "
+"fichier est gérée par `cloud-initramfs-growroot` et l'option de montage `x-"
+"systemd.growfs`.\n"
+"  * Les snaps sont initialisés durant l'exécution de l'assistant lors du "
+"premier démarrage.\n"
+"  * L'écran de démarrage Plymouth est affiché correctement lors du premier "
+"démarrage.\n"
+"  * La console série est désactivée par défaut.\n"
+"  * `gpu_mem` est configuré pour  128MO par défaut.\n"
+"  * `hdmi_drive` est dorénavant en mode DVI par défaut."
 
 #: pages/raspberry-pi-change-log.md:29
 msgid "### 13 August 2020 - 20.04.1 Beta 2"
-msgstr ""
+msgstr "### 13 Août 2020 - 20.04.1 Beta 2"
 
 #: pages/raspberry-pi-change-log.md:33
 msgid ""
@@ -57,10 +72,15 @@ msgid ""
 "  * Fixed WiFi on first boot during the initial setup wizard.\n"
 "  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible."
 msgstr ""
+"  * Re-basée sur Ubuntu MATE 20.04.1.\n"
+"  * Corrigé le WiFi lors du premier démarrage durant l'assistant initial de "
+"mise en route.\n"
+"  * Abandonné `gpu_mem` de `config.txt` parce que les défauts semblent "
+"raisonnables."
 
 #: pages/raspberry-pi-change-log.md:35
 msgid "### 12 July 2020 - 20.04 Beta 1"
-msgstr ""
+msgstr "### 12 Juillet 2020 - 20.04 Beta 1"
 
 #: pages/raspberry-pi-change-log.md:45
 msgid ""
@@ -75,11 +95,21 @@ msgid ""
 "  * USB Booting is work in progress.\n"
 "  * Dropped `raspi-config`; we have something else in the works..."
 msgstr ""
+"* Re-basée sur Ubuntu MATE 20.04.\n"
+"* Ajout de la prise en charge du Raspberry Pi 4.\n"
+"* Activé le pilote VC4/V3D (fkms) par défaut.\n"
+"* Firefox utilise le rendu Basic par défaut.\n"
+" * Basé sur les commentaires de la communauté et nos tests, la lecture vidéo "
+"composite OMTC (OpenGL) est saccadée en comparaison.\n"
+"* Ajouté `rpi-eeprom`.\n"
+"* Minecraft: Pi Edition doit toujours être empaqueté.\n"
+"* Travail en cours sur le démarrage par USB.\n"
+"* Abandonné `raspi-config` : nous avons quelque chose d'autre dans les "
+"tuyaux..."
 
 #: pages/raspberry-pi-change-log.md:47
-#, fuzzy
 msgid "### 06 April 2019 - 18.04.2 Beta 2"
-msgstr "### Ubuntu MATE 18.04.2 Beta 2 - WIP"
+msgstr "### 06 Avril 2019 - 18.04.2 Beta 2"
 
 #: pages/raspberry-pi-change-log.md:53
 msgid ""
@@ -98,7 +128,7 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:55
 msgid "### 24 March 2019 - 18.04.2 Beta 1"
-msgstr ""
+msgstr "### 24 Mars 2019 - 18.04.2 Beta 1"
 
 #: pages/raspberry-pi-change-log.md:65
 msgid ""
@@ -129,7 +159,7 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:67
 msgid "### 05 March 2019 - 18.04.2 Alpha 1"
-msgstr ""
+msgstr "### 05 Mars 2019 - 18.04.2 Alpha 1"
 
 #: pages/raspberry-pi-change-log.md:78
 msgid ""
@@ -157,7 +187,7 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:80
 msgid "### 02 March 2019 - 18.04.2 Alpha 1"
-msgstr ""
+msgstr "### 02 Mars 2019 - 18.04.2 Alpha 1"
 
 #: pages/raspberry-pi-change-log.md:82
 msgid ""
@@ -167,10 +197,10 @@ msgstr ""
 "des tests privés."
 
 #: pages/raspberry-pi-change-log.md:84
-#, fuzzy
 msgid ""
 "### 16 February 2017 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3"
-msgstr "### -16-02-2017 - Version 16.04.2 pour Raspbery Pi 2 et Raspberry Pi 3"
+msgstr ""
+"### 16 Février 2017 - Version 16.04.2 pour Raspberry Pi 2 et Raspberry Pi 3"
 
 #: pages/raspberry-pi-change-log.md:132
 msgid ""
@@ -311,11 +341,11 @@ msgstr ""
 "* Réduit la taille de l'image à 5GO, qui était auparavant de 8GO."
 
 #: pages/raspberry-pi-change-log.md:134
-#, fuzzy
 msgid ""
 "### 24 April 2016 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3"
 msgstr ""
-"### -24-04-2016 - Version 16.04 Finale pour Raspbery Pi 2 et Raspberry Pi 3"
+"### 24 Avril 2016 - Version 16.04 Finale pour Raspberry Pi 2 et Raspberry Pi "
+"3"
 
 #: pages/raspberry-pi-change-log.md:141
 msgid ""
@@ -339,9 +369,8 @@ msgstr ""
 "* Supprimé tboplayer."
 
 #: pages/raspberry-pi-change-log.md:143
-#, fuzzy
 msgid "### 05 April 2016 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3"
-msgstr "### -05-04-2016 - 16.04 Beta 2 pour Raspberry Pi 2 et Raspberry Pi 3"
+msgstr "### 05 Avril 2016 - 16.04 Beta 2 pour Raspberry Pi 2 et Raspberry Pi 3"
 
 #: pages/raspberry-pi-change-log.md:155
 msgid ""
@@ -380,9 +409,8 @@ msgstr ""
 "activée, *si vous savez vous y prendre* `;-)`"
 
 #: pages/raspberry-pi-change-log.md:157
-#, fuzzy
 msgid "### 27 February 2016 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3"
-msgstr "### -27-02-2016 - 15.10.3 pour Raspberry Pi 2 et Raspberry Pi 3"
+msgstr "### 27 Février 2016 - 15.10.3 pour Raspberry Pi 2 et Raspberry Pi 3"
 
 #: pages/raspberry-pi-change-log.md:161
 msgid ""
@@ -400,13 +428,12 @@ msgstr ""
 "correctif bientôt."
 
 #: pages/raspberry-pi-change-log.md:163
-#, fuzzy
 msgid ""
 "### 26 February 2016 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 "
 "(internal testing build)"
 msgstr ""
-"### -26-02-2016 - Version 15.10.2 pour Raspberry Pi 2 et Raspberry Pi 3 "
-"(version de test interne)"
+"### 26 Février 2016 - 15.10.2 pour Raspberry Pi 2 et Raspberry Pi 3 (version "
+"de test interne)"
 
 #: pages/raspberry-pi-change-log.md:169
 msgid ""
@@ -428,9 +455,8 @@ msgstr ""
 "régénérées lors du premier démarrage."
 
 #: pages/raspberry-pi-change-log.md:171
-#, fuzzy
 msgid "### 21 December 2015 - 15.10.1 for Raspberry Pi 2 Update"
-msgstr "### -21-12-2015 - Mise à jour 15.10.1 pour Raspberry Pi 2"
+msgstr "### 21 Décembre 2015 - Mise à jour 15.10.1 pour Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:178
 msgid ""
@@ -456,9 +482,8 @@ msgstr ""
 "compatibilité que cela n'en résolvait."
 
 #: pages/raspberry-pi-change-log.md:180
-#, fuzzy
 msgid "### 22 October 2015 - 15.10 for Raspberry Pi 2 Final Release"
-msgstr "### -22-10-2015 - Version 15.10 Finale pour Raspberry Pi 2"
+msgstr "### 22 Octobre 2015 - Version 15.10 Finale pour Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:196
 msgid ""
@@ -498,9 +523,8 @@ msgstr ""
 "* Supprimé Compiz."
 
 #: pages/raspberry-pi-change-log.md:198
-#, fuzzy
 msgid "### 14 October 2015 - 15.10 for Raspberry Pi 2 Release Candidate"
-msgstr "### -14-10-2015 - Version 15.10 Candidate pour Raspberry Pi 2"
+msgstr "### 14 Octobre 2015 - Version 15.10 Candidate pour Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:224
 msgid ""
@@ -575,9 +599,8 @@ msgstr ""
 "* Supprimé `oem-config`."
 
 #: pages/raspberry-pi-change-log.md:226
-#, fuzzy
 msgid "### 22 April 2015 - 15.04 for Raspberry Pi 2 Final Release"
-msgstr "### -22-04-2015 - Version 15.04 Finale pour Raspberry Pi 2"
+msgstr "### 22 Avril 2015 - Version 15.04 Finale pour Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:247
 msgid ""
@@ -641,9 +664,8 @@ msgstr ""
 "intégrée."
 
 #: pages/raspberry-pi-change-log.md:249
-#, fuzzy
 msgid "### 22 April 2015 - 15.04 for Raspberry Pi 2 Beta 2"
-msgstr "### -22-04-2015 - Version 15.04 Beta 2 pour Raspberry Pi 2"
+msgstr "### 22 Avril 2015 - 15.04 Beta 2 pour Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:255
 msgid ""
@@ -662,26 +684,8 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:257
 msgid "### 07 March 2015"
-msgstr ""
+msgstr "### 07 Mars 2015"
 
 #: pages/raspberry-pi-change-log.md:258
 msgid "  * Initial Release."
 msgstr "* Version Initiale."
-
-#~ msgid ""
-#~ "[See the Raspberry Pi page for latest developments.](/ports/raspberry-pi/)"
-#~ msgstr ""
-#~ "[Voir la page du Raspberry Pi pour les derniers développements.](/ports/"
-#~ "raspberry-pi/)"
-
-#~ msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
-#~ msgstr "### Ubuntu MATE 18.04.2 Beta 1 - 24 Mars 2019"
-
-#~ msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
-#~ msgstr "### Ubuntu MATE 18.04.2 - 5 Mars 2019"
-
-#~ msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
-#~ msgstr "### Ubuntu MATE 18.04.2 Alpha 1 - 2 Mars, 2019"
-
-#~ msgid "### 2015-03-07"
-#~ msgstr "### -07-03-2015"

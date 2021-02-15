@@ -1,34 +1,41 @@
 #
+# Translators:
+# Norbert X, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-13 14:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-13 14:43+0000\n"
+"Last-Translator: Norbert X, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-download.md:8
 msgid "title: Raspberry Pi Download Options"
-msgstr ""
+msgstr "title: Варианты загрузок для Raspberry Pi"
 
 #: pages/raspberry-pi-download.md:12
 msgid "## Which image should I download?"
-msgstr ""
+msgstr "## Какой образ мне следует загрузить?"
 
 #: pages/raspberry-pi-download.md:14
 msgid "We offer two images:"
-msgstr ""
+msgstr "Мы предлагаем два образа:"
 
 #: pages/raspberry-pi-download.md:16
 msgid "### arm64"
-msgstr ""
+msgstr "### arm64"
 
 #: pages/raspberry-pi-download.md:20
 msgid ""
@@ -36,10 +43,14 @@ msgid ""
 "hardware will benefit from CPU and memory pressure optimisations.\n"
 "This will be our focus for future development."
 msgstr ""
+"Мы рекомендуем `arm64` для новых моделей Pi с объемом оперативной памяти "
+"более 2 ГБ, так как при этом нагрузка на ЦП и память будет оптимизирована "
+"под используемое аппаратное обеспечение. Это будет нашим фокусом для "
+"будущего развития."
 
 #: pages/raspberry-pi-download.md:23
 msgid "### armhf"
-msgstr ""
+msgstr "### armhf"
 
 #: pages/raspberry-pi-download.md:27
 msgid ""
@@ -48,25 +59,36 @@ msgid ""
 "maximize\n"
 "compatibility with software designed for Raspberry Pi OS."
 msgstr ""
+"`armhf` долгое время был традиционной архитектурой для Raspbian, и лучше "
+"всего работает\n"
+"на аппаратном обеспечении с малым объемом ОЗУ, таким как Pi 2 и 3. Выбирайте "
+"этот вариант, если вы хотите максимизировать совместимость\n"
+"с программным обеспечением, созданным для Raspberry Pi OS."
 
 #: pages/raspberry-pi-download.md:30
 msgid "## Download"
-msgstr ""
+msgstr "## Загрузка"
 
 #: pages/raspberry-pi-download.md:32
 msgid ""
 "If your Raspberry Pi is an earlier model, [make sure it is compatible.](/"
 "raspberry-pi/compatibility/)"
 msgstr ""
+"Если вы используете раннюю модель Raspberry Pi, то [убедитесь, что она "
+"поддерживается.](/raspberry-pi/compatibility/)"
 
 #: pages/raspberry-pi-download.md:35
 msgid ""
 "Please note the schedule for new images are typically are behind the\n"
 "desktop releases of Ubuntu MATE."
 msgstr ""
+"Обратите внимание, что график выпуска новых образов обычно отстает от "
+"выпусков Ubuntu MATE для настольных ПК."
 
 #: pages/raspberry-pi-download.md:37
 msgid ""
 "[Download arm64](/download/arm64/){:.btn .green}\n"
 "[Download armhf](/download/armhf/){:.btn}"
 msgstr ""
+"[Загрузить arm64](/download/arm64/){:.btn .green}\n"
+"[Загрузить armhf](/download/armhf/){:.btn}"

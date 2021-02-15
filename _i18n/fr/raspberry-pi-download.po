@@ -1,34 +1,39 @@
 #
+# Translators:
+# Yoshida Shouyou, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-13 14:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-13 14:43+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-download.md:8
 msgid "title: Raspberry Pi Download Options"
-msgstr ""
+msgstr "title: Options de Téléchargements pour Raspberry Pi"
 
 #: pages/raspberry-pi-download.md:12
 msgid "## Which image should I download?"
-msgstr ""
+msgstr "## Quelle image devrais-je télécharger ?"
 
 #: pages/raspberry-pi-download.md:14
 msgid "We offer two images:"
-msgstr ""
+msgstr "Nous vous proposons deux images:"
 
 #: pages/raspberry-pi-download.md:16
 msgid "### arm64"
-msgstr ""
+msgstr "### arm64"
 
 #: pages/raspberry-pi-download.md:20
 msgid ""
@@ -36,10 +41,15 @@ msgid ""
 "hardware will benefit from CPU and memory pressure optimisations.\n"
 "This will be our focus for future development."
 msgstr ""
+"Nous recommandons `arm64` pour les modèles de Pi récents avec plus de 2 GO "
+"de RAM\n"
+"comme le matériel profitera des optimisations du CPU et de la pression "
+"mémoire.\n"
+"Ce sera notre centre d'attention pour le développement à l'avenir."
 
 #: pages/raspberry-pi-download.md:23
 msgid "### armhf"
-msgstr ""
+msgstr "### armhf"
 
 #: pages/raspberry-pi-download.md:27
 msgid ""
@@ -48,25 +58,36 @@ msgid ""
 "maximize\n"
 "compatibility with software designed for Raspberry Pi OS."
 msgstr ""
+"`armhf` a été la cible traditionnelle pour Raspbian et fonctionne mieux sur "
+"du matériel avec peu de RAM comme les Pi 2 et 3. Choisissez celle-ci si vous "
+"avez\n"
+"besoin de maximiser la compatibilité avec des logiciels conçus pour "
+"Raspberry Pi OS."
 
 #: pages/raspberry-pi-download.md:30
 msgid "## Download"
-msgstr ""
+msgstr "## Téléchargement"
 
 #: pages/raspberry-pi-download.md:32
 msgid ""
 "If your Raspberry Pi is an earlier model, [make sure it is compatible.](/"
 "raspberry-pi/compatibility/)"
 msgstr ""
+"Si votre Raspberry Pi est un ancien modèle, [assurez-vous qu'il soit "
+"compatible.](/raspberry-pi/compatibility/)"
 
 #: pages/raspberry-pi-download.md:35
 msgid ""
 "Please note the schedule for new images are typically are behind the\n"
 "desktop releases of Ubuntu MATE."
 msgstr ""
+"Veuillez noter que les nouvelles images sortent généralement en retard par\n"
+"rapport aux versions de bureau d'Ubuntu MATE."
 
 #: pages/raspberry-pi-download.md:37
 msgid ""
 "[Download arm64](/download/arm64/){:.btn .green}\n"
 "[Download armhf](/download/armhf/){:.btn}"
 msgstr ""
+"[Télécharger arm64](/download/arm64/){:.btn .green}\n"
+"[Télécharger armhf](/download/armhf/){:.btn}"

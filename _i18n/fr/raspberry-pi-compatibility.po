@@ -1,46 +1,57 @@
 #
+# Translators:
+# Yoshida Shouyou, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-13 14:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-13 14:43+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-compatibility.md:8
 msgid "title: Raspberry Pi Compatibility"
-msgstr ""
+msgstr "title: Compatibilité du Raspberry Pi"
 
 #: pages/raspberry-pi-compatibility.md:12
 msgid "## Supported Raspberry Pi Models"
-msgstr ""
+msgstr "## Modèles de Raspberry Pi pris en charge"
 
 #: pages/raspberry-pi-compatibility.md:17
 msgid ""
 "Note that the experience with models with 1 GB of RAM may be hampered by\n"
 "memory pressure and increase wear on SD cards due to swapping."
 msgstr ""
+"Notez que l'expérience avec les modèles à 1 GO de RAM  peut être freinée "
+"par\n"
+"la pression mémoire et l'usure accélérée des cartes SD liée à l'utilisation "
+"excessive du fichier d'échange."
 
 #: pages/raspberry-pi-compatibility.md:20
 msgid "## armhf or arm64?"
-msgstr ""
+msgstr "## armhf ou arm64?"
 
 #: pages/raspberry-pi-compatibility.md:22
 msgid ""
 "Good question! [This is answered on our Raspberry Pi Download page.](/"
 "raspberry-pi/download/)"
 msgstr ""
+"Bonne question ! [La réponse se trouve sur notre page de Téléchargement pour "
+"Raspberry Pi.](/raspberry-pi/download/)"
 
 #: pages/raspberry-pi-compatibility.md:25
 msgid "## Memory and Storage Statistics for 18.04"
-msgstr ""
+msgstr "## Statistiques de Mémoire et de Stockage pour 18.04"
 
 #: pages/raspberry-pi-compatibility.md:35
 msgid ""
@@ -56,6 +67,22 @@ msgid ""
 "[But don't take our word for it](https://www.pidramble.com/wiki/benchmarks/"
 "microsd-cards)."
 msgstr ""
+"La pression mémoire est raisonnable en utilisant les images `armhf` (~350MO "
+"au repos)\n"
+"mais plutôt tendue sur les images `arm64` (~490MO au repos). Comme "
+"toujours,\n"
+"le débit I/O de la microSDHC est un goulet d'étranglement sur le Raspberry "
+"Pi, alors ne\n"
+"n'accablez pas votre Raspberry Pi en étant radin sur la qualité des cartes "
+"microSDHC.\n"
+"Nous avons utilisé la [Samsung EVO Plus 32 GO microSDHC UHS-I U1](https://"
+"geni.us/AKAsg)\n"
+"et la [Kingston 64 GO microSDXC Canvas Go Plus](https://geni.us/Jelmu)\n"
+"durant les tests de ces images et elles montraient des performances\n"
+"bien supérieures à la plupart des autres cartes microSDHC que nous avons "
+"essayées.\n"
+"[Mais ne nous croyez pas sur parole](https://www.pidramble.com/wiki/"
+"benchmarks/microsd-cards)."
 
 #: pages/raspberry-pi-compatibility.md:38
 msgid ""
@@ -63,3 +90,6 @@ msgid ""
 "The file system will automatically resize to occupy the unallocated\n"
 "space of the microSD card."
 msgstr ""
+"Vous aurez besoin d'une carte microSD de **8GO** ou plus pour faire tenir\n"
+"l'image. Votre système de fichiers sera automatiquement redimensionné\n"
+"pour occuper l'espace non alloué de la carte MicroSD. "

@@ -1,46 +1,57 @@
 #
+# Translators:
+# Norbert X, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-13 14:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-13 14:43+0000\n"
+"Last-Translator: Norbert X, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-compatibility.md:8
 msgid "title: Raspberry Pi Compatibility"
-msgstr ""
+msgstr "title: Совместимость с Raspberry Pi"
 
 #: pages/raspberry-pi-compatibility.md:12
 msgid "## Supported Raspberry Pi Models"
-msgstr ""
+msgstr "## Поддерживаемые модели Raspberry Pi"
 
 #: pages/raspberry-pi-compatibility.md:17
 msgid ""
 "Note that the experience with models with 1 GB of RAM may be hampered by\n"
 "memory pressure and increase wear on SD cards due to swapping."
 msgstr ""
+"Обратите внимание, что работе с моделями с 1 ГБ ОЗУ может помешать нехватка "
+"памяти и увеличение износа SD-карт из-за подкачки."
 
 #: pages/raspberry-pi-compatibility.md:20
 msgid "## armhf or arm64?"
-msgstr ""
+msgstr "## armhf или arm64?"
 
 #: pages/raspberry-pi-compatibility.md:22
 msgid ""
 "Good question! [This is answered on our Raspberry Pi Download page.](/"
 "raspberry-pi/download/)"
 msgstr ""
+"Хороший вопрос! [Ответ на него вы найдете на нашей странице загрузок для "
+"Raspberry Pi.](/raspberry-pi/download/)"
 
 #: pages/raspberry-pi-compatibility.md:25
 msgid "## Memory and Storage Statistics for 18.04"
-msgstr ""
+msgstr "## Данные по использованию памяти и диска для 18.04"
 
 #: pages/raspberry-pi-compatibility.md:35
 msgid ""
@@ -56,6 +67,22 @@ msgid ""
 "[But don't take our word for it](https://www.pidramble.com/wiki/benchmarks/"
 "microsd-cards)."
 msgstr ""
+"Использование оперативной памяти умеренное при использовании образов `armhf` "
+"(~350 Мб в простое),\n"
+"но достаточно высокое при использовании образов `arm64` (~490 Мб в простое). "
+"Как обычно,\n"
+"пропускная способность ввода-вывода microSDHC является узким место для "
+"Raspberry Pi, поэтому\n"
+"не стоит покупать для вашей Raspberry Pi дешевую медленную карту памяти "
+"microSDHC.\n"
+"Мы использовали [Samsung EVO Plus 32 GB microSDHC UHS-I U1](https://geni.us/"
+"AKAsg)\n"
+"и [Kingston 64 GB microSDXC Canvas Go Plus](https://geni.us/Jelmu)\n"
+"при тестировании наших образов и они продемонстрировали заметно более "
+"высокую производительность, чем\n"
+"большинство других microSDHC карт, которые мы пробовали.\n"
+"[Можете не верить нам на слово](https://www.pidramble.com/wiki/benchmarks/"
+"microsd-cards)."
 
 #: pages/raspberry-pi-compatibility.md:38
 msgid ""
@@ -63,3 +90,7 @@ msgid ""
 "The file system will automatically resize to occupy the unallocated\n"
 "space of the microSD card."
 msgstr ""
+"Вам потребуется карта памяти microSD объемом **8 Гб** или более для "
+"размещения образа.\n"
+"Файловая система будет автоматически расширена и займет все неразмеченное "
+"пространство на карте памяти microSD."

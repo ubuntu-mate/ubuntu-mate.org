@@ -1,6 +1,6 @@
 #
 # Translators:
-# Norbert X, 2020
+# Norbert X, 2021
 #
 #, fuzzy
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-13 14:23+0100\n"
 "PO-Revision-Date: 2020-05-21 21:09+0000\n"
-"Last-Translator: Norbert X, 2020\n"
+"Last-Translator: Norbert X, 2021\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-change-log.md:8
 msgid "title: Raspberry Pi Changes"
@@ -31,7 +31,7 @@ msgstr "# Что нового для Raspberry Pi?"
 
 #: pages/raspberry-pi-change-log.md:16
 msgid "### 30 October 2020 - 20.04.1 & 20.10"
-msgstr ""
+msgstr "### 30 октября 2020 - 20.04.1 и 20.10"
 
 #: pages/raspberry-pi-change-log.md:27
 msgid ""
@@ -48,10 +48,24 @@ msgid ""
 "  * `gpu_mem` configured for 128MB by default.\n"
 "  * `hdmi_drive` now defaults to DVI mode."
 msgstr ""
+"  * Ubuntu MATE 20.10 поддерживает загрузку с USB.\n"
+"  * Compute Module 4 поддерживается.\n"
+"  * Группы `gpio`, `i2c`, `input` и `spi` созданы заранее.\n"
+"    * Пользователь, созданный мастером первоначальной настройки, "
+"автоматически добавлен в группы из списка выше.\n"
+"  * `cloud-init` полностью удален; увеличение размера файловой системы "
+"выполняется `cloud-initramfs-growroot` и параметром монтрирования `x-systemd."
+"growfs`.\n"
+"  * Snaps инициализируются в процессе работы мастера первоначальной "
+"настройки.\n"
+"  * Анимация загрузки Plymouth отображается правильно при первой загрузке.\n"
+"  * Последовательная консоль по умолчанию отключена.\n"
+"  * `gpu_mem` по умолчанию установлена в 128 Мб.\n"
+"  * `hdmi_drive` по умолчанию задает режим DVI."
 
 #: pages/raspberry-pi-change-log.md:29
 msgid "### 13 August 2020 - 20.04.1 Beta 2"
-msgstr ""
+msgstr "### 13 августа 2020 - 20.04.1 Beta 2"
 
 #: pages/raspberry-pi-change-log.md:33
 msgid ""
@@ -59,10 +73,15 @@ msgid ""
 "  * Fixed WiFi on first boot during the initial setup wizard.\n"
 "  * Dropped `gpu_mem` from `config.txt` as the defaults should be sensible."
 msgstr ""
+"  * Создано на основе Ubuntu MATE 20.04.1.\n"
+"  * Исправлена проблема с WiFi при первой загрузке во время работы мастера "
+"первоначальной настройки.\n"
+"  * Убрана опция `gpu_mem` из `config.txt`, поскольку значения по умолчанию "
+"должны быть разумными."
 
 #: pages/raspberry-pi-change-log.md:35
 msgid "### 12 July 2020 - 20.04 Beta 1"
-msgstr ""
+msgstr "### 12 июля 2020 - 20.04 Beta 1"
 
 #: pages/raspberry-pi-change-log.md:45
 msgid ""
@@ -77,11 +96,20 @@ msgid ""
 "  * USB Booting is work in progress.\n"
 "  * Dropped `raspi-config`; we have something else in the works..."
 msgstr ""
+"  * Использование Ubuntu MATE 20.04 в качестве основы.\n"
+"  * Добавлена поддержка Raspberry Pi 4.\n"
+"  * Включение драйвера VC4/V3D (fkms) по умолчанию.\n"
+"  * Firefox использует упрощенный рендеринг по умолчанию.\n"
+"    * Основано на отзывах из сообщества и результатах наших сравнительных "
+"тестов OMTC (OpenGL) при воспроизведении видео.\n"
+"  * Добавлено `rpi-eeprom`.\n"
+"  * Minecraft: Pi Edition по-прежнему предоставляется в виде пакета.\n"
+"  * Работы по обеспечению загрузки через USB ведутся.\n"
+"  * Убрана `raspi-config`; поскольку у нас есть кое-что еще в работе..."
 
 #: pages/raspberry-pi-change-log.md:47
-#, fuzzy
 msgid "### 06 April 2019 - 18.04.2 Beta 2"
-msgstr "### Ubuntu MATE 18.04.2 Beta 2 - в разработке"
+msgstr "### 06 апреля 2019 - 18.04.2 Beta 2"
 
 #: pages/raspberry-pi-change-log.md:53
 msgid ""
@@ -100,7 +128,7 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:55
 msgid "### 24 March 2019 - 18.04.2 Beta 1"
-msgstr ""
+msgstr "### 24 марта 2019 - 18.04.2 Beta 1"
 
 #: pages/raspberry-pi-change-log.md:65
 msgid ""
@@ -130,7 +158,7 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:67
 msgid "### 05 March 2019 - 18.04.2 Alpha 1"
-msgstr ""
+msgstr "### 05 марта 2019 - 18.04.2 Alpha 1"
 
 #: pages/raspberry-pi-change-log.md:78
 msgid ""
@@ -159,7 +187,7 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:80
 msgid "### 02 March 2019 - 18.04.2 Alpha 1"
-msgstr ""
+msgstr "### 02 марта 2019 - 18.04.2 Alpha 1"
 
 #: pages/raspberry-pi-change-log.md:82
 msgid ""
@@ -168,10 +196,10 @@ msgstr ""
 "  * Первые образы Ubuntu MATE 18.04.2 доступны для приватного тестирования."
 
 #: pages/raspberry-pi-change-log.md:84
-#, fuzzy
 msgid ""
 "### 16 February 2017 - 16.04.2 Release for Raspbery Pi 2 and Raspberry Pi 3"
-msgstr "### 2017-02-16 - 16.04.2 выпуск для Raspbery Pi 2 и Raspberry Pi 3"
+msgstr ""
+"### 16 февраля 2017 - 16.04.2 выпуск для Raspbery Pi 2 и Raspberry Pi 3"
 
 #: pages/raspberry-pi-change-log.md:132
 msgid ""
@@ -306,11 +334,11 @@ msgstr ""
 "  * Размер образа уменьшен с 8 Гб до 5 Гб."
 
 #: pages/raspberry-pi-change-log.md:134
-#, fuzzy
 msgid ""
 "### 24 April 2016 - 16.04 Final Release for Raspbery Pi 2 and Raspberry Pi 3"
 msgstr ""
-"### 2016-04-24 - 16.04 Final Release для Raspbery Pi 2 и Raspberry Pi 3"
+"### 24 апреля 2016 - 16.04 финальный выпуск для Raspbery Pi 2 и Raspberry Pi "
+"3"
 
 #: pages/raspberry-pi-change-log.md:141
 msgid ""
@@ -333,9 +361,8 @@ msgstr ""
 "  * Удален tboplayer."
 
 #: pages/raspberry-pi-change-log.md:143
-#, fuzzy
 msgid "### 05 April 2016 - 16.04 Beta 2 for Raspberry Pi 2 and Raspberry Pi 3"
-msgstr "### 2016-04-05 - 16.04 Beta 2 для Raspberry Pi 2 и Raspberry Pi 3"
+msgstr "### 05 апреля 2016 - 16.04 Beta 2 для Raspberry Pi 2 и Raspberry Pi 3"
 
 #: pages/raspberry-pi-change-log.md:155
 msgid ""
@@ -374,9 +401,8 @@ msgstr ""
 "*если вы знаете как* `;-)`"
 
 #: pages/raspberry-pi-change-log.md:157
-#, fuzzy
 msgid "### 27 February 2016 - 15.10.3 for Raspberry Pi 2 and Raspberry Pi 3"
-msgstr "### 2016-02-27 - 15.10.3 для Raspberry Pi 2 и Raspberry Pi 3"
+msgstr "### 27 февраля 2016 - 15.10.3 для Raspberry Pi 2 и Raspberry Pi 3"
 
 #: pages/raspberry-pi-change-log.md:161
 msgid ""
@@ -393,12 +419,11 @@ msgstr ""
 "но мы надеемся на выпуск обновления для скорого решения этой проблемы."
 
 #: pages/raspberry-pi-change-log.md:163
-#, fuzzy
 msgid ""
 "### 26 February 2016 - 15.10.2 for Raspberry Pi 2 and Raspberry Pi 3 "
 "(internal testing build)"
 msgstr ""
-"### 2016-02-26 - 15.10.2 для Raspberry Pi 2 и Raspberry Pi 3 (образ для "
+"### 26 февраля 2016 - 15.10.2 для Raspberry Pi 2 и Raspberry Pi 3 (образ для "
 "внутреннего тестирования)"
 
 #: pages/raspberry-pi-change-log.md:169
@@ -420,9 +445,8 @@ msgstr ""
 "загрузке."
 
 #: pages/raspberry-pi-change-log.md:171
-#, fuzzy
 msgid "### 21 December 2015 - 15.10.1 for Raspberry Pi 2 Update"
-msgstr "### 2015-12-21 - 15.10.1 для Raspberry Pi 2 Update"
+msgstr "### 21 декабря 2015 - 15.10.1 обновление для Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:178
 msgid ""
@@ -448,9 +472,8 @@ msgstr ""
 "совместимости, чем решило."
 
 #: pages/raspberry-pi-change-log.md:180
-#, fuzzy
 msgid "### 22 October 2015 - 15.10 for Raspberry Pi 2 Final Release"
-msgstr "### 2015-10-22 - 15.10 для Raspberry Pi 2 Final Release"
+msgstr "### 22 октября 2015 - 15.10 финальный выпуск для Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:196
 msgid ""
@@ -490,9 +513,8 @@ msgstr ""
 "  * Удален Compiz."
 
 #: pages/raspberry-pi-change-log.md:198
-#, fuzzy
 msgid "### 14 October 2015 - 15.10 for Raspberry Pi 2 Release Candidate"
-msgstr "### 2015-10-14 - 15.10 для Raspberry Pi 2 Release Candidate"
+msgstr "### 14 октября 2015 - 15.10 предварительный выпуск для Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:224
 msgid ""
@@ -566,9 +588,8 @@ msgstr ""
 "  * Удален `oem-config`."
 
 #: pages/raspberry-pi-change-log.md:226
-#, fuzzy
 msgid "### 22 April 2015 - 15.04 for Raspberry Pi 2 Final Release"
-msgstr "### 2015-04-22 - 15.04 для Raspberry Pi 2 Final Release"
+msgstr "### 22 апреля 2015 - 15.04 финальный выпуск для Raspberry Pi 2"
 
 #: pages/raspberry-pi-change-log.md:247
 msgid ""
@@ -632,9 +653,8 @@ msgstr ""
 "гененерация серверных ключей."
 
 #: pages/raspberry-pi-change-log.md:249
-#, fuzzy
 msgid "### 22 April 2015 - 15.04 for Raspberry Pi 2 Beta 2"
-msgstr "### 2015-04-22 - 15.04 для Raspberry Pi 2 Beta 2"
+msgstr "### 22 апреля 2015 - 15.04 Beta 2 для Raspberry Pi 2 "
 
 #: pages/raspberry-pi-change-log.md:255
 msgid ""
@@ -653,26 +673,8 @@ msgstr ""
 
 #: pages/raspberry-pi-change-log.md:257
 msgid "### 07 March 2015"
-msgstr ""
+msgstr "### 07 марта 2015"
 
 #: pages/raspberry-pi-change-log.md:258
 msgid "  * Initial Release."
 msgstr "  * Первоначальный релиз."
-
-#~ msgid ""
-#~ "[See the Raspberry Pi page for latest developments.](/ports/raspberry-pi/)"
-#~ msgstr ""
-#~ "[Посмотрите страницу новейших изменений для Raspberry Pi.](/ports/"
-#~ "raspberry-pi/)"
-
-#~ msgid "### Ubuntu MATE 18.04.2 Beta 1 - March 24th, 2019"
-#~ msgstr "### Ubuntu MATE 18.04.2 Beta 1 - 24 марта 2019"
-
-#~ msgid "### Ubuntu MATE 18.04.2 - March 5th, 2019"
-#~ msgstr "### Ubuntu MATE 18.04.2 - 5 марта 2019"
-
-#~ msgid "### Ubuntu MATE 18.04.2 Alpha 1 - March 2nd, 2019"
-#~ msgstr "### Ubuntu MATE 18.04.2 Alpha 1 - 2 марта 2019"
-
-#~ msgid "### 2015-03-07"
-#~ msgstr "### 2015-03-07"

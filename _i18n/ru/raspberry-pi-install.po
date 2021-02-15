@@ -1,46 +1,57 @@
 #
+# Translators:
+# Norbert X, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-13 14:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-13 14:43+0000\n"
+"Last-Translator: Norbert X, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Translate Toolkit 3.3.0\n"
 
 #: pages/raspberry-pi-install.md:8
 msgid "title: Raspberry Pi Installation Guide"
-msgstr ""
+msgstr "title: Инструкция по установке на Raspberry Pi"
 
 #: pages/raspberry-pi-install.md:15
 msgid "## 1. Overview"
-msgstr ""
+msgstr "## 1. Обзор"
 
 #: pages/raspberry-pi-install.md:17
 msgid ""
 "In this tutorial, we walk you through the process of installing Ubuntu MATE "
 "Desktop on a Raspberry Pi."
 msgstr ""
+"В этом руководстве мы проведем вас через процесс установки Ubuntu MATE "
+"Desktop на Raspberry Pi."
 
 #: pages/raspberry-pi-install.md:19
 msgid "What you'll learn:"
-msgstr ""
+msgstr "Что вы узнаете:"
 
 #: pages/raspberry-pi-install.md:22
 msgid ""
 "- How to create a bootable Ubuntu MATE Desktop microSD card\n"
 "- Tips on booting from USB drives (optional)"
 msgstr ""
+"- Как создать загрузочную карту microSD с Ubuntu MATE Desktop\n"
+"- Советы по загрузке с USB накопителей (опционально)"
 
 #: pages/raspberry-pi-install.md:24
 msgid "What you'll need:"
-msgstr ""
+msgstr "Что вам потребуется:"
 
 #: pages/raspberry-pi-install.md:32
 msgid ""
@@ -52,10 +63,17 @@ msgid ""
 "- A micro HDMI cable\n"
 "- A USB keyboard"
 msgstr ""
+"- Карта памяти microSD (минимально 4 Гб, рекомендуется 8 Гб)\n"
+"- Компьютер с устройством чтения и записи карт microSD\n"
+"- Raspberry Pi 2 или новее\n"
+"- Кабель питания micro USB-C\n"
+"- Монитор с интерфейсом HDMI\n"
+"- Кабель micro HDMI\n"
+"- Клавиатура USB"
 
 #: pages/raspberry-pi-install.md:35
 msgid "## 2. Download the Ubuntu MATE image"
-msgstr ""
+msgstr "## 2. Загрузите образ Ubuntu MATE"
 
 #: pages/raspberry-pi-install.md:38
 msgid ""
@@ -64,18 +82,22 @@ msgid ""
 "that the version is [compatible with your Raspberry Pi model.](/raspberry-pi/"
 "compatibility/)"
 msgstr ""
+"Загрузите образ 32-бит или 64-бит в зависимости от ваших задач. Убедитесь, "
+"что\n"
+"версия [совместима с вашей моделью Raspberry Pi.](/raspberry-pi/"
+"compatibility/)"
 
 #: pages/raspberry-pi-install.md:40
 msgid "[Downloads for Raspberry Pi](/raspberry-pi/download/){:.btn}"
-msgstr ""
+msgstr "[Загрузки для Raspberry Pi](/raspberry-pi/download/){:.btn}"
 
 #: pages/raspberry-pi-install.md:43
 msgid "## 3. Prepare the SD Card"
-msgstr ""
+msgstr "## 3. Подготовка карты памяти SD"
 
 #: pages/raspberry-pi-install.md:45
 msgid "First, insert the microSD card into your computer."
-msgstr ""
+msgstr "Во-первых, вставьте microSD карту в ваш компьютер."
 
 #: pages/raspberry-pi-install.md:48
 msgid ""
@@ -83,14 +105,17 @@ msgid ""
 "system.\n"
 "You can do this on Ubuntu by running:"
 msgstr ""
+"Вам необходимо установить правильную версию Raspberry Pi Imager для вашей "
+"операционной системы.\n"
+"В систем Ubuntu вы можете сделать это, запустив:"
 
 #: pages/raspberry-pi-install.md:50
 msgid "    sudo snap install rpi-imager"
-msgstr ""
+msgstr "    sudo snap install rpi-imager"
 
 #: pages/raspberry-pi-install.md:52
 msgid "Or on other operating systems follow these links:"
-msgstr ""
+msgstr "А для других систем используйте одну из ссылок ниже:"
 
 #: pages/raspberry-pi-install.md:56
 msgid ""
@@ -101,52 +126,65 @@ msgid ""
 "- [Raspberry Pi Imager for macOS](https://downloads.raspberrypi.org/imager/"
 "imager.dmg)"
 msgstr ""
+"- [Raspberry Pi Imager как deb-пакет](https://ubuntu.com/tutorials/how-to-"
+"install-ubuntu-desktop-on-raspberry-pi-4#2-prepare-the-sd-card)\n"
+"- [Raspberry Pi Imager для Windows](https://downloads.raspberrypi.org/imager/"
+"imager.exe)\n"
+"- [Raspberry Pi Imager для macOS](https://downloads.raspberrypi.org/imager/"
+"imager.dmg)"
 
 #: pages/raspberry-pi-install.md:58
 msgid "Once this is done, start the Imager and open the “CHOOSE OS” menu."
-msgstr ""
+msgstr "Как только это сделано, запустите Imager и откройте меню “CHOOSE OS”."
 
 #: pages/raspberry-pi-install.md:60
 msgid "![PI Imager](/images/rpi/piimager.png)"
-msgstr ""
+msgstr "![PI Imager](/images/rpi/piimager.png)"
 
 #: pages/raspberry-pi-install.md:63
 msgid "Scroll down the menu and click “Use custom”."
-msgstr ""
+msgstr "Пролистайте меню и выберите пункт “Use custom”."
 
 #: pages/raspberry-pi-install.md:65
 msgid "![Choose Custom](/images/rpi/choosecustom.png)"
-msgstr ""
+msgstr "![Choose Custom](/images/rpi/choosecustom.png)"
 
 #: pages/raspberry-pi-install.md:67
 msgid ""
 "A dialog box will open asking you to choose the image you wish to burn. "
 "Click through and select your file."
 msgstr ""
+"Откроется диалоговое окно с просьбой выбрать образ, который вы хотите "
+"записать. Щелкните и выберите свой файл. "
 
 #: pages/raspberry-pi-install.md:69
 msgid "![Choose File](/images/rpi/fileselect.png)"
-msgstr ""
+msgstr "![Выбор файла](/images/rpi/fileselect.png)"
 
 #: pages/raspberry-pi-install.md:71
 msgid "Once you have made your custom image selection open the “SD Card” menu."
-msgstr ""
+msgstr "После выбора файла образа откройте меню “SD Card”."
 
 #: pages/raspberry-pi-install.md:73
 msgid ""
 "> **Note:** Please make sure you choose the right location to write to. This "
 "could erase your data."
 msgstr ""
+"> **Внимание:** Убедитесь, что вы выбрали правильный диск для записи. Это "
+"действие удалит все данные на нем."
 
 #: pages/raspberry-pi-install.md:75
 msgid ""
 "Select the microSD card you have inserted, and click “WRITE”. Then just sit "
 "back and wait for the magic to happen… (This magic might take a few minutes)"
 msgstr ""
+"Выберите вставленную карту microSD и нажмите “WRITE”. Затем просто сядьте и "
+"подождите, пока произойдет волшебство ... (Эта магия может занять несколько "
+"минут) "
 
 #: pages/raspberry-pi-install.md:78
 msgid "## 4. Boot your Desktop"
-msgstr ""
+msgstr "## 4. Загрузите ваш рабочий стол"
 
 #: pages/raspberry-pi-install.md:80
 msgid ""
@@ -154,14 +192,17 @@ msgid ""
 "the Pi. You will be able to see the boot process on screen and, eventually, "
 "the first run wizard."
 msgstr ""
+"Перед включением Pi убедитесь, что экран HDMI и USB-клавиатура подключены. "
+"Вы сможете увидеть процесс загрузки на экране и, в конечном итоге, мастер "
+"первого запуска."
 
 #: pages/raspberry-pi-install.md:82
 msgid "First set your language, then set your keyboard layout."
-msgstr ""
+msgstr "Сначала выберите язык, затем настройте раскладку клавиатуры."
 
 #: pages/raspberry-pi-install.md:84
 msgid "![Keyboard](/images/rpi/keyboard.png)"
-msgstr ""
+msgstr "![Клавиатура](/images/rpi/keyboard.png)"
 
 #: pages/raspberry-pi-install.md:87
 msgid ""
@@ -170,24 +211,30 @@ msgid ""
 "does not have a battery-powered hardware clock and must sync the date and "
 "time from the Internet."
 msgstr ""
+"Теперь выберите себе часовой пояс. В отличие от обычных компьютеров, "
+"Raspberry Pi\n"
+"не имеет аппаратных часов с батарейным питанием и должен синхронизировать "
+"дату и время из Интернета."
 
 #: pages/raspberry-pi-install.md:89
 msgid "![Timezone](/images/rpi/location.png)"
-msgstr ""
+msgstr "![Часовой пояс](/images/rpi/location.png)"
 
 #: pages/raspberry-pi-install.md:91
 msgid ""
 "You will be prompted to choose a local Wi-Fi network. Select your Wi-Fi "
 "network and enter the password in the network connection screen."
 msgstr ""
+"Вам будет предложено выбрать локальную сеть Wi-Fi. Выберите свою сеть Wi-Fi "
+"и введите пароль на экране сетевого подключения."
 
 #: pages/raspberry-pi-install.md:93
 msgid "Now choose a user name and password."
-msgstr ""
+msgstr "Теперь выберите имя пользователя и пароль."
 
 #: pages/raspberry-pi-install.md:95
 msgid "![User](/images/rpi/user.png)"
-msgstr ""
+msgstr "![Пользователь](/images/rpi/user.png)"
 
 #: pages/raspberry-pi-install.md:97
 msgid ""
@@ -195,14 +242,17 @@ msgid ""
 "taken to the login screen after a few minutes. And voila! You are almost "
 "done."
 msgstr ""
+"После настройки раскладки клавиатуры, часового пояса и учетных данных "
+"пользователя через несколько минут вы попадете на экран входа в систему. И "
+"вуаля! Вы почти закончили."
 
 #: pages/raspberry-pi-install.md:99
 msgid "Welcome to your new Ubuntu MATE Desktop:"
-msgstr ""
+msgstr "Добро пожаловать в ваш новый Ubuntu MATE Desktop:"
 
 #: pages/raspberry-pi-install.md:101
 msgid "![Destop](/images/rpi/desktop.png)"
-msgstr ""
+msgstr "![Рабочий стол](/images/rpi/desktop.png)"
 
 #: pages/raspberry-pi-install.md:105
 msgid ""
@@ -210,38 +260,46 @@ msgid ""
 "can\n"
 "be done via the **Software Updater** application:"
 msgstr ""
+"После входа в систему первое, что вам нужно сделать, это обновить Ubuntu "
+"MATE.\n"
+"Это может можно сделать через приложение **Software Updater**:"
 
 #: pages/raspberry-pi-install.md:107
 msgid "![Update](/images/rpi/update.png)"
-msgstr ""
+msgstr "![Обновление](/images/rpi/update.png)"
 
 #: pages/raspberry-pi-install.md:109
 msgid "Alternately, you can update via the Terminal:"
-msgstr ""
+msgstr "Также вы можете обновить через Терминал:"
 
 #: pages/raspberry-pi-install.md:112
 msgid ""
 "    sudo apt update\n"
 "    sudo apt full-upgrade"
 msgstr ""
+"    sudo apt update\n"
+"    sudo apt full-upgrade"
 
 #: pages/raspberry-pi-install.md:114
 msgid ""
 "At this point you can enjoy your MATE set up as is, or add software as "
 "needed through the Software Boutique:"
 msgstr ""
+"На этом этапе вы можете наслаждаться настройкой MATE как есть или добавлять "
+"программное обеспечение по мере необходимости через Магазин программного "
+"обеспечения:"
 
 #: pages/raspberry-pi-install.md:116
 msgid "![Software](/images/rpi/software.png)"
-msgstr ""
+msgstr "![Программное обеспечение](/images/rpi/software.png)"
 
 #: pages/raspberry-pi-install.md:119
 msgid "## (Optional) Setting up USB Boot"
-msgstr ""
+msgstr "## (Опционально) Загрузка с USB накопителей"
 
 #: pages/raspberry-pi-install.md:121
 msgid ":warning: **For Raspberry Pi 4 only.**"
-msgstr ""
+msgstr ":warning: **Только для Raspberry Pi 4.**"
 
 #: pages/raspberry-pi-install.md:123
 msgid ""
@@ -250,22 +308,27 @@ msgid ""
 "because all Raspberry Pi 4 models ship with an EEPROM configuration that "
 "boots from SD cards only, but we can change that."
 msgstr ""
+"Теперь вы также можете загружаться с жесткого диска, подключенного к USB, "
+"или твердотельного накопителя без использования карты microSD. Однако вы "
+"должны сделать это после загрузки с SD-карты, поскольку все модели Raspberry "
+"Pi 4 поставляются с конфигурацией EEPROM, которая загружается только с SD-"
+"карт, но мы можем это изменить."
 
 #: pages/raspberry-pi-install.md:125
 msgid "The first check you've got an up to date EEPROM version on your Pi 4:"
-msgstr ""
+msgstr "В первую очередь вам нужно обновить версию EEPROM вашего Pi 4:"
 
 #: pages/raspberry-pi-install.md:127
 msgid "    sudo apt install rpi-eeprom"
-msgstr ""
+msgstr "    sudo apt install rpi-eeprom"
 
 #: pages/raspberry-pi-install.md:129
 msgid "Extract the current bootloader configuration to a text file:"
-msgstr ""
+msgstr "Распакуйте текущую конфигурацию загрузчика в текстовый файл:"
 
 #: pages/raspberry-pi-install.md:131
 msgid "    sudo vcgencmd bootloader_config > bootconf.txt"
-msgstr ""
+msgstr "    sudo vcgencmd bootloader_config > bootconf.txt"
 
 #: pages/raspberry-pi-install.md:133
 msgid ""
@@ -273,50 +336,63 @@ msgid ""
 "card, then USB mass-storage device, then repeat; see the [Raspberry Pi 4 "
 "bootloader configuration] for more information)."
 msgstr ""
+"Далее мы должны установить параметр `BOOT_ORDER` в значение `0xf41` (сначала "
+"система пытается загрузиться с SD карты, затем с USB накопителя, затем "
+"попытки повторяются; см. [настройка загрузчика Raspberry Pi 4] для более "
+"подробной информации)."
 
 #: pages/raspberry-pi-install.md:135
 msgid ""
 "[Raspberry Pi 4 bootloader configuration]: https://www.raspberrypi.org/"
 "documentation/hardware/raspberrypi/bcm2711_bootloader_config.md"
 msgstr ""
+"[настройка загрузчика Raspberry Pi 4]: https://www.raspberrypi.org/"
+"documentation/hardware/raspberrypi/bcm2711_bootloader_config.md"
 
 #: pages/raspberry-pi-install.md:137
 msgid "    sed -i -e '/^BOOT_ORDER=/ s/=.*$/=0xf41/' bootconf.txt"
-msgstr ""
+msgstr "    sed -i -e '/^BOOT_ORDER=/ s/=.*$/=0xf41/' bootconf.txt"
 
 #: pages/raspberry-pi-install.md:139
 msgid ""
 "Alternatively, open `bootconf.txt` and make the edits yourself if you don't "
 "like sed-hacking."
 msgstr ""
+"Если вам не нравится использовать sed, то вы можете внести изменения в файл "
+"`bootconf.txt` вручную."
 
 #: pages/raspberry-pi-install.md:141
 msgid "Now we generate a copy of the EEPROM with the update configuration:"
-msgstr ""
+msgstr "Теперь мы генерируем копию EEPROM с обновленной конфигурацией:"
 
 #: pages/raspberry-pi-install.md:143
 msgid ""
 "    rpi-eeprom-config --out pieeprom-new.bin --config bootconf.txt /lib/"
 "firmware/raspberrypi/bootloader/critical/pieeprom-2020-09-03.bin"
 msgstr ""
+"    rpi-eeprom-config --out pieeprom-new.bin --config bootconf.txt /lib/"
+"firmware/raspberrypi/bootloader/critical/pieeprom-2020-09-03.bin"
 
 #: pages/raspberry-pi-install.md:145
 msgid "Set the system to flash the new EEPROM firmware on the next boot"
 msgstr ""
+"Настройте систему на запись новой прошивки EEPROM при следующей загрузке"
 
 #: pages/raspberry-pi-install.md:147
 msgid "    sudo rpi-eeprom-update -d -f ./pieeprom-new.bin"
-msgstr ""
+msgstr "    sudo rpi-eeprom-update -d -f ./pieeprom-new.bin"
 
 #: pages/raspberry-pi-install.md:149
 msgid ""
 "To apply any changes (the EEPROM is only updated during the early stages of "
 "boot)"
 msgstr ""
+"Чтобы применить какие-либо изменения (EEPROM обновляется только на ранних "
+"этапах загрузки)"
 
 #: pages/raspberry-pi-install.md:151
 msgid "    sudo reboot"
-msgstr ""
+msgstr "    sudo reboot"
 
 #: pages/raspberry-pi-install.md:153
 msgid ""
@@ -324,10 +400,13 @@ msgid ""
 "roll this tutorial back to “Prepare the SD Card” and go through it replacing "
 "“SD Card” with “Hard Drive” you'll have it."
 msgstr ""
+"Теперь нам нужно записать образ на жесткий диск. Это легкая часть. Для этого "
+"вы можете перейти в раздел \"Подготовка карты памяти SD\" и выполнить его, "
+"заменив \"SD-карту\" на \"Жесткий диск\". "
 
 #: pages/raspberry-pi-install.md:155
 msgid "You should now be able to boot from your hard drive. Congratulations!"
-msgstr ""
+msgstr "Теперь вы можете загрузиться с жесткого диска. Поздравляем! "
 
 #: pages/raspberry-pi-install.md:165
 msgid ""
@@ -346,6 +425,20 @@ msgid ""
 "> Certain USB hubs may cause compatibility issues. For best results, an SSD "
 "is recommended."
 msgstr ""
+"> :warning: **Внимание: некоторые диски могут иметь проблемы загрузки при "
+"использовании с Pi.**\n"
+">\n"
+"> В частности, вращающиеся жесткие диски требуют гораздо больше энергии, чем "
+"твердотельные накопители или флэш-память.\n"
+"> Скорее всего, вам понадобится USB-концентратор с питанием или внешний USB-"
+"накопитель.\n"
+">\n"
+"> При недостатке питания жесткие диски 2.5 не смогут раскрутиться или может "
+"повыситься\n"
+"> риск их повреждения из-за колебаний питания.\n"
+">\n"
+"> Некоторые USB концентраторы могут иметь проблемы с совместимостью. Для "
+"достижения наилучших результатов рекомендуется использовать SSD."
 
 #: pages/raspberry-pi-install.md:168
 msgid ""
@@ -353,6 +446,9 @@ msgid ""
 "issues for debugging boot issues; here's a selection of links in a rough "
 "“look at this first” order from our top Pi guy:"
 msgstr ""
+"На форумах Pi и различных проблемах GitHub есть много полезной информации по "
+"отладке проблем с загрузкой; вот подборка ссылок в грубом порядке "
+"«посмотрите на это в первую очередь» от нашего лучшего специалиста по Pi: "
 
 #: pages/raspberry-pi-install.md:175
 msgid ""
@@ -367,9 +463,21 @@ msgid ""
 "* [GitHub Issue: Enclosure doesn't power on after reboot](https://github.com/"
 "raspberrypi/rpi-eeprom/issues/180)"
 msgstr ""
+"* [Pi Forums: Is your Pi not booting?](https://www.raspberrypi.org/forums/"
+"viewtopic.php?t=58151)\n"
+"* [Pi Forums: USB MSD boot EEPROM](https://www.raspberrypi.org/forums/"
+"viewtopic.php?f=63&amp;t=277007)\n"
+"* [Pi Forums: Pi 4 USB3 SSD slow speeds?](https://www.raspberrypi.org/forums/"
+"viewtopic.php?t=245931)\n"
+"* [Pi Docs: Pi 4 Bootloader Configuration](https://www.raspberrypi.org/"
+"documentation/hardware/raspberrypi/bcm2711_bootloader_config.md)\n"
+"* [GitHub Issue: Enclosure doesn't power on after reboot](https://github.com/"
+"raspberrypi/rpi-eeprom/issues/180)"
 
 #: pages/raspberry-pi-install.md:178
 msgid ""
 "_This page is an adaptation of [Ubuntu's Raspberry Pi tutorial.](https://"
 "discourse.ubuntu.com/t/18925)_"
 msgstr ""
+"_Эта страница является адаптацией [руководства Ubuntu для Raspberry Pi.]"
+"(https://discourse.ubuntu.com/t/18925)_"
