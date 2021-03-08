@@ -79,16 +79,6 @@
         - community
         - qa
 
-    - name: Luke Horwell
-      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
-      url: "https://github.com/lah7"
-      roles:
-        - ubuntu_mate
-        - code
-        - community
-        - documentation
-        - artwork
-
     - name: Bill (franksmcb)
       avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
       url: "https://github.com/franksmcb"
@@ -212,6 +202,17 @@
 - title_name: contrib_title
   desc_name: contrib_desc
   members:
+
+    - name: Luke Horwell
+      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
+      url: "https://github.com/lah7"
+      desc: Longest Serving Member
+      roles:
+        - ubuntu_mate
+        - code
+        - community
+        - documentation
+        - artwork
 
     - name: Robin Thompson
       desc: MATE Dock Applet
