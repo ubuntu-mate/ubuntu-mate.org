@@ -12,6 +12,17 @@ catalogue: #noi18n
     - group: Books
       items:
 
+        - name: "Using Ubuntu MATE and Its Applications: Ubuntu MATE 21.04 Edition"
+          price: $17.99 - $27.99 USD
+          img: /images/shop/books/Using-UM-2104.png
+          url: https://www.amazon.com/dp/B092KCS8C6
+          description: >-
+
+            This fourth edition has been updated with new, updated, and improved themes, 
+            applications, and features included in Ubuntu MATE's 21.04 release. Reading 
+            this book can help you build your confidence and competence in using Ubuntu 
+            MATE. 
+            
         - name: "Ubuntu MATE: Upgrading from Windows or macOS - Second Edition"
           price: $10.00 - $18.50 USD
           img: /images/shop/books/Upgrading-to-UM.png
