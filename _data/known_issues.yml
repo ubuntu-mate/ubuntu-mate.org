@@ -71,7 +71,7 @@
     #-
   upstream_links:
     - https://bugs.launchpad.net/ubuntu-mate/+bug/1884379
-    
+
 - release: "20.10"
   component: Ayatana Indicators
   problem: Clock missing on panel upon upgrade to 20.10
@@ -79,3 +79,9 @@
     - https://ubuntu-mate.community/t/ubuntu-testing-week-ubuntu-mate-20-10/22259/40
   upstream_links:
     - https://bugs.launchpad.net/ubuntu/+source/ayatana-indicator-datetime/+bug/1893028
+
+- release: "21.04"
+  component: Plank
+  problem: When snaps of apps marked a "Keep in Dock" update, they dissappear from Plank.
+  upstream_links:
+    https://bugs.launchpad.net/plank/+bug/1828030
