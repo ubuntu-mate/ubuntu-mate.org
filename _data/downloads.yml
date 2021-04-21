@@ -38,6 +38,18 @@ releases:
             month: Jul
             year: 2021
 
+    hirsute:
+        name: "21.04"
+        codename: "Hirsute Hippo"
+        mascot: "hirsute.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-hirsute-hippo-release-notes/"
+        end_of_life:
+            month: Jan
+            year: 2022
+
 
 # To list new architectures on the download page, add descriptions to download.md
 arch:
@@ -72,6 +84,12 @@ downloads:
           sha256sum: "9c7eee81c26ee28d825635641a4d948a940b0c04b7b506d422ac674b204807e5"
           size: "2.5 GB"
           magnet-uri: "magnet:?xt=urn:btih:897ba1967a2cebd37cf98b6d8071c12230362a28&dn=ubuntu-mate-20.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+        - release: hirsute
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/hirsute/beta/ubuntu-mate-21.04-beta-desktop-amd64.iso"
+          sha256sum: "0084cdfb085ff31d5d40fc57a425942d3e3704e0e16e024c1ab689be75cf6d4e"
+          size: "2.7 GB"
+          magnet-uri: "magnet:?xt=urn:btih:22e2e218ffc1b7a230bf931bb509fb40291d4b0f&dn=ubuntu-mate-21.04-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     i386:
         - release: bionic
