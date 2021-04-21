@@ -85,3 +85,17 @@
   problem: When snaps of apps marked a "Keep in Dock" update, they dissappear from Plank.
   upstream_links:
     https://bugs.launchpad.net/plank/+bug/1828030
+
+- release: "21.04"
+  component: Ubuntu MATE
+  problem: Screen reader installs using orca are currently not working
+  upstream_links:
+    https://bugs.launchpad.net/plank/+bug/1231091
+
+- release: "21.04"
+  component: Ubuntu
+  problem: Ubiquity slide shows are missing for OEM installs of Ubuntu MATE
+  workaround_links:
+    - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720/comments/4
+  upstream_links:
+    https://bugs.launchpad.net/plank/+bug/1713720
