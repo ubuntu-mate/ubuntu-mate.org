@@ -27,7 +27,7 @@ contributed to this release, including:
   * The Yaru team for welcoming us so warmly 🤗 into the Yaru project and for all their hard work during this development cycle
   * The Ayatana Indicator team who helped add new features and fix bugs that improved the indicator experience
   * Everyone who participated in the QA/testing and bug filing 🐛
-  * Those of you who have been contributing translations to MATE Desktop and Ubuntu MATE
+  * Those of you who have been contributing to documentation as well as translations to MATE Desktop and Ubuntu MATE
 
 Thank you! Thank you all very much indeed 🥰
 
@@ -54,16 +54,16 @@ features, just fixes** 🩹
 A highlight of the [Ubuntu MATE 20.10 release](https://ubuntu-mate.org/blog/ubuntu-mate-groovy-gorilla-release-notes/)
 was the transition to Ayatana Indicators. You can read 👓 the [20.10 release
 notes](https://ubuntu-mate.org/blog/ubuntu-mate-groovy-gorilla-release-notes/) to
-learn what Ayatana Indicators are why this transition will be beneficial in the
+learn what Ayatana Indicators are and why this transition will be beneficial in the
 long term.
 
-We've added new versions of Ayatana Indicators including **Indicator Settings
-for the Control Center**, which can be used to configure the installed
+We've added new versions of Ayatana Indicators including **'Indicators' settings
+to the Control Center**, which can be used to configure the installed
 indicators.
 
 {:.center}
 ![Ayatana Indicator Settings](/images/blog/hirsute/ayatana-settings.png)
-**Ayatana Indicator Settings**
+**Ayatana Indicators Settings**
 
 Other indicator changes include:
 
@@ -92,9 +92,9 @@ decided to make one significant departure from how Yaru MATE is delivered;
 being default. This differs from Yaru in Ubuntu which features a mixed
 light/dark by default.
 
-**We've decided to offer only light and dark variants of Yaru MATE as makes
+**We've decided to offer only light and dark variants of Yaru MATE as it makes
 maintaining the themes much easier**, the mixed light/dark Yaru theme does
-require extra work to maintain due to the edges cases it surfaces. **Offering just
+require extra work to maintain due to the edge cases it surfaces. **Offering just
 light and dark variants also ensures better application compatibility.**
 
 This work touched on a number of projects, here's what Ubuntu MATE now enjoys as
@@ -107,7 +107,7 @@ a result of Yaru MATE:
   * **Websites honour dark mode at the operating system level**
     * If you enable the Yaru MATE Dark theme, websites that provide a dark mode will automatically use their dark theme to match your preferences.
 
-In return for the excellent theme are icons from the Yaru team, the Ubuntu MATE
+In return for the excellent theme and icons from the Yaru team, the Ubuntu MATE
 team worked on the following which are now features of Yaru and Yaru MATE:
 
   * **Pixel perfect Marco/Metacity/Compiz window manager theme** that matches Yaru GNOME Shell window rendering
@@ -138,7 +138,7 @@ In order to make Yaru MATE shine we've also created:
 
 `snapd` will soon be able to automatically install snaps of themes that match
 your currently active theme. The snaps we've created are ready to integrate
-with that capability when it is available
+with that capability when it is available.
 
 The `gtk-theme-yaru-mate` and `icon-theme-yaru-mate` snaps are pre-installed in
 Ubuntu MATE, but are not automatically connected to snapped applications.
@@ -200,7 +200,7 @@ following the release for PC 🙂
 
 ## Major Applications
 
-Accompanying **MATE Desktop 1.24.2** and **Linux 5.11** are **Firefox 87**, **LibreOffice 7.1.2.2**, **Evolution 3.40** & **Celluloid 0.20**.
+Accompanying **MATE Desktop 1.24.1** and **Linux 5.11** are **Firefox 87**, **LibreOffice 7.1.2.2**, **Evolution 3.40** & **Celluloid 0.20**.
 
 {:.center}
 ![Major Applications](/images/blog/hirsute/versions.png)
@@ -215,7 +215,7 @@ for details of all the changes and improvements that Ubuntu MATE benefits from.
     button_url = "/download/"
 %}
 
-# Upgrading from Ubuntu MATE 20.10 LTS
+# Upgrading from Ubuntu MATE 20.10
 
 You can upgrade to Ubuntu MATE 21.04 from Ubuntu MATE 20.10. Ensure that you
 have all updates installed for your current version of Ubuntu MATE before you
