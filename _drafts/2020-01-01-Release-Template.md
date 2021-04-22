@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-permalink: /blog/ubuntu-mate-xxxx-final-release/
+permalink: /blog/ubuntu-mate-adjective-animal-final-release/
 category: dev                                # Beta Only - change to 'release'
 author: TBC
 lang: en
@@ -14,20 +14,18 @@ description: What's new in Ubuntu MATE XX.XX (Code Name)
 
 <!--- Beta Only - Remove for final release --->
 
-> We are preparing Ubuntu MATE XX.XX (YYYY YYYYYY) for distribution on
-[October 17th, 2019](https://wiki.ubuntu.com/YYYYYY/ReleaseSchedule).
+> We are preparing Ubuntu MATE XX.XX (Code Name) for distribution on
+[Month xxth, 20YY](https://discourse.ubuntu.com/c/release/38).
 With this **Beta** pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 <!--- End of Beta Only --->
 
 
-Ubuntu MATE XX.XX is a modest, yet strategic, upgrade over our 20.04
-release. If you want bug fixes, kernel updates, a new web camera control,
-and a new indicator experience, then XX.XX is for you. Read on to learn more...
+Some words to summarise the release focus and say thanks. Read on to learn more...
 
 {:.center}
-![Ubuntu MATE XX.XX Beta](/images/blog/eoan/eoan-ermine-desktop.png)
+![Ubuntu MATE XX.XX Beta](/images/blog/adjective/adjective-animal-desktop.png)
 **Tagline goes here.**
 
 
@@ -55,43 +53,33 @@ Ubuntu MATE *Beta Releases* are recommended for:
 ## What changed since the Ubuntu MATE XX.XX?
 
 
-### Linux Kernel
-
-(Any relevant kernel updates will go here)
-
-
 ### MATE Desktop
 
 (MATE Desktop updates will go here)
 
-
 ### Hardware Enablement
 
 (Any relevant updates will go in this section. Otherwise, delete.)
-
 
 ## Raspberry Pi images
 
 (New Raspberry Pi images, or planned new images between now and the next
 release, should go here. If no Raspberry Pi updates, delete.)
 
-
 ## Major Applications
 
 Accompanying **MATE Desktop X.XX.X* and **Linux X.X** are **Firefox
-59.0.2**, **VLC 3.0.4**, **LibreOffice 6.1.2.1**
-
+XX.X**, **Celluloid 0.XX**, **LibreOffice X.X.X.X**
 
 ### (Applications of Note)
 
 (Any significant additions or changes that merit more discussion can
 go in their own subsection.)
 
-
 {:.center}
-![Major Applications](/images/blog/cosmic/versions.png)
+![Major Applications](/images/blog/adjective/versions.png)
 
-See the [Ubuntu XX.XX Release Notes](https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes)
+See the [Ubuntu XX.XX Release Notes](https://discourse.ubuntu.com/c/release/38)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
@@ -101,10 +89,9 @@ for details of all the changes and improvements that Ubuntu MATE benefits from.
     button_url = "/download/"
 %}
 
+## Upgrading from Ubuntu MATE OL.DD
 
-## Upgrading from Ubuntu MATE 20.04 LTS
-
-You can upgrade to Ubuntu MATE XX.XX from Ubuntu MATE 20.04 LTS. Ensure that you
+You can upgrade to Ubuntu MATE NE.WW from Ubuntu MATE OL.DD. Ensure that you
 have all updates installed for your current version of Ubuntu MATE before you
 upgrade.
 
@@ -120,13 +107,11 @@ There are no offline upgrade options for Ubuntu MATE. Please ensure you have
 network connectivity to one of the official mirrors or to a locally accessible
 mirror and follow the instructions above.
 
-
 ## Known Issues
 
 Here are the known issues.
 
 {% include partials/known-issues.html filter="XX.XX" %}
-
 
 ## Feedback
 
