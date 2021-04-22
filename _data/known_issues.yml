@@ -82,7 +82,7 @@
 
 - release: "21.04"
   component: Plank
-  problem: When snaps of apps marked a "Keep in Dock" update, they dissappear from Plank.
+  problem: When snaps update, they disappear from Plank.
   upstream_links:
     https://bugs.launchpad.net/plank/+bug/1828030
 
