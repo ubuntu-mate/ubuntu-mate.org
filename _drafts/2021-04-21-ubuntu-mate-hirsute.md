@@ -27,7 +27,7 @@ contributed to this release, including:
   * The Yaru team for welcoming us so warmly 🤗 into the Yaru project and for all their hard work during this development cycle
   * The Ayatana Indicator team who helped add new features and fix bugs that improved the indicator experience
   * Everyone who participated in the QA/testing and bug filing 🐛
-  * Those of you who have been contributing to documentation as well as translations to MATE Desktop and Ubuntu MATE
+  * Those of you who have been contributing to documentation and translations
 
 Thank you! Thank you all very much indeed 🥰
 
