@@ -1,20 +1,20 @@
 ---
 layout: blog-post
 class: blog
-permalink: /blog/ubuntu-mate-adjective-animal-final-release/
+permalink: /blog/ubuntu-mate-impish-idri-final-release/
 category: dev                                # Beta Only - change to 'release'
 author: Martin Wimpress
 lang: en
 discourse_topic_id: # TBC
 
 title: Ubuntu MATE 21.10 Release Notes
-description: What's new in Ubuntu MATE 21.10 (Code Name)
+description: What's new in Ubuntu MATE 21.10 (Impish Idri)
 
 ---
 
 <!--- Beta Only - Remove for final release --->
 
-> We are preparing Ubuntu MATE 21.10 (Code Name) for distribution on
+> We are preparing Ubuntu MATE 21.10 (Impish Idri) for distribution on
 [October XXth, 2021](https://discourse.ubuntu.com/c/release/38).
 With this **Beta** pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
@@ -24,8 +24,8 @@ preparation for our next (stable) version.
 Some words to summarise the release focus and say thanks. Read on to learn more...
 
 {:.center}
-![Ubuntu MATE 21.10 Beta](/images/blog/adjective/adjective-animal-desktop.png)
-**Ubuntu MATE 21.10 (Code name).**
+![Ubuntu MATE 21.10 Beta](/images/blog/impish/impish-idri-desktop.png)
+**Ubuntu MATE 21.10 (Impish Idri).**
 
 <!--- Beta Only - Remove for final release --->
 
@@ -80,7 +80,7 @@ Accompanying **MATE Desktop X.XX.X* and **Linux X.X** are **Firefox XX.X**,
 go in their own subsection.)
 
 {:.center}
-![Major Applications](/images/blog/adjective/versions.png)
+![Major Applications](/images/blog/impish/versions.png)
 
 See the [Ubuntu 21.10 Release Notes](https://discourse.ubuntu.com/c/release/38)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
