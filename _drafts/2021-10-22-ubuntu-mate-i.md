@@ -3,31 +3,29 @@ layout: blog-post
 class: blog
 permalink: /blog/ubuntu-mate-adjective-animal-final-release/
 category: dev                                # Beta Only - change to 'release'
-author: TBC
+author: Martin Wimpress
 lang: en
 discourse_topic_id: # TBC
 
-title: Ubuntu MATE XX.XX Release Notes
-description: What's new in Ubuntu MATE XX.XX (Code Name)
+title: Ubuntu MATE 21.10 Release Notes
+description: What's new in Ubuntu MATE 21.10 (Code Name)
 
 ---
 
 <!--- Beta Only - Remove for final release --->
 
-> We are preparing Ubuntu MATE XX.XX (Code Name) for distribution on
-[Month xxth, 20YY](https://discourse.ubuntu.com/c/release/38).
+> We are preparing Ubuntu MATE 21.10 (Code Name) for distribution on
+[October XXth, 2021](https://discourse.ubuntu.com/c/release/38).
 With this **Beta** pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
 <!--- End of Beta Only --->
 
-
 Some words to summarise the release focus and say thanks. Read on to learn more...
 
 {:.center}
-![Ubuntu MATE XX.XX Beta](/images/blog/adjective/adjective-animal-desktop.png)
-**Tagline goes here.**
-
+![Ubuntu MATE 21.10 Beta](/images/blog/adjective/adjective-animal-desktop.png)
+**Ubuntu MATE 21.10 (Code name).**
 
 <!--- Beta Only - Remove for final release --->
 
@@ -50,21 +48,24 @@ Ubuntu MATE *Beta Releases* are recommended for:
 <!--- End of Beta Only --->
 
 
-## What changed since the Ubuntu MATE XX.XX?
+## What changed since the Ubuntu MATE 21.04?
 
 
 ### MATE Desktop
 
 (MATE Desktop updates will go here)
 
+
 ### Hardware Enablement
 
 (Any relevant updates will go in this section. Otherwise, delete.)
+
 
 ## Raspberry Pi images
 
 (New Raspberry Pi images, or planned new images between now and the next
 release, should go here. If no Raspberry Pi updates, delete.)
+
 
 ## Major Applications
 
@@ -79,19 +80,19 @@ go in their own subsection.)
 {:.center}
 ![Major Applications](/images/blog/adjective/versions.png)
 
-See the [Ubuntu XX.XX Release Notes](https://discourse.ubuntu.com/c/release/38)
+See the [Ubuntu 21.10 Release Notes](https://discourse.ubuntu.com/c/release/38)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE XX.XX"
+    title = "Download Ubuntu MATE 21.10"
     text = "This new release will be first available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
 %}
 
-## Upgrading from Ubuntu MATE OL.DD
+## Upgrading from Ubuntu MATE 21.04
 
-You can upgrade to Ubuntu MATE NE.WW from Ubuntu MATE OL.DD. Ensure that you
+You can upgrade to Ubuntu MATE 21.10 from Ubuntu MATE 21.04. Ensure that you
 have all updates installed for your current version of Ubuntu MATE before you
 upgrade.
 
@@ -111,7 +112,7 @@ mirror and follow the instructions above.
 
 Here are the known issues.
 
-{% include partials/known-issues.html filter="XX.XX" %}
+{% include partials/known-issues.html filter="21.10" %}
 
 ## Feedback
 
