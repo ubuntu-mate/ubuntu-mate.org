@@ -52,6 +52,8 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE XX.XX?
 
+Here are the highlights of what's changed since the [release of Old
+Codename](https://ubuntu-mate.org/blog/ubuntu-mate-old-name-release-notes/)
 
 ### MATE Desktop
 

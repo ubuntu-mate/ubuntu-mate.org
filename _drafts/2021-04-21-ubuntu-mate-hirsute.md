@@ -37,8 +37,8 @@ Thank you! Thank you all very much indeed 🥰
 
 # What changed since the Ubuntu MATE 20.10?
 
-Here are the highlights of what's changed since the release of Groovy 🕶
-Gorilla 🦍
+Here are the highlights of what's changed since the [release of Groovy 🕶
+Gorilla 🦍](https://ubuntu-mate.org/blog/ubuntu-mate-groovy-gorilla-release-notes/)
 
 ## MATE Desktop 🧉
 

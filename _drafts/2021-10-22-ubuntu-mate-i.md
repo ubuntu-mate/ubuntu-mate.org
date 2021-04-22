@@ -50,6 +50,8 @@ Ubuntu MATE *Beta Releases* are recommended for:
 
 ## What changed since the Ubuntu MATE 21.04?
 
+Here are the highlights of what's changed since the [release of Hirsute
+Hippo 🦛](https://ubuntu-mate.org/blog/ubuntu-mate-hirsute-hippo-release-notes/)
 
 ### MATE Desktop
 
