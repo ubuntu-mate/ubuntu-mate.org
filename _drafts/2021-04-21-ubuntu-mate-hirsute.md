@@ -5,7 +5,7 @@ permalink: /blog/ubuntu-mate-hirsute-hippo-final-release/
 category: release
 author: Martin Wimpress & Monica Ayhens-Madon
 lang: en
-discourse_topic_id: # TBC
+discourse_topic_id: 23969
 
 title: Ubuntu MATE 21.04 Release Notes
 description: What's new in Ubuntu MATE 21.04 (Hirsute Hippo)
