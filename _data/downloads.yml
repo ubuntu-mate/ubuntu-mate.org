@@ -44,7 +44,7 @@ releases:
         mascot: "hirsute.svg"
         wallpaper: "focal.jpg"
         lts: false
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-hirsute-hippo-release-notes/"
         end_of_life:
             month: Jan
@@ -86,10 +86,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:897ba1967a2cebd37cf98b6d8071c12230362a28&dn=ubuntu-mate-20.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: hirsute
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/hirsute/beta/ubuntu-mate-21.04-beta-desktop-amd64.iso"
-          sha256sum: "0084cdfb085ff31d5d40fc57a425942d3e3704e0e16e024c1ab689be75cf6d4e"
-          size: "2.7 GB"
-          magnet-uri: "magnet:?xt=urn:btih:22e2e218ffc1b7a230bf931bb509fb40291d4b0f&dn=ubuntu-mate-21.04-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.04/release/ubuntu-mate-21.04-desktop-amd64.iso"
+          sha256sum: "25474942330d08adbfedf83fb3f416b35026535c37522c0c9293aee418f809be"
+          size: "2.8 GB"
+          magnet-uri: "magnet:?xt=urn:btih:fcb313e32f355b01c4136e22a4a308462a4b2b63&dn=ubuntu-mate-21.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     i386:
         - release: bionic
