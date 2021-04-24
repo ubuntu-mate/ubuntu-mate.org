@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-permalink: /blog/ubuntu-mate-hirsute-hippo-final-release/
+permalink: /blog/ubuntu-mate-hirsute-hippo-release-notes/
 category: release
 author: Martin Wimpress & Monica Ayhens-Madon
 lang: en
