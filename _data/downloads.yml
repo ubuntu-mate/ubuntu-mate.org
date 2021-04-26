@@ -45,7 +45,7 @@ releases:
         wallpaper: "focal.jpg"
         lts: false
         prerelease: false
-        release_notes: "/blog/ubuntu-mate-hirsute-hippo-release-notes/"
+        release_notes: "/blog/ubuntu-mate-hirsute-hippo-final-release/"
         end_of_life:
             month: Jan
             year: 2022
