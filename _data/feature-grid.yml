@@ -95,6 +95,7 @@
     - name: Redshift
       icon: /images/apps/redshift.svg
       not_in_min_install: true
+      class: "not-in-21-04"
 
     - name: Firefox
       icon: /images/apps/firefox.svg
