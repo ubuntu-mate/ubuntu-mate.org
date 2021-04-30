@@ -39,15 +39,6 @@
     - https://bugs.launchpad.net/ubuntu-mate/+bug/1543642
     - https://bugs.launchpad.net/ubuntu-mate/+bug/1397470
 
-- release: 18.04 LTS
-  component: Ubuntu MATE
-  problem: Lock screen may be bypassed by power cycling monitor
-  workaround_links:
-    - https://ubuntu-mate.community/t/18655/10
-  upstream_links:
-    - https://bugs.launchpad.net/ubuntu/bionic/+source/mate-screensaver/+bug/1768352
-    - https://github.com/mate-desktop/mate-screensaver/issues/155
-
 - release: 20.04 LTS
   component: Ubuntu MATE
   problem: Installing applications using GDebi do not immedately appear in Application menu
@@ -105,3 +96,4 @@
   problem: Shim-signed causes system not to boot on certain older EFI systems
   upstream_links: 
     - https://bugs.launchpad.net/ubuntu/+source/shim/+bug/1925010
+
