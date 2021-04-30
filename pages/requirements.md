@@ -17,8 +17,8 @@ makes modern computers fast and old computers usable.
 
 |                   | Minimum           | Recommended               |
 | ----------------- | ----------------- | ------------------------- |
-| **CPU**           | Pentium M 1.0GHz  | Core 2 Duo 1.6GHz
-| **CPU Architecture** | [i386] (until 2021) | [amd64]
+| **CPU**           | Core 2 Duo        | Core i3
+| **CPU Architecture** | [amd64]         | [amd64]
 | **RAM**           | 1 GB              | 4 GB
 | **Storage**       | 8 GB              | 16 GB
 | **Boot Media**    | Bootable DVD-ROM  | Bootable DVD-ROM or USB Flash Drive

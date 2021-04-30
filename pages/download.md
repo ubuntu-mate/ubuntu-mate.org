@@ -12,11 +12,6 @@ arch:
       desc: Bring the MATE experience to your desktop or laptop computer.
       id: amd64
 
-    - name: "32-bit PCs and older Intel Macs"
-      icon: images/fa/desktop.svg
-      desc: For older hardware based on i386. Supported until April 2021.
-      id: i386
-
 products:
     - name: Entroware
       icon: images/brands/entroware.svg
