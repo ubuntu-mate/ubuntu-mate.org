@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "bundler"
+gem "webrick"
 
 group :jekyll_plugins do
     # RSS Feed Generation
