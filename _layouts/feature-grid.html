@@ -23,8 +23,8 @@ layout: default
                     <label>
                         {{ site.data.strings.filter_distro }}
                         <select id="filter-distro" class="feature-filter" onchange="refresh_feature_filters()">
-                            <option name="not-in-20-10">20.10</option>
                             <option name="not-in-20-04">20.04 LTS</option>
+                            <option name="not-in-20-10">20.10</option>
                             <option name="not-in-21-04">21.04</option>
                         </select>
                     </label>
@@ -64,7 +64,7 @@ layout: default
                                     {% if item.url %}
                                     <a class="feature" href="{{ item.url }}">
                                     {% else %}
-                                    <div class="feature {% if item.class %}filter-{{ item.class }}{% endif %} {% if item.not_in_min_install == true %}filter-min-only{% endif %}">
+                                    <div class="feature {% for class in item.class %}filter-{{ class }} {% endfor %} {% if item.not_in_min_install == true %}filter-min-only{% endif %}">
                                     {% endif %}
 
                                         {% if item.icon %}
