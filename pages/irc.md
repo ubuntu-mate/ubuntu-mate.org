@@ -8,7 +8,7 @@ title: IRC
 ---
 
 You can use your IRC web client to jump into our `#ubuntu-mate` channel on
-[Libera.Chat](https://libera.chat//).
+[Libera.Chat](https://libera.chat/).
 Come and say hello! :wave:
 
 If you need an IRC client, [**Hexchat**](https://hexchat.github.io/) is a popular
