@@ -51,8 +51,8 @@ You can do this on Ubuntu by running:
 Or on other operating systems follow these links:
 
 - [Raspberry Pi Imager as a deb package](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#2-prepare-the-sd-card)
-- [Raspberry Pi Imager for Windows](https://downloads.raspberrypi.org/imager/imager.exe)
-- [Raspberry Pi Imager for macOS](https://downloads.raspberrypi.org/imager/imager.dmg)
+- [Raspberry Pi Imager for Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
+- [Raspberry Pi Imager for macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
 
 Once this is done, start the Imager and open the “CHOOSE OS” menu.
 
