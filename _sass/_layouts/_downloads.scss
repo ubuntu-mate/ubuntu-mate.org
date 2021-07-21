@@ -116,6 +116,25 @@
     color: $danger;
 }
 
+.arch-links-box {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        display: inline-block;
+        margin: 15px 0;
+        margin-right: auto;
+
+        &:first-child {
+            margin-top: auto;
+        }
+
+        &:last-child {
+            margin-bottom: auto;
+        }
+    }
+}
+
 /* Download Details */
 .download-details {
     display: flex;
