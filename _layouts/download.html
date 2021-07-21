@@ -68,42 +68,21 @@ layout: default
                         </a>
                     </div>
                 {% endfor %}
-            </div>
 
-            <div class="row">
-                <div class="col">
-                    <p class="text-center grey-text">
-                        <a href="/about/requirements/">{{ site.data.strings.show_req }}</a> |
-                        <a href="/faq/downloads/">{{ site.data.strings.download_help }}</a>
-                    </p>
+                <div class="col-md-6 arch-links-box">
+                    <a href="/about/requirements/">
+                        {% include images/fa/check.svg %}
+                        {{ site.data.strings.show_req }}
+                    </a>
+                    <a href="/faq/downloads/">
+                        {% include images/fa/question-circle.svg %}
+                        {{ site.data.strings.download_help }}
+                    </a>
+                    <a href="https://releases.ubuntu-mate.org">
+                        {% include images/fa/folder-open.svg %}
+                        {{ site.data.strings.browse_downloads }}
+                    </a>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h3 class="download-subtitle">{{ site.data.strings.download_products }}</h3>
-                </div>
-            </div>
-
-            <div class="row grid-container">
-                {% for product in page.products %}
-                    <div class="col-md-6">
-                        <a class="grid-item" href="{{ product.url }}">
-                            <div class="grid-icon">
-                                {% capture icon_type %}{{ product.icon | slice:-3,3 }}{% endcapture %}
-                                {% if icon_type == 'svg' %}
-                                    {% include {{ product.icon }} %}
-                                {% else %}
-                                    <img src="{{ product.icon }}" alt=""/>
-                                {% endif %}
-                            </div>
-                            <div class="grid-details">
-                                <h4>{{ product.name }}</h4>
-                                {{ product.desc | markdownify }}
-                            </div>
-                        </a>
-                    </div>
-                {% endfor %}
             </div>
 
             <div class="row">
@@ -135,13 +114,29 @@ layout: default
 
             <div class="row">
                 <div class="col">
-                    <p class="text-center grey-text">
-                        <a href="https://releases.ubuntu-mate.org">
-                            {% include images/fa/folder-open.svg %}
-                            {{ site.data.strings.browse_downloads }}
-                        </a>
-                    </p>
+                    <h3 class="download-subtitle">{{ site.data.strings.download_products }}</h3>
                 </div>
+            </div>
+
+            <div class="row grid-container">
+                {% for product in page.products %}
+                    <div class="col-md-6">
+                        <a class="grid-item" href="{{ product.url }}">
+                            <div class="grid-icon">
+                                {% capture icon_type %}{{ product.icon | slice:-3,3 }}{% endcapture %}
+                                {% if icon_type == 'svg' %}
+                                    {% include {{ product.icon }} %}
+                                {% else %}
+                                    <img src="{{ product.icon }}" alt=""/>
+                                {% endif %}
+                            </div>
+                            <div class="grid-details">
+                                <h4>{{ product.name }}</h4>
+                                {{ product.desc | markdownify }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
 
         {% elsif page.step == 2 %}
