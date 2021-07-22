@@ -13,6 +13,18 @@ releases:
         end_of_life:
             month: Apr
             year: 2023
+            
+    groovy:
+        name: "20.10"
+        codename: "Groovy Gorilla"
+        mascot: "groovy.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: false
+        release_notes: "/blog/ubuntu-mate-groovy-gorilla-release-notes/"
+        end_of_life:
+            month: Jul
+            year: 2021
 
     hirsute:
         name: "21.04"
