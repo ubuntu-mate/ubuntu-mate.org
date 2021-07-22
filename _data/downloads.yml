@@ -14,18 +14,6 @@ releases:
             month: Apr
             year: 2023
 
-    groovy:
-        name: "20.10"
-        codename: "Groovy Gorilla"
-        mascot: "groovy.svg"
-        wallpaper: "focal.jpg"
-        lts: false
-        prerelease: false
-        release_notes: "/blog/ubuntu-mate-groovy-gorilla-release-notes/"
-        end_of_life:
-            month: Jul
-            year: 2021
-
     hirsute:
         name: "21.04"
         codename: "Hirsute Hippo"
@@ -59,12 +47,6 @@ downloads:
           sha256sum: "ec85f45a8d9f68cd9e9522471621079d2de0d597cd6ec63d29f3986929f920d3"
           size: "2.5 GB"
           magnet-uri: "magnet:?xt=urn:btih:f47d65ebebf4bf962b2d6c48af6c8709b5e2e90c&dn=ubuntu-mate-20.04.2.0-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-
-        - release: groovy
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/release/ubuntu-mate-20.10-desktop-amd64.iso"
-          sha256sum: "9c7eee81c26ee28d825635641a4d948a940b0c04b7b506d422ac674b204807e5"
-          size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:897ba1967a2cebd37cf98b6d8071c12230362a28&dn=ubuntu-mate-20.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: hirsute
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.04/release/ubuntu-mate-21.04-desktop-amd64.iso"
