@@ -57,6 +57,12 @@ Hippo 🦛](https://ubuntu-mate.org/blog/ubuntu-mate-hirsute-hippo-release-notes
 
 (MATE Desktop updates will go here)
 
+Image Extrpolation and Interpolation is disabled by default in Eye of MATE to make image viewing faster and image quality sharper.
+The Alt-Tab pop-up is now expanded to fit long window titles.
+If you use the Mutiny layout, session loading is now faster.
+Guest Session added.
+RedShift is re-instated.
+
 
 ### Hardware Enablement
 
