@@ -3,7 +3,7 @@
 
 releases:
     focal:
-        name: "20.04.2 LTS"
+        name: "20.04.3 LTS"
         codename: "Focal Fossa"
         mascot: "focal.svg"
         wallpaper: "focal.jpg"
@@ -55,10 +55,10 @@ arch:
 downloads:
     amd64:        
         - release: focal
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.2.0-desktop-amd64.iso"
-          sha256sum: "ec85f45a8d9f68cd9e9522471621079d2de0d597cd6ec63d29f3986929f920d3"
-          size: "2.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:f47d65ebebf4bf962b2d6c48af6c8709b5e2e90c&dn=ubuntu-mate-20.04.2.0-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.3-desktop-amd64.iso"
+          sha256sum: "1E4D2962D9FBEFD4C7CA304B5E9F8576AFADF94F3E6C67357C60588BAC918B06"
+          size: "3.0 GB"
+          magnet-uri: "magnet:?xt=urn:btih:adcb42c09f980a746f9df41f2d8d05e862eeac55&dn=ubuntu-mate-20.04.3-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: hirsute
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.04/release/ubuntu-mate-21.04-desktop-amd64.iso"
