@@ -18,8 +18,8 @@ The significant change in Ubuntu MATE 21.10 is the introduction of [MATE Desktop
 MATE 21.10 is faster and leaner 💪
 
 {:.center}
-![Ubuntu MATE 21.10](/images/blog/impish/impish-idri-desktop.png)
-**Ubuntu MATE 21.10 (Impish Idri).**
+![Ubuntu MATE 21.10](/images/blog/impish/impish-indri-desktop.png)
+**Ubuntu MATE 21.10 (Impish Indri).**
 
 ## What changed since the Ubuntu MATE 21.04?
 

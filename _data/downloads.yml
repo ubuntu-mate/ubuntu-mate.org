@@ -13,7 +13,7 @@ releases:
         end_of_life:
             month: Apr
             year: 2023
-            
+
     groovy:
         name: "20.10"
         codename: "Groovy Gorilla"
@@ -38,6 +38,19 @@ releases:
             month: Jan
             year: 2022
 
+    impish:
+        name: "21.10"
+        codename: "Impish Indri"
+        mascot: "impish.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-impish-indri-final-release/"
+        end_of_life:
+            month: July
+            year: 2022
+
+
 
 # To list new architectures on the download page, add descriptions to download.md
 arch:
@@ -53,7 +66,7 @@ arch:
 
 
 downloads:
-    amd64:        
+    amd64:
         - release: focal
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.3-desktop-amd64.iso"
           sha256sum: "1E4D2962D9FBEFD4C7CA304B5E9F8576AFADF94F3E6C67357C60588BAC918B06"
@@ -65,7 +78,13 @@ downloads:
           sha256sum: "25474942330d08adbfedf83fb3f416b35026535c37522c0c9293aee418f809be"
           size: "2.8 GB"
           magnet-uri: "magnet:?xt=urn:btih:fcb313e32f355b01c4136e22a4a308462a4b2b63&dn=ubuntu-mate-21.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-    
+
+        - release: impish
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/impish/beta/ubuntu-mate-21.10-beta-desktop-amd64.iso"
+          sha256sum: "18b8885c01797ee1a191fc59a2ddfb3e2592c27cf406749548453116b8dba03d "
+          size: "3.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:c985dcf1c88ebde8cc1b61f5a4db4d0421ca8392&dn=ubuntu-mate-21.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
     armhf:
         - release: focal
           url: "https://releases.ubuntu-mate.org/focal/armhf/ubuntu-mate-20.04.1-desktop-armhf+raspi.img.xz"
