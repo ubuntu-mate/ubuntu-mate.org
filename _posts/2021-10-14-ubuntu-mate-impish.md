@@ -89,7 +89,7 @@ weeks.
 
 ## Major Applications
 
-Accompanying **MATE Desktop 1.26.0* and **Linux 5.13** are **Firefox 93.0**,
+Accompanying **MATE Desktop 1.26.0** and **Linux 5.13** are **Firefox 93.0**,
 **Celluloid 0.20**, **LibreOffice 7.2.1.2**
 
 See the [Ubuntu 21.10 Release Notes](https://discourse.ubuntu.com/t/impish-indri-release-notes/21951)
