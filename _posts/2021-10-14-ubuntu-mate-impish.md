@@ -26,7 +26,7 @@ MATE 21.10 is faster and leaner 💪
 Here are the highlights of what's changed since the [release of Hirsute
 Hippo 🦛](https://ubuntu-mate.org/blog/ubuntu-mate-hirsute-hippo-release-notes/)
 
-### MATE Desktop
+### MATE Desktop 🧉
 
 A **significant effort 😅 has been invested in fixing bugs 🐛 in MATE Desktop 1.26.0,
 optimising performance ⚡ and plugging memory leaks**. MATE Desktop is faster and
@@ -92,7 +92,7 @@ weeks.
 Accompanying **MATE Desktop 1.26.0* and **Linux 5.13** are **Firefox 93.0**,
 **Celluloid 0.20**, **LibreOffice 7.2.1.2**
 
-See the [Ubuntu 21.10 Release Notes](https://discourse.ubuntu.com/c/release/38)
+See the [Ubuntu 21.10 Release Notes](https://discourse.ubuntu.com/t/impish-indri-release-notes/21951)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
