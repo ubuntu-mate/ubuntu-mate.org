@@ -5,7 +5,7 @@ permalink: /blog/ubuntu-mate-impish-indri-final-release/
 category: release
 author: Martin Wimpress
 lang: en
-discourse_topic_id: # TBC
+discourse_topic_id: 24668
 
 title: Ubuntu MATE 21.10 Release Notes
 description: What's new in Ubuntu MATE 21.10 (Impish Indri)
