@@ -47,7 +47,7 @@ releases:
         prerelease: false
         release_notes: "/blog/ubuntu-mate-impish-indri-final-release/"
         end_of_life:
-            month: July
+            month: Jul
             year: 2022
 
 
