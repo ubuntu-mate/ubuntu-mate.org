@@ -54,7 +54,6 @@ exclude:
 launchpad: "https://launchpad.net/ubuntu-mate"
 github: "https://github.com/ubuntu-mate/"
 irc: "/irc/"
-facebook: "https://www.facebook.com/UbuntuMATEedition/"
 twitter: "https://twitter.com/ubuntu_mate"
 rss: "/rss.xml"
 rss_discourse: "https://ubuntu-mate.community/latest.rss"
