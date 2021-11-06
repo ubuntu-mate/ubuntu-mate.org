@@ -22,7 +22,7 @@ What you'll learn:
 
 What you'll need:
 
-- A microSD card (4GB minimum, 8GB recommended)
+- A microSD card (8GB minimum, 16GB recommended)
 - A computer with a microSD card drive
 - A Raspberry Pi 2 or newer
 - A micro USB-C power cable
@@ -46,7 +46,9 @@ First, insert the microSD card into your computer.
 You need to install the right Raspberry Pi Imager for your operating system.
 You can do this on Ubuntu by running:
 
-    sudo snap install rpi-imager
+```bash
+sudo snap install rpi-imager
+```
 
 Or on other operating systems follow these links:
 
@@ -133,21 +135,29 @@ Next we need to set the `BOOT_ORDER` option to `0xf41` (meaning attempt SD card,
 
 [Raspberry Pi 4 bootloader configuration]: https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md
 
-    sed -i -e '/^BOOT_ORDER=/ s/=.*$/=0xf41/' bootconf.txt
+```bash
+sed -i -e '/^BOOT_ORDER=/ s/=.*$/=0xf41/' bootconf.txt
+```
 
 Alternatively, open `bootconf.txt` and make the edits yourself if you don't like sed-hacking.
 
 Now we generate a copy of the EEPROM with the update configuration:
 
-    rpi-eeprom-config --out pieeprom-new.bin --config bootconf.txt /lib/firmware/raspberrypi/bootloader/critical/pieeprom-2020-09-03.bin
+```bash
+rpi-eeprom-config --out pieeprom-new.bin --config bootconf.txt /lib/firmware/raspberrypi/bootloader/critical/pieeprom-2020-09-03.bin
+```
 
 Set the system to flash the new EEPROM firmware on the next boot
 
-    sudo rpi-eeprom-update -d -f ./pieeprom-new.bin
+```bash
+sudo rpi-eeprom-update -d -f ./pieeprom-new.bin
+```
 
 To apply any changes (the EEPROM is only updated during the early stages of boot)
 
-    sudo reboot
+```bash
+sudo reboot
+```
 
 Now we need to get the image onto a hard drive. That's the easy part. If you roll this tutorial back to “Prepare the SD Card” and go through it replacing “SD Card” with “Hard Drive” you'll have it.
 

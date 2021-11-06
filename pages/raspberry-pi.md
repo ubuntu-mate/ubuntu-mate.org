@@ -64,6 +64,10 @@ High-level features of these images are:
 
 ## Hardware Recommendations
 
+You'll need a microSD card which is **8GB** or greater to fit the image. The
+file system will automatically resize to occupy the unallocated space of the
+microSD card. Here is our recommended kit lists on Amazon:
+
 {:.transparent .icons}
 |Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|
 |[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.webp)](https://geni.us/QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme.webp)](https://geni.us/oRQKPJ)|

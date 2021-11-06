@@ -12,6 +12,10 @@ title: Raspberry Pi Changes
 
 {% include partials/toc.html %}
 
+### 6 November 2021 - 21.10
+
+  * Refreshed images based on Ubuntu MATE 21.10
+
 ### 30 October 2020 - 20.04.1 & 20.10
 
   * Ubuntu MATE 20.10 is capable of USB boot.
@@ -39,7 +43,6 @@ title: Raspberry Pi Changes
   * Firefox uses Basic rendering by default.
     * Based on community feedback and our testing the OMTC (OpenGL) compositing video playback is choppy by comparison.
   * Added `rpi-eeprom`.
-  * Minecraft: Pi Edition is still be packaged.
   * USB Booting is work in progress.
   * Dropped `raspi-config`; we have something else in the works...
 
