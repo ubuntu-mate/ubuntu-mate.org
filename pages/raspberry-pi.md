@@ -10,8 +10,8 @@ title: Raspberry Pi
 
 # Ubuntu MATE for Raspberry Pi
 
-Ubuntu MATE 20.04 is available for Raspberry Pi with separate images for
-`armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what we can to
+Ubuntu MATE is available for Raspberry Pi with separate images for `armhf`
+(ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what we can to
 optimise the builds for the Raspberry Pi without sacrificing the full desktop
 environment Ubuntu MATE provides on PC.
 
@@ -32,7 +32,6 @@ or [Ubuntu Core](https://www.ubuntu.com/core). You might want to check out the
 ![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi.png)
 **Ubuntu MATE running on the Raspberry Pi 4**
 
-
 ## Features
 
 High-level features of these images are:
@@ -43,8 +42,8 @@ High-level features of these images are:
   * VC4/V3D (fkms) driver is enabled by default.
     * `fbturbo` driver is available if you want it, but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).
   * Automatic online filesystem expansion.
-  * Ethernet & WiFi (*where available*)
-  * Bluetooth (*where available*)
+  * Ethernet & WiFi (*on compatible models*)
+  * Bluetooth (*on compatible models*)
   * Audio out via 3.5mm analog audio jack or HDMI
   * Video out via Composite or HDMI
   * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io) and [WiringPi](http://wiringpi.com/).
@@ -199,6 +198,5 @@ and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi.com/li
 
 ## Feedback and Improvements
 
-These images are not official Ubuntu products and are community
-supported by the Ubuntu MATE team. Please post feedback and
-issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi).
+These images are not official Ubuntu products and are community supported by the
+Ubuntu MATE team. Please post feedback and issues on the [dedicated community forum](https://ubuntu-mate.community/c/support/raspberry-pi).
