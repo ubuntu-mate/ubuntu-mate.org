@@ -128,8 +128,8 @@
         - packager
 
     - name: Jon Uhler
-      avatar: "https://bigdaddylinux.com/wp-content/uploads/2019/07/Jon-Uhler-2-200x200.jpg"
-      url: "https://jonuhler.com/"
+      avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/j/ecccb3/120.png"
+      url: "https://ubuntu-mate.community/u/jonu/"
       roles:
         - ubuntu_mate
         - documentation
