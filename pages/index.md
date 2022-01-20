@@ -64,18 +64,17 @@ GPD MicroPC and Topjoy Falcon; some of which are available on Amazon. **Learn mo
 | ------------- | ---------------- |
 | Model 2 B     | GPD Pocket
 | Model 3       | [GPD Pocket 2](https://geni.us/5oiXa2)
-| Model 3+      | [GPD WIN 2](https://geni.us/pzyNb0)
-| Model 4       | [GPD MicroPC](https://geni.us/xYuBA)
+| Model 3+      | [GPD Pocket 3](https://geni.us/jX2hJ6)
+| Model 4       | [GPD WIN 2](https://geni.us/pzyNb0)
+| Model 400     | [GPD MicroPC](https://geni.us/xYuBA)
 |               | [GPD P2 Max](https://geni.us/HAlIoA3)
 |               | [GPD WIN Max](https://geni.us/B2tWs)
 |               | Topjoy Falcon
 
 # Sponsors
 
-Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate), such as our Level 42 Patron, [Andrew Miller](https://www.patreon.com/user/creators?u=2613385).
+Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate).
 
 {:.center}
 [![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/?r=ubuntu-mate)
 [![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)
-
-Also thanks to our Unlucky Patron, [Darrell Vermilion](https://www.patreon.com/bearstampede/creators).

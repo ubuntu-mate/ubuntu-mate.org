@@ -46,6 +46,7 @@ arch:
     - arm64
     - gpd_pocket
     - gpd_pocket_2
+    - gpd_pocket_3
     - gpd_micropc
     - gpd_p2_max
     - gpd_win_max
@@ -116,6 +117,14 @@ downloads:
           sha256sum: "a4e55363b87afd25c3550bbdd54ebed05204e15bb7b7155b436ba0652d035a8a"
           size: "2.5 GB"
           magnet-uri: "magnet:?xt=urn:btih:36d4ad0876f832167ed3d0aa0c652c478430f077&dn=ubuntu-mate-20.04.1-desktop-amd64-gpd-pocket2.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
+          bandwidth_costs: true
+
+    gpd_pocket_3:
+        - release: impish
+          url: "https://releases.ubuntu-mate.org/impish/amd64/ubuntu-mate-21.10-desktop-amd64-gpd-pocket3.iso"
+          sha256sum: "25207d028ed38c3a5245163c2e701e2bf0c58bc00eee1bf56fd1172d0feab501"
+          size: "3.2 GB"
+          magnet-uri: "magnet:?xt=urn:btih:7666ec88ac0a4196fca32ae4da9692356751f64f&dn=ubuntu-mate-21.10-desktop-amd64-gpd-pocket3.iso&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-21.10-desktop-amd64-gpd-pocket3.iso&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fumpc%2Fubuntu-mate-21.10-desktop-amd64-gpd-pocket3.iso"
           bandwidth_costs: true
 
     gpd_micropc:
