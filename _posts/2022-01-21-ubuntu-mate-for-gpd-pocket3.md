@@ -6,8 +6,8 @@ description: Ubuntu MATE 21.10 for GPD Pocket 3
 category: release
 author: Martin Wimpress
 lang: en
-
 title: Ubuntu MATE 21.10 for GPD Pocket 3
+discourse_topic_id: 25056
 
 ---
 
