@@ -14,18 +14,6 @@ releases:
             month: Apr
             year: 2023
 
-    hirsute:
-        name: "21.04"
-        codename: "Hirsute Hippo"
-        mascot: "hirsute.svg"
-        wallpaper: "focal.jpg"
-        lts: false
-        prerelease: false
-        release_notes: "/blog/ubuntu-mate-hirsute-hippo-final-release/"
-        end_of_life:
-            month: Jan
-            year: 2022
-
     impish:
         name: "21.10"
         codename: "Impish Indri"
@@ -60,12 +48,6 @@ downloads:
           sha256sum: "1E4D2962D9FBEFD4C7CA304B5E9F8576AFADF94F3E6C67357C60588BAC918B06"
           size: "3.0 GB"
           magnet-uri: "magnet:?xt=urn:btih:adcb42c09f980a746f9df41f2d8d05e862eeac55&dn=ubuntu-mate-20.04.3-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-
-        - release: hirsute
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.04/release/ubuntu-mate-21.04-desktop-amd64.iso"
-          sha256sum: "25474942330d08adbfedf83fb3f416b35026535c37522c0c9293aee418f809be"
-          size: "2.8 GB"
-          magnet-uri: "magnet:?xt=urn:btih:fcb313e32f355b01c4136e22a4a308462a4b2b63&dn=ubuntu-mate-21.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: impish
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.10/release/ubuntu-mate-21.10-desktop-amd64.iso"
