@@ -7,7 +7,7 @@ The source language of the website is primarily **British English**. :gb:
 The usual Markdown syntax is used primarily throughout the website. Liquid is also used
 which can be identified by the double curly brackets: `{{ text }}` or `{% text %}`.
 
-**No HTML snipits please.** Create an `include` and reference this on the page instead.
+**No HTML snippets please.** Create an `include` and reference this on the page instead.
 This is because translators will be exposed to all of the content in a Markdown file.
 
 To aid translators, please leave gaps between large sections of text and headings with a
@@ -160,7 +160,7 @@ middle_subtitle: Most familiar to Windows users.
 right_image_filename: placeholder
 right_image_alt:
 right_title: Mutiny
-right_subtitle: The lightweight alternate recognised by Ubuntu Unity users.
+right_subtitle: The lightweight alternate recognized by Ubuntu Unity users.
 ```
 
 #### `history`
@@ -209,7 +209,7 @@ Contributors.
 The data for the circle and their icons can be found at `_data/team.yml`.
 
 
-#### `testimonals`
+#### `testimonials`
 ```
 testimonials:
 
@@ -227,7 +227,7 @@ testimonials:
 
 youtube:
     - embed_url: "https://www.youtube.com/embed/XXXXXXXXXXX?start=510&rel=0"
-      who: "Name from Example Organisation"
+      who: "Name from Example Organization"
       quote: "This is a sample sentence."
       subject: "Software Boutique in Ubuntu MATE 15.10"
 ```
@@ -316,12 +316,12 @@ These are re-used across page layouts and shouldn't be used in Markdown files:
 * `partials/blog-sidebar.html`
 * `partials/categories.html`
 
-#### Raspberry Pi Compatibilty Table
+#### Raspberry Pi Compatibility Table
 
 The data files are at:
 
-* `_data/raspberry_pi_models.yml` - for architecture compatibilty
-* `_data/raspberry_pi_releases.yml` - for release compatibilty
+* `_data/raspberry_pi_models.yml` - for architecture compatibility
+* `_data/raspberry_pi_releases.yml` - for release compatibility
 
 Adding new releases to `raspberry_pi_releases.yml` will require some table
 tweaks to the HTML at `partials/pi-compatibility-table.html` (the heading
@@ -343,7 +343,7 @@ Markdown:
 **WebP Support**
 
 * The published website will automatically optimise the image's compression
-efficency by creating a WebP version of the image. The server is configured to
+efficiency by creating a WebP version of the image. The server is configured to
 serve this asset in-place of existing image files were available.
 * Some templates in the code use the `<picture>` tag to reference the WebP.
 

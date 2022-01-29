@@ -84,7 +84,7 @@ First set your language, then set your keyboard layout.
 
 ![Keyboard](/images/rpi/keyboard.png)
 
-Now pick yourself a time zone. Unlike convential computers, the Raspberry Pi
+Now pick yourself a time zone. Unlike conventional computers, the Raspberry Pi
 does not have a battery-powered hardware clock and must sync the date and time from the Internet.
 
 ![Timezone](/images/rpi/location.png)
@@ -99,7 +99,7 @@ After setting the keyboard layout, timezone and user credentials you'll be taken
 
 Welcome to your new Ubuntu MATE Desktop:
 
-![Destop](/images/rpi/desktop.png)
+![Desktop](/images/rpi/desktop.png)
 
 
 Once logged in, the first thing you should do is to update Ubuntu MATE. This can

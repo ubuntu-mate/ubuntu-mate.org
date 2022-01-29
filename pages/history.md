@@ -107,7 +107,7 @@ was popular with users - VERY popular with
 ## 16.04
 ### The First Official LTS
 
-Canonical granted LTS status to Ubuntu MATE 16.04, its first offical
+Canonical granted LTS status to Ubuntu MATE 16.04, its first official
 long-term support version. Canonical also upgraded Martin to an employee
 on the Desktop Team in time for the 16.10 release.
 
