@@ -19,7 +19,7 @@ tampered or corrupted.
 {% include partials/toc.html %}
 
 
-## Preperations
+## Preparations
 
 ### Windows
 
@@ -185,7 +185,7 @@ And the output:
 Note the **bold** lines which confirm the file was signed by the team
 over at Ubuntu. If this wasn't genuine, the result would be **BAD signature**.
 
-The "key is not certified" message is simply because you haven't explictly told
+The "key is not certified" message is simply because you haven't explicitly told
 GnuPG to trust this key. This is optional. You can
 [learn more about GnuPG on the wiki page](https://help.ubuntu.com/community/GnuPrivacyGuardHowto).
 
