@@ -37,6 +37,7 @@ arch:
     - gpd_pocket_3
     - gpd_micropc
     - gpd_p2_max
+    - gpd_win2
     - gpd_win_max
     - topjoy_falcon
 
