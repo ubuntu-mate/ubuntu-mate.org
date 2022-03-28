@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 class: blog
-permalink: /blog/ubuntu-mate-adjective-animal-final-release/
+permalink: /blog/ubuntu-mate-adjective-animal-release-notes/
 category: dev                                # Beta Only - change to 'release'
 author: TBC
 lang: en
@@ -71,15 +71,12 @@ release, should go here. If no Raspberry Pi updates, delete.)
 ## Major Applications
 
 Accompanying **MATE Desktop X.XX.X* and **Linux X.X** are **Firefox XX.X**,
-**Celluloid 0.XX**, **LibreOffice X.X.X.X**
+**Celluloid 0.XX**, **Evolution X.XX**, **LibreOffice X.X.X.X**
 
 ### (Applications of Note)
 
 (Any significant additions or changes that merit more discussion can
 go in their own subsection.)
-
-{:.center}
-![Major Applications](/images/blog/adjective/versions.png)
 
 See the [Ubuntu XX.XX Release Notes](https://discourse.ubuntu.com/c/release/38)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
