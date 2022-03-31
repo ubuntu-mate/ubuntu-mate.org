@@ -78,7 +78,8 @@ Ubuntu MATE 22.04 features MATE Desktop 1.26.1. MATE Desktop 1.26.0 was introduc
 in 21.10 and benefits from **significant effort 😅 in fixing bugs 🐛
 in MATE Desktop, optimising performance ⚡ and plugging memory leaks**. MATE
 Desktop 1.26.1 addresses the bugs we discovered following the initial 1.26.0
-release. Our community also fixed some bugs in Plank and Brisk Menu 👍
+release. Our community also fixed some bugs in Plank and Brisk Menu 👍 and also
+fixed the screen reader during installs for visually impaired users 🥰
 
 ### Yaru 🎨
 
@@ -151,13 +152,6 @@ compatibility issues with client side decorated (CSD) windows. There are still
 several panel layouts that offer efficient resolution use 📐 for those who need
 it.
 
-Recent versions of `rofi`, the tool used by MATE HUD to visualise menu
-searches, has a new theme system. **MATE HUD has been updated to support new
-versions of `rofi` and defaults to the `docu` theme**. You can run
-`rofi-theme-selector` from a terminal to try out the different themes, and if
-there is one you prefer you can set it as default by using `dconf-editor` to
-edit `rofi-theme` under `org.mate.hud` 🧰
-
 **MATE Tweak has refreshed its supported for 3rd party compositors.** Support for
 Compton has been dropped, as it is no longer actively maintained and
 **comprehensive support for [picom](https://github.com/yshui/picom) has been added**.
@@ -167,11 +161,26 @@ varies depending on your hardware.
 
 <!-- screenshot -->
 
-Firefox 🔥🦊 ESR has been added to the Browser Ballot in Ubuntu MATE Welcome
+#### MATE HUD
+
+Recent versions of `rofi`, the tool used by MATE HUD to visualise menu
+searches, has a new theme system. **MATE HUD has been updated to support this
+new theme engine and comes with two MATE specific themes (`mate-hud` and
+`mate-hud-rounded`) that automatically adapt to match the currently selected
+GTK theme**.
+
+You can add your own `rofi` themes to `~/.local/share/rofi/themes`. Should you
+want to, you can use any `rofi` theme in MATE HUD. Use <kbd>Alt</kbd> + <kbd>F2</kbd>
+to run `rofi-theme-selector` to try out the different themes, and if there is
+one you prefer you can set it as default by using running the following in a terminal:
+
+```bash
+gsettings set org.mate.hud rofi-theme <theme name>
+```
 
 {:.center}
-![Ubuntu MATE Welcome Browser Ballot](/images/blog/jammy/firefox-esr.png)
-**Comprehensive browser options just a click away**
+![MATE HUD](/images/blog/jammy/mate-hud.png)
+**MATE HUD uses the new rofi theme engine**
 
 #### Windows & Shadows
 
@@ -180,6 +189,15 @@ sure they match GNOME/CSD/Handy windows for a consistent look and feel across
 all window types 🪟 and 3rd party compositors like `picom`. We even patched how
 Marco renders shadows so windows they look cohesive regardless of app toolkit or
 compositor being used.
+
+#### Ubuntu MATE Welcome & Boutique
+
+The Software Boutqiue has been restocked with software for 22.04 and
+**Firefox 🔥🦊 ESR (`.deb`) has been added to the Browser Ballot in Ubuntu MATE Welcome.**
+
+{:.center}
+![Ubuntu MATE Welcome Browser Ballot](/images/blog/jammy/firefox-esr.png)
+**Comprehensive browser options just a click away**
 
 ### 38% less fat 🍩
 
