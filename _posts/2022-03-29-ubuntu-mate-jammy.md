@@ -303,7 +303,7 @@ mirror and follow the instructions above.
 
 Here are the known issues.
 
-{% include partials/known-issues.html filter="XX.XX" %}
+{% include partials/known-issues.html filter="22.04" %}
 
 ## Feedback
 
