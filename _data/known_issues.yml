@@ -22,14 +22,6 @@
   upstream_links:
     - https://bugs.launchpad.net/ubuntu/+source/libxcb/+bug/1873895
 
-- release: 20.04 LTS
-  component: Ubuntu MATE
-  problem: Storage is not unmounted after logging off
-  #workaround_links:
-    #-
-  upstream_links:
-    - https://bugs.launchpad.net/ubuntu-mate/+bug/1884379
-
 - release: "21.04"
   component: Plank
   problem: When snaps update, they disappear from Plank.
@@ -42,7 +34,7 @@
   upstream_links:
     - https://pad.lv/1231091
 
-- release: "21.04"
+- release: "22.04"
   component: Ubuntu
   problem: Ubiquity slide shows are missing for OEM installs of Ubuntu MATE
   workaround_links:
@@ -65,10 +57,18 @@
   upstream_links:
     - https://pad.lv/1713720
 
-- release: "21.10"
-  component: VTE
-  problem: gdebi can not install .deb packages
-  #workaround_links:
-  #  -
+- release: 22.04 LTS
+  component: Ubuntu
+  problem: Xpresent is disabled in Marco (window manager) resulting in screen tearing for Intel and AMD GPU users
+#  workaround_links:
+#    - https://ubuntu-mate.community/t/21368
   upstream_links:
-    - https://pad.lv/1946499
+    - https://pad.lv/1959995
+
+- release: "21.10"
+  component: Ubuntu
+  problem: Ubiquity slide shows are missing for OEM installs of Ubuntu MATE
+  workaround_links:
+    - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720/comments/4
+  upstream_links:
+    - https://pad.lv/1713720
