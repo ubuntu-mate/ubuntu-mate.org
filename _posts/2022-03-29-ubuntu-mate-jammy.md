@@ -274,14 +274,12 @@ Accompanying **MATE Desktop 1.26.1** and **Linux 5.15** are **Firefox 98.0.2**,
 See the [Ubuntu 22.04 Release Notes](https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
-<!--
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 22.04 Beta"
     text = "This new release will be first available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
 %}
--->
 
 ## Upgrading from Ubuntu MATE 20.04 LTS and 21.10
 

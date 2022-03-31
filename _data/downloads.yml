@@ -33,7 +33,7 @@ releases:
         wallpaper: "focal.jpg"
         lts: true
         prerelease: true
-        release_notes: "/blog/ubuntu-mate-jammy-jellyfish-final-release/"
+        release_notes: "/blog/ubuntu-mate-jammy-jellyfish-release-notes/"
         end_of_life:
             month: April
             year: 2027
@@ -67,6 +67,12 @@ downloads:
           sha256sum: "c052f607d69b36608ee09f5178c8c987351815f9fb8abd9570b55369cdd797cf"
           size: "3.2 GB"
           magnet-uri: "magnet:?xt=urn:btih:1e94efefdeee7c3785ba91f48c991a61e66d58b1&dn=ubuntu-mate-21.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+        - release: jammy
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/beta/ubuntu-mate-22.04-beta-desktop-amd64.iso"
+          sha256sum: "af651f9e6e49171ca969bdd29a0944967cbdf152e011ad388cf01e6ce7dfb2d6"
+          size: "2.8 GB"
+          magnet-uri: "magnet:?xt=urn:btih:f2f56764206e445f27cbf00c304977bb314fc67e&dn=ubuntu-mate-22.04-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: focal
