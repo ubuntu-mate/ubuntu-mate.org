@@ -103,15 +103,23 @@ appropriate Yaru MATE theme.
 
 In collaboration with [Paul Kepinski](https://github.com/Jupi007) 🇫🇷 (Yaru team)
 and [Marco Trevisan](https://twitter.com/3v1n0) 🇮🇹 (Ubuntu Desktop
-team) **we've added dark/light panel icons to Yaru for MATE Desktop and Unity.
-So Ubuntu MATE 22.04 now uses everything Yaru/Suru offers.**
+team) **we've added dark/light panels and panel icons to Yaru for MATE Desktop
+and Unity. I've added a collection of new dark/light panel icons to Yaru for
+popular apps with indicators such as Steam, Dropbox, [uLauncher](https://ulauncher.io/),
+[RedShift](http://jonls.dk/redshift/), [Transmission](https://transmissionbt.com/),
+Variety, etc.
+
+{:.center}
+![Light Panel](/images/blog/jammy/panel-light.png)
+![Dark Panel](/images/blog/jammy/panel-dark.png)
+**Light and Dark panels**
 
 I've added patches 🩹 to the Appearance Control Center that **applies theme
 changes to Plank (the dock), Pluma (text editor) and correctly toggles the colour
 scheme preference for GNOME 42 apps**. When you choose a dark theme, everything
 will go dark in unison 🥷 and vice versa.
 
-<!-- ANIMATION -->
+So, **Ubuntu MATE 22.04 is now using everything Yaru/Suru has to offer.** 🎉
 
 #### AI Generated wallpapers
 
@@ -157,9 +165,9 @@ Compton has been dropped, as it is no longer actively maintained and
 **comprehensive support for [picom](https://github.com/yshui/picom) has been added**.
 `picom` has three compositor options: Xrender, GLX and Hybrid. All three are
 can be selected via MATE Tweak as the performance and compatibility of each
-varies depending on your hardware.
-
-<!-- screenshot -->
+varies depending on your hardware. **Some people choose to use `picom` because
+they get better gaming performance or screen tearing is reduced. Some just
+like subtle animation effects `picom` adds** 💖
 
 #### MATE HUD
 
@@ -186,9 +194,9 @@ gsettings set org.mate.hud rofi-theme <theme name>
 
 I've updated the Metacity/Marco (the MATE Window Manager) themes in Yaru to make
 sure they match GNOME/CSD/Handy windows for a consistent look and feel across
-all window types 🪟 and 3rd party compositors like `picom`. We even patched how
-Marco renders shadows so windows they look cohesive regardless of app toolkit or
-compositor being used.
+all window types 🪟 and 3rd party compositors like `picom`. I even patched how
+Marco and `picom` render shadows so windows they look cohesive regardless of
+toolkit or compositor being used.
 
 #### Ubuntu MATE Welcome & Boutique
 
@@ -230,20 +238,31 @@ laptops without having to reach for a phone or tablet.
 ![GNOME Clocks, Maps & Weather](/images/blog/jammy/gnome-clocks-maps-weather.png)
 **New additions to the default desktop application in Ubuntu MATE 22.04**
 
+For those of you who like a minimal base platform, then **the minimal install
+option is still available which delivers just the essential Ubuntu MATE Desktop
+and Firefox browser.** You can then build up from there 👷
+
 #### Packages, packages, packages 📦
 
 It doesn't matter how you like to consume your Linux 🐧 packages, Ubuntu MATE
-has got you covered with **PPA, Snap, AppImage and FlatPak support baked in by
-default.**
+has got you covered with **PPA, Snap, AppImage and FlatPak support baked in
+by default.** You'll find `flatpak`, `snapd` and `xdg-desktop-portal-gtk` to
+support Snap and FlatPak and the (ageing) `libfuse2` to support AppImage are all
+pre-installed.
+
+**We've also included `snapd-desktop-integration` which provides a bridge
+between the user's session and `snapd` to integrate theme preferences 🎨 in
+snaps** and will be used for things like automatic theme installation in the
+future 🔮
 
 ### Ayatana Indicators
 
-Ubuntu MATE 20.10 transitioned from Ubuntu Indicators to [Ayatana Indicators](https://github.com/AyatanaIndicators).
+Ubuntu MATE 20.10 transitioned to [Ayatana Indicators](https://github.com/AyatanaIndicators) 🚥
 As a quick refresher, Ayatana Indicators are a fork of Ubuntu Indicators that
 aim to be cross-distro compatible and re-usable for any desktop environment 👌
 
 **Ubuntu MATE 22.04 comes with Ayatana Indicators 22.2.0 and sees the
-return of Messages Indicator to the default install**. Ayatana Indicators now
+return of Messages Indicator 📬 to the default install**. Ayatana Indicators now
 provide improved backwards compatibility to Ubuntu Indicators and no longer
 requires the installation of two sets of libraries, saving RAM, CPU cycles and
 improving battery endurance 🔋
@@ -259,8 +278,9 @@ much improved pairing compatibility** 💙🦷
 ### Active Directory
 
 And in case you missed it, the Ubuntu Desktop team added the option to enroll
-your computer into an Active Directory domain 🔑 during install for 20.10.
-Ubuntu MATE has supported the same capability since it was first made available.
+your computer into an Active Directory domain 🔑 during install. Ubuntu MATE
+has supported the same capability since it was first made available in the
+20.10 release.
 
 ### Raspberry Pi image 🥧
 
