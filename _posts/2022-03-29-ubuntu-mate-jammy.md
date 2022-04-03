@@ -213,10 +213,12 @@ Ubuntu MATE, like it's lead developer, was starting to get get a bit large
 around the mid section 😊 **During the development of 22.04, the image 📀 got
 to 4.1GB 😮**
 
-So, we put Ubuntu MATE on a strict diet 🥗 We've removed the proprietary NVIDIA
+So, we put Ubuntu MATE on a strict diet 🥗  We've removed the proprietary NVIDIA
 drivers from the local apt pool on the install media and thanks to migrating
 fully to Yaru (which now features excellent de-duplication of icons) and also
-removing our legacy themes/icons **the image is a much more reasonable 2.8GB; 38% smaller.** 🗜
+removing our legacy themes/icons. And now the Yaru-MATE themes/icons are
+completely in upstream Yaru, we were able to remove 3 snaps from the default
+install and **the image is now a much more reasonable 2.7GB; 41% smaller.** 🗜
 
 This is important to us, because **the majority of our users are in countries
 where Internet bandwidth is not always plentiful**. Those of you with NVIDIA GPUs,
