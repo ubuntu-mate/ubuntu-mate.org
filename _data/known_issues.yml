@@ -68,3 +68,9 @@
   problem: dbus is stopped during update and breaks the desktop
   upstream_links:
     - https://pad.lv/1962036
+
+- release: "22.04"
+  component: Ubuntu
+  problem: Automatic snapped theme installation says it Failed, but does actually work
+  upstream_links:
+    - https://github.com/snapcore/snapd-desktop-integration/issues/7
