@@ -51,23 +51,11 @@
 
 - release: "22.04"
   component: Ubuntu
-  problem: Xpresent is disabled in Marco (window manager) resulting in screen tearing for Intel and AMD GPU users
-  upstream_links:
-    - https://pad.lv/1959995
-
-- release: "22.04"
-  component: Ubuntu
   problem: Ubiquity slide shows are missing for OEM installs of Ubuntu MATE
   workaround_links:
     - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720/comments/4
   upstream_links:
     - https://pad.lv/1713720
-
-- release: "22.04"
-  component: Ubuntu
-  problem: dbus is stopped during update and breaks the desktop
-  upstream_links:
-    - https://pad.lv/1962036
 
 - release: "22.04"
   component: Ubuntu
