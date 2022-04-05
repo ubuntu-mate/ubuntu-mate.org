@@ -61,4 +61,4 @@
   component: Ubuntu
   problem: Automatic snapped theme installation says it Failed, but does actually work
   upstream_links:
-    - https://github.com/snapcore/snapd-desktop-integration/issues/7
+    - https://github.com/snapcore/snapd-desktop-integration/issues/9
