@@ -229,6 +229,20 @@ the appropriate driver for your GPU will be downloaded and installed 👍
 ![Install 3rd party drivers](/images/blog/jammy/install-3rd-party.png)
 **NVIDIA GPU owners should tick *Install 3rd party software and drivers* during install**
 
+While investigating 🕵 [a bug in Xorg Server that caused Marco (the MATE window manager)
+to crash](https://pad.lv/1959995) **we discovered that Marco has lower frame time
+latency ⏱ when using Xrender with the NVIDIA proprietary drivers**. **We've
+published a PPA where NVIDIA GPU users can install a version of Marco that uses
+Xpresent for optimal performance** ⚡
+
+```bash
+sudo apt-add-repository ppa:ubuntu-mate-dev/marco
+sudo apt upgrade
+```
+
+Should you want to revert this change you install `ppa-purge` and run the
+following from a terminal: `sudo ppa-purge -o ubuntu-mate-dev -p marco`.
+
 #### But wait! There's more! 😲
 
 These reductions in size are after **we added three new applications to the default
@@ -253,9 +267,9 @@ support Snap and FlatPak and the (ageing) `libfuse2` to support AppImage are all
 pre-installed.
 
 **We've also included `snapd-desktop-integration` which provides a bridge
-between the user's session and `snapd` to integrate theme preferences 🎨 in
-snaps** and will be used for things like automatic theme installation in the
-future 🔮
+between the user's session and `snapd` to integrate theme preferences 🎨 with
+snapped apps** and can also automatically install snapped themes 👔
+**All the Yaru themes shipped in Ubuntu MATE are fully snap aware**.
 
 ### Ayatana Indicators
 
@@ -277,6 +291,9 @@ To compliment the BlueZ 5.64 protocol stack in Ubuntu, Ubuntu MATE ships
 **Blueman 2.2.4 which offers comprehensive management of Bluetooth devices and
 much improved pairing compatibility** 💙🦷
 
+I also patched `mate-power-manager`, `ayatana-indicator-power` and Yaru to **add
+support for battery powered gaming input devices, such as controllers 🎮 and joysticks 🕹**
+
 ### Active Directory
 
 And in case you missed it, the Ubuntu Desktop team added the option to enroll
@@ -290,7 +307,7 @@ has supported the same capability since it was first made available in the
 
 ### Major Applications
 
-Accompanying **MATE Desktop 1.26.1** and **Linux 5.15** are **Firefox 98.0.2**,
+Accompanying **MATE Desktop 1.26.1** and **Linux 5.15** are **Firefox 99.0**,
 **Celluloid 0.20**, **Evolution 3.44** & **LibreOffice 7.3.2.1**
 
 See the [Ubuntu 22.04 Release Notes](https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668)
