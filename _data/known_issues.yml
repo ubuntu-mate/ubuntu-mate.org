@@ -56,9 +56,3 @@
     - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720/comments/4
   upstream_links:
     - https://pad.lv/1713720
-
-- release: "22.04"
-  component: Ubuntu
-  problem: Automatic snapped theme installation says it Failed, but does actually work
-  upstream_links:
-    - https://github.com/snapcore/snapd-desktop-integration/issues/9

@@ -144,10 +144,9 @@ run down of what's new and shiny ✨
 
 #### MATE Tweak
 
-Switching layouts with MATE Tweak is its most celebrated feature. And I feel
-like this sentence has been in every recent release note round up, but I really
-mean it this time: **switching panel layouts is more reliable than e-v-e-r!**
-Also, restoring custom layouts is 100% accurate now 💯
+Switching layouts with MATE Tweak is its most celebrated feature. We've improved
+the reliability of desktop layout switching and restoring custom layouts is now 100%
+accurate 💯
 
 {:.center}
 ![Ubuntu MATE Desktop Layouts](/images/blog/jammy/panel-layouts.png)
