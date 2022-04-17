@@ -29,17 +29,23 @@ the digital signature](/faq/verify-download-secure/) of the file instead.
 
 ### Windows
 
-This method uses a third-party application named **MD5 & SHA Checksum Utility**.
+On Windows, you can verify checksums from the command line.
 
-* Download [MD5 & SHA Checksum Utility](https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/)
-* Launch the application *MD5_and_SHA_Checksum_Utility.exe*
-* Click on the **Browse** button and browse to the *Ubuntu MATE* ISO file.
+* Copy the downloaded file by selecting the file in the File Explorer and pressing **Ctrl + C**.
+* Open a **Command Prompt** window or a **PowerShell** window.
+* Type `certutil -hashFile` followed by a space and press **Ctrl + V**. This should paste the file path in the command line. Then press **space**.
+* Type `SHA256` at the end. The command should look like this:
 
-    ![MD5 and SHA Checksum](/images/faq/verify/MD5_and_SHA_Checksum_Utility.png)
+    ![Windows SHA256](/images/faq/verify/Windows-SHA256-command.png)
 
-**Note:** To make calculation faster, it's only necessary to check the checksums
-you have values for.
+* Press **Enter** to begin the process. This may take a few moments.
 
+    ![Windows SHA256](/images/faq/verify/Windows-SHA256-result.png)
+
+* Compare the SHA256 checksum printed to the command line to the checksum on
+the image's download page.
+
+    ![Windows SHA256](/images/faq/verify/Windows-SHA256-check.png)
 
 ### macOS
 
