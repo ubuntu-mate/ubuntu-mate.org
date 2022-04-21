@@ -32,12 +32,11 @@ releases:
         mascot: "jammy.svg"
         wallpaper: "focal.jpg"
         lts: true
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-jammy-jellyfish-release-notes/"
         end_of_life:
             month: Apr
             year: 2025
-
 
 # To list new architectures on the download page, add descriptions to download.md
 arch:
@@ -69,10 +68,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:1e94efefdeee7c3785ba91f48c991a61e66d58b1&dn=ubuntu-mate-21.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: jammy
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/beta/ubuntu-mate-22.04-beta-desktop-amd64.iso"
-          sha256sum: "af651f9e6e49171ca969bdd29a0944967cbdf152e011ad388cf01e6ce7dfb2d6"
-          size: "2.8 GB"
-          magnet-uri: "magnet:?xt=urn:btih:f2f56764206e445f27cbf00c304977bb314fc67e&dn=ubuntu-mate-22.04-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso"
+          sha256sum: "c441ba839ccaff67e27c15423da006dc7b708641973c5c82c2d67ea5799be34b"
+          size: "2.7 GB"
+          magnet-uri: "magnet:?xt=urn:btih:4bb705210adb59cfbaf22a85acff51f4fb6105cd&dn=ubuntu-mate-22.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: focal

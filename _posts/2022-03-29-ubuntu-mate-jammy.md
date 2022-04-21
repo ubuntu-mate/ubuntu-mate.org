@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 permalink: /blog/ubuntu-mate-jammy-jellyfish-release-notes/
-category: dev                                # Beta Only - change to 'release'
+category: release
 author: Martin Wimpress
 lang: en
 discourse_topic_id: 25318
@@ -38,26 +38,6 @@ difference!** 💚
 {:.center}
 ![Ubuntu MATE 22.04 LTS](/images/blog/jammy/ubuntu-mate-mutiny-dark.png)
 **Ubuntu MATE 22.04 LTS (Jammy Jellyfish) - Mutiny layout with Yark-MATE-dark**
-
-<!--- Beta Only - Remove for final release --->
-
-## What works? 🤔
-
-People tell us that Ubuntu MATE is stable. You may, or may not, agree.
-
-Ubuntu MATE *Beta Releases* are *NOT* recommended for:
-
-  * Regular users who are not aware of pre-release issues
-  * Anyone who needs a stable system
-  * Anyone uncomfortable running a possibly frequently broken system
-  * Anyone in a production environment with data or workflows that need to be reliable
-
-Ubuntu MATE *Beta Releases* are recommended for:
-
-  * Regular users who want to help us test by finding, reporting, and/or fixing bugs
-  * Ubuntu MATE, MATE Desktop, Yaru and GTK+ developers.
-
-<!--- End of Beta Only --->
 
 ## What's changed?
 
@@ -312,7 +292,7 @@ See the [Ubuntu 22.04 Release Notes](https://discourse.ubuntu.com/t/jammy-jellyf
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
-    title = "Download Ubuntu MATE 22.04 Beta"
+    title = "Download Ubuntu MATE 22.04 LTS"
     text = "This new release will be first available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
