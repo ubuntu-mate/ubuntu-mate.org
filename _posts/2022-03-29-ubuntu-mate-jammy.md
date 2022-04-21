@@ -20,15 +20,6 @@ gallery:
 
 Ubuntu MATE 22.04 LTS is the culmination of 2 years of continual improvement 😅
 to Ubuntu and MATE Desktop. As is tradition, the LTS development cycle has a
-> We are preparing Ubuntu MATE 22.04 (Jammy Jellyfish) for distribution on
-[April 21st, 2022](https://discourse.ubuntu.com/t/jammy-jellyfish-release-schedule/23906).
-With this **Beta** pre-release, you can see what we are trying out in
-preparation for our next (stable) version.
-
-<!--- End of Beta Only --->
-
-Ubuntu MATE 22.04 is the culmination of 2 years of continual improvement 😅 to
-Ubuntu and MATE Desktop. As is tradition, the LTS development cycle has a
 keen focus on eliminating paper 🧻 cuts 🔪 but we've *jammed* in some new
 features and a fresh coat of paint too 🖌 The following is a summary of what's
 new [since Ubuntu MATE 21.10](/blog/ubuntu-mate-impish-indri-final-release/) and
