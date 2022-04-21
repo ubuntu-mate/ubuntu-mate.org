@@ -265,6 +265,13 @@ by default.** You'll find `flatpak`, `snapd` and `xdg-desktop-portal-gtk` to
 support Snap and FlatPak and the (ageing) `libfuse2` to support AppImage are all
 pre-installed.
 
+Although `flatpak` is installed, [FlatHub](https://flathub.org/home) is not
+enabled by default. To enable FlatHub run the following in a terminal:
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
 **We've also included `snapd-desktop-integration` which provides a bridge
 between the user's session and `snapd` to integrate theme preferences 🎨 with
 snapped apps** and can also automatically install snapped themes 👔
