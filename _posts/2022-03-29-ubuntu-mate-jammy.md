@@ -45,8 +45,8 @@ fabulous website. Thank you! Thank you all for getting out there and making a
 difference!** 💚
 
 {:.center}
-![Ubuntu MATE 22.04](/images/blog/jammy/ubuntu-mate-mutiny-dark.png)
-**Ubuntu MATE 22.04 (Jammy Jellyfish) - Mutiny layout with Yark-MATE-dark**
+![Ubuntu MATE 22.04 LTS](/images/blog/jammy/ubuntu-mate-mutiny-dark.png)
+**Ubuntu MATE 22.04 LTS (Jammy Jellyfish) - Mutiny layout with Yark-MATE-dark**
 
 <!--- Beta Only - Remove for final release --->
 
@@ -79,7 +79,8 @@ in 21.10 and benefits from **significant effort 😅 in fixing bugs 🐛
 in MATE Desktop, optimising performance ⚡ and plugging memory leaks**. MATE
 Desktop 1.26.1 addresses the bugs we discovered following the initial 1.26.0
 release. Our community also fixed some bugs in Plank and Brisk Menu 👍 and also
-fixed the screen reader during installs for visually impaired users 🥰
+fixed the screen reader during installs for visually impaired users 🥰 In all
+over 500 bugs have been addressed in this release 🩹
 
 ### Yaru 🎨
 
@@ -115,9 +116,9 @@ Variety, etc.
 **Light and Dark panels**
 
 I've added patches 🩹 to the Appearance Control Center that **applies theme
-changes to Plank (the dock), Pluma (text editor) and correctly toggles the colour
-scheme preference for GNOME 42 apps**. When you choose a dark theme, everything
-will go dark in unison 🥷 and vice versa.
+changes to Plank (the dock), Pluma (text editor) and correctly toggles the
+colour scheme preference for GNOME 42 apps**. When you choose a dark theme,
+everything will go dark in unison 🥷 and vice versa.
 
 So, **Ubuntu MATE 22.04 LTS is now using everything Yaru/Suru has to offer.** 🎉
 
