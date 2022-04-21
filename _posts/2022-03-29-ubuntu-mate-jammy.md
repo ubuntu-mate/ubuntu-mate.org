@@ -5,10 +5,10 @@ permalink: /blog/ubuntu-mate-jammy-jellyfish-release-notes/
 category: dev                                # Beta Only - change to 'release'
 author: Martin Wimpress
 lang: en
-discourse_topic_id: # TBC
+discourse_topic_id: 25318
 
-title: Ubuntu MATE 22.04 Release Notes
-description: What's new in Ubuntu MATE 22.04 (Jammy Jellyfish)
+title: Ubuntu MATE 22.04 LTS Release Notes
+description: What's new in Ubuntu MATE 22.04 LTS (Jammy Jellyfish)
 gallery:
     - image: /images/blog/jammy/jelly3.jpg
       caption: null
@@ -18,8 +18,8 @@ gallery:
       caption: null
 ---
 
-<!--- Beta Only - Remove for final release --->
-
+Ubuntu MATE 22.04 LTS is the culmination of 2 years of continual improvement 😅
+to Ubuntu and MATE Desktop. As is tradition, the LTS development cycle has a
 > We are preparing Ubuntu MATE 22.04 (Jammy Jellyfish) for distribution on
 [April 21st, 2022](https://discourse.ubuntu.com/t/jammy-jellyfish-release-schedule/23906).
 With this **Beta** pre-release, you can see what we are trying out in
@@ -91,9 +91,9 @@ All reported bugs 🐞 in the Yaru implementation for MATE have also been fixed 
 
 {:.center}
 ![Yaru Themes](/images/blog/jammy/yaru-themes.png)
-**Yaru Themes in Ubuntu MATE 22.04**
+**Yaru Themes in Ubuntu MATE 22.04 LTS**
 
-Ubuntu MATE 22.04 ships with all the Yaru themes, including our own *"chelsea
+Ubuntu MATE 22.04 LTS ships with all the Yaru themes, including our own *"chelsea
 cucumber"* version 🥒 The legacy Ambiant/Radiant themes are no longer
 installed by default and neither are the stock MATE Desktop themes. We've added
 an **automatic settings migration** to transition users who upgrade to an
@@ -104,7 +104,7 @@ appropriate Yaru MATE theme.
 In collaboration with [Paul Kepinski](https://github.com/Jupi007) 🇫🇷 (Yaru team)
 and [Marco Trevisan](https://twitter.com/3v1n0) 🇮🇹 (Ubuntu Desktop
 team) **we've added dark/light panels and panel icons to Yaru for MATE Desktop
-and Unity. I've added a collection of new dark/light panel icons to Yaru for
+and Unity**. I've added a collection of new dark/light panel icons to Yaru for
 popular apps with indicators such as Steam, Dropbox, [uLauncher](https://ulauncher.io/),
 [RedShift](http://jonls.dk/redshift/), [Transmission](https://transmissionbt.com/),
 Variety, etc.
@@ -119,7 +119,7 @@ changes to Plank (the dock), Pluma (text editor) and correctly toggles the colou
 scheme preference for GNOME 42 apps**. When you choose a dark theme, everything
 will go dark in unison 🥷 and vice versa.
 
-So, **Ubuntu MATE 22.04 is now using everything Yaru/Suru has to offer.** 🎉
+So, **Ubuntu MATE 22.04 LTS is now using everything Yaru/Suru has to offer.** 🎉
 
 #### AI Generated wallpapers
 
@@ -206,7 +206,7 @@ The Software Boutqiue has been restocked with software for 22.04 and
 ![Ubuntu MATE Welcome Browser Ballot](/images/blog/jammy/firefox-esr.png)
 **Comprehensive browser options just a click away**
 
-### 38% less fat 🍩
+### 41% less fat 🍩
 
 Ubuntu MATE, like it's lead developer, was starting to get get a bit large
 around the mid section 😊 **During the development of 22.04, the image 📀 got
@@ -251,7 +251,7 @@ laptops without having to reach for a phone or tablet.
 
 {:.center}
 ![GNOME Clocks, Maps & Weather](/images/blog/jammy/gnome-clocks-maps-weather.png)
-**New additions to the default desktop application in Ubuntu MATE 22.04**
+**New additions to the default desktop application in Ubuntu MATE 22.04 LTS**
 
 For those of you who like a minimal base platform, then **the minimal install
 option is still available which delivers just the essential Ubuntu MATE Desktop
@@ -283,7 +283,7 @@ Ubuntu MATE 20.10 transitioned to [Ayatana Indicators](https://github.com/Ayatan
 As a quick refresher, Ayatana Indicators are a fork of Ubuntu Indicators that
 aim to be cross-distro compatible and re-usable for any desktop environment 👌
 
-**Ubuntu MATE 22.04 comes with Ayatana Indicators 22.2.0 and sees the
+**Ubuntu MATE 22.04 LTS comes with Ayatana Indicators 22.2.0 and sees the
 return of Messages Indicator 📬 to the default install**. Ayatana Indicators now
 provide improved backwards compatibility to Ubuntu Indicators and no longer
 requires the installation of two sets of libraries, saving RAM, CPU cycles and
@@ -309,7 +309,7 @@ has supported the same capability since it was first made available in the
 
 ### Raspberry Pi image 🥧
 
-  * Should be available at or very shortly after the release of 22.04.
+  * Should be available very shortly after the release of 22.04.
 
 ### Major Applications
 
@@ -328,9 +328,9 @@ for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 ## Upgrading from Ubuntu MATE 20.04 LTS and 21.10
 
-You can upgrade to Ubuntu MATE 22.04 from Ubuntu MATE either 20.04 LTS or 21.10.
-Ensure that you have all updates installed for your current version of Ubuntu
-MATE before you upgrade.
+You can upgrade to Ubuntu MATE 22.04 LTS from Ubuntu MATE either 20.04 LTS or
+21.10. Ensure that you have all updates installed for your current version of
+Ubuntu MATE before you upgrade.
 
   * Open the "Software & Updates" from the Control Center.
   * Select the 3rd Tab called "Updates".
