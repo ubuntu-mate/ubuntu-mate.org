@@ -180,7 +180,7 @@ The Software Boutqiue has been restocked with software for 22.04 and
 
 ### 41% less fat 🍩
 
-Ubuntu MATE, like it's lead developer, was starting to get get a bit large
+Ubuntu MATE, like it's lead developer, was starting to get a bit large
 around the mid section 😊 **During the development of 22.04, the image 📀 got
 to 4.1GB 😮**
 
