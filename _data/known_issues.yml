@@ -22,18 +22,6 @@
   upstream_links:
     - https://bugs.launchpad.net/ubuntu/+source/libxcb/+bug/1873895
 
-- release: "21.04"
-  component: Plank
-  problem: When snaps update, they disappear from Plank.
-  upstream_links:
-    - https://pad.lv/1828030
-
-- release: "21.04"
-  component: Ubuntu MATE
-  problem: Screen reader installs using orca are currently not working
-  upstream_links:
-    - https://pad.lv/1231091
-
 - release: "21.10"
   component: Plank
   problem: When snaps update, they disappear from Plank.
