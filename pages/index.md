@@ -9,19 +9,17 @@ banner_url: /about/
 gallery:
     - image: /images/homepage/01_familiar.png
       caption: null
-    - image: /images/homepage/02_contemporary.png
+    - image: /images/homepage/02_mutiny.png
       caption: null
-    - image: /images/homepage/03_cupertino.png
+    - image: /images/homepage/03_redmond.png
       caption: null
-    - image: /images/homepage/04_mutiny.png
+    - image: /images/homepage/04_cupertino.png
       caption: null
-    - image: /images/homepage/05_netbook.png
+    - image: /images/homepage/05_traditional.png
       caption: null
-    - image: /images/homepage/06_pantheon.png
+    - image: /images/homepage/06_contemporary.png
       caption: null
-    - image: /images/homepage/07_redmond.png
-      caption: null
-    - image: /images/homepage/08_traditional.png
+    - image: /images/homepage/07_pantheon.png
       caption: null
 
 title: Ubuntu MATE | For a retrospective future
