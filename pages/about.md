@@ -10,12 +10,12 @@ title: About
 ---
 
 {% include embed/highlight-video.html
-    embed_1_mp4 = "https://static.ubuntu-mate.org/highlights2004.mp4"
-    embed_1_webm = "https://static.ubuntu-mate.org/highlights2004.webm"
-    embed_1_thumb = "https://static.ubuntu-mate.org/highlights2004.webp"
-    embed_2_mp4 = "https://static.ubuntu-mate.org/highlights1804.mp4"
-    embed_2_webm = "https://static.ubuntu-mate.org/highlights1804.webm"
-    embed_2_thumb = "https://static.ubuntu-mate.org/highlights1804.webp"
+    embed_1_mp4 = "https://static.ubuntu-mate.org/highlights2204.mp4"
+    embed_1_webm = "https://static.ubuntu-mate.org/highlights2204.webm"
+    embed_1_thumb = "https://static.ubuntu-mate.org/highlights2204.webp"
+    embed_2_mp4 = "https://static.ubuntu-mate.org/highlights2004.mp4"
+    embed_2_webm = "https://static.ubuntu-mate.org/highlights2004.webm"
+    embed_2_thumb = "https://static.ubuntu-mate.org/highlights2004.webp"
 %}
 
 
