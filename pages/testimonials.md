@@ -25,7 +25,7 @@ youtube: #noi18n
 
     - embed_url: "https://youtube.com/embed/nGfDohaDun0?rel=0"
       who: "G's Multiverse"
-      quote: "II honestly have fallen in love with MATE, Ubuntu MATE 22.04...if you are new to Linux I think MATE, especially in Cupertino mode, you are going to fall in love with it"
+      quote: "II honestly have fallen in love with MATE, Ubuntu MATE 22.04...if you are new to Linux. I think MATE, especially in Cupertino mode, you are going to fall in love with it"
       subject: "Review of Ubuntu MATE 22.04 LTS"
 
     - embed_url: "https://www.youtube.com/embed/7dZVWPfhf4Y?rel=0"
