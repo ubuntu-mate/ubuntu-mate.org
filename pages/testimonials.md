@@ -23,19 +23,19 @@ testimonials: #noi18n
 
 youtube: #noi18n
 
-    - embed_url: "https://www.youtube.com/embed/C8GCvS2pj6E?rel=0"
-      who: "QuidsUp"
-      quote: "In a way, this would be really good to see as Ubuntu's flagship desktop... Ubuntu MATE is quite something, and I'm not sure how much I'll be able to do it justice in this review... The team have continued to improve and adapt the desktop. Every time I think they must be running out of ideas, that does not seem to be the case."
-      subject: "Review of Ubuntu MATE 20.04 LTS"
+    - embed_url: "https://youtube.com/embed/nGfDohaDun0?rel=0"
+      who: "G's Multiverse"
+      quote: "II honestly have fallen in love with MATE, Ubuntu MATE 22.04...if you are new to Linux. I think MATE, especially in Cupertino mode, you are going to fall in love with it"
+      subject: "Review of Ubuntu MATE 22.04 LTS"
 
     - embed_url: "https://www.youtube.com/embed/7dZVWPfhf4Y?rel=0"
       who: "OldTechBloke"
       quote: "Ubuntu MATE has picked up where GNOME 2 left off, and it's a great desktop, and it's a great implementation of MATE... From what I can see, it's another high-quality release."
       subject: "Review of Ubuntu MATE 20.04 LTS"
 
-    - embed_url: "https://www.youtube.com/embed/bncInfUb3NM?start=297"
-      who: "Barbara Harris on Big Daddy Linux Live"
-      quote: "Anybody who complains about the MATE green, on the Welcome screen you can just click a little thing to change the color, to go and customize it to the way you want it... once it's set you don't have to worry about it... I didn't have any problems and every single piece of software I needed was available, so I think they did a really, really nice job."
+    - embed_url: "https://www.youtube.com/embed/C8GCvS2pj6E?rel=0"
+      who: "QuidsUp"
+      quote: "In a way, this would be really good to see as Ubuntu's flagship desktop... Ubuntu MATE is quite something, and I'm not sure how much I'll be able to do it justice in this review... The team have continued to improve and adapt the desktop. Every time I think they must be running out of ideas, that does not seem to be the case."
       subject: "Review of Ubuntu MATE 20.04 LTS"
 
 ---
