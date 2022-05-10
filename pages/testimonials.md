@@ -28,10 +28,10 @@ youtube: #noi18n
       quote: "II honestly have fallen in love with MATE, Ubuntu MATE 22.04...if you are new to Linux. I think MATE, especially in Cupertino mode, you are going to fall in love with it"
       subject: "Review of Ubuntu MATE 22.04 LTS"
 
-    - embed_url: "https://www.youtube.com/embed/7dZVWPfhf4Y?rel=0"
-      who: "OldTechBloke"
-      quote: "Ubuntu MATE has picked up where GNOME 2 left off, and it's a great desktop, and it's a great implementation of MATE... From what I can see, it's another high-quality release."
-      subject: "Review of Ubuntu MATE 20.04 LTS"
+    - embed_url: "https://www.youtube.com/embed/znLU65nBOiQ?rel=0"
+      who: "Tyler's Tech"
+      quote: "All in all, I really like MATE. It's really come into itself lately."
+      subject: "Review of Ubuntu MATE 22.04 LTS"
 
     - embed_url: "https://www.youtube.com/embed/C8GCvS2pj6E?rel=0"
       who: "QuidsUp"
