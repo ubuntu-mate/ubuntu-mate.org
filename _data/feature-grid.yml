@@ -95,9 +95,7 @@
     - name: Redshift
       icon: /images/apps/redshift.svg
       not_in_min_install: true
-      class:
-        - "not-in-21-04"
-
+      
     - name: Firefox
       icon: /images/apps/firefox.svg
 
@@ -129,8 +127,8 @@
       icon: /images/apps/cheese.svg
       not_in_min_install: true
       class:
-        - "not-in-20-10"
-        - "not-in-21-04"
+        - "not-in-21-10"
+        - "not-in-22-04"
 
     - name: Webcamoid
       icon: /images/apps/webcamoid.png
