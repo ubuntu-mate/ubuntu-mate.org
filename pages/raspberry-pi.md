@@ -39,8 +39,7 @@ High-level features of these images are:
   * Ubuntu kernel.
     * Performance optimised by the Ubuntu Kernel team.
     * Regularly security patches by the Ubuntu Security team.
-  * VC4/V3D (fkms) driver is enabled by default.
-    * `fbturbo` driver is available if you want it, but limited to 2D accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA Controller).
+  * VC4/V3D (Full KMS) driver is enabled by default.
   * Automatic online filesystem expansion.
   * Ethernet & WiFi (*on compatible models*)
   * Bluetooth (*on compatible models*)
@@ -105,7 +104,7 @@ To enable USB mass storage boot on a Raspberry Pi 4 follow these steps:
 
 ### Enable USB boot for Raspberry Pi 2, 3 and 3+
 
-The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,
+The Raspberry Pi 4, 3+, 3 and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,
 are capable of booting from a USB drive. For the Pi 2 and 3 you'll first
 need to [program USB boot mode](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md),
 this is unnecessary on the Pi 3+ as USB booting is enabled by default.
@@ -121,13 +120,17 @@ the system configuration and kernel command line options respectively.
 The OpenSSH server is not installed by default. Simply install it to
 to enable SSH.
 
-    sudo apt install openssh-server
+```bash
+sudo apt install openssh-server
+```
 
 If you install SSH then you might also want to install `sshguard`
 which is highly optimised and well suited for use on the Raspberry Pi
 to protect from brute force attacks against SSH.
 
-    sudo apt install sshguard
+```bash
+sudo apt install sshguard
+```
 
 <!--
 ### Steam Link for Raspberry Pi
@@ -166,14 +169,6 @@ If you have issues with audio, you may try un-commenting the following line in `
 This forces the HDMI output into HDMI mode instead of DVI; which doesn't support
 audio output. You can also configure the system to output to a particular audio
 device.
-
-#### For HDMI
-
-    sudo amixer cset numid=3 2
-
-#### For 3.5mm audio jack
-
-    sudo amixer cset numid=3 1
 
 <!--
 ### Hardware accelerated video

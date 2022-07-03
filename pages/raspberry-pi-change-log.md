@@ -12,9 +12,18 @@ title: Raspberry Pi Changes
 
 {% include partials/toc.html %}
 
+### July 4th 2021 - 22.04
+
+  * Refreshed images based on Ubuntu MATE 22.04.
+  * Enabled 1GiB zswap (using lz4) by default.
+  * Enabled the VC4/V3D Full KMS driver by default.
+  * Enabled window manager compositor by default.
+  * Drop `/usr/local/sbin/adduser.local` helper.
+  * Optimise image size.
+
 ### 6 November 2021 - 21.10
 
-  * Refreshed images based on Ubuntu MATE 21.10
+  * Refreshed images based on Ubuntu MATE 21.10.
 
 ### 30 October 2020 - 20.04.1 & 20.10
 
