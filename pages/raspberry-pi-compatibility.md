@@ -21,11 +21,9 @@ memory pressure and increase wear on SD cards due to swapping.
 Good question! [This is answered on our Raspberry Pi Download page.](/raspberry-pi/download/)
 
 
-## Memory and Storage Statistics for 18.04
+## Storage Tips
 
-Memory pressure is reasonable using the `armhf` images (~350MB at idle)
-but quite tight on the `arm64` images (~490MB at idle). As always,
-microSDHC I/O throughput is a bottleneck on the Raspberry Pi so don't
+As always, microSDHC I/O throughput is a bottleneck on the Raspberry Pi so don't
 gimp your Raspberry Pi by cheaping out on poor performing microSDHC
 cards. We used the [Samsung EVO Plus 32 GB microSDHC UHS-I U1](https://geni.us/AKAsg)
 and [Kingston 64 GB microSDXC Canvas Go Plus](https://geni.us/Jelmu)

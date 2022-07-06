@@ -16,11 +16,16 @@ title: Raspberry Pi Changes
 
   * Refreshed images based on Ubuntu MATE 22.04.
   * Enabled 1GiB zswap (using lz4) by default.
-  * Enabled the VC4/V3D Full KMS driver by default.
+  * Enabled the VC4/V3D Full KMS driver by default. (*See Known issues below*)
   * Enabled window manager compositor by default.
   * Drop `/usr/local/sbin/adduser.local` helper.
   * Optimise image size.
 
+#### Known issues
+
+  * The Pi 2 and Pi 3 will boot to a black screen with the `armhf` build.
+    * **Simply change `dtoverlay=vc4-kms-v3d` to `dtoverlay=vc4-fkms-v3d` in `config.txt` to remedy the issue.**
+    * *22.04.1 is due in August 2022 and this issue will be fixed in those image of Ubuntu MATE for the Raspberry Pi.*
 ### 6 November 2021 - 21.10
 
   * Refreshed images based on Ubuntu MATE 21.10.
