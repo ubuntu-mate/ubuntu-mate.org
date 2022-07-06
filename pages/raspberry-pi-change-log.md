@@ -23,9 +23,9 @@ title: Raspberry Pi Changes
 
 #### Known issues
 
-  * The Pi 2 and Pi 3 will boot to a black screen with the `armhf` build.
+  * The Pi 2 and Pi 3 will boot to a black screen with the 32-bit ARM (`armhf`) build 😭
     * **Simply change `dtoverlay=vc4-kms-v3d` to `dtoverlay=vc4-fkms-v3d` in `config.txt` to remedy the issue.**
-    * *22.04.1 is due in August 2022 and this issue will be fixed in those image of Ubuntu MATE for the Raspberry Pi.*
+    * *22.04.1 is due in August 2022 and this issue will be fixed in those refreshed images.*
 ### 6 November 2021 - 21.10
 
   * Refreshed images based on Ubuntu MATE 21.10.
