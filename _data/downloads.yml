@@ -68,10 +68,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:1e94efefdeee7c3785ba91f48c991a61e66d58b1&dn=ubuntu-mate-21.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: jammy
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso"
-          sha256sum: "c441ba839ccaff67e27c15423da006dc7b708641973c5c82c2d67ea5799be34b"
-          size: "2.7 GB"
-          magnet-uri: "magnet:?xt=urn:btih:4bb705210adb59cfbaf22a85acff51f4fb6105cd&dn=ubuntu-mate-22.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.1-desktop-amd64.iso"
+          sha256sum: "1c18cdabcf820f699cebf6cda7ed4ba230d9acaf0b1573b870b099f678d32c29"
+          size: "2.5 GB"
+          magnet-uri: "magnet:?xt=urn:btih:de9bff3b76489706867baa8021d7e3367998ebba&dn=ubuntu-mate-22.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: jammy
