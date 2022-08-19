@@ -171,7 +171,7 @@ toolkit or compositor being used.
 
 #### Ubuntu MATE Welcome & Boutique
 
-The Software Boutqiue has been restocked with software for 22.04 and
+The Software Boutique has been restocked with software for 22.04 and
 **Firefox 🔥🦊 ESR (`.deb`) has been added to the Browser Ballot in Ubuntu MATE Welcome.**
 
 {:.center}
