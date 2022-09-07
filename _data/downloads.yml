@@ -56,10 +56,10 @@ arch:
 downloads:
     amd64:
         - release: focal
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.4-desktop-amd64.iso"
-          sha256sum: "66b7d28ab70f6c2def4c8324c5ecae378ed00c6dcadf4841d64aadf966d9e7ad"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.5-desktop-amd64.iso"
+          sha256sum: "cf90f3de070f2ed1cd6f60de16a197e6dad1b90c3898af165b0979561e449bbc"
           size: "3.2 GB"
-          magnet-uri: "magnet:?xt=urn:btih:625d14c4043dc5d7e036d67ea21a26dc55f73b35&dn=ubuntu-mate-20.04.4-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:50b3bc19c6eb3f78478d74f389f56b50bd45ddcd&dn=ubuntu-mate-20.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: impish
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.10/release/ubuntu-mate-21.10-desktop-amd64.iso"
