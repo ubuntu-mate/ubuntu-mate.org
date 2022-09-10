@@ -132,9 +132,10 @@ connected devices:
 
     sudo fdisk -l
 
-For example, in the image below, the USB drive is `/dev/sdb1/`. Checking the
-name of your device is a key step, as **writing to the wrong device might corrupt
-or destroy your data**.
+For example, in the image below, the USB drive is `/dev/sdb` (third entry) and
+the first and only partition is `/dev/sdb1` (last entry). Checking the name of
+your device is a key step, as **writing to the wrong device might corrupt or
+destroy your data**.
 
 ![Screenshot of fdisk command in terminal](/images/faq/bootable/fdisk-l.png)
 
