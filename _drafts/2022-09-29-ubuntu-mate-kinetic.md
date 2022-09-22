@@ -40,7 +40,7 @@ bring the full Ubuntu MATE experience to Debian MATE 🙂
 This may raise some questions for Ubuntu MATE users, so let's try and address them:
 
  - **I'm not stepping away from Ubuntu or Ubuntu MATE**. I will continue to use and develop Ubuntu MATE 👍
- - I've closely collaborated with the MATE packing team for Debian for over 8 years 👴
+ - I've closely collaborated with the MATE packaging team for Debian for over 8 years 👴
  - Making the MATE experience in Debian and Ubuntu consistent **makes maintenance easier for all involved** 🛠
  - Ubuntu MATE offers some modernisation of MATE via home-grown apps such as MATE Tweak and Ayatana Indicators. **We want Debian users to benefit from those improvements too** 💖
  - We're hopeful the MATE spin in Debian 12 will offer the same (or extremely similar) experience Ubuntu MATE users have enjoyed for some time 🎁
