@@ -107,7 +107,7 @@ compatible with center alignment of applets ✅
 
 My friend [Simon Butcher](https://twitter.com/simonjbutcher) 🇬🇧 is Head of
 Research Platforms at Queen Mary University of London managing the Apocrita HPC
-cluster service. **Once again, Simon has created AI some stunning 🤖🧠 generated
+cluster service. **Once again, Simon has created some stunning AI generated 🤖🧠
 wallpapers for Ubuntu MATE using bleeding edge diffusion models** 🖌 *The samples
 below are 1920x1080 but the versions include in Ubuntu MATE 22.10 are 3840x2160*.
 
@@ -149,9 +149,19 @@ Once the installs/removals are complete restart your computer.
 ### Ubuntu MATE Stuff
 
 The *"MATE HUD"* has seen some significant work from community contributor
-[twa022](https://github.com/twa022) 🌎. The HUD now **supports for MATE, XFCE and
-Budgie**, has improved accuracy for HUD placement (taking into account various
+[twa022](https://github.com/twa022) 🌎. The **HUD now supports for MATE, XFCE
+and Budgie**, has improved accuracy for HUD placement (taking into account various
 panel offsets/struts), **is highly configurable and includes a new HUD settings app** ✨
+
+#### MATE User Admin
+
+**A new utility, MATE User Admin, has been added to compliment the suite of MATE
+tools.** MATE User Admin replaces the aged `gnome-system-tools` which was
+removed from Ubuntu MATE in the 22.04 release and allows you to add/modify/remove
+user accounts. It also Including the ability to define which users are Administrators,
+enable/disable auto-login, set profile images and group membership.
+
+#### Yaru
 
 And last but not least, the Ubuntu MATE Artwork package has been updated to
 **include all the refinements and improvements in the suite of
