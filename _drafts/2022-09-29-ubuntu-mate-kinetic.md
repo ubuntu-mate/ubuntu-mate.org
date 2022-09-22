@@ -57,7 +57,7 @@ fabulous website. Thank you! Thank you all for getting out there and making a
 difference!** 💚
 
 {:.center}
-![Ubuntu MATE 22.10](/images/blog/kinetic/kinetic-kudu-desktop.png)
+![Ubuntu MATE 22.10](/images/blog/kinetic/kinetic-kudu-desktop.jpg)
 **Ubuntu MATE 22.10 using the Pantheon layout and new centered panel applets and HUD**
 
 <!--- Beta Only - Remove for final release --->
@@ -177,7 +177,7 @@ And last but not least, the Ubuntu MATE Artwork package has been updated to
 
 ## Major Applications
 
-Accompanying **MATE Desktop 1.26.1* 🧉 and **Linux 5.19** 🐧 are **Firefox 105** 🔥🦊,
+Accompanying **MATE Desktop 1.26.1** 🧉 and **Linux 5.19** 🐧 are **Firefox 105** 🔥🦊,
 **Celluloid 0.20** 🎥, **Evolution 3.46** 📧, **LibreOffice 7.4** 📚
 
 See the [Ubuntu 22.10 Release Notes](https://discourse.ubuntu.com/t/kinetic-kudu-release-notes/27976)
