@@ -177,13 +177,8 @@ And last but not least, the Ubuntu MATE Artwork package has been updated to
 
 ## Major Applications
 
-Accompanying **MATE Desktop 1.26.1* 🧉 and **Linux 5.19** 🐧 are **Firefox 104** 🔥🦊,
+Accompanying **MATE Desktop 1.26.1* 🧉 and **Linux 5.19** 🐧 are **Firefox 105** 🔥🦊,
 **Celluloid 0.20** 🎥, **Evolution 3.46** 📧, **LibreOffice 7.4** 📚
-
-### (Applications of Note)
-
-(Any significant additions or changes that merit more discussion can
-go in their own subsection.)
 
 See the [Ubuntu 22.10 Release Notes](https://discourse.ubuntu.com/t/kinetic-kudu-release-notes/27976)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
