@@ -31,11 +31,11 @@ preparation for our next (stable) version.
 
 <!--- End of Beta Only --->
 
-Ubuntu MATE 22.10 is a modest update by recent standards focused on quality of
-life improvements with regards to the audio stack 🔉 and panels. And there is a
-good reason why this release of Ubuntu MATE doesn't feature the usual bucket 🪣
-list of changes you'd typically expect, and that is because I've been helping
-bring the full Ubuntu MATE experience to Debian MATE 🙂
+Ubuntu MATE 22.10 is a modest update by recent standards and focused on *"quality
+of life improvements"*. And there is good reason why this release of Ubuntu MATE
+doesn't feature the usual bucket 🪣 list of changes you'd typically expect, and
+that's because I've been helping bring the full Ubuntu MATE experience to Debian
+MATE 🧉
 
 This may raise some questions for Ubuntu MATE users, so let's try and address them:
 
