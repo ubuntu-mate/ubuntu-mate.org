@@ -153,6 +153,10 @@ The *"MATE HUD"* has seen some significant work from community contributor
 and Budgie**, has improved accuracy for HUD placement (taking into account various
 panel offsets/struts), **is highly configurable and includes a new HUD settings app** ✨
 
+{:.center}
+![HUD Settings](/images/blog/kinetic/hud-settings.png)
+**HUD Settings**
+
 #### MATE User Manager
 
 **A new utility, User Manager, has been added to compliment the suite of MATE
@@ -160,6 +164,10 @@ tools.** User Manager replaces the aging `gnome-system-tools` which was
 removed from Ubuntu MATE in the 22.04 release and allows you to add/modify/remove
 user accounts. It also includes the ability to define which users are Administrators,
 enable/disable auto-login, set profile images and manage group memberships.
+
+{:.center}
+![MATE User Manager](/images/blog/kinetic/mate-user-manager.png)
+**MATE User Manager**
 
 #### Yaru
 
