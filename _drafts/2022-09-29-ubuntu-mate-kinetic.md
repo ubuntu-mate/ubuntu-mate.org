@@ -149,7 +149,7 @@ Once the installs/removals are complete restart your computer.
 ### Ubuntu MATE Stuff
 
 The *"MATE HUD"* has seen some significant work from community contributor
-[twa022](https://github.com/twa022) 🌎. The **HUD now supports for MATE, XFCE
+[twa022](https://github.com/twa022) 🌎. The **HUD now supports MATE, XFCE
 and Budgie**, has improved accuracy for HUD placement (taking into account various
 panel offsets/struts), **is highly configurable and includes a new HUD settings app** ✨
 
