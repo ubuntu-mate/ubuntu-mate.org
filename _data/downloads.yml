@@ -80,7 +80,7 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:de9bff3b76489706867baa8021d7e3367998ebba&dn=ubuntu-mate-22.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: kinetic
-          url: "http://cdimage.ubuntu.com/ubuntu-mate/releases/kinetic/beta/ubuntu-mate-22.10-beta-desktop-amd64.iso"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/kinetic/beta/ubuntu-mate-22.10-beta-desktop-amd64.iso"
           sha256sum: "686416bf00d1ddcf2720bd16acfd920af8bf3dd750a4891efccddc9ba45e461e"
           size: "3.0 GB"
           magnet-uri: "magnet:?xt=urn:btih:7754896b2c49c4d9eb12766670a654b41e16b49b&dn=ubuntu-mate-22.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
