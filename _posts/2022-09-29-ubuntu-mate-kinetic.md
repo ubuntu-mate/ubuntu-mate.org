@@ -160,7 +160,7 @@ panel offsets/struts), **is highly configurable and includes a new HUD settings 
 
 #### MATE User Manager
 
-**A new utility, User Manager, has been added to compliment the suite of MATE
+**A new utility, User Manager, has been added to complement the suite of MATE
 tools.** User Manager replaces the aging `gnome-system-tools` which was
 removed from Ubuntu MATE in the 22.04 release and allows you to add/modify/remove
 user accounts. It also includes the ability to define which users are Administrators,
