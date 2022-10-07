@@ -1,6 +1,6 @@
 - release: 20.04 LTS
   component: Ubuntu MATE
-  problem: Some locales (like pt_BL) are missing menu icons.
+  problem: Some locales (like pt_BR) are missing menu icons.
   workaround_links:
     - https://ubuntu-mate.community/t/21579/13
   upstream_links:
