@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 permalink: /blog/ubuntu-mate-kinetic-kudu-release-notes/
-category: dev                                # Beta Only - change to 'release'
+category: release
 author: Martin Wimpress
 lang: en
 discourse_topic_id: # TBC
