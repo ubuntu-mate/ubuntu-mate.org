@@ -52,17 +52,3 @@
     - https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1713720/comments/4
   upstream_links:
     - https://pad.lv/1713720
-
-- release: "22.10"
-  component: Ubuntu
-  problem: Snaps not preseeded in Ubuntu (and flavours) 22.10 beta
-  upstream_links:
-    - https://pad.lv/1991011
-
-- release: "22.10"
-  component: Ubuntu MATE
-  problem: A default wallpaper is not set after installing Ubuntu MATE 22.10 beta
-  workaround_links:
-    - https://bugs.launchpad.net/ubuntu/+source/ubuntu-mate-settings/+bug/1991300/comments/2
-  upstream_links:
-    - https://pad.lv/1991300

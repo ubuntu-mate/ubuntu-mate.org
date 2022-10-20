@@ -44,7 +44,7 @@ releases:
         mascot: "kinetic.svg"
         wallpaper: "focal.jpg"
         lts: false
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-kinetic-kudu-release-notes/"
         end_of_life:
             month: Jul
@@ -80,10 +80,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:de9bff3b76489706867baa8021d7e3367998ebba&dn=ubuntu-mate-22.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: kinetic
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/kinetic/beta/ubuntu-mate-22.10-beta-desktop-amd64.iso"
-          sha256sum: "686416bf00d1ddcf2720bd16acfd920af8bf3dd750a4891efccddc9ba45e461e"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.10/release/ubuntu-mate-22.10-desktop-amd64.iso"
+          sha256sum: "d52fe2e207b836568e620c2fea5c9beae081ae4c8bb56a6e143424d3f6aec463"
           size: "3.0 GB"
-          magnet-uri: "magnet:?xt=urn:btih:7754896b2c49c4d9eb12766670a654b41e16b49b&dn=ubuntu-mate-22.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:f864749966037b62be4d28b6af5e229cfa7f1798&dn=ubuntu-mate-22.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: jammy

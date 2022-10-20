@@ -22,15 +22,6 @@ gallery:
       caption: null
 ---
 
-<!--- Beta Only - Remove for final release --->
-
-> We are preparing Ubuntu MATE 22.10 (Kinetic Kudu) for distribution on
-[October 20th, 2022](https://discourse.ubuntu.com/c/release/38).
-With this **Beta** pre-release, you can see what we are trying out in
-preparation for our next (stable) version.
-
-<!--- End of Beta Only --->
-
 Ubuntu MATE 22.10 is a modest update by recent standards and focused on *"quality
 of life improvements"*. And there is good reason why this release of Ubuntu MATE
 doesn't feature the usual bucket 🪣 list of changes you'd typically expect, and
@@ -59,26 +50,6 @@ difference!** 💚
 {:.center}
 ![Ubuntu MATE 22.10](/images/blog/kinetic/kinetic-kudu-desktop.jpg)
 **Ubuntu MATE 22.10 using the Pantheon layout and new centered panel applets and HUD**
-
-<!--- Beta Only - Remove for final release --->
-
-## What works?
-
-People tell us that Ubuntu MATE is stable. You may, or may not, agree.
-
-Ubuntu MATE *Beta Releases* are *NOT* recommended for:
-
-  * Regular users who are not aware of pre-release issues
-  * Anyone who needs a stable system
-  * Anyone uncomfortable running a possibly frequently broken system
-  * Anyone in a production environment with data or workflows that need to be reliable
-
-Ubuntu MATE *Beta Releases* are recommended for:
-
-  * Regular users who want to help us test by finding, reporting, and/or fixing bugs
-  * Ubuntu MATE, MATE, and GTK+ developers.
-
-<!--- End of Beta Only --->
 
 ## What changed since the Ubuntu MATE 22.04?
 
