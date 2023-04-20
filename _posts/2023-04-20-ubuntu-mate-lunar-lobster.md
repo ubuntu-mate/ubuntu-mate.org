@@ -64,14 +64,12 @@ Accompanying **MATE Desktop 1.26.1** 🧉 and **Linux 6.20** 🐧 are **Firefox 
 See the [Ubuntu 23.04 Release Notes](https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910)
 for details of all the changes and improvements that Ubuntu MATE benefits from.
 
-<!--
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 23.04"
     text = "This new release will be first available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
 %}
--->
 
 ## Upgrading from Ubuntu MATE 22.10
 
