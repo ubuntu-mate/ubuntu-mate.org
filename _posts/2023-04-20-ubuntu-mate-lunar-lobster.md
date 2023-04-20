@@ -20,12 +20,12 @@ gallery:
       caption: null
 ---
 
-Ubuntu MATE 23.04 is the least exciting Ubuntu MATE release ever. The good news is, if you liked Ubuntu MATE 22.10 then it is more of the same; just with better artwork! 🖌️🖼️ I entered this development cycle full of energy and enthusiasm off the back of the [Ubuntu Summit in Prague](https://ubuntu.com/blog/ubuntu-summit-2022-reflections), but then I was seriously ill 🤒 and had a long stay in hospital. I'm recovering well and should be 100% in a couple of months. This setback and also changing jobs a few months ago has meant that I've not been able to invest the usual time and effort into Ubuntu MATE. I'm happy to say that I've been able to deliver another solid 🪨 release with the help of the Ubuntu community.
+Ubuntu MATE 23.04 is the least exciting Ubuntu MATE release ever. The good news is, if you liked Ubuntu MATE 22.10 then it is more of the same; just with better artwork! 🖌️🖼️ I entered this development cycle full of energy and enthusiasm off the back of the [Ubuntu Summit in Prague](https://ubuntu.com/blog/ubuntu-summit-2022-reflections), but then I was seriously ill 🤒 and had a long stay in hospital. I'm recovering well and should be 100% in a couple of months. This setback and also changing jobs a couple of months ago has meant that I've not been able to invest the usual time and effort into Ubuntu MATE. I'm happy to say that I've been able to deliver another solid 🪨 release with the help of the Ubuntu community.
 
 ## Thank you! 🙇
 
 **I'd like to extend my sincere thanks to everyone who has played an active role in improving Ubuntu MATE for this release 👏 From reporting bugs, submitting translations, providing patches, contributing to [our crowd-funding](https://www.patreon.com/ubuntu_mate), developing new features, creating artwork, offering community support, actively
-testing and providing QA feedback to writing documentation or creating this fabulous website. Thank you! Thank you all for getting out there and making a difference!** 💚
+testing and providing QA feedback to writing documentation or creating this fabulous website. Thank you! 💚
 
 ## What changed since the Ubuntu MATE 22.10?
 
@@ -47,6 +47,10 @@ Here's what Simon has to say about the process of creating these new wallpapers 
 > My usual workflow involves checking reddit, etc for the latest techniques, and then installing the latest open-source tools and checkpoints for unlimited experimentation (e.g. stable diffusion), plus some selective use of Dall-e and Midjourney, while trying not to exhaust my credits. I then experiment with lot of different prompts (including negative prompts to discourage certain features), settings, styles and ideas from each tool to see what sort of images I can get, then tweak and evolve my approach based on the results.
 
 > Lobsters are fascinating creatures, but in real life, I find them a bit ugly, with all those antennae and legs akimbo. For the theme of "Lunar Lobster", rather precise anatomy, I explored ideas of stylised alien robotic space lobsters, lunar landers and other lobster-themed spacecraft. After a producing a shortlist of varied images, I then perform any necessary AI processing such as inpainting, outpainting (generating new parts of an image beyond the existing canvas - particularly useful for getting the correct aspect ratio) and AI upscaling to make them suitable for use as wallpaper.
+
+### Flatpak
+
+[Flatpak is no longer installed by default](https://discourse.ubuntu.com/t/ubuntu-flavor-packaging-defaults/34061), but can still be installed should you want to use it.
 
 ### PipeWire
 
