@@ -129,6 +129,7 @@
       class:
         - "not-in-21-10"
         - "not-in-22-04"
+        - "not-in-23-04"
 
     - name: Webcamoid
       icon: /images/apps/webcamoid.png
@@ -206,6 +207,9 @@
 
     - string_name: audio
       technology: pulseaudio
+      not_in_min_install: true
+      class:
+        - "not-in-23-04"
 
     - string_name: win_man
       technology: marco
