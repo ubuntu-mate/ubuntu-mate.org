@@ -79,12 +79,6 @@ arch:
 
 downloads:
     amd64:
-        - release: focal
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.6-desktop-amd64.iso"
-          sha256sum: "272a3f1cff0cd8d1737fdc61a0c63427833282b7ffc534b962201913ede3dc08"
-          size: "4.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:c543faf1fbdd6db59cba97ac25548091ce4887cb&dn=ubuntu-mate-20.04.6-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-
         - release: jammy
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.2-desktop-amd64.iso"
           sha256sum: "d367d6e03ef576cc9c58598485ea9e19bae94ad2f2578655ff02b06cdd091fd4"
