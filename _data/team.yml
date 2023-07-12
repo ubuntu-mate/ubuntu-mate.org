@@ -63,14 +63,6 @@
         - ubuntu_mate
         - documentation
 
-    - name: Michael Dooley
-      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mdooley/150/14388_2.png"
-      url: "https://ubuntu-mate.community/u/mdooley"
-      roles:
-        - ubuntu_mate
-        - community
-        - qa
-
     - name: Etienne Papegnies
       avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/ouroumov/150/10260_2.png"
       url: "https://ubuntu-mate.community/u/ouroumov"
@@ -78,15 +70,6 @@
         - ubuntu_mate
         - community
         - qa
-
-    - name: Bill (franksmcb)
-      avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
-      url: "https://github.com/franksmcb"
-      roles:
-        - ubuntu_mate
-        - bug_hunter
-        - qa
-        - ubuntu
 
     - name: Victor Kareh
       avatar: "https://avatars1.githubusercontent.com/u/259780?s=150&v=4"
@@ -213,6 +196,25 @@
         - community
         - documentation
         - artwork
+
+    - name: Michael Dooley
+      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mdooley/150/14388_2.png"
+      url: "https://ubuntu-mate.community/u/mdooley"
+      desc: In memoriam
+      roles: 
+        - ubuntu_mate
+        - community
+        - qa
+
+    - name: Bill (franksmcb)
+      avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
+      url: "https://github.com/franksmcb"
+      roles:
+        - ubuntu_mate
+        - bug_hunter
+        - qa
+        - community
+        - ubuntu
 
     - name: Robin Thompson
       desc: MATE Dock Applet
