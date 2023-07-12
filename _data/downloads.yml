@@ -85,12 +85,6 @@ downloads:
           size: "3.1 GB"
           magnet-uri: "magnet:?xt=urn:btih:e7088644335bd66118c01d3e4ece64f2630fb1c6&dn=ubuntu-mate-22.04.2-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
-        - release: kinetic
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.10/release/ubuntu-mate-22.10-desktop-amd64.iso"
-          sha256sum: "d52fe2e207b836568e620c2fea5c9beae081ae4c8bb56a6e143424d3f6aec463"
-          size: "3.0 GB"
-          magnet-uri: "magnet:?xt=urn:btih:f864749966037b62be4d28b6af5e229cfa7f1798&dn=ubuntu-mate-22.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-
         - release: lunar
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.04/release/ubuntu-mate-23.04-desktop-amd64.iso"
           sha256sum: "6568d221adb8682d8addae8d09d8d87ecbaaab8a1d4c1119e8cc960e49530fdb"
