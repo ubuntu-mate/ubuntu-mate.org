@@ -80,10 +80,10 @@ arch:
 downloads:
     amd64:
         - release: jammy
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.2-desktop-amd64.iso"
-          sha256sum: "d367d6e03ef576cc9c58598485ea9e19bae94ad2f2578655ff02b06cdd091fd4"
-          size: "3.1 GB"
-          magnet-uri: "magnet:?xt=urn:btih:e7088644335bd66118c01d3e4ece64f2630fb1c6&dn=ubuntu-mate-22.04.2-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.3-desktop-amd64.iso"
+          sha256sum: "d84cd3eb7732fbb39ce3cd24ba1b302a643fe0362f7ac9261fc4c7b756e42a55"
+          size: "3.5 GB"
+          magnet-uri: "magnet:?xt=urn:btih:0223dcb7785d09dbdff5839a089774277a66b4c9&dn=ubuntu-mate-22.04.3-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: lunar
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.04/release/ubuntu-mate-23.04-desktop-amd64.iso"
