@@ -27,7 +27,7 @@ releases:
             year: 2022
 
     jammy:
-        name: "22.04.2 LTS"
+        name: "22.04.3 LTS"
         codename: "Jammy Jellyfish"
         mascot: "jammy.svg"
         wallpaper: "focal.jpg"
