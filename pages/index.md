@@ -50,24 +50,19 @@ give you a feel for how you can configure your desktop experience.
 {% include blog/gallery.html %}
 
 
-# Raspberry Pi & GPD Pocket
+# Raspberry Pi
 
-We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3,
-3+ and 4 as well as a range of UMPCs such as the GPD Pocket, GPD Pocket 2,
-GPD MicroPC and Topjoy Falcon; some of which are available on Amazon. **Learn more of the features they support:**
+We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3, 3+ and 4.
 
 {:.transparent .icons}
-| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |[![Holding a GPD Pocket](/images/hardware/gpd-pocket2.png)](/ports/umpcs/) |
-| Works with:   | Optimised for:
-| ------------- | ---------------- |
-| Model 2 B     | GPD Pocket
-| Model 3       | [GPD Pocket 2](https://geni.us/5oiXa2)
-| Model 3+      | [GPD Pocket 3](https://geni.us/jX2hJ6)
-| Model 4       | [GPD WIN 2](https://geni.us/pzyNb0)
-| Model 400     | [GPD MicroPC](https://geni.us/xYuBA)
-|               | [GPD P2 Max](https://geni.us/HAlIoA3)
-|               | [GPD WIN Max](https://geni.us/B2tWs)
-|               | Topjoy Falcon
+| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |
+| Works with:   |
+| ------------- |
+| Model 2 B     |
+| Model 3       |
+| Model 3+      |
+| Model 4       |
+| Model 400     |
 
 # Sponsors
 

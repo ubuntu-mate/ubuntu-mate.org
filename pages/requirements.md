@@ -43,15 +43,3 @@ can also take advantage of the 64-bit CPU using the [arm64] release.
 [arm64]: /download/arm64/
 
 The micro-SD card needs to be a minimum of 5 GB.
-
-
-### Hardware Ports
-
-Ubuntu MATE has been officially ported to, and works great on:
-
-| Codename              | Compatible with                                   |
-| --------------------- | ------------------------------------------------- |
-| [gpd_pocket](/download/gpd_pocket/) | Original GPD Pocket.
-| [gpd_pocket_2](/download/gpd_pocket_2/)| GPD Pocket 2, GPD Win 2, OneMix Yoga 1s and OneMix Yoga 2.
-| [gpd_micropc](/download/gpd_micropc/) | GPD MicroPC
-| [gpd_p2_max](/download/gpd_p2_max/) | Topjoy Falcon
