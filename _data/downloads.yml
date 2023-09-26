@@ -38,18 +38,6 @@ releases:
             month: Apr
             year: 2025
 
-    kinetic:
-        name: "22.10"
-        codename: "Kinetic Kudu"
-        mascot: "kinetic.svg"
-        wallpaper: "focal.jpg"
-        lts: false
-        prerelease: false
-        release_notes: "/blog/ubuntu-mate-kinetic-kudu-release-notes/"
-        end_of_life:
-            month: Jul
-            year: 2023
-
     lunar:
         name: "23.04"
         codename: "Lunar Lobster"
@@ -60,6 +48,18 @@ releases:
         release_notes: "/blog/ubuntu-mate-lunar-lobster-release-notes/"
         end_of_life:
             month: Jan
+            year: 2024
+
+    mantic:
+        name: "23.10"
+        codename: "Mantic Minotaur"
+        mascot: "mantic.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-mantic-minotaur-release-notes/"
+        end_of_life:
+            month: Jul
             year: 2024
 
 # To list new architectures on the download page, add descriptions to download.md
@@ -79,6 +79,12 @@ downloads:
         - release: lunar
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.04/release/ubuntu-mate-23.04-desktop-amd64.iso"
           sha256sum: "6568d221adb8682d8addae8d09d8d87ecbaaab8a1d4c1119e8cc960e49530fdb"
+          size: "3.3 GB"
+          magnet-uri: autogen
+
+        - release: mantic
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.10/beta/ubuntu-mate-23.10-beta-desktop-amd64.iso"
+          sha256sum: "aa481fdd8b5c1567adf47e813a1c97e88a751aebe3059ac27d5428eedbdf99a2"
           size: "3.3 GB"
           magnet-uri: autogen
 
