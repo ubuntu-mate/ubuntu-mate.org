@@ -10,17 +10,21 @@ discourse_topic_id: # TBC
 title: Ubuntu MATE 23.10 Release Notes
 description: What's new in Ubuntu MATE 23.10 (Mantic Minotaur)
 gallery:
-    - image: /images/blog/lunar/Lunar-Lobster-Explorer.jpg
+    - image: /images/blog/mantic/minotaur-king.jpg
       caption: null
 ---
 
 Ubuntu MATE 23.10 is more of what you like, stable MATE Desktop on top of current Ubuntu.
 This release rolls up a number of bugs fixes and updates that continues to build on recent releases, where the focus has been on improving stability 🪨
 
+{:.center}
+![Ubuntu MATE 23.10](/images/blog/mantic/screenshot.png)
+**Ubuntu MATE 23.10**
+
 ## Thank you! 🙇
 
 **I'd like to extend my sincere thanks to everyone who has played an active role in improving Ubuntu MATE for this release 👏 From reporting bugs, submitting translations, providing patches, contributing to [our crowd-funding](https://www.patreon.com/ubuntu_mate), developing new features, creating artwork, offering community support, actively
-testing and providing QA feedback to writing documentation or creating this fabulous website. Thank you! 💚
+testing and providing QA feedback to writing documentation or creating this fabulous website. Thank you!** 💚
 
 ## What changed since the Ubuntu MATE 23.04?
 
@@ -39,18 +43,16 @@ Here are the highlights of what's changed since the [release of Ubuntu MATE 23.0
 - `mate-user-guide` 1.26.2-1 is a new upstream release.
 - `mate-utils` 1.26.1-1 fixes several memory leaks.
 
-<!--
-#### AI Generated wallpapers (yet again!)
+#### Yet more AI Generated wallpaper
 
-My friend [Simon Butcher](https://twitter.com/simonjbutcher) 🇬🇧 is Head of Research Platforms at Queen Mary University of London managing the Apocrita HPC cluster service. **Once again, Simon has created **some stunning **AI-generated** 🤖🧠 ** for Ubuntu MATE using bleeding edge diffusion models** 🖌 *The samples below are 1920x1080 but the versions included in Ubuntu MATE 23.04 are 3840x2160*.
+My friend [Simon Butcher](https://twitter.com/simonjbutcher) 🇬🇧 is Head of Research Platforms at Queen Mary University of London managing the Apocrita HPC cluster service. **Once again, Simon has created a stunning AI-generated 🤖🧠 wallpaper for Ubuntu MATE using bleeding edge diffusion models** 🖌 *The sample below is 1920x1080 but the version included in Ubuntu MATE 23.10 are 3840x2160*.
 
 {% include blog/gallery.html %}
 
+<!--
 Here's what Simon has to say about the process of creating these new wallpapers for Lunar Lobster:
 
-> My usual workflow involves checking reddit, etc for the latest techniques, and then installing the latest open-source tools and checkpoints for unlimited experimentation (e.g. stable diffusion), plus some selective use of Dall-e and Midjourney, while trying not to exhaust my credits. I then experiment with lot of different prompts (including negative prompts to discourage certain features), settings, styles and ideas from each tool to see what sort of images I can get, then tweak and evolve my approach based on the results.
-
-> Lobsters are fascinating creatures, but in real life, I find them a bit ugly, with all those antennae and legs akimbo. For the theme of "Lunar Lobster", rather precise anatomy, I explored ideas of stylised alien robotic space lobsters, lunar landers and other lobster-themed spacecraft. After a producing a shortlist of varied images, I then perform any necessary AI processing such as inpainting, outpainting (generating new parts of an image beyond the existing canvas - particularly useful for getting the correct aspect ratio) and AI upscaling to make them suitable for use as wallpaper.
+> Words here.
 -->
 
 ## Major Applications
