@@ -49,11 +49,9 @@ My friend [Simon Butcher](https://twitter.com/simonjbutcher) 🇬🇧 is Head of
 
 {% include blog/gallery.html %}
 
-<!--
-Here's what Simon has to say about the process of creating these new wallpapers for Lunar Lobster:
+Here's what Simon has to say about the process of creating this new wallpaper for Mantic Minotaur:
 
-> Words here.
--->
+> Since Minotaurs are imaginary creatures, interpretations tend to vary widely. I wanted to produce an image of a powerful creature in a graphic novel style, although not gruesome like many depictions. The latest open source Stable Diffusion XL base model was trained at a higher resolution and the difference in quality has been noticeable, particularly at better overall consistency and detail, while reducing anatomical irregularities in images. The image was produced locally using Linux and an NVIDIA A100 80GB GPU, starting from an initial text prompt and refined using img2img, inpainting and upscaling features.
 
 ## Major Applications
 
