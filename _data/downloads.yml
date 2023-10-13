@@ -56,7 +56,7 @@ releases:
         mascot: "mantic.svg"
         wallpaper: "focal.jpg"
         lts: false
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-mantic-minotaur-release-notes/"
         end_of_life:
             month: Jul
@@ -83,8 +83,8 @@ downloads:
           magnet-uri: autogen
 
         - release: mantic
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.10/beta/ubuntu-mate-23.10-beta-desktop-amd64.iso"
-          sha256sum: "aa481fdd8b5c1567adf47e813a1c97e88a751aebe3059ac27d5428eedbdf99a2"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.10/release/ubuntu-mate-23.10-desktop-amd64.iso"
+          sha256sum: "775028938f1615f19843e70335fa9d6b17d5667b3b176ec013e3ec625225450c"
           size: "3.3 GB"
           magnet-uri: autogen
 
