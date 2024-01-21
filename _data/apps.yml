@@ -211,7 +211,7 @@ preinstalled:
 
     - name: Seahorse
       img: /images/apps/seahorse.svg
-      src_url: https://github.com/GNOME/seahorse
+      src_url: https://gitlab.gnome.org/GNOME/seahorse
       translations_url: https://translations.launchpad.net/ubuntu/+source/seahorse
 
     - name: Plank
