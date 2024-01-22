@@ -276,7 +276,7 @@ preinstalled:
 
     - name: GParted
       img: /images/apps/gparted.svg
-      src_url: https://github.com/GNOME/gparted
+      src_url: https://gitlab.gnome.org/GNOME/gparted
       translations_url: https://l10n.gnome.org/module/gparted/
 
     - name: gdebi
