@@ -271,7 +271,7 @@ preinstalled:
 
     - name: Rhythmbox
       img: /images/apps/rhythmbox.svg
-      src_url: https://github.com/GNOME/rhythmbox
+      src_url: https://gitlab.gnome.org/GNOME/rhythmbox
       translations_url: http://rhythmbox.sourceforge.net/translation.html
 
     - name: GParted
