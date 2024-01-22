@@ -277,7 +277,7 @@ preinstalled:
 
     - name: Cheese
       img: /images/apps/cheese.svg
-      src_url: https://github.com/GNOME/cheese
+      src_url: https://gitlab.gnome.org/GNOME/cheese
       translations_url: https://translations.launchpad.net/ubuntu/+source/cheese
 
     - name: Rhythmbox
