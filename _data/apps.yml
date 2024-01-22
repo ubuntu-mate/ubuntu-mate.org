@@ -301,7 +301,7 @@ preinstalled:
 
     - name: Orca
       img: /images/apps/orca.png
-      src_url: https://github.com/GNOME/orca
+      src_url: https://gitlab.gnome.org/GNOME/orca
       translations_url: null # https://translations.launchpad.net/orca but not public
 
     - name: Slick Greeter
