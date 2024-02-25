@@ -27,7 +27,7 @@ releases:
             year: 2022
 
     jammy:
-        name: "22.04.3 LTS"
+        name: "22.04.4 LTS"
         codename: "Jammy Jellyfish"
         mascot: "jammy.svg"
         wallpaper: "focal.jpg"
@@ -71,10 +71,10 @@ arch:
 downloads:
     amd64:
         - release: jammy
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.3-desktop-amd64.iso"
-          sha256sum: "d84cd3eb7732fbb39ce3cd24ba1b302a643fe0362f7ac9261fc4c7b756e42a55"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.4-desktop-amd64.iso"
+          sha256sum: "09f52b8bac46e3cf07e90bc4ed9f3dd1a0efe0ff3fc65d9edd8c639cb6dcb391"
           size: "3.5 GB"
-          magnet-uri: "magnet:?xt=urn:btih:0223dcb7785d09dbdff5839a089774277a66b4c9&dn=ubuntu-mate-22.04.3-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:f9623b09f6e2d07060678557f7b5263440b3cdfa&dn=ubuntu-mate-22.04.4-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: lunar
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.04/release/ubuntu-mate-23.04-desktop-amd64.iso"
