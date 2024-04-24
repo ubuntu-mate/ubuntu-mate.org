@@ -81,9 +81,9 @@ msgstr "Ubuntu MATE sur Facebook"
 msgid "@ubuntu_mate on Twitter"
 msgstr "@ubuntu_mate sur Twitter"
 
-#: discord
-msgid "Wimpy's World on Discord"
-msgstr "Wimpy's World sur Discord"
+#: matrix
+msgid "Ubuntu MATE on Matrix"
+msgstr "Ubuntu MATE sur Matrix"
 
 #: dark_mode
 msgid "Dark Mode"

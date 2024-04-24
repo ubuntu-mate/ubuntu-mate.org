@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 <div class="social-links">
-                    {% assign links = "rss,rss_discourse,launchpad,github,irc,twitter,discord" | split: "," %}
+                    {% assign links = "rss,launchpad,github,twitter,matrix" | split: "," %}
                     {% for link in links %}
                         <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
                     {% endfor %}
