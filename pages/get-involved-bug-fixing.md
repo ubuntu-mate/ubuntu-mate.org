@@ -19,10 +19,10 @@ place to learn about bug fixing in Ubuntu.
 ### Recommended Skills
 
 Although programming knowledge is very helpful, there are some
-non-programming ways to handle reported and triaged issues. For example, 
-there might be a typo or a problem with documentation. If you're proficient 
-in a non-English language, you might fix a translation error. If you have 
-Internet detective skills, you can track down fixes from upstream developers 
+non-programming ways to handle reported and triaged issues. For example,
+there might be a typo or a problem with documentation. If you're proficient
+in a non-English language, you might fix a translation error. If you have
+Internet detective skills, you can track down fixes from upstream developers
 or other distributions.
 
 ### Where to Start
@@ -39,12 +39,6 @@ project.
 
 ### Learn More
 
-This [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) page walks users 
-through fixing bugs in Ubuntu. Also, be sure to join the amazing resource 
+This [Ubuntu Wiki](https://wiki.ubuntu.com/Bugs/HowToFix) page walks users
+through fixing bugs in Ubuntu. Also, be sure to join the amazing resource
 that is the [Ubuntu MATE community](https://ubuntu-mate.community/c/support/10)!
-
-Lastly, this video explains why it's important to fix bugs in the right 
-place, and why patching at the Ubuntu level (in the packages) is sometimes 
-better than only fixing upstream.
-
-{% include embed/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}
