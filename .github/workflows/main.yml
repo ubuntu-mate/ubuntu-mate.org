@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
@@ -27,7 +27,8 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install ruby ruby-dev ruby-bundler make gcc
+        sudo apt-get install ruby ruby-dev make gcc
+        sudo gem install bundler --version 2.2.16
         sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib webp
         bundle config path vendor/bundle
         bundle install --jobs=4
