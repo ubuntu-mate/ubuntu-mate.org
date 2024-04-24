@@ -25,7 +25,8 @@ Simply find the page you want and create a pull request!
 Install [Jekyll](https://jekyllrb.com) as follows:
 
     sudo apt install ruby ruby-dev make gcc
-    sudo gem install jekyll bundler
+    sudo gem install bundler --version 2.2.16
+    sudo gem install jekyll
 
 To install gem dependencies for the project;
 
@@ -33,7 +34,7 @@ To install gem dependencies for the project;
 
 Some additional packages are needed to build the project:
 
-    sudo apt install python3-yaml transmission-cli python3-polib translate-toolkit
+    sudo apt install python3-requests python3-yaml transmission-cli python3-polib translate-toolkit
 
 To watch for changes locally:
 
