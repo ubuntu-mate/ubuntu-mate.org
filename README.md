@@ -34,7 +34,7 @@ To install gem dependencies for the project;
 
 Some additional packages are needed to build the project:
 
-    sudo apt install python3-requests python3-yaml transmission-cli python3-polib translate-toolkit
+    sudo apt install python3-requests python3-yaml transmission-cli python3-polib rsync translate-toolkit webp
 
 To watch for changes locally:
 
