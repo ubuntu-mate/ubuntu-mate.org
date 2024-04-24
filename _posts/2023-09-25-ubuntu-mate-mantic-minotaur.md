@@ -2,7 +2,7 @@
 layout: blog-post
 class: blog
 permalink: /blog/ubuntu-mate-mantic-minotaur-release-notes/
-category: pre-release
+category: release
 author: Martin Wimpress
 lang: en
 discourse_topic_id: # TBC
