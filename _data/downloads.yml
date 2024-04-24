@@ -14,18 +14,6 @@ releases:
             month: Apr
             year: 2023
 
-    impish:
-        name: "21.10"
-        codename: "Impish Indri"
-        mascot: "impish.svg"
-        wallpaper: "focal.jpg"
-        lts: false
-        prerelease: false
-        release_notes: "/blog/ubuntu-mate-impish-indri-final-release/"
-        end_of_life:
-            month: Jul
-            year: 2022
-
     jammy:
         name: "22.04.4 LTS"
         codename: "Jammy Jellyfish"
