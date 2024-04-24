@@ -68,7 +68,7 @@ downloads:
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.10/release/ubuntu-mate-23.10-desktop-amd64.iso"
           sha256sum: "775028938f1615f19843e70335fa9d6b17d5667b3b176ec013e3ec625225450c"
           size: "3.3 GB"
-          magnet-uri: autogen
+          magnet-uri: "magnet:?xt=urn:btih:b7fd0b576ef55e2f65aeaf164b40d5f63fb685d5&dn=ubuntu-mate-23.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: jammy
