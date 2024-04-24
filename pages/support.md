@@ -40,6 +40,6 @@ to help the people who will help you.
 
 [Ask Ubuntu](https://askubuntu.com){:.btn}
 [Launchpad Answers](https://answers.launchpad.net/){:.btn}
-[Ubuntu MATE Bugs on Launchpad](https://bugs.launchpad.net/ubuntu-mate){:.btn .green}
+[Ubuntu MATE Bugs on Launchpad](https://bugs.launchpad.net/ubuntu-mate){:.btn}
 
 To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/bug-triage/) under [Get Involved](/get-involved/).
