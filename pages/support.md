@@ -40,15 +40,6 @@ to help the people who will help you.
 
 [Ask Ubuntu](https://askubuntu.com){:.btn}
 [Launchpad Answers](https://answers.launchpad.net/){:.btn}
-
-## Known Issues
-
-Here's a list of issues we have noted that may degrade your retrospective experience.
-
-{% include /partials/known-issues.html %}
-
-For a complete listing of Ubuntu MATE Bugs:
-
 [Ubuntu MATE Bugs on Launchpad](https://bugs.launchpad.net/ubuntu-mate){:.btn .green}
 
 To learn how to report a bug, go to [Bug Reporting and Triage](/get-involved/bug-triage/) under [Get Involved](/get-involved/).

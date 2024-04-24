@@ -180,12 +180,6 @@ There are no offline upgrade options for Ubuntu MATE. Please ensure you have
 network connectivity to one of the official mirrors or to a locally accessible
 mirror and follow the instructions above.
 
-## Known Issues
-
-Here are the known issues.
-
-{% include partials/known-issues.html filter="22.10" %}
-
 ## Feedback
 
 Is there anything you can help with or want to be involved in? Maybe you just
