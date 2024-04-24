@@ -9,11 +9,6 @@ ubuntu_mate:
       src_url:
       translations_url: null
 
-    - name: Welcome
-      img: /images/ubuntu-mate/logo.svg
-      src_url: https://github.com/ubuntu-mate/ubuntu-mate-welcome-legacy
-      translations_url: https://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome
-
     - name: ubuntu-mate.org
       img: /images/ubuntu-mate/logo.svg
       src_url: null # Is a website, not software
@@ -48,12 +43,6 @@ ubuntu_mate:
       img: /images/ubuntu-mate/logo.svg
       src_url: https://github.com/ubuntu-mate/mate-dock-applet
       translations_url: null
-
-    - name: indicator-emojitwo
-      img: /images/apps/indicator-emojitwo.png
-      src_url: https://github.com/ubuntu-mate/indicator-emojitwo
-      translations_url: null
-
 
 mate_desktop:
     - name: mate-calc
