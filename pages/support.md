@@ -17,17 +17,17 @@ your issue in [Support and Help Requests](https://ubuntu-mate.community/c/suppor
 your description of the problem and be excellent to each other.
 
 [ubuntu-mate.community](https://ubuntu-mate.community){:.btn .green}
-
+[Ubuntu MATE General Chat on Matrix](https://matrix.to/#/#ubuntu-mate-general:ubuntu.com){:.btn}
+[Ubuntu MATE Development Chat on Matrix](https://matrix.to/#/#ubuntu-mate-development:ubuntu.com){:.btn}
 
 ## Official Guide
 
-If this is your first time using Ubuntu MATE, we have an official guide 
-to assist you on your journey. It's also pre-installed under the 
+If this is your first time using Ubuntu MATE, we have an official guide
+to assist you on your journey. It's also pre-installed under the
 **Accessories** menu (for full installations).
 
 [guide.ubuntu-mate.org](https://guide.ubuntu-mate.org){:.btn .green}
 [Shop Books](/shop/books/){:.btn}
-
 
 ## Other Resources
 
