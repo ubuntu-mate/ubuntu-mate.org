@@ -17,19 +17,19 @@ title: Bug Reporting and Triage
 Bugs are submitted to the [Ubuntu MATE project on Launchpad](https://bugs.launchpad.net/ubuntu-mate)
 
 If you don't already have an account, [set one up on Launchpad](https://help.launchpad.net/YourAccount/NewAccount)
-before you get started. 
+before you get started.
 
 ### How do I report a bug?
 
 [This tutorial](https://ubuntu-mate.community/t/17943) by APolihron, one of our QA testers,
-demonstrates how to file a bug report. It is incredibly useful, 
+demonstrates how to file a bug report. It is incredibly useful,
 with GIFs to illustrate each step of the process!
 
 ## Who can I talk to about bugs and bug reporting?
 
 Join the Ubuntu MATE community in the [Support and Help Requests](https://ubuntu-mate.community/c/support/10)
 section of the Community page to talk to new and experienced bug
-reporters! 
+reporters!
 
 
 
@@ -40,7 +40,7 @@ reporters!
 If you're comfortable with bug reporting, bug triage is another great
 way to contribute to Ubuntu MATE!
 
-Bug triagers help teams determine which bugs are critical, and which are 
+Bug triagers help teams determine which bugs are critical, and which are
 less urgent.
 
 Some bug triage tasks require special privileges granted by project owners or
@@ -60,10 +60,6 @@ of the other.
 bug with the right project and leave a note in the bug's initial location.
 
 Bug triage can help us realise where an error is, especially if the error
-is upstream (for example, with the MATE Desktop instead of Ubuntu MATE.) 
-Bug triagers help maintain communication between projects and help bug 
+is upstream (for example, with the MATE Desktop instead of Ubuntu MATE.)
+Bug triagers help maintain communication between projects and help bug
 fixers know where they need to focus their efforts.
-
-The video below shows bug triaging (and Martin!) in action:
-
-{% include embed/youtube.html embed = "https://www.youtube.com/embed/kWojaWHl3U4?t=3732&rel=0" %}
