@@ -56,7 +56,7 @@ releases:
         mascot: "noble.svg"
         wallpaper: "focal.jpg"
         lts: true
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-noble-numbat-release-notes/"
         end_of_life:
             month: Apr
@@ -83,10 +83,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:b7fd0b576ef55e2f65aeaf164b40d5f63fb685d5&dn=ubuntu-mate-23.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: noble
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/beta/ubuntu-mate-24.04-beta-desktop-amd64.iso"
-          sha256sum: "2de8a50a76668f9be40559eb2bb6a316fe48e7240680b1c081f3ba937196d4ec"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04-desktop-amd64.iso"
+          sha256sum: "eae78e56c306ba30e5d59cbcbb48e54bef6e9263e8481f3f0f3a883054083f24"
           size: "3.9 GB"
-          magnet-uri: "magnet:?xt=urn:btih:1fb25a17ccebe5558698364a0b5af12b92235bf8&dn=ubuntu-mate-24.04-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:956291e2d0d3a86acc62c510ea997679fc2436db&dn=ubuntu-mate-24.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: jammy

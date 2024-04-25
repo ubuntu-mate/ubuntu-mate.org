@@ -2,12 +2,12 @@
 layout: blog-post
 class: blog
 permalink: /blog/ubuntu-mate-noble-numbat-release-notes/
-category: pre-release
+category: release
 author: Martin Wimpress
 lang: en
 discourse_topic_id: # TBC
 
-title: Ubuntu MATE 24.04 LTS (BETA) Release Notes
+title: Ubuntu MATE 24.04 LTS Release Notes
 description: What's new in Ubuntu MATE 24.04 LTS (Noble Numbat)
 ---
 
