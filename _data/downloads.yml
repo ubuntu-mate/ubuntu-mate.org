@@ -51,7 +51,7 @@ releases:
             year: 2024
 
     noble:
-        name: "22.04 LTS"
+        name: "24.04 LTS"
         codename: "Noble Numbat"
         mascot: "noble.svg"
         wallpaper: "focal.jpg"
