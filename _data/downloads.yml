@@ -51,7 +51,7 @@ releases:
             year: 2024
 
     noble:
-        name: "24.04 LTS"
+        name: "24.04.1 LTS"
         codename: "Noble Numbat"
         mascot: "noble.svg"
         wallpaper: "focal.jpg"
@@ -83,10 +83,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:b7fd0b576ef55e2f65aeaf164b40d5f63fb685d5&dn=ubuntu-mate-23.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: noble
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04-desktop-amd64.iso"
-          sha256sum: "eae78e56c306ba30e5d59cbcbb48e54bef6e9263e8481f3f0f3a883054083f24"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04.1-desktop-amd64.iso"
+          sha256sum: "e2f336fe046fa399331bf09c7b5c86b9a75a9c30491bd8cd3dff9745b195d06e"
           size: "3.9 GB"
-          magnet-uri: "magnet:?xt=urn:btih:956291e2d0d3a86acc62c510ea997679fc2436db&dn=ubuntu-mate-24.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:57825785a2e08ffccff89fc95505a2a745374ee5&dn=ubuntu-mate-24.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: jammy
