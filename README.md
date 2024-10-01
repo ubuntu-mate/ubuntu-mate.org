@@ -24,7 +24,7 @@ Simply find the page you want and create a pull request!
 
 Install [Jekyll](https://jekyllrb.com) as follows:
 
-    sudo apt install ruby ruby-dev make gcc zlib1g-dev
+    sudo apt install ruby ruby-dev make g++ gcc zlib1g-dev
     sudo gem install bundler --version 2.2.16
     sudo gem install jekyll
 
