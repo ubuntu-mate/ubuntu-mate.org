@@ -62,6 +62,18 @@ releases:
             month: Apr
             year: 2027
 
+    oracular:
+        name: "24.10"
+        codename: "Oracular Oriole"
+        mascot: "oracular.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        prerelease: true
+        release_notes: "/blog/ubuntu-mate-oracular-oriole-release-notes/"
+        end_of_life:
+            month: Jul
+            year: 2025
+
 # To list new architectures on the download page, add descriptions to download.md
 arch:
     - amd64
@@ -82,6 +94,11 @@ downloads:
           size: "3.9 GB"
           magnet-uri: "magnet:?xt=urn:btih:57825785a2e08ffccff89fc95505a2a745374ee5&dn=ubuntu-mate-24.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
+        - release: oracular
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/oracular/beta/ubuntu-mate-24.10-beta-desktop-amd64.iso"
+          sha256sum: "e4d573ce26e9d31fabe9582e09d3676fee5a5bbb3d276a1ea6512b9a14edfec0"
+          size: "3.4 GB"
+          magnet-uri: "magnet:?xt=urn:btih:029bc91f0238e32efd96f65855d7b3d7c9f58a38&dn=ubuntu-mate-24.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
     armhf:
         - release: jammy
           url: "https://releases.ubuntu-mate.org/jammy/armhf/ubuntu-mate-22.04-desktop-armhf+raspi.img.xz"
