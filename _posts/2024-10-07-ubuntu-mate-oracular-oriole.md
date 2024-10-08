@@ -31,7 +31,7 @@ Here are the highlights of what's changed since the [release of Ubuntu MATE 24.0
 - Switched back to Slick Greeter (replacing Arctica Greeter) due to race-condition in the boot process which results the display manager failing to initialise.
   - Returning to Slick Greeter reintroduces the ability to easily configure the login screen via a graphical application, something users have been requesting be re-instated 👍
 - Ubuntu MATE 24.10 .iso 📀 is now 3.3GB 🤏 Down from 4.1GB in the 24.04 LTS release.
-  - This is thanks to some fixes in the installer than no longer require as many packages in the live-seed.
+  - This is thanks to some fixes in the installer that no longer require as many packages in the live-seed.
 
 {:.center}
 ![Login Window Configuration](/images/blog/oracular/login-window.png)
