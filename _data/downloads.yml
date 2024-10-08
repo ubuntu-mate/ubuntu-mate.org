@@ -73,15 +73,23 @@ downloads:
         - release: jammy
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso"
           sha256sum: "b382a3aebffc916cce71369e0c09719dd819b8b6ab308d4396ac31c1ada867c4"
-          size: "3.5 GB"
+          size: "3.4 GB"
           magnet-uri: "magnet:?xt=urn:btih:8fcb95f456700f9938c049ccb2ce60c423e2b6fa&dn=ubuntu-mate-22.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: noble
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04.1-desktop-amd64.iso"
           sha256sum: "e2f336fe046fa399331bf09c7b5c86b9a75a9c30491bd8cd3dff9745b195d06e"
-          size: "3.9 GB"
+          size: "4.1 GB"
           magnet-uri: "magnet:?xt=urn:btih:57825785a2e08ffccff89fc95505a2a745374ee5&dn=ubuntu-mate-24.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
+<<<<<<< Updated upstream
+=======
+        - release: oracular
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/oracular/beta/ubuntu-mate-24.10-beta-desktop-amd64.iso"
+          sha256sum: "e4d573ce26e9d31fabe9582e09d3676fee5a5bbb3d276a1ea6512b9a14edfec0"
+          size: "3.3 GB"
+          magnet-uri: "magnet:?xt=urn:btih:029bc91f0238e32efd96f65855d7b3d7c9f58a38&dn=ubuntu-mate-24.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+>>>>>>> Stashed changes
     armhf:
         - release: jammy
           url: "https://releases.ubuntu-mate.org/jammy/armhf/ubuntu-mate-22.04-desktop-armhf+raspi.img.xz"
