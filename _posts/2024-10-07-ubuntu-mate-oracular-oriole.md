@@ -13,11 +13,9 @@ description: What's new in Ubuntu MATE 24.10 LTS (Oracular Oriole)
 
 Ubuntu MATE 24.10 is more of what you like, stable MATE Desktop on top of current Ubuntu. Read on to learn more 👓️
 
-<!--
 {:.center}
 ![Ubuntu MATE 24.10](/images/blog/oracular/screenshot.png)
 **Ubuntu MATE 24.10**
--->
 
 ## Thank you! 🙇
 
@@ -33,9 +31,9 @@ Here are the highlights of what's changed since the [release of Ubuntu MATE 24.0
 - Switched back to Slick Greeter (replacing Arctica Greeter) due to race-condition in the boot process which results the display manager failing to initialise.
   - Returning to Slick Greeter reintroduces the ability to easily configure the login screen via a graphical application, something users have been requesting be re-instated 👍
 
-<!--
-screenshot
--->
+{:.center}
+![Login Window Configuration](/images/blog/oracular/login-window.png)
+**Login Window**
 
 ## What didn't change since the Ubuntu MATE 24.04 LTS?
 
