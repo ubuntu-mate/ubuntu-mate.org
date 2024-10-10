@@ -68,7 +68,7 @@ releases:
         mascot: "oracular.svg"
         wallpaper: "focal.jpg"
         lts: false
-        prerelease: true
+        prerelease: false
         release_notes: "/blog/ubuntu-mate-oracular-oriole-release-notes/"
         end_of_life:
             month: Jul
@@ -95,10 +95,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:57825785a2e08ffccff89fc95505a2a745374ee5&dn=ubuntu-mate-24.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: oracular
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/oracular/beta/ubuntu-mate-24.10-beta-desktop-amd64.iso"
-          sha256sum: "e4d573ce26e9d31fabe9582e09d3676fee5a5bbb3d276a1ea6512b9a14edfec0"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.10/release/ubuntu-mate-24.10-desktop-amd64.iso"
+          sha256sum: "6139a5f9bd00bac15a50e013b1f80f39098c5c4290b1f052cf88bc27871b9ae7"
           size: "3.3 GB"
-          magnet-uri: "magnet:?xt=urn:btih:029bc91f0238e32efd96f65855d7b3d7c9f58a38&dn=ubuntu-mate-24.10-beta-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:bae16ce3d55349d55e41778b61c1890e21bf275b&dn=ubuntu-mate-24.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     armhf:
         - release: jammy
