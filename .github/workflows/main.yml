@@ -1,37 +1,24 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
-  build:
-    runs-on: ubuntu-22.04
+  Build:
+    runs-on: ubuntu-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with: { fetch-depth: 0 }
 
-    - name: Cache RubyGems
-      uses: actions/cache@v2
-      env:
-        cache-name: rubygems
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}
+        ruby-version: '3.3'
+        bundler-cache: true
 
-    - name: Install Dependencies
+    - name: Install additional dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install ruby ruby-dev make gcc
-        sudo gem install bundler --version 2.2.16
-        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit rsync python3-polib webp
-        bundle config path vendor/bundle
-        bundle install --jobs=4
+        sudo apt-get install transmission-cli python3-requests python3-yaml translate-toolkit python3-polib webp
 
     # Some RSS clients think all blog posts were modified at time of deploy.
     # https://stackoverflow.com/a/36243002
@@ -48,7 +35,7 @@ jobs:
       run: |
         scripts/test.sh
 
-    - name: Build Website with locales
+    - name: Rebuild website with locales
       run: |
         scripts/build.sh --locales
 
@@ -61,7 +48,7 @@ jobs:
         scripts/helpers/generate-webp.sh
 
     - name: Publish to Cloudflare Pages
-      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate.org' }}
+      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate.org' && github.ref == 'refs/heads/master' }}
       uses: cloudflare/pages-action@v1
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
