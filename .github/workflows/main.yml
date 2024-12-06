@@ -69,12 +69,3 @@ jobs:
         projectName: ubuntu-mate-org
         directory: _site
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Deploy to server
-      if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate.org' }}
-      run: |
-        mkdir -p $HOME/.ssh/
-        chmod 700 $HOME/.ssh/
-        echo -n "${{ secrets.SSH_MATEY }}" > $HOME/.ssh/id_rsa
-        chmod 600 $HOME/.ssh/id_rsa
-        scripts/deploy.sh
