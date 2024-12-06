@@ -13,37 +13,36 @@ Powered by [Jekyll](https://jekyllrb.com/), a static site generator.
 
 See [EDITING.md](EDITING.md) for notes on adding/editing pages on this website.
 
-### Edit on GitHub
-
-The easiest way to edit ubuntu-mate.org is to use GitHub to edit the page.
-Simply find the page you want and create a pull request!
-
 **Translators,** please see the [Translations](#Translations) section instead.
 
-### Edit Locally
+### Using GitHub
 
-Install [Jekyll](https://jekyllrb.com) as follows:
+Find the file you want on GitHub to edit, then click the pencil icon to start
+editing. This is the easiest way to propose changes and create a pull request
+for single files.
 
-    sudo apt install ruby ruby-dev make g++ gcc zlib1g-dev
-    sudo gem install bundler --version 2.2.16
-    sudo gem install jekyll
+### Using a local copy
 
-To install gem dependencies for the project;
+This has the advantage to preview your changes.
 
-    bundle install
+1. Install [Jekyll for Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/) (or other distro)
 
-Some additional packages are needed to build the project:
+2. Install the dependencies for this website:
 
-    sudo apt install python3-requests python3-yaml transmission-cli python3-polib rsync translate-toolkit webp
+       bundle install
 
-To watch for changes locally:
+   Some additional packages are used to build the project:
 
-    ./scripts/watch.sh
+       sudo apt install python3-requests python3-yaml transmission-cli python3-polib translate-toolkit webp
 
-The first build may take a while to complete, but will be substantially faster
-afterwards.
+3. Watch for changes locally:
 
-You can preview the website on your computer at http://localhost:4000.
+       ./scripts/watch.sh
+
+    The first build may take a while to complete, but will be substantially faster
+    afterwards.
+
+4. Preview the website on your computer at <http://localhost:4000>. Any changes you make will be live reloaded and include unpublished drafts.
 
 
 ## Building
