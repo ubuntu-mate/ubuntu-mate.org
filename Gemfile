@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+
+# Jekyll dependencies
 gem "bundler"
+gem "csv"
+gem "ostruct"
 gem "webrick"
 
 group :jekyll_plugins do
