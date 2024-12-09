@@ -1,5 +1,4 @@
 /* Slider */
-
 .slick-slider {
     position: relative;
     display: block;
@@ -14,22 +13,24 @@
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
+
 .slick-list {
     position: relative;
     overflow: hidden;
     display: block;
     margin: 0;
     padding: 0;
-
-    &:focus {
-        outline: none;
-    }
-
-    &.dragging {
-        cursor: pointer;
-        cursor: hand;
-    }
 }
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
 .slick-slider .slick-track,
 .slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
@@ -46,61 +47,63 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-    }
-
-    &:after {
-        clear: both;
-    }
-
-    .slick-loading & {
-        visibility: hidden;
-    }
 }
+
+.slick-track:before, .slick-track:after {
+    content: "";
+    display: table;
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
 .slick-slide {
     float: left;
     height: 100%;
     min-height: 1px;
-    [dir="rtl"] & {
-        float: right;
-    }
-    img {
-        display: block;
-    }
-    &.slick-loading img {
-        display: none;
-    }
-
     display: none;
-
-    &.dragging img {
-        pointer-events: none;
-    }
-
-    .slick-initialized & {
-        display: block;
-    }
-
-    .slick-loading & {
-        visibility: hidden;
-    }
-
-    .slick-vertical & {
-        display: block;
-        height: auto;
-        border: 1px solid transparent;
-    }
 }
+
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
 .slick-arrow.slick-hidden {
     display: none;
 }
 
-$sm: 768px - 1px;
-@media (max-width: $sm) {
+@media (max-width: 767px) {
     .slick-dots {
         flex-wrap: wrap;
         margin: 15px auto;
@@ -110,8 +113,7 @@ $sm: 768px - 1px;
     }
 }
 
-$ss: 475px;
-@media (max-width: $ss) {
+@media (max-width: 475px) {
     .slick-dots {
         min-width: calc(100% - (100vw / 4));
         max-width: calc(100% - (100vw / 4));
