@@ -3,21 +3,21 @@ $trigger-smaller-header: 1060px;
 $trigger-smallest-header: 865px;
 
 .site-header {
-    background: $ubuntu-mate-light;
+    background: var(--ubuntu-mate-light);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: $header-height;
+    height: var(--header-height);
     width: 100%;
     padding: 5px 0;
     font-size: 14px;
-    box-shadow: 0px 0px 10px lighten($ubuntu-mate-light, 10%);
+    box-shadow: 0px 0px 10px var(--ubuntu-mate-light-2);
     z-index: 100;
 }
 
 #site-header-block {
-    height: $header-height;
+    height: var(--header-height);
     padding: 5px 0;
     margin-bottom: 15px;
 }
@@ -39,13 +39,13 @@ $trigger-smallest-header: 865px;
 
     &:hover {
         img {
-            transition: transform $transition-duration $transition-timing;
+            transition: transform var(--transition-duration) var(--transition-timing);
             transform: rotate(120deg);
         }
     }
 
     &:focus {
-        outline: 2px solid lighten($ubuntu-mate-light, 15%);
+        outline: 2px solid var(--ubuntu-mate-light-3);
     }
 
     img {
@@ -67,29 +67,29 @@ $trigger-smallest-header: 865px;
 
 .nav-btn {
     display: block;
-    color: $text-colour-light;
+    color: var(--text-colour-light);
     cursor: pointer;
     padding: 15px;
     position: relative;
 
     &.active {
-        background: lighten($ubuntu-mate-light, 5%);
+        background: var(--ubuntu-mate-light-1);
     }
 
     &:hover,
     &:focus {
-        background: lighten($ubuntu-mate-light, 10%);
-        color: $text-colour-light;
+        background: var(--ubuntu-mate-light-2);
+        color: var(--text-colour-light);
         text-decoration: none;
 
         svg path {
-            fill: $text-colour-light;
+            fill: var(--text-colour-light);
         }
     }
 
     &:active {
-        background: lighten($ubuntu-mate-light, 15%);
-        outline-color: lighten($ubuntu-mate-light, 15%);
+        background: var(--ubuntu-mate-light-3);
+        outline-color: var(--ubuntu-mate-light-3);
     }
 
     svg {
@@ -97,7 +97,7 @@ $trigger-smallest-header: 865px;
         width: auto;
 
         path {
-            fill: $text-colour-light;
+            fill: var(--text-colour-light);
         }
     }
 }
@@ -105,7 +105,7 @@ $trigger-smallest-header: 865px;
 /* Language Picker */
 .nav-i18n {
     display: block;
-    color: $text-colour-light;
+    color: var(--text-colour-light);
     padding: 15px;
 }
 
@@ -139,12 +139,12 @@ $trigger-smallest-header: 865px;
 
         ~ ul .i18n-btn,
         ~ ul #i18n-chooser-mobile {
-            background: $background;
-            color: $text-colour-dark;
+            background: var(--background);
+            color: var(--text-colour-dark);
             padding-bottom: 20px;
 
             svg path {
-                fill: $text-colour-dark;
+                fill: var(--text-colour-dark);
             }
         }
     }
@@ -152,11 +152,11 @@ $trigger-smallest-header: 865px;
 
 .i18n-dropdown {
     display: none;
-    background: $background;
-    border: $dropdown-border;
-    box-shadow: $dropdown-shadow;
+    background: var(--background);
+    border: var(--dropdown-border);
+    box-shadow: var(--dropdown-shadow);
     position: absolute;
-    top: $header-height - 4px;
+    top: calc(var(--header-height) - 4px);
     right: 15px;
     margin: auto;
     list-style: none;
@@ -169,19 +169,19 @@ $trigger-smallest-header: 865px;
         max-width: 90vw;
 
         .nav-btn {
-            color: $text-colour-dark;
+            color: var(--text-colour-dark);
 
             &.checked {
-                background: lighten($ubuntu-mate-light, 5%);
-                color: $text-colour-light;
+                background: var(--ubuntu-mate-light-1);
+                color: var(--text-colour-light);
 
                 svg path {
-                    fill: $text-colour-light;
+                    fill: var(--text-colour-light);
                 }
 
                 &::after {
                     content: " ";
-                    background: $text-colour-light;
+                    background: var(--text-colour-light);
                     border-radius: 50%;
                     position: absolute;
                     height: 10px;
@@ -195,12 +195,12 @@ $trigger-smallest-header: 865px;
 
             &:hover,
             &:focus {
-                background: lighten($ubuntu-mate-light, 10%);
-                color: $text-colour-light;
+                background: var(--ubuntu-mate-light-2);
+                color: var(--text-colour-light);
                 text-decoration: none;
 
                 svg path {
-                    fill: $text-colour-light;
+                    fill: var(--text-colour-light);
                 }
             }
         }
@@ -259,11 +259,11 @@ $trigger-smallest-header: 865px;
 
     .primary-nav {
         display: none;
-        background: $background;
-        border: $dropdown-border;
-        box-shadow: $dropdown-shadow;
+        background: var(--background);
+        border: var(--dropdown-border);
+        box-shadow: var(--dropdown-shadow);
         position: fixed;
-        top: $header-height;
+        top: var(--header-height);
         left: 15px;
         right: 15px;
         margin: auto;
@@ -274,15 +274,15 @@ $trigger-smallest-header: 865px;
             width: 50%;
 
             a {
-                color: $text-colour-dark;
+                color: var(--text-colour-dark);
 
                 &.active {
-                    color: $text-colour-light;
+                    color: var(--text-colour-light);
 
                     &::after {
                         content: " ";
                         position: absolute;
-                        background: $text-colour-light;
+                        background: var(--text-colour-light);
                         border-radius: 50%;
                         height: 10px;
                         width: 10px;
@@ -303,11 +303,11 @@ $trigger-smallest-header: 865px;
             }
 
             ~ li #primary-nav-mobile {
-                background: $background;
+                background: var(--background);
                 padding-bottom: 20px;
 
                 svg path {
-                    fill: $text-colour-dark;
+                    fill: var(--text-colour-dark);
                 }
             }
         }

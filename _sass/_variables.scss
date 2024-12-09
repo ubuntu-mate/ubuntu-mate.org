@@ -1,45 +1,179 @@
-/***************************
- * Common Colours
- * (See also: themes/*.scss)
-****************************/
-/* Footer */
-$ambiant-bg: #3C3B37;
-$ambiant-text-colour-light: #DED9CB;
-$ambiant-text-colour-dark: #7F7F7D;
-
-/* Misc */
-$danger: #C03831;
-$amber: #FECF1E;
-$success: #005810;
-$rss: #E19424;
-
-/* Alert Colours (taken from GTK theme) */
-$alert-error: #E43E32;
-$alert-error-text: #FFF;
-$alert-warning: #FEFECD;
-$alert-warning-text: #000;
-
 /************************
- * Dimensions
-*************************/
-$header-height: 60px;
-
-/************************
- * Bootstrap Grid
+* Bootstrap Grid
 *************************/
 $xs: 576px - 1px;
 $sm: 768px - 1px;
 $md: 992px - 1px;
 $lg: 1200px - 1px;
 
-/************************
- * Animations
-*************************/
-$transition-duration: 0.3s;
-$transition-timing: ease-in-out;
+:root {
+    /* Colours */
+    --background: white;
+    --background-alt: #F3F3F3;
+    --link-colour: #758A53;
+    --link-colour-focused: #44522E;
+
+    --grey-lightest: #EDEDED;
+    --grey-light: #D4D3D0;
+    --grey-dark: #A9A9A9;
+    --grey-darker: #616161;
+
+    --header-text: #DED9CB;
+
+    --ubuntu-mate-dark: #667E40;
+    --ubuntu-mate-light: #87A556;
+    --ubuntu-mate-light-1: #93af66;
+    --ubuntu-mate-light-2: #9fb876;
+    --ubuntu-mate-light-3: #abc087;
+    --ubuntu-mate-light-4: #cedbb9;
+
+    --text-colour-light: white;
+    --text-colour-dark: black;
+
+    --shadow: var(--grey-dark);
+
+    /* Button Gradients */
+    --button-border: var(--grey-light);
+    --button-border-focused: var(--grey-dark);
+
+    --button-bg: linear-gradient(white, #F5F4F3);
+    --button-bg-clicked: linear-gradient(#E4E4E4, #E9E9E9);
+
+    --button-bg-inverted: linear-gradient(#585858, #3C3B37);
+    --button-bg-inverted-clicked: linear-gradient(#3C3B37, #585858);
+
+    --button-bg-green: linear-gradient(#87A556, #6F8647);
+    --button-bg-green-clicked: linear-gradient(#6F8647, #87A556);
+
+    --button-bg-yellow: linear-gradient(#FBB24C, #F8970D);
+    --button-bg-yellow-clicked: linear-gradient(#F8970D, #FBB24C);
+
+    --button-bg-red: linear-gradient(#ED5E5A, #C03831);
+    --button-bg-red-clicked: linear-gradient(#C03831, #ED5E5A);
+
+    /* Scroll Bars */
+    --scroll-bar-gradient: #F1F0EE, #FDFDFD;
+    --scroll-bar-gray: #C9C6C3;
+
+    /* Tables */
+    --table-row: #FFFFFF;
+    --table-row-alt: #F9F9F9;
+    --table-row-border: #D0D0D0;
+
+    /* Grid */
+    --grid-bg: rgba(var(--grey-lightest), 0.5);
+    --grid-bg-alt: rgba(var(--grey-lightest), 0.25);
+    --grid-hover: rgba(var(--grey-lightest), 0.75);
+
+    /* Discourse inspired dropdowns */
+    --dropdown-border: 1px solid #E9E9E9;
+    --dropdown-shadow: 0 8px 14px rgba(0,0,0,0.15);
+
+    /* Footer */
+    --ambiant-bg-dark-1: #DED9CB;
+    --ambiant-bg-dark-2: #21211f;
+    --ambiant-bg-dark-3: #64625c;
+    --ambiant-bg: #3C3B37;
+    --ambiant-bg-light-1: #494843;
+    --ambiant-bg-light-2: #57554f;
+    --ambiant-bg-light-3: #64625c;
+    --ambiant-text-colour-light: #DED9CB;
+    --ambiant-text-colour-dark: #7F7F7D;
+
+    /* Misc */
+    --danger: #C03831;
+    --amber: #FECF1E;
+    --success: #005810;
+    --rss: #E19424;
+
+    /* Alert Colours (taken from GTK theme) */
+    --alert-error: #E43E32;
+    --alert-error-text: #FFF;
+    --alert-warning: #FEFECD;
+    --alert-warning-text: #000;
+
+    /* Dimensions */
+    --header-height: 60px;
+
+    /* Animations */
+    --transition-duration: 0.3s;
+    --transition-timing: ease-in-out;
+
+    /* Fonts */
+    --primary-font: "Ubuntu", "Ubuntu-Embed", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    --monospace-font: "Ubuntu Mono", monospace;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #222222;
+        --background-alt: #303030;
+        --link-colour: #758A53;
+        --link-colour-focused: #44522E;
+
+        --grey-lightest: #616161;
+        --grey-light: #A9A9A9;
+        --grey-dark: #D4D3D0;
+        --grey-darker: #EDEDED;
+
+        --header-text: #DED9CB;
+        --ubuntu-mate-dark: #87A556;
+        --ubuntu-mate-light: #87A556;
+
+        --text-colour-light: white;
+        --text-colour-dark: white;
+
+        --shadow: #4A4A4A;
+
+        /* Buttons */
+        --button-bg: black, #262626;
+        --button-bg-clicked: #262626, #0F0F0F;
+
+        /* Tables */
+        --table-row: #323232;
+        --table-row-alt: var(--background);
+        --table-row-border: #3D3D3D;
+
+        /* Discourse inspired dropdowns */
+        --dropdown-border: 1px solid #383838;
+        --dropdown-shadow: 0 12px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Hacks */
+    img[alt="Entroware"],
+    img[alt="Entroware logo"],
+    img[src="/images/people/nophoto.svg"] {
+        filter: invert(1);
+    }
+
+    .site-header {
+        background: var(--ubuntu-mate-light) !important;
+    }
+
+    .sidebar-link:hover,
+    .sidebar-link:focus {
+        background-color: #78934A !important;
+    }
+
+    .toc {
+        background-color: var(--background-alt) !important;
+    }
+
+    blockquote a {
+        color: var(--ubuntu-mate-light);
+    }
+
+    input {
+        background-color: var(--background-alt);
+    }
+}
 
 /************************
- * Fonts
+ * Manual toggle in footer (deprecated)
 *************************/
-$primary-font: "Ubuntu", "Ubuntu-Embed", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-$monospace-font: "Ubuntu Mono", monospace;
+#str-light,
+#str-dark,
+#dark-toggle {
+    display: none;
+}

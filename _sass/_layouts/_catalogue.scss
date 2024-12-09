@@ -7,12 +7,12 @@
 }
 
 .catalogue-item {
-    border-top: 1px solid $grey-light;
+    border-top: 1px solid var(--grey-light);
     margin-top: 15px;
     padding: 15px 0;
 
     .product-price {
-        color: $ubuntu-mate-dark;
+        color: var(--ubuntu-mate-dark);
     }
 
     .product-image,

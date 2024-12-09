@@ -1,12 +1,12 @@
 .site-footer {
-    background: $ambiant-bg;
-    color: $text-colour-light;
+    background: var(--ambiant-bg);
+    color: var(--text-colour-light);
     font-size: 14px;
     padding: 15px 0;
 
     a {
         cursor: pointer;
-        color: $ambiant-text-colour-light;
+        color: var(--ambiant-text-colour-light);
     }
 
     p {
@@ -14,7 +14,7 @@
 
         &.dim,
         &.dim a {
-            color: darken($text-colour-light, 40%);
+            color: var(--grey-dark);
         }
     }
 
@@ -28,17 +28,17 @@
         padding: 10px;
 
         &.active {
-            background: lighten($ambiant-bg, 5%);
+            background: var(--ambiant-bg-light-1);
         }
 
         &:hover,
         &:focus {
-            background: lighten($ambiant-bg, 10%);
+            background: var(--ambiant-bg-light-2);
             text-decoration: none;
         }
 
         &:active {
-            background: lighten($ambiant-bg, 15%);
+            background: var(--ambiant-bg-light-3);
         }
     }
 }
@@ -57,7 +57,7 @@
         }
 
         + a {
-            border-left: 1px solid $ambiant-text-colour-light;
+            border-left: 1px solid var(--ambiant-text-colour-light);
         }
 
         /* External links */
@@ -75,7 +75,7 @@
             }
 
             path {
-                fill: $ambiant-text-colour-light;
+                fill: var(--ambiant-text-colour-light);
             }
         }
 
@@ -91,7 +91,7 @@
     margin: 10px 0;
 
     a {
-        background: darken($ambiant-bg, 10%);
+        background: var(--ambiant-bg-dark-2);
         display: inline-block;
         padding: 1px;
         margin: 0 2px;
@@ -101,21 +101,21 @@
             width: 30px;
 
             path {
-                fill: $ambiant-text-colour-light;
+                fill: var(--ambiant-text-colour-light);
             }
         }
 
         &:hover,
         &:focus {
-            background: lighten($ambiant-bg, 5%);
+            background: var(--ambiant-bg-dark-1);
 
             svg path {
-                fill: $ambiant-text-colour-light;
+                fill: var(--ambiant-text-colour-light);
             }
         }
 
         &:active {
-            background: lighten($ambiant-bg, 15%);
+            background: var(--ambiant-bg-dark-3);
         }
     }
 }

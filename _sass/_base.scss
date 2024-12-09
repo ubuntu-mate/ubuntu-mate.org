@@ -1,22 +1,22 @@
 body, button, input {
-    font-family: $primary-font;
-    color: $text-colour-dark;
+    font-family: var(--primary-font);
+    color: var(--text-colour-dark);
 }
 
 body {
-    background: $background;
-    color: $text-colour-dark;
+    background: var(--background);
+    color: var(--text-colour-dark);
 }
 
 a {
-    color: $link-colour;
+    color: var(--link-colour);
 
     &:hover,
     &:focus {
-        color: $link-colour-focused;
+        color: var(--link-colour-focused);
 
         svg path {
-            fill: $link-colour-focused;
+            fill: var(--link-colour-focused);
         }
     }
 
@@ -28,24 +28,24 @@ a {
         top: -1px;
 
         path {
-            fill: $link-colour;
+            fill: var(--link-colour);
         }
     }
 }
 
 ::selection {
-    background: $ubuntu-mate-dark;
-    color: $text-colour-light;
+    background: var(--ubuntu-mate-dark);
+    color: var(--text-colour-light);
 }
 
 hr {
     border: none;
-    border-top: 1px solid $grey-light;
+    border-top: 1px solid var(--grey-light);
 }
 
 code {
-    font-family: $monospace-font;
-    color: $ubuntu-mate-dark;
+    font-family: var(--monospace-font);
+    color: var(--ubuntu-mate-dark);
 }
 
 /* Slight override on Bootstrap Grid */
@@ -110,7 +110,7 @@ footer {
 }
 
 .monospace-font {
-    font-family: $monospace-font;
+    font-family: var(--monospace-font);
     font-size: 16px;
 }
 
@@ -118,8 +118,8 @@ footer {
  * Markdown
 *************************/
 blockquote {
-    background-color: $grey-lightest;
-    border-left: 2px solid $grey-dark;
+    background-color: var(--grey-lightest);
+    border-left: 2px solid var(--grey-dark);
     padding: 10px;
     padding-left: 45px;
     position: relative;
@@ -134,7 +134,7 @@ blockquote {
 
     &:before {
         content: "❝";
-        color: $grey-dark;
+        color: var(--grey-dark);
         font-size: 40px;
         position: absolute;
         left: 15px;
@@ -149,14 +149,14 @@ blockquote {
 
 pre {
     display: block;
-    background-color: $grey-lightest;
-    color: $text-colour-dark;
+    background-color: var(--grey-lightest);
+    color: var(--text-colour-dark);
     padding: 15px;
     margin: 15px 0;
     white-space: pre-wrap;
 
     code {
-        color: $text-colour-dark;
+        color: var(--text-colour-dark);
     }
 }
 
@@ -183,9 +183,9 @@ p.small {
 kbd {
     border-radius: 3px;
     box-shadow: 0 2px 0 rgba(0,0,0,.2), 0 0 0 1px #fff inset;
-    background: $background-alt;
-    border: 1px solid $button-border;
-    color: $text-colour-dark;
+    background: var(--background-alt);
+    border: 1px solid var(--button-border);
+    color: var(--text-colour-dark);
     display: inline-block;
     font-size: 0.8em;
     line-height: 1.4;
@@ -195,8 +195,8 @@ kbd {
 
 /* Table of Contents */
 .toc {
-    background: $grey-lightest;
-    border: 1px solid $grey-dark;
+    background: var(--grey-lightest);
+    border: 1px solid var(--grey-dark);
     display: inline-block;
     padding: 0.5em;
     margin: 0 0 1em;
@@ -218,6 +218,6 @@ kbd {
 
 @keyframes flash-text {
     from {
-        color: $ubuntu-mate-dark;
+        color: var(--ubuntu-mate-dark);
     }
 }

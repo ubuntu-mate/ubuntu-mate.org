@@ -3,9 +3,9 @@
 *************************/
 button,
 .btn {
-    background: linear-gradient($button-bg);
-    border: 1px solid $button-border;
-    color: $text-colour-dark;
+    background: var(--button-bg);
+    border: 1px solid var(--button-border);
+    color: var(--text-colour-dark);
     cursor: pointer;
     border-radius: 8px;
     padding: 6px 12px;
@@ -14,18 +14,18 @@ button,
     &:focus,
     &:hover,
     &:active {
-        border: 1px solid $button-border-focused;
-        color: $text-colour-dark;
+        border: 1px solid var(--button-border-focused);
+        color: var(--text-colour-dark);
         outline: 0;
         text-decoration: none;
 
         svg path {
-            fill: $text-colour-dark;
+            fill: var(--text-colour-dark);
         }
     }
 
     &:active {
-        background: linear-gradient($button-bg-clicked);
+        background: var(--button-bg-clicked);
     }
 
     img {
@@ -36,7 +36,7 @@ button,
     }
 
     svg path {
-        fill: $text-colour-dark;
+        fill: var(--text-colour-dark);
     }
 }
 
@@ -55,67 +55,67 @@ button.yellow,
 button.red,
 .btn.red {
     border-color: transparent;
-    color: $text-colour-light;
+    color: var(--text-colour-light);
 
     svg path {
-        fill: $text-colour-light;
+        fill: var(--text-colour-light);
     }
 
     &:focus,
     &:hover {
-        fill: $text-colour-light;
+        fill: var(--text-colour-light);
     }
 
     &:active {
-        color: $text-colour-light;
+        color: var(--text-colour-light);
     }
 }
 
 /* Button Theme - Header/Footer */
 button.inverted,
 .btn.inverted {
-    background: linear-gradient($button-bg-inverted);
+    background: var(--button-bg-inverted);
 
     &:active {
-        background: linear-gradient($button-bg-inverted-clicked);
+        background: var(--button-bg-inverted-clicked);
     }
 }
 
 /* Button Theme - Green */
 button.green,
 .btn.green {
-    background: linear-gradient($button-bg-green);
+    background: var(--button-bg-green);
 
     &:active {
-        background: linear-gradient($button-bg-green-clicked);
+        background: var(--button-bg-green-clicked);
     }
 }
 
 /* Button Theme - Yellow */
 button.yellow,
 .btn.yellow {
-    background: linear-gradient($button-bg-yellow);
+    background: var(--button-bg-yellow);
 
     &:active {
-        background: linear-gradient($button-bg-yellow-clicked);
+        background: var(--button-bg-yellow-clicked);
     }
 }
 
 /* Button Theme - Red */
 button.red,
 .btn.red {
-    background: linear-gradient($button-bg-red);
+    background: var(--button-bg-red);
 
     &:active {
-        background: linear-gradient($button-bg-red-clicked);
+        background: var(--button-bg-red-clicked);
     }
 }
 
 /* Button Theme - Dropdown */
 button.dropdown {
-    color: $header-text;
+    color: var(--header-text);
 
     &:hover {
-        color: $text-colour-light;
+        color: var(--text-colour-light);
     }
 }

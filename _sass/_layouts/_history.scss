@@ -22,7 +22,7 @@ $side-arrow: 32px;
         left: 30px;
         margin-top: 15px;
         font-size: 1.25em;
-        color: $grey-light;
+        color: var(--grey-light);
 
         &:first-child {
             margin-top: 30px;

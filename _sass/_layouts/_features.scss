@@ -1,6 +1,3 @@
-$grid-bg: rgba($grey-lightest, 0.5);
-$grid-bg-alt: rgba($grey-lightest, 0.25);
-
 .feature-grid {
     display: flex;
     flex-direction: column;
@@ -8,7 +5,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
 
     /* Optional / Live Session Info */
     .key {
-        color: $grey-darker;
+        color: var(--grey-darker);
         margin: 30px 0;
 
         p {
@@ -17,7 +14,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     }
 
     .key-hover {
-        color: $grey-darker;
+        color: var(--grey-darker);
         cursor: help;
     }
 }
@@ -33,7 +30,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     &:first-child::before {
         display: block;
         content: " ";
-        background: linear-gradient(to right, transparent, $ubuntu-mate-light, transparent);
+        background: linear-gradient(to right, transparent, var(--ubuntu-mate-light), transparent);
         position: absolute;
         bottom: -5px;
         height: 5px;
@@ -70,7 +67,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
         text-align: center;
         width: 33%;
         min-height: 120px;
-        transition: background $transition-duration $transition-timing;
+        transition: background var(--transition-duration) var(--transition-timing);
 
         img {
             display: block;
@@ -93,7 +90,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
                 margin-left: 5px;
 
                 path {
-                    fill: $ubuntu-mate-light;
+                    fill: var(--ubuntu-mate-light);
                 }
             }
         }
@@ -104,10 +101,10 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
 
         &:hover,
         &:focus {
-            background-color: darken($grid-bg, 5%);
+            background-color: var(--grid-hover);
 
             span svg path {
-                fill: $ubuntu-mate-dark;
+                fill: var(--ubuntu-mate-dark);
             }
         }
 
@@ -120,11 +117,11 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
         }
 
         &:nth-child(odd) {
-            background-color: $grid-bg;
+            background-color: var(--grid-bg);
         }
 
         &:nth-child(even) {
-            background-color: $grid-bg-alt;
+            background-color: var(--grid-bg-alt);
         }
 
         &.filtered {
@@ -138,12 +135,12 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
 }
 
 .feature-filters {
-    background: $background;
+    background: var(--background);
     position: sticky;
     top: 235px;
     padding: 10px 0 0px;
     z-index: 50;
-    box-shadow: 0px 2px 5px $background;
+    box-shadow: 0px 2px 5px var(--background);
 
     label + label {
         margin: 0 15px;
@@ -224,7 +221,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     .vendor-features {
         .feature {
             width: 50%;
-            background-color: $grid-bg;
+            background-color: var(--grid-bg);
         }
     }
 }
@@ -252,7 +249,7 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     .highlight-picture {
         img {
             max-width: 100%;
-            box-shadow: 0px 5px 15px 5px $shadow;
+            box-shadow: 0px 5px 15px 5px var(--shadow);
             margin: auto;
         }
     }
@@ -293,14 +290,14 @@ $grid-bg-alt: rgba($grey-lightest, 0.25);
     img {
         margin: auto;
         max-width: calc(100% - 30px);
-        box-shadow: 5px 5px 5px $shadow;
+        box-shadow: 5px 5px 5px var(--shadow);
     }
 
     .hover {
         opacity: 0;
         visibility: hidden;
-        transition: opacity $transition-duration ease-in-out,
-                    visibility $transition-duration ease-in-out;
+        transition: opacity var(--transition-duration) ease-in-out,
+                    visibility var(--transition-duration) ease-in-out;
         position: absolute;
         left: 15px;
     }

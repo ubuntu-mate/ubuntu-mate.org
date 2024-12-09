@@ -28,8 +28,8 @@ $avatar-size: 120px;
     }
 
     .quote {
-        background: $grey-lightest;
-        border: 2px solid $grey-light;
+        background: var(--grey-lightest);
+        border: 2px solid var(--grey-light);
         border-radius: 10px;
         margin: 5px;
         display: inline-block;
@@ -48,9 +48,9 @@ $avatar-size: 120px;
             transform: rotate(180deg);
 
             path {
-                stroke: $grey-light;
+                stroke: var(--grey-light);
                 stroke-width: 4px;
-                fill: $grey-lightest;
+                fill: var(--grey-lightest);
                 stroke-dasharray: 0, 110, 50;
             }
         }

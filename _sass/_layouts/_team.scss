@@ -49,11 +49,11 @@
     margin: 2px;
 
     &:nth-child(odd) {
-        background-color: $grid-bg;
+        background-color: var(--grid-bg);
     }
 
     &:nth-child(even) {
-        background-color: $grid-bg-alt;
+        background-color: var(--grid-bg-alt);
     }
 }
 

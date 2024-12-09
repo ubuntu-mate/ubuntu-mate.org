@@ -18,7 +18,7 @@
     top: 0;
     bottom: 0;
     margin-left: 30px;
-    transition: transform $transition-duration $transition-timing;
+    transition: transform var(--transition-duration) var(--transition-timing);
 
     svg {
         height: 48px;
@@ -26,8 +26,8 @@
         margin: auto;
 
         path {
-            fill: $grey-light;
-            transition: fill $transition-duration $transition-timing;
+            fill: var(--grey-light);
+            transition: fill var(--transition-duration) var(--transition-timing);
         }
     }
 
@@ -37,7 +37,7 @@
         transform: translateX(-5px);
 
         svg path {
-            fill: $grey-dark;
+            fill: var(--grey-dark);
         }
     }
 }
@@ -50,8 +50,8 @@
     flex-direction: column;
 
     .dot {
-        background: $background;
-        border: 1px solid $grey-dark;
+        background: var(--background);
+        border: 1px solid var(--grey-dark);
         border-radius: 50%;
         display: inline-block;
         position: relative;
@@ -67,7 +67,7 @@
             left: -15px;
             right: -15px;
             margin: auto;
-            border-bottom: 1px solid $grey-dark;
+            border-bottom: 1px solid var(--grey-dark);
             height: 1px;
             z-index: -1;
         }
@@ -81,8 +81,8 @@
         }
 
         &.active {
-            border-color: $ubuntu-mate-dark;
-            background: $ubuntu-mate-light;
+            border-color: var(--ubuntu-mate-dark);
+            background: var(--ubuntu-mate-light);
         }
 
         &.current {
@@ -93,27 +93,27 @@
 
 @keyframes current-dot {
     0% {
-        background: $ubuntu-mate-light;
-        border-color: $ubuntu-mate-dark;
+        background: var(--ubuntu-mate-light);
+        border-color: var(--ubuntu-mate-dark);
     }
     50% {
-        background: $ubuntu-mate-dark;
-        border-color: $ubuntu-mate-light;
+        background: var(--ubuntu-mate-dark);
+        border-color: var(--ubuntu-mate-light);
     }
     100% {
-        background: $ubuntu-mate-light;
-        border-color: $ubuntu-mate-dark;
+        background: var(--ubuntu-mate-light);
+        border-color: var(--ubuntu-mate-dark);
     }
 }
 
 /* Download Grid */
 .grey-text {
-    color: $grey-dark;
+    color: var(--grey-dark);
     font-weight: 400;
 }
 
 .prerelease {
-    color: $danger;
+    color: var(--danger);
 }
 
 .arch-links-box {
@@ -186,14 +186,14 @@
         width: 24px;
 
         path {
-            fill: $ubuntu-mate-dark;
+            fill: var(--ubuntu-mate-dark);
         }
     }
 
     &:hover,
     &:focus {
         svg path {
-            fill: $ubuntu-mate-light;
+            fill: var(--ubuntu-mate-light);
         }
     }
 
@@ -204,7 +204,7 @@
 
 /* Download Thank You Page */
 .download-thanks {
-    border-top: 1px solid $grey-light;
+    border-top: 1px solid var(--grey-light);
     margin: 30px 0;
     padding-top: 30px;
 

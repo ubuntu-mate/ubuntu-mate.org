@@ -63,13 +63,13 @@
 
     button {
         border: none;
-        background: rgba($grey-lightest, 0.5);
+        background: rgba(var(--grey-lightest), 0.5);
         margin: 0 2px;
     }
 }
 
 .slick-active > button {
-    background: $ubuntu-mate-light;
+    background: var(--ubuntu-mate-light);
     color: white;
 
     &:hover,

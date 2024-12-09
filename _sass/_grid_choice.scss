@@ -7,9 +7,9 @@
     align-items: center;
     justify-content: center;
     background: transparent;
-    border: 1px solid $grey-dark;
-    outline-color: $ubuntu-mate-light;
-    color: $text-colour-dark;
+    border: 1px solid var(--grey-dark);
+    outline-color: var(--ubuntu-mate-light);
+    color: var(--text-colour-dark);
     width: 100%;
     min-height: 175px;
     vertical-align: top;
@@ -17,8 +17,8 @@
     margin: 15px 0;
     text-align: left;
     transition-property: fill, color, border-color, background;
-    transition-duration: $transition-duration;
-    transition-timing-function: $transition-timing;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing);
 
     h4,
     p {
@@ -27,17 +27,17 @@
 
     &:hover,
     &:focus {
-        border-color: $ubuntu-mate-light;
+        border-color: var(--ubuntu-mate-light);
         text-decoration: none;
 
         svg path {
-            fill: $ubuntu-mate-light;
+            fill: var(--ubuntu-mate-light);
         }
     }
 
     &:active {
-        background: $ubuntu-mate-light;
-        color: $text-colour-light;
+        background: var(--ubuntu-mate-light);
+        color: var(--text-colour-light);
         transition: none;
 
         img {
@@ -45,12 +45,12 @@
         }
 
         svg path {
-            fill: $text-colour-light;
+            fill: var(--text-colour-light);
             transition: none;
         }
 
         h4, p {
-            color: $text-colour-light;
+            color: var(--text-colour-light);
         }
     }
 }
@@ -64,8 +64,8 @@
     }
 
     svg path {
-        fill: $grey-light;
-        transition: fill $transition-duration $transition-timing;
+        fill: var(--grey-light);
+        transition: fill var(--transition-duration) var(--transition-timing);
     }
 }
 

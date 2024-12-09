@@ -5,13 +5,13 @@ table {
 
 tr {
     font-size: 0.9em;
-    border-bottom: 1px solid $scroll-bar-gray;
-    background-color: $table-row;
+    border-bottom: 1px solid var(--scroll-bar-gray);
+    background-color: var(--table-row);
 }
 
 tr:first-child,
 tr:nth-child(2n+3) {
-    background-color: $table-row-alt;
+    background-color: var(--table-row-alt);
 }
 
 th {
@@ -85,15 +85,15 @@ table.icons {
     }
 
     .yes {
-        background-color: $success;
+        background-color: var(--success);
 
         svg path {
-            fill: lighten($success, 20%);
+            fill: var(--ubuntu-mate-light-2);
         }
     }
 
     .partial {
-        background-color: $amber;
+        background-color: var(--amber);
 
         svg path {
             fill: #000;
@@ -101,7 +101,7 @@ table.icons {
     }
 
     .no {
-        background-color: $danger;
+        background-color: var(--danger);
 
         svg path {
             fill: #fff;
