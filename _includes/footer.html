@@ -14,18 +14,6 @@
             </div>
             <div class="col-md-12 col-lg-6 text-right">
                 <div class="footer-links">
-                    <noscript>
-                        <style>
-                            #dark-toggle {
-                                display: none;
-                            }
-                        </style>
-                    </noscript>
-                    <a id="dark-toggle" tabindex="0" onclick="toggle_dark(); event.preventDefault();">
-                        {% include images/footer/dark.svg %}
-                        <span id="str-light">{{ site.data.strings.light_mode }}</span>
-                        <span id="str-dark">{{ site.data.strings.dark_mode }}</span>
-                    </a>
                     <a class="link-with-icon" href="/raspberry-pi/">
                         {% include images/brands/rpi-outline.svg %}
                         <span>{{ site.data.strings.raspberry_pi }}</span>
