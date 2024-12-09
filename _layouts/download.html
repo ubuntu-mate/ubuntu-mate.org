@@ -213,7 +213,7 @@ layout: default
 
             <div class="row grid-container">
                 <div class="col-md-6">
-                    <a class="grid-item" href="{{ download.url }}.torrent" download onclick="download_thanks('torrent')">
+                    <a class="grid-item" href="{{ download.url }}.torrent" download onclick="downloadThanks('torrent')">
                         <div class="grid-icon">
                             {% include images/fa/network-wired.svg %}
                         </div>
@@ -225,7 +225,7 @@ layout: default
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <a class="grid-item" href="{{ download.magnet-uri }}" onclick="download_thanks('magnet')">
+                    <a class="grid-item" href="{{ download.magnet-uri }}" onclick="downloadThanks('magnet')">
                         <div class="grid-icon">
                             {% include images/fa/magnet.svg %}
                         </div>
@@ -237,7 +237,7 @@ layout: default
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <a class="grid-item" href="{{ download.url }}" download onclick="download_thanks('direct')">
+                    <a class="grid-item" href="{{ download.url }}" download onclick="downloadThanks('direct')">
                         <div class="grid-icon">
                             {% include images/fa/download.svg %}
                         </div>

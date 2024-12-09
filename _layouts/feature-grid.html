@@ -22,13 +22,13 @@ layout: default
                     </noscript>
                     <label>
                         {{ site.data.strings.filter_distro }}
-                        <select id="filter-distro" class="feature-filter" onchange="refresh_feature_filters()">
+                        <select id="filter-distro" class="feature-filter" onchange="refreshFeatureFilters()">
                             <option name="not-in-22-04">22.04 LTS</option>
                             <option name="not-in-23-04">23.04</option>
                         </select>
                     </label>
                     <label>
-                        <input id="filter-min-only" class="feature-filter" type="checkbox" onchange="refresh_feature_filters()"/>
+                        <input id="filter-min-only" class="feature-filter" type="checkbox" onchange="refreshFeatureFilters()"/>
                         {{ site.data.strings.filter_min_only }}
                     </label>
                 </div>

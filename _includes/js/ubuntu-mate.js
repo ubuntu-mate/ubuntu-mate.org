@@ -1,11 +1,19 @@
+/*!
+ *  Ubuntu MATE Website Theme
+ *
+ * This JS file is licensed under the GNU Affero General Public License v3.0.
+ * https://www.gnu.org/licenses/agpl-3.0.html
+ *
+ *  Copyright (C) 2019-2020, 2024 Luke Horwell (@lah7)
+*/
 //--------------------------------------
 // Header Dropdown
 // - Ensure only one is open at a time.
 // - Close a dropdown if user clicks outside.
 //--------------------------------------
-var dropdowns = document.getElementsByClassName("dropdown-trigger");
-function dropdown_modal(input) {
-    var newCheckState = input.checked;
+const dropdowns = document.getElementsByClassName("dropdown-trigger");
+function dropdownModal(input) {
+    const newCheckState = input.checked;
     for (i = 0; i < dropdowns.length; i++) {
         dropdowns[i].checked = false;
     };
@@ -14,11 +22,12 @@ function dropdown_modal(input) {
 
 document.addEventListener("click", function(event) {
     for (i = 0; i < dropdowns.length; i++) {
-        if (dropdowns[i].checked === true) {
-            var labels = dropdowns[i].labels;
+        if (dropdowns[i].checked) {
+            const labels = dropdowns[i].labels;
             for (l = 0; l < labels.length; l++) {
-                var bounds = labels[l].getBoundingClientRect();
-                if (bounds.height === 0) continue;
+                const bounds = labels[l].getBoundingClientRect();
+                if (bounds.height === 0)
+                    continue;
                 if (event.clientY > bounds.bottom) {
                     dropdowns[i].checked = false;
                 }
@@ -31,7 +40,7 @@ document.addEventListener("click", function(event) {
 // Download Links
 // - Navigates to the end page after click.
 //--------------------------------------
-function download_thanks(method) {
+function downloadThanks(method) {
     setTimeout(function() {
         window.location.href = "thanks/?method=" + method;
     }, 500);
@@ -55,21 +64,18 @@ $(window).ready(function() {
 // Search page
 //--------------------------------------
 $(window).ready(function() {
-    var locale = $("html").attr("lang");
-    var json_path = "/search/search.json";
-    if (locale != "en") {
-        json_path = "/" + locale + "/search/search.json";
-    }
+    const locale = $("html").attr("lang");
+    const json_path = locale == "en" ? "/search/search.json" : `/${locale}/search/search.json`;
 
     if ($("#search-input").length > 0) {
-        var sjs = SimpleJekyllSearch({
+        const sjs = SimpleJekyllSearch({
             searchInput: document.getElementById("search-input"),
             resultsContainer: document.getElementById("results-container"),
             json: json_path
         });
 
         // Execute search again if using back button.
-        var value = $("#search-input").val();
+        const value = $("#search-input").val();
         if (value.length > 0) {
             setTimeout(function() {
                 sjs.search(value);
@@ -81,7 +87,7 @@ $(window).ready(function() {
 //--------------------------------------
 // Blog index - hide older posts
 //--------------------------------------
-function show_all_posts() {
+function showAllPosts() {
     $(".post-card.old").removeClass("old");
     $("#show-old-posts").remove();
     return false;
@@ -90,21 +96,21 @@ function show_all_posts() {
 //--------------------------------------
 // Features - filter dropdowns
 //--------------------------------------
-function refresh_feature_filters() {
-    var filter_distro = document.getElementById("filter-distro");
-    var filter_minimal = document.getElementById("filter-min-only");
+function refreshFeatureFilters() {
+    const filterDistro = document.getElementById("filter-distro");
+    const filterMinimal = document.getElementById("filter-min-only");
 
-    var class_name = filter_distro.options[filter_distro.selectedIndex].attributes.name.value;
-    var min_only = filter_minimal.checked;
+    const className = filterDistro.options[filterDistro.selectedIndex].attributes.name.value;
+    const minOnly = filterMinimal.checked;
 
     $(".feature").removeClass("filtered");
-    $(".filter-" + class_name).addClass("filtered");
-    if (min_only === true) {
+    $(".filter-" + className).addClass("filtered");
+    if (minOnly) {
         $(".filter-min-only").addClass("filtered");
     }
-    filter_distro.disabled = filter_minimal.checked;
+    filterDistro.disabled = filterMinimal.checked;
 }
 
 if ($(".feature-filter").length > 0) {
-    refresh_feature_filters();
+    refreshFeatureFilters();
 }
