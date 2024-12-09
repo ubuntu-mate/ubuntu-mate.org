@@ -181,12 +181,12 @@
 *********************************/
 @font-face {
     font-family: "Ubuntu-Embed";
-    src: url("/assets/fonts/Ubuntu-R.ttf");
+    src: url("/assets/fonts/Ubuntu-Regular.ttf");
 }
 
 @font-face {
     font-family: "Ubuntu-Embed";
-    src: url("/assets/fonts/Ubuntu-B.ttf");
+    src: url("/assets/fonts/Ubuntu-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 }
