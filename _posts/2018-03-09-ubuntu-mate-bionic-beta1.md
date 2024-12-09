@@ -90,7 +90,7 @@ Many users commented that when using the Mutiny layout the *"traditional"* menu 
 
 The Mutiny layout now integrates the [mate-window-applets](https://github.com/ubuntu-mate/mate-window-applets). You can see these in action alongside an updated Mutiny layout here:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="https://imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="LxJHgeF"><a href="https://imgur.com/LxJHgeF">Mutiny undecorated maximised windows</a></blockquote><script async src="https://s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Minimal Installation
 
