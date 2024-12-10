@@ -36,6 +36,7 @@ layout: default
 
                 </article>
 
+                {% if page.discourse_topic_id != null %}
                 <div class="blog-comments">
                     <h2>{{ site.data.strings.comments_title }}</h2>
 
@@ -64,10 +65,6 @@ layout: default
                         <p class="blog-comment-empty">
                             {{ site.data.strings.comments_none_old }}
                         </p>
-                    {% elsif page.discourse_topic_id == null %}
-                        <p class="blog-comment-empty">
-                            {{ site.data.strings.comments_none }}
-                        </p>
                     {% else %}
                         <noscript>
                             <p class="blog-comment-empty">
@@ -88,6 +85,7 @@ layout: default
                         </script>
                     {% endif %}
                 </div>
+                {% endif %}
 
             </content>
 
