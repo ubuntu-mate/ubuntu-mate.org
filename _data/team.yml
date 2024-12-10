@@ -23,65 +23,65 @@
 # ==========================
 - title_name: founders_title
   desc_name: founders_desc
+  class: og
   members:
 
     - name: Martin Wimpress
       avatar: "https://avatars0.githubusercontent.com/u/304639?s=150&v=4"
       url: "https://wimpysworld.com/"
-      roles:
-        - ubuntu
-        - mate_desktop
-        - code
-        - packager
 
     - name: Alan Pope
       avatar: "https://avatars0.githubusercontent.com/u/1841272?s=150&v=4"
       url: "http://popey.com/blog/"
-      roles:
-        - canonical
-        - ubuntu
 
-# ==========================
-# Ubuntu MATE Team
-# ==========================
-# Requires: name, avatar, url, roles
-- title_name: team1_title
-  desc_name: team1_desc
+# ===============================
+# Contributors & Special Thanks
+# ===============================
+# Requires: name, roles
+# Optional: desc
+- title_name: thanks_title
+  desc_name: thanks_desc
+  class: grid
   members:
 
+    - name: Adam Smith
+      desc: Initiated PowerPC support
+      roles:
+        - ubuntu_mate
+
+    - name: Rohith Madhavan
+      desc: Initiated Raspberry Pi 2 support
+      roles:
+        - ubuntu_mate
+
     - name: Maik Adamietz
-      avatar: "https://avatars.githubusercontent.com/u/66331276?s=150&v=4"
-      url: "https://github.com/Maik-aD"
+      desc: QA
       roles:
         - ubuntu_mate
         - qa
 
     - name: Larry Bushey
-      avatar: "https://avatars2.githubusercontent.com/u/1313055?s=150&v=4"
-      url: "https://goinglinux.com/"
+      desc: Ubuntu MATE Guide
       roles:
         - ubuntu_mate
         - documentation
 
     - name: Etienne Papegnies
-      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/ouroumov/150/10260_2.png"
-      url: "https://ubuntu-mate.community/u/ouroumov"
+      desc: Moderator & QA
       roles:
         - ubuntu_mate
         - community
         - qa
 
     - name: Victor Kareh
-      avatar: "https://avatars1.githubusercontent.com/u/259780?s=150&v=4"
-      url: "https://github.com/vkareh"
+      desc: MATE Desktop & QA
       roles:
         - ubuntu_mate
         - mate_desktop
         - qa
 
     - name: Monica Madon
-      avatar: "https://avatars1.githubusercontent.com/u/47995143?s=150&v=4"
-      url: "https://github.com/madhens"
+      desc: Community Support
       roles:
         - ubuntu_mate
         - canonical
@@ -90,106 +90,68 @@
         - community
 
     - name: Nikolay Strelkov
-      avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/n/e47774/150.png"
-      url: "https://ubuntu-mate.community/u/Norbert_X/summary"
+      desc: Team Supporter & QA
       roles:
         - ubuntu_mate
         - qa
 
     - name: Sai Vinoba
-      avatar: "https://avatars3.githubusercontent.com/u/5097130?s=460&v=4"
-      url: "https://github.com/saivinoba"
+      desc: QA
       roles:
         - ubuntu_mate
         - qa
 
     - name: Primož Ajdišek
-      avatar: "https://avatars0.githubusercontent.com/u/6921913?s=460&v=4"
-      url: "https://github.com/bigpod98"
+      desc: QA
       roles:
         - ubuntu_mate
         - packager
 
     - name: Jon Uhler
-      avatar: "https://ubuntu-mate.community/letter_avatar_proxy/v4/letter/j/ecccb3/120.png"
-      url: "https://ubuntu-mate.community/u/jonu/"
       roles:
         - ubuntu_mate
         - documentation
         - qa
 
-# ==========================
-# Wider Community
-# ==========================
-# Requires: name, avatar, url, roles
-- title_name: team2_title
-  desc_name: team2_desc
-  members:
-
     - name: Pablo Barciela
-      avatar: "https://avatars2.githubusercontent.com/u/7734191?s=150v=4"
-      url: "https://github.com/sc0w"
       roles:
         - mate_desktop
         - artwork
 
     - name: Mike Gabriel
-      avatar: "https://avatars2.githubusercontent.com/u/407231?s=150&v=4"
-      url: "https://github.com/sunweaver"
       roles:
         - mate_desktop
         - debian
         - packager
 
     - name: Luke Kuhn
-      avatar: "https://avatars3.githubusercontent.com/u/14036792?s=150&v=4"
-      url: "https://github.com/lukefromdc"
       roles:
         - mate_desktop
         - artwork
         - bug_hunter
 
     - name: Vangelis Mouhtsis
-      avatar: "https://avatars0.githubusercontent.com/u/44510190?s=150&v=4"
-      url: "https://github.com/gnugr"
       roles:
         - mate_desktop
         - packager
 
     - name: Vlad Orlov
-      avatar: "https://avatars2.githubusercontent.com/u/5138986?s=150&v=4"
-      url: "https://github.com/monsta"
       roles:
         - mate_desktop
         - bug_fixer
 
     - name: Alexei Sorokin
-      avatar: "https://avatars0.githubusercontent.com/u/386788?s=150&v=4"
-      url: "https://github.com/XRevan86"
       roles:
         - mate_desktop
         - bug_hunter
 
     - name: Wolfgang Ulbrich
-      avatar: "https://avatars1.githubusercontent.com/u/961604?s=150&v=4"
-      url: "https://github.com/raveit65"
       roles:
         - mate_desktop
         - artwork
 
-# ==========================
-# Notable Contributors
-# ==========================
-# Requires: name, avatar, url, roles
-# Optional: desc (non-translatable!)
-- title_name: contrib_title
-  desc_name: contrib_desc
-  members:
-
     - name: Luke Horwell
-      avatar: "https://avatars0.githubusercontent.com/u/13032135?s=150&v=4"
-      url: "https://github.com/lah7"
-      desc: Longest Serving Member
+      desc: In-house apps, website, translations & community administration
       roles:
         - ubuntu_mate
         - code
@@ -198,17 +160,14 @@
         - artwork
 
     - name: Michael Dooley
-      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/mdooley/150/14388_2.png"
-      url: "https://ubuntu-mate.community/u/mdooley"
       desc: In memoriam
-      roles: 
+      roles:
         - ubuntu_mate
         - community
         - qa
 
     - name: Bill (franksmcb)
-      avatar: "https://avatars3.githubusercontent.com/u/44311495?s=150&v=4"
-      url: "https://github.com/franksmcb"
+      desc: Moderator & QA
       roles:
         - ubuntu_mate
         - bug_hunter
@@ -218,135 +177,111 @@
 
     - name: Robin Thompson
       desc: MATE Dock Applet
-      avatar: "https://ubuntu-mate.community/user_avatar/ubuntu-mate.community/robint99/150/2446_2.png"
-      url: "https://ubuntu-mate.community/u/robint99/summary"
       roles:
         - code
 
     - name: Goce Mitevski
       desc: Default Wallpaper (14.10-17.04)
-      avatar: "https://avatars3.githubusercontent.com/u/359855?s=150&v=4"
-      url: "https://github.com/gocemitevski/ubuntu-mate-wallpapers"
       roles:
         - artwork
 
     - name: Sam Hewitt
       desc: Ubuntu MATE Logo
-      avatar: "https://avatars3.githubusercontent.com/u/1217306?s=150&v=4"
-      url: "https://github.com/snwh"
       roles:
         - artwork
 
     - name: Konstantin Pugin
       desc: Global Menu
-      avatar: "https://avatars1.githubusercontent.com/u/1329638?s=150&v=4"
-      url: "https://github.com/rilian-la-te"
       roles:
         - code
 
     - name: Ikey Doherty
       desc: Brisk Menu
-      avatar: "https://avatars0.githubusercontent.com/u/164489?s=150&v=4"
-      url: "https://github.com/ikeydoherty"
       roles:
         - code
 
     - name: Ivan Pejić
       desc: GRUB/Plymouth Themes
-      avatar: "https://avatars3.githubusercontent.com/u/1753467?s=150&v=4"
-      url: "https://github.com/nadrimajstor/"
       roles:
         - artwork
 
     - name: Alexandru Polihron
-      avatar: "https://avatars2.githubusercontent.com/u/14872517?s=150&v=4"
-      url: "https://github.com/apolitech"
       roles:
-        - ubuntu_mate
         - qa
 
-
-# ==========================
-# Contributors & Special Thanks
-# ==========================
-# Requires: name, roles
-- title_name: contrib2_title
-  desc_name: contrib2_desc
-  members:
-
     - name: Roberto Perico
-      # Ubuntu MATE Wallpapers
+      desc: Wallpapers
       roles:
         - artwork
 
     - name: Alexander Browne
-      # Former QA engineer for Ubuntu MATE
+      desc: QA
       roles:
         - qa
 
     - name: Aron Xu
-      # Debian developer and former MATE package maintainer for Debian
+      desc: Debian developer and former MATE package maintainer for Debian
       roles:
         - debian
         - packager
 
     - name: Daniel Foré
-      # Improver of the Ubuntu MATE icon theme
+      desc: Improver of the Ubuntu MATE icon theme
       roles:
         - artwork
 
     - name: Jack Mohegan
-      # Assorted user interface improvements
+      desc: User interface improvements
       roles:
         - code
 
     - name: Johnny Dennis
-      # Lead developer of tomxplayer for the Raspberry Pi
+      desc: Lead developer of tomxplayer for the Raspberry Pi
       roles:
         - raspberry_pi
 
     - name: Jonathan Nadeau
-      # Assistive technology advisor and accessibility testing
+      desc: Assistive technology advisor and accessibility testing
       roles:
         - accessibility
         - bug_hunter
 
     - name: Matt Hartley
-      # User experience advisor
+      desc: User experience advisor
       roles:
         - bug_hunter
 
     - name: Michael Tunnell
-      # Toucher-upper of GTK art assets
+      desc: Toucher-upper of GTK art assets
       roles:
         - artwork
 
     - name: Pedro Meteus
-      # IGP and GPU enhancements for improved video and gaming
+      desc: IGP and GPU enhancements for improved video and gaming
       roles:
         - code
 
     - name: Sefan Ric
-      # Solus developer and former MATE Desktop contributor
+      desc: Solus developer and former MATE Desktop contributor
       roles:
         - mate_desktop
 
     - name: Simon Quigley
-      # MOTU and former sponsor and oversight of MATE Desktop packages
+      desc: MOTU and former sponsor and oversight of MATE Desktop packages
       roles:
         - packager
 
     - name: Tim Apple
-      # Former QA engineer for Ubuntu MATE
+      desc: QA
       roles:
         - qa
 
     - name: Matthew Keeler
-      # Former QA engineer for Ubuntu MATE
+      desc: QA
       roles:
         - qa
 
     - name: Jeff Labonte
-      # Improver of Software Boutique
+      desc: Improver of Software Boutique
       roles:
         - code

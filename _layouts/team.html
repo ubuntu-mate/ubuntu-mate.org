@@ -19,7 +19,7 @@ layout: default
                     <p>{{ site.data.strings[category.desc_name] }}</p>
                   {% endif %}
 
-                  <div class="team-members">
+                  <div class="team-members {{ category.class }}">
 
                     {% assign members_az = category.members | sort: "name" %}
 
@@ -106,18 +106,6 @@ layout: default
                   </div>
 
                 {% endfor %}
-
-                <h1>{{ site.data.strings.thanks_title }}</h1>
-                <p>{{ site.data.strings.thanks_subtitle }}</p>
-
-                <ul>
-                    {% for credit in page.thanks %}
-                        <li>
-                            <strong>{{ credit | split: ':' | first }}:</strong>
-                            {{ credit | split: ':' | last }}
-                        </li>
-                    {% endfor %}
-                </ul>
 
                 {{ content }}
 

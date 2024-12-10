@@ -2369,6 +2369,12 @@ button.dropdown:hover {
     justify-content: center;
 }
 
+.team-members.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+}
+
 .team-members .member {
     display: flex;
     flex-direction: column;
@@ -2376,15 +2382,28 @@ button.dropdown:hover {
     margin-bottom: 20px;
 }
 
+.member.compact {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    margin: 2px;
+}
+
 .member-name {
     text-align: center;
-    margin: 10px 0 0;
+    margin-top: auto;
+}
+
+.team-members.og .member-name {
+    margin-top: 8px;
 }
 
 .member-desc {
     font-size: 0.8em;
     text-align: center;
     opacity: 0.5;
+    margin: 2px 0 8px;
+    line-height: 16px;
 }
 
 .member-avatar,
@@ -2398,7 +2417,7 @@ button.dropdown:hover {
 
 .member-roles {
     text-align: center;
-    margin: 5px auto;
+    margin-bottom: auto;
 }
 
 .member-roles img {
@@ -2408,35 +2427,12 @@ button.dropdown:hover {
     margin: 0 2px;
 }
 
-.member.compact {
-    padding: 15px;
-    margin: 2px;
-}
-
 .member.compact:nth-child(odd) {
     background-color: var(--grid-bg);
 }
 
 .member.compact:nth-child(even) {
     background-color: var(--grid-bg-alt);
-}
-
-@media (max-width: 767px) {
-    .member-avatar,
-    .member > a {
-        height: 75px;
-        width: 75px;
-    }
-
-    .team-members .member {
-        width: 33%;
-    }
-}
-
-@media (max-width: 575px) {
-    .team-members .member {
-        width: 50%;
-    }
 }
 
 /*********************************
