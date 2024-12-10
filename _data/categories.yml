@@ -28,14 +28,6 @@ features:
       icon: /images/brands/mate.svg
       url: /features/MATE/
 
-    - string_name: ubuntu_mate_welcome
-      icon: /images/brands/ubuntu-mate.svg
-      url: /features/welcome/
-
-    - string_name: software_boutique
-      icon: /images/ubuntu-mate/boutique.svg
-      url: /features/boutique/
-
     - string_name: custom_panel
       icon: /images/categories/features/mate-panel.svg
       url: /features/panel/

@@ -32,13 +32,6 @@ in-house applications, we use Transifex.
 
 {% include partials/app-directory.html list="ubuntu_mate" show="translations" %}
 
-The **Welcome** application suffers from a 'split strings' issue that may
-pose difficulties when translating in other languages. We apologise for the
-inconvenience and intend to refactor the application in a future release to
-address this issue.
-
-Note that **Software Boutique** is currently part of the **Welcome** application.
-
 [Translate on Transifex](https://www.transifex.com/ubuntu-mate/public/){:.btn .green}
 [Transifex Guide](#transifex){:.btn}
 

@@ -23,18 +23,6 @@ Ubuntu MATE and MATE Desktop are created by very small teams. We’ll improve ou
 documentation so that new contributors can find tasks they can work on and
 material to help them get started.
 
-## Reboot Ubuntu MATE Welcome and Software Boutique
-
-We will decouple Ubuntu MATE Welcome and the Software Boutique so they can be
-iterated on independently. The code for both will be refactored and simplified
-so that other projects wanting to build on either can easily do so.
-
-Both applications will be delivered as snaps to break the development cycle
-relationship with the distribution, giving us the freedom to develop both
-without the usual constraints of distribution release management. This will
-also benefit Ubuntu MATE, which will automatically get new features, application
- listings, and other improvements.
-
 ## Developer tooling and collaboration
 
 Ubuntu MATE and MATE Desktop will expand their use of continuous integration
@@ -175,45 +163,3 @@ will integrate either [IBus](https://code.google.com/p/ibus/) or
 coming.
 
  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10*
-
-## Application install
-
-Users new to Linux are often overwhelmed by the vast choice of software
-on offer. The Ubuntu MATE team will create a curated selection of
-applications suitable for use with Ubuntu MATE that can be installed
-via one click.
-
-The Ubuntu MATE community will select one application that is more
-suitable for a given task or activity so that new users can quickly
-turn their Ubuntu MATE workstation into a productive tool.
-
-  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10 via **Ubuntu MATE Welcome***
-
-## Media casting and streaming
-
-Seamless integration with home media server content and media casting
-devices is essential in order for Ubuntu MATE to remain relevant
-for many home users. We will try to deliver on that.
-
-Similarly being able to access popular subscription-based streaming
-services such as Netflix, Amazon Instant Video and Spotify is also an
-expectation for many users. While the Ubuntu MATE team can do little
-to deliver the technologies to make this happen, we can provide simple
-installation options to enable access to these services, and where
-possible, ship the required software by default.
-
-  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10 by using Software Boutique to install Google Chrome, Spotify or Pithos*
-
-## Mobile device integration
-
-Currently Ubuntu MATE has the essential mobile device support you'd
-expect. You can plug in a phone or a media player and the device is
-automatically detected and mounted, you can then access the files on it.
-
-  :heavy_check_mark: *Implemented since Ubuntu MATE 15.10*
-
-Mobile device notifications can be wirelessly mirrored to your Ubuntu
-MATE desktop and for you to be able to send files or links wirelessly
-between your mobile devices and Ubuntu MATE.
-
-  :heavy_check_mark: *Implemented since Ubuntu MATE 16.04 by using the Software Boutique to install KDE Connect Indicator*

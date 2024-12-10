@@ -169,8 +169,6 @@ gnu_linux: "GNU/Linux"
 live_only: "Only available during live session"
 
 # Apps that may have translatable names
-ubuntu_mate_welcome: "Welcome"
-software_boutique: "Software Boutique"
 panel_defaults: "Familiar Layouts"
 theming: "Wallpapers & Themes"
 gnome_disks: "GNOME Disks"

@@ -1,14 +1,6 @@
 - name: Ubuntu MATE
   icon: /images/ubuntu-mate/logo.svg
   provides:
-    - string_name: ubuntu_mate_welcome
-      url: /features/welcome/
-      icon: /images/ubuntu-mate/logo.svg
-
-    - string_name: software_boutique
-      url: /features/boutique/
-      icon: /images/ubuntu-mate/boutique.svg
-
     - string_name: panel_defaults
       icon: /images/categories/features/mate-panel.svg
       url: /features/panel/
@@ -95,7 +87,7 @@
     - name: Redshift
       icon: /images/apps/redshift.svg
       not_in_min_install: true
-      
+
     - name: Firefox
       icon: /images/apps/firefox.svg
 
