@@ -5,10 +5,10 @@ lang: en
 class: features
 category: features
 swap_position: false
-main_image_filename: panel
-left_image_filename: layout-1
-middle_image_filename: layout-2
-right_image_filename: layout-3
+main_image_filename: /images/features/layout-customise.webp
+left_image_filename: /images/features/layout-cupertino.webp
+middle_image_filename: /images/features/layout-redmond.webp
+right_image_filename: /images/features/layout-mutiny.webp
 
 title: Panel Customisation | Features
 
@@ -17,8 +17,7 @@ main_title: Customisable at its best
 main_subtitle: Set up the panels to resemble your familiar workflow.
 main_text: >-
 
-    Use MATE Tweak or the Welcome application to set a template, and add/remove
-    widgets and panels to suit your preferred workflow.
+    Use MATE Tweak to set a template, and add/remove widgets and panels to suit your preferred workflow.
 
 left_image_alt:
 left_title: Cupertino

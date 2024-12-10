@@ -5,10 +5,10 @@ lang: en
 class: features
 category: features
 swap_position: true
-main_image_filename: mate
-left_image_filename: mate-1
-middle_image_filename: mate-2
-right_image_filename: mate-3
+main_image_filename: /images/features/mate-desktop.webp
+left_image_filename: /images/features/mate-apps.webp
+middle_image_filename: /images/features/mate-caja.webp
+right_image_filename: /images/features/mate-indicators.webp
 
 title: MATE Desktop | Features
 
