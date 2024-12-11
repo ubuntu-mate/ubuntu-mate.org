@@ -55,7 +55,7 @@
         - ubuntu_mate
 
     - name: Maik Adamietz
-      desc: QA
+      desc: QA 2021
       roles:
         - ubuntu_mate
         - qa
@@ -67,21 +67,21 @@
         - documentation
 
     - name: Etienne Papegnies
-      desc: Moderator & QA
+      desc: Moderator & QA 2019
       roles:
         - ubuntu_mate
         - community
         - qa
 
     - name: Victor Kareh
-      desc: MATE Desktop & QA
+      desc: MATE Desktop & QA 2019
       roles:
         - ubuntu_mate
         - mate_desktop
         - qa
 
     - name: Monica Madon
-      desc: Community Support
+      desc: Community Support & QA 2020
       roles:
         - ubuntu_mate
         - canonical
@@ -90,62 +90,70 @@
         - community
 
     - name: Nikolay Strelkov
-      desc: Team Supporter & QA
+      desc: Team Supporter & QA 2020
       roles:
         - ubuntu_mate
         - qa
 
     - name: Sai Vinoba
-      desc: QA
+      desc: QA 2021
       roles:
         - ubuntu_mate
         - qa
 
     - name: Primož Ajdišek
-      desc: QA
+      desc: QA 2021
       roles:
         - ubuntu_mate
         - packager
 
     - name: Jon Uhler
+      desc: QA 2021
       roles:
         - ubuntu_mate
         - documentation
         - qa
 
     - name: Pablo Barciela
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - artwork
 
     - name: Mike Gabriel
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - debian
         - packager
 
     - name: Luke Kuhn
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - artwork
         - bug_hunter
 
     - name: Vangelis Mouhtsis
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - packager
 
     - name: Vlad Orlov
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - bug_fixer
 
     - name: Alexei Sorokin
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - bug_hunter
 
     - name: Wolfgang Ulbrich
+      desc: MATE Desktop
       roles:
         - mate_desktop
         - artwork
@@ -160,14 +168,14 @@
         - artwork
 
     - name: Michael Dooley
-      desc: In memoriam
+      desc: In Memoriam
       roles:
         - ubuntu_mate
         - community
         - qa
 
     - name: Bill (franksmcb)
-      desc: Moderator & QA
+      desc: Moderator & QA 2020
       roles:
         - ubuntu_mate
         - bug_hunter
@@ -206,6 +214,7 @@
         - artwork
 
     - name: Alexandru Polihron
+      desc: QA 2019
       roles:
         - qa
 
@@ -215,7 +224,7 @@
         - artwork
 
     - name: Alexander Browne
-      desc: QA
+      desc: QA 2017
       roles:
         - qa
 
@@ -272,12 +281,12 @@
         - packager
 
     - name: Tim Apple
-      desc: QA
+      desc: QA 2019
       roles:
         - qa
 
     - name: Matthew Keeler
-      desc: QA
+      desc: QA 2019
       roles:
         - qa
 
@@ -285,3 +294,23 @@
       desc: Improver of Software Boutique
       roles:
         - code
+
+    - name: Chris Guiver
+      desc: Moderator
+      roles:
+        - ubuntu_mate
+        - community
+        - ubuntu
+        - bug_hunter
+
+    - name: Bill_MI
+      desc: Moderator
+      roles:
+        - ubuntu_mate
+        - community
+
+    - name: Ricardo Dias Marques
+      desc: Moderator
+      roles:
+        - ubuntu_mate
+        - community
