@@ -299,7 +299,6 @@ inside this `include` on the page:
 
 * `embed/download-tip-paypal.html` - used on post download page.
 * `embed/paypal.html` - used on funding pages.
-* `embed/twitter.html` (with parameter `handler`) - used on blog page.
 
 These are re-used across page layouts and shouldn't be used in Markdown files:
 
