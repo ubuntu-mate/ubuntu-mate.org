@@ -284,14 +284,6 @@ Usually to present call to actions, commonly used on the blog.
     button_url = "/download/"
 
 %}
-
-```
-
-#### Known Issues
-Shows a table of currently known issues with the distro. This data is stored
-at `_data/known-issues.yml`. A `filter` can be optionally specified.
-```
-{% include partials/known-issues.html filter="20.10" %}
 ```
 
 #### YouTube Embed
@@ -363,4 +355,3 @@ destination: /old-release/
 
 Redirects for old URLs are essential to maintain strong links for websites linking to
 legacy pages once used on this website.
-

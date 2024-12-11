@@ -111,7 +111,7 @@ download_guide_shop_button: "Shop Books"
 download_stuck_title: "Get stuck?"
 download_stuck_text: "Check out these resources:"
 download_stuck_help_imgusb: "How to image a flash drive (Windows, Mac, Linux)"
-download_stuck_help_support: "See known issues or ask the community"
+download_stuck_help_support: "Ask the community for support"
 download_stuck_help_faq: "Frequently asked questions"
 
 
@@ -317,18 +317,6 @@ paypal_specify: "Specify your own amount"
 paypal_currency: "Currency"
 paypal_submit: "Submit"
 paypal_invalid_amount: "Please enter a valid amount - thanks!"
-
-
-#######################################
-# Known Issues Table
-#######################################
-affected_release: "Affects"
-affected_component: "Component"
-problem: "Problem"
-workaround: "Workarounds"
-upstream_links: "Upstream Links"
-link: "Link"
-na: "n/a"
 
 
 #######################################

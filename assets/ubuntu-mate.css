@@ -3055,28 +3055,3 @@ button.dropdown:hover {
         min-height: 0;
     }
 }
-
-/*********************************
-* Known Issues Table
-*********************************/
-.known-issues {
-    table-layout: fixed;
-}
-
-.known-issues thead tr {
-    text-align: center;
-}
-
-.known-issues .column-problem {
-    min-width: 20vw;
-}
-
-.known-issues .component-icon {
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
-}
-
-.known-issues .issue-no-link {
-    opacity: 0.5;
-}
