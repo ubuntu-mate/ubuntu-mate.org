@@ -2317,18 +2317,16 @@ button.dropdown:hover {
     color: var(--ubuntu-mate-dark);
 }
 
-.catalogue-item .product-image,
-.catalogue-item .product-image img {
+.catalogue-item .product-image {
+    display: flex;
     max-height: 300px;
     max-width: 300px;
 }
 
-.catalogue-item .product-image {
-    display: flex;
-}
-
 .catalogue-item .product-image img {
     margin: auto;
+    max-height: 280px;
+    max-width: 280px;
 }
 
 .catalogue-item .product-description {
