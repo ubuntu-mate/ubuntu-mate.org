@@ -13,7 +13,7 @@ catalogue: #noi18n
       items:
 
         - name: Mugs, Mousemats and more T-Shirts (European)
-          price: £9.99 - £15.99
+          price: £11.99 - £24.49
           img: /images/shop/mug.png
           url: https://shop.spreadshirt.co.uk/ubuntu-mate/
           description: >-
@@ -24,7 +24,7 @@ catalogue: #noi18n
 
 
         - name: Mugs, Mousemats and more T-Shirts (Americas)
-          price: $11.99 - $25.99
+          price: $16.49 - $30.99
           img: /images/shop/mug.png
           url: https://shop.spreadshirt.com/ubuntu-mate/
           description: >-
@@ -32,9 +32,10 @@ catalogue: #noi18n
             If you are located in Africa, Asia, Middle East or Ocenia you may
             want to check both stores to see which offer the most favourable
             shipping costs to your location.
-            
+
+
         - name: Polo Shirts, T-Shirts, Hoodies and Jackets
-          price: €29 - €45
+          price: €29 - €48
           img: /images/shop/shirts.png
           url: https://www.hellotux.com/ubuntu-mate
           description: >-

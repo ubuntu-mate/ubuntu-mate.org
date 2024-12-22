@@ -13,7 +13,7 @@ catalogue: #noi18n
       items:
 
         - name: "Using Ubuntu MATE and Its Applications: Ubuntu MATE 22.04 LTS Edition"
-          price: $$19.99 - $29.99 USD
+          price: $19.99 - $29.99 USD
           img: /images/shop/books/Using-UM-2204.png
           url: https://www.amazon.com/dp/B09Y4RFJYY
           description: >-
@@ -22,7 +22,7 @@ catalogue: #noi18n
             and features included in Ubuntu MATE's 22.04 LTS (Long Term Support) release. 
             The 22.04 release is the culmination of two years of continual improvement to 
             Ubuntu MATE, Ubuntu, and the MATE Desktop.
-            
+
         - name: "Ubuntu MATE: Upgrading from Windows or macOS - Second Edition"
           price: $10.00 - $18.50 USD
           img: /images/shop/books/Upgrading-to-UM.png
@@ -36,7 +36,7 @@ catalogue: #noi18n
             suggestions for personalizing Ubuntu MATE will help you feel right at home.
 
         - name: "Using Ubuntu MATE and Its Applications: Ubuntu MATE 20.04 LTS Edition"
-          price: $15.99 - 25.99 USD
+          price: $15.99 - $25.99 USD
           img: /images/shop/books/Using-UM.png
           url: http://www.amazon.com/dp/ASIN/B084DFZMFC
           description: >-

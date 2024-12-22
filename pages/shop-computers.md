@@ -12,67 +12,57 @@ catalogue: #noi18n
     - group: Laptops
       items:
 
-        - name: 14" Apollo
-          price: Starting at £739.99
-          img: /images/shop/entroware/apollo_front_mate.png
-          url: https://www.entroware.com/store/apollo?tracking=ubmate
+        - name: 14" Orion
+          price: Starting at £659.99
+          img: /images/shop/entroware/orion.webp
+          url: https://www.entroware.com/store/orion?tracking=ubmate
           description: >-
 
-            Configurable with 10th Generation Intel® Core™ Processors, up to
-            64GB DDR4 2666 MHz, up to 6TB storage, 14” Matte FHD LED (1920x1080),
-            Intel® UHD Graphics.
+            Configurable with 12th Generation Intel® Processors with Intel® Iris Graphics.
+            Up to 64GB DDR4, up to 6TB PCIe NVMe SSD storage, 14” Matte FHD LED (1920x1080).
 
-        - name: 17" Hybris
-          price: Starting at £799.99
-          img: /images/shop/entroware/hybris_front_mate.png
-          url: https://www.entroware.com/store/hybris?tracking=ubmate
+        - name: 15" Kratos
+          price: Starting at £1,049.00
+          img: /images/shop/entroware/kratos.webp
+          url: https://www.entroware.com/store/kratos?tracking=ubmate
           description: >-
 
-            Configurable with 9th Generation Intel® Core™ Processors, up to
-            64GB DDR4 2666 MHz, up to 6TB storage, 17.3” Matte FHD LED (1920x1080),
-            Intel® UHD Graphics, optional NVIDIA® Graphics.
-
-
-        - name: 15" Proteus
-          price: Starting at £769.99
-          img: /images/shop/entroware/proteus_front_mate.png
-          url: https://www.entroware.com/store/proteus?tracking=ubmate
-          description: >-
-
-            Configurable with 10th Generation Intel® Core™ Processors, up to
-            64GB DDR4 2666 MHz, up to 2TB storage, 15.6” Matte FHD LED (1920x1080),
-            Intel® UHD Graphics.
+            13th Generation Intel® i7-13620H Processor. Configuriable with
+            64GB DDR4, up to 4TB PCIe NVMe SSD storage, 15.6" Matte FHD LED (1920x1080).
+            Comes with Intel Xe Graphics or NVIDIA GeForce RTX 3050 4GB.
 
 
     - group: Desktops
       items:
-        - name: 24" Ares
-          price: Starting at £689.99
-          img: /images/shop/entroware/ares.png
-          url: https://www.entroware.com/store/ares?tracking=ubmate
-          description: >-
-
-            Configurable with 9th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2666 MHz, up to 6TB storage, 24” Matte FHD LED (1920x1080),
-            Intel® HD Graphics.
-
-        - name: Aura
-          price: Starting at £499.99
-          img: /images/shop/entroware/aura.png
-          url: https://www.entroware.com/store/aura?tracking=ubmate
-          description: >-
-
-            Configurable with 9th Generation Intel® Core™ Processors, up to
-            32GB DDR4 2666 MHz, up to 6TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, Intel® Iris® Plus Graphics 655.
-
         - name: Hades
-          price: Starting at £1899.99
-          img: /images/shop/entroware/hades.png
+          price: Starting at £1,199.00
+          img: /images/shop/entroware/hades.webp
           url: https://www.entroware.com/store/hades?tracking=ubmate
           description: >-
 
-            Configurable with 2nd Generation AMD® Ryzen™ Threadripper™ Processors, up to
-            128GB DDR4 2933 MHz pr 128GB DDR4 2400 Mhz ECC, up to 68TB storage, optional 24" or 27" Matte FHD LED (1920x1080) displays, NVIDIA® GT1030 and NVIDIA® RTX 2060/2070/2080/2080Ti Graphics.
+            Configurable with 14th Generation Intel® Processors, up to
+            192GB DDR5, up to 4TB storage, with additional storage options.
+            Configurable with Intel UHD Graphics or NVIDIA RTX 40 Series.
+
+        - name: Nyx
+          price: Starting at £799.00
+          img: /images/shop/entroware/nyx.webp
+          url: https://www.entroware.com/store/nyx?tracking=ubmate
+          description: >-
+
+            Configurable with 14th Generation Intel® Processors, up to
+            32GB DDR4, up to 4TB storage, with additional storage options.
+            Intel UHD Graphics.
+
+        - name: Poseidon
+          price: Starting at £1,199.00
+          img: /images/shop/entroware/poseidon.webp
+          url: https://www.entroware.com/store/poseidon?tracking=ubmate
+          description: >-
+
+            Configurable with AMD® Ryzen™ Processors, up to
+            192GB DDR5, up to 4TB storage, with additional storage options.
+            Configurable with AMD Radeon Graphics or NVIDIA RTX 40 Series.
 
 ---
 
