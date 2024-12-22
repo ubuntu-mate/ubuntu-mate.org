@@ -36,7 +36,7 @@ catalogue: #noi18n
 
         - name: Polo Shirts, T-Shirts, Hoodies and Jackets
           price: €29 - €48
-          img: /images/shop/shirts.png
+          img: /images/shop/shirts.webp
           url: https://www.hellotux.com/ubuntu-mate
           description: >-
 
