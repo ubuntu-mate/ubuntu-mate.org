@@ -4,7 +4,9 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: Publish
+    # Due to localisation, perform a full deployment
+    # (other websites can use CloudFlare Pages app directly)
+    name: Full Build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -44,7 +46,7 @@ jobs:
       run: |
         scripts/test.sh
 
-    - name: Publish to Cloudflare Pages
+    - name: Push to Cloudflare Pages
       if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate.org' && github.ref == 'refs/heads/master' }}
       uses: cloudflare/pages-action@v1
       with:
