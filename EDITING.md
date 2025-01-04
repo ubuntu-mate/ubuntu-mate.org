@@ -123,12 +123,6 @@ category: `dev` or `release` or `news`
         ...
 ```
 
-#### `error-serious`
-```
-error: 500
-error_name: Internal Server Error
-```
-
 #### `feature-page`
 **Inherits:** [page-category](#page-category)
 

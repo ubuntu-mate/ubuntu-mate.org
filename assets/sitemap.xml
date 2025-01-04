@@ -11,7 +11,6 @@ permalink: /sitemap.xml
 
     {% if page.layout == "redirect" %}{% continue %}{% endif %}
     {% if page.layout == "null" %}{% continue %}{% endif %}
-    {% if page.layout == "error-serious" %}{% continue %}{% endif %}
     {% if page.name == "rss.xml" %}{% continue %}{% endif %}
     {% if page.autogen == true %}{% continue %}{% endif %}
 
