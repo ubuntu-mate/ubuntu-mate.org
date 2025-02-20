@@ -89,10 +89,10 @@ downloads:
           magnet-uri: "magnet:?xt=urn:btih:8fcb95f456700f9938c049ccb2ce60c423e2b6fa&dn=ubuntu-mate-22.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: noble
-          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04.1-desktop-amd64.iso"
-          sha256sum: "e2f336fe046fa399331bf09c7b5c86b9a75a9c30491bd8cd3dff9745b195d06e"
+          url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04.2-desktop-amd64.iso"
+          sha256sum: "ec1399cf90678c29ee1f80055826b21a3d90f59d50d154e5ea70b1931ce909c9"
           size: "4.1 GB"
-          magnet-uri: "magnet:?xt=urn:btih:57825785a2e08ffccff89fc95505a2a745374ee5&dn=ubuntu-mate-24.04.1-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+          magnet-uri: "magnet:?xt=urn:btih:d6663939e41a8ba70ea153a34a17f896e084fd58&dn=ubuntu-mate-24.04.2-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
         - release: oracular
           url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.10/release/ubuntu-mate-24.10-desktop-amd64.iso"
