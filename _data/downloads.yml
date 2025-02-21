@@ -51,7 +51,7 @@ releases:
             year: 2024
 
     noble:
-        name: "24.04.1 LTS"
+        name: "24.04.2 LTS"
         codename: "Noble Numbat"
         mascot: "noble.svg"
         wallpaper: "focal.jpg"
