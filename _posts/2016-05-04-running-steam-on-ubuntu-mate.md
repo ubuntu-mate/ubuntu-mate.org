@@ -57,9 +57,9 @@ frames per second** for each benchmark. The colouring of the average
 frames per second denotes how much, if any, screen tearing was visible.
 
 **Legend:**
-<span class="btn red">Bad tearing</span>
-<span class="btn yellow">Noticeable tearing</span>
-<span class="btn green">No noticeable tearing</span>
+🟥 Bad tearing
+🟨 Noticeable tearing
+🟩 No noticeable tearing
 
 <table>
   <thead>
@@ -74,31 +74,31 @@ frames per second denotes how much, if any, screen tearing was visible.
   <tbody>
     <tr>
       <td><a href="https://unigine.com/products/benchmarks/heaven/">Unigine Heaven</a> – <b>Extreme</b></td>
-      <td><span class="btn red">25.5</span></td>
-      <td><span class="btn yellow">25.1</span></td>
-      <td><span class="btn green">25.0</span></td>
-      <td><span class="btn green">24.9</span></td>
+      <td>🟥 25.5</td>
+      <td>🟨 25.1</td>
+      <td>🟩 25.0</td>
+      <td>🟩 24.9</td>
     </tr>
     <tr>
       <td><a href="https://unigine.com/products/benchmarks/heaven/">Unigine Heaven</a> – <b>Basic</b></td>
-      <td><span class="btn green">88.1</span></td>
-      <td><span class="btn green">84.6</span></td>
-      <td><span class="btn green">84.4</span></td>
-      <td><span class="btn green">84.0</span></td>
+      <td>🟩 88.1</td>
+      <td>🟩 84.6</td>
+      <td>🟩 84.4</td>
+      <td>🟩 84.0</td>
     </tr>
     <tr>
       <td><a href="http://store.steampowered.com/app/257510/">The Talos Principle</a> – <b>OpenGL</b></td>
-      <td><span class="btn yellow">70.4</span></td>
-      <td><span class="btn yellow">68.5</span></td>
-      <td><span class="btn green">70.3</span></td>
-      <td><span class="btn green">69.8</span></td>
+      <td>🟨 70.4</td>
+      <td>🟨 68.5</td>
+      <td>🟩 70.3</td>
+      <td>🟩 69.8</td>
     </tr>
     <tr>
       <td><a href="http://store.steampowered.com/app/257510/">The Talos Principle</a> – <b>Vulkan</b></td>
-      <td><span class="btn green">97.1</span></td>
-      <td><span class="btn green">89.9</span></td>
-      <td><span class="btn green">96.9</span></td>
-      <td><span class="btn green">95.1</span></td>
+      <td>🟩 97.1</td>
+      <td>🟩 89.9</td>
+      <td>🟩 96.9</td>
+      <td>🟩 95.1</td>
     </tr>
   </tbody>
 </table>
