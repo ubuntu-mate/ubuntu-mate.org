@@ -118,7 +118,6 @@ download_stuck_help_faq: "Frequently asked questions"
 # Blog
 #######################################
 latest_blogs: "Latest"
-archived_blogs: "Archives"
 read_more: "Read more..."
 category_release: "Release Announcement"
 category_dev: "Development Update"

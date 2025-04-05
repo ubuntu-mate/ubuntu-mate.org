@@ -1,51 +1,19 @@
-<div id="blog-sidebar" class="col-lg-4 col-sm-12 blog-left-border">
+<div id="blog-sidebar" class="col-lg-3 col-sm-12">
+    <div class="blog-sidebar-inner">
+        <h2>
+            {{ site.data.strings.latest_blogs }}
 
-    <h2>
-        {{ site.data.strings.latest_blogs }}
-
-        <a class="latest-feed" href="{{ site.rss }}" title="{{ site.data.strings.rss }}">
-            {% include images/fa/rss-square.svg %}
-        </a>
-    </h2>
-    <ul>
-        {% for post in site.posts limit:5 %}
-            <li>
-                <a href="{{ post.permalink }}">{{ post.title }}</a>
-                <div class="date">{{ post.date | date:'%Y-%m-%d' }}</div>
-            </li>
-        {% endfor %}
-    </ul>
-
-    <hr>
-    <h2>{{ site.data.strings.archived_blogs }}</h2>
-
-    {% assign grouped_posts = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
-    {% for group in grouped_posts %}
-        <details class="blog-archive">
-            <summary>
-                {{ group.name
-                    | replace: 'January', site.data.strings.jan
-                    | replace: 'February', site.data.strings.feb
-                    | replace: 'March', site.data.strings.mar
-                    | replace: 'April', site.data.strings.apr
-                    | replace: 'May', site.data.strings.may
-                    | replace: 'June', site.data.strings.jun
-                    | replace: 'July', site.data.strings.jul
-                    | replace: 'August', site.data.strings.aug
-                    | replace: 'September', site.data.strings.sep
-                    | replace: 'October', site.data.strings.oct
-                    | replace: 'November', site.data.strings.nov
-                    | replace: 'December', site.data.strings.dec
-                }}
-            </summary>
-            <ul>
-                {% for post in group.items %}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </details>
-    {% endfor %}
+            <a class="latest-feed" href="{{ site.rss }}" title="{{ site.data.strings.rss }}">
+                {% include images/fa/rss-square.svg %}
+            </a>
+        </h2>
+        <ul>
+            {% for post in site.posts limit:5 %}
+                <li>
+                    <a href="{{ post.permalink }}">{{ post.title | replace: 'Ubuntu MATE ', '' }}</a> <span class="date">({{ post.date | date:'%Y-%m-%d' }})</span>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 
 </div>

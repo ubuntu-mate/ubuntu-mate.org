@@ -1652,6 +1652,18 @@ button.dropdown:hover {
 /*********************************
 * Blog Layout
 *********************************/
+#blog-sidebar {
+    position: relative;
+}
+
+#blog-sidebar ul {
+    padding-left: 16px;
+}
+
+#blog-sidebar ul li {
+    padding: 5px 0;
+}
+
 .blog-column {
     margin-bottom: 60px;
 }
@@ -1663,14 +1675,18 @@ button.dropdown:hover {
 }
 
 @media (min-width: 992px) {
-    .blog-left-border {
+    #blog-sidebar {
         border-left: 1px solid var(--grey-light);
     }
 
-    .blog-left-border .date {
-        display: block;
+    #blog-sidebar .date {
         color: var(--grey-dark);
     }
+}
+
+.blog-sidebar-inner {
+    position: sticky;
+    top: calc(var(--header-height) + 16px);
 }
 
 .latest-feed {
