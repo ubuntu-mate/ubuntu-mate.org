@@ -31,12 +31,3 @@ features:
     - string_name: custom_panel
       icon: /images/categories/features/mate-panel.svg
       url: /features/panel/
-
-shop:
-    - string_name: books
-      icon: /images/downloads/guides.png
-      url: /shop/books/
-
-    - string_name: apparel
-      icon: /images/shop/apparel.png
-      url: /shop/apparel/

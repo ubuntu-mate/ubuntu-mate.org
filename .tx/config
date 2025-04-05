@@ -253,18 +253,6 @@ source_file = _i18n/pots/search.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.shop-apparel]
-file_filter = _i18n/<lang>/shop-apparel.po
-source_file = _i18n/pots/shop-apparel.pot
-source_lang = en
-type = PO
-
-[ubuntu-mate-org.shop-books]
-file_filter = _i18n/<lang>/shop-books.po
-source_file = _i18n/pots/shop-books.pot
-source_lang = en
-type = PO
-
 [ubuntu-mate-org.shop]
 file_filter = _i18n/<lang>/shop.po
 source_file = _i18n/pots/shop.pot
