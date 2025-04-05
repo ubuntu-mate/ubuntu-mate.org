@@ -265,12 +265,6 @@ source_file = _i18n/pots/shop-books.pot
 source_lang = en
 type = PO
 
-[ubuntu-mate-org.shop-computers]
-file_filter = _i18n/<lang>/shop-computers.po
-source_file = _i18n/pots/shop-computers.pot
-source_lang = en
-type = PO
-
 [ubuntu-mate-org.shop]
 file_filter = _i18n/<lang>/shop.po
 source_file = _i18n/pots/shop.pot

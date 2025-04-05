@@ -70,4 +70,3 @@ Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons]
 
 {:.center}
 [![Bytemark](/images/sponsors/bytemark.png)](https://www.bytemark.co.uk/?r=ubuntu-mate)
-[![Entroware](/images/sponsors/entroware.png)](https://entroware.com/)

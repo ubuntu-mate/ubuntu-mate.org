@@ -112,33 +112,6 @@ layout: default
                 {% endfor %}
             </div>
 
-            <div class="row">
-                <div class="col">
-                    <h3 class="download-subtitle">{{ site.data.strings.download_products }}</h3>
-                </div>
-            </div>
-
-            <div class="row grid-container">
-                {% for product in page.products %}
-                    <div class="col-md-6">
-                        <a class="grid-item" href="{{ product.url }}">
-                            <div class="grid-icon">
-                                {% capture icon_type %}{{ product.icon | slice:-3,3 }}{% endcapture %}
-                                {% if icon_type == 'svg' %}
-                                    {% include {{ product.icon }} %}
-                                {% else %}
-                                    <img src="{{ product.icon }}" alt=""/>
-                                {% endif %}
-                            </div>
-                            <div class="grid-details">
-                                <h4>{{ product.name }}</h4>
-                                {{ product.desc | markdownify }}
-                            </div>
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-
         {% elsif page.step == 2 %}
 
             <div class="row grid-container">

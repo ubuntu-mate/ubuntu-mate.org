@@ -12,12 +12,6 @@ arch:
       desc: Bring the MATE experience to your desktop or laptop computer.
       id: amd64
 
-products:
-    - name: Entroware
-      icon: images/brands/entroware.svg
-      url: /shop/computers/
-      desc: Purchase a new Ubuntu MATE computer.
-
 ports:
     - name: Raspberry Pi
       icon: images/brands/rpi-outline.svg

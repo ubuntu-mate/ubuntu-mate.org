@@ -152,8 +152,6 @@
     }
 
     /* Hacks */
-    img[alt="Entroware"],
-    img[alt="Entroware logo"],
     img[src="/images/people/nophoto.svg"] {
         filter: invert(1);
     }
