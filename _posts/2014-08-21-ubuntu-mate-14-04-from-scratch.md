@@ -29,11 +29,9 @@ Visit the URL below and download either the i386 or amd64 `mini.iso`.
 
 Burn the .iso to CD or `dd` it to a USB stick.
 
-{% include blog/alert.html
-    style = "warning"
-    title = "UEFI and Wireless!"
-    text = "While the `mini.iso` is handy, there are some limitations."
-%}
+> **"UEFI and Wireless!"**
+>
+> While the `mini.iso` is handy, there are some limitations.
 
   * It can't boot or install UEFI computers that you want to run in UEFI mode because it lacks the required files for booting the computer in UEFI
 mode. Therefore, if you have a UEFI computer you need to enable *"Legacy BIOS Mode"*.
@@ -65,11 +63,9 @@ is time for a pot of tea while you bake a cake.
   then choose `<Continue>`.
   * Install the GRUB boot loader.
 
-{% include blog/alert.html
-    style = "warning"
-    title = "USB and GRUB"
-    text = "Using the netboot .iso from the USB may need special attention."
-%}
+> **USB and GRUB**
+>
+> Using the netboot .iso from the USB may need special attention.
 
 As Jon notes in the comments, when using `mini.iso` from a USB stick the installer often sees the
 USB as `/dev/sda` and the disk you are installing to as `/dev/sdb`. This is apparent during the

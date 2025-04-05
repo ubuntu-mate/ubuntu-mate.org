@@ -78,8 +78,6 @@
     --footer-fg: var(--text-colour-dark);
 
     /* Misc */
-    --alert-error: #da3450;
-    --alert-error-text: #FFF;
     --alert-warning: #FEFECD;
     --alert-warning-text: #000;
     --danger: #da3450;
@@ -1827,11 +1825,6 @@ button.dropdown:hover {
 .alert.warning {
     background-color: var(--alert-warning);
     color: var(--alert-warning-text);
-}
-
-.alert.error {
-    background-color: var(--alert-error);
-    color: var(--alert-error-text);
 }
 
 .alert svg {

@@ -245,15 +245,6 @@ The `description` and `author` fields may be used by blog posts.
 
 ## Includes (`_includes`)
 
-#### Alerts
-```
-{% include blog/alert.html
-    title = "Something went wrong."
-    text = "Some text goes here."
-    style = "warning" or "error"
-%}
-```
-
 #### Gallery
 Add `{% include blog/gallery.html %}` to the page, and add YAML to the front matter:
 

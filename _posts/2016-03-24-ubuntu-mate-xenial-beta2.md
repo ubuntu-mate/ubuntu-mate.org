@@ -15,14 +15,12 @@ We are preparing Ubuntu MATE Xenial Xerus (16.04) for distribution on
 With this *Final Beta* pre-release, you can see what we are trying out in
 preparation for our next (stable) version.
 
-{% include blog/alert.html
-    style = "warning"
-    title = "Do Not Upgrade from 14.04!"
-    text = "There is an issue **affecting all Ubuntu flavours** that will
-            cause an upgrade from 14.04 to 16.04 to fail, hard! See bug
-            [#1555237](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1555237)
-            for details. **Upgrades from 15.10 to 16.04 work just fine.**"
-%}
+> **Do Not Upgrade from 14.04!**
+>
+> There is an issue **affecting all Ubuntu flavours** that will
+> cause an upgrade from 14.04 to 16.04 to fail, hard! See bug
+> [#1555237](https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1555237)
+> for details. **Upgrades from 15.10 to 16.04 work just fine.**
 
 ## What works?
 
