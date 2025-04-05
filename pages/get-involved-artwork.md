@@ -30,7 +30,7 @@ To be considered for official inclusion in Ubuntu MATE, wallpaper must:
 ## Theme Testing and Fixing
 
 One of the best things about Ubuntu MATE, and all Linux distros, is the ability
-to customise your experience. Ubuntu MATE comes with the Ambiant-MATE theme as
+to customise your experience. Ubuntu MATE comes with the Yaru-MATE theme as
 default, though users can choose from pre-installed themes or install their own.
 
 While most [GTK 2.x and GTK 3.x themes](https://mate-desktop.org/themes/) will
