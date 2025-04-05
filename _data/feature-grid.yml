@@ -5,9 +5,6 @@
       icon: /images/icons/mate-panel.svg
       url: /features/panel/
 
-    - string_name: theming
-      icon: /images/icons/preferences-desktop-wallpaper.png
-
     - string_name: mate_tweak
       icon: /images/icons/user-desktop.png
 
@@ -115,19 +112,9 @@
       icon: /images/icons/applications-multimedia.png
       not_in_min_install: true
 
-    - name: Cheese
-      icon: /images/icons/camera-app.png
-      not_in_min_install: true
-      class:
-        - "not-in-21-10"
-        - "not-in-22-04"
-        - "not-in-23-04"
-
     - name: Webcamoid
       icon: /images/icons/camera-app.png
       not_in_min_install: true
-      class:
-        - "not-in-20-04"
 
     - name: Rhythmbox
       icon: /images/icons/rhythmbox.png
@@ -179,17 +166,9 @@
       technology: bash
       icon: /images/icons/terminal-app.png
 
-    - string_name: installer
-      technology: ubiquity
-      icon: /images/icons/ubiquity.png
-
     - string_name: printer
       technology: cups
       icon: /images/icons/printer.png
-
-    - string_name: apport
-      technology: apport
-      icon: /images/icons/apport.svg
 
     - string_name: display
       technology: X.org
@@ -198,16 +177,10 @@
       technology: systemd
 
     - string_name: audio
-      technology: pulseaudio
-      not_in_min_install: true
-      class:
-        - "not-in-23-04"
+      technology: pipewire
 
     - string_name: win_man
       technology: marco
-
-    - string_name: boot_splash
-      technology: plymouth
 
     - string_name: bootloader
       technology: grub2

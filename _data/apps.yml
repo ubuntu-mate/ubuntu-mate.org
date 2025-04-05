@@ -264,11 +264,6 @@ preinstalled:
       src_url: https://github.com/celluloid-player/celluloid
       translations_url: https://github.com/celluloid-player/celluloid#contributing-translations
 
-    - name: Cheese
-      img: /images/icons/camera-app.png
-      src_url: https://gitlab.gnome.org/GNOME/cheese
-      translations_url: https://translations.launchpad.net/ubuntu/+source/cheese
-
     - name: Rhythmbox
       img: /images/icons/rhythmbox.png
       src_url: https://gitlab.gnome.org/GNOME/rhythmbox
