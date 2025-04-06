@@ -18,9 +18,9 @@ makes modern computers fast and old computers usable.
 |                   | Minimum           | Recommended               |
 | ----------------- | ----------------- | ------------------------- |
 | **CPU**           | Core 2 Duo        | Core i3
-| **CPU Architecture** | [amd64]         | [amd64]
-| **RAM**           | 1 GB              | 4 GB
-| **Storage**       | 8 GB              | 16 GB
+| **CPU Architecture** | [amd64]        | [amd64]
+| **RAM**           | 2 GB              | 4 GB
+| **Storage**       | 10 GB HDD         | 20 GB SSD
 | **Boot Media**    | Bootable DVD-ROM  | Bootable DVD-ROM or USB Flash Drive
 | **Display**       | 1024 x 768        | 1440 x 900 or higher (with graphics acceleration)
 
