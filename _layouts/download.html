@@ -134,7 +134,13 @@ layout: default
 
         <div class="row">
             <div class="col">
-                <div class="more-links">
+                <div>
+                    <a href="/raspberry-pi/download/">
+                        {% include images/brands/rpi-outline.svg %}
+                        {{ site.data.strings.download_rpi_link }}
+                    </a>
+                </div>
+                <div>
                     <a href="https://releases.ubuntu-mate.org">
                         {% include images/fa/folder-open.svg %}
                         {{ site.data.strings.browse_downloads }}

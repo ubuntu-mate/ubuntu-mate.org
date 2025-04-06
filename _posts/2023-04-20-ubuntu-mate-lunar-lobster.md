@@ -66,7 +66,7 @@ for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 23.04"
-    text = "This new release will be first available for PC/Mac users."
+    text = "Available for 64-bit desktop computers!"
     button_text = "Download"
     button_url = "/download/"
 %}

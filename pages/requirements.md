@@ -34,12 +34,12 @@ Only the **B models** of the Raspberry Pi family are supported:
 * Raspberry Pi 3+
 * Raspberry Pi 4 (all memory sizes)
 
-All models support the [armhf] architecture. The Raspberry Pi 3 and newer
-can also take advantage of the 64-bit CPU using the [arm64] release.
+All models support the armhf architecture. The Raspberry Pi 3 and newer
+can also take advantage of the 64-bit CPU using the arm64 release.
 
 [i386]: /download/i386/
 [amd64]: /download/amd64/
-[armhf]: /download/armhf/
-[arm64]: /download/arm64/
 
 The micro-SD card needs to be a minimum of 5 GB.
+
+For more details, see the [Raspberry Pi Compatibility page.](https://ubuntu-mate.org/raspberry-pi/compatibility/)

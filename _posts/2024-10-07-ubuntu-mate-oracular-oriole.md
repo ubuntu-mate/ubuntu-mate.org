@@ -53,7 +53,7 @@ for details of all the changes and improvements that Ubuntu MATE benefits from.
 
 {% include blog/jumbotron.html
     title = "Download Ubuntu MATE 24.10"
-    text = "Ubuntu MATE 24.10 (Oracular Oriole) is available for PC/Mac users."
+    text = "Available for 64-bit desktop computers!"
     button_text = "Download"
     button_url = "/download/"
 %}

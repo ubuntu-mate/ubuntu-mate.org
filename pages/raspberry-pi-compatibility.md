@@ -16,11 +16,6 @@ Note that the experience with models with 1 GB of RAM may be hampered by
 memory pressure and increase wear on SD cards due to swapping.
 
 
-## armhf or arm64?
-
-Good question! [This is answered on our Raspberry Pi Download page.](/raspberry-pi/download/)
-
-
 ## Storage Tips
 
 As always, microSDHC I/O throughput is a bottleneck on the Raspberry Pi so don't

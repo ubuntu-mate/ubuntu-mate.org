@@ -50,20 +50,6 @@ give you a feel for how you can configure your desktop experience.
 {% include blog/gallery.html %}
 
 
-# Raspberry Pi
-
-We are delighted to provide ready-to-run images for the Raspberry Model B 2, 3, 3+ and 4.
-
-{:.transparent .icons}
-| [![Raspberry Pi logo](/images/brands/raspberry-pi.svg)](/ports/raspberry-pi/) |
-| Works with:   |
-| ------------- |
-| Model 2 B     |
-| Model 3       |
-| Model 3+      |
-| Model 4       |
-| Model 400     |
-
 # Sponsors
 
 Ubuntu MATE is kindly supported by these fine sponsors and [our awesome Patrons](https://www.patreon.com/ubuntu_mate).
