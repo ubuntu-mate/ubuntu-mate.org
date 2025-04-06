@@ -32,7 +32,7 @@ jobs:
 
     - name: Build Website
       run: |
-        scripts/build.sh --magnet-uri
+        scripts/build.sh
 
     - name: Proofing
       run: |

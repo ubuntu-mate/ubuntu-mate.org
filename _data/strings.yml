@@ -33,45 +33,24 @@ funding: "Funding"
 #######################################
 # Downloads
 #######################################
-choose_arch: "Choose an architecture"
-choose_version: "Choose a release"
-choose_download: "Choose a download"
-post_download_page_title: "Thank you for downloading [20.04] ([amd64])"
-post_download_title: "Thank you for downloading:"
-post_download_release: "[Focal] for [amd64] systems"
-release_notes: "Release Notes"
-download_started: "Your download has started"
-download_started_help: "Not working? Try clicking the link:"
-post_download_go_back: "Choose a different download"
-browse_downloads: "Browse Downloads"
-show_req: "System Requirements"
-download_ports: "Or.... choose a hardware port:"
-download_help: "What should I download?"
-label_LTS: "Recommended for stability and mission critical systems."
-label_nonLTS: "Interim release for users desiring the latest features and applications."
-label_prerelease:  "Development release for testing and debugging."
-prerelease: "(Pre-release)"
-file_name: "File Name"
-file_size: "File Size"
-checksum: "Checksum"
-recommended: "Recommended"
-prefer_torrent: "**Spare the bytes!** A torrent is recommended to reduce bandwidth costs. It could deliver faster download speeds too!"
-label_bittorrent: "Receive the file distributed and verified by multiple computers."
-label_magnet: "Open my BitTorrent client."
-label_direct: "Via your web browser."
-end_of_life: "Supported until"
-filename: "Filename"
-arch: "Architecture"
-server: "Hosted by"
-download_links: "Download"
-direct: "Direct Download"
-bittorrent: "BitTorrent"
-magnet: "Magnet Link"
-support_bandwidth: "Support bandwidth costs"
-prerelease_warning_title: "Bugs might bite!"
-prerelease_warning_text: "This release is not production-ready. It's recommended for testers to help with Ubuntu MATE QA, or to provide feedback and file bug reports."
-prerelease_warning_button: "Learn how to get involved →"
+label_lts: "Latest LTS Release"
+about_lts: "Recommended for stability and mission critical systems."
 
+label_old_lts: "Previous LTS Release"
+about_old_lts: "Our previous long term release, still supported."
+
+label_interim: "Interim Release"
+about_interim: "A short-term release featuring the latest features and applications."
+
+label_beta:  "Beta Testing"
+about_beta: "This release is not production-ready. It's recommended for testers to help with Ubuntu MATE Quality Assurance, or to provide feedback and file bug reports."
+
+release_notes: "Release Notes"
+checksum: "Checksum"
+end_of_life: "Supported until"
+direct: "Direct"
+bittorrent: "Torrent"
+browse_downloads: "Browse archive and previous device ports"
 
 #######################################
 # Months
@@ -239,7 +218,7 @@ no_translation_url: "Does not support translations"
 # FAQs
 #######################################
 faq: "Project FAQs"
-# download_help: <see above>
+download_help: "What should I download?"
 the_project: "The Project"
 verify_downloads_quick: "Verify for Corruption"
 verify_downloads_secure: "Verify for Tampering"
@@ -301,7 +280,6 @@ quote_youtube_title: "What the YouTubers are showcasing..."
 #######################################
 device_ports: "Device Ports"
 raspberry_pi: "Raspberry Pi"
-learn_more_rpi: "Learn more about our Raspberry Pi release"
 
 
 #######################################

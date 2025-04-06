@@ -62,27 +62,7 @@ See [`_data/navigation.yml`](_data/navigation.yml) for the correct value.
 
 ## Downloads
 
-The data is stored in `_data/downloads.yml`:
-
-* The **`releases`** key lists the versions currently available.
-* The **`arch`** key is a list of architectures. When adding/removing here, make changes in `pages/download.md` too.
-* The **`downloads`** key lists the downloads (releases) for each `arch`.
-
-Architectures may include ports to other devices, such as `gpd_pocket`.
-
-The URL, torrent and magnet URI is required. To obtain the magnet
-link automagically, set the `magnet-uri` key to `autogen` like so:
-
-```
-- release: bionic
-  ~~snip~~
-  magnet-uri: autogen
-```
-
-Then pass `--magnet-uri` to the `build` or `watch` script, which will overwrite
-`autogen` with the actual URI. This requires `transmission-show` to be installed.
-
-    ./scripts/watch.sh --magnet-uri
+The metadata and links for downloads is stored in `_data/downloads.yml`.
 
 
 ## Layouts (`_layouts`)
@@ -228,12 +208,12 @@ youtube:
 
 ### Pre-determined
 
-These are pre-determined for special purposes and shouldn't be used for new pages.
+The following layouts should be ignored when creating new pages. These have
+logic for specific pages.
 
 * `blog-index`
 * `download`
 * `feature-grid`
-* `post-download`
 * `search`
 
 ## Adding Blog Posts
@@ -264,7 +244,7 @@ Usually to present call to actions, commonly used on the blog.
 {% include blog/jumbotron.html
 
     title = "Download Ubuntu MATE today"
-    text = "This new release will be first available for PC/Mac users."
+    text = "This new release is available for PC/Mac users."
     button_text = "Download"
     button_url = "/download/"
 
@@ -282,7 +262,7 @@ inside this `include` on the page:
 
 #### Other Embeds
 
-* `embed/download-tip-paypal.html` - used on post download page.
+* `embed/download-tip-paypal.html` - used on download page.
 * `embed/paypal.html` - used on funding pages.
 
 These are re-used across page layouts and shouldn't be used in Markdown files:

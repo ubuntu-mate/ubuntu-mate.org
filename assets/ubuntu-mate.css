@@ -5,7 +5,7 @@
  * This CSS file is licensed under the GNU Affero General Public License v3.0.
  * https://www.gnu.org/licenses/agpl-3.0.html
  *
- *  Copyright (C) 2019-2020, 2024 Luke Horwell (@lah7)
+ *  Copyright (C) 2019-2020, 2024-2025 Luke Horwell (@lah7)
 */
 
 /*
@@ -1068,87 +1068,6 @@ button.dropdown:hover {
 }
 
 /*********************************
-* Downloads: Grid Choice
-*********************************/
-.grid-container {
-    margin: 15px 0;
-}
-
-.grid-item {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: 1px solid var(--grey-dark);
-    outline-color: var(--ubuntu-mate-light);
-    color: var(--text-colour-dark);
-    width: 100%;
-    min-height: 175px;
-    vertical-align: top;
-    padding: 15px 30px;
-    margin: 15px 0;
-    text-align: left;
-    transition-property: fill, color, border-color, background-color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing);
-}
-
-.grid-item h4,
-.grid-item p {
-    margin-bottom: 5px;
-}
-
-.grid-item:hover,
-.grid-item:focus {
-    border-color: var(--ubuntu-mate-light);
-    text-decoration: none;
-}
-
-.grid-item:hover svg path,
-.grid-item:focus svg path {
-    fill: var(--ubuntu-mate-light);
-}
-
-.grid-item:active {
-    background: var(--ubuntu-mate-light);
-    color: var(--text-colour-light);
-    transition: none;
-}
-
-.grid-item:active img {
-    filter: brightness(5);
-}
-
-.grid-item:active svg path {
-    fill: var(--text-colour-light);
-    transition: none;
-}
-
-.grid-item:active h4,
-.grid-item:active p {
-    color: var(--text-colour-light);
-}
-
-.grid-icon {
-    margin-right: 15px;
-}
-
-.grid-icon img,
-.grid-icon svg {
-    height: auto;
-    width: 64px;
-}
-
-.grid-icon svg path {
-    fill: var(--grey-light);
-    transition: fill var(--transition-duration) var(--transition-timing);
-}
-
-.grid-details {
-    width: 100%;
-}
-
-/*********************************
 * Sidebar
 *********************************/
 .col.sidebar {
@@ -1384,268 +1303,127 @@ button.dropdown:hover {
 /*********************************
 * Download Layout
 *********************************/
-.download-title {
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
-}
-
-.download-subtitle {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-    margin: 15px 0 0;
-}
-
-.download-back {
-    display: flex;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin-left: 30px;
-    transition: transform var(--transition-duration) var(--transition-timing);
-}
-
-.download-back svg {
-    height: 48px;
-    width: 48px;
-    margin: auto;
-}
-
-.download-back svg path {
-    fill: var(--grey-light);
-    transition: fill var(--transition-duration) var(--transition-timing);
-}
-
-.download-back:hover,
-.download-back:focus {
-    outline: none;
-    transform: translateX(-5px);
-}
-
-.download-back:hover svg path,
-.download-back:focus svg path {
-    fill: var(--grey-dark);
-}
-
-/* Progress Indicators */
-.progress-indicator {
-    cursor: default;
-    display: block;
-    text-align: center;
-    flex-direction: column;
-}
-
-.progress-indicator .dot {
-    background: var(--background);
-    border: 1px solid var(--grey-dark);
-    border-radius: 50%;
+.downloads-page a {
     display: inline-block;
-    position: relative;
-    height: 20px;
-    width: 20px;
-    margin: 0 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.progress-indicator .dot::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -15px;
-    right: -15px;
-    margin: auto;
-    border-bottom: 1px solid var(--grey-dark);
-    height: 1px;
-    z-index: -1;
+.release-item {
+    border-top: 1px solid var(--grey-light);
+    padding-top: 24px;
+    margin: 24px 0;
 }
 
-.progress-indicator .dot:first-child::before {
-    left: 0;
+.release-item.last {
+    border-bottom: 1px solid var(--grey-light);
+    padding-bottom: 24px;
 }
 
-.progress-indicator .dot:last-child::before {
-    right: 0;
+.release-codename {
+    font-weight: normal;
+    padding: 0 2px;
+    opacity: 0.5;
 }
 
-.progress-indicator .dot.active {
-    border-color: var(--ubuntu-mate-dark);
-    background: var(--ubuntu-mate-light);
+.release-label {
+    background: var(--button-bg);
+    border: 1px solid var(--button-border);
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 6px 9px;
+    margin-left: 4px;
+    vertical-align: text-top;
 }
 
-.progress-indicator .dot.current {
-    animation: current-dot 1s ease-in-out infinite;
+.release-label.beta {
+    background-color: var(--danger);
+    color: var(--text-colour-light);
 }
 
-@keyframes current-dot {
-    0% {
-        background: var(--ubuntu-mate-light);
-        border-color: var(--ubuntu-mate-dark);
-    }
-    50% {
-        background: var(--ubuntu-mate-dark);
-        border-color: var(--ubuntu-mate-light);
-    }
-    100% {
-        background: var(--ubuntu-mate-light);
-        border-color: var(--ubuntu-mate-dark);
-    }
+.release-label.lts {
+    background-color: var(--ubuntu-mate-light-2);
+    color: black;
 }
 
-/* Download Grid */
 .grey-text {
     color: var(--grey-dark);
     font-weight: 400;
 }
 
-.prerelease {
-    color: var(--danger);
+.file-links {
+    margin: 8px 0;
 }
 
-.arch-links-box {
-    display: flex;
-    flex-direction: column;
-}
-
-.arch-links-box a {
-    display: inline-block;
-    margin: 15px 0;
-    margin-right: auto;
-}
-
-.arch-links-box a:first-child {
-    margin-top: auto;
-}
-
-.arch-links-box a:last-child {
-    margin-bottom: auto;
-}
-
-/* Download Details */
-.download-details {
-    display: flex;
-    padding: 0px 15px;
-    width: 760px;
-    margin: 15px auto;
-}
-
-.download-details th {
-    text-align: right;
-    width: 200px;
-    max-width: 100%;
-}
-
-/* Download Table */
-.download-all-table {
-    table-layout: fixed;
+.release-links {
     margin: 0;
-    margin-bottom: 50px;
 }
 
-.download-all-table .server img {
-    height: 24px;
-    width: 24px;
+.downloads-page .file-size {
+    margin-left: 6px;
 }
 
-@media (max-width: 991px) {
-    .download-all-table .server span {
-        display: none;
-    }
+details.checksum {
+    display: inline-block;
+    color: var(--link-colour);
+    margin: 12px auto;
 }
 
-.download-table-btn svg {
-    height: 24px;
-    width: 24px;
+.checksum-open {
+    background: var(--background-alt);
+    border: var(--button-border);
+    border-radius: 4px;
+    color: var(--text-colour-dark);
+    padding: 8px;
 }
 
-.download-table-btn svg path {
-    fill: var(--ubuntu-mate-dark);
+.checksum-open code {
+    font-size: 17px;
 }
 
-.download-table-btn:hover svg path,
-.download-table-btn:focus svg path {
-    fill: var(--ubuntu-mate-light);
+.checksum-row {
+    padding: 12px;
 }
 
-.download-table-btn + .download-table-btn {
-    margin-left: 5px;
+.checksum-row + .checksum-row {
+    padding-top: 0px;
+    margin-top: -10px;
 }
 
-/* Download Thank You Page */
-.download-thanks {
-    border-top: 1px solid var(--grey-light);
-    margin: 30px 0;
-    padding-top: 30px;
+.checksum-open a {
+    margin: 0px 8px 12px;
 }
 
-.download-thanks:first-child {
-    border: none;
-    margin-top: 0;
+.downloads-page .row:last-of-type {
+    margin-bottom: 24px;
 }
 
-.download-thanks div > img {
+#download-tip {
+    background: var(--button-bg);
+    border: var(--button-border);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.download-tip-jar {
     max-width: 100%;
-}
-
-.download-thanks .btn + .btn {
-    margin: 0 5px;
-}
-
-#post-download-link .retry {
-    font-size: 0.9em;
-}
-
-.choose-alt-download svg {
-    height: 20px;
-    width: 20px;
-}
-
-@media (max-width: 991px) {
-    .download-details {
-        width: calc(100% - 30px);
-    }
 }
 
 @media (max-width: 767px) {
-    .download-thanks div > img {
-        margin: auto;
-    }
-
-    .download-details tbody {
-        width: 100%;
-    }
-
-    .download-details tr {
+    .downloads-page h3 {
         display: flex;
         flex-direction: column;
-        text-align: center;
     }
 
-    .download-details th {
-        text-align: center;
-        width: unset;
-        padding: 10px 0 0;
-    }
-}
-
-@media (max-width: 575px) {
-    .download-thanks div > img {
+    .release-label {
         margin: auto;
-        max-width: 30vw;
+        margin-left: 0;
     }
 
-    .grid-item {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .grid-icon {
-        margin: 0;
-    }
-
-    .grid-details {
-        margin-top: 15px;
+    .release-mascot {
+        max-width: 120px;
+        margin-bottom: 8px;
     }
 }
 

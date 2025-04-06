@@ -35,7 +35,7 @@ This has the advantage to preview your changes.
 
        sudo apt install python3-requests python3-yaml transmission-cli python3-polib translate-toolkit webp
 
-3. Watch for changes locally:
+3. To build and preview changes locally:
 
        ./scripts/watch.sh
 
@@ -43,23 +43,6 @@ This has the advantage to preview your changes.
     afterwards.
 
 4. Preview the website on your computer at <http://localhost:4000>. Any changes you make will be live reloaded and include unpublished drafts.
-
-
-## Building
-
-This website has a few programmatically generated files, such as localized pages
-and automatic magnet link generation for torrents. These can be enabled by passing
-the parameters to either `build.sh` or `watch.sh`. To obtain the magnet
-link automagically, set the `magnet-uri` key to `autogen`.
-
-| Parameter     | What it does                                              |
-| ------------- | --------------------------------------------------------- |
-| --magnet-uri  | Fetch torrent files and generate magnet links.
-| --locales     | Build localized pages.
-
-For example:
-
-    ./scripts/build.sh --locales --magnet-uri
 
 
 ## Testing
@@ -91,21 +74,27 @@ the best practices.
 
 We use the [polyglot](https://github.com/untra/polyglot) gem to provide i18n support.
 
-As part of the build script, the website will generate the markdown files for other
-languages via `scripts/manage-translations.py`. This can be ran manually too:
-
-| Parameter             | Action                                            |
-|-----------------------|---------------------------------------------------|
-| `--generate`          | Creates POT and updates PO files from pages.
-| `--build`             | Process translated PO files for use with Jekyll.
-
-When pages change, run `--generate`. Before building the site, run `--build`.
-
-Language lists are to be updated in:
+To add new locales, add the language code in:
 
 * `_i18n/locales.txt`
 * `_config.yml` (under `languages:`)
 * `_data/lang.yml`
+
+As part of the build process, markdown files for other languages are generated
+via `scripts/manage-translations.py`. This can be ran manually too:
+
+| Parameter             | Action                                            |
+|-----------------------|---------------------------------------------------|
+| `--generate`          | Will create POT files and updates PO files from pages.
+| `--build`             | Will process translated PO files into Markdown files.
+
+When pages change, run `--generate`. Before building the site, run `--build`.
+
+
+If you're just testing locally and wish to preview at <http://localhost:4000>, all you need to run:
+
+    ./scripts/watch.sh --locales
+
 
 
 ## File Structure

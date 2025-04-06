@@ -40,10 +40,12 @@ document.addEventListener("click", function(event) {
 // Download Links
 // - Navigates to the end page after click.
 //--------------------------------------
-function downloadThanks(method) {
-    setTimeout(function() {
-        window.location.href = "thanks/?method=" + method;
-    }, 500);
+function downloadStarted(anchor) {
+    const downloadTip = document.querySelector("#download-tip");
+    const fileLinks = anchor.parentNode;
+    fileLinks.appendChild(downloadTip);
+    downloadTip.style.display = "block";
+    downloadTip.removeAttribute("hidden");
 }
 
 //--------------------------------------

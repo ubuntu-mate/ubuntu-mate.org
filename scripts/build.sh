@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 # Parameters:
-#   --magnet-uri    Fetch torrent files and generate magnet URIs.
 #   --locales       Build localized pages
 #
 cd $(dirname "$0")/../
@@ -10,8 +9,6 @@ while [ $# -ne 0 ]
 do
     arg="$1"
     case "$arg" in
-        "--magnet-uri")
-            generate_magnet_uri=true;;
         "--locales")
             generate_locales=true;;
         "--webp")
@@ -35,20 +32,6 @@ if [ $? != 0 ]; then
     bundle install --jobs=4
     abort_if_failed $?
 fi
-
-# Generate any missing magnet URIs.
-if [ "$generate_magnet_uri" == "true" ]; then
-    echo -e "\nGenerate Magnet Links"
-    echo "------------------------------------------------------"
-    ./scripts/generate-magnet-links.py
-    abort_if_failed $?
-fi
-
-# Generate markdown files for downloads
-echo -e "\nGenerate Download Pages"
-echo "------------------------------------------------------"
-./scripts/generate-download-pages.py
-abort_if_failed $?
 
 # Build locales
 if [ "$generate_locales" == "true" ]; then
