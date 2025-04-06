@@ -256,29 +256,29 @@ code {
 /*********************************
 * Markdown Content
 *********************************/
-content {
+.page-content {
     margin-bottom: 60px;
 }
 
-content img {
+.page-content img {
     max-width: 100%;
 }
 
-content h1,
-content h2,
-content h3,
-content h4,
-content h5 {
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5 {
     margin-top: 1em;
 }
 
-content .btn {
+.page-content .btn {
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-content > .content {
+.page-content > .page-content {
     margin: 40px 0;
 }
 

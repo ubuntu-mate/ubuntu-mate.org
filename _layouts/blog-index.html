@@ -12,7 +12,7 @@ layout: default
         </div>
 
         <div class="row blog-column">
-            <content class="page-content col">
+            <div class="page-content col">
 
             {% for post in site.posts %}
                 {% assign year = post.date | slice: 0,4 | plus: 0 %}
@@ -35,7 +35,7 @@ layout: default
 
             <a id="show-old-posts" onclick="showAllPosts(); event.preventDefault();" onkeydown="showAllPosts();" tabindex="0">{{ site.data.strings.show_all }}</a>
 
-            </content>
+            </div>
 
             {% include partials/blog-sidebar.html %}
 
