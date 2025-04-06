@@ -1,32 +1,4 @@
 codenames:
-    jammy:
-        name: "22.04.5 LTS"
-        codename: "Jammy Jellyfish"
-        mascot: "jammy.svg"
-        lts: true
-        old_lts: true
-        beta: false
-        release_notes: "/blog/ubuntu-mate-jammy-jellyfish-release-notes/"
-        end_of_life:
-            month: Apr
-            year: 2025
-        releases:
-            amd64:
-                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.5-desktop-amd64.iso"
-                sha256sum: "b382a3aebffc916cce71369e0c09719dd819b8b6ab308d4396ac31c1ada867c4"
-                size: "3.4 GB"
-                magnet-uri: "magnet:?xt=urn:btih:8fcb95f456700f9938c049ccb2ce60c423e2b6fa&dn=ubuntu-mate-22.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-            armhf:
-                url: "https://releases.ubuntu-mate.org/jammy/armhf/ubuntu-mate-22.04-desktop-armhf+raspi.img.xz"
-                sha256sum: "7a60d1bf89f89bcfd121788bcfed4514fd4a63da91624c1ed4ab2a62ed78a27a"
-                size: "1.7 GB"
-                magnet-uri: "magnet:?xt=urn:btih:4016c541118c5a39b09b778ec04302e1adc32c18&dn=ubuntu-mate-22.04-desktop-armhf%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fjammy%2Fubuntu-mate-22.04-desktop-armhf%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fjammy%2Fubuntu-mate-22.04-desktop-armhf%2Braspi.img.xz"
-            arm64:
-                url: "https://releases.ubuntu-mate.org/jammy/arm64/ubuntu-mate-22.04-desktop-arm64+raspi.img.xz"
-                sha256sum: "3b538f8462cdd957acfbab57f5d949faa607c50c3fb8e6e9d1ad13d5cd6c0c02"
-                size: "1.8 GB"
-                magnet-uri: "magnet:?xt=urn:btih:15770f5332945b5b7365460b476e4bc8e6a834ec&dn=ubuntu-mate-22.04-desktop-arm64%2Braspi.img.xz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&ws=https%3A%2F%2Fman.ubuntu-mate.org%2Fjammy%2Fubuntu-mate-22.04-desktop-arm64%2Braspi.img.xz&ws=https%3A%2F%2Fyor.ubuntu-mate.org%2Fjammy%2Fubuntu-mate-22.04-desktop-arm64%2Braspi.img.xz"
-
     noble:
         name: "24.04.2 LTS"
         codename: "Noble Numbat"
