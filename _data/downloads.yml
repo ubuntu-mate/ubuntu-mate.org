@@ -46,8 +46,8 @@ codenames:
         beta: true
         release_notes: "/blog/ubuntu-mate-plucky-puffin-release-notes/"
         end_of_life:
-            month: Jul
-            year: 2025
+            month: Jan
+            year: 2026
         releases:
             amd64:
                 url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/beta/ubuntu-mate-25.04-beta-desktop-amd64.iso"
