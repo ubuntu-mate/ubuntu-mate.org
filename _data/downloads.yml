@@ -63,3 +63,22 @@ codenames:
                 sha256sum: "6139a5f9bd00bac15a50e013b1f80f39098c5c4290b1f052cf88bc27871b9ae7"
                 size: "3.3 GB"
                 magnet-uri: "magnet:?xt=urn:btih:bae16ce3d55349d55e41778b61c1890e21bf275b&dn=ubuntu-mate-24.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+    plucky:
+        name: "25.04"
+        codename: "Plucky Puffin"
+        mascot: "plucky.svg"
+        wallpaper: "focal.jpg"
+        lts: false
+        old_lts: false
+        beta: true
+        release_notes: "/blog/ubuntu-mate-plucky-puffin-release-notes/"
+        end_of_life:
+            month: Jul
+            year: 2025
+        releases:
+            amd64:
+                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/beta/ubuntu-mate-25.04-beta-desktop-amd64.iso"
+                sha256sum: "4ed742146bd855dbef557816b3c07a62ff9cee5553d57f5c892f7f6d865aab18"
+                size: "3.5 GB"
+                magnet-uri: "magnet:?xt=urn:btih:RJHBJVKBQ7SKN7MF5KLFXFLQIU7UX3Z6&dn=ubuntu-mate-25.04-beta-desktop-amd64.iso&xl=3750610944&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
