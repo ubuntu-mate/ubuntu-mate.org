@@ -21,7 +21,6 @@ codenames:
         name: "24.10"
         codename: "Oracular Oriole"
         mascot: "oracular.svg"
-        wallpaper: "focal.jpg"
         lts: false
         old_lts: false
         beta: false
@@ -40,17 +39,16 @@ codenames:
         name: "25.04"
         codename: "Plucky Puffin"
         mascot: "plucky.svg"
-        wallpaper: "focal.jpg"
         lts: false
         old_lts: false
-        beta: true
+        beta: false
         release_notes: "/blog/ubuntu-mate-plucky-puffin-release-notes/"
         end_of_life:
             month: Jan
             year: 2026
         releases:
             amd64:
-                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/beta/ubuntu-mate-25.04-beta-desktop-amd64.iso"
-                sha256sum: "4ed742146bd855dbef557816b3c07a62ff9cee5553d57f5c892f7f6d865aab18"
+                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso"
+                sha256sum: "08d49a03c5c90f9a8fbb522e7d0e9097ba99431fb43df96b9e4c07458c0969d9"
                 size: "3.5 GB"
-                magnet-uri: "magnet:?xt=urn:btih:RJHBJVKBQ7SKN7MF5KLFXFLQIU7UX3Z6&dn=ubuntu-mate-25.04-beta-desktop-amd64.iso&xl=3750610944&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+                magnet-uri: "magnet:?xt=urn:btih:f96ec24df9376129de9e7b0d842b187e0b8815a0&dn=ubuntu-mate-25.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
