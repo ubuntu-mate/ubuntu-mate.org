@@ -28,7 +28,7 @@ Here are the highlights of what's new in the Plucky Puffin release:
 
 ## Major Applications
 
-Accompanying **MATE Desktop** 🧉 and **Linux 6.15** 🐧 are **Firefox 137** 🔥🦊,
+Accompanying **MATE Desktop** 🧉 and **Linux 6.14** 🐧 are **Firefox 137** 🔥🦊,
 **Evolution 3.56** 📧, **LibreOffice 25.2.2** 📚
 
 See the [Ubuntu 25.04 Release Notes](https://discourse.ubuntu.com/t/plucky-puffin-release-notes/48687) 
