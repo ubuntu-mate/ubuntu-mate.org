@@ -17,24 +17,6 @@ codenames:
                 size: "4.1 GB"
                 magnet-uri: "magnet:?xt=urn:btih:d6663939e41a8ba70ea153a34a17f896e084fd58&dn=ubuntu-mate-24.04.2-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
-    oracular:
-        name: "24.10"
-        codename: "Oracular Oriole"
-        mascot: "oracular.svg"
-        lts: false
-        old_lts: false
-        beta: false
-        release_notes: "/blog/ubuntu-mate-oracular-oriole-release-notes/"
-        end_of_life:
-            month: Jul
-            year: 2025
-        releases:
-            amd64:
-                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.10/release/ubuntu-mate-24.10-desktop-amd64.iso"
-                sha256sum: "6139a5f9bd00bac15a50e013b1f80f39098c5c4290b1f052cf88bc27871b9ae7"
-                size: "3.3 GB"
-                magnet-uri: "magnet:?xt=urn:btih:bae16ce3d55349d55e41778b61c1890e21bf275b&dn=ubuntu-mate-24.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
-
     plucky:
         name: "25.04"
         codename: "Plucky Puffin"
