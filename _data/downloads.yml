@@ -34,3 +34,21 @@ codenames:
                 sha256sum: "08d49a03c5c90f9a8fbb522e7d0e9097ba99431fb43df96b9e4c07458c0969d9"
                 size: "3.5 GB"
                 magnet-uri: "magnet:?xt=urn:btih:f96ec24df9376129de9e7b0d842b187e0b8815a0&dn=ubuntu-mate-25.04-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+
+    questing:
+        name: "25.10"
+        codename: "Questing Quokka"
+        mascot: "questing.svg"
+        lts: false
+        old_lts: false
+        beta: false
+        release_notes: ""
+        end_of_life:
+            month: Jul
+            year: 2026
+        releases:
+            amd64:
+                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso"
+                sha256sum: "f9e441110886e79a2dfce9f7596f4e0d6479f115dd8792670681743e5917694f"
+                size: "3.5 GB"
+                magnet-uri: "magnet:?xt=urn:btih:b91d49b1313f5aa27f2b3a9dc48af8248f40908e&dn=ubuntu-mate-25.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
