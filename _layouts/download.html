@@ -62,7 +62,7 @@ layout: default
                         {{ release.end_of_life.year }}
                     </p>
 
-                    {% if release.release_notes %}
+                    {% if release.release_notes and release.release_notes.size > 0 %}
                         <div class="release-links">
                             <a href="{{ release.release_notes }}">
                                 {% include images/ubuntu-mate-mono.svg %}
