@@ -19,76 +19,16 @@ This crowd funding campaign has the following objectives:
 We have set up a number of payment options that should hopefully suit
 everyone. Go on, be brilliant, help grow our community.
 
-## Patreon
+---
 
-This is a unique way to fund an Open Source community. A regular
-monthly income for the Ubuntu MATE project will allow us to better plan
-how best to reward our contributors and sponsor other Open Source
-projects.
+## Leadership Change
 
-**Patrons get exclusive project exclusive project news, updates, are invited
-to join an exclusive Telegram channel where you can talk to the developers
-directly and get a badge in the [Ubuntu MATE Community](https://ubuntu-mate.community).**
+Due to pending leadership changes of the project, we've temporarily removed our funding options.
 
+If you were previously a patreon member, future contributions have been cancelled.
+Previous donations will still help cover the costs associated to the project.
 
-{% include blog/jumbotron.html
+For more information:
 
-    title = "Monthly supporter"
-    text = "Become a monthly supporter via Patreon and help grow the Ubuntu MATE community."
-    button_text = "Become a Patron"
-    button_url = "https://www.patreon.com/ubuntu_mate"
-
-%}
-
-
-## PayPal
-
-{:.center}
-![PayPal logo](/images/brands/paypal.svg)
-
-We'd prefer you set-up a recurring payment to help ensure that monthly
-costs are always covered and it also allows us to better plan how to
-reward our contributors and sponsor other Open Source projects.
-That said, one time donations are also gratefully accepted.
-
-**NOTE! If you are considering a monthly recurring payment via PayPal then
-you should probably use the [Ubuntu MATE Patreon](https://www.patreon.com/ubuntu_mate)
-to benefit from Patron rewards.**
-
-{% include embed/paypal.html %}
-
-
-# Commercial sponsorship
-
-If you are using, or plan to use, Ubuntu MATE in a commercial
-environment and would like to sponsor the project more formally, then
-please head over to our Patreon page where we have commercial
-sponsorship packages.
-
-
-{% include blog/jumbotron.html
-
-    title = "Commercial Sponsor"
-    text = "Become a commercial sponsor at Patreon
-            and have your business prominently listed as a sponsor."
-    button_text = "Become a commercial sponsor"
-    button_url = "https://www.patreon.com/ubuntu_mate"
-
-%}
-
-
-## Bitcoin
-
-Click or scan the QR code below to launch your Bitcoin client and
-donate 0.005 btc to Ubuntu MATE. Alternatively, copy and paste the
-Bitcoin address into your Bitcoin client to donate an amount of your choice.
-
-{:.center}
-[![](https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.005&message=Donate_0.005_btc_to_Ubuntu_MATE)](bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.055&label=Ubuntu%20MATE)
-
-{:.center}
-**1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB**
-
-## Affiliate Links
-
-Some pages on this website include Amazon affiliate links to products we've tested and are known to be compatible with Ubuntu MATE. Clicking those links will earn us a commission, with no additional cost to you, in the event of purchases.
+* <https://ubuntu-mate.community/t/whats-happening-to-the-patreon-contributions/31343/10>
+* <https://discourse.ubuntu.com/t/ongoing-patron-support-for-mate/79528>

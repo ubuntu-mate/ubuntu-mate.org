@@ -42,6 +42,8 @@ document.addEventListener("click", function(event) {
 //--------------------------------------
 function downloadStarted(anchor) {
     const downloadTip = document.querySelector("#download-tip");
+    if (!downloadTip)
+        return;
     const fileLinks = anchor.parentNode;
     fileLinks.appendChild(downloadTip);
     downloadTip.style.display = "block";
