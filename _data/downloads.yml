@@ -1,6 +1,6 @@
 codenames:
     noble:
-        name: "24.04.4 LTS"
+        name: "24.04.5 LTS"
         codename: "Noble Numbat"
         mascot: "noble.svg"
         lts: true
@@ -12,10 +12,10 @@ codenames:
             year: 2027
         releases:
             amd64:
-                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04.4-desktop-amd64.iso"
-                sha256sum: "8b7c08c056ba9312fe83e5bf13751216236e6382584861c3b64701ae039c4009"
-                size: "4.2 GB"
-                magnet-uri: "magnet:?xt=urn:btih:c761c94242082f8f45e85d5f470e9aa7ef848a55&dn=ubuntu-mate-24.04.4-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/noble/release/ubuntu-mate-24.04.5-desktop-amd64.iso"
+                sha256sum: "60430d35da5c0bdb3d84a2fdf4052495256fc26ec300d7cd5a9933a534f0422c"
+                size: "4.8 GB"
+                magnet-uri: "magnet:?xt=urn:btih:588149d617ee9061aa6a4ee946df7ab7d7bf1f76&dn=ubuntu-mate-24.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
     questing:
         name: "25.10"
