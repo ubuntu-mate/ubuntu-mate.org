@@ -48,10 +48,9 @@ jobs:
 
     - name: Push to Cloudflare Pages
       if: ${{ github.event_name == 'push' && github.repository == 'ubuntu-mate/ubuntu-mate.org' && github.ref == 'refs/heads/master' }}
-      uses: cloudflare/pages-action@v1
+      uses: cloudflare/wrangler-action@v4
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: e6fe5e31e8183c8192347f15af553766
-        projectName: ubuntu-mate-org
-        directory: _site
+        command: pages deploy _site --project-name=ubuntu-mate-org --branch=master
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
