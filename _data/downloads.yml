@@ -17,20 +17,20 @@ codenames:
                 size: "4.8 GB"
                 magnet-uri: "magnet:?xt=urn:btih:588149d617ee9061aa6a4ee946df7ab7d7bf1f76&dn=ubuntu-mate-24.04.5-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
 
-    questing:
-        name: "25.10"
-        codename: "Questing Quokka"
-        mascot: "questing.svg"
+    stonking:
+        name: "26.10"
+        codename: "Stonking Stingray"
+        mascot: "stonking.svg"
         lts: false
         old_lts: false
         beta: false
-        release_notes: ""
+        release_notes: "/blog/ubuntu-mate-stonking-stingray-release-notes/"
         end_of_life:
             month: Jul
-            year: 2026
+            year: 2027
         releases:
             amd64:
-                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso"
-                sha256sum: "f9e441110886e79a2dfce9f7596f4e0d6479f115dd8792670681743e5917694f"
-                size: "3.5 GB"
-                magnet-uri: "magnet:?xt=urn:btih:b91d49b1313f5aa27f2b3a9dc48af8248f40908e&dn=ubuntu-mate-25.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
+                url: "https://cdimage.ubuntu.com/ubuntu-mate/releases/26.10/release/ubuntu-mate-26.10-desktop-amd64.iso"
+                sha256sum: "383a61f97daa07bcc4f0081c99e39c6cfd2d5d4ddaceaa27330c2144b128044e"
+                size: "4.1 GB"
+                magnet-uri: "magnet:?xt=urn:btih:c7df73292f59039396f6e52bac9400723c54f09e&dn=ubuntu-mate-26.10-desktop-amd64.iso&tr=https%3A%2F%2Ftorrent.ubuntu.com%2Fannounce"
