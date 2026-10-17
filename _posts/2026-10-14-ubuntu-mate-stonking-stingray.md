@@ -64,3 +64,9 @@ There are some changes that may affect some UM users who rely on scripting and a
 For upgrading information, refer to the discourse topic "[Upgrading to Ubuntu MATE 26.10](https://discourse.ubuntu.com/t/upgrading-to-ubuntu-mate-26-10/89421)".
 
 **NOTE:** There are no offline upgrade options for Ubuntu MATE. Please ensure you have network connectivity to one of the official mirrors or to a locally accessible mirror and follow the instructions above.
+
+**P.S.**: The Ubuntu MATE flavoured stonking stingray mascot on the
+download page was contributed by our community user (Thank you *@indigo*).
+It is easier to participate and contribute to Ubuntu MATE than you probably
+think. *Your* contribution could be part of next Ubuntu MATE release!
+See [get-involved](https://ubuntu-mate.org/get-involved/) page to know more.
