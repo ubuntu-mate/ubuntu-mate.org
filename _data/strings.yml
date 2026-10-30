@@ -8,6 +8,9 @@ footnote: "An official flavour of the Ubuntu family. [Ubuntu] is a trademark of 
 edit_page: "Improve this page"
 recent_changes: "Recent Changes"
 translate_site: "Translate this site"
+quick_links: "Quick Links"
+community_support: "Community & Support"
+social_media: "Social Media"
 rss: "View Blog RSS Feed"
 rss_discourse: "View Community RSS Feed"
 launchpad: "Ubuntu MATE on Launchpad"
@@ -20,8 +23,10 @@ matrix: "Ubuntu MATE on Matrix"
 #######################################
 # Navigation
 #######################################
+home: "Home"
 about: "About"
 features: "Features"
+news: "News"
 blog: "Blog"
 downloads: "Download"
 support: "Support"

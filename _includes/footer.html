@@ -1,53 +1,93 @@
 <footer class="site-footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <p>&copy; 2014-{{ site.time | date:'%Y' }} Ubuntu MATE Team</p>
-                <p class="dim">
+        <div class="footer-layout">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <a class="footer-logo" href="{% if site.active_lang == 'en' %}/{% else %}/{{ site.active_lang }}/{% endif %}" title="{{ site.data.strings.homepage }}">
+                    <img src="/images/ubuntu-mate/logo.svg" alt="{{ site.data.strings.alt_logo_UM }}"/>
+                    <span class="footer-logo-text"><span class="footer-logo-ubuntu">Ubuntu</span> <span class="footer-logo-mate">MATE</span></span>
+                </a>
+                <p class="footer-description">{{ site.data.strings.site_description | split: "." | first }}.</p>
+                <p class="footer-disclaimer">
                     {{ site.data.strings.footnote | replace: '[Ubuntu]', '<a href="https://www.ubuntu.com" rel="external">Ubuntu</a>' | replace: '[Canonical Ltd.]', '<a href="https://www.canonical.com" rel="external">Canonical Ltd.</a>' }}
                 </p>
-                <p class="site-chooser-wrapper">
+                <nav class="site-chooser-wrapper" aria-label="Ubuntu MATE websites">
                     <a class="site-chooser active" href="https://ubuntu-mate.org">ubuntu-mate.org</a>
                     <a class="site-chooser" href="https://ubuntu-mate.community">ubuntu-mate.community</a>
                     <a class="site-chooser" href="https://guide.ubuntu-mate.org">guide.ubuntu-mate.org</a>
-                </p>
+                </nav>
             </div>
-            <div class="col-md-12 col-lg-6 text-right">
-                <div class="footer-links">
-                    <a class="link-with-icon" href="/raspberry-pi/">
-                        {% include images/brands/rpi-outline.svg %}
-                        <span>{{ site.data.strings.raspberry_pi }}</span>
-                    </a>
-                    <a class="link-with-icon" href="/faq/">
-                        {% include images/fa/question-circle.svg %}
-                        <span>{{ site.data.strings.faq }}</span>
-                    </a>
-                </div>
-                <div class="social-links">
+
+            <!-- Quick Links -->
+            <div class="footer-quick-links footer-links-group">
+                <h3 class="footer-heading">{{ site.data.strings.quick_links }}</h3>
+                <ul class="footer-link-list">
+                    <li><a href="{% if site.active_lang == 'en' %}/{% else %}/{{ site.active_lang }}/{% endif %}">{{ site.data.strings.home }}</a></li>
+                    <li><a href="/download/">{{ site.data.strings.downloads }}</a></li>
+                    <li><a href="/features/">{{ site.data.strings.features }}</a></li>
+                    <li><a href="/blog/">{{ site.data.strings.news }}</a></li>
+                    <li><a href="/get-involved/">{{ site.data.strings.get_involved }}</a></li>
+                    <li><a href="/about/">{{ site.data.strings.about }}</a></li>
+                    <li><a href="/support/">{{ site.data.strings.support }}</a></li>
+                    <li><a href="/shop/">{{ site.data.strings.shop }}</a></li>
+                    <li><a href="/funding/">{{ site.data.strings.funding }}</a></li>
+                </ul>
+            </div>
+
+            <!-- Community & Support -->
+            <div class="footer-community footer-links-group">
+                <h3 class="footer-heading">{{ site.data.strings.community_support }}</h3>
+                <ul class="footer-link-list">
+                    <li><a href="https://ubuntu-mate.community" rel="external">{{ site.data.strings.team_community }}</a></li>
+                    <li><a href="https://guide.ubuntu-mate.org" rel="external">{{ site.data.strings.documentation }}</a></li>
+                    <li>
+                        <a class="link-with-icon" href="/raspberry-pi/">
+                            {% include images/brands/rpi-outline.svg %}
+                            <span>{{ site.data.strings.raspberry_pi }}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link-with-icon" href="/faq/">
+                            {% include images/fa/question-circle.svg %}
+                            <span>{{ site.data.strings.faq }}</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h3 class="footer-heading">{{ site.data.strings.social_media }}</h3>
+                <nav class="social-links" aria-label="Social media">
                     {% assign links = "rss,rss_discourse,launchpad,github,twitter,matrix" | split: "," %}
                     {% for link in links %}
-                        <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
+                        <a href="{{ site.[link] }}" rel="nofollow" title="{{ site.data.strings.[link] }}" aria-label="{{ site.data.strings.[link] }}">{% include images/footer/{{link}}.svg %}</a>
                     {% endfor %}
-                </div>
-                <div class="footer-links">
-                    {% if site.active_lang == 'en' and page.autogen == null %}
-                    <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/edit/master/{{ page.path }}" class="external" rel="nofollow">
-                        <span>{{ site.data.strings.edit_page }}</span>
-                        {% include images/fa/external-link-alt.svg %}
-                    </a>
-                    {% endif %}
-
-                    <a href="{{ site.translate }}" class="external" rel="nofollow">
-                        <span>{{ site.data.strings.translate_site }}</span>
-                        {% include images/fa/external-link-alt.svg %}
-                    </a>
-
-                    <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/commits/master" class="external" rel="nofollow">
-                        <span>{{ site.data.strings.recent_changes }}</span>
-                        {% include images/fa/external-link-alt.svg %}
-                    </a>
-                </div>
+                </nav>
             </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2014&ndash;{{ site.time | date:'%Y' }} Ubuntu MATE Team</p>
+            <nav class="footer-site-links" aria-label="Website links">
+                {% if site.active_lang == 'en' and page.autogen == null %}
+                <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/edit/master/{{ page.path }}" class="external" rel="nofollow">
+                    <span>{{ site.data.strings.edit_page }}</span>
+                    {% include images/fa/external-link-alt.svg %}
+                </a>
+                {% endif %}
+
+                <a href="{{ site.translate }}" class="external" rel="nofollow">
+                    <span>{{ site.data.strings.translate_site }}</span>
+                    {% include images/fa/external-link-alt.svg %}
+                </a>
+
+                <a href="https://github.com/ubuntu-mate/ubuntu-mate.org/commits/master" class="external" rel="nofollow">
+                    <span>{{ site.data.strings.recent_changes }}</span>
+                    {% include images/fa/external-link-alt.svg %}
+                </a>
+            </nav>
         </div>
     </div>
 </footer>
