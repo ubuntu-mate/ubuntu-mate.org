@@ -882,7 +882,8 @@ kbd {
 .site-footer .social-links a {
     align-items: center;
     background: var(--footer-bg);
-    border: 1px solid var(--footer-border);
+    box-shadow: inset 0 0 0 1px var(--footer-border);
+    box-sizing: border-box;
     border-radius: 4px;
     display: inline-flex;
     height: 40px;
