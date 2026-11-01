@@ -5,7 +5,7 @@ lang: en
 show_categories: false
 banner_bg: "/images/wallpapers/focal.jpg"
 banner_fg: "/images/ubuntu-mate/laptop.png"
-banner_url: /about/
+banner_url: /download/
 gallery:
     - image: /images/homepage/01_familiar.png
       caption: null
@@ -28,7 +28,7 @@ banner_title: For a retrospective future.
 
 banner_subtitle: A community developed, Ubuntu based operating system that beautifully integrates the MATE desktop.
 
-banner_label: Learn more
+banner_label: Download
 
 ---
 
