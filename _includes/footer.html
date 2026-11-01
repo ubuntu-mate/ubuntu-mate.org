@@ -11,49 +11,18 @@
                 <p class="footer-disclaimer">
                     {{ site.data.strings.footnote | replace: '[Ubuntu]', '<a href="https://www.ubuntu.com" rel="external">Ubuntu</a>' | replace: '[Canonical Ltd.]', '<a href="https://www.canonical.com" rel="external">Canonical Ltd.</a>' }}
                 </p>
-                <nav class="site-chooser-wrapper" aria-label="Ubuntu MATE websites">
-                    <a class="site-chooser active" href="https://ubuntu-mate.org">ubuntu-mate.org</a>
-                    <a class="site-chooser" href="https://ubuntu-mate.community">ubuntu-mate.community</a>
-                    <a class="site-chooser" href="https://guide.ubuntu-mate.org">guide.ubuntu-mate.org</a>
-                </nav>
             </div>
 
-            <!-- Quick Links -->
-            <div class="footer-quick-links footer-links-group">
-                <h3 class="footer-heading">{{ site.data.strings.quick_links }}</h3>
+            <nav class="footer-useful-links footer-links-group" aria-label="Useful links">
                 <ul class="footer-link-list">
-                    <li><a href="{% if site.active_lang == 'en' %}/{% else %}/{{ site.active_lang }}/{% endif %}">{{ site.data.strings.home }}</a></li>
-                    <li><a href="/download/">{{ site.data.strings.downloads }}</a></li>
-                    <li><a href="/features/">{{ site.data.strings.features }}</a></li>
-                    <li><a href="/blog/">{{ site.data.strings.news }}</a></li>
-                    <li><a href="/get-involved/">{{ site.data.strings.get_involved }}</a></li>
-                    <li><a href="/about/">{{ site.data.strings.about }}</a></li>
-                    <li><a href="/support/">{{ site.data.strings.support }}</a></li>
-                    <li><a href="/shop/">{{ site.data.strings.shop }}</a></li>
-                    <li><a href="/funding/">{{ site.data.strings.funding }}</a></li>
+                    <li><a href="https://ubuntu-mate.org" rel="external">ubuntu-mate.org</a></li>
+                    <li><a href="https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191" rel="external">{{ site.data.strings.ubuntu_discourse }}</a></li>
+                    <li><a href="https://ubuntu-mate.community" rel="external">{{ site.data.strings.community_archive }}</a></li>
+                    <li><a href="https://guide.ubuntu-mate.org" rel="external">{{ site.data.strings.guide }}</a></li>
+                    <li><a href="/faq/">{{ site.data.strings.faq }}</a></li>
+                    <li><a href="/raspberry-pi/">{{ site.data.strings.raspberry_pi }}</a></li>
                 </ul>
-            </div>
-
-            <!-- Community & Support -->
-            <div class="footer-community footer-links-group">
-                <h3 class="footer-heading">{{ site.data.strings.community_support }}</h3>
-                <ul class="footer-link-list">
-                    <li><a href="https://ubuntu-mate.community" rel="external">{{ site.data.strings.team_community }}</a></li>
-                    <li><a href="https://guide.ubuntu-mate.org" rel="external">{{ site.data.strings.documentation }}</a></li>
-                    <li>
-                        <a class="link-with-icon" href="/raspberry-pi/">
-                            {% include images/brands/rpi-outline.svg %}
-                            <span>{{ site.data.strings.raspberry_pi }}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link-with-icon" href="/faq/">
-                            {% include images/fa/question-circle.svg %}
-                            <span>{{ site.data.strings.faq }}</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            </nav>
 
             <!-- Social Media -->
             <div class="footer-social">
